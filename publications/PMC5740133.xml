@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:59:51Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5740133" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5740133</identifier>
+        <datestamp>2018-01-03</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5740133</article-id>
+              <article-id pub-id-type="pmcid">PMC5740133</article-id>
+              <article-id pub-id-type="pmc-uid">5740133</article-id>
+              <article-id pub-id-type="pmid">29269933</article-id>
+              <article-id pub-id-type="publisher-id">18364</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-017-18364-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Nanopore DNA Sequencing and Genome Assembly on the International Space Station</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Castro-Wallace</surname>
+                    <given-names>Sarah L.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2915-2094</contrib-id>
+                  <name>
+                    <surname>Chiu</surname>
+                    <given-names>Charles Y.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>John</surname>
+                    <given-names>Kristen K.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stahl</surname>
+                    <given-names>Sarah E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rubins</surname>
+                    <given-names>Kathleen H.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McIntyre</surname>
+                    <given-names>Alexa B. R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3961-8997</contrib-id>
+                  <name>
+                    <surname>Dworkin</surname>
+                    <given-names>Jason P.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lupisella</surname>
+                    <given-names>Mark L.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>David J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4857-6474</contrib-id>
+                  <name>
+                    <surname>Botkin</surname>
+                    <given-names>Douglas J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stephenson</surname>
+                    <given-names>Timothy A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0315-4449</contrib-id>
+                  <name>
+                    <surname>Juul</surname>
+                    <given-names>Sissel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Turner</surname>
+                    <given-names>Daniel J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Izquierdo</surname>
+                    <given-names>Fernando</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff13">13</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Federman</surname>
+                    <given-names>Scot</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stryke</surname>
+                    <given-names>Doug</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Somasekar</surname>
+                    <given-names>Sneha</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Alexander</surname>
+                    <given-names>Noah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yu</surname>
+                    <given-names>Guixia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1850-1642</contrib-id>
+                  <name>
+                    <surname>Mason</surname>
+                    <given-names>Christopher E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                  <xref ref-type="aff" rid="Aff14">14</xref>
+                  <xref ref-type="aff" rid="Aff15">15</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1194-4336</contrib-id>
+                  <name>
+                    <surname>Burton</surname>
+                    <given-names>Aaron S.</given-names>
+                  </name>
+                  <address>
+                    <email>aaron.burton@nasa.gov</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff16">16</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0613 2864</institution-id><institution-id institution-id-type="GRID">grid.419085.1</institution-id><institution>Biomedical Research and Environmental Sciences Division, </institution><institution>NASA Johnson Space Center, </institution></institution-wrap>Houston, TX United States </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2297 6811</institution-id><institution-id institution-id-type="GRID">grid.266102.1</institution-id><institution>Department of Laboratory Medicine, </institution><institution>University of California San Francisco, </institution></institution-wrap>San Francisco, CA United States </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2297 6811</institution-id><institution-id institution-id-type="GRID">grid.266102.1</institution-id><institution>UCSF-Abbott Viral Diagnostics and Discovery Center, </institution></institution-wrap>San Francisco, CA United States </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0613 2864</institution-id><institution-id institution-id-type="GRID">grid.419085.1</institution-id><institution>NASA Postdoctoral Program, </institution><institution>NASA Johnson Space Center, </institution></institution-wrap>Houston, TX United States </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.487024.d</institution-id><institution>JES Tech, </institution></institution-wrap>Houston, TX United States </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0613 2864</institution-id><institution-id institution-id-type="GRID">grid.419085.1</institution-id><institution>Astronaut Office, </institution><institution>NASA Johnson Space Center, </institution></institution-wrap>Houston, TX United States </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution>Department of Physiology and Biophysics, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0637 6666</institution-id><institution-id institution-id-type="GRID">grid.133275.1</institution-id><institution>Solar System Exploration Division, </institution><institution>NASA Goddard Space Flight Center, </institution></institution-wrap>Greenbelt, MD United States </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0637 6666</institution-id><institution-id institution-id-type="GRID">grid.133275.1</institution-id><institution>Exploration Systems Projects Office, </institution><institution>NASA Goddard Space Flight Center, </institution></institution-wrap>Greenbelt, MD United States </aff>
+                <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 1955 7990</institution-id><institution-id institution-id-type="GRID">grid.419075.e</institution-id><institution>Space Biosciences Division, </institution><institution>NASA Ames Research Center, </institution></institution-wrap>Moffett Field, CA United States </aff>
+                <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.487024.d</institution-id><institution>Formerly JES Tech, </institution></institution-wrap>Houston, TX United States </aff>
+                <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0637 6666</institution-id><institution-id institution-id-type="GRID">grid.133275.1</institution-id><institution>Applied Engineering and Technology Directorate, </institution><institution>NASA Goddard Space Flight Center, </institution></institution-wrap>Greenbelt, MD 20771 United States </aff>
+                <aff id="Aff13"><label>13</label><institution-wrap><institution-id institution-id-type="GRID">grid.437060.6</institution-id><institution>Oxford Nanopore Technologies, </institution></institution-wrap>Oxford, UK </aff>
+                <aff id="Aff14"><label>14</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution>The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+                <aff id="Aff15"><label>15</label><institution-wrap><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution>The Feil Family Brain and Mind Research Institute, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+                <aff id="Aff16"><label>16</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0613 2864</institution-id><institution-id institution-id-type="GRID">grid.419085.1</institution-id><institution>Astromaterials Research and Exploration Science Division, </institution><institution>NASA Johnson Space Center, </institution></institution-wrap>Houston, TX United States </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>21</day>
+                <month>12</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>21</day>
+                <month>12</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2017</year>
+              </pub-date>
+              <volume>7</volume>
+              <elocation-id>18022</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>1</day>
+                  <month>8</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>12</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2017</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">We evaluated the performance of the MinION DNA sequencer in-flight on the International Space Station (ISS), and benchmarked its performance off-Earth against the MinION, Illumina MiSeq, and PacBio RS II sequencing platforms in terrestrial laboratories. Samples contained equimolar mixtures of genomic DNA from lambda bacteriophage, <italic>Escherichia coli</italic> (strain K12, MG1655) and <italic>Mus musculus</italic> (female BALB/c mouse). Nine sequencing runs were performed aboard the ISS over a 6-month period, yielding a total of 276,882 reads with no apparent decrease in performance over time. From sequence data collected aboard the ISS, we constructed directed assemblies of the ~4.6 Mb <italic>E. coli</italic> genome, ~48.5 kb lambda genome, and a representative <italic>M. musculus</italic> sequence (the ~16.3 kb mitochondrial genome), at 100%, 100%, and 96.7% consensus pairwise identity, respectively; <italic>de novo</italic> assembly of the <italic>E. coli</italic> genome from raw reads yielded a single contig comprising 99.9% of the genome at 98.6% consensus pairwise identity. Simulated real-time analyses of in-flight sequence data using an automated bioinformatic pipeline and laptop-based genomic assembly demonstrated the feasibility of sequencing analysis and microbial identification aboard the ISS. These findings illustrate the potential for sequencing applications including disease diagnosis, environmental monitoring, and elucidating the molecular basis for how organisms respond to spaceflight.</p>
+              </abstract>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2017</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Durations for Mars missions are likely to range from 1.5 to 3 years, with 12 to 24 months of that time spent in transit between the planets, based on current propulsion technologies and planetary orbital dynamics. In response to spaceflight, the human immune response becomes dysregulated<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, and microbial pathogenicity can increase during spaceflight<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Beyond gene expression-mediated virulence changes, it is unclear how microbial populations would evolve, both in terms of population ecology and genetic mutations, over the course of a multi-year mission with increased exposure to ionizing radiation and microgravity during transit. This ongoing microbial evolution could have a profound impact on crew health, as microbiome stability and dynamics are known to have significant effects on human health on Earth<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. Considering the time required to reach Mars, intervention from Earth during the course of a Mars mission will be limited to electronic communication, meaning that any analyses or monitoring to be performed must be done <italic>in situ</italic>. There is also a clear need for in-flight clinical diagnostic capability to ensure that any infections can be managed appropriately, including the administration of targeted antimicrobials.</p>
+              <p id="Par3">Sequencing is a technology that could potentially address several critical spaceflight needs: infectious disease diagnosis, population metagenomics, gene expression changes, and accumulation of genetic mutations. Based on size, power, and ease of use considerations, the MinION™ DNA sequencer (Oxford Nanopore Technologies, Oxford, UK) was the most spaceflight-ready of commercially available sequencers. This device sequences DNA and RNA by measuring current changes caused by nucleic acid molecules passing through protein nanopores embedded in membranes; the change in current is diagnostic of the sequence of the DNA or RNA occupying the pore at a given time. In order to evaluate the performance of the MinION in a space environment, we tested it aboard the International Space Station (ISS). Orbiting 400 km above the Earth and travelling at 28,000 km/h, the ISS is in constant freefall and maintains a continuous microgravity environment. Although the MinION has been successfully reported to operate in remote locations on Earth<sup><xref ref-type="bibr" rid="CR5">5</xref>–<xref ref-type="bibr" rid="CR8">8</xref></sup>, operation aboard the ISS poses additional challenges, including possible flow cell membrane disruption due to launch shocks and vibrations, difficulty in removing air bubbles that form during sample handling, along with a potential increase in susceptibility to those air bubbles introduced to the flow cell during loading in microgravity; air bubbles in particular can damage the flow cell membranes or nanopores, and can also block the nanopores directly. In parabolic flight testing of the nanopore sequencer, we obtained only three reads while airborne<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. From this experience, we identified a number of procedural changes in order to improve performance in flight and enable the present work (see Materials and Methods).</p>
+              <p id="Par4">Here we describe the results of nanopore DNA sequencing experiments performed aboard the ISS with samples containing an equimolar mixture of genomic DNA extracted from a virus (<italic>Enterobacteria phage lambda</italic>), a bacterium (<italic>Escherichia coli</italic>), and a model mammalian organism, the mouse (<italic>Mus musculus</italic>). In parallel, we performed control experiments on the ground and made cross-platform comparisons with genomic sequence data obtained from the same samples on Illumina MiSeq (Illumina, San Diego, CA) and PacBio (Pacific Biosciences, Menlo Park, CA) instruments. Simulated analyses of in-flight data using an automated metagenomic pipeline and <italic>de novo</italic> assembly algorithms demonstrate the feasibility of on-board, real-time analysis and genomic assembly for future sequencing applications in space.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Flight and Ground Control sequencing with the MinION</title>
+                <p id="Par5">Nine sequencing experiments were conducted aboard the ISS between August 26, 2016 and January 9, 2017 (Fig. <xref rid="Fig1" ref-type="fig">1A</xref>, Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). Identical, simultaneous sequencing runs were also performed on the ground. For eight of the nine sequencing runs, a frozen sample containing ready-to-sequence DNA libraries was thawed and loaded on a new MinION flow cell, and the run was initiated using MinKNOW software (Oxford Nanopore Technologies, Inc. v0.51); for run 6, an initial 6 hour sequencing run was performed, after which a second thawed library was loaded on the flow cell and a 48 hour sequencing run was initiated (ISS6.2). All samples contained equimolar inputs of lambda, <italic>E. coli</italic> and mouse genomic DNA. Of the eighteen combined flight and ground experiments, all but two ground experiments (G2 and G6.2) produced good yields of high-quality sequencing data. The cause for the poor performance in G2 is not definitely known, although the low number of available pores suggested disruption of the nanopores during handling, shipping, or storage. For G6.2, the reduced performance was not unexpected because the flow cell appeared to have relatively fewer active pores prior to its first use (G6.1), and then was re-used without rinsing with the manufacturer’s recommended wash buffer; similarly, it was observed that ISS6.2 also had a decrease in available pores from ISS6.1. Two of the runs, G7 and ISS7, terminated earlier than expected. In the case of G7, the wireless adapter on the Surface Pro 3 was left on and the combined power consumption of the MinION and wireless card exceeded the charging capacity of the Surface Pro 3, causing it to power off; for ISS7, the power cord became disconnected at some point during the sequencing run and the Surface Pro 3 shut off when its battery ran out of power. Because sequence data files are written as each molecule is sequenced, the only consequence of these early terminations was a reduction in the total number of molecules sequenced. Upon completion of sequencing experiments in-flight, all FAST5/HDF files produced were downloaded from the ISS to Earth. Data transfers for each sequencing run (4–20 Gb of data distributed among 15,000 to 61,000 files) took between 1 and 6 hours. The flight and ground data were then analyzed using a number of open-source and custom-developed bioinformatic workflows (see Materials and Methods).<fig id="Fig1"><label>Figure 1</label><caption><p>Study design and flight/ground nanopore performance. (<bold>A</bold>) A mixture of equimolar DNA from mouse, <italic>E. coli</italic> and lambda phage genomes was sequenced in parallel on Earth (“Ground”) and in-flight on the ISS (after being delivered by a SpaceX Dragon capsule; flow cells were shipped to the Kennedy Space Center on July 11, 2016). Synchronous nanopore sequencing runs were performed from August 26, 2016 to January 9, 2017. (<bold>B</bold>) Plot of mean current intensity in picoAmperes (pA; Y-axis) against k-mers (x-axis) in order of increasing mean current based on a model distribution from Oxford Nanopore Technologies (black). Current distributions are tightly clustered with the exception of lower-quality ground #2. (<bold>C</bold>) Comparison of pairwise identities of aligned reads between ISS runs 1–4 and ground runs 1–4. (<bold>D</bold>) Pie charts of the read distributions corresponding to each ISS run and pooled ISS runs 1–4.</p></caption><graphic xlink:href="41598_2017_18364_Fig1_HTML" id="d29e665"/></fig>
+</p>
+                <p id="Par6">A key determinant of the success or failure of sequencing on the MinION is the number of active pores identified during the MUX scan performed at the initiation of sequencing. An active pore is one where current can be measured going through the pore. Each flow cell contains a total of 2,048 nanopores, each of which is capable of sequencing molecules that pass through it. In practice, however, a subset of these nanopores will fail at some point during manufacture, transit, handling, storage or use, reducing the total number of active pores. Vibration testing on the ground suggested that ~70% of the nanopores in the R7 flow cells, as determined by platform QC analysis, should be active after launch vibration<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. Although there was considerable variability in the number of active pores between the 16 flow cells used in this study, no statistically significant decrease in the number of active pores in the flow cells used on the ISS was observed compared with the ones used on the ground (Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). Across all 9 runs, a total of ~284,000 reads were generated, as compared to ~130,000 from the ground controls. Thus, to a first approximation, MinION sequencing performance on the ISS was comparable to or better than MinION sequencing on the ground.</p>
+                <p id="Par7">Samples were prepared for sequencing using the 2D sequencing library preparation kit (Oxford Nanopore Technologies). This process adds a hairpin adapter to duplex DNA, allowing both strands to be sequenced (2D reads) to improve sequence accuracy; reads containing data from only one of the strands are also generated (1D reads). Initial quality control of the data was conducted using a custom Metrichor workflow for 1D and 2D basecalling and species identification (Supplementary Figure <xref rid="MOESM1" ref-type="media">1</xref>). We performed additional characterization of the in-flight and ground reads by analyzing the <italic>k</italic>-mer (the number of nucleotides that occupy the nanopore at a given time, causing observable current changes; in this case <italic>k</italic> = 6) current plots across the first four sets of runs (Fig. <xref rid="Fig1" ref-type="fig">1B</xref>), as well as measurements of signal parsing quality including gaps in the detection of signal conductance (skips) and signal changes that do not manifest in a basecalled sequence (stays) per base (Supplementary Figure <xref rid="MOESM1" ref-type="media">2</xref>). With the exception of G2, the <italic>k</italic>-mer current profiles, skips/base, and stays/base were within the range of expected values for MinION sequencing and permitted adequate basecalling. We next analyzed the 1D and 2D accuracies of the first four in-flight and ground reads, along with organism identification from the read data (Fig. <xref rid="Fig1" ref-type="fig">1C, 1D</xref>, Supplementary Figures <xref rid="MOESM1" ref-type="media">1</xref> and <xref rid="MOESM1" ref-type="media">3</xref>). In general, read accuracies across the ISS and ground runs were comparable, spanning 74–80% (ISS) and 71–78% (ground) median base accuracy for the 1D reads and 83–92% (ISS) and 80–90% (ground) median base accuracy for the 2D reads, although in most cases the accuracies of the in-flight reads were slightly higher. The distributions of reads in both the flight and ground data were found to be fairly evenly distributed across the <italic>E. coli</italic> genome (Supplementary Figure <xref rid="MOESM1" ref-type="media">4</xref>), with median read lengths were typically 5,000–6,000 bases (Supplementary Figure <xref rid="MOESM1" ref-type="media">5</xref>). The elevated coverage of the <italic>E. coli</italic> genome near 0.5 Mb (Supplementary Figure <xref rid="MOESM1" ref-type="media">4</xref>) is likely an artifact from the integration of the rated lambda genome into the <italic>E. coli</italic> genome; we are thus unable to distinguish <italic>E. coli</italic> reads from integrated lambda genome versus bacteriophage lambda reads.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Benchmarking of the MinION sequencing data against MiSeq and PacBio RSII data</title>
+                <p id="Par8">To assess the accuracy of the nanopore MinION data and to establish “gold standard” genomic references for the lambda and <italic>E. coli</italic> genomes, we used the same stock of DNA for replicate sequencing experiments on PacBio RSII and Illumina MiSeq instruments. We ran 22 SMRT cells across independently sequenced lambda, <italic>E. coli</italic>, and mouse genomic DNA samples on the RSII (1.1 M reads with 11,366 base pair (bp) average length) and a full flow cell on the MiSeq (21,214,638 single-end 160 bp reads). The MiSeq run consisted of separately indexed samples corresponding to genomic DNA from lambda (792,838 reads), <italic>E. coli</italic> (3,189,286 reads), mouse (7,197,511 reads), as well as an equimolar mixture of genomic DNA from all 3 organisms (10,035,003 reads) that replicated the nanopore-sequenced samples. <italic>De novo</italic> assembly of the <italic>E. coli</italic> genome using the Hierarchical Genome Assembly Process (HGAP, v2) from PacBio reads at 162.7X coverage generated a single contiguous sequence (contig) of size 4,734,145 bp (Supplementary Figure <xref rid="MOESM1" ref-type="media">6</xref>). <italic>De novo</italic> assembly from all <italic>E. coli</italic> reads on the Illumina MiSeq run, identified by alignment to the most closely matched genome in the National Center for Biotechnology (NCBI) nucleotide (nt) database (<italic>E. coli</italic> K-12, CP014348), produced 245 contigs with coverage of 80.1% of the genome at 99.7% identity to the PacBio reference genome (Supplementary Figure <xref rid="MOESM1" ref-type="media">7</xref>), while directed assembly of the <italic>E. coli</italic> Illumina reads to the PacBio reference genome resulted in 99.0% coverage at 99.97% identity. Directed assembly of the viral Illumina reads to the lambda genome resulted in 100% coverage at 99.3% identity. Thus, two orthogonal sequencing methods were used to establish the <italic>E. coli</italic> and lambda genomic references for assessing the accuracy of in-flight and ground nanopore data. A direct alignment of the 2D reads to the <italic>de novo</italic> assembled genomes showed a median 89% and 86% agreement on base calling for the in-flight and ground data, respectively. Overall, we found that the long, phased genetic data from the MinION is amenable to use in analysis of the sequences generated on the ISS.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Accuracy and distribution of in-flight nanopore sequencing reads</title>
+                <p id="Par9">The performance of ISS nanopore sequencing runs 1 through 3 were similar, with total yields of 15,000 to 18,000 reads and a relatively lower proportion of lambda reads relative to <italic>E. coli</italic> and mouse reads (Fig. <xref rid="Fig1" ref-type="fig">1D</xref>). Unlike these 6-hour runs, ISS 4 was sequenced for 48 hours, and generated more than twice the number of reads. Interestingly, the percentage of lambda reads generated from ISS run 4 was 30% versus 13% for the first 3 runs, and the relative proportions of lambda, mouse, <italic>E. coli</italic> reads were much closer to the predicted one-third proportions expected from sequencing an equimolar mixture of genomic DNA; similarly, when data obtained from all 8 flow cells were included, 30% of the reads mapped to each organism (Fig. <xref rid="Fig2" ref-type="fig">2A</xref>). Across all eight flow cells, approximately 10% of reads (n = 8,960) did not match to either lambda, <italic>E. coli</italic>, or mouse by direct alignment using GraphMap and SURPIrt (Figs <xref rid="Fig1" ref-type="fig">1D</xref> and <xref rid="Fig2" ref-type="fig">2A</xref>). This was attributed to single-read error rates of 8–20% on the R7 version of flow cells used, as the use of a more sensitive aligner (BLASTn, e-value cutoff = 10<sup>−8</sup>) against the comprehensive NCBI nt database only assigned an additional 2.0% of reads (n = 1,815) as either lambda, <italic>E. coli</italic>, or mouse/human, and failed to detect true sequence matches to other organisms. In contrast, 99.9% of the Illumina reads were properly assigned to one of the 3 organisms (Fig. <xref rid="Fig1" ref-type="fig">1D</xref>), although the relative proportions were less uniform than for ISS runs 4–8 (Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). To gauge the improvement in accuracy of the latest chemistry (R9) for the MinION, we ran an additional equimolar mixture of the three samples on Earth, and we found that the error rates were noticeably lower (5–10%). This updated version of the flow cell uses a different protein nanopore, enabling the higher sequencing accuracy.<fig id="Fig2"><label>Figure 2</label><caption><p>Automated metagenomic analysis of ISS nanopore data. (<bold>A</bold>) Flow chart of the SURPI<italic>rti</italic> bioinformatics pipeline for real-time microbial detection from nanopore data. (<bold>B</bold>) Donut charts of read distributions corresponding to all reads (left), bacteria (middle), and viruses (right) from pooled ISS runs 1 through 8. (<bold>C</bold>) Stacked column plot of reads each from ISS runs 1 through 8 showing distribution of identified organisms. (<bold>D</bold>) Stacked: bar plot of reads from pooled ISS runs 1 through 8 comparing metagenomic detection using SURPI<italic>rt</italic> versus directed alignment using GraphMap for organism identification from nanopore sequencing data.). (<bold>E</bold>) Coverage (green) and pairwise identity plots (purple) of raw nanopore reads mapped to the <italic>E. coli</italic> (upper panel), the mouse mitochondrial (lower left panel), and lambda genomes (lower left panel). Reads are mapped to the most closely matched reference genome identified by SURPI<italic>rt</italic>. Images not generated by the authors were obtained from the CDC Public Health Images Library: human silhouette, image ID 15798, illustrator D. Higgins; giardia, image ID 3394, source A. da Silva and M. Moser; yeast, image ID 300, no attribution possible; virus, image ID 21351, illustrator, A. Eckert; bacteria, image ID 21915, A. Eckert and J. Oosthuizen.</p></caption><graphic xlink:href="41598_2017_18364_Fig2_HTML" id="d29e850"/></fig>
+</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Metagenomic analysis of in-flight nanopore data using the automated SURPIrt pipeline</title>
+                <p id="Par10">To demonstrate the feasibility of analyzing sequencing data on the ISS, we ran simulations of real-time metagenomic analysis of all 8 pooled runs from in-flight nanopore data using the automated SURPI<italic>rt</italic> pipeline (Fig. <xref rid="Fig2" ref-type="fig">2A</xref>; Supplementary Figure <xref rid="MOESM1" ref-type="media">8</xref>)<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>. Species-specific reads corresponding to mouse, <italic>E. coli</italic>, and lambda from the sample mixtures were initially identified in SURPI<italic>rt</italic> within 1 minute of beginning sequence analysis by MegaBLAST alignment to the NCBI nt database (word size = 16; e-value = 1 × 10<sup>−5</sup>). The distribution of detected reads could be visualized in real-time as donut charts on a web browser refreshed every 30 s (Fig. <xref rid="Fig2" ref-type="fig">2B</xref>).</p>
+                <p id="Par11">Automated analyses of all 276,882 nanopore reads in pooled runs 1 through 8 revealed a percent read count distribution of mouse, viral, and bacterial reads of 30.1%, 30.1%, and 30.0%, respectively, consistent with the expected proportions from equimolar mixing of the sample, with only 218 reads (0.08%) mapping to other organisms and 27,043 reads (9.8%) unidentified (Fig. <xref rid="Fig2" ref-type="fig">2B</xref>). Taxonomic classification using a lowest common ancestor (LCA) algorithm revealed that nearly all of the bacterial reads (99.7%) mapped to <italic>E. coli</italic> (or its parental taxa), while nearly all of the viral reads (99.9%) mapped to lambda or other phages in the <italic>Caudovirales</italic> order. The proportions of mouse, <italic>E. coli</italic>, and phage reads remained fairly consistent across all 8 runs (Fig. <xref rid="Fig2" ref-type="fig">2C</xref>), although relatively fewer lambda reads were detected in the earlier runs 1 through 3.</p>
+                <p id="Par12">Overall, the results from the SURPI<italic>rt</italic> pipeline for unbiased pathogen detection were comparable to those obtained by directly mapping the reads to the closest target reference genome in GenBank using GraphMap (Fig. <xref rid="Fig2" ref-type="fig">2D</xref>). When individual GraphMap-identified reads were aligned to the reference genome, the mean read lengths and average percent pairwise identities were 6,880 bp and 81.6% for mouse, 5,718 bp and 82.8% for E. coli, and 6,245 bp and 84.1% for phage. The range of read lengths varied considerably from 80 to 72,619 bp (Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). To generate consensus sequences, individual reads were mapped to the 4.66 Mb E. coli genome, 48.5 kb lambda genome, and a representative mouse sequence, the 16.3 kb mitochondrial genome. Pairwise gapped alignment of the 3 full-length consensus sequences against their corresponding reference genomes using the MAFFT algorithm showed 96.7–100% consensus pairwise identity (Fig. <xref rid="Fig2" ref-type="fig">2E</xref>).</p>
+              </sec>
+              <sec id="Sec7">
+                <title><italic>De novo</italic> genome assembly across the sequencing platforms</title>
+                <p id="Par13">To determine if the in-flight nanopore data generated on the ISS could be used for successful <italic>de novo</italic> assembly of the <italic>E. coli</italic> genome, we independently tested two long-read genome assemblers, Miniasm<sup><xref ref-type="bibr" rid="CR12">12</xref></sup> and Canu<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR14">14</xref></sup>, using 2D reads pooled from all 9 in-flight sequencing runs. We tested assemblies generated (1) directly from raw 2D data, (2) from remaining reads after background subtraction of mouse sequences, and (3) from reads assigned to <italic>E. coli</italic> only (Supplementary Figure <xref rid="MOESM1" ref-type="media">9</xref>). From each of these read subsets, Canu was able to assemble a single contig representing &gt;99% of the complete <italic>E. coli</italic> genome sequence, with ≥98.6% consensus pairwise identity relative to the PacBio reference genome. In contrast, although Miniasm had a significantly faster run time than Canu (&lt;1 minute versus 2 hours on a 64-core server), the assemblies had more contigs, were not as complete (85.1–87.6%), and were less accurate (87.1%). The improved accuracy of Canu relative to Miniasm was also observed previously<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.</p>
+                <p id="Par14">We further tested the ability to run these assemblies not only on computational servers but also on the cloud (the Amazon Elastic Compute Cloud/EC2 platform) and on a laptop. We observed that an 8-core, 32 Gb EC2 instance was sufficient to complete an entire Miniasm assembly within 15 seconds, and a similarly configured laptop with 8 hyperthreaded cores and 64 Gb RAM took less than 40 sec (Supplementary Figure <xref rid="MOESM1" ref-type="media">9</xref>). These results on the cloud and laptop showed that real-time genome sequencing and analyses were feasible in space. Analyses of nanopore data were not performed on the ISS in the current study, as available in-flight computing resources were not sufficient (e.g. the on-board Surface Pro 3 tablet uses a single-core i7 processor with 8 Gb of RAM). Nevertheless, in-flight sequence analysis capability could be achieved with the next generation of laptops, supplied to the ISS in June, 2017. As the lambda prophage is inserted into the <italic>E. coli</italic> genome, these data constitute the first <italic>de novo</italic> assemblies of a complete bacterial and viral genome with 100% accuracy, and indeed, the first genome assemblies of any organism from sequence data generated solely off of planet Earth.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par15">Our results of the first-ever DNA sequencing in space indicate that the performance of the MinION sequencing platform was not adversely affected by transport to the ISS, nor by loading or operation in its microgravity environment. Ideally, all experiments on the ground and in-flight would have been performed by the same person; however, we prioritized performing near-simultaneous ground controls with reagents and materials of the same age over having all experiments performed by a single person. Having two separate crew members, K. Rubins and P. Whitson, the latter of whom had never performed any of the sequencing operations prior to her sequencing on the ISS, successfully load samples aboard the ISS reinforces the robustness of the MinION sequencing platform in space. In all cases, the person loading the ground control samples had considerably more experience with the Biomolecule Sequencer payload than the corresponding astronaut. Because sequencer performance was generally better (e.g., more reads obtained) on the ISS despite the more extensive experience of ground team members loading samples, we do not think having different people perform experiments on the ISS and on the ground had an appreciable effect on the quality of sequencing.</p>
+              <p id="Par16">Although for this experiment samples were prepared on the Earth, recent simplifications of sample preparation for the MinION sequencer (e.g., Oxford Nanopore Technologies 1D rapid library preparation kits and VolTRAX<sup>TM</sup> automated sample preparation device) should be straightforward to adapt to the spaceflight environment, and are currently being optimized for deployment to the ISS. Just as on Earth, methods for the extraction of the nucleic acids themselves from ISS-derived samples will need to be tailored for each source. However, the Wetlab-2 project has already successfully demonstrated DNA and RNA extraction aboard the ISS<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, and microbial DNA extraction could be performed with simple thermal lysis and magnetic bead clean-up, processes that are not gravity-dependent. Furthermore, we recently demonstrated that pipetting using both positive displacement and air displacement pipets was possible on the ISS as well as during microgravity intervals on a parabolic flight<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>.</p>
+              <p id="Par17">The data obtained from sequencing aboard the ISS can readily recapitulate the measurements of nucleic acids from phages (lambda), bacteria (<italic>E. coli</italic>), and mammalian (mouse) DNA on Earth. Indeed, across all three species, the base quality and 2D read alignments were routinely above 85%, with equal or superior performance to the identical replicate libraries and flow cells tested on Earth. These results were also true when comparing the skips/base, stays/base, read length, and GC-content of the data. Sequence reads were also validated against sequencing data obtained on PacBio RSII and Illumina MiSeq instruments to confirm their accuracy. <italic>De novo</italic> assembly of nanopore reads collected in-flight enabled the generation of a high-quality genome assembly of <italic>E. coli</italic> (a single full-length contig at ≥98.6% identity). Importantly for microbiome and metagenomic applications, our results demonstrate that a <italic>de novo</italic> assembly of microbial genomes from raw, unfiltered data sequence data corresponding to a complex metagenomic mixture is feasible in space. As with sequence data from any platform, the success of unfiltered assembly from nanopore reads will likely depend on the complexity of the metagenomic background in the sample, depth of sequencing, and error rates, which have been steadily decreasing over time for nanopores<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. In this study, the individual error rates for identified mouse, <italic>E. coli</italic>, and lambda reads were 18.4%, 17.2%, and 15.9%, respectively, although coverage redundancy during directed or <italic>de novo</italic> assembly, as shown here, can reduce error rates to &lt;2%. We also successfully tested genome assembly of in-flight nanopore reads using a cloud-based platform (Amazon EC2) and laptop. In aggregate, these results clearly validate the implementation of the MinION nanopore sequencer for rapid, <italic>in situ</italic> diagnostics and microbial identification on the ISS, and, ultimately, in any space environment. Furthermore, lightweight sequencing platforms such as the one demonstrated here, coupled with sufficient local computing power, can be directly applied to terrestrial research applications in remote environments. The ability to analyze a subset of samples to assess sampling diversity and quality while in field locations such as the Arctic or on deep-sea drilling expeditions could greatly improve the overall yield of science from these campaigns.</p>
+              <p id="Par18">From a spaceflight perspective, in the immediate future the MinION holds the potential to greatly improve the rate at which ISS research can be performed by allowing researchers rapid access to data obtained in-flight, rather than having to wait for sample return. With robust experiment planning and some foresight, research projects that required multiple flights over several years could now be performed in a matter of months, as researchers could monitor experiment progress in real-time and make adjustments as needed (i.e., cadence of time points, identifying a subset of samples that should be returned to Earth for further analysis, etc.). Studies of gene expression in-flight would also be enabled by a sequencing platform on the ISS, and could be performed more robustly and with less risk of experiment failure by reducing the need for storage of labile RNA in a freezer. Analysis aboard the ISS would also serve to help eliminate time constraints, such as those posed by organism re-acclimation upon return to Earth, facilitating more optimal and less arbitrary selection of time points for sample collection and analysis. Nanopore sequencing also has the potential to detect base modifications<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>, which could also enable <italic>in situ</italic> epigenetics studies of both DNA and RNA.</p>
+              <p id="Par19">As exploration progresses beyond low Earth orbit toward extended missions in <italic>cis</italic>-lunar space and eventually to Mars, changes and advances in nanopore-based sequencing will be needed. Increases in sequencing accuracy will result in improved diagnostic capabilities by reducing the number of false positives and false negatives. As communication delays increase and data transfer rates decrease, local analysis of sequencing data will be essential. Aspects of this challenge are manifested on Earth in remote locations and point-of-care settings of clinical and public health significance, such as “hot spots” from outbreaks due to Ebola or Zika virus<sup><xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR23">23</xref></sup>. In the current study, we used the SURPI<italic>rt</italic> computational platform to simulate an automated metagenomic analysis of nanopore data in real-time, from read processing to microbial identification to genome assembly on both a server and a laptop, and we also showed that rapid (15 sec) assembly was possible, highlighting the ability to use these tools and techniques locally for future missions.</p>
+              <p id="Par20">One of the outstanding questions for use of the sequencers such as the MinION in deep space exploration is flow cell stability over the course of an 18 to 36 month mission. Extreme temperatures and increased galactic and cosmic radiation exposure are less of a concern for flow cell stability during human missions, as crew members will require shielding from these conditions as well<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. For robotic missions, however, enhancements in flow cell stability will likely be needed, which could be achieved through the development of more robust membranes in which the pores are embedded or with improvements in the resolving power of solid state nanopores. It is worth noting however, that the present work has demonstrated flow cells are stable after 6 months in orbit, which is on par with at least a one-way transit to Mars; and radiation exposure would not seem to be a significant factor for protein nanopore stability: the Curiosity rover measured &lt;1 Gray of radiation during its transit to Mars and 0.18 to 0.225 mGray per day on the Martian surface<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>, which are radiation doses orders of magnitude lower than doses (3,500 Gray) that proteins have been demonstrated to tolerate with no loss in function<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. Flow cell reusability would be of tremendous benefit on Mars and other deep-space missions due to stringent mass limits imposed by cost and propulsion constraints; we were able to demonstrate in a limited fashion the reusability of flow cells aboard the ISS, where a minor decrease in the number of available pores was observed between the first and second flow cell loadings, and overall data yields were comparable to those obtained from 48 hour sequencing runs on flow cells only used once. Assuming sufficient flow stability is achieved, nucleic acid sequencing could play an important role on crewed missions to Mars to monitor crew health.</p>
+              <p id="Par21">Once on Mars or another planetary surface, the sequencing platform would then become a powerful tool for surveillance and exploration. DNA-based life could be rapidly detected, enabling identification of Earth-derived contamination and perhaps even characterization of indigenous Martian life if it also uses DNA. Beyond life as we know it, direct analysis of molecules by nanopores has been used to detect base modifications in DNA<sup><xref ref-type="bibr" rid="CR19">19</xref>,<xref ref-type="bibr" rid="CR20">20</xref></sup>, to identify pathogens in clinical samples<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, to sequence RNA<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>, and even to characterize proteins<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. The ability of nanopore analyzers to accommodate a range of polymers increases the chance of detecting extraterrestrial life, which could use different bases or sugars in its genetic material beyond canonical nucleotide-based DNA and RNA.</p>
+            </sec>
+            <sec id="Sec9" sec-type="materials|methods">
+              <title>Materials and Methods</title>
+              <sec id="Sec10">
+                <title>Code availability</title>
+                <p id="Par22">The Megablast-based SURPI<italic>rt</italic> code for metagenomic analysis of the data generated from this study can be found on the Github repository for the UCSF Chiu laboratory at <ext-link ext-link-type="uri" xlink:href="https://github.com/chiulab">https://github.com/chiulab</ext-link>. The remaining scripts are available at <ext-link ext-link-type="uri" xlink:href="https://pbtech-vc.med.cornell.edu/git/mason-lab/nanopore_in_space/tree/master">https://pbtech-vc.med.cornell.edu/git/mason-lab/nanopore_in_space/tree/master</ext-link>.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Data availability</title>
+                <p id="Par23">The datasets generated or analyzed during the current study are available from the authors on reasonable request; base-called.fastq files are available in the NASA GeneLab database under accession number 84; <ext-link ext-link-type="uri" xlink:href="https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-84">https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-84</ext-link>.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Spaceflight Hardware</title>
+                <p id="Par24">The full payload included the following items: two MinION devices, a USB 3.0 cable, nine R7.3 flow cells (Oxford Nanopore Technologies), nine sample syringes containing ground-prepared genomic DNA, nine empty sample syringes for air bubble removal, and a configuration flow cell (Supplementary Figure <xref rid="MOESM1" ref-type="media">10</xref>). A pipette kit including 10, 100, and 1,000 μl Rainin positive displacement pipettes (Mettler Toledo, Oakland, CA) and associated tips was included for contingency purposes if the syringe was not sufficient for bubble removal. These items were all launched from Cape Canaveral Air Force Base on the SpaceX CRS-9 Dragon capsule on July 18th, 2016. The MinKNOW™ software (Oxford Nanopore Technologies) required for operation of the MinION was loaded on a Microsoft Surface Pro 3 tablet and delivered to the ISS on the Orbital ATK OA-6 Cygnus Space Station Resupply Vehicle, which launched on March 22, 2016.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Library Preparation and Sequencing</title>
+                <p id="Par25">Samples analyzed in this study contained sequence libraries prepared from mixtures of female mouse BALB/C (Zyagen, San Diego, CA), <italic>Escherichia coli</italic> K-12 (Zyagen), and <italic>N</italic>
+<sup>6</sup>-methyladenine-free bacteriophage lambda (New England Biolabs, Ipswich, MA) genomic DNA. These species were chosen based on their being model organisms corresponding to a eukaryote (mammal), bacterium, and virus, respectively. The samples were aliquoted for library preparation on three platforms: Oxford Nanopore Technologies (ONT) MinION (v6), Illumina MiSeq (v2), and the Pacific Biosciences RSII.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>MinION Library Preparation and Sequencing (Ground and ISS)</title>
+                <p id="Par26">Aliquots of DNA for mouse, <italic>E. coli</italic>, and lambda libraries were sheared individually using Covaris g-TUBEs (Covaris, Boston, MA) by centrifugation at 4,800 × <italic>g</italic> for 2 min to produce fragments that were predominantly 8 kb. Fragmentation was verified using a 2100 Agilent Bioanalyzer (Agilent Technologies, Santa Clara, CA). Sheared mouse, <italic>E. coli</italic>, and lambda DNA samples were quantified using a Qubit 2.0 fluorometer (Thermo Fisher Scientific, Waltham, MA) and combined in equal abundances, targeting 1.5 µg total (0.5 µg each). Mixed DNA samples then underwent treatment to repair residual nicks, gaps, and blocked 3′ ends using Formalin-Fixed, Paraffin-Embedded (FFPE) DNA Repair Mix (New England Biolabs), with modifications to the manufacturer’s protocol to include a 0.5X Agencourt AMPure XP system magnetic bead clean-up (Beckman Coulter Genomics, Brea, CA) to remove small fragments of DNA. The repaired DNA was then prepared for sequencing according to Oxford Nanopore Technologies’ procedure for the SQK-MAP-006 Kit. Following library preparation, individual samples were mixed with a ~100 ng aliquot of pre-sequencing library (150 µl) with 162.5 µl of 2X running buffer, 6.5 µl fuel mix (Oxford Nanopore Technologies) and 156 µl molecular-grade sterile deionized water to a total volume of 450 µl. This volume was loaded into a 1 ml syringe and the syringe was capped. A total of 18 samples were prepared: nine flight samples and nine ground control samples. Capped syringes containing the samples were packaged with an identical 1 ml syringe for potential bubble removal and syringe tips were placed inside of a large plastic tube to facilitate transport. After syringe loading, the tubes were stored at −80 °C.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Future flight-compatible sample preparation</title>
+                <p id="Par27">While the DNA sequenced in-flight was prepared on the ground, recent demonstrations of the transfer of microliter fluid volumes with conventional pipettes in a microgravity environment<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>, in combination with Oxford Nanopore Technologies commercially-available rapid library preparation kit, lend themselves to the reality of sample preparation on the ISS. The miniPCR system is already onboard the ISS and has been used as both a heat block and thermal cycler in ground-based testing to support rapid 1D library preparation and amplifications of low input samples, respectively. Although a manual sample preparation process could be implemented on the ISS in the near future to enable the sequencing of spaceflight samples, flight certification of the soon-to-be-released sample and library preparation device, VolTRAX™ by Oxford Nanopore Technologies, could fully automate the entire process.</p>
+              </sec>
+              <sec id="Sec16">
+                <title>Ground Processing of Cold Stowage Hardware</title>
+                <p id="Par28">The nine flight samples were removed from the −80 °C freezer, placed on dry ice in a Styrofoam cooler, and shipped overnight to the launch processing facility at Kennedy Space Center (KSC). Once at KSC, the samples were maintained in a −80 °C freezer until transfer to the powered freezer on the SpaceX Dragon Capsule. To more closely approximate the handling of the flight samples, the nine ground control samples were also removed from the freezer, placed on dry ice in a Styrofoam cooler and allowed to sit on the laboratory bench for the same amount the time that the flight samples were out of the freezer during transit. A total of 18 R7.3 flow cells from the same manufacturing lot were shipped directly from the manufacturer to KSC for flight (9) and JSC to serve as ground controls (9). Upon receipt, the flow cells were stored at +4 °C until the time of launch. The flow cells and samples were maintained within the launch processing labs at KSC until 48 h before the launch, at which point they were loaded onto the vehicle.</p>
+              </sec>
+              <sec id="Sec17">
+                <title>Launch and ISS Stowage Conditions</title>
+                <p id="Par29">Flow cells were launched in a double cold bag in which the temperature was maintained between +2 and +8 °C. The DNA samples were launched in a powered freezer in which temperatures were maintained between −80 and −90 °C. Upon docking with the ISS, the flow cells and DNA samples were transferred to refrigerator (+2 to +8 °C) and freezer (−80 to −90 °C) dewars within the Minus Eighty Degree Laboratory Freezer for ISS (MELFI), respectively. All other items were stored at ambient ISS conditions.</p>
+              </sec>
+              <sec id="Sec18">
+                <title>Sequencing Experiments</title>
+                <p id="Par30">Following complete charging of the Surface Pro 3, it was connected to the MinION via USB cable. Prior to the first sequencing experiment, a configuration test cell was inserted into the MinION device for the configuration test MAP_CTC_Run.py in the MinKNOW software version 0.51.1.39 b201511042121 to ensure proper data exchange between the MinION device and the Surface Pro 3. This version of MinKNOW software was modified so that internet connectivity was not required. To initiate the experiment, a flow cell and DNA sample syringe tube were collected from their respective MELFI dewars and allowed to equilibrate to ambient temperature (10–60 min). The flow cell was inserted into the sequencing device and the bubble removal syringe was used to remove the air immediately adjacent to the sample loading port (~15 μl of air). Flow cell priming was performed by loading approximately 250 μl of the sample containing fuel mix and running buffer and allowing 10 min to elapse prior to loading the remaining 250 μl of sample. Sequencing was initiated using MAP_Lambda_Burn_In_Run_SQK_MAP006.py protocol selected from the MinKNOW software. These procedures were optimized based on our parabolic flight experience<sup><xref ref-type="bibr" rid="CR9">9</xref></sup> in the following ways: prepared samples were stored at −80 °C or below until use rather than −20 °C; we also added headspace at the back of the sample syringe prior to freezing to simplify loading procedures for the crew members; half the sample was used to flush the flow cell, followed by a 10 minute wait, and loading of the remainder of the sample rather than loading the sample as a single 450 μL volume; and the sequencing run was not initiated until after sample loading was complete, giving the flow cell sufficient time to reach ambient temperature. Real-time communications with the ISS allowed the ground control flow cells and samples to be retrieved, temperatures to equilibrate, and samples to be injected for priming and final sample loading in a synchronous manner. For the flow cell reuse experiment (6.1 and 6.2), a sample library was loaded as described above and a 6 hour sequencing was initiated. After 6 hours, the flow cell was removed from the MinION and stored overnight (~18 hours) at 4 C. The flow cell was retrieved and placed into the MinION and a second sample thawed, where it was loaded in two stages, after which a 48 hour sequencing run was initiated.</p>
+              </sec>
+              <sec id="Sec19">
+                <title>PacBio RSII Library Preparation and Sequencing</title>
+                <p id="Par31">Single Molecule, Real-Time (SMRT) sequencing libraries were prepared using the SMRTbell Template Prep Kit 1.0 (Pacific Biosciences) and 20 kb Template Preparation Using BluePippin Size-Selection System protocol (Pacific Biosciences). For each sample, 5 μg were used. Library quality and quantity were determined using an Agilent 2200 TapeStation and Qubit dsDNA BR Assay (Life Technologies), respectively. Sequencing was conducted using P6-C4 chemistry and a v3 SMRT Cell (Pacific Biosciences) at Weill Cornell Medicine.</p>
+              </sec>
+              <sec id="Sec20">
+                <title>Illumina MiSeq Library Preparation and Sequencing</title>
+                <p id="Par32">Sequencing libraries were prepared from 1 ng of sample using the NexteraXT kit (Illumina) according to the manufacturer’s protocol. Libraries were indexed with dual 8-nt barcodes on each end of the sequencing amplicon. In total, 4 dual-indexed DNA sequencing libraries were constructed, corresponding to lambda bacteriophage, <italic>E. coli</italic>, mouse, and an equimolar mixture of DNA from the 3 organisms. Libraries were quantitated using the Agilent Bioanalyzer and Qubit spectrophotometer and sequenced on an Illumina MiSeq as a 1 × 160 bp single-end sequencing run. The approximate percentage of the run allocated to each library as determined by the quantified input concentration was 3% for lambda bacteriophage, 17% for <italic>E. coli</italic>, 30% for mouse, and 50% for the equimolar mixture.</p>
+              </sec>
+              <sec id="Sec21">
+                <title>Basecalling and Read Selection</title>
+                <p id="Par33">Basecalling was performed using the Metrichor workflow “2D Basecalling for SQK-MAP006 - v1.107”. We used a custom shell script to extract one read from each fast5 file for further quantification and analysis, selecting the 2D read where available, and the higher quality of the 1D template or complement read where not.</p>
+              </sec>
+              <sec id="Sec22">
+                <title>GraphMap and Calculation of Species Counts/Proportions</title>
+                <p id="Par34">As described previously<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, we aligned to a combined <italic>Enterobacteria lambda phage</italic> (NCBI reference sequence NC_001416.1), <italic>Escherichia coli</italic> (NCBI reference sequence NC_000913.3), and <italic>Mus musculus</italic> (mm10, GRCm38.p4) genome using GraphMap version 0.3.0, with the command “graphmap align -r $ref -d $fi -o $name.sam”, which saves the top result for each read. We used the results to count the number of reads mapping to each of the three species and the fraction identity between reads and references.</p>
+                <p id="Par35">For comparison of the relative species proportions in the sample mixture between the nanopore in-flight runs and the Illumina data, we separately aligned the Illumina and nanopore reads to the <italic>Mus musculus, E. coli</italic>, and lambda phage genomes using Bowtie2 in local alignment mode at default settings<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> and GraphMap<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>, respectively. We then ensured only one unique mapping per read, which include assigning all lambda reads to the lambda genome (as the complete lambda genome is integrated in the <italic>E. coli</italic> chromosome), prior to calculating relative species proportions. Individual reads were mapped to the corresponding reference genome using the Geneious software package version 8.1.9 (Biomatters, Inc.). After determination of the consensus sequence in Geneious, consensus pairwise identities were calculated by taking each consensus sequence and performing a pairwise gapped alignment using the MAFFT algorithm (v7.0)<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> at default settings (algorithm = “Auto”; scoring matrix = “200PAM/k = 2”, gap open penalty = 1.53; offset value = 0.123), as implemented in the Geneious software package.</p>
+              </sec>
+              <sec id="Sec23">
+                <title><italic>De novo</italic> genome assembly from PacBio and Illumina data</title>
+                <p id="Par36">To ensure that our <italic>E. coli</italic> alignments and sequencing measures were not a result of any strain or sample-specific genetic drift or contamination, we performed a <italic>de novo</italic> assembly of the <italic>E. coli</italic> genome used in this study using the PacBio data. We used the Hierarchical Genome Assembly Process (HGAP, v2) for read-cleaning and adapter trimming (pre-assembly), <italic>de novo</italic> assembly with Celera Assembler, and assembly polishing with Quiver<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Raw sequencing reads were filtered for length and quality such that the minimum polymerase read score was 0.8, the minimum subread length was 500 bp, and the minimum polymerase read score was greater than 100. The assembly was generated using CeleraAssembler v1 with the default parameters and was polished using the Quiver algorithm<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Our assembly yielded a single contig of 4,734,145 base pairs at &gt;99.7% accuracy and confirmed the <italic>E. coli</italic> sample as strain K-12.</p>
+                <p id="Par37">We next performed independent <italic>de novo</italic> and directed assemblies of the <italic>E. coli</italic> genome using single-end Illumina data. Raw Illumina reads were preprocessed for trimming of adapters and removal of low-complexity and low-quality sequences. <italic>E. coli</italic> reads were identified using Bowtie2 alignment against the <italic>E. coli</italic> reference genome in local alignment mode at default parameters. <italic>De novo</italic> assembly was performed using the SPAdes genome assembly v3.8.2<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> with the “careful” parameter. The <italic>de novo</italic> assembled contigs as well as the original dataset of Illumina reads were then separately mapped to the PacBio <italic>E. coli</italic> genome assembly using Geneious v8.0 (Biomatters, Inc.). Illumina reads aligning to lambda by Bowtie2 were also mapped to the lambda phage genome (LAMCG) using Geneious.</p>
+              </sec>
+              <sec id="Sec24">
+                <title>SURPIrt (sequence-based ultra-rapid pathogen identification, real-time) analysis</title>
+                <p id="Par38">The SURPI<italic>rt</italic> pipeline is a real-time analysis pipeline for automated metagenomic pathogen detection and reference-based genomic assembly from nanopore sequencing data. Modeled after previously published SURPI<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> and Metapore<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> software, SURPI<italic>rt</italic> incorporates Linux shell scripts and code from the Python, Perl, Javascript, HTML, and Go programming languages. SURPI<italic>rt</italic> is currently being developed for analysis of clinical human samples, but was customized here for automated analysis of the NASA test mixture of mouse, <italic>E. coli</italic>, and lambda bacteriophage DNA. Specifically, reads are aligned successively using Megablast<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> to mouse, viral RefSeq.<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, bacterial RefSeq.<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>, and non-chordate eukaryotic<sup><xref ref-type="bibr" rid="CR10">10</xref></sup> sequence databases for detection of host (mouse) and microbial reads (Supplementary Figure <xref rid="MOESM1" ref-type="media">11</xref>). Reads are then taxonomically classified using a lowest common ancestor algorithm<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>, and graphical results are provided as tables, pie charts, and coverage maps. SURPI<italic>rt</italic> can be run on a server, cloud, or laptop.</p>
+                <p id="Par39">We simulated a real-time SURPI<italic>rt</italic> analysis of the NASA runs using both ground and in-flight nanopore data downloaded from the ISS (Supplementary Figure <xref rid="MOESM1" ref-type="media">11</xref>). In-flight analyses were not possible as a laptop with the necessary computational power and a local basecaller, obviating the requirement for an Internet connection, were not available at the time of these studies. For the simulation, the SURPI<italic>rt</italic> pipeline was run in automated mode to continually scan a download directory containing raw FAST5/HDF files from the MinION sequencer for batch analysis. For a preset number of reads per batch (n = 200 for this analysis) corresponding to ~2 minutes of elapsed time, the 2D read or either the template or complement read, depending on which is of higher quality, was extracted from each FAST5 file, and a FASTQ file generated using HDF5 Tools (ref: HDF5/Tools API Specification, <ext-link ext-link-type="uri" xlink:href="http://www.hdfgroup.org/HDF5/doc/RM/Tools.html">http://www.hdfgroup.org/HDF5/doc/RM/Tools.html</ext-link>, accessed September 18th, 2016). Reads corresponding to mammalian reads (i.e., mouse) were subtracted computationally using MegaBLAST (word size 16, e-value cutoff = 10<sup>−5</sup>) alignment to the <italic>M. musculus</italic> reference genome. Remaining reads were then aligned consecutively to a viral database (NCBI Viral RefSeq), bacterial database (NCBI Bacterial RefSeq), and to a non-chordate eukaryotic database (extracted from NCBI GenBank NT). For each read, the single best match by e-value was retained, and the corresponding NCBI Genbank identifier (gi) assigned to the best match (“top hit”) was then annotated by taxonomic lookup of the corresponding lineage, family, genus, and species. For each microbial species detected, the top hit was chosen to be the reference gi in the NCBI nt database (among all reference sequences assigned to that species) with the highest number of aligned reads, with priority given to reference sequences in the following order: (1) complete genomes, (2) complete sequences, or (3) partial sequences or individual genes. In the case of multiple top hits, reads were taxonomically classified according to the lowest common ancestor algorithm<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. For automated real-time results visualization<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>, a live taxonomic count table was generated by SURPI<italic>rt</italic> and displayed as a donut chart using the CanvasJS graphics suite (<ext-link ext-link-type="uri" xlink:href="http://canvasjs.com/">http://canvasjs.com/</ext-link>, accessed September 26<sup>th</sup>, 2016) with the chart refreshing every 30 s.</p>
+              </sec>
+              <sec id="Sec25">
+                <title><italic>De novo</italic> genome assembly from nanopore data</title>
+                <p id="Par40">We used Minimap v0.2-r124-dirty and Miniasm v0.2-r137-dirty as described in the github tutorial, using 8 threads (<ext-link ext-link-type="uri" xlink:href="https://github.com/lh3/miniasm">https://github.com/lh3/miniasm</ext-link>). Threeo assemblies were generated, (1) using 2D reads that mapped exclusively to <italic>Escherichia coli</italic> K12 MG1655 using GraphMap from the four runs on the ISS, and (2) using all 2D reads from the ISS that did not map to either human or mouse (using the hg38 human and mm10 mouse reference genomes), and (3) using all raw 2D reads. In parallel, we used Canu v1.73<sup><xref ref-type="bibr" rid="CR13">13</xref></sup> at default parameters using a specified target genome size of 4.8 MB for <italic>de novo</italic> assembly. Runs were performed using both a 64-core computational server with 512 gigabytes (Gb) memory and an 8-hyperthreaded core laptop with 64 Gb memory. Three assemblies were generated using the same read sets as for Miniasm. Assembly metrics, including N50, were calculated by the “abyss-stats.pl” program in ABySS<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. The assembled contigs were mapped to the PacBio-generated <italic>E. coli</italic> genome and visualized using Mauve version 2.4.0<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. Consensus pairwise identities of the <italic>de novo</italic>-assembled <italic>E. coli</italic> genomes were estimated using JSpeciesWS<sup><xref ref-type="bibr" rid="CR41">41</xref></sup> after specifying the use of MUMmer<sup><xref ref-type="bibr" rid="CR42">42</xref></sup> for pairwise identity calculations.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Electronic supplementary material</title>
+              <sec id="Sec26">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2017_18364_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Information</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Electronic supplementary material</bold>
+                </p>
+                <p><bold>Supplementary information</bold> accompanies this paper at 10.1038/s41598-017-18364-0.</p>
+              </fn>
+              <fn>
+                <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The Biomolecule Sequencer team thanks P. Whitson for performing sequencing experiments aboard the ISS is grateful to support personnel at the NASA Johnson Space Center and Marshall Space Flight Center, especially D. Voss and L. Gibson. We thank M. Weislogel for discussions on the physics of microfluidics in microgravity, Oxford Nanopore Technologies for technical and logistics support. We would also like to thank the Epigenomics Core Facility of Weill Cornell Medicine and Roger Altman. A.S.B. and S.C.W. acknowledge the ISS program office for funding. K.K.J. acknowledges support from the NASA Postdoctoral Program administered through the Universities Space Research Association. J.P.D., M.K.L. and T.A.S. acknowledge support from the NASA Astrobiology Instiute through the Goddard Center for Astrobiology. For A.B.R.M., N.A., C.E.M., we would like to thank the Epigenomics Core Facility at Weill Cornell Medicine, as well as the Starr Cancer Consortium grant (I9-A9-071) and funding from the Irma T. Hirschl and Monique Weill-Caulier Charitable Trusts, Bert L and N Kuggie Vallee Foundation, the WorldQuant Foundation, The Pershing Square Sohn Cancer Research Alliance, NASA (NNX14AH50G, 15Omni2-0063), the National Institutes of Health (R25EB020393, R01ES021006), the Bill and Melinda Gates Foundation (OPP1151054), and the Alfred P. Sloan Foundation (G-2015-13964). C.Y.C., S.F., D.S., S.S., and G.Y. are supported by the National Institutes of Health (R01-HL105704, R21-AI120977) and Abbott Laboratories, Inc.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>All authors contributed to writing the manuscript. S.L.C.W., K.K.J., J.P.D., M.L.L., D.J.S., D.J.B., T.A.S. and A.S.B. designed the procedures for in-flight sequencing and certified hardware and reagents for spaceflight. S.E.S. prepared the ground and flight samples and performed the ground control sequencing experiments. K.H.R. assisted with experiment design and performed the flight sequencing experiments. C.Y.C., S.F., D.S., S.S. and G.Y. analyzed data from flight and ground control samples, and performed orthogonal analyses on the Illumina and PacBio platforms. A.B.R.M., N.A. and C.E.M. assisted with experiment design, analyzed ground and flight data, and performed orthogonal analyses on the PacBio and Illumina platforms. S.J., D.J.T. and F.I. assisted with developing flight-compatible sample loading procedures and the development of data analysis workflows in Metrichor.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p id="Par41">Three authors (D.J.T., S.J. and F.I.) are employees of Oxford Nanopore Technologies, the company that produces the MinION sequencing technology. They assisted with experiment planning and instrument testing for flight. Analyses of nanopore data were performed independently by the bi-coastal team of the Chiu and Mason labs and the scientists at Oxford Nanopore Technologies. C.Y.C. is the director of the UCSF-Abbott Viral Diagnostics and Discovery Center and receives research support from Abbott Laboratories, Inc. All other authors declare no conflicts of interest.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>GR</given-names>
+                    </name>
+                    <name>
+                      <surname>Konstantinova</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonnenfeld</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Jennings</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in the immune system during and after spaceflight</article-title>
+                  <source>Adv Space Biol Med</source>
+                  <year>1997</year>
+                  <volume>6</volume>
+                  <fpage>1</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1569-2574(08)60076-3</pub-id>
+                  <?supplied-pmid 9048132?>
+                  <pub-id pub-id-type="pmid">9048132</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</article-title>
+                  <source>Proc Natl Acad Sci USA</source>
+                  <year>2007</year>
+                  <volume>104</volume>
+                  <fpage>16299</fpage>
+                  <lpage>16304</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0707155104</pub-id>
+                  <?supplied-pmid 17901201?>
+                  <pub-id pub-id-type="pmid">17901201</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Blaser</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Human Microbiome: at the interface of health and disease</article-title>
+                  <source>Nature reviews. Genetics</source>
+                  <year>2012</year>
+                  <volume>13</volume>
+                  <fpage>260</fpage>
+                  <lpage>270</lpage>
+                  <?supplied-pmid 22411464?>
+                  <pub-id pub-id-type="pmid">22411464</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kinross</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>von Roon</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmes</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Darzi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholson</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The human gut microbiome: implications for future health care</article-title>
+                  <source>Current gastroenterology reports</source>
+                  <year>2008</year>
+                  <volume>10</volume>
+                  <fpage>396</fpage>
+                  <lpage>403</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11894-008-0075-y</pub-id>
+                  <?supplied-pmid 18627653?>
+                  <pub-id pub-id-type="pmid">18627653</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Zaikova</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Goerlitz</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Bai</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Tighe</surname>
+                      <given-names>SW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-Time DNA Sequencing in the Antarctic Dry Valleys Using the Oxford Nanopore Sequencer</article-title>
+                  <source>Journal of Biomolecular Techniques: JBT</source>
+                  <year>2017</year>
+                  <volume>28</volume>
+                  <fpage>2</fpage>
+                  <?supplied-pmid 28337073?>
+                  <pub-id pub-id-type="pmid">28337073</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Edwards, A. <italic>et al</italic>. Deep Sequencing: Intra-Terrestrial Metagenomics Illustrates The Potential Of Off-Grid Nanopore DNA Sequencing. <italic>bioRxiv</italic><bold>133413</bold>, 10.1101/133413 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hoenen</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Nanopore sequencing as a rapidly deployable Ebola outbreak tool</article-title>
+                  <source>Emerging infectious diseases</source>
+                  <year>2016</year>
+                  <volume>22</volume>
+                  <fpage>331</fpage>
+                  <pub-id pub-id-type="doi">10.3201/eid2202.151796</pub-id>
+                  <?supplied-pmid 26812583?>
+                  <pub-id pub-id-type="pmid">26812583</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Quick</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Real-time, portable genome sequencing for Ebola surveillance</article-title>
+                  <source>Nature</source>
+                  <year>2016</year>
+                  <volume>530</volume>
+                  <fpage>228</fpage>
+                  <lpage>232</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature16996</pub-id>
+                  <?supplied-pmid 26840485?>
+                  <pub-id pub-id-type="pmid">26840485</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McIntyre</surname>
+                      <given-names>AB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Nanopore sequencing in microgravity</article-title>
+                  <source>npj Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>16035</fpage>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.35</pub-id>
+                  <?supplied-pmid 28725742?>
+                  <pub-id pub-id-type="pmid">28725742</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naccache</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A cloud-compatible bioinformatics pipeline for ultrarapid pathogen identification from next-generation sequencing of clinical samples</article-title>
+                  <source>Genome research</source>
+                  <year>2014</year>
+                  <volume>24</volume>
+                  <fpage>1180</fpage>
+                  <lpage>1192</lpage>
+                  <pub-id pub-id-type="doi">10.1101/gr.171934.113</pub-id>
+                  <?supplied-pmid 24899342?>
+                  <pub-id pub-id-type="pmid">24899342</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Greninger</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Rapid metagenomic identification of viral pathogens in clinical samples by real-time nanopore sequencing analysis</article-title>
+                  <source>Genome medicine</source>
+                  <year>2015</year>
+                  <volume>7</volume>
+                  <fpage>99</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13073-015-0220-9</pub-id>
+                  <?supplied-pmid 26416663?>
+                  <pub-id pub-id-type="pmid">26416663</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <mixed-citation publication-type="other">Li, H. Minimap: Experimental tool to find approximate mapping positions between long sequences <ext-link ext-link-type="uri" xlink:href="https://github.com/lh3/minimap/">https://github.com/lh3/minimap/</ext-link> (2015).</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Koren, S. <italic>et al</italic>. Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation. <italic>bioRxiv</italic>; 10.1101/071282 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <mixed-citation publication-type="other">Koren, S., Walenz, B. P., K, B., Miller, J. R. &amp; Phillippy, A. M. Canu: scalable and accurate long-read asembly via adaptive k-mer weighting and repeat separation. <italic>bioRxiv</italic>, 10.1101/071282 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <mixed-citation publication-type="other">Judge, K. <italic>et al</italic>. Comparison of bacterial genome assembly software for MinION data and their applicability to medical microbiology. <italic>Microbial Genomics</italic><bold>2</bold>; 10.1099/mgen.0.000085 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parra</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station</article-title>
+                  <source>PLOS ONE</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <fpage>e0183480</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0183480</pub-id>
+                  <?supplied-pmid 28877184?>
+                  <pub-id pub-id-type="pmid">28877184</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rizzardi</surname>
+                      <given-names>LF</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evaluation of techniques for performing cellular isolation and preservation during microgravity conditions</article-title>
+                  <source>Npj Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>16025</fpage>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.25</pub-id>
+                  <?supplied-pmid 28725735?>
+                  <pub-id pub-id-type="pmid">28725735</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goodwin</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>McCombie</surname>
+                      <given-names>WR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Coming of age: ten years of next-generation sequencing technologies</article-title>
+                  <source>Nat Rev Genet</source>
+                  <year>2016</year>
+                  <volume>17</volume>
+                  <fpage>333</fpage>
+                  <lpage>351</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrg.2016.49</pub-id>
+                  <?supplied-pmid 27184599?>
+                  <pub-id pub-id-type="pmid">27184599</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rand</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mapping DNA methylation with high-throughput nanopore sequencing</article-title>
+                  <source>nature methods</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <fpage>411</fpage>
+                  <lpage>413</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.4189</pub-id>
+                  <?supplied-pmid 28218897?>
+                  <pub-id pub-id-type="pmid">28218897</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Detecting DNA cytosine methylation using nanopore sequencing</article-title>
+                  <source>nature methods</source>
+                  <year>2017</year>
+                  <volume>14</volume>
+                  <fpage>407</fpage>
+                  <lpage>410</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.4184</pub-id>
+                  <?supplied-pmid 28218898?>
+                  <pub-id pub-id-type="pmid">28218898</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Quick</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Real-time, portable genome sequencing for Ebola surveillance</article-title>
+                  <source>Nature</source>
+                  <year>2016</year>
+                  <volume>530</volume>
+                  <fpage>228</fpage>
+                  <lpage>232</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature16996</pub-id>
+                  <?supplied-pmid 26840485?>
+                  <pub-id pub-id-type="pmid">26840485</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sardi</surname>
+                      <given-names>SI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Coinfections of Zika and Chikungunya viruses in Bahia, Brazil, identified by metagenomic next-generation sequencing</article-title>
+                  <source>Journal of clinical microbiology</source>
+                  <year>2016</year>
+                  <volume>54</volume>
+                  <fpage>2348</fpage>
+                  <lpage>2353</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JCM.00877-16</pub-id>
+                  <?supplied-pmid 27413190?>
+                  <pub-id pub-id-type="pmid">27413190</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kilianski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Use of Unamplified RNA/cDNA–Hybrid Nanopore Sequencing for Rapid Detection and Characterization of RNA Viruses</article-title>
+                  <source>Emerging infectious diseases</source>
+                  <year>2016</year>
+                  <volume>22</volume>
+                  <fpage>1448</fpage>
+                  <pub-id pub-id-type="doi">10.3201/eid2208.160270</pub-id>
+                  <?supplied-pmid 27191483?>
+                  <pub-id pub-id-type="pmid">27191483</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space radiation cancer risks and uncertainties for Mars missions</article-title>
+                  <source>Radiation research</source>
+                  <year>2001</year>
+                  <volume>156</volume>
+                  <fpage>682</fpage>
+                  <lpage>688</lpage>
+                  <pub-id pub-id-type="doi">10.1667/0033-7587(2001)156[0682:SRCRAU]2.0.CO;2</pub-id>
+                  <?supplied-pmid 11604093?>
+                  <pub-id pub-id-type="pmid">11604093</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hassler</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mars’ surface radiation environment measured with the Mars Science Laboratory’s Curiosity rover</article-title>
+                  <source>Science</source>
+                  <year>2013</year>
+                  <volume>343</volume>
+                  <issue>6169</issue>
+                  <fpage>1244797</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1244797</pub-id>
+                  <?supplied-pmid 24324275?>
+                  <pub-id pub-id-type="pmid">24324275</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zeitlin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory</article-title>
+                  <source>Science</source>
+                  <year>2013</year>
+                  <volume>340</volume>
+                  <fpage>1080</fpage>
+                  <lpage>1084</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1235989</pub-id>
+                  <?supplied-pmid 23723233?>
+                  <pub-id pub-id-type="pmid">23723233</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ruhl</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Integrity of proteins in human saliva after sterilization by gamma irradiation</article-title>
+                  <source>Appl. Environ. Microbiol</source>
+                  <year>2011</year>
+                  <volume>77</volume>
+                  <fpage>749</fpage>
+                  <lpage>755</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.01374-10</pub-id>
+                  <?supplied-pmid 21148692?>
+                  <pub-id pub-id-type="pmid">21148692</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <mixed-citation publication-type="other">Smith, A. M., Jain, M., Mulroney, L., Garalde, D. R. &amp; Akeson, M. Reading canonical and modified nucleotides in 16S ribosomal RNA using nanopore direct RNA sequencing. <italic>bioRxiv</italic>, <bold>132274</bold>; 10.1101/132274 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Garalde, D. R. <italic>et al</italic>. Highly parallel direct RNA sequencing on an array of nanopores. <italic>bioRxiv</italic><bold>068809</bold>, 10.1101/068809 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <mixed-citation publication-type="other">Nivala, J., Marks, D. B. &amp; Akeson, M. Unfoldase-mediated protein translocation through an alpha-hemolysin nanopore. <italic>Nat Biotechnol</italic><bold>31</bold>, 247–250, doi: 1038/nbt.2503 (2013).</mixed-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Langmead</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Salzberg</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fast gapped-read alignment with Bowtie 2</article-title>
+                  <source>Nat Methods</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>357</fpage>
+                  <lpage>359</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id>
+                  <?supplied-pmid 22388286?>
+                  <pub-id pub-id-type="pmid">22388286</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sovic</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fast and sensitive mapping of nanopore sequencing reads with GraphMap</article-title>
+                  <source>Nature communications</source>
+                  <year>2016</year>
+                  <volume>7</volume>
+                  <fpage>11307</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms11307</pub-id>
+                  <?supplied-pmid 27079541?>
+                  <pub-id pub-id-type="pmid">27079541</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Katoh</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Standley</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability</article-title>
+                  <source>Molecular Biology and Evolution</source>
+                  <year>2013</year>
+                  <volume>30</volume>
+                  <fpage>772</fpage>
+                  <lpage>780</lpage>
+                  <pub-id pub-id-type="doi">10.1093/molbev/mst010</pub-id>
+                  <?supplied-pmid 23329690?>
+                  <pub-id pub-id-type="pmid">23329690</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chin</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data</article-title>
+                  <source>Nat Methods</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <fpage>563</fpage>
+                  <lpage>569</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.2474</pub-id>
+                  <?supplied-pmid 23644548?>
+                  <pub-id pub-id-type="pmid">23644548</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bankevich</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing</article-title>
+                  <source>J Comput Biol</source>
+                  <year>2012</year>
+                  <volume>19</volume>
+                  <fpage>455</fpage>
+                  <lpage>477</lpage>
+                  <pub-id pub-id-type="doi">10.1089/cmb.2012.0021</pub-id>
+                  <?supplied-pmid 22506599?>
+                  <pub-id pub-id-type="pmid">22506599</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Altschul</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>Gish</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Myers</surname>
+                      <given-names>EW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Basic local alignment search tool</article-title>
+                  <source>J Mol Biol</source>
+                  <year>1990</year>
+                  <volume>215</volume>
+                  <fpage>403</fpage>
+                  <lpage>410</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0022-2836(05)80360-2</pub-id>
+                  <?supplied-pmid 2231712?>
+                  <pub-id pub-id-type="pmid">2231712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pruitt</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                    <name>
+                      <surname>Tatusova</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Maglott</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</article-title>
+                  <source>Nucleic Acids Research</source>
+                  <year>2007</year>
+                  <volume>35</volume>
+                  <fpage>D61</fpage>
+                  <lpage>D65</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkl842</pub-id>
+                  <?supplied-pmid 17130148?>
+                  <pub-id pub-id-type="pmid">17130148</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huson</surname>
+                      <given-names>DH</given-names>
+                    </name>
+                    <name>
+                      <surname>Auch</surname>
+                      <given-names>AF</given-names>
+                    </name>
+                    <name>
+                      <surname>Qi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuster</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MEGAN analysis of metagenomic data</article-title>
+                  <source>Genome Research</source>
+                  <year>2007</year>
+                  <volume>17</volume>
+                  <fpage>377</fpage>
+                  <lpage>386</lpage>
+                  <pub-id pub-id-type="doi">10.1101/gr.5969107</pub-id>
+                  <?supplied-pmid 17255551?>
+                  <pub-id pub-id-type="pmid">17255551</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>ABySS: a parallel assembler for short read sequence data</article-title>
+                  <source>Genome Res</source>
+                  <year>2009</year>
+                  <volume>19</volume>
+                  <fpage>1117</fpage>
+                  <lpage>1123</lpage>
+                  <pub-id pub-id-type="doi">10.1101/gr.089532.108</pub-id>
+                  <?supplied-pmid 19251739?>
+                  <pub-id pub-id-type="pmid">19251739</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Darling</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <name>
+                      <surname>Mau</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Perna</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>T. progressiveMauve: multiple genome alignment with gene gain, loss and rearrangement</article-title>
+                  <source>PLoS One</source>
+                  <year>2010</year>
+                  <volume>5</volume>
+                  <fpage>e11147</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0011147</pub-id>
+                  <?supplied-pmid 20593022?>
+                  <pub-id pub-id-type="pmid">20593022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rossello-Mora</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Oliver Glockner</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Peplies</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>JSpeciesWS: a web server for prokaryotic species circumscription based on pairwise genome comparison</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2016</year>
+                  <volume>32</volume>
+                  <fpage>929</fpage>
+                  <lpage>931</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btv681</pub-id>
+                  <?supplied-pmid 26576653?>
+                  <pub-id pub-id-type="pmid">26576653</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kurtz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Versatile and open software for comparing large genomes</article-title>
+                  <source>Genome Biol</source>
+                  <year>2004</year>
+                  <volume>5</volume>
+                  <fpage>R12</fpage>
+                  <pub-id pub-id-type="doi">10.1186/gb-2004-5-2-r12</pub-id>
+                  <?supplied-pmid 14759262?>
+                  <pub-id pub-id-type="pmid">14759262</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

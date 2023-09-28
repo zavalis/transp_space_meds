@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:05:38Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3589462" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3589462</identifier>
+        <datestamp>2013-03-07</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3589462</article-id>
+              <article-id pub-id-type="pmcid">PMC3589462</article-id>
+              <article-id pub-id-type="pmc-uid">3589462</article-id>
+              <article-id pub-id-type="pmid">23472115</article-id>
+              <article-id pub-id-type="pmid">23472115</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-12-34870</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0057860</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology</subject>
+                  <subj-group>
+                    <subject>Computational Biology</subject>
+                    <subj-group>
+                      <subject>Molecular Genetics</subject>
+                      <subj-group>
+                        <subject>Gene Expression</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Genetics</subject>
+                    <subj-group>
+                      <subject>Molecular Genetics</subject>
+                      <subj-group>
+                        <subject>Gene Regulation</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Genomics</subject>
+                    <subj-group>
+                      <subject>Genome Analysis Tools</subject>
+                      <subj-group>
+                        <subject>Transcriptomes</subject>
+                      </subj-group>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Microbiology</subject>
+                    <subj-group>
+                      <subject>Bacteriology</subject>
+                      <subj-group>
+                        <subject>Bacterial Physiology</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Microbial Metabolism</subject>
+                      <subject>Microbial Physiology</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Molecular Cell Biology</subject>
+                    <subj-group>
+                      <subject>Cellular Stress Responses</subject>
+                      <subject>Gene Expression</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Effect of Simulated Microgravity on <italic>E. coli</italic> K12 MG1655 Growth and Gene Expression</article-title>
+                <alt-title alt-title-type="running-head">Microgravity Induced Expression of Genes in <italic>E.coli</italic></alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arunasri</surname>
+                    <given-names>Kotakonda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Adil</surname>
+                    <given-names>Mohammed</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Venu Charan</surname>
+                    <given-names>Katari</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Suvro</surname>
+                    <given-names>Chatterjee</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Himabindu Reddy</surname>
+                    <given-names>Seerapu</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shivaji</surname>
+                    <given-names>Sisinthy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Centre for Cellular and Molecular Biology, Hyderabad, India</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Vascular Biology Lab, Anna University, Chennai, India</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Ahmed</surname>
+                    <given-names>Niyaz</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">
+                <addr-line>University of Hyderabad, India</addr-line>
+              </aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>shivas@ccmb.res.in</email></corresp>
+                <fn fn-type="COI-statement">
+                  <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+                </fn>
+                <fn fn-type="con">
+                  <p>Provided facilities and technical help: CS SHR. Conceived and designed the experiments: SS. Performed the experiments: KA MA KVC. Analyzed the data: SS KA. Wrote the paper: SS KA.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2013</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>5</day>
+                <month>3</month>
+                <year>2013</year>
+              </pub-date>
+              <volume>8</volume>
+              <issue>3</issue>
+              <elocation-id>e57860</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>9</day>
+                  <month>11</month>
+                  <year>2012</year>
+                </date>
+                <date date-type="accepted">
+                  <day>26</day>
+                  <month>1</month>
+                  <year>2013</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2013 Arunasri et al</copyright-statement>
+                <copyright-year>2013</copyright-year>
+                <copyright-holder>Arunasri et al</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>This study demonstrates the effects of simulated microgravity on <italic>E. coli</italic> K 12 MG1655 grown on LB medium supplemented with glycerol. Global gene expression analysis indicated that the expressions of hundred genes were significantly altered in simulated microgravity conditions compared to that of normal gravity conditions. Under these conditions genes coding for adaptation to stress are up regulated (<italic>sufE</italic> and <italic>ssrA</italic>) and simultaneously genes coding for membrane transporters (<italic>ompC, exbB, actP, mgtA, cysW</italic> and <italic>nikB</italic>) and carbohydrate catabolic processes (<italic>ldcC, ptsA, rhaD</italic> and <italic>rhaS</italic>) are down regulated. The enhanced growth in simulated gravity conditions may be because of the adequate supply of energy/reducing equivalents and up regulation of genes involved in DNA replication (<italic>srmB</italic>) and repression of the genes encoding for nucleoside metabolism (<italic>dfp, pyrD</italic> and <italic>spoT</italic>). In addition, <italic>E. coli</italic> cultured in LB medium supplemented with glycerol (so as to protect the cells from freezing temperatures) do not exhibit multiple stress responses that are normally observed when cells are exposed to microgravity in LB medium without glycerol.</p>
+              </abstract>
+              <funding-group>
+                <funding-statement>The project was funded by ISRO, India up to March 2012. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+              <counts>
+                <page-count count="10"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Microbes have the ability to sense and respond to environmental changes occurring in their vicinity. This adaptability confers on them the capacity to thrive under various extreme environmental niches including microgravity. When exposed to microgravity cells experience reduced gravity resulting in a relative lack of sedimentation, low shear stress and low turbulence <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>. These physical effects of microgravity may influence the growth and also induce other physiological changes. Studies have indicated that bacteria exposed to reduced gravity exhibit up regulation of genes involved in starvation response, acid stress, osmotic stress, oxidative stress, biofilm formation, curli biosynthesis and lipid biosynthesis <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>–<xref rid="pone.0057860-Wilson1" ref-type="bibr">[3]</xref>. Resistance towards antibiotics and increase in virulence was also reported in different bacteria exposed to microgravity <xref rid="pone.0057860-Rosenzweig1" ref-type="bibr">[4]</xref>–<xref rid="pone.0057860-Wilson2" ref-type="bibr">[6]</xref>. The above effects of microgravity on bacteria are possibly dependent on the specific media used for culturing the bacteria <xref rid="pone.0057860-Baker1" ref-type="bibr">[7]</xref>–<xref rid="pone.0057860-Benoit1" ref-type="bibr">[9]</xref>.</p>
+              <p>Functional genomic technologies <xref rid="pone.0057860-Simon1" ref-type="bibr">[10]</xref> using <italic>Escherichia coli</italic> strains as a model organism have provided insights in to the effects of microgravity at the genome level. Tucker et al., <xref rid="pone.0057860-Tucker1" ref-type="bibr">[11]</xref> demonstrated that the expression of genes in <italic>E. coli</italic> under microgravity conditions varied depending on whether the culture was grown on minimal medium or rich medium like Luria-Bertani (LB) broth <xref rid="pone.0057860-Tucker1" ref-type="bibr">[11]</xref>. Subsequently, Vukanti et al., <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> using DNA microarrays and <italic>E. coli</italic> K 12 identified a number of genes that were significantly altered in expression under microgravity conditions <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>. In two recent studies again in <italic>Escherichia coli</italic> it was clearly demonstrated that microgravity induced expression of multiple stress genes depends on the nutritional status and nutrient resources modulate the responses <xref rid="pone.0057860-Vukanti2" ref-type="bibr">[12]</xref>–<xref rid="pone.0057860-Vukanti3" ref-type="bibr">[13]</xref>. Further, in <italic>Salmonella typhimurium</italic> microgravity decreased the virulence of the bacteria if LB medium was supplemented with phosphate ions <xref rid="pone.0057860-Wilson2" ref-type="bibr">[6]</xref>. Taken together all these studies substantiate that media composition influences the changes occurring in gene expression under microgravity condition.</p>
+              <p>In this study, a clinostat that mimics microgravity conditions was used to investigate the effects of microgravity on <italic>E. coli</italic> K12 MG1655 grown in LB medium supplemented with glycerol to monitor the effects on growth and global gene expression. The need for supplementing LB with glycerol was crucial because the incubator in which the bacteria is proposed to be grown at 30°C in space, under microgravity conditions, in a space recovery capsule due to unforeseen reasons may fail and the incubation temperature may decrease to below 0°C. Such unforeseen failures are not very uncommon in space flights. Haga and Saleh <xref rid="pone.0057860-Haga1" ref-type="bibr">[14]</xref> analysed 168 satellites that were launched during 1995 to 2009 and recorded a total of 170 failure events which included 62 minor, 105 major and 3 fatal failure events. Thus, it may be essential to culture the bacterium in the presence of glycerol to protect the cultures from any kind of power failure in the spacecraft resulting in freezing temperatures.</p>
+              <p>The present study differs from the earlier studies in that the LB medium used in the present study is supplemented with glycerol. There is a reasonable chance to assume that the response of the bacterium to microgravity may vary with respect to growth and expression of genes. These assumptions are based on the earlier findings that media components influence the growth and expression of genes of bacteria exposed to microgravity <xref rid="pone.0057860-Tucker1" ref-type="bibr">[11]</xref>–<xref rid="pone.0057860-Vukanti3" ref-type="bibr">[13]</xref>. In addition it would be interesting to see how glycerol supplementation in the medium would help to overcome the nutrient limiting conditions imposed due to a nutrient depletion zone formed when cells are grown under microgravity conditions <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>, <xref rid="pone.0057860-Benoit1" ref-type="bibr">[9]</xref>.</p>
+              <p>The results of the present study is in accordance with earlier studies that had indicated that <italic>E. coli</italic> exhibits enhanced growth rate and that several genes are differentially expressed when exposed to microgravity <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>, <xref rid="pone.0057860-Vukanti2" ref-type="bibr">[12]</xref>–<xref rid="pone.0057860-Vukanti3" ref-type="bibr">[13]</xref>. But, the genes that were differentially regulated were not identical. For instance Vukanti et al., <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> observed that many of the genes that were up regulated were identified as stress-inducible genes and included starvation-inducible genes, genes associated with multiple stress responses, genes involved in biofilm formation, curli biosynthesis and lipid biosynthesis <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>. None of these genes were up regulated in the current study implying that the presence of glycerol in both the control and microgravity exposed cultures nullified the up regulation of stress-inducible genes.</p>
+              <p>Further, the genes that facilitate the formation of the nutrient depletion zone in cells grown under microgravity conditions such as up regulation of genes coding for nutrient transport and metabolic enzymes and simultaneously down regulation of genes associated with translation apparatus, DNA replication and cell division <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> were not differentially expressed in the presence of glycerol in the medium. Thus implying that glycerol may not favour the formation of a nutrient depletion zone since it could be utilized as a carbon source. In fact the study also indicates that the enhanced growth of <italic>E. coli</italic> under microgravity may be because of adequate supply of energy/reducing equivalents and increase in transcripts for DNA replication.</p>
+              <p>This study also for the first time assigns the differentially regulated genes to sixteen different functional pathways such as several metabolic pathways (purine, pyrimidine, carbohydrate, amino acid etc.), ABC transporter systems, two component systems etc., by KEGG (Kyoto Encyclopedia of Genes and Genomes). In addition, DAVID (Database for Annotation, Visualization and Integrated Discovery) was used for geneontology annotations and the analysis yielded up regulated genes involved in DNA transcription and regulation of transcription, genes coding for integral membrane proteins, ion binding and DNA binding etc. The 21 down regulated genes were implicated in nitrogen and amine compound biosynthetic process, ion transport, carbohydrate catabolic process and nucleoside metabolic process. DAVID analysis also annotated genes involved in cellular components such as cell wall, cell membrane and organelle membrane and seven hypothetical protein coding genes namely <italic>yfjD, ydcQ, ynfA, ybdJ, yniB, ygaQ</italic> and <italic>hokE</italic> were assigned to various functional processes in response to microgravity conditions in <italic>E. coli</italic>.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2a">
+                <title>Bacterial Strain and Growth Conditions</title>
+                <p>In this study, <italic>Escherichia coli</italic> K12 MG1655 was grown in LB broth (containing 10 g peptone, 10 g NaCl and 5 g yeast extract in 1000 ml distilled water) which was supplemented with 10% (v/v) glycerol (hereafter LB) at 30°C. To develop the inoculums, a single colony of <italic>E. coli</italic> K 12 MG1655 from the LB agar plate was inoculated into LB broth and incubated for growth under shaking at 150 rpm and at 30°C. <italic>E. coli</italic> growth was monitored by measuring absorbance at 600 nm. <italic>E. coli</italic> grown to a OD of 0.8 (10<sup>6</sup> CFU/ml) was used as inoculum for all the experiments unless otherwise mentioned.</p>
+              </sec>
+              <sec id="s2b">
+                <title>Growth of <italic>E. coli</italic> K12 MG1655 in a Clinostat</title>
+                <p>A three-dimensional (3D) clinostat is an apparatus that nullifies the effect of gravity, and it has been used to evaluate the effects of microgravity on cells <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>, <xref rid="pone.0057860-Gruener1" ref-type="bibr">[15]</xref>. A 3D clinostat is capable of randomizing motion and thus cancels the uniform gravity influence and as a consequence an object is subjected to weightlessness which is referred commonly as simulated microgravity. The formula for microgravity (g′) is g′ = ω2R/g where g = 9.8 m/s<sup>2</sup>, R = radius from the centre of rotation, ω = constant angular velocity (ω) where angular velocity is equal to angular displacement in radians/time taken (θ/τ). The angular velocity obtained using the clinostat was 2 rads/s. At this angular velocity, the simulated microgravity is 1×10<sup>−3</sup>
+<xref rid="pone.0057860-Huijser1" ref-type="bibr">[16]</xref>. The microgravity in the present study was 1×10<sup>−3</sup>.</p>
+                <p>To 300 ml of LB medium 3.0 ml of logarithmically growing <italic>E. coli</italic> culture (0.8 OD) was added and 15 ml of this inoculum was distributed into 15 ml separate vessels and grown in clinostat at 30°C. Under these conditions the g was 1×10<sup>−3</sup>
+<italic>g</italic>. After every one hour interval one vessel was detached from the instrument and OD<sub>600nm</sub> of the culture was determined and used to construct the growth curves. <italic>E. coli</italic> culture that was setup as above and grown in an incubator shaker at 30°C under normal gravity conditions served as control. Data of three experiments that were conducted under similar conditions separately was considered in plotting the growth curves.</p>
+                <p>For simulated microgravity studies, 50 ml of the LB broth was inoculated with 500 µl of logarithmically growing <italic>E. coli</italic> culture and grown in a 50 ml vessel in a clinostat at 30°C. A control was set up as above and grown under normal gravity conditions in an incubator shaker at 30°C. Three separate vessels were maintained under each condition. When the OD<sub>600nm</sub> reached 0.8, 10 ml of the culture collected from each of these vessels was suspended in 3 volumes of RNA<italic>later</italic> solution (Ambion Inc., USA) in their respective sample bottles and stored at 4°C. From the stored culture 3 ml was used for the isolation of RNA.</p>
+              </sec>
+              <sec id="s2c">
+                <title>RNA Extraction</title>
+                <p>Qiagen RNeasy mini-prep kit was used for the extraction of RNA from about 3 ml of <italic>E. coli</italic> culture. The culture was pelleted, suspended in 200 µl Tris-lysozymemixture at room temperature for 5 min and then subjected to lysis with 700 µl of lysis buffer containing 1% β-mercaptoethanol. Lysis was facilitated by vigorous vortexing the suspension of cells for 5 min. Absolute ethanol (500 µl) was added and the mixture was transferred to a mini-spin column placed in a 2 ml centrifuge tube and centrifuged at 13,000 rpm for 30 s. At this stage, 10 µl of DNase prepared in 90 µl of buffer was added to the columns and the columns were kept at room temperature for 10 min. The columns were then washed at 13,000 rpm for 30 s with 500 µl of wash buffers RW1 and purified RNA was collected in 20 µl of RNase-free water after centrifugation at 13,000 rpm for 2 min. Quality of the purified RNA was assessed following gel electrophoresis and the OD 260/280 ratio of the purified RNA ranged from 1.8–2.0. Quantification of the RNA was done using a Nanodrop spectrophotometer (Nano Drop Technologies, USA).</p>
+              </sec>
+              <sec id="s2d">
+                <title>cDNA Synthesis</title>
+                <p>RNA (5–10 µg) extracted as above was used for cDNA synthesis using the first strand cDNA synthesis kit from Invitrogen (Invitrogen Bioservices India Pvt. Ltd., Bangalore). Annealing of the primers with the purified RNA was accomplished by incubating the RNA and primer reaction mix at 70°C for 10 min followed by incubation at 25°C for 10 min. cDNA was then synthesized by adding superscript III and incubating the reaction mixture at 25°C for 10 min, 37°C for 60 min, 42°C for 60 min and 70°C for 10 min. The cDNA was fragmented with DNAse 1 (Promega Corporation, Madison, USA) and then labelled with biotin at the 3′ end using the labelling reagent from Affymetrix (CA, USA) and Terminal transferase enzyme (Promega).</p>
+              </sec>
+              <sec id="s2e">
+                <title>DNA Microarray Analysis</title>
+                <p><italic>E.coli</italic> Genome 2.0 gene chip arrays were purchased from Affymetrix. The chip contained the complete genome of four <italic>E. coli</italic> strains (viz., non-pathogenic <italic>E. coli</italic> K12 MG1655, uropathogenic <italic>E. coli</italic> strain CFT073 and enterohemorragic <italic>E. coli</italic> O157:H7 strains EDL 933 and Sakai). The gene chip consists of approximately 10,000 probe sets for the 20,366 genes of all the four strains of <italic>E. coli</italic>. DNA micro array chips were hybridized with the labelled cDNA using the Affymetrix protocol (<ext-link ext-link-type="uri" xlink:href="http://www.affymetrix.com">www.affymetrix.com</ext-link>). Microarray slides were then scanned using Affymetrix 428 Array Scanner and GCOS software to obtain images of the chips and further processed to get intensity cell files for the probe sets. The intensity cell files were then imported normalized for background correction and data analysed using Gene Spring 11.5 software. Genes that exhibited ≥1.5 fold increase or decrease (treated versus control) in expression and P≤0.05 were considered as differentially regulated due to microgravity.</p>
+                <p>The microarray data was submitted to Gene Expression Omnibus (GEO) web deposit of National Centre for Biotechnology Information (NCBI) with an accession number GSE40648.</p>
+              </sec>
+              <sec id="s2f">
+                <title>Real Time PCR</title>
+                <p>The RT-PCR reactions (10 µl) were performed in triplicate with 2.5 pM primer (<xref ref-type="table" rid="pone-0057860-t001">Table 1</xref>) and SYBER Green PCR Master Mix (Applied Biosystems, CA, USA). Template was pre-incubated at 50°C for 2 min, denatured at 95°C for 10 min and subjected to 40 cycles under the following thermal conditions: 95°C (15 s) and 52°C (30 s). Relative expression of genes was calculated by ΔΔC<sub>T</sub> method which is based on product cycle threshold (C<sub>T</sub>). Expression of 16S rRNA gene was used as an internal standard for RT-PCR. All values reported represent the mean of at least three independent experiments.</p>
+                <table-wrap id="pone-0057860-t001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.t001</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>Primers used for Real-Time PCR analysis of a few genes of <italic>Escherichia coli.</italic>
+</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0057860-t001-1" xlink:href="pone.0057860.t001"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Sl.No.</td>
+                          <td align="left" rowspan="1" colspan="1">Gene</td>
+                          <td align="left" rowspan="1" colspan="1">Primer</td>
+                          <td align="left" rowspan="1" colspan="1">Sequence (5′-3′)</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hyaE</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hyaE-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">CTTGACGACTGGCTTACG</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">hyaE-rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GCCACCTGCCATGTATAG</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>mdtD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">mdt-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">TTATCGTCGGGTACTGGTAG</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">mdtD -rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GAGTTGACCATCCCTTGTAA</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">3</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>srmB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">srmB-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">AACATATTGCTGGCGAAA</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">srmB-rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GAGGGATTGGCAGAAACT</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">4</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>pyrD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">pyrD-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GAAGAATTGATCCAGGTTGC</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">pyrD-rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">TCCCTGAACAAGAGAACGAT</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>rhaD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">rhaD-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GCGAATGTTTTTGCATCTCT</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">rhaD -rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">CGAGTGTCTGGTGGTATTC</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yicL</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">yicL-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">CGTCGCAGTTTTTGACTATG</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">yicL -rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">AAAAATCAGCAGGCTAATGG</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ldcC</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">ldcC-rt F</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">TGTTGATGCCTGGAGAAA</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">ldcC-rt R</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">TCAAAACCGGGGTAATGT</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>16S</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">16S-rtF</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">GTGCAATATTCCCCACTGCT</named-content>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1"/>
+                          <td align="left" rowspan="1" colspan="1">16S-rtR</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <named-content content-type="gene">CGATCCCTAGCTGGTCTGAG</named-content>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+              </sec>
+              <sec id="s2g">
+                <title>Assignment of the Differentially Regulated Genes to Functional Pathways by KEGG and DAVID</title>
+                <p>Genes identified by the microarray analysis were analyzed to identify relevant functional pathways by KEGG (Kyoto Encyclopedia of Genes and Genomes) and DAVID (Database for Annotation, Visualization and Integrated Discovery). A cutoff p value of 0.05 was used for enriched KEGG pathways and geneontology functions by DAVID. Out of 100 genes that were differentially regulated only 57 genes were considered for analysis using KEGG and DAVID. The remaining 43 genes that coded for unknown or intergenic regions were not included in the analysis.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <sec id="s3a">
+                <title>Growth of <italic>E. coli</italic> in the Clinostat</title>
+                <p>Growth of <italic>E. coli</italic> was monitored under both simulated microgravity conditions and normal gravity conditions. Cultures grown in the clinostat exhibited enhanced growth rate and reached the stationary phase earlier than the culture grown at normal gravity (<xref ref-type="fig" rid="pone-0057860-g001">Fig.1</xref>).</p>
+                <fig id="pone-0057860-g001" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Growth of <italic>E. coli</italic> at 30°C under microgravity conditions in a clinostat (□) and under normal gravity (▪) conditions.</title>
+                  </caption>
+                  <graphic xlink:href="pone.0057860.g001"/>
+                </fig>
+              </sec>
+              <sec id="s3b">
+                <title>Expression of Genes in <italic>E. coli</italic> Grown in a Clinostat</title>
+                <p>In <italic>E. coli</italic> grown under simulated microgravity conditions hundred genes were differentially expressed with a fold change ≥1.5 (P≤0.05). Three chips were used for control and experimental conditions respectively. Fifty three genes were up regulated while forty seven genes were down regulated under simulated microgravity conditions (<xref ref-type="table" rid="pone-0057860-t002">Tables 2</xref> and <xref ref-type="table" rid="pone-0057860-t003">3</xref> and <xref ref-type="fig" rid="pone-0057860-g002">Fig. 2</xref>). The up regulated genes were identified as genes coding for ATP-dependent DNA helicase (<italic>srmB</italic>), multidrug efflux system protein (<italic>mdtD/yegB</italic>), cysteine desulfuration protein involved in oxidative stress (<italic>sufE/ynhA),</italic> periplasmic proteins involved in metal detoxification (<italic>cusF</italic>), chaperone for hydrogenase isoenzyme (<italic>hyaE</italic>), a DNA binding transcriptional regulator (<italic>IlvY</italic>), non coding RNA genes (<italic>ryjA</italic> and <italic>ssrA</italic>), one pseudo gene (<italic>intK</italic>), twelve hypothetical proteins (<italic>ymgG, yaiB, ybdJ, hokE, mokB, ydcQ, ynfA, yniB, ECs3519, ybaM, ydbL</italic> and <italic>ydfO</italic>), thirty one intergenic region genes and one gene coding for an unknown protein (<xref ref-type="table" rid="pone-0057860-t002">Table 2</xref>).</p>
+                <fig id="pone-0057860-g002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>DNA microarray analysis of clinostat-induced gene expression in <italic>E. coli.</italic>
+</title>
+                    <p>The Volcano plot depicts gene expression in <italic>E. coli</italic> culture at 0.8 OD (OD<sub>600 nm</sub>) cultured in the presence of 10% glycerol under microgravity conditions compared to the control. Genes that are represented on the right side of the volcano-axis are up regulated and those that are on left side of the axis are down regulated. Out of the 4377 genes (O) analysed, 53genes were upregulated (•) and 47were down regulated (•).Only those genes that showed more than 1.5 fold change in expression and a P value &lt;0.05 were identified as either up- or down-regulated. The x-axis represents the fold change and the dark vertical lines represent cut-offs at 1.5 fold decrease and increase. The y-axis represents the p-values and the dark horizontal line indicates a p value cut-off of 0.05.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0057860.g002"/>
+                </fig>
+                <table-wrap id="pone-0057860-t002" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.t002</object-id>
+                  <label>Table 2</label>
+                  <caption>
+                    <title>Microgravity-induced up regulation of genes in <italic>Escherichia coli.</italic>
+</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0057860-t002-2" xlink:href="pone.0057860.t002"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Probe set ID</td>
+                          <td align="left" rowspan="1" colspan="1">Fold change<xref ref-type="table-fn" rid="nt101">*</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">Gene</td>
+                          <td align="left" rowspan="1" colspan="1">Gene function</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761737_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>srmB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">ATP-dependent RNA helicase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764160_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>mdtD/yegB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">multidrug efflux system protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759467_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>sufE/ynhA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">cysteine desufuration protein SufE</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761044_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>cusF</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">periplasmic copper-binding protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761315_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hyaE</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hydrogenase-1 operon protein HyaE</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768123_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ilvY</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">DNA-binding transcriptional regulator IlvY</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767538_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>intK</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">pseudo</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760679_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.1</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ryjA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">ncRNA</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762568_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ssrA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">misc_RNA/tmRNA</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763277_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ymgG</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1769259_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yaiB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765637_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ybdJ</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764857_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hokE</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762609_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>mokB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764733_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ydcQ</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760864_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ynfA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766918_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yniB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763411_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ECs3519</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760935_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ybaM</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766171_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ydbL</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763909_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ydfO</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767707_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">Unknown</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764171_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767139_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762045_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765005_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768087_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765131_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.9</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763703_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761358_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761890_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762015_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.1</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761719_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760269_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761431_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767216_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.1</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760296_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763899_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759771_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Probe set ID</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Fold change</bold>
+                            <xref ref-type="table-fn" rid="nt101">*</xref>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Gene</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Gene function</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765387_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765961_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762257_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767591_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761987_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765027_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765126_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762765_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767249_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764126_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767857_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766406_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764615_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763140_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt101">
+                      <label>*</label>
+                      <p>Genes that showed fold change greater than 1.5 (P&lt;0.05).</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="pone-0057860-t003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.t003</object-id>
+                  <label>Table 3</label>
+                  <caption>
+                    <title>Microgravity-induced down regulation of genes in <italic>Escherichia coli.</italic>
+</title>
+                  </caption>
+                  <alternatives>
+                    <graphic id="pone-0057860-t003-3" xlink:href="pone.0057860.t003"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col align="left" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                        <col align="center" span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">Probe set ID</td>
+                          <td align="left" rowspan="1" colspan="1">Fold change<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                          <td align="left" rowspan="1" colspan="1">Gene</td>
+                          <td align="left" rowspan="1" colspan="1">Gene function</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768937_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ompC</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">outer membrane porin protein C</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767282_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hisA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766205_x_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.4</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hisL</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">his operon leader peptide</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763370_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>insA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">KpLE2 phage-like element; IS1 repressor protein InsA</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763159_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ldcC</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">lysine decarboxylase, constitutive</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761146_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>livG</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">leucine/isoleucine/valine transporter ATP-binding subunit</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765703_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.9</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>aroP</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">aromatic amino acid transporter</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767440_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>cysW</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">sulfate/thiosulfate transporter subunit</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759826_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>cysH</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">3′-phosphoadenosine 5′-phosphosulfate reductase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761464_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>nupC</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">nucleoside (except guanosine) transporter</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763832_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>actP</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">acetate transporter</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759775_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ptsA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">fused predicted PTS enzymes: Hpr component/enzyme I component/enzyme IIA component</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764279_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>mgtA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">magnesium-transporting ATPase MgtA</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766765_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>nikB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">nickel transporter permease NikB</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768074_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>gst</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">glutathionine S-transferase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1769236_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.1</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>rhaD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">rhamnulose-1-phosphate aldolase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768302_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>rhaS</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">transcriptional activator RhaS</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1764298_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ydcR</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">putative transcriptional regulator</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759346_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>hiuH</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">transthyretin-like protein precursor</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763816_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>dfp</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766833_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>spoT</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">bifunctional (p)ppGpp synthetase II/guanosine-3′,5′-bis pyrophosphate 3′-pyrophosphohydrolase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759907_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>pyrD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">dihydro-orotate oxidase, FMN-linked</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767020_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>pldB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">lysophospholipase L2</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767318_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>exbB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">biopolymer transport protein ExbB</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763278_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>pbl</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">pseudo</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761419_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>speB</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">agmatinase</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766645_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.1</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yicI</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">alpha-xylosidase YicI</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767015_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yfjV</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">pseudo</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763267_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yeaM</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">putative ARAC-type regulatory protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759710_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ybeR</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">predicted protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763523_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ypjA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765691_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yfaT</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1759640_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yfjD</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Probe set ID</bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Fold change</bold>
+                            <xref ref-type="table-fn" rid="nt102">*</xref>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>
+                              <italic>Gene</italic>
+                            </bold>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <bold>Gene function</bold>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768572_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yehP</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768317_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>yjbG</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765663_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.8</td>
+                          <td align="left" rowspan="1" colspan="1">
+                            <italic>ykiA</italic>
+                          </td>
+                          <td align="left" rowspan="1" colspan="1">hypothetical protein</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762026_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.9</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">Unknown</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1768646_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762447_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1761029_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1760120_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1765833_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766353_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.6</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1762591_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">3.7</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1763867_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">1.5</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1766044_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.4</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                        <tr>
+                          <td align="left" rowspan="1" colspan="1">1767764_s_at</td>
+                          <td align="left" rowspan="1" colspan="1">2.2</td>
+                          <td align="left" rowspan="1" colspan="1">–</td>
+                          <td align="left" rowspan="1" colspan="1">intergenic region</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                  <table-wrap-foot>
+                    <fn id="nt102">
+                      <label>*</label>
+                      <p>Genes that showed fold change greater than 1.5 (P&lt;0.05).</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>The genes that were down regulated included a gene coding for outer membrane porin protein C (<italic>ompC</italic>), <italic>his</italic> operon genes (<italic>hisL, hisA</italic>), insertion element repressor protein (<italic>insA</italic>), lysine decarboxylase (<italic>ldcC</italic>), transporter proteins (<italic>actP, aroP, exbB, livG, nupC</italic> and <italic>cysW</italic>), 3′-phosphoadenosine 5′-phosphosulphate reductase (<italic>cysH,</italic>), metal transport proteins (<italic>mgtA</italic> and <italic>nikB</italic>), fused predicted PTS system enzyme (<italic>ptsA</italic>), glutathionine S-transferase (<italic>gst</italic>), rhamulose-1-phosphate aldolase (rhaD), transcriptional activator (<italic>rhaS</italic>), putative transcriptional regulatory protein (<italic>ydcR</italic> and <italic>yeaM</italic>), transthyretin-like protein (<italic>hiuH</italic>), a bifunctional synthase (<italic>dfp),</italic> bifunctional (p)ppGpp synthetase II/guanosine-3′,5′-bis pyrophosphate 3,-pyrophosphohydrolase (<italic>spoT</italic>), dihydro-orotate oxidase (<italic>pyrD</italic>), lysophospholipase L2 (<italic>pldB</italic>), agmatinase (<italic>speB</italic>) and xylosidase (<italic>yicL</italic>). The other down regulated genes include two pseudo genes (<italic>pbl, yfjV</italic>), seven hypothetical protein coding genes (<italic>ybeR, ypjA, yfaT, yfjD, yehP, yjbG</italic> and <italic>ykiA</italic>), one unknown gene and ten intergenic region coding genes (<xref ref-type="table" rid="pone-0057860-t003">Table 3</xref>).</p>
+              </sec>
+              <sec id="s3c">
+                <title>Validation of the Expression of Genes by RT-PCR</title>
+                <p>RT-PCR was carried out on seven genes (<italic>hyaE, mdtD, srmB, pyrD, rhaD, yicL</italic> and <italic>ldcC</italic>) and the results indicated that, <italic>pyrD</italic> and <italic>rhaD</italic> (P&lt;0.001), <italic>yicL,</italic> (P&lt;0.05), <italic>hyaE, ldcC, mdtD</italic> and <italic>srmB</italic> (P&lt;0.1) were either significantly up regulated or down regulated in accordance with the DNA microarray results (<xref ref-type="table" rid="pone-0057860-t002">Tables 2</xref> and <xref ref-type="table" rid="pone-0057860-t003">3</xref>) thus validating the DNA microarray results in <italic>E. coli</italic> exposed to simulated microgravity (<xref ref-type="fig" rid="pone-0057860-g003">Fig. 3</xref>). The expression of the genes was calculated based on the product Cycle threshold (C<sub>T</sub>) value. The data was analysed using ANOVA (Prism 3.0 software).</p>
+                <fig id="pone-0057860-g003" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Effect of microgravity on the expression of genes <italic>hyaE, mdtD, srmB, pyrD, rhaD, yicL</italic> and <italic>ldcC</italic> using RNA from <italic>E. coli</italic> grown in a clinostat (▪)and compared with <italic>E. coli</italic> grown in normal gravity conditions (□).</title>
+                    <p>The OD of the the cultures was 0.8 (OD<sub>600 nm</sub>) The P values were <italic>pyrD, rhaD</italic> (P&lt;0.001), <italic>yicL</italic> (p&lt;0.05), <italic>srmB, hyaE, mdtD</italic> and <italic>ldcC</italic> (P&lt;0.1) respectively.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0057860.g003"/>
+                </fig>
+              </sec>
+              <sec id="s3d">
+                <title>Assignment of the Differentially Regulated Genes to Functional Pathways by KEGG and DAVID</title>
+                <p>Out of 100 genes that were differentially regulated only 57 genes were considered for analysis using KEGG and DAVID. The remaining 43 genes that coded for 2 unknown and 41 Intergenic regions were not included in the analysis. Out of 57 genes that were differentially regulated only 14 down regulated and one up regulated gene could be associated with a particular pathway when analysed by KEGG pathways. Hyperlinks have been provided to these genes. These fifteen genes belonged to sixteen different pathways like metabolic pathways (<italic>cysH, dfp, hisA, hiuH, ldcC, pyrD</italic> and <italic>speB),</italic> the two-component system (<italic>cusF</italic> and <italic>ompC</italic>), purine metabolism (hiuH <italic>and spoT</italic>), microbial metabolism in diverse environments (<italic>cysH,</italic> and <italic>hiuH</italic>), biosynthesis of secondary metabolites (<italic>hisA</italic> and <italic>ldcC</italic>), ABC transporters (<italic>cysW</italic> and <italic>nikB</italic>), glycerophospholipid metabolism (<italic>pldB</italic>), phosphotransferase system (<italic>ptsA</italic>), pantothenate and CoA biosynthesis (<italic>dfp</italic>), pyrimidine metabolism (<italic>pyrD</italic>), fructose and mannose metabolism (<italic>rhaD</italic>), pentose and glucuronate interconversion (<italic>rhaD</italic>), arginine and proline metabolism (<italic>speB</italic>), histidine metabolism (<italic>hisA</italic>), lysine degradation (<italic>ldcC</italic>) and sulfur metabolism (<italic>cysH</italic>). The KEGG pathway analysis also indicated that certain genes like <italic>cysH, hisA, hiuH, ldcC, pyrD, speB,</italic> and <italic>rhaD</italic> were associated with more than one pathway.</p>
+                <p>DAVID was also used for geneontology annotations and term enrichments for various biological processes, molecular functioning and cellular components. Out of 57 genes that were differentially regulated and analysed by DAVID only 21 down regulated and 9 up regulated genes yielded term enrichments. Hyperlinks have been provided to these genes. The analysis yielded that the 9 upregulated genes were involved in two biological processes namely DNA transcription and regulation of transcription (<italic>ilvY</italic> and <italic>ydcQ</italic>), one cellular component which included a number of genes coding for integral membrane proteins (<italic>hokE, mdtD, ynfA, ybdJ</italic> and <italic>yniB</italic>) and three molecular functioning terms including ion binding (<italic>cusF</italic> and <italic>ygaQ</italic>) and DNA binding (<italic>ilvY</italic> and <italic>ydcQ</italic>). The 21 down regulated genes were implicated in four biological processes (<xref ref-type="fig" rid="pone-0057860-g004">Fig. 4</xref>) such as genes involved in nitrogen and amine compound biosynthetic process (<italic>hisA, speB, aroP, pyrD, livG, mgtA</italic> and <italic>cysH</italic>), ion transport (<italic>exbB, actP, mgtA, ompC, cysW</italic> and <italic>nikB</italic>), carbohydrate catabolic process (<italic>rhaS, ldcC, ptsA</italic> and <italic>rhaD</italic>) and nucleoside metabolic process (<italic>dfp, pyrD, spoT</italic> and <italic>nupC</italic>). DAVID analysis also annotated genes involved in cellular components such as cell wall, cell membrane and organelle membrane (<italic>aroP, exbB, actP, pyrD, pldB, mgtA, nikB, nupC, ompC, cysW</italic> and <italic>yfjD</italic>). Similarly GO terms enriched for molecular functioning included genes coding for proteins involved in metal-ion binding, cation-binding and ion-binding (<italic>speB, actP, dfp, spoT, mgtA, ptsA, nikB</italic> and <italic>rhaD)</italic>.</p>
+                <fig id="pone-0057860-g004" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0057860.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>Distribution of down regulated genes (%) based on biological process classification reported by Gene ontology term functional categories using DAVID version 2.0 software.</title>
+                  </caption>
+                  <graphic xlink:href="pone.0057860.g004"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <p>Bacteria under reduced gravity conditions exhibit a number of distinct physiological changes such as changes in growth characteristics, increase in resistance to acidic, osmotic, and thermal stress <xref rid="pone.0057860-Nickerson1" ref-type="bibr">[2]</xref>, <xref rid="pone.0057860-Wilson3" ref-type="bibr">[17]</xref>, greater tolerance to ethanol exposure <xref rid="pone.0057860-Gao1" ref-type="bibr">[18]</xref>, enhanced attachment abilities <xref rid="pone.0057860-Baker3" ref-type="bibr">[19]</xref>, <xref rid="pone.0057860-McLean1" ref-type="bibr">[20]</xref>, increase in virulence, ability to use substrates more effectively <xref rid="pone.0057860-Brown1" ref-type="bibr">[21]</xref> and have altered gene expression <xref rid="pone.0057860-Wilson4" ref-type="bibr">[22]</xref>. Such studies are best done in a spacecraft in orbit. But due to logistic reasons and practical limitations, studies conducted in ground-based systems that mimic microgravity conditions like using a clinostat, could help to generate data and provide clues to important effects of microgravity on life systems <xref rid="pone.0057860-Gao2" ref-type="bibr">[23]</xref>–<xref rid="pone.0057860-Nickerson2" ref-type="bibr">[25]</xref>. A clinostat creates microgravity conditions characterized by reduced sedimentation, low shear and low turbulence as in space flight <xref rid="pone.0057860-Nickerson2" ref-type="bibr">[25]</xref>, <xref rid="pone.0057860-Nickerson3" ref-type="bibr">[26]</xref>. Thus studies have used clinostat as a device to subject microbes to reduced gravity conditions and monitor the effects on the growth, physiology and expression of genes in bacteria <xref rid="pone.0057860-Yamazaki1" ref-type="bibr">[27]</xref>, <xref rid="pone.0057860-Benoit2" ref-type="bibr">[28]</xref>.</p>
+              <p>Earlier studies demonstrated that <italic>E. coli</italic> under simulated microgravity conditions exhibits decreased lag phase and an increase in exponential phase compared to normal gravity <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>, <xref rid="pone.0057860-Tucker1" ref-type="bibr">[11]</xref>, <xref rid="pone.0057860-Baker4" ref-type="bibr">[29]</xref>, <xref rid="pone.0057860-Klaus1" ref-type="bibr">[30]</xref>. Our study on growth of <italic>E. coli</italic> on LB medium in a clinostat also showed increased growth rate compared to normal gravity conditions. On the contrary Bouloc and D’Ari <xref rid="pone.0057860-Bouloc1" ref-type="bibr">[31]</xref> showed no difference in growth of <italic>E. coli</italic> in the orbiting Biocosmos 2044 satellite compared to its ground based controls. Studies have indicated that the effects of reduced gravity on bacterial viability and growth is dependent on whether the bacteria were cultured in rich or dilute media. In <italic>S. aureus</italic> growth characteristics were similar in LB under reduced and normal gravity conditions but in 1/10 LB, the growth of <italic>S. aureus</italic> was significantly increased under microgravity <xref rid="pone.0057860-Vukanti3" ref-type="bibr">[13]</xref>. The authors have also suggested that the physiological responses to microgravity conditions vary with growth medium and growth phase. However, recent studies by Berry et al <xref rid="pone.0057860-Berry1" ref-type="bibr">[32]</xref> on the effect of hypobaric pressures similar to those of the surface of mars (0.69 kPa global average) on the growth of <italic>E.coli</italic> revealed slight reduction in growth.</p>
+              <p>In the present study a fold change of ≥1.5 was considered to analyse the data on differential gene expression in simulated microgravity conditions. Several other studies also used a fold change ≥1.5 as a cut-off for the analysis of differential gene expression <xref rid="pone.0057860-Yuan1" ref-type="bibr">[33]</xref>, <xref rid="pone.0057860-Dalman1" ref-type="bibr">[34]</xref>. In this study using a fold change ≥1.5 cut-off a total of 100 genes were differentially regulated in <italic>E. coli</italic> under simulated microgravity conditions, out of which fifty three were upregulated and forty seven down regulated compared to normal gravity grown culture (<xref ref-type="table" rid="pone-0057860-t002">Tables 2</xref> and <xref ref-type="table" rid="pone-0057860-t003">3</xref>).</p>
+              <p>Wilson et al. <xref rid="pone.0057860-Wilson4" ref-type="bibr">[22]</xref> were the first to monitor global gene expression in <italic>Salmonella</italic> in response to microgravity. A total of 163 genes were differentially regulated by microgravity. These differentially regulated genes included genes coding for transcriptional regulators, virulence factors, lipopolysaccharide biosynthetic enzymes, iron-utilization enzymes and several genes with no homology to other genes in the current databases. Subsequent studies on <italic>Salmonella</italic> also led to the discovery of novel virulence mechanisms involving a ferric uptake regulator under reduced gravity conditions <xref rid="pone.0057860-Wilson1" ref-type="bibr">[3]</xref>, <xref rid="pone.0057860-Wilson2" ref-type="bibr">[6]</xref>, <xref rid="pone.0057860-Wilson4" ref-type="bibr">[22]</xref>. Recent studies also revealed that <italic>P. aeruginosa</italic> responded to spaceflight conditions through differential regulation of 167 genes and 28 proteins, with Hfq as a global transcriptional regulator <xref rid="pone.0057860-Crabbe1" ref-type="bibr">[35]</xref>. Vukanti et al. <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> using <italic>E. coli</italic> K12 demonstrated that 430 genes were significantly altered in expression under modeled reduced gravity conditions. Up regulated genes included starvation inducible genes (<italic>csiD, cspD, ygaF, gabDTP, ygiG, fliY</italic> and <italic>cysK</italic>), genes associated with multiple stress responses (<italic>asr, yhiW, yehZYW, katE</italic> and <italic>btuDE</italic>), genes involved in biofilm formation (<italic>lldR, lamB, yneA, fadB</italic> and <italic>ydeY</italic>), curli biosynthesis (<italic>csgDEF</italic>), and lipid biosynthesis (<italic>yfbEFG</italic>). None of these genes were up regulated in the current study. The only difference between the present study and that of Vukanti et al. <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> being that <italic>E. coli</italic> K12 MG1655 in the present study was grown in LB containing glycerol. Therefore the effect of glycerol on gene expression was studied (GEO accession number is GSE34275). It was observed that in <italic>E. coli</italic> K12 MG1655 grown in the presence of glycerol 103 genes were up regulated whereas 209 were down regulated (Supplementary <xref ref-type="supplementary-material" rid="pone.0057860.s001">Tables S1</xref> and <xref ref-type="supplementary-material" rid="pone.0057860.s002">S2</xref>). The results also indicated that the presence of glycerol in both the control and microgravity exposed cultures nullified the up regulation of starvation induced genes (<italic>cbp</italic>A, <italic>usp</italic>B <italic>and wrb</italic>A), genes associated with multiple stress responses (<italic>hdeA, hdeB, hdeD, gadA, gadB, gadC, gadW, cadB, dhaL, dhaK, ompW, tar</italic> and <italic>tnaL</italic>), genes involved in curli biosynthesis (<italic>fliC, fimA</italic>), and lipid biosynthesis (<italic>ybjP</italic>) as observed by Vukanti et al. <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>. The mechanism or the reason for the difference observed still remains unknown. A few of the differentially regulated genes were also validated for their expression by RT-PCR and found to be consistent with the DNA microarray results (<xref ref-type="table" rid="pone-0057860-t002">Tables 2</xref> and <xref ref-type="table" rid="pone-0057860-t003">3</xref> and <xref ref-type="fig" rid="pone-0057860-g002">Fig. 2</xref>).</p>
+              <p>Earlier studies demonstrated that cells grown under microgravity conditions develop a nutrient depletion zone around the cells <xref rid="pone.0057860-Hammond1" ref-type="bibr">[24]</xref>. As a consequence, genes coding for nutrient transport and salvage systems, multiple stress resistance and metabolic enzymes are up regulated and simultaneously down regulation of genes associated with translation apparatus, DNA replication and cell division were observed <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>. However, surprisingly in the present study the above genes were not differentially expressed implying that the presence of glycerol in the medium may not favour the formation of a nutrient depletion zone. In fact this may be so because glycerol can enter the cell through simple diffusion and thus get utilized as a carbon source and generate acidic metabolic products. This may be the reason as to why <italic>E. coli</italic> grown in the presence of glycerol exhibits up regulation of genes related to acid stress (Supplementary <xref ref-type="supplementary-material" rid="pone.0057860.s001">Table S1a</xref>nd <xref ref-type="supplementary-material" rid="pone.0057860.s002">S2</xref>). Recently, Vukanti and Leff <xref rid="pone.0057860-Vukanti2" ref-type="bibr">[12]</xref> also demonstrated that general stress response of the bacteria grown under microgravity can be reversed by supplementing a nutrient rich medium.</p>
+              <p>Comparison of genes identified in the present study to genes reported in previous studies <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> revealed that only a few differentially expressed genes were common. These genes include <italic>hyaE, livG</italic> and <italic>pyrD</italic>. Gene <italic>hyaE</italic> encodes for HyaE protein of hydrogenase-1 operon which comprises six genes <italic>hyaABCDEF</italic>. In Vukanti et al. <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> all the six genes of the operon were up regulated whereas in the present study only <italic>hyaE</italic> was upregulated. <italic>pyrD</italic> which encodes dihydroorotate dehydrogenase and involved in pyrimidine biosynthesis is down regulated in both the studies. In addition, in the paper of Vukanti et al. <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> few other genes of the <italic>pyr</italic> operon (<italic>pyrF, carA, pyrB, pyrG, pyrC</italic> and <italic>carB</italic>) were also down regulated. Gene <italic>livG</italic> that belongs to <italic>livFGHMK</italic> operon that is involved in high-affinity branched-chain amino acid transport system is down regulated. While <italic>ilvGMEDA</italic> operon an amino acid biosynthetic operon required for the synthesis of the branched chain aminoacids isoleucine, leucine and valine is down regulated in previous studies <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>.</p>
+              <p>In the present study <italic>cysW</italic> involved in sulfate/thiosulfate transport, <italic>cysH</italic> involved in cystein biosysnthesis and gene <italic>actP</italic> that is involved in acetate transport are down regulated, so as to possibly maintain pH homeostasis in the acidified media conditions. This is in contrast to the previous observations that genes pertaining to acetate metabolism <italic>acs</italic> and <italic>actP</italic> and <italic>cysAV</italic> involved in sulfate/thiosulfate transport as well as genes involved in cysteine biosynthesis <italic>cysCDIJKN</italic> were upregulated <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>, to overcome oxidative stress due to microgravity conditions <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref>.</p>
+              <p>In the present study 100 genes were either up or down regulated when <italic>E. coli</italic> was cultured under microgravity conditions. Analysis based on the DAVID geneontology (GO) term enrichments included the following up regulated genes belonging to DNA transcription (<italic>srmB</italic>) and those involved in regulation of transcription (<italic>ilVY</italic> and <italic>ydcQ</italic>). Gene <italic>srmB</italic> encodes for DNA helicase. Upregulation of helicases is interesting as these plays a vital role in DNA repair, recombination and RNA transcription <xref rid="pone.0057860-Jagessar1" ref-type="bibr">[36]</xref>. At the same time DAVID analysis also revealed enrichment of GO terms such as nucleoside metabolic process for the down regulated genes <italic>dfp, pyrD, spoT.</italic> Gene <italic>dfp</italic> is an essential gene required for DNA synthesis <xref rid="pone.0057860-Spitzer1" ref-type="bibr">[37]</xref> and gene <italic>pyrD</italic> involved in pyrimidine biosynthesis <xref rid="pone.0057860-Wilson5" ref-type="bibr">[38]</xref> are down regulated. Gene <italic>ydcR</italic> that belongs to one of the transcriptional regulator family GntR is also repressed. The low abundance of these genes may be because of the active growth of <italic>E. coli</italic> culture under microgravity conditions. The <italic>spoT</italic> gene which codes for ppGpp in response to nutrients limitation <xref rid="pone.0057860-Mittenhuber1" ref-type="bibr">[39]</xref>, <xref rid="pone.0057860-Mechold1" ref-type="bibr">[40]</xref> is also repressed implying that cells are not in a nutrients limiting condition in the clinostat. Based on DAVID analysis, genes involved in carbohydrate catabolic process (<italic>rhaS, rhaD, ldcC</italic> and <italic>ptsA</italic>) are also down regulated suggesting that energy/reducing equivalents are adequately present. Gene <italic>ilvY</italic> is involved in the transcriptional regulation of the <italic>ilvA</italic> gene of the <italic>ilvGMEDA</italic> operon encoding for biosynthesis of branched chain aminoacids leucine, isoleucine and valine <xref rid="pone.0057860-Parekh1" ref-type="bibr">[41]</xref> is up regulated. It is also observed that DAVID analysis enriched GO terms nitrogen compound and amine biosynthetic processes for down regulated <italic>genes hisA, speB, aroP, pyrD, livG, mgtG</italic> and <italic>cysH</italic>. These results imply that cells growing under microgravity conditions are not deprived of nitrogenous compounds.</p>
+              <p>The other up regulated genes enriched include those coding for cation-binding (<italic>cusF</italic> and <italic>ygaQ</italic>) and DNA-binding (<italic>ydcQ)</italic>. Tucker et al., <xref rid="pone.0057860-Vukanti1" ref-type="bibr">[1]</xref> reported down regulation of <italic>cusF</italic> when <italic>E. coli</italic> was grown in MOPS medium under simulated microgravity conditions. <italic>cusF</italic> is a periplasmic chaperone and exports copper and silver ions both from cytoplasm and periplasm to the external environment to maintain cell homeostasis. Enrichment of DAVID GO terms for ion transport, metal ion transport and cation transport for the down regulated genes (<italic>ompC, exbB, actP, mgtA, cysW</italic> and <italic>nikB</italic>) is also indicated. These transport systems assist in uptake of essential nutrients, regulate the flow of physiologically relevant chemicals, and release substances such as signalling molecules. Gene <italic>ompC</italic> coding for major outer membrane protein functions as a porin, allows free diffusion of small hydrophilic molecules across the membrane <xref rid="pone.0057860-Ikenaka1" ref-type="bibr">[42]</xref> is down regulated. Apart from these ion transporters, detoxification genes like <italic>gst</italic> encoding for glutathione transferase that protects cells by detoxification of metals Hg<sup>2+</sup> and Cd<sup>2+</sup>
+<xref rid="pone.0057860-Chen1" ref-type="bibr">[43]</xref> is also down regulated may be because the cells are in an environment free of metal ions.</p>
+              <p>Based on DAVID enrichment terms the up regulation of genes integral to membrane include <italic>mdtD</italic> along with hypothetical protein coding genes <italic>hokE, ynfA, ybdJ</italic> and <italic>yniB</italic>. Gene <italic>mdtD</italic> that encodes for multidrug efflux system <xref rid="pone.0057860-Nagakub1" ref-type="bibr">[44]</xref> may indicate acquisition of drug resistance by <italic>E. coli</italic> cultured under microgravity conditions. This observation is in accordance with the observations of Leys et al. <xref rid="pone.0057860-Leys1" ref-type="bibr">[45]</xref> that bacteria growing in space require greater concentrations of various antibiotics to inhibit their growth. However, Tucker et al. <xref rid="pone.0057860-Tucker1" ref-type="bibr">[11]</xref> did not observe any significant change in the antibiotic resistance in <italic>E. coli</italic> exposed to microgravity. The up regulation of <italic>sufE</italic> implies that in the prevailing conditions iron was limiting since <italic>suf</italic> genes are induced under iron limitation conditions <xref rid="pone.0057860-Nachin1" ref-type="bibr">[46]</xref>. Up regulation of gene <italic>ssrA</italic> that encodes for small RNA, is required for adaptation to environmental changes and growth under stress conditions <xref rid="pone.0057860-Ranquet1" ref-type="bibr">[47]</xref> could be an advantage to the growth of the bacterium under microgravity conditions.</p>
+              <p>On the whole in this study a number of genes that were not reported earlier when <italic>E. coli</italic> is grown on LB media under microgravity conditions appeared when 10% v/v glycerol is additionally supplemented to LB medium. The up regulated genes comprised those that are related to transcription and integral to membrane. Among the down regulated genes, those involved in nitrogen, nucleoside and carbohydrate metabolic process and membrane related transporters were present. We did not observe elevation of multiple stress genes in response to nutrient depletion zone in our study, may be because of the reversal of this stress with glycerol in the medium. Using DAVID seven hypothetical protein coding genes namely <italic>yfjD, ydcQ, ynfA, ybdJ, yniB, ygaQ</italic> and <italic>hokE</italic> were assigned to various functional processes in response to microgravity conditions in <italic>E. coli</italic>. A number of hypothetical and Intergenic region genes were also differentially expressed.</p>
+              <sec id="s4a">
+                <title>Conclusions</title>
+                <p>The results imply that <italic>E. coli</italic> in the presence of glycerol under simulated microgravity conditions grows better than compared to the normal gravity control. The enhanced growth may be because of adequate supply of energy/reducing equivalents and increase in transcripts for DNA replication. Further, glycerol supplementation in the medium helps in overcoming multiple stressors exerted in microgravity conditions due to nutrient limitations.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="s5">
+              <title>Supporting Information</title>
+              <supplementary-material content-type="local-data" id="pone.0057860.s001">
+                <label>Table S1</label>
+                <caption>
+                  <p><bold>Glycerol-induced up regulation of genes in </bold><bold><italic>Escherichia coli.</italic></bold> DNA microarray analysis of <italic>E. coli</italic> grown in the presence of 10% glycerol showed up regulation of 103 genes with a fold change &gt;1.5 (P&lt;0.05).</p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0057860.s001.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="pone.0057860.s002">
+                <label>Table S2</label>
+                <caption>
+                  <p><bold>Glycerol-induced down regulation of genes in </bold><bold><italic>Escherichia coli</italic></bold><bold>.</bold> DNA microarray analysis of <italic>E. coli</italic> grown in the presence of 10% glycerol showed down regulation of 209 genes with a fold change &gt;1.5 (P&lt;0.05).</p>
+                  <p>(DOCX)</p>
+                </caption>
+                <media xlink:href="pone.0057860.s002.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We would like to thank Santosh Bhaskaran, Vascular Biology Lab, AU-KBC research centre, Anna University, Chennai for deducing gravity calculations of the study. We would also like to thank Dr. Mohammed Idris for help in using DAVID software and P. Ramesh and M.B. Madhavi for microarray data analysis all from the Centre for Cellular and Molecular Biology, Hyderabad.</p>
+            </ack>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0057860-Vukanti1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><name><surname>Vukanti</surname><given-names>R</given-names></name>, <name><surname>Mintz</surname><given-names>E</given-names></name>, <name><surname>Leff</surname><given-names>L</given-names></name> (<year>2008</year>) <article-title>Changes in gene expression of <italic>E. coli</italic> under conditions of modelled reduced gravity</article-title>. <source>Microgravity Sci Technol</source>
+<volume>20</volume>: <fpage>41</fpage>–<lpage>57</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Nickerson1">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><name><surname>Nickerson</surname><given-names>CA</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Mister</surname><given-names>SJ</given-names></name>, <name><surname>Orrow</surname><given-names>BJ</given-names></name>, <name><surname>Burns-Keliher</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Microgravity as a novel environmental signal affecting <italic>Salmonella enterica s</italic>erovar Typhimurium virulence</article-title>. <source>Infect Immun</source>
+<volume>68</volume>: <fpage>3147</fpage>–<lpage>3152</lpage>.<pub-id pub-id-type="pmid">10816456</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Wilson1">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Bentrup</surname><given-names>KH</given-names></name>, <name><surname>Ramamurthy</surname><given-names>R</given-names></name>, <name><surname>Quicka</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>104</volume>: <fpage>16299</fpage>–<lpage>16304</lpage>.<pub-id pub-id-type="pmid">17901201</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Rosenzweig1">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><name><surname>Rosenzweig</surname><given-names>JA</given-names></name>, <name><surname>Abogunde</surname><given-names>O</given-names></name>, <name><surname>Thomas</surname><given-names>K</given-names></name>, <name><surname>Lawal</surname><given-names>A</given-names></name>, <name><surname>Y-Uyen</surname><given-names>Nguyen</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Spaceflight and modeled microgravity effects on microbial growth and virulence</article-title>. <source>Appl Microbiol Biotechnol</source>
+<volume>85</volume>: <fpage>885</fpage>–<lpage>891</lpage>.<pub-id pub-id-type="pmid">19847423</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Chopra1">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><name><surname>Chopra</surname><given-names>VA</given-names></name>, <name><surname>Fadl</surname><given-names>AA</given-names></name>, <name><surname>Sha</surname><given-names>J</given-names></name>, <name><surname>Chopra</surname><given-names>S</given-names></name>, <name><surname>Galindo</surname><given-names>CL</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Alterations in the virulence potential of enteric pathogens and bacterial–host cell interactions under simulated microgravity conditions</article-title>. <source>J Toxicol Environ Health A</source>
+<volume>69</volume>: <fpage>1345</fpage>–<lpage>1370</lpage>.<pub-id pub-id-type="pmid">16760141</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Wilson2">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Quick</surname><given-names>L</given-names></name>, <name><surname>Davis</surname><given-names>R</given-names></name>, <name><surname>Höner zu Bentrup</surname><given-names>K</given-names></name> (<year>2008</year>) <article-title>Media ion composition controls regulatory and virulence response of <italic>Salmonella</italic> in spaceflight.PLoS ONE</article-title>. <volume>3</volume>: <fpage>e3923</fpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Baker1">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><name><surname>Baker</surname><given-names>PW</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2004</year>) <article-title>The effect of simulated microgravity on bacteria from the Mir space station</article-title>. <source>Microgravity Sci Technol</source>
+<volume>15</volume>: <fpage>35</fpage>–<lpage>41</lpage>.<pub-id pub-id-type="pmid">15773020</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Baker2">
+                <label>8</label>
+                <mixed-citation publication-type="journal"><name><surname>Baker</surname><given-names>PW</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2006</year>) <article-title>Mir space station bacteria responses to modeled reduced gravity under starvation conditions</article-title>. <source>Adv Space Res</source>
+<volume>38</volume>: <fpage>1152</fpage>–<lpage>1158</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Benoit1">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><name><surname>Benoit</surname><given-names>MR</given-names></name>, <name><surname>Klaus</surname><given-names>DM</given-names></name> (<year>2007</year>) <article-title>Microgravity, bacteria and the influence of motility</article-title>. <source>Adv Space Res</source>
+<volume>39</volume>: <fpage>1225</fpage>–<lpage>1232</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Simon1">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><name><surname>Simon</surname><given-names>C</given-names></name>, <name><surname>Daniel</surname><given-names>R</given-names></name> (<year>2011</year>) <article-title>Metagenomic analyses; Past anad future trends</article-title>. <source>Appl Environ Microbiol</source>
+<volume>77</volume>: <fpage>1153</fpage>–<lpage>1161</lpage>.<pub-id pub-id-type="pmid">21169428</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Tucker1">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><name><surname>Tucker</surname><given-names>DL</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Huff</surname><given-names>S</given-names></name>, <name><surname>Fofanov</surname><given-names>Y</given-names></name>, <name><surname>Pierson</surname><given-names>DL</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Characterization of <italic>Escherichia coli</italic> MG1655 grown in a low-shear modeled microgravity environment</article-title>. <source>BMC Microbiol</source>
+<volume>7</volume>: <fpage>15</fpage>.<pub-id pub-id-type="pmid">17343762</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Vukanti2">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><name><surname>Vukanti</surname><given-names>R</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2012</year>) <article-title>Expression of multiple stress response genes by <italic>Escherichia coli</italic> under modelled reduced gravity</article-title>. <source>Microgravity Sci Technol</source>
+<volume>24</volume>: <fpage>267</fpage>–<lpage>279</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Vukanti3">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><name><surname>Vukanti</surname><given-names>R</given-names></name>, <name><surname>Model</surname><given-names>MA</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2012</year>) <article-title>Effect of modelled reduced gravity conditions on bacterial morphology and physiology</article-title>. <source>BMC Microbiol</source>
+<volume>12</volume>: <fpage>4</fpage>.<pub-id pub-id-type="pmid">22239851</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Haga1">
+                <label>14</label>
+                <mixed-citation publication-type="other">Haga RA, Saleh JH (2011) “Epidemiology of satellite anomalies and failures: A subsystem-centr<italic>ic approach,”</italic>
+<italic>Aerospace Conference, 2011 IEEE</italic>, 5–12.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Gruener1">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><name><surname>Gruener</surname><given-names>R</given-names></name>, <name><surname>Roberts</surname><given-names>R</given-names></name>, <name><surname>Reitstetter</surname><given-names>R</given-names></name> (<year>1994</year>) <article-title>Reduced receptor aggregation and altered cytoskeleton in cultured myocytes after space-flight</article-title>. <source>Biol Sci Space</source>
+<volume>8</volume>: <fpage>79</fpage>–<lpage>93</lpage>.<pub-id pub-id-type="pmid">11542735</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Huijser1">
+                <label>16</label>
+                <mixed-citation publication-type="other">Huijser RH (2000) Desktop RPM: new small size microgravity simulator for the bioscience laboratory. FS-MG-0017, Fokker Space.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Wilson3">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Ramamurthy</surname><given-names>R</given-names></name>, <name><surname>Porwollik</surname><given-names>S</given-names></name>, <name><surname>McClelland</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Low-Shear modeled microgravity alters the <italic>Salmonella enterica</italic> serovar Typhimurium stress response in an RpoS-independent manner</article-title>. <source>Appl Environ Microbiol</source>
+<volume>68</volume>: <fpage>5408</fpage>–<lpage>5416</lpage>.<pub-id pub-id-type="pmid">12406731</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Gao1">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><name><surname>Gao</surname><given-names>Q</given-names></name>, <name><surname>Fang</surname><given-names>A</given-names></name>, <name><surname>Pierson</surname><given-names>DL</given-names></name>, <name><surname>Mishra</surname><given-names>SK</given-names></name>, <name><surname>Demain</surname><given-names>AL</given-names></name> (<year>2001</year>) <article-title>Shear stress enhances microcin B17 production in a rotating wall bioreactor, but ethanol stress does not</article-title>. <source>Appl Microbiol Biotechnol</source>
+<volume>56</volume>: <fpage>384</fpage>–<lpage>387</lpage>.<pub-id pub-id-type="pmid">11549006</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Baker3">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><name><surname>Baker</surname><given-names>PW</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2005</year>) <article-title>Attachment to stainless steel by Mir Space Station bacteria growing under modeled reduced gravity at varying nutrient concentrations</article-title>. <source>Biofilms</source>
+<volume>2</volume>: <fpage>1</fpage>–<lpage>7</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-McLean1">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><name><surname>McLean</surname><given-names>RJ</given-names></name>, <name><surname>Cassanto</surname><given-names>JM</given-names></name>, <name><surname>Barnes</surname><given-names>MB</given-names></name>, <name><surname>Koo</surname><given-names>JH</given-names></name> (<year>2001</year>) <article-title>Bacterial biofilm formation under microgravity conditions</article-title>. <source>FEMS Microbiol Lett</source>
+<volume>195</volume>: <fpage>115</fpage>–<lpage>119</lpage>.<pub-id pub-id-type="pmid">11179638</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Brown1">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><name><surname>Brown</surname><given-names>RB</given-names></name>, <name><surname>Klaus</surname><given-names>D</given-names></name>, <name><surname>Todd</surname><given-names>P</given-names></name> (<year>2002</year>) <article-title>Effects of space flight, clinorotation and centrifugation on the substrate utilization efficiency of <italic>E. coli</italic>
+</article-title>. <source>Microgravity Sci Technol</source>
+<volume>13</volume>: <fpage>24</fpage>–<lpage>29</lpage>.<pub-id pub-id-type="pmid">12521048</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Wilson4">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ramamurthy</surname><given-names>R</given-names></name>, <name><surname>Porwollik</surname><given-names>S</given-names></name>, <name><surname>McClelland</surname><given-names>M</given-names></name>, <name><surname>Hammond</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Microarray analysis identifies <italic>Salmonella</italic> genes belonging to the low-shear modeled microgravity regulon</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>99</volume>: <fpage>13807</fpage>–<lpage>13812</lpage>.<pub-id pub-id-type="pmid">12370447</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Gao2">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><name><surname>Gao</surname><given-names>H</given-names></name>, <name><surname>Ayyaswamy</surname><given-names>PS</given-names></name>, <name><surname>Ducheyne</surname><given-names>P</given-names></name> (<year>1997</year>) <article-title>Dynamics of a microcarrier particle in the simulated microgravity environment of a rotating wall vessel</article-title>. <source>Microgravity Sci Technol</source>
+<volume>10</volume>: <fpage>154</fpage>–<lpage>165</lpage>.<pub-id pub-id-type="pmid">11543416</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Hammond1">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><name><surname>Hammond</surname><given-names>TG</given-names></name>, <name><surname>Hammond</surname><given-names>JM</given-names></name> (<year>2001</year>) <article-title>Optimized suspension culture: the rotating-wall vessel</article-title>. <source>Am J Physiol Renal Physiol</source>
+<volume>281</volume>: <fpage>F12</fpage>–<lpage>25</lpage>.<pub-id pub-id-type="pmid">11399642</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Nickerson2">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><name><surname>Nickerson</surname><given-names>CA</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ramamurthy</surname><given-names>R</given-names></name>, <name><surname>LeBlanc</surname><given-names>CL</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Lowshear modeled microgravity: a global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis</article-title>. <source>J Microbiol Methods</source>
+<volume>54</volume>: <fpage>1</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">12732416</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Nickerson3">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><name><surname>Nickerson</surname><given-names>CA</given-names></name>, <name><surname>Ott</surname><given-names>CM</given-names></name>, <name><surname>Wilson</surname><given-names>JW</given-names></name>, <name><surname>Ramamurthy</surname><given-names>R</given-names></name>, <name><surname>Pierson</surname><given-names>DL</given-names></name> (<year>2004</year>) <article-title>Microbial responses to microgravity and other low-shear environments</article-title>. <source>Microbiol Mol Biol Rev</source>
+<volume>68</volume>: <fpage>345</fpage>–<lpage>361</lpage>.<pub-id pub-id-type="pmid">15187188</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Yamazaki1">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><name><surname>Yamazaki</surname><given-names>T</given-names></name>, <name><surname>Yoshimoto</surname><given-names>M</given-names></name>, <name><surname>Nishiyama</surname><given-names>Y</given-names></name>, <name><surname>Okubo</surname><given-names>Y</given-names></name>, <name><surname>Makimura</surname><given-names>K</given-names></name> (<year>2012</year>) <article-title>Phenotypic characterization of <italic>Aspergillus niger</italic> and <italic>Candida albicans</italic> grown under simulated microgravity using a three-dimensional clinostat</article-title>. <source>Microbiol Immunol</source>
+<volume>56</volume>: <fpage>441</fpage>–<lpage>446</lpage>.<pub-id pub-id-type="pmid">22537211</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Benoit2">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><name><surname>Benoit</surname><given-names>MR</given-names></name>, <name><surname>Klaus</surname><given-names>DM</given-names></name> (<year>2005</year>) <article-title>Can genetically modified <italic>Escherichia coli</italic> with neutral buoyancy induced by gas vesicles be used as an alternative method to clinorotation for microgravity studies?</article-title>. <source>Microbiology</source>
+<volume>151</volume>: <fpage>69</fpage>–<lpage>74</lpage>.<pub-id pub-id-type="pmid">15632426</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Baker4">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><name><surname>Baker</surname><given-names>PW</given-names></name>, <name><surname>Leff</surname><given-names>LG</given-names></name> (<year>2004</year>) <article-title>The effect of simulated microgravity on bacteria from the Mir space station</article-title>. <source>Microgravity Sci Technol</source>
+<volume>15</volume>: <fpage>35</fpage>–<lpage>41</lpage>.<pub-id pub-id-type="pmid">15773020</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Klaus1">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><name><surname>Klaus</surname><given-names>D</given-names></name>, <name><surname>Simske</surname><given-names>S</given-names></name>, <name><surname>Todd</surname><given-names>P</given-names></name>, <name><surname>Stodieck</surname><given-names>L</given-names></name> (<year>1997</year>) <article-title>Investigation of space flight effects on <italic>Escherichia coli</italic> and a proposed model of underlying physical mechanisms</article-title>. <source>Microbiology</source>
+<volume>143</volume>: <fpage>449</fpage>.<pub-id pub-id-type="pmid">9043122</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Bouloc1">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><name><surname>Bouloc</surname><given-names>P</given-names></name> (<year>1991</year>) <collab>D’Ari</collab> (<year>1991</year>) <article-title><italic>Escherichia coli</italic> metabolism in space</article-title>. <source>J Gen Microbiol</source>
+<volume>137</volume>: <fpage>2839</fpage>–<lpage>2843</lpage>.<pub-id pub-id-type="pmid">1791437</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Berry1">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><name><surname>Berry</surname><given-names>BJ</given-names></name>, <name><surname>Jenkins</surname><given-names>DG</given-names></name>, <name><surname>Schuerger</surname><given-names>AC</given-names></name> (<year>2010</year>) <article-title>Effects of simulated mars conditions on the survival and growth of Escherichia coli and Serratia liquefaciens</article-title>. <source>Appl Environ microbiol</source>
+<volume>76</volume>: <fpage>2377</fpage>–<lpage>2386</lpage>.<pub-id pub-id-type="pmid">20154104</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Yuan1">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><name><surname>Yuan</surname><given-names>L</given-names></name>, <name><surname>Hillman</surname><given-names>JD</given-names></name>, <name><surname>Progulske-Fox</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Microarray Analysis of Quorum-Sensing-Regulated Genes in <italic>Porphyromonas gingivalis.</italic>
+</article-title>. <source>Infect Immun</source>
+<volume>73</volume>: <fpage>4146</fpage>–<lpage>4154</lpage>.<pub-id pub-id-type="pmid">15972504</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Dalman1">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><name><surname>Dalman</surname><given-names>MR</given-names></name>, <name><surname>Deeter</surname><given-names>A</given-names></name>, <name><surname>Nimishaka</surname><given-names>G</given-names></name>, <name><surname>Duan</surname><given-names>Z-H</given-names></name> (<year>2012</year>) <article-title>Fold change and p-value cutoffs significantly alter microarray interpretations</article-title>. <source>BMC Bioinformatics</source>
+<volume>13</volume>
+<issue>Suppl 2</issue>
+<fpage>S11</fpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Crabbe1">
+                <label>35</label>
+                <mixed-citation publication-type="journal"><name><surname>Crabbe</surname><given-names>A</given-names></name>, <name><surname>Schurr</surname><given-names>MJ</given-names></name>, <name><surname>Monsieurs</surname><given-names>P</given-names></name>, <name><surname>Morici</surname><given-names>L</given-names></name>, <name><surname>Schurr</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Transcriptional and proteomic responses of <italic>Pseudomonas aeruginosa</italic> PA01 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen</article-title>. <source>Appl Environ Microbiol</source>
+<volume>77</volume>: <fpage>1221</fpage>–<lpage>1230</lpage>.<pub-id pub-id-type="pmid">21169425</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Jagessar1">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><name><surname>Jagessar</surname><given-names>KL</given-names></name>, <name><surname>Jain</surname><given-names>C</given-names></name> (<year>2010</year>) <article-title>Functional and molecular analysis of <italic>Escherichia coli</italic> strains lacking multiple DEAD-box helicases</article-title>. <source>RNA</source>
+<volume>16</volume>: <fpage>1386</fpage>–<lpage>1392</lpage>.<pub-id pub-id-type="pmid">20484467</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Spitzer1">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><name><surname>Spitzer</surname><given-names>ED</given-names></name>, <name><surname>Jimenez-Billini</surname><given-names>HE</given-names></name>, <name><surname>Weiss</surname><given-names>B</given-names></name> (<year>1988</year>) <article-title>1-Alanine auxotrophy associated with dfp, a locus affecting DNA synthesis in <italic>Escherichia coli</italic>
+</article-title>. <source>J Baceriol</source>
+<volume>170</volume>: <fpage>872</fpage>–<lpage>876</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Wilson5">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>HR</given-names></name>, <name><surname>Turnbough</surname><given-names>JRCL</given-names></name> (<year>1990</year>) <article-title>Role of the purine repressor in the regulation of pyrimidine gene expression in <italic>Escherichia coli</italic> K-12</article-title>. <source>J Bacteriol</source>
+<volume>172</volume>: <fpage>3208</fpage>–<lpage>3213</lpage>.<pub-id pub-id-type="pmid">1971621</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Mittenhuber1">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><name><surname>Mittenhuber</surname><given-names>G</given-names></name> (<year>2001</year>) <article-title>Comparative genomics and evolution of genes encoding bacterial (p)ppGpp synthetases/hydrolases (the Rel, RelA and SpoT Proteins)</article-title>. <source>J Mol Microbiol Biotechnol</source>
+<volume>3</volume>: <fpage>585</fpage>–<lpage>600</lpage>.<pub-id pub-id-type="pmid">11545276</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Mechold1">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><name><surname>Mechold</surname><given-names>U</given-names></name>, <name><surname>Cashel</surname><given-names>M</given-names></name>, <name><surname>Steiner</surname><given-names>K</given-names></name>, <name><surname>Gentry</surname><given-names>D</given-names></name>, <name><surname>Malke</surname><given-names>H</given-names></name> (<year>1996</year>) <article-title>Functional analysis of a <italic>relA/spoT</italic> gene homolog from <italic>Streptococcus equisimilis.</italic>
+</article-title>. <source>J Bacteriol</source>
+<volume>178</volume>: <fpage>1401</fpage>–<lpage>1411</lpage>.<pub-id pub-id-type="pmid">8631718</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Parekh1">
+                <label>41</label>
+                <mixed-citation publication-type="journal"><name><surname>Parekh</surname><given-names>BS</given-names></name>, <name><surname>Hatfield</surname><given-names>GW</given-names></name> (<year>1997</year>) <article-title>Growth rate-related regulation of the <italic>ilvGMEDA</italic> Operon of <italic>Escherichia coli</italic> K-12 Is a consequence of the polar frame shift mutation in the <italic>ilvG</italic> gene of this strain</article-title>. <source>J Bacteriol</source>
+<volume>179</volume>: <fpage>2086</fpage>–<lpage>2088</lpage>.<pub-id pub-id-type="pmid">9068661</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Ikenaka1">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><name><surname>Ikenaka</surname><given-names>SK</given-names></name>, <name><surname>Ramakrishnan</surname><given-names>G</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name>, <name><surname>Tsung</surname><given-names>K</given-names></name>, <name><surname>Inouye</surname><given-names>M</given-names></name> (<year>1986</year>) <article-title>Regulation of the <italic>ompC</italic> gene of <italic>Escherichia coli.</italic> Involvement of three tandem promoters</article-title>. <source>J biologic chem</source>
+<volume>261</volume>: <fpage>9316</fpage>–<lpage>9320</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Chen1">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>S</given-names></name>, <name><surname>Wilson</surname><given-names>DB</given-names></name> (<year>1997</year>) <article-title>Construction and characterization of <italic>Escherichia coli</italic> genetically engineered for bioremediation of Hg21-contaminated environments</article-title>. <source>Appl Env Microbiol</source>
+<volume>63</volume>: <fpage>2442</fpage>–<lpage>2445</lpage>.<pub-id pub-id-type="pmid">9172366</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Nagakub1">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><name><surname>Nagakub</surname><given-names>S</given-names></name>, <name><surname>Nishino</surname><given-names>K</given-names></name>, <name><surname>Hirata</surname><given-names>T</given-names></name>, <name><surname>Yamaguchi</surname><given-names>A</given-names></name> (<year>2002</year>) <article-title>The putative response regulator BaeR stimulates multidrug resistance of <italic>Escherichia coli</italic> via a novel multidrug exporter system, MdtABC</article-title>. <source>J Bacteriol</source>
+<volume>184</volume>: <fpage>4161</fpage>–<lpage>4167</lpage>.<pub-id pub-id-type="pmid">12107133</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Leys1">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><name><surname>Leys</surname><given-names>N</given-names></name>, <name><surname>Hendrickx</surname><given-names>L</given-names></name>, <name><surname>De Bover</surname><given-names>P</given-names></name>, <name><surname>Baatout</surname><given-names>S</given-names></name>, <name><surname>Mergeay</surname><given-names>M</given-names></name> (<year>2004</year>) <article-title>Space flight effects on bacterial physiology. J Biol Regul Homeost Agents</article-title>. <volume>18</volume>: <fpage>193</fpage>–<lpage>199</lpage>.</mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Nachin1">
+                <label>46</label>
+                <mixed-citation publication-type="journal"><name><surname>Nachin</surname><given-names>L</given-names></name>, <name><surname>El Hassouni</surname><given-names>M</given-names></name>, <name><surname>Loiseau</surname><given-names>L</given-names></name>, <name><surname>Expert</surname><given-names>D</given-names></name>, <name><surname>Barras</surname><given-names>F</given-names></name> (<year>2001</year>) <article-title>SoxR-dependent response to oxidative stress and virulence of <italic>Erwinia chrysanthemi</italic>: the key role of SufC, an orphan ABC ATPase</article-title>. <source>Mol Microbiol</source>
+<volume>39</volume>: <fpage>960</fpage>–<lpage>972</lpage>.<pub-id pub-id-type="pmid">11251816</pub-id></mixed-citation>
+              </ref>
+              <ref id="pone.0057860-Ranquet1">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><name><surname>Ranquet</surname><given-names>C</given-names></name>, <name><surname>Gottesman</surname><given-names>S</given-names></name> (<year>2007</year>) <article-title>Translational regulation of the <italic>Escherichia coli</italic> stress factor RpoS: a role for SsrA and Lon J Bacteriol</article-title>. <volume>189</volume>: <fpage>4872</fpage>–<lpage>4879</lpage>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

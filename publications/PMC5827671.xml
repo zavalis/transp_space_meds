@@ -1,0 +1,3469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:59:55Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5827671" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5827671</identifier>
+        <datestamp>2018-02-28</datestamp>
+        <setSpec>peerj</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PeerJ</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PeerJ</journal-id>
+              <journal-id journal-id-type="publisher-id">peerj</journal-id>
+              <journal-id journal-id-type="pmc">peerj</journal-id>
+              <journal-title-group>
+                <journal-title>PeerJ</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2167-8359</issn>
+              <publisher>
+                <publisher-name>PeerJ Inc.</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5827671</article-id>
+              <article-id pub-id-type="pmcid">PMC5827671</article-id>
+              <article-id pub-id-type="pmc-uid">5827671</article-id>
+              <article-id pub-id-type="pmid">29492330</article-id>
+              <article-id pub-id-type="publisher-id">4029</article-id>
+              <article-id pub-id-type="doi">10.7717/peerj.4029</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Bioinformatics</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Ecology</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Microbiology</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A microbial survey of the International Space Station (ISS)</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib id="author-1" contrib-type="author">
+                  <name>
+                    <surname>Lang</surname>
+                    <given-names>Jenna M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-1">1</xref>
+                </contrib>
+                <contrib id="author-2" contrib-type="author">
+                  <name>
+                    <surname>Coil</surname>
+                    <given-names>David A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-1">1</xref>
+                </contrib>
+                <contrib id="author-3" contrib-type="author">
+                  <name>
+                    <surname>Neches</surname>
+                    <given-names>Russell Y.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-1">1</xref>
+                </contrib>
+                <contrib id="author-4" contrib-type="author">
+                  <name>
+                    <surname>Brown</surname>
+                    <given-names>Wendy E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-2">2</xref>
+                  <xref ref-type="aff" rid="aff-11">11</xref>
+                </contrib>
+                <contrib id="author-5" contrib-type="author">
+                  <name>
+                    <surname>Cavalier</surname>
+                    <given-names>Darlene</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-2">2</xref>
+                  <xref ref-type="aff" rid="aff-3">3</xref>
+                  <xref ref-type="aff" rid="aff-4">4</xref>
+                </contrib>
+                <contrib id="author-6" contrib-type="author">
+                  <name>
+                    <surname>Severance</surname>
+                    <given-names>Mark</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-2">2</xref>
+                  <xref ref-type="aff" rid="aff-4">4</xref>
+                </contrib>
+                <contrib id="author-7" contrib-type="author">
+                  <name>
+                    <surname>Hampton-Marcell</surname>
+                    <given-names>Jarrad T.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-5">5</xref>
+                  <xref ref-type="aff" rid="aff-6">6</xref>
+                </contrib>
+                <contrib id="author-8" contrib-type="author">
+                  <name>
+                    <surname>Gilbert</surname>
+                    <given-names>Jack A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff-7">7</xref>
+                  <xref ref-type="aff" rid="aff-8">8</xref>
+                </contrib>
+                <contrib id="author-9" contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Eisen</surname>
+                    <given-names>Jonathan A.</given-names>
+                  </name>
+                  <email>jaeisen@ucdavis.edu</email>
+                  <xref ref-type="aff" rid="aff-1">1</xref>
+                  <xref ref-type="aff" rid="aff-9">9</xref>
+                  <xref ref-type="aff" rid="aff-10">10</xref>
+                </contrib>
+                <aff id="aff-1"><label>1</label><institution>Genome Center, University of California, Davis</institution>, <state>CA</state>, <country>United States of America</country></aff>
+                <aff id="aff-2"><label>2</label><institution>Science Cheerleader</institution>, <country>United States of America</country></aff>
+                <aff id="aff-3"><label>3</label><institution>The Consortium for Science, Policy &amp; Outcomes, Arizona State University</institution>, <city>Tempe</city>, <state>AZ</state>, <country>United States of America</country></aff>
+                <aff id="aff-4"><label>4</label><institution>Scistarter.org</institution>, <country>United States of America</country></aff>
+                <aff id="aff-5"><label>5</label><institution>Biosciences Division, Argonne National Laboratory</institution>, <city>Lemont</city>, <state>IL</state>, <country>United States of America</country></aff>
+                <aff id="aff-6"><label>6</label><institution>Department of Biological Sciences, University of Illinois at Chicago</institution>, <city>Chicago</city>, <state>IL</state>, <country>United States of America</country></aff>
+                <aff id="aff-7"><label>7</label><institution>Argonne National Laboratory, University of Chicago</institution>, <city>Lemont</city>, <state>IL</state>, <country>United States of America</country></aff>
+                <aff id="aff-8"><label>8</label><institution>Institute for Genomics and Systems Biology, Argonne National Laboratory</institution>, <city>Lemont</city>, <state>IL</state>, <country>United States of America</country></aff>
+                <aff id="aff-9"><label>9</label><institution>Evolution and Ecology, University of California</institution><city>Davis</city>, <state>CA</state>, <country>United States of America</country></aff>
+                <aff id="aff-10"><label>10</label><institution>Medical Microbiology and Immunology, University of California</institution>, <city>Davis</city>, <state>CA</state>, <country>United States of America</country></aff>
+                <aff id="aff-11"><label>11</label><institution>Biomedical Engineering, University of California</institution>, <city>Davis</city>, <state>CA</state>, <country>United States of America</country></aff>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Mossong</surname>
+                    <given-names>Joël</given-names>
+                  </name>
+                </contrib>
+              </contrib-group>
+              <pub-date pub-type="epub" date-type="pub" iso-8601-date="2017-12-05">
+                <day>5</day>
+                <month>12</month>
+                <year iso-8601-date="2017">2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2017</year>
+              </pub-date>
+              <volume>5</volume>
+              <elocation-id>e4029</elocation-id>
+              <history>
+                <date date-type="received" iso-8601-date="2017-02-22">
+                  <day>22</day>
+                  <month>2</month>
+                  <year iso-8601-date="2017">2017</year>
+                </date>
+                <date date-type="accepted" iso-8601-date="2017-10-23">
+                  <day>23</day>
+                  <month>10</month>
+                  <year iso-8601-date="2017">2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>©2017 Lang et al.</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <copyright-holder>Lang et al.</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ) and either DOI or URL of the article must be cited.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="https://peerj.com/articles/4029"/>
+              <abstract>
+                <sec>
+                  <title>Background</title>
+                  <p>Modern advances in sequencing technology have enabled the census of microbial members of many natural ecosystems. Recently, attention is increasingly being paid to the microbial residents of human-made, built ecosystems, both private (homes) and public (subways, office buildings, and hospitals). Here, we report results of the characterization of the microbial ecology of a singular built environment, the International Space Station (ISS). This ISS sampling involved the collection and microbial analysis (via 16S rDNA PCR) of 15 surfaces sampled by swabs onboard the ISS. This sampling was a component of Project MERCCURI (Microbial Ecology Research Combining Citizen and University Researchers on ISS). Learning more about the microbial inhabitants of the “buildings” in which we travel through space will take on increasing importance, as plans for human exploration continue, with the possibility of colonization of other planets and moons.</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Sterile swabs were used to sample 15 surfaces onboard the ISS. The sites sampled were designed to be analogous to samples collected for (1) the Wildlife of Our Homes project and (2) a study of cell phones and shoes that were concurrently being collected for another component of Project MERCCURI. Sequencing of the 16S rDNA genes amplified from DNA extracted from each swab was used to produce a census of the microbes present on each surface sampled. We compared the microbes found on the ISS swabs to those from both homes on Earth and data from the Human Microbiome Project.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>While significantly different from homes on Earth and the Human Microbiome Project samples analyzed here, the microbial community composition on the ISS was more similar to home surfaces than to the human microbiome samples. The ISS surfaces are species-rich with 1,036–4,294 operational taxonomic units (OTUs per sample). There was no discernible biogeography of microbes on the 15 ISS surfaces, although this may be a reflection of the small sample size we were able to obtain.</p>
+                </sec>
+              </abstract>
+              <kwd-group kwd-group-type="author">
+                <kwd>16S</kwd>
+                <kwd>Microbial ecology</kwd>
+                <kwd>Microbiology of the built environment</kwd>
+                <kwd>Microbiome</kwd>
+                <kwd>International space station</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group id="fund-1">
+                  <funding-source>Space Florida ISS Research Competition</funding-source>
+                </award-group>
+                <award-group id="fund-2">
+                  <funding-source>Alfred P. Sloan Foundation</funding-source>
+                </award-group>
+                <funding-statement>This work was supported by the Space Florida ISS Research Competition (<ext-link ext-link-type="uri" xlink:href="http://www.spaceflorida.gov/iss-research-competition">http://www.spaceflorida.gov/iss-research-competition</ext-link>), <ext-link ext-link-type="uri" xlink:href="http://SciStarter.com">http://SciStarter.com</ext-link>, and a grant to Jonathan A. Eisen from the Alfred P. Sloan Foundation as part of the “Microbiology of the Built Environment” program. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro">
+              <title>Introduction</title>
+              <p>There is a growing appreciation of the importance of microbial communities found in diverse environments from the oceans, to soil, to the insides and outsides of plants and animals. Recently, there has been an expanding focus on the microbial ecology of the “built environment”—human constructed entities like buildings, cars, and trains—places where humans spend a large fraction of their time. One relatively unexplored type of built environment is that found in space. As humans expand their reach into the solar system, with renewed interest in space travel, and with the possibility of the colonization of other planets and moons, it is of critical importance to understand the microbial ecology of the built environments being utilized for such endeavors.</p>
+              <p>Interest in the microbial occupants of spacecraft long precedes the launch of the International Space Station (ISS) (<xref rid="ref-45" ref-type="bibr">Trexler, 1964</xref>; <xref rid="ref-43" ref-type="bibr">Silverman, 1971</xref>). Early work primarily focused on ensuring that the surfaces of spacecraft were free of microbial contaminants in an effort to avoid inadvertent panspermia (seeding other planets with microbes from Earth) (<xref rid="ref-35" ref-type="bibr">Pierson, 2007</xref>). Work on human-occupied spacecraft such as Mir, Space Shuttles, and Skylab focused more on microbes with possible human health effects. With the launch of the ISS, it was understood that this new built environment would be permanently housing microbes as well as humans. Calls were made for a better understanding of microbial ecology and human-microbe interactions during extended stays in space (<xref rid="ref-35" ref-type="bibr">Pierson, 2007</xref>) (<xref rid="ref-39" ref-type="bibr">Roberts, Garland &amp; Mills, 2004</xref>; <xref rid="ref-34" ref-type="bibr">Ott, Bruce &amp; Pierson, 2004</xref>). Efforts were made to establish a baseline microbial census. For example, <xref rid="ref-33" ref-type="bibr">Novikova et al. (2006)</xref> obtained more than 500 samples from the air, potable water, and surfaces of the ISS, over the course of six years.</p>
+              <p>These early studies were unavoidably limited by their reliance on culturing to identify microbial species. Culture-independent approaches were eventually implemented, including some small-scale 16S rDNA PCR surveys (<xref rid="ref-11" ref-type="bibr">Castro et al., 2004</xref>), and the Lab-On-a-Chip Application Development Portable Test System (LOCAD-PTS) (<xref rid="ref-28" ref-type="bibr">Maule et al., 2009</xref>), which allows astronauts to test surfaces for lipopolysaccharide (LPS— a marker for Gram negative bacteria). Originally launched in 2006, the capability of the LOCAD-PTS was expanded in 2009 to include an assay for fungi (beta-glucan, a fungal cell wall component) and Gram positive bacteria (lipoteichoic acid, a component of the cell wall of Gram positive bacteria.) The first large-scale, culture-independent 16S rDNA PCR survey was published only in 2014 using the Roche 454 platform (pyrosequencing), looking at dust on the ISS (<xref rid="ref-46" ref-type="bibr">Venkateswaran et al., 2014</xref>). A more recent study examined several samples collected on the Japanese module of the ISS over a period of four years, also sequenced with pyrosequencing (<xref rid="ref-19" ref-type="bibr">Ichijo et al., 2016</xref>). We report here on a further effort involving 16S rDNA PCR and sequencing, using the Illumina platform, to examine the microbial communities found on 15 surfaces inside the ISS. The advantage of Illumina sequencing, relative to previous pyrosequencing efforts, is the significant increase in depth of sequencing. This increased depth allowed us to analyze 15–20 times as many sequences as these earlier studies.</p>
+              <p>The 15 surfaces sampled on the ISS were chosen by the Project MERCCURI team in an effort to make them analogous to (1) the surfaces sampled for the “Wildlife of Our Homes” project (<ext-link ext-link-type="uri" xlink:href="http://homes.yourwildlife.org">http://homes.yourwildlife.org</ext-link>) (<xref rid="ref-13" ref-type="bibr">Dunn et al., 2013</xref>; <xref rid="ref-4" ref-type="bibr">Barberán et al., 2015a</xref>; <xref rid="ref-5" ref-type="bibr">Barberán et al., 2015b</xref>), which asked citizen scientists to swab nine surfaces in their homes, and (2) cell phone and shoe swab samples that were also being collected via Project MERCCURI. The sample matching is imperfect; for example, doorsills were used in houses because they collect dust but, in the microgravity of the ISS, dust accumulates in air filters. The motivation for choosing the sites in this way was both to increase public awareness of the microbiology of the built environment, as well as to begin to compare the microbial ecology of homes on Earth with the only current human home in space. We also present a comparison of the ISS swab results with data from 13 human body sites sampled via the Human Microbiome Project. This comparison was done to assess the potential human contribution to the microbial life on the ISS.</p>
+              <p>We have also compiled a collection of papers on space microbiology in an online resource to provide a more comprehensive historical perspective of this kind of work (see <ext-link ext-link-type="uri" xlink:href="https://www.zotero.org/groups/2008182/spacemicrobiology">https://www.zotero.org/groups/2008182/spacemicrobiology</ext-link>).</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Surfaces swabbed</title>
+                <p>Astronauts were asked to swab 15 surfaces on the International Space Station. Below are their verbatim instructions.</p>
+                <list list-type="simple" id="list-1">
+                  <list-item>
+                    <label> (1)</label>
+                    <p>Audio Terminal Unit (telephone) hand held push-to-talk microphone located in the forward portion of the US Lab Module</p>
+                  </list-item>
+                  <list-item>
+                    <label> (2)</label>
+                    <p>Audio Terminal Unit (telephone) hand held push-to-talk microphone located in the aft portion of the US Lab Module</p>
+                  </list-item>
+                  <list-item>
+                    <label> (3)</label>
+                    <p>US Lab Robotic Work Station laptop PC keyboard used to control the robotic arm</p>
+                  </list-item>
+                  <list-item>
+                    <label> (4)</label>
+                    <p>US Lab Robotic Work Station hand controller used to control the movement of the robotic arm</p>
+                  </list-item>
+                  <list-item>
+                    <label> (5)</label>
+                    <p>US Lab Robotic Work Station foothold, left side</p>
+                  </list-item>
+                  <list-item>
+                    <label> (6)</label>
+                    <p>US Lab Robotic Work Station foothold, right side</p>
+                  </list-item>
+                  <list-item>
+                    <label> (7)</label>
+                    <p>One of the main laptop keyboards in the US Lab used to control science experiments and the systems of the space station</p>
+                  </list-item>
+                  <list-item>
+                    <label> (8)</label>
+                    <p>One of the vertical handrails on the equipment racks inside the US Lab</p>
+                  </list-item>
+                  <list-item>
+                    <label> (9)</label>
+                    <p>Air vent in the front portion of the US Lab</p>
+                  </list-item>
+                  <list-item>
+                    <label> (10)</label>
+                    <p>Air vent in the aft portion of the US Lab</p>
+                  </list-item>
+                  <list-item>
+                    <label> (11)</label>
+                    <p>Air vent located on the right crew sleep compartment</p>
+                  </list-item>
+                  <list-item>
+                    <label> (12)</label>
+                    <p>Tab used to open, close, and secure the Nomex privacy panel located on the starboard crew sleep compartment</p>
+                  </list-item>
+                  <list-item>
+                    <label> (13)</label>
+                    <p>Air vent located on the port crew sleep compartment</p>
+                  </list-item>
+                  <list-item>
+                    <label> (14)</label>
+                    <p>Tab used to open, close, and secure the Nomex privacy panel located on the port crew sleep compartment</p>
+                  </list-item>
+                  <list-item>
+                    <label> (15)</label>
+                    <p>Crew Choice Surface: Audio Terminal Unit (telephone) hand held push-to-talk microphone located in the starboard portion of the Harmony module (Node 2).</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec>
+                <title>Swabbing instructions as given to astronauts</title>
+                <list list-type="simple" id="list-2">
+                  <list-item>
+                    <label> (1)</label>
+                    <p>Setup Node-2 Camcorder to capture NanoRacks surface swab Ops throughout the US LAB.</p>
+                  </list-item>
+                  <list-item>
+                    <label> (2)</label>
+                    <p>Retrieve a clean NanoRacks Swab Kit. Move to ISS location listed on NanoRacks Swab Kit label.</p>
+                  </list-item>
+                  <list-item>
+                    <label> (3)</label>
+                    <p>Remove cotton swab from NanoRacks Swab Kit, being careful not to touch the cotton swab tip to avoid contamination.</p>
+                  </list-item>
+                  <list-item>
+                    <label> (4)</label>
+                    <p>Rub cotton swab vigorously against designated surface. Spin and turn the swab to ensure maximum sample collection.</p>
+                  </list-item>
+                  <list-item>
+                    <label> (5)</label>
+                    <p>Return cotton swab to NanoRacks Swab Kit and press to close (squeeze excess air out of bag before sealing). Circle number of location swabbed and label with GMT (dd/hh: mm). If swab is contaminated by touching a surface other than the designated location on the label, Label NanoRacks Swab Kit with a large, “X” and move on to the next location. Notify POIC of NanoRacks Swab Kit S/N that was contaminated.</p>
+                  </list-item>
+                  <list-item>
+                    <label> (6)</label>
+                    <p>Repeat step 2 to step 6 for all 15 locations listed on the NanoRacks Swab Kit label.</p>
+                  </list-item>
+                </list>
+                <p>NOTE: An additional large Ziplock Bag is provided (stowed inside the same bag as the NanoRacks Swab Kits) to use per crew preference to separate the used NanoRacks Swab Kits from the clean (unused) NanoRacks Swab Kits for crew efficiency during sampling.</p>
+              </sec>
+              <sec>
+                <title>ISS Crew</title>
+                <p>Swabbing was conducted during Expedition 39 (<ext-link ext-link-type="uri" xlink:href="http://www.nasa.gov/mission_pages/station/expeditions/expedition39/index.html">http://www.nasa.gov/mission_pages/station/expeditions/expedition39/index.html</ext-link>). The crew included NASA astronauts Steve Swanson and Rick Mastracchio and Russian cosmonauts Oleg Artemyev, Alexander Skvortsov, and Mikhail Tyurin. Japan Aerospace Exploration Agency (JAXA) astronaut Koichi Wakata was the commander for this expedition, and is the astronaut who performed the swabbing.</p>
+              </sec>
+              <sec>
+                <title>Sampling site choice</title>
+                <p>These surfaces were chosen in an attempt to sample surfaces analogous to those sampled in the pilot study for the Wildlife of Our Homes project (<xref rid="ref-13" ref-type="bibr">Dunn et al., 2013</xref>). For this study, involving 40 homes, volunteers swabbed nine surfaces in their homes: kitchen cutting board, kitchen counter, a shelf inside a refrigerator, toilet seat, pillowcase, exterior handle of the main door into the house, television screen, the upper door trim on the outside surface of an exterior door, and the upper door trim on an interior door. We were not granted access to all corresponding surfaces aboard the ISS. The kitchen surfaces aboard the ISS are in the Russian module, which we did not have permission to access, swabbing the toilet seat was deemed inappropriate due to biosafety concerns, and the exterior surfaces are accessible only via an “Extra-vehicular Activity” (space walk), which was not requested for this experiment. We also sought to collect samples that would be analogous to the cell phone and shoe samples that were being obtained from thousands of Citizen Scientists across the country in a different component of Project MERCCURI. A final constraint was the limitation of only 15 swabs that was imposed by NASA, severely limiting the number of replicates we could collect. See <xref ref-type="table" rid="table-1">Table 1</xref> for a list of the ISS sampling sites and to which Earth samples they were intended to be analogous.</p>
+                <table-wrap id="table-1" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/table-1</object-id>
+                  <label>Table 1</label>
+                  <caption>
+                    <title>ISS sample surface descriptions and sequence statistics.</title>
+                  </caption>
+                  <alternatives>
+                    <graphic xlink:href="peerj-05-4029-g008"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col span="1"/>
+                        <col span="1"/>
+                        <col span="1"/>
+                        <col span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th rowspan="1" colspan="1">Sample</th>
+                          <th rowspan="1" colspan="1">Earth analog</th>
+                          <th rowspan="1" colspan="1">Number of sequences obtained</th>
+                          <th rowspan="1" colspan="1">Number of species observed (OTUs at 97% similarity)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td rowspan="1" colspan="1">Forward lab mic</td>
+                          <td rowspan="1" colspan="1">Cell phone</td>
+                          <td rowspan="1" colspan="1">45,902</td>
+                          <td rowspan="1" colspan="1">1,744</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab robotic workstation keyboard</td>
+                          <td rowspan="1" colspan="1">None</td>
+                          <td rowspan="1" colspan="1">31,612</td>
+                          <td rowspan="1" colspan="1">1,320</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Aft lab mic</td>
+                          <td rowspan="1" colspan="1">Cell phone</td>
+                          <td rowspan="1" colspan="1">63,958</td>
+                          <td rowspan="1" colspan="1">2,457</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab robotic workstation joystick</td>
+                          <td rowspan="1" colspan="1">Door handle</td>
+                          <td rowspan="1" colspan="1">76,198</td>
+                          <td rowspan="1" colspan="1">2,820</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab robotic workstation left foothold</td>
+                          <td rowspan="1" colspan="1">Shoe</td>
+                          <td rowspan="1" colspan="1">77,843</td>
+                          <td rowspan="1" colspan="1">1,995</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab robotic workstation right foothold</td>
+                          <td rowspan="1" colspan="1">Shoe</td>
+                          <td rowspan="1" colspan="1">74,023</td>
+                          <td rowspan="1" colspan="1">2,129</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Aft lab vent</td>
+                          <td rowspan="1" colspan="1">Interior door trim</td>
+                          <td rowspan="1" colspan="1">64,782</td>
+                          <td rowspan="1" colspan="1">1,456</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Starboard crew vent</td>
+                          <td rowspan="1" colspan="1">Interior door trim</td>
+                          <td rowspan="1" colspan="1">63,280</td>
+                          <td rowspan="1" colspan="1">4,294</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Starboard sleep quarters nomex</td>
+                          <td rowspan="1" colspan="1">Pillow</td>
+                          <td rowspan="1" colspan="1">26,831</td>
+                          <td rowspan="1" colspan="1">1,036</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Port crew vent</td>
+                          <td rowspan="1" colspan="1">Interior door trim</td>
+                          <td rowspan="1" colspan="1">50,418</td>
+                          <td rowspan="1" colspan="1">1,757</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Port sleep quarters nomex</td>
+                          <td rowspan="1" colspan="1">Pillow</td>
+                          <td rowspan="1" colspan="1">61,306</td>
+                          <td rowspan="1" colspan="1">1,349</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Node2 mic</td>
+                          <td rowspan="1" colspan="1">Cell phone</td>
+                          <td rowspan="1" colspan="1">50,416</td>
+                          <td rowspan="1" colspan="1">1,429</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab main keyboard</td>
+                          <td rowspan="1" colspan="1">None</td>
+                          <td rowspan="1" colspan="1">62,567</td>
+                          <td rowspan="1" colspan="1">1,678</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lab handrail</td>
+                          <td rowspan="1" colspan="1">Door handle</td>
+                          <td rowspan="1" colspan="1">70,418</td>
+                          <td rowspan="1" colspan="1">2,904</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Forward lab vent</td>
+                          <td rowspan="1" colspan="1">Interior door trim</td>
+                          <td rowspan="1" colspan="1">57,715</td>
+                          <td rowspan="1" colspan="1">2,380</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>Upon successful completion of the swabbing on May 9, 2014, <ext-link ext-link-type="uri" xlink:href="http://blogs.nasa.gov/stationreport/2014/05/09/iss-daily-summary-report-050914/">http://blogs.nasa.gov/stationreport/2014/05/09/iss-daily-summary-report-050914/</ext-link>, all swabs were stored at −80 °C in the Minus Eighty-degree Laboratory Freezer for ISS (MELFI) freezer onboard the ISS, until transfer to the SpaceX Dragon spacecraft. In the Dragon, the swabs were stored at −80 °C in the General Laboratory Active Cryogenic ISS Experiment Refrigerator (GLACIER), that runs off of Dragon’s batteries until it is plugged in (either to the ISS or on the ground.) The Dragon re-entered the Earth’s atmosphere and splashed down in the Pacific Ocean at 12:05 pm PT on May 18, 2014. Samples were transferred to a cooler with dry ice, and shipped to the Earth Microbiome Project (EMP) lab (<ext-link ext-link-type="uri" xlink:href="http://earthmicrobiome.org">http://earthmicrobiome.org</ext-link>) (<xref rid="ref-15" ref-type="bibr">Gilbert et al., 2011</xref>).</p>
+              </sec>
+              <sec>
+                <title>DNA extraction and library preparation</title>
+                <p>All samples were prepared using a modified version of the Mo BIO UltraClean<sup>®</sup>-htp 96 Well Swab DNA Kit (MO BIO, Carlsbad, CA, USA). Samples were purified using the Zymo ZR-96 DNA Cleanup and Concentrator™-5 kit according to Zymo Protocol (Zymo Research, Irvine, CA, USA). DNA was then amplified using the EMP barcoded primer set, adapted for the Illumina HiSeq2000 and MiSeq by adding nine extra bases in the adapter region of the forward amplification primer that support paired-end sequencing. The V4 region of the 16S rRNA gene (515F-806R) was amplified with region-specific primers that included the Illumina flowcell adapter sequences and a twelve-base barcode sequence. Each 25 ul PCR reaction contained the following: 12 ul of PCR water certified DNA-free (MO BIO), 10 ul of 1× 5 Prime HotMasterMix (5 Prime), 1 ul of Forward Primer (5 uM concentration, 200 pM final), 1 ul of Golay Barcode Tagged Reverse Primer (5 uM concentration, 200 pM final), and 1 ul of template DNA. The conditions for PCR were as follows: 94 °C for 3 min to denature the DNA, with 35 cycles at 94 °C for 45 s, 50 °C for 60 s, and 72 °C for 90 s, with a final extension of 10 min at 72 °C to ensure complete amplification. Amplicons were quantified using PicoGreen (Invitrogen, Carlsbad, CA, USA) and a plate reader. Once quantified, different volumes of each of the products were pooled into a single tube so that each amplicon was represented equally. This pool was then cleaned up using UltraClean<sup>®</sup> PCR Clean-Up Kit (MO BIO, Carlsbad, CA, USA), and then quantified using Qubit (Invitrogen, Carlsbad, CA, USA). Sequencing of the prepared library was performed on the Illumina MiSeq platform, using the sequencing primers and procedures described in the supplementary methods of <xref rid="ref-9" ref-type="bibr">Caporaso (2012)</xref>.</p>
+              </sec>
+              <sec>
+                <title>Bioinformatic analysis</title>
+                <p>Unless otherwise noted, all microbial community analyses were conducted using the QIIME workflow version 1.8 or R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>). All Python scripts referred to are components of QIIME (<xref rid="ref-10" ref-type="bibr">Caporaso et al., 2010</xref>).</p>
+                <p>Demultiplex and QC: an in-house script was used to assign sequences to samples, using dual-index barcoding. This script is available on GitHub (<ext-link ext-link-type="uri" xlink:href="https://github.com/gjospin/Demul_trim_prep">https://github.com/gjospin/Demul_trim_prep</ext-link>). This script allows for one base pair difference per barcode. The paired reads were then aligned and a consensus was computed using FLASH (<xref rid="ref-27" ref-type="bibr">Magoc &amp; Salzberg, 2011</xref>) with maximum overlap of 120 and a minimum overlap of 70 (other parameters were left as default). The custom script automatically demultiplexes the data into fastq files, executes FLASH, and parses its results to reformat the sequences with appropriate naming conventions for QIIME v. 1.8.0 in fasta format.</p>
+                <p>OTU assignment and QC: Chimeric sequences were identified using usearch61 as implemented in the identify_chimeric_seqs.py script, resulting in the removal of 8,760 sequences. The pick_open_reference_otus.py script was used to cluster sequences at 97% similarity to generate OTUs (Operational Taxonomic Units, a proxy for species). Taxonomy was assigned to each OTU by comparing a representative sequence from each cluster to the gg_13_8_otus reference taxonomy provided by the Greengenes Database Consortium (<ext-link ext-link-type="uri" xlink:href="http://greengenes.secondgenome.com">http://greengenes.secondgenome.com</ext-link>) (<xref rid="ref-29" ref-type="bibr">McDonald et al., 2011</xref>). OTUs that were classified as chloroplasts or mitochondria were removed from further analysis. The number of high-quality sequences remaining per sample ranged from 26,831 to 77,843 (see <xref ref-type="table" rid="table-1">Table 1</xref>). All subsequent beta diversity analyses (comparisons across samples) were performed with all samples rarefied to 26,830 sequences.</p>
+              </sec>
+              <sec>
+                <title>Comparison of ISS surfaces to analogous surfaces in homes on Earth and to the Human Microbiome Project</title>
+                <p>The sequences and associated metadata from a 40-home pilot study for the Wildlife of Our Homes Project are available for download from Figshare (<xref rid="ref-31" ref-type="bibr">Menninger et al., 2013</xref>). We also obtained 100 samples from each of 13 body sites from the HMP Data Portal (<ext-link ext-link-type="uri" xlink:href="http://hmpdacc.org/HM16STR/">http://hmpdacc.org/HM16STR/</ext-link>) (<xref rid="ref-18" ref-type="bibr">Huttenhower et al., 2012</xref>; <xref rid="ref-14" ref-type="bibr">Gevers et al., 2012</xref>). These two additional datasets were used in a combined analysis with the ISS sequences presented here. Because the sequences from the three projects are not all the same lengths, each dataset was independently analyzed using a closed-reference OTU-picking approach, with a 97% similarity cutoff, and the resultant biom tables were merged with the merge_otu_tables.py script. While the closed-reference approach will miss any novel taxa, this was required since both of our comparison datasets were analyzed this way. To account for uneven sampling depth, all samples in the combined analysis were rarefied to 1, 000 sequences. Shannon diversity, as well as non-metric multidimensional scaling (NMDS) based on Bray–Curtis (<xref rid="ref-7" ref-type="bibr">Bray &amp; Curtis, 1957</xref>) and Unweighted Unifrac (<xref rid="ref-26" ref-type="bibr">Lozupone &amp; Knight, 2005</xref>) distances were computed and plotted using Phyloseq (<xref rid="ref-30" ref-type="bibr">McMurdie &amp; Susan, 2013</xref>) and the ggplot2 (<xref rid="ref-47" ref-type="bibr">Wilkinson, 2011</xref>) packages in R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>).</p>
+              </sec>
+              <sec>
+                <title>Comparison to rooms with mechanical ventilation or open windows</title>
+                <p>We obtained a list of human pathogens, compiled by <xref rid="ref-20" ref-type="bibr">Kembel et al. (2012)</xref> from the author. We then used BLAST (<xref rid="ref-2" ref-type="bibr">Altschul et al., 1990</xref>) to search a representative sequence from each of the ISS OTUs against the NCBI Reference Sequence (RefSeq) database (<xref rid="ref-36" ref-type="bibr">Pruitt, 2004</xref>). OTUs with 97% similarity to an organism that was on the list of known pathogens were flagged as “related to a known human pathogen”. The phylogenetic diversity (Faith’s PD) was calculated using the alpha_diversity.py script, with samples rarefied to 700 sequences.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>Results and Discussion</title>
+              <sec>
+                <title>Overall taxonomic diversity of ISS surfaces and comparison to previous high-throughput 16S rDNA study</title>
+                <p>After filtering chimeric and eukaryotic sequences from the data, the number of sequences per surface sampled ranged from 26,221–76,656. Open-reference clustering at 97% similarity resulted in 12,554 OTUs (OTU is a proxy for microbial “species”.). This exceeds the number of species observed by <xref rid="ref-46" ref-type="bibr">Venkateswaran et al. (2014)</xref> and <xref rid="ref-19" ref-type="bibr">Ichijo et al. (2016)</xref> which is not surprising, given the increased sampling depth in this study (∼1 million versus ∼50,000–71,000 high-quality sequences.) Our study also had four notable, qualitative differences from these earlier studies. In <xref rid="ref-46" ref-type="bibr">Venkateswaran et al., (2014)</xref>, more than 90% of all sequences were assigned to four bacterial genera (<italic>Corynebacterium</italic>, <italic>Propionibacterium</italic>, <italic>Staphylococcus</italic>, and <italic>Streptococcus</italic>), while in the study here, they comprised only 24% of the data (9.6%, 0.05%, 10.7%, and 3.6%, respectively). <xref rid="ref-19" ref-type="bibr">Ichijo et al. (2016)</xref> did not report genus level taxonomy but the phyla containing these groups (Firmicutes and Actinobacteria) were highly abundant in all samples. Second, Venkateswaran et al. found no evidence of archaea in their samples, even when interrogating with archaeal-specific primers, but we did find evidence for a very low relative abundance archaeal presence (2,335 sequences, from three archaeal phyla). No archaeal results were reported by <xref rid="ref-19" ref-type="bibr">Ichijo et al. (2016)</xref>. Next, despite the fact that Venkateswaran et al. were able to culture many spore-forming organisms from their samples, they observed no sequence data from putative spore-forming organisms. However, a large percentage of sequences in our study are from genera containing known spore-forming genera: 20.9% <italic>Bacillus</italic> and 9.6% <italic>Clostridium</italic>. These differences are potentially due to differences in PCR primers and/or DNA extraction method, both of which have known taxonomic biases (<xref rid="ref-8" ref-type="bibr">Brooks et al., 2015</xref>). Lastly <xref rid="ref-19" ref-type="bibr">Ichijo et al. (2016)</xref> noted a significant amount of both Legionellaceae and Neisseriaceae which are both of potential concerns as families containing may pathogenic members. However, our study observed no OTUs for these groups which is most likely due to sampling site differences or PCR primer differences as noted above.</p>
+                <p>The 19 most abundant orders found in our study represent 93.8% of the data (<xref ref-type="fig" rid="fig-1">Fig. 1</xref>). Within each of these 19 orders, the most abundant genus found in our samples tends to be human-associated (<xref ref-type="table" rid="table-2">Table 2</xref>). This is not surprising, as the only source of microbial influx is via occasional crew and cargo deliveries aboard spacecraft that have been stringently cleaned to avoid microbial contamination. It should be noted, as with all 16S rDNA gene surveys, that nothing can be said about the viability of these bacteria. Typically much of the bacterial DNA on a surface is from dead or non-viable organisms. In built environments on earth this DNA is assumed to come from many sources including outdoor air, soil, and the passage of people and animals. On the ISS all of these taxa, viable or not, represent organisms that have managed to survive the various protocols designed to limit them, the most likely passage being on the crew themselves.</p>
+                <fig id="fig-1" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-1</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Relative abundances of the most common bacterial families found on surfaces of the ISS.</title>
+                    <p>Pie chart showing the relative abundances of the most common bacterial families found on the 15 surfaces of the International Space Station. This graph was produced using METAGENassist (<xref rid="ref-3" ref-type="bibr">Arndt et al., 2012</xref>).</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g001"/>
+                </fig>
+                <table-wrap id="table-2" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/table-2</object-id>
+                  <label>Table 2</label>
+                  <caption>
+                    <title>The most abundant organisms on the ISS are human-associated.</title>
+                    <p>From each of the 19 orders shown in <xref ref-type="fig" rid="fig-1">Fig. 1</xref>, we selected the most abundant genus and conducted a literature review to identify whether or not it is known to occur in association with the human microbiome.</p>
+                  </caption>
+                  <alternatives>
+                    <graphic xlink:href="peerj-05-4029-g009"/>
+                    <table frame="hsides" rules="groups">
+                      <colgroup span="1">
+                        <col span="1"/>
+                        <col span="1"/>
+                        <col span="1"/>
+                        <col span="1"/>
+                        <col span="1"/>
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th rowspan="1" colspan="1">Order</th>
+                          <th rowspan="1" colspan="1">% abundance</th>
+                          <th rowspan="1" colspan="1">Dominant Genus</th>
+                          <th rowspan="1" colspan="1">Common habitat</th>
+                          <th rowspan="1" colspan="1">Reference</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td rowspan="1" colspan="1">Actinomycetales</td>
+                          <td rowspan="1" colspan="1">18.3</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Corynebacterium</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human skin, oral cavity</td>
+                          <td rowspan="1" colspan="1"><xref rid="ref-16" ref-type="bibr">Grice et al. (2009)</xref>, <xref rid="ref-50" ref-type="bibr">Zaura et al. (2009)</xref></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Bacillales</td>
+                          <td rowspan="1" colspan="1">14</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Staphylococcus</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human skin, oral cavity</td>
+                          <td rowspan="1" colspan="1"><xref rid="ref-16" ref-type="bibr">Grice et al. (2009)</xref>, <xref rid="ref-50" ref-type="bibr">Zaura et al. (2009)</xref></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Bacteroidales</td>
+                          <td rowspan="1" colspan="1">12.8</td>
+                          <td rowspan="1" colspan="1">Unclassified Rikenellaceae/S24-7</td>
+                          <td rowspan="1" colspan="1">Animal gut</td>
+                          <td rowspan="1" colspan="1"><xref rid="ref-23" ref-type="bibr">Langille et al. (2014)</xref>, <xref rid="ref-22" ref-type="bibr">Krych et al. (2015)</xref></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Lactobacillales</td>
+                          <td rowspan="1" colspan="1">11.1</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Streptococcus</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human oral cavity</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-1" ref-type="bibr">Aas et al. (2005)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Clostridiales</td>
+                          <td rowspan="1" colspan="1">11</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Finegoldia</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human skin</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-17" ref-type="bibr">Higaki &amp; Morohashi (2003)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Pseudomonadales</td>
+                          <td rowspan="1" colspan="1">6.1</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Pseudomonas</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human skin</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-12" ref-type="bibr">Cogen, Nizet &amp; Gallo (2008)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Burkholderiales</td>
+                          <td rowspan="1" colspan="1">5.6</td>
+                          <td rowspan="1" colspan="1">Unclassified Comamonadaceae</td>
+                          <td rowspan="1" colspan="1">Environmental</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-48" ref-type="bibr">Willems (2014)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Neisseriales</td>
+                          <td rowspan="1" colspan="1">2.3</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Neisseria</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human mucous membranes</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-25" ref-type="bibr">Liu, Tang &amp; Exley (2015)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Fusobacteriales</td>
+                          <td rowspan="1" colspan="1">2.2</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Fusobacterium</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human oral cavity</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-41" ref-type="bibr">Schwarzberg et al. (2014)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Pasteurellales</td>
+                          <td rowspan="1" colspan="1">1.7</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Haemophilus</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human respiratory tract</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-32" ref-type="bibr">Murphy et al. (2007)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Verrucomicrobiales</td>
+                          <td rowspan="1" colspan="1">1.6</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Akkermansia</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human gut</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-6" ref-type="bibr">Belzer &amp; De Vos (2012)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Flavobacteriales</td>
+                          <td rowspan="1" colspan="1">1.1</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Capnocytophaga</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human oral cavity</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-50" ref-type="bibr">Zaura et al. (2009)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Selenomonadales</td>
+                          <td rowspan="1" colspan="1">1</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Selenomonas</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Human oral cavity</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-38" ref-type="bibr">Ribeiro et al. (2011)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Sphingomonadales</td>
+                          <td rowspan="1" colspan="1">0.9</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Sphingomonas</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Environmental</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-42" ref-type="bibr">Seifried, Wichels &amp; Gerdts (2015)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Sphingobacteriales</td>
+                          <td rowspan="1" colspan="1">0.8</td>
+                          <td rowspan="1" colspan="1">Unclassified Sphingobacteriales</td>
+                          <td rowspan="1" colspan="1">Environmental</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-44" ref-type="bibr">Steyn et al. (1998)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Enterobacteriales</td>
+                          <td rowspan="1" colspan="1">0.8</td>
+                          <td rowspan="1" colspan="1">Unclassified Enterobacteraceae</td>
+                          <td rowspan="1" colspan="1">Animal gut</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-24" ref-type="bibr">Linton &amp; Hinton (1988)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Rhizobiales</td>
+                          <td rowspan="1" colspan="1">0.6</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Methylobacterium</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Environmental</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-21" ref-type="bibr">Knief et al. (2010)</xref>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td rowspan="1" colspan="1">Campylobacterales</td>
+                          <td rowspan="1" colspan="1">0.6</td>
+                          <td rowspan="1" colspan="1">
+                            <italic>Campylobacter</italic>
+                          </td>
+                          <td rowspan="1" colspan="1">Animal gut</td>
+                          <td rowspan="1" colspan="1">
+                            <xref rid="ref-49" ref-type="bibr">Young, Davis &amp; DiRita (2007)</xref>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </alternatives>
+                </table-wrap>
+                <p>There were no apparent biogeographical patterns on the ISS surfaces. That is, there were no significant differences between samples obtained from the different modules (crew vs lab) or different surface types (keyboards, vents, or handheld mics). This can be visualized in <xref ref-type="fig" rid="fig-2">Fig. 2</xref>, in which each point represents one of the 15 samples, and the distance between samples indicates the overall difference in community composition. In <xref ref-type="fig" rid="fig-2">Fig. 2A</xref>, the metric used to calculate the distance between samples is the Bray–Curtis dissimilarity, and in <xref ref-type="fig" rid="fig-2">Fig. 2B</xref>, an alternative distance metric (Unifrac) is used, which takes into account the phylogenetic distance between the OTUs in samples. For the most part, all 15 samples form a tight cluster on the NMDS plots, but there is one sample, the starboard crew vent, that appears distinct from all of the other samples in <xref ref-type="fig" rid="fig-2">Fig. 2A</xref>. In <xref ref-type="fig" rid="fig-2">Fig. 2B</xref>, that same sample, as well as the aft lab vent sample appear separate from the others. In order to visualize which OTUs are contributing the most to the uniqueness of those samples, we looked at the overall distribution of the most abundant bacterial families in those samples. The three most abundant families in the starboard crew vent sample are Bacteroidaceae, Ruminococcaceae, and Verrumicrobiaceae (comprising 60.1% of all sequences); and the three most abundant families in the aft lab vent sample are Rikenellaceae, Bacteroidales S24-7, and Lactobacillaceae (comprising 60% of all sequences). In <xref ref-type="fig" rid="fig-3">Fig. 3</xref>, the relative abundance of these six families in all 15 samples from the ISS provides a clear indication that they are driving the distinctiveness of those two samples.</p>
+                <fig id="fig-2" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-2</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Non-metric multidimensional scaling (NMDS) ordination plots of 15 ISS surface samples.</title>
+                    <p>Non-metric multidimensional scaling (NMDS) ordination plots, based on Bray–Curtis (A) or Unweighted Unifrac (B) distances between the samples obtained from the International Space Station. In these plots, points that are closer together have more similar microbial communities. Note, there is a (starboard) crew vent sample that does not cluster with the other ISS samples in (A) and in (B), a second sample (aft lab vent) appears closer to it. This graph was produced using the Phyloseq package (<xref rid="ref-30" ref-type="bibr">McMurdie &amp; Susan, 2013</xref>) in R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>).</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g002"/>
+                </fig>
+                <fig id="fig-3" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-3</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Most abundant bacterial families found in each of the two “outlier” samples on the ISS.</title>
+                    <p>Bar chart showing the distribution across all samples of the 3 most abun- dant bacterial families found in each of the two samples (starboard crew vent and aft lab vent) that do not cluster with the others in <xref ref-type="fig" rid="fig-2">Fig. 2</xref>. All six of these families are known to be found in association with human (or animal) gastrointestinal tract.</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g003"/>
+                </fig>
+                <p>The massive increase in environmental 16S rDNA gene surveys over the last several years has seen a greater understanding of the caveats and limitations with this kind of data, in parallel with their unambiguous utility in understanding microbial communities. When this experiment was designed in 2012, negative kit controls were not common but now they are considered standard for good reason (<xref rid="ref-40" ref-type="bibr">Salter et al., 2014</xref>). Lacking a kit control, we cannot say for certain which low-level taxa may have come from the swabs or reagents used themselves.</p>
+              </sec>
+              <sec>
+                <title>Comparison to the microbial communities of homes on Earth and from the Human Microbiome Project</title>
+                <p>To put the microbial communities that we found on ISS surfaces in the context of homes on Earth, we compared them to the communities found in samples taken by citizen scientists when they swabbed nine surfaces throughout 40 homes, as part of the “Wildlife of Our Homes” project (<xref rid="ref-13" ref-type="bibr">Dunn et al., 2013</xref>). We found that the ISS and homes on Earth were significantly different from each other, both based on the Bray-Curtis dissimilarity (adonis, <italic>R</italic><sup>2</sup> = 0.0666, <italic>P</italic> = 0.001) and the Unifrac distance (adonis, <italic>R</italic><sup>2</sup> = 0.04189, <italic>P</italic> = 0.001). These differences can be visualized in the ordination plots in <xref ref-type="fig" rid="fig-4">Figs. 4A</xref> and <xref ref-type="fig" rid="fig-4">4B</xref>.</p>
+                <fig id="fig-4" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-4</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>Non-metric multidimensional scaling (NMDS) ordination plots of ISS surface samples.</title>
+                    <p>Non-metric multidimensional scaling (NMDS) ordination plots, based on Bray–Curtis (A) or Unweighted Unifrac (B) distances between samples obtained from the International Space Station and samples obtained from homes on Earth. In these plots, points that are closer together have more similar microbial communities. We found that the ISS samples and Earth home samples were significantly different from each other, both based on the Bray–Curtis dissimilarity (adonis, <italic>R</italic><sup>2</sup> = 0.0666, <italic>P</italic> = 0.001) and the Unifrac distance (adonis, <italic>R</italic><sup>2</sup> = 0.04189, <italic>P</italic> = 0.001). Note, the crew and lab vent samples that are distinct from the other ISS samples <xref ref-type="fig" rid="fig-2">Fig. 2</xref>, do not cluster with any of the Earth home surfaces. This graph was produced using the Phyloseq package (<xref rid="ref-30" ref-type="bibr">McMurdie &amp; Susan, 2013</xref>) in R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>).</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g004"/>
+                </fig>
+                <p>It is perhaps not surprising that the insular environment of the ISS would be unlike homes on Earth. Unlike the ISS, homes on Earth are exposed to a variety of sources of microbes, including the outdoor air, tracked-in soil, plants, pets, and human inhabitants (<xref rid="ref-4" ref-type="bibr">Barberán et al., 2015a</xref>; <xref rid="ref-5" ref-type="bibr">Barberán et al., 2015b</xref>). The dominant source of microbes on the ISS is presumably the human microbiome. All spacecraft and cargo undergo rigorous decontamination procedures before launch to rendezvous with the ISS. Therefore, we hypothesized that the microbial communities of the ISS surfaces might be more similar to human-associated microbial communities than Earth home surfaces. To test this hypothesis, we obtained 16S rDNA sequence data for 100 random samples from each of 13 body sites from the HMP Data Portal (<ext-link ext-link-type="uri" xlink:href="http://hmpdacc.org/HM16STR/">http://hmpdacc.org/HM16STR/</ext-link>) (<xref rid="ref-18" ref-type="bibr">Huttenhower et al., 2012</xref>) (<xref rid="ref-14" ref-type="bibr">Gevers et al., 2012</xref>). The microbial communities associated with the ISS, homes on Earth, and the HMP samples were significantly different from each other (adonis, <italic>R</italic><sup>2</sup> = 0.08, <italic>P</italic> &lt; 0.001) (Also see <xref ref-type="fig" rid="fig-5">Fig. 5</xref>). We note that as with any meta-analysis, this difference could be also be partly due to differences in sample collection/preparation. However, the ISS communities are significantly more similar to the Earth home samples than the HMP samples (Student’s <italic>t</italic>-test, <italic>p</italic> &lt; 0.00001). This combined analysis also indicates that the starboard crew vent sample, which appears quite distinct from the rest of the ISS samples in <xref ref-type="fig" rid="fig-2">Fig. 2A</xref>, is more similar to the human gastrointestinal HMP samples, which is corroborated by the dominance of animal gut-related OTUs found in that sample (see <xref ref-type="fig" rid="fig-3">Fig. 3</xref>, and <xref ref-type="table" rid="table-2">Table 2</xref>).</p>
+                <fig id="fig-5" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-5</object-id>
+                  <label>Figure 5</label>
+                  <caption>
+                    <title>NMDS plots showing clustering of ISS, Earth homes, and Human Microbiome Project body sites.</title>
+                    <p>Non-metric multidimensional scaling (NMDS) ordination plots, based on Bray–Curtis (A and C) or Unweighted Unifrac (B and D) distances between samples obtained from the International Space Station, from homes on Earth, and from 13 body site from the Human Microbiome Project. The plots in (A) and (B) show identical data, as do the plots in (C) and (D). The points in (A) vs. (B) and (C) vs. (D) are colored differently as an aid for visualization. In these plots, points that are closer together have more similar microbial communities. The microbial communities associated with the ISS, homes on Earth, and the HMP samples were significantly different from each other (adonis, <italic>R</italic><sup>2</sup> = 0.08, <italic>P</italic> &lt; 0.001). Note: the crew and lab vent samples that are distinct from the other ISS samples in <xref ref-type="fig" rid="fig-2">Fig. 2</xref> are more similar to the human gastrointestinal tract samples from the HMP. This graph was produced using the Phyloseq package (<xref rid="ref-30" ref-type="bibr">McMurdie &amp; Susan, 2013</xref>) in R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>).</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g005"/>
+                </fig>
+                <p>Finally, because the ISS is designed only to house six crew members, for a stay of six months each, only 220 individuals have visited the ISS since the year 2000. We hypothesized that there might be a relatively low microbial diversity on the ISS, either due to having a few total number of species, or due to the dominance of a very few species. In <xref ref-type="fig" rid="fig-6">Fig. 6</xref>, we note that Shannon diversity (which takes into account both the number of species present, and how evenly our sequences are distributed throughout those species) is actually relatively high on the ISS.</p>
+                <fig id="fig-6" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-6</object-id>
+                  <label>Figure 6</label>
+                  <caption>
+                    <title>Comparison of Shannon diversity among the ISS, Earth homes, and HMP body sites.</title>
+                    <p>Shannon diversity, a measure of how many species there are as well as how evenly the counts of individuals are distributed across species is plotted for every sample. There is wide variation among the HMP samples, with the oral (blue) and gastrointestinal (green) samples typically having more diversity than the skin (pink) or airway (coral) samples. Surfaces on the International Space Station have relatively high Shannon diversity, on par with that of the most diverse HMP samples, and the average home sample. This graph was produced using the Phyloseq package (<xref rid="ref-30" ref-type="bibr">McMurdie &amp; Susan, 2013</xref>) in R (<xref rid="ref-37" ref-type="bibr">R Core Team, 2014</xref>).</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g006"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Comparison to rooms with mechanical ventilation or open windows</title>
+                <p><xref rid="ref-20" ref-type="bibr">Kembel et al. (2012)</xref>, showed that rooms in a health-care facility that were primarily ventilated via an open window had greater phylogenetic diversity and lower proportion of OTUs closely related to known human pathogens than rooms that were mechanically ventilated. The only window on the ISS is never opened, and the doors are opened only briefly, every few months. Therefore, we hypothesized that for the samples from the ISS, the phylogenetic diversity would be lower and the proportion of OTUs closely related to known human pathogens would be higher than that seen for mechanically ventilated rooms. To test this hypothesis, we obtained the list of known human pathogens compiled by <xref rid="ref-20" ref-type="bibr">Kembel et al. (2012)</xref>, and followed their procedure to identify the proportion of OTUs in the ISS samples that were closely related to them (see Methods for details). Surprisingly, but reassuringly, we found that the ISS samples are similar in both phylogenetic diversity and the proportion of OTUs closely related to known human pathogens as compared to the mechanically ventilated rooms in the health-care facility (<xref ref-type="fig" rid="fig-7">Fig. 7</xref>). As with the studies above, some observed variance may be due to differences in sample collection/preparation.</p>
+                <fig id="fig-7" orientation="portrait" position="float">
+                  <object-id pub-id-type="doi">10.7717/peerj.4029/fig-7</object-id>
+                  <label>Figure 7</label>
+                  <caption>
+                    <title>Proportion of OTUs found in the ISS samples that were closely related (97% sequence similarity) to human pathogens versus the phylogenetic diversity of those samples.</title>
+                    <p>This figure was modified from Fig. 4A of (<xref rid="ref-20" ref-type="bibr">Kembel et al., 2012</xref>). The pink star represents the ISS samples. The plot shows the proportion of OTUs that were closely related (97% sequence similarity) to human pathogens versus the phylogenetic diversity of those samples.</p>
+                  </caption>
+                  <graphic xlink:href="peerj-05-4029-g007"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec>
+              <title>Conclusion</title>
+              <p>This is the first time that the ISS has been analyzed in the broader context of the “microbiology of the built environment”, and is the most in-depth comparison of the microbial communities found on the ISS to those found either in buildings or in the human microbiome. Perhaps surprisingly, given the extreme rarity of exchange with any external microbes, we found the ISS to be species-rich, and more similar to the surfaces of human homes on Earth than it is to human bodies. We found that the ISS is home to at least 12,554 distinct microbial species, including Archaea in very low abundance, and that the proportion of species that are closely related to known human pathogens is on par with similar built environments on Earth. Given the low number of samples in this study, no viability assessment, as well as the lack of sample preparation control we view these results as simply a starting place for more detailed future studies.</p>
+              <p>As outlined in the 2010 US National Space Policy and in the bipartisan NASA Authorization Act of 2010, NASA is targeting the 2030s for a manned spaceflight to Mars, with one ultimate goal of having people live and work on the Martian surface (see <ext-link ext-link-type="uri" xlink:href="http://www.nasa.gov/exploration">http://www.nasa.gov/exploration</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://www.nasa.gov/mars">http://www.nasa.gov/mars</ext-link>). We know that the microbial communities found in our terrestrial built environments play an important role in human health. Therefore it is crucial to characterize and understand the microbial population of the only environment in which people are currently living and working in space. This study is one small step in that direction.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors would like to thank Summer Williams for the inception of the idea to get Science Cheerleader involved in space research. In addition we give thanks to Carl Carruthers at Nanoracks LLC for managing our space payload. We are also grateful to Holly Menninger and Rob Dunn for sharing data from the Wildlife of Our Homes pilot project, and Steven Kimball (orchid.org/0000-0001-5224-0952) for publishing the original version of <xref ref-type="fig" rid="fig-7">Fig. 7</xref> in an open access journal, as well as sharing the underlying data.</p>
+            </ack>
+            <sec sec-type="additional-information">
+              <title>Additional Information and Declarations</title>
+              <fn-group content-type="competing-interests">
+                <title>Competing Interests</title>
+                <fn id="conflict-1" fn-type="COI-statement">
+                  <p>Jonathan A. Eisen is an Academic Editor for PeerJ.</p>
+                </fn>
+              </fn-group>
+              <fn-group content-type="author-contributions">
+                <title>Author Contributions</title>
+                <fn id="contribution-1" fn-type="con">
+                  <p><xref ref-type="contrib" rid="author-1">Jenna M. Lang</xref> conceived and designed the experiments, analyzed the data, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p>
+                </fn>
+                <fn id="contribution-2" fn-type="con">
+                  <p><xref ref-type="contrib" rid="author-2">David A. Coil</xref>, <xref ref-type="contrib" rid="author-3">Russell Y. Neches</xref> and Wendy E. Brown conceived and designed the experiments, reviewed drafts of the paper.</p>
+                </fn>
+                <fn id="contribution-5" fn-type="con">
+                  <p><xref ref-type="contrib" rid="author-5">Darlene Cavalier</xref>, <xref ref-type="contrib" rid="author-6">Mark Severance</xref> and <xref ref-type="contrib" rid="author-9">Jonathan A. Eisen</xref> conceived and designed the experiments, contributed reagents/materials/analysis tools, reviewed drafts of the paper.</p>
+                </fn>
+                <fn id="contribution-7" fn-type="con">
+                  <p><xref ref-type="contrib" rid="author-7">Jarrad T. Hampton-Marcell</xref> performed the experiments.</p>
+                </fn>
+                <fn id="contribution-8" fn-type="con">
+                  <p><xref ref-type="contrib" rid="author-8">Jack A. Gilbert</xref> performed the experiments, contributed reagents/materials/analysis tools.</p>
+                </fn>
+              </fn-group>
+              <fn-group content-type="other">
+                <title>Data Availability</title>
+                <fn id="addinfo-1">
+                  <p>Sequencing data is deposited at NCBI under BioProject <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA376404">PRJNA376404</ext-link>. All data and analysis files are available at: Lang, Jenna (2017): A microbial survey of the International Space Station (ISS). figshare. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.4244123.v3">https://doi.org/10.6084/m9.figshare.4244123.v3</ext-link>.</p>
+                </fn>
+              </fn-group>
+            </sec>
+            <ref-list content-type="authoryear">
+              <title>References</title>
+              <ref id="ref-1">
+                <label>Aas et al. (2005)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aas</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Paster</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Stokes</surname>
+                      <given-names>LN</given-names>
+                    </name>
+                    <name>
+                      <surname>Olsen</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Dewhirst</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Defining the normal bacterial flora of the oral cavity</article-title>
+                  <source>Journal of Clinical Microbiology</source>
+                  <year>2005</year>
+                  <volume>43</volume>
+                  <fpage>5721</fpage>
+                  <lpage>5732</lpage>
+                  <pub-id pub-id-type="pmid">16272510</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-2">
+                <label>Altschul et al. (1990)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Altschul</surname>
+                      <given-names>SF</given-names>
+                    </name>
+                    <name>
+                      <surname>Gish</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Myers</surname>
+                      <given-names>EW</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                  </person-group>
+                  <year>1990</year>
+                  <article-title>Basic local alignment search tool</article-title>
+                  <source>Journal of Molecular Biology</source>
+                  <volume>215</volume>
+                  <fpage>403</fpage>
+                  <lpage>410</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0022-2836(05)80360-2</pub-id>
+                  <pub-id pub-id-type="pmid">2231712</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-3">
+                <label>Arndt et al. (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arndt</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Xia</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Cruz</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinelnikov</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Budwill</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Nesbo</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wishart</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>METAGENassist: a comprehensive web server for comparative metagenomics</article-title>
+                  <source>Nucleic Acids Research</source>
+                  <year>2012</year>
+                  <volume>40</volume>
+                  <fpage>W88</fpage>
+                  <lpage>W95</lpage>
+                  <pub-id pub-id-type="pmid">22645318</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-4">
+                <label>Barberán et al. (2015a)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barberán</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ladau</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Leff</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollard</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Menninger</surname>
+                      <given-names>HL</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunn</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <year>2015a</year>
+                  <article-title>Continental-scale distributions of dust-associated bacteria and fungi</article-title>
+                  <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+                  <volume>112</volume>
+                  <issue>18</issue>
+                  <fpage>5756</fpage>
+                  <lpage>5761</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1420815112</pub-id>
+                  <pub-id pub-id-type="pmid">25902536</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-5">
+                <label>Barberán et al. (2015b)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barberán</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunn</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Reich</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pacifici</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Laber</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Menninger</surname>
+                      <given-names>HL</given-names>
+                    </name>
+                    <name>
+                      <surname>Morton</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Henley</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Leff</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <year>2015b</year>
+                  <article-title>The ecology of microscopic life in household dust</article-title>
+                  <source>Proceedings of the Royal Society B: Biological Sciences</source>
+                  <issue>1814</issue>
+                  <volume>282</volume>
+                  <fpage>20151139</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rspb.2015.1139</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-6">
+                <label>Belzer &amp; De Vos (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Belzer</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>De Vos</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbes inside from diversity to function: the case of Akkermansia</article-title>
+                  <source>The ISME Journal</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <fpage>1449</fpage>
+                  <lpage>1458</lpage>
+                  <pub-id pub-id-type="pmid">22437156</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-7">
+                <label>Bray &amp; Curtis (1957)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bray</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Curtis</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                  </person-group>
+                  <year>1957</year>
+                  <article-title>An ordination of the upland forest communities of Southern Wisconsin</article-title>
+                  <source>Ecological Monographs</source>
+                  <volume>27</volume>
+                  <issue>4</issue>
+                  <fpage>325</fpage>
+                  <lpage>349</lpage>
+                  <pub-id pub-id-type="doi">10.2307/1942268</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-8">
+                <label>Brooks et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Harwich Jr</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rivera</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Fettweis</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Serrano</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Reris</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheth</surname>
+                      <given-names>NU</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Girerd</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <collab>Vaginal Microbiome Consortium</collab>
+                    <name>
+                      <surname>Strauss 3rd</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Jefferson</surname>
+                      <given-names>KK</given-names>
+                    </name>
+                    <name>
+                      <surname>Buck</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                  </person-group>
+                  <year>2015</year>
+                  <article-title>The truth about metagenomics: quantifying and counteracting bias in 16S RRNA studies</article-title>
+                  <source>BMC Microbiology</source>
+                  <volume>15</volume>
+                  <issue>1</issue>
+                  <fpage>66</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12866-015-0351-6</pub-id>
+                  <pub-id pub-id-type="pmid">25880246</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-9">
+                <label>Caporaso (2012)</label>
+                <element-citation publication-type="others">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caporaso</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <year>2012</year>
+                  <article-title>Ultra high-throughput microbial ecology: software sequencing and practice for studying tens of thousands of environments</article-title>
+                  <comment>SciVee Inc</comment>
+                </element-citation>
+              </ref>
+              <ref id="ref-10">
+                <label>Caporaso et al. (2010)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caporaso</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuczynski</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Stombaugh</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Bittinger</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Bushman</surname>
+                      <given-names>FD</given-names>
+                    </name>
+                    <name>
+                      <surname>Costello</surname>
+                      <given-names>EK</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Peña</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodrich</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordon</surname>
+                      <given-names>JI</given-names>
+                    </name>
+                    <name>
+                      <surname>Huttley</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelley</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                    <name>
+                      <surname>Knights</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenig</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Ley</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozupone</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Muegge</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Pirrung</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reeder</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sevinsky</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Turnbaugh</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Walters</surname>
+                      <given-names>WA</given-names>
+                    </name>
+                    <name>
+                      <surname>Widmann</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yatsunenko</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <year>2010</year>
+                  <article-title>QIIME allows analysis of high-throughput community sequencing data</article-title>
+                  <source>Nature Methods</source>
+                  <volume>7</volume>
+                  <issue>5</issue>
+                  <fpage>335</fpage>
+                  <lpage>336</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.f.303</pub-id>
+                  <pub-id pub-id-type="pmid">20383131</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-11">
+                <label>Castro et al. (2004)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castro</surname>
+                      <given-names>VA</given-names>
+                    </name>
+                    <name>
+                      <surname>Thrasher</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Healy</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Microbial characterization during the early habitation of the international space station</article-title>
+                  <source>Microbial Ecology</source>
+                  <volume>47</volume>
+                  <fpage>119</fpage>
+                  <lpage>126</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00248-003-1030-y</pub-id>
+                  <pub-id pub-id-type="pmid">14749908</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-12">
+                <label>Cogen, Nizet &amp; Gallo (2008)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cogen</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Nizet</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallo</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Skin microbiota: a source of disease or defence?</article-title>
+                  <source>British Journal of Dermatology</source>
+                  <year>2008</year>
+                  <volume>158</volume>
+                  <fpage>442</fpage>
+                  <lpage>455</lpage>
+                  <pub-id pub-id-type="pmid">18275522</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-13">
+                <label>Dunn et al. (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dunn</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Henley</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Leff</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Menninger</surname>
+                      <given-names>HL</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>Home life: factors structuring the bacterial diversity found within and between homes</article-title>
+                  <source>PLOS ONE</source>
+                  <volume>8</volume>
+                  <elocation-id>e64133</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0064133</pub-id>
+                  <pub-id pub-id-type="pmid">23717552</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-14">
+                <label>Gevers et al. (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gevers</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrosino</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>McGuire</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Birren</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>KE</given-names>
+                    </name>
+                    <name>
+                      <surname>White</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Methé</surname>
+                      <given-names>BA</given-names>
+                    </name>
+                    <name>
+                      <surname>Huttenhower</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <year>2012</year>
+                  <article-title>The human microbiome project: a community resource for the healthy human microbiome</article-title>
+                  <source>PLOS Biology</source>
+                  <volume>10</volume>
+                  <issue>8</issue>
+                  <elocation-id>e1001377</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pbio.1001377</pub-id>
+                  <pub-id pub-id-type="pmid">22904687</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-15">
+                <label>Gilbert et al. (2011)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gilbert</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawn</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuhrman</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Jansson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Kowalchuk</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kyrpides</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyer</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Stevens</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>The earth microbiome project: the meeting report for the 1st international earth microbiome project conference Shenzhen, China, June 13th–15th 2011</article-title>
+                  <source>Standards in Genomic Sciences</source>
+                  <volume>5</volume>
+                  <issue>2</issue>
+                  <fpage>243</fpage>
+                  <lpage>247</lpage>
+                  <pub-id pub-id-type="doi">10.4056/sigs.2134923.</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-16">
+                <label>Grice et al. (2009)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grice</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kong</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                    <name>
+                      <surname>Conlan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Deming</surname>
+                      <given-names>CB</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouffard</surname>
+                      <given-names>GG</given-names>
+                    </name>
+                    <name>
+                      <surname>Blakesley</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                    <name>
+                      <surname>Murray</surname>
+                      <given-names>PR</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>ED</given-names>
+                    </name>
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Segre</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Topographical and temporal diversity of the human skin microbiome</article-title>
+                  <source>Science</source>
+                  <year>2009</year>
+                  <volume>324</volume>
+                  <fpage>1190</fpage>
+                  <lpage>1192</lpage>
+                  <pub-id pub-id-type="pmid">19478181</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-17">
+                <label>Higaki &amp; Morohashi (2003)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Higaki</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Morohashi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characteristics of anaerobes from skin specimens</article-title>
+                  <source>Drugs Under Experimental and Clinical Research</source>
+                  <year>2003</year>
+                  <volume>29</volume>
+                  <fpage>153</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="pmid">15018306</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-18">
+                <label>Huttenhower et al. (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huttenhower</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Gevers</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Abubucker</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Badger</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Chinwalla</surname>
+                      <given-names>AT</given-names>
+                    </name>
+                    <name>
+                      <surname>Creasy</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                    <name>
+                      <surname>Earl</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>FitzGerald</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Fulton</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Giglio</surname>
+                      <given-names>MG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hallsworth-Pepin</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Lobos</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Madupu</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Magrini</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitreva</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Muzny</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Sodergren</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Versalovic</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wollam</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Worley</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <name>
+                      <surname>Wortman</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>Q</given-names>
+                    </name>
+                    <name>
+                      <surname>Aagaard</surname>
+                      <given-names>KM</given-names>
+                    </name>
+                    <name>
+                      <surname>Abolude</surname>
+                      <given-names>OO</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen-Vercoe</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Alm</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Alvarado</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Appelbaum</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Arachchi</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Armitage</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Arze</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ayvaz</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Begg</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Belachew</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhonagiri</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Bihan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Blaser</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bloom</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonazzi</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Buck</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Buhay</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Busam</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Campbell</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Canon</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Cantarel</surname>
+                      <given-names>BL</given-names>
+                    </name>
+                    <name>
+                      <surname>Chain</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>IM</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Chhibba</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Chu</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciulla</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Clemente</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Clifton</surname>
+                      <given-names>SW</given-names>
+                    </name>
+                    <name>
+                      <surname>Conlan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Crabtree</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Cutting</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Davidovics</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>DeSantis</surname>
+                      <given-names>TZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Deal</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Delehaunty</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                    <name>
+                      <surname>Dewhirst</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                    <name>
+                      <surname>Deych</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Dooling</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Dugan</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunne</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                    <name>
+                      <surname>Durkin</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Edgar</surname>
+                      <given-names>RC</given-names>
+                    </name>
+                    <name>
+                      <surname>Erlich</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Farmer</surname>
+                      <given-names>CN</given-names>
+                    </name>
+                    <name>
+                      <surname>Farrell</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Faust</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Feldgarden</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Felix</surname>
+                      <given-names>VM</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fodor</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Forney</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Francesco</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedrich</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                    <name>
+                      <surname>Fronick</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Fulton</surname>
+                      <given-names>LL</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Giannoukos</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Giblin</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Giovanni</surname>
+                      <given-names>MY</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldberg</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Goll</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Griggs</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gujja</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Haake</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Haas</surname>
+                      <given-names>BJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hepburn</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                    <name>
+                      <surname>Herter</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffmann</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Holder</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Howarth</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>KH</given-names>
+                    </name>
+                    <name>
+                      <surname>Huse</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Izard</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Jansson</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Jordan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Joshi</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Katancik</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Keitel</surname>
+                      <given-names>WA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelley</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                    <name>
+                      <surname>Kells</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>NB</given-names>
+                    </name>
+                    <name>
+                      <surname>Knights</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kong</surname>
+                      <given-names>HH</given-names>
+                    </name>
+                    <name>
+                      <surname>Koren</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Koren</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kota</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <name>
+                      <surname>Kovar</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <name>
+                      <surname>Kyrpides</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <name>
+                      <surname>La Rosa</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Lemon</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <name>
+                      <surname>Lennon</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ley</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Liolios</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Lo</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozupone</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lunsford</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Madden</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahurkar</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Mannon</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Mardis</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Markowitz</surname>
+                      <given-names>VM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mavromatis</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>McCorrison</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>McEwen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McGuire</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>McInnes</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Mihindukulasuriya</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Minx</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Newsham</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Nusbaum</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Laughlin</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Orvis</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagani</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Palaniappan</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Peterson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Podar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Pohl</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollard</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Pop</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Priest</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Proctor</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Qin</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Raes</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ravel</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Reid</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Rho</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhodes</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Riehle</surname>
+                      <given-names>KP</given-names>
+                    </name>
+                    <name>
+                      <surname>Rivera</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez-Mueller</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>YH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Russ</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Sanka</surname>
+                      <given-names>RK</given-names>
+                    </name>
+                    <name>
+                      <surname>Sankar</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sathirapongsasuti</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Schloss</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Schloss</surname>
+                      <given-names>PD</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>TM</given-names>
+                    </name>
+                    <name>
+                      <surname>Scholz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Schriml</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Schubert</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Segata</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Segre</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Shannon</surname>
+                      <given-names>WD</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharpton</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Shenoy</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheth</surname>
+                      <given-names>NU</given-names>
+                    </name>
+                    <name>
+                      <surname>Simone</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Smillie</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Sobel</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Sommer</surname>
+                      <given-names>DD</given-names>
+                    </name>
+                    <name>
+                      <surname>Spicer</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sutton</surname>
+                      <given-names>GG</given-names>
+                    </name>
+                    <name>
+                      <surname>Sykes</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Tabbaa</surname>
+                      <given-names>DG</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiagarajan</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomlinson</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Torralba</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Treangen</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Truty</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Vishnivetskaya</surname>
+                      <given-names>TA</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2012</year>
+                  <article-title>Structure function and diversity of the healthy human microbiome</article-title>
+                  <source>Nature</source>
+                  <volume>486</volume>
+                  <issue>7402</issue>
+                  <fpage>207</fpage>
+                  <lpage>214</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature11234</pub-id>
+                  <pub-id pub-id-type="pmid">22699609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-19">
+                <label>Ichijo et al. (2016)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ichijo</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanigaki</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirakawa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2016</year>
+                  <article-title>Four-year bacterial monitoring in the international space station Japanese experiment module kibo with culture-independent approach</article-title>
+                  <source>NPJ Microgravity</source>
+                  <volume>2</volume>
+                  <issue>April</issue>
+                  <comment>Article 16007</comment>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-20">
+                <label>Kembel et al. (2012)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kembel</surname>
+                      <given-names>SW</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Kline</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Northcutt</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Stenson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Womack</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bohannan</surname>
+                      <given-names>BJM</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>GZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Architectural design influences the diversity and structure of the built environment microbiome</article-title>
+                  <source>The ISME Journal</source>
+                  <year>2012</year>
+                  <volume>6</volume>
+                  <issue>8</issue>
+                  <fpage>1469</fpage>
+                  <lpage>1479</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ismej.2011.211</pub-id>
+                  <pub-id pub-id-type="pmid">22278670</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-21">
+                <label>Knief et al. (2010)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Knief</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramette</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Frances</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso-Blanco</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Vorholt</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Site and plant species are important determinants of the Methylobacterium community composition in the plant phyllosphere</article-title>
+                  <source>The ISME Journal</source>
+                  <year>2010</year>
+                  <volume>4</volume>
+                  <fpage>719</fpage>
+                  <lpage>728</lpage>
+                  <pub-id pub-id-type="pmid">20164863</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-22">
+                <label>Krych et al. (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krych</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Nielsen</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gut microbial markers are associated with diabetes onset, regulatory imbalance, and IFN-γ level in NOD Mice</article-title>
+                  <source>Gut Microbes</source>
+                  <year>2015</year>
+                  <volume>6</volume>
+                  <fpage>101</fpage>
+                  <lpage>109</lpage>
+                  <pub-id pub-id-type="pmid">25648687</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-23">
+                <label>Langille et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Langille</surname>
+                      <given-names>MGI</given-names>
+                    </name>
+                    <name>
+                      <surname>Meehan</surname>
+                      <given-names>CJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Koenig</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhanani</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Rose</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Howlett</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Beiko</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial shifts in the aging mouse gut</article-title>
+                  <source>Microbiome</source>
+                  <year>2014</year>
+                  <volume>2</volume>
+                  <fpage>50</fpage>
+                  <pub-id pub-id-type="pmid">25520805</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-24">
+                <label>Linton &amp; Hinton (1988)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Linton</surname>
+                      <given-names>AH</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinton</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Enterobacteriaceae associated with animals in health and disease</article-title>
+                  <source>Journal of Applied Bacteriology</source>
+                  <year>1988</year>
+                  <volume>65</volume>
+                  <fpage>71S</fpage>
+                  <lpage>85S</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref-25">
+                <label>Liu, Tang &amp; Exley (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Exley</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Non-pathogenic Neisseria: members of an abundant multi-habitat, diverse genus</article-title>
+                  <source>Microbiology</source>
+                  <year>2015</year>
+                  <volume>161</volume>
+                  <issue>7</issue>
+                  <fpage>1297</fpage>
+                  <lpage>1312</lpage>
+                  <pub-id pub-id-type="pmid">25814039</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-26">
+                <label>Lozupone &amp; Knight (2005)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lozupone</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <year>2005</year>
+                  <article-title>UniFrac: a new phylogenetic method for comparing microbial communities</article-title>
+                  <source>Applied and Environmental Microbiology</source>
+                  <volume>71</volume>
+                  <issue>12</issue>
+                  <fpage>8228</fpage>
+                  <lpage>8235</lpage>
+                  <pub-id pub-id-type="doi">10.1128/aem.71.12.8228-8235.2005</pub-id>
+                  <pub-id pub-id-type="pmid">16332807</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-27">
+                <label>Magoc &amp; Salzberg (2011)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Magoc</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Salzberg</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>FLASH: fast length adjustment of short reads to improve genome assemblies</article-title>
+                  <source>Bioinformatics</source>
+                  <volume>27</volume>
+                  <issue>21</issue>
+                  <fpage>2957</fpage>
+                  <lpage>2963</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btr507</pub-id>
+                  <pub-id pub-id-type="pmid">21903629</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-28">
+                <label>Maule et al. (2009)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maule</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Wainwright</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Steele</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Monaco</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunter</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Damon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wells</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2009</year>
+                  <article-title>Rapid culture-independent microbial analysis aboard the international space station (ISS)</article-title>
+                  <source>Astrobiology</source>
+                  <volume>9</volume>
+                  <fpage>759</fpage>
+                  <lpage>775</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ast.2008.0319</pub-id>
+                  <pub-id pub-id-type="pmid">19845447</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-29">
+                <label>McDonald et al. (2011)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodrich</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Nawrocki</surname>
+                      <given-names>EP</given-names>
+                    </name>
+                    <name>
+                      <surname>DeSantis</surname>
+                      <given-names>TZ</given-names>
+                    </name>
+                    <name>
+                      <surname>Probst</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                    <name>
+                      <surname>Knight</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hugenholtz</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>An improved greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea</article-title>
+                  <source>The ISME Journal</source>
+                  <volume>6</volume>
+                  <issue>3</issue>
+                  <fpage>610</fpage>
+                  <lpage>618</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ismej.2011.139</pub-id>
+                  <pub-id pub-id-type="pmid">22134646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-30">
+                <label>McMurdie &amp; Susan (2013)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McMurdie</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Susan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <article-title>Phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data</article-title>
+                  <source>PLOS ONE</source>
+                  <volume>8</volume>
+                  <issue>4</issue>
+                  <elocation-id>e61217</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0061217</pub-id>
+                  <pub-id pub-id-type="pmid">23630581</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-31">
+                <label>Menninger et al. (2013)</label>
+                <element-citation publication-type="software">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Menninger</surname>
+                    </name>
+                    <name>
+                      <surname>Dunn</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Fierer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Henley</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Leff</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Holly</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <year>2013</year>
+                  <data-title>Home life: factors structuring the bacterial diversity found within and between homes (16S RRNA Sequence Data and Metadata)</data-title>
+                  <source>Figshare</source>
+                  <pub-id pub-id-type="doi">10.6084/m9.figshare.674588</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-32">
+                <label>Murphy et al. (2007)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Murphy</surname>
+                      <given-names>TF</given-names>
+                    </name>
+                    <name>
+                      <surname>Brauer</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Sethi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kilian</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cai</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Lesse</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Haemophilus haemolyticus: a human respiratory tract commensal to be distinguished from haemophilus influenzae</article-title>
+                  <source>The Journal of Infectious Diseases</source>
+                  <year>2007</year>
+                  <volume>195</volume>
+                  <fpage>81</fpage>
+                  <lpage>89</lpage>
+                  <pub-id pub-id-type="pmid">17152011</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-33">
+                <label>Novikova et al. (2006)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Novikova</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Boever</surname>
+                      <given-names>P De</given-names>
+                    </name>
+                    <name>
+                      <surname>Poddubko</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Deshevaya</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Polikarpov</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Rakova</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Coninx</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Mergeay</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Survey of environmental biocontamination on board the international space station</article-title>
+                  <source>Research in Microbiology</source>
+                  <volume>157</volume>
+                  <fpage>5</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resmic.2005.07.010</pub-id>
+                  <pub-id pub-id-type="pmid">16364606</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-34">
+                <label>Ott, Bruce &amp; Pierson (2004)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruce</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Microbial characterization of free floating condensate aboard the Mir Space Station</article-title>
+                  <source>Microbial Ecology</source>
+                  <volume>47</volume>
+                  <fpage>133</fpage>
+                  <lpage>136</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00248-003-1038-3</pub-id>
+                  <pub-id pub-id-type="pmid">14569419</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-35">
+                <label>Pierson (2007)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial contamination of spacecraft</article-title>
+                  <source>Gravitational and Space Research</source>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <year>2007</year>
+                </element-citation>
+              </ref>
+              <ref id="ref-36">
+                <label>Pruitt (2004)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pruitt</surname>
+                      <given-names>KD</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>NCBI reference sequence (RefSeq): a curated non-redundant sequence database of genomes transcripts and proteins</article-title>
+                  <source>Nucleic Acids Research</source>
+                  <volume>33</volume>
+                  <issue>Database issue</issue>
+                  <fpage>D501</fpage>
+                  <lpage>D504</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gki025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-37">
+                <label>R Core Team (2014)</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <year>2014</year>
+                  <data-title>R: a language and environment for statistical computing</data-title>
+                  <publisher-loc>Vienna</publisher-loc>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                  <uri xlink:href="http://www.R-project.org/">http://www.R-project.org/</uri>
+                </element-citation>
+              </ref>
+              <ref id="ref-38">
+                <label>Ribeiro et al. (2011)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <name>
+                      <surname>Matarazzo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Faveri</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zezell</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                    <name>
+                      <surname>Mayer</surname>
+                      <given-names>MPA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exploring bacterial diversity of endodontic microbiota by cloning and sequencing 16S rRNA</article-title>
+                  <source>Journal of Endodontics</source>
+                  <year>2011</year>
+                  <volume>37</volume>
+                  <fpage>922</fpage>
+                  <lpage>926</lpage>
+                  <pub-id pub-id-type="pmid">21689545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-39">
+                <label>Roberts, Garland &amp; Mills (2004)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Garland</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Mills</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Microbial astronauts: assembling microbial communities for advanced life support systems</article-title>
+                  <source>Microbial Ecology</source>
+                  <volume>47</volume>
+                  <fpage>137</fpage>
+                  <lpage>149</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00248-003-1060-5</pub-id>
+                  <pub-id pub-id-type="pmid">14994179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-40">
+                <label>Salter et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salter</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Cox</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Turek</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Calus</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                    <name>
+                      <surname>Cookson</surname>
+                      <given-names>WO</given-names>
+                    </name>
+                    <name>
+                      <surname>Moffatt</surname>
+                      <given-names>MF</given-names>
+                    </name>
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Parkhill</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Loman</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Walker</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                  </person-group>
+                  <year>2014</year>
+                  <article-title>Reagent and laboratory contamination can critically impact sequence-based microbiome analyses</article-title>
+                  <source>BMC Biology</source>
+                  <volume>12</volume>
+                  <fpage>87</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12915-014-0087-z</pub-id>
+                  <pub-id pub-id-type="pmid">25387460</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-41">
+                <label>Schwarzberg et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarzberg</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Le</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Bharti</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Lindsay</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Casaburi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Salvatore</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Saber</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonaizan</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Slots</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottlieb</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Caporaso</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Kelley</surname>
+                      <given-names>ST</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The personal human oral microbiome obscures the effects of treatment on periodontal disease</article-title>
+                  <source>PLOS ONE</source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <elocation-id>e86708</elocation-id>
+                  <pub-id pub-id-type="pmid">24489772</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-42">
+                <label>Seifried, Wichels &amp; Gerdts (2015)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seifried</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Wichels</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerdts</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatial distribution of marine airborne bacterial communities</article-title>
+                  <source>Microbiologyopen</source>
+                  <year>2015</year>
+                  <volume>4</volume>
+                  <issue>3</issue>
+                  <fpage>475</fpage>
+                  <lpage>490</lpage>
+                  <pub-id pub-id-type="pmid">25800495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-43">
+                <label>Silverman (1971)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverman</surname>
+                      <given-names>GJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial survival in deep space environment</article-title>
+                  <source>Environmental Biology and Medicine</source>
+                  <year>1971</year>
+                  <volume>1</volume>
+                  <fpage>83</fpage>
+                  <lpage>97</lpage>
+                  <pub-id pub-id-type="pmid">5173646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-44">
+                <label>Steyn et al. (1998)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Steyn</surname>
+                      <given-names>PL</given-names>
+                    </name>
+                    <name>
+                      <surname>Segers</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Vancanneyt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Sandra</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Kersters</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Joubert</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Classification of heparinolytic bacteria into a new genus Pedobacter, comprising four species: Pedobacter heparinus comb. nov., Pedobacter piscium comb. nov., Pedobacter africanus sp. nov. and Pedobacter saltans sp. nov. Proposal of the family Sphingobacteriaceae fam. nov</article-title>
+                  <source>International Journal of Systematic Bacteriology</source>
+                  <year>1998</year>
+                  <volume>48</volume>
+                  <fpage>165</fpage>
+                  <lpage>177</lpage>
+                  <pub-id pub-id-type="pmid">9542086</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-45">
+                <label>Trexler (1964)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trexler</surname>
+                      <given-names>PC</given-names>
+                    </name>
+                  </person-group>
+                  <year>1964</year>
+                  <article-title>Gnotobiotic techniques and their application to spacecraft fabrication</article-title>
+                  <source>Life Sciences in Space Research</source>
+                  <volume>2</volume>
+                  <fpage>433</fpage>
+                  <lpage>439</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref-46">
+                <label>Venkateswaran et al. (2014)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Venkateswaran</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Vaishampayan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Cisneros</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>SO</given-names>
+                    </name>
+                    <name>
+                      <surname>Perry</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <year>2014</year>
+                  <article-title>International space station environmental microbiome—microbial inventories of ISS filter debris</article-title>
+                  <source>Applied Microbiology and Biotechnology</source>
+                  <volume>98</volume>
+                  <fpage>6453</fpage>
+                  <lpage>6466</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00253-014-5650-6</pub-id>
+                  <pub-id pub-id-type="pmid">24695826</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-47">
+                <label>Wilkinson (2011)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <year>2011</year>
+                  <article-title>ggplot2: elegant graphics for data analysis by WICKHAM H</article-title>
+                  <source>Biometrics</source>
+                  <volume>67</volume>
+                  <issue>2</issue>
+                  <fpage>678</fpage>
+                  <lpage>679</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1541-0420.2011.01616.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-48">
+                <label>Willems (2014)</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Willems</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The family comamonadaceae</article-title>
+                  <source>The prokaryotes</source>
+                  <year>2014</year>
+                  <fpage>777</fpage>
+                  <lpage>851</lpage>
+                </element-citation>
+              </ref>
+              <ref id="ref-49">
+                <label>Young, Davis &amp; DiRita (2007)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>KT</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>DiRita</surname>
+                      <given-names>VJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Campylobacter jejuni: molecular biology and pathogenesis</article-title>
+                  <source>Nature Reviews Microbiology</source>
+                  <year>2007</year>
+                  <volume>5</volume>
+                  <fpage>665</fpage>
+                  <lpage>679</lpage>
+                  <pub-id pub-id-type="pmid">17703225</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="ref-50">
+                <label>Zaura et al. (2009)</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zaura</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Keijser</surname>
+                      <given-names>BJF</given-names>
+                    </name>
+                    <name>
+                      <surname>Huse</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Crielaard</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Defining the healthy core microbiome of oral microbial communities</article-title>
+                  <source>BMC Microbiology</source>
+                  <year>2009</year>
+                  <volume>9</volume>
+                  <fpage>259</fpage>
+                  <pub-id pub-id-type="pmid">20003481</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

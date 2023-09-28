@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:46:19Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9224527" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9224527</identifier>
+        <datestamp>2022-06-24</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9224527</article-id>
+              <article-id pub-id-type="pmcid">PMC9224527</article-id>
+              <article-id pub-id-type="pmc-uid">9224527</article-id>
+              <article-id pub-id-type="pmid">35743319</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms23126876</article-id>
+              <article-id pub-id-type="publisher-id">ijms-23-06876</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Understanding the Behaviour of Human Cell Types under Simulated Microgravity Conditions: The Case of Erythrocytes</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8091-7908</contrib-id>
+                  <name>
+                    <surname>Manis</surname>
+                    <given-names>Cristina</given-names>
+                  </name>
+                  <xref rid="af1-ijms-23-06876" ref-type="aff">1</xref>
+                  <xref rid="af2-ijms-23-06876" ref-type="aff">2</xref>
+                  <xref rid="fn1-ijms-23-06876" ref-type="author-notes">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7342-1023</contrib-id>
+                  <name>
+                    <surname>Manca</surname>
+                    <given-names>Alessia</given-names>
+                  </name>
+                  <xref rid="af3-ijms-23-06876" ref-type="aff">3</xref>
+                  <xref rid="fn1-ijms-23-06876" ref-type="author-notes">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Murgia</surname>
+                    <given-names>Antonio</given-names>
+                  </name>
+                  <xref rid="af1-ijms-23-06876" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Uras</surname>
+                    <given-names>Giuseppe</given-names>
+                  </name>
+                  <xref rid="af4-ijms-23-06876" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2448-3767</contrib-id>
+                  <name>
+                    <surname>Caboni</surname>
+                    <given-names>Pierluigi</given-names>
+                  </name>
+                  <xref rid="af1-ijms-23-06876" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Congiu</surname>
+                    <given-names>Terenzio</given-names>
+                  </name>
+                  <xref rid="af5-ijms-23-06876" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0189-8612</contrib-id>
+                  <name>
+                    <surname>Faa</surname>
+                    <given-names>Gavino</given-names>
+                  </name>
+                  <xref rid="af5-ijms-23-06876" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2954-7053</contrib-id>
+                  <name>
+                    <surname>Pantaleo</surname>
+                    <given-names>Antonella</given-names>
+                  </name>
+                  <xref rid="af3-ijms-23-06876" ref-type="aff">3</xref>
+                  <xref rid="c1-ijms-23-06876" ref-type="corresp">*</xref>
+                  <xref rid="fn2-ijms-23-06876" ref-type="author-notes">‡</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cao</surname>
+                    <given-names>Giacomo</given-names>
+                  </name>
+                  <xref rid="af2-ijms-23-06876" ref-type="aff">2</xref>
+                  <xref rid="af6-ijms-23-06876" ref-type="aff">6</xref>
+                  <xref rid="af7-ijms-23-06876" ref-type="aff">7</xref>
+                  <xref rid="c1-ijms-23-06876" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Mizrachi</surname>
+                    <given-names>Dario</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Lazzari</surname>
+                    <given-names>Lorenza</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-23-06876"><label>1</label>Department of Life and Environmental Sciences, Cittadella Universitaria di Monserrato, 09042 Monserrato, Italy; <email>cristina.manis@outlook.it</email> (C.M.); <email>a-murgia@hotmail.it</email> (A.M.); <email>caboni@unica.it</email> (P.C.)</aff>
+              <aff id="af2-ijms-23-06876"><label>2</label>Department of Mechanical, Chemical and Materials Engineering, University of Cagliari, Piazza d’Armi, 09123 Cagliari, Italy</aff>
+              <aff id="af3-ijms-23-06876"><label>3</label>Department of Biomedical Science, University of Sassari, Viale San Pietro, 07100 Sassari, Italy; <email>alessia_manca@hotmail.it</email></aff>
+              <aff id="af4-ijms-23-06876"><label>4</label>Department of Clinical and Movement Neurosciences, Institute of Neurology, University of College London, London NW3 2PF, UK; <email>g.uras@ucl.ac.uk</email></aff>
+              <aff id="af5-ijms-23-06876"><label>5</label>Department of Medical Sciences and Public Health, University of Cagliari, Monserrato’s Campus, 09042 Monserrato, Italy; <email>terenzio.congiu@unica.it</email> (T.C.); <email>gavinofaa@gmail.com</email> (G.F.)</aff>
+              <aff id="af6-ijms-23-06876"><label>6</label>Center of Advanced Studies, Research and Development in Sardinia (CRS4), Loc. Piscina Manna, Building 1, 09050 Pula, Italy</aff>
+              <aff id="af7-ijms-23-06876"><label>7</label>Sardinia AeroSpace District (DASS), at Sardegna Ricerche, Via G. Carbonazzi 14, 09123 Cagliari, Italy</aff>
+              <author-notes>
+                <corresp id="c1-ijms-23-06876"><label>*</label>Correspondence: <email>apantaleo@uniss.it</email> (A.P.); <email>giacomo.cao@unica.it</email> (G.C.)</corresp>
+                <fn id="fn1-ijms-23-06876">
+                  <label>†</label>
+                  <p>These authors contributed equally to this work.</p>
+                </fn>
+                <fn id="fn2-ijms-23-06876">
+                  <label>‡</label>
+                  <p>Senior co-author.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>6</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>6</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>23</volume>
+              <issue>12</issue>
+              <elocation-id>6876</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>5</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>6</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 by the authors.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Erythrocytes are highly specialized cells in human body, and their main function is to ensure the gas exchanges, O<sub>2</sub> and CO<sub>2</sub>, within the body. The exposure to microgravity environment leads to several health risks such as those affecting red blood cells. In this work, we investigated the changes that occur in the structure and function of red blood cells under simulated microgravity, compared to terrestrial conditions, at different time points using biochemical and biophysical techniques. Erythrocytes exposed to simulated microgravity showed morphological changes, a constant increase in reactive oxygen species (ROS), a significant reduction in total antioxidant capacity (TAC), a remarkable and constant decrease in total glutathione (GSH) concentration, and an augmentation in malondialdehyde (MDA) at increasing times. Moreover, experiments were performed to evaluate the lipid profile of erythrocyte membranes which showed an upregulation in the following membrane phosphocholines (PC): PC16:0_16:0, PC 33:5, PC18:2_18:2, PC 15:1_20:4 and SM d42:1. Thus, remarkable changes in erythrocyte cytoskeletal architecture and membrane stiffness due to oxidative damage have been found under microgravity conditions, in addition to factors that contribute to the plasticity of the red blood cells (RBCs) including shape, size, cell viscosity and membrane rigidity. This study represents our first investigation into the effects of microgravity on erythrocytes and will be followed by other experiments towards understanding the behaviour of different human cell types in microgravity.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>erythrocytes</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>confocal and scanning electron microscopy</kwd>
+                <kwd>oxidative stress</kwd>
+                <kwd>mass spectrometry</kwd>
+                <kwd>lipidomics</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>Fondazione di Sardegna Prot</funding-source>
+                  <award-id>U1679.2021/AI.1599.BE</award-id>
+                  <award-id>Prat.2021.1708</award-id>
+                </award-group>
+                <funding-statement>This study was supported by grants from Fondazione di Sardegna Prot. U1679.2021/AI.1599.BE, Prat.2021.1708.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-23-06876">
+              <title>1. Introduction</title>
+              <p>Red blood cells (RBCs) are peculiar within the human body, given their unique physiological role as transporters of O<sub>2</sub> and CO<sub>2,</sub> with a specialized molecular apparatus for gas exchange [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>]. In addition to this, RBCs present a differentiated membrane which allows them to be physically dynamic in terms of shape and structure in order to sustain the stresses within the blood flow [<xref rid="B2-ijms-23-06876" ref-type="bibr">2</xref>].</p>
+              <p>RBCs have peculiar characteristics, such as absence of DNA, simplified structure and a metabolism that suggests that these cells have a special relationship with the external environment. They are very sensitive to their surroundings and also well equipped with antioxidant systems which essentially contribute to their function and integrity [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>].</p>
+              <p>It is well known that the presence of gravity on Earth deeply influenced the evolution of living organisms [<xref rid="B3-ijms-23-06876" ref-type="bibr">3</xref>]. During the past century, human space activities have opened new scientific challenges related to understand the effects caused by the low gravity environment (microgravity) on organisms at the cellular as well as systemic level [<xref rid="B4-ijms-23-06876" ref-type="bibr">4</xref>]. Microgravity (µg) can regulate the behaviour and structural properties of cells and regarding RBCs effectively acts as modulator of their shape and function through various mechanisms [<xref rid="B5-ijms-23-06876" ref-type="bibr">5</xref>]. Microgravity environment has resulted in modified transcriptome and cytoskeletal changes, resulting in both short and long-term morphological changes in the cells [<xref rid="B6-ijms-23-06876" ref-type="bibr">6</xref>]. Propelled by the constant increase in the human presence within space environment such as the International Space Station (ISS), there has been increased attention on the effects of modelled microgravity on cells physiological functions.</p>
+              <p>The exposure to microgravity conditions during space flight is associated with various health risks, which potentially affect the body, making it vulnerable to secondary conditions such as the effects of radiation, physiological changes lysis, neocytolysis, muscle atrophy, hydrostatic pressure changes, and metabolic changes [<xref rid="B7-ijms-23-06876" ref-type="bibr">7</xref>,<xref rid="B8-ijms-23-06876" ref-type="bibr">8</xref>,<xref rid="B9-ijms-23-06876" ref-type="bibr">9</xref>]. During spaceflight, astronauts are also subjected to a variety of stress factors, such as microgravity conditions and radiation, which lead to negative health consequences [<xref rid="B10-ijms-23-06876" ref-type="bibr">10</xref>,<xref rid="B11-ijms-23-06876" ref-type="bibr">11</xref>]. The main cause of cellular damage to astronauts is oxidative stress [<xref rid="B12-ijms-23-06876" ref-type="bibr">12</xref>], which is caused by an imbalance between oxidant and antioxidant species [<xref rid="B13-ijms-23-06876" ref-type="bibr">13</xref>,<xref rid="B14-ijms-23-06876" ref-type="bibr">14</xref>]. Previous studies [<xref rid="B15-ijms-23-06876" ref-type="bibr">15</xref>,<xref rid="B16-ijms-23-06876" ref-type="bibr">16</xref>,<xref rid="B17-ijms-23-06876" ref-type="bibr">17</xref>] have been conceived to report the most recent knowledge about band 3 protein, with specific regard to its functions in oxidative stress conditions, including oxidative stress-related diseases. The produced reactive oxygen species (ROS) are mainly superoxide anion (O<sup>2−</sup>), hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) and free radicals. An increase in oxidants causes an imbalance in favour of oxidizing species, which are the cause of several pathologies in humans, as well as being one of the causes of aging. In more detail, the astronauts are affected, on their return to Earth, by several health problems such as reduction in bone density up to 20%, muscle atrophy, endocrine, immune system and cognitive disorders in addition to cardiovascular dysfunctions [<xref rid="B18-ijms-23-06876" ref-type="bibr">18</xref>]. In particular, blood samples from Russian cosmonauts have been investigated observing significant changes in phospholipids [<xref rid="B19-ijms-23-06876" ref-type="bibr">19</xref>]. An increase in the percentage of phosphatidylcholine may be clearly associated with the increase in membrane rigidity. On the other hand, changes in physicochemical properties of the plasma membrane of erythrocytes (microviscosity and permeability) can influence the efficiency of oxygen transfer, the state of the haemoglobin and changes in the conformation of haematoporphyrin. Moreover, lipid and phospholipid compositions of erythrocyte membranes were assayed by thin layer chromatography followed by densitometric measurement of stained dots. This technique provides information on the entire lipid class, but hardly allows the recognition of the specific molecules that belong to that class, making it difficult to understand the biochemical mechanisms involved in achieving the final result [<xref rid="B19-ijms-23-06876" ref-type="bibr">19</xref>]. However, most previous studies have investigated data derived after the end of a space flight, while only a few data related to changes occurring during a space flight are described in the literature. Concerning RBCs, it is known that spaceflight induces oxidative stress [<xref rid="B20-ijms-23-06876" ref-type="bibr">20</xref>], although the direct role of microgravity is still unclear, while there are several pieces of evidence of blood homeostasis alterations such as the so-called space anaemia or Pseudopolycythemia [<xref rid="B21-ijms-23-06876" ref-type="bibr">21</xref>]. During the early days of low gravity conditions, astronauts show a reduction in plasma volume and therefore an increase in erythrocytes relative volume [<xref rid="B22-ijms-23-06876" ref-type="bibr">22</xref>,<xref rid="B23-ijms-23-06876" ref-type="bibr">23</xref>]. The body’s adaptive response to this new condition consists of an increase in erythrocytes clearance and a decrease in erythropoietin synthesis [<xref rid="B24-ijms-23-06876" ref-type="bibr">24</xref>]. Therefore, haemoconcentration occurs with an increase in the haematocrit that is favoured by the rapid decrease in erythrocytes selective counting and haemolysis [<xref rid="B25-ijms-23-06876" ref-type="bibr">25</xref>].</p>
+              <p>On the basis of the considerations above, due to the high cost of space experiments, there is an increasing demand of the development of technologies to guarantee nearly zero-gravity environmental conditions on Earth [<xref rid="B26-ijms-23-06876" ref-type="bibr">26</xref>].</p>
+              <p>To model microgravity conditions observed on the ISS, a g force between 10<sup>−3</sup> and 10<sup>−6</sup> has to be achieved, resulting in a weightless environment [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>]. In order to do to so, international space agencies validated machines, namely random positioning machines (RPM) and 3D-clinostats, have been employed [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>,<xref rid="B27-ijms-23-06876" ref-type="bibr">27</xref>] (<xref rid="ijms-23-06876-f001" ref-type="fig">Figure 1</xref>). Such instruments simply produce a fast rotation within three axes, resulting in a null gravity [<xref rid="B28-ijms-23-06876" ref-type="bibr">28</xref>,<xref rid="B29-ijms-23-06876" ref-type="bibr">29</xref>].</p>
+              <p>Despite the great relevance of the topic, currently few studies have been carried out to investigate the behaviour of RBCs under simulated gravity conditions which demonstrated that these cells undergo a rapid sensing of the environment initially translated into a metabolic adaptive response and subsequently fixed in structural and morphological alterations, thus in modulations or alterations of functionality [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>,<xref rid="B30-ijms-23-06876" ref-type="bibr">30</xref>].</p>
+              <p>Since no other data on this subject are available in the literature, here we present a novel approach to understand the changes to RBCs under microgravity conditions, specifically related to their membrane components, using different biochemical and biophysical techniques, such as scanning electron microscopy (SEM) and confocal microscopy together with the exploitation of the great potential offered by chromatographic and mass spectrometry to comprehensively evaluate the structure and function of RBCs in normal and in 3D-clinostat-delivered microgravity conditions. These analyses collectively provide additionally insights into red cell morphology and membrane property changes in direct relation to biological mechanisms.</p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-23-06876">
+              <title>2. Results and Discussion</title>
+              <p>To understand how RBCs sense microgravity and transduce this stimulus into morphological modification, confocal and scanning electron microscopy were used. RBCs were clinorotaded at given time-points. Specifically, 0, 6, and 9 h were set up, while control RBCs were placed in the static bar at 1 g to undergo the same vibration of the samples under microgravity conditions. <xref rid="ijms-23-06876-f002" ref-type="fig">Figure 2</xref> and <xref rid="ijms-23-06876-f003" ref-type="fig">Figure 3</xref> allow us to visualize, by confocal and scanning electron microscopy respectively, the progressive changes in RBCs morphology related to microgravity condition. Clinorotated RBCs already at 6 h differ significantly in shape and size when compared to RBCs at 1 g. No significant alterations were in fact present at 1 g (Panels A, B, C of <xref rid="ijms-23-06876-f002" ref-type="fig">Figure 2</xref> and <xref rid="ijms-23-06876-f003" ref-type="fig">Figure 3</xref>), since RBCs showed a biconcave shape, at 6 and 9 h being their conditions identical at T<sub>0</sub>. On the contrary, the microgravity-exposed RBCs showed, at increasing times (Panels E, F of <xref rid="ijms-23-06876-f002" ref-type="fig">Figure 2</xref> and <xref rid="ijms-23-06876-f003" ref-type="fig">Figure 3</xref>) more severe morphological defects, probably due to a faster occurrence of structural weakening and alterations.</p>
+              <p>In fact, cells were in the form of echinocytes characterized by convex rounded protrusions or spicules evenly spaced around the cell circumference, with a sharp increase in the spiculed morphology at 9 h of clinorotation, usually considered as a more severe marker of cell senescence and corresponding oxidative stress.</p>
+              <p>These observations can be certainly correlated with the redox power (e.g., the GSH/GSSH ratio) and the intracellular and extracellular ATP which determine cell’s resources and the corresponding metabolic status [<xref rid="B1-ijms-23-06876" ref-type="bibr">1</xref>]. Concerning RBCs, we are aware of space-flight-induced oxidative stress [<xref rid="B20-ijms-23-06876" ref-type="bibr">20</xref>] in which the direct role of microgravity is still controversial. The relationship between metabolic adaptations induced by microgravity and their structural or morphological characteristics is still unclear.</p>
+              <p>It is worth mentioning that the observed landscape obtained by microscopy analysis was indicative of a progressive loss of the cellular function and defence, coupled with a degradation of RBCs’ structures. On the basis of these premises, we quantified oxidant and antioxidant species to better understand some of the RBCs’ metabolic strategies exerted under stress, and compared their time-dependent evolution under static or microgravity conditions. To analyse the oxidative stress experienced and the imbalances between antioxidant species by red blood cells during the performed experiments, we decided to evaluate ROS and malondialdehyde (MDA-TBARS) levels as markers of oxidative stress. In addition, total antioxidant capacity (TAC) and glutathione (GSH) were measured, as antioxidant defence species, which can prevent cellular damage caused by oxidant species such as ROS and MDA. The measurement of TAC allows one to estimate the ability of cells to counteract oxidative stress-induced damage in cells.</p>
+              <p>The evaluation of antioxidant and ROS species was carried out on plasma samples exposed to simulated microgravity (µg) and Earth gravity condition (1 g). <xref rid="ijms-23-06876-f004" ref-type="fig">Figure 4</xref> Panel A shows the extracellular ROS level at different time point (T<sub>0</sub>, 30–60–90 min and 2–3–6–9 h). Samples exposed to simulated microgravity showed a constantly increase in ROS levels compared to the control samples at 1 g. After 30 mins, level of ROS increased by 50% in microgravity samples and up to 100% at 9 h. In <xref rid="ijms-23-06876-f004" ref-type="fig">Figure 4</xref>, Panel B the TAC expressed in µmol/L is reported. It is seen that clinorotated samples displayed a significative reduction, approximately by 60% of TAC concentration at 2 h as compared to control samples which remains fairly constant. <xref rid="ijms-23-06876-f004" ref-type="fig">Figure 4</xref>, Panel C shows the total GSH concentration expressed in µmol/L. Samples exposed to clinorotation display a significant and constant decrease approximately by 85% in concentration up to 9 h while a non-significant decrease was observed under 1 g condition. <xref rid="ijms-23-06876-f004" ref-type="fig">Figure 4</xref>, Panel D shows the MDA concentration expressed in µmol/L. MDA concentration was higher in samples exposed to microgravity condition.</p>
+              <p>These results provide a confirmation of remarkable changes in red cell cytoskeletal architecture and membrane stiffness due to oxidative damage, validated in our study by the marked increase in ROS and by a significant decrease in TAC. RBC’s antioxidant defence system become no longer able to reduce the levels of reactive oxygen species (ROSs). Progressive incubation under microgravity condition is also thought to be a consequence of oxidative damage due to the increase in MDA concentration and the decrease in GSH. All these factors contribute to the deformability of the RBCs including shape, size, cell viscosity, and membrane rigidity.</p>
+              <p>To evaluate the overall impact of simulated microgravity on membrane modifications, we decided to investigate the lipid profile of erythrocytes under normal and microgravity conditions by LC-QTOF-MS. The unsupervised principal component analysis (PCA) is able to extract meaning information from data without training a model on labelled data. The PCA model for the data acquired in positive (PCA R<sup>2</sup>X = 0.67, Q<sup>2</sup> = 0.54) and negative ionization mode (PCA R<sup>2</sup>X = 0.432 and Q<sup>2</sup> = 0.195), respectively, did not indicate any clusters related to clinorotation. However, the arrangement of the samples in the multivariate space appeared to be influenced by the time factor. To further limit the time factor influence, for each time point, we performed a Partial Least Square-Discriminant Analysis (PLS-DA). The validation parameters of the positive ionization acquisition (PIA) model built for the samples collected at 6 h showed a good classifying power and a good predictive ability (R<sup>2</sup>X = 0.729; R<sup>2</sup>Y = 0.856; Q<sup>2</sup> = 0.514), while the latter one decreased in PLS-DA of samples collected at 9 and 24 h (R<sup>2</sup>X = 0.699; R<sup>2</sup>Y = 0.432; Q<sup>2</sup> = 0.165 and R<sup>2</sup>X = 0.602; R<sup>2</sup>Y = 0.678; Q<sup>2</sup> = 0.107), respectively. Due to the greater predictive ability of the PLS-DA model relating to samples collected after 6 h of experiment, we focused on metabolites that discriminate the class of clinorotated erythrocytes from those ones at 1 g conditions. Finally, an OPLS-DA was performed to find the discriminant metabolites. For the positive and negative ionization mode the OPLS-DA score plot reported in <xref rid="ijms-23-06876-f005" ref-type="fig">Figure 5</xref>a,b, respectively, the following parameters were obtained: R<sup>2</sup>X = 0.755; R<sup>2</sup>Y = 0.998 and Q<sup>2</sup> = 0.409 R<sup>2</sup>X = 0.432 and Q<sup>2</sup> = 0.195, respectively. Among the most discriminant compounds, resulting by PIA OPLS-DA model, the membrane phosphocholines PC16:0_16:0 and PC 33:5 were found to be upregulated in erythrocytes clinorotated for six hours when compared with control samples. The significance of the discriminating character of these metabolites was assessed on the basis of the VIP value, which was 1.1089 and 1.8294, respectively. On the other hand, from the negative ionization acquisition (NIA) OPLS-DA model, the phosphocholine PC18:2_18:2, PC 15:1_20:4 and sphingomyelin SM d42:1 (VIP values: 1.1197, 1.4849, and 1.5191) were upregulated in RBCs clinorotated for six hours when compared with control samples.</p>
+              <p>Considering the results of the analysis and the general literature on the topic, it can be concluded that RBCs are very sensitive to their surroundings, changing shape and reacting to their environment. In an ideal situation, the RBC exists as a biconcave disc, of which the structure, shape, and modifications to physical stress are defined by the cytoskeletal architecture supporting the plasma membrane [<xref rid="B31-ijms-23-06876" ref-type="bibr">31</xref>,<xref rid="B32-ijms-23-06876" ref-type="bibr">32</xref>]. Modifications in the cytoskeletal proteins involved in structural function alter the RBCs spectrin network and membrane integrity when re-shaping in response to an induced stress [<xref rid="B33-ijms-23-06876" ref-type="bibr">33</xref>,<xref rid="B34-ijms-23-06876" ref-type="bibr">34</xref>]. Dysfunctional responses to physical change can result in a loss of function in RBCs, recapitulating a disease-like scenario [<xref rid="B35-ijms-23-06876" ref-type="bibr">35</xref>].</p>
+              <p>Recently, several studies have shown an upregulation of phosphocholines class in different cell types such as epidermal stem cells [<xref rid="B36-ijms-23-06876" ref-type="bibr">36</xref>] or gastric cancer cells subjected to simulated gravity conditions [<xref rid="B37-ijms-23-06876" ref-type="bibr">37</xref>]. The same studies were performed on blood samples from Russian cosmonauts by Ivanova et al. [<xref rid="B19-ijms-23-06876" ref-type="bibr">19</xref>]. In this case, the research team observed that during the voyage there was an increase in the percentage of phosphatidylcholine lipid class associated with the increase in membrane rigidity. In fact, an increase in phosphatidylcholine is associated with an increase in the rigidity of the cell membrane. The specific composition of the membrane provides the RBCs a certain fluidity, necessary to modulate cell functions, while loss of such fluidity affects normal functions and cellular signalling. From the analysis of our samples, it appears that the 42: 1 sphingomyelin was upregulated in erythrocytes cultured under simulated microgravity conditions. Sphingomyelins are often associated with inflammation processes. In this case, the latter ones could be triggered by the known increase in ROS. Furthermore, the upregulation of phosphocholines substantially affects the phosphocholines PC 18: 2_18: 2 and PC 15: 1_20: 4. Both of these phosphocholines have different unsaturation, considerably increasing the possible rigidity of the cell membrane, in particular this effect occurs within the first six hours of clinorotation.</p>
+            </sec>
+            <sec id="sec3-ijms-23-06876">
+              <title>3. Materials and Methods</title>
+              <sec id="sec3dot1-ijms-23-06876">
+                <title>3.1. Cell Culture</title>
+                <p>Freshly drawn blood (Rh+) from healthy adults of both sexes was used. Patients provided written, informed consent in the ASL. 1-Sassari (Azienda Sanitaria Locale.1-Sassari) centre before entering the study. This study was conducted in accordance with Good Clinical Practice guidelines and the Declaration of Helsinki. No ethical approval was requested as human blood samples were used only to perform in vitro experiments. Blood anti-coagulated with heparin was stored in citrate-phosphate-dextrose with adenine (CPDA-1) prior to use. RBCs were separated from plasma and leukocytes by washing three times with phosphate-buffered saline (127 mM NaCl, 2.7 mM KCl, 8.1 mM Na<sub>2</sub>HPO<sub>4</sub>, 1.5 mM KH<sub>2</sub>PO<sub>4</sub>, 20 mM HEPES, 1 mM MgCl<sub>2</sub>, and pH 7.4) supplemented with 5 mM glucose (PBS glucose) to obtain packed cells.</p>
+              </sec>
+              <sec id="sec3dot2-ijms-23-06876">
+                <title>3.2. Microgravity Simulation</title>
+                <p>To verify whether RBCs could be affected by microgravity conditions, experiments were performed using a 3D random positioning machine (RPM, Fokker Space, Netherlands) at the laboratory of the Department of Biomedical Sciences, University of Sassari, Sardinia, Italy. The 3D RPM is a micro-weight (microgravity) simulator based on the principle of ‘gravity-vector-averaging’, built by Dutch Space. The 3D RPM is constituted by two perpendicular frames that rotate independently. The direction of the gravity vector is constantly changed so that the average of the gravity vector simulates a microgravity environment. The 3D RPM provides a simulated microgravity less than 10<sup>−3</sup> g. The dimensions of the 3D RPM are of 1000 × 800 × 1000 mm (length × width × height). The 3D RPM is connected to a computer and through a specific software the mode and speed of rotation were selected. Random Walk mode with an 80 degree/sec (rpm) was chosen.</p>
+                <p>To simulate the effect of all the operating conditions, the following procedure was adopted.</p>
+                <p>Two millilitre tubes were carefully filled with packed RBCs and PBS-glucose (30% haematocrit) without air bubbles to avoid shearing of the fluid, in a dedicated room at 37 °C. Controls were placed in the static bar at 1 g to undergo the same vibration of the sample under µg conditions. Different time points were set (0–6–9–12–24–36–48 h). Subsequently, RBCs were centrifuged and resuspended in 1 mL of lysis buffer [5 mM Na<sub>2</sub>HPO<sub>4</sub>, 1 mM EDTA (pH 8.0)] and stored at −20 °C until use for further characterizations.</p>
+              </sec>
+              <sec id="sec3dot3-ijms-23-06876">
+                <title>3.3. Confocal Microscopy Analysis</title>
+                <p>Once the experiments under micro and normal gravity conditions were performed at 0, 6, and 9 h, RBCs, after being fixed for 5 min in 0.5% acrolein in PBS, samples were rinsed three times, then permeabilized in PBS containing 0.1 M glycine (rinsing buffer) plus 0.1% Triton X-100 for 5 min and rinsed again 3× in rinsing buffer. To ensure complete neutralization of unreacted aldehydes, the cells were then incubated in rinsing buffer at room temperature for 30 min. After incubation, all nonspecific bindings were blocked by incubation for 60 min in blocking buffer (PBS containing 0.05 mM glycine, 0.2% fish skin gelatin and 0.05% sodium azide). Staining was performed using specific antibodies diluted in blocking buffer. After labelling, RBCs were allowed to attach to cover slips coated with poly-l-lysine, which were then mounted onto glass slides using Aqua-Mount (Lerner Laboratories, New Haven, Connecticut, USA). Samples were imaged with a Leica TCS SP5 confocal microscope equipped with a 60 × 1.4 numerical aperture oil immersion lens.</p>
+              </sec>
+              <sec id="sec3dot4-ijms-23-06876">
+                <title>3.4. Scanning Electron Microscopy (SEM) Characterization</title>
+                <p>For three-dimensional SEM imaging and a fine resolution of erythrocytes structure, samples were fixed with 1% paraformaldehyde in 0.1 M Na-cacodylate buffer (pH 7.4) for 1 h at room temperature. After washing in Na-cacodylate buffer, samples have been decanted on microscope slides overnight. After numerous washes in PBS (Phosphate Buffered Saline), slides were dehydrated in ascending ethanol scales, dried at critical point in CO2 and then mounted on aluminium support (stub) with double-sided tape. Finally, samples were covered with a gold conductive film and observed at SEM (ZEISS SIGMA 300, Wetzla, Germany).</p>
+              </sec>
+              <sec id="sec3dot5-ijms-23-06876">
+                <title>3.5. Oxidative Stress Analysis</title>
+                <p>Oxidative stress analyses were performed in lysate red blood cells and/or plasma according to the manufacturer’s instructions. Total antioxidant capacity (Cayman Antioxidant Assay kit 709001, Cayman Chemical, 1180 East Ellsworth Road Ann Arbor, Michigan 48108 USA) [<xref rid="B38-ijms-23-06876" ref-type="bibr">38</xref>,<xref rid="B39-ijms-23-06876" ref-type="bibr">39</xref>], reduced glutathione (GSH) (Cayman glutathione assay kit 703002, Cayman Chemical) [<xref rid="B40-ijms-23-06876" ref-type="bibr">40</xref>,<xref rid="B41-ijms-23-06876" ref-type="bibr">41</xref>], and thiobarbituric acid reactive substance (TBARS) (Cayman TBARS assay kit 10009055, Cayman Chemical, 1180 East Ellsworth Road Ann Arbor, Michigan 48108 USA) [<xref rid="B38-ijms-23-06876" ref-type="bibr">38</xref>,<xref rid="B39-ijms-23-06876" ref-type="bibr">39</xref>] were evaluated. Reactive oxygen species (ROS) level analysis was performed accordingly with method described by Tsamesidis et al. [<xref rid="B14-ijms-23-06876" ref-type="bibr">14</xref>].</p>
+              </sec>
+              <sec id="sec3dot6-ijms-23-06876">
+                <title>3.6. UHPLC-QTOF-MS Analysis</title>
+                <p>Prior to mass spectrometric analysis, 50 µL of human erythrocytes were extracted following the Folch procedure using 0.7 mL of a methanol and chloroform mixture (2/1, <italic toggle="yes">v/v</italic>). Samples were vortexed every 15 min up to 1 h, when 0.35 mL of chloroform and 0.15 mL of water were subsequently added. The solution was centrifuged at 12,000 rpm for 10 min, and 0.4 mL of the organic layer was transferred into a glass vial and dried under a nitrogen stream. The dried chloroform phase was reconstituted with 50 μL of a methanol and chloroform mixture (1/1, <italic toggle="yes">v/v</italic>) and 75 μL isopropanol:acetonitrile:water mixture (2:1:1 <italic toggle="yes">v/v</italic>). Quality control (QC) samples were prepared taking an aliquot of 10 μL of each sample. All samples thus prepared were injected in UHPLC-QTOF-MS/MS and acquired in negative ionization mode, while for positive ionization mode they were diluted in ratio 1:10. The chloroform phase was analysed with a LC-QTOF-MS coupled with an Agilent 1290 Infinity II LC system. An aliquot of 4.0 μL from each sample was injected in a Luna Omega C18, 1.6 μm, 100 mm × 2.1 mm chromatographic column (Phenomenex, Bologna, Italy). The column was maintained at 50 °C at a flow rate of 0.4 mL/min. The mobile phase for positive ionization mode consisted of (A) 10 mM ammonium formate solution in 60% of water and 40% of acetonitrile and (B) 10 mM ammonium formate solution containing 90% of isopropanol, 10% of acetonitrile. In positive ionization mode, the chromatographic separation was obtained with the following gradient: initially 80% of A, then a linear decrease from 80% to 50% of A in 2.1 min then at 30% in 10 min. Subsequently the mobile phase A was again decreased from 30% to 1% and was maintained at this percentage for 1.9 min and then brought back to the initial conditions in 1 min. The mobile phase for the chromatographic separation in the negative ionization mode differed only for the use of 10 mM ammonium acetate instead of ammonium formate. An Agilent jet stream source which was operated in both positive and negative ion modes with the following parameters: gas temperature, 200 °C; gas flow (nitrogen) 10 L/min; nebulizer gas (nitrogen), 50 psig; sheath gas temperature, 300 °C; sheath gas flow, 12 L/min; capillary voltage 3500 V for positive and 3000 V for negative; nozzle voltage 0 V; fragmentor 150 V; skimmer 65 V, octapole RF 7550 V; mass range, 50−1700 m/z; capillary voltage, 3.5 kV; collision energy 20 eV in positive and 25 eV in negative mode, mass precursor per cycle = 3. High purity nitrogen (99.999%) was used as a drift gas with a trap fill time and a trap release time of 2000 and 500 µs, respectively.</p>
+              </sec>
+              <sec id="sec3dot7-ijms-23-06876">
+                <title>3.7. Multivariate Data Analysis</title>
+                <p>Mass spectrometric data acquired were pre-processed with the software MassHunter Workstation suite (Agilent Technologies, Santa Clara, California, USA). This software (Mass Profiler 10.0) allowed us to perform mass deconvolution, yielding a matrix containing all features present across all samples. This matrix was further processed with a pipeline based on the KNIME analytic platform [<xref rid="B42-ijms-23-06876" ref-type="bibr">42</xref>], KniMet for the post-processing of metabolomics MS-based data [<xref rid="B43-ijms-23-06876" ref-type="bibr">43</xref>]. Features were filtered based on their presence in QC samples (threshold = 40%) and the remaining features were collected in a data matrix subsequently processed using SIMCA software 14.0 (Umetrics, Umeå, Sweden). First, a Principal Component Analysis (PCA) was carried out. This unsupervised statistical analysis allowed us to observe samples and variables distribution in the multivariate space based on their similarity and dissimilarity. This was followed by partial least square-discriminant analysis (PLS-DA) with its orthogonal extension (OPLS-DA).</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec4-ijms-23-06876">
+              <title>4. Conclusions</title>
+              <p>In this work we investigated, using different approaches, the behaviour of human RBCs under simulated microgravity conditions. No significant changes were present at 1 g in different time points, while the performed investigations using SEM and confocal microscopy, ROS, TAC, GSH, and MDA analysis, and lipid profile evaluation demonstrated that samples exposed to simulated microgravity conditions exhibited remarkable changes in red cell cytoskeletal architecture and membrane stiffness.</p>
+              <p>This work represents the first step of our research group towards the understanding the behaviour of human cells under microgravity conditions. Work is underway not only to analyse additional cell types with particular emphasis towards those ones that might be more important for future human missions but also to involve institutions and researchers at the national and international levels to strengthen the cooperation in this crucial field of enquiry.</p>
+              <p>It is apparent that the implications of this research work and the corresponding future developments are related to the basic investigation of the intrinsic mechanisms underlying the behaviour of several human cell types under microgravity conditions which will be able to provide a useful contribution towards both the understanding and the potential prevention of classical health risks associated to the astronauts involved in deep space exploration scenarios.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We acknowledge the CeSAR (Centro Servizi d’Ateneo per la Ricerca) of the University of Cagliari, Italy for the IMQTOFMSMS experiments performed with an Agilent 6560. The authors would also like to thank Claudio Fozza for his scientific contribution. C.M and A.M, also acknowledge the PhD program in Innovation Science and Technologies available at University of Cagliari and Life Science and Biotechnologies available at University of Sassari, respectively.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, A.P., P.C. and G.C.; methodology, C.M., A.M. (Alessia Manca), A.M. (Antonio Murgia), G.U., T.C. and A.P.; writing—original draft preparation, C.M., A.M. (Alessia Manca), P.C., A.P. and G.C.; writing—review and editing, C.M., A.M. (Alessia Manca), G.U., P.C., G.F., A.P. and G.C.; supervision, P.C., A.P. and G.C.; funding acquisition, A.P. and G.C. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>The study was conducted in accordance with the Declaration of Helsinki. No ethical approval has been requested as human blood samples were used only to perform in vitro experiments.</p>
+            </notes>
+            <notes>
+              <title>Informed Consent Statement</title>
+              <p>Informed consent was obtained from all subjects involved in the study.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>Written informed consent has been obtained from the patients to publish this paper.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-23-06876">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dinarelli</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Longo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dietler</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Francioso</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mosca</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pannitteri</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boumis</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bellelli</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Girasole</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Erythrocyte’s Aging in Microgravity Highlights How Environmental Stimuli Shape Metabolism and Morphology</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>5277</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-018-22870-0</pub-id>
+                  <?supplied-pmid 29588453?>
+                  <pub-id pub-id-type="pmid">29588453</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-23-06876">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qiang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dao</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suresh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanical Fatigue of Human Red Blood Cells</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2019</year>
+                  <volume>116</volume>
+                  <fpage>19828</fpage>
+                  <lpage>19834</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1910336116</pub-id>
+                  <?supplied-pmid 31527252?>
+                  <pub-id pub-id-type="pmid">31527252</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-23-06876">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adamopoulos</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koutsouris</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zaravinos</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lambrou</surname>
+                      <given-names>G.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gravitational Influence on Human Living Systems and the Evolution of Species on Earth</article-title>
+                  <source>Molecules</source>
+                  <year>2021</year>
+                  <volume>26</volume>
+                  <elocation-id>2784</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/molecules26092784</pub-id>
+                  <?supplied-pmid 34066886?>
+                  <pub-id pub-id-type="pmid">34066886</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-23-06876">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guarnieri</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morabito</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bevere</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lanuti</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mariggiò</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Protective Strategy to Counteract the Oxidative Stress Induced by Simulated Microgravity on H9C2 Cardiomyocytes</article-title>
+                  <source>Oxidative Med. Cell. Longev.</source>
+                  <year>2021</year>
+                  <volume>2021</volume>
+                  <fpage>9951113</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2021/9951113</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-23-06876">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Girasole</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cricenti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Generosi</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Congiu-Castellano</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boumis</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amiconi</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Artificially Induced Unusual Shape of Erythrocytes: An Atomic Force Microscopy Study</article-title>
+                  <source>J. Microsc.</source>
+                  <year>2001</year>
+                  <volume>204</volume>
+                  <fpage>46</fpage>
+                  <lpage>52</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1365-2818.2001.00937.x</pub-id>
+                  <pub-id pub-id-type="pmid">11580812</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-23-06876">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boonstra</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth Factor-Induced Signal Transduction in Adherent Mammalian Cells Is Sensitive to Gravity</article-title>
+                  <source>FASEB J. Off. Publ. Fed. Am. Soc. Exp. Biol.</source>
+                  <year>1999</year>
+                  <volume>13</volume>
+                  <fpage>S35</fpage>
+                  <lpage>S42</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fasebj.13.9001.s35</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-23-06876">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schcolnik-Cabrera</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Labastida-Mercado</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nancy</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mercado</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How Is Hematology Involved in the Era of Aerospace Medicine?: Systemic and Hematological Changes in the Astronaut</article-title>
+                  <source>Rev. Hematol. Mex.</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <fpage>122</fpage>
+                  <lpage>128</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-23-06876">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schimmerling</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space and Radiation Protection: Scientific Requirements for Space Research</article-title>
+                  <source>Radiat. Environ. Biophys.</source>
+                  <year>1995</year>
+                  <volume>34</volume>
+                  <fpage>133</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF01211538</pub-id>
+                  <pub-id pub-id-type="pmid">7480626</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-23-06876">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buonanno</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Toledo</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Howell</surname>
+                      <given-names>R.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Azzam</surname>
+                      <given-names>E.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low-Dose Energetic Protons Induce Adaptive and Bystander Effects That Protect Human Cells against DNA Damage Caused by a Subsequent Exposure to Energetic Iron Ions</article-title>
+                  <source>J. Radiat. Res.</source>
+                  <year>2015</year>
+                  <volume>56</volume>
+                  <fpage>502</fpage>
+                  <lpage>508</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jrr/rrv005</pub-id>
+                  <pub-id pub-id-type="pmid">25805407</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-23-06876">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garrett-Bakelman</surname>
+                      <given-names>F.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Darshi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gur</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macias</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>McKenna</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meydan</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mishra</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasrini</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The NASA Twins Study: A Multidimensional Analysis of a Year-Long Human Spaceflight</article-title>
+                  <source>Science</source>
+                  <year>2019</year>
+                  <volume>364</volume>
+                  <fpage>eaau8650</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.aau8650</pub-id>
+                  <pub-id pub-id-type="pmid">30975860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-23-06876">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Afshinnekoo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>MacKay</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pariset</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cekanaviciute</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barker</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilroy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassane</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration</article-title>
+                  <source>Cell</source>
+                  <year>2020</year>
+                  <volume>183</volume>
+                  <fpage>1162</fpage>
+                  <lpage>1184</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2020.10.050</pub-id>
+                  <?supplied-pmid 33242416?>
+                  <pub-id pub-id-type="pmid">33242416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-23-06876">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>T.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leskiw</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oxidant Damage during and after Spaceflight</article-title>
+                  <source>Am. J. Physiol.—Endocrinol. Metab.</source>
+                  <year>2000</year>
+                  <volume>278</volume>
+                  <fpage>375</fpage>
+                  <lpage>382</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpendo.2000.278.3.E375</pub-id>
+                  <?supplied-pmid 10710490?>
+                  <pub-id pub-id-type="pmid">10710490</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-23-06876">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pizzino</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Irrera</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pallio</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mannino</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arcoraci</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Squadrito</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Altavilla</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bitto</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oxidative Stress: Harms and Benefits for Human Health</article-title>
+                  <source>Oxid. Med. Cell. Longev.</source>
+                  <year>2017</year>
+                  <volume>2017</volume>
+                  <fpage>8416763</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2017/8416763</pub-id>
+                  <?supplied-pmid 28819546?>
+                  <pub-id pub-id-type="pmid">28819546</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-23-06876">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsamesidis</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egwu</surname>
+                      <given-names>C.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pério</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Augereau</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benoit-Vical</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reybier</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An LC–MS Assay to Measure Superoxide Radicals and Hydrogen Peroxide in the Blood System</article-title>
+                  <source>Metabolites</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <elocation-id>175</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/metabo10050175</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-23-06876">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Remigante</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morabito</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marino</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Band 3 protein function and oxidative stress in erythrocytes</article-title>
+                  <source>J. Cell. Physiol.</source>
+                  <year>2021</year>
+                  <volume>236</volume>
+                  <fpage>6225</fpage>
+                  <lpage>6234</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jcp.30322</pub-id>
+                  <pub-id pub-id-type="pmid">33559172</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-23-06876">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pantaleo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferru</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pau</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khadjavi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandili</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mattè</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Spano</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Franceschi</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pippia</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turrini</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Band 3 Erythrocyte Membrane Protein Acts as Redox Stress Sensor Leading to Its Phosphorylation by p (72) Syk</article-title>
+                  <source>Oxid. Med. Cell. Longev.</source>
+                  <year>2016</year>
+                  <volume>2016</volume>
+                  <fpage>6051093</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2016/6051093</pub-id>
+                  <pub-id pub-id-type="pmid">27034738</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-23-06876">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morabito</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Remigante</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marino</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protective Role of Magnesium against Oxidative Stress on SO<sub>4</sub> = Uptake through Band 3 Protein in Human Erythrocytes</article-title>
+                  <source>Cell. Physiol. Biochem.</source>
+                  <year>2019</year>
+                  <volume>52</volume>
+                  <fpage>1292</fpage>
+                  <lpage>1308</lpage>
+                  <pub-id pub-id-type="doi">10.33594/000000091</pub-id>
+                  <pub-id pub-id-type="pmid">31026392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-23-06876">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tjandrawinata</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fitzgerald</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gasuad</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilbertson</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of Microgravity on Osteoblast Growth</article-title>
+                  <source>Gravit. Space Biol. Bull. Publ. Am. Soc. Gravit. Space Biol.</source>
+                  <year>1998</year>
+                  <volume>11</volume>
+                  <fpage>51</fpage>
+                  <lpage>60</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-23-06876">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ivanova</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morukova</surname>
+                      <given-names>B.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maksimovb</surname>
+                      <given-names>G.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bryzgalovab</surname>
+                      <given-names>N.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Labetskayaa</surname>
+                      <given-names>O.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yarlykovaa</surname>
+                      <given-names>Y.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Levina</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Morphobiochemical Assay of the Red Blood System in Members of the Prime Crews of the International Space Station</article-title>
+                  <source>Hum. Physiol.</source>
+                  <year>2009</year>
+                  <volume>43</volume>
+                  <fpage>43</fpage>
+                  <lpage>47</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-23-06876">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rizzo</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Corsetto</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Montorfano</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milani</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zava</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tavella</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cancedda</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berra</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of Long-Term Space Flight on Erythrocytes and Oxidative Stress Of Rodents</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <elocation-id>e32361</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0032361</pub-id>
+                  <pub-id pub-id-type="pmid">22412864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-23-06876">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alfrey</surname>
+                      <given-names>C.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udden</surname>
+                      <given-names>M.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leach-Huntoon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Driscoll</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pickett</surname>
+                      <given-names>M.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Control of Red Blood Cell Mass in Spaceflight</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>1996</year>
+                  <volume>81</volume>
+                  <fpage>98</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jappl.1996.81.1.98</pub-id>
+                  <?supplied-pmid 8828651?>
+                  <pub-id pub-id-type="pmid">8828651</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-23-06876">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kunz</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quiriarte</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ploutz-Snyder</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>McMonigal</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sams</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Alterations in Hematologic Indices during Long-Duration Spaceflight</article-title>
+                  <source>BMC Hematol.</source>
+                  <year>2017</year>
+                  <volume>17</volume>
+                  <elocation-id>12</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/s12878-017-0083-y</pub-id>
+                  <pub-id pub-id-type="pmid">28904800</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-23-06876">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trudel</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shahin</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramsay</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Laneuville</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Louati</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hemolysis Contributes to Anemia during Long-Duration Space Flight</article-title>
+                  <source>Nat. Med.</source>
+                  <year>2022</year>
+                  <volume>28</volume>
+                  <fpage>59</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41591-021-01637-7</pub-id>
+                  <?supplied-pmid 35031790?>
+                  <pub-id pub-id-type="pmid">35031790</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-23-06876">
+                <label>24.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Charles</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bungo</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fortner</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cardiopulmonary Function</article-title>
+                  <source>Space Physiology and Medicine</source>
+                  <edition>3rd ed.</edition>
+                  <publisher-name>Lea &amp; Febiger</publisher-name>
+                  <publisher-loc>Philadelphia, PA, USA</publisher-loc>
+                  <year>1994</year>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-23-06876">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Risso</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciana</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Achilli</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Antonutto</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Minetti</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neocytolysis: None, One or Many? A Reappraisal and Future Perspectives</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2014</year>
+                  <volume>5</volume>
+                  <fpage>54</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2014.00054</pub-id>
+                  <?supplied-pmid 24592241?>
+                  <pub-id pub-id-type="pmid">24592241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-23-06876">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Unsworth</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lelkes</surname>
+                      <given-names>P.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growing Tissues in Microgravity</article-title>
+                  <source>Nat. Med.</source>
+                  <year>1998</year>
+                  <volume>4</volume>
+                  <fpage>901</fpage>
+                  <lpage>907</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm0898-901</pub-id>
+                  <pub-id pub-id-type="pmid">9701241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-23-06876">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Some History and Use of the Random Positioning Machine, RPM, in Gravity Related Research</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>2007</year>
+                  <volume>39</volume>
+                  <fpage>1161</fpage>
+                  <lpage>1165</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2007.02.016</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-23-06876">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herranz</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anken</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boonstra</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Braun</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Christianen</surname>
+                      <given-names>P.C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Geest</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauslage</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilbig</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>R.J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lebert</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ground-Based Facilities for Simulation of Microgravity: Organism-Specific Recommendations for Their Use, and Recommended Terminology</article-title>
+                  <source>Astrobiology</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ast.2012.0876</pub-id>
+                  <pub-id pub-id-type="pmid">23252378</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-23-06876">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wuest</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richard</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kopp</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated Microgravity: Critical Review on the Use of Random Positioning Machines for Mammalian Cell Culture</article-title>
+                  <source>BioMed Res. Int.</source>
+                  <year>2015</year>
+                  <volume>2015</volume>
+                  <fpage>971474</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2015/971474</pub-id>
+                  <pub-id pub-id-type="pmid">25649075</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-23-06876">
+                <label>30.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Serova</surname>
+                      <given-names>L.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leon</surname>
+                      <given-names>G.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chel’naia</surname>
+                      <given-names>N.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sidorenko</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Effect of Weightlessness on Erythrocyte Resistance In Vivo and In Vitro—PubMed</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://pubmed.ncbi.nlm.nih.gov/8012303/" ext-link-type="uri">https://pubmed.ncbi.nlm.nih.gov/8012303/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-05-20">(accessed on 20 May 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-23-06876">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buys</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Rooy</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Soma</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Papendorp</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipinski</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pretorius</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in Red Blood Cell Membrane Structure in Type 2 Diabetes: A Scanning Electron and Atomic Force Microscopy Study</article-title>
+                  <source>Cardiovasc. Diabetol.</source>
+                  <year>2013</year>
+                  <volume>12</volume>
+                  <fpage>25</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1475-2840-12-25</pub-id>
+                  <pub-id pub-id-type="pmid">23356738</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-23-06876">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Girasole</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pompeo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cricenti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Congiu-Castellano</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andreola</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Serafino</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frazer</surname>
+                      <given-names>B.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boumis</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amiconi</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Roughness of the Plasma Membrane as an Independent Morphological Parameter to Study RBCs: A Quantitative Atomic Force Microscopy Investigation</article-title>
+                  <source>Biochim. Biophys. Acta</source>
+                  <year>2007</year>
+                  <volume>1768</volume>
+                  <fpage>1268</fpage>
+                  <lpage>1276</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbamem.2007.01.014</pub-id>
+                  <pub-id pub-id-type="pmid">17320813</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-23-06876">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennett-Guerrero</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Veldman</surname>
+                      <given-names>T.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Doctor</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Telen</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ortel</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reid</surname>
+                      <given-names>T.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mulherin</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buck</surname>
+                      <given-names>R.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Califf</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evolution of Adverse Changes in Stored RBCs</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2007</year>
+                  <volume>104</volume>
+                  <fpage>17063</fpage>
+                  <lpage>17068</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0708160104</pub-id>
+                  <?supplied-pmid 17940021?>
+                  <pub-id pub-id-type="pmid">17940021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-23-06876">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferru</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Giger</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pantaleo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Campanella</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grey</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ritchie</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vono</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turrini</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Low</surname>
+                      <given-names>P.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regulation of Membrane-Cytoskeletal Interactions by Tyrosine Phosphorylation of Erythrocyte Band 3</article-title>
+                  <source>Blood</source>
+                  <year>2011</year>
+                  <volume>117</volume>
+                  <fpage>5998</fpage>
+                  <lpage>6006</lpage>
+                  <pub-id pub-id-type="doi">10.1182/blood-2010-11-317024</pub-id>
+                  <?supplied-pmid 21474668?>
+                  <pub-id pub-id-type="pmid">21474668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-23-06876">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pantaleo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Franceschi</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferru</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vono</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turrini</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Current Knowledge about the Functional Roles of Phosphorylative Changes of Membrane Proteins in Normal and Diseased Red Cells</article-title>
+                  <source>J. Proteom.</source>
+                  <year>2010</year>
+                  <volume>73</volume>
+                  <fpage>445</fpage>
+                  <lpage>455</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jprot.2009.08.011</pub-id>
+                  <?supplied-pmid 19758581?>
+                  <pub-id pub-id-type="pmid">19758581</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-23-06876">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Z.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J.Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>S.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Simulated Microgravity Significantly Altered Metabolism in Epidermal Stem Cells</article-title>
+                  <source>In Vitr. Cell. Dev. Biol. Anim.</source>
+                  <year>2020</year>
+                  <volume>56</volume>
+                  <fpage>200</fpage>
+                  <lpage>212</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11626-020-00435-8</pub-id>
+                  <?supplied-pmid 32198676?>
+                  <pub-id pub-id-type="pmid">32198676</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-23-06876">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Z.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>J.Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>S.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>H.W.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of Simulated Microgravity on Metabolism of HGC-27 Gastric Cancer Cells</article-title>
+                  <source>Oncol. Lett.</source>
+                  <year>2020</year>
+                  <volume>19</volume>
+                  <fpage>3439</fpage>
+                  <lpage>3450</lpage>
+                  <pub-id pub-id-type="doi">10.3892/ol.2020.11451</pub-id>
+                  <?supplied-pmid 32269617?>
+                  <pub-id pub-id-type="pmid">32269617</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-23-06876">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Armstrong</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Browne</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Analysis of Free Radicals, Lipid Peroxides, Antioxidant Enzymes and Compounds Related to Oxidative Stress as Applied to the Clinical Chemistry Laboratory</article-title>
+                  <source>Adv. Exp. Med. Biol.</source>
+                  <year>1994</year>
+                  <volume>366</volume>
+                  <fpage>43</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1007/978-1-4615-1833-4_4</pub-id>
+                  <pub-id pub-id-type="pmid">7771281</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-23-06876">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yagi</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simple Assay for the Level of Total Lipid Peroxides in Serum or Plasma</article-title>
+                  <source>Methods Mol. Biol.</source>
+                  <year>1998</year>
+                  <volume>108</volume>
+                  <fpage>101</fpage>
+                  <lpage>106</lpage>
+                  <pub-id pub-id-type="doi">10.1385/0-89603-472-0:101</pub-id>
+                  <pub-id pub-id-type="pmid">9921519</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-ijms-23-06876">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eyer</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Podhradský</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluation of the Micromethod for Determination of Glutathione Using Enzymatic Cycling and Ellman’s Reagent</article-title>
+                  <source>Anal. Biochem.</source>
+                  <year>1986</year>
+                  <volume>153</volume>
+                  <fpage>57</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0003-2697(86)90061-8</pub-id>
+                  <pub-id pub-id-type="pmid">3963383</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-ijms-23-06876">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cerniglia</surname>
+                      <given-names>G.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zaman</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microtiter Plate Assay for the Measurement of Glutathione and Glutathione Disulfide in Large Numbers of Biological Samples</article-title>
+                  <source>Anal. Biochem.</source>
+                  <year>1990</year>
+                  <volume>190</volume>
+                  <fpage>360</fpage>
+                  <lpage>365</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0003-2697(90)90208-Q</pub-id>
+                  <pub-id pub-id-type="pmid">2291479</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-ijms-23-06876">
+                <label>42.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berthold</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hand</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Intelligent Data Analysis</source>
+                  <publisher-name>Springer</publisher-name>
+                  <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+                  <year>2003</year>
+                  <pub-id pub-id-type="doi">10.1007/978-3-540-48625-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-ijms-23-06876">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liggi</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinz</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hall ZSantoru</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poddighe</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fjeldsted</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Atzori</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Griffin</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>KniMet: A pipeline for the processing of chromatography–mass spectrometry metabolomics data</article-title>
+                  <source>Metabolomics</source>
+                  <year>2018</year>
+                  <volume>14</volume>
+                  <fpage>52</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s11306-018-1349-5</pub-id>
+                  <pub-id pub-id-type="pmid">29576760</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="ijms-23-06876-f001">
+              <label>Figure 1</label>
+              <caption>
+                <p>Random Positioning Machine (RPM, Fokker Space, The Netherlands).</p>
+              </caption>
+              <graphic xlink:href="ijms-23-06876-g001" position="float"/>
+            </fig>
+            <fig position="float" id="ijms-23-06876-f002">
+              <label>Figure 2</label>
+              <caption>
+                <p>Confocal images of RBCs incubated for 6 and 9 h under terrestrial (1 g) (<bold>A</bold>–<bold>C</bold>) and microgravity conditions (µg) (<bold>D</bold>–<bold>F</bold>). Images were acquired using the same magnification with a Leica TCS SP5 X (Leica Microsystems, Wetzlar, Germany) confocal microscope equipped with a 60 × 1.4 numerical aperture oil immersion lens. The scale bar in the figure is 7.5 µm.</p>
+              </caption>
+              <graphic xlink:href="ijms-23-06876-g002" position="float"/>
+            </fig>
+            <fig position="float" id="ijms-23-06876-f003">
+              <label>Figure 3</label>
+              <caption>
+                <p>Scanning electron microscopy images of RBCs incubated for 6 and 9 h under terrestrial (1 g) and microgravity conditions (µg). Images were acquired using a SEM (ZEISS SIGMA 300, Wetzla, Germany). The scale bar in the figure is 10 µm.</p>
+              </caption>
+              <graphic xlink:href="ijms-23-06876-g003" position="float"/>
+            </fig>
+            <fig position="float" id="ijms-23-06876-f004">
+              <label>Figure 4</label>
+              <caption>
+                <p>Evaluation of extracellular ROS level (<bold>A</bold>), TAC (<bold>B</bold>), GSH (<bold>C</bold>), and MDA (<bold>D</bold>) on plasma samples exposed to simulated microgravity (µg) and earth gravity conditions (1 g) at different time point (T0, 30–60–90 min and 2–3–6–9 h). Data are the average ± SD of three independent experiments.</p>
+              </caption>
+              <graphic xlink:href="ijms-23-06876-g004" position="float"/>
+            </fig>
+            <fig position="float" id="ijms-23-06876-f005">
+              <label>Figure 5</label>
+              <caption>
+                <p>(<bold>a</bold>) OPLS-DA score plot for the PIA model and (<bold>b</bold>) OPLS-DA score plot for the NIA model. The grey circles represent the control samples, while black circles represent clinorotated erythrocytes samples.</p>
+              </caption>
+              <graphic xlink:href="ijms-23-06876-g005" position="float"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

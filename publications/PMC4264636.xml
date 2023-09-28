@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:04:03Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4264636" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4264636</identifier>
+        <datestamp>2014-12-16</datestamp>
+        <setSpec>f1000res</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="methods-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">F1000Res</journal-id>
+              <journal-id journal-id-type="iso-abbrev">F1000Res</journal-id>
+              <journal-id journal-id-type="pmc">F1000Research</journal-id>
+              <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2046-1402</issn>
+              <publisher>
+                <publisher-name>F1000Research</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4264636</article-id>
+              <article-id pub-id-type="pmcid">PMC4264636</article-id>
+              <article-id pub-id-type="pmc-uid">4264636</article-id>
+              <article-id pub-id-type="pmid">25520779</article-id>
+              <article-id pub-id-type="doi">10.12688/f1000research.4909.1</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Method Article</subject>
+                </subj-group>
+                <subj-group>
+                  <subject>Articles</subject>
+                  <subj-group>
+                    <subject>Membranes &amp; Sorting</subject>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Pharmacokinetics &amp; Drug Delivery</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Active transmembrane drug transport in microgravity: a validation study using an ABC transporter model</article-title>
+                <fn-group content-type="pub-status">
+                  <fn>
+                    <p>v1; ref status: indexed</p>
+                  </fn>
+                </fn-group>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vaquer</surname>
+                    <given-names>Sergi</given-names>
+                  </name>
+                  <xref ref-type="corresp" rid="c1">a</xref>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                  <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cuyàs</surname>
+                    <given-names>Elisabet</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rabadán</surname>
+                    <given-names>Arnau</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>González</surname>
+                    <given-names>Albert</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fenollosa</surname>
+                    <given-names>Felip</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>de la Torre</surname>
+                    <given-names>Rafael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <aff id="a1"><label>1</label>Departament de Farmacologia Humana, Institut Municipal d’Investigació Mèdica de Barcelona (IMIM), Barcelona, 08003, Spain</aff>
+                <aff id="a2"><label>2</label>Corporació Sanitària i Universitària Parc Taulí, Sabadell, 08208, Spain</aff>
+                <aff id="a3"><label>3</label>Fundació Centre CIM, Barcelona, 08028, Spain</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="c1">
+                  <label>a</label>
+                  <email xlink:href="mailto:Sergivaquer@gmail.com">Sergivaquer@gmail.com</email>
+                </corresp>
+                <fn fn-type="con">
+                  <p>SV conceived the study, performed analysis and interpretation of the data and drafted the manuscript. EC, designed biological experiments, collected data, contributed to analysis and interpretation of the data and to drafting of the manuscript. AR designed and built the electromechanical system, performed the collection of data, contributed to analysis and interpretation of the data and to drafting the manuscript. AG designed and built the electrical &amp; control system, performed the collection of data, contributed to analysis and interpretation of the data. FF performed the collection of data and contributed to drafting of the manuscript. RT conceived the study, designed biological experiments, and contributed to interpretation of the data and to drafting of the manuscript. All authors read and approved the final version of the manuscript.</p>
+                </fn>
+                <fn fn-type="conflict">
+                  <p><bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>21</day>
+                <month>8</month>
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2014</year>
+              </pub-date>
+              <volume>3</volume>
+              <elocation-id>201</elocation-id>
+              <history>
+                <date date-type="accepted">
+                  <day>7</day>
+                  <month>8</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright: © 2014 Vaquer S et al.</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">
+                  <license-p>Data associated with the article are available under the terms of the Creative Commons Zero "No rights reserved" data waiver (CC0 1.0 Public domain dedication).</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:type="simple" xlink:href="f1000research-3-5243.pdf"/>
+              <abstract>
+                <p>Microgravity has been shown to influence the expression of ABC (ATP-Binding Cassette) transporters in bacteria, fungi and mammals, but also to modify the activity of certain cellular components with structural and functional similarities to ABC transporters. Changes in activity of ABC transporters could lead to important metabolic disorders and undesired pharmacological effects during spaceflights. However, no current means exist to study the functionality of these transporters in microgravity. To this end, a Vesicular Transport Assay
+<sup>®</sup> (Solvo Biotechnology, Hungary) was adapted to evaluate multi-drug resistance-associated protein 2 (MRP2) trans-membrane estradiol-17-β-glucuronide (E17βG) transport activity, when activated by adenosine-tri-phosphate (ATP) during parabolic flights. Simple diffusion, ATP-independent transport and benzbromarone inhibition were also evaluated. A high accuracy engineering system was designed to perform, monitor and synchronize all procedures. Samples were analysed using a validated high sensitivity drug detection protocol. Experiments were performed in microgravity during parabolic flights, and compared to 1g on ground results using identical equipment and procedures in all cases. Our results revealed that sufficient equipment accuracy and analytical sensitivity were reached to detect transport activity in both gravitational conditions. Additionally, transport activity levels of on ground samples were within commercial transport standards, proving the validity of the methods and equipment used. MRP2 net transport activity was significantly reduced in microgravity, so was signal detected in simple diffusion samples. Ultra-structural changes induced by gravitational stress upon vesicle membranes or transporters could explain the current results, although alternative explanations are possible. Further research is needed to provide a conclusive answer in this regard. Nevertheless, the present validated technology opens new and interesting research lines in biology and human physiology with the potential for significant benefits for both space and terrestrial medicine.</p>
+              </abstract>
+              <funding-group>
+                <award-group id="fund-1">
+                  <funding-source>Schneider Electric</funding-source>
+                </award-group>
+                <award-group id="fund-2">
+                  <funding-source>Solvo Biotechnology</funding-source>
+                </award-group>
+                <award-group id="fund-3">
+                  <funding-source>Fundació CIM</funding-source>
+                </award-group>
+                <award-group id="fund-4">
+                  <funding-source>Institut Municipal d’Investigació Mèdica de Barcelona (IMIM)</funding-source>
+                </award-group>
+                <award-group id="fund-5">
+                  <funding-source>Lloveras</funding-source>
+                </award-group>
+                <award-group id="fund-6">
+                  <funding-source>Tecnisample</funding-source>
+                </award-group>
+                <award-group id="fund-7">
+                  <funding-source>Caixa d’Enginyers</funding-source>
+                </award-group>
+                <award-group id="fund-8">
+                  <funding-source>Sinerges</funding-source>
+                </award-group>
+                <award-group id="fund-9">
+                  <funding-source>Col•legi d’Enginyers Tècnics Industrials de Barcelona</funding-source>
+                </award-group>
+                <award-group id="fund-10">
+                  <funding-source>Interempresas</funding-source>
+                </award-group>
+                <award-group id="fund-11">
+                  <funding-source>Laboratorio para la Investigación en Espacio y Microgravedad (LEEM)</funding-source>
+                </award-group>
+                <award-group id="fund-12">
+                  <funding-source>Universitat Politècnica de Catalunya (UPC)</funding-source>
+                </award-group>
+                <award-group id="fund-13">
+                  <funding-source>Universitat Autònoma de Barcelona (UAB)</funding-source>
+                </award-group>
+                <award-group id="fund-14">
+                  <funding-source>European Space Agency via the Education Office and the “Fly your thesis” initiative</funding-source>
+                  <award-id>9140</award-id>
+                </award-group>
+                <funding-statement>Schneider Electric (Private entity), granted to Felip Fenollosa - Fundació CIM. Solvo Biotechnology (Private entity), granted to Felip Fenollosa - Fundació CIM. Fundació CIM (Public entity), granted to Felip Fenollosa - Fundació CIM. Institut Municipal d’Investigació Mèdica de Barcelona (IMIM) (Public entity), granted to Rafael de la Torre – IMIM. Lloveras (Private entity), granted to Felip Fenollosa - Fundació CIM. Tecnisample (Private entity), granted to Felip Fenollosa - Fundació CIM. Caixa d’Enginyers (Private entity) granted to Felip Fenollosa - Fundació CIM. Sinerges (Private entity), granted to Felip Fenollosa - Fundació CIM. Col•legi d’Enginyers Tècnics Industrials de Barcelona (Public entity), granted to Felip Fenollosa - Fundació CIM. Interempresas (Private entity), granted to Felip Fenollosa - Fundació CIM. Laboratorio para la Investigación en Espacio y Microgravedad (LEEM) (Public entity), granted to The ABCtr TEAM (SV, EC, AR, AG). Universitat Politècnica de Catalunya (UPC) (Public entity). Grant number: N/A. Granted to: Felip Fenollosa - Fundació CIM. Universitat Autònoma de Barcelona (UAB) (Public entity), granted to Rafael de la Torre – IMIM. European Space Agency via the Education Office and the “Fly your thesis” initiative, Grant number: 9140, granted to The ABCtr TEAM (SV, EC, AR, AG).</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro">
+              <title>Introduction</title>
+              <p>Critical medical situations can occur in space missions
+<sup><xref rid="ref-1" ref-type="bibr">1</xref></sup>. In such situations, adequate treatment may require the use of drugs with potential severe side effects. Pharmacokinetics and pharmacodynamics can be modified under weightlessness conditions by many factors
+<sup><xref rid="ref-2" ref-type="bibr">2</xref>,
+<xref rid="ref-3" ref-type="bibr">3</xref></sup>, which may lead to undesired pharmacological effects. These parameters should be assessed carefully in order to ensure safe use of medications in space. However, insufficient information exists in this regard in microgravity
+<sup><xref rid="ref-4" ref-type="bibr">4</xref>,
+<xref rid="ref-5" ref-type="bibr">5</xref></sup> and proper empirical evaluation is not feasible due to the significant associated risks.</p>
+              <p>ABC (ATP-Binding Cassette) transporters are a large family of trans-membrane proteins widely present in many life forms, from bacteria to mammals. In humans, they play important roles in many physiological processes and in drug pharmacokinetics, pharmacodynamics, and drug-to-drug interactions of many currently used medications in oncology, emergency medicine, critical care and general practice
+<sup><xref rid="ref-6" ref-type="bibr">6</xref>,
+<xref rid="ref-7" ref-type="bibr">7</xref></sup>. Inhibition of these transporters has been correlated with clinically relevant metabolic disorders, drug overdosing, and drug toxicity
+<sup><xref rid="ref-7" ref-type="bibr">7</xref></sup>. On the other hand, their overexpression can lead to treatment failure due to enhanced drug cell clearance and increased drug excretion from the body
+<sup><xref rid="ref-7" ref-type="bibr">7</xref></sup>. Multi-drug resistance-associated protein 2 (MRP2) is a well-studied representative of the ABC transporters family, by which transport of glucuronide, sulphate and gluthatione-conjugated drugs is made against a concentration gradient requiring adenosine-tri-phosphate (ATP) hydrolysis
+<sup><xref rid="ref-8" ref-type="bibr">8</xref></sup>.</p>
+              <p>Genetic expression of ABC transporters has been found to change in real and simulated microgravity conditions. Two independent studies evaluated gene expression pattern in two models of medically relevant species of microorganisms (
+<italic>Salmonella</italic> sp. and
+<italic>Candida</italic> sp.) and found upregulation of certain ABC transporters genes during short duration spaceflight missions
+<sup><xref rid="ref-9" ref-type="bibr">9</xref>,
+<xref rid="ref-10" ref-type="bibr">10</xref></sup>. Similarly, results from a microgravity simulation study showed that significant variation of certain ABC transporter levels could be found in the liver and kidneys of a murine model
+<sup><xref rid="ref-11" ref-type="bibr">11</xref></sup>. These changes could lead to a modified antimicrobial susceptibility in microgravity and to different pharmacokinetic characteristics of medications during spaceflight. Furthermore, recent reports suggest that microgravity can modify the activity of certain important cell components
+<sup><xref rid="ref-12" ref-type="bibr">12</xref>–
+<xref rid="ref-14" ref-type="bibr">14</xref></sup>, especially transmembrane proteins and ion channels
+<sup><xref rid="ref-15" ref-type="bibr">15</xref>–
+<xref rid="ref-17" ref-type="bibr">17</xref></sup> with structural and functional similarities to ABC transporters. Changes in ABC transporters activity could lead to clinically significant metabolic disorders and potentially dangerous undesired pharmacological effects during spaceflight. However, there is no current technology that permits a functional evaluation of these cellular components in microgravity. Therefore, we developed a new approach combining the use of a currently available commercial assay, a high precision electromechanical system and an enhanced drug detection protocol to evaluate ABC transporters activity in microgravity conditions. A validation study of this new biotechnological approach is presented.</p>
+            </sec>
+            <sec>
+              <title>Glossary</title>
+              <p><underline>Microgravity:</underline> A condition in which there is very little net gravitational force, as of a free-falling object, an orbit, or interstellar space. In this text microgravity, weightlessness and zero gravity (0g) are considered equivalents.</p>
+              <p><underline>Parabolic flight/parabolic flight campaign:</underline> To create a weightless environment, an especially prepared airplane flies in a long parabolic arc, in which two 2g periods are experienced while ascending (injection phase) and recovering (pull out phase) from the manoeuvre. In between these two periods, the aircraft enters into a free falling state, lasting approximately 22s, in which microgravity is obtained inside the cabin. A regular parabolic flight consists of 30 parabolas with a number of breaks. A parabolic flight campaign consists of three flights.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <p>This study was performed during the 51
+<sup>st</sup> European Space Agency (ESA) parabolic flight campaign, under the auspices of the “Fly your thesis” programme, and was developed following the specifications and experimental requirements of ESA/Novespace parabolic flight campaigns
+<sup><xref rid="ref-18" ref-type="bibr">18</xref></sup>.</p>
+              <sec>
+                <title>Samples and procedures</title>
+                <p>A modified, validated and commercial Vesicular Transport Assay
+<sup>®</sup> (Solvo Biotechnology, Hungary) was used to evaluate MRP2 transport activity of estradiol 17-β-glucuronide (E17βG) in microgravity during parabolic flights. A short overview of this assay is provided hereinafter and additional information can be found at the producer’s website (
+<ext-link ext-link-type="uri" xlink:href="http://www.solvo.hu">www.solvo.hu</ext-link>). Recombinant baculovirus infected insect cells (Sf9 cells) are used to produce microscopic vesicles containing at least 12–15% of the selected human transporter protein following a standardized and validated production protocol owned by the producer
+<sup><xref rid="ref-7" ref-type="bibr">7</xref></sup>. Vesicles are built allowing transport towards the interior of the vesicle. Once a reaction is triggered, the substrate (E17βG) is transported into vesicles and retained. Vesicles are filtrated using a fiberglass Milipore filter (&lt; 1μm pore size) and eluted with pure methanol to retrieve substrate, which is later analysed. In the Vesicular Transport Assay
+<sup>®</sup>, a base sample suspension is produced containing selected vesicles (50 μg of pure MRP2 transporter per sample) and an assay mix composed by E17βG, co-transporters and ions. Concentrations of the assay mix and vesicle quantities followed the instructions contained in the protocol provided by the vesicle producer, however volumes were adjusted to adapt to minimum volume requirements of our automated electromechanical system and to reduce the error induced by mechanical actuators. By modifying the aforementioned base suspension, four different groups of samples were generated to evaluate four different assay conditions as recommended by the producer
+<sup><xref rid="ref-19" ref-type="bibr">19</xref></sup>. MRP2+ samples, containing a fully functional MRP2 transporter, were generated in order to evaluate the full transport capabilities of the transporter. NoATP samples were generated by using the same composition of MRP2+ samples but an ATP-free solution was injected instead at the moment of reaction start. These groups of samples permitted the evaluation of ATP-independent transport activity, known to be present in the ABC transporters family. Following vesicle producer recommendations, we also generated an additional group of samples to which benzbromarone 7.5 mM (BZM - specific non-competitive inhibitor) was added. In this set of samples, pharmacological inhibition capabilities in microgravity could be assessed. Finally, MRPdef negative control samples were generated from vesicles with mutated MRP-like transporters. These vesicles are provided by the producer and present no active transport capabilities. Therefore, they permit evaluation of simple diffusion of substrate across membranes. These samples were used as negative controls for transporter activity measurements (see supplementary material
+<xref ref-type="other" rid="A1"><italic>Appendix 1. Chemical products</italic></xref> for a more detailed sample composition description). Confirmation of transporter activation requires the detection of net E17βG quantities in activated samples (MRP2+, noATP and BZM samples). Therefore, the signal from MRPdef samples was subtracted from the actual signal in each group of samples to obtain net transport activity. We performed a preliminary evaluation of the assay, which showed fast initial reaction speeds with most of E17βG being transported within few seconds. Samples were prepared in small syringes (Becton, Dickinson and Company, New Jersey, USA) containing 360 μl of the assay suspension (vesicles + assay mix), frozen immediately at -80°C and transported in dry ice to the parabolic flight campaign site. During the parabolic flight, the samples were kept in certified cold containers at 2–6°C before being used. The first five parabolas of each flight were excluded in order for the investigator to acclimatize to microgravity. The reaction was manually triggered 1s after the 6
+<sup>th</sup> parabola injection phase by a precise servo-mechanic injection of 250 μl 0.2M ATP mix or ATP-free buffer depending on the sample group (MRP2+, BZM and MRPdef samples vs. noATP samples). The reaction was stopped automatically inducing a drastic temperature reduction and substrate dilution by applying 1.5 ml of washing mix at 2–6°C after 19s, still in microgravity. This procedure was repeated identically for each parabolic manoeuvre. Washing mix composition followed standard protocol specifications by the vesicle producer but volumes were adjusted to adapt to minimum volume requirements of our automated electromechanical system and to reduce the error induced by mechanical actuators. E17βG-filled vesicles were recovered by Millipore fibreglass filtration. Once on ground, pure methanol elution was performed for E17βG recovery and stabilization before transport. Standard
+<italic>Escherichia coli</italic> glucuronidase enzymatic reaction was later required for glucuronide removal from estradiol. Final estradiol concentration was measured by gas chromatography coupled to a mass spectrometry detection system (6890-GC/5973-MSD, Agilent Technologies, California, USA) using a validated methodology
+<sup><xref rid="ref-20" ref-type="bibr">20</xref></sup>. Reference experiments were repeated on ground in 1g conditions using the same equipment, materials and procedures as those used during parabolic flights. The time lapse between sample stabilization with methanol and analysis was comparable in both cases. Sample analysis was performed using the same laboratory equipment and procedures. Results from 1g on ground reference experiments were compared with those obtained in microgravity conditions.</p>
+                <p>In order to evaluate vesicle microscopic structural integrity after gravitational stress, vesicles were exposed to 2g centrifugal forces in 60 consecutive 30s periods simulating a parabolic flight. Vesicles were compared to non-centrifuged controls at 200× under methylene blue tincture by experienced anatomo-pathologists (Pathology Department, Corporació Sanitària Universitària Parc Taulí. Sabadell, Spain). Qualitative analysis of shape and mean size estimation of vesicles was performed by experienced anathomo-pathologists, as well as a semi-quantitative vesicle number estimation using multiple 1 mm
+<sup>2</sup> sector partial counting method.</p>
+              </sec>
+              <sec>
+                <title>Equipment</title>
+                <p>An electro-mechanical engineering system was especially designed to undertake the required procedures in microgravity following the design and safety specifications for parabolic flights (
+<xref ref-type="fig" rid="f1">Figure 1</xref> &amp;
+<xref ref-type="fig" rid="f2">Figure 2</xref>). Four experimentation units composed the prototype, one per each specific group of samples. Accurate fluid displacement was achieved implementing high precision component manufacturing and accurate linear engines (Schneider Electric, France). These engines presented 0.05 mm of displacement error, which represented a calculated 16 μl fluid displacement error (&lt; 10% in our experimental setup). Sample temperature was strictly controlled using a dedicated thermal control system, which consisted of four preheating chambers to raise the sample temperature from 2–6°C to 37°C and four reaction chambers to maintain the temperature at 37.3°C during the reaction. In order to protect the vesicle integrity, 45°C was established as the maximum permissible temperature at syringe wall in preheating chambers given syringe radius and its thermal conductivity. Several temperature probes feedback a central computer, which maintained the temperatures at the required levels (Minco, Minneapolis, USA; TC-Direct, Madrid, Spain). This system also enabled cold storage of ATP and washing mix at 2–6°C in two certified isothermal boxes (Tecnisample, Barcelona, Spain). All procedures were controlled by an electrical and control system, which provided electrical power, actuator control, synchronization, monitoring, logging and a user-friendly interface (Telemecanique, France) (see supplementary material
+<xref ref-type="other" rid="A2"><italic>Appendix 2. List of Components</italic></xref> for a more detailed description of equipment and components used).</p>
+                <fig fig-type="figure" id="f1" orientation="portrait" position="float">
+                  <label>Figure 1. </label>
+                  <caption>
+                    <title>Main experimental rack.</title>
+                    <p>The designed electromechanical system was composed of three racks. In this figure a scheme of the main rack is presented, containing the four experimentation units. One of the four experimentation units is highlighted with a dashed line. Several electrical holes permitted connection to all electrical components in the main rack (sensors, actuators, linear engines, resistances). One ATP-WB hole permitted access to liquid conductions transporting ATP and Wash Buffer to each experimentation units. Lengths are expressed in mm.</p>
+                  </caption>
+                  <graphic xlink:href="f1000research-3-5243-g0000"/>
+                </fig>
+                <fig fig-type="figure" id="f2" orientation="portrait" position="float">
+                  <label>Figure 2. </label>
+                  <caption>
+                    <title>Final prototype configuration.</title>
+                    <p>This picture shows the final configuration of the experiment on board the parabolic aircraft. The three racks presented were, from left to right: storage rack, main rack, fluids and control rack. All principal electric components were placed in a sealed fire-proof cabinet underneath the main rack to protect the equipment from water contact in case of failure of the containment system.</p>
+                  </caption>
+                  <graphic xlink:href="f1000research-3-5243-g0001"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Statistical analysis</title>
+                <p>Results were analysed using SPSS v19.0 (International Business Machines, New York, United States of America). ANOVA test for multiple variable comparisons was performed to confirm differences in raw E17βG signal between the four sample groups in each gravitational condition. Bilateral Dunnett t post-hoc test was later used for comparing sample groups with MRPdef controls to confirm transporter activation. Provided equality of variances could not be assured and unbalanced size of groups being compared, non-parametric Mann-Witney U test was used to evaluate the differences between microgravity and 1g on ground samples. Statistical significance threshold was established at
+<italic>p</italic> &lt; 0.05 bilaterally in all cases.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results">
+              <title>Results</title>
+              <p>All four different assays presented expected E17βG signal profile in microgravity and on ground 1g conditions (
+<xref ref-type="table" rid="T1">Table 1</xref>), being MRP2+ samples the most active and MRPdef the less active group of samples in all gravitational conditions. The ANOVA test revealed statistically significant signal differences between sample groups in each gravitational condition (on ground F = 4.95,
+<italic>p</italic> = 0.005 and microgravity F = 13.45,
+<italic>p</italic> &lt; 0.001) and post-hoc Dunnett t test confirmed statistically significant differences between MRP2+ and MRPdef in both microgravity and 1g conditions (
+<xref ref-type="table" rid="T2">Table 2</xref>). These results confirmed activation of the transporter in MRP2+ samples. MRP2 net transport activity of 1g on ground samples laid within commercial transport standards (4.61 ng in a range of 3.7 – 7.4 ng of E17βG in our experimental configuration), conversely microgravity samples suffered a 19-fold activity reduction with statistically significant differences of E17βG transported in all cases. The Mean activity differences between microgravity and 1g on ground samples were 10.3 ng of E17βG in MRP2+ samples (Mann-Witney U &lt; 0.001;
+<italic>p</italic> &lt; 0.001; CI 95% = 7.4 – 13.2 ng E17βG), 5.95 ng of E17βG in MRPdef samples (Mann-Witney U &lt; 0.001;
+<italic>p</italic> &lt; 0.001; CI 95% = 4 – 7.9 ng E17βG), 7.65 ng of E17βG in noATP samples (Mann-Witney U &lt; 0.001; p &lt; 0.001; CI 95% = 6.14 – 9.16 ng E17βG) and 9.12 ng of E17βG in BZM samples (Mann-Witney U &lt; 0.001;
+<italic>p</italic> &lt; 0.001; CI 95% = 7.9 – 10.3 ng E17βG).</p>
+              <table-wrap id="T1" orientation="portrait" position="anchor">
+                <label>Table 1. </label>
+                <caption>
+                  <title>Detected E17βG signal in microgravity and 1g conditions.</title>
+                </caption>
+                <table frame="hsides" rules="groups" content-type="article-table">
+                  <thead>
+                    <tr>
+                      <th rowspan="1" colspan="1"/>
+                      <th align="left" rowspan="1" colspan="1">Sample</th>
+                      <th align="center" rowspan="1" colspan="1">n</th>
+                      <th align="center" rowspan="1" colspan="1">Mean*</th>
+                      <th align="center" rowspan="1" colspan="1">SD</th>
+                      <th align="center" rowspan="1" colspan="1">%
+<sup>†</sup>
+</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="center" rowspan="4" style="=-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)" colspan="1">microgravity</td>
+                      <td align="left" rowspan="1" colspan="1">MRP2+</td>
+                      <td align="center" rowspan="1" colspan="1">26</td>
+                      <td align="center" rowspan="1" colspan="1">0.49</td>
+                      <td align="center" rowspan="1" colspan="1">0.17</td>
+                      <td align="center" rowspan="1" colspan="1">100</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">MRPdef</td>
+                      <td align="center" rowspan="1" colspan="1">31</td>
+                      <td align="center" rowspan="1" colspan="1">0.25</td>
+                      <td align="center" rowspan="1" colspan="1">0.12</td>
+                      <td align="center" rowspan="1" colspan="1">51</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">noATP</td>
+                      <td align="center" rowspan="1" colspan="1">25</td>
+                      <td align="center" rowspan="1" colspan="1">0.29</td>
+                      <td align="center" rowspan="1" colspan="1">0.14</td>
+                      <td align="center" rowspan="1" colspan="1">60</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">BZM</td>
+                      <td align="center" rowspan="1" colspan="1">24</td>
+                      <td align="center" rowspan="1" colspan="1">0.27</td>
+                      <td align="center" rowspan="1" colspan="1">0.20</td>
+                      <td align="center" rowspan="1" colspan="1">54</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="4" style="=-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)" colspan="1">1g on ground</td>
+                      <td align="center" rowspan="1" colspan="1">MRP2+</td>
+                      <td align="center" rowspan="1" colspan="1">10</td>
+                      <td align="center" rowspan="1" colspan="1">10.8</td>
+                      <td align="center" rowspan="1" colspan="1">4.08</td>
+                      <td rowspan="1" colspan="1">100</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">MRPdef</td>
+                      <td align="center" rowspan="1" colspan="1">12</td>
+                      <td align="center" rowspan="1" colspan="1">6.20</td>
+                      <td align="center" rowspan="1" colspan="1">3.08</td>
+                      <td align="center" rowspan="1" colspan="1">57</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">noATP</td>
+                      <td align="center" rowspan="1" colspan="1">11</td>
+                      <td align="center" rowspan="1" colspan="1">7.95</td>
+                      <td align="center" rowspan="1" colspan="1">2.25</td>
+                      <td align="center" rowspan="1" colspan="1">73</td>
+                    </tr>
+                    <tr>
+                      <td align="left" rowspan="1" colspan="1">BZM</td>
+                      <td align="center" rowspan="1" colspan="1">9</td>
+                      <td align="center" rowspan="1" colspan="1">9.38</td>
+                      <td align="center" rowspan="1" colspan="1">1.59</td>
+                      <td align="center" rowspan="1" colspan="1">86</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn>
+                    <p>MRP2+: fully activated MRP2 transporter. MRPdef: MRP-like defective transporter. noATP: without ATP. BZM: Inhibition by benzbromarone. * Mean E17βG signal in nanograms.
+<sup>†</sup> Percentage of activity.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap id="T2" orientation="portrait" position="anchor">
+                <label>Table 2. </label>
+                <caption>
+                  <title>Net E17βG transport activity.</title>
+                </caption>
+                <table frame="hsides" rules="groups" content-type="article-table">
+                  <thead>
+                    <tr>
+                      <th colspan="2" rowspan="1"/>
+                      <th align="center" rowspan="1" colspan="1">Mean
+<break/>difference *</th>
+                      <th align="center" rowspan="1" colspan="1">Dunnett t
+<break/>
+<italic>p</italic>
+</th>
+                      <th align="center" rowspan="1" colspan="1">CI 95%</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="center" rowspan="3" style="=-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)" colspan="1">microgravity</td>
+                      <td align="center" rowspan="1" colspan="1">MRP2+</td>
+                      <td align="center" rowspan="1" colspan="1">0.24</td>
+                      <td align="center" rowspan="1" colspan="1">&lt; 0.001
+<sup>†</sup>
+</td>
+                      <td align="center" rowspan="1" colspan="1">0.14 – 0.34</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">noATP</td>
+                      <td align="center" rowspan="1" colspan="1">0.05</td>
+                      <td align="center" rowspan="1" colspan="1">0.565</td>
+                      <td align="center" rowspan="1" colspan="1">-0.05 – 0.14</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">BZM</td>
+                      <td align="center" rowspan="1" colspan="1">0.02</td>
+                      <td align="center" rowspan="1" colspan="1">0.952</td>
+                      <td align="center" rowspan="1" colspan="1">-0.08 – 0.12</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="3" style="=-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)" colspan="1">1g on ground</td>
+                      <td align="center" rowspan="1" colspan="1">MRP2+</td>
+                      <td align="center" rowspan="1" colspan="1">4.61</td>
+                      <td align="center" rowspan="1" colspan="1">0.002
+<sup>†</sup>
+</td>
+                      <td align="center" rowspan="1" colspan="1">1.54 – 7.69</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">noATP</td>
+                      <td align="center" rowspan="1" colspan="1">1.75</td>
+                      <td align="center" rowspan="1" colspan="1">0.364</td>
+                      <td align="center" rowspan="1" colspan="1">-1.25 – 4.74</td>
+                    </tr>
+                    <tr>
+                      <td align="center" rowspan="1" colspan="1">BZM</td>
+                      <td align="center" rowspan="1" colspan="1">3.18</td>
+                      <td align="center" rowspan="1" colspan="1">0.049
+<sup>†</sup>
+</td>
+                      <td align="center" rowspan="1" colspan="1">0.01 – 6.35</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn>
+                    <p>MRP2+: fully activated MRP2 transporter. MRPdef: MRP-like defective transporter. noATP: without ATP. BZM: Inhibition by benzbromarone. CI 95%: confidence interval 95%</p>
+                    <p>* Mean difference is obtained by subtracting MRPdef signal from the signal detected in each group of samples. Net E17βG transported in nanograms.</p>
+                    <p> Denotes statistically significant</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>The use of consecutive 2g periods in order to simulate the effects of hypergravity present during a parabolic flight did not show differences in shape, size or number of vesicles between centrifuged vesicles and control samples. Aggregation of vesicles was not observed, neither macroscopically nor microscopically during this simulation. The thermal control system implemented in our prototype maintained the temperature of reaction chambers at 37.25°C (CI 95%: 37.14 – 37.34°C) during the whole duration of experiments and kept the sample syringe wall temperature below 45°C in preheating chambers in all cases.</p>
+              <supplementary-material content-type="local-data" id="DS0">
+                <label>Data of active transmembrane drug transport in microgravity</label>
+                <caption>
+                  <p>Results from both microgravity and 1g on-ground experiments are presented (labelled _0g and _1g). In each gravitational condition four different assays were performed: fully activated transporter or “MRP2+”, simple diffusion/control or “MRPdef”, ATP-independent transport or “noATP”, BZM inhibition assay samples or “BZM”.</p>
+                </caption>
+                <media xlink:href="f1000research-3-5243-s0000.tgz">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <sec sec-type="discussion">
+              <title>Discussion</title>
+              <p>To our knowledge, this is the first validation study of a biotechnological approach aimed at evaluating human ABC transporters-mediated active transmembrane transport capabilities in microgravity. Despite the high signal variability expected, the precision attained by our electromechanical system and the enhanced sensibility of the detection protocol used, enabled us to detect net MRP2 transport activity in the short microgravity periods provided by parabolic flights. Furthermore, activation profile and signal levels detected in 1g on ground samples laid within expected commercial standards, confirming the validity of the equipment and procedures used.</p>
+              <p>The results obtained in microgravity samples showed a significant reduction in MRP2 transport activity, when compared to on ground 1g controls, but presented a comparable activation profile. In order to ensure reliability of these findings, vesicle stability during a parabolic flight was assessed on ground. Simulations revealed that vesicle microscopic structure could remain stable during parabolic manoeuvres, in spite of repeated hypergravity periods. Provided that materials, equipment, procedures and transportation means were equal for all samples in all gravitational conditions, we hypothesized that gravitational stress during parabolic flights may have exerted an effect upon the vesicle membrane or the transporter, preventing proper transport or retention of E17βG. However, such modification should occur at an ultra-structural level, out of reach of our microscopic evaluation. Unfortunately, given the lack of similar research precedents, an ultra-structural evaluation of samples was not planned and was not possible after analysis, since all microgravity samples had been eluted to retrieve E17βG. Therefore, the results of the present evaluation cannot provide a definitive explanation of the effect of microgravity upon ABC transporters-mediated active transmembrane transport. Notwithstanding the aforementioned limitation, we tried to elaborate a plausible hypothesis to explain the present observations.</p>
+              <p>Compelling evidence indicates that gravity is able to affect cellular and even molecular interactions in numerous life forms, such as in certain protozoa
+<sup><xref rid="ref-12" ref-type="bibr">12</xref>,
+<xref rid="ref-14" ref-type="bibr">14</xref></sup>, bacteria
+<sup><xref rid="ref-15" ref-type="bibr">15</xref></sup>, plant cells
+<sup><xref rid="ref-13" ref-type="bibr">13</xref>,
+<xref rid="ref-16" ref-type="bibr">16</xref>,
+<xref rid="ref-17" ref-type="bibr">17</xref></sup> or mammals
+<sup><xref rid="ref-21" ref-type="bibr">21</xref>–
+<xref rid="ref-23" ref-type="bibr">23</xref></sup>. Enzymes from the cell membrane
+<sup><xref rid="ref-24" ref-type="bibr">24</xref></sup>, cytoskeleton
+<sup><xref rid="ref-25" ref-type="bibr">25</xref></sup>, cytosol
+<sup><xref rid="ref-26" ref-type="bibr">26</xref></sup> and nucleus
+<sup><xref rid="ref-24" ref-type="bibr">24</xref></sup> have been found to be sensible to gravitational changes. In principle, gravity is a weaker force compared to intermolecular bonds, polar-apolar interactions and van der Waals forces, therefore it is not clear yet how gravity could affect enzymatic reactions. However, changes in polar-apolar interactions and conformational changes of lipid structures occurring in microgravity could explain some observations
+<sup><xref rid="ref-24" ref-type="bibr">24</xref>,
+<xref rid="ref-25" ref-type="bibr">25</xref></sup>. Structures such as ion channels and trans-membrane signalling systems can be significantly affected by changes in physicochemical properties of the lipid bi-layer cell membrane. Similarly, the mechanism of action of ABC transporters, although still not fully unveiled, is highly dependent on transporter-membrane interactions
+<sup><xref rid="ref-28" ref-type="bibr">28</xref></sup>, which play a principal role in transporter stabilization and substrate recognition. Interestingly, we were able to demonstrate a reduction of the signal detected in MRPdef controls, where only simple diffusion of substrate was possible. This finding could be explained by an impeded E17βG diffusion into vesicles, or by an increase in membrane permeability in microgravity, which would lead to increased E17βG leakage. In any case, the present observations are indicative of important structural changes in the lipid bi-layer in microgravity, which could be induced by modified polar-apolar interactions of lipid structures in microgravity, as suggested elsewhere
+<sup><xref rid="ref-28" ref-type="bibr">28</xref></sup>. In this context, the interaction of ABC transporters with the membrane, substrate recognition capabilities and transporter activation could become significantly affected with the potential for relevant biological, physiological and medical consequences in microgravity. However, additional research is required to confirm the present hypothesis.</p>
+              <p>There are many potential applications of the presented technology, which can benefit both space and terrestrial medicine. Insufficient information exists on drug effects in space
+<sup><xref rid="ref-4" ref-type="bibr">4</xref>,
+<xref rid="ref-5" ref-type="bibr">5</xref></sup> and is often based in very reduced observational studies
+<sup><xref rid="ref-30" ref-type="bibr">30</xref></sup> or in animal models
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup>. While clinical experience throughout spaceflight history has shown no critical metabolic alterations in astronauts, few medications have been studied from a pharmacological point of view in space. A reduction of transmembrane drug transport capabilities in microgravity could lead to drug accumulation and potentially toxic effects during spaceflight. However an increase in membrane permeability would lead to an enhanced drug clearance, increased absorption and significant changes in pharmacological proprieties of drugs. Although not conclusive, our results warrant additional and thorough evaluation of this and other human drug transportation systems in a more stable microgravity platform. To this end, this study describes a new method, based on
+<italic>in vitro</italic> analysis of human drug transmembrane transport capabilities, by which an approximation to drug effects in microgravity can be made. Similarly, reduced activity of certain ABC transporters has been associated with a number of serious medical conditions on Earth. On the other hand, enhanced activity of ABC transporters can decrease intestinal drug absorption, facilitate hepatic and renal drug excretion, modify drug distribution, and limit drug penetration to certain body tissues. These transporters are known to be responsible for a significant portion of the variability in treatment response to certain drugs used in emergency and critical care medicine
+<sup><xref rid="ref-6" ref-type="bibr">6</xref>–
+<xref rid="ref-8" ref-type="bibr">8</xref></sup> and can cause multidrug resistance in a number of solid and hematological neoplasias, where overexpression of certain ABC transporters is present
+<sup><xref rid="ref-6" ref-type="bibr">6</xref>,
+<xref rid="ref-7" ref-type="bibr">7</xref></sup>. Further research derived from this study may help elucidate the intricate mechanism of action of ABC transporters and provide new information for developing more effective treatments for oncology and other medical specialities based on microgravity effects upon these transporters.</p>
+              <p>There are several limitations in this study. First, we designed a novel electromechanical system to allow the required biochemical reactions to be undertaken precisely and automatically in parabolic flights. This equipment had never been tested before in such conditions. However, results from 1g on ground control samples laid within commercial transport standards, proving functionality and validity of the research equipment and protocols used. Additionally, MRP2 net E17βG transport activity in microgravity fell within the detection range of our enhanced detection method, which confirmed that the required sensitivity was reached. Second, as previously addressed by Macarrone
+<italic>et al.</italic>
+<sup><xref rid="ref-28" ref-type="bibr">28</xref></sup>, “microgravity is likely to favour the dispersion in water of less dense molecules such as lipids and the opposite is observed in hypergravity”. The contact surface available for ABC transporter exposition to drug-rich medium would be reduced, and transport capability would consequently be diminished, if vesicles precipitated during 2g phases in parabolic flights. Furthermore, vesicle structural integrity has never been evaluated in variable gravitational conditions. Nevertheless, no macroscopic precipitation of samples was observed in-flight due to combined effects of aircraft vibration and the ATP turbulent injection jet. On-ground hypergravity simulation data suggested that vesicles remained stable and did not aggregate after repeated 2g periods. However ultrastructural alterations affecting the membrane or the transporter could still be possible and were not evaluated. Further research should focus on performing a detailed ultra-structural evaluation of vesicles and transporters in a more stable microgravity platform and use whole human cells to provide a more conclusive answer on the potential physiological and clinical effects of our findings. Other factors were also considered as possible disruptors of results and were evaluated. The temperature was strictly maintained within a narrow margin during experiments but aircraft pressure was reduced in flight (800 hPa in flight). However, pressure variations were not expected to cause any modification in sample composition nor in transport activity in our experimental setup.</p>
+              <p>In conclusion, we validated a new methodology for evaluating ABC transporters activity in microgravity during parabolic flights. Our results demonstrated that despite time constrains, the combination of an adapted commercial assay, a highly accurate electromechanical system and an enhanced drug detection protocol can provide enough accuracy, reproducibility and sensitivity to detect transport activity in microgravity. A significant decrease in transport activity of fully activated samples and a reduction of signal detected in negative controls could be observed in microgravity. While the present results are insufficient for drawing conclusive explanations to these observations, we hypothesize that altered polar-apolar interactions induced by gravitational stress during parabolic manoeuvres affected vesicle’s lipid bi-layer membrane, eventually changing its physicochemical properties, limited simple diffusion phenomena and impaired transporter - membrane interaction. However, alternative explanations are possible. Therefore, additional studies will be required to assess membrane and transporter ultra-structures in microgravity, and to confirm these results. The novel methodological approach presented here opens new and interesting research lines in biology, microbiology and human physiology with the potential for significant benefits for both space and terrestrial medicine.</p>
+            </sec>
+            <sec>
+              <title>Data availability</title>
+              <p>Dataset 1. Data of active transmembrane drug transport in microgravity,
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.4909.d34169">10.5256/f1000research.4909.d34169</ext-link>
+<sup><xref rid="ref-32" ref-type="bibr">32</xref></sup>
+</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The team of the “ABC transporters in microgravity” project would like to thank all sponsoring partners and supporting institutions, especially IMIM, Fundació CIM, Schneider Electric, Solvo Biotechnology, ESA Education Office and Novespace, and all individual collaborators who have worked in this project.</p>
+            </ack>
+            <sec>
+              <title>Appendix</title>
+              <sec id="A1">
+                <title>Chemical products</title>
+                <table-wrap id="SuppTable1" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Products used for in-flight operations</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">1.7M Tris (Tris[hydroxymethyl] aminomethane) Water based Dilution</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">0.1 M MOPS-Tris (Solution)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">300 mM Glutathione (GSH)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">DMSO. Dimethyl sulfoxide</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">7.5 mM E17βG in DMSO</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">0.2 M Mg-ATP (ATP, MgCl
+<sub>2</sub>, Tris)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">0’1M MgCl
+<sub>2</sub>
+</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">0.14 M KCl</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">1 M KCl</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">7’5 mM Benzbromarone in DMSO</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">MRP2 Vesicles</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Assay Mix (solution): 0.1M MOPS-Tri (50% of the solution), 0.14M KCl (50% of the
+<break/>solution), 0.1 MgCl
+<sub>2</sub> (&lt;1% of the solution)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <table-wrap id="SuppTable2" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Solutions used for in-flight operations</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">Washing Mix: 0.1 MOPS-Tris (40% of the solution), 1M KCl (2,5% of the solution),
+<break/>Milli-Q Water (47,5% of the solution)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Syringes: MRP2/Control vesicles (&lt;1%) + Assay Mix (97%) + Benzbromarone (1%) +
+<break/>GSH (&lt;1%) + DMSO (1%) + Estradiol (&lt;1%)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Assay Mix (solution): 0.1M MOPS-Tris (50% of the solution), 0.14M KCl (50% of
+<break/>the solution), 0.1 MgCl
+<sub>2</sub> (&lt;1% of the solution)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">0.2 M Mg-ATP (ATP, MgCl
+<sub>2</sub>, Tris)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="A2">
+                <title>List of components</title>
+                <p>
+                  <bold>
+                    <underline>Fluid System</underline>
+                  </bold>
+                </p>
+                <table-wrap id="SuppTable3" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Id</th>
+                        <th align="left" rowspan="1" colspan="1">Company</th>
+                        <th align="left" rowspan="1" colspan="1">Ref.</th>
+                        <th align="left" rowspan="1" colspan="1">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">Jx</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300910</td>
+                        <td rowspan="1" colspan="1">Reaction syringe (3 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J1</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300910</td>
+                        <td rowspan="1" colspan="1">Reaction syringe (3 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J2</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300912</td>
+                        <td rowspan="1" colspan="1">ATP/Assay Mix syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J3</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300865</td>
+                        <td rowspan="1" colspan="1">Washing mix syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J4</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300865</td>
+                        <td rowspan="1" colspan="1">Washing mix syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J5</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300865</td>
+                        <td rowspan="1" colspan="1">Waste syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J6</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300865</td>
+                        <td rowspan="1" colspan="1">Waste syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">J7</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">300865</td>
+                        <td rowspan="1" colspan="1">Waste syringe (60 ml)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Anti-leak diaphragm
+<break/>valve</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">385100</td>
+                        <td rowspan="1" colspan="1">Anti-leak valve</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">V1</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">394600</td>
+                        <td rowspan="1" colspan="1">3 ways valve</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">V2</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">394600</td>
+                        <td rowspan="1" colspan="1">3 ways valve</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Tube PVC</td>
+                        <td rowspan="1" colspan="1">BD</td>
+                        <td rowspan="1" colspan="1">397251</td>
+                        <td rowspan="1" colspan="1">PVC line extension</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>BD: Becton, Dickinson and Company</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>
+                  <bold>
+                    <underline>Heating System</underline>
+                  </bold>
+                </p>
+                <table-wrap id="SuppTable4" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Id</th>
+                        <th align="left" rowspan="1" colspan="1">Company</th>
+                        <th align="left" rowspan="1" colspan="1">Ref.</th>
+                        <th align="left" rowspan="1" colspan="1">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">TMP1-8</td>
+                        <td rowspan="1" colspan="1">TC-Direct</td>
+                        <td rowspan="1" colspan="1">410-215</td>
+                        <td rowspan="1" colspan="1">Temperature probe</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">R1-4</td>
+                        <td rowspan="1" colspan="1">Minco</td>
+                        <td rowspan="1" colspan="1">HK5407R98.1L12A</td>
+                        <td rowspan="1" colspan="1">Resistance heating</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">R5-8</td>
+                        <td rowspan="1" colspan="1">Minco</td>
+                        <td rowspan="1" colspan="1">HK5591R91.4L12A</td>
+                        <td rowspan="1" colspan="1">Resistance heating</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Minco</td>
+                        <td rowspan="1" colspan="1">#20 TAPE 6FT</td>
+                        <td rowspan="1" colspan="1">Self-fusing silicone tape</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">FU1-4</td>
+                        <td rowspan="1" colspan="1">RS components</td>
+                        <td rowspan="1" colspan="1">176-9132</td>
+                        <td rowspan="1" colspan="1">Resettable thermal fuse 84°C</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">FU5-8</td>
+                        <td rowspan="1" colspan="1">RS components</td>
+                        <td rowspan="1" colspan="1">176-9148</td>
+                        <td rowspan="1" colspan="1">Resettable thermal fuse 72°C</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>
+                  <bold>
+                    <underline>Cooling System</underline>
+                  </bold>
+                </p>
+                <table-wrap id="SuppTable5" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Id</th>
+                        <th align="left" rowspan="1" colspan="1">Company</th>
+                        <th align="left" rowspan="1" colspan="1">Ref.</th>
+                        <th align="left" rowspan="1" colspan="1">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">Polyurethane box</td>
+                        <td rowspan="1" colspan="1">Tecnisample</td>
+                        <td rowspan="1" colspan="1">ISOPUR 13</td>
+                        <td rowspan="1" colspan="1">Contains 1 ATP syringe and 8 Washing
+<break/>mix syringes</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Polystyrene box</td>
+                        <td rowspan="1" colspan="1">Tecnisample</td>
+                        <td rowspan="1" colspan="1">N/A</td>
+                        <td rowspan="1" colspan="1">Contains 100 new sample syringes</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Cold Accumulators</td>
+                        <td rowspan="1" colspan="1">Tecnisample</td>
+                        <td rowspan="1" colspan="1">N/A</td>
+                        <td rowspan="1" colspan="1">Rigid plastic water accumulators</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>
+                  <bold>
+                    <underline>Containment System</underline>
+                  </bold>
+                </p>
+                <table-wrap id="SuppTable6" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Id</th>
+                        <th align="left" rowspan="1" colspan="1">Company</th>
+                        <th align="left" rowspan="1" colspan="1">Ref.</th>
+                        <th align="left" rowspan="1" colspan="1">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">PMAFLEX tube</td>
+                        <td rowspan="1" colspan="1">PMA AG</td>
+                        <td rowspan="1" colspan="1">CYLG-48B</td>
+                        <td rowspan="1" colspan="1">Tube which guarantees no leaks
+<break/>and two isolation level
+<break/>between ATP+WB box and
+<break/>polycarbonate sealed box.</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Connector</td>
+                        <td rowspan="1" colspan="1">PMA AG</td>
+                        <td rowspan="1" colspan="1">BVID-M508GT</td>
+                        <td rowspan="1" colspan="1">Accessory to connect PMAFLEX
+<break/>tube with ATP+WB box and
+<break/>polycarbonate sealed box.</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Connector</td>
+                        <td rowspan="1" colspan="1">PMA AG</td>
+                        <td rowspan="1" colspan="1">GMN-M50</td>
+                        <td rowspan="1" colspan="1">Nut of BVID-M508GT</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">New syringes box</td>
+                        <td rowspan="1" colspan="1">Peli</td>
+                        <td rowspan="1" colspan="1">0340-001-110-E01</td>
+                        <td rowspan="1" colspan="1">Case with a 67 IP protection level.</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Used syringes box</td>
+                        <td rowspan="1" colspan="1">Peli</td>
+                        <td rowspan="1" colspan="1">1450-001-110-E01</td>
+                        <td rowspan="1" colspan="1">Case with a 67 IP protection level.</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">Used filters box</td>
+                        <td rowspan="1" colspan="1">Peli</td>
+                        <td rowspan="1" colspan="1">1450-001-110-E01</td>
+                        <td rowspan="1" colspan="1">Case with a 67 IP protection level.</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ATP+WB box</td>
+                        <td rowspan="1" colspan="1">Peli</td>
+                        <td rowspan="1" colspan="1">0340-001-110-E01</td>
+                        <td rowspan="1" colspan="1">Case with a 67 IP protection level.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>
+                  <bold>
+                    <underline>Electrical System</underline>
+                  </bold>
+                </p>
+                <table-wrap id="SuppTable7" orientation="portrait" position="anchor">
+                  <table frame="hsides" rules="groups" content-type="article-table">
+                    <thead>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Id</th>
+                        <th align="left" rowspan="1" colspan="1">Company</th>
+                        <th align="left" rowspan="1" colspan="1">Ref.</th>
+                        <th align="left" rowspan="1" colspan="1">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="1" colspan="1">QS1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">VCF01</td>
+                        <td rowspan="1" colspan="1">Isolating switch 20A</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">QF1</td>
+                        <td rowspan="1" colspan="1">Merlin Guerin</td>
+                        <td rowspan="1" colspan="1">C60N-11933</td>
+                        <td rowspan="1" colspan="1">General breaker switch 2 Phases 7,5A</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">F1</td>
+                        <td rowspan="1" colspan="1">Merlin Guerin</td>
+                        <td rowspan="1" colspan="1">ID23523</td>
+                        <td rowspan="1" colspan="1">General dif. switch 2 Phases 25A 30mA</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">QF2-14</td>
+                        <td rowspan="1" colspan="1">Merlin Guerin</td>
+                        <td rowspan="1" colspan="1">DPN-21555</td>
+                        <td rowspan="1" colspan="1">Breaker switch 1 Phases 6A</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">FA1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">ABL-8FEQ24200</td>
+                        <td rowspan="1" colspan="1">Power unit 20A 24Vdc</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">PT1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XBT-GT4330</td>
+                        <td rowspan="1" colspan="1">Touch screen</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">PLC 1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-XBP0800</td>
+                        <td rowspan="1" colspan="1">Rack 8 positions</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">ABE7 CPA412</td>
+                        <td rowspan="1" colspan="1">Fast connector</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">ABE7 H16R20</td>
+                        <td rowspan="1" colspan="1">Fast connector</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">ABE7 R16T212</td>
+                        <td rowspan="1" colspan="1">Fast connector</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-CPS2000</td>
+                        <td rowspan="1" colspan="1">Power unit CPU 20W</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-P342010</td>
+                        <td rowspan="1" colspan="1">CPU</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-DDI3202</td>
+                        <td rowspan="1" colspan="1">Digital in card</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-DDO3202</td>
+                        <td rowspan="1" colspan="1">Digital out card</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-DDO3202</td>
+                        <td rowspan="1" colspan="1">Digital out card</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-ART0414</td>
+                        <td rowspan="1" colspan="1">Thermocouple input card</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">BMX-ART0414</td>
+                        <td rowspan="1" colspan="1">Thermocouple input card</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">SBE</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB5-AS8445</td>
+                        <td rowspan="1" colspan="1">General Emergency button</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">SB1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB5-AA42</td>
+                        <td rowspan="1" colspan="1">Push Rearmament</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">KA1</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">LC1DT20P7</td>
+                        <td rowspan="1" colspan="1">Power relay (220VAC)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">MLIN1</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SER-36103L75</td>
+                        <td rowspan="1" colspan="1">Linear actuator</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">MLIN2</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SER-36103L75</td>
+                        <td rowspan="1" colspan="1">Linear actuator</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">MLIN3</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SER-36103L75</td>
+                        <td rowspan="1" colspan="1">Linear actuator</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">MLIN4</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SER-36103L75</td>
+                        <td rowspan="1" colspan="1">Linear actuator</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">LXM05.1</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">LXM05AD10M2</td>
+                        <td rowspan="1" colspan="1">Servodrivers</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">LXM05.2</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">LXM05AD10M2</td>
+                        <td rowspan="1" colspan="1">Servodrivers</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">LXM05.3</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">LXM05AD10M2</td>
+                        <td rowspan="1" colspan="1">Servodrivers</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">LXM05.4</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">LXM05AD10M2</td>
+                        <td rowspan="1" colspan="1">Servodrivers</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST1</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST1</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST2</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1"> BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST2</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST3</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST3</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST4</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST4</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST5</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST5</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST6</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST6</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST7</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST7</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">ST8</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">BRS364H</td>
+                        <td rowspan="1" colspan="1">Stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">CST8</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">SD3 15</td>
+                        <td rowspan="1" colspan="1">Controller stepper motor</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">TMP1-8</td>
+                        <td rowspan="1" colspan="1">TC-Direct</td>
+                        <td rowspan="1" colspan="1">408–053</td>
+                        <td rowspan="1" colspan="1">Temperature probe</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">R1-4</td>
+                        <td rowspan="1" colspan="1">Minco</td>
+                        <td rowspan="1" colspan="1">HK5407R98.1L12A</td>
+                        <td rowspan="1" colspan="1">Heating resistance</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">R5-8</td>
+                        <td rowspan="1" colspan="1">Minco</td>
+                        <td rowspan="1" colspan="1">HK5591R91.4L12A</td>
+                        <td rowspan="1" colspan="1">Heating resistance</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">E1-12</td>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">Xs1N08PA349</td>
+                        <td rowspan="1" colspan="1">Sensors 10A38VCC 2MM</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Weidmüller</td>
+                        <td rowspan="1" colspan="1">WDK 2.5</td>
+                        <td rowspan="1" colspan="1">Terminal block</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">PLA-1573KT</td>
+                        <td rowspan="1" colspan="1">Electrical box</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">PMR157</td>
+                        <td rowspan="1" colspan="1">Electrical plate</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">S27 DL/24</td>
+                        <td rowspan="1" colspan="1">Auxiliar electrical box</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">PF-27</td>
+                        <td rowspan="1" colspan="1">Fixing to auxiliar electrical box</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">IBS 1912/8</td>
+                        <td rowspan="1" colspan="1">Terminal electrical box (*2)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">PMDP 2015</td>
+                        <td rowspan="1" colspan="1">Terminal electrical plate (*2)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">PC</td>
+                        <td rowspan="1" colspan="1">BENQ</td>
+                        <td rowspan="1" colspan="1">R53U-S07-
+<break/>PM740C8UGH6</td>
+                        <td rowspan="1" colspan="1">Laptop</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Himel</td>
+                        <td rowspan="1" colspan="1">VF38</td>
+                        <td rowspan="1" colspan="1">Ventilator (Refrigeration unit)</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">BTN</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB4-BW33B5</td>
+                        <td rowspan="1" colspan="1">Green light push button “START”</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">BTN</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB4-BW36B5</td>
+                        <td rowspan="1" colspan="1">Blue light push button “ARM”</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">BTN</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB4-BW35B5</td>
+                        <td rowspan="1" colspan="1">Yellow light push button “STOP”</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">BTN</td>
+                        <td rowspan="1" colspan="1">Telemecanique</td>
+                        <td rowspan="1" colspan="1">XB4-BW34B5</td>
+                        <td rowspan="1" colspan="1">Red light push button “HALT”</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">PMA</td>
+                        <td rowspan="1" colspan="1">CYLG-29S</td>
+                        <td rowspan="1" colspan="1">Plastic tube</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">PMA</td>
+                        <td rowspan="1" colspan="1">BVID-M329GT</td>
+                        <td rowspan="1" colspan="1">Connector tube</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">PMA</td>
+                        <td rowspan="1" colspan="1">GMN-M32</td>
+                        <td rowspan="1" colspan="1">Nut</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">PMA</td>
+                        <td rowspan="1" colspan="1">SVH-29-010</td>
+                        <td rowspan="1" colspan="1">Clamps</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">INTERFLEX</td>
+                        <td rowspan="1" colspan="1">012577</td>
+                        <td rowspan="1" colspan="1">Gland</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">INTERFLEX</td>
+                        <td rowspan="1" colspan="1">011277</td>
+                        <td rowspan="1" colspan="1">Gland</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">UNEX</td>
+                        <td rowspan="1" colspan="1">60.40.77</td>
+                        <td rowspan="1" colspan="1">Gutters</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">UNEX</td>
+                        <td rowspan="1" colspan="1">60.60.77</td>
+                        <td rowspan="1" colspan="1">Gutters</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">ILME</td>
+                        <td rowspan="1" colspan="1">CNF16
+<break/>CNM16</td>
+                        <td rowspan="1" colspan="1">Harting connector</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">ILME</td>
+                        <td rowspan="1" colspan="1">MHO32L
+<break/>CHI32LS</td>
+                        <td rowspan="1" colspan="1">Harting connector</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">DF2 CN08</td>
+                        <td rowspan="1" colspan="1">Fast fuse 8A</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">Schneider</td>
+                        <td rowspan="1" colspan="1">DF6 AB10</td>
+                        <td rowspan="1" colspan="1">Carrier fuse</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">FU1-4</td>
+                        <td rowspan="1" colspan="1">RS</td>
+                        <td rowspan="1" colspan="1">176-9148</td>
+                        <td rowspan="1" colspan="1">Resettable thermal fuse 84°C</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">FU5-8</td>
+                        <td rowspan="1" colspan="1">RS</td>
+                        <td rowspan="1" colspan="1">176-9132</td>
+                        <td rowspan="1" colspan="1">Resettable thermal fuse 72°C</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1">KA2-9</td>
+                        <td rowspan="1" colspan="1">Finder</td>
+                        <td rowspan="1" colspan="1">Type 40.52</td>
+                        <td rowspan="1" colspan="1">Relays</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">220V female plug</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1">RS</td>
+                        <td rowspan="1" colspan="1">327-131</td>
+                        <td rowspan="1" colspan="1">220V male plug</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+            </sec>
+            <ref-list>
+              <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Billica</surname><given-names>RD</given-names></name><name><surname>Simmons</surname><given-names>SC</given-names></name><name><surname>Mathes</surname><given-names>KL</given-names></name><etal/></person-group>:
+<article-title>Perception of the medical risk of spaceflight.</article-title><source><italic>Aviat Space Environ Med.</italic></source><year>1996</year>;<volume>67</volume>(<issue>5</issue>):<fpage>467</fpage>–<lpage>473</lpage>.
+<?supplied-pmid 8725475?><pub-id pub-id-type="pmid">8725475</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Barratt</surname><given-names>M</given-names></name><name><surname>Pool</surname><given-names>S</given-names></name></person-group>:
+<article-title>Principles of Clinical Medicine for Space Flight</article-title>. (Various chapters). ISBN: 9780387988429.<year>2008</year><pub-id pub-id-type="doi">10.1007/978-0-387-68164-1</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Buckey</surname><given-names>JC</given-names></name></person-group>:
+<article-title>Space Physiology</article-title>. Oxford University Press. (Various chapters). ISBN: 9780195137255.<year>2006</year>;<fpage>304</fpage><ext-link ext-link-type="uri" xlink:href="http://global.oup.com/academic/product/space-physiology-9780195137255;jsessionid=D3EADABC32C0A7F6753FEA3E5043D17E?cc=in&amp;lang=en&amp;">Reference Source</ext-link></mixed-citation>
+              </ref>
+              <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gandia</surname><given-names>P</given-names></name><name><surname>Saivin</surname><given-names>S</given-names></name><name><surname>Houin</surname><given-names>G</given-names></name></person-group>:
+<article-title>The influence of weightlessness on pharmacokinetics.</article-title><source><italic>Fundam Clin Pharmacol.</italic></source><year>2005</year>;<volume>19</volume>(<issue>6</issue>):<fpage>625</fpage>–<lpage>636</lpage>.
+<pub-id pub-id-type="doi">10.1111/j.1472-8206.2005.00374.x</pub-id><?supplied-pmid 16313274?><pub-id pub-id-type="pmid">16313274</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Graebe</surname><given-names>A</given-names></name><name><surname>Schuck</surname><given-names>EL</given-names></name><name><surname>Derendorf</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>Physiological, pharmacokinetic and pharmacodynamic changes in space.</article-title><source><italic>J Clin Pharmacol.</italic></source><year>2004</year>;<volume>44</volume>(<issue>8</issue>):<fpage>837</fpage>–<lpage>853</lpage>.
+<pub-id pub-id-type="doi">10.1177/0091270004267193</pub-id><?supplied-pmid 15286087?><pub-id pub-id-type="pmid">15286087</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Beringer</surname><given-names>PM</given-names></name><name><surname>Slaughter</surname><given-names>RL</given-names></name></person-group>:
+<article-title>Transporters and their impact on drug disposition.</article-title><source><italic>Ann Parmacother.</italic></source><year>2005</year>;<volume>39</volume>(<issue>6</issue>):<fpage>1097</fpage>–<lpage>1108</lpage>.
+<pub-id pub-id-type="doi">10.1345/aph.1E614</pub-id><?supplied-pmid 15886292?><pub-id pub-id-type="pmid">15886292</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Galvinas</surname><given-names>H</given-names></name><name><surname>Krajcsi</surname><given-names>P</given-names></name><name><surname>Cserepes</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>The role of ABC transporters in drug resistance, metabolism and toxicity.</article-title><source><italic>Curr Drug Deliv.</italic></source><year>2004</year>;<volume>1</volume>(<issue>1</issue>):<fpage>27</fpage>–<lpage>42</lpage>.
+<pub-id pub-id-type="doi">10.2174/1567201043480036</pub-id><?supplied-pmid 16305368?><pub-id pub-id-type="pmid">16305368</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>van</surname><given-names>A</given-names></name></person-group>:
+<article-title>Multidrug Resistance Protein 2. Transport Properties of a Drug Efflux Pump</article-title>. Thesis. University of Nijmegen. ISBN 90–9013589–8.<year>1999</year>
+<ext-link ext-link-type="uri" xlink:href="http://www.dart-europe.eu/full.php?id=539359">Reference Source</ext-link></mixed-citation>
+              </ref>
+              <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wilson</surname><given-names>JW</given-names></name><name><surname>Ott</surname><given-names>CM</given-names></name><name><surname>Höner zu Bentrup</surname><given-names>K</given-names></name><etal/></person-group>:
+<article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq.</article-title><source><italic>Proc Natl Acad Sci U S A.</italic></source><year>2007</year>;<volume>104</volume>(<issue>41</issue>):<fpage>16299</fpage>–<lpage>304</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.0707155104</pub-id><!--<pub-id pub-id-type="pmcid">2042201</pub-id>--><?supplied-pmid 17901201?><pub-id pub-id-type="pmid">17901201</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Crabbé</surname><given-names>A</given-names></name><name><surname>Nielsen-Preiss</surname><given-names>SM</given-names></name><name><surname>Woolley</surname><given-names>CM</given-names></name><etal/></person-group>:
+<article-title>Spaceflight enhances cell aggregation and random budding in Candida albicans.</article-title><source><italic>PLoS One.</italic></source><year>2013</year>;<volume>8</volume>(<issue>12</issue>):<fpage>e80677</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pone.0080677</pub-id><!--<pub-id pub-id-type="pmcid">3851762</pub-id>--><?supplied-pmid 24324620?><pub-id pub-id-type="pmid">24324620</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lu</surname><given-names>Sk</given-names></name><name><surname>Bai</surname><given-names>S</given-names></name><name><surname>Javeri</surname><given-names>K</given-names></name><etal/></person-group>:
+<article-title>Altered cytochrome P450 and P-glycoprotein levels in rats during simulated weightlessness.</article-title><source><italic>Aviat Space Environ Med.</italic></source><year>2002</year>;<volume>73</volume>(<issue>2</issue>):<fpage>112</fpage>–<lpage>8</lpage>.
+<?supplied-pmid 11846179?><pub-id pub-id-type="pmid">11846179</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-12">
+                <label>12</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bräucker</surname><given-names>R</given-names></name><name><surname>Cogoli</surname><given-names>A</given-names></name><name><surname>Hemmersbach</surname><given-names>R</given-names></name></person-group>:
+<article-title>Graviperception and Graviresponse at the Cellular Level.</article-title><source><italic>Astrobiology.</italic></source>The Quest for the Conditions of Life. Berlin Heidelberg Springer-Verlag.<year>2002</year>;<fpage>287</fpage>–<lpage>333</lpage>
+<pub-id pub-id-type="doi">10.1007/978-3-642-59381-9_19</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chebli</surname><given-names>Y</given-names></name><name><surname>Geitmann</surname><given-names>A</given-names></name></person-group>:
+<article-title>Gravity research on plants: use of single-cell experimental models.</article-title><source><italic>Front Plant Sci.</italic></source><year>2011</year>;<volume>2</volume>:<fpage>56</fpage>.
+<pub-id pub-id-type="doi">10.3389/fpls.2011.00056</pub-id><!--<pub-id pub-id-type="pmcid">3355640</pub-id>--><?supplied-pmid 22639598?><pub-id pub-id-type="pmid">22639598</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-14">
+                <label>14</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Häder</surname><given-names>DP</given-names></name><name><surname>Hemmersbach</surname><given-names>R</given-names></name><name><surname>Lebert</surname><given-names>M</given-names></name></person-group>:
+<article-title>Gravity and the behaviour of unicellular organisms</article-title>. Cambridge &amp; New York (United Kingdom, USA): Cambridge University Press (Various chapters).<year>2005</year>
+<ext-link ext-link-type="uri" xlink:href="http://www.cambridge.org/us/academic/subjects/life-sciences/cell-biology-and-developmental-biology/gravity-and-behavior-unicellular-organisms">Reference Source</ext-link></mixed-citation>
+              </ref>
+              <ref id="ref-15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goldermann</surname><given-names>M</given-names></name><name><surname>Hanke</surname><given-names>W</given-names></name></person-group>:
+<article-title>Ion channel are sensitive to gravity changes.</article-title><source><italic>Microgravity Sci Technol.</italic></source><year>2001</year>;<volume>13</volume>(<issue>1</issue>):<fpage>35</fpage>–<lpage>38</lpage>.
+<pub-id pub-id-type="doi">10.1007/BF02873330</pub-id><?supplied-pmid 12043748?><pub-id pub-id-type="pmid">12043748</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kordyum</surname><given-names>EL</given-names></name></person-group>:
+<article-title>Calcium signalling in plant cells in altered gravity.</article-title><source><italic>Adv Space Res.</italic></source><year>2003</year>;<volume>32</volume>(<issue>8</issue>):<fpage>1621</fpage>–<lpage>1630</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0273-1177(03)90403-0</pub-id><?supplied-pmid 15002419?><pub-id pub-id-type="pmid">15002419</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morita</surname><given-names>MT</given-names></name></person-group>:
+<article-title>Directional gravity sensing in gravitropism.</article-title><source><italic>Annu Rev Plant Biol.</italic></source><year>2010</year>;<volume>61</volume>:<fpage>705</fpage>–<lpage>20</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.arplant.043008.092042</pub-id><?supplied-pmid 19152486?><pub-id pub-id-type="pmid">19152486</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-18">
+                <label>18</label>
+                <mixed-citation publication-type="book"><article-title>Novespace A300 ZERO-G rules and guidelines</article-title>. Novespace RG-2008–2.<year>2008</year>.</mixed-citation>
+              </ref>
+              <ref id="ref-19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Glavinas</surname><given-names>H</given-names></name><name><surname>Krajcsi</surname><given-names>P</given-names></name></person-group>:
+<article-title>Determination of the interaction of drugs with the MRP2 transporter using the estradiol 17–β-D-glucuronide vesicular transport assay (AP 122/2.0).</article-title><source><italic>Solvo Biotechnol.</italic></source><year>2005</year>.</mixed-citation>
+              </ref>
+              <ref id="ref-20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R</given-names></name><name><surname>de la Torre</surname><given-names>X</given-names></name><name><surname>Alía</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>Changes in androgenic steroid profile due to urine contamination by microorganisms: a prospective study in the context of doping control.</article-title><source><italic>Anal Biochem.</italic></source><year>2001</year>;<volume>289</volume>(<issue>2</issue>):<fpage>116</fpage>–<lpage>23</lpage>.
+<pub-id pub-id-type="doi">10.1006/abio.2000.4918</pub-id><?supplied-pmid 11161304?><pub-id pub-id-type="pmid">11161304</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Abraham</surname><given-names>S</given-names></name><name><surname>Klein</surname><given-names>HP</given-names></name><name><surname>Lin</surname><given-names>CY</given-names></name><etal/></person-group>:
+<article-title>The effects of space flight on some rat liver enzymes regulating carbohydrate and lipid metabolism.</article-title><source><italic>Adv Space Res.</italic></source><year>1981</year>;<volume>1</volume>(<issue>14</issue>):<fpage>199</fpage>–<lpage>217</lpage>.
+<pub-id pub-id-type="doi">10.1016/0273-1177(81)90263-5</pub-id><?supplied-pmid 11541711?><pub-id pub-id-type="pmid">11541711</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cogoli-Greuter</surname><given-names>M</given-names></name><name><surname>Lovis</surname><given-names>P</given-names></name><name><surname>Vadrucci</surname><given-names>S</given-names></name></person-group>:
+<article-title>Signal transduction in T cells: an overview.</article-title><source><italic>J Gravit Physiol.</italic></source><year>2004</year>;<volume>11</volume>(<issue>2</issue>):<fpage>53</fpage>–<lpage>6</lpage>.
+<?supplied-pmid 16231454?><pub-id pub-id-type="pmid">16231454</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-23">
+                <label>23</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hughes-Fulford</surname><given-names>M</given-names></name></person-group>:
+<article-title>Function of the cytoskeleton in gravisensing during spaceflight.</article-title><source><italic>Adv Space Res.</italic></source><year>2003</year>;<volume>32</volume>(<issue>8</issue>):<fpage>1585</fpage>–<lpage>1593</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0273-1177(03)90399-1</pub-id><?supplied-pmid 15002415?><pub-id pub-id-type="pmid">15002415</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-24">
+                <label>24</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Boonyaratanakornkit</surname><given-names>JB</given-names></name><name><surname>Cogoli</surname><given-names>A</given-names></name><name><surname>Li</surname><given-names>CF</given-names></name><etal/></person-group>:
+<article-title>Key gravity-sensitive signaling pathways drive T cell activation.</article-title><source><italic>FASEB J.</italic></source><year>2005</year>;<volume>19</volume>(<issue>4</issue>):<fpage>2020</fpage>–<lpage>2022</lpage>.
+<pub-id pub-id-type="doi">10.1096/fj.05-3778fje</pub-id><?supplied-pmid 16210397?><pub-id pub-id-type="pmid">16210397</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tash</surname><given-names>JS</given-names></name><name><surname>Bracho</surname><given-names>GE</given-names></name></person-group>:
+<article-title>Microgravity alters protein phosphorylation changes during initiation of sea urchin sperm motility.</article-title><source><italic>FASEB J.</italic></source><year>1999</year>;<volume>13</volume>(<issue>Suppl</issue>):<fpage>S43</fpage>–<lpage>S54</lpage>.
+<?supplied-pmid 10352144?><pub-id pub-id-type="pmid">10352144</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-26">
+                <label>26</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Maccarrone</surname><given-names>M</given-names></name><name><surname>Bari</surname><given-names>M</given-names></name><name><surname>Battista</surname><given-names>N</given-names></name><etal/></person-group>:
+<article-title>The catalytic efficiency of soybean lipoxygenase-1 is enhanced at low gravity.</article-title><source><italic>Biophys Chem.</italic></source><year>2001</year>;<volume>90</volume>(<issue>3</issue>):<fpage>303</fpage>–<lpage>306</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0301-4622(01)00161-2</pub-id><?supplied-pmid 11407646?><pub-id pub-id-type="pmid">11407646</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Giachetti</surname><given-names>E</given-names></name><name><surname>Ranaldi</surname><given-names>F</given-names></name><name><surname>Vanni</surname><given-names>P</given-names></name></person-group>:
+<article-title>Enzyme catalysis in microgravity: an intricate problem to be solved.</article-title><source><italic>FEBS Lett.</italic></source><year>2001</year>;<volume>504</volume>(<issue>1–2</issue>):<fpage>78</fpage>–<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0014-5793(01)02739-9</pub-id><?supplied-pmid 11547780?><pub-id pub-id-type="pmid">11547780</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Maccarrone</surname><given-names>M</given-names></name><name><surname>Finazzi-Agró</surname><given-names>A</given-names></name></person-group>:
+<article-title>Enzyme activity in microgravity: a problem of catalysis at the water-lipid interface?</article-title><source><italic>FEBS Lett.</italic></source><year>2001</year>;<volume>504</volume>(<issue>1–2</issue>):<fpage>80</fpage>.
+<pub-id pub-id-type="doi">10.1016/S0014-5793(01)02740-5</pub-id><?supplied-pmid 11547781?><pub-id pub-id-type="pmid">11547781</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-29">
+                <label>29</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Loo</surname><given-names>TW</given-names></name><name><surname>Clarke</surname><given-names>DM</given-names></name></person-group>:
+<article-title>Recent progress in understanding the mechanism of P-glycoprotein-mediated drug efflux.</article-title><source><italic>J Membr Biol.</italic></source><year>2005</year>;<volume>206</volume>(<issue>3</issue>):<fpage>173</fpage>–<lpage>185</lpage>.
+<pub-id pub-id-type="doi">10.1007/s00232-005-0792-1</pub-id><?supplied-pmid 16456713?><pub-id pub-id-type="pmid">16456713</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-30">
+                <label>30</label>
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Cintron</surname><given-names>NM</given-names></name><name><surname>Putcha</surname><given-names>L</given-names></name><name><surname>Vanderploeg</surname><given-names>JM</given-names></name></person-group>:
+<article-title>Inflight pharmacokinetics of acetaminophen in saliva</article-title>. Results of the Life Sciences DSOs Conducted aboard the Space Shuttle. 1981–1986 (NASA).<year>1987</year>;<fpage>27</fpage>–<lpage>42</lpage>
+<ext-link ext-link-type="uri" xlink:href="http://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=573">Reference Source</ext-link></mixed-citation>
+              </ref>
+              <ref id="ref-31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Merrill</surname><given-names>AH</given-names><suffix>Jr</suffix></name><name><surname>Hoel</surname><given-names>M</given-names></name><name><surname>Wang</surname><given-names>E</given-names></name><etal/></person-group>:
+<article-title>Altered carbohydrate, lipid, and xenobiotic metabolism by liver from rats flown on Cosmos 1887.</article-title><source><italic>FASEB J.</italic></source><year>1990</year>;<volume>4</volume>(<issue>1</issue>):<fpage>95</fpage>–<lpage>100</lpage>.
+<?supplied-pmid 2295381?><pub-id pub-id-type="pmid">2295381</pub-id></mixed-citation>
+              </ref>
+              <ref id="ref-32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vaquer</surname><given-names>S</given-names></name><name><surname>Cuyàs</surname><given-names>E</given-names></name><name><surname>Rabadán</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Data of active transmembrane drug transport in microgravity.</article-title><source><italic>F1000Research.</italic></source><year>2014</year><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.4909.d34169">Data Source</ext-link></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <sub-article id="report6930" article-type="peer-review">
+            <front-stub>
+              <article-id pub-id-type="doi">10.5256/f1000research.5243.r6930</article-id>
+              <title-group>
+                <article-title>Referee response for version 1</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rees</surname>
+                    <given-names>Steven</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="r6930a1">1</xref>
+                  <role>Referee</role>
+                </contrib>
+                <aff id="r6930a1"><label>1</label>Department of Pharmacology, University of California, San Diego, La Jolla, CA, USA</aff>
+              </contrib-group>
+              <author-notes>
+                <fn fn-type="conflict">
+                  <p><bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>5</day>
+                <month>12</month>
+                <year>2014</year>
+              </pub-date>
+              <related-article id="d35e3198" related-article-type="peer-reviewed-article" ext-link-type="doi" xlink:href="10.12688/f1000research.4909.1">Version </related-article>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>recommendation</meta-name>
+                  <meta-value>approve</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </front-stub>
+            <body>
+              <p>This paper is an interesting contribution to the study of membrane transporter activity in microgravity. The authors discuss in detail the problems not addressed by the study, and important future studies for further validation. This is an excellent addition to the literature, and should be indexed.
+<list list-type="bullet"><list-item><p>Introduction was a concise and accurate overview of ABC transporters and microgravity simulations.</p></list-item><list-item><p>Good use of controls, including consideration of differential permeability of vesicles themselves due to microgravity</p></list-item><list-item><p>No control with BZM/deformed MPR2 to see differences in noncompetitive inhibition (see if there’s activity in negative control vesicles (MRP2def) to see if relevant, particularly for the point about inherent changes in vesicle permeability mentioned in Discussion).</p></list-item><list-item><p>Vesicle integrity was confirmed with 2g on-ground simulated flight campaign study (why not just run study at 1g alongside samples to eliminate confounding variables?). Also, is it apparent that the 2g on-ground study truly replicates the experimental flight campaign?</p></list-item><list-item><p>Table 2: NoATP mean diference, microgravity, is 0.04, not 0.05 (according to Table 1). Same mistake with 1g on ground MRP2+, though this is most likely due to rounding.</p></list-item><list-item><p>Following Table 2’s purpose, comparing relative difference (dividing microgravity and 1g mean differences by MRP2def) would have made data more comparable, given stark differences in means presented in Table 1.</p></list-item><list-item><p>Data seem to have high variance, despite precision provided by the in-flight device. Comparison of various flight results in groups would hint at potential time-based variance or subtle differences in parabolic flight that could have contributed to these results (repeated flights, to achieve true replicates over pseudoreplicates, could have also aided in this, though may be impractical given predicted high cost of this single flight campaign).</p></list-item><list-item><p>No data presented on vesicle integrity outside of discussion in Results; even if not significant, would have been useful.</p></list-item><list-item><p>It is not clear that microgravity causes an increase in vesicle permeability given the quite reduced transport of E17BG in microgravity, as suggested in the discussion, though the ratio of E17BG transport in microgravity is higher than that of 1g transport. Future studies looking into this would be useful.</p></list-item><list-item><p>More information on parabolic flight campaign would have been useful, not only for reproducibility but given the novelty of this procedure. </p></list-item><list-item><p>Studying differential effects of microgravity on mammalian versus insect vesicles would be an important follow-up investigation, as suggested by the authors.</p></list-item></list>
+</p>
+              <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+            </body>
+          </sub-article>
+          <sub-article id="report5908" article-type="peer-review">
+            <front-stub>
+              <article-id pub-id-type="doi">10.5256/f1000research.5243.r5908</article-id>
+              <title-group>
+                <article-title>Referee response for version 1</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Russomano</surname>
+                    <given-names>Thais</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="r5908a1">1</xref>
+                  <role>Referee</role>
+                </contrib>
+                <aff id="r5908a1"><label>1</label>Faculdade de Medicina, Centro de Microgravidade/FENG-PUCRS, Porto Alegre, Brazil</aff>
+              </contrib-group>
+              <author-notes>
+                <fn fn-type="conflict">
+                  <p><bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>8</month>
+                <year>2014</year>
+              </pub-date>
+              <related-article id="d35e3281" related-article-type="peer-reviewed-article" ext-link-type="doi" xlink:href="10.12688/f1000research.4909.1">Version </related-article>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>recommendation</meta-name>
+                  <meta-value>approve</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </front-stub>
+            <body>
+              <p>It is a well written article and deserves to be indexed.</p>
+              <p>My comments and suggestions are:
+<list list-type="bullet"><list-item><p>Abstract should explain the method better, including more details of controls on Earth. It should contain some data (numerical data with the most important statistical analysis)</p></list-item></list>Introduction is good.</p>
+              <p>Methods
+<list list-type="bullet"><list-item><p>Samples and procedures: I suggest explaining the phases of the parabola and their duration. I also believe that it would be good to clarify how many parabolas were used for the tests.</p></list-item><list-item><p>Figures are ok, although figure 2 does not add much to the study itself, unless some explanation is added to the figure and its caption.</p></list-item></list>Results
+<list list-type="bullet"><list-item><p>I believe that figures could show the microG changes better</p></list-item><list-item><p>If figures are kept, please correct first line on Table 1 (data is misplaced)</p></list-item><list-item><p>I think it should be 1G (not just in results but throughout the text), and then ground should be deleted (it is a pleonasm in this case)</p></list-item></list>Discussion
+<list list-type="bullet"><list-item><p>It is very good, clear, and consistent</p></list-item></list>Conclusion
+<list list-type="bullet"><list-item><p>It could be shortened a bit.</p></list-item></list>It was very good to have considered and presented the limitations of the study.</p>
+              <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+            </body>
+          </sub-article>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

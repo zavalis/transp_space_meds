@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:01:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5177882" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5177882</identifier>
+        <datestamp>2016-12-29</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5177882</article-id>
+              <article-id pub-id-type="pmcid">PMC5177882</article-id>
+              <article-id pub-id-type="pmc-uid">5177882</article-id>
+              <article-id pub-id-type="pmid">28004797</article-id>
+              <article-id pub-id-type="pii">srep39545</article-id>
+              <article-id pub-id-type="doi">10.1038/srep39545</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Acute transcriptional up-regulation specific to osteoblasts/osteoclasts in medaka fish immediately after exposure to microgravity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chatani</surname>
+                    <given-names>Masahiro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                  <xref ref-type="author-notes" rid="n1">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Morimoto</surname>
+                    <given-names>Hiroya</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Takeyama</surname>
+                    <given-names>Kazuhiro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mantoku</surname>
+                    <given-names>Akiko</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tanigawa</surname>
+                    <given-names>Naoki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kubota</surname>
+                    <given-names>Koji</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Suzuki</surname>
+                    <given-names>Hiromi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Uchida</surname>
+                    <given-names>Satoko</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tanigaki</surname>
+                    <given-names>Fumiaki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shirakawa</surname>
+                    <given-names>Masaki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gusev</surname>
+                    <given-names>Oleg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a5">5</xref>
+                  <xref ref-type="author-notes" rid="n2">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>Vladimir</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Takano</surname>
+                    <given-names>Yoshiro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Itoh</surname>
+                    <given-names>Takehiko</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kudo</surname>
+                    <given-names>Akira</given-names>
+                  </name>
+                  <xref ref-type="corresp" rid="c1">a</xref>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <aff id="a1"><label>1</label><institution>Graduate School of Bioscience and Biotechnology, Tokyo Institute of Technology</institution>, Yokohama 226-8501, <country>Japan</country></aff>
+                <aff id="a2"><label>2</label><institution>Chiyoda Corporation</institution>, Yokohama 220-8765, <country>Japan</country></aff>
+                <aff id="a3"><label>3</label><institution>Department of Science and Applications, Japan Space Forum</institution>, Tokyo 101-0062, <country>Japan</country></aff>
+                <aff id="a4"><label>4</label><institution>Japan Aerospace Exploration Agency</institution>, Tsukuba 305-8505, <country>Japan</country></aff>
+                <aff id="a5"><label>5</label><institution>Institute of Fundamental Medicine and Biology, Kazan Federal University</institution>, Kazan 420008, <country>Russia</country></aff>
+                <aff id="a6"><label>6</label><institution>SSC RF-Institute of Biomedical Problems RAS</institution>, Moscow, <country>Russia</country></aff>
+                <aff id="a7"><label>7</label><institution>Section of Biostructural Science, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University</institution>, Tokyo 113-8549, <country>Japan</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="c1">
+                  <label>a</label>
+                  <email>akudo@bio.titech.ac.jp</email>
+                </corresp>
+                <fn id="n1">
+                  <label>*</label>
+                  <p>Present Address: Department of Pharmacology, School of Dentistry, Showa University, Tokyo 142-8555, Japan.</p>
+                </fn>
+                <fn id="n2">
+                  <label>†</label>
+                  <p>Present address: RIKEN Innovation Center, RIKEN, Yokohama 230-0045, Japan.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>22</day>
+                <month>12</month>
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2016</year>
+              </pub-date>
+              <volume>6</volume>
+              <elocation-id>39545</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>19</day>
+                  <month>08</month>
+                  <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>11</month>
+                  <year>2016</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2016, The Author(s)</copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <!--author-paid-->
+                  <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Bone loss is a serious problem in spaceflight; however, the initial action of microgravity has not been identified. To examine this action, we performed live-imaging of animals during a space mission followed by transcriptome analysis using medaka transgenic lines expressing osteoblast and osteoclast-specific promoter-driven GFP and DsRed. In live-imaging for osteoblasts, the intensity of <italic>osterix</italic>- or <italic>osteocalcin</italic>-DsRed fluorescence in pharyngeal bones was significantly enhanced 1 day after launch; and this enhancement continued for 8 or 5 days. In osteoclasts, the signals of <italic>TRAP</italic>-GFP and <italic>MMP9</italic>-DsRed were highly increased at days 4 and 6 after launch in flight. HiSeq from pharyngeal bones of juvenile fish at day 2 after launch showed up-regulation of 2 osteoblast- and 3 osteoclast- related genes. Gene ontology analysis for the whole-body showed that transcription of genes in the category “nucleus” was significantly enhanced; particularly, transcription-regulators were more up-regulated at day 2 than at day 6. Lastly, we identified 5 genes, <italic>c-fos</italic>, <italic>jun-B-like</italic>, <italic>pai-1</italic>, <italic>ddit4</italic> and <italic>tsc22d3</italic>, which were up-regulated commonly in the whole-body at days 2 and 6, and in the pharyngeal bone at day 2. Our results suggested that exposure to microgravity immediately induced dynamic alteration of gene expression levels in osteoblasts and osteoclasts.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <p>In the animal body, various cellular stimuli such as heat shock<xref ref-type="bibr" rid="b1">1</xref>, oxidative<xref ref-type="bibr" rid="b2">2</xref>, and hypoxic<xref ref-type="bibr" rid="b3">3</xref> stresses have been studied attentively. In spaceflight, when gravitational alteration occurs rapidly with the shift to microgravity, changes in fluid shift and blood pressure quickly take place in the human body<xref ref-type="bibr" rid="b4">4</xref>, leading to hemodynamic adaptation<xref ref-type="bibr" rid="b5">5</xref> and alteration of vasoreactivity, accompanied by up-regulation of the NO/cGMP pathway, as was found in an <italic>in vitro</italic> study<xref ref-type="bibr" rid="b6">6</xref>. These responses to the extreme change in gravity continuously happen at the whole-body level; however, the molecular mechanisms of such responses to “microgravitational stress” remain unclear.</p>
+            <p>Bone loss in astronauts, which is one of severe health problems, is observed in a spaceflight lasting for a few months, which loss is reminiscent of that for senile osteoporosis on the ground. It is recognized that understanding the potential action of this microgravity environment toward bone loss should contribute to progress in the fields related to the effect of mechanical stress on bone, as well as to clinical application for osteoporosis. To investigate the mechanism of bone loss during spaceflight, it is important to study the initial response immediately after the initial exposure to microgravity, because this response represents the trigger for bone loss. As to symptoms that appear early in orbit, the loss of calcium starts at least 10 days after launch<xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b8">8</xref>; and the assessment of bone quality revealed a loss of bone in short-duration spaceflight for 20 days<xref ref-type="bibr" rid="b9">9</xref>. These reports suggest that osteoblasts and osteoclasts undergo changes immediately after launch. In fact, <italic>in vitro</italic> experiments conducted during a short-term parabolic flight showed changes in gene expression and cellular cytoskeleton in human chondrocytes<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref>. However, the nature of the initial response <italic>in vivo</italic> to microgravity in bone tissues is unclear.</p>
+            <p>One way to answer this question is to perform animal experiments at the ISS (International Space Station). In a previous study, we found that in skeletogenesis of the vertebral body and pharyngeal bone in medaka, their osteoblasts and osteoclasts revealed properties similar to those of their mammalian counterparts<xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b15">15</xref>. In osteoblast differentiation, osterix is a typical marker of early osteoblasts; and osteocalcin, one of late osteoblasts<xref ref-type="bibr" rid="b16">16</xref>, whereas TRAP (tartrate-resistant acid phosphatase), cathepsin K, and MMP9 are markers of osteoclasts<xref ref-type="bibr" rid="b17">17</xref>. In medaka as in mammals these cells are differentiated from TRAP, cathepsin K, and MMP9-positive mononuclear cells into multinuclear osteoclasts<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b15">15</xref>. Furthermore, the <italic>c-fms</italic> (the receptor of M-CSF)-deficient zebrafish shows a reduced number of osteoclasts, resulting in a bone modeling defect<xref ref-type="bibr" rid="b14">14</xref>, which finding indicates the essential function of M-CSF and <italic>c-fms</italic> in fish as well as in mammals<xref ref-type="bibr" rid="b18">18</xref>. Moreover, RANKL, the essential osteoclast differentiation factor expressed in osteoblasts, is common between mammals and medaka fish<xref ref-type="bibr" rid="b19">19</xref>. All evidence taken together indicates that the basic molecular mechanism underlying the differentiation of osteoclasts is common between mammals and fish and that the interaction of these cells with osteoblasts plays a crucial role in osteoclast differentiation in medaka as well. To identify osteoblasts and osteoclasts <italic>in-vivo</italic>, we previously developed a medaka <italic>osterix</italic> promoter-DsRed transgenic line for the visualization of osteoblasts<xref ref-type="bibr" rid="b20">20</xref> and a medaka <italic>TRAP</italic> promoter-GFP transgenic line for that of osteoclasts<xref ref-type="bibr" rid="b14">14</xref>. Finally, we established a double transgenic line of <italic>osterix</italic>-DsRed and <italic>TRAP</italic>-GFP<xref ref-type="bibr" rid="b21">21</xref> to examine the cooperation between osteoblasts and osteoclasts in the same animal. In the analysis of pharyngeal bones, by using this double transgenic line we showed the important role of osteoblasts for controlling osteoclasts to modify the attachment bone during tooth replacement in medaka pharyngeal teeth<xref ref-type="bibr" rid="b15">15</xref>. The row of attachment bones is resorbed at the anterior side where most developed functional teeth are located, and generated at the posterior side where teeth are newly erupting, which actions cause continuous tooth replacement. Osteoclasts and osteoblasts are located at attachment bones separately, with mature osteoclasts being localized at the resorbing side and osteoblasts gathered at the generating side.</p>
+            <p>When medaka fish at 6 weeks after hatching were launched to the ISS in 2012 and reared there for 2 months, activation of osteoclasts together with bone loss occurred in the flight fish<xref ref-type="bibr" rid="b21">21</xref>. In that study, to examine the alteration of gene expression early in orbit, we preserved specimens with RNAlater at days 2 and 6 after launch. Another way to study growing tissues under microgravity in space is to perform experiments using three-dimensional cultures<xref ref-type="bibr" rid="b22">22</xref>; however, such experiments have not yet been performed at the ISS. In our present study, to examine the early effects of microgravity on bone cells, we embedded transgenic medaka larvae in a gel for a live-imaging study in space in 2014, and observed signals by fluorescence microscopy at the ISS via remote operation from Tsukuba Space Center. For this experiment, we utilized 4 different double medaka transgenic lines and, in particular, investigated up-regulation of fluorescent signals of osteoblasts and osteoclasts in these double transgenic lines as an important way to study osteoblast-osteoclast interaction under microgravity.</p>
+            <p>In addition, we examined the pattern of gene expression in these transgenic fish by transcriptome analysis. HiSeq analysis of the pharyngeal bones showed the enhanced expression of osteoblast- and osteoclast-related genes. Furthermore, GO (gene ontology) analysis showed the up-regulation of AP-1-, GR- and TGF-β-related genes that coincided with osteoclast activation. Our results about live-imaging and transcriptome analysis may prompt the establishment of a new field in gravitational biology.</p>
+            <sec disp-level="1">
+              <title>Results</title>
+              <sec disp-level="2">
+                <title>Enhancement of osteoblast signals under microgravity</title>
+                <p>To find alteration of signal intensity and area of osteoblasts and osteoclasts, we observed the fluorescent signals in living medaka for 8 days at the ISS as shown in Methods and <xref ref-type="table" rid="t1">Table 1</xref>. Twelve larvae at stage 39 were embedded in “medaka chambers” (<xref ref-type="fig" rid="f1">Fig. 1a</xref>), in which live larvae in a gel were covered with a semipermeable membrane. Pharyngeal bones, around which many osteoblasts and osteoclasts were localized, were clearly observed from the ventral side (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S1</xref>). This ventral side was oriented toward the glass plate for observation via an objective lens (<xref ref-type="fig" rid="f1">Fig. 1b</xref>). For capturing images by use of a 20x lens, we carried out observation in 3 steps, because the posture of the living larvae was constantly changing (<xref ref-type="fig" rid="f1">Fig. 1c</xref>). The experimental schedule for live-imaging of the 4 double transgenic lines, <italic>osterix</italic>-DsRed/<italic>TRAP</italic>-GFP, <italic>osteocalcin</italic>-DsRed/<italic>TRAP</italic>-GFP, <italic>MMP9</italic>-DsRed/<italic>RANKL</italic>-GFP, and <italic>cox2</italic>-GFP/<italic>TRAP</italic>-DsRed during 8 days in flight and on the ground is shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>. To perform the imaging analyses for both the flight and ground samples under the same conditions, we manipulated both fluorescence microscopes, one at ISS and the other on the ground at the same gain value and the same appropriate exposure time (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S2</xref>). Firstly, the capture images of DsRed in the <italic>osterix</italic>-DsRed/<italic>TRAP</italic>-GFP line, which fluorescence visualizes the early stage of osteoblasts, revealed high expression in the flight group (<xref ref-type="fig" rid="f2">Fig. 2a–f</xref>). To examine the effect of microgravity on the whole-body, we observed overall this transgenic medaka, and found that the intensity of the fluorescent signals was enhanced in the whole-body (<xref ref-type="fig" rid="f2">Fig. 2g,h</xref>). Then, we focused on the pharyngeal bone region, in which bone turnover is high and sensitive to microgravity<xref ref-type="bibr" rid="b21">21</xref>, and observed ground and flight samples at high magnification with a 20x lens (<xref ref-type="fig" rid="f3">Fig. 3a,b</xref>) to examine the details of fluorescent signals in osteoblasts. When the fluorescent signal was measured in the pharyngeal bone region including the cleithrum (<xref ref-type="fig" rid="f3">Fig. 3h</xref>), the results revealed that in the flight group, this intensity was increased compared with that in the ground group over the 8-day observation period (<xref ref-type="fig" rid="f3">Fig. 3c</xref>). The signal-positive area was also increased about 8.0 fold or more (<xref ref-type="fig" rid="f3">Fig. 3d</xref>). Next, to examine the late stage of osteoblasts, we measured the intensity and area of DsRed signals in the <italic>osteocalcin</italic>-DsRed/<italic>TRAP</italic>-GFP line and found a large increase in intensity in the flight group (<xref ref-type="fig" rid="f3">Fig. 3e–h</xref>); however, no statistically significant increase in area was found (data not shown). To remove any possibility of a contribution of hypergravity exerted during the launch into space to the level of fluorescent signals, we performed a hypergravity experiment, and the results showed no significant alteration of signals (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S2</xref>). This result suggested that the hypergravity occurring at launch seems to have had no detectable effect on the <italic>osterix</italic>-DsRed signals.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Increase in the fluorescence intensity in osteoclasts</title>
+                <p>In osteoclast development, since the larva at stage 39 shows the initial phase for osteoclastogenesis in the pharyngeal bone region, we observed fluorescent signals of larvae at this stage in <italic>TRAP</italic>-GFP or in <italic>MMP9</italic>-DsRed fish. MMP9 as well as TRAP<xref ref-type="bibr" rid="b14">14</xref> is a typical marker of osteoclasts in medaka (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S3</xref>). Our results showed that the intensity of the <italic>TRAP</italic>-GFP-positive signal was increased at days 4 and 6 after launch in the flight group compared with that in the ground group (<xref ref-type="fig" rid="f4">Fig. 4a–c</xref>), whereas the signal area was not significantly altered (data not shown). The intensity of <italic>MMP9</italic>-DsRed signals was also increased at days 4 and 6 after launch in the flight group (<xref ref-type="fig" rid="f4">Fig. 4d–f</xref>), though there was no significant alteration of the area (data not shown). Thus the fluorescent signals driven by osteoblast- and osteoclast- specific promoters were enhanced in the flight group. Both <italic>RANKL</italic>-GFP, which replicates the expression pattern of endogenous RANKL (data not shown), which is the key factor for osteoclast differentiation<xref ref-type="bibr" rid="b23">23</xref>, and <italic>cox2</italic>-GFP<xref ref-type="bibr" rid="b24">24</xref> (data not shown) lines showed no significant difference in the fluorescence intensity between the ground and flight groups (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S4</xref>).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Co-localization of osteoblasts and osteoclasts under microgravity</title>
+                <p>The interaction of osteoblasts and osteoclasts is important for bone remodeling. It has been reported that there are many osteoblasts and osteoclasts in pharyngeal bones<xref ref-type="bibr" rid="b21">21</xref>, and osteoblasts are important for osteoclastogenesis in these bones<xref ref-type="bibr" rid="b15">15</xref>. To study the co-localization of osteoblasts and osteoclasts, we observed <italic>osterix</italic>-DsRed/<italic>TRAP</italic>-GFP merged images (<xref ref-type="fig" rid="f5">Fig. 5</xref>). DsRed signals for osteoblasts were enhanced in the flight group, and the GFP signals for osteoclasts localized near osteoblasts were also enhanced during flight (<xref ref-type="fig" rid="f5">Fig. 5a–d</xref>). The <italic>TRAP</italic>-GFP signals emerged at the lower pharyngeal bone region; and compared with the intensity of the ground control they increased in intensity near the osteoblasts highly expressing <italic>osterix</italic> in the flight medaka (<xref ref-type="fig" rid="f5">Fig. 5e–j</xref>). Furthermore, we confirmed the localization of GFP and DsRed signals in the pharyngeal bone region in flight medaka by performing three-dimensional (3D) analysis (<xref ref-type="fig" rid="f5">Fig. 5k–n</xref>). <xref ref-type="fig" rid="f5">Figure 5k</xref> shows a 3D image of the distribution of the fluorescent proteins. The pharyngeal bone was localized at the inside of the cleithrum, as shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S1</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Alteration of bone-related gene expression in the pharyngeal bone region by HiSeq</title>
+                <p>The results of live-imaging showed the enhancement of fluorescent signals in both osteoblasts and osteoclasts under microgravity. To examine alteration of the gene expression levels in bone tissues, we extracted RNAs from the pharyngeal bone region in medaka juvenile at day 2 after launch. Unfortunately, because the amount of RNAs from small pharyngeal bones was extremely low, the RNAs of individual fish were mixed to perform HiSeq analysis of the flight versus ground group. Our results showed that 2 osteoblast-related genes, <italic>col10a1</italic> and <italic>osteocalcin</italic>, and 3 osteoclast-related genes, <italic>acp5</italic> (<italic>TRAP</italic>), <italic>cathepsin K</italic>, and <italic>MMP9</italic>, were significantly up-regulated in the flight group (<xref ref-type="table" rid="t2">Table 2</xref>). Regarding <italic>osterix</italic> mRNA, the expression level showed 7.99 fold increase in the flight, though this data showed less statistically importance (data not shown).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>GO analysis for gene expression of whole-body medaka in flight by RNA-Seq</title>
+                <p>To examine the alteration of gene expression levels early in orbit, we focused on the common up- and down-regulated genes in the whole-body at days 2 and 6 after launch. RNA-Seq analysis was performed on total RNAs extracted from the whole-body medaka. We examined over 20,130 (90.3%) and 21,062 (94.5%) expressed genes at days 2 and 6, respectively. With a false-discovery rate (FDR) of &lt;=0.2, 2,958 up-regulated (S &gt; G) genes (13.3% of all genes) and 3,631 down-regulated (S &lt; G) genes (16.3% of all genes) were shown to be differentially expressed genes (DEG) by the RNA-Seq analysis. The number of common genes for up- and down-regulation between days 2 and 6 was 105 and 48, respectively, and categorized according to the following classification: Molecular function, Biological process, and Cellular component (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S3</xref>). <xref ref-type="fig" rid="f6">Figure 6</xref> shows the ratio of enriched GO annotations for up- and down-regulated genes in the “<italic>cellular component</italic>” in the GO domain. In particular, the GO analysis showed that GO:0005634 (nucleus) was significantly enhanced in up-regulated genes under the microgravity, whereas GO:0005886 (plasma membrane) was significantly enhanced in down-regulated genes.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Up-regulation of the molecules acting in the nucleus</title>
+                <p>GO analysis showed up-regulation of the molecules that act in the nucleus. Of the 105 genes that were up-regulated in the whole-body medaka at days 2 and 6, 33 genes were specifically found as molecules that act in the nucleus. Thirty-one of these 33 genes were up-regulated at day 2 compared with their expression at day 6, suggesting that enhancement of transcription occurred immediately after exposure to microgravity (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S4</xref>). In addition, the gene expression levels of MCM (minichromosome maintenance) family genes, mcm7, mcm5, mcm4, and mcm3 were significantly increased at day 6 (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S5</xref>).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Alteration of the gene expression levels of cell-surface molecules</title>
+                <p>Forty-eight genes were down-regulated in the whole-body medaka at days 2 and 6. Nineteen genes and 29 genes were down-regulated extremely at day 2 and 6, respectively. For the highly down-regulated genes for membrane proteins in the flight group, we classified them into 4 categories of membrane proteins: cell adhesion proteins (7 genes), channel and transporter proteins (3 genes), receptor proteins (2 genes), and membrane-related proteins (12 genes), as shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S6</xref>. Especially, the solute carrier family and the claudin family were characterized in both up- and down-regulated gene expression profiles: <italic>slc13a5</italic> and <italic>slc25138A</italic> were up-regulated, <italic>slc12a3</italic> was down-regulated, <italic>claudin-5</italic> was up-regulated, and <italic>claudin-7</italic> and <italic>claudin-like protein ZF-A89-like</italic> were down-regulated (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S6</xref>). These findings suggest that the expression levels of <italic>slcs</italic> and <italic>claudins</italic> were influenced by gravity.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Up-regulation of molecules in pharyngeal bone tissues and whole-body</title>
+                <p>To identify the common up-regulated genes related to bone tissues among 105 genes that were up-regulated in the whole-body at days 2 and 6, we examined the overlapped genes in the transcriptome between the pharyngeal bone at day 2 and the whole-body at days 2 and 6. Our results showed that only 5 genes, i.e., <italic>jun-B-like</italic> and <italic>c-fos</italic> for the AP-1 family, <italic>pai-1</italic> (<italic>Plasminogen activator inhibitor type 1</italic>), <italic>ddit4</italic> (<italic>DNA damage-inducible transcript 4 protein</italic>), and <italic>tsc22d3</italic> (<italic>TSC 22 domain family member 3</italic>), were found to be significantly up-regulated genes (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+              </sec>
+            </sec>
+            <sec disp-level="1">
+              <title>Discussion</title>
+              <p>Under microgravity, there are several changes in the animal body, such as fluid shift, increase in blood pressure, and dizziness. In particular, bone mineral density is decreased under microgravity<xref ref-type="bibr" rid="b25">25</xref>; but it is unclear how osteoblasts or osteoclasts respond early in orbit. In spaceflight, there are 2 phases in the adaptation to a specified environment under microgravity; one is the initial extreme alteration from ground 1 G to μG early in orbit, and the other is the adaptation to chronic stress during long-term flight. It is important to understand the initial response; however, previous studies were performed either <italic>in vitro</italic> or by using artificial microgravity. In our present study, we took 2 approaches, i.e., live imaging and transcriptome analysis, to examine the initial response to microgravity. Especially, the live-imaging analysis is useful to examine real-time alterations of cells under microgravity. We observed living animals (medaka) at the ISS for the first time via remote operation from Tsukuba Space Center, and found by live-imaging that the fluorescent signals of osteoblasts as well as those of osteoclasts were significantly increased over those for the ground control. In the whole-body fish, the <italic>osterix</italic>-DsRed and <italic>osteocalcin</italic>-DsRed signals in osteoblasts were increased in intensity, indicating that osteoblasts were directly affected by microgravity regardless of osteoclast commitment.</p>
+              <p>We propose the following possible mechanism for the up-regulation of <italic>osterix</italic>, <italic>osteocalcin</italic>, <italic>TRAP</italic>, and <italic>MMP9</italic> genes under microgravity: Osteoblasts and osteoclasts are located on bones, which are most sensitive to gravity alteration because they are the tissue with the highest density in the body. Bone-specific genes such as <italic>osterix</italic> and <italic>osteocalcin</italic> may have properties affording a response to gravity. Both <italic>osterix</italic> and <italic>osteocalcin</italic> transcription was up-regulated at the same time: day 1 as shown in the fluorescent intensity. This is different from normal osteoblast differentiation in which <italic>osterix</italic> and <italic>osteocalcin</italic> expressions appear at the early and the later stage, respectively, during osteoblast differentiation. At the ISS, this disorder of osteoblasts causes activation of osteoclasts, or osteoclasts may respond directly to the gravity alteration in a different manner, resulting in enhanced expression of <italic>TRAP</italic> and <italic>MMP9</italic> genes.</p>
+              <p>The transcriptome analysis of pharyngeal bones showed significant up-regulation of 2 osteoblast-related genes and 3 osteoclast-related genes in the flight group: <italic>col10a1</italic> and <italic>osteocalcin</italic> and for the former and <italic>acp5 (TRAP)</italic>, <italic>cathepsin</italic>, and <italic>MMP9</italic> for the latter. Enhanced gene expression of <italic>osteocalcin</italic>, <italic>TRAP</italic>, and <italic>MMP9</italic> was consistent with the results of the live-imaging study.</p>
+              <p>Gene ontology analysis using mRNAs from the whole-body fish at days 2 and 6 showed significant up-regulation of genes involved in “nucleus regulation”. Consistently, it has been reported that in parabolic flight experiments performed <italic>in vitro</italic>, unexpected effects on cells are observed, mainly on molecules related to transcription<xref ref-type="bibr" rid="b10">10</xref>. It is considered that cells adapt to a change (microgravity) by rearranging their transcriptional apparatus to counteract alterations in gene expressions as a reaction to a stimulus under microgravity. Among our findings, 2 of them were especially important. Firstly, of the genes involved in regulation of the nucleus, we found that 5 of the 23 nucleus-related genes selected in the whole-body transcriptome analysis were related to osteoblast or osteoclast function, and were up-regulated to a greater extent at day 2 than at day 6. Regarding these 5 genes, <italic>klf9</italic> and <italic>klf2</italic> are regulated in the macrophage network via the glucocorticoid receptor<xref ref-type="bibr" rid="b26">26</xref>, <italic>foxa3</italic> is a crucial regulator of hypertrophic chondrocyte differentiation<xref ref-type="bibr" rid="b27">27</xref>, <italic>maf</italic> promotes osteoblast differentiation<xref ref-type="bibr" rid="b28">28</xref>, and <italic>CCAAT/enhancer-binding protein delta</italic> is involved in inflammation<xref ref-type="bibr" rid="b29">29</xref>. Secondly, we found that the MCM (minichromosome maintenance complex) family, which is the DNA helicase complex required for DNA replication, was up-regulated at day 6. Especially, <italic>mcm3</italic> in osteoblasts was reported to be up-regulated by irradiation<xref ref-type="bibr" rid="b30">30</xref>. Taken together, our results demonstrate that cells immediately produce the necessary transcription factors and remodel the chromatin structure in their nucleus. Interestingly, 2 transcription factor genes, <italic>gadd45</italic> and <italic>klf2</italic>, were reportedly up-regulated under hypergravity in the another fish model, zebrafish<xref ref-type="bibr" rid="b31">31</xref>; and these 2 genes were also up-regulated under microgravity (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S4</xref>). Furthermore, <italic>c-fos</italic>, <italic>jun-B-like</italic>, and <italic>jun dimerization protein 2-like</italic> were also up-regulated under microgravity (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S4</xref>); and in a clinorotation study, which is commonly used to compensate for the unilateral effect of gravity, FOS-JUN transcription factors were regulated by the GADD45B factor for their global expression<xref ref-type="bibr" rid="b32">32</xref>. Taken together, these findings indicate that there may exist a general mechanism against the gravity.</p>
+              <p>In the analysis of commonly up-regulated genes in the whole-body fish at days 2 and 6, and in pharyngeal bones at day 2, we found that 5 of them, i.e., <italic>c-fos</italic>, <italic>jun-B-like</italic>, <italic>pai-1</italic>, <italic>ddit4,</italic> and <italic>tsc22d3</italic>, were commonly up-regulated. c-Fos and jun-b are immediate early-response genes that include response to alteration of gravity<xref ref-type="bibr" rid="b33">33</xref><xref ref-type="bibr" rid="b34">34</xref>; and among the members of the jun family, junB is quickly activated, as was shown in a clinostat experiment<xref ref-type="bibr" rid="b34">34</xref>. This jun member is a part of the inducible transcription factor complex AP-1, which is a positive regulator for controlling the formation of primary osteoblasts and osteoclasts<xref ref-type="bibr" rid="b35">35</xref>. Furthermore, TGF-β induces pai-1<xref ref-type="bibr" rid="b36">36</xref> and tsc22<xref ref-type="bibr" rid="b37">37</xref><xref ref-type="bibr" rid="b38">38</xref>. Omata <italic>et al</italic>. reported that c-fos and Smads can activate osteoclasts, in which Smads are involved in the TGF-β signaling pathway<xref ref-type="bibr" rid="b39">39</xref>, a pathway potentially activated by mechanical stress.</p>
+              <p>Previous studies showed that glucocorticoid induces pai-1<xref ref-type="bibr" rid="b37">37</xref>, ddit4<xref ref-type="bibr" rid="b40">40</xref>, and tsc22d3<xref ref-type="bibr" rid="b41">41</xref> and that the transcription factor AP1 regulates glucocorticoid receptor (GR) binding at the chromatin level<xref ref-type="bibr" rid="b42">42</xref>. GRs are possibly involved in osteoclast activation, because GR and AP-1 synergistically activate transcription, in which AP-1 guides GR binding. Pai-1 and Tsc22d3 are activated by the combination of TGF-β and GR<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b36">36</xref><xref ref-type="bibr" rid="b41">41</xref><xref ref-type="bibr" rid="b43">43</xref><xref ref-type="bibr" rid="b44">44</xref>, whereas ddit4 is enhanced by GR<xref ref-type="bibr" rid="b40">40</xref>. During spaceflight, blood pressure changes early in orbit<xref ref-type="bibr" rid="b45">45</xref><xref ref-type="bibr" rid="b46">46</xref>. It is also known that the stress of elevated blood pressure produces nitric oxide (NO)<xref ref-type="bibr" rid="b47">47</xref> or NO reduces blood pressure<xref ref-type="bibr" rid="b48">48</xref>. Recently, it was shown that GR and NO have a synergistic function<xref ref-type="bibr" rid="b49">49</xref>; and interestingly, it was reported that stimulation by NO induces <italic>tsc22d3</italic>, <italic>ddit4</italic> and <italic>klf2</italic><xref ref-type="bibr" rid="b50">50</xref>, and that preeclamptic plasma down-regulates <italic>klf9</italic>, <italic>tsc22d3</italic>, <italic>cebpb</italic>, <italic>ddit4</italic> and <italic>jdp2</italic><xref ref-type="bibr" rid="b51">51</xref>. In our results, expressions of these genes were altered under microgravity, which thus suggests that NO-GR signaling is related to the “microgravitational stress”. Taken together, available data indicate that the GR is the main molecule involved in the effect of microgravity on cells, consistent with our observations of activation of GRs in medaka fish reared long-term in the ISS<xref ref-type="bibr" rid="b21">21</xref>. Finally, to clarify the GR action under microgravity, further analyses are required. We plan to further investigate the function of these genes in our next space experiment.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Methods</title>
+              <sec disp-level="2">
+                <title>Double-transgenic medaka lines</title>
+                <p>We established 4 medaka double-transgenic lines: <italic>osterix</italic>-DsRed<xref ref-type="bibr" rid="b20">20</xref>/<italic>TRAP</italic>-GFP<xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b21">21</xref>, <italic>osteocalcin</italic>-DsRed<xref ref-type="bibr" rid="b12">12</xref>/<italic>TRAP</italic>-GFP<xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b21">21</xref>, <italic>RANKL</italic>-GFP/<italic>MMP9</italic>-DsRed, and <italic>cox2</italic>-GFP<xref ref-type="bibr" rid="b24">24</xref>/<italic>TRAP</italic>-DsRed<xref ref-type="bibr" rid="b24">24</xref>.</p>
+                <p><italic>MMP9</italic>-DsRed line: A 3.2-kb upstream regulatory region of the medaka mmp9 gene was amplified by using the following primers: 5′-GCGAAGCTTCATGTTGCTAAGTCTCAGAGTC-3′ (forward) and 5′-GCGAATTCTTTGAGATCTAATGTGGACTAGTG-3′ (reverse). The amplified fragments were cloned into the TA cloning vector. We then digested the 5′-half fragment with HindIII and EcoRI, and subcloned it into the HindIII/EcoRI site of the I-Sce1 backbone vector, which was subsequently inserted into DsRed-Express/SV40polyA (Clontech) at the HindIII/AflII sites in the pBSKI2 vector (AMAGEN).</p>
+                <p><italic>RANKL</italic>-GFP line: The fosmid clone golwfno356_d02 including the <italic>rankl</italic> genomic locus was obtained from an ensemble database and NBRP Medaka (<ext-link ext-link-type="uri" xlink:href="https://shigen.nig.ac.jp/medaka/">https://shigen.nig.ac.jp/medaka/</ext-link>), utilized for homologous recombination with an EGFP-kanamycin cassette by using the protocol previously described<xref ref-type="bibr" rid="b52">52</xref>. The EGFP cassette was amplified by using the following primers: 5′-<underline>AAGCCTCCAGAGTCCGGGAGCGTGGGGCCGATCCGCACGCGACGCGCGTC</underline>TCCACCG GTCGCCAC CATGG-3′ (forward) and 5′-<underline>GCGCTCGACAGGCTCCTCGGAGCGCGCGCGCGCGCACAGGCTGCCCTTAC</underline>GAGGCTATGGCAGGGCCTGC-3′ (reverse). The underlines show the homologous recombination sites. The PCR products were recombined into exon 1 of the medaka <italic>rankl</italic> gene.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Two space experiments for study of the initial response to microgravity</title>
+                <p>We performed space experiments twice using medaka fish for the study of the early response to microgravity (<xref ref-type="table" rid="t1">Table 1</xref>). In 2012, 6 juvenile fish each were preserved by RNAlater at the ISS at days 2 and 6 after launch. In 2014, the fluorescent signals from 24 larvae fish of 4 double transgenic lines were observed at the ISS for <italic>in vivo</italic> imaging under microgravity.</p>
+                <p>The experiments were performed in accordance with policies and protocols approved by the Japan Aerospace Exploration Agency (JAXA) Institutional Animal Care and Use Committee. In the experiment at the ISS in 2012, at days 2 and 6 after launch, medaka fish were transported into the “Fish Fixation Apparatus” for analysis of mRNA expression levels. The buffer used in the Fish Fixation Apparatus was RNAlater (Sigma-Aldrich, MO, USA). Specimens were frozen and stored at −95 °C for later mRNA analyses. These specimens were maintained at −95 °C and transported from NASA to Japan.</p>
+                <p>In the next experiment, medaka larvae were placed in the “Medaka Chamber” and flown on the Soyuz flight TMA-10M (Roscosmos, Russia) in 2014. After arrival at KIBO, which is the space laboratory of Japan in the International Space Station (ISS), the medaka chambers were set under a fluorescence microscope for live imaging for 8 days.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Embedding of medaka larvae for <italic>in vivo</italic> imaging</title>
+                <p>Cab, an inbred wild-type strain of the medaka (O. latipes), was used throughout this study. Fish were kept under a photoperiod of 14 h light/10 h darkness at 28 °C. Eggs were obtained and kept at 25–28 °C after collection. After hatching at day 9, larvae were embedded in Mebiol Gel (Mebiol Inc). Mebiol Gel has a unique property; i.e., it is a liquid at a low temperature, but turns into a gel upon being warmed up.</p>
+                <p>For preparation of the gel solution, 0.5 ppm methylene blue in water including 1% streptomycin and 0.57% penicillin was filtered, after which 12 ml of the solution was added to the Mebiol Gel container. For dissolution, the containers were shaken for 2 days at 4 °C.</p>
+                <p>Hatching larvae were incubated on ice for 10 minutes for anesthesia, and 12 larvae were lined up on the glass plate of a chamber. Promptly, the chamber was filled with 2.1 ml of gel solution, after which its upper side was covered with a semipermeable membrane. As shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S1</xref>, pharyngeal bones were clearly observed from the ventral side. In this experiment, the ventral side was oriented toward the glass plate for observation via an objective lens (<xref ref-type="fig" rid="f1">Fig. 1b</xref>).</p>
+                <p>Medaka chamber (#1) contained <italic>osterix</italic>-DsRed/<italic>TRAP</italic>-GFP (n = 10) and <italic>RANKL</italic>-GFP/<italic>MMP9</italic>-DsRed (n = 2); and Medaka chamber (#2), <italic>RANKL</italic>-GFP/<italic>MMP9</italic>-DsRed (n = 3), <italic>osteocalcin</italic>-DsRed/<italic>TRAP</italic>-GFP (n = 5), and <italic>cox2</italic>-GFP/<italic>TRAP</italic>-DsRed (n = 4). Three chambers including backup samples were prepared for #1 and #2, respectively.</p>
+                <p>The experiment for the ground control was carried out under the same conditions as used for the flight group.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Microscope Observation System</title>
+                <p>The Microscope Observation System consisted of a microscope, a power supply, and the control unit containing a VGA-NTSC converter and an Experiment Laptop Terminal (ELT). This system was used to conduct fluorescence observations and also supported live imaging of medaka transgenic lines. We manipulated this system under the same measurement conditions both at ISS and on the ground. During the experiment at the ISS, the crew set up the medaka sample at the ISS, and remote observations and operations were conducted by command from Earth via the ELT (Experiment Laptop Terminal). The recorded image files were transferred back to Earth. The microscope used was an inverted vertical illumination fluorescence microscope (DMI6000B, Leica Microsystems) partially modified to fit the space environment. All microscope operations on the stage, the object lens revolver, the fluorescence filter turret, and the capacitor were controlled electrically<xref ref-type="bibr" rid="b53">53</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Live imaging of medaka fish</title>
+                <p>Twelve larvae at stage 39 were embedded in one “Medaka Chamber” (<xref ref-type="fig" rid="f1">Fig. 1a</xref>), where larvae in Mebiol gel (Mebiol Inc.) were covered with a gas-permeable membrane to remain alive. The temperature for this experiment was maintained between 19–23 °C. The chambers including fish larvae were shaded all day. The numbers of fish in the flight and ground groups are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>. The growth of fish in the flight group was similar to that of those in the ground group, and the larvae in both conditions were at stage 39 when they were embedded in the gel.</p>
+                <p>The microscope used was a modified fluorescence microscope (DMI 6000B, Leica Microscope Systems Co.), which was controlled by a specialized software. This software was able to receive a command from the ground control and execute the microscope’s actions continuously by using a batch process. Fluorescent signals were observed with the filter set and the LED light source optimized for each signal. Collection of images of live larvae in random spatial distribution was performed in 3 steps. In the first step, the XY coordinates of each larva was set approximately by using a 5x objective lens. In the second step, these coordinates were narrowed down; and the Z coordinate was set within the limits of 1000 μm by using a 10x objective lens. The interval of all continuous images was 100 μm in the head region. In the final step, the tack-sharp Z-stack images within the limits of 500 μm were captured by using a 20x lens. The interval of all continuous images was 5 μm in the pharyngeal bone region. These steps were summarized in “<xref ref-type="fig" rid="f1">Fig. 1</xref>”.</p>
+                <p>In the ground control group, images were captured under the same conditions as used for the flight group, and the temperature was controlled at around 21 °C. We measured fluorescent signals using the same time course on the ground and in the flight. We confirmed that there was no significant difference in the calibration of the microscope by using the background luminance caused by the excitation light for both GFP and DsRed fluorescence. We checked this calibration value by using <italic>cox-2-GFP</italic> signals at the head of the transgenic line, which showed the constitutive signals and found a similar level of signals in both ISS and the ground (data not shown).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Quantitative analysis of fluorescent signals</title>
+                <p>The intensity and area of GFP and DsRed signals were calculated by use of ImageJ software (ImageJ). The fluorescent signal area was selected by the process <italic>Image</italic>/<italic>Adjust</italic>/<italic>Threshold</italic> in ImageJ. Adjustment of the parameter in “<italic>Threshold</italic>” shows the adequate selected area as a “red region” on the window of ImageJ. Next, the intensity and the area were calculated by the process <italic>Analyze</italic>/<italic>Measure</italic> (“<italic>Limit to threshold</italic>” is selected in “<italic>Set Measurements</italic>”). The fluorescent signal area was cropped by “<italic>Polygon sections”</italic> when necessary. The captured images during flight were noised as small spots by cosmic rays. These small spots were canceled by removal of outliers (radius: 2.0 pixels, threshold: 50, and bright outliers). The range of each observation was adjusted enough to contain the fluorescence of tissues. The observation of pharyngeal bones in the flight samples covered 101 slices, and that of the ground control, about 55 slices, by focus adjustment with manual operation for the minimum range. The images were stacked in a single file. As described above, we selected the fluorescent signal area and calculated it with the process, <italic>Analyze</italic>/<italic>Histogram,</italic> by the measurement of both “area” and “intensity” for all images, which was shown as a stacked file.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Statistics of fluorescent signals</title>
+                <p>The fluorescent signal data are shown as the mean ± s.e.m. The statistical analysis was performed by the one-way analysis of variance, followed by unpaired Student’s <italic>t</italic>-test. A P-value &lt; 0.05 was conventionally considered statistically significant.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Analysis for the localization of osteoblasts and osteoclasts</title>
+                <p>For <italic>osterix</italic>-DsRed and <italic>TRAP</italic>-GFP in the pharyngeal bone region, the three-dimensional images of the fluorescent proteins were constructed by using Fiji, an image processing package.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Hypergravity experiment</title>
+                <p>To confirm the effect of hypergravity at launch, we reproduced the hypergravity condition<xref ref-type="bibr" rid="b54">54</xref>. The embedded <italic>osterix</italic>-DsRed transgenic medaka fish in a gel were continuously exposed to 4.3 G for 2 minutes, 2.7 G for 2 minutes 40 seconds, and 3.75 G for 4 minutes 5 seconds. The fluorescent signals for <italic>osterix</italic>-DsRed were observed before 1 day (day-1), immediately after (day 0), 1 day after (day 1) and 2 days after (day 2) exposure to the hypergravity by using a centrifuge customized for medaka fish (LIX-140SP, Tomy Seiko Co., Ltd). The larvae were kept at 25 °C for the experiment.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>RNA preparation</title>
+                <p>Medaka fish were preserved by use of RNAlater at days 2 and 6 after launch into spaceflight in 2012. For flight specimens, RNAs from pharyngeal bones, or whole bodies were extracted at day 2 (n = 4), or at days 2 (n = 3) and 6 (n = 3) after launch. Ground control fish were preserved at Baikonur at day 2 after launch, and RNAs from pharyngeal bones, or whole bodies were extracted as day 2 (n = 10) control, or days 2 (n = 3) and 6 (n = 3) control.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Whole transcriptome analysis by HiSeq</title>
+                <p>Since a small amount of RNA was extracted from pharyngeal bones at day 2 after launch, flight- and ground- cDNAs were synthesized by using a mixture of RNAs of all extracted samples. The method was followed by the protocol previously reported<xref ref-type="bibr" rid="b21">21</xref>.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>GO (gene ontology) analysis of whole-body RNA</title>
+                <p>RNAs from whole bodies were examined by RNA-Seq analysis. The library was of the single-end type. Reads for each condition were mapped to the reference genome. FPKM (fragments per kilobase of exon per million mapped fragments) was calculated for each library, and the difference in FPKM between flight and control groups was compared with consideration of biological duplication. We identified DEGs (differentially expressed genes) by performing the <italic>t</italic>-test.</p>
+                <p>Three patterns, day 2 after launch (n = 3), day 6 after launch (n = 3), and both days 2 and 6 (n = 6), were compared with each other; and the replication number was indicated. In confirmation of common or non-common DEG, a candidate DEG was picked up; and then we performed the GO analysis.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Statistics of transcriptome</title>
+                <p>In the GO analysis, the threshold of p-values in the analysis was set at 0.05. False-discovery rates (FDR) were calculated, and the threshold in the analysis was set at 0.2.</p>
+                <p>In the gene expression analysis, the threshold of p-values in the analysis was set at 0.05. False-discovery rates (FDR) were calculated and the threshold in the analysis was set at 0.3.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>cDNA sequence registration</title>
+                <p>We registered all RNA-Seq data at the DDBJ (the DNA Data Bank of Japan; <ext-link ext-link-type="uri" xlink:href="http://www.ddbj.nig.ac.jp/">http://www.ddbj.nig.ac.jp/</ext-link>). Raw reads of the transcriptome analysis in this study are deposited in the DDBJ Sequence Read Archive under BioProject ID: PRJDB5292.</p>
+              </sec>
+            </sec>
+            <sec disp-level="1">
+              <title>Additional Information</title>
+              <p><bold>How to cite this article:</bold> Chatani, M. <italic>et al</italic>. Acute transcriptional up-regulation specific to osteoblasts/osteoclasts in medaka fish immediately after exposure to microgravity. <italic>Sci. Rep.</italic>
+<bold>6</bold>, 39545; doi: 10.1038/srep39545 (2016).</p>
+              <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="S1">
+              <title>Supplementary Material</title>
+              <supplementary-material id="d32e25" content-type="local-data">
+                <caption>
+                  <title>Supplementary Figures and Tables</title>
+                </caption>
+                <media xlink:href="srep39545-s1.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We thank Dr. K. Inohaya in Tokyo Institute of Technology for providing the <italic>osterix</italic> and <italic>osteocalcin</italic> transgenic lines, Mr. K. Terada in Tokyo Institute of Technology for examining the results of the transcriptome analysis, Ms. M. Hattori in Chiyoda Corporation for embedding of medaka larvae, Mr. T. Sakimura in Japan Space Forum for preparing the medaka chamber, and Dr. R. Kajitani in Tokyo Institute of Technology for registration of sequence data to the DDBJ. We also thank astronauts Mr. K. Wakata in JAXA for setting the medaka chambers for fluorescence microscopy at the ISS. RNAseq libraries constructions and analysis was partially supported by Russian Science Foundation grant for international groups (No. 14-44-00022) work was mainly by grants-in-aid from the Ministry of Education, Culture, Sports, Science and Technology of Japan (grant no. 25514003, 16K15778, 16H01635) and partly by the Ground-based Research Program for Space Utilization promoted by the Japan Space Forum.</p>
+            </ack>
+            <ref-list>
+              <ref id="b1">
+                <mixed-citation publication-type="journal"><name><surname>Sorger</surname><given-names>P. K.</given-names></name><article-title>Heat shock factor and the heat shock response</article-title>. <source>Cell</source><volume>65</volume>, <fpage>363</fpage>–<lpage>366</lpage> (<year>1991</year>).<pub-id pub-id-type="pmid">2018972</pub-id></mixed-citation>
+              </ref>
+              <ref id="b2">
+                <mixed-citation publication-type="journal"><name><surname>Keyse</surname><given-names>S. M.</given-names></name> &amp; <name><surname>Emslie</surname><given-names>E. A.</given-names></name>
+<article-title>Oxidative stress and heat shock induce a human gene encoding a protein-tyrosine phosphatase</article-title>. <source>Nature</source>
+<volume>359</volume>, <fpage>644</fpage>–<lpage>7</lpage> (<year>1992</year>).<pub-id pub-id-type="pmid">1406996</pub-id></mixed-citation>
+              </ref>
+              <ref id="b3">
+                <mixed-citation publication-type="journal"><name><surname>Rius</surname><given-names>J.</given-names></name>, <name><surname>Guma</surname><given-names>M.</given-names></name>, <name><surname>Schachtrup</surname><given-names>C.</given-names></name>, <name><surname>Akassoglou</surname><given-names>K.</given-names></name>, <name><surname>Zinkernagel</surname><given-names>A. S.</given-names></name><etal/>. <article-title>NF-κB links innate immunity to the hypoxic response through transcriptional regulation of HIF-1α</article-title>. <source>Nature</source><volume>453</volume>, <fpage>807</fpage>–<lpage>811</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18432192</pub-id></mixed-citation>
+              </ref>
+              <ref id="b4">
+                <mixed-citation publication-type="journal"><name><surname>Clement</surname><given-names>G.</given-names></name><source>Fundamentals of Space Medicine 2nd edn (Kindle edition)</source><volume>Vol. 23</volume> Space Technology Library (eds <name><surname>Werts</surname><given-names>James R.</given-names></name>
+<etal/>.) ch. 4.3.2, location 3923-3966 of 8799 (Springer, <year>2011</year>).</mixed-citation>
+              </ref>
+              <ref id="b5">
+                <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>J.</given-names></name>, <name><surname>Verheyden</surname><given-names>B.</given-names></name>, <name><surname>Beckers</surname><given-names>F.</given-names></name> &amp; <name><surname>Aubert</surname><given-names>A. E.</given-names></name>
+<article-title>Haemodynamic adaptation during sudden gravity transitions</article-title>. <source>Eur. J. Appl. Physiol.</source>
+<volume>112</volume>, <fpage>79</fpage>–<lpage>89</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">21479958</pub-id></mixed-citation>
+              </ref>
+              <ref id="b6">
+                <mixed-citation publication-type="journal"><name><surname>White</surname><given-names>A. R.</given-names></name>, <name><surname>Ryoo</surname><given-names>S.</given-names></name>, <name><surname>Bugaj</surname><given-names>L.</given-names></name>, <name><surname>Attarzadeh</surname><given-names>D. O.</given-names></name>, <name><surname>Thiyagarajan</surname><given-names>S.</given-names></name><etal/>. <article-title>Early changes in vasoreactivity after simulated microgravity are due to an upregulation of the endothelium-dependent nitric oxide/cGMP pathway</article-title>. <source>Eur. J. Appl. Physiol.</source><volume>110</volume>, <fpage>395</fpage>–<lpage>404</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20512503</pub-id></mixed-citation>
+              </ref>
+              <ref id="b7">
+                <mixed-citation publication-type="journal"><name><surname>Rambaut</surname><given-names>P. C.</given-names></name> &amp; <name><surname>Johnston</surname><given-names>R. S.</given-names></name>
+<article-title>Prolonged weightlessness and calcium loss in man</article-title>. <source>Acta Astronaut.</source>
+<volume>6</volume>, <fpage>1113</fpage>–<lpage>1122</lpage> (<year>1979</year>).<pub-id pub-id-type="pmid">11883480</pub-id></mixed-citation>
+              </ref>
+              <ref id="b8">
+                <mixed-citation publication-type="journal"><name><surname>Clement</surname><given-names>G.</given-names></name><source>Fundamentals of Space Medicine 2nd edn (Kindle edition)</source>, <volume>Vol. 23</volume> Space Technology Library (eds <name><surname>Werts</surname><given-names>James R.</given-names></name>
+<etal/>.) ch. 5.4.1, location 4726–4768 of 8799 (Springer, <year>2011</year>).</mixed-citation>
+              </ref>
+              <ref id="b9">
+                <mixed-citation publication-type="journal"><name><surname>McCarthy</surname><given-names>I.</given-names></name>, <name><surname>Goodship</surname><given-names>A.</given-names></name>, <name><surname>Herzog</surname><given-names>R.</given-names></name>, <name><surname>Oganov</surname><given-names>V.</given-names></name>, <name><surname>Stussi</surname><given-names>E.</given-names></name><etal/>. <article-title>Investigation of bone changes in microgravity during long and short duration space flight: Comparison of techniques</article-title>. <source>Eur. J. Clin. Invest.</source><volume>30</volume>, <fpage>1044</fpage>–<lpage>1054</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11122319</pub-id></mixed-citation>
+              </ref>
+              <ref id="b10">
+                <mixed-citation publication-type="journal"><name><surname>Wehland</surname><given-names>M.</given-names></name>, <name><surname>Aleshcheva</surname><given-names>G.</given-names></name>, <name><surname>Schulz</surname><given-names>H.</given-names></name>, <name><surname>Saar</surname><given-names>K.</given-names></name>, <name><surname>Hübner</surname><given-names>N.</given-names></name><etal/>. <article-title>Differential gene expression of human chondrocytes cultured under short-term altered gravity conditions during parabolic flight maneuvers</article-title>. <source>Cell Commun. Signal</source>. <volume>13</volume>, <fpage>1</fpage>–<lpage>13</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25589173</pub-id></mixed-citation>
+              </ref>
+              <ref id="b11">
+                <mixed-citation publication-type="journal"><name><surname>Aleshcheva</surname><given-names>G.</given-names></name>, <name><surname>Wehland</surname><given-names>M.</given-names></name>, <name><surname>Sahana</surname><given-names>J.</given-names></name>, <name><surname>Bauer</surname><given-names>J.</given-names></name>, <name><surname>Corydon</surname><given-names>T. J.</given-names></name><etal/>. <article-title>Moderate alterations of the cytoskeleton in human chondrocytes after short-term microgravity produced by parabolic flight maneuvers could be prevented by up-regulation of BMP-2 and SOX-9</article-title>. <source>FASEB J.</source><volume>29</volume>, <fpage>2303</fpage>–<lpage>2314</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25681461</pub-id></mixed-citation>
+              </ref>
+              <ref id="b12">
+                <mixed-citation publication-type="journal"><name><surname>Inohaya</surname><given-names>K.</given-names></name>, <name><surname>Takano</surname><given-names>Y.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title>The teleost intervertebral region acts as a growth center of the centrum: <italic>in vivo</italic> visualization of osteoblasts and their progenitors in transgenic fish</article-title>. <source>Dev. Dyn.</source>
+<volume>236</volume>, <fpage>3031</fpage>–<lpage>3046</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17907202</pub-id></mixed-citation>
+              </ref>
+              <ref id="b13">
+                <mixed-citation publication-type="journal"><name><surname>Nemoto</surname><given-names>Y.</given-names></name>, <name><surname>Higuchi</surname><given-names>K.</given-names></name>, <name><surname>Baba</surname><given-names>O.</given-names></name>, <name><surname>Kudo</surname><given-names>A.</given-names></name> &amp; <name><surname>Takano</surname><given-names>Y.</given-names></name>
+<article-title>Multinucleate osteoclasts in medaka as evidence of active bone remodeling</article-title>. <source>Bone.</source>
+<volume>40</volume>, <fpage>399</fpage>–<lpage>408</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17049327</pub-id></mixed-citation>
+              </ref>
+              <ref id="b14">
+                <mixed-citation publication-type="journal"><name><surname>Chatani</surname><given-names>M.</given-names></name>, <name><surname>Takano</surname><given-names>Y.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title>Osteoclasts in bone modeling, as revealed by <italic>in vivo</italic> imaging, are essential for organogenesis in fish</article-title>. <source>Dev. Biol.</source>
+<volume>360</volume>, <fpage>96</fpage>–<lpage>109</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21963458</pub-id></mixed-citation>
+              </ref>
+              <ref id="b15">
+                <mixed-citation publication-type="journal"><name><surname>Mantoku</surname><given-names>A.</given-names></name>, <name><surname>Chatani</surname><given-names>M.</given-names></name>, <name><surname>Aono</surname><given-names>K.</given-names></name>, <name><surname>Inohaya</surname><given-names>K.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title>Osteoblast and osteoclast behaviors in the turnover of attachment bones during medaka tooth replacement</article-title>. <source>Dev. Biol.</source>
+<volume>409</volume>, <fpage>370</fpage>–<lpage>381</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26658319</pub-id></mixed-citation>
+              </ref>
+              <ref id="b16">
+                <mixed-citation publication-type="journal"><name><surname>Aubin</surname><given-names>J. E.</given-names></name><article-title>Mesenchymal stem cells and osteoblast differentiation</article-title>. <source>Principles of Bone Biology third edition:</source><fpage>85</fpage>–<lpage>107</lpage>, edited by Bilezikian <etal/>.Academic Press (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="b17">
+                <mixed-citation publication-type="journal"><name><surname>Takeshita</surname><given-names>S.</given-names></name>, <name><surname>Kaji</surname><given-names>K.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title>Identification and characterization of the new osteoclast progenitor with macrophage phenotypes being able to differentiate into mature osteoclasts</article-title>. <source>J. Bone Miner. Res.</source>
+<volume>15</volume>, <fpage>1477</fpage>–<lpage>88</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10934646</pub-id></mixed-citation>
+              </ref>
+              <ref id="b18">
+                <mixed-citation publication-type="journal"><name><surname>Dai</surname><given-names>X. M.</given-names></name>, <name><surname>Ryan</surname><given-names>G. R.</given-names></name>, <name><surname>Hapel</surname><given-names>A. J.</given-names></name>, <name><surname>Dominguez</surname><given-names>M. G.</given-names></name>, <name><surname>Russell</surname><given-names>R. G.</given-names></name><etal/>. <article-title>Targeted disruption of the mouse colony-stimulating factor 1 receptor gene results in osteopetrosis, mononuclear phagocyte deficiency, increased primitive progenitor cell frequencies, and reproductive defects</article-title>. <source>Blood</source><volume>99</volume>, <fpage>111</fpage>–<lpage>120</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">11756160</pub-id></mixed-citation>
+              </ref>
+              <ref id="b19">
+                <mixed-citation publication-type="journal"><name><surname>To</surname><given-names>T. T.</given-names></name>, <name><surname>Witten</surname><given-names>P. E.</given-names></name>, <name><surname>Renn</surname><given-names>J.</given-names></name>, <name><surname>Bhattacharya</surname><given-names>D.</given-names></name>, <name><surname>Huysseune</surname><given-names>A.</given-names></name><etal/>. <article-title>Rankl-induced osteoclastogenesis leads to loss of mineralization in a medaka osteoporosis model</article-title>. <source>Development</source><volume>139</volume>, <fpage>141</fpage>–<lpage>50</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22096076</pub-id></mixed-citation>
+              </ref>
+              <ref id="b20">
+                <mixed-citation publication-type="journal"><name><surname>Inohaya</surname><given-names>K.</given-names></name>, <name><surname>Takano</surname><given-names>Y.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title>Production of Wnt4b by floor plate cells is essential for the segmental patterning of the vertebral column in medaka</article-title>. <source>Development</source>
+<volume>137</volume>, <fpage>1807</fpage>–<lpage>1813</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20460365</pub-id></mixed-citation>
+              </ref>
+              <ref id="b21">
+                <mixed-citation publication-type="journal"><name><surname>Chatani</surname><given-names>M.</given-names></name>, <name><surname>Mantoku</surname><given-names>A.</given-names></name>, <name><surname>Takeyama</surname><given-names>K.</given-names></name>, <name><surname>Abduweli</surname><given-names>D.</given-names></name>, <name><surname>Sugamori</surname><given-names>Y.</given-names></name><etal/>. <article-title>Microgravity promotes osteoclast activity in medaka fish reared at the international space station</article-title>. <source>Sci. Rep</source>. <volume>5</volume>, <fpage>1</fpage>–<lpage>13</lpage> (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="b22">
+                <mixed-citation publication-type="journal"><name><surname>Unsworth</surname><given-names>B. R.</given-names></name> &amp; <name><surname>Lelkes</surname><given-names>P. I.</given-names></name>
+<article-title>Growing tissues in microgravity</article-title>. <source>Nat. Med</source>. <volume>4</volume>, <fpage>901</fpage>–<lpage>907</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9701241</pub-id></mixed-citation>
+              </ref>
+              <ref id="b23">
+                <mixed-citation publication-type="journal"><name><surname>Yasuda</surname><given-names>H.</given-names></name>, <name><surname>Shima</surname><given-names>N.</given-names></name>, <name><surname>Nakagawa</surname><given-names>N.</given-names></name>, <name><surname>Yamaguchi</surname><given-names>K.</given-names></name>, <name><surname>Kinosaki</surname><given-names>M.</given-names></name><etal/>. <article-title>Osteoclast differentiation factor is a ligand for osteoprotegerin/osteoclastogenesis-inhibitory factor and is identical to TRANCE/RANKL</article-title>. <source>Proc. Natl. Acad. Sci. USA</source><volume>95</volume>, <fpage>3597</fpage>–<lpage>3602</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9520411</pub-id></mixed-citation>
+              </ref>
+              <ref id="b24">
+                <mixed-citation publication-type="journal"><name><surname>Takeyama</surname><given-names>K.</given-names></name>, <name><surname>Chatani</surname><given-names>M.</given-names></name>, <name><surname>Takano</surname><given-names>Y.</given-names></name> &amp; <name><surname>Kudo</surname><given-names>A.</given-names></name>
+<article-title><italic>In-vivo</italic> imaging of the fracture healing in medaka revealed two types of osteoclasts before and after the callus formation by osteoblasts</article-title>. <source>Dev. Biol.</source>
+<volume>394</volume>, <fpage>292</fpage>–<lpage>304</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25131195</pub-id></mixed-citation>
+              </ref>
+              <ref id="b25">
+                <mixed-citation publication-type="journal"><name><surname>Vico</surname><given-names>L.</given-names></name>, <name><surname>Collet</surname><given-names>P.</given-names></name>, <name><surname>Guignandon</surname><given-names>A.</given-names></name>, <name><surname>Lafage-Proust</surname><given-names>M.-H.</given-names></name>, <name><surname>Thomas</surname><given-names>T.</given-names></name><etal/>. <article-title>Effects of long-term microgravity exposure on cancellous and cortical weight-bearing bones of cosmonauts</article-title>. <source>Lancet</source><volume>355</volume>, <fpage>1607</fpage>–<lpage>1611</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10821365</pub-id></mixed-citation>
+              </ref>
+              <ref id="b26">
+                <mixed-citation publication-type="journal"><name><surname>Chinenov</surname><given-names>Y.</given-names></name>, <name><surname>Coppo</surname><given-names>M.</given-names></name>, <name><surname>Gupte</surname><given-names>R.</given-names></name>, <name><surname>Sacta</surname><given-names>M. a.</given-names></name> &amp; <name><surname>Rogatsky</surname><given-names>I.</given-names></name>
+<article-title>Glucocorticoid receptor coordinates transcription factor-dominated regulatory network in macrophages</article-title>. <source>BMC Genomics</source>
+<volume>15</volume>, <fpage>656</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25099603</pub-id></mixed-citation>
+              </ref>
+              <ref id="b27">
+                <mixed-citation publication-type="journal"><name><surname>Lonescu</surname><given-names>A.</given-names></name>, <name><surname>Kozhemyakina</surname><given-names>E.</given-names></name>, <name><surname>Nicolae</surname><given-names>C.</given-names></name>, <name><surname>Kaestner</surname><given-names>K. H.</given-names></name>, <name><surname>Olsen</surname><given-names>B. R.</given-names></name><etal/>. <article-title>FoxA family members are crucial regulators of the hypertrophic chondrocyte differentiation program</article-title>. <source>Dev. Cell</source><volume>22</volume>, <fpage>927</fpage>–<lpage>939</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22595668</pub-id></mixed-citation>
+              </ref>
+              <ref id="b28">
+                <mixed-citation publication-type="journal"><name><surname>Nishikawa</surname><given-names>K.</given-names></name>, <name><surname>Nakashima</surname><given-names>T.</given-names></name>, <name><surname>Takeda</surname><given-names>S.</given-names></name>, <name><surname>Isogai</surname><given-names>M.</given-names></name>, <name><surname>Hamada</surname><given-names>M.</given-names></name><etal/>. <article-title>Maf promotes osteoblast differentiation in mice by mediating the age-related switch in mesenchymal cell differentiation</article-title>. <source>J. Clin. Invest.</source><volume>120</volume>, <fpage>3455</fpage>–<lpage>65</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20877012</pub-id></mixed-citation>
+              </ref>
+              <ref id="b29">
+                <mixed-citation publication-type="journal"><name><surname>Ko</surname><given-names>C.-Y.</given-names></name>, <name><surname>Chang</surname><given-names>W.-C.</given-names></name> &amp; <name><surname>Wang</surname><given-names>J.-M.</given-names></name>
+<article-title>Biological roles of CCAAT/Enhancer-binding protein delta during inflammation</article-title>. <source>J. Biomed. Sci.</source>
+<volume>22</volume>, <fpage>6</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25591788</pub-id></mixed-citation>
+              </ref>
+              <ref id="b30">
+                <mixed-citation publication-type="journal"><name><surname>Yamamoto</surname><given-names>M.</given-names></name>, <name><surname>Tamura</surname><given-names>K.</given-names></name>, <name><surname>Hiratsuka</surname><given-names>K.</given-names></name> &amp; <name><surname>Abiko</surname><given-names>Y.</given-names></name>
+<article-title>Stimulation of MCM3 gene expression in osteoblast by low level laser irradiation</article-title>. <source>Lasers Med. Sci.</source>
+<volume>16</volume>, <fpage>213</fpage>–<lpage>217</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11482820</pub-id></mixed-citation>
+              </ref>
+              <ref id="b31">
+                <mixed-citation publication-type="journal"><name><surname>Aceto</surname><given-names>J.</given-names></name>, <name><surname>Nourizadeh-Lillabadi</surname><given-names>R.</given-names></name>, <name><surname>Maree</surname><given-names>R.</given-names></name>, <name><surname>Dardenne</surname><given-names>N.</given-names></name>, <name><surname>Jeanray</surname><given-names>N.</given-names></name><etal/>. <article-title>Zebrafish bone and general physiology are differently affected by hormones or changes in gravity</article-title>. <source>PLoS ONE</source><volume>10</volume>, <fpage>e0126928</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26061167</pub-id></mixed-citation>
+              </ref>
+              <ref id="b32">
+                <mixed-citation publication-type="journal"><name><surname>Aceto</surname><given-names>J.</given-names></name>, <name><surname>Nourizadeh-Lillabadi</surname><given-names>R.</given-names></name>, <name><surname>Bradamante</surname><given-names>S.</given-names></name>, <name><surname>Maier</surname><given-names>J. A.</given-names></name>, <name><surname>Alestrom</surname><given-names>P.</given-names></name><etal/>. <article-title>Effects of microgravity simulation on zebrafish transcriptomes and bone physiology- exposure stating at 5 days post fertilization</article-title>. <source>Npj Microgravity</source><volume>2</volume>, <fpage>16010</fpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="b33">
+                <mixed-citation publication-type="journal"><name><surname>Pompeiano</surname><given-names>M.</given-names></name>, <name><surname>D’Ascanio</surname><given-names>P.</given-names></name>, <name><surname>Centini</surname><given-names>C.</given-names></name>, <name><surname>Pompeiano</surname><given-names>O.</given-names></name> &amp; <name><surname>Balaban</surname><given-names>E.</given-names></name>
+<article-title>Short-term (FOS) and long-term (FRA) protein expression in rat locus coeruleus neurons during the neurolab mission: Contribution of altered gravitational fields, stress, and other factors</article-title>. <source>Neuroscience</source>
+<volume>115</volume>, <fpage>111</fpage>–<lpage>123</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12401326</pub-id></mixed-citation>
+              </ref>
+              <ref id="b34">
+                <mixed-citation publication-type="journal"><name><surname>Granet</surname><given-names>C.</given-names></name>, <name><surname>Vico</surname><given-names>A. G. L.</given-names></name>, <name><surname>Alexandre</surname><given-names>C.</given-names></name> &amp; <name><surname>Lafage-Proust</surname><given-names>M.-H.</given-names></name>
+<article-title>MAP and src kinases control the induction of AP-1 members in response to changes in mechanical environment in osteoblastic cells</article-title>. <source>Cell. Signal.</source>
+<volume>14</volume>, <fpage>679</fpage>–<lpage>88</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12020768</pub-id></mixed-citation>
+              </ref>
+              <ref id="b35">
+                <mixed-citation publication-type="journal"><name><surname>Kenner</surname><given-names>L.</given-names></name>, <name><surname>Hoebertz</surname><given-names>A.</given-names></name>, <name><surname>Beil</surname><given-names>F. T.</given-names></name>, <name><surname>Keon</surname><given-names>N.</given-names></name>, <name><surname>Karreth</surname><given-names>F.</given-names></name><etal/>. <article-title>Mice lacking JunB are osteopenic due to cell-autonomous osteoblast and osteoclast defects</article-title>. <source>J. Cell Biol.</source><volume>164</volume>, <fpage>613</fpage>–<lpage>623</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">14769860</pub-id></mixed-citation>
+              </ref>
+              <ref id="b36">
+                <mixed-citation publication-type="journal"><name><surname>Pan</surname><given-names>X.-Y.</given-names></name>, <name><surname>Wang</surname><given-names>Y.</given-names></name>, <name><surname>Su</surname><given-names>J.</given-names></name>, <name><surname>Huang</surname><given-names>G.-X.</given-names></name>, <name><surname>Cao</surname><given-names>D.-M.</given-names></name><etal/>. <article-title>The mechanism and significance of synergistic induction of the expression of plasminogen activator inhibitor-1 by glucocorticoid and transforming growth factor beta in human ovarian cancer cells</article-title>. <source>Mol. Cell. Endocrinol.</source><volume>407</volume>, <fpage>37</fpage>–<lpage>45</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25770462</pub-id></mixed-citation>
+              </ref>
+              <ref id="b37">
+                <mixed-citation publication-type="journal"><name><surname>Shibanuma</surname><given-names>M.</given-names></name>, <name><surname>Kuroki</surname><given-names>T.</given-names></name> &amp; <name><surname>Nose</surname><given-names>K.</given-names></name>
+<article-title>Isolation of a gene encoding a putative leucine zipper structure that is induced by transforming growth factor beta 1 and other growth factors</article-title>. <source>J. Biol. Chem.</source>
+<volume>267</volume>, <fpage>10219</fpage>–<lpage>24</lpage> (<year>1992</year>).<pub-id pub-id-type="pmid">1587811</pub-id></mixed-citation>
+              </ref>
+              <ref id="b38">
+                <mixed-citation publication-type="journal"><name><surname>Tse</surname><given-names>W. K. F.</given-names></name>, <name><surname>Jiang</surname><given-names>Y.-J.</given-names></name> &amp; <name><surname>Wong</surname><given-names>C. K. C.</given-names></name>
+<article-title>Zebrafish transforming growth factor-β-stimulated clone 22 domain 3 (TSC22D3) plays critical roles in Bmp-dependent dorsoventral patterning via two deubiquitylating enzymes, Usp15 and Otud4</article-title>. <source>Biochim. Biophys. Acta</source>
+<volume>1830</volume>, <fpage>4584</fpage>–<lpage>93</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23665588</pub-id></mixed-citation>
+              </ref>
+              <ref id="b39">
+                <mixed-citation publication-type="journal"><name><surname>Omata</surname><given-names>Y.</given-names></name>, <name><surname>Yasui</surname><given-names>T.</given-names></name>, <name><surname>Hirose</surname><given-names>J.</given-names></name>, <name><surname>Izawa</surname><given-names>N.</given-names></name>, <name><surname>Imai</surname><given-names>Y.</given-names></name><etal/>. <article-title>Genome-wide comprehensive analysis reveals critical cooperation between Smad and c-Fos in RANKL-induced osteoclastogenesis</article-title>. <source>J. Bone Miner. Res.</source><volume>30</volume>, <fpage>869</fpage>–<lpage>877</lpage> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="b40">
+                <mixed-citation publication-type="journal"><name><surname>Wong</surname><given-names>S.</given-names></name>, <name><surname>Tan</surname><given-names>K.</given-names></name>, <name><surname>Carey</surname><given-names>K. T.</given-names></name>, <name><surname>Fukushima</surname><given-names>A.</given-names></name>, <name><surname>Tiganis</surname><given-names>T.</given-names></name><etal/>. <article-title>Glucocorticoids stimulate hepatic and renal catecholamine inactivation by direct rapid induction of the dopamine sulfotransferase Sult1d1</article-title>. <source>Endocrinology</source><volume>151</volume>, <fpage>185</fpage>–<lpage>194</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">19966186</pub-id></mixed-citation>
+              </ref>
+              <ref id="b41">
+                <mixed-citation publication-type="journal"><name><surname>Suarez</surname><given-names>P. E.</given-names></name>, <name><surname>Rodriguez</surname><given-names>E. G.</given-names></name>, <name><surname>Soundararajan</surname><given-names>R.</given-names></name>, <name><surname>Mérillat</surname><given-names>A.-M.</given-names></name>, <name><surname>Stehle</surname><given-names>J.-C.</given-names></name><etal/>. <article-title>The glucocorticoid-induced leucine zipper (gilz/Tsc22d3-2) gene locus plays a crucial role in male fertility</article-title>. <source>Mol. Endocrinol.</source><volume>26</volume>, <fpage>1000</fpage>–<lpage>13</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22556341</pub-id></mixed-citation>
+              </ref>
+              <ref id="b42">
+                <mixed-citation publication-type="journal"><name><surname>Biddie</surname><given-names>S. C.</given-names></name>, <name><surname>John</surname><given-names>S.</given-names></name>, <name><surname>Sabo</surname><given-names>P. J.</given-names></name>, <name><surname>Thurman</surname><given-names>R. E.</given-names></name>, <name><surname>Johnson</surname><given-names>T. A.</given-names></name><etal/>. <article-title>Transcription factor AP1 potentiates chromatin accessibility and glucocorticoid receptor binding</article-title>. <source>Mol. Cell</source><volume>43</volume>, <fpage>145</fpage>–<lpage>155</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21726817</pub-id></mixed-citation>
+              </ref>
+              <ref id="b43">
+                <mixed-citation publication-type="journal"><name><surname>Takahashi</surname><given-names>H.</given-names></name>, <name><surname>Ikematsu</surname><given-names>K.</given-names></name>, <name><surname>Tsuda</surname><given-names>R.</given-names></name> &amp; <name><surname>Nakasono</surname><given-names>I.</given-names></name>
+<article-title>Increase in dual specificity phosphatase 1, TGF-beta stimulated gene 22, domain family protein 3 and Luc7 homolog (S. cerevisiae)-like messenger RNA after mechanical asphyxiation in the mouse lung</article-title>. <source>Leg. Med. (Tokyo).</source>
+<volume>11</volume>, <fpage>181</fpage>–<lpage>5</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19364672</pub-id></mixed-citation>
+              </ref>
+              <ref id="b44">
+                <mixed-citation publication-type="journal"><name><surname>Nakamura</surname><given-names>M.</given-names></name>, <name><surname>Kitaura</surname><given-names>J.</given-names></name>, <name><surname>Enomoto</surname><given-names>Y.</given-names></name>, <name><surname>Lu</surname><given-names>Y.</given-names></name>, <name><surname>Nishimura</surname><given-names>K.</given-names></name><etal/>. <article-title>Transforming growth factor-β-stimulated clone-22 is a negative-feedback regulator of Ras/Raf signaling: Implications for tumorigenesis</article-title>. <source>Cancer Sci</source>. <volume>103</volume>, <fpage>26</fpage>–<lpage>33</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">21943131</pub-id></mixed-citation>
+              </ref>
+              <ref id="b45">
+                <mixed-citation publication-type="journal"><name><surname>Buckey</surname><given-names>J. C. J. R.</given-names></name>, <name><surname>Gaffney</surname><given-names>F. A.</given-names></name>, <name><surname>Lane</surname><given-names>L. D.</given-names></name>, <name><surname>Levine</surname><given-names>B. D.</given-names></name>, <name><surname>Watenpaugh</surname><given-names>D. E.</given-names></name><etal/>. <article-title>Central venous pressure in space</article-title>. <source>J. Appl Physiol.</source><volume>81</volume>, <fpage>19</fpage>–<lpage>25</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">8828643</pub-id></mixed-citation>
+              </ref>
+              <ref id="b46">
+                <mixed-citation publication-type="journal"><name><surname>Foldager</surname><given-names>N.</given-names></name>, <name><surname>Andersen</surname><given-names>T. A. E.</given-names></name>, <name><surname>Jessen</surname><given-names>F. B.</given-names></name>, <name><surname>Ellegaard</surname><given-names>P.</given-names></name>, <name><surname>Stadeager</surname><given-names>C.</given-names></name><etal/>. <article-title>Central venous pressure in humans during microgravity</article-title>. <source>J. Appl Physiol.</source><volume>81</volume>, <fpage>408</fpage>–<lpage>12</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">8828692</pub-id></mixed-citation>
+              </ref>
+              <ref id="b47">
+                <mixed-citation publication-type="journal"><name><surname>Hermann</surname><given-names>M.</given-names></name>, <name><surname>Flammer</surname><given-names>A.</given-names></name> &amp; <name><surname>Lüscher</surname><given-names>T. F.</given-names></name>
+<article-title>Nitric oxide in hypertension</article-title>. <source>J. Clin. Hypertens. (Greenwich)</source>. <volume>8</volume>, <fpage>17</fpage>–<lpage>29</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17170603</pub-id></mixed-citation>
+              </ref>
+              <ref id="b48">
+                <mixed-citation publication-type="journal"><name><surname>Sofronova</surname><given-names>S. I.</given-names></name>, <name><surname>Borzykh</surname><given-names>A. A.</given-names></name>, <name><surname>Gaynullina</surname><given-names>D. K.</given-names></name>, <name><surname>Kuzmin</surname><given-names>I. V.</given-names></name>, <name><surname>Shvetsova</surname><given-names>A. A.</given-names></name><etal/>. <article-title>Endothelial nitric oxide weakens arterial contractile responses and reduces blood pressure during early postnatal development in rats</article-title>. <source>Nitric Oxide.</source><volume>55–56</volume>, <fpage>1</fpage>–<lpage>9</lpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="b49">
+                <mixed-citation publication-type="journal"><name><surname>Cohen</surname><given-names>O.</given-names></name>, <name><surname>Ish-Shalom</surname><given-names>E.</given-names></name>, <name><surname>Kfir-Erenfeld</surname><given-names>S.</given-names></name>, <name><surname>Herr</surname><given-names>I.</given-names></name> &amp; <name><surname>Yefenof</surname><given-names>E.</given-names></name>
+<article-title>Nitric oxide and glucocorticoids synergize in inducing apoptosis of CD4<sup>+</sup>8<sup>+</sup> thymocytes: implications for ‘Death by Neglect’ and T-cell function</article-title>. <source>Int. Immunol.</source>
+<volume>24</volume>, <fpage>783</fpage>–<lpage>91</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22949567</pub-id></mixed-citation>
+              </ref>
+              <ref id="b50">
+                <mixed-citation publication-type="journal"><name><surname>Turpaev</surname><given-names>K.</given-names></name>, <name><surname>Glatigny</surname><given-names>A.</given-names></name>, <name><surname>Bignon</surname><given-names>J.</given-names></name>, <name><surname>Delacroix</surname><given-names>H.</given-names></name> &amp; <name><surname>Drapier</surname><given-names>J.-C.</given-names></name>
+<article-title>Variation in gene expression profiles of human monocytic U937 cells exposed to various fluxes of nitric oxide</article-title>. <source>Free Radic. Biol. Med.</source>
+<volume>48</volume>, <fpage>298</fpage>–<lpage>305</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">19892011</pub-id></mixed-citation>
+              </ref>
+              <ref id="b51">
+                <mixed-citation publication-type="journal"><name><surname>Calicchio</surname><given-names>R.</given-names></name>, <name><surname>Buffat</surname><given-names>C.</given-names></name>, <name><surname>Mathieu</surname><given-names>J. R.</given-names></name>, <name><surname>Salem</surname><given-names>N. B.</given-names></name>, <name><surname>Mehats</surname><given-names>C.</given-names></name><etal/>. <article-title>Preeclamptic plasma induces transcription modifications involving the AP-1 transcriptional regulator JDP2 in endothelial cells</article-title>. <source>Am. J. Pathol.</source><volume>183</volume>, <fpage>1993</fpage>–<lpage>2006</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24120378</pub-id></mixed-citation>
+              </ref>
+              <ref id="b52">
+                <mixed-citation publication-type="journal"><name><surname>Nakamura</surname><given-names>S.</given-names></name>, <name><surname>Saito</surname><given-names>D.</given-names></name> &amp; <name><surname>Tanaka</surname><given-names>M.</given-names></name>
+<article-title>Generation of transgenic medaka using modified bacterial artificial chromosome</article-title>. <source>Dev. Growth Differ</source>. <volume>50</volume>, <fpage>415</fpage>–<lpage>419</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18422685</pub-id></mixed-citation>
+              </ref>
+              <ref id="b53">
+                <mixed-citation publication-type="other">Handbook for Use of Laboratory in Kibo. Data of access: 10/12/2015, 79–82 at <ext-link ext-link-type="uri" xlink:href="http://iss.jaxa.jp/kibo/library/fact/data/pmhandbook_en.pdf">http://iss.jaxa.jp/kibo/library/fact/data/pmhandbook_en.pdf</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="b54">
+                <mixed-citation publication-type="other">Soyuz user’s manual issue 1. Data of access: 10/09/2015, 3–2 at <ext-link ext-link-type="uri" xlink:href="http://www.arianespace.com/launch-services-soyuz/Soyuz_Users_Manual_CSG_June06.pdf">http://www.arianespace.com/launch-services-soyuz/Soyuz_Users_Manual_CSG_June06.pdf</ext-link>.</mixed-citation>
+              </ref>
+            </ref-list>
+            <fn-group>
+              <fn>
+                <p><bold>Author Contributions</bold> M.C. and A.K. designed the research; M.C. generated the transgenic lines, performed quantitative analysis for calculating fluorescence area and intensity as well as wrote the manuscript; A.M. generated transgenic lines; A.M. and M.C. performed RNA extraction and synthesis of cDNA; K.T. performed quantitative analysis for calculating fluorescence area and intensity; H.M. and T.I. performed transcriptome analysis; N.T., K.K., H.S., S.U., T.S., Y.K., F.T., and M.S. developed experimental tools; Y.T., O.G., and V.S. supported the experiment.</p>
+              </fn>
+            </fn-group>
+          </back>
+          <floats-group>
+            <fig id="f1">
+              <label>Figure 1</label>
+              <caption>
+                <title>Live-imaging system at the ISS.</title>
+                <p>(<bold>a</bold>) Left photo shows a top view of the medaka chamber. Scale bar = 1 cm. Right photo shows a whole image of a medaka larva that is seen in the enlarged view of the black-squared area in the medaka chamber. Scale bar = 1 mm. (<bold>b</bold>) Cartoon showing a lateral view of a medaka larva embedded in the Mebiol gel. The fish at stage 39 were observed via fluorescence microscopy from the bottom side. Scale bar = 1 mm. (<bold>c</bold>) Order of observation via remote operation. Three steps were required to get accurate location of medaka larvae. Step 1: At first, XY coordinate was created by using a 5x objective lens. The red arrows show the direction of capture on the XY plane. The observed objects were selected. Step 2: XY coordinates were corrected, and the Z coordinate was created by using the 10x objective lens. The blue crosses show the observed objects whose ventral side was oriented toward the glass plate for observation via an objective lens; and red arrows, the direction of capturing Z-axis with a width of 1000 μm. Step 3: Clear fluorescent images were captured by using a 20x objective lens with a width of 500 μm. The steps are summarized in the table at the bottom of Fig. 1.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f1"/>
+            </fig>
+            <fig id="f2">
+              <label>Figure 2</label>
+              <caption>
+                <title>Whole-body imaging of the <italic>osterix</italic>-DsRed transgenic line.</title>
+                <p>(<bold>a</bold>–<bold>f</bold>) The left-side images show the same ground control at day 1; and the right-side images, the same flight medaka at day 1. Arrows point to the head and fin region. All images show ventral views. Scale bars = 1 mm. (<bold>a</bold>,<bold>b</bold>) Montage images were made from 6 captured optical images, divided by dotted lines. (<bold>c</bold>,<bold>d</bold>) The white region shows an <italic>osterix</italic>-DsRed fluorescent signal. Embedded views show the enlarged head region. The images were captured under the same conditions between flight and ground samples shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S2</xref>. (<bold>e</bold>,<bold>f</bold>) The red region shows the area selected for measurement of the intensity of fluorescent signals by using ImageJ software. Embedded views show the enlarged head region. (<bold>g</bold>) The fluorescent intensity from day 1 to day 7 of observation day constantly increased in the flight group. Ground, n = 5 (all days). Flight, n = 3 (day 1), 3 (day 2), 4 (day 4), 3 (day 6), and 3 (day 7), as shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>. *P &lt; 0.05, Student’s <italic>t</italic>-test. Error bars, s.e.m. (<bold>h</bold>) The fluorescent signal area was increased in the flight group compared with that in the ground group at days 6 and 7. Ground, n = 5 (day 6, 7); flight, n = 3 (day 6, 7), as shown in “<xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>.” *P &lt; 0.05, Student’s <italic>t</italic>-test. Error bars, s.e.m.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f2"/>
+            </fig>
+            <fig id="f3">
+              <label>Figure 3</label>
+              <caption>
+                <title>Live imaging for osteoblasts.</title>
+                <p>Evaluation of <italic>osterix</italic>-DsRed (<bold>a–d</bold>) and <italic>osteocalcin</italic>-DsRed (<bold>e–h</bold>) fluorescent signals. (<bold>a</bold>,<bold>b,e,f</bold>) Stacked ventral images in the pharyngeal region at day 1 for the ground (<bold>a,e</bold>) and flight (<bold>b,f</bold>) groups. The images were captured under the same conditions between flight and ground samples shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S2</xref> and constructed by Z-projection done with ImageJ software. Yellow arrows show bones with osteoblasts localized on them. up: upper pharyngeal bone, lp: lower pharyngeal bone, c: cleithrum. Scale bars = 50 μm. (<bold>c</bold>,<bold>g</bold>) The fluorescence intensity of <italic>osterix</italic> (<bold>c</bold>) and <italic>osteocalcin</italic> (<bold>g</bold>) constantly increased during the flight. The numbers of <italic>osterix</italic> line fish: ground, n = 9 (day 1), 10 (day 2), 10 (day 3), 10 (day 4), 11 (day 5), 10 (day 6), 11 (day 7), and 11 (day 8); flight, n = 6 (day 1), 6 (day 2), 6 (day 3), 7 (day 4), 7 (day 5), 6 (day 6), 5 (day 7), and 4 (day 8). Numbers of <italic>osteocalcin</italic> line fish: ground, n = 6 (day 1), 7 (day 2), 7 (day 3), 6 (day 4), and 3 (day 5); flight, n = 3 (day 1), 3 (day 2), 5 (day 3), 4 (day 4), and 4 (day 5). These numbers are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>. *P &lt; 0.05, Student’s <italic>t</italic>-test. Error bars, s.e.m. (<bold>d</bold>) The <italic>osterix</italic>-positive area was significantly increased in the flight group at days 6 and 7. *P &lt; 0.05, Student’s <italic>t</italic>-test. Error bars, s.e.m. (<bold>h</bold>) Schematic diagram of the ventral view of a medaka larva head. The dotted rectangle shows the observation area in Fig. 3a,b,e,f and <xref ref-type="fig" rid="f4">Fig. 4a,b,d,e</xref>. up: upper pharyngeal bone, lp: lower pharyngeal bone, c: cleithrum.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f3"/>
+            </fig>
+            <fig id="f4">
+              <label>Figure 4</label>
+              <caption>
+                <title>Live imaging for osteoclasts.</title>
+                <p>Evaluation of <italic>TRAP</italic>-GFP (<bold>a–c</bold>) and <italic>MMP9</italic>-DsRed (<bold>d</bold>–<bold>f</bold>) fluorescent signals. (<bold>a</bold>,<bold>b</bold>,<bold>d</bold>,<bold>e</bold>) Stacked ventral images in the pharyngeal region at day 4 (<italic>TRAP</italic>-GFP) and at day 6 (<italic>MMP9</italic>-DsRed) for the ground (<bold>a,d</bold>) and flight (<bold>b,e</bold>) groups. The images were captured under the same conditions between flight and ground samples shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S2</xref> and constructed by Z-projection by use of ImageJ software. Yellow arrows point to bones with osteoclasts localized on them. up: upper pharyngeal bone, lp: lower pharyngeal bone. Scale bars = 50 μm. (<bold>c</bold>,<bold>f</bold>) The fluorescence intensity for <italic>TRAP</italic> (<bold>d</bold>) and for <italic>MMP9</italic> (<bold>f</bold>) increased during the flight at days 4 and 6 of the observation period. Numbers of <italic>TRAP</italic> line fish: ground, n = 14 (day 4), 16 (day 6); flight, n = 9 (day 4), 7 (day 6). Numbers of <italic>MMP9</italic> line fish: ground, n = 6 (day 4), 6 (day 6); flight, n = 4 (day 4), 3 (day 6). These numbers are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>. *P &lt; 0.05, Student’s <italic>t</italic>-test. Error bars, s.e.m.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f4"/>
+            </fig>
+            <fig id="f5">
+              <label>Figure 5</label>
+              <caption>
+                <title>3D imaging for osteoblasts and osteoclasts in flight group.</title>
+                <p>(<bold>a–n</bold>) The merged images were captured by 3D views for <italic>osterix</italic>-DsRed and <italic>TRAP</italic>-GFP in the pharyngeal bone region of the double transgenic line. The images were processed by use of Fiji software. (<bold>a</bold>,<bold>c</bold>) The pharyngeal bone region in the ground control (<bold>a</bold>) and the flight (<bold>c</bold>) group at day 4. lp, lower pharyngeal bone; c, cleithrum. Scale bars = 20 μm. (<bold>b</bold>,<bold>d</bold>) Images for <italic>TRAP</italic>-GFP in the pharyngeal bone region of “a” and “c”, respectively. GFP signals identify osteoclasts (OC). (<bold>e–j</bold>) Development of osteoblasts (OB) and osteoclasts (OC) in the lower pharyngeal bone region in the ground control (<bold>e–g</bold>) and flight (<bold>h–j</bold>) groups. Scale bars = 20 μm. No signals of <italic>osterix</italic>-DsRed and <italic>TRAP</italic>-GFP were detected in the pharyngeal bone region (e, asterisk). The <italic>osterix</italic>-DsRed and <italic>TRAP</italic>-GFP were weakly expressed at the low pharyngeal bone region at days 4 and 6 in the ground control (<bold>f,g</bold>). <italic>The osterix</italic>-DsRed in osteoblasts (OB) was highly expressed at the low pharyngeal bone region at day 2 (<bold>h</bold>). <italic>TRAP</italic>-GFP signals in osteoclasts (OC) appeared near <italic>osterix</italic>-DsRed signals at day 4 (<bold>i</bold>). <italic>TRAP</italic>-GFP signals were spread at the low pharyngeal bone region at day 6 (<bold>j</bold>). (<bold>k</bold>–<bold>n</bold>) Localization of osteoblasts and osteoclasts. White arrows show GFP signals in the lower pharyngeal bone. c, cleithrum. 3D image for <italic>osterix</italic>-DsRed/<italic>TRAP</italic>-GFP at day 6 (<bold>k</bold>). Osteoblasts and osteoclasts are shown in magenta and green, respectively. This image was not analyzed by the deconvolution algorithm, and thus the signals appear as an out-of-focus blur. The views were captured on the x-y plane (<bold>l</bold>), y-z plane (<bold>m</bold>), and x-z plane (<bold>n</bold>) from 3D images. Scale bars = 50 μm.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f5"/>
+            </fig>
+            <fig id="f6">
+              <label>Figure 6</label>
+              <caption>
+                <title>Annotations for up- and down-regulated genes in flight-group medaka by GO analysis.</title>
+                <p>(<bold>a</bold>) The pie chart shows the number of up-regulated genes, which were assigned by GO; <italic>Nucleus</italic>, 258: <italic>MCM complex</italic>, 6. (<bold>b</bold>) Pie chart showing the number of down-regulated genes assigned by GO: <italic>Collagen trimer</italic>, 14; <italic>contractile fiber part</italic>, 12; <italic>extracellular matrix</italic>, 24; <italic>integral component of membrane</italic>, 333; <italic>integrin complex,</italic> 8; <italic>membrane</italic>, 408; membrane part, 365; plasma membrane, 93; protein complex involved in cell adhesion, 8; proteinaceous extracellular matrix, 19; receptor complex, 14. The results in “a” and “b” show “<italic>cellular component</italic>” in GO domains.</p>
+              </caption>
+              <graphic xlink:href="srep39545-f6"/>
+            </fig>
+            <table-wrap position="float" id="t1">
+              <label>Table 1</label>
+              <caption>
+                <title>Time schedules for preparation of medaka in Baikonur and experiments in ISS.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="left"/>
+                  <col align="left"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Date (GMT)</th>
+                    <th align="left" valign="top" charoff="50">Time course</th>
+                    <th align="left" valign="top" charoff="50">Event</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td colspan="3" align="left" valign="top" charoff="50">A part of Long-term experiment</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/23</td>
+                    <td align="left" valign="top" charoff="50">18 hrs before launch</td>
+                    <td align="left" valign="top" charoff="50">Preparation of fish at three weeks after hatch</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/23</td>
+                    <td align="left" valign="top" charoff="50">Launch at 10:51</td>
+                    <td align="left" valign="top" charoff="50">Launch of Soyuz</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/25</td>
+                    <td align="left" valign="top" charoff="50">2 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Docking of Soyuz to ISS</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/25</td>
+                    <td align="left" valign="top" charoff="50">8 hrs after docking</td>
+                    <td align="left" valign="top" charoff="50">The start of experiment in AQH</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/25</td>
+                    <td align="left" valign="top" charoff="50">10 hrs after docking</td>
+                    <td align="left" valign="top" charoff="50">Fish were preserved by RNAlater (day 2)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2012/10/29</td>
+                    <td align="left" valign="top" charoff="50">6 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Fish were preserved by RNAlater (day 6)</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" charoff="50">Short-term experiment</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/1/26</td>
+                    <td align="left" valign="top" charoff="50">9 days before launch</td>
+                    <td align="left" valign="top" charoff="50">Egg collecting</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/4</td>
+                    <td align="left" valign="top" charoff="50">32-25 hrs before launch</td>
+                    <td align="left" valign="top" charoff="50">Preparation of observation chambers for hatched fish</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/5</td>
+                    <td align="left" valign="top" charoff="50">Launch at 16:23</td>
+                    <td align="left" valign="top" charoff="50">Launch of Progress</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/5</td>
+                    <td align="left" valign="top" charoff="50">6 hrs after launch</td>
+                    <td align="left" valign="top" charoff="50">Docking of Progress to ISS</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/6</td>
+                    <td align="left" valign="top" charoff="50">21 hrs after docking</td>
+                    <td align="left" valign="top" charoff="50">Preparation of experiment</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/7</td>
+                    <td align="left" valign="top" charoff="50">36 hrs after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 1 (Start of live imaging)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/8</td>
+                    <td align="left" valign="top" charoff="50">3 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 2</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/9</td>
+                    <td align="left" valign="top" charoff="50">4 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 3</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/10</td>
+                    <td align="left" valign="top" charoff="50">5 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 4</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/11</td>
+                    <td align="left" valign="top" charoff="50">6 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 5</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/12</td>
+                    <td align="left" valign="top" charoff="50">7 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 6</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/13</td>
+                    <td align="left" valign="top" charoff="50">8 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 7</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> 2014/2/14</td>
+                    <td align="left" valign="top" charoff="50">9 days after launch</td>
+                    <td align="left" valign="top" charoff="50">Observation day 8 (Finish of live imaging)</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="t1-fn1">
+                  <p>GMT: Greenwich Mean Time.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap position="float" id="t2">
+              <label>Table 2</label>
+              <caption>
+                <title>Genes involved in bone matrix homeostasis significantly modulated in flight (F) versus ground (G) in pharyngeal bone tissue at day 2.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Gene ID</th>
+                    <th align="center" valign="top" charoff="50">Gene title</th>
+                    <th align="center" valign="top" charoff="50">Fold change (F/G)</th>
+                    <th align="center" valign="top" charoff="50">p-value</th>
+                    <th align="center" valign="top" charoff="50">q-value</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td colspan="5" align="left" valign="top" charoff="50">
+                      <italic><bold>Osteoblast</bold>-related gene</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> LOC100529176</td>
+                    <td align="center" valign="top" charoff="50">col10a1</td>
+                    <td align="center" valign="top" charoff="50">11.36</td>
+                    <td align="center" valign="top" charoff="50">0.0066</td>
+                    <td align="center" valign="top" charoff="50">0.21</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> LOC100529177</td>
+                    <td align="center" valign="top" charoff="50">osteocalcin</td>
+                    <td align="center" valign="top" charoff="50">16.48</td>
+                    <td align="center" valign="top" charoff="50">0.0029</td>
+                    <td align="center" valign="top" charoff="50">0.099</td>
+                  </tr>
+                  <tr>
+                    <td colspan="5" align="left" valign="top" charoff="50">
+                      <italic><bold>Osteoclast</bold>-related gene</italic>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> LOC101175134</td>
+                    <td align="center" valign="top" charoff="50">acp5 (TRAP)</td>
+                    <td align="center" valign="top" charoff="50">209.56</td>
+                    <td align="center" valign="top" charoff="50">1.78E-07</td>
+                    <td align="center" valign="top" charoff="50">1.30E-05</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> LOC101164922</td>
+                    <td align="center" valign="top" charoff="50">cathepsin K</td>
+                    <td align="center" valign="top" charoff="50">60.07</td>
+                    <td align="center" valign="top" charoff="50">6.39E-06</td>
+                    <td align="center" valign="top" charoff="50">0.00033</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"> LOC100125420</td>
+                    <td align="center" valign="top" charoff="50">MMP9</td>
+                    <td align="center" valign="top" charoff="50">20.31</td>
+                    <td align="center" valign="top" charoff="50">0.00077</td>
+                    <td align="center" valign="top" charoff="50">0.027</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="t3">
+              <label>Table 3</label>
+              <caption>
+                <title>The up-regulated genes in pharyngeal bone at day 2, which were commonly up-regulated in whole-body medaka at days 2 and 6 in flight (F) versus ground (G).</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="left"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                  <col align="center"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Gene ID</th>
+                    <th align="left" valign="top" charoff="50">Gene title</th>
+                    <th align="center" valign="top" charoff="50">FC (Day 2, F/G)</th>
+                    <th align="center" valign="top" charoff="50">p-value</th>
+                    <th align="center" valign="top" charoff="50">q-value</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">LOC100529196</td>
+                    <td align="left" valign="top" charoff="50">plasminogen activator inhibitor type 1</td>
+                    <td align="center" valign="top" charoff="50">21.03</td>
+                    <td align="center" valign="top" charoff="50">0.0088</td>
+                    <td align="center" valign="top" charoff="50">0.28</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">LOC101160111</td>
+                    <td align="left" valign="top" charoff="50">DNA damage-inducible transcript 4 protein-like</td>
+                    <td align="center" valign="top" charoff="50">16.05</td>
+                    <td align="center" valign="top" charoff="50">0.0023</td>
+                    <td align="center" valign="top" charoff="50">0.08</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">LOC101164062</td>
+                    <td align="left" valign="top" charoff="50">transcription factor jun-B-like</td>
+                    <td align="center" valign="top" charoff="50">17.35</td>
+                    <td align="center" valign="top" charoff="50">0.0049</td>
+                    <td align="center" valign="top" charoff="50">0.16</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">LOC100820712</td>
+                    <td align="left" valign="top" charoff="50">c-fos</td>
+                    <td align="center" valign="top" charoff="50">19.15</td>
+                    <td align="center" valign="top" charoff="50">0.0016</td>
+                    <td align="center" valign="top" charoff="50">0.05</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">LOC101161414</td>
+                    <td align="left" valign="top" charoff="50">TSC22 domain family, member 3</td>
+                    <td align="center" valign="top" charoff="50">12.17</td>
+                    <td align="center" valign="top" charoff="50">0.0090</td>
+                    <td align="center" valign="top" charoff="50">0.28</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="t3-fn1">
+                  <p><sup>*</sup>FC means fold change.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

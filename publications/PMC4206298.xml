@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:03:55Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4206298" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4206298</identifier>
+        <datestamp>2014-10-27</datestamp>
+        <setSpec>springeropen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Radiat Environ Biophys</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Radiat Environ Biophys</journal-id>
+              <journal-title-group>
+                <journal-title>Radiation and Environmental Biophysics</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0301-634X</issn>
+              <issn pub-type="epub">1432-2099</issn>
+              <publisher>
+                <publisher-name>Springer Berlin Heidelberg</publisher-name>
+                <publisher-loc>Berlin/Heidelberg</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4206298</article-id>
+              <article-id pub-id-type="pmcid">PMC4206298</article-id>
+              <article-id pub-id-type="pmc-uid">4206298</article-id>
+              <article-id pub-id-type="pmid">25119442</article-id>
+              <article-id pub-id-type="pmid">25119442</article-id>
+              <article-id pub-id-type="publisher-id">560</article-id>
+              <article-id pub-id-type="doi">10.1007/s00411-014-0560-7</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Paper</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>NUNDO: a numerical model of a human torso phantom and its application to effective dose equivalent calculations for astronauts at the ISS</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Puchalska</surname>
+                    <given-names>Monika</given-names>
+                  </name>
+                  <address>
+                    <email>monika.puchalska@chalmers.se</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bilski</surname>
+                    <given-names>Pawel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Berger</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hajek</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Horwacik</surname>
+                    <given-names>Tomasz</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Körner</surname>
+                    <given-names>Christine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olko</surname>
+                    <given-names>Pawel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Shurshakov</surname>
+                    <given-names>Vyacheslav</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Reitz</surname>
+                    <given-names>Günther</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label>Institute of Nuclear Physics, Polish Academy of Sciences, 31-342 Kraków, Poland </aff>
+                <aff id="Aff2"><label>2</label>Applied Physics, Chalmers University of Technology, 41296 Gothenburg, Sweden </aff>
+                <aff id="Aff3"><label>3</label>Institute of Aerospace Medicine, German Aerospace Centre, 51147 Cologne, Germany </aff>
+                <aff id="Aff4"><label>4</label>Institute of Atomic and Subatomic Physics, Vienna University of Technology, 1020 Vienna, Austria </aff>
+                <aff id="Aff5"><label>5</label>Present Address: Department of Nuclear Safety and Security, International Atomic Energy Agency, 1400 Vienna, Austria </aff>
+                <aff id="Aff6"><label>6</label>Institute of Biomedical Problems, 123007 Moscow, Russian Federation </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>8</month>
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>15</day>
+                <month>8</month>
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2014</year>
+              </pub-date>
+              <volume>53</volume>
+              <issue>4</issue>
+              <fpage>719</fpage>
+              <lpage>727</lpage>
+              <history>
+                <date date-type="received">
+                  <day>7</day>
+                  <month>11</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>1</day>
+                  <month>8</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2014</copyright-statement>
+                <license license-type="OpenAccess" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p><bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution License which permits any use, distribution, and reproduction in any medium, provided the original author(s) and the source are credited.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p>The health effects of cosmic radiation on astronauts need to be precisely quantified and controlled. This task is important not only in perspective of the increasing human presence at the International Space Station (ISS), but also for the preparation of safe human missions beyond low earth orbit. From a radiation protection point of view, the baseline quantity for radiation risk assessment in space is the effective dose equivalent. The present work reports the first successful attempt of the experimental determination of the effective dose equivalent in space, both for extra-vehicular activity (EVA) and intra-vehicular activity (IVA). This was achieved using the anthropomorphic torso phantom RANDO<sup>®</sup> equipped with more than 6,000 passive thermoluminescent detectors and plastic nuclear track detectors, which have been exposed to cosmic radiation inside the European Space Agency MATROSHKA facility both outside and inside the ISS. In order to calculate the effective dose equivalent, a numerical model of the RANDO<sup>®</sup> phantom, based on computer tomography scans of the actual phantom, was developed. It was found that the effective dose equivalent rate during an EVA approaches 700 μSv/d, while during an IVA about 20 % lower values were observed. It is shown that the individual dose based on a personal dosimeter reading for an astronaut during IVA results in an overestimate of the effective dose equivalent of about 15 %, whereas under an EVA conditions the overestimate is more than 200 %. A personal dosemeter can therefore deliver quite good exposure records during IVA, but may overestimate the effective dose equivalent received during an EVA considerably.</p>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Effective dose equivalent</kwd>
+                <kwd>International Space Station</kwd>
+                <kwd>Space radiation environment</kwd>
+                <kwd>Space dosimetry</kwd>
+                <kwd>Phantom experiments</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© Springer-Verlag Berlin Heidelberg 2014</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p>Astronauts living and working on-board the International Space Station (ISS) at altitudes of about 400 km are exposed to radiation levels that are up to two orders of magnitude higher than at sea level. The main radiation hazards are due to galactic cosmic radiation (GCR) and due to protons and electrons of the radiation belt in the South Atlantic Anomaly (SAA). GCR consists of 98 % protons and heavy ions (baryon component), with energies from several tens up to 10<sup>12</sup> MeV or more, and 2 % electrons and positrons (lepton component). The baryon component is composed of 87 % protons, 12 % helium ions (alpha particles) and 1 % heavy ions. Inside the ISS, a secondary radiation field with a significant contribution of neutrons is produced, due to nuclear interactions of the GCR with the atoms of the shielding material and the human body. The contribution of these sources to the radiation hazard to astronauts varies with the altitude, the solar activity and the local shielding by the ISS itself (NCRP <xref ref-type="bibr" rid="CR15">2000</xref>).</p>
+              <p>In the ISS orbit of 50° inclination, the geomagnetic field provides sufficient shielding to prevent high exposures due to solar energetic particle events and hence tissue reactions (deterministic effects). However, exposures by GCR may cause stochastic effects such as cancer or effects on the central nervous system. For determination of radiation risk on human health, it is necessary to derive quality factors and effective dose equivalent, which is the primary quantity in evaluating risk for health detriments from ionizing radiation in radiological protection in space. For this, one needs to know both, absorbed doses and linear energy transfer (LET) spectra in the organs of the body. Since organ doses cannot be measured directly in humans, the effective dose equivalent has to be determined by applying a suitable anthropomorphic phantom equipped with detector systems. Such a phantom was placed in the European Space Agency (ESA) MATROSHKA (MTR) facility (Reitz and Berger <xref ref-type="bibr" rid="CR18">2006</xref>; Dettmann et al. <xref ref-type="bibr" rid="CR5">2007</xref>), which was designed and built under the leadership of the German Aerospace Center (DLR). As phantom the RANDO<sup>®</sup> (The Phantom Laboratory, Salem, NY, USA) was selected and equipped with a set of thermoluminescent detectors (TLDs) and plastic nuclear track detectors (PNTDs). The MATROSHKA facility was exposed for more than 1 year outside, and further on two times inside the ISS, thereby simulating an astronaut performing an extra-vehicular activity (EVA) and an intra-vehicular activity (IVA). Prior to these experiments, the effective dose equivalent was only measured once, with the human torso phantom Fred-1 placed inside the Space Shuttle during the STS-91 mission to the Russian Space Station MIR (Yasuda et al. <xref ref-type="bibr" rid="CR25">2000</xref>; Yasuda <xref ref-type="bibr" rid="CR24">2009</xref>), but was never measured outside a spacecraft.</p>
+              <p>In the present paper, the NUmerical model of the RANDO<sup>®</sup> phantom (NUNDO) (Puchalska <xref ref-type="bibr" rid="CR16">2008</xref>) is reported as a suitable tool for organ dose and effective dose equivalent calculations. The procedure of the organ dose and the effective dose equivalent calculations is briefly introduced for the three MATROSHKA experiments for the years 2004 to 2009, outside and inside the ISS, based on measurements of PNTDs and TLDs. PNTDs were provided by the Oklahoma State University (OSU) and analysed/evaluated by DLR; TLDs were provided and analysed by the Institute of Nuclear Physics in Krakow, Poland, the Institute of Atomic and Subatomic Physics in Vienna, Austria, and DLR, Cologne, Germany. Whereas the paper Reitz et al. (<xref ref-type="bibr" rid="CR19">2009</xref>) suffered from limited data sets (only doses and LET spectra for some organs are reported), the present paper uses the latest TLD results based on the publication Berger et al. (<xref ref-type="bibr" rid="CR3">2013</xref>) and data from a complete set of LET spectra measured in PNTDs and presents doses for all organs and effective dose equivalents.</p>
+            </sec>
+            <sec id="Sec2" sec-type="materials|methods">
+              <title>Materials and methods</title>
+              <sec id="Sec3">
+                <title>The MATROSHKA facility</title>
+                <p>MATROSHKA is an ESA facility designed and built by DLR and flown from 2004 to 2011 on-board the ISS (Reitz and Berger <xref ref-type="bibr" rid="CR18">2006</xref>; Dettmann et al. <xref ref-type="bibr" rid="CR5">2007</xref>). MATROSHKA was designed to estimate the organ doses to astronauts inside the ISS and during an EVA, in order to improve the assessment of radiation risks in future space missions. For this purpose, an anthropomorphic human phantom (RANDO<sup>®</sup>), typically used in radiotherapy for dose verification, equipped with numerous radiation detectors (including TLDs (1,634 measurement points), NTDPs, silicon detectors, scintillators and a tissue equivalent proportional counter), and was exposed outside the Russian module Zvezda from 26 February 2004 up to 18 August 2005. This phase of the experiment was called MATROSHKA-1 (MTR-1). A carbon fibre container, with an average mass shielding of ~0.5 g/cm<sup>2</sup>, simulated the shielding distribution of an astronaut’s EVA suit. The second and the third phases of the experiment were performed inside two different segments of the ISS, the Pirs Docking Compartment (MTR-2A) and the Zvezda Service Module (MTR-2B), from 5 January 2006 to 7 December 2006 and from 18 October 2007 to 18 March 2009, respectively (Berger et al. <xref ref-type="bibr" rid="CR3">2013</xref>). In the present paper, only data from TLDs and NTDPs are reported.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>The RANDO<sup><bold>®</bold></sup> phantom</title>
+                <p>The RANDO<sup>®</sup> phantom is an upper torso made of a natural human skeleton embedded in a tissue equivalent material (polyurethane) simulating soft and muscle tissues (<italic>Z</italic>
+<sub>Eff</sub> = 7.4; <italic>ρ</italic> = 1.05 g/cm<sup>3</sup>). Polyurethane has an effective atomic number of 7.6 and a mass density of 0.997 g/cm<sup>3</sup>. A material with a lower effective atomic number of 7.1 and almost three times lower mass density, equal to 0.352 g/cm<sup>3</sup>, was used to simulate the lungs (<italic>Z</italic>
+<sub>Eff</sub> = 7.4; <italic>ρ</italic> = 0.32 g/cm<sup>3</sup>). The phantom torso is 84 cm in height with a maximal width of 40 cm and a maximal depth of 22 cm. The phantom torso is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>a, and the element composition is given in Table <xref rid="Tab1" ref-type="table">1</xref>.<fig id="Fig1"><label>Fig. 1</label><caption><p><bold>a</bold> Front view of RANDO phantom; <bold>b</bold> CT scan of the phantom; <bold>c</bold> and <bold>d</bold> the numerical voxel phantom NUNDO; organs and tissues are represented by different colours, and not all organs are visible</p></caption><graphic xlink:href="411_2014_560_Fig1_HTML" id="MO1"/></fig>
+<table-wrap id="Tab1"><label>Table 1</label><caption><p>Element composition (percentage by weight) of the RANDO<sup>®</sup> phantom (The Phantom Laboratory, Salem, NY, USA)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Element</th><th align="left">Soft tissue</th><th align="left">Lungs</th></tr></thead><tbody><tr><td align="left">Carbon</td><td char="." align="char">67.78</td><td char="." align="char">70.74</td></tr><tr><td align="left">Oxygen</td><td char="." align="char">20.31</td><td char="." align="char">21.28</td></tr><tr><td align="left">Hydrogen</td><td char="." align="char">9.18</td><td char="." align="char">5.97</td></tr><tr><td align="left">Nitrogen</td><td char="." align="char">2.50</td><td char="." align="char">1.9</td></tr><tr><td align="left">Antimony</td><td char="." align="char">0.22</td><td char="." align="char">0.1</td></tr></tbody></table></table-wrap>
+</p>
+              </sec>
+              <sec id="Sec5">
+                <title>Modelling of the numerical RANDO phantom (NUNDO)</title>
+                <p>The innovative part of this work was development of the numerical voxel model NUNDO of the RANDO<sup>®</sup> phantom and its application to organ dose calculations. For this purpose, computer tomography (CT) scans of the RANDO<sup>®</sup> phantom were performed (see Fig. <xref rid="Fig1" ref-type="fig">1</xref>b). A region-of-interest routine, implemented in the public domain Java™ image processing and analysis software <italic>ImageJ</italic> (Schneider et al. <xref ref-type="bibr" rid="CR20">2012</xref>), was used for image segmentation into clusters representing bones, lungs and soft tissues, and to fill each organ with a unique index value. Thus, the organ index image was achieved containing a 401 by 401 matrix, in which the Hounsfield numbers (Hounsfield <xref ref-type="bibr" rid="CR6">1973</xref>) were replaced by integers corresponding to the organ index value. For each CT slice, a file was created and named by the slice number. The final voxel model is then a three-dimensional array of 401 by 401 by 169 voxels, in which the resolution in the transversal plane is 1 mm per pixel and in the vertical plane is 5 mm per pixel. The total number of voxels is equal to 2.7 × 10<sup>7</sup>.</p>
+                <p>Since the physical RANDO phantom does not contain all the specific radiosensitive organs and tissues given by ICRP Report 103 (2007), the soft tissue material was replaced by the corresponding organs. This was performed by scaling the organs from the human phantom Zubal (Zubal et al. <xref ref-type="bibr" rid="CR27">1994</xref>) to the dimensions of the RANDO<sup>®</sup> phantom. The NUNDO model is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>c, d.</p>
+                <p>Table <xref rid="Tab2" ref-type="table">2</xref> compares the masses of the defined organs of the NUNDO voxel phantom, calculated by multiplying the volume of the voxel organs and their mass densities, with the ICRP Reference Man values (ICRP <xref ref-type="bibr" rid="CR8">2002</xref>). Using the skin density of approximately 1.1 g/cm<sup>3</sup>, the reference body surface area of 1.90 m<sup>2</sup> and the total skin mass of 3,300 g for the reference male, the reference skin thickness (epidermis and dermis) can be estimated to be approximately 1.6 mm for the adult male (ICRP <xref ref-type="bibr" rid="CR10">2009</xref>). Hence, the skin of the NUNDO phantom is represented by 2 voxel layers, of 1 mm each, wrapping the phantoms’ exterior. Note that in Reitz et al. (<xref ref-type="bibr" rid="CR19">2009</xref>), the skin thickness was 3 mm, following the medical sources.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Mass of the NUNDO phantom organs compared to the ICRP reference man (ICRP <xref ref-type="bibr" rid="CR8">2002</xref>)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Organ</th><th align="left" colspan="2">Mass (g)</th></tr><tr><th align="left">NUNDO</th><th align="left">ICRP <xref ref-type="bibr" rid="CR8">2002</xref>
+</th></tr></thead><tbody><tr><td align="left">Bladder</td><td align="left">45</td><td align="left">50</td></tr><tr><td align="left">Brain</td><td align="left">1,239</td><td align="left">1,450</td></tr><tr><td align="left">Breast</td><td align="left">25</td><td align="left">25</td></tr><tr><td align="left">Colon</td><td align="left">322</td><td align="left">370 (73)</td></tr><tr><td align="left">Oesophagus</td><td align="left">34</td><td align="left">40 (6)</td></tr><tr><td align="left">Gonads</td><td align="left">31</td><td align="left">35 (12)</td></tr><tr><td align="left">Heart</td><td align="left">344</td><td align="left">330 (55)</td></tr><tr><td align="left">Kidneys</td><td align="left">302</td><td align="left">310 (80)</td></tr><tr><td align="left">Liver</td><td align="left">1,623</td><td align="left">1,800 (390)</td></tr><tr><td align="left">Lungs</td><td align="left">1,720</td><td align="left">1,200 (322)</td></tr><tr><td align="left">Pancreas</td><td align="left">128</td><td align="left">140 (39)</td></tr><tr><td align="left">Salivary glands</td><td align="left">72</td><td align="left">85</td></tr><tr><td align="left">Small intestines</td><td align="left">613</td><td align="left">650 (78)</td></tr><tr><td align="left">Spleen</td><td align="left">157</td><td align="left">150 (44)</td></tr><tr><td align="left">Stomach</td><td align="left">159</td><td align="left">150 (46)</td></tr><tr><td align="left">Thymus</td><td align="left">24</td><td align="left">25 (9)</td></tr><tr><td align="left">Thyroid</td><td align="left">19</td><td align="left">20 (7)</td></tr></tbody></table><table-wrap-foot><p>In brackets, if available, the standard deviations for populations are shown (ICRP <xref ref-type="bibr" rid="CR8">2002</xref>)</p></table-wrap-foot></table-wrap>
+</p>
+                <p>The agreement for the inner organs, except lungs, with the Reference Man (ICRP <xref ref-type="bibr" rid="CR8">2002</xref>) is very good. A larger difference was observed for the lungs (~40 %), which is the result of the individual diversity for population. The RANDO<sup>®</sup> phantom’s lung material closely mimics the density of lungs in a median respiratory state. The moulded lungs are handshaped and fitted to naturally fill the rib cage. Natural human skeletons are used, which are not always of the same size and shape. Also, many skeletons reflect natural human characteristics such as lack of symmetry and distorted joints (The Phantom Laboratory, Salem, NY, USA).</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Detector systems</title>
+                <p>The RANDO<sup>®</sup> phantom is built up of 33 slices with a thickness of 2.5 cm each. In each slice horizontal cut-outs were milled to accommodate up to 5,800 TLDs fixed in polyethylene tubes. A total of 354 tubes allow a total number of 1,634 measurement positions inside the phantom, arranged in a way that the TLDs are positioned in a 2.54-cm orthogonal grid. The phantom was covered by a Nomex<sup>®</sup> hood and poncho, which were also filled with TL detectors to calculate skin doses. TLDs are used to determine the dose for radiation with an LET below 10 keV/µm, where the TLD efficiency is equal to unity (Berger and Hajek <xref ref-type="bibr" rid="CR2">2008</xref>). The dose in the entire relevant high-LET range above 10 keV/µm can be measured by PNTDs with high efficiency. The combination of the passive TLDs and PNTDs is a commonly used technique in space dosimetry (Reitz <xref ref-type="bibr" rid="CR17">1994</xref>; Benton et al. <xref ref-type="bibr" rid="CR1">2002</xref>; Vanhavere et al. <xref ref-type="bibr" rid="CR23">2008</xref>; Straube et al. <xref ref-type="bibr" rid="CR22">2010</xref>). Due to limited space inside the phantom, detector packages containing PNTDs and TLDs were placed inside polyethylene boxes only at positions of selected organs and in the poncho. Data obtained with these detectors were used to calculate the relevant quality factors. The respective procedure is given in Reitz et al. (<xref ref-type="bibr" rid="CR19">2009</xref>), where the PNTD data were provided by Johnson Space Center (NASA-JSC). The data from PNTDs presented here were determined from the detectors provided by OSU and evaluated and analysed at DLR.</p>
+                <p>Within the MATROSHKA facility, all participating laboratories providing data for the phantom depth dose distribution used TLDs based on lithium fluoride, activated with magnesium and titanium (<sup>7</sup>LiF:Mg,Ti). The measured signals were converted to units of absorbed dose in water through calibrations performed with secondary-standard gamma-ray radiation sources (<sup>60</sup>Co and <sup>137</sup>Cs). The parameters for the detector preparations, readout and the quantification method of the TL signal are given in Reitz et al. (<xref ref-type="bibr" rid="CR19">2009</xref>) and Berger et al. (<xref ref-type="bibr" rid="CR3">2013</xref>).</p>
+                <p>The long-term stability of the TLD signal (fading) was studied by Bilski et al. (<xref ref-type="bibr" rid="CR4">2013</xref>). The results revealed that for the properly oven-annealed LiF-TLDs, fading is not a significant problem. For measuring periods longer than a year, almost all measured doses were within 10 % deviation from the true values, while more than 80 % of the results show deviations smaller than 5 %.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Three-dimensional dose distribution model</title>
+                <p>Three-dimensional (3D) continuous dose distribution models were created by interpolating between 1,634 discrete measured grid points (measured with TLDs in a 2.5-cm grid) (Berger et al. <xref ref-type="bibr" rid="CR3">2013</xref>). For interpolation, the inverse distance-weighted method, based on Shepard’s method (Shepard <xref ref-type="bibr" rid="CR21">1968</xref>) applying Liszka’s modifications (Liszka <xref ref-type="bibr" rid="CR13">1984</xref>), was used. This interpolation method is based on the assumption that the interpolated value should be influenced most by the nearby points and less by the more distant points. The dose at point <italic>i</italic>, <italic>D</italic>
+<sub><italic>i</italic></sub>, is the weighted average of grid point doses and is calculated by:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ D_{i} = \frac{{\sum\limits_{j = 1}^{N} {w_{j} \cdot D_{j} } }}{{\sum\limits_{j = 1}^{N} {w_{j} } }} $$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mrow><mml:mrow><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <italic>N</italic> is the number of grid points, <italic>D</italic>
+<sub><italic>j</italic></sub> is the dose value at grid point <italic>j</italic> and <italic>w</italic>
+<sub><italic>j</italic></sub> is a weight factor assigned to each grid point expressed by:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ w_{j} = \frac{1}{{(R_{j}^{2} + \delta^{2} )^{{\frac{\beta }{2}}} }} $$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>R</mml:mi><mml:mrow><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msup><mml:mi mathvariant="italic">δ</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mfrac><mml:mi mathvariant="italic">β</mml:mi><mml:mn>2</mml:mn></mml:mfrac></mml:msup></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <italic>β</italic> is a positive real number controlling the smoothness of interpolation (<italic>β</italic> = 2 by default), <italic>R</italic>
+<sub><italic>j</italic></sub> is the distance between the grid point and the interpolated point and <italic>δ</italic>
+<sup>2</sup> is the measurement error (7 %). The weight assigned to each grid point diminishes as the distance from the interpolated point increases. The weight factor is normalized and thus that the weights sum up to unity.</p>
+                <p>Due to the high contribution of low-energetic electrons for the less shielded MTR-1 EVA exposure, a steep dose gradient from the skin layer towards the inner-body layers of around 80 % was observed (Reitz et al. <xref ref-type="bibr" rid="CR19">2009</xref>). Hence, for the interpolation from the measurement of the body layer to the first measuring point inside the phantom, an exponential attenuation function was adopted:<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ D_{i} = D_{j} + D_{\text{skin}} \cdot \exp \left( {\frac{{x_{0} - R_{j} }}{t}} \right) $$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mtext>skin</mml:mtext></mml:msub><mml:mo>·</mml:mo><mml:mo>exp</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mfrac><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mi>t</mml:mi></mml:mfrac></mml:mfenced></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <italic>x</italic>
+<sub>0</sub> and <italic>t</italic> are parameters determining the slope of the dose decrease (<italic>x</italic>
+<sub>0</sub> = −0.16; <italic>t</italic> = 1.26<italic>)</italic>, <italic>D</italic>
+<sub>skin</sub> and <italic>D</italic>
+<sub><italic>j</italic></sub> are the doses measured at the body surface and at the closest measurement point inside the phantom (~1 cm), respectively.</p>
+              </sec>
+              <sec id="Sec8">
+                <title>Calculation of organ dose</title>
+                <p>Combining the 3D continuous dose distribution model and the NUNDO voxel model phantom, an average dose to the organ T was calculated according to Eq. <xref rid="Equ4" ref-type="">4</xref>.<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ D_{\text{T}} = \frac{{\sum\limits_{i = 1}^{{N_{\text{T}} }} {D_{i} } }}{{N_{\text{T}} }} $$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mtext>T</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mtext>T</mml:mtext></mml:msub></mml:munderover><mml:msub><mml:mi>D</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mtext>T</mml:mtext></mml:msub></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>where <italic>D</italic>
+<sub><italic>i</italic></sub> is the dose value at point <italic>i</italic> that corresponds to a voxel <italic>i</italic> representing the organ T with the maximal number of voxels <italic>N</italic>
+<sub>T</sub>.</p>
+                <p>The TLD readings were corrected by subtracting the dose calculated from the LET spectra measured by the PNTDs for LET &gt;10 keV/µm and weighted with the response function of the TLDs (Reitz et al. <xref ref-type="bibr" rid="CR19">2009</xref>). Each dose value <italic>D</italic>
+<sub><italic>i</italic></sub> was calculated as the sum of the corrected experimental TLD absorbed dose and the dose calculated from the appropriate PNTD LET spectra. For other radiosensitive organs, where PNTD data were not available, an average correction factor of 1.07 was applied to the TLD measurements, based on the average ratio of the total organ dose measured with the combined TLD-PNTD method and the TLD organ dose (see Table <xref rid="Tab3" ref-type="table">3</xref>).<table-wrap id="Tab3"><label>Table 3</label><caption><p>Average TLD organ dose rates for the whole LET spectrum and for LET &lt;10 keV/μm (D<sub>TDL</sub> and D<sub>TDL-low</sub>, respectively), average PNTD organ dose rates for LET &gt;10 keV/μm (D<sub>PNTD-high</sub>) and total average organ dose rates (D<sub>T</sub>); total average organ dose equivalent rates for the whole LET spectrum and for LET &gt;10 keV/μm (<inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq4.gif"/></alternatives></inline-formula> and H<sub>PNTD-high</sub>, respectively) and mean quality factors (<inline-formula id="IEq5"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ Q_{T} $$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>Q</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq5.gif"/></alternatives></inline-formula>) for organs and locations where combination of TLDs and PNTDs were applied</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left"><italic>D</italic><sub>TLD</sub> (μGy/d)</th><th align="left"><italic>D</italic><sub>TLD-low</sub> (μGy/d)</th><th align="left"><italic>D</italic><sub>PNTD-high</sub> (μGy/d)</th><th align="left"><italic>D</italic><sub>T</sub> (μGy/d)</th><th align="left"><italic>D</italic><sub>T</sub>/<italic>D</italic><sub>TLD</sub></th><th align="left"><italic>H</italic><sub>PNTD-high</sub></th><th align="left"><inline-formula id="IEq6"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq6.gif"/></alternatives></inline-formula> (μSv/d)</th><th align="left"><italic>Q</italic><sub>T</sub> (μSv/d)</th></tr></thead><tbody><tr><td align="left" colspan="9"><italic>MTR-1</italic></td></tr><tr><td align="left">Eye</td><td char="." align="char">527</td><td char="." align="char">507</td><td char="." align="char">37</td><td char="." align="char">544</td><td char="." align="char">1.03</td><td char="." align="char">479</td><td char="." align="char">986</td><td char="." align="char">1.8</td></tr><tr><td align="left">Lung</td><td char="." align="char">266</td><td char="." align="char">252</td><td char="." align="char">27</td><td char="." align="char">279</td><td char="." align="char">1.05</td><td char="." align="char">407</td><td char="." align="char">659</td><td char="." align="char">2.4</td></tr><tr><td align="left">Stomach</td><td char="." align="char">226</td><td char="." align="char">209</td><td char="." align="char">30</td><td char="." align="char">239</td><td char="." align="char">1.06</td><td char="." align="char">432</td><td char="." align="char">641</td><td char="." align="char">2.7</td></tr><tr><td align="left">Kidney</td><td char="." align="char">199</td><td char="." align="char">186</td><td char="." align="char">23</td><td char="." align="char">209</td><td char="." align="char">1.05</td><td char="." align="char">313</td><td char="." align="char">499</td><td char="." align="char">2.4</td></tr><tr><td align="left">Small Intestine</td><td char="." align="char">220</td><td char="." align="char">204</td><td char="." align="char">29</td><td char="." align="char">233</td><td char="." align="char">1.06</td><td char="." align="char">418</td><td char="." align="char">622</td><td char="." align="char">2.7</td></tr><tr><td align="left">Skin</td><td char="." align="char">1,319</td><td char="." align="char">1,229</td><td char="." align="char">150</td><td char="." align="char">1,379</td><td char="." align="char">1.05</td><td char="." align="char">1,796</td><td char="." align="char">3,025</td><td char="." align="char">2.2</td></tr><tr><td align="left">Poncho</td><td char="." align="char">587</td><td char="." align="char">497</td><td char="." align="char">150</td><td char="." align="char">647</td><td char="." align="char">1.10</td><td char="." align="char">1,796</td><td char="." align="char">2,293</td><td char="." align="char">3.5</td></tr><tr><td char="." align="char" colspan="9"><italic>MTR-2A</italic></td></tr><tr><td align="left">Eye</td><td char="." align="char">209</td><td char="." align="char">193</td><td char="." align="char">28</td><td char="." align="char">221</td><td char="." align="char">1.06</td><td char="." align="char">381</td><td char="." align="char">574</td><td char="." align="char">2.6</td></tr><tr><td align="left">Lung</td><td char="." align="char">181</td><td char="." align="char">165</td><td char="." align="char">28</td><td char="." align="char">193</td><td char="." align="char">1.07</td><td char="." align="char">391</td><td char="." align="char">556</td><td char="." align="char">2.9</td></tr><tr><td align="left">Stomach</td><td char="." align="char">163</td><td char="." align="char">148</td><td char="." align="char">29</td><td char="." align="char">177</td><td char="." align="char">1.09</td><td char="." align="char">434</td><td char="." align="char">582</td><td char="." align="char">3.3</td></tr><tr><td align="left">Kidney</td><td char="." align="char">154</td><td char="." align="char">142</td><td char="." align="char">22</td><td char="." align="char">164</td><td char="." align="char">1.07</td><td char="." align="char">329</td><td char="." align="char">471</td><td char="." align="char">2.9</td></tr><tr><td align="left">Small Intestine</td><td char="." align="char">161</td><td char="." align="char">147</td><td char="." align="char">26</td><td char="." align="char">173</td><td char="." align="char">1.07</td><td char="." align="char">401</td><td char="." align="char">548</td><td char="." align="char">3.2</td></tr><tr><td align="left">Skin</td><td char="." align="char">214</td><td char="." align="char">197</td><td char="." align="char">31</td><td char="." align="char">228</td><td char="." align="char">1.07</td><td char="." align="char">444</td><td char="." align="char">641</td><td char="." align="char">2.8</td></tr><tr><td align="left">Poncho</td><td char="." align="char">223</td><td char="." align="char">205</td><td char="." align="char">31</td><td char="." align="char">236</td><td char="." align="char">1.06</td><td char="." align="char">444</td><td char="." align="char">649</td><td char="." align="char">2.8</td></tr><tr><td char="." align="char" colspan="9"><italic>MTR-2B</italic></td></tr><tr><td align="left">Eye</td><td char="." align="char">173</td><td char="." align="char">156</td><td char="." align="char">30</td><td char="." align="char">186</td><td char="." align="char">1.08</td><td char="." align="char">396</td><td char="." align="char">552</td><td char="." align="char">3.0</td></tr><tr><td align="left">Lung</td><td char="." align="char">172</td><td char="." align="char">155</td><td char="." align="char">30</td><td char="." align="char">185</td><td char="." align="char">1.08</td><td char="." align="char">430</td><td char="." align="char">585</td><td char="." align="char">3.2</td></tr><tr><td align="left">Stomach</td><td char="." align="char">160</td><td char="." align="char">142</td><td char="." align="char">31</td><td char="." align="char">173</td><td char="." align="char">1.08</td><td char="." align="char">410</td><td char="." align="char">552</td><td char="." align="char">3.2</td></tr><tr><td align="left">Kidney</td><td char="." align="char">168</td><td char="." align="char">150</td><td char="." align="char">30</td><td char="." align="char">180</td><td char="." align="char">1.07</td><td char="." align="char">393</td><td char="." align="char">543</td><td char="." align="char">3.0</td></tr><tr><td align="left">Small Intestine</td><td char="." align="char">166</td><td char="." align="char">148</td><td char="." align="char">30</td><td char="." align="char">178</td><td char="." align="char">1.07</td><td char="." align="char">398</td><td char="." align="char">546</td><td char="." align="char">3.1</td></tr><tr><td align="left">Skin</td><td char="." align="char">177</td><td char="." align="char">156</td><td char="." align="char">36</td><td char="." align="char">192</td><td char="." align="char">1.08</td><td char="." align="char">487</td><td char="." align="char">643</td><td char="." align="char">3.3</td></tr><tr><td align="left">Poncho</td><td char="." align="char">173</td><td char="." align="char">152</td><td char="." align="char">36</td><td char="." align="char">188</td><td char="." align="char">1.09</td><td char="." align="char">487</td><td char="." align="char">639</td><td char="." align="char">3.4</td></tr></tbody></table><table-wrap-foot><p>PNTD data from detectors provided by OSU and evaluated/analysed by DLR</p><p>Relative precisions for dose rate values range between 4 and 8 % and for dose equivalent rate and <italic>Q</italic> values around 15 %</p></table-wrap-foot></table-wrap>
+</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Calculation of effective dose equivalent</title>
+                <p>The effective dose, <italic>E</italic>, is the sum of the equivalent doses, <italic>H</italic>
+<sub>T</sub>, in all the radiosensitive organs T, weighted by a dimensionless tissue weighting factor <italic>w</italic>
+<sub>T</sub> that represents the relative contribution of the organ to the total detriment<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ E = \sum\limits_{\text{T}} {w_{\text{T}} \cdot H_{\text{T}} } . $$\end{document}</tex-math><mml:math id="M16" display="block"><mml:mrow><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:munder><mml:mo movablelimits="false">∑</mml:mo><mml:mtext>T</mml:mtext></mml:munder><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mtext>T</mml:mtext></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mtext>T</mml:mtext></mml:msub></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>
+</p>
+                <p>For radiation protection in space, the non-measurable equivalent doses are replaced by the organ dose equivalent <inline-formula id="IEq1"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{T} $$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mi>T</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq1.gif"/></alternatives></inline-formula> (ICRU <xref ref-type="bibr" rid="CR12">1993</xref>; NCRP <xref ref-type="bibr" rid="CR15">2000</xref>; ICRP <xref ref-type="bibr" rid="CR11">2013</xref>) which is calculated as a mean value over the whole organ of interest based on calculation of a dose equivalent at a point.<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} = \int_{L} {Q\,(L)dD_{\text{T}} \,(L)} $$\end{document}</tex-math><mml:math id="M20" display="block"><mml:mrow><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mo>∫</mml:mo><mml:mi>L</mml:mi></mml:msub><mml:mrow><mml:mi>Q</mml:mi><mml:mspace width="0.166667em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mtext>T</mml:mtext></mml:msub><mml:mspace width="0.166667em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math><graphic xlink:href="411_2014_560_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where <italic>dD</italic>
+<sub>T</sub> (<italic>L</italic>) is the contribution to the absorbed dose from a radiation component with an LET between <italic>L</italic> and <italic>L</italic> + <italic>dL</italic> and <italic>Q</italic> (<italic>L</italic>) is a dimensionless mean quality factor (ICRP <xref ref-type="bibr" rid="CR7">1991</xref>). Applying the organ dose equivalent, the respective quantity as defined in ICRP Report 123 (ICRP <xref ref-type="bibr" rid="CR11">2013</xref>) is henceforth called effective dose equivalent.</p>
+                <p>For these calculations, the <italic>w</italic>
+<sub>T</sub> values were taken from the ICRP Recommendation 60 (ICRP <xref ref-type="bibr" rid="CR7">1991</xref>), which currently forms the basis of the EU legal radiation protection regulations. In 2007, a revised set of <italic>w</italic>
+<sub>T</sub> values, selected by judgement on the basis of a broad range of experimental data, has been published in the ICRP Recommendation 103 (ICRP <xref ref-type="bibr" rid="CR9">2007</xref>). The changes in the tissue weighting factor <italic>w</italic>
+<sub>T</sub> made by the Commission are as follows: the value for the breast increased from 0.05 to 0.12; that for gonads decreased from 0.20 to 0.08; those for bladder, oesophagus, liver and thyroid decreased from 0.05 to 0.04; a value of 0.12 is given in place of 0.05 for the remainder tissues; and an additional value of 0.01 is given for the brain and the salivary glands. In order to visualize the effect of these changes, in the present paper the effective dose equivalent was calculated using both, ICRP (<xref ref-type="bibr" rid="CR7">1991</xref>) <italic>w</italic>
+<sub>T</sub> values and ICRP (<xref ref-type="bibr" rid="CR9">2007</xref>) <italic>w</italic>
+<sub>T</sub> values.</p>
+                <p>The mean quality factors in selected organs, where PNTDs were applied, were calculated as the ratio between the total dose equivalent and the total organ dose (see Reitz et al. (<xref ref-type="bibr" rid="CR19">2009</xref>) for details). For the calculation of the mean quality factors in all remaining organs, an interpolation was performed using the <italic>Q</italic> values received by LET spectra measurement in the selected organs, applying the mean shielding depth for the organs of interest in the NUNDO phantom (Matthiä et al. <xref ref-type="bibr" rid="CR14">2013</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="Sec10">
+              <title>Results and discussion</title>
+              <p>The combined TLDs and PNTDs’ data for the MTR-1/2A/2B experiments for the organs and for the poncho detectors, which act as surrogate for a personal dosemeter of an astronaut, are presented in Table <xref rid="Tab3" ref-type="table">3</xref>.</p>
+              <p>The average TLD organ dose rate calculated by folding the TLD 3D dose distribution model with the NUNDO voxel phantom (Fig. <xref rid="Fig2" ref-type="fig">2</xref>) is given by <italic>D</italic>
+<sub>TLD</sub>. <italic>D</italic>
+<sub>TLD-low</sub> represents the average absorbed organ dose rate measured by TLDs for LET &lt;10 keV/μm, and the <italic>D</italic>
+<sub><italic>PNTD</italic>-high</sub> represents the absorbed dose rate measured by PNTDs for LET &gt;10 keV/μm. <italic>D</italic>
+<sub><italic>T</italic></sub> is the total average organ dose rate given by the sum of <italic>D</italic>
+<sub>TLD-low</sub> and <italic>D</italic>
+<sub>PNTD-high</sub>. The total daily organ dose equivalent rate (<inline-formula id="IEq2"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq2.gif"/></alternatives></inline-formula>) and the mean quality factor (<italic>Q</italic>
+<sub>T</sub>) are based on the combination of TLD measurements and PNTD data. (see Reitz et al. <xref ref-type="bibr" rid="CR19">2009</xref> for further details).<fig id="Fig2"><label>Fig. 2</label><caption><p>Continuous TLD dose distribution models combined with the numerical voxel phantom NUNDO for <bold>a</bold> MTR-1, <bold>b</bold> MTR-2A and <bold>c</bold> MTR-2B. Mean organ dose rates are calculated from these distributions (Tables <xref rid="Tab3" ref-type="table">3</xref>, <xref rid="Tab4" ref-type="table">4</xref>)</p></caption><graphic xlink:href="411_2014_560_Fig2_HTML" id="MO8"/></fig>
+</p>
+              <p>The mean quality factor ranges from 2.2 for the skin to 2.7 for stomach and small intestine for MTR-1. For MTR-2A, the mean quality factor for the skin is 2.8, while it is 3.3 for the stomach. For the MTR-2B exposure, the mean quality factors are quite homogenous and close to 3.1. The mean quality factor for stomach for MTR-1 agrees well with the value calculated by Zhou et al. (<xref ref-type="bibr" rid="CR26">2010</xref>) based on NASA-JSC detectors.</p>
+              <p>The average organ dose rates, the average dose equivalent rates and the mean quality factors for all the radiosensitive organs, given by ICRP Report 103 (2007), for the MTR-1/2A/2B phantom torso experiments are summarized in Table <xref rid="Tab4" ref-type="table">4</xref>.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Average organ dose rates (D<sub>T</sub>), average organ dose equivalent rates (<inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq7.gif"/></alternatives></inline-formula>) and the mean quality factors (<inline-formula id="IEq8"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ Q_{T} $$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mi>Q</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq8.gif"/></alternatives></inline-formula>) calculated for all radiosensitive organs for MTR-1/2A/2B phantom torso facilities</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Organ</th><th align="left" colspan="3"><italic>D</italic><sub>T</sub> (µGy/d)</th><th align="left" colspan="3"><italic>Q</italic><sub>T</sub></th><th align="left" colspan="3"><inline-formula id="IEq9"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq9.gif"/></alternatives></inline-formula> (µSv/d)</th></tr><tr><th align="left">MTR-1</th><th align="left">MTR-2A</th><th align="left">MTR-2B</th><th align="left">MTR-1</th><th align="left">MTR-2A</th><th align="left">MTR-2B</th><th align="left">MTR-1</th><th align="left">MTR-2A</th><th align="left">MTR-2B</th></tr></thead><tbody><tr><td align="left">Bladder</td><td char="±" align="char">225 ± 13</td><td char="±" align="char">173 ± 10</td><td char="±" align="char">182 ± 10</td><td char="±" align="char">2.4 ± 0.4</td><td char="±" align="char">2.9 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">546 ± 82</td><td char="±" align="char">507 ± 76</td><td char="±" align="char">569 ± 85</td></tr><tr><td align="left">Stomach</td><td char="±" align="char">239 ± 14</td><td char="±" align="char">177 ± 10</td><td char="±" align="char">173 ± 10</td><td char="±" align="char">2.7 ± 0.4</td><td char="±" align="char">3.3 ± 0.5</td><td char="±" align="char">3.2 ± 0.5</td><td char="±" align="char">641 ± 96</td><td char="±" align="char">582 ± 87</td><td char="±" align="char">552 ± 83</td></tr><tr><td align="left">Colon</td><td char="±" align="char">245 ± 14</td><td char="±" align="char">176 ± 10</td><td char="±" align="char">181 ± 10</td><td char="±" align="char">2.6 ± 0.4</td><td char="±" align="char">3.2 ± 0.5</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">636 ± 95</td><td char="±" align="char">557 ± 84</td><td char="±" align="char">565 ± 85</td></tr><tr><td align="left">Red bone marrow</td><td char="±" align="char">247 ± 14</td><td char="±" align="char">180 ± 10</td><td char="±" align="char">185 ± 11</td><td char="±" align="char">2.5 ± 0.4</td><td char="±" align="char">3.0 ± 0.5</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">615 ± 92</td><td char="±" align="char">543 ± 81</td><td char="±" align="char">578 ± 87</td></tr><tr><td align="left">Liver</td><td char="±" align="char">250 ± 14</td><td char="±" align="char">176 ± 10</td><td char="±" align="char">178 ± 10</td><td char="±" align="char">2.7 ± 0.4</td><td char="±" align="char">3.3 ± 0.5</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">669 ± 100</td><td char="±" align="char">583 ± 87</td><td char="±" align="char">557 ± 83</td></tr><tr><td align="left">Reminder</td><td char="±" align="char">260 ± 15</td><td char="±" align="char">181 ± 10</td><td char="±" align="char">179 ± 10</td><td char="±" align="char">2.4 ± 0.4</td><td char="±" align="char">2.9 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">618 ± 93</td><td char="±" align="char">522 ± 78</td><td char="±" align="char">559 ± 84</td></tr><tr><td align="left">Oesophagus</td><td char="±" align="char">275 ± 16</td><td char="±" align="char">184 ± 11</td><td char="±" align="char">178 ± 10</td><td char="±" align="char">2.5 ± 0.4</td><td char="±" align="char">3.0 ± 0.5</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">691 ± 104</td><td char="±" align="char">560 ± 84</td><td char="±" align="char">556 ± 83</td></tr><tr><td align="left">Lungs</td><td char="±" align="char">279 ± 16</td><td char="±" align="char">193 ± 11</td><td char="±" align="char">185 ± 11</td><td char="±" align="char">2.4 ± 0.4</td><td char="±" align="char">2.9 ± 0.4</td><td char="±" align="char">3.2 ± 0.5</td><td char="±" align="char">659 ± 99</td><td char="±" align="char">556 ± 83</td><td char="±" align="char">585 ± 88</td></tr><tr><td align="left">Bones</td><td char="±" align="char">285 ± 16</td><td char="±" align="char">190 ± 11</td><td char="±" align="char">186 ± 11</td><td char="±" align="char">2.4 ± 0.4</td><td char="±" align="char">2.9 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">691 ± 104</td><td char="±" align="char">558 ± 84</td><td char="±" align="char">582 ± 87</td></tr><tr><td align="left">Gonads</td><td char="±" align="char">287 ± 16</td><td char="±" align="char">183 ± 10</td><td char="±" align="char">180 ± 10</td><td char="±" align="char">2.2 ± 0.3</td><td char="±" align="char">2.8 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">641 ± 96</td><td char="±" align="char">512 ± 77</td><td char="±" align="char">562 ± 84</td></tr><tr><td align="left">Thyroid</td><td char="±" align="char">316 ± 18</td><td char="±" align="char">203 ± 12</td><td char="±" align="char">180 ± 10</td><td char="±" align="char">2.3 ± 0.3</td><td char="±" align="char">2.9 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">736 ± 110</td><td char="±" align="char">580 ± 87</td><td char="±" align="char">564 ± 85</td></tr><tr><td align="left">Brain</td><td char="±" align="char">318 ± 18</td><td char="±" align="char">199 ± 11</td><td char="±" align="char">188 ± 11</td><td char="±" align="char">2.3 ± 0.3</td><td char="±" align="char">2.8 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">724 ± 109</td><td char="±" align="char">561 ± 84</td><td char="±" align="char">588 ± 88</td></tr><tr><td align="left">Salivary glands</td><td char="±" align="char">355 ± 20</td><td char="±" align="char">203 ± 12</td><td char="±" align="char">183 ± 11</td><td char="±" align="char">2.3 ± 0.3</td><td char="±" align="char">2.8 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">809 ± 121</td><td char="±" align="char">571 ± 86</td><td char="±" align="char">572 ± 86</td></tr><tr><td align="left">Breast</td><td char="±" align="char">485 ± 28</td><td char="±" align="char">200 ± 11</td><td char="±" align="char">179 ± 10</td><td char="±" align="char">2.3 ± 0.3</td><td char="±" align="char">2.8 ± 0.4</td><td char="±" align="char">3.1 ± 0.5</td><td char="±" align="char">1,107 ± 166</td><td char="±" align="char">565 ± 85</td><td char="±" align="char">559 ± 84</td></tr><tr><td align="left">Skin</td><td char="±" align="char">1,379 ± 79</td><td char="±" align="char">228 ± 13</td><td char="±" align="char">192 ± 11</td><td char="±" align="char">2.2 ± 0.3</td><td char="±" align="char">2.8 ± 0.4</td><td char="±" align="char">3.3 ± 0.5</td><td char="±" align="char">3,025 ± 453</td><td char="±" align="char">641 ± 96</td><td char="±" align="char">643 ± 97</td></tr></tbody></table><table-wrap-foot><p>For all organs, except lungs, skin and stomach, the D<sub>T</sub> values were calculated by multiplying the TLD doses by an average correction factor of 1.07 (D<sub>T</sub>/D<sub>TLD</sub> in Table <xref rid="Tab3" ref-type="table">3</xref>). One-sigma uncertainties were calculated by error propagation</p></table-wrap-foot></table-wrap>
+</p>
+              <p>The results show a very steep, around 80 %, dose rate decrease from the skin (1,379 ± 79 µGy/d) towards the inner organs for MTR-1. This decrease is most pronounced in the lower part of the phantom (stomach, bladder) which is a consequence of higher body self-shielding and additional bottom shielding from the ISS.</p>
+              <p>The calculated dose rate for the skin for intra-vehicular exposure with MTR-2A (Pirs module) is 228 ± 13 μGy/d. In this case, the dose rate decrease from the skin towards the deeper located organs is &lt;25 %. In contrast, for MTR-2B it is hard to see a decrease in dose rate towards the inner organs. The average skin dose rate for MTR-2B was calculated as 192 ± 11 µGy/d, which is approximately 15 % less than the average skin dose for MTR-2A. The difference in dose rate in the two different modules of the ISS results from a complex interplay of solar activity and shielding thickness: MTR-2B was exposed at lower solar activity than MTR-2A, which means that there was a higher contribution to the dose from the protons of the radiation belts and from GCR; on the other hand, the thicker shielding in case of MTR-2B compared with MTR-2A reduced the dose contributed by protons from the radiation belt. Deeper within the phantom, the solar modulation dominates any differences in dose, whereas closer to the surface of the phantom the shielding of the ISS module dominates, resulting in higher doses for MTR-2A (Berger et al. <xref ref-type="bibr" rid="CR3">2013</xref>).</p>
+              <p>Effective dose equivalent rates calculated either with <italic>w</italic>
+<sub>T</sub> values from ICRP Recommendation 60 (ICRP <xref ref-type="bibr" rid="CR7">1991</xref>) or with those from ICRP Recommendation 103 (ICRP <xref ref-type="bibr" rid="CR9">2007</xref>) are shown in Table <xref rid="Tab5" ref-type="table">5</xref>. The effective dose equivalent rate during an EVA (MTR-1) is 690 ± 33 μSv/d applying the <italic>w</italic>
+<sub>T</sub> values from ICRP Report 60 and 722 ± 35 μSv/d when using <italic>w</italic>
+<sub>T</sub> values from ICRP Report 103. In contrast, effective dose equivalent rates calculated for an IVA at different ISS modules based on ICRP Report 60 are 549 ± 27 μSv/d for MTR-2A and 566 ± 29 μSv/d for MTR-2B; while based on ICRP Report 103, they are 552 ± 26 μSv/d for MTR-2A and 566 ± 27 μSv/d for MTR-2B. For comparison, the effective dose equivalent rate onboard the vehicle during the short-term STS-91 mission was calculated as 418 µSv/d using <italic>w</italic>
+<sub>T</sub> values based on ICRP Report 60 and 408 µSv/d using the ICRP Report 103 <italic>w</italic>
+<sub>T</sub> values (Yasuda <xref ref-type="bibr" rid="CR24">2009</xref>). The small differences, 5 % for MTR-1 and &lt;1 % for MTR-2A/B, in effective dose equivalent rate calculated based on ICRP Reports 60 and 103, demonstrate that the update of <italic>w</italic>
+<sub>T</sub> values by ICPR 103 does not affect much the radiation risk estimates for stochastic effects in astronauts.<table-wrap id="Tab5"><label>Table 5</label><caption><p>Effective dose equivalent rates for <italic>w</italic>
+<sub>T</sub> values taken from ICRP Report 60 (ICRP <xref ref-type="bibr" rid="CR7">1991</xref>) and from ICRP Report 103 (ICRP <xref ref-type="bibr" rid="CR9">2007</xref>)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2"/><th align="left" colspan="2"><italic>E</italic> (µSv/d)</th></tr><tr><th align="left">(ICRP <xref ref-type="bibr" rid="CR7">1991</xref>)</th><th align="left">(ICRP <xref ref-type="bibr" rid="CR9">2007</xref>)</th></tr></thead><tbody><tr><td align="left">MTR-1</td><td char="±" align="char">690 ± 33</td><td char="±" align="char">722 ± 35</td></tr><tr><td align="left">MTR-2A</td><td char="±" align="char">549 ± 27</td><td char="±" align="char">552 ± 26</td></tr><tr><td align="left">MTR-2B</td><td char="±" align="char">566 ± 29</td><td char="±" align="char">566 ± 27</td></tr></tbody></table><table-wrap-foot><p>One-sigma uncertainties were calculated by error propagation</p></table-wrap-foot></table-wrap>
+</p>
+              <p>Worth emphasizing is that the 15 % increase in the skin dose for MTR-2A compared to MTR-2B does not contribute much to the total effective dose equivalent for MTR-2A, as the contribution of the skin to the effective dose equivalent is only 1 %.</p>
+              <p>The use of the poncho detector set (<inline-formula id="IEq3"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{H}_{\text{T}} $$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mover><mml:mi>H</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mtext>T</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href="411_2014_560_Article_IEq3.gif"/></alternatives></inline-formula> values from Table <xref rid="Tab3" ref-type="table">3</xref>), a surrogate of a personal dosimeter worn by an astronaut, would overestimate the effective dose equivalent (Table <xref rid="Tab5" ref-type="table">5</xref>) for an IVA by about a factor of 1.18 for MTR-2A and 1.13 for MTR-2B. During an EVA (MTR-1), the overestimation becomes larger than a factor of 3. When comparing the calculated here effective dose equivalent to the dose equivalent in the poncho detectors measured by NASA-JSC detectors (Zhou et al. <xref ref-type="bibr" rid="CR26">2010</xref>), this factor is about 1.9. The difference can be explained by the fact that the OSU/DLR detectors reported here were located at the outer surface of the detector package, thus representing a surrogate of a personal dosimeter, whereas the NASA-JSC detectors experienced an additional shielding of about 9.5 mm of plastic as they were located at the lower surface of the respective package.</p>
+            </sec>
+            <sec id="Sec11" sec-type="conclusion">
+              <title>Conclusions</title>
+              <p>For the first time, a human torso phantom equipped with radiation detectors was used as part of the MATROSHKA facility to measure the doses at several locations inside and on the ‘skin’ of the phantom, which has been mounted outside the ISS simulating an astronaut during EVA. Following the outside exposure two measurement campaigns were performed inside the Russian modules of the ISS (Zvezda and Pirs). The measured depth dose profiles were combined with a numerical voxel model of the RANDO phantom (called NUNDO), in order to calculate organ and effective dose equivalents.</p>
+              <p>The main result of the present work is the depth dose profiles inside the phantom in the different exposure locations, which may be used to benchmark space radiation models and radiation transport calculations required for mission planning. Outside the station the depth dose gradient from the skin to the inner organs is very steep, demonstrating that measurements of a personal dosimeter dramatically overestimate the exposure of an astronaut, in the worst case by a factor of more than three. Exposures inside do not show this dramatic effect, but as lower the shielding thickness in inside exposures as steeper the gradient becomes. In the Pirs module (MTR-2A), the overestimation is about a factor of 1.18, whereas in the heavier shielded Zvezda module (MTR-2B) the overestimate is only a factor of 1.13.</p>
+              <p>Furthermore, it was shown that already in an outside exposure the self-shielding of the human body is very effective. The exposure of the various inner organs is comparatively homogeneous, and the effective dose equivalent is only less than 30 % higher than in an inside exposure.</p>
+              <p>So far, most of the measurements were performed with passive detector systems that do not provide time-resolved information. Therefore, future efforts aim at continuing with time-resolved measurements, to record the temporal pattern of the organ doses. In addition the results obtained so far are representing exposures at times of rather low solar activity. Accordingly, future measurements are planned at times of high solar activities, and the potential change of the depth dose distribution due to solar particle events should also be investigated. Note that solar particle events were absent during the measurement campaigns of the MTR facility.
+</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>Vladislav Petrov: Deceased.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <p>This work was partly funded by the European Commission in the frame of the FP7 HAMLET project (Project #218817). The first author wishes to express gratitude to Dr. <italic>José</italic> M <italic>Gómez</italic>-<italic>Ros</italic> (CIEMAT, Madrid, Spain) for his support during the NUNDO model development.</p>
+              <sec id="d32e3114">
+                <title>Conflict of interest</title>
+                <p>The authors report no conflicts of interest. The authors alone are responsible for the content and writing of the paper.</p>
+              </sec>
+            </ack>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benton</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <name>
+                      <surname>Benton</surname>
+                      <given-names>EV</given-names>
+                    </name>
+                    <name>
+                      <surname>Frank</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Passive dosimetry aboard the Mir Orbital Station: internal measurements</article-title>
+                  <source>Radiat Meas</source>
+                  <year>2002</year>
+                  <volume>35</volume>
+                  <fpage>439</fpage>
+                  <lpage>555</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1350-4487(02)00075-6</pub-id>
+                  <pub-id pub-id-type="pmid">12440436</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajek</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>TL-efficiency: overview and experimental results over the years</article-title>
+                  <source>Radiat Meas</source>
+                  <year>2008</year>
+                  <volume>43</volume>
+                  <fpage>146</fpage>
+                  <lpage>156</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.radmeas.2007.10.029</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bilski</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajek</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Puchalska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The MATROSHKA experiment: results and comparison from EVA (MTR-1) and IVA (MTR-2A/2B) exposure</article-title>
+                  <source>Radiat Res</source>
+                  <year>2013</year>
+                  <volume>180</volume>
+                  <fpage>622</fpage>
+                  <lpage>637</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR13148.1</pub-id>
+                  <pub-id pub-id-type="pmid">24252101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bilski</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajek</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Twardak</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Körner</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Thermoluminescence fading studies: implications for long-duration space measurements in low earth orbit</article-title>
+                  <source>Radiat Meas</source>
+                  <year>2013</year>
+                  <volume>56</volume>
+                  <fpage>303</fpage>
+                  <lpage>306</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.radmeas.2013.01.045</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dettmann</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Gianfiglio</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MATROSHKA-The first ESA external payload on the International Space Station</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>2007</year>
+                  <volume>60</volume>
+                  <issue>1</issue>
+                  <fpage>17</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2006.04.018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hounsfield</surname>
+                      <given-names>GN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Computerised transverse axial scanning (tomography): Part 1. Description of system</article-title>
+                  <source>Br J Radiol</source>
+                  <year>1973</year>
+                  <volume>46</volume>
+                  <fpage>1016</fpage>
+                  <lpage>1022</lpage>
+                  <pub-id pub-id-type="doi">10.1259/0007-1285-46-552-1016</pub-id>
+                  <pub-id pub-id-type="pmid">4757352</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <mixed-citation publication-type="other">ICRP (1991) Recommendations of the International Commission on Radiological Protection. ICRP Publication 60</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <mixed-citation publication-type="other">ICRP (2002) Basic anatomical and physiological data for use in radiological protection: reference values. ICRP Publication 89</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <mixed-citation publication-type="other">ICRP (2007) The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <mixed-citation publication-type="other">ICRP (2009) Adult Reference Computational Phantoms. ICRP Publication 110</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <mixed-citation publication-type="other">ICRP (2013) Assessment of Radiation Exposure of Astronauts in Space. ICRP Publication 123</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <mixed-citation publication-type="other">ICRU (1993) Quantities and Units in Radiation Protection Dosimetry. ICRU Report 51</mixed-citation>
+              </ref>
+              <ref id="CR13">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liszka</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An interpolation method for an irregular net of nodes</article-title>
+                  <source>Int J Numer Methods Eng</source>
+                  <year>1984</year>
+                  <volume>20</volume>
+                  <fpage>1599</fpage>
+                  <lpage>1612</lpage>
+                  <pub-id pub-id-type="doi">10.1002/nme.1620200905</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matthiä</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Organ shielding and doses in Low-Earth orbit calculated for spherical and anthropomorphic phantoms</article-title>
+                  <source>Adv Space Res</source>
+                  <year>2013</year>
+                  <volume>52</volume>
+                  <fpage>528</fpage>
+                  <lpage>535</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2013.03.025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <mixed-citation publication-type="other">NCRP (2000) Radiation protection guidance for activities in low-earth orbit. NCRP Report 132</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <mixed-citation publication-type="other">Puchalska M (2008) Radiation risk assessment for astronauts outside the International Space Station. Doctoral dissertation, International PhD Studies at the Institute of Nuclear Physics, Polish Academy of Sciences, Krakow, Poland, (in Polish)</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space radiation dosimetry</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>1994</year>
+                  <volume>32</volume>
+                  <fpage>715</fpage>
+                  <lpage>720</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0094-5765(94)90165-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The MATROSHKA facility: dose determination during an EVA</article-title>
+                  <source>Radiat Prot Dosim</source>
+                  <year>2006</year>
+                  <volume>120</volume>
+                  <fpage>442</fpage>
+                  <lpage>445</lpage>
+                  <pub-id pub-id-type="doi">10.1093/rpd/nci558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bilski</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Facius</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajek</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrov</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Puchalska</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Bossler</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Akatov</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Shurshakov</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Olko</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ptaszkiewicz</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bergmann</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fugger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Vana</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Beaujean</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Burmeister</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bartlett</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hager</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Palfalvi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Szabo</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Sullivan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kitamura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Uchihori</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yasuda</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagamatsu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tawara</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Benton</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaza</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>McKeever</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Sawakuchi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Yukihara</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Semones</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Zapp</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Dettmann</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Astronaut’s organ doses inferred from measurements in a human phantom outside the International Space Station</article-title>
+                  <source>Radiat Res</source>
+                  <year>2009</year>
+                  <volume>171</volume>
+                  <fpage>225</fpage>
+                  <lpage>235</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR1559.1</pub-id>
+                  <pub-id pub-id-type="pmid">19267549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasband</surname>
+                      <given-names>WS</given-names>
+                    </name>
+                    <name>
+                      <surname>Eliceiri</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NIH Image to ImageJ: 25 years of image analysis</article-title>
+                  <source>Nat Methods</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>671</fpage>
+                  <lpage>675</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.2089</pub-id>
+                  <pub-id pub-id-type="pmid">22930834</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <mixed-citation publication-type="other">Shepard D (1968) A two-dimensional interpolation function for irregularly-spaced data. In: Proceedings 1968 ACM National Conference, pp 517–524</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Straube</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Facius</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuglesang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Reiter</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Damann</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Tognini</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Operational radiation protection for astronauts and cosmonauts and correlated activities of ESA Medical Operations</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>2010</year>
+                  <volume>66</volume>
+                  <fpage>963</fpage>
+                  <lpage>973</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2009.10.004</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vanhavere</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Genicot</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Sullivan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Spurný</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Jadrníčková</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Sawakuchi</surname>
+                      <given-names>GO</given-names>
+                    </name>
+                    <name>
+                      <surname>Yukihara</surname>
+                      <given-names>EG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dosimetry of biological experiments in space (DOBIES) with luminescence (OSL and TL) and track etch detectors</article-title>
+                  <source>Radiat Meas</source>
+                  <year>2008</year>
+                  <volume>43</volume>
+                  <fpage>694</fpage>
+                  <lpage>697</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.radmeas.2007.12.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yasuda</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effective dose measured with a life size human phantom in a low earth orbit mission</article-title>
+                  <source>J Radiat Res</source>
+                  <year>2009</year>
+                  <volume>50</volume>
+                  <fpage>89</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1269/jrr.08105</pub-id>
+                  <pub-id pub-id-type="pmid">19202325</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yasuda</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Badhwar</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Komiyama</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Fujitaka</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effective dose equivalent on the ninth shuttle-mir mission (STS-91)</article-title>
+                  <source>Radiat Res</source>
+                  <year>2000</year>
+                  <volume>154</volume>
+                  <fpage>705</fpage>
+                  <lpage>713</lpage>
+                  <pub-id pub-id-type="doi">10.1667/0033-7587(2000)154[0705:EDEOTN]2.0.CO;2</pub-id>
+                  <pub-id pub-id-type="pmid">11096429</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Semones</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Sullivan</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zapp</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Weyland</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Benton</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Radiation measured for MATROSHKA-1 experiment with passive dosimeters</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>2010</year>
+                  <volume>66</volume>
+                  <fpage>301</fpage>
+                  <lpage>308</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2009.06.014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zubal</surname>
+                      <given-names>IG</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrell</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>EO</given-names>
+                    </name>
+                    <name>
+                      <surname>Rattner</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Gindi</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffer</surname>
+                      <given-names>PB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Computerized three-dimensional segmented human anatomy</article-title>
+                  <source>Med Phys</source>
+                  <year>1994</year>
+                  <volume>21</volume>
+                  <fpage>299</fpage>
+                  <lpage>302</lpage>
+                  <pub-id pub-id-type="doi">10.1118/1.597290</pub-id>
+                  <pub-id pub-id-type="pmid">8177164</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

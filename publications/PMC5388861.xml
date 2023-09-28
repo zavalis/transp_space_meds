@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:01:01Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5388861" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5388861</identifier>
+        <datestamp>2017-04-14</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5388861</article-id>
+              <article-id pub-id-type="pmcid">PMC5388861</article-id>
+              <article-id pub-id-type="pmc-uid">5388861</article-id>
+              <article-id pub-id-type="pmid">28401943</article-id>
+              <article-id pub-id-type="pii">srep46273</article-id>
+              <article-id pub-id-type="doi">10.1038/srep46273</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Signal coverage approach to the detection probability of hypothetical extraterrestrial emitters in the Milky Way</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Grimaldi</surname>
+                    <given-names>Claudio</given-names>
+                  </name>
+                  <xref ref-type="corresp" rid="c1">a</xref>
+                  <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <aff id="a1"><label>1</label><institution>Laboratory of Physics of Complex Matter, Ecole Polytechnique Fédérale de Lausanne</institution>, Station 3, CH-1015 Lausanne, <country>Switzerland</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="c1">
+                  <label>a</label>
+                  <email>claudio.grimaldi@epfl.ch</email>
+                </corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>04</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2017</year>
+              </pub-date>
+              <volume>7</volume>
+              <elocation-id>46273</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>10</month>
+                  <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                  <day>13</day>
+                  <month>03</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2017, The Author(s)</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <!--author-paid-->
+                  <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The lack of evidence for the existence of extraterrestrial life, even the simplest forms of animal life, makes it is difficult to decide whether the search for extraterrestrial intelligence (SETI) is more a high-risk, high-payoff endeavor than a futile attempt. Here we insist that even if extraterrestrial civilizations do exist and communicate, the likelihood of detecting their signals crucially depends on whether the Earth lies within a region of the galaxy covered by such signals. By considering possible populations of independent emitters in the galaxy, we build a statistical model of the domain covered by hypothetical extraterrestrial signals to derive the detection probability that the Earth is within such a domain. We show that for general distributions of the signal longevity and directionality, the mean number of detectable emitters is less than one even for detection probabilities as large as 50%, regardless of the number of emitters in the galaxy.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <p>The possibility that extra-solar planets in the Milky Way Galaxy may harbor intelligent, communicating civilizations has long inspired the search for signs of their existence. While data suggest that a significant fraction of Sun-like stars may host Earth-sized planets within the habitable zone<xref ref-type="bibr" rid="b1">1</xref>, the chances of detecting hypothetical extraterrestrial signals still remain highly speculative. Estimates of the detection probability<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref> often rely on arguments, such as the Drake equation<xref ref-type="bibr" rid="b5">5</xref>, aimed at determining the odds that communicating civilizations exist in the Milky Way. Yet, given the lack of empirical data, it is highly uncertain that even microbiological life exists elsewhere than the Earth<xref ref-type="bibr" rid="b6">6</xref>, let alone complex, intelligent life.</p>
+            <p>Even if the existence of extraterrestrial broadcasting civilizations is assumed, a necessary condition for their detection is that the Earth falls within a region of space covered by the emitted signals. The fractional volume occupied by the union of such signals is therefore a natural measure of the probability of detection, as in the study of two-phase heterogeneous media<xref ref-type="bibr" rid="b7">7</xref>, where the volume fraction of one phase gives the probability that a randomly chosen point belongs to that phase. In applying this concept to the detection of galactic signals, however, additional factors such as the spatial and age distribution of hypothetical emitters, their distance from the Earth, and the degree of directionality of the emitted signals and their longevity, must be taken into account.</p>
+            <p>By considering the ensemble of possible realizations of these factors, we build a statistical model of the galactic domain covered by hypothetical extraterrestrial signals and define the detection probability as the probability that the Earth’s position intersects such a domain. We shall not deal with the question of the existence of extrasolar life in the galaxy, as we are concerned here exclusively with the communicative phase of hypothetical civilizations. We show that the constraints imposed by the finite size of the galaxy and the speed of light naturally imply that the age scale of the oldest detectable signal, if there is any, is negligible compared to the age scale of possible communicating civilizations in the Milky Way. This observation enables us to derive the detection probability without a full knowledge of the characteristics of the signals. In particular, we show that distributed signal longevities affect the detection probability only through their first moment. By adopting the statistical independence of the signals, we derive a universal upper bound for the mean number (<inline-formula id="d32e190"><inline-graphic id="d32e191" xlink:href="srep46273-m1.jpg"/></inline-formula>) of remotely-detectable extraterrestrial communicating civilizations, which sets a fundamental limit on the number of detectable civilizations in the Milky Way. We show that <inline-formula id="d32e193"><inline-graphic id="d32e194" xlink:href="srep46273-m2.jpg"/></inline-formula> for a detection probability as large as 50%, even if all stars in the Milky Way are scanned for extraterrestrial signals, regardless of the assumed number of hypothetical emitters and of the longevity of their signals.</p>
+            <sec disp-level="1">
+              <title>Detection probability for isotropic signals</title>
+              <p>We start by describing in details the formalism used for the special case of isotropic, non-directional electromagnetic signals, as this formalism applies as well to our subsequent generalization to anisotropic, beam-like signal emissions. In the following, we employ the term “signal” to indicate any kind of electromagnetic radiation, regardless of its specific wavelength and power spectrum, emitted from an extraterrestrial civilization located within the Milky Way. The restriction to our galaxy reflects the typical range of current SETI initiatives and, as it is discussed below, it allows for some important simplification in the analysis.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Single emitter</title>
+              <p>Let us assume that there exists a communicating civilization (the emitter) located at some point <inline-formula id="d32e206"><inline-graphic id="d32e207" xlink:href="srep46273-m3.jpg"/></inline-formula> in the Milky Way. The emitter transmits an isotropic signal starting at time <italic>t</italic> = −<italic>t</italic><sub>0</sub> and, after a time interval Δ<italic>t</italic> during which the signal is active, the emitter ceases to communicate. At the present time (<italic>t</italic> = 0) the region covered by the signal is a spherical shell centered about <inline-formula id="d32e224"><inline-graphic id="d32e225" xlink:href="srep46273-m4.jpg"/></inline-formula> of outer radius <italic>R</italic> = <italic>ct</italic><sub>0</sub> and thickness Δ = <italic>c</italic>Δ<italic>t</italic>, where <italic>c</italic> is the speed of light<xref ref-type="bibr" rid="b3">3</xref> (<xref ref-type="fig" rid="f1">Fig. 1A</xref>). The signal is detectable, at least in principle, only if the vector position of the Earth at the present time (<inline-formula id="d32e250"><inline-graphic id="d32e251" xlink:href="srep46273-m5.jpg"/></inline-formula>) falls within that spherical shell (<xref ref-type="fig" rid="f1">Fig. 1B</xref>). This condition can be expressed in terms of the indicator function</p>
+              <p>
+                <disp-formula id="eq6">
+                  <inline-graphic id="d32e258" xlink:href="srep46273-m6.jpg"/>
+                </disp-formula>
+              </p>
+              <p>We make the additional assumption that only signals from emitters within an observable radius <italic>R</italic><sub><italic>o</italic></sub> from the Earth are searched for. In principle, <italic>R</italic><sub><italic>o</italic></sub> may represent the distance beyond which the signal becomes indiscernible from the background noise [in that case <italic>R</italic><sub><italic>o</italic></sub> depends on the luminosity of the signal and the receiver sensitivity<xref ref-type="bibr" rid="b8">8</xref><xref ref-type="bibr" rid="b9">9</xref>]. For the moment, however, we shall treat <italic>R</italic><sub><italic>o</italic></sub> as a free parameter that ranges from a few light-years up to the maximum possible distance <italic>R</italic><sub>M</sub> of an emitter from the Earth. We estimate <italic>R</italic><sub>M</sub> as the sum of the galactic radius (≈60 kly) and the distance of the Earth from the galactic center (≈27 kly), as shown schematically in <xref ref-type="fig" rid="f1">Fig. 1C</xref>.</p>
+              <p>Next, we introduce the probability <inline-formula id="d32e303"><inline-graphic id="d32e304" xlink:href="srep46273-m7.jpg"/></inline-formula> of finding the emitter within a volume <inline-formula id="d32e306"><inline-graphic id="d32e307" xlink:href="srep46273-m8.jpg"/></inline-formula> centered about <inline-formula id="d32e309"><inline-graphic id="d32e310" xlink:href="srep46273-m9.jpg"/></inline-formula>(<inline-formula id="d32e312"><inline-graphic id="d32e313" xlink:href="srep46273-m10.jpg"/></inline-formula>, where the integration is extended over the entire galaxy). The odds that the signal is detectable are thus given by the joint probability that the spherical shell signal intersects the Earth and that the emitter is at most at distance <italic>R</italic><sub><italic>o</italic></sub>,</p>
+              <p>
+                <disp-formula id="eq11">
+                  <inline-graphic id="d32e323" xlink:href="srep46273-m11.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <italic>θ(x</italic>) = 1 if <italic>x</italic> ≥ 0 and <italic>θ(x</italic>) = 0 if <italic>x</italic> &lt; 0. By replacing the indicator function by unity, <xref ref-type="disp-formula" rid="eq11">Eq. (2)</xref> gives the probability</p>
+              <p>
+                <disp-formula id="eq12">
+                  <inline-graphic id="d32e343" xlink:href="srep46273-m12.jpg"/>
+                </disp-formula>
+              </p>
+              <p>that the emitter is within the observable radius from the Earth. <xref ref-type="disp-formula" rid="eq12">Equation (3)</xref> represents therefore the maximum possible <italic>p(R</italic><sub><italic>o</italic></sub>; <italic>R</italic>, Δ) for a given <italic>R</italic><sub><italic>o</italic></sub>.</p>
+              <p>Since we are interested in the probability of detecting any kind of spherical shell signal, we marginalize <xref ref-type="disp-formula" rid="eq11">Eq. (2)</xref> over all possible values of <italic>R</italic> and Δ. To this end, we make the reasonable assumption that the duration of a signal is uncorrelated with its starting time, implying that <italic>R</italic> and Δ are distributed independently according to some probability distribution functions, <italic>ρ</italic><sub><italic>R</italic></sub>(<italic>R</italic>) and <italic>ρ</italic><sub>Δ</sub>(Δ). Next, we observe that since the farthest emitter in the Milky Way is at distance <italic>R</italic><sub>M</sub> (≈87 kly) from the Earth, a spherical shell signal with an inner radius larger than <italic>R</italic><sub>M</sub> cannot intersect the Earth’s orbit, independently of the emitter position in the galaxy. In integrating out <italic>R</italic> and Δ in <xref ref-type="disp-formula" rid="eq11">Eq. (2)</xref> we thus adopt the condition that <italic>R</italic> ≤  <italic>R</italic><sub>M</sub> + Δ to exclude those cases where signals are undetectable in principle. Although it is not strictly necessary (see <xref ref-type="supplementary-material" rid="S1">Supplementary Information</xref>), we assume for simplicity that <italic>ρ</italic><sub>Δ</sub>(Δ) is a bounded distribution with the maximum allowed shell thickness Δ<sub>M</sub>. We therefore define the detection probability of an isotropic signal as</p>
+              <p>
+                <disp-formula id="eq13">
+                  <inline-graphic id="d32e429" xlink:href="srep46273-m13.jpg"/>
+                </disp-formula>
+              </p>
+              <p>which represents the conditional probability that the Earth intersects a spherical shell signal from an emitter within a radius <italic>R</italic><sub><italic>o</italic></sub>, given that the signal has been emitted within a time <italic>t</italic><sub>M</sub> = (<italic>R</italic><sub>M</sub> + Δ<sub>M</sub>)/<italic>c</italic> before present (see <xref ref-type="table" rid="t1">Table 1</xref> for symbol legend).</p>
+              <p>Actually, we do not need detailed knowledge of <italic>ρ</italic><sub><italic>R</italic></sub>(<italic>R</italic>) and <italic>ρ</italic><sub>Δ</sub>(Δ) to calculate <xref ref-type="disp-formula" rid="eq13">Eq. (4)</xref>. To understand this point, we note that <italic>ρ</italic><sub><italic>R</italic></sub>(<italic>R</italic>) varies on a length-scale of order <italic>cT</italic><sup>*</sup>, where <italic>T</italic><sup>*</sup> is the time scale possibly spanned by the age distribution of <italic>communicating</italic> civilizations in the Milky Way<xref ref-type="bibr" rid="b10">10</xref>. We speculate that <italic>T</italic><sup>*</sup> is of the order of a few Gy, which results from the difference between the epoch at which the first habitable planets in the Milky Way formed [≈8–9 Gy before present<xref ref-type="bibr" rid="b11">11</xref>] and the time elapsed from the formation of the Earth to the emission of the first radio and TV signals (≈4.5 Gy), which we take as a proxy. Monte Carlo simulations of the evolution of intelligent life in the galaxy<xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref> support similar estimates of <italic>T</italic><sup>*</sup>. Therefore, even for Δ<sub>M</sub> extending up to several million light-years, we expect that the age of the oldest detectable signal is such that <inline-formula id="d32e522"><inline-graphic id="d32e523" xlink:href="srep46273-m14.jpg"/></inline-formula>, which implies that <italic>ρ</italic><sub><italic>R</italic></sub>(<italic>R</italic>) does not show appreciable variations over a length-scale of order <italic>R</italic><sub>M</sub> + Δ<sub>M</sub> = <italic>ct</italic><sub>M</sub>. This key observation allows us to approximate <italic>ρ</italic><sub><italic>R</italic></sub>(<italic>R</italic>) by a constant, which cancels out of <xref ref-type="disp-formula" rid="eq13">Eq. (4)</xref>, and to write the detection probability as</p>
+              <p>
+                <disp-formula id="eq15">
+                  <inline-graphic id="d32e563" xlink:href="srep46273-m15.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <inline-formula id="d32e566"><inline-graphic id="d32e567" xlink:href="srep46273-m16.jpg"/></inline-formula> is the mean thickness of the spherical shell (equivalently, <inline-formula id="d32e569"><inline-graphic id="d32e570" xlink:href="srep46273-m17.jpg"/></inline-formula> is the mean signal longevity). The above expression is remarkable because it shows that the detection probability is simply proportional to <italic>π(R</italic><sub><italic>o</italic></sub>), with a factor of proportionality that depends on <italic>ρ</italic><sub>Δ</sub>(Δ) only through its first moment. From <xref ref-type="disp-formula" rid="eq15">Eq. (5)</xref> we see also that a signal does not need to last billions of years to be detectable with a significant probability<xref ref-type="bibr" rid="b14">14</xref>, as a mean signal longevity larger than about <italic>R</italic><sub>M</sub>/<italic>c</italic> ≈ 87 ky suffices to make <italic>p(R</italic><sub><italic>o</italic></sub>) essentially equivalent to <italic>π(R</italic><sub><italic>o</italic></sub>).</p>
+              <p>To assess the effect of the emitter density probability on <italic>p(R</italic><sub><italic>o</italic></sub>), we take as a proxy for <inline-formula id="d32e618"><inline-graphic id="d32e619" xlink:href="srep46273-m18.jpg"/></inline-formula> the distribution of stars in the galactic habitable zone (GHZ) of the Milky Way<xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref>. For simplicity, we consider GHZ models with cylindrical symmetry, and take <inline-formula id="d32e623"><inline-graphic id="d32e624" xlink:href="srep46273-m19.jpg"/></inline-formula> to have the following expression in cylindrical coordinates <inline-formula id="d32e626"><inline-graphic id="d32e627" xlink:href="srep46273-m20.jpg"/></inline-formula>:</p>
+              <p>
+                <disp-formula id="eq21">
+                  <inline-graphic id="d32e631" xlink:href="srep46273-m21.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <italic>m</italic> is an integer, <italic>r</italic> is the radial distance from the galactic center, <italic>z</italic> is the height from the galactic plane, and <inline-formula id="d32e643"><inline-graphic id="d32e644" xlink:href="srep46273-m22.jpg"/></inline-formula> is a normalization constant. We choose the parameters <italic>m, r</italic><sub><italic>s</italic></sub>, and <italic>z</italic><sub><italic>s</italic></sub> in <xref ref-type="disp-formula" rid="eq21">Eq. (6)</xref> so as to simulate two representative models of the GHZ. In the first model we assume that the GHZ extends over the entire galactic thin disk<xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref>. Following<xref ref-type="bibr" rid="b18">18</xref>, we take <italic>m</italic> = 0, <italic>r</italic><sub><italic>s</italic></sub> = 8.15 kly, and <italic>z</italic><sub><italic>s</italic></sub> = 0.52 kly. In the second model we reproduces the main features of the annular GHZ of ref. <xref ref-type="bibr" rid="b11">11</xref> by taking <italic>m</italic> = 7, <italic>r</italic><sub><italic>s</italic></sub> = 3.26 kly, and <italic>z</italic><sub><italic>s</italic></sub> = 0.52 kly. These parameters give a probability of 68% of finding stars with the highest potential to harbor complex life within ≈15 kly and ≈34 kly from the galactic center, which is a good match with the time averaged GHZ of ref. <xref ref-type="bibr" rid="b11">11</xref>. <xref ref-type="fig" rid="f2">Figure 2</xref> shows that the extent of the observable radius strongly affects the detection probability, with little dependence on the form chosen for <italic>ρ</italic><sub><italic>E</italic></sub>(<inline-formula id="d32e714"><inline-graphic id="d32e715" xlink:href="srep46273-m23.jpg"/></inline-formula>). In particular, <inline-formula id="d32e717"><inline-graphic id="d32e718" xlink:href="srep46273-m24.jpg"/></inline-formula> for values of <italic>R</italic><sub><italic>o</italic></sub> smaller than the thickness of the galactic thin disk (≈2 kly) because in the galactic neighborhood the emitter probability distribution is fairly homogeneous. For <inline-formula id="d32e726"><inline-graphic id="d32e727" xlink:href="srep46273-m25.jpg"/></inline-formula> kly the particular form of <inline-formula id="d32e729"><inline-graphic id="d32e730" xlink:href="srep46273-m26.jpg"/></inline-formula> has practically no effect on the detection probability. These features persist also if we increase the annulus of the emitter distribution from the center to the periphery of the galaxy, although a stronger variation is observed at fixed <italic>R</italic><sub><italic>o</italic></sub> (see <xref ref-type="supplementary-material" rid="S1">Supplementary Information</xref>).</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Multiple emitters</title>
+              <p>To generalize the detection probability to the case of multiple emitters, we assume that they are independently and identically distributed in space with probability density <inline-formula id="d32e747"><inline-graphic id="d32e748" xlink:href="srep46273-m27.jpg"/></inline-formula> and that their signals cover spherical shells with independent and identically distributed outer radii and thicknesses. Given <italic>N</italic> such signals in the entire galaxy, each emitted since a time <italic>t</italic><sub>M</sub> before present and having detection probability <italic>p(R</italic><sub><italic>o</italic></sub>), the probability <italic>P(k</italic>) that the Earth intersects <italic>k</italic> signals from emitters within a radius <italic>R</italic><sub><italic>o</italic></sub> is given by a binomial distribution:</p>
+              <p>
+                <disp-formula id="eq28">
+                  <inline-graphic id="d32e779" xlink:href="srep46273-m28.jpg"/>
+                </disp-formula>
+              </p>
+              <p>We define the detection probability as <italic>ϕ</italic> = 1 − <italic>P</italic>(0), which is the probability that there is at least one emitter within the observable radius whose signal intercepts the Earth. Therefore, from <xref ref-type="disp-formula" rid="eq15">Eqs (5</xref>) and (<xref ref-type="disp-formula" rid="eq28">7</xref>) we find:</p>
+              <p>
+                <disp-formula id="eq29">
+                  <inline-graphic id="d32e796" xlink:href="srep46273-m29.jpg"/>
+                </disp-formula>
+              </p>
+              <p><xref ref-type="disp-formula" rid="eq29">Equation (8)</xref> has far-reaching consequences regarding the population of hypothetical emitters in the galaxy and the likelihood of detecting their communications. This is best illustrated in <xref ref-type="fig" rid="f3">Fig. 3</xref>, where we show the number of emitters obtained from <xref ref-type="disp-formula" rid="eq29">Eq. (8)</xref> for given values of <italic>ϕ</italic>. As the observable radius <italic>R</italic><sub><italic>o</italic></sub> diminishes, the emitter population in the galaxy increases to keep the detection probability constant. The enhancement of the total emitter population as <italic>R</italic><sub><italic>o</italic></sub> decreases is such that, for <italic>ϕ</italic> larger than about 1%, <italic>N</italic> can be comparable or even larger than the number of planets (≈10<sup>8</sup>) recently claimed to possibly harbor complex life<xref ref-type="bibr" rid="b19">19</xref>. Note, however, that <italic>N</italic>, by construction, represents the galactic population of emitters that have sent signals only within a time <italic>t</italic><sub>M</sub> before present. Even assuming that ≈10<sup>8</sup> is a plausible estimate for the number of planets sustaining complex life and that a significant fraction (10%) of those planets have developed communicating civilizations in the last Gy (≈<italic>T</italic><sup>*</sup>), <italic>N</italic> cannot exceed approximately 0.1 × 10<sup>8</sup><italic>t</italic><sub>M</sub>/<italic>T</italic><sup>*</sup> ≈ 10<sup>3</sup> for <italic>t</italic><sub>M</sub> ≈ 100 ky. In this case we infer from <xref ref-type="fig" rid="f3">Fig. 3</xref> that signals from the galactic neighborhood (<inline-formula id="d32e879"><inline-graphic id="d32e880" xlink:href="srep46273-m30.jpg"/></inline-formula> kly) have detection probabilities smaller than 0.01% for a mean signal longevity of 100 years (<inline-formula id="d32e882"><inline-graphic id="d32e883" xlink:href="srep46273-m31.jpg"/></inline-formula> kly). Significantly larger values of <italic>ϕ</italic> can be attained by enhancing the observable radius so as to comprehend the entire galaxy or assuming values of <inline-formula id="d32e888"><inline-graphic id="d32e889" xlink:href="srep46273-m32.jpg"/></inline-formula> so large that they become comparable to <italic>R</italic><sub>M</sub>.</p>
+              <p>It is worth to stress at this point that the value of <italic>N</italic> extracted from the likelihood <italic>ϕ</italic> that the Earth is within the galactic domain covered by the signals (as done above) is not directly comparable to the number (say, <italic>N</italic><sub><italic>D</italic></sub>) of communicative civilizations appearing in the Drake equation<xref ref-type="bibr" rid="b5">5</xref>. In its original formulation, indeed, the Drake equation estimates <italic>N</italic><sub><italic>D</italic></sub> from a product of probabilities that events, which are necessary for the development of communicative life in the galaxy, occur regardless of whether or not the emitted signals can be detected in principle. Later reformulations of the Drake equation follow a similar route<xref ref-type="bibr" rid="b20">20</xref><xref ref-type="bibr" rid="b21">21</xref><xref ref-type="bibr" rid="b22">22</xref>. We note also that the signal longevity <inline-formula id="d32e922"><inline-graphic id="d32e923" xlink:href="srep46273-m33.jpg"/></inline-formula> enters explicitly both in the present formulation and in the Drake equation (where it is commonly denoted by the symbol <italic>L</italic>). However, as it was remarked in the previous section, its effect on the detection probability saturates at values larger than about <italic>R</italic><sub>M</sub>/<italic>c</italic> ≈ 87 ky because the size of the galaxy and the speed of light imply an upper bound to the age of the oldest detectable signal.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Mean number of detectable emitters</title>
+              <p><xref ref-type="disp-formula" rid="eq29">Equation (8)</xref> gives the likelihood that the Earth intersects a region of detectable signals, independently of whether or not we look for such signals. Signal detection would occur only if we point our detectors at emitters whose signals intercept the Earth at the time of measurement. The mean number (<inline-formula id="d32e944"><inline-graphic id="d32e945" xlink:href="srep46273-m34.jpg"/></inline-formula>) of such signals is therefore the quantity of direct interest in the search for extraterrestrial signals and it is easily calculated from the degree probability distribution of <xref ref-type="disp-formula" rid="eq28">Eq. (7)</xref>, which gives: <inline-formula id="d32e950"><inline-graphic id="d32e951" xlink:href="srep46273-m35.jpg"/></inline-formula>. By using the detection probability of <xref ref-type="disp-formula" rid="eq29">Eq. (8)</xref>, we can conveniently rewrite <inline-formula id="d32e956"><inline-graphic id="d32e957" xlink:href="srep46273-m36.jpg"/></inline-formula> as</p>
+              <p>
+                <disp-formula id="eq37">
+                  <inline-graphic id="d32e961" xlink:href="srep46273-m37.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where the distribution of the emitters, the observable radius, and the mean signal longevity are encoded in <italic>ϕ</italic>, which can be regarded as an input (albeit unknown) parameter. The advantage of expressing <inline-formula id="d32e967"><inline-graphic id="d32e968" xlink:href="srep46273-m38.jpg"/></inline-formula> in terms of <italic>ϕ</italic> is highlighted in <xref ref-type="fig" rid="f4">Fig. 4</xref>, which shows <inline-formula id="d32e976"><inline-graphic id="d32e977" xlink:href="srep46273-m39.jpg"/></inline-formula> as a function of the detection probability for different values of <italic>N</italic>: <inline-formula id="d32e983"><inline-graphic id="d32e984" xlink:href="srep46273-m40.jpg"/></inline-formula> depends weakly on <italic>N</italic> for any chosen values of <italic>ϕ</italic> smaller than about 0.9–0.95. More importantly, for any <italic>N</italic> the mean number of detectable signals is bounded from above as</p>
+              <p>
+                <disp-formula id="eq41">
+                  <inline-graphic id="d32e997" xlink:href="srep46273-m41.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where the equality corresponds to the Poisson distribution of an infinite number of signals. <xref ref-type="disp-formula" rid="eq41">Equation (10)</xref> sets therefore a fundamental limit on <inline-formula id="d32e1003"><inline-graphic id="d32e1004" xlink:href="srep46273-m42.jpg"/></inline-formula> that is independent of the number of hypothetical extraterrestrial civilizations in the galaxy and of the characteristics of the isotropic signals. As discussed in more details in the following sections, <xref ref-type="disp-formula" rid="eq41">Eq. (10)</xref> is a robust result because it relies only on the assumption of statistical independence of the signals, without invoking arguments about the existence and number of extrasolar communicating civilizations. One striking implication of <xref ref-type="disp-formula" rid="eq41">Eq. (10)</xref> is that for detection probabilities as large as about 50–60%, for which the number of potentially detectable emitters in the galaxy can reach values well beyond ≈10<sup>3</sup> even for signals lasting in average 1′000 years (see <xref ref-type="fig" rid="f3">Fig. 3</xref>), the mean number of detectable signals is below one. The region covered by hypothetical extraterrestrial signals can thus comprehend a significant fraction of the galaxy without us even noticing it. This is perhaps the most compelling argument that the so-called Fermi paradox is, actually, not a paradox.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Detection probability of anisotropic (beam-like) signals</title>
+              <p>We can now extend our analysis to the case in which the emitters send anisotropic, directional signals, such as collimated beams<xref ref-type="bibr" rid="b23">23</xref><xref ref-type="bibr" rid="b24">24</xref>. We discuss here two limiting situations<xref ref-type="bibr" rid="b2">2</xref>: one in which all beams are directed towards the Earth, in which case the signals are intentional, and the other in which the beams are directed in random directions in space. In the latter case the signals are unintentional and the detection would be accidental.</p>
+              <p>Let us start by consider an emitter at position <inline-formula id="d32e1030"><inline-graphic id="d32e1031" xlink:href="srep46273-m43.jpg"/></inline-formula> that transmits, starting at a time <italic>t</italic><sub>0</sub> before present and during a time interval Δ<italic>t</italic>, a conical beam signal of solid angle Ω<sub>0</sub> and axis oriented along the direction of a unit vector <inline-formula id="d32e1044"><inline-graphic id="d32e1045" xlink:href="srep46273-m44.jpg"/></inline-formula>. At present time, the region covered by the beam is given by the intersection between a spherical shell centered at <inline-formula id="d32e1048"><inline-graphic id="d32e1049" xlink:href="srep46273-m45.jpg"/></inline-formula> of outer radius <italic>R</italic> = <italic>ct</italic><sub>0</sub> and shell thickness Δ = <italic>c</italic>Δ<italic>t</italic>, and a cone with axis directed along <inline-formula id="d32e1066"><inline-graphic id="d32e1067" xlink:href="srep46273-m46.jpg"/></inline-formula>, vertex centered at <inline-formula id="d32e1069"><inline-graphic id="d32e1070" xlink:href="srep46273-m47.jpg"/></inline-formula>, and solid angle Ω<sub>0</sub> = 2<italic>π</italic>(1 − cos<italic>γ</italic><sub>0</sub>), where <italic>γ</italic><sub>0</sub> is the apex semi-angle (<xref ref-type="fig" rid="f5">Fig. 5</xref>).</p>
+              <p>The condition that the Earth intersects this region is given in terms of the indicator function:</p>
+              <p>
+                <disp-formula id="eq48">
+                  <inline-graphic id="d32e1096" xlink:href="srep46273-m48.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <inline-formula id="d32e1099"><inline-graphic id="d32e1100" xlink:href="srep46273-m49.jpg"/></inline-formula> is the vector position of the Earth and <inline-formula id="d32e1102"><inline-graphic id="d32e1103" xlink:href="srep46273-m50.jpg"/></inline-formula> is the indicator function of the spherical shell as given in <xref ref-type="disp-formula" rid="eq6">Eq. (1)</xref>. For a given <inline-formula id="d32e1108"><inline-graphic id="d32e1109" xlink:href="srep46273-m51.jpg"/></inline-formula>, the probability that the beam intersects the Earth and the emitter is at most at distance <italic>R</italic><sub><italic>o</italic></sub> is given by</p>
+              <p>
+                <disp-formula id="eq52">
+                  <inline-graphic id="d32e1119" xlink:href="srep46273-m52.jpg"/>
+                </disp-formula>
+              </p>
+              <p>In the case of an intentional signal the beam is directed towards the Earth. The <italic>θ</italic>-function in <xref ref-type="disp-formula" rid="eq48">Eq. (11)</xref> becomes 1 because <inline-formula id="d32e1128"><inline-graphic id="d32e1129" xlink:href="srep46273-m53.jpg"/></inline-formula>, and <xref ref-type="disp-formula" rid="eq52">Eq. (12)</xref> reduces to the probability that the Earth intersects a spherical shell signal of outer radius <italic>R</italic> and shell thickness Δ, as in <xref ref-type="disp-formula" rid="eq11">Eq. (2)</xref>. It follows therefore that the results obtained for the case of isotropic (spherical-shell) signals are equally valid for beams directed towards the Earth. In particular, the detection probability of <italic>N</italic> independent beams directed towards the Earth coincides with that of <italic>N</italic> isotropic spherical shell signals considered above (<xref ref-type="disp-formula" rid="eq29">Eq. (8)</xref>) where now <inline-formula id="d32e1150"><inline-graphic id="d32e1151" xlink:href="srep46273-m54.jpg"/></inline-formula> represents the beam mean length.</p>
+              <p>In the case in which the beam axis is oriented at random, the probability of intersection (<xref ref-type="disp-formula" rid="eq52">Eq. (12)</xref>) must be mediated over all orientations of <inline-formula id="d32e1158"><inline-graphic id="d32e1159" xlink:href="srep46273-m55.jpg"/></inline-formula>. From <xref ref-type="disp-formula" rid="eq48">Eqs (11</xref>) and (<xref ref-type="disp-formula" rid="eq52">12</xref>) we find:</p>
+              <p>
+                <disp-formula id="eq56">
+                  <inline-graphic id="d32e1169" xlink:href="srep46273-m56.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <italic>γ</italic> is the angle between <inline-formula id="d32e1175"><inline-graphic id="d32e1176" xlink:href="srep46273-m57.jpg"/></inline-formula> and <inline-formula id="d32e1178"><inline-graphic id="d32e1179" xlink:href="srep46273-m58.jpg"/></inline-formula>, and <italic>p(R</italic><sub><italic>o</italic></sub>; <italic>R</italic>, Δ) is the probability that the Earth intersects a spherical shell of outer radius <italic>R</italic> and shell thickness Δ (<xref ref-type="disp-formula" rid="eq11">Eq. (2)</xref>). From <xref ref-type="disp-formula" rid="eq56">Eq. (13)</xref> we see that an highly collimated random beam can dramatically reduce the detection probability. Let us consider for example the case in which Ω<sub>0</sub> is chosen so that at distance <italic>R</italic><sub><italic>b</italic></sub> from the emitter the beam covers a given area <italic>A</italic>. This area can be chosen to represent, for example, the size of a planetary system targeted by the beam and located at distance <italic>R</italic><sub><italic>b</italic></sub> from the emitter. In this case, <xref ref-type="disp-formula" rid="eq56">Eq. (13)</xref> represents the likelihood that the Earth intersects a collimated signal that was not intended for us. From <inline-formula id="d32e1222"><inline-graphic id="d32e1223" xlink:href="srep46273-m59.jpg"/></inline-formula>, and denoting <italic>d</italic> the diameter of the targeted planetary system, we obtain Ω<sub>0</sub>/4<italic>π</italic> ≈ (<italic>d</italic>/4<italic>R</italic><sub><italic>b</italic></sub>)<sup>2</sup> for <italic>d</italic> &lt; <italic>R</italic><sub><italic>b</italic></sub>. Taking <italic>d</italic> comparable to the size of the solar system (≈60 AU ≈10<sup>−3</sup> ly, if we delimit the solar system by the orbit of Neptune) we see that Ω<sub>0</sub>/4<italic>π</italic> can be as small as ≈6 × 10<sup>−8</sup>, ≈6 × 10<sup>−10</sup>, and ≈6 × 10<sup>−12</sup> for <italic>R</italic><sub><italic>b</italic></sub> = 1 ly, 10 ly, and 100 ly, respectively. Note that the assumption of random beam orientations is justified as long as <italic>R</italic><sub><italic>b</italic></sub> is much smaller than the thickness of the galactic thin disk.</p>
+              <p>By following the same steps as described earlier for the case of multiple isotropic signals, we obtain that the detection probability <italic>ϕ</italic> of <italic>N</italic> independent and randomly oriented beams is:</p>
+              <p>
+                <disp-formula id="eq60">
+                  <inline-graphic id="d32e1303" xlink:href="srep46273-m60.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where <inline-formula id="d32e1306"><inline-graphic id="d32e1307" xlink:href="srep46273-m61.jpg"/></inline-formula> is the mean beam length and, if we assume that the beam solid angles are independently and identically distributed, <inline-formula id="d32e1309"><inline-graphic id="d32e1310" xlink:href="srep46273-m62.jpg"/></inline-formula> is the mean solid angle. Using <xref ref-type="disp-formula" rid="eq60">Eq. (14)</xref>, it is straighforward to show that the mean number <inline-formula id="d32e1315"><inline-graphic id="d32e1316" xlink:href="srep46273-m63.jpg"/></inline-formula> of detectable beams satisfies <xref ref-type="disp-formula" rid="eq37">Eq. (9)</xref> and the inequality in <xref ref-type="disp-formula" rid="eq41">Eq. (10)</xref>.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Detection probability of a general combination of independent signals</title>
+              <p>We conclude our analysis by showing that the inequality (10) holds true also for a general combination of independent isotropic and anisotropic signals. To make the derivation as general as possible, we shall drop the assumption that the duration and the starting time of a signal are uncorrelated and identically distributed by introducing a generalized distribution function <italic>ρ</italic><sub><italic>i</italic></sub>(<italic>R</italic>, Δ, Ω<sub>0</sub>) for the <italic>i</italic>-th signal, where Ω<sub>0</sub> denotes the solid angle. We shall also consider the possibility that the observable radius depends in general on Δ and Ω<sub>0</sub> as these quantities may be related to the strength and the power spectrum of the signal. For example, decreasing the solid angle of a beam-like signal increases the strength of the signal and consequently it increases the observable radius. Also, a longer signal longevity may be ascribed to a more advanced civilization which transmits stronger signals. The probability of intersection of a generic signal can be written therefore as</p>
+              <p>
+                <disp-formula id="eq64">
+                  <inline-graphic id="d32e1354" xlink:href="srep46273-m64.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where Ω<sub>0</sub> = 4<italic>π</italic> for isotropic or beam-like signals directed towards the Earth and <inline-formula id="d32e1363"><inline-graphic id="d32e1364" xlink:href="srep46273-m65.jpg"/></inline-formula> for beams oriented at random. By adopting the condition that <italic>R</italic> ≤  <italic>R</italic><sub>M</sub> + Δ, the conditional probability of <xref ref-type="disp-formula" rid="eq13">Eq. (4)</xref> generalizes to:</p>
+              <p>
+                <disp-formula id="eq66">
+                  <inline-graphic id="d32e1380" xlink:href="srep46273-m66.jpg"/>
+                </disp-formula>
+              </p>
+              <p>where the maximum shell thickness Δ<sub>M,i</sub> of the <italic>i</italic>-th signal is encoded in <italic>ρ</italic><sub><italic>i</italic></sub>(<italic>R</italic>, Δ, Ω<sub>0</sub>). Note that even for the general case of <xref ref-type="disp-formula" rid="eq66">Eq. (16)</xref> we can safely neglect the dependence on <italic>R</italic> of <italic>ρ</italic><sub><italic>i</italic></sub>(<italic>R</italic>, Δ, Ω<sub>0</sub>) because (<italic>R</italic><sub>M</sub> + Δ<sub>M,i</sub>)/<italic>c</italic> is expected to be negligible with respect to the age scale of communicating civilizations in the galaxy. For a collection of <italic>N</italic> signals emitted within a time <italic>t</italic><sub>M</sub> = (<italic>R</italic><sub>M</sub> + Δ<sub>M</sub>)/<italic>c</italic> before present, where now Δ<sub>M</sub> denotes the maximum among all Δ<sub>M,<italic>i</italic></sub>, the probability <italic>P(k</italic><sub>1</sub>, …, <italic>k</italic><sub><italic>N</italic></sub>) that the Earth intersects <italic>k</italic><sub><italic>i</italic></sub> = 0, 1 signals of type <italic>i (i</italic> = 1, 2, …, <italic>N</italic>) is</p>
+              <p>
+                <disp-formula id="eq67">
+                  <inline-graphic id="d32e1487" xlink:href="srep46273-m67.jpg"/>
+                </disp-formula>
+              </p>
+              <p>from which we obtain the probability that the Earth intersects at least one signal</p>
+              <p>
+                <disp-formula id="eq68">
+                  <inline-graphic id="d32e1492" xlink:href="srep46273-m68.jpg"/>
+                </disp-formula>
+              </p>
+              <p>and the mean number of detectable signals</p>
+              <p>
+                <disp-formula id="eq69">
+                  <inline-graphic id="d32e1497" xlink:href="srep46273-m69.jpg"/>
+                </disp-formula>
+              </p>
+              <p>To derive a relation between <italic>ϕ</italic> and <inline-formula id="d32e1504"><inline-graphic id="d32e1505" xlink:href="srep46273-m70.jpg"/></inline-formula>, we note that <xref ref-type="disp-formula" rid="eq68">Eq. (18)</xref> satisfies <inline-formula id="d32e1510"><inline-graphic id="d32e1511" xlink:href="srep46273-m71.jpg"/></inline-formula>, which, using <xref ref-type="disp-formula" rid="eq69">Eq. (19)</xref>, gives directly the inequality of <xref ref-type="disp-formula" rid="eq41">Eq. (10)</xref>, which sets therefore a universal upper bound for the mean number of detectable signals, valid for any combination of independent isotropic and anisotropic signals from the Milky Way.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Conclusions</title>
+              <p>Using the fractional volume of the galaxy occupied by hypothetical extraterrestrial electromagnetic signals, we derive the probability that the Earth intercepts at least one of such signals from communicating civilizations in the galaxy. In contrast to previous studies, the present approach focuses primarily on the coverage properties of the signals rather than the possible number of galactic emitters. In this way, we are able to determine the detection probability <italic>ϕ</italic> for isotropic (non-directional) and anisotropic (directional) signals, and for any combination of them. For a given <italic>ϕ</italic>, we derive a universal upper bound for the mean number of detectable signals <inline-formula id="d32e1531"><inline-graphic id="d32e1532" xlink:href="srep46273-m72.jpg"/></inline-formula> (<xref ref-type="disp-formula" rid="eq41">Eq. (10)</xref>) which is independent of the emitter population in the galaxy. The present results may have profound implications for the search for extraterrestrial communicating civilizations and and they may affect our perception of the likelihood of detecting them, as implied by the finding that <inline-formula id="d32e1537"><inline-graphic id="d32e1538" xlink:href="srep46273-m73.jpg"/></inline-formula> is below unity even if we assume that a significant fraction of the galaxy is covered by extraterrestrial signals. An interesting corollary to this result is that in the hypothetical event that an extraterrestrial signal is actually detected, the number of galactic emitters that have broadcasted a signal within the last <italic>t</italic><sub>M</sub> ≈ 100′000 years is likely to be large.</p>
+              <p>Our results can be improved by allowing the observable radius to depend on the signal spectra and by better modeling the galactic habitable zone<xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b25">25</xref>. For example, interstellar medium may sensibly reduce the extent of the observable radius <italic>R</italic><sub><italic>o</italic></sub> in the radio wavelength range, but leave <italic>R</italic><sub><italic>o</italic></sub> for optical emissions relatively unaffected. Recent simulations show that the GHZ, which we use as a proxy for the emitter probability distribution, does not display the simple cylindrical symmetry used here<xref ref-type="bibr" rid="b25">25</xref> and that globular clusters may present favorable conditions for the development of intelligent life<xref ref-type="bibr" rid="b26">26</xref>. Although these factors may alter the functional dependence of the detection probability, the inequality (10) remains unaffected as long as the statistical independence of the signals is assumed.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>Additional Information</title>
+              <p><bold>How to cite this article:</bold> Grimaldi, C. Signal coverage approach to the detection probability of hypothetical extraterrestrial emitters in the Milky Way. <italic>Sci. Rep.</italic>
+<bold>7</bold>, 46273; doi: 10.1038/srep46273 (2017).</p>
+              <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="S1">
+              <title>Supplementary Material</title>
+              <supplementary-material id="d32e117" content-type="local-data">
+                <caption>
+                  <title>Supplementary Information</title>
+                </caption>
+                <media xlink:href="srep46273-s1.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The author thanks Avik P. Chatterjee for helpful comments.</p>
+            </ack>
+            <ref-list>
+              <ref id="b1">
+                <mixed-citation publication-type="journal"><name><surname>Petigura</surname><given-names>E.</given-names></name>, <name><surname>Howard</surname><given-names>A.</given-names></name> &amp; <name><surname>Marcy</surname><given-names>G.</given-names></name>
+<article-title>Prevalence of earth-size planets orbiting sun-like stars</article-title>. <source>Proc. Natl. Acad. Sci.</source>
+<volume>110</volume>, <fpage>19273</fpage>–<lpage>19278</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24191033</pub-id></mixed-citation>
+              </ref>
+              <ref id="b2">
+                <mixed-citation publication-type="journal"><name><surname>Horvat</surname><given-names>M.</given-names></name><article-title>Calculating the probability of detecting radio signals from alien civilizations</article-title>. <source>Int. J. Astrobiol.</source><volume>5</volume>, <fpage>143</fpage>–<lpage>149</lpage> (<year>2006</year>).</mixed-citation>
+              </ref>
+              <ref id="b3">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>R.</given-names></name><article-title>Broadcasting but not receiving: density dependence considerations for seti signals</article-title>. <source>Int. J. Astrobiol.</source><volume>8</volume>, <fpage>101</fpage>–<lpage>105</lpage> (<year>2009</year>).</mixed-citation>
+              </ref>
+              <ref id="b4">
+                <mixed-citation publication-type="journal"><name><surname>Wandel</surname><given-names>A.</given-names></name><article-title>On the abundance of extraterrestrial life after the kepler mission</article-title>. <source>Int. J. Astrobiol.</source><volume>14</volume>, <fpage>511</fpage>–<lpage>516</lpage> (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="b5">
+                <mixed-citation publication-type="journal"><name><surname>Drake</surname><given-names>F.</given-names></name><article-title>The radio search for intelligent extraterestrial life</article-title>. In <source>Current Aspects of Exobiology</source><fpage>323</fpage>–<lpage>345</lpage> (Pergamon Press, New York, <year>1965</year>).</mixed-citation>
+              </ref>
+              <ref id="b6">
+                <mixed-citation publication-type="journal"><name><surname>Spiegel</surname><given-names>D.</given-names></name> &amp; <name><surname>Turner</surname><given-names>E.</given-names></name>
+<article-title>Bayesian analysis of the astrobiological implications of life’s early emergence on earth</article-title>. <source>Proc. Natl. Acad. Sci.</source>
+<volume>109</volume>, <fpage>395</fpage>–<lpage>400</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22198766</pub-id></mixed-citation>
+              </ref>
+              <ref id="b7">
+                <mixed-citation publication-type="journal"><name><surname>Torquato</surname><given-names>S.</given-names></name><source>Random Heterogeneous Materials: Microstructure and Macroscopic Properties</source> (Springer, New York, <year>2002</year>).</mixed-citation>
+              </ref>
+              <ref id="b8">
+                <mixed-citation publication-type="journal"><name><surname>Townes</surname><given-names>C.</given-names></name><article-title>At what wavelengths should we search for signals from extraterrestrial intelligence?</article-title><source>Proc. Natl. Acad. Sci.</source><volume>80</volume>, <fpage>1147</fpage>–<lpage>1151</lpage> (<year>1983</year>).<pub-id pub-id-type="pmid">16593279</pub-id></mixed-citation>
+              </ref>
+              <ref id="b9">
+                <mixed-citation publication-type="journal"><name><surname>Wilson</surname><given-names>T.</given-names></name><article-title>The search for extraterrestrial intelligence</article-title>. <source>Nature</source><volume>409</volume>, <fpage>1110</fpage>–<lpage>1114</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11234025</pub-id></mixed-citation>
+              </ref>
+              <ref id="b10">
+                <mixed-citation publication-type="journal"><name><surname>Hair</surname><given-names>T.</given-names></name><article-title>Temporal dispersion of the emergence of intelligence: an inter-arrival time analysis</article-title>. <source>Int. J. Astrobiol.</source><volume>10</volume>, <fpage>131</fpage>–<lpage>135</lpage> (<year>2011</year>).</mixed-citation>
+              </ref>
+              <ref id="b11">
+                <mixed-citation publication-type="journal"><name><surname>Lineweaver</surname><given-names>C.</given-names></name>, <name><surname>Fenner</surname><given-names>Y.</given-names></name> &amp; <name><surname>Gibson</surname><given-names>B.</given-names></name>
+<article-title>The galactic habitable zone and the age distribution of complex life in the milky way</article-title>. <source>Science</source>
+<volume>303</volume>, <fpage>59</fpage>–<lpage>62</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">14704421</pub-id></mixed-citation>
+              </ref>
+              <ref id="b12">
+                <mixed-citation publication-type="journal"><name><surname>Forgan</surname><given-names>D.</given-names></name> &amp; <name><surname>Nichol</surname><given-names>R.</given-names></name>
+<article-title>A failure of serendipity: the square kilometre array will struggle to eavesdrop on human-like extraterrestrial intelligence</article-title>. <source>Int. J. Astrobiol.</source>
+<volume>10</volume>, <fpage>77</fpage>–<lpage>81</lpage> (<year>2011</year>).</mixed-citation>
+              </ref>
+              <ref id="b13">
+                <mixed-citation publication-type="journal"><name><surname>Morrison</surname><given-names>I.</given-names></name> &amp; <name><surname>Gowanlock</surname><given-names>M.</given-names></name>
+<article-title>Extending galactic habitable zone modeling to include the emergence of intelligent life</article-title>. <source>Astrobiology</source>
+<volume>15</volume>, <fpage>683</fpage>–<lpage>696</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26274865</pub-id></mixed-citation>
+              </ref>
+              <ref id="b14">
+                <mixed-citation publication-type="journal"><name><surname>Grinspoon</surname><given-names>D.</given-names></name><source>Lonely Planets: The Natural Philosophy of Alien Life</source> (HarperCollins, New York, <year>2003</year>).</mixed-citation>
+              </ref>
+              <ref id="b15">
+                <mixed-citation publication-type="journal"><name><surname>Gonzalez</surname><given-names>G.</given-names></name>, <name><surname>Brownlee</surname><given-names>D.</given-names></name> &amp; <name><surname>Ward</surname><given-names>P.</given-names></name>
+<article-title>The galactic habitable zone: Galactic chemical evolution</article-title>. <source>Icarus</source>
+<volume>152</volume>, <fpage>185</fpage>–<lpage>200</lpage> (<year>2001</year>).</mixed-citation>
+              </ref>
+              <ref id="b16">
+                <mixed-citation publication-type="journal"><name><surname>Prantzos</surname><given-names>N.</given-names></name><article-title>On the “galactic habitable zone”</article-title>. <source>Space Sci. Rev.</source><volume>135</volume>, <fpage>313</fpage>–<lpage>322</lpage> (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="b17">
+                <mixed-citation publication-type="journal"><name><surname>Gowanlock</surname><given-names>M.</given-names></name>, <name><surname>Patton</surname><given-names>D.</given-names></name> &amp; <name><surname>McConnell</surname><given-names>S.</given-names></name>
+<article-title>A model of habitability within the milky way galaxy</article-title>. <source>Astrobiology</source>
+<volume>11</volume>, <fpage>855</fpage>–<lpage>873</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">22059554</pub-id></mixed-citation>
+              </ref>
+              <ref id="b18">
+                <mixed-citation publication-type="journal"><name><surname>Misiriotis</surname><given-names>A.</given-names></name>, <name><surname>Xilouris</surname><given-names>E.</given-names></name>, <name><surname>Papamastorakis</surname><given-names>J.</given-names></name>, <name><surname>Boumis</surname><given-names>P.</given-names></name> &amp; <name><surname>Goudis</surname><given-names>C.</given-names></name>
+<article-title>The distribution of the ism in the milky way-a three-dimensional large-scale model</article-title>. <source>Astron. Astrophys.</source>
+<volume>459</volume>, <fpage>113</fpage>–<lpage>123</lpage> (<year>2006</year>).</mixed-citation>
+              </ref>
+              <ref id="b19">
+                <mixed-citation publication-type="journal"><name><surname>Irwin</surname><given-names>L.</given-names></name>, <name><surname>Méndez</surname><given-names>A.</given-names></name>, <name><surname>Fairén</surname><given-names>A.</given-names></name> &amp; <name><surname>Schulze-Makuch</surname><given-names>D.</given-names></name>
+<article-title>Assessing the possibility of biological complexity on other worlds, with an estimate of the occurrence of complex life in the milky way galaxy</article-title>. <source>Challenges</source>
+<volume>5</volume>, <fpage>159</fpage>–<lpage>174</lpage> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="b20">
+                <mixed-citation publication-type="journal"><name><surname>Ćirković</surname><given-names>M. M.</given-names></name><article-title>The Temporal Aspect of the Drake Equation and SETI</article-title>. <source>Astrobiology</source><volume>4</volume>, <fpage>225</fpage>–<lpage>231</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15253840</pub-id></mixed-citation>
+              </ref>
+              <ref id="b21">
+                <mixed-citation publication-type="journal"><name><surname>Maccone</surname><given-names>C.</given-names></name><article-title>The statistical Drake equation</article-title>. <source>Acta Astronaut.</source><volume>67</volume>, <fpage>1366</fpage>–<lpage>1383</lpage> (<year>2010</year>).</mixed-citation>
+              </ref>
+              <ref id="b22">
+                <mixed-citation publication-type="journal"><name><surname>Glade</surname><given-names>N.</given-names></name>, <name><surname>Ballet</surname><given-names>P.</given-names></name> &amp; <name><surname>Bastien</surname><given-names>O.</given-names></name>
+<article-title>A stochastic process approach of the Drake equation parameters</article-title>. <source>Int. J. Astrobiol.</source>
+<volume>11</volume>, <fpage>103</fpage>–<lpage>108</lpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="b23">
+                <mixed-citation publication-type="journal"><name><surname>Schwartz</surname><given-names>R.</given-names></name> &amp; <name><surname>Townes</surname><given-names>C.</given-names></name>
+<article-title>Interstellar and interplanetary communication by optical masers</article-title>. <source>Nature</source>
+<volume>190</volume>, <fpage>205</fpage>–<lpage>208</lpage> (<year>1961</year>).</mixed-citation>
+              </ref>
+              <ref id="b24">
+                <mixed-citation publication-type="journal"><name><surname>Forgan</surname><given-names>D.</given-names></name><article-title>Can collimated extraterrestrial signals be intercepted?</article-title><source>J. Br. Interplanet. Soc.</source><volume>67</volume>, <fpage>232</fpage>–<lpage>236</lpage> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="b25">
+                <mixed-citation publication-type="journal"><name><surname>Forgan</surname><given-names>D.</given-names></name>, <name><surname>Dayal</surname><given-names>P.</given-names></name>, <name><surname>Cockell</surname><given-names>C.</given-names></name> &amp; <name><surname>Libeskind</surname><given-names>N.</given-names></name>
+<article-title>Evaluating galactic habitability using high-resolution cosmological simulations of galaxy formation</article-title>. <source>Int. J. Astrobiol.</source>
+<volume>16</volume>, <fpage>60</fpage>–<lpage>73</lpage> (<year>2017</year>).</mixed-citation>
+              </ref>
+              <ref id="b26">
+                <mixed-citation publication-type="journal"><name><surname>Di Stefano</surname><given-names>R.</given-names></name> &amp; <name><surname>Ray</surname><given-names>A.</given-names></name>
+<article-title>Globular clusters as cradles of life and advanced civilizations.</article-title>
+<source>Astrophys. J.</source>
+<volume>827</volume>, 54 (<year>2016</year>).</mixed-citation>
+              </ref>
+            </ref-list>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p>The authors declare no competing financial interests.</p>
+              </fn>
+              <fn>
+                <p><bold>Author Contributions</bold> C.G. conceived the study, analyzed the results and wrote the manuscript.</p>
+              </fn>
+            </fn-group>
+          </back>
+          <floats-group>
+            <fig id="f1">
+              <label>Figure 1</label>
+              <caption>
+                <title>Detectable domain for isotropic signals.</title>
+                <p>(<bold>A</bold>) Two-dimensional representation of a spherical shell signal of outer radiur <italic>R</italic> and shell thickness Δ emitted from <inline-formula id="d32e1604"><inline-graphic id="d32e1605" xlink:href="srep46273-m74.jpg"/></inline-formula>. (<bold>B</bold>) The detectable domain formed by union of three spherical shells centered at E<sub>1</sub>, E<sub>2</sub>, and E<sub>3</sub>. In this example the Earth (red dot) intersects the shells of E<sub>1</sub> and E<sub>3</sub>, but only E<sub>3</sub> is within the observable radius <italic>R</italic><sub><italic>o</italic></sub>. (<bold>C</bold>) Schematic illustration of the location of the Earth within the Milky Way galaxy. The dashed circle represents the observable sphere of radius <italic>R</italic><sub><italic>o</italic></sub> centered about the Earth.</p>
+              </caption>
+              <graphic xlink:href="srep46273-f1"/>
+            </fig>
+            <fig id="f2">
+              <label>Figure 2</label>
+              <caption>
+                <title>The detection probability <italic>p(R</italic><sub><italic>o</italic></sub>) is plotted as a function of the observable radius <italic>R</italic><sub><italic>o</italic></sub>.</title>
+                <p>The calculations are done by using the emitter distribution function <inline-formula id="d32e1663"><inline-graphic id="d32e1664" xlink:href="srep46273-m75.jpg"/></inline-formula> given in <xref ref-type="disp-formula" rid="eq21">Eq. (6)</xref>. Solid lines are the results for <inline-formula id="d32e1669"><inline-graphic id="d32e1670" xlink:href="srep46273-m76.jpg"/></inline-formula> being proportional to the distribution of stars in the galactic thin disk, while the dashed lines are the results for an emitter distribution concentrated on an annular region of the disk comprised between ≈15 kly and ≈34 kly from the galactic center. Each pair of solid and dashed lines represents <italic>p(R</italic><sub><italic>o</italic></sub>) for the values of the mean shell thickness <inline-formula id="d32e1678"><inline-graphic id="d32e1679" xlink:href="srep46273-m77.jpg"/></inline-formula> indicated in the figure. For <inline-formula id="d32e1682"><inline-graphic id="d32e1683" xlink:href="srep46273-m78.jpg"/></inline-formula>, <italic>p(R</italic><sub><italic>o</italic></sub>) reduces to the probability <italic>π(R</italic><sub><italic>o</italic></sub>) (<xref ref-type="disp-formula" rid="eq12">Eq. (3)</xref>) of finding an emitter within a radius <italic>R</italic><sub><italic>o</italic></sub> from the Earth.</p>
+              </caption>
+              <graphic xlink:href="srep46273-f2"/>
+            </fig>
+            <fig id="f3">
+              <label>Figure 3</label>
+              <caption>
+                <title>Population of emitters in the Milky Way.</title>
+                <p>Calculated number <italic>N</italic> of emitters in the galaxy as a function of the observable radius for different detection probabilities <italic>ϕ</italic>. Each pair of solid and dashed lines represents <italic>N</italic> for the values of <italic>ϕ</italic> indicated in the figure. The solid and dashed lines have the same meaning as in <xref ref-type="fig" rid="f2">Fig. 2</xref>.</p>
+              </caption>
+              <graphic xlink:href="srep46273-f3"/>
+            </fig>
+            <fig id="f4">
+              <label>Figure 4</label>
+              <caption>
+                <title>Solid lines represent the mean number <inline-formula id="d32e1731"><inline-graphic id="d32e1732" xlink:href="srep46273-m79.jpg"/></inline-formula> of detectable signals as a function of the detection probability <italic>ϕ</italic> for different numbers <italic>N</italic> of emitters in the galaxy.</title>
+                <p><italic>N</italic> = 1, 2, 4, 8, 16, … from bottom to top. The thick solid line is ln(1 − <italic>ϕ</italic>)<sup>−1</sup> while the grey region in the figure indicates <inline-formula id="d32e1751"><inline-graphic id="d32e1752" xlink:href="srep46273-m80.jpg"/></inline-formula>.</p>
+              </caption>
+              <graphic xlink:href="srep46273-f4"/>
+            </fig>
+            <fig id="f5">
+              <label>Figure 5</label>
+              <caption>
+                <title>Two dimensional scheme of the volume covered by a conical beam signal with axis directed along the unit vector</title>
+                <p><inline-formula id="d32e1759"><inline-graphic id="d32e1760" xlink:href="srep46273-m81.jpg"/></inline-formula>.</p>
+              </caption>
+              <graphic xlink:href="srep46273-f5"/>
+            </fig>
+            <table-wrap position="float" id="t1">
+              <label>Table 1</label>
+              <caption>
+                <title>Legend of symbols used in the text and their signification.</title>
+              </caption>
+              <table frame="hsides" rules="groups" border="1">
+                <colgroup>
+                  <col align="left"/>
+                  <col align="left"/>
+                </colgroup>
+                <thead valign="bottom">
+                  <tr>
+                    <th align="left" valign="top" charoff="50">Parameters</th>
+                    <th align="left" valign="top" charoff="50">Signification</th>
+                  </tr>
+                </thead>
+                <tbody valign="top">
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>R</italic>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Outer radius of a spherical shell signal</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Δ, Δ<sub>M</sub>, <inline-formula id="d32e1787"><inline-graphic id="d32e1788" xlink:href="srep46273-m82.jpg"/></inline-formula></td>
+                    <td align="left" valign="top" charoff="50">Thickness, maximum thickness, and average thickness of a spherical shell signal</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">Ω<sub>0</sub></td>
+                    <td align="left" valign="top" charoff="50">Solid angle of a conical beam signal</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>R</italic>
+                      <sub>
+                        <italic>o</italic>
+                      </sub>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Observable radius</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>RM</italic>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Maximum possible distance of an emitter from the Earth</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50"><italic>t</italic><sub>M</sub> = (<italic>R</italic><sub>M</sub> + Δ<sub>M</sub>)/<italic>c</italic></td>
+                    <td align="left" valign="top" charoff="50">Age of the oldest detectable signal</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>N</italic>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Number of galactic signals emitted within a time <italic>t</italic><sub>M</sub> from present</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d32e1845">
+                        <inline-graphic id="d32e1846" xlink:href="srep46273-m83.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Density probability that an emitter is found at <inline-formula id="d32e1849"><inline-graphic id="d32e1850" xlink:href="srep46273-m84.jpg"/></inline-formula></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>T</italic>
+                      <sup>*</sup>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Time interval spanned by the age distribution of communication civilizations in the Milky Way.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <italic>ϕ</italic>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Detection probability (it is defined as the probability that there is at least one emitter within a distance <italic>R</italic><sub><italic>o</italic></sub> whose signal intercepts the Earth)</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" charoff="50">
+                      <inline-formula id="d32e1873">
+                        <inline-graphic id="d32e1874" xlink:href="srep46273-m85.jpg"/>
+                      </inline-formula>
+                    </td>
+                    <td align="left" valign="top" charoff="50">Mean number of detectable emitters</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

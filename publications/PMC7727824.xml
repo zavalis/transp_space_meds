@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:56:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7727824" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7727824</identifier>
+        <datestamp>2020-12-11</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7727824</article-id>
+              <article-id pub-id-type="pmcid">PMC7727824</article-id>
+              <article-id pub-id-type="pmc-uid">7727824</article-id>
+              <article-id pub-id-type="pmid">33255352</article-id>
+              <article-id pub-id-type="pmid">33255352</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms21238908</article-id>
+              <article-id pub-id-type="publisher-id">ijms-21-08908</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Scalable Microgravity Simulator Used for Long-Term Musculoskeletal Cells and Tissue Engineering</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7153-2256</contrib-id>
+                  <name>
+                    <surname>Cazzaniga</surname>
+                    <given-names>Alessandra</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-08908">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ille</surname>
+                    <given-names>Fabian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-21-08908">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5495-6951</contrib-id>
+                  <name>
+                    <surname>Wuest</surname>
+                    <given-names>Simon</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-21-08908">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Haack</surname>
+                    <given-names>Carsten</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af3-ijms-21-08908">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Koller</surname>
+                    <given-names>Adrian</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af3-ijms-21-08908">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Giger-Lange</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-21-08908">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zocchi</surname>
+                    <given-names>Monica</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-08908">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Egli</surname>
+                    <given-names>Marcel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-21-08908">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8785-9891</contrib-id>
+                  <name>
+                    <surname>Castiglioni</surname>
+                    <given-names>Sara</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-08908">1</xref>
+                  <xref rid="c1-ijms-21-08908" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Maier</surname>
+                    <given-names>Jeanette A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-08908">1</xref>
+                  <xref ref-type="aff" rid="af4-ijms-21-08908">4</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-21-08908"><label>1</label>Department of Biomedical and Clinical Sciences L. Sacco, Università di Milano, 20157 Milan, Italy; <email>alessandra.cazzaniga@unimi.it</email> (A.C.); <email>monica.zocchi@unimi.it</email> (M.Z.); <email>jeanette.maier@unimi.it</email> (J.A.M.)</aff>
+              <aff id="af2-ijms-21-08908"><label>2</label>Space Biology Group, Institute of Medical Engineering, Lucerne University of Applied Sciences and Arts, 6002 Lucerne, Switzerland; <email>fabian.ille@hslu.ch</email> (F.I.); <email>simon.wueest@hslu.ch</email> (S.W.); <email>christina.giger@hslu.ch</email> (C.G.-L.); <email>marcel.egli@hslu.ch</email> (M.E.)</aff>
+              <aff id="af3-ijms-21-08908"><label>3</label>Institute of Mechanical Engineering and Energy Technology, Lucerne University of Applied Sciences and Arts, 6002 Lucerne, Switzerland; <email>carsten.haack@hslu.ch</email> (C.H.); <email>adrian.koller@hslu.ch</email> (A.K.)</aff>
+              <aff id="af4-ijms-21-08908"><label>4</label>Interdisciplinary Centre for Nanostructured Materials and Interfaces (CIMaINa), Università di Milano, 20133 Milan, Italy</aff>
+              <author-notes>
+                <corresp id="c1-ijms-21-08908"><label>*</label>Correspondence: <email>sara.castiglioni@unimi.it</email>; Tel.: +39-02-503-19702</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>24</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>12</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>23</issue>
+              <elocation-id>8908</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>22</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>23</day>
+                  <month>11</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 by the authors.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>We introduce a new benchtop microgravity simulator (MGS) that is scalable and easy to use. Its working principle is similar to that of random positioning machines (RPM), commonly used in research laboratories and regarded as one of the gold standards for simulating microgravity. The improvement of the MGS concerns mainly the algorithms controlling the movements of the samples and the design that, for the first time, guarantees equal treatment of all the culture flasks undergoing simulated microgravity. Qualification and validation tests of the new device were conducted with human bone marrow stem cells (bMSC) and mouse skeletal muscle myoblasts (C2C12). bMSC were cultured for 4 days on the MGS and the RPM in parallel. In the presence of osteogenic medium, an overexpression of osteogenic markers was detected in the samples from both devices. Similarly, C2C12 cells were maintained for 4 days on the MGS and the rotating wall vessel (RWV) device, another widely used microgravity simulator. Significant downregulation of myogenesis markers was observed in gravitationally unloaded cells. Therefore, similar results can be obtained regardless of the used simulated microgravity devices, namely MGS, RPM, or RWV. The newly developed MGS device thus offers easy and reliable long-term cell culture possibilities under simulated microgravity conditions. Currently, upgrades are in progress to allow real-time monitoring of the culture media and liquids exchange while running. This is of particular interest for long-term cultivation, needed for tissue engineering applications. Tissue grown under real or simulated microgravity has specific features, such as growth in three-dimensions (3D). Growth in weightlessness conditions fosters mechanical, structural, and chemical interactions between cells and the extracellular matrix in any direction.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>simulated microgravity</kwd>
+                <kwd>bone marrow stem cells</kwd>
+                <kwd>myoblasts</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-21-08908">
+              <title>1. Introduction</title>
+              <p>Commonly used static two-dimensional (2D) cell culture techniques have contributed substantially to many breakthroughs in cell biology during the last decades. More recently, devices that introduce the third-dimension (3D) have offered novel insights. 3D dynamic bioreactors overcome diffusional limitations of static culture, thus improving the quality of different types of engineered tissues and optimizing cell proliferation and differentiation, e.g., for regenerative medicine. Some of these 3D bioreactors have been used to simulate microgravity. Indeed, weightlessness offers advantages in the area of tissue engineering [<xref rid="B1-ijms-21-08908" ref-type="bibr">1</xref>], as sedimentation and buoyancy are negligible, facilitating the accurate observation of alterations in biological systems. Consequently, simulated microgravity has been proposed as a challenging opportunity to grow cells as well as to generate organoids, spheroids, or tissues with and without scaffolds, which can be used for drug testing, tissue engineering, and regenerative medicine [<xref rid="B2-ijms-21-08908" ref-type="bibr">2</xref>,<xref rid="B3-ijms-21-08908" ref-type="bibr">3</xref>,<xref rid="B4-ijms-21-08908" ref-type="bibr">4</xref>]. </p>
+              <p>Among the bioreactors, the rotating wall vessel (RWV), a suspension culture system that permits the cultivation of cells under low physiological fluid shear conditions, has been widely utilized [<xref rid="B5-ijms-21-08908" ref-type="bibr">5</xref>,<xref rid="B6-ijms-21-08908" ref-type="bibr">6</xref>]. The RWV requires to grow adherent cells on microcarrier beads so that they rotate at the same speed of the vessel wall around a horizontal axis, a condition that produces a vector-averaged gravity comparable with that of the near-earth free-fall orbit [<xref rid="B7-ijms-21-08908" ref-type="bibr">7</xref>].</p>
+              <p>The random positioning machine (RPM), also referred to as 3D-clinostat, mimics microgravity conditions by rotating samples around two axes through which the gravitational acceleration on the samples changes direction ceaselessly. Averaged over time, the residual acceleration at the intersection of the two rotation axes where the samples are placed reaches near-zero mathematically [<xref rid="B8-ijms-21-08908" ref-type="bibr">8</xref>]. The RPM has been extensively used to study the effects of microgravity on biological or physical processes [<xref rid="B9-ijms-21-08908" ref-type="bibr">9</xref>,<xref rid="B10-ijms-21-08908" ref-type="bibr">10</xref>]. To culture cells on the RPM, they have to be grown in cell chambers or in flasks entirely filled with media to minimize shear stress [<xref rid="B11-ijms-21-08908" ref-type="bibr">11</xref>]. It is noteworthy that experiments performed in the RVW and RPM yield similar results and corroborate data reported in real microgravity [<xref rid="B10-ijms-21-08908" ref-type="bibr">10</xref>,<xref rid="B12-ijms-21-08908" ref-type="bibr">12</xref>]. Moreover, both the RWV and the RPM have proven to be elegant tools for tissue engineering [<xref rid="B13-ijms-21-08908" ref-type="bibr">13</xref>].</p>
+              <p>The major drawback of the RPM technique, however, is the particular movement used to generate the microgravity environment. This movement introduces supplementary forces that may trigger non-specific cellular responses. We have been studying the appearance of such forces and their impact on undesired cellular effects by applying mathematical modeling extensively. In this study, we were able to define particular rules to be followed to avoid additional cell responses [<xref rid="B14-ijms-21-08908" ref-type="bibr">14</xref>]. </p>
+              <p>Here, we describe a novel microgravity simulator (MGS) that evolved from the well-known RPM principle. With our new MGS, we resolve some essential drawbacks of the classical RPM, thus improving substantially the overall quality of simulated microgravity cultivation. We introduce a new control algorithm and new measures for the rotating systems that generate low gravity conditions. We then determined the effects of culture in the MGS vs. RVW or RPM on musculoskeletal cells, as real microgravity markedly affects the musculoskeletal systems. Rather than using differentiated cells, we focused on progenitor cells. In particular, we concentrated on the osteogenic differentiation of human bone marrow stem cells (bMSC) and the myogenic differentiation of mouse myoblasts. We conclude that culture on the MGS yields results that are similar to those obtained using the RWV or the RPM. Thus, our new MGS can be used for cell biological experiments under simulated microgravity conditions, which can also be specified as a mechanically unloaded environment.</p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-21-08908">
+              <title>2. Results</title>
+              <sec id="sec2dot1-ijms-21-08908">
+                <title>2.1. Description of the MGS</title>
+                <p>The main goals and requirements for the novel MGS design are summarized by the following technical and usability aspects:<list list-type="order"><list-item><p>Increased availability of a simulated microgravity environment by a simple desktop machine</p></list-item><list-item><p>Down-sizing for the use in typical lab environments (e.g., fitting into CO<sub>2</sub> cell incubators)</p></list-item><list-item><p>Reproducible and optimized motion control (uniformity and nullification)</p></list-item><list-item><p>Possibility to use and analyze several samples in parallel</p></list-item><list-item><p>Scalable design (fulfilling the needs of users)</p></list-item><list-item><p>Identical treatment of all samples (equality)</p></list-item><list-item><p>Interface commonly used in cell cultures</p></list-item><list-item><p>Simplified LabVIEW interface that allows an easy control of all the MGS functions.</p></list-item></list></p>
+                <p>Thanks to its compact design, the MGS can be accommodated in a commercially available CO<sub>2</sub> incubator (<xref ref-type="fig" rid="ijms-21-08908-f001">Figure 1</xref>). </p>
+                <p>The set-up of the MGS is focused on obtaining equal treatment of all samples of one batch (<xref ref-type="fig" rid="ijms-21-08908-f002">Figure 2</xref>a). Their movement follows a particular motion and trajectory pattern that was calculated by using MATLAB/LabVIEW (MathWorks) to ensure adequate nullification of the gravity vector at a range of 10<sup>−3</sup> g. A smoothed path control during reversals and velocity changes results in the minimal introduction of shear forces and structural vibration of the machine (reducing high-frequency interference effects). </p>
+                <p>The forces acting on a single cell on the operating MGS or the respective control volume <italic>V<sub>c</sub></italic> in a rotating set-up like the one used to simulate microgravity are depicted in <xref ref-type="fig" rid="ijms-21-08908-f002">Figure 2</xref>b (mass <italic>m</italic> = <italic>ρ</italic> × <italic>V<sub>c</sub></italic>, with density <italic>ρ</italic>), where <italic>F<sub>a</sub></italic> = <italic>m</italic> × <italic>a</italic> gives the apparent force, due to the changing motion and acceleration of the flask (the total acceleration a is given by kinematics of cell positions), <italic>F<sub>g</sub></italic> = <italic>m</italic> × <italic>g</italic> gives the gravity force (with gravitational acceleration <italic>g</italic> = 9.80665 m/s<sup>2</sup>, changing its relative direction during operation, in a cell reference frame), and <italic>F<sub>e</sub></italic> other external forces, such as shear and magnetic forces, are neglected because they are of minor influence. </p>
+                <p>The principle idea behind all rotating microgravity devices is shown in <xref ref-type="fig" rid="ijms-21-08908-f002">Figure 2</xref>a,b, where <italic>C</italic> represents an arbitrary position of a single cell with a control volume <italic>V<sub>c</sub></italic>. For any motion or rotation, the position of point <italic>C</italic> is described by the time-dependent position vector:
+<disp-formula><italic>r<sub>c</sub></italic>(<italic>t</italic>) = <italic>r<sub>p</sub></italic>(<italic>t</italic>) + <italic>r<sub>pc</sub></italic>(<italic>t</italic>) </disp-formula></p>
+                <p>The respective velocities, absolute or relative accelerations for the cell <italic>C</italic> are given by time derivatives d/dt and d<sup>2</sup>/dt<sup>2</sup> of this position vector <italic>r<sub>c</sub></italic>(<italic>t</italic>). The equilibrium equation for the control volume gives the respective forces (which can also include shear forces from flow velocities). Simulations can be run in advance, based on the above defined mathematical relations that include smoothed path control during reversals and velocity changes (including jerk limitations <italic>da</italic>/<italic>dt</italic>) to illustrate the quality of the simulated microgravity and the evolving forces. More details about the MGS, as well as the description of the algorithm used to simulate microgravity, are available in the Methods section.</p>
+                <p>Besides validating the MGS mathematically, biological tests were conducted to compare the cellular behaviour on the MGS and on commonly used microgravity simulators.</p>
+              </sec>
+              <sec id="sec2dot2-ijms-21-08908">
+                <title>2.2. bMSC: Effects of Culture in MGS vs. RPM</title>
+                <p>Bone loss due to weightlessness represents a significant health issue and, while there is clear evidence of an altered behaviour of osteoblasts and osteoclasts, less is known about the effects of microgravity on bMSC. Therefore, we compared the expression of osteogenic markers in human bMSC cultured in their culture medium (CM) or the osteogenic medium (OM) containing vitamin D for 4 days in the RPM or the MGS. Cells in static 1g-ground control posed at the base of each bioreactor were used as controls (1g). The expression of <italic>RUNX2</italic>, <italic>Sp7</italic>, and <italic>COL1A1</italic> was investigated by RT-PCR. <italic>RUNX2</italic> (Runt-related transcription factor 2) encodes for a transcription factor that acts as the master regulator of osteogenesis. <italic>Sp7</italic> encodes for Osterix, another transcription factor required for osteoblast differentiation. <italic>COL1A1</italic> encodes for collagen type 1, which is the most abundant extracellular protein in bone [<xref rid="B15-ijms-21-08908" ref-type="bibr">15</xref>]. As shown in <xref ref-type="fig" rid="ijms-21-08908-f003">Figure 3</xref>, OM induces a significant increase of all the transcripts both in 1g-ground controls and in cells in the RPM and MGS. The induction of <italic>RUNX2</italic> and <italic>Sp7</italic> was significantly higher in bMSC cultured in OM in the MGS than in the RPM (<xref ref-type="fig" rid="ijms-21-08908-f003">Figure 3</xref>a,b), while the expression of <italic>COL1A1</italic> was similar (<xref ref-type="fig" rid="ijms-21-08908-f003">Figure 3</xref>c). As previously reported [<xref rid="B16-ijms-21-08908" ref-type="bibr">16</xref>], it was sufficient to culture the cells in their CM in the RPM for 4 days to upregulate <italic>RUNX2</italic> and <italic>Sp7</italic>, even in the absence of the osteogenic cocktail. Interestingly, this did not happen in the MGS, suggesting that stimuli other than gravitational unloading might be implicated in modulating bMSC behaviour in the RPM.</p>
+                <p>bMSC were then cultured in the RPM or in the MGS for 4 days, and cell morphology was examined by confocal microscopy after staining with phalloidin to detect actin filaments of the cytoskeleton and DAPI to visualize the nuclei. No significant differences in cell shape or in the distribution and organization of the actin fibers were observed in the cells cultured in the two devices in CM or OM (<xref ref-type="fig" rid="ijms-21-08908-f004">Figure 4</xref>a). The actin fibers were quantified, and no significant differences emerged (<xref ref-type="fig" rid="ijms-21-08908-f004">Figure 4</xref>b). We then evaluated the total amounts of actin in bMSC cultured for 4 days in simulated microgravity in CM vs. their controls in 1 g by western blot and found no significant modulation of actin levels (<xref ref-type="fig" rid="ijms-21-08908-f004">Figure 4</xref>c). </p>
+              </sec>
+              <sec id="sec2dot3-ijms-21-08908">
+                <title>2.3. C2C12 Myoblasts: Effects of Culture in MGS vs. RWV</title>
+                <p>Skeletal muscle volume and peak power significantly decrease after prolonged exposure to microgravity [<xref rid="B17-ijms-21-08908" ref-type="bibr">17</xref>,<xref rid="B18-ijms-21-08908" ref-type="bibr">18</xref>]. This observation is explained by the evidence that myogenesis is inhibited in simulated microgravity [<xref rid="B19-ijms-21-08908" ref-type="bibr">19</xref>,<xref rid="B20-ijms-21-08908" ref-type="bibr">20</xref>]. Here, we compared the effects of microgravity generated by MGS with the RWV. We utilized mouse skeletal C2C12 myoblasts. C2C12 were cultured for 4 days in the two bioreactors containing their standard culture medium (CM) and in the myogenic medium (differentiation medium, DM) containing 2% horse serum. C2C12 maintained on the base of each bioreactor were used as 1 g-ground control. By RT-PCR, we analyzed the expression of some markers involved in myogenic differentiation, i.e., <italic>Myog</italic>, <italic>Mylpf</italic>, and <italic>Myh3</italic>. <italic>Myog</italic> encodes myogenin, the transcription factor that coordinates myogenesis [<xref rid="B21-ijms-21-08908" ref-type="bibr">21</xref>]. <italic>Mylpf</italic> encodes for the myosin light chain 2, while <italic>Myh3</italic> encodes for myosin heavy chain 3 (MHC), both involved in the regulation of contraction [<xref rid="B22-ijms-21-08908" ref-type="bibr">22</xref>]. As shown in <xref ref-type="fig" rid="ijms-21-08908-f005">Figure 5</xref>, the DM induces a marked upregulation of all the transcripts in the 1g-ground samples. In agreement with previous studies using various bioreactors to simulate microgravity [<xref rid="B23-ijms-21-08908" ref-type="bibr">23</xref>], culture in the MGS or in the RWV in DM significantly downregulated <italic>Myog</italic>, <italic>Mylpf</italic>, and <italic>Myh3</italic> transcript. </p>
+                <p>After 4 days in the RVW or in the MGS, C2C12 morphology was examined by confocal microscopy (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>). Important differences occur when the cells are cultured on the beads, which seem to constrain the cells and prevent their elongation. We propose this is the reason why myogenic differentiation in 1g, as evaluated by staining with antibodies against MHC, was markedly delayed in C2C12 cultured on the beads vs. cells in the flasks (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>a, panels e and g). In the latter case, several multinucleated MHC-positive cells could be observed. Multiple nuclei and MHC expression represent a measure of myotubes formation. Simulated microgravity in the RWV changed cell morphology in C2C12 both in CM and DM. The cells were larger and did not elongate. Importantly, we did not find any cell expressing MHC after culture in the RWV with DM (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>a, panel f). On the contrary some cells expressing MHC were observed in the MGS in response to DM, but the cells remained single and thin, which indicates that their differentiation was incomplete (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>a, panel h). The actin fibers were quantified, and no differences were detected (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>b). We then performed a western blot to analyze the total amounts of actin in C2C12 cultured for 4 days in the RWV or the MGS in CM. No significant differences emerged between cells in simulated microgravity and their controls cultured in 1g (<xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>c).</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec3-ijms-21-08908">
+              <title>3. Discussion</title>
+              <p>Cell culture experiments have substantially contributed to many significant breakthroughs in biomedicine, shedding new light on in vivo processes responsible for the formation and function of tissue or organs. Furthermore, pathogenic mechanisms of many diseases have been and still are unveiled thanks to the different approaches developed to culture the cells. </p>
+              <p>Space medicine makes no exception. Indeed, spaceflight presents unique medical challenges due to the simultaneous presence of various stressful factors, from space radiation to microgravity, from low physical activity to altered nutritional patterns. Since life blossomed under the constant pull of gravity, microgravity requires adaptive responses to face the dares of such an extreme environment. With the increase in the duration of space missions, it became evident that bone and muscle loss are space-dependent disorders that can be interpreted as adaptive responses to weightlessness [<xref rid="B24-ijms-21-08908" ref-type="bibr">24</xref>]. Experiments on cells in real and simulated microgravity have shed some light on the pathogenesis of these disorders. An imbalance between osteoblasts and osteoclasts under gravitational unloading has been found and, in part, explains space-associated osteopenia [<xref rid="B25-ijms-21-08908" ref-type="bibr">25</xref>]. Microgravity retards myoblasts proliferation and differentiation, and a recent paper [<xref rid="B26-ijms-21-08908" ref-type="bibr">26</xref>] has demonstrated that the dysregulated production of immune-related microRNA has a role in driving muscle atrophy in simulated microgravity.</p>
+              <p>There is no doubt that more basic science is needed to understand cellular responses to microgravity. However, conducting experiments in space is demanding, and the number of flight opportunities is limited. Thus, the use of alternative tools like bioreactors for benchtop microgravity research represents a valid alternative for designing and validating experiments in real microgravity. It is noteworthy that microgravity-simulating devices are also useful in tissue engineering, since it is possible to expand cell populations and generate 3D tissue structures in a scaffold-free fashion [<xref rid="B27-ijms-21-08908" ref-type="bibr">27</xref>]. Consequently, there is a high demand for user-friendly and easily operable microgravity simulators. We developed a novel benchtop device, denominated MGS (microgravity simulator), based on the well-known RPM principle of nullification of the gravity vector via rotation. The MGS design is compact so that it can be accommodated in a commercially available CO<sub>2</sub> incubator. </p>
+              <p>Furthermore, MGS guarantees equal treatment of all the exposed culture flasks, which is not realized by the other available devices. The algorithms controlling the microgravity simulating movements of the MGS have been improved as well. In order to verify the quality of the MGS, we compared the behaviour of myoblasts and bMSC cultured either on the MGS or on widely used microgravity simulators, the RWV and the RPM, respectively. We focused on the effects of simulated microgravity on C2C12 myoblasts and bMSC, because mechanical stimulation is critical for myogenesis and osteogenesis. </p>
+              <p>We demonstrated that culture of C2C12 in the MGS and in the RWV downregulated the expression of three markers of myogenesis, i.e., <italic>Myog</italic>, <italic>Mylpf</italic>, and <italic>Myh3</italic>. Our results by confocal microscopy suggest that the culture of C2C12 on beads, as required to use the RWV, impairs or retards C2C12 differentiation, thus indicating that this simulator is not recommended to study myogenic differentiation. Our results are in accordance with previous studies performed in benchtop microgravity simulators [<xref rid="B19-ijms-21-08908" ref-type="bibr">19</xref>,<xref rid="B28-ijms-21-08908" ref-type="bibr">28</xref>]. Indeed, it has been shown that culture in a 3D clinostat inhibits C2C12 differentiation through the reduced phosphorylation of Akt and, therefore, the inhibition of FOXO1 activation [<xref rid="B19-ijms-21-08908" ref-type="bibr">19</xref>]. Similar results were obtained by Calzia et al. [<xref rid="B20-ijms-21-08908" ref-type="bibr">20</xref>], who underlined that C2C12 cells in the RPM maintain a non-differentiated phenotype, and this is a fundamental feature for regeneration and transplantation. </p>
+              <p>The behavior of bMSC in simulated microgravity is still debated. Some studies have demonstrated that bMSC retain their ability to differentiate into osteoblasts when cultured under simulated microgravity conditions [<xref rid="B16-ijms-21-08908" ref-type="bibr">16</xref>,<xref rid="B29-ijms-21-08908" ref-type="bibr">29</xref>,<xref rid="B30-ijms-21-08908" ref-type="bibr">30</xref>], while others demonstrate that osteogenic differentiation is inhibited [<xref rid="B31-ijms-21-08908" ref-type="bibr">31</xref>,<xref rid="B32-ijms-21-08908" ref-type="bibr">32</xref>]. Here, we demonstrate that bMSC cultured in MGS and RPM in the presence of an osteogenic cocktail overexpress some osteogenic markers, i.e., <italic>RUNX2</italic>, <italic>Sp7,</italic> and <italic>COL1A1</italic>. Interestingly, culture in the MGS performs better than RPM in inducing bMSC osteogenic response to OM. Importantly, while bMSC in the RPM upregulate <italic>RUNX2</italic> and <italic>Sp7</italic> even in the absence of osteogenic stimuli, this does not happen in the MGS. We hypothesize that RPM generates additional forces or mechanical cues that might trigger unexpected, nonspecific cellular responses. Since bMSC are very sensitive to mechanical stimuli, we suggest MGS as a more appropriate device to study the effects of simulated microgravity in osteogenesis. </p>
+              <p>Gravitational forces influence actin cytoskeletal dynamics [<xref rid="B33-ijms-21-08908" ref-type="bibr">33</xref>]. In some cell types, cytoskeletal rearrangements are reversible after a few days in simulated microgravity, probably as an adaptive response. For instance, bMSC cultured in the RPM rapidly reorganize their cytoskeleton, and after 4–5 days, the cells regain their actin structures [<xref rid="B34-ijms-21-08908" ref-type="bibr">34</xref>]. Similarly, early cytoskeletal alterations were observed in C2C12 in simulated microgravity, but after a few hours the cells seem to adapt, and no major differences are detected [<xref rid="B35-ijms-21-08908" ref-type="bibr">35</xref>]. In C2C12 and in bMSC maintained in simulated microgravity for 4 days, we did not observe significant differences in cell shape, actin fiber organization, or the total amounts of actin, in agreement with the aforementioned studies.</p>
+              <p>Originally created to design experiments in space, various bioreactors, among which the RPM, have been utilized to engineer various tissues such as preliminary vessels, eye tissue, bone, cartilage, and multicellular cancer spheroids. Indeed, weightlessness offers a unique environment for the cells because of its lack of sedimentation and convection. Because of its characteristics, the MGS emerges as a promising tool to study the behaviour of cells cultured in scaffolds as well as of spheroids and organoids, and might become a new device for bioengineering and regenerative medicine.</p>
+            </sec>
+            <sec id="sec4-ijms-21-08908">
+              <title>4. Materials and Methods</title>
+              <sec id="sec4dot1-ijms-21-08908">
+                <title>4.1. Description of Algorithm Used to Simulate Microgravity</title>
+                <p>The basic working principle of microgravity-simulating machines like the RPM is a random positioning of the rotation axis, resulting in an averaged zero-gravity acceleration or apparent force with respect to the cell reference frame. The random positioning can be described as a random walk on the surface of a sphere, changing randomly direction by turning 90° left or right.</p>
+                <p>After a certain period of time, the path on the sphere shows a homogeneous distribution. This form of probabilistic spatial path distribution can also be calculated and simulated in advance with MATLAB/LabVIEW (MathWorks) [<xref rid="B36-ijms-21-08908" ref-type="bibr">36</xref>]. The distribution is measured statistically with the Giné test [<xref rid="B37-ijms-21-08908" ref-type="bibr">37</xref>,<xref rid="B38-ijms-21-08908" ref-type="bibr">38</xref>,<xref rid="B39-ijms-21-08908" ref-type="bibr">39</xref>], which gives a uniformity factor <italic>F*</italic>. An optimal distribution of the path on the sphere is achieved with the theoretical factor <italic>F*<sub>opt</sub></italic> = 3.633.</p>
+                <p>For operating RPM, the rotating axis has to be controlled by electronic feedback devices. A typical motion and trajectory control algorithm of a random positioning machine will change arbitrarily the direction and velocity of the rotating axis. Randomly controlled rotation will not result in a homogenous path distribution or loading of the cells. While such an algorithm covers the entire rotational space quite uniformly, once wrapped around the unit sphere, concentrations at the poles become apparent, as shown in <xref ref-type="fig" rid="ijms-21-08908-f007">Figure 7</xref>. </p>
+                <p>The above mentioned Giné test here gives a significant higher value for the uniformity factor <italic>F*</italic> = 188.4 (i.e., non-homogenous path distribution).</p>
+                <p>The crucial criteria for determining the quality of our MGS test-design and planning are as follows: <list list-type="simple"><list-item><label>(1)</label><p>a uniform path distribution with low uniformity factor <italic>F*</italic> for zero gravity application (for partial gravity, a controlled concentration of path lines is required)</p></list-item><list-item><label>(2)</label><p>in-advance (MATLAB) computer simulation of motion path, (not-randomly) control parameters, and statistical measures before the machine is utilized for biological tests.</p></list-item></list></p>
+                <p><xref ref-type="fig" rid="ijms-21-08908-f008">Figure 8</xref> shows the result for the path distribution on a sphere of the proposed in-advance MATLAB microgravity test design resulting in a significantly lower uniformity factor <italic>F*</italic> = 3.6. This is realized by an optimized algorithm for trajectory path planning and control, and allows for zero and partial gravity with a minimal uniformity factor <italic>F*<sub>opt</sub></italic> = 3.633. The achieved result for a typical experiment is shown in <xref ref-type="fig" rid="ijms-21-08908-f009">Figure 9</xref>. For zero gravity application, the apparent residual gravity decreases rapidly within a few hundred seconds with final value in the 0.01 g range and below (<italic>μg</italic>).</p>
+              </sec>
+              <sec id="sec4dot2-ijms-21-08908">
+                <title>4.2. Cell Culture</title>
+                <p>Besides validating the MGS mathematically, biological tests were conducted to compare the cellular behaviour on the MGS with the behaviour on the commonly used RPM and RWV. Two different types of cell were used: adherent human bone marrow stem cells (bMSC) and mouse skeletal muscle myoblasts (C2C12). The three bioreactors operated at 37 °C. 1 g-ground control cultures, treated in parallel in identical equipment, were placed on the stationary frame of the RPM, the RWV or the MGS.</p>
+                <p>For experiments in the RPM or in the MGS, 15 × 10<sup>3</sup> cells/cm<sup>2</sup> of bMSC were cultured in flasks completely filled with medium devoid of air bubbles to minimize turbulences and shear stress, and supplemented with 12.5 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid (HEPES). The cells were used between passage 3 and 5. The flasks were then allocated on the RPM or on the MGS. </p>
+                <p>Human bMSC from Lonza (Basilea, Switzerland) were cultured at 37 °C and 5% CO<sub>2</sub> in Dulbecco’s Modified Eagle’s Medium (DMEM) containing 10% Fetal Bovine Serum (FBS) and 2 mM glutamine (culture medium, CM). All the reagents for cell culture were from Sigma-Aldrich (St. Louis, MO, USA). The cells were used between passage 2 and 5. Osteogenic differentiation was induced in confluent bMSC by adding an osteogenic cocktail containing 10<sup>−8</sup> M 1α,25-dihydroxyvitamin D<sub>3</sub> (Vitamin D), 10 mM β-glycerol-phosphate, and 0.05 mM ascorbic acid (osteogenic medium, OM) (Sigma-Aldrich).</p>
+                <p>C2C12 mouse skeletal myoblasts from the American Type Culture Collection (ATCC) were cultured in DMEM containing 20% FBS. The cells were used between passage 8 and 12. Before being transferred to the RWV, C2C12 were cultured on beads (Cytodex 3, Sigma Aldrich, St. Louis, MO, USA), which were then transferred into the rotating vessels completely filled with medium as reported [<xref rid="B23-ijms-21-08908" ref-type="bibr">23</xref>]. For the experiments in the MGS, 25 × 10<sup>3</sup> cells/cm<sup>2</sup> were seeded in the flasks, and myogenic differentiation was induced by culturing the cells in 2% horse serum (DM). </p>
+              </sec>
+              <sec id="sec4dot3-ijms-21-08908">
+                <title>4.3. Real-Time PCR</title>
+                <p>Total RNA was extracted with the PureLink RNA Mini kit (Ambion, Thermo Fisher Scientific, Waltham, MA, USA). Single-stranded cDNA was synthesized from 0.2 µg RNA in a 20 µL final volume using the High Capacity cDNA Reverse Transcription Kit, with RNase inhibitor (Applied Biosystems, Thermo Fisher Scientific) according to the manufacturer’s instructions. Real-time PCR (RT-PCR) was performed three times in triplicate on the CFX96 Touch Real-Time PCR Detection System (Biorad, Hercules, CA, USA) using TaqMan Gene Expression Assays (Life Technologies, Monza, Italy): <italic>RUNX2</italic> (Hs00231692_m1), <italic>Sp7</italic> (Hs01866874_s1), <italic>COL1A1</italic> (Hs00164004_m1), <italic>Myog</italic> (Mm00446194_m1), <italic>Mylpf</italic> (Mm00443940_m1), and <italic>Myh3</italic> (Mm01332463_m1). The housekeeping gene <italic>GAPDH</italic> (Hs99999905_m1, Mm99999915_g1) was used as an internal reference gene. Relative changes in gene expression were analysed by the 2<sup>−ΔΔCt</sup> method. The experiment was repeated three times in triplicate.</p>
+              </sec>
+              <sec id="sec4dot4-ijms-21-08908">
+                <title>4.4. Confocal Imaging</title>
+                <p>bMSC and C2C12 seeded on flasks or on beads, respectively, were fixed in phosphate buffered saline containing 4% paraformaldehyde and 2% sucrose pH 7.6, permeabilized with Triton 0.3%, incubated with anti-MHC immunopurified IgGs (R&amp;D Systems, Minneapolis, MN, USA) overnight at 4 °C, and stained with an Alexa Fluor 488 secondary antibody (ThermoFisher Scientific). We used rhodamine-labeled phalloidin to visualize the actin filaments of the cytoskeleton, and 4′,6-diamidine-2′-phenylindole dihydrochloride (DAPI, Sigma) was used to stain the nuclei. Finally, cells were mounted with ProLong Gold Antifade Mountant (Invitrogen, Carlsbad, CA, USA), and images were acquired using a 20X objective with a SP8 Leica confocal microscope. The phalloidin fluorescence was quantified by ImageJ software.</p>
+              </sec>
+              <sec id="sec4dot5-ijms-21-08908">
+                <title>4.5. Western Blot</title>
+                <p>bMSC and C2C12 were lysed in 10 mM Tris-HCl (pH 7.4) containing 3 mM MgCl<sub>2</sub>, 10 mM NaCl, 0.1% SDS, 0.1% Triton X-100, 0.5 mM EDTA, and protease inhibitors, separated by SDS-PAGE on Mini-PROTEAN TGX Stain-free Gels (Bio-Rad Laboratories, Hercules, CA, USA) and transferred to nitrocellulose sheets by using Trans-Blot<sup>®</sup> Turbo™ Transfer Pack (Bio-Rad Laboratories). The immunoblot analysis was performed using primary antibodies against β-actin (Tebu Bio-Santa Cruz, Magenta, Italy). After extensive washing, secondary antibodies labelled with horseradish peroxidase (Amersham Pharmacia Biotech Italia, Cologno Monzese, Italy) were used. Immunoreactive proteins were detected with Clarity™ Western ECL substrate (Bio-Rad Laboratories). The nitrocellulose sheets were used as control loading. The experiments were repeated twice, and a representative blot is shown (<xref ref-type="fig" rid="ijms-21-08908-f004">Figure 4</xref>c or <xref ref-type="fig" rid="ijms-21-08908-f006">Figure 6</xref>c). Densitometry was performed with ImageJ software.</p>
+              </sec>
+              <sec id="sec4dot6-ijms-21-08908">
+                <title>4.6. Statistical Analysis</title>
+                <p>Data are reported as mean ± SD. The data were non-parametric and normally distributed, and were analysed using two-way ANOVA. The <italic>p</italic>-values deriving from multiple pairwise comparisons were corrected using the Bonferroni method. Statistical significance was defined as <italic>p</italic>-value ˂ 0.05. Regarding the Figures, * <italic>p</italic> ˂ 0.05; ** <italic>p</italic> ˂ 0.01; *** <italic>p</italic> ˂ 0.001.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, J.A.M., M.E., A.C., and S.C.; methodology, C.H., A.K., F.I., and S.W.; software, A.K.; validation, A.K. and C.G.-L.; formal analysis, A.K. and S.W.; experiments on the cells, S.C., A.C., and M.Z.; writing—original draft preparation, J.A.M., C.H., and M.E.; writing—review and editing, J.A.M., F.I., and M.E.; visualization, C.H. and A.K.; funding acquisition, S.C. and M.E. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This research was partly funded by Agenzia Spaziale Italiana (ASI), Coculture of Endothelial Cells and Osteoblast in Space: Effects on Osteoblast Activity—ENDOSTEO Project.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <glossary>
+              <title>Abbreviations</title>
+              <array orientation="portrait">
+                <tbody>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">MGS</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Microgravity simulator</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RWV</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Rotating Wall Vessel</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RPM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Random Positioning Machine</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">CM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Culture Medium</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">OM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Osteogenic Medium</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RUNX2</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Runt-related transcription factor 2</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">COL1A1</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Collagen Type I Alpha 1 Chain</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RT-PCR</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Real Time-PCR</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">DM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myogenic Medium</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myog</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myogenic Factor 4</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Mylpf</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myosin Light Chain 2</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myh3</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myosin Heavy Chain 3</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">MHC</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Myosin heavy chain</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Akt</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Protein Kinase B</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">FOXO1</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Forkhead Box O1</td>
+                  </tr>
+                </tbody>
+              </array>
+            </glossary>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-21-08908">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Unsworth</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lelkes</surname>
+                      <given-names>P.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growing tissues in microgravity</article-title>
+                  <source>Nat. Med.</source>
+                  <year>1998</year>
+                  <volume>4</volume>
+                  <fpage>901</fpage>
+                  <lpage>907</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm0898-901</pub-id>
+                  <pub-id pub-id-type="pmid">9701241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-21-08908">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mazzoleni</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Lorenzo</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steimberg</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling tissues in 3D: The next future of pharmaco-toxicology and food research?</article-title>
+                  <source>Genes Nutr.</source>
+                  <year>2009</year>
+                  <volume>4</volume>
+                  <fpage>13</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12263-008-0107-0</pub-id>
+                  <pub-id pub-id-type="pmid">19104883</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-21-08908">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Radtke</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Herbst-Kralovetz</surname>
+                      <given-names>M.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Culturing and applications of rotating wall vessel bioreactor derived 3D epithelial cell models</article-title>
+                  <source>J. Vis. Exp.</source>
+                  <year>2012</year>
+                  <fpage>1</fpage>
+                  <lpage>10</lpage>
+                  <pub-id pub-id-type="doi">10.3791/3868</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-21-08908">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kruger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riwaldt</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Corydon</surname>
+                      <given-names>T.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kopp</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wise</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tissue Engineering Under Microgravity Conditions-Use of Stem Cells and Specialized Cells</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <year>2018</year>
+                  <volume>27</volume>
+                  <fpage>787</fpage>
+                  <lpage>804</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2017.0242</pub-id>
+                  <?supplied-pmid 29596037?>
+                  <pub-id pub-id-type="pmid">29596037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-21-08908">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cazzaniga</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Locatelli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>J.A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The dynamic adaptation of primary human endothelial cells to simulated microgravity</article-title>
+                  <source>FASEB J.</source>
+                  <year>2019</year>
+                  <volume>33</volume>
+                  <fpage>5957</fpage>
+                  <lpage>5966</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.201801586RR</pub-id>
+                  <?supplied-pmid 30817172?>
+                  <pub-id pub-id-type="pmid">30817172</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-21-08908">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Locatelli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cazzaniga</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Palma</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>J.A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitophagy contributes to endothelial adaptation to simulated microgravity</article-title>
+                  <source>FASEB J.</source>
+                  <year>2020</year>
+                  <volume>34</volume>
+                  <fpage>1833</fpage>
+                  <lpage>1845</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.201901785RRR</pub-id>
+                  <?supplied-pmid 31914607?>
+                  <pub-id pub-id-type="pmid">31914607</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-21-08908">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cazzaniga</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>J.A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Conditioned media from microvascular endothelial cells cultured in simulated microgravity inhibit osteoblast activity</article-title>
+                  <source>BioMed Res. Int.</source>
+                  <year>2014</year>
+                  <volume>2014</volume>
+                  <fpage>857934</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2014/857934</pub-id>
+                  <pub-id pub-id-type="pmid">25210716</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-21-08908">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wuest</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richard</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Walther</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Furrer</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderegg</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sekler</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Novel Microgravity Simulator Applicable for Three-Dimensional Cell Culturing</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2014</year>
+                  <volume>26</volume>
+                  <fpage>77</fpage>
+                  <lpage>88</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-014-9364-2</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-21-08908">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Some history and use of the random positioning machine, RPM, in gravity related research</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>2007</year>
+                  <volume>39</volume>
+                  <fpage>1161</fpage>
+                  <lpage>1165</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2007.02.016</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-21-08908">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wuest</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richard</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kopp</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated microgravity: Critical review on the use of random positioning machines for mammalian cell culture</article-title>
+                  <source>BioMed Res. Int.</source>
+                  <year>2015</year>
+                  <volume>2015</volume>
+                  <fpage>971474</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2015/971474</pub-id>
+                  <pub-id pub-id-type="pmid">25649075</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-21-08908">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>J.A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cialdai</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monici</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morbidelli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The impact of microgravity and hypergravity on endothelial cells</article-title>
+                  <source>BioMed Res. Int.</source>
+                  <year>2015</year>
+                  <volume>2015</volume>
+                  <fpage>434803</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2015/434803</pub-id>
+                  <?supplied-pmid 25654101?>
+                  <pub-id pub-id-type="pmid">25654101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-21-08908">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herranz</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anken</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boonstra</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Braun</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Christianen</surname>
+                      <given-names>P.C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Geest</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauslage</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hilbig</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>R.J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lebert</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ground-based facilities for simulation of microgravity: Organism-specific recommendations for their use, and recommended terminology</article-title>
+                  <source>Astrobiology</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ast.2012.0876</pub-id>
+                  <?supplied-pmid 23252378?>
+                  <pub-id pub-id-type="pmid">23252378</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-21-08908">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aleshcheva</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hemmersbach</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Slumstrup</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Scaffold-free Tissue Formation Under Real and Simulated Microgravity Conditions</article-title>
+                  <source>Basic Clin. Pharmacol. Toxicol.</source>
+                  <year>2016</year>
+                  <volume>119</volume>
+                  <fpage>26</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1111/bcpt.12561</pub-id>
+                  <?supplied-pmid 26826674?>
+                  <pub-id pub-id-type="pmid">26826674</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-21-08908">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wuest</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stern</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Casartelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fluid dynamics appearing during simulated microgravity using Random Positioning Machines</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2017</year>
+                  <volume>12</volume>
+                  <fpage>1</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0170826</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-21-08908">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sargenti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Olivi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bianchi</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cazzaniga</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Farruggia</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cappadone</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Merolle</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Malucelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ventura</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Magnesium deprivation potentiates human mesenchymal stem cell transcriptional remodeling</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2018</year>
+                  <volume>19</volume>
+                  <elocation-id>1410</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms19051410</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-21-08908">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cazzaniga</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>J.A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castiglioni</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of simulated microgravity on human bone stem cells: New hints for space medicine</article-title>
+                  <source>Biochem. Biophys. Res. Commun.</source>
+                  <year>2016</year>
+                  <volume>473</volume>
+                  <fpage>181</fpage>
+                  <lpage>186</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbrc.2016.03.075</pub-id>
+                  <pub-id pub-id-type="pmid">27005819</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-21-08908">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di Prampero</surname>
+                      <given-names>P.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Narici</surname>
+                      <given-names>M.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Muscles in microgravity: From fibres to human motion</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2003</year>
+                  <volume>36</volume>
+                  <fpage>403</fpage>
+                  <lpage>412</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0021-9290(02)00418-9</pub-id>
+                  <pub-id pub-id-type="pmid">12594988</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-21-08908">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Winnard</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waters</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vance</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caplan</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of Time on Human Muscle Outcomes During Simulated Microgravity Exposure Without Countermeasures—Systematic Review</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1046</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.01046</pub-id>
+                  <pub-id pub-id-type="pmid">31474878</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-21-08908">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baek</surname>
+                      <given-names>M.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahn</surname>
+                      <given-names>C.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>H.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>J.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Son</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoon</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated microgravity inhibits C2C12 myogenesis via phospholipase D2-induced Akt/FOXO1 regulation</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-51410-7</pub-id>
+                  <pub-id pub-id-type="pmid">30626917</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-21-08908">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Calzia</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ottaggio</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cora</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiappori</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuccarolo</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cappelli</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Izzotti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tavella</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Degan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characterization of C2C12 cells in simulated microgravity: Possible use for myoblast regeneration</article-title>
+                  <source>J. Cell. Physiol.</source>
+                  <year>2020</year>
+                  <volume>235</volume>
+                  <fpage>3508</fpage>
+                  <lpage>3518</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jcp.29239</pub-id>
+                  <pub-id pub-id-type="pmid">31549411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-21-08908">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Faralli</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dilworth</surname>
+                      <given-names>F.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Turning on myogenin in muscle: A paradigm for understanding mechanisms of tissue-specific gene expression</article-title>
+                  <source>Comp. Funct. Genom.</source>
+                  <year>2012</year>
+                  <volume>2012</volume>
+                  <fpage>836374</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2012/836374</pub-id>
+                  <?supplied-pmid 22811619?>
+                  <pub-id pub-id-type="pmid">22811619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-21-08908">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schiaffino</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rossi</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smerdu</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leinwand</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reggiani</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Developmental myosins: Expression patterns and functional significance</article-title>
+                  <source>Skelet. Muscle</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <fpage>1</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s13395-015-0046-6</pub-id>
+                  <?supplied-pmid 26180627?>
+                  <pub-id pub-id-type="pmid">25664165</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-21-08908">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Torgan</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Burge</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Collinsworth</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Truskey</surname>
+                      <given-names>G.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kraus</surname>
+                      <given-names>W.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Differentiation of mammalian skeletal muscle cells cultured on microcarrier beads in a rotating cell culture system</article-title>
+                  <source>Med. Biol. Eng. Comput.</source>
+                  <year>2000</year>
+                  <volume>38</volume>
+                  <fpage>583</fpage>
+                  <lpage>590</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02345757</pub-id>
+                  <?supplied-pmid 11094818?>
+                  <pub-id pub-id-type="pmid">11094818</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-21-08908">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuipers</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukai</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thirsk</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Acclimation during space flight: Effects on human physiology</article-title>
+                  <source>Cmaj</source>
+                  <year>2009</year>
+                  <volume>180</volume>
+                  <fpage>1317</fpage>
+                  <lpage>1323</lpage>
+                  <pub-id pub-id-type="doi">10.1503/cmaj.090628</pub-id>
+                  <pub-id pub-id-type="pmid">19509005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-21-08908">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cappellesso</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicole</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guido</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pizzol</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight osteoporosis: Current state and future perspective</article-title>
+                  <source>Endocr. Regul.</source>
+                  <year>2015</year>
+                  <volume>49</volume>
+                  <fpage>231</fpage>
+                  <lpage>239</lpage>
+                  <pub-id pub-id-type="doi">10.4149/endo_2015_04_231</pub-id>
+                  <pub-id pub-id-type="pmid">26494042</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-21-08908">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teodori</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costa</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Campanella</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Albertini</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Skeletal muscle atrophy in simulated microgravity might be triggered by immune-related microRNAs</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2018.01926</pub-id>
+                  <pub-id pub-id-type="pmid">30723415</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-21-08908">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pietsch</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aleshcheva</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wise</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ulbrich</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Magnusson</surname>
+                      <given-names>N.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growing tissues in real and simulated microgravity: New methods for tissue engineering</article-title>
+                  <source>Tissue Eng. Part B Rev.</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <fpage>555</fpage>
+                  <lpage>566</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ten.teb.2013.0704</pub-id>
+                  <pub-id pub-id-type="pmid">24597549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-21-08908">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furukawa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanimoto</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukazawa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Imura</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuge</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated microgravity attenuates myogenic differentiation via epigenetic regulations</article-title>
+                  <source>Npj Microgravity</source>
+                  <year>2018</year>
+                  <volume>4</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-018-0045-0</pub-id>
+                  <pub-id pub-id-type="pmid">29354685</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-21-08908">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuge</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kajiume</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tahara</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Umeda</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshimoto</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>S.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaoka</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Asashima</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kataoka</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microgravity potentiates stem cell proliferation while sustaining the capability of differentiation</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <year>2006</year>
+                  <volume>15</volume>
+                  <fpage>921</fpage>
+                  <lpage>929</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2006.15.921</pub-id>
+                  <pub-id pub-id-type="pmid">17253953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-21-08908">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sakai</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mishima</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ishii</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Akaogi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshioka</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohyabu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ochiai</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Uemura</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rotating three-dimensional dynamic culture of adult human bone marrow-derived cells for tissue engineering of hyaline cartilage</article-title>
+                  <source>J. Orthop. Res.</source>
+                  <year>2009</year>
+                  <volume>27</volume>
+                  <fpage>517</fpage>
+                  <lpage>521</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jor.20566</pub-id>
+                  <pub-id pub-id-type="pmid">18932231</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-21-08908">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zayzafoon</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gathings</surname>
+                      <given-names>W.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeled microgravity inhibits osteogenic differentiation of human mesenchymal stem cells and increases adipogenesis</article-title>
+                  <source>Endocrinology</source>
+                  <year>2004</year>
+                  <volume>145</volume>
+                  <fpage>2421</fpage>
+                  <lpage>2432</lpage>
+                  <pub-id pub-id-type="doi">10.1210/en.2003-1156</pub-id>
+                  <pub-id pub-id-type="pmid">14749352</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-21-08908">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sheyn</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pelled</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Netanely</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Domany</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gazit</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of simulated microgravity on human mesenchymal stem cells cultured in an osteogenic differentiation system: A bioinformatics study</article-title>
+                  <source>Tissue Eng. Part A</source>
+                  <year>2010</year>
+                  <volume>16</volume>
+                  <fpage>3403</fpage>
+                  <lpage>3412</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ten.tea.2009.0834</pub-id>
+                  <pub-id pub-id-type="pmid">20807102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-21-08908">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bradbury</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>J.U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowan</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poole</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lauko</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chou</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling the Impact of Microgravity at the Cellular Level: Implications for Human Disease</article-title>
+                  <source>Front. Cell Dev. Biol.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>96</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fcell.2020.00096</pub-id>
+                  <?supplied-pmid 32154251?>
+                  <pub-id pub-id-type="pmid">32154251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-21-08908">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gershovich</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gershovich</surname>
+                      <given-names>I.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buravkova</surname>
+                      <given-names>L.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cytoskeleton structures and adhesion properties of human stromal precursors under conditions of simulated microgravity</article-title>
+                  <source>Tsitologiia</source>
+                  <year>2009</year>
+                  <volume>51</volume>
+                  <fpage>896</fpage>
+                  <lpage>904</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S1990519X09050046</pub-id>
+                  <?supplied-pmid 20058807?>
+                  <pub-id pub-id-type="pmid">20058807</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-21-08908">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pache</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kühn</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Westphal</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Toy</surname>
+                      <given-names>M.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parent</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Büchi</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Franco-Obregón</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Depeursinge</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Egli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Digital holographic microscopy real-time monitoring of cytoarchitectural alterations during simulated microgravity</article-title>
+                  <source>J. Biomed. Opt.</source>
+                  <year>2010</year>
+                  <volume>15</volume>
+                  <fpage>26021</fpage>
+                  <pub-id pub-id-type="doi">10.1117/1.3377960</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-21-08908">
+                <label>36.</label>
+                <element-citation publication-type="book">
+                  <source>Symbolic Math Toolbox</source>
+                  <comment>version I</comment>
+                  <publisher-name>The MathWorks</publisher-name>
+                  <publisher-loc>Natick, MA, USA</publisher-loc>
+                  <year>2019</year>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-21-08908">
+                <label>37.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evarist Giné</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Invariant Tests for Uniformity on Compact Riemannian Manifolds Based on Sobolev Norms</article-title>
+                  <source>The Annals of Statistics</source>
+                  <publisher-name>Institute of Mathematica</publisher-name>
+                  <publisher-loc>San Jose, CA, USA</publisher-loc>
+                  <year>1975</year>
+                  <volume>3</volume>
+                  <fpage>1243</fpage>
+                  <lpage>1266</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-21-08908">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keilson</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrondas</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sumita</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wellner</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Significance points for some tests of uniformity on the sphere</article-title>
+                  <source>J. Stat. Comput. Simul.</source>
+                  <year>1983</year>
+                  <volume>17</volume>
+                  <fpage>195</fpage>
+                  <lpage>218</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00949658308810656</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-21-08908">
+                <label>39.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mardia</surname>
+                      <given-names>K.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jupp</surname>
+                      <given-names>P.E.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Statistics of Directional Data</source>
+                  <edition>2nd ed.</edition>
+                  <publisher-name>J. Wiley</publisher-name>
+                  <publisher-loc>Chichester, UK</publisher-loc>
+                  <year>2000</year>
+                  <isbn>0471953334</isbn>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijms-21-08908-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Image of the microgravity simulator (MGS) hosted in a CO<sub>2</sub> incubator. The dimensions are reported. The MGS is connected to a PC that runs a particular software based on a two-level software architecture approach to enable a wide range of applications: A first-level offline motion simulation for parameter identification and optimization for different targets and ranges of microgravity conditions, and a second-level drive control software using these optimized parameters in the microgravity simulator (MGS-hardware).</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g001"/>
+            </fig>
+            <fig id="ijms-21-08908-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>(<bold>a</bold>) Position vectors <italic>r</italic> in a typical rotating set-up with angular velocities ω; (<bold>b</bold>) Forces acting on a single cell.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g002"/>
+            </fig>
+            <fig id="ijms-21-08908-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>bMSC were cultured in the RPM or in the MGS as well as in 1 g-ground control for 4 days. Three different experiments were performed. RT-PCR was performed three times in triplicate on RNA extracted using primers designed on <italic>RUNX2</italic> (<bold>a</bold>), <italic>Sp7</italic> (<bold>b</bold>), and <italic>COL1A1</italic> (<bold>c</bold>) sequences. * <italic>p</italic> ˂ 0.05; ** <italic>p</italic> ˂ 0.01; *** <italic>p</italic> ˂ 0.001.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g003"/>
+            </fig>
+            <fig id="ijms-21-08908-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>bMSC were cultured in the RPM or in the MGS as well as in 1 g-ground control for 4 days. (<bold>a</bold>) After fixation, the cells were stained with rhodamine labeled phalloidin and 4′,6-diamidine-2′-phenylindole dihydrochloride (DAPI). (<bold>b</bold>) Phalloidin fluorescence was quantified by ImageJ. (<bold>c</bold>) Western blot using antibodies against β-actin was performed on cell extracts of bMSC cultured in 1g or simulated microgravity in standard culture medium (CM). The lower panel shows the loading control. Densitometry was performed using ImageJ.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g004"/>
+            </fig>
+            <fig id="ijms-21-08908-f005" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>Mouse skeletal C2C12 myoblasts were cultured both in the RWV and in the MGS or in 1 g-ground control for 4 days. RT-PCR was performed three times in triplicate on RNA extracted using primers designed on <italic>Myog</italic> (<bold>a</bold>), <italic>Mylpf</italic> (<bold>b</bold>), and <italic>Myh3</italic> (<bold>c</bold>) sequences. * <italic>p</italic> ˂ 0.05; ** <italic>p</italic> ˂ 0.01; *** <italic>p</italic> ˂ 0.001.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g005"/>
+            </fig>
+            <fig id="ijms-21-08908-f006" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <p>C2C12 were cultured in the RWV and in the MGS or in 1 g-ground control for 4 days. (<bold>a</bold>) The cells were fixed and immunofluorescence was performed using antibodies against myosin heavy chain 3 (MHC). The samples were counterstained with rhodamine labeled phalloidin and 4′,6-diamidine-2′-phenylindole dihydrochloride (DAPI). (<bold>b</bold>) Phalloidin fluorescence was quantified by ImageJ. (<bold>c</bold>) Cell extracts were analyzed for β-actin levels by western blot, and densitometry was performed using ImageJ.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g006"/>
+            </fig>
+            <fig id="ijms-21-08908-f007" orientation="portrait" position="float">
+              <label>Figure 7</label>
+              <caption>
+                <p>Random walk path distribution on sphere; conventional RPM control schemes lead to concentrations at the poles (low unifomity <italic>F*</italic> = 188.4).</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g007"/>
+            </fig>
+            <fig id="ijms-21-08908-f008" orientation="portrait" position="float">
+              <label>Figure 8</label>
+              <caption>
+                <p>Optimized control scheme leads to homogeneous and controlled path distribution (with excellent uniformity <italic>F*</italic> = 3.6) for zero or partial gravity applications.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g008"/>
+            </fig>
+            <fig id="ijms-21-08908-f009" orientation="portrait" position="float">
+              <label>Figure 9</label>
+              <caption>
+                <p>The residual gravity for planned trajectory approaches roughly 0.01 g after a few hundred seconds (nullification).</p>
+              </caption>
+              <graphic xlink:href="ijms-21-08908-g009"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

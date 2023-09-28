@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:45:11Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9352769" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9352769</identifier>
+        <datestamp>2022-08-06</datestamp>
+        <setSpec>npjmicrogr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Microgravity</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Microgravity</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Microgravity</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2373-8065</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9352769</article-id>
+              <article-id pub-id-type="pmcid">PMC9352769</article-id>
+              <article-id pub-id-type="pmc-uid">9352769</article-id>
+              <article-id pub-id-type="pmid">35927552</article-id>
+              <article-id pub-id-type="publisher-id">218</article-id>
+              <article-id pub-id-type="doi">10.1038/s41526-022-00218-3</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Passive limitation of surface contamination by perFluoroDecylTrichloroSilane coatings in the ISS during the MATISS experiments</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7082-5564</contrib-id>
+                  <name>
+                    <surname>Lemelle</surname>
+                    <given-names>Laurence</given-names>
+                  </name>
+                  <address>
+                    <email>Laurence.lemelle@ens-lyon.fr</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rouquette</surname>
+                    <given-names>Sébastien</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mottin</surname>
+                    <given-names>Eléonore</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Le Tourneau</surname>
+                    <given-names>Denis</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3855-9662</contrib-id>
+                  <name>
+                    <surname>Marcoux</surname>
+                    <given-names>Pierre R.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Thévenot</surname>
+                    <given-names>Cécile</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7927-9603</contrib-id>
+                  <name>
+                    <surname>Maillet</surname>
+                    <given-names>Alain</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2975-5338</contrib-id>
+                  <name>
+                    <surname>Nonglaton</surname>
+                    <given-names>Guillaume</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7558-5013</contrib-id>
+                  <name>
+                    <surname>Place</surname>
+                    <given-names>Christophe</given-names>
+                  </name>
+                  <address>
+                    <email>christophe.place@ens-lyon.fr</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.15140.31</institution-id><institution-id institution-id-type="ISNI">0000 0001 2175 9188</institution-id><institution>ENS de Lyon, CNRS, Laboratoire de Géologie de Lyon-Terre Planètes et Environnement, </institution></institution-wrap>46 allée d’Italie, F-69342 Lyon, France </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.13349.3c</institution-id><institution-id institution-id-type="ISNI">0000 0001 2201 6490</institution-id><institution>CNES, </institution></institution-wrap>18 Avenue Edouard Belin, 31401 Toulouse, Cedex 9 France </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.15140.31</institution-id><institution-id institution-id-type="ISNI">0000 0001 2175 9188</institution-id><institution>ENS de Lyon, CNRS, Laboratoire de physique, </institution></institution-wrap>46 allée d’Italie, F-69342 Lyon, France </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.457348.9</institution-id><institution-id institution-id-type="ISNI">0000 0004 0630 1517</institution-id><institution>Université Grenoble Alpes, CEA, LETI, DTBS, </institution></institution-wrap>17 rue des Martyrs, 38000 Grenoble, France </aff>
+                <aff id="Aff5"><label>5</label>MEDES-IMPS for CADMOS, Waypost-4e étage, 2 Av. de l’Aérodrome de Montaudran, CS77720, BP 74404, F-31405 Toulouse, Cedex 4 France </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>4</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>4</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>31</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>20</day>
+                  <month>12</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>7</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Future long-duration human spaceflight will require developments to limit biocontamination of surface habitats. The MATISS (Microbial Aerosol Tethering on Innovative Surfaces in the international Space Station) experiments allowed for exposing surface treatments in the ISS (International Space Station) using a sample-holder developed to this end. Three campaigns of FDTS (perFluoroDecylTrichloroSilane) surface exposures were performed over monthly durations during distinct periods. Tile scanning optical microscopy (×3 and ×30 magnifications) showed a relatively clean environment with a few particles on the surface (0.8 to 7 particles per mm<sup>2</sup>). The varied densities and shapes in the coarse area fraction (50–1500 µm<sup>2</sup>) indicated different sources of contamination in the long term, while the bacteriomorph shapes of the fine area fraction (0.5–15 µm<sup>2</sup>) were consistent with microbial contamination. The surface contamination rates correlate to astronauts’ occupancy rates on board. Asymmetric particles density profiles formed throughout time along the air-flow. The higher density values were located near the flow entry for the coarse particles, while the opposite was the case for the fine particles, probably indicating the hydrophobic interaction of particles with the FDTS surface.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Aerospace engineering</kwd>
+                <kwd>Biophysics</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100000844</institution-id>
+                      <institution>European Space Agency (ESA)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>SCI-ESA-HRE-ESR-MATISS-1/2/2.5</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Lemelle</surname>
+                      <given-names>Laurence</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Long-duration human spaceflights, like missions to Mars<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>, and those involving a continuous presence in low Earth orbit (LEO), require reconsideration of risk management, in particular of biohazardous risks to astronauts and equipment integrity<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup>. Over long periods, unknown mutations, resistance, and virulence can develop and be favored in response to recurrent disinfectant application and adaptation to microgravity<sup><xref ref-type="bibr" rid="CR10">10</xref>–<xref ref-type="bibr" rid="CR21">21</xref></sup>. Besides, biocontamination of spacecraft and in particular their surfaces<sup><xref ref-type="bibr" rid="CR22">22</xref>–<xref ref-type="bibr" rid="CR25">25</xref></sup> by crew flora<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR26">26</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup> is inevitable<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR29">29</xref></sup>. As sources of holders, the surfaces in the ISS may retain and favor microbial biofilms in which microorganisms are protected from inhospitable environmental variations and from killing by antibiotics and disinfectants<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR30">30</xref>–<xref ref-type="bibr" rid="CR33">33</xref></sup>. In this respect, surfaces then become infection <italic>foci</italic> and transmission routes of pathogens by contact<sup><xref ref-type="bibr" rid="CR34">34</xref>–<xref ref-type="bibr" rid="CR40">40</xref></sup>. Equipment degradation due to surface corrosion related to microbial metabolic activities observed on MIR and in the early days of the ISS (International Space Station) are also sources of concern<sup><xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>.</p>
+              <p id="Par3">The development of smart surface designs with optimized performances in microgravity is part of a strategic upstream step for constructing novel spacecrafts for long-term exploration<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. The selection of advanced surfaces that do not allow microbes to stick and grow over large areas, effectively making them easier to clean and more hygienic, is a prerequisite. Among this set of surfaces, evaluating bacterio-repellent or bacteriostatic surfaces already implemented in numerous industrial fields that do not require demonstrating innocuity to astronaut health, appears to be a pragmatic approach. Under microgravity, infectious agents are conveyed by aerosols, as on Earth, but also by much larger water droplets and floating condensates<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup>. Evaluating hydrophobic coatings that limit the surface contamination by repulsing water droplets and floating condensates, prior to any microbial species-dependent interaction, appears to be a promising approach<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. Simulations under microgravity, and in the specific environment of ISS modules, have not yet been validated experimentally, although fluid dynamics computations are efficient in deciphering parameters and trends of bioaerosol contamination in an enclosed space<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Testing the ISS’s true bioaerosol contamination on surfaces still requires exposing them in situ in the ISS.</p>
+              <p id="Par4">The experiment MATISS (Microbial Aerosol Tethering on Innovative Surfaces in the International Space Station) was conceived to this end. It was based on the use of a sample holder developed to expose, over the long term in the ISS, a glass lamella surface, without risks and with simple handling for the astronauts (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>), and aimed to investigate the surface contamination, once returned to the laboratory, across the sealed holder. Such designed non-invasive and non-destructive approach preserves the possibility of extending this particulate characterization in the future by other approaches informative of the chemical and microbiological compositions of the contamination. During the MATISS-1 campaign, a proof of concept demonstrated its usefulness for investigating the efficiency of hydrophobic coatings<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Hydrophobic surface coatings and an untreated glass surface were exposed for 6 months. In the ISS, hydrophobic coatings can be mainly covered by lipids and debris. The absence of iridescent organic patches and the low value of few particles per mm<sup>2</sup> detected on the hydrophobic coatings after six months of exposure sets the potential efficiency of the hydrophobic coatings over multi-years lifetimes of spacecraft’s cabins, in particular in low touch area. Besides, twice as many large particles accumulated on the organofluorosilane coating (FDTS) than on the others. However, the opposite trend was observed for fine particles, suggesting the FDTS coating as our most efficient hydrophobic coating to prevent surface contamination by microorganisms or small colonies carried by hydrophilic droplets.</p>
+              <p id="Par5">The usefulness of fluoroalkyl silanes, and more particularly of FDTS, to reduce the surface energy of a material and thus reduce the adsorption of proteins or bacteria is well documented<sup><xref ref-type="bibr" rid="CR46">46</xref>–<xref ref-type="bibr" rid="CR52">52</xref></sup>. The FDTS coatings are well-known and relatively cheap organofluorosilane commonly used, alone or in combination with topography, for their intrinsic hydrophobic properties, but also anti-stiction, and passivation properties for a large number of potential applications such as aeronautics, sensors, biosensors<sup><xref ref-type="bibr" rid="CR53">53</xref>,<xref ref-type="bibr" rid="CR54">54</xref></sup>, microelectronics, microfluidics<sup><xref ref-type="bibr" rid="CR55">55</xref></sup> and textiles<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. In addition, commercialized industrial equipment can process FDTS on large surfaces and achieve high-volume production with good reproducibility. It is noteworthy that previous cytotoxicity studies demonstrated the nontoxicity<sup><xref ref-type="bibr" rid="CR57">57</xref></sup> of fluorosilane-based coatings. Furthermore, an FDTS coating has already been used to improve blood biocompatibility<sup><xref ref-type="bibr" rid="CR58">58</xref></sup> and for the fabrication of wearable and implantable medical devices. The existing industrial processes of FDTS deposition summarized above support the choice in this study to work with FDTS to establish if and how this coating limits biocontamination in the international space station. It has the advantage of ensuring upstream the possibility of developing processes to produce durable hydrophobic coatings on space habitat construction materials to limit the biocontamination of surface habitats. Such proof of concept would afterward support the study of a larger panel of hydrophobic coatings in the perspective of industrialization.</p>
+              <p id="Par6">Therefore, the MATISS campaign has been triplicated to expose FDTS coating’s over several months in the ISS: from November 2016, for ∼6 months for the MATISS-1 campaign; from August 2018 for ~1, ~3, and ~12 months for the MATISS-2 campaign and from September 2019 for ∼12 months for the MATISS-2.5 campaign (Material and Methods). In this study, an FDTS coating’s impact on the surface biocontamination was established following the spatial spreads of the bioaerosols and their progress versus time on a FDTS-coated glass lamella and control surfaces. The sources and routes of the surface biocontamination in the ISS and the role of hydrophobicity on such biocontamination are discussed.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Exposure of FDTS surfaces to the Columbus atmosphere</title>
+                <p id="Par7">FDTS coating were prepared with an aliphatic silane that was applied by molecular vapor deposition on silica glass lamella (Material and Method). These molecules form self-assembled monolayers covalently bound to the hydroxyl groups of the silica glass surfaces, obtained by a silanization method<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. A new batch was prepared for each campaign, and its properties checked in order to guaranteeing that coatings themselves are not a parameter of the FDTS contamination in the three campaigns. The value of the optical thickness of the coatings (Material and Method) was 1.6 ± 0.2 nm (Average ± precision, for 3 substrates) and is reproducible from batch to batch (SD = 0.2 nm for 3 batches). It is consistent with other values reported in the literature<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> and with the theoretical length value of approximately 1.4 nm of an FDTS molecule<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. The fluorinated molecules have a low surface energy and adopt a preferential orientation with the fluorinated tails towards the coating-air interface<sup><xref ref-type="bibr" rid="CR56">56</xref>,<xref ref-type="bibr" rid="CR61">61</xref></sup>. The roughness of FDTS coatings is negligible and was 0.32 ± 0.07 nm (Average ± precision, for 6 measurement series). The resulting high water contact angles values (Material and Method) was equal to 110 ± 2° (Average ± precision) with a variability from one batch to another lower than 2° (SD).</p>
+                <p id="Par8">The FDTS coatings were exposed in the Columbus module, using a previously developed sample holder (Fig. <xref rid="Fig1" ref-type="fig">1</xref> in Lemelle et al., 2020<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>). A lateral 2-mm–thick slit in the holder allows the circulation on the coatings of a laminar airflow of velocity value in the range of 10–40 ft/min, as evaluated considering an air exchange of the atmosphere ensured by a flow rate value of ca. 400 m<sup>3</sup>/h.<fig id="Fig1"><label>Fig. 1</label><caption><title>Surface contamination kinetics by coarse particles (50 &lt; Area &lt; 1500µm<sup>2</sup>) on FDTS coating.</title><p><bold>a</bold> Particle size distribution histogram (grey bars) versus the area in μm² and cumulative particle size curves after MATISS-1 (193 days of exposure (red)), MATISS-2 (354 days (blue)) and MATISS-2.5 (365 days (green)) campaigns. Each holder has its symbol. Error bars represent the standard deviation of the data. <bold>b</bold> Dot-plots showing the density values of the coarse particles measured on surfaces of 8 x 8 mm. Centerlines show mean values: 2.45 ± 0.81 for MATISS-1 (193 days), 2.01 ± 0.84 for MATISS-2 (354 days) and 0.36 ± 0.12 for MATISS-2.5 (365 days). <bold>c</bold> Mosaic of optical images recorded at low magnification displaying typical shapes of coarse particles (top and middle, scale bar is 10 μm) and macroscopic particles (area &gt; 1500 μm², bottom, scale bar is 100 μm).</p></caption><graphic xlink:href="41526_2022_218_Fig1_HTML" id="d32e536"/></fig></p>
+                <p id="Par9">The biocontamination in the ISS of the external surfaces of the holders containing the FDTS coated lamellae were checked upon the reception day in the laboratory. Numerous clones were cultivated from all the microbial swabbings of the probed holders (Material and Methods). The long lag times before starting exponential growth of these microbial cultures (up to 5 days) revealed stressed states anticipated for microorganisms likely deposited few months ago in the ISS. The taxonomy of most of the identified isolates showed mostly gram-positives and also provided not unexpected insight into their microbial ecology (Materials and Methods and Supplementary Table <xref rid="MOESM1" ref-type="media">1</xref>). They belong to three phyla: <italic>Firmicutes</italic> (gram-positive), <italic>Actinobacteria</italic> (gram-positive), and <italic>Proteobacteria</italic> (gram-negative). Isolated genera can be characteristic of the normal microbiota of skin and mucous membranes (<italic>Staphylococcus</italic>, <italic>Micrococcus</italic>, <italic>Bacillus</italic>), of the outer ear and the intestine (<italic>Pseudomonas</italic>)<sup><xref ref-type="bibr" rid="CR62">62</xref>,<xref ref-type="bibr" rid="CR63">63</xref></sup>. Alternatively, they are rather characteristic to soil and/or water habitats: <italic>Pseudarthrobacter</italic> and <italic>Arthrobacter, Bacillus</italic> and <italic>Paenibacillus</italic><sup><xref ref-type="bibr" rid="CR64">64</xref>,<xref ref-type="bibr" rid="CR65">65</xref></sup>. Besides, some of the isolated species had not been signaled yet, such as <italic>Pseudomonas fulva</italic>, <italic>Paenibacillus sp</italic>. or <italic>Pseudarthrobacter sp</italic>. most are reported in the survey of the environmental biocontamination of the ISS<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>, such as <italic>Staphylococcus hominis</italic> or <italic>Micrococcus luteus</italic>.</p>
+                <p id="Par10">Then the position, area, shape, and intensity of all the coarse and fine particles (area value &gt;50 µm<sup>2</sup> and &lt;50 µm<sup>2</sup> respectively) on the FDTS coated lamellae and the controls were measured by tile scanning optical microscopy applied at two different magnifications, ×3 and ×30 (Material and Method).</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Long term particle contaminations of the FDTS coating</title>
+                <p id="Par11">The size distributions and the corresponding cumulative curves of the coarse particles on the FDTS coated lamellae exposed during the three MATISS campaigns are presented in Fig. <xref rid="Fig1" ref-type="fig">1a</xref>. They display quite comparable monomodal distributions of particles with area values in the range of 50 µm<sup>2</sup> to 1500 µm<sup>2</sup>, and with the most probable size equal to approximately 155 µm<sup>2</sup>. However, the particle density values observed for the longest exposure times from one campaign to another are different (Fig. <xref rid="Fig1" ref-type="fig">1b</xref>). The mean average density value is centered around fewer than 2 particles per square millimeter after 193 days for the MATISS-1 campaign and after 354 days for the MATISS-2 campaign, but less than 1 particle per square millimeter after 365 days for the MATISS-2.5 campaign. These differences, not proportional to the exposure time gaps, displays a large variability of the particle loads of the air in the ISS during the three campaigns. The similarity of the size distributions (Fig. <xref rid="Fig1" ref-type="fig">1a</xref> and Supplementary Fig. <xref rid="MOESM1" ref-type="media">2a</xref>) may suggest an invariant coarse particle load over time. This is refuted by a systematic scan of the shapes of the particles collected during each campaign. Flat hexagonal particles consistent with scale discs (tissue or skin) and fibrillar particles (Fig. <xref rid="Fig1" ref-type="fig">1c</xref> bottom, and Supplementary Fig. <xref rid="MOESM1" ref-type="media">2</xref> in Lemelle et al. 2020<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>) in the MATISS-1 campaign were overrepresented compared with the round or angular particles in the MATISS-2 and MATISS-2.5 campaigns (Supplementary Fig. <xref rid="MOESM1" ref-type="media">3</xref>). In comparison, very few particles larger than 1500 µm were observed. The shapes of the MATISS-2.5 particles are similar to those of MATISS-2 and they have clearly visible edges. Whatever the elongation of the particles, two main types of particles were observed. The first type presents shapes with sharp points, and large surfaces on which the edges are parallel, which suggests crystallographic cleavage planes. A second type presents more parallelepipedic forms, with perpendicular edges, which delimit in hollow and in relief many small cubic volumes, which suggests an aggregate of small crystals or a crystal whose growth is imperfect. Shape diversity indicates a temporal change of the sources of the coarse particle loads in the air in the ISS that are most probably related to the astronauts’ activities.</p>
+                <p id="Par12">The size distributions and the corresponding cumulative curves of the fine particles on the FDTS coated lamellae exposed during the different MATISS campaigns are presented in Fig. <xref rid="Fig2" ref-type="fig">2a</xref>. As observed for the coarse particles, the mean values of the particle densities are centered around a similar average density value of fewer than 4 particles per square millimeter, after 193 days for the MATISS-1 campaign and after 354 days for the MATISS-2 campaign. This value is much higher than the 1 particle per square millimeter measured after 365 days for the MATISS-2.5 campaign (Fig. <xref rid="Fig2" ref-type="fig">2b</xref>). This density gap confirms the variability of the loads of the air in the ISS over the long term for the fine particles, mainly due to dissimilar fractions of particles in the range of 0 to 20 µm<sup>2</sup> (Supplementary Fig. <xref rid="MOESM1" ref-type="media">2b</xref>). Indeed, the particles of average area consistent with microbial cells (area &lt; 20µm<sup>2</sup>) observed in the three campaigns show either an isolated round shape consistent with those of a single <italic>coccus</italic>, or a round or elongated shape with constriction figures, consistent with division features of filamentous microbial cells or <italic>cocci</italic> (Fig. <xref rid="Fig2" ref-type="fig">2c</xref>, Supplementary Fig. <xref rid="MOESM1" ref-type="media">4</xref>). Pictures of the fine particles may even display halos that are probably a trace of the evaporation of the water droplets that carried the fine particles in the ISS atmosphere. So, while the intensity of the fine particle contamination varies over the long term, their shape and nature, probably of microbial origin, is persistent over the long term.<fig id="Fig2"><label>Fig. 2</label><caption><title>Surface contamination kinetics by fine particles (0.50 &lt; Area &lt; 50 µm<sup>2</sup>) on FDTS coating.</title><p><bold>a</bold> Particle size distribution histogram (grey bars) versus the area in μm² and cumulative particle size curves for MATISS-1 (193 days of exposure (red)), MATISS-2 (354 days (blue)) and MATISS-2.5 (365 days (green)) campaigns. Each holder has its symbol. Error bars represent the standard deviation of the data. <bold>b</bold> Dot-plots showing the density values of the fine particles measured on surfaces of 8 x 8 mm. Centerlines show mean values: 4.45 ± 2.66 for MATISS-1 (193 days), 4.68 ± 2.30 for MATISS-2 (354 days) and 1.02 ± 0.58 for MATISS-2.5 (365 days). For MATISS-2, the density values (black) measured on surfaces exposed for 95 days with the same experiment for 354 days are also reported. The black centerline shows a mean value of 3.82 ± 1.77 after 95 days. <bold>c</bold> Mosaic of optical images recorded at high magnification displaying typical shapes of fine particles (scale bar is 2 μm).</p></caption><graphic xlink:href="41526_2022_218_Fig2_HTML" id="d32e706"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Kinetics of the FDTS surface particle contaminations over the long term</title>
+                <p id="Par13">For the MATISS-2 campaign, average density values are reported versus exposure time (Fig. <xref rid="Fig3" ref-type="fig">3a</xref> and <xref rid="Fig3" ref-type="fig">b</xref> blue) to determine the rate law of the FDTS contamination by the coarse particles (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>) and fine particles (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). Sample holders were initially all installed simultaneously, in the same location, and were removed, sealed, and stored periodically, at approximately doubled exposure times. The deposition kinetics of the particles varied with time. Kinetics is not discussed in terms of mechanism since it was shown above to vary over monthly periods mainly due to biocontamination source variation. An almost linear accumulation of coarse particles was then evaluated (Fig. <xref rid="Fig3" ref-type="fig">3a</xref>) with a coverage rate value of ∼0.5% per year, consistent with the value previously evaluated<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. The accumulation rates of fine particles are about 10 times smaller (Fig. <xref rid="Fig3" ref-type="fig">3b</xref>). The long-term particle accumulation rates observed in MATISS-2 are consistent with the ones determined for MATISS-1 (Fig. <xref rid="Fig3" ref-type="fig">3a</xref> and <xref rid="Fig3" ref-type="fig">b</xref>, blue and red) while the accumulation rates during MATISS-2.5 being much lower (Fig. <xref rid="Fig3" ref-type="fig">3a</xref> and <xref rid="Fig3" ref-type="fig">b</xref>, blue and green).<fig id="Fig3"><label>Fig. 3</label><caption><title>Surface contamination kinetics on FDTS coating in MATISS-2 campaign.</title><p><bold>a</bold> Density values of the coarse particles (50 μm<sup>2</sup> &lt; Area &lt; 1500 μm<sup>2</sup>) measured on surfaces of 8 x 8 mm. <bold>b</bold> Density values of the fine particles (0.50 μm<sup>2</sup> &lt; Area &lt; 50 μm<sup>2</sup>). The blue curves show the kinetics of the surface contamination increase. Red and green symbols show the FDTS-surfaces exposed for 193 days in MATISS-1 campaign and 365 days in MATISS-2.5 campaign, respectively, in different experimental periods than that of the blue dots. The FDTS-surfaces exposed Matiss-2.5 campaign was deposited on a borosilicate glass lamella (green dot) and suprasil lamella (green triangle). Error bars represent the standard deviation of the data. <bold>c</bold> Schematic representation of the location of the coarse particles on FDTS surfaces within a window exposed for 354 days (left). The side near the closest aperture is in y position =0. Each particle is represented by a circle whose color (yellow/orange/violet scale from 50 to 500 µm²) and sizes (ratio 1 to 1.5 from 50 to 1500 µm²) are proportional to the particle surface. The particles number histogram versus the y position (vertical axis) of particles on surfaces (right). <bold>d</bold> Same representation for fine particles with a yellow/orange/violet scale from 0 to 50 µm² and size ratio of 1 to 1.5 for 0 to 50 µm² particle surfaces.</p></caption><graphic xlink:href="41526_2022_218_Fig3_HTML" id="d32e782"/></fig></p>
+                <p id="Par14">A closer inspection was made of the particle distributions formed in the set of the FDTS coated lamellae exposed in the holders to about one year of laminar flows in the MATISS-2 campaign. It is to be noted that these FDTS coated lamellae were always mounted in a position such that the main air-flow enter from one side of the lamella (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). Particle positions display non-homogeneous particle densities, with asymmetric distributions formed along the air-flow direction, summarized by the histograms. Coarse particles are accumulated close to the aperture (positioned on x = 0) (Fig. <xref rid="Fig3" ref-type="fig">3c</xref>), whereas fine particles are far from the holder aperture (Fig. <xref rid="Fig3" ref-type="fig">3d</xref>). These asymmetric distributions are progressively formed along the exposure (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5b</xref>). They are formed on the FDTS coatings, and not observed on the glass control (Supplementary Fig. <xref rid="MOESM1" ref-type="media">5a</xref>). These results display specific particle/hydrophobic surface interactions for the coarse and fine particles that are put into play when the air flows on the lamellae exposed in the MATISS holder (Discussion).</p>
+              </sec>
+            </sec>
+            <sec id="Sec6" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par15">In these campaigns that spanned from 2016 to 2020, density values of only a few particles per mm<sup>2</sup> deposited over a few months were measured initially during MATISS-1. These low values confirm that the surfaces are kept relatively clean in the Columbus module. However, the amount of contamination was shown to vary considerably depending on the campaign. Contamination rate values were similar in the MATISS-1 and MATISS-2 campaigns but lower for fine and coarse particles in the MATISS-2.5 campaign. The thickness, surface roughness, and hydrophobicity of the coatings prepared for the three campaigns being indistinguishable, this difference could be assigned to the activity in the ISS, and most likely related to both the astronauts’ presence and their activities. As a first approximation, it can be hypothesized that the surface contamination depends on the number of astronauts working in the Columbus module. Occupancy rates of the Columbus Module for each campaign, η (%), were evaluated considering only the occupancy periods of the European astronauts (Supplementary Table <xref rid="MOESM1" ref-type="media">2</xref>). Their values (η ≈ 35% or 100%) confirm the possibility of contrasted regimes of surface contamination in the different MATISS campaigns. A high regime of surface contamination is indeed observed during the high occupancy rate exposure of MATISS-1 and MATISS-2, and a low regime (η ≈ 35%) over the entire low occupancy rate periods of exposure of MATISS-2 and MATISS-2.5 (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). In particular, the lowest MATISS-2.5 contamination rate may be related to the fact that this campaign was conducted during the Covid-19 pandemic, resulting in fewer global astronauts present on board.<fig id="Fig4"><label>Fig. 4</label><caption><title>Surface contamination rate (θ) versus Occupancy rate (η).</title><p><bold>a</bold> Surface contamination rate values of the coarse particles (50 μm<sup>2</sup> &lt; Area &lt; 1500 μm<sup>2</sup>). <bold>b</bold> Surface contamination rate values of the fine particles (0.50 μm<sup>2</sup> &lt; Area &lt; 50 μm<sup>2</sup>). Red and green dots show the FDTS-surfaces exposed for 193 days in MATISS-1 and 365 days in MATISS-2.5, respectively, blue dots for the different experimental periods of MATISS-2 (41 days, 95 days and 354 days). Each holder has its symbol. Error bars represent the standard deviation of the data. The dashed curves are guide-eyes of an increase of the surface contamination rate with the occupancy rate.</p></caption><graphic xlink:href="41526_2022_218_Fig4_HTML" id="d32e841"/></fig></p>
+              <p id="Par16">Besides this important variation of the number of particles released in the binnacle, the nature of the contaminants was also observed to vary for the coarse particles (more fibers for MATISS-1 and more minerals for MATISS-2 and 2.5). Production of coarse particles can therefore likely be linked to the monthly and specific shuttle maintenance activities of the astronauts on the different building materials present in the spacecraft, rather than on their daily activities. This underscores the need for a highly efficient air filtration in particular during these activities to ensure the removal of large particles that astronauts might otherwise breathe in afterwards. In contrast, the fine particles show some invariance in shape, with numerous bacteriomorphs, as particles divided into sub-particles of similar µm-size, as well as µm-particles with a halo evoking the evaporation of a droplet of water. Measuring surface contamination rates associated with the physical care of the astronauts or with their activity of maintenance of their environment appears to be a promising approach to evaluate whether a low number of very active astronauts or the opposite is the least contaminant approach on long-duration human spaceflights.</p>
+              <p id="Par17">In this study, opposite stratifications of coarse particles and fine particles were observed on the FDTS surfaces, with coarse particles deposited near the opening of the holder, and fine particles far from the opening. As this phenomenon was not observed on the control surfaces, it was related to the specific coarse and fine particle/hydrophobic surface interactions (see Results, section 3). The particles are carried along a forced path in the sample holder, by the laminar air-flows that are aspirated in the nearby return grid. The load of particles of the air-flows enters the sample holder only through the lateral sides. The stronger the particle’s affinity with the surface, the closer to the air inlet it will settle, contributing to segregating spatially the particles according to the strength of the interactions with the hydrophobic coating. In this respect, the coarse hydrophobic particles should behave differently to the fine hydrophilic particles. The opposing stratifications of the coarse and fine particles on the FDTS surface are related to their different nature, not to their size. The hydrophobic character of the FDTS surface should capture coarse hydrophobic particles (skin, synthetic fabric,…) near the air inlet, while the fine hydrophilic particles should be repulsed. However, their accumulation at a given distance away from the inlet was unexpected, suggesting a more complex interaction, possibly involving sliding or jumping of water droplets. Such behaviors of sliding or jumping water droplets has already been observed but on superhydrophobic surfaces satisfying the Cassie-Baxter equation<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>. Under microgravity, the multiple contacts are not related to the weight of the droplets and are facilitated by the small contact surface between the droplet and the hydrophobic surface<sup><xref ref-type="bibr" rid="CR67">67</xref></sup>. Multiple interactions between the surface and the droplets could account for the final deposition of the particles<sup><xref ref-type="bibr" rid="CR68">68</xref>,<xref ref-type="bibr" rid="CR69">69</xref></sup>. Repeated impacts under air-flow lead to droplet modifications, which may modify in return the surface/droplet interaction itself and increase the probability of particle deposition. The farthest distances from the inlet will be the most populated with particles. This property of a hydrophobic surface in microgravity revealed here could be exploited to improve the cleaning of the surfaces in the station<sup><xref ref-type="bibr" rid="CR70">70</xref></sup>.</p>
+              <p id="Par18">In conclusion, these observations lay the foundation for developing some rationale for integrating hydrophobic coatings, like FDTS, as a promising approach to passive contamination control into a more comprehensive strategy for cleaning spacecraft. The interest in using hydrophobic surfaces would be, as presupposed, the weaker attachment of the droplets of water, and more precisely the possibility that the droplets jump or slide along the surfaces. The lifetime of a droplet appears here to be a critical parameter because microorganisms from an evaporated droplet should land on the hydrophobic surface, attach to it and eventually contaminate the surface. Such a perspective points to the need to develop new surfaces that not only reduce the surface/droplet interaction, but also reduce the possibility of attachment of microorganisms.</p>
+            </sec>
+            <sec id="Sec7" sec-type="materials|methods">
+              <title>Materials and methods</title>
+              <sec id="Sec8">
+                <title>FDTS coatings</title>
+                <p id="Par19">FDTS coatings are based on 1H,1H,2H,2H-perfluorodecyltrichlorosilane FDTS (ABCR, 97%). The coating application was performed using commercially available molecular vapor deposition equipment (MVD100 from Applied MST, San José, US). The deposition conditions for FDTS were as follows. In a first step, the surface was cleaned using remote RF oxygen plasma (450sccm O<sub>2</sub> flow, 250 W, 300 s). In a second step, one cycle of tetrachlorosilane SiCl<sub>4</sub> (Sigma Aldrich, 99,998% Semiconductor grade) at 18 Torr was injected, followed by four cycles of water at 18 Torr. This step took place for a duration of 600 s at 35 <sup>◦</sup>C. In a third step, two cycles of FDTS at 0.5 Torr were injected, followed by one cycle of water at 18 Torr. This step took place for a duration of 900 s at 35 <sup>◦</sup>C and aimed at grafting FDTS to the surface by a salinization reaction. The optical thickness of each FDTS layer was extrapolated from measurement obtained by the Surface Enhanced Ellipsometric Contrast technique on thermally oxidized silicon substrates. The <italic>Rq</italic> roughness measurement was determined on FDTS functionalized oxidized silicon substrates by Dimension Icon atomic force microscope from Bruker. The water contact angle was measured by goniometer equipment from GBX instruments, on each FDTS functionalized glass borosilicate and suprasil slides.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Sampling with the MATISS sample holder</title>
+                <p id="Par20">MATISS sample holders were sterilized with isopropanol and mounted with glass lamellae. They were sealed with Kapton tape, and placed into two Ziploc bags using gloves when not exposed to air. The three sequential MATISS campaigns (MATISS-1, MATISS-2, and MATISS-2.5) brought 7 sample holders into the Columbus module by Cygnus CRS OA-5 on the 17th October 2016, by CRS OA-9 on the 20th May 2018 and by SpX-18 on the 25th July 2019. For the MATISS-1 campaign, two holders were mounted in the direct vicinity of the Return Grid Sensor Housing (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). One holder was mounted on the surface of the EPM Rack (European Physiology Modules) front panel in the middle section of the Columbus cabin (see Materials and Method of Lemelle et al. 2020<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>). Sample holders were exposed to air on the 21st November 2016 for MATISS-1 and sealed with Kapton tape using gloves, placed into two Ziploc bags, and stored at room temperature the day before the return with the Soyuz 49 S on the 2nd June 2017 after a 193 days exposure. The sample holders of all the other campaigns were installed near the Return Grid Sensor Housing. They were exposed to air on the 23rd August 2018 for MATISS-2 and the 25th September 2019 for MATISS-2.5. For the MATISS-2 campaign, samples were sealed on the 3rd October 2018 and returned with the Soyuz 54 S on the 4th October 2018 after a 41 days exposure, sealed on the 26th November 2018 and returned with the Soyuz 55 S on the 20th December 2018 after a 91 days exposure and sealed on the 12th August 2019 and returned with the SpX-18 on the 31th August 2019 after a 354 days exposure. For the MATISS-2.5 campaign, samples were sealed on the 24th September 2020 and returned with the Soyuz 62 S on the 21th October 2020 after a 365 days exposure. Sample holders transfers to our laboratory were achieved in less than a week, avoiding X-ray scans and using temperature monitoring to detect inadvertent extreme temperatures (values in the range of 5 to 50 °C), and finally stored at 5 °C.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Surface microbial testing</title>
+                <p id="Par21">Sampling the outer surfaces of holders was done under sterile conditions in a laminar flow biological safety cabinet, where each holder was aseptically removed from the zip lock. The whole outer surface of the holders, including the aluminum and polycarbonate window, was thoroughly sampled with pre-moistened swabs (Swab Rinse Kit SRK, with 10 mL of Letheen Broth, Copan) to improve the uptake of any bacteria present on the dry surfaces. Letheen Broth was incubated with a swab at 30 °C, 80 rpm (Ecotron, Infors HT) for 24 h. Then incubated Letheen Broth was streaked on Columbia (VWR) 5% Sheep Blood Petri 90 mm (0.1 mL per plate). Plates were incubated at 30 °C for at least one week. One to two colonies for each morphotype were taken for genotypic identification through ribosomal RNA (rRNA) sequencing by MicroSEQ (Applied Biosystems) and, for the isolates difficult to identify through 16 S rRNA gene sequencing, additional phenotypic identification by Maldi Biotyper (Bruker) MALDI-TOF mass spectrometry was performed. Both techniques were performed by Confarma France SAS. Clones to be identified through MicroSEQ were sent to Confarma on FTA Cards (Whatman). Basic Local Alignment Tool was processed on MicroSEQ™ ID 16 S rDNA 500 Microbial Library, v2019. Clones to be identified through MALDI-TOF spectrometry were sent on Tryptic Soy Agar (VWR). Mass spectra were assigned using the MALDI Biotyper<sup>®</sup> 8468 MSP Library.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Optical microscopy and image analyses</title>
+                <p id="Par22">The MATISS sample holders were mounted on a raster X-Y table. A tile scanning mode was applied to image a full glass surface, seen through four windows that are visible across the polycarbonate cover (Supplementary Fig. <xref rid="MOESM1" ref-type="media">1</xref>). An optical macroscope MacroFluo Leica Z16 ApoA and a PlanApo 5×/0.5 coupled to a QImaging QICAM fast 1394 camera (12 bits, 1392 × 1040) controlled by a MetaMorph interface was used. A stack of 30 RGB images per window (75 ms exposition time) was produced at low zoom (×3), and of 1452 images (100 ms exposition time) at high zoom (×30). The RGB gain was fixed to 1.19/1/2.31 for the MATISS-1 (LZ) holders and to 1.71/1/2.16 for MATISS-1 (HZ), MATISS-2 et MATISS-2.5 holders. Bayer Method = Average Four.</p>
+                <p id="Par23">Processing of the stack of images was applied to produce an output listing for the position, area, and elongation ratio of each particle (Lemelle et al. 2020<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>). For the stack recorded at low zoom, the segmentation of the image was performed on the blue component using a constant threshold value of grey level of about 75 that was empirically determined (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6a</xref>). For the stack recorded at high zoom, the images containing macroscopic objects with shadows masking the small particles were removed from the stack. The segmentation was also performed on the blue component using a threshold value equal to the median value (background) incremented by two times the average value of the standard deviation of the intensity of the stack (Supplementary Fig. <xref rid="MOESM1" ref-type="media">6b</xref>). All the particle positions were then compiled using the Analyze Particle module of FIJI and crops centered on these positions were sampled in the blue component of the low zoom stack, and in an 8-bit gray scale average of the RGB images of the high zoom stack. The segmentation of every particle in the crops was further refined using a local threshold value that was a function of the mean value of the crops and the area and the elongation of the central particle compiled using the Analyze Particle module of FIJI.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Reporting summary</title>
+                <p id="Par24">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec13">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41526_2022_218_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>NPJMGRAV_00758_SuppMat_</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41526_2022_218_MOESM2_ESM.pdf">
+                      <caption>
+                        <p>Reporting Summary Checklist</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41526-022-00218-3.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The CNES, the French Space Agency provided financial support for the MATISS experiments. Anne-Dominique Malinge and Philippe Boulez contributed to the final integration of the MATISS experiments. We acknowledge the contribution of SFR Biosciences (UMS3444/CNRS, US8/Inserm, ENS de Lyon, UCBL) PLATIM facility. The CEA-Leti acknowledge the support of the Agence Nationale de la Recherche through the LabEx ARCANE program (ANR-11-LABX-0003-01) and the Graduate School on Chemistry, Biology and Health of Univ Grenoble Alpes CBH-EUR-GS (ANR-17-EURE-0003).</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>L.L., C.P., S.R. designed the research project; D.L. and E.M. machined the sample holder and carried out the microscopy imaging, G.N. prepared the surfaces, P.M. carried out the microbiological investigations, C.T. and S.R. managed the qualification for space flight of the experiment and the communication with the astronauts; L.L., C.P., and G.N. wrote the paper.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>The dataset of particle areas analyzed during the current study are available from the corresponding authors on reasonable request.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Code availability</title>
+              <p>The 2 codes applied during the current study, that are described in the Supplementary Fig. 6 are available from the corresponding authors on reasonable request.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par25">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space habitation and microbiology: status and roadmap of space agencies</article-title>
+                  <source>Microbes Environ.</source>
+                  <year>2014</year>
+                  <volume>29</volume>
+                  <fpage>239</fpage>
+                  <lpage>242</lpage>
+                  <pub-id pub-id-type="doi">10.1264/jsme2.ME2903rh</pub-id>
+                  <?supplied-pmid 25130884?>
+                  <pub-id pub-id-type="pmid">25130884</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">International Space Exploration Coordinating Group, The Global Exploration Roadmap, ISECG Technical Report, Jan. <ext-link ext-link-type="uri" xlink:href="https://www.globalspaceexploration.org/wordpress/wp-content/isecg/GER_2018_small_mobile.pdf">https://www.globalspaceexploration.org/wordpress/wp-content/isecg/GER_2018_small_mobile.pdf</ext-link> (2018).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microbial monitoring of crewed habitats in space—current status and future perspectives</article-title>
+                  <source>Microbes Environ.</source>
+                  <year>2014</year>
+                  <volume>29</volume>
+                  <fpage>250</fpage>
+                  <lpage>260</lpage>
+                  <pub-id pub-id-type="doi">10.1264/jsme2.ME14031</pub-id>
+                  <?supplied-pmid 25130885?>
+                  <pub-id pub-id-type="pmid">25130885</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baranov</surname>
+                      <given-names>VM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Main results of the Biorisk experiment on the International Space Station</article-title>
+                  <source>Aviakosm. Ekol. Med.</source>
+                  <year>2006</year>
+                  <volume>40</volume>
+                  <fpage>3</fpage>
+                  <lpage>9</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jorgensen</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development of an antimicrobial susceptibility testing method suitable for performance during space flight</article-title>
+                  <source>J. Clin. Microbiol.</source>
+                  <year>1997</year>
+                  <volume>35</volume>
+                  <fpage>2093</fpage>
+                  <lpage>2097</lpage>
+                  <pub-id pub-id-type="doi">10.1128/jcm.35.8.2093-2097.1997</pub-id>
+                  <?supplied-pmid 9230388?>
+                  <pub-id pub-id-type="pmid">9230388</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>Á</given-names>
+                    </name>
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of Spaceflight on Human Skin</article-title>
+                  <source>Ski. Pharmacol. Physiol.</source>
+                  <year>2021</year>
+                  <volume>34</volume>
+                  <fpage>239</fpage>
+                  <lpage>245</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000515963</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>LaPelusa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microbiome for Mars: surveying microbiome connections to healthcare with implications for long-duration human spaceflight, virtual workshop, July 13, 2020</article-title>
+                  <source>Microbiome</source>
+                  <year>2021</year>
+                  <volume>9</volume>
+                  <fpage>2</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40168-020-00951-5</pub-id>
+                  <?supplied-pmid 33397500?>
+                  <pub-id pub-id-type="pmid">33397500</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santomartino</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>No effect of microgravity and simulated Mars gravity on final bacterial cell concentrations on the International Space Station: applications to space bioproduction</article-title>
+                  <source>Front. Microbiol.</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>579156</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fmicb.2020.579156</pub-id>
+                  <?supplied-pmid 33154740?>
+                  <pub-id pub-id-type="pmid">33154740</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zea</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Potential biofilm control strategies for extended spaceflight missions</article-title>
+                  <source>Biofilm</source>
+                  <year>2020</year>
+                  <volume>2</volume>
+                  <fpage>100026</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bioflm.2020.100026</pub-id>
+                  <?supplied-pmid 33447811?>
+                  <pub-id pub-id-type="pmid">33447811</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</article-title>
+                  <source>Proc. Natl Acad. Sci.</source>
+                  <year>2007</year>
+                  <volume>104</volume>
+                  <fpage>16299</fpage>
+                  <lpage>16304</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0707155104</pub-id>
+                  <?supplied-pmid 17901201?>
+                  <pub-id pub-id-type="pmid">17901201</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Media ion composition controls regulatory and virulence response of Salmonella in spaceflight</article-title>
+                  <source>PloS One</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <fpage>e3923</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0003923</pub-id>
+                  <?supplied-pmid 19079590?>
+                  <pub-id pub-id-type="pmid">19079590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zea</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Phenotypic changes exhibited by <italic>E. coli</italic> cultured in space</article-title>
+                  <source>Front. Microbiol.</source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <fpage>1598</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fmicb.2017.01598</pub-id>
+                  <?supplied-pmid 28894439?>
+                  <pub-id pub-id-type="pmid">28894439</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mukhopadhyay</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bagh</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A microgravity responsive synthetic genetic device in <italic>Escherichia coli</italic></article-title>
+                  <source>Biosens. Bioelectron.</source>
+                  <year>2020</year>
+                  <volume>167</volume>
+                  <fpage>112462</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bios.2020.112462</pub-id>
+                  <?supplied-pmid 32781386?>
+                  <pub-id pub-id-type="pmid">32781386</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bijlani</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Stephens</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>NK</given-names>
+                    </name>
+                    <name>
+                      <surname>Venkateswaran</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>CCC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advances in space microbiology</article-title>
+                  <source>iScience</source>
+                  <year>2021</year>
+                  <volume>24</volume>
+                  <fpage>102395</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.isci.2021.102395</pub-id>
+                  <?supplied-pmid 33997680?>
+                  <pub-id pub-id-type="pmid">33997680</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Aylott</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghaemmaghami</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Immunity in space: prokaryote adaptations and immune response in microgravity</article-title>
+                  <source>Life</source>
+                  <year>2021</year>
+                  <volume>11</volume>
+                  <fpage>112</fpage>
+                  <pub-id pub-id-type="doi">10.3390/life11020112</pub-id>
+                  <?supplied-pmid 33540536?>
+                  <pub-id pub-id-type="pmid">33540536</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fajardo-Cavazos</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholson</surname>
+                      <given-names>WL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanotransduction in prokaryotes: a possible mechanism of spaceflight adaptation</article-title>
+                  <source>Life</source>
+                  <year>2021</year>
+                  <volume>11</volume>
+                  <fpage>33</fpage>
+                  <pub-id pub-id-type="doi">10.3390/life11010033</pub-id>
+                  <?supplied-pmid 33430182?>
+                  <pub-id pub-id-type="pmid">33430182</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>D-G</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C-T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of spaceflight and simulated microgravity on microbial growth and secondary metabolism</article-title>
+                  <source>Mil. Med. Res.</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>18</fpage>
+                  <?supplied-pmid 29807538?>
+                  <pub-id pub-id-type="pmid">29807538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity and Cell Adherence</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2020</year>
+                  <volume>21</volume>
+                  <fpage>2214</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijms21062214</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaishampayan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Grohmann</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multi-resistant biofilm-forming pathogens on the International Space Station</article-title>
+                  <source>J. Biosci.</source>
+                  <year>2019</year>
+                  <volume>44</volume>
+                  <fpage>125</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s12038-019-9929-8</pub-id>
+                  <?supplied-pmid 31719234?>
+                  <pub-id pub-id-type="pmid">31719234</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The impact of spaceflight and simulated microgravity on cell adhesion</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2020</year>
+                  <volume>21</volume>
+                  <fpage>3031</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijms21093031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Acres</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Youngapelian</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Nadeau</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of spaceflight and simulated microgravity on bacterial motility and chemotaxis</article-title>
+                  <source>npj Microgravity</source>
+                  <year>2021</year>
+                  <volume>7</volume>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-021-00135-x</pub-id>
+                  <pub-id pub-id-type="pmid">33402671</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Novikova</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Survey of environmental biocontamination on board the International Space Station</article-title>
+                  <source>Res. Microbiol.</source>
+                  <year>2006</year>
+                  <volume>157</volume>
+                  <fpage>5</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resmic.2005.07.010</pub-id>
+                  <?supplied-pmid 16364606?>
+                  <pub-id pub-id-type="pmid">16364606</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lang</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A microbial survey of the International Space Station (ISS)</article-title>
+                  <source>PeerJ</source>
+                  <year>2017</year>
+                  <volume>5</volume>
+                  <fpage>e4029</fpage>
+                  <pub-id pub-id-type="doi">10.7717/peerj.4029</pub-id>
+                  <?supplied-pmid 29492330?>
+                  <pub-id pub-id-type="pmid">29492330</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruce</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial characterization of free floating condensate aboard the Mir Space Station</article-title>
+                  <source>Microb. Ecol.</source>
+                  <year>2004</year>
+                  <volume>47</volume>
+                  <fpage>133</fpage>
+                  <lpage>136</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00248-003-1038-3</pub-id>
+                  <?supplied-pmid 14569419?>
+                  <pub-id pub-id-type="pmid">14569419</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ichijo</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Hieda</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Ishihara</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bacterial monitoring with adhesive sheet in the international space station-“Kibo”, the Japanese experiment module</article-title>
+                  <source>Microbes Environ.</source>
+                  <year>2013</year>
+                  <volume>28</volume>
+                  <fpage>264</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="doi">10.1264/jsme2.ME12184</pub-id>
+                  <?supplied-pmid 23603802?>
+                  <pub-id pub-id-type="pmid">23603802</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ichijo</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimazu</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial monitoring in the International Space Station and its application on Earth</article-title>
+                  <source>Biol. Pharm. Bull.</source>
+                  <year>2020</year>
+                  <volume>43</volume>
+                  <fpage>254</fpage>
+                  <lpage>257</lpage>
+                  <pub-id pub-id-type="doi">10.1248/bpb.b19-00912</pub-id>
+                  <?supplied-pmid 32009114?>
+                  <pub-id pub-id-type="pmid">32009114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mahnert</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microbiome dynamics during the HI-SEAS IV mission, and implications for future crewed missions beyond Earth</article-title>
+                  <source>Microbiome</source>
+                  <year>2021</year>
+                  <volume>9</volume>
+                  <fpage>27</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40168-020-00959-x</pub-id>
+                  <?supplied-pmid 33487169?>
+                  <pub-id pub-id-type="pmid">33487169</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ichijo</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanigaki</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirakawa</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Four-year bacterial monitoring in the International Space Station-Japanese experiment module ‘Kibo’ with culture-independent approach</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>16007</fpage>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.7</pub-id>
+                  <?supplied-pmid 28725725?>
+                  <pub-id pub-id-type="pmid">28725725</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial contamination of spacecraft</article-title>
+                  <source>Gravit. Space Biol. Bull.</source>
+                  <year>2001</year>
+                  <volume>14</volume>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                  <?supplied-pmid 11865864?>
+                  <pub-id pub-id-type="pmid">11865864</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Buchovec</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Gricajeva</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalėdienė</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Vitta</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Antimicrobial photoinactivation approach based on natural agents for control of bacteria biofilms in spacecraft</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2020</year>
+                  <volume>21</volume>
+                  <fpage>6932</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijms21186932</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zea</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Design of a spaceflight biofilm experiment</article-title>
+                  <source>Acta Astronaut.</source>
+                  <year>2018</year>
+                  <volume>148</volume>
+                  <fpage>294</fpage>
+                  <lpage>300</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2018.04.039</pub-id>
+                  <?supplied-pmid 30449911?>
+                  <pub-id pub-id-type="pmid">30449911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morrison</surname>
+                      <given-names>MD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Investigation of spaceflight induced changes to astronaut microbiomes</article-title>
+                  <source>Front. Microbiol.</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <fpage>1368</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fmicb.2021.659179</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tirumalai</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The adaptation of <italic>Escherichia coli</italic> cells grown in simulated microgravity for an extended period is both phenotypic and genomic</article-title>
+                  <source>npj Microgravity</source>
+                  <year>2017</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-017-0020-1</pub-id>
+                  <pub-id pub-id-type="pmid">28649623</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <mixed-citation publication-type="other">Balistreri, S. F. S., Steele, J. W., Caron, M. E. &amp; Laliberte, Y. J., International space station common cabin air assembly condensing heat exchanger hydrophilic coating operation, recovery, and lessons learned. NASA Technical Report JSC-CN-27469. <ext-link ext-link-type="uri" xlink:href="https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20130000766.pdf">https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20130000766.pdf</ext-link> (2013).</mixed-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <mixed-citation publication-type="other">James, J. T., Parmet, A. J. &amp; Pierson, D. L. Aerospace toxicology and microbiology. <ext-link ext-link-type="uri" xlink:href="https://ntrs.nasa.gov/citations/20070032022">https://ntrs.nasa.gov/citations/20070032022</ext-link> (2007).</mixed-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Novikova</surname>
+                      <given-names>ND</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Review of the knowledge of microbial contamination of the Russian manned spacecraft</article-title>
+                  <source>Microb. Ecol.</source>
+                  <year>2004</year>
+                  <volume>47</volume>
+                  <fpage>127</fpage>
+                  <lpage>132</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00248-003-1055-2</pub-id>
+                  <?supplied-pmid 14994178?>
+                  <pub-id pub-id-type="pmid">14994178</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Otter</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Yezli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>French</surname>
+                      <given-names>GL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role played by contaminated surfaces in the transmission of nosocomial pathogens</article-title>
+                  <source>Infect. Control. Hosp. Epidemiol.</source>
+                  <year>2011</year>
+                  <volume>32</volume>
+                  <fpage>687</fpage>
+                  <lpage>699</lpage>
+                  <pub-id pub-id-type="doi">10.1086/660363</pub-id>
+                  <?supplied-pmid 21666400?>
+                  <pub-id pub-id-type="pmid">21666400</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Otter</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transmission of SARS and MERS coronaviruses and influenza virus in healthcare settings: the possible role of dry surface contamination</article-title>
+                  <source>J. Hosp. Infect.</source>
+                  <year>2016</year>
+                  <volume>92</volume>
+                  <fpage>235</fpage>
+                  <lpage>250</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jhin.2015.08.027</pub-id>
+                  <?supplied-pmid 26597631?>
+                  <pub-id pub-id-type="pmid">26597631</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weber</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Rutala</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of the surface environment in healthcare-associated infections</article-title>
+                  <source>Curr. Opin. Infect. Dis.</source>
+                  <year>2013</year>
+                  <volume>26</volume>
+                  <fpage>338</fpage>
+                  <lpage>344</lpage>
+                  <pub-id pub-id-type="doi">10.1097/QCO.0b013e3283630f04</pub-id>
+                  <?supplied-pmid 23743816?>
+                  <pub-id pub-id-type="pmid">23743816</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siegel</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhinehart</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiarello</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <collab>Health care infection control practices advisory committee.</collab>
+                  </person-group>
+                  <article-title>Guideline for isolation precautions: preventing transmission of infectious agents in health care settings</article-title>
+                  <source>Am. J. Infect. Control</source>
+                  <year>2007</year>
+                  <volume>35</volume>
+                  <fpage>S65</fpage>
+                  <lpage>S164</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ajic.2007.10.007</pub-id>
+                  <?supplied-pmid 18068815?>
+                  <pub-id pub-id-type="pmid">18068815</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Ott, C. M. <italic>Risk of adverse health effects due to host-microorganism interactions</italic>. <ext-link ext-link-type="uri" xlink:href="https://ntrs.nasa.gov/search.jsp?R=20170001973">https://ntrs.nasa.gov/search.jsp?R=20170001973</ext-link> (2016).</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Smirnov, E. M., Ivanov, N. G., Telnov, D. S., Son, C. H. &amp; Aksamentov, V. K. <italic>Computational Fluid Dynamics study of air flow characteristics in the Columbus Module</italic>, SAE Technical Paper 2004-01-2500. 10.4271/2004-01-2500 (2004).</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sethi</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Manik</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recent progress in super hydrophobic/hydrophilic self-cleaning surfaces for various industrial applications: a review</article-title>
+                  <source>Polym. Plast. Technol. Eng.</source>
+                  <year>2018</year>
+                  <volume>57</volume>
+                  <fpage>1932</fpage>
+                  <lpage>1952</lpage>
+                  <pub-id pub-id-type="doi">10.1080/03602559.2018.1447128</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salmela</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Measurement and simulation of biocontamination in an enclosed habitat</article-title>
+                  <source>Aerosol Sci. Eng.</source>
+                  <year>2020</year>
+                  <volume>4</volume>
+                  <fpage>101</fpage>
+                  <lpage>110</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s41810-020-00057-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lemelle</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Towards a passive limitation of particle surface contamination in the Columbus module (ISS) during the MATISS experiment of the Proxima Mission</article-title>
+                  <source>npj Microgravity</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-00120-w</pub-id>
+                  <pub-id pub-id-type="pmid">31934612</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moazzam</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Razmjou</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Golabi</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Shokri</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Landarani-Isfahani</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Investigating the BSA protein adsorption and bacterial adhesion of Al-alloy surfaces after creating a hierarchical (micro/nano) superhydrophobic structure</article-title>
+                  <source>J. Biomed. Mater. Res.</source>
+                  <year>2016</year>
+                  <volume>104</volume>
+                  <fpage>2220</fpage>
+                  <lpage>2233</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jbm.a.35751</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mandal</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Ivvala</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Arora</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghosh</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <name>
+                      <surname>Grewal</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bioinspired micro/nano structured aluminum with multifaceted applications</article-title>
+                  <source>Colloids Surf. B: Biointerfaces</source>
+                  <year>2022</year>
+                  <volume>211</volume>
+                  <fpage>112311</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.colsurfb.2021.112311</pub-id>
+                  <?supplied-pmid 34979496?>
+                  <pub-id pub-id-type="pmid">34979496</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Facile Li-Al layered double hydroxide films on Al alloy for enhanced hydrophobicity, anti-biofouling and anti-corrosion performance</article-title>
+                  <source>J. Mater. Sci. Technol.</source>
+                  <year>2021</year>
+                  <volume>79</volume>
+                  <fpage>230</fpage>
+                  <lpage>242</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jmst.2020.10.072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lubricant-infused directly engraved nano-microstructures for mechanically durable endoscope lens with anti-biofouling and anti-fogging properties</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>17454</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-74517-8</pub-id>
+                  <?supplied-pmid 33060752?>
+                  <pub-id pub-id-type="pmid">33060752</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lotus-leaf-inspired hierarchical structured surface with non-fouling and mechanical bactericidal performances</article-title>
+                  <source>Chem. Eng. J.</source>
+                  <year>2020</year>
+                  <volume>398</volume>
+                  <fpage>125609</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cej.2020.125609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kefallinou</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optimization of Antibacterial Properties of “Hybrid” Metal-Sputtered Superhydrophobic Surfaces</article-title>
+                  <source>Coatings</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>25</fpage>
+                  <pub-id pub-id-type="doi">10.3390/coatings10010025</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Robust Biomimetic Hierarchical Diamond Architecture with a Self-Cleaning, Antibacterial, and Antibiofouling Surface</article-title>
+                  <source>ACS Appl. Mater. Interfaces</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <fpage>24432</fpage>
+                  <lpage>24441</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acsami.0c02460</pub-id>
+                  <?supplied-pmid 32342682?>
+                  <pub-id pub-id-type="pmid">32342682</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grinenval</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Nonglaton</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Vinet</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatially controlled immobilisation of biomolecules: a complete approach in green chemistry</article-title>
+                  <source>Appl. Surf. Sci.</source>
+                  <year>2014</year>
+                  <volume>289</volume>
+                  <fpage>571</fpage>
+                  <lpage>580</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.apsusc.2013.11.046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sadri</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Wearable and implantable epidermal paper-based electronics</article-title>
+                  <source>ACS Appl. Mater. Interfaces</source>
+                  <year>2018</year>
+                  <volume>10</volume>
+                  <fpage>31061</fpage>
+                  <lpage>31068</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acsami.8b11020</pub-id>
+                  <?supplied-pmid 30141320?>
+                  <pub-id pub-id-type="pmid">30141320</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glavan</surname>
+                      <given-names>AC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Rapid fabrication of pressure-driven open-channel microfluidic devices in omniphobic RF paper</article-title>
+                  <source>Lab Chip</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>2922</fpage>
+                  <lpage>2930</lpage>
+                  <pub-id pub-id-type="doi">10.1039/c3lc50371b</pub-id>
+                  <?supplied-pmid 23719764?>
+                  <pub-id pub-id-type="pmid">23719764</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sala de Medeiros</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chanci</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Moreno</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Goswami</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>RV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Waterproof, Breathable, and Antibacterial Self-Powered e-Textiles Based on Omniphobic Triboelectric Nanogenerators</article-title>
+                  <source>Adv. Funct. Mater.</source>
+                  <year>2019</year>
+                  <volume>29</volume>
+                  <fpage>1904350</fpage>
+                  <pub-id pub-id-type="doi">10.1002/adfm.201904350</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Superhydrophobic coatings on gelatin-based films: fabrication, characterization and cytotoxicity studies</article-title>
+                  <source>RSC Adv.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>23712</fpage>
+                  <lpage>23719</lpage>
+                  <pub-id pub-id-type="doi">10.1039/C8RA04066D</pub-id>
+                  <?supplied-pmid 35540306?>
+                  <pub-id pub-id-type="pmid">35540306</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sabino</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kauk</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Movafaghi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kota</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Popat</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interaction of blood plasma proteins with superhemophobic titania nanotube surfaces</article-title>
+                  <source>Nanomed.: Nanotechnol., Biol. Med.</source>
+                  <year>2019</year>
+                  <volume>21</volume>
+                  <fpage>102046</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.nano.2019.102046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silverio</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Canane</surname>
+                      <given-names>PAG</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardoso</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Surface wettability and stability of chemically modified silicon, glass and polymeric surfaces via room temperature chemical vapor deposition</article-title>
+                  <source>Colloids Surf. A: Physicochem. Eng.</source>
+                  <year>2019</year>
+                  <volume>570</volume>
+                  <fpage>210</fpage>
+                  <lpage>217</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.colsurfa.2019.03.032</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Bittner</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Baldelli</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kern</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Study of self-assembled triethoxysilane thin films made by casting neat reagents in ambient atmosphere</article-title>
+                  <source>Thin Solid Films</source>
+                  <year>2008</year>
+                  <volume>516</volume>
+                  <fpage>3948</fpage>
+                  <lpage>3956</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tsf.2007.07.208</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pellerite</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wood</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>VW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic contact angle studies of self-assembled thin films from fluorinated alkyltrichlorosilanes</article-title>
+                  <source>J. Phys. Chem. B</source>
+                  <year>2002</year>
+                  <volume>106</volume>
+                  <fpage>4746</fpage>
+                  <lpage>4754</lpage>
+                  <pub-id pub-id-type="doi">10.1021/jp013820m</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Madigan, M. &amp; Martinko, J. <italic>Microorganisms and microbiology</italic>. Brock Biology of Microorganisms, 11th ed. Upper Saddle River, New Jersey (NJ): Pearson Prentice Hall, 1–20 (2006).</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <mixed-citation publication-type="other">Willey, J. M. Sherwood, L. M. &amp; Woolverton C. J. <italic>Prescott’s Microbiology</italic>, 7th Edition, Mc Graw-Hill Companies Inc. (2008).</mixed-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Busse</surname>
+                      <given-names>HJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Review of the taxonomy of the genus <italic>Arthrobacter</italic>, emendation of the genus <italic>Arthrobacter sensu lato</italic>, proposal to reclassify selected species of the genus <italic>Arthrobacter</italic> in the novel genera <italic>Glutamicibacter gen. nov., Paeniglutamicibacter gen. nov., Pseudoglutamicibacter gen. nov., Paenarthrobacter gen. nov. and Pseudarthrobacter gen. nov</italic>., and emended description of <italic>Arthrobacter roseus</italic></article-title>
+                  <source>Int. J. Syst. Evol. Microbiol.</source>
+                  <year>2016</year>
+                  <volume>66</volume>
+                  <fpage>9</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1099/ijsem.0.000702</pub-id>
+                  <?supplied-pmid 26486726?>
+                  <pub-id pub-id-type="pmid">26486726</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A phylogenomic and comparative genomic framework for resolving the polyphyly of the genus Bacillus: Proposal for six new genera of Bacillus species, <italic>Peribacillus gen. nov., Cytobacillus gen. nov</italic>., <italic>Mesobacillus gen. nov</italic>., <italic>Neobacillus gen. nov., Metabacillus gen. nov. and Alkalihalobacillus gen. nov</italic></article-title>
+                  <source>Int. J. Syst. Evol. Microbiol.</source>
+                  <year>2020</year>
+                  <volume>70</volume>
+                  <fpage>406</fpage>
+                  <lpage>438</lpage>
+                  <pub-id pub-id-type="doi">10.1099/ijsem.0.003775</pub-id>
+                  <?supplied-pmid 31617837?>
+                  <pub-id pub-id-type="pmid">31617837</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <mixed-citation publication-type="other">Chu, Z. et al. Smart Superhydrophobic Films with Self-Sensing and Anti-Icing Properties Based on Silica Nanoparticles and Graphene. <italic>Adv. Mater. Interfaces</italic>. <bold>7</bold> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>M-K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Enhanced Jumping-Droplet Departure</article-title>
+                  <source>Langmuir</source>
+                  <year>2015</year>
+                  <volume>31</volume>
+                  <fpage>13452</fpage>
+                  <lpage>13466</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acs.langmuir.5b03778</pub-id>
+                  <?supplied-pmid 26571384?>
+                  <pub-id pub-id-type="pmid">26571384</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boreyko</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>C-H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-propelled dropwise condensate on superhydrophobic surfaces</article-title>
+                  <source>Phys. Rev. Lett.</source>
+                  <year>2009</year>
+                  <volume>103</volume>
+                  <fpage>184501</fpage>
+                  <pub-id pub-id-type="doi">10.1103/PhysRevLett.103.184501</pub-id>
+                  <?supplied-pmid 19905808?>
+                  <pub-id pub-id-type="pmid">19905808</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Removal mechanisms of dew via self-propulsion off the gecko skin</article-title>
+                  <source>J. R. Soc. Interface</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>20141396</fpage>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2014.1396</pub-id>
+                  <?supplied-pmid 25762647?>
+                  <pub-id pub-id-type="pmid">25762647</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>GS</given-names>
+                    </name>
+                    <name>
+                      <surname>Gellender</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Self-propulsion of few drops on lotus leaves: a potential mechanism for self cleaning</article-title>
+                  <source>Biofouling</source>
+                  <year>2014</year>
+                  <volume>30</volume>
+                  <fpage>427</fpage>
+                  <lpage>434</lpage>
+                  <pub-id pub-id-type="doi">10.1080/08927014.2014.880885</pub-id>
+                  <?supplied-pmid 24628521?>
+                  <pub-id pub-id-type="pmid">24628521</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:00:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5688070" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5688070</identifier>
+        <datestamp>2017-11-21</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5688070</article-id>
+              <article-id pub-id-type="pmcid">PMC5688070</article-id>
+              <article-id pub-id-type="pmc-uid">5688070</article-id>
+              <article-id pub-id-type="pmid">29142324</article-id>
+              <article-id pub-id-type="pmid">29142324</article-id>
+              <article-id pub-id-type="publisher-id">15829</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-017-15829-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>An algorithm for the beat-to-beat assessment of cardiac mechanics during sleep on Earth and in microgravity from the seismocardiogram</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Di Rienzo</surname>
+                    <given-names>Marco</given-names>
+                  </name>
+                  <address>
+                    <email>mdirienzo@dongnocchi.it</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vaini</surname>
+                    <given-names>Emanuele</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lombardi</surname>
+                    <given-names>Prospero</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1"/>
+                </contrib>
+                <aff id="Aff1"><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 1090 9021</institution-id><institution-id institution-id-type="GRID">grid.418563.d</institution-id><institution>Dept. of Biomedical Technology, Fondazione Don Carlo Gnocchi, ONLUS, </institution></institution-wrap>Milano, Italy </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>15</day>
+                <month>11</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>15</day>
+                <month>11</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2017</year>
+              </pub-date>
+              <volume>7</volume>
+              <elocation-id>15634</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>26</day>
+                  <month>6</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>2</day>
+                  <month>11</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2017</copyright-statement>
+                <license license-type="OpenAccess">
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Seismocardiogram, SCG, is the measure of precordial vibrations produced by the beating heart, from which cardiac mechanics may be explored on a beat-to-beat basis. We recently collected a large amount of SCG data (&gt;69 recording hours) from an astronaut to investigate cardiac mechanics during sleep aboard the International Space Station and on Earth. SCG sleep recordings are characterized by a prolonged duration and wide heart rate swings, thus a specific algorithm was developed for their analysis. In this article we describe the new algorithm and its performance. The algorithm is composed of three parts: 1) artifacts removal, 2) identification in each SCG waveform of four fiducial points associated with the opening and closure of the aortic and mitral valves, 3) beat-to-beat computation of indexes of cardiac mechanics from the SCG fiducial points. The algorithm was tested on two sleep recordings and yielded the identification of the fiducial points in more than 36,000 beats with a precision, quantified by the Positive Predictive Value, ≥99.2%. These positive findings provide the first evidence that cardiac mechanics may be explored by the automatic analysis of SCG long-lasting recordings, taken out of the laboratory setting, and in presence of significant heart rate modulations.</p>
+              </abstract>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2017</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">The assessment of cardiac mechanics is essential for the full evaluation of the heart performance in clinics and research and is usually achieved by ultrasound techniques. The main advantage of the ultrasound approach refers to the large number of cardiac features that it may quantify; however, the instrumentation is expensive and the measures should be taken by trained operators often in a clinical environment. All these aspects preclude the possibility to use this methodology for the monitoring of cardiac mechanics out of the laboratory setting and in daily life conditions. In those scenarios, a possible solution might be represented by the use of the seismocardiogram (SCG). This signal is the measure of the minute precordial vibrations produced by the beating heart and blood ejection, and indexes of cardiac mechanics may be derived from its analysis<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>.</p>
+              <p id="Par3">SCG is easily detected by placing an accelerometer on the chest, and the measure may be taken also in a daily life environment<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. The heart vibrations generate accelerations in the order of few milli-gs (1 g corresponds to the terrestrial gravitational acceleration, i.e. 9.81 ms<sup>−2</sup>) while the usual body movements result in accelerations 10 or 100 times higher (in the order of 0.1–1 g or more) that may mask the SCG signal when they occur. Thus, during spontaneous behavior SCG may be assessed whenever the subject’s physical activity is reduced (e.g. while sitting at the office desk, driving, standing at the bus stop, during sleep). In a previous study we recorded SCG for 24 hours in 5 healthy volunteers during a standard working day and we observed that the subjects remained spontaneously still, for at least 5 seconds, several tens of times per each hour of the day, thus allowing a frequent SCG assessment during the daily activities<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. As expected, the situation was even better at night during sleep, when the SCG assessment was possible on a beat-to-beat basis for most of the nighttime.</p>
+              <p id="Par4">From the methodological point of view, it should be considered that if the SCG recording is quite simple, the SCG analysis deserves particular attention. Indeed, because of its small amplitude it may be easily affected by artifact and, in addition, SCG morphology may change over time as a function of the respiratory phase and/or posture<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Thus the identification of fiducial points (FPs) in the waveform, needed for the estimation of the indices of cardiac mechanics, might be difficult.</p>
+              <p id="Par5">If the number of SCG waveforms to be analyzed is limited (few minutes), a visual inspection of the signal may be sufficient to identify artifacts and fiducial points. However, this approach is not practicable with long term recordings, when tens of thousands beats should be scrutinized. In those cases an automatic procedure is necessary for the signal analysis, as we recently experienced.</p>
+              <p id="Par6">Indeed, in recent years we had the opportunity to collect SCG data during sleep on ground and aboard the International Space Station, ISS, in the frame of the <italic>Wearable Monitoring</italic> project. More than 260,000 heart beat were recorded and so the automatic analysis was mandatory. It should be also considered that sleep recordings are not only characterized by a prolonged time duration, but also by a consistent and frequent change in the heart rate with bursts of bradycardia and tachycardia occurring in the different sleep stages which may easily span from 40 to 120 beats per minute.</p>
+              <p id="Par7">So far, a number of algorithms have been proposed for the analysis of SCG. They were based on different approaches, including pattern or syntactic analysis<sup><xref ref-type="bibr" rid="CR4">4</xref>–<xref ref-type="bibr" rid="CR7">7</xref></sup>, wavelet<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, and even neural network kernels<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>. However, they were designed and tested for the analysis of relatively short SCG recordings, collected in controlled conditions and with a relatively stable heart rate. Thus, although we cannot exclude that with modifications some of the above algorithms might have met our requirements, we decided to develop an ad-hoc procedure.</p>
+              <p id="Par8">In this article, after preliminary descriptions of the space experiment from which data are derived and of the SCG morphology, we illustrate the details of the developed algorithm with a quantification of its performance.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>The “Wearable Monitoring” Project</title>
+              <p id="Par9">In the period 2014–2015 we had carried out experiments on Earth and aboard the ISS, to gain insight into sleep mechanisms in microgravity as compared with on ground measures. The project, coordinated by Fondazione Don Gnocchi, was named “<italic>Wearable Monitoring</italic>” and was part of the Futura research mission of the Italian Space Agency, ASI<sup><xref ref-type="bibr" rid="CR10">10</xref></sup>.</p>
+              <p id="Par10">The project had two objectives. The first objective, of technological nature, consisted in the development of a new smart garment for the collection of the electrocardiogram (ECG), respiration, skin temperature and SCG, and in its validation during sleep in space.</p>
+              <p id="Par11">The second objective, of biological nature, consisted in the use of the above device to collect data on aspects of sleep physiology in microgravity, including the beat-to-beat behavior of cardiac mechanics.</p>
+              <p id="Par12">The rationale behind the study of cardiac mechanics in space is that the absence of gravity causes a deconditioning of the cardiac function because of the centralization of fluids and the loss of heart muscle mass due to the cardiac unloading induced by the abolition of the blood weight. In turn, experiments in rats evidenced that in unloaded hearts the myocardial cells may reduce their contractility<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. To date the effects of all these factors on the cardiac mechanical function of the astronauts during spaceflights are still largely unexplored<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, and further investigations are advisable for a deeper insight into life in space, for the astronauts’ safety, and, in case, for the development of proper countermeasures.</p>
+              <p id="Par13">Our experiments allowed obtaining for the first time a continuous and prolonged monitoring of the cardiac function in space, and their execution during sleep provided data free from the behavioral interferences of the waking hours.</p>
+              <sec id="Sec3">
+                <title>The device developed for the experiment</title>
+                <p id="Par14">The device developed for the Wearable Monitoring project, MagIC-Space, was derived from a smart garment previously designed in our laboratory for the assessment of ECG, respiration and body motion (the MagIC system<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>). The original device was enhanced to include the additional measure of the SCG and skin temperature, to meet the space qualification requirements and to simplify the experiment setup and execution. MagIC-Space is illustrated in Fig. <xref rid="Fig1" ref-type="fig">1</xref> and is composed of 1) a cotton vest embedding two textile sensors for the ECG measure and one textile plethysmograph for the respiratory assessment; 2) a miniaturized electronic module (the Measurement Unit) for the collection and storage of the signals from the vest sensors; this unit also contains a triaxial MEMS accelerometer (Freescale MMA8451Q, range: from +2 g to −2g, 14-bit) for the SCG detection and a triaxial gyroscope (STMicroelectronics L3GD20) for the measure of the body rotations; 3) a thermometric probe integrated into the vest for the assessment of the thorax skin temperature; and 4) a battery pack, containing two AA 1.5 V Lithium-ion batteries. All signals were sampled at 200 Hz after the anti-aliasing filtering. An example of data collected by the system is shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>.<fig id="Fig1"><label>Figure 1</label><caption><p>Model wearing the MagIC Space device and its components. Inset: detail of the textile sensors embedded in the inner part of the vest.</p></caption><graphic xlink:href="41598_2017_15829_Fig1_HTML" id="d29e289"/></fig>
+<fig id="Fig2"><label>Figure 2</label><caption><p>Example of recorded signals. From top to bottom: ECG, respiration, X,Y and Z accelerometric components, X, Y and Z gyroscopic components. Arrows indicate the accelerometer and gyroscope axes displaying synchronous patterns.</p></caption><graphic xlink:href="41598_2017_15829_Fig2_HTML" id="d29e299"/></fig>
+</p>
+                <p id="Par15">Since all sensors were integrated into the garment, the astronaut had only to put on the system and start the monitoring, without taking care of the sensor positioning and wiring. This strategy led to a marked reduction in the setup time and complexity during the experiment preparation aboard the ISS.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>The experiment</title>
+                <p id="Par16">The Italian crewmember (female, age: 38 years) participating in the ISS Expedition 42–43 was assigned the experiment. Seven inflight sleep recordings were made in the period January-June 2015 at mission days 53, 55, 56, 80, 116, 142 and 192. The experimental protocol was approved by the Ethical Review Board of our Institution and the NASA Institutional Review Board, received the signed informed consent of the astronaut, and all experiments were performed in accordance with relevant guidelines and regulations.</p>
+                <p id="Par17">In each experimental session the astronaut (a) donned the MagIC-Space system and activated the data recording few minutes before going to sleep; (b) free floated for 5 minutes to obtain baseline pre-sleep values; (c) went to sleep; and (d) on the following morning, she stopped the recording at the wake up and transferred data from the Measurement Unit to a laptop aboard the ISS for the data downlink to Earth.</p>
+                <p id="Par18">Two preflight and two postflight reference sleep recordings were also performed on the same subject in Cologne on October 2014 and July 2015.</p>
+                <p id="Par19">Details on the collected data are shown in Table <xref rid="Tab1" ref-type="table">1</xref>. It may be noted that the average sleep length was shorter in space than on Earth. This result is in line with previous observations available in literature<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Details of the collected data.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>In-Flight</th><th>On-Ground</th></tr></thead><tbody><tr><td>No. sleep recordings</td><td>7</td><td>4</td></tr><tr><td>Total recording time</td><td>42 h 21 min</td><td>27 h 34 min</td></tr><tr><td>Average sleep length</td><td>6 h 3 min</td><td>6 h 53 min</td></tr><tr><td>Total no. recorded beats</td><td>166,400</td><td>97,400</td></tr></tbody></table></table-wrap>
+</p>
+              </sec>
+            </sec>
+            <sec id="Sec5">
+              <title>The Seismocardiogram</title>
+              <p id="Par20">As mentioned, the SCG is the measure of the precordial vibrations produced at every heartbeat by the cardiac contraction and relaxation and by the blood ejection from the ventricles into the vascular tree.</p>
+              <p id="Par21">The typical SCG waveform, illustrated in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, is characterized by a number of peaks and troughs. In particular, some of these displacements are associated with the opening and closure of the aortic valve, AO and AC, and the opening and closure of the mitral valve, MO and MC. The correspondence between those SCG FPs and the cardiac events was previously verified by simultaneous measurements with ultrasound techniques<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.<fig id="Fig3"><label>Figure 3</label><caption><p>Typical SCG waveform with indication of the AO, AC, MO and MC fiducial points, and of the timings used for the estimation of the Cardiac Time Intervals. See text for the explanation of acronyms.</p></caption><graphic xlink:href="41598_2017_15829_Fig3_HTML" id="d29e405"/></fig>
+</p>
+              <p id="Par22">Although SCG is a three-dimensional signal<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, only the dorso-ventral component of acceleration (corresponding to the z-axes in our accelerometer, see Fig. <xref rid="Fig2" ref-type="fig">2</xref>) is prevalently considered for its assessment. In our analysis we comply with this traditional approach.</p>
+              <p id="Par23">In the MagIC-Space device, the accelerometer was contained in the Measurement Unit and when the garment was worn this unit was kept in contact with the subject’s sternum by elastic straps (see Fig. <xref rid="Fig1" ref-type="fig">1</xref>). This arrangement guaranteed the SCG measure.</p>
+              <sec id="Sec6">
+                <title>Feature extraction: indexes of cardiac mechanics</title>
+                <p id="Par24">As illustrated in Fig. <xref rid="Fig3" ref-type="fig">3</xref>, from the R and Q peaks in the ECG and the AO, AC, MO and MC fiducial points in the SCG waveform we may estimate the RR interval, RRI (i.e. the time interval between consecutive R peaks) and the Cardiac Time Intervals, CTIs, considered as indexes of cardiac mechanical function and defined as follows:<list list-type="bullet"><list-item><p id="Par25">Pre Ejection Period (PEP) = the time delay from the Q wave in the ECG to the AO fiducial point in the SCG;</p></list-item><list-item><p id="Par26">Isovolumic Contraction Time (ICT) = the time delay from MC to AO;</p></list-item><list-item><p id="Par27">Left Ventricular Ejection Time (LVET) = the time delay from AO to AC;</p></list-item><list-item><p id="Par28">Isovolumic Relaxation Time (IRT) = the time delay from AC to MO.</p></list-item></list>
+</p>
+                <p id="Par29">From the above parameters additional indexes may be derived, such as the PEP/LVET ratio, the TEI index, also termed Myocardial Performance Index (MPI), defined as (ICT + IRT)/LVET, and the LVET/RRI ratio.</p>
+                <p id="Par30">PEP, ICT, LVET and the PEP/LVET ratio are indexes of heart contractility; IRT is an index of heart relaxation<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>;TEI index quantifies myocardial performance<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, LVET/RRI quantifies the proportion between systolic and diastolic phases of the cardiac cycle, being this proportion another index of cardiac function.</p>
+              </sec>
+            </sec>
+            <sec id="Sec7">
+              <title>The Algorithm For The SCG Analysis</title>
+              <p id="Par31">The algorithm may be subdivided into three phases:<list list-type="order"><list-item><p id="Par32">Data segmentation and artifact removal</p></list-item><list-item><p id="Par33">SCG fiducial point extraction</p></list-item><list-item><p id="Par34">Congruency check &amp; CTI Estimation</p></list-item></list>
+</p>
+              <p id="Par35">Obviously, we may obtain correct CTI values only from a good performance of the algorithm in detecting the AO, AC, MO and MC fiducial points. Given the large number of available heart beats, the algorithm was designed to maximize its precision, i.e. its ability to correctly identify true FPs, even at the cost of false negatives.</p>
+              <p id="Par36">The algorithm makes use of both ECG and SCG signals. As schematized in Fig. <xref rid="Fig4" ref-type="fig">4</xref>, for each recording ECG and SCG were pre-processed before feeding the algorithm. In particular, the ECG trace was manually edited from artifacts by a proprietary software previously developed (the average ECG artifact rate was &lt;0.5%), while the SCG signal was filtered by a forward-reverse application of a band pass Butterworth filter (5–40 Hz) to remove baseline drifts and noise.<fig id="Fig4"><label>Figure 4</label><caption><p>Scheme of the whole signal processing and of the algorithm phases.</p></caption><graphic xlink:href="41598_2017_15829_Fig4_HTML" id="d29e495"/></fig>
+</p>
+              <p id="Par37">In the following description, the subscript “<sub><italic>Rdelay</italic></sub>” indicates the time delay of a given FP or event with respect to the ECG R peak, e.g. AO<sub><italic>Rdelay</italic></sub> means the time delay of AO from the corresponding R peak. All abbreviations used in the algorithm description are summarized in Table <xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab2"><label>Table 2</label><caption><p>List of abbreviations used in the algorithm description. The superscript <sup>i</sup> indicates the current beat, <sup>i+1</sup> the first next beat and <sup>i+2</sup> the second next beat.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>AC = Closure of the aortic valve (fiducial point)</th></tr></thead><tbody><tr><td>AC<sub><italic>Rdelay</italic></sub> = <italic>Time position of AC with respect to the R peak (in ms)</italic>
+</td></tr><tr><td>AFP<sub><italic>Rdelay</italic></sub> = Average FP<sub><italic>Rdelay</italic></sub> estimated in the 5 beats preceding or following the current beat</td></tr><tr><td>AO = Opening of the aortic valve (fiducial point)</td></tr><tr><td>MC = Closure of the mitral valve (fiducial point)</td></tr><tr><td>MO = Opening of the mitral valve (fiducial point)</td></tr><tr><td><italic>CFTP</italic> = <italic>Coarse FP Time Position: FP timing with a 5</italic> 
+<italic>ms precision (in ms)</italic>
+</td></tr><tr><td>D = D1 + D2</td></tr><tr><td>D1 = Distance (in amplitude) between IRP and the adjacent left minimum (in mg), see Fig. <xref rid="Fig5" ref-type="fig">5</xref> panel c</td></tr><tr><td>D2 = Distance (in amplitude) between IRP and the adjacent right minimum (in mg), see Fig. <xref rid="Fig5" ref-type="fig">5</xref> panel c</td></tr><tr><td>FP = Fiducial Point (either AC, AO, MC or MO)</td></tr><tr><td>FP<sub><italic>Rdelay</italic></sub> = <italic>Time position of the generic FP with respect to the R peak (in ms)</italic>
+</td></tr><tr><td><italic>HRFTP</italic> = <italic>HiRes FP Time Position: FP timing with 1</italic> 
+<italic>ms precision (in ms)</italic>
+</td></tr><tr><td>ICP = Isovolumic Contraction Point (anchor point used for detection of MC and AO)</td></tr><tr><td>|ICP<sub>d</sub>| = Absolute value of the ICP distance from the 0 g baseline (in mg)</td></tr><tr><td><italic>ICP</italic><sub><italic>Rdelay</italic></sub> = <italic>Time position of ICP with respect to the R peak (in ms)</italic>
+</td></tr><tr><td><italic>ICP</italic><sub><italic>Rdelay</italic></sub><sup><italic>ref</italic></sup> = <italic>ICP</italic>
+<sub><italic>Rdelay</italic></sub>
+<italic>observed in the closest valid beat (the reference)</italic>.</td></tr><tr><td>IRP = Isovolumic Relaxation Point (anchor point in S2 used for detection of AC and MO)</td></tr><tr><td><italic>IRP</italic><sub><italic>Rdelay</italic></sub> = <italic>Time position of IRP with respect to the R peak (in ms)</italic>
+</td></tr><tr><td><italic>IRP</italic><sub><italic>Rdelay</italic></sub><sup><italic>ref</italic></sup> = <italic>IRP</italic>
+<sub><italic>Rdelay</italic></sub>
+<italic>observed in the closest valid beat among the last 20 beats (the reference)</italic>.</td></tr><tr><td><italic>RRI</italic> = <italic>RR Interval (in ms)</italic>
+</td></tr><tr><td>S1 = Peak in the SCG envelope corresponding to the first heart sound</td></tr><tr><td>S1<sub>si</sub> = 50 ms SCG segment starting after 25 ms from the R peak where ICP, MC and AO are searched for</td></tr><tr><td>S2 = Peak in the SCG envelope corresponding to the second heart sound</td></tr><tr><td>S2<sub>si</sub> = 60 ms SCG segment centered on Te where IRP, AC and MO are searched for</td></tr><tr><td>Te = End of T wave</td></tr><tr><td><italic>Te</italic><sub><italic>Rdelay</italic></sub> = <italic>Time position of Te with respect to the R peak (in ms)</italic>
+</td></tr></tbody></table></table-wrap>
+</p>
+              <sec id="Sec8">
+                <title>Phase 1–Data segmentation and artifact removal</title>
+                <p id="Par38">Goal of this phase was to split each recording into individual heart beats and identify and remove both gross artifacts caused by marked body movements and smaller artifacts due to smooth bumps, small movements, shifts between clothes layers, etc.</p>
+                <p id="Par39">In detail<list list-type="order"><list-item><p id="Par40">In each valid ECG complex the position of the R peak was identified and stored.</p></list-item><list-item><p id="Par41">On the basis of the R peak timing, the ECG and the SCG were then split into individual heart beats. We considered as a heart beat a signal segment starting from −200 ms from the relevant R peak till −200 ms from the following R peak (see Fig. <xref rid="Fig3" ref-type="fig">3</xref>). The −200 ms offset was adopted to include in the beat also the corresponding ECG P wave, although this information was not considered in the present study.</p></list-item><list-item><p id="Par42">Gross artifacts were identified by checking the SCG amplitude and variance within each heart beat. Beats with the maximal peak to peak amplitude greater than 50 mg or a variance greater than 28 mg<sup>2</sup> were excluded from the subsequent analyses. Those threshold values were empirically derived from the analysis of a sample of beats randomly extracted from all recordings.</p></list-item><list-item><p id="Par43">Smaller artifacts were identified in the remaining beats by computing the envelope of the SCG. The envelope was obtained by calculating the absolute value of the SCG signal and then filtering the output by a 31-sample FIR filter with a triangular window. As shown in Fig. <xref rid="Fig5" ref-type="fig">5(a)</xref> the typical envelope curve is characterized by two main peaks, S1 and S2, corresponding to the first and second heart sound.<fig id="Fig5"><label>Figure 5</label><caption><p>Scheme of FP identification. Panel a: ECG with the indication of the Te point, SCG with its envelope curve and indication of the S1 and S2 areas, MC, AO, AC and MO fiducial points, ICP and IRP anchor points and definition of the IRP<sub>Rdelay</sub> used for the AC and MO identification. Inset b: definition of the threshold points used for the estimation of MC and AO in the S1<sub>si</sub> window. Inset c: definition of the D1 and D2 distances used for the scoring of the peaks in the S2<sub>si</sub> window for the identification of the IRP anchor point used for the localization of AC and MO.</p></caption><graphic xlink:href="41598_2017_15829_Fig5_HTML" id="d29e834"/></fig>
+</p></list-item></list>
+</p>
+                <p id="Par44">We considered as normal the beats in which the envelope amplitude of S1 was higher than that of S2 <bold>AND</bold> + 10 ms ≤S1<sub>Rdelay</sub> ≤ +160 ms <bold>AND</bold> +300 ms ≤ S2<sub>Rdelay</sub> ≤ +480 ms.</p>
+                <p id="Par45">Beats not satisfying all the above three criteria were considered as artifacts and discarded from the subsequent analyses.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Phase 2- SCG Feature extraction</title>
+                <p id="Par46">Goal of this phase was to identify in each beat the FPs associated with the opening and closure of the aortic and mitral valves. The search for each FP was done in two steps. In the first step we localized the interval where the FP should have been searched for. This was done by identifying two anchor points in the SCG waveform, the Isovolumic Contraction Point, ICP, to estimate MC and AO, and the Isovolumic Relaxation Point, IRP, to estimate AC and MO (see Fig. <xref rid="Fig5" ref-type="fig">5</xref>). In the second step, the FP was finally localized by a pattern analysis starting from the relevant anchor point. This policy was adopted since we observed that the selected anchor points are the clearer displacements within the SCG waveform. As their names suggest, they correspond to the SCG vibrations produced during the isovolumic contraction and the isovolumic relaxation phases of the heart cycle, respectively. Concerning the ICP and IRP localization it should be pointed out that while the relative position of ICP with respect to the R peak is mostly independent from the heart rate, this is not the case for the IRP position which, on the contrary, is largely influenced by changes in the beat length. This aspect was taken into account in the design of the algorithm.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>MC And AO Identification</title>
+                <p id="Par47">In the SCG signal under the S1 envelope peak we localized a search interval, S1<sub>si</sub>, starting and ending 25 and 75 ms after the R peak respectively. The ICP was the deepest minimum within S1<sub>si</sub> that satisfies the following condition: |ICP<sub><italic>Rdelay</italic></sub> − ICP<sub><italic>Rdelay</italic></sub>
+<sup>ref</sup> |≤ +30 ms, being ICP<sub><italic>Rdelay</italic></sub>
+<sup>ref</sup> the ICP<sub><italic>Rdelay</italic></sub> observed in the last valid beat before the current beat and taken as a “reference”. That is, the ICP was accepted if it occurred within a given delay from the R peak <bold>and</bold> if this delay was sufficiently close to that observed in the previous reference beat.</p>
+                <p id="Par48">In the beats were the ICP was identified, the AO fiducial point was assumed to be the first peak following the ICP within 50 ms and with a distance (in amplitude) from ICP greater or equal to 0.7*|ICP<sub><italic>d</italic></sub>|, being ICP<sub><italic>d</italic></sub> the ICP peak amplitude (see Fig. <xref rid="Fig5" ref-type="fig">5(b)</xref>). This threshold was set in order to exclude spurious peaks occasionally occurring in proximity of the anchor point. The MC fiducial point was assumed to be the first peak preceding the ICP within 50 ms and satisfying the same amplitude rule of AO.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>AC And MO Identification</title>
+                <p id="Par49">For the localization of the IRP anchor point and then of the AC and MO FPs, we identified, under the S2 envelope peak, a SCG search interval S2<sub>si</sub> defined as the 60 ms SCG segment centered on the end of the ECG T wave (Te). Te was determined through the procedure proposed in<sup><xref ref-type="bibr" rid="CR18">18</xref></sup>. This strategy simplified the search for IRP even in presence of important changes in the cardiac rhythm. Indeed, while Te<sub>Rdelay</sub> may change as a function of the cardiac interval, in healthy subjects IRP remains quite close to Te.</p>
+                <p id="Par50">IRP was the highest peak in S2<sub>si</sub> which met two criteria. The first criterium verifies that the IRP peak be sufficiently pronounced, the second criterium verifies that IRP<sub>Rdelay</sub> be congruent with the IRP<sub>Rdelay</sub> in the adjacent beats.</p>
+                <p id="Par51">In detail:</p>
+                <sec id="Sec12">
+                  <title>First criterium</title>
+                  <p id="Par52">Being D the sum of the two distances, D1 and D2 between the IRP peak and the adjacent left and right minima (see Fig. <xref rid="Fig5" ref-type="fig">5(c)</xref>), we verified that D ≥ 7 mg.</p>
+                </sec>
+                <sec id="Sec13">
+                  <title>Second criterium</title>
+                  <p id="Par53">In case at least one of the 20 beats preceding the current beat contained a valid IRP, the IRP<sub>Rdelay</sub> of the valid beat closest to the current beat was taken as reference, IRP<sub><italic>Rdelay</italic></sub>
+<sup><italic>ref</italic></sup>, and we verified that<disp-formula id="Equ1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|{{\rm{IRP}}}_{Rdelay}-{{{\rm{IRP}}}_{Rdelay}}^{ref}|\le 20\,{\rm{ms}}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>20</mml:mn><mml:mspace width="0.15em"/><mml:mi mathvariant="normal">ms</mml:mi></mml:math><graphic xlink:href="41598_2017_15829_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>
+</p>
+                  <p id="Par54">In case no reference beat was available among the previous 20, e.g. because of a sequence of artifacts, we checked the congruency of the current beat vs. the subsequent two beats, provide the IRP could be estimated in those beats and their RR intervals was “relatively” stable, i.e.<disp-formula id="Equ2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|{{\rm{RRI}}}^{i}-{{\rm{RRI}}}^{i+1}|\le 100\,{\rm{ms}}\,{\boldsymbol{AND}}\,|{{{\rm{IRP}}}_{Rdelay}}^{i}-{{{\rm{IRP}}}_{Rdelay}}^{i+1}|\le 20\,{\rm{ms}}\,{\boldsymbol{AND}}$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">RRI</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msup><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="normal">RRI</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>100</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi><mml:mspace width=".25em"/><mml:mi mathvariant="bold-italic">AND</mml:mi><mml:mspace width="0.15em"/><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mi>i</mml:mi></mml:msup><mml:mo>−</mml:mo><mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>20</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi><mml:mspace width=".25em"/><mml:mi mathvariant="bold-italic">AND</mml:mi></mml:math><graphic xlink:href="41598_2017_15829_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>
+<disp-formula id="Equ3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|{{\rm{RRI}}}^{i+1}-{{\rm{RRI}}}^{i+2}|\le 100\,{\rm{ms}}\,{\boldsymbol{AND}}\,|{{{\rm{IRP}}}_{Rdelay}}^{i+1}-{{{\rm{IRP}}}_{Rdelay}}^{i+2}|\le 20\,{\rm{ms}}$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">RRI</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="normal">RRI</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mi>2</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>100</mml:mn><mml:mspace width="0.15em"/><mml:mi mathvariant="normal">ms</mml:mi><mml:mspace width="0.25em"/><mml:mi mathvariant="bold-italic">AND</mml:mi><mml:mspace width="0.15em"/><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>−</mml:mo><mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>l</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>20</mml:mn><mml:mspace width="0.15em"/><mml:mi mathvariant="normal">ms</mml:mi></mml:math><graphic xlink:href="41598_2017_15829_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>
+</p>
+                  <p id="Par55">If the IRP anchor point was identified, because both the above two criteria were met, AC was the first peak preceding IRP if<disp-formula id="Equ4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,{\rm{ms}}\le |{{\rm{IRP}}}_{{Rdelay}}-{{\rm{AC}}}_{{\rm{Rdelay}}}|\le 40\,{\rm{ms}}$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mn>10</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi><mml:mo>≤</mml:mo><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">Rdelay</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">AC</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Rdelay</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>40</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi></mml:math><graphic xlink:href="41598_2017_15829_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>and MO was the next trough following IRP if<disp-formula id="Equ5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,{\rm{ms}}\le |{{\rm{MO}}}_{{\rm{Rdelay}}}-{{\rm{IRP}}}_{{Rdelay}}|\le 30\,{\rm{ms}}$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:mn>10</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi><mml:mo>≤</mml:mo><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">MO</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Rdelay</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">IRP</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">Rdelay</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mo>≤</mml:mo><mml:mn>30</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">ms</mml:mi></mml:math><graphic xlink:href="41598_2017_15829_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>
+</p>
+                  <p id="Par56">Sometimes a variant to the FP identifications described above was applied. As shown in Fig. <xref rid="Fig6" ref-type="fig">6</xref>, AO, AC and MC do not always appear as clear peaks and MO as a clear valley. In about 6% of the analyzed beats, we observed an inflection point in the area where the target peak or valley was expected (on the basis of the FP position detected in the previous beats) and in those cases the inflection point was taken as marker of the FP. In the past we already observed this phenomenon in different subjects during experimental laboratory recordings. One example of the correspondence between MC inflection point and the real closure of the mitral valve is shown in Fig. <xref rid="Fig7" ref-type="fig">7</xref>. Data refers to a simultaneous SCG and M-mode ultrasound measure in a healthy volunteer. Although the origin of this phenomenon is still unexplored, we speculate that it might depend on a transient slight physiological de-synchronization between left and right heart mechanics.<fig id="Fig6"><label>Figure 6</label><caption><p>Panel a: Examples of beats in which the MC, AO, AC and MC fiducial points are characterized by the expected clear-cut peaks (for MC, AO and AC) or trough (for MO). Panel b: other beats in which the FPs are marked only by an inflection point.</p></caption><graphic xlink:href="41598_2017_15829_Fig6_HTML" id="d29e1359"/></fig>
+<fig id="Fig7"><label>Figure 7</label><caption><p>Example of SCG inflection point corresponding to the mitral valve closure. M-mode ultrasoung image from a healthy subject.</p></caption><graphic xlink:href="41598_2017_15829_Fig7_HTML" id="d29e1369"/></fig>
+</p>
+                </sec>
+              </sec>
+              <sec id="Sec14">
+                <title>Improvement of FPs Time Resolution</title>
+                <p id="Par57">At this stage of the procedure, the time position of each detected FP was identified with a 5 ms resolution (the original signal was sampled at 200 Hz). Let’s term this time “Coarse FP Time Position”, CFTP. We further refined the FP estimate by obtaining a “HiRes FP Time Position”, HRFTP, with the resolution of 1 ms. The Nyquist–Shannon sampling theorem guarantees that this was possible because the signal is bandlimited to 40 Hz and sampled at 200 Hz, thus the interpolation can accurately reconstruct the signal and determine the actual locations of the FPs at a higher resolution. As schematized in Fig. <xref rid="Fig8" ref-type="fig">8</xref>, for each FP we considered a 101-sample window centered on its CFTP, then we interpolated the data window by the sync function, re-sampled the interpolating function at 1 kHz and repeated the FP estimation on the hi-res samples in a 10 ms window centered on the CFTP.</p>
+                <p id="Par58">A clarification: although only the 10 ms windows was used to refine the FP time location, the sync function was applied on the larger 101 sample window to minimize possible edge effects on the interpolated curve in the target interval.</p>
+                <p id="Par59">The hi-res time of occurrence of valid AO, AC, MO and MC fiducial points were stored for the subsequent analysis.</p>
+              </sec>
+              <sec id="Sec15">
+                <title>Phase 3–Congruency check and CTI estimation</title>
+                <p id="Par60">In order to detect and eliminate possible residual outliers in the identified FPs, two additional congruency checks were made. The first directly on the FPs and the second on the derived CTIs.</p>
+                <p id="Par61">As to the first check, each FP<sub>Rdelay</sub> was compared with the average FP<sub>Rdelay</sub>, AFP<sub>Rdelay</sub> computed over the preceding 5 beats. In absence of at least one preceding valid value, the current FP<sub>Rdelay</sub> was compared with the AFP<sub>Rdelay</sub> computed over the subsequent 5 beats. The FP was accepted if the difference between the FP<sub>Rdelay</sub> of the current beat and AFP<sub>Rdelay</sub> was lower or equal to 10 ms for MC and AO and 20 ms for AC and MO.</p>
+                <p id="Par62">Then, from the beat-to-beat series of RRI, AO, AC, MO and MC, the CTIs were computed as indicated in section 3.</p>
+                <p id="Par63">Finally, the second congruency check was done on the derived CTIs. In this case we verified that the difference between each CTI (PEP, ICT, LVET and IRT) and the average value of the same CTI observed in the preceding, or following 5 beats, analogously to the first check, was lower or equal to 10 ms for PEP and 20 ms for the remaining indexes. In case a CTI exceeded this limit, the FPs which concurred to its estimation were descarted (e.g. in case a given LVET exceeded the thresholds, the same LVET and the corresponding AO and AC fiducial points used for its estimation were discarded from the final data series).</p>
+              </sec>
+            </sec>
+            <sec id="Sec16">
+              <title>Statistical evaluation of algorithm performance</title>
+              <p id="Par64">As mentioned, the main aspect of the procedure to be verified was the algorithm ability to correctly identify true FPs, namely, its precision. This quantity is statistically estimated by the Positive Predictive Value, PPV, defined as TPos/(TPos + FPos), where TPos are True Positives and FPos are False Positives<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. PPV may range from 0 to 1 (or 0%-100% when expressed in percent) and was estimated as follows.<list list-type="bullet"><list-item><p id="Par65">One inflight and one on-ground recording were randomly selected from the whole dataset and analyzed by the algorithm.</p></list-item><list-item><p id="Par66">In each recording, for any given FP.</p></list-item></list>
+<list list-type="bullet"><list-item><p id="Par67">A sample of beats in which the FP was identified by the algorithm was randomly selected; the sample size was of 2783 beats for the inflight data and 2346 beats for the on-ground data, corresponding to 10% of the valid beats in the respective recording. On the basis of the simulation on a million trials described in the Supplementary Material online, it resulted that those sample sizes lead to a possible max error in the PPV estimation of 1.1%.</p></list-item><list-item><p id="Par68">The TRUE or FALSE correctness in the FP localization was checked by an operator who compared the SCG waveform with the traditional template proposed by Crow and colleagues<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>.</p></list-item><list-item><p id="Par69">From the TRUE Positives and the FALSE Positives the PPV index was computed.</p></list-item></list>
+</p>
+              <p id="Par70">As shown in Table <xref rid="Tab3" ref-type="table">3</xref>, PPV is extremely high (&gt;99%) in both the recordings. The minimum was observed for the MO identification on on-ground data (99.2%), indicating, however, a misclassification in only 0.8% of the samples.<table-wrap id="Tab3"><label>Table 3</label><caption><p>PPV values, in percent, for each fiducial point analyzed by the algorithm, separately reported for the inflight and on-ground recording considered for the test.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>In-Flight</th><th>On-Ground</th></tr></thead><tbody><tr><td>Events</td><td>PPV</td><td>PPV</td></tr><tr><td>MC</td><td>99.9</td><td>99.9</td></tr><tr><td>AO</td><td>100</td><td>99.9</td></tr><tr><td>AC</td><td>99.9</td><td>99.4</td></tr><tr><td>MO</td><td>99.6</td><td>99.2</td></tr></tbody></table></table-wrap>
+</p>
+              <p id="Par71">These positive figures confirm the ability of the algorithm to identify the FPs and make trustable the value of their incidence shown in the next section.</p>
+            </sec>
+            <sec id="Sec17">
+              <title>Signal quality and fiducial points incidence</title>
+              <p id="Par72">The signal quality (defined as 100 minus the artifacts rate in percent) and the rate of the four FPs derived from the analysis of the two recordings are shown in Table <xref rid="Tab4" ref-type="table">4</xref>.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Signal quality and rate of estimation of the SCG fiducial points in the the inflight and on-ground recording considered for the test. The signal quality is expressed as percent of artifact-free beats with respect to the total number of available beats. The rate of estimation of the fiducial points is expressed in percent of the artifact-free beats.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>In-Flight</th><th>On-Ground</th></tr></thead><tbody><tr><td>SCG quality (artifact-free beats)</td><td>98.2</td><td>91.0</td></tr><tr><td colspan="3"><bold><italic>SCG fiducial points</italic></bold></td></tr><tr><td>MC</td><td>94.3</td><td>99.0</td></tr><tr><td>AO</td><td>99.7</td><td>96.7</td></tr><tr><td>AC</td><td>92.5</td><td>77.7</td></tr><tr><td>MO</td><td>96.6</td><td>72.9</td></tr><tr><td>All 4 fiducial points</td><td>85.1 (23,258 beats)</td><td>64.2 (13,716 beats)</td></tr></tbody></table></table-wrap>
+</p>
+              <p id="Par73">From the table it appears that the SCG quality remained quite high in space (98.2%) with a reduction to 91% on-ground. This reduced quality on Earth was mainly due to artifacts caused by the changes in the body position occurring during sleep because of the contact with the bed. Conversely, in space the astronaut sleeps inside a sleeping bag that is only loosely tied to the ISS structure, thus the body fluctuates with a consequent drastic reduction in the artifacts rate.</p>
+              <p id="Par74">Table <xref rid="Tab4" ref-type="table">4</xref> also reports the estimation rate for each of the four SCG fiducial points. It is apparent that each FP could be estimated in more than 92% of the beats occurring in the in-flight recordings. The rate is lower for the closure of the aortic valve and the opening of the mitral valve recorded on Earth (77.6% and 72.9%, respectively). This finding may be explained by considering the negative effects of possible residual sub-threshold artifacts still caused by the changes in the body position on ground, which may corrupt the SCG profile and limit the FP identification.</p>
+              <p id="Par75">The rate of beats in which all the four FP were estimated was again higher in space than on ground (85% vs. 64%). However, it should be noted that these rates indicate that all the four FPs were present in more than 23,000 beats in space, and more than 13,000 beats on ground, a quantity more than sufficient for a detailed estimation of cardiac mechanics during sleep in microgravity and at 1 g.</p>
+              <p id="Par76">As an example of the algorithm output, a 45-min segment of beat-to-beat RRI and CTIs derived from the first in-flight sleep recording is shown in Fig. <xref rid="Fig9" ref-type="fig">9</xref>. This is the first representation of the beat-to-beat variability of indexes of cardiac mechanics during sleep either on ground and in microgravity. The analysis of the CTIs dynamics estimated from the Wearable Monitoring data is currently in progress. The description of results and their interpretation will be subject of a separate article.<fig id="Fig8"><label>Figure 8</label><caption><p>Schematization of the signal interpolation and re-sampling for the 1-ms resolution assessment of FPs. In this representation the FP considered is AO. Panel a: the entire SCG waveform. Panel b: detail of the data window used for the interpolation. Panel c: the small data window used for the hi-res localization of AO, the larger circles represent the original low resolution samples and the smaller circles the final high resolution samples, CFTP = Coarse FP Time Position, HRFTP = Hi-Res FP Time Position.</p></caption><graphic xlink:href="41598_2017_15829_Fig8_HTML" id="d29e1646"/></fig>
+<fig id="Fig9"><label>Figure 9</label><caption><p>A 45-min segment of beat-to-beat RRI and indexes of cardiac mechanics excerpted from the first sleep recording made aboard the ISS.</p></caption><graphic xlink:href="41598_2017_15829_Fig9_HTML" id="d29e1656"/></fig>
+</p>
+            </sec>
+            <sec id="Sec18" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par77">We recently had the opportunity to collect a large amount of SCG and ECG data during sleep in space and on Earth as part of an experimental campaign organized by the Italian Space Agency.</p>
+              <p id="Par78">SCG has never been investigated during sleep neither on Earth. Handling SCG sleep recordings implies the analysis of a large number of beats and the frequent and marked variations of cardiac rhythm that characterize the different sleep stages. During sleep physical activity is minimized and thus SCG and the derived indexes of cardiac mechanics may be estimated on a beat-to-beat basis for most of the sleep duration. This means that sleep is also a unique opportunity to investigate short and long term features of cardiac mechanics variability</p>
+              <p id="Par79">No algorithm is currently available for the processing of the SCG sleep recordings, thus our software represents the first procedure specifically designed for this scenario. The algorithm we developed was composed of three parts. In the first, artifacts were identified and removed on the basis of the signal amplitude and variance, and of the envelope morphology; in the second part the FPs were identified on the basis of a pattern analysis; in the third part, the indexes of cardiac mechanics were derived from the FPs. From the methodological perspective, the algorithm includes elements of novelty never adopted in the past: 1) the use of the T wave for the detection of the AC and MO fiducial points; 2) the interpolation-upsampling procedure, providing the FPs time localization with 1ms resolution from a signal sampled at 200 Hz (this approach allows a significant reduction in the memory allocation with respect to a 1 kHz sampling of the entire signal); 3) the inclusion of the inflection points as possible markers of FPs.</p>
+              <p id="Par80">The evaluation of the algorithm precision led to an extremely good score with PPV values ≥99.2%. This positive result also depends on the fact that the algorithm was designed to maximize the true positives, as indicated in section 4.</p>
+              <p id="Par81">The application of the algorithm to the experimental data provided us with the automatic identification of all four FPs in more than 23,000 beats in the space recording and 13,000 beats in the on-ground recording, a task impossible to have been achieved by manual procedures.</p>
+              <p id="Par82">It should be mentioned that the algorithm includes several threshold tests and most of the threshold values were set empirically, on the basis of our past experience in working with the SCG signal. We believe that in a future refinement of the algorithm a finer tuning of these thresholds is possible, with a further enhancement of the algorithm performance. Another possible future enhancement of the algorithm may derive from the use of the gyroscope. In the MagIC-Space device we included a gyroscope aside the accelerometer to detect major body rotations. When we looked at the collected data, however, we realized that the gyroscope was able to detect also small body rotations associated to the heart activity. This aspect is illustrated in Fig. <xref rid="Fig2" ref-type="fig">2</xref> where simultaneous SCG and gyroscope data (indicated by the arrows) are shown. It is apparent a synchronization between the systolic phase of the SCG and a specific pattern in the y axis (roll) of the gyroscope indicating a micro-rotation around the longitudinal (head-foot) axis in phase with the heart contraction. A first investigation of the relationship between SCG and gyroscope signals recently appeared in<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. Yet, from the methodological perspective, the above pattern in the gyroscope data might also be exploited as an additional anchor point for the identification of the MC and AO points in the SCG tracings.</p>
+              <p id="Par83">Finally, a note on the algorithm portability. Although our procedure was focused on the astronaut, it is conceivable that it might be used also for the analysis of data from other subjects, after the change of some parameters to adapt it to possible individual differences in the SCG morphology. In the opposite direction, it may be also hypothesized that the procedure was so tightly tailored on the SCG waveform of the astronaut to preclude its adaptation to any other subject with reasonable efforts. Thus, without the presumption to address this issue at large, we carried out an ancillary analysis aimed at checking on whether a tuned version of the algorithm might be obtained by the only change of threshold values and might be used to analyze data of subjects different from the astronaut. Details of the analysis are reported in the part II of the Supplementary Material on line. In short, two additional sleep recordings were taken from two healthy volunteers, and an effective tuning of the algorithm was obtained by the change of two threshold values of the algorithm in one subject and three values in the other subject. The adapted procedures yielded FPs identifications characterized by elevated precision, with PPV always &gt;99%.</p>
+              <p id="Par84">These findings clearly demonstrate that the algorithm may be tuned for the analysis of data from other subjects without requiring any structural change. The extent of the algorithm portability to a larger population and to selected subgroups of subjects (classified by gender, age, body mass index, health status, etc.) remains to be investigated in a future study.</p>
+            </sec>
+            <sec id="Sec19" sec-type="conclusion">
+              <title><bold>C</bold>onclusions</title>
+              <p id="Par85">The possibility to investigate cardiac mechanics through the SCG analysis open interesting perspectives in terms of understanding of the cardiovascular function in daily life and in extreme environmental conditions such as in microgravity. Thus an appropriate analysis of the SCG signal is essential. The positive results we obtained by the performance evaluation of the new algorithm, provide evidence, for the first time, that an automatic detection of the four SCG fiducial points associated with the opening and closure of aortic and mitral valves (from which indexes of cardiac mechanics may be derived) is feasible in long lasting recordings, taken out of the laboratory setting, and even in presence of wide heart rate swings. In addition, the positive results obtained by the ancillary analysis provides a first positive support to the algorithm portability, although its bounds should be further evaluated.</p>
+              <sec id="Sec20">
+                <title>Data Availability</title>
+                <p id="Par86">The astronaut datasets analysed during the current study is not publicly available according to the Data Privacy and Confidentiality rules of the NASA Institutional Review Board. The remaining datasets are available from the corresponding author on reasonable request.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Electronic supplementary material</title>
+              <sec id="Sec21">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2017_15829_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Material</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Electronic supplementary material</bold>
+                </p>
+                <p><bold>Supplementary information</bold> accompanies this paper at 10.1038/s41598-017-15829-0.</p>
+              </fn>
+              <fn>
+                <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This work was funded by the Agenzia Spaziale Italiana through the grants ASI2013-061-I.0 and ASI2013-079-R.0.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author Contributions</title>
+              <p>M.D.R., E.V. and P.L. equally contributed to the algorithm design and validation, and to the manuscript preparation.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <sec id="FPar1">
+                <title>Competing Interests</title>
+                <p id="Par87">The authors declare that they have no competing interests.</p>
+              </sec>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Inan</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ballistocardiography and Seismocardiography: A Review of Recent Advances</article-title>
+                  <source>J. Biomed. Health Inform.</source>
+                  <year>2015</year>
+                  <volume>19</volume>
+                  <issue>4</issue>
+                  <fpage>1414</fpage>
+                  <lpage>1427</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JBHI.2014.2361732</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Di Rienzo, M., Meriggi, P., Vaini, E., Castiglioni, P. &amp; Rizzo, F. <italic>24h Seismocardiogram Monitoring In Ambulant Subjects</italic>. In: Proc Conf IEEE EMBS, San Diego, 2012, 5050-5053 (IEEE Press, 2012).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di Rienzo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Wearable seismocardiography: towards a beat-to-beat assessment of cardiac mechanics in ambulant subjects</article-title>
+                  <source>Auton. Neurosci.</source>
+                  <year>2013</year>
+                  <volume>178</volume>
+                  <fpage>50</fpage>
+                  <lpage>59</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.autneu.2013.04.005</pub-id>
+                  <?supplied-pmid 23664242?>
+                  <pub-id pub-id-type="pmid">23664242</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Giorgis</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optimal algorithm switching for the estimation of systole period from cardiac microacceleration signals (SonR)</article-title>
+                  <source>IEEE Trans. Biomed. Eng.</source>
+                  <year>2012</year>
+                  <volume>59</volume>
+                  <issue>11</issue>
+                  <fpage>3009</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TBME.2012.2212019</pub-id>
+                  <?supplied-pmid 22893366?>
+                  <pub-id pub-id-type="pmid">22893366</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Khosrow-Khavar, F., Tavakolian, K., Blaber, A. &amp; Menon, C. Automatic and Robust Delineation of the Fiducial Points of the Seismocardiogram Signal for Non-invasive Estimation of Cardiac Time Intervals. <italic>IEEE Trans. Biomed. Eng</italic>. Oct 12, (2016) [Epub ahead of print].</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">Javaid, A. Q. <italic>et al</italic>. Quantifying and Reducing Motion Artifacts in Wearable Seismocardiogram Measurements during Walking to Assess Left Ventricular Health. <italic>IEEE Trans. Biomed. Eng</italic>. Aug 16. (2016) [Epub ahead of print].</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Shafiq, G., Tatinati, S., Ang, W. T. &amp; Veluvolu, K. C. Automatic Identification of Systolic Time Intervals in Seismocardiogram. <italic>Sci Rep</italic>. <italic>6</italic>, 37524, 10.1038/srep37524 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sandham</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamilton</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Fisher</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Conway</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mulriresolution Wavelet Decomposition of the Seismocardiogram</article-title>
+                  <source>IEEE Trans. Sig. Proc.</source>
+                  <year>1998</year>
+                  <volume>46</volume>
+                  <fpage>2541</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="doi">10.1109/78.709542</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <mixed-citation publication-type="other">Poliac, M. O., Zanetti, J., Salerno, D. &amp; Wilcox, G. L. Seismocardiogram (SCG) interpretation using neural network. In <italic>Proc. IEEE Symp on The Engineering of Computer-Based Medical Systems</italic> 288–295 Computer Society Press (1998).</mixed-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Di Rienzo, M., Vaini, E. &amp; Lombardi, P. Wearable Monitoring: a Project for the Unobtrusive Investigation of Sleep Physiology Aboard the International Space Station. In: Proc. Computing in Cardiology 2015; 42, 125–128 (2015).</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ito</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Contractile Reserve and Calcium Regulation Are Depressed in Myocytes From Chronically Unloaded Hearts</article-title>
+                  <source>Circulation.</source>
+                  <year>2003</year>
+                  <volume>107</volume>
+                  <fpage>1176</fpage>
+                  <lpage>1182</lpage>
+                  <pub-id pub-id-type="doi">10.1161/01.CIR.0000051463.72137.96</pub-id>
+                  <?supplied-pmid 12615798?>
+                  <pub-id pub-id-type="pmid">12615798</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aubert</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Towards human exploration of space: the THESEUS review series on cardiovascular, respiratory, and renal research priorities</article-title>
+                  <source>Nature PJ Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>16031</fpage>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.31</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Di Rienzo, M. <italic>et al</italic>. MagIC System: a New Textile-Based Wearable Device for Biological Signal Monitoring. Applicability in Daily Life and Clinical Setting. In: Proc. IEEE EMB Conference 2005, Shanghai. 7167–7169, IEEE Press. (2005).</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elliot</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microgravity reduces sleep-disordered breathing in humans</article-title>
+                  <source>Am. J. Resp. Crit. Care Med.</source>
+                  <year>2001</year>
+                  <volume>164</volume>
+                  <fpage>478</fpage>
+                  <lpage>485</lpage>
+                  <pub-id pub-id-type="doi">10.1164/ajrccm.164.3.2010081</pub-id>
+                  <pub-id pub-id-type="pmid">11500354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crow</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Hannan</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Jacobs</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Hadquist</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Salerno</surname>
+                      <given-names>DM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Relationship between Seismocardiogram and Echocardiogram for Events in Cardiac Cycle</article-title>
+                  <source>Am. J. Noninvasive Cardiology</source>
+                  <year>1994</year>
+                  <volume>8</volume>
+                  <fpage>39</fpage>
+                  <lpage>46</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000470156</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marcus</surname>
+                      <given-names>FI</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Accelerometer-Derived Time Intervals during Various Pacing Modes in Patients with Biventricular Pacemakers: Comparison with Normals</article-title>
+                  <source>PACE</source>
+                  <year>2007</year>
+                  <volume>30</volume>
+                  <fpage>1476</fpage>
+                  <lpage>81</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1540-8159.2007.00894.x</pub-id>
+                  <?supplied-pmid 18070301?>
+                  <pub-id pub-id-type="pmid">18070301</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bruch</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Tei-Index in patients with mild-to-moderate congestive heart failure</article-title>
+                  <source>Eur Heart J</source>
+                  <year>2000</year>
+                  <volume>21</volume>
+                  <fpage>1888</fpage>
+                  <lpage>1895</lpage>
+                  <pub-id pub-id-type="doi">10.1053/euhj.2000.2246</pub-id>
+                  <?supplied-pmid 11052862?>
+                  <pub-id pub-id-type="pmid">11052862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laguna</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>New algorithm for QT interval analysis in 24-hour Holter ECG: performance and applications</article-title>
+                  <source>Med. Biol. Eng. Comput.</source>
+                  <year>1990</year>
+                  <volume>28</volume>
+                  <issue>1</issue>
+                  <fpage>67</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02441680</pub-id>
+                  <?supplied-pmid 2325452?>
+                  <pub-id pub-id-type="pmid">2325452</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Pepe M. S. The statistical evaluation of medical tests for classification and prediction. Oxford University Press (2003).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Jafari Tadi, M. <italic>et al</italic>. Gyrocardiography: A New Non-invasive Monitoring Method for the Assessment of Cardiac Mechanics and the Estimation of Hemodynamic Variables. <italic>Sci Rep</italic><bold>7</bold>(1), 6823, doi:10.1038/s41598-017-07248-y (2017).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

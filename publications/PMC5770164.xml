@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:59:47Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5770164" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5770164</identifier>
+        <datestamp>2018-01-18</datestamp>
+        <setSpec>sciadv</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Adv</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id>
+              <journal-id journal-id-type="publisher-id">SciAdv</journal-id>
+              <journal-id journal-id-type="hwp">advances</journal-id>
+              <journal-title-group>
+                <journal-title>Science Advances</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2375-2548</issn>
+              <publisher>
+                <publisher-name>American Association for the Advancement of Science</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5770164</article-id>
+              <article-id pub-id-type="pmcid">PMC5770164</article-id>
+              <article-id pub-id-type="pmc-uid">5770164</article-id>
+              <article-id pub-id-type="pmid">29349297</article-id>
+              <article-id pub-id-type="publisher-id">aao3521</article-id>
+              <article-id pub-id-type="doi">10.1126/sciadv.aao3521</article-id>
+              <article-categories>
+                <subj-group subj-group-type="article-type">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Articles</subject>
+                </subj-group>
+                <subj-group subj-group-type="legacy-article-type">
+                  <subject>SciAdv r-articles</subject>
+                </subj-group>
+                <subj-group subj-group-type="field">
+                  <subject>Geochemistry</subject>
+                </subj-group>
+                <subj-group subj-group-type="overline">
+                  <subject>Geochemistry</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Organic matter in extraterrestrial water-bearing salt crystals</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chan</surname>
+                    <given-names>Queenie H. S.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7205-8699</contrib-id>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">*</xref>
+                  <xref ref-type="author-notes" rid="afn1">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zolensky</surname>
+                    <given-names>Michael E.</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3181-1303</contrib-id>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kebukawa</surname>
+                    <given-names>Yoko</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8430-3612</contrib-id>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fries</surname>
+                    <given-names>Marc</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ito</surname>
+                    <given-names>Motoo</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5686-0243</contrib-id>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Steele</surname>
+                    <given-names>Andrew</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9643-2841</contrib-id>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rahman</surname>
+                    <given-names>Zia</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4923-767X</contrib-id>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nakato</surname>
+                    <given-names>Aiko</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kilcoyne</surname>
+                    <given-names>A. L. David</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8805-8690</contrib-id>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Suga</surname>
+                    <given-names>Hiroki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Takahashi</surname>
+                    <given-names>Yoshio</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7860-2341</contrib-id>
+                  <xref ref-type="aff" rid="aff9">
+                    <sup>9</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Takeichi</surname>
+                    <given-names>Yasuo</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3334-0274</contrib-id>
+                  <xref ref-type="aff" rid="aff10">
+                    <sup>10</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff11">
+                    <sup>11</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mase</surname>
+                    <given-names>Kazuhiko</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3613-0021</contrib-id>
+                  <xref ref-type="aff" rid="aff10">
+                    <sup>10</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff11">
+                    <sup>11</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Astromaterials Research and Exploration Science, NASA Johnson Space Center, Houston, TX 77058, USA.</aff>
+                <aff id="aff2"><label>2</label>Faculty of Engineering, Yokohama National University, 79-5 Tokiwadai, Hodogayaku, Yokohama 240-8501, Japan.</aff>
+                <aff id="aff3"><label>3</label>Kochi Institute for Core Sample Research, Japan Agency for Marine-Earth Science and Technology, 200 Monobe Otsu, Nankoku, Kochi 783-8502, Japan.</aff>
+                <aff id="aff4"><label>4</label>Geophysical Laboratory, Carnegie Institution of Washington, 5251 Broad Branch Road, Washington, DC 20015, USA.</aff>
+                <aff id="aff5"><label>5</label>Jacobs, NASA Johnson Space Center, Houston, TX 77058, USA.</aff>
+                <aff id="aff6"><label>6</label>Graduate School of Science, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan.</aff>
+                <aff id="aff7"><label>7</label>Advanced Light Source, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA.</aff>
+                <aff id="aff8"><label>8</label>Department of Earth and Planetary Systems Science, Hiroshima University, Kagamiyama, Higashi-Hiroshima, Hiroshima 739-8526, Japan.</aff>
+                <aff id="aff9"><label>9</label>Department of Earth and Planetary Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo 113-0033, Japan.</aff>
+                <aff id="aff10"><label>10</label>Institute of Materials Structure Science, High-Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.</aff>
+                <aff id="aff11"><label>11</label>Department of Materials Structure Science, The Graduate University for Advanced Studies (SOKENDAI), 1-1 Oho, Tsukuba 305-0801, Japan.</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>*</label>Corresponding author. Email: <email xlink:href="queenie.chan@open.ac.uk">queenie.chan@open.ac.uk</email></corresp>
+                <fn id="afn1" fn-type="present-address">
+                  <label>†</label>
+                  <p>Present address: Department of Physical Sciences, The Open University, Walton Hall, Milton Keynes MK7 6AA, UK.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2018</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>10</day>
+                <month>1</month>
+                <year>2018</year>
+              </pub-date>
+              <volume>4</volume>
+              <issue>1</issue>
+              <elocation-id>eaao3521</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>11</day>
+                  <month>7</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>08</day>
+                  <month>12</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2018 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <copyright-holder>The Authors</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/" id="p-2">
+                  <license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <abstract abstract-type="teaser">
+                <p>Abundant organic compounds were detected in brine-bearing halite crystals from a hydrovolcanically active asteroid.</p>
+              </abstract>
+              <abstract>
+                <p>Direct evidence of complex prebiotic chemistry from a water-rich world in the outer solar system is provided by the 4.5-billion-year-old halite crystals hosted in the Zag and Monahans (1998) meteorites. This study offers the first comprehensive organic analysis of the soluble and insoluble organic compounds found in the millimeter-sized halite crystals containing brine inclusions and sheds light on the nature and activity of aqueous fluids on a primitive parent body. Associated with these trapped brines are organic compounds exhibiting wide chemical variations representing organic precursors, intermediates, and reaction products that make up life’s precursor molecules such as amino acids. The organic compounds also contain a mixture of C-, O-, and N-bearing macromolecular carbon materials exhibiting a wide range of structural order, as well as aromatic, ketone, imine, and/or imidazole compounds. The enrichment in <sup>15</sup>N is comparable to the organic matter in pristine Renazzo-type carbonaceous chondrites, which reflects the sources of interstellar <sup>15</sup>N, such as ammonia and amino acids. The amino acid content of the Zag halite deviates from the meteorite matrix, supporting an exogenic origin of the halite, and therefore, the Zag meteorite contains organics synthesized on two distinct parent bodies. Our study suggests that the asteroidal parent body where the halite precipitated, potentially asteroid 1 Ceres, shows evidence for a complex combination of biologically and prebiologically relevant molecules.</p>
+              </abstract>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/501100001691</institution-id>
+                      <institution>Japan Society for the Promotion of Science</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338748</award-id>
+                  <award-id>26287142</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/501100001691</institution-id>
+                      <institution>Japan Society for the Promotion of Science</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338749</award-id>
+                  <award-id>JP15K17794</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="doi">http://dx.doi.org/10.13039/501100006321</institution-id>
+                      <institution>National Institutes of Natural Sciences</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338750</award-id>
+                  <award-id>AB261011, AB271007</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>NASA</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338751</award-id>
+                  <award-id>NASA Postdoctoral Fellowship</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>NASA</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338753</award-id>
+                  <award-id>Cosmochemistry Program</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>The Mitsubishi Foundation</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award364103</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Director of the Office of Science, Department of Energy</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award364104</award-id>
+                  <award-id>DE-AC02-05CH11231</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Astrobiology Center of National Institutes of Natural Sciences</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award338752</award-id>
+                  <award-id>AB271015, AB281004</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Shimadzu Science Foundation</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award364101</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution>Astrobiology Center Program of National Institutes of Natural Sciences</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>award364102</award-id>
+                  <award-id>AB261011, AB271007</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>Copyeditor</meta-name>
+                  <meta-value>Rochelle Abragante</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="introduction" disp-level="1">
+              <title>INTRODUCTION</title>
+              <p>The study of the chemical and organic compositions of ancient [4.5 billion years old (<xref rid="R1" ref-type="bibr"><italic>1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic>3</italic></xref>)] salt crystals in the Monahans and Zag ordinary chondrites provides key information about the raw materials present in the early solar system and clues for how solar system dynamics could have facilitated organic redistribution among various solar system bodies. Direct samples of early solar system fluids are present in these two ordinary chondrite regolith breccias [Monahans (1998) (H5), hereafter referred to as “Monahans,” and Zag (H3-6)], which were found to contain brine-bearing halite (NaCl) and sylvite (KCl) crystals (hereafter collectively called “halite”) that have been added to the regolith of an S-type asteroid following the latter’s thermal metamorphism (<xref ref-type="fig" rid="F1">Fig. 1</xref>) (<xref rid="R1" ref-type="bibr"><italic>1</italic></xref>, <xref rid="R4" ref-type="bibr"><italic>4</italic></xref>). Halite’s typical association with water as an evaporite mineral underscores its importance from the origin and detection of life perspective, in terms of the development of life via offering crystalline surfaces as adsorption sites for catalytic synthesis, concentration, polymerization, and organization of prebiotic molecules (<xref rid="R5" ref-type="bibr"><italic>5</italic></xref>). Furthermore, inclusions in halite crystals raise the possibility of trapping life and/or biomolecules from the evaporating aqueous phase (<xref rid="R6" ref-type="bibr"><italic>6</italic></xref>). The brine solutions in Zag and Monahans halite are samples of exogenous liquid water that record primitive aqueous processes on early planetesimals, and the halite hosts of the brines retain clues to the location and timing of the aqueous alteration event and capture an inventory of associated organic species.</p>
+              <fig id="F1" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 1</label>
+                <caption>
+                  <title>Zag/Monahans meteorites and their halite crystals.</title>
+                  <p>(<bold>A</bold>) Diagram showing the lithologies of the Zag and Monahans meteorites, their dark (carbonaceous) clasts, the halite crystals, and the fluid and solid inclusions within the halite crystals. (<bold>B</bold>) Halite crystals hosted in the matrix regions of the Zag meteorite. The arrow marks one of the several halite crystals shown in this photo. (<bold>C</bold>) A microphotograph showing a halite crystal subsampled from the Zag meteorite. (<bold>D</bold>) Halite crystals subsampled from the Zag meteorite contained in a pre-sterilized glass ampoule before hot-water extraction.</p>
+                </caption>
+                <graphic xlink:href="aao3521-F1"/>
+              </fig>
+              <p>Alongside the 1- to 10-μm-sized fluid inclusions in the halite are solid inclusions that comprise organic solids (<xref rid="R7" ref-type="bibr"><italic>7</italic></xref>) and mineral components that are almost identical to the reported mineralogy of the Ceres regolith, having an affinity to the Mighei-type (CM)/Ivuna-type (CI) chondrites (<xref ref-type="fig" rid="F1">Fig. 1</xref>) (<xref rid="R8" ref-type="bibr"><italic>8</italic></xref>). Furthermore, interpretation of the Dawn mission data for Ceres also suggests the presence of a mixture of chloride salts and water ice (<xref rid="R9" ref-type="bibr"><italic>9</italic></xref>). Ceres is a C-type asteroid located in the middle main asteroid belt [semimajor axis (<italic>a</italic>) = 2.767 astronomical units (AU), inclination (<italic>i</italic>) = 9.73°, eccentricity (<italic>e</italic>) = 0.097] (<xref rid="R10" ref-type="bibr"><italic>10</italic></xref>). Asteroid 6 Hebe, a proposed parent body of H chondrites, is located in the inner asteroid belt (<italic>a</italic> = 2.426 AU, <italic>i</italic> = 14.8°, <italic>e</italic> = 0.203) close to the 3:l motion resonance with Jupiter at 2.50 AU (<xref rid="R11" ref-type="bibr"><italic>11</italic></xref>), and similarities between the orbits of Hebe and Ceres permit exchange of material between these bodies today and possibly in the past (<xref rid="R12" ref-type="bibr"><italic>12</italic></xref>). Solar system dynamics elucidate large-scale mixing of C- and S-type asteroidal bodies and facilitated material exchanges between different asteroidal bodies in the early solar system (<xref rid="R13" ref-type="bibr"><italic>13</italic></xref>). Continuous dynamics influenced by a smaller-scale Yarkovsky-O’Keefe-Radzievskii-Paddack (YORP) effect (<xref rid="R14" ref-type="bibr"><italic>14</italic></xref>, <xref rid="R15" ref-type="bibr"><italic>15</italic></xref>) permitted further fragmentation of smaller materials to ultimately deliver H chondrites to Earth.</p>
+              <p>Halite easily dissolves under humid conditions; hence, only the Monahans and Zag meteorite fragments that were carefully kept in desiccated environments, such as under dry nitrogen in a laboratory, have preserved abundant blue/purple halite crystals (<xref ref-type="fig" rid="F1">Fig. 1</xref>). The abundance of surviving halite in Monahans and Zag suggests that the S-type asteroid was mostly anhydrous after the capture of the halite crystals, which is supported by the paucity of hydrous mineral phases in H chondrites (<xref rid="R4" ref-type="bibr"><italic>4</italic></xref>, <xref rid="R16" ref-type="bibr"><italic>16</italic></xref>). The host lithologies are H3-6, suggesting significant thermal metamorphism up to 700°C. However, the presence of aqueous fluid inclusions indicates that the halite was formed and maintained at low temperatures (25° to 50°C) during its entire lifetime or else the fluids would have escaped from the halite (<xref rid="R1" ref-type="bibr"><italic>1</italic></xref>), and thus, thermal metamorphism on the S-type asteroid ceased before the capture of the halite crystals. These halite crystals are the only available direct samples of a hydrovolcanically active, C-type asteroid, which previous studies have proposed to be asteroid 1 Ceres (<xref rid="R7" ref-type="bibr"><italic>7</italic></xref>, <xref rid="R12" ref-type="bibr"><italic>12</italic></xref>). Because the S-type asteroid was unaltered and unheated after the deposition of halite, it preserves a mixture of organic material produced by distinctive synthetic processes on both asteroidal bodies. With the use of two-step laser desorption/laser ionization mass spectrometry (L<sup>2</sup>MS), Raman spectroscopy, scanning transmission x-ray microscopy (STXM) using x-ray absorption near-edge structure (XANES) spectroscopy, nanoscale secondary ion mass spectrometry (NanoSIMS), and ultra-performance liquid chromatography fluorescence detection and quadrupole time-of-flight hybrid mass spectrometry (UPLC-FD/QToF-MS) techniques, we analyzed the compositions of the organic solids and the amino acid content of millimeter-sized halite crystals hosted in the Monahans and Zag meteorites (&lt;1 volume % of the meteorite) in detail.</p>
+            </sec>
+            <sec disp-level="1">
+              <title>RESULTS AND DISCUSSION</title>
+              <p>A Zag halite crystal was pressed flat onto annealed high-purity gold foils and analyzed with the μ-L<sup>2</sup>MS instrument located at NASA’s Johnson Space Center (JSC), which was optimized to detect aromatic/conjugated organic molecules at the micrometer scale and the subattomole level (1 amol = 10<sup>−18</sup> mol) (<xref rid="R17" ref-type="bibr"><italic>17</italic></xref>). The μ-L<sup>2</sup>MS uses separate laser sources to nonthermally desorb molecules from the sample surface as neutral species and to “soft”-ionize selective compounds. Energy in excess of that needed for ionization is transferred to the kinetic energy of the liberated photoelectron, thereby allowing us to detect intact positive molecular ions with virtually no fragmentation (<xref rid="R18" ref-type="bibr"><italic>18</italic></xref>). Ionization with ~10-eV photons covers essentially all organic compounds because their first ionization potentials lie in the range of 5 to 10 eV. The μ-L<sup>2</sup>MS spectra show signatures of low-mass C<sub>5</sub> to C<sub>10</sub> hydrocarbons at around 70 to 200 atomic mass units (amu; <xref ref-type="fig" rid="F2">Fig. 2</xref>). Each molecular ion in the μ-L<sup>2</sup>MS spectra can indicate the presence of different isomers or any molecules with the same molecular mass; hence, proper interpretation of the μ-L<sup>2</sup>MS spectra relies on the elucidation of perceivable structural patterns indicating functionalities. The sequence of peaks separated by 14 amu in the range of 70 to 140 amu due to successive addition of methylene (CH<sub>2</sub>) groups indicates alkylated derivatives (<xref rid="R19" ref-type="bibr"><italic>19</italic></xref>), suggesting the presence of monounsaturated alkenes. The high signal intensity at 112 amu suggests the presence of octene and other compounds, whereas chlorobenzene is a probable candidate, which can be formed by the reaction of oxidants (for example, Cl<sub>2</sub>, SO<sub>2</sub>) or brine with benzene. The low abundance of benzene (78 amu) indicates their consumption via chemical reactions to form larger polyaromatic hydrocarbons (PAHs), such as chlorobenzene, naphthalene (128 amu), acenaphthene (154 amu), and fluorene (166 amu). The presence of SO<sub>2</sub> (64 amu) is accompanied by a lower abundance of SO (48 amu; <xref ref-type="fig" rid="F2">Fig. 2</xref>), suggesting a significant proportion of sulfur-containing material on the C-type asteroid. Both volatile sulfur and graphitized carbon were shown to be present on Ceres (<xref rid="R20" ref-type="bibr"><italic>20</italic></xref>). The reaction of sulfur with benzene can produce diphenyl sulfide (186 amu) via synthesis at elevated or low temperatures with the presence of aluminum chloride as catalyst (<xref rid="R21" ref-type="bibr"><italic>21</italic></xref>). Zag halite organics are composed predominantly of smaller molecules with an absence of larger PAHs that are common in chondritic material [for example, phenanthrene (178 amu) and pyrene (202 amu)] (<xref rid="R22" ref-type="bibr"><italic>22</italic></xref>, <xref rid="R23" ref-type="bibr"><italic>23</italic></xref>).</p>
+              <fig id="F2" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 2</label>
+                <caption>
+                  <title>μ-L<sup>2</sup>MS spectra of the Zag halite.</title>
+                  <p>The <italic>y</italic> axis of the spectrum is normalized to the largest peak for the range shown, representing a 36-shot average of the μ-L<sup>2</sup>MS spectra. The chemical structures of the potential organic species are shown in orange (PAHs), blue (alkenes), and red (other lower-mass molecules). The low-mass organics are composed of derivatives and volatile species such as SO<sub>2</sub> (64 amu) and <sup>34</sup>SO<sub>2</sub> (66 amu) and its fragment SO at a lower abundance (48 amu). The spectrum is dominated by low-mass C<sub>5</sub>–C<sub>10</sub> hydrocarbons, such as alkenes (as shown by sequence of peaks separated by 14 amu), and PAHs/heterocycles, such as triazine (81 amu), chlorobenzene (112 amu), chloroaniline (127 amu), naphthalene (128 amu), acenaphthene (154 amu), and fluorene (166 amu). The potential assignments of N-bearing compounds such as triazine and chloroaniline account for the odd-mass peaks.</p>
+                </caption>
+                <graphic xlink:href="aao3521-F2"/>
+              </fig>
+              <p>We directly compared the insoluble organic contents of Zag halite, their solid inclusions, and an associated, carbonaceous, halite-bearing clast in Zag (<xref rid="R24" ref-type="bibr"><italic>24</italic></xref>) using Raman spectroscopy. Raman spectra collected on the dark clast in the Zag meteorite show peaks around the ~1350 to 1600 cm<sup>−1</sup> spectral region, which are typical of the first-order defect (D) and graphite (G) bands of carbonaceous materials (<xref ref-type="fig" rid="F3">Fig. 3A</xref>). Properties of the Raman bands describe the thermally induced crystalline ordering of macromolecular carbon (MMC) (<xref rid="R25" ref-type="bibr"><italic>25</italic></xref>–<xref rid="R27" ref-type="bibr"><italic>27</italic></xref>). We used a two-Gaussian peak-fitting model to decompose the peaks so that the results can be comparable to the published data (<xref rid="R28" ref-type="bibr"><italic>28</italic></xref>).</p>
+              <fig id="F3" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 3</label>
+                <caption>
+                  <title>Raman spectra and peak parameters of the halites and matrix in Zag and Monahans.</title>
+                  <p>(<bold>A</bold>) Representative Raman spectra (100 to 2300 cm<sup>−1</sup> region) of the carbonaceous, halite-bearing clast (pink line) and halite grain (black line) of the Zag meteorite. The 100 to 300 cm<sup>−1</sup> region of the plot has been expanded for clarity. Vertical lines mark the location of the typical Raman peaks of halite (135 and 204 cm<sup>−1</sup>), carbonate (around 1088 cm<sup>−1</sup>), and D and G bands (around 1373 and 1587 cm<sup>−1</sup>). (<bold>B</bold>) Raman G band spectral parameters of Zag matrix, Monahans halite residues, and carbonaceous chondrite–hosted MMC. Several residue grains were collected from the same grain of Monahans halite, and their Raman spectra parameters were expressed as individual points (yellow symbols). The black icons indicate a trend of MMC crystalline ordering in carbonaceous chondrites, from relatively poorly ordered CI chondrites to polycrystalline CV3 MMC. One grain of Monahans halite residue constitutes a single instance of MMC with affinity to CV3 chondrites (pink circle). Most MMC inclusions exhibit structural ordering similar to CI-CR-CM-CO chondrites (cyan circle), but one grain lies on a trendline between crystalline graphite and the main group. Thermal metamorphism does not drive ordering directly to graphite from disordered carbon, and spectra in this region are best explained as disordering of crystalline graphite, perhaps by shock. Overall, Monahans halite–hosted MMC is generally similar to CI-CR-CM-CO chondrites with minor input from CV3-like MMC and graphitic material that has been partially disordered. Error bars represent 1σ. arb. units, arbitrary units; FWHM, full width at half maximum.</p>
+                </caption>
+                <graphic xlink:href="aao3521-F3"/>
+              </fig>
+              <p>We performed high-resolution Raman imaging on selected Monahans halite residues using a WITec α-scanning near-field optical microscope (SNOM), which has been customized to incorporate confocal Raman spectroscopy imaging. Although the Raman spectra of the halite crystals are featureless in the first-order spectral region, spectra of abundant micrometer-sized solid inclusions revealed that they consist largely of highly variable organic matter (OM) that includes a mixture of poorly ordered MMC and graphitic carbon. The Monahans MMC shows variability, indicating a complex formation and alteration history (<xref ref-type="fig" rid="F3">Fig. 3B</xref>). Spectra collected from the Monahans halite show multiple populations of MMC. One subset (<xref ref-type="fig" rid="F3">Fig. 3B</xref>, pink circle) shows an affinity with type 3 Vigarano-type (CV3)–like MMC. Other MMC inclusions in the halite residues and Zag matrix (cyan circles) exhibit structural similarity with carbon from CI, Renazzo-type (CR), CM, and/or Ornans-type (CO) chondrites. Several points lie along a line trending between crystalline graphite (<xref ref-type="fig" rid="F3">Fig. 3B</xref>, lower left) and the other MMC that is best explained by partial amorphization of crystalline graphite, probably by shock (<xref rid="R28" ref-type="bibr"><italic>28</italic></xref>). The Monahans halite incorporates MMC with a varied and complex formation and alteration history. Raman analysis of Monahans halites also revealed two instances of chloromethane dissolved in the halite matrix adjacent to the MMC inclusions (<xref rid="R29" ref-type="bibr"><italic>29</italic></xref>), probably generated by evolution of methane from the MMC via ultraviolet (UV) photolysis (<xref rid="R30" ref-type="bibr"><italic>30</italic></xref>) coupled with halogenation and partial dissolution in the halite.</p>
+              <p>We further analyzed the solid inclusions in halites by dissolving a 2-mm Monahans halite crystal in deionized water and concentrating the residues by filtering the solution through a 1-μm mesh filter membrane. We subsampled the halite residues by the focused ion beam (FIB) technique. Preliminary data from the ~100-nm-thick FIB sections obtained by transmission electron microcopy revealed that these grains include MMC similar in structure to CV3 chondrite matrix carbon, aliphatic carbon compounds, olivine of widely varying composition (Fo<sub>99-59</sub>), high- and low-Ca pyroxene, feldspars, phyllosilicates (mainly saponite), magnetite, sulfides, metal, lepidocrocite (rust), carbonates, diamond, apatite, and zeolites (<xref rid="R7" ref-type="bibr"><italic>7</italic></xref>). We further analyzed newly prepared FIB sections by STXM-XANES to locate C-rich areas and investigate the chemical structure of the carbonaceous material. <xref ref-type="fig" rid="F4">Figure 4A</xref> shows an STXM image of the FIB section. C-rich areas were observed in the corresponding carbon map (<xref ref-type="fig" rid="F4">Fig. 4B</xref>). On the basis of the method provided by Cody <italic>et al.</italic> (<xref rid="R31" ref-type="bibr"><italic>31</italic></xref>), the atomic N/C ratio of the C-rich material is 0.076 ± 0.004, which lies between that of the insoluble OM (IOM) in primitive CI, CR, and CM chondrites (~0.04) (<xref rid="R32" ref-type="bibr"><italic>32</italic></xref>) and organic cometary samples from the Stardust collection (~0.1) (<xref rid="R31" ref-type="bibr"><italic>31</italic></xref>). The C-XANES spectrum of the C-rich areas (<xref ref-type="fig" rid="F4">Fig. 4C</xref>) showed a peak at 285.0 eV (aromatic carbon) and 286.6 eV [ketone (C=O)], but the aliphatic feature was not present (at ~287.3 to 288.1 eV; <xref ref-type="fig" rid="F4">Fig. 4D</xref>). N-XANES (<xref ref-type="fig" rid="F4">Fig. 4E</xref>) showed a small peak at 398.7 eV [imine (C=N)] and 400.3 eV (protonated imine and/or imidazole). The C-XANES of the residue is dominated by aromatic structures with a feature indicating O-bearing functional groups, which is comparable to the IOM in typical primitive chondrites (CM/CI/CR) (<xref rid="R33" ref-type="bibr"><italic>33</italic></xref>). There is no 1s-σ* exciton peak (at 291.7 eV) that is indicative of the development of a graphene structure (<xref rid="R34" ref-type="bibr"><italic>34</italic></xref>), which suggests that most of the OM did not experience temperatures higher than ~200°C, and significant graphitization did not take place. An observation that marries well with the Raman data is shown in <xref ref-type="fig" rid="F3">Fig. 3</xref>. Furthermore, some (but not all) organic nanoglobules found in the Murchison meteorite and cometary (Comet Wild 2) particles are known to be dominated by aromatic structure, but the ketone (C=O) feature at 286.6 eV is less prominent in these materials when compared to the halite residues (<xref rid="R33" ref-type="bibr"><italic>33</italic></xref>). Hence, the organic structure can be explained by a significant abundance of bridging ketones, which indicates a highly primitive nature for the halite residue organics. The wide range of organic features picked up by Raman spectroscopy and STXM-XANES suggest that the organics hosted in the halites are compositionally diverse.</p>
+              <fig id="F4" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 4</label>
+                <caption>
+                  <title>STXM-XANES of the residue from halite in Monahans.</title>
+                  <p>(<bold>A</bold>) STXM single energy image at 390 eV refracting atomic density. Black indicates areas of higher density. (<bold>B</bold>) Carbon map obtained by taking the −log(<italic>I</italic><sub>289</sub>/<italic>I</italic><sub>280</sub>) below (280 eV: <italic>I</italic><sub>280</sub>) and on (289 eV: <italic>I</italic><sub>289</sub>) the carbon K-edge. White indicates areas rich in carbon. (<bold>C</bold>) Spectral composed map. Red, organic area; green, inorganic area; and blue, blank (for example, holes). C-XANES spectra used to compose the red, green, and blue map are shown in fig. S3. (<bold>D</bold>) C-XANES spectrum of organic areas [red areas in (C)] on the FIB section. Peak #1: 285.0 eV, 1s-π* of aromatic C. Peak #2: 286.6 eV, 1s-π* of ketone (C=O). C-XANES of Monahans meteorite matrix is also shown as thin line for comparison. (<bold>E</bold>) N-XANES spectrum of organic areas [red areas in (C)]. Peak #3: 398.7 eV, 1s-π* of imine (C=N). Peak #4: 400.3 eV, 1s-π* of C=N in imidazole and/or protonated imine. N-XANES of Monahans meteorite matrix is also shown as a thin line for comparison. The peak assignments of C,N-XANES are based on previous studies (<xref rid="R31" ref-type="bibr"><italic>31</italic></xref>, <xref rid="R66" ref-type="bibr"><italic>66</italic></xref>, <xref rid="R67" ref-type="bibr"><italic>67</italic></xref>).</p>
+                </caption>
+                <graphic xlink:href="aao3521-F4"/>
+              </fig>
+              <p>We used the isotopic compositions of the halite residues in Monahans to interpret the synthetic origin of the halite organic residue. We took isotopic images for C, N, H, and O with the Japan Agency for Marine-Earth Science and Technology (JAMSTEC) NanoSIMS 50L ion microprobe at a spatial resolution of 100 nm (C, O, and N isotopes) and 200 nm (H isotopes; <xref ref-type="fig" rid="F5">Fig. 5</xref>), and the isotopic ratios are listed in <xref ref-type="table" rid="T1">Table 1</xref>. NanoSIMS elemental images are shown in <xref ref-type="fig" rid="F5">Fig. 5</xref> (B, C, E, and F), and the O isotopic ratios are plotted on an oxygen three-isotope diagram (<xref ref-type="fig" rid="F5">Fig. 5I</xref>). The NanoSIMS C elemental map shares similar features with the STXM-XANES data. The C-rich area (<xref ref-type="fig" rid="F5">Fig. 5B</xref>) is depleted in <sup>13</sup>C[δ<sup>13</sup>C = −37.6 per mil (‰)] and moderately enriched in <sup>15</sup>N (δ<sup>15</sup>N = +164.5‰). These isotopic characteristics are broadly consistent with those of the IOM in unweathered CR chondrites and unequilibrated meteorites (<xref rid="R32" ref-type="bibr"><italic>32</italic></xref>), which show typical enrichments in <sup>15</sup>N that likely reflect sources of interstellar <sup>15</sup>N such as ammonia (<xref rid="R35" ref-type="bibr"><italic>35</italic></xref>) and not terrestrial contamination. High δ<sup>15</sup>N values suggest the presence of organic N compounds such as hydrocarbons and amino acids that are hosts to heavy N (for example, δ<sup>15</sup>N of polar hydrocarbons = +102‰ and δ<sup>15</sup>N of amino acids = +94‰) (<xref rid="R36" ref-type="bibr"><italic>36</italic></xref>). The δD in the C-rich area shows a terrestrial value (+42.5 ± 54.3‰). The low δD values contrast with the high δD values of chondritic IOM [for example, ~600 to 1000‰ in CIs and CMs and ~3000‰ in CRs (<xref rid="R32" ref-type="bibr"><italic>32</italic></xref>)]. The water on C-type parent bodies is typically D-poor (<xref rid="R37" ref-type="bibr"><italic>37</italic></xref>); therefore, the OM synthesized in and/or processed by the D-poor water on Ceres would also be D-depleted. Assuming that Ceres had a larger water fraction than CI/CM, the associated OM would have low δD values provided that the time was sufficient for D/H exchange between OM and the D-poor water during a prolonged aqueous event. Alternatively, the low δD values might have been contributed by terrestrial water incorporated during the extraction of the halite residues in the laboratory. However, because halites rapidly dissolve in water, the organic residues were only in contact with the water for a few seconds; thus, this contamination is unlikely.</p>
+              <fig id="F5" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 5</label>
+                <caption>
+                  <title>Isotopic compositions of the Monahans halite residue.</title>
+                  <p>(<bold>A</bold>) SE image. (<bold>B</bold>) NanoSIMS elemental image. Red, C; green, N; blue, O. Field of view = 10 μm<sup>2</sup>. The C-rich area (red) is well correlated with the organic area shown by STXM (red area in <xref ref-type="fig" rid="F4">Fig. 4C</xref>). The green N-rich material appears to be a contaminant because it can also be found outside the FIB section. (<bold>C</bold>) H. (<bold>D</bold>) Isotope image of δD. (<bold>E</bold>) <sup>12</sup>C. (<bold>F</bold>) <sup>12</sup>C<sup>14</sup>N – N is detected as the molecular CN<sup>−</sup> ion due to the lower yield of N<sup>−</sup> compared to CN<sup>−</sup> under the Cs<sup>+</sup> beam. Isotope images of the C-rich region (<bold>G</bold>) δ<sup>13</sup>C and (<bold>H</bold>) δ<sup>15</sup>N. Scale bar, 3 μm. (<bold>I</bold>) O three-isotope diagram comparing the oxygen isotopic compositions of the halite residue to that of other solar system materials. YR, Young and Russell; CCAM, carbonaceous chondrite anhydrous mineral; TFL, terrestrial fractionation line.</p>
+                </caption>
+                <graphic xlink:href="aao3521-F5"/>
+              </fig>
+              <table-wrap id="T1" orientation="portrait" position="float">
+                <label>Table 1</label>
+                <caption>
+                  <title>Carbon, nitrogen, hydrogen, and oxygen isotopic compositions of the C-rich and N-rich area in the halite residues of the Monahans meteorite.</title>
+                  <p>Errors are reported as 1σ. Isotopic data of CI, CM, and CR chondrites and terrestrial organic matter are available in the studies of Alexander <italic>et al.</italic> (<xref rid="R32" ref-type="bibr"><italic>32</italic></xref>) and Epstein <italic>et al.</italic> (<xref rid="R68" ref-type="bibr"><italic>68</italic></xref>).</p>
+                </caption>
+                <table frame="hsides" rules="groups">
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <col width="%" span="1"/>
+                  <thead>
+                    <tr>
+                      <td rowspan="2" valign="middle" align="left" scope="col" colspan="1">
+                        <bold>Meteorite class</bold>
+                      </td>
+                      <td rowspan="2" valign="middle" align="center" scope="col" colspan="1">
+                        <bold>Samples</bold>
+                      </td>
+                      <td colspan="5" valign="top" align="center" scope="col" rowspan="1">
+                        <bold>Isotopic compositions (‰)</bold>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="center" scope="col" rowspan="1" colspan="1">
+                        <bold>δ<sup>13</sup>C</bold>
+                      </td>
+                      <td valign="top" align="center" scope="col" rowspan="1" colspan="1">
+                        <bold>δ<sup>15</sup>N</bold>
+                      </td>
+                      <td valign="top" align="center" scope="col" rowspan="1" colspan="1">
+                        <bold>δD</bold>
+                      </td>
+                      <td valign="top" align="center" scope="col" rowspan="1" colspan="1">
+                        <bold>δ<sup>17</sup>O</bold>
+                      </td>
+                      <td valign="top" align="center" scope="col" rowspan="1" colspan="1">
+                        <bold>δ<sup>18</sup>O</bold>
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">H5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">Monahans halite residues</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">C-rich area</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−37.6 ± 4.6</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+164.5 ± 14.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+42.5 ± 54.3</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+90.8 ± 37.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+18.1 ± 20.9</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">N-rich area</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−56.1 ± 14.7</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+106.1 ± 14.7</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+50.5 ± 27.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+28.1 ± 11.8</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">CI</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">Orgueil</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−17.05 ± 0.04</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+30.7 ± 0.2</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+972 ± 2</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+14.5 ± 0.6</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">CM</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">Murchison</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−18.91 ± 0.01</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−1.0 ± 0.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+777 ± 27</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+13.2 ± 0.6</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">CR</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">EET92042</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−22.19 ± 0.1</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+184.1 ± 1.4</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+3002 ± 12</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+14.2 ± 0.3</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1">CR (weathered)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">El Djou</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−23.18</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+44.5</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+223</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">+12.5</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" scope="row" rowspan="1" colspan="1"/>
+                      <td valign="top" align="center" rowspan="1" colspan="1">Terrestrial organic matter</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−60 to −25</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−10 to +20</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">−350 to +50</td>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                      <td valign="top" align="left" rowspan="1" colspan="1"/>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <p>The Dawn spacecraft at Ceres reported extensive surficial carbonates accompanied by phyllosilicates and ammonium-bearing species, requiring substantial aqueous alteration (<xref rid="R38" ref-type="bibr"><italic>38</italic></xref>). The organic analyses undertaken in this study indicate the presence of a wide range of highly primitive organic compounds with ketone features possibly contributed by organic solids originating from formaldehyde. IOM (or MMC) and amino acids can be synthesized from formaldehyde, glycolaldehyde, and ammonia under hydrous conditions at temperatures as low as 90°C (<xref rid="R39" ref-type="bibr"><italic>39</italic></xref>). Kinetic experiments predict that organic solids could be synthesized on the order of 100 to 10<sup>4</sup> years even at temperatures as low as 0°C (<xref rid="R40" ref-type="bibr"><italic>40</italic></xref>). We envision that similar organic synthetic processes could have occurred on Ceres that synthesized organic solids and other crucial biomolecules including amino acids. To investigate the amino acid composition of the halite, we carefully opened a pristinely preserved Zag meteorite stone (~500 g) in a class 10 cleanroom, subsampled the newly revealed halite crystals (~3 mg; <xref ref-type="fig" rid="F4">Fig. 1D</xref>) with handling tools that had been heated in air at 500°C for 24 hours, and studied the amino acid content of the halite and compared this to that of the matrix of the Zag meteorite using the UPLC-FD/QToF-MS technique.</p>
+              <p>The Zag meteorite is a matrix-supported regolith breccia composed of H3-4 matrix, H4-5 light-colored metamorphic lithologies, H5-6 silicate-darkened clasts, impact-melt clasts (<xref rid="R4" ref-type="bibr"><italic>4</italic></xref>), and carbonaceous (CI-like) clasts (<xref rid="R24" ref-type="bibr"><italic>24</italic></xref>, <xref rid="R41" ref-type="bibr"><italic>41</italic></xref>). The matrix is shocked [stage S3, weakly shocked up to 15 GPa (<xref rid="R4" ref-type="bibr"><italic>4</italic></xref>, <xref rid="R42" ref-type="bibr"><italic>42</italic></xref>)] and thermally metamorphosed to 600° to 950°C (<xref rid="R16" ref-type="bibr"><italic>16</italic></xref>), all predating incorporation of the halite and C chondrite clasts. Although amino acids (for example, isovaline) have been synthesized in the laboratory under simulated ice/rock impact conditions (<xref rid="R43" ref-type="bibr"><italic>43</italic></xref>), the low shock level would not have provided sufficient energy for shock-driven organic reactions to occur. The total amino acid distribution and abundance of the matrix [~1940 parts per billion (ppb); table S1] are comparable to those of other ordinary chondrites (60 to 3330 ppb; figs. S1 and S2) (<xref rid="R44" ref-type="bibr"><italic>44</italic></xref>, <xref rid="R45" ref-type="bibr"><italic>45</italic></xref>) and include amino acids (for example, glycine, α-alanine, and β-alanine; <xref ref-type="fig" rid="F6">Fig. 6</xref>) that are typical products of the mineral-catalyzed Fischer-Tropsch–type (FTT)/Haber-Bosch–type gas-grain reactions at elevated temperatures (150° to 700°C) in the presence of CO, H<sub>2</sub>, and NH<sub>3</sub> gases and mineral catalysts (<xref rid="R46" ref-type="bibr"><italic>46</italic></xref>–<xref rid="R48" ref-type="bibr"><italic>48</italic></xref>). The high enantiomeric ratio [<sc>d</sc>/<sc>l</sc> ≈ 0.95; that is, small <sc>l</sc>-enantiomeric excesses (<sc>l</sc><sub>ee</sub>) = −9.77 to 2.31%] of alanine suggest that it is indigenous to the meteorite (table S2). Racemic alanine accompanied by large <sc>l</sc><sub>ee</sub> for glutamic acid have been reported for meteorites exhibiting high degrees of aqueous alteration due to the differences in their solid-solution phase behaviors (<xref rid="R49" ref-type="bibr"><italic>49</italic></xref>). These amino acids could have been synthesized on the S-type asteroid before the material exchange between the C- and S-type parent bodies because the latter was maintained at low temperatures (≤50°C) after the deposition of halite crystals, and hence, the physical conditions would then be unfavorable for FTT reactions to occur.</p>
+              <fig id="F6" fig-type="figure" orientation="portrait" position="float">
+                <label>Fig. 6</label>
+                <caption>
+                  <title>Relative amino acid abundances (total amino acid abundance = 1) of the 6 M HCl acid-hydrolyzed amino acid extract of the Zag matrix (<inline-graphic xlink:href="aao3521-FX1.jpg"/>), the non-hydrolyzed amino acid extract of the Zag matrix (<inline-graphic xlink:href="aao3521-FX2.jpg"/>), and the acid-hydrolyzed amino acid extract of the Zag halite (<inline-graphic xlink:href="aao3521-FX3.jpg"/>).</title>
+                  <p>Although the Zag matrix is γ-ABA–, β-ABA–, α-aminoisobutyric acid (α-AIB), and EACA-deficient, the halite is shown to exhibit an opposite trend and is enriched in these amino acids. The marked difference in the amino acid contents between the halite and matrix indicates their separate synthetic origins. The abbreviations of the amino acids are defined in table S1.</p>
+                </caption>
+                <graphic xlink:href="aao3521-F6"/>
+              </fig>
+              <p>The abundances of the small straight-chain, amine-terminal (<italic>n</italic>-ω-amino) amino acids [for example, γ-amino-<italic>n</italic>-butyric acid (γ-ABA) and ε-amino-<italic>n</italic>-caproic acid (EACA)] in the Zag matrix are notably lower than those in the thermally altered meteorites (<xref rid="R48" ref-type="bibr"><italic>48</italic></xref>, <xref rid="R50" ref-type="bibr"><italic>50</italic></xref>, <xref rid="R51" ref-type="bibr"><italic>51</italic></xref>). Whereas the Zag matrix is γ-ABA– and EACA-deficient, the halite is shown to exhibit an opposite trend and is enriched in γ-ABA and EACA (<xref ref-type="fig" rid="F6">Fig. 6</xref> and table S1). The total amino acid concentration in halite (~510 ppb) is also significantly lower than that in the Zag matrix. The marked difference in the amino acid contents between the halite and matrix indicates their separate synthetic origins (<xref ref-type="fig" rid="F6">Fig. 6</xref>). This agrees with the Raman imaging and XANES analyses in this study, which indicate the presence of organic-rich solid inclusions that are composed of C chondrite–like MMC and other organic compounds with aromatic and ketone structures, which are incongruent with the organic content of the thermally metamorphosed H-type lithology. Also, the halite crystals are hosted as discrete grains (no reaction rims between the halite and surrounding silicate) within an H-chondrite matrix, and their mineral inclusions are incompatible with H chondrites (<xref rid="R16" ref-type="bibr"><italic>16</italic></xref>). The continued presence of fluid inclusions in the halite is further evidence that the incorporation of the halites into the H chondrite postdates the metamorphic epoch (<xref rid="R1" ref-type="bibr"><italic>1</italic></xref>, <xref rid="R2" ref-type="bibr"><italic>2</italic></xref>). These observations support the hypothesis that the halite is derived from an exogenic source, possibly a hydrovolcanically active C-type parent body (<xref rid="R7" ref-type="bibr"><italic>7</italic></xref>, <xref rid="R52" ref-type="bibr"><italic>52</italic></xref>). Our coordinated organic analyses converge into the same conclusion that halite in Zag and Monahans is host to a wide range of OM, which probably facilitated amino acid synthesis through aqueous alteration on the C-type parent asteroid. The disparities in the amino acid contents between halite in H chondrites and matrix account for material mixing between the two asteroidal bodies and explain the complex suite of meteoritic organic compositions that can only be contributed by distinctive reaction pathways.</p>
+              <p>We propose the following sequence of events for Zag and Monahans and the halite. The halite originated from hydrovolcanism on a C-type parent body (probably asteroid 1 Ceres). IOM and amino acids were produced by aqueous alteration in the presence of formaldehyde and ammonia (<xref rid="R39" ref-type="bibr"><italic>39</italic></xref>). The halite formed as surficial evaporate deposits at the end of the hydrothermal activity, approximately 4.5 billion years old (<xref rid="R1" ref-type="bibr"><italic>1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic>3</italic></xref>), trapping brines as well as organic and inorganic solids and other soluble organic compounds. Subsequent large-scale hydrovolcanism had sufficient escape velocity (<xref rid="R53" ref-type="bibr"><italic>53</italic></xref>) to expel surficial halite and some inorganic stones into space. It was probably during surface exposure or inter-asteroidal transit that the halite gained the blue-purple coloration from electrons trapped in anion vacancies through exposure to ionizing radiation, at which time some trapped carbon generated UV-photolysis–derived chloromethane. The halites and other stones were then deposited into the regolith of an S-type parent asteroid (possibly Hebe), which had already experienced thermal metamorphism that yielded its own distinctive suite of amino acids. Regolith evolution buried the halite and associated stones (the latter becoming the CI-like clasts found in Zag and other H chondrites), incorporating them into a fine-grained matrix. The meteorite was later stripped from the S-type parent body via a gentle process, possibly by the YORP effect (<xref rid="R14" ref-type="bibr"><italic>14</italic></xref>, <xref rid="R15" ref-type="bibr"><italic>15</italic></xref>), and was eventually delivered to Earth.</p>
+            </sec>
+            <sec sec-type="conclusion" disp-level="1">
+              <title>CONCLUSION</title>
+              <p>The halite crystals and the organics contained within them provide a unique window into the early history of astromaterials and their mobilization across the early solar system. This model describes the brecciated nature of chondrites and elucidates the complex suite of organics, which could only be synthesized through individual processes with different physicochemical conditions. The extensive variety of organics hosted in the halite suggests that the original parent asteroid, where the halite precipitated, plausibly Ceres, contains a combination of precursor molecules for complex chemical reactions to occur. Furthermore, in the context of understanding moons such as Enceladus and Europa, halite crystals formed from cryovolcanism and ejected into space represent an ideal sample to study prebiotic and possibly biotic processes on these bodies.</p>
+            </sec>
+            <sec sec-type="materials|methods" disp-level="1">
+              <title>MATERIALS AND METHODS</title>
+              <sec disp-level="2">
+                <title>L<sup>2</sup>MS</title>
+                <p>The μ-L<sup>2</sup>MS was used for the detection and identification of organic molecules in lunar samples. The JSC μ-L<sup>2</sup>MS instrument was equipped with a vacuum UV (VUV) ionization source capable of nonresonant single-photon soft ionization enabling the in situ detection of virtually any organic molecular system at high sensitivity in the subattomole range (&gt;10<sup>−18</sup> mol) and spatial resolution (~5 μm). The generation of coherent VUV radiation was achieved by the nonlinear frequency tripling of the third harmonic (355 nm) of a mode-locked Q-switched picosecond Nd:YAG (neodymium-doped yttrium aluminum garnet) laser in a Xe–Ar gas cell to produce 118.2 nm (~10.5 eV) radiation. Because the first ionization potentials for nearly all organic molecules lie in the range of 5 to 10 eV, effectively all organic species can be photoionized with 10.5-eV photons.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Raman spectroscopy</title>
+                <p>The halite-bearing clast and halite grains were analyzed using a Jobin-Yvon Horiba LabRAM HR (800 mm) Raman microprobe at NASA JSC. The excitation source was a 514.53-nm (green) laser. The slit width and the confocal pinhole aperture were set at 150 and 400 μm, respectively. The laser beam was focused through a microscope equipped with a 50× objective (short working distance; numerical aperture = 0.75), and the Raman backscattered light was collected from the same objective. At this magnification and for the laser used, the Raman probe spatial resolution at the analyzed spot was ~0.8 μm, and the laser power at the sample surface was ~60 μW, leading to an intensity of approximately 110 μW μm<sup>−2</sup>. The spectral range of 100 to 4000 cm<sup>−1</sup> included the first- and second-order Raman bands of carbon. The exposure time for each spectrum was 5 s, and three accumulations were obtained for each analytical spot to identify and discard spurious signals, such as those from cosmic rays. Spectral peak identification and methods used in the present study were the same as outlined by Chan <italic>et al.</italic> (<xref rid="R54" ref-type="bibr"><italic>54</italic></xref>). Graphite standards were commercially obtained.</p>
+                <p>We collected Raman spectra and images of the halite residues using a WITec α-SNOM at the Carnegie Institution of Washington, customized to incorporate confocal Raman spectroscopic imaging. The excitation source is a frequency-doubled solid-state YAG laser (532 nm) operating between 0.3 and 1 mW output power (dependent on objective). Objective lenses used included a ×100 long working distance (LWD) and a ×20 LWD with a 50-μm optical fiber acting as the confocal pinhole. For the collection of multispectral images, Raman spectra were collected (0 to 3600 cm<sup>−1</sup> using the 600 lines mm<sup>−1</sup> grating) at each pixel using an integration time of between 1 and 6 s per pixel. The effects of interfering peaks were removed by phase-masking routines based on multiple single-peak fits that were compared to standardized mineral spectra. Spectral peak identification and methods used in the present study were the same as outlined by Steele <italic>et al.</italic> (<xref rid="R55" ref-type="bibr"><italic>55</italic></xref>).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>STXM-XANES</title>
+                <p>C,N-XANES microspectroscopy was performed using the STXM at beamline 5.3.2.2 of the Advanced Light Source, Lawrence Berkeley National Laboratory (<xref rid="R56" ref-type="bibr"><italic>56</italic></xref>) and BL-13A of the Photon Factory (PF), High Energy Accelerator Research Organization (KEK) (<xref rid="R57" ref-type="bibr"><italic>57</italic></xref>). Soft x-rays generated by a bending magnet provided a useful photon range spanning from 250 to 780 eV with a photon flux of 10<sup>7</sup> photons s<sup>−1</sup>. Energy selection was performed with a low-dispersion spherical grating monochromator, affording an energy resolution (<italic>E</italic>/Δ<italic>E</italic>) of 5000, with most of our data taken at an energy resolution of ~3000, that is, at ~0.1 eV. Beam focusing used Fresnel zone plate optics for a theoretical spot size of 31 nm. The BL-13A of the PF is an APPLE-II undulator–based beamline covering photon energies of 50 to 2000 eV with variable polarization. A variable-included-angle Monk-Gillieson mounting monochromator with varied-line-spacing plane gratings was used to achieve a high photon flux of 10<sup>11</sup> photons s<sup>−1</sup> with a high resolution (<italic>E</italic>/Δ<italic>E</italic>) of 10,000 at 400 eV. The spatial resolution of the compact STXM in BL-13A is about 40 nm, and the photon intensity at the sample is 10<sup>7</sup> photons s<sup>−1</sup> (<xref rid="R58" ref-type="bibr"><italic>58</italic></xref>). Most of our data were obtained at <italic>E</italic>/Δ<italic>E</italic> of ~3000.</p>
+                <p>The C,N-XANES spectra were acquired using a multispectral imaging method [“Stacks” method (<xref rid="R59" ref-type="bibr"><italic>59</italic></xref>)]. For C-XANES, in the fine structure portions of the near-edge region (283 to 295.5 eV), the energy step size (Δ<italic>E</italic>) was 0.1 eV; in the less featured pre-edge (280 to 283 eV) and post-edge (295.5 to 301.0 eV) regions, Δ<italic>E</italic> was 0.5 eV; and in the extended x-ray absorption fine structure (EXAFS) region (301 to 310 eV), Δ<italic>E</italic> was 1 eV. For N-XANES, in the fine structure portions of the near-edge region (395 to 406 eV), Δ<italic>E</italic> was 0.2 eV; in the less featured pre-edge (385 to 395 eV) and post-edge (406 to 410 eV) regions, Δ<italic>E</italic> was 0.5 eV; and in the EXAFS (410 to 430 eV) region, Δ<italic>E</italic> was 2 eV. The acquisition time per energy step varied from 3 to 5 ms.</p>
+              </sec>
+              <sec disp-level="2">
+                <title>NanoSIMS analysis</title>
+                <p>The H, C, O, and N isotopic compositions of the samples were analyzed by isotopic imaging with the JAMSTEC NanoSIMS 50L ion microprobe (Ametek CAMECA Inc.). A focused primary Cs<sup>+</sup> beam of approximately ~1.6 pA for C, O, and N isotopic analysis and 4 pA for H isotopic analysis was rastered over 10 μm × 10 μm areas on the samples. For C, O, and N isotopic analysis, images of <sup>12</sup>C<sup>−</sup>, <sup>13</sup>C<sup>−</sup>, <sup>16</sup>O<sup>−</sup>, <sup>17</sup>O<sup>−</sup>, <sup>18</sup>O<sup>− 12</sup>C<sup>14</sup>N<sup>−</sup>, and <sup>12</sup>C<sup>15</sup>N<sup>−</sup> were acquired simultaneously in multidetection with seven electron multipliers (EMs) at a mass resolving power of approximately 9500, sufficient to separate all relevant isobaric interferences (that is, <sup>12</sup>C<sup>1</sup>H on <sup>13</sup>C and <sup>16</sup>OH on <sup>17</sup>O). For H isotopic analysis, images of <sup>1</sup>H, <sup>2</sup>D, and <sup>12</sup>C<sup>−</sup> were acquired using three EMs in multidetection at a mass resolving power of approximately 3000. Each run was initiated after stabilization of the secondary ion beam intensity following presputtering of approximately &lt;2 min with a relatively strong primary ion beam current (~20 pA). Each imaging run was repeatedly scanned (10 to 20 times) over the same area, with individual images consisting of 256 × 256 pixels. The dwell times were 5000 μs per pixel for C, O, and N isotopic measurements (total acquisition time, ~55 min) and 5000 μs per pixel for H isotopic measurement (total acquisition time, ~110 min). The isotopic images were processed using the custom-written software “NASA JSC imaging software for NanoSIMS” developed in the Interactive Data Language program (<xref rid="R60" ref-type="bibr"><italic>60</italic></xref>). The methods outlined above were previously discussed by Ito <italic>et al.</italic> (<xref rid="R61" ref-type="bibr"><italic>61</italic></xref>).</p>
+                <p>Nearby grains of 1-hydroxybenzotriazole hydrate with known isotopic compositions of H, C, O, and N were used for standards to correct for instrumental mass fractionations. Isotopic compositions are reported as δ values, representing the deviation of the measured isotopic ratios with reference terrestrial standards in per mil<disp-formula><mml:math id="m1"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">δ</mml:mi><mml:mi mathvariant="italic">R</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="true">[</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="italic">R</mml:mi><mml:mtext>measured</mml:mtext></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="italic">R</mml:mi><mml:mtext>reference</mml:mtext></mml:msub></mml:mrow></mml:mfrac><mml:mo>−</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="true">]</mml:mo><mml:mo>×</mml:mo><mml:mn>1000</mml:mn></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                <p>Reference values for H, C, and N isotopic ratios are 0.00015576 for the D/H ratio of the standard mean ocean water (SMOW) (<xref rid="R62" ref-type="bibr"><italic>62</italic></xref>), 0.0112372 for the <sup>13</sup>C/<sup>12</sup>C ratio of the PeeDee Belemnite standards (<xref rid="R63" ref-type="bibr"><italic>63</italic></xref>), and 0.003676 for (<sup>15</sup>N/<sup>14</sup>N)<sub>Air</sub> (<xref rid="R64" ref-type="bibr"><italic>64</italic></xref>).</p>
+              </sec>
+              <sec disp-level="2">
+                <title>Amino acid analysis with UPLC-FD/QToF-MS</title>
+                <p>The meteorite sample (selected from the matrix) was powdered and transferred to individual glass ampoules in a Class 100 Labconco laminar flow hood under high-efficiency particulate air (HEPA)–filtered positive pressure. Halite crystals were subsampled from the meteorite with pre-sterilized tools in a Class 10 clean laboratory at NASA JSC. Sterilized (500°C, 24 hours) laboratory halite and alumina samples were subjected to the same procedures and analyzed as procedural blanks.</p>
+                <p>Porcelain mortars and pestles were scrubbed and washed with dilute soap solution, rinsed with Millipore Integral 10 UV (18.2 megohm-cm, &lt;3 ppb total organic carbon) ultrapure water (hereafter referred to as water), immersed in 20% citric acid, and sonicated at room temperature for 60 min. All tools, glassware, and ceramics were rinsed with water, wrapped in aluminum foil, and sterilized by heating in air at 500°C for 24 hours. Volumetric flasks were only rinsed with copious water. Amino acid standards and other laboratory chemicals such as ammonium hydroxide (NH<sub>4</sub>OH) (28 to 30 weight %), sodium hydroxide (NaOH), hydrochloric acid (HCl; 37%), methanol, hydrazine monohydrochloride, <italic>o</italic>-phthaldialdehyde (OPA), and <italic>N</italic>-acetyl-<sc>l</sc>-cysteine (NAC) were purchased from Fischer Scientific, Sigma-Aldrich, or Acros Organics. Poly-Prep prepacked ion exchange columns (AG 50W-X8 resin, 200 to 400 mesh, hydrogen form) were purchased from Bio-Rad. Solutions of sodium borate were prepared from solid sodium tetraborate decahydrate (Sigma Ultra, 99.5 to 100% purity) that was heated in air at 500°C for 24 hours before dissolution in water. Amino acid standard solutions were made by dissolving individual amino acid solutes in water and were combined into a standard mixture analyzed by UPLC-FD/QToF-MS on a daily basis.</p>
+                <p>One milliliter of water was added to each glass ampoule containing separate samples, and the ampoules were flame-sealed and heated to 100°C for 24 hours in an oven. After the hot-water extraction, the samples were cooled to room temperature and centrifuged for 5 min to separate water supernatant from solid particulate. Exactly half of the water supernatant (500 μl) was transferred to a small test tube (10 mm × 75 mm), dried under vacuum (Savant SPD131DDA SpeedVac Concentrator), flame-sealed in a larger test tube (20 mm × 150 mm) containing 6 M HCl, and then subjected to acid vapor hydrolysis for 3 hours at 150°C to liberate amino acids in bound or precursor forms. After the vapor hydrolysis procedure, the test tubes were rinsed with water, and the bottom of the test tubes were opened to retrieve the inner small test tubes, and this portion of the sample is hereafter referred to as the “hydrolyzed extract,” representing the total amino acid contents of the samples. The remaining hot-water extract was rinsed with 2 × 1 ml of water, and the supernatant was transferred to individual test tubes; this portion of the sample is hereafter referred to as the “non-hydrolyzed extract,” containing only the free amino acids. Both hydrolyzed and non-hydrolyzed samples were then brought up in 3 × 1 ml of water and desalted on a cation exchange resin. Amino acids were eluted with 2 × 3.5 ml of 2 M NH<sub>4</sub>OH. The eluates were collected in small test tubes and evaporated to dryness. The samples were transferred to small sample vials, redissolved in 100 μl of water, and stored at −20°C. Immediately before UPLC-FD/QToF-MS analysis, the samples were derivatized with OPA/NAC fluorescent derivatization (<xref rid="R65" ref-type="bibr"><italic>65</italic></xref>). Twenty-five microliters of the thawed sample was dried under vacuum, resuspended in 20 μl of 0.1 M sodium borate buffer (pH 9), and derivatized with 5 μl of OPA/NAC in 1-ml autosampler glass vials. The derivatization reaction was then quenched after 15 min at room temperature with 75 μl of 0.1 M hydrazine hydrate.</p>
+                <p>The amino acid abundances and distributions were measured by UPLC-FD/QToF-MS at NASA JSC, using a Waters ACQUITY ultrahigh performance LC and a Waters ACQUITY fluorescence detector connected in series to a Waters LCT Premier ToF-MS. Twenty-five microliters of the derivatized samples was separated using a Waters ethylene bridged hybrid (BEH) C18 column (2.1 mm × 50 mm; particle size, 1.7 μm) followed by a second Waters BEH phenyl column (2.1 mm × 150 mm; particle size, 1.7 μm). Chromatographic conditions were as follows: column temperature, 30°C; flow rate, 150 μl min<sup>−1</sup>; solvent A [50 mM ammonium formate and 8% methanol (pH 8.0)]; solvent B (methanol); gradient, time in minutes (%B): 0 (0), 35 (55), 45 (100). The electrospray and mass spectrometer conditions have been described by Glavin <italic>et al.</italic> (<xref rid="R65" ref-type="bibr"><italic>65</italic></xref>). Amino acids in meteorite bulk, halite, and control samples were identified by correlating sample compounds with known standards using the representative masses and fluorescence responses of the OPA/NAC amino acid derivatives at the expected chromatographic retention times.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material id="PMC_1" content-type="local-data">
+                <caption>
+                  <title>http://advances.sciencemag.org/cgi/content/full/4/1/eaao3521/DC1</title>
+                </caption>
+                <media mimetype="text" mime-subtype="html" xlink:href="supp_4_1_eaao3521__index.html"/>
+                <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="aao3521_SM.pdf"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We thank E. Thompson and the National History Museum, London, for the Zag meteorite samples, and we thank E. K. Gibson for the Monahans sample. We thank S. Clemett for help with acquiring data with the L<sup>2</sup>MS. We thank A. Burton for the use of UPLC-FD/QToF-MS facility. We acknowledge S. Pizzarello and A. Burton for their helpful comments and suggestions provided on an earlier version of the manuscript. We acknowledge the careful and highly beneficial reviews by anonymous referees. <bold>Funding:</bold> Q.H.S.C. acknowledges support from the NASA Postdoctoral Program at the JSC, administered by Universities Space Research Association through a contract with NASA. M.E.Z. was supported by the NASA Cosmochemistry Program. M.I. was supported by the Japan Society for the Promotion of Science (JSPS) Grants-in-Aid for Science Research (no. 26287142), the Shimadzu Science Foundation (2016), and the Astrobiology Center Program of National Institutes of Natural Sciences (NINS; grant nos. AB261011 and AB271007). Y.K. was supported by JSPS KAKENHI (grant no. JP15K17794), the Astrobiology Center of NINS (grant nos. AB271015 and AB281004), and the Mitsubishi Foundation. ALS beamline 5.3.2.2 was supported by the Director of the Office of Science, Department of Energy, under contract no. DE-AC02-05CH11231. <bold>Author contributions:</bold> Q.H.S.C. and M.E.Z. conceived and designed the project. M.E.Z. supervised the project. Q.H.S.C., M.F., and A.S. conducted the Raman analysis and interpreted the L<sup>2</sup>MS experimental data collected by S. Clemett. Y.K., A.N., A.L.D.K., H.S., Y. Takahashi, Y. Takeichi, and K.M. performed the STXM-XANES experiments. M.I. conducted the NanoSIMS analyses. Q.H.S.C. conducted UPLC-FD/QToF-MS analyses. Q.H.S.C. and M.E.Z. prepared the meteorite, halite, and amino acid samples. M.F. and M.E.Z. prepared the halite residue. Z.R. prepared the FIB sections. Q.H.S.C., M.E.Z., Y.K., M.F., M.I., and A.S. analyzed the experimental data. Q.H.S.C., M.E.Z., Y.K., M.F., M.I., and A.S. contributed to the theory and interpretation of the results. All of the authors discussed the results and contributed to the writing of the manuscript. <bold>Competing interests:</bold> The authors declare that they have no competing interests. <bold>Data and materials availability:</bold> All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials. Additional data related to this paper may be requested from the authors.</p>
+            </ack>
+            <app-group>
+              <app>
+                <title>SUPPLEMENTARY MATERIALS</title>
+                <supplementary-material content-type="local-data">
+                  <p>Supplementary material for this article is available at <ext-link ext-link-type="uri" xlink:href="http://advances.sciencemag.org/cgi/content/full/4/1/eaao3521/DC1">http://advances.sciencemag.org/cgi/content/full/4/1/eaao3521/DC1</ext-link></p>
+                  <p>fig. S1. The 4- to 40-min region of the UPLC-FD chromatograms obtained for the OPA/NAC-labeled (15-min derivatization) 6 M HCl acid-hydrolyzed amino acid extract and the non-hydrolyzed amino acid extract of the Zag matrix, acid-hydrolyzed amino acid extract of the Zag halite, and the amino acid standard solution.</p>
+                  <p>fig. S2. An overview of the amino acid compositions of Zag matrix and halite compared to chondrites from different meteorite classes.</p>
+                  <p>fig. S3. C-XANES spectra used to compose the false color map in <xref ref-type="fig" rid="F4">Fig. 4C</xref>.</p>
+                  <p>fig. S4. Representative UPLC-ToF-MS combined ion chromatograms of selected masses.</p>
+                  <p>fig. S5. Representative UPLC-ToF-MS ion chromatograms.</p>
+                  <p>table S1. Summary of the average blank-corrected amino acid abundances (in parts per billion by weight).</p>
+                  <p>table S2. Amino acid enantiomeric ratios (<sc>d</sc>/<sc>l</sc>) of the 6 M HCl acid-hydrolyzed amino acid extract (total) and the non-hydrolyzed amino acid extract (free) of the Zag matrix, acid-hydrolyzed amino acid extract of the Zag halite.</p>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <ref-list>
+              <title>REFERENCES AND NOTES</title>
+              <ref id="R1">
+                <label>1</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Zolensky</surname><given-names>M. E.</given-names></name>, <name name-style="western"><surname>Bodnar</surname><given-names>R. J.</given-names></name>, <name name-style="western"><surname>Gibson</surname><given-names>E. K.</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Nyquist</surname><given-names>L. E.</given-names></name>, <name name-style="western"><surname>Reese</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Shih</surname><given-names>C. Y.</given-names></name>, <name name-style="western"><surname>Wiesmann</surname><given-names>H.</given-names></name></person-group>, 
+<article-title>Asteroidal water within fluid inclusion-bearing halite in an H5 chondrite, Monahans (1998)</article-title>. <source>Science</source><volume>285</volume>, 
+<fpage>1377</fpage>–<lpage>1379</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10464091</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <label>2</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Whitby</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Burgess</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Turner</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Gilmour</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Bridges</surname><given-names>J.</given-names></name></person-group>, 
+<article-title>Extinct <sup>129</sup>I in halite from a primitive meteorite: Evidence for evaporite formation in the early solar system</article-title>. <source>Science</source><volume>288</volume>, 
+<fpage>1819</fpage>–<lpage>1821</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10846162</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <label>3</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bogard</surname><given-names>D. D.</given-names></name>, <name name-style="western"><surname>Garrison</surname><given-names>D. H.</given-names></name>, <name name-style="western"><surname>Masarik</surname><given-names>J.</given-names></name></person-group>, 
+<article-title>The Monahans chondrite and halite: Argon-39/argon-40 age, solar gases, cosmic-ray exposure ages, and parent body regolith neutron flux and thickness</article-title>. <source>Meteorit. Planet. Sci.</source><volume>36</volume>, 
+<fpage>107</fpage>–<lpage>122</lpage> (<year>2001</year>).</mixed-citation>
+              </ref>
+              <ref id="R4">
+                <label>4</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rubin</surname><given-names>A. E.</given-names></name>, <name name-style="western"><surname>Zolensky</surname><given-names>M. E.</given-names></name>, <name name-style="western"><surname>Bodnar</surname><given-names>R. J.</given-names></name></person-group>, 
+<article-title>The halite-bearing Zag and Monahans (1998) meteorite breccias: Shock metamorphism, thermal metamorphism and aqueous alteration on the H-chondrite parent body</article-title>. <source>Meteorit. Planet. Sci.</source><volume>37</volume>, 
+<fpage>125</fpage>–<lpage>141</lpage> (<year>2002</year>).</mixed-citation>
+              </ref>
+              <ref id="R5">
+                <label>5</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Squyres</surname><given-names>S. W.</given-names></name>, <name name-style="western"><surname>Grotzinger</surname><given-names>J. P.</given-names></name>, <name name-style="western"><surname>Arvidson</surname><given-names>R. E.</given-names></name>, <name name-style="western"><surname>Bell</surname><given-names>J. F.</given-names><suffix>III</suffix></name>, <name name-style="western"><surname>Calvin</surname><given-names>W.</given-names></name>, <name name-style="western"><surname>Christensen</surname><given-names>P. R.</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>B. C.</given-names></name>, <name name-style="western"><surname>Crisp</surname><given-names>J. A.</given-names></name>, <name name-style="western"><surname>Farrand</surname><given-names>W. H.</given-names></name>, <name name-style="western"><surname>Herkenhoff</surname><given-names>K. E.</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>J. R.</given-names></name>, <name name-style="western"><surname>Klingelhöfer</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Knoll</surname><given-names>A. H.</given-names></name>, <name name-style="western"><surname>McLennan</surname><given-names>S. M.</given-names></name>, <name name-style="western"><surname>McSween</surname><given-names>H. Y.</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Morris</surname><given-names>R. V.</given-names></name>, <name name-style="western"><surname>Rice</surname><given-names>J. W.</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Rieder</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Soderblom</surname><given-names>L. A.</given-names></name></person-group>, 
+<article-title>In situ evidence for an ancient aqueous environment at meridiani Planum, Mars</article-title>. <source>Science</source><volume>306</volume>, 
+<fpage>1709</fpage>–<lpage>1714</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15576604</pub-id></mixed-citation>
+              </ref>
+              <ref id="R6">
+                <label>6</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Rothschild</surname><given-names>L. J.</given-names></name>, <name name-style="western"><surname>Mancinelli</surname><given-names>R. L.</given-names></name></person-group>, 
+<article-title>Life in extreme environments</article-title>. <source>Nature</source><volume>409</volume>, 
+<fpage>1092</fpage>–<lpage>1101</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11234023</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <label>7</label>
+                <mixed-citation publication-type="other">M. Fries, M. Zolensky, A. Steele, Mineral inclusions in Monahans and Zag halites: Evidence of the originating body, <italic>74th Annual Meeting of the Meteoritical Society</italic>, Meteoritics and Planetary Science Supplement, London, UK (2011), p. 5390.</mixed-citation>
+              </ref>
+              <ref id="R8">
+                <label>8</label>
+                <mixed-citation publication-type="confproc">H. McSween, J. Castillo-Rogez, J. Emery, M. De Sanctis; Dawn Science Team, Rationalizing the composition and alteration of Ceres, in <italic>Lunar and Planetary Science Conference</italic> (LPSC), The Woodlands, TX, 21 to 25 March 2016.</mixed-citation>
+              </ref>
+              <ref id="R9">
+                <label>9</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ruesch</surname><given-names>O.</given-names></name>, <name name-style="western"><surname>Platz</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Schenk</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>McFadden</surname><given-names>L. A.</given-names></name>, <name name-style="western"><surname>Castillo-Rogez</surname><given-names>J. C.</given-names></name>, <name name-style="western"><surname>Quick</surname><given-names>L. C.</given-names></name>, <name name-style="western"><surname>Byrne</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Preusker</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>O’Brien</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Schmedemann</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>D. A.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>J.-Y.</given-names></name>, <name name-style="western"><surname>Bland</surname><given-names>M. T.</given-names></name>, <name name-style="western"><surname>Hiesinger</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Kneissl</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Neesemann</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Schaefer</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Pasckert</surname><given-names>J. H.</given-names></name>, <name name-style="western"><surname>Schmidt</surname><given-names>B. E.</given-names></name>, <name name-style="western"><surname>Buczkowski</surname><given-names>D. L.</given-names></name>, <name name-style="western"><surname>Sykes</surname><given-names>M. V.</given-names></name>, <name name-style="western"><surname>Nathues</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Roatsch</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Hoffmann</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Raymond</surname><given-names>C. A.</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>C. T.</given-names></name></person-group>, 
+<article-title>Cryovolcanism on Ceres</article-title>. <source>Science</source><volume>353</volume>, 
+<fpage>aaf4286</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27701087</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <label>10</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>McCord</surname><given-names>T. B.</given-names></name>, <name name-style="western"><surname>Sotin</surname><given-names>C.</given-names></name></person-group>, 
+<article-title>Ceres: Evolution and current state</article-title>. <source>J. Geophys. Res. Planets</source><volume>110</volume>, 
+<fpage>E05009</fpage> (<year>2005</year>).</mixed-citation>
+              </ref>
+              <ref id="R11">
+                <label>11</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gaffey</surname><given-names>M. J.</given-names></name>, <name name-style="western"><surname>Gilbert</surname><given-names>S. L.</given-names></name></person-group>, 
+<article-title>Asteroid 6 Hebe: The probable parent body of the H-type ordinary chondrites and the IIE iron meteorites</article-title>. <source>Meteorit. Planet. Sci.</source><volume>33</volume>, 
+<fpage>1281</fpage>–<lpage>1295</lpage> (<year>1998</year>).</mixed-citation>
+              </ref>
+              <ref id="R12">
+                <label>12</label>
+                <mixed-citation publication-type="confproc">M. Fries, S. Messenger, A. Steele, M. Zolensky, Do We Already Have Samples of Ceres? H Chondrite Halites and the Ceres-Hebe Link, paper presented at the 76th Annual Meeting of the Meteoritical Society, Edmonton, Canada, July 29 to August 7 2013.</mixed-citation>
+              </ref>
+              <ref id="R13">
+                <label>13</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>DeMeo</surname><given-names>F. E.</given-names></name>, <name name-style="western"><surname>Carry</surname><given-names>B.</given-names></name></person-group>, 
+<article-title>Solar system evolution from compositional mapping of the asteroid belt</article-title>. <source>Nature</source><volume>505</volume>, 
+<fpage>629</fpage>–<lpage>634</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24476886</pub-id></mixed-citation>
+              </ref>
+              <ref id="R14">
+                <label>14</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lowry</surname><given-names>S. C.</given-names></name>, <name name-style="western"><surname>Fitzsimmons</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Pravec</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Vokrouhlický</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Boehnhardt</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>P. A.</given-names></name>, <name name-style="western"><surname>Margot</surname><given-names>J.-L.</given-names></name>, <name name-style="western"><surname>Galád</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Irwin</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Irwin</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Kusnirák</surname><given-names>P.</given-names></name></person-group>, 
+<article-title>Direct detection of the asteroidal YORP effect</article-title>. <source>Science</source><volume>316</volume>, 
+<fpage>272</fpage>–<lpage>274</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17347414</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <label>15</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bottke</surname><given-names>W. F.</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Vokrouhlický</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Broz̆</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Nesvorný</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Morbidelli</surname><given-names>A.</given-names></name></person-group>, 
+<article-title>Dynamical spreading of asteroid families by the Yarkovsky effect</article-title>. <source>Science</source><volume>294</volume>, 
+<fpage>1693</fpage>–<lpage>1696</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11721049</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <label>16</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Bridges</surname><given-names>J. C.</given-names></name>, <name name-style="western"><surname>Banks</surname><given-names>D. A.</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Grady</surname><given-names>M. M.</given-names></name></person-group>, 
+<article-title>Halite and stable chlorine isotopes in the Zag H3–6 breccia</article-title>. <source>Meteorit. Planet. Sci.</source><volume>39</volume>, 
+<fpage>657</fpage>–<lpage>666</lpage> (<year>2004</year>).</mixed-citation>
+              </ref>
+              <ref id="R17">
+                <label>17</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Clemett</surname><given-names>S. J.</given-names></name>, <name name-style="western"><surname>Zare</surname><given-names>R. N.</given-names></name></person-group>, 
+<article-title>Microprobe two-step laser mass spectrometry as an analytical tool for meteoritic samples</article-title>. <source>Symp. - Int. Astron. Union</source><volume>178</volume>, 
+<fpage>305</fpage>–<lpage>320</lpage> (<year>1997</year>).</mixed-citation>
+              </ref>
+              <ref id="R18">
+                <label>18</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Clemett</surname><given-names>S. J.</given-names></name>, <name name-style="western"><surname>Sandford</surname><given-names>S. A.</given-names></name>, <name name-style="western"><surname>Nakamura-Messenger</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Hörz</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>McKay</surname><given-names>D. S.</given-names></name></person-group>, 
+<article-title>Complex aromatic hydrocarbons in Stardust samples collected from comet 81P/Wild 2</article-title>. <source>Meteorit. Planet. Sci.</source><volume>45</volume>, 
+<fpage>701</fpage>–<lpage>722</lpage> (<year>2010</year>).</mixed-citation>
+              </ref>
+              <ref id="R19">
+                <label>19</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Clemett</surname><given-names>S. J.</given-names></name>, <name name-style="western"><surname>Maechling</surname><given-names>C. R.</given-names></name>, <name name-style="western"><surname>Zare</surname><given-names>R. N.</given-names></name>, <name name-style="western"><surname>Swan</surname><given-names>P. D.</given-names></name>, <name name-style="western"><surname>Walker</surname><given-names>R. M.</given-names></name></person-group>, 
+<article-title>Identification of complex aromatic molecules in individual interplanetary dust particles</article-title>. <source>Science</source><volume>262</volume>, 
+<fpage>721</fpage>–<lpage>725</lpage> (<year>1993</year>).<pub-id pub-id-type="pmid">17812337</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <label>20</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hendrix</surname><given-names>A. R.</given-names></name>, <name name-style="western"><surname>Vilas</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>J.-Y.</given-names></name></person-group>, 
+<article-title>Ceres: Sulfur deposits and graphitized carbon</article-title>. <source>Geophys. Res. Lett.</source><volume>43</volume>, 
+<fpage>8920</fpage>–<lpage>8927</lpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="R21">
+                <label>21</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Glass</surname><given-names>H. B.</given-names></name>, <name name-style="western"><surname>Reid</surname><given-names>E. E.</given-names></name></person-group>, 
+<article-title>The direct introduction of sulfur into aromatic hydrocarbons</article-title>. <source>J. Am. Chem. Soc.</source><volume>51</volume>, 
+<fpage>3428</fpage>–<lpage>3430</lpage> (<year>1929</year>).</mixed-citation>
+              </ref>
+              <ref id="R22">
+                <label>22</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Messenger</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Amari</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Walker</surname><given-names>R. M.</given-names></name>, <name name-style="western"><surname>Clemett</surname><given-names>S. J.</given-names></name>, <name name-style="western"><surname>Chillier</surname><given-names>X. D. F.</given-names></name>, <name name-style="western"><surname>Zare</surname><given-names>R. N.</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>R. S.</given-names></name></person-group>, 
+<article-title>Indigenous polycyclic aromatic hydrocarbons in circumstellar graphite grains from primitive meteorites</article-title>. <source>Astrophys. J.</source><volume>502</volume>, 
+<fpage>284</fpage> (<year>1998</year>).</mixed-citation>
+              </ref>
+              <ref id="R23">
+                <label>23</label>
+                <mixed-citation publication-type="confproc">S. J. Clemett, C. R. Maechling, R. N. Zare, C. M. Alexander, Analysis of polycyclic aromatic hydrocarbons in seventeen ordinary and carbonaceous chondrites, in <italic>Lunar and Planetary Science Conference</italic> (LPSC), Houston, TX, 16 to 20 March 1992, abstract 233.</mixed-citation>
+              </ref>
+              <ref id="R24">
+                <label>24</label>
+                <mixed-citation publication-type="confproc">M. Zolensky, M. Fries, Q. H.-S. Chan, Y. Kebukawa, A. Steele, R. J. Bodnar, The mineralogy of Ceres* (*or something an awful lot like it), paper presented at the <italic>78th Annual Meeting of the Meteoritical Society</italic>, Berkeley, CA, 27 to 31 July 2015.</mixed-citation>
+              </ref>
+              <ref id="R25">
+                <label>25</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ferrari</surname><given-names>A. C.</given-names></name>, <name name-style="western"><surname>Robertson</surname><given-names>J.</given-names></name></person-group>, 
+<article-title>Interpretation of Raman spectra of disordered and amorphous carbon</article-title>. <source>Phys. Rev. B</source><volume>61</volume>, 
+<fpage>14095</fpage>–<lpage>14107</lpage> (<year>2000</year>).</mixed-citation>
+              </ref>
+              <ref id="R26">
+                <label>26</label>
+                <mixed-citation publication-type="confproc">M. Fries, R. Bhartia, A. Steele, Carbonaceous chondrite groups discerned using raman spectral parameters, in <italic>Lunar and Planetary Science Conference</italic> (LPSC), The Woodlands, TX, 2011.</mixed-citation>
+              </ref>
+              <ref id="R27">
+                <label>27</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Tuinstra</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Koenig</surname><given-names>J. L.</given-names></name></person-group>, 
+<article-title>Raman spectrum of graphite</article-title>. <source>J. Chem. Phys.</source><volume>53</volume>, 
+<fpage>1126</fpage> (<year>1970</year>).</mixed-citation>
+              </ref>
+              <ref id="R28">
+                <label>28</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Fries</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Burchell</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Kearsley</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Steele</surname><given-names>A.</given-names></name></person-group>, 
+<article-title>Capture effects in carbonaceous material: A Stardust analogue study</article-title>. <source>Meteorit. Planet. Sci.</source><volume>44</volume>, 
+<fpage>1465</fpage>–<lpage>1474</lpage> (<year>2009</year>).</mixed-citation>
+              </ref>
+              <ref id="R29">
+                <label>29</label>
+                <mixed-citation publication-type="confproc">M. D. Fries, A. Steele, M. Zolensky, Halogen-substituted methane in Monahans halite, Halogen-substituted methane in Monahans halite, in 75th Annual Meteoritical Society Meeting, Cairns, Australia, abstract 5381 (2012).</mixed-citation>
+              </ref>
+              <ref id="R30">
+                <label>30</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Schuerger</surname><given-names>A. C.</given-names></name>, <name name-style="western"><surname>Moores</surname><given-names>J. E.</given-names></name>, <name name-style="western"><surname>Clausen</surname><given-names>C. A.</given-names></name>, <name name-style="western"><surname>Barlow</surname><given-names>N. G.</given-names></name>, <name name-style="western"><surname>Britt</surname><given-names>D. T.</given-names></name></person-group>, 
+<article-title>Methane from UV-irradiated carbonaceous chondrites under simulated Martian conditions</article-title>. <source>J. Geophys. Res. Planets</source><volume>117</volume>, 
+<fpage>E08007</fpage> (<year>2012</year>).</mixed-citation>
+              </ref>
+              <ref id="R31">
+                <label>31</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cody</surname><given-names>G. D.</given-names></name>, <name name-style="western"><surname>Ade</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>C. M. O’D.</given-names></name>, <name name-style="western"><surname>Araki</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Butterworth</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Fleckenstein</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Flynn</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Gilles</surname><given-names>M. K.</given-names></name>, <name name-style="western"><surname>Jacobsen</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Kilcoyne</surname><given-names>A. L. D.</given-names></name>, <name name-style="western"><surname>Messenger</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Sandford</surname><given-names>S. A.</given-names></name>, <name name-style="western"><surname>Tyliszczak</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Westphal</surname><given-names>A. J.</given-names></name>, <name name-style="western"><surname>Wirick</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Yabuta</surname><given-names>H.</given-names></name></person-group>, 
+<article-title>Quantitative organic and light-element analysis of comet 81P/Wild 2 particles using C-, N-, and O-μ-XANES</article-title>. <source>Meteorit. Planet. Sci.</source><volume>43</volume>, 
+<fpage>353</fpage>–<lpage>365</lpage> (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="R32">
+                <label>32</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Alexander</surname><given-names>C. M. O’D.</given-names></name>, <name name-style="western"><surname>Fogel</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Yabuta</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Cody</surname><given-names>G. D.</given-names></name></person-group>, 
+<article-title>The origin and evolution of chondrites recorded in the elemental and isotopic compositions of their macromolecular organic matter</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>71</volume>, 
+<fpage>4380</fpage>–<lpage>4403</lpage> (<year>2007</year>).</mixed-citation>
+              </ref>
+              <ref id="R33">
+                <label>33</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>De Gregorio</surname><given-names>B. T.</given-names></name>, <name name-style="western"><surname>Stroud</surname><given-names>R. M.</given-names></name>, <name name-style="western"><surname>Nittler</surname><given-names>L. R.</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>C. M. O’D.</given-names></name>, <name name-style="western"><surname>Bassim</surname><given-names>N. D.</given-names></name>, <name name-style="western"><surname>Cody</surname><given-names>G. D.</given-names></name>, <name name-style="western"><surname>David Kilcoyne</surname><given-names>A. L.</given-names></name>, <name name-style="western"><surname>Sandford</surname><given-names>S. A.</given-names></name>, <name name-style="western"><surname>Milam</surname><given-names>S. N.</given-names></name>, <name name-style="western"><surname>Nuevo</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Zega</surname><given-names>T. J.</given-names></name></person-group>, 
+<article-title>Isotopic and chemical variation of organic nanoglobules in primitive meteorites</article-title>. <source>Meteorit. Planet. Sci.</source><volume>48</volume>, 
+<fpage>904</fpage>–<lpage>928</lpage> (<year>2013</year>).</mixed-citation>
+              </ref>
+              <ref id="R34">
+                <label>34</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cody</surname><given-names>G. D.</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>C. M. O’D.</given-names></name>, <name name-style="western"><surname>Yabuta</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Kilcoyne</surname><given-names>A. L. D.</given-names></name>, <name name-style="western"><surname>Araki</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Ade</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Dera</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Fogel</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Militzer</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Mysen</surname><given-names>B. O.</given-names></name></person-group>, 
+<article-title>Organic thermometry for chondritic parent bodies</article-title>. <source>Earth Planet. Sci. Lett.</source><volume>272</volume>, 
+<fpage>446</fpage>–<lpage>455</lpage> (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="R35">
+                <label>35</label>
+                <mixed-citation publication-type="confproc">G. D. Cody, C. M. O’D. Alexander, The peculiar nature of nitrogen in organic solids from chondritic meteorites, in <italic>Lunar and Planetary Science Conference</italic> (LPSC), The Woodlands, TX, 20 to 24 March 2017, abstract 2747.</mixed-citation>
+              </ref>
+              <ref id="R36">
+                <label>36</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pizzarello</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Feng</surname><given-names>X.</given-names></name>, <name name-style="western"><surname>Epstein</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Cronin</surname><given-names>J. R.</given-names></name></person-group>, 
+<article-title>Isotopic analyses of nitrogenous compounds from the Murchison meteorite: Ammonia, amines, amino acids, and polar hydrocarbons</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>58</volume>, 
+<fpage>5579</fpage>–<lpage>5587</lpage> (<year>1994</year>).<pub-id pub-id-type="pmid">11539151</pub-id></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <label>37</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Alexander</surname><given-names>C. M. O’D.</given-names></name>, <name name-style="western"><surname>Bowden</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Fogel</surname><given-names>M. L.</given-names></name>, <name name-style="western"><surname>Howard</surname><given-names>K. T.</given-names></name>, <name name-style="western"><surname>Herd</surname><given-names>C. D. K.</given-names></name>, <name name-style="western"><surname>Nittler</surname><given-names>L. R.</given-names></name></person-group>, 
+<article-title>The provenances of asteroids, and their contributions to the volatile inventories of the terrestrial planets</article-title>. <source>Science</source><volume>337</volume>, 
+<fpage>721</fpage>–<lpage>723</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22798405</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <label>38</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>De Sanctis</surname><given-names>M. C.</given-names></name>, <name name-style="western"><surname>Raponi</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Ammannito</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Ciarniello</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Toplis</surname><given-names>M. J.</given-names></name>, <name name-style="western"><surname>McSween</surname><given-names>H. Y.</given-names></name>, <name name-style="western"><surname>Castillo-Rogez</surname><given-names>J. C.</given-names></name>, <name name-style="western"><surname>Ehlmann</surname><given-names>B. L.</given-names></name>, <name name-style="western"><surname>Carrozzo</surname><given-names>F. G.</given-names></name>, <name name-style="western"><surname>Marchi</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Tosi</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Zambon</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Capaccioni</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Capria</surname><given-names>M. T.</given-names></name>, <name name-style="western"><surname>Fonte</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Formisano</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Frigeri</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Giardino</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Longobardo</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Magni</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Palomba</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>McFadden</surname><given-names>L. A.</given-names></name>, <name name-style="western"><surname>Pieters</surname><given-names>C. M.</given-names></name>, <name name-style="western"><surname>Jaumann</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Schenk</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Mugnuolo</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Raymond</surname><given-names>C. A.</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>C. T.</given-names></name></person-group>, 
+<article-title>Bright carbonate deposits as evidence of aqueous alteration on (1) Ceres</article-title>. <source>Nature</source><volume>536</volume>, 
+<fpage>54</fpage>–<lpage>57</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27362221</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <label>39</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kebukawa</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Chan</surname><given-names>Q. H. S.</given-names></name>, <name name-style="western"><surname>Tachibana</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Kobayashi</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Zolensky</surname><given-names>M. E.</given-names></name></person-group>, 
+<article-title>One-pot synthesis of amino acid precursors with insoluble organic matter in planetesimals with aqueous activity</article-title>. <source>Sci. Adv.</source><volume>3</volume>, 
+<fpage>e1602093</fpage> (<year>2017</year>).<pub-id pub-id-type="pmid">28345041</pub-id></mixed-citation>
+              </ref>
+              <ref id="R40">
+                <label>40</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kebukawa</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Cody</surname><given-names>G. D.</given-names></name></person-group>, 
+<article-title>A kinetic study of the formation of organic solids from formaldehyde: Implications for the origin of extraterrestrial organic solids in primitive Solar System objects</article-title>. <source>Icarus</source><volume>248</volume>, 
+<fpage>412</fpage>–<lpage>423</lpage> (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="R41">
+                <label>41</label>
+                <mixed-citation publication-type="confproc">M. E. Zolensky, R. N. Clayton, T. Mayeda, J. Chokai, O. R. Norton, Carbonaceous chondrite clasts in the halite-bearing H5 chondrite Zag, in 66th Annual Meteoritical Society Meeting, abstract 5216 (2003).</mixed-citation>
+              </ref>
+              <ref id="R42">
+                <label>42</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Stöffler</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Keil</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Scott</surname><given-names>E. R. D.</given-names></name></person-group>, 
+<article-title>Shock metamorphism of ordinary chondrites</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>55</volume>, 
+<fpage>3845</fpage>–<lpage>3867</lpage> (<year>1991</year>).</mixed-citation>
+              </ref>
+              <ref id="R43">
+                <label>43</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martins</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>M. C.</given-names></name>, <name name-style="western"><surname>Goldman</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Sephton</surname><given-names>M. A.</given-names></name>, <name name-style="western"><surname>Burchell</surname><given-names>M. J.</given-names></name></person-group>, 
+<article-title>Shock synthesis of amino acids from impacting cometary and icy planet surface analogues</article-title>. <source>Nat. Geosci.</source><volume>6</volume>, 
+<fpage>1045</fpage>–<lpage>1049</lpage> (<year>2013</year>).</mixed-citation>
+              </ref>
+              <ref id="R44">
+                <label>44</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Martins</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Hofmann</surname><given-names>B. A.</given-names></name>, <name name-style="western"><surname>Gnos</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Greenwood</surname><given-names>R. C.</given-names></name>, <name name-style="western"><surname>Verchovsky</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Franchi</surname><given-names>I. A.</given-names></name>, <name name-style="western"><surname>Jull</surname><given-names>A. J. T.</given-names></name>, <name name-style="western"><surname>Botta</surname><given-names>O.</given-names></name>, <name name-style="western"><surname>Glavin</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Dworkin</surname><given-names>J. P.</given-names></name>, <name name-style="western"><surname>Ehrenfreund</surname><given-names>P.</given-names></name></person-group>, 
+<article-title>Amino acid composition, petrology, geochemistry, <sup>14</sup>C terrestrial age and oxygen isotopes of the Shişr 033 CR chondrite</article-title>. <source>Meteorit. Planet. Sci.</source><volume>42</volume>, 
+<fpage>1581</fpage>–<lpage>1595</lpage> (<year>2007</year>).</mixed-citation>
+              </ref>
+              <ref id="R45">
+                <label>45</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chan</surname><given-names>H.-S.</given-names></name>, <name name-style="western"><surname>Martins</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Sephton</surname><given-names>M. A.</given-names></name></person-group>, 
+<article-title>Amino acid analyses of type 3 chondrites Colony, Ornans, Chainpur, and Bishunpur</article-title>. <source>Meteorit. Planet. Sci.</source><volume>47</volume>, 
+<fpage>1502</fpage>–<lpage>1516</lpage> (<year>2012</year>).</mixed-citation>
+              </ref>
+              <ref id="R46">
+                <label>46</label>
+                <mixed-citation publication-type="book">R. Hayatsu, E. Anders, Organic compounds in meteorites and their origins, in <italic>Cosmo- and Geochemistry</italic> (Springer Berlin Heidelberg, 1981), vol. 99, pp. 1–37.</mixed-citation>
+              </ref>
+              <ref id="R47">
+                <label>47</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yoshino</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Hayatsu</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Anders</surname><given-names>E.</given-names></name></person-group>, 
+<article-title>Origin of organic matter in early solar system—III. Amino acids: Catalytic synthesis</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>35</volume>, 
+<fpage>927</fpage>–<lpage>938</lpage> (<year>1971</year>).</mixed-citation>
+              </ref>
+              <ref id="R48">
+                <label>48</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Pizzarello</surname><given-names>S.</given-names></name></person-group>, 
+<article-title>Catalytic syntheses of amino acids and their significance for nebular and planetary chemistry</article-title>. <source>Meteorit. Planet. Sci.</source><volume>47</volume>, 
+<fpage>1291</fpage>–<lpage>1296</lpage> (<year>2012</year>).</mixed-citation>
+              </ref>
+              <ref id="R49">
+                <label>49</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Glavin</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Elsila</surname><given-names>J. E.</given-names></name>, <name name-style="western"><surname>Burton</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>Callahan</surname><given-names>M. P.</given-names></name>, <name name-style="western"><surname>Dworkin</surname><given-names>J. P.</given-names></name>, <name name-style="western"><surname>Hilts</surname><given-names>R. W.</given-names></name>, <name name-style="western"><surname>Herd</surname><given-names>C. D. K.</given-names></name></person-group>, 
+<article-title>Unusual nonterrestrial <sc>l</sc>-proteinogenic amino acid excesses in the Tagish Lake meteorite</article-title>. <source>Meteorit. Planet. Sci.</source><volume>47</volume>, 
+<fpage>1347</fpage>–<lpage>1364</lpage> (<year>2012</year>).</mixed-citation>
+              </ref>
+              <ref id="R50">
+                <label>50</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Burton</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>Elsila</surname><given-names>J. E.</given-names></name>, <name name-style="western"><surname>Callahan</surname><given-names>M. P.</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>M. G.</given-names></name>, <name name-style="western"><surname>Glavin</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>N. M.</given-names></name>, <name name-style="western"><surname>Dworkin</surname><given-names>J. P.</given-names></name></person-group>, 
+<article-title>A propensity for <italic>n</italic>-ω-amino acids in thermally altered Antarctic meteorites</article-title>. <source>Meteorit. Planet. Sci.</source><volume>47</volume>, 
+<fpage>374</fpage>–<lpage>386</lpage> (<year>2012</year>).</mixed-citation>
+              </ref>
+              <ref id="R51">
+                <label>51</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Burton</surname><given-names>A. S.</given-names></name>, <name name-style="western"><surname>McLain</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Glavin</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Elsila</surname><given-names>J. E.</given-names></name>, <name name-style="western"><surname>Davidson</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>K. E.</given-names></name>, <name name-style="western"><surname>Andronikov</surname><given-names>A. V.</given-names></name>, <name name-style="western"><surname>Lauretta</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Dworkin</surname><given-names>J. P.</given-names></name></person-group>, 
+<article-title>Amino acid analyses of R and CK chondrites</article-title>. <source>Meteorit. Planet. Sci.</source><volume>50</volume>, 
+<fpage>470</fpage>–<lpage>482</lpage> (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="R52">
+                <label>52</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Küppers</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>O’Rourke</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Bockelée-Morvan</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Zakharov</surname><given-names>V.</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>von Allmen</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Carry</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Teyssier</surname><given-names>D.</given-names></name>, <name name-style="western"><surname>Marston</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Müller</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Crovisier</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Antonietta Barucci</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Moreno</surname><given-names>R.</given-names></name></person-group>, 
+<article-title>Localized sources of water vapour on the dwarf planet (1) Ceres</article-title>. <source>Nature</source><volume>505</volume>, 
+<fpage>525</fpage>–<lpage>527</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24451541</pub-id></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <label>53</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Wilson</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Keil</surname><given-names>K.</given-names></name></person-group>, 
+<article-title>Clast sizes of ejecta from explosive eruptions on asteroids: Implications for the fate of the basaltic products of differentiation</article-title>. <source>Earth Planet. Sci. Lett.</source><volume>140</volume>, 
+<fpage>191</fpage>–<lpage>200</lpage> (<year>1996</year>).</mixed-citation>
+              </ref>
+              <ref id="R54">
+                <label>54</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Chan</surname><given-names>Q. H. S.</given-names></name>, <name name-style="western"><surname>Zolensky</surname><given-names>M. E.</given-names></name>, <name name-style="western"><surname>Bodnar</surname><given-names>R. J.</given-names></name>, <name name-style="western"><surname>Farley</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Cheung</surname><given-names>J. C. H.</given-names></name></person-group>, 
+<article-title>Investigation of organo-carbonate associations in carbonaceous chondrites by Raman spectroscopy</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>201</volume>, 
+<fpage>392</fpage>–<lpage>409</lpage> (<year>2017</year>).</mixed-citation>
+              </ref>
+              <ref id="R55">
+                <label>55</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Steele</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Fries</surname><given-names>M. D.</given-names></name>, <name name-style="western"><surname>Amundsen</surname><given-names>H. E. F.</given-names></name>, <name name-style="western"><surname>Mysen</surname><given-names>B. O.</given-names></name>, <name name-style="western"><surname>Fogel</surname><given-names>M. L.</given-names></name>, <name name-style="western"><surname>Schweizer</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Boctor</surname><given-names>N. Z.</given-names></name></person-group>, 
+<article-title>Comprehensive imaging and Raman spectroscopy of carbonate globules from Martian meteorite ALH 84001 and a terrestrial analogue from Svalbard</article-title>. <source>Meteorit. Planet. Sci.</source><volume>42</volume>, 
+<fpage>1549</fpage>–<lpage>1566</lpage> (<year>2007</year>).</mixed-citation>
+              </ref>
+              <ref id="R56">
+                <label>56</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Kilcoyne</surname><given-names>A. L. D.</given-names></name>, <name name-style="western"><surname>Tyliszczak</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Steele</surname><given-names>W. F.</given-names></name>, <name name-style="western"><surname>Fakra</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Hitchcock</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Franck</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>E.</given-names></name>, <name name-style="western"><surname>Harteneck</surname><given-names>B.</given-names></name>, <name name-style="western"><surname>Rightor</surname><given-names>E. G.</given-names></name>, <name name-style="western"><surname>Mitchell</surname><given-names>G. E.</given-names></name>, <name name-style="western"><surname>Hitchcock</surname><given-names>A. P.</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>L.</given-names></name>, <name name-style="western"><surname>Warwick</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Ade</surname><given-names>H.</given-names></name></person-group>, 
+<article-title>Interferometer-controlled scanning transmission x-ray microscopes at the Advanced Light Source</article-title>. <source>J. Synchrotron Radiat.</source><volume>10</volume>, 
+<fpage>125</fpage>–<lpage>136</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12606790</pub-id></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <label>57</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Takeichi</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Inami</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Suga</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Ono</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Takahashi</surname><given-names>Y.</given-names></name></person-group>, 
+<article-title>Development of a compact scanning transmission x-ray microscope (STXM) at the photon factory</article-title>. <source>Chem. Lett.</source><volume>43</volume>, 
+<fpage>373</fpage>–<lpage>375</lpage> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="R58">
+                <label>58</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Takeichi</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Inami</surname><given-names>N.</given-names></name>, <name name-style="western"><surname>Suga</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Miyamoto</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Ueno</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Mase</surname><given-names>K.</given-names></name>, <name name-style="western"><surname>Takahashi</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Ono</surname><given-names>K.</given-names></name></person-group>, 
+<article-title>Design and performance of a compact scanning transmission x-ray microscope at the Photon Factory</article-title>. <source>Rev. Sci. Instrum.</source><volume>87</volume>, 
+<fpage>013704</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26827325</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <label>59</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Jacobsen</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Wirick</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Flynn</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Zimba</surname><given-names>C.</given-names></name></person-group>, 
+<article-title>Soft x-ray spectroscopy from image sequences with sub-100 nm spatial resolution</article-title>. <source>J. Microsc.</source><volume>197</volume>, 
+<fpage>173</fpage>–<lpage>184</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11543408</pub-id></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <label>60</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ito</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Messenger</surname><given-names>S.</given-names></name></person-group>, 
+<article-title>Isotopic imaging of refractory inclusions in meteorites with the NanoSIMS 50L</article-title>. <source>Appl. Surf. Sci.</source><volume>255</volume>, 
+<fpage>1446</fpage>–<lpage>1450</lpage> (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="R61">
+                <label>61</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ito</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Uesugi</surname><given-names>M.</given-names></name>, <name name-style="western"><surname>Naraoka</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Yabuta</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Kitajima</surname><given-names>F.</given-names></name>, <name name-style="western"><surname>Mita</surname><given-names>H.</given-names></name>, <name name-style="western"><surname>Takano</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Karouji</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Yada</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Ishibashi</surname><given-names>Y.</given-names></name>, <name name-style="western"><surname>Okada</surname><given-names>T.</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>M.</given-names></name></person-group>, 
+<article-title>H, C, and N isotopic compositions of Hayabusa category 3 organic samples</article-title>. <source>Earth Planets Space</source><volume>66</volume>, 
+<fpage>91</fpage> (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="R62">
+                <label>62</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hagemann</surname><given-names>R.</given-names></name>, <name name-style="western"><surname>Nief</surname><given-names>G.</given-names></name>, <name name-style="western"><surname>Roth</surname><given-names>E.</given-names></name></person-group>, 
+<article-title>Absolute isotopic scale for deuterium analysis of natural waters. Absolute D/H ratio for SMOW</article-title>. <source>Tellus</source><volume>22</volume>, 
+<fpage>712</fpage>–<lpage>715</lpage> (<year>1970</year>).</mixed-citation>
+              </ref>
+              <ref id="R63">
+                <label>63</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Craig</surname><given-names>H.</given-names></name></person-group>, 
+<article-title>The geochemistry of the stable carbon isotopes</article-title>. <source>Geochim. Cosmochim. Acta</source><volume>3</volume>, 
+<fpage>53</fpage>–<lpage>92</lpage> (<year>1953</year>).</mixed-citation>
+              </ref>
+              <ref id="R64">
+                <label>64</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Mariotti</surname><given-names>A.</given-names></name></person-group>, 
+<article-title>Atmospheric nitrogen is a reliable standard for natural <sup>15</sup>N abundance measurements</article-title>. <source>Nature</source><volume>303</volume>, 
+<fpage>685</fpage>–<lpage>687</lpage> (<year>1983</year>).</mixed-citation>
+              </ref>
+              <ref id="R65">
+                <label>65</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Glavin</surname><given-names>D. P.</given-names></name>, <name name-style="western"><surname>Dworkin</surname><given-names>J. P.</given-names></name>, <name name-style="western"><surname>Aubrey</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Botta</surname><given-names>O.</given-names></name>, <name name-style="western"><surname>Doty</surname><given-names>J. H.</given-names><suffix>III</suffix></name>, <name name-style="western"><surname>Martins</surname><given-names>Z.</given-names></name>, <name name-style="western"><surname>Bada</surname><given-names>J. L.</given-names></name></person-group>, 
+<article-title>Amino acid analyses of Antarctic CM2 meteorites using liquid chromatography-time of flight-mass spectrometry</article-title>. <source>Meteorit. Planet. Sci.</source><volume>41</volume>, 
+<fpage>889</fpage>–<lpage>902</lpage> (<year>2006</year>).</mixed-citation>
+              </ref>
+              <ref id="R66">
+                <label>66</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Hennig</surname><given-names>C.</given-names></name>, <name name-style="western"><surname>Hallmeier</surname><given-names>K. H.</given-names></name>, <name name-style="western"><surname>Szargan</surname><given-names>R.</given-names></name></person-group>, 
+<article-title>XANES investigation of chemical states of nitrogen in polyaniline</article-title>. <source>Synthetic Metals</source><volume>92</volume>, 
+<fpage>161</fpage>–<lpage>166</lpage> (<year>1998</year>).</mixed-citation>
+              </ref>
+              <ref id="R67">
+                <label>67</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Leinweber</surname><given-names>P.</given-names></name>, <name name-style="western"><surname>Kruse</surname><given-names>J.</given-names></name>, <name name-style="western"><surname>Walley</surname><given-names>F. L.</given-names></name>, <name name-style="western"><surname>Gillespie</surname><given-names>A.</given-names></name>, <name name-style="western"><surname>Eckhardt</surname><given-names>K. U.</given-names></name>, <name name-style="western"><surname>Blyth</surname><given-names>R. I.</given-names></name>, <name name-style="western"><surname>Regier</surname><given-names>T.</given-names></name></person-group>, 
+<article-title>Nitrogen K-edge XANES—An overview of reference compounds used to identify ‘unknown’ organic nitrogen in environmental samples</article-title>. <source>J. Synchrotron Radiation</source><volume>14</volume>, 
+<fpage>500</fpage>–<lpage>511</lpage> (<year>2007</year>).</mixed-citation>
+              </ref>
+              <ref id="R68">
+                <label>68</label>
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Epstein</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Krishnamurthy</surname><given-names>R. V.</given-names></name>, <name name-style="western"><surname>Cronin</surname><given-names>J. R.</given-names></name>, <name name-style="western"><surname>Pizzarello</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Yuen</surname><given-names>G. U.</given-names></name></person-group>, 
+<article-title>Unusual stable isotope ratios in amino acid and carboxylic acid extracts from the Murchison meteorite</article-title>. <source>Nature</source><bold>326</bold>, 
+<fpage>477</fpage>–<lpage>479</lpage> (<year>1987</year>).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

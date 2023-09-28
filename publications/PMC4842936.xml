@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:02:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4842936" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4842936</identifier>
+        <datestamp>2016-05-17</datestamp>
+        <setSpec>cin</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Comput Intell Neurosci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Comput Intell Neurosci</journal-id>
+              <journal-id journal-id-type="publisher-id">CIN</journal-id>
+              <journal-title-group>
+                <journal-title>Computational Intelligence and Neuroscience</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1687-5265</issn>
+              <issn pub-type="epub">1687-5273</issn>
+              <publisher>
+                <publisher-name>Hindawi Publishing Corporation</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4842936</article-id>
+              <article-id pub-id-type="pmcid">PMC4842936</article-id>
+              <article-id pub-id-type="pmc-uid">4842936</article-id>
+              <article-id pub-id-type="pmid">27190503</article-id>
+              <article-id pub-id-type="doi">10.1155/2016/7845102</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>An Interactive Astronaut-Robot System with Gesture Control</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>Jinguo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Luo</surname>
+                    <given-names>Yifan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="I2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ju</surname>
+                    <given-names>Zhaojie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor2">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="I1"><sup>1</sup>State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese Academy of Sciences, Shenyang 110016, China</aff>
+              <aff id="I2"><sup>2</sup>University of Chinese Academy of Sciences, Beijing 100864, China</aff>
+              <aff id="I3"><sup>3</sup>School of Computing, University of Portsmouth, Portsmouth, Hampshire PO1 3HE, UK</aff>
+              <author-notes>
+                <corresp id="cor1">*Jinguo Liu: <email>liujinguo@sia.cn</email> and </corresp>
+                <corresp id="cor2">*Zhaojie Ju: <email>zhaojie.ju@port.ac.uk</email></corresp>
+                <fn fn-type="other">
+                  <p>Academic Editor: Hiroki Tamura</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="ppub">
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>4</month>
+                <year>2016</year>
+              </pub-date>
+              <volume>2016</volume>
+              <elocation-id>7845102</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>11</month>
+                  <year>2015</year>
+                </date>
+                <date date-type="accepted">
+                  <day>2</day>
+                  <month>3</month>
+                  <year>2016</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2016 Jinguo Liu et al.</copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <license xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Human-robot interaction (HRI) plays an important role in future planetary exploration mission, where astronauts with extravehicular activities (EVA) have to communicate with robot assistants by speech-type or gesture-type user interfaces embedded in their space suits. This paper presents an interactive astronaut-robot system integrating a data-glove with a space suit for the astronaut to use hand gestures to control a snake-like robot. Support vector machine (SVM) is employed to recognize hand gestures and particle swarm optimization (PSO) algorithm is used to optimize the parameters of SVM to further improve its recognition accuracy. Various hand gestures from American Sign Language (ASL) have been selected and used to test and validate the performance of the proposed system. </p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1">
+              <title>1. Introduction</title>
+              <p>When astronauts conduct EVA missions on the surface of other planets, they generally need to collaborate with some agents or some systems to complete the missions smoothly and efficiently. Reducing the crew workload is a primary concern, particularly during EVA. The robot's autonomy can make the robot finish some tasks independently and allow the robot to complete certain tasks with little crew's attention. The robot used in the space exploration always has a high level of autonomy (LOA). However, in current real operations, a human operator has a better insight in the task completion than the robot system. Autonomous systems are not yet as efficient as humans in modeling the richness of interactions and balancing the trade-off between the various crewmembers and their mission requests. Therefore, astronauts must interact with the robot at various levels, from high level goal commands to detailed activity sequences and then to direct teleportation, to cope with the full spectrum of situations expected. This creates significant challenges with regard to communication, human-robot interface, and human-understandable state representation.</p>
+              <p>As for the HRI problem, considerable effort has been made to the development of intelligent and natural interfaces between users and computer systems, and HRI has been developed by leaps and bounds [<xref rid="B1" ref-type="bibr">1</xref>–<xref rid="B6" ref-type="bibr">6</xref>]. Now there are many mature ways of HRI; among those ways, voice recognition and gesture recognition are two major developing directions. Speech recognition system now is developing towards two important directions: one is the large vocabulary continuous speech recognition system and the other is the application of miniaturization, portable audio products. The large vocabulary and continuous speech recognition system is now generally based on one or more PCs. The portable processing chip for recognition usually has limitations in computing speed and storage capacity. In planetary exploration missions, these limitations indicate that there is still a long way to go to apply speech recognition in this area. Hand gestures, which have been addressed in the sign language for the deaf people for many years, can represent rich language and have also attracted a lot of attention. Gesture recognition is a technology often used in HRI applications, and there are lots of methods for hand gesture recognition, such as the methods based on image recognition, curvature, and surface electromyography (EMG) signal.</p>
+              <p>This paper proposes a way of using hand gestures of astronauts to intervene in the autonomy of the agent. An example of astronauts cooperating with agents to complete a mission is shown in <xref ref-type="fig" rid="fig1">Figure 1</xref>. Though recent image processing techniques have achieved a fascinating development [<xref rid="B2" ref-type="bibr">2</xref>], they are not suitable for the space applications, because the clumsy suit may bring some of the most difficult problems in the field of machine vision [<xref rid="B7" ref-type="bibr">7</xref>]. For surface EMG signals, there is a large gap in the space suits and the atmospheric pressure inside spacesuit is only 40 percent of the standard atmosphere, so whether the EMG signals in this case change or not is unknown.</p>
+              <p>Increasing numbers of industrial and service robots [<xref rid="B8" ref-type="bibr">8</xref>, <xref rid="B9" ref-type="bibr">9</xref>] have focused on designing the HRI technology in order to increase robot efficiency and effectiveness. HRI refers to a process of conveying operators' intentions and interpreting the sequence of robot motions and working requirements in task descriptions. The complement of HRI through the application of suitable interaction methods and interfaces has been an essential factor as well as a challenge in the robot industry. Recent development of robotics has introduced haptic interaction, through which the users can feel both virtual and real environments, such as in teleoperations and telesurgeries [<xref rid="B10" ref-type="bibr">10</xref>]. There have been many works providing technical and theoretical support for HRI to be more efficient and suitable. Now commonly used methods include multimodal interaction, teaching model, virtual reality, and augmented reality.</p>
+              <p>Nowadays, the space activity is still in the early stage, and the technology needs further improvement. In the near future, with the development of aerospace technology, the astronauts will not be limited to the technical personnel; other people, such as engineers, physicists, biologists, surgeons, and even philosophers, also have the opportunities to become astronauts in the space exploration and carry out relevant scientific experiments. Therefore, the individual agent or multiagent system, which collaborates with astronauts, requires a higher LOA and friendly HRI. Making HRI more effective, efficient, and natural is crucial to the success of sustained space exploration. In particular, we assume that humans and robots must be able to (1) communicate clearly about their goals, abilities, plans, and achievements; (2) collaborate to solve problems, especially when situations exceed autonomous capabilities; and (3) interact via multiple modalities (dialogue, gestures, etc.), both locally and remotely. To achieve these goals, a number of HRI challenges must be addressed.</p>
+              <p>Using gestures to convey information has become an important part of human computer interaction [<xref rid="B4" ref-type="bibr">4</xref>–<xref rid="B7" ref-type="bibr">7</xref>]. Hand gesture recognition is widely used in many applications, such as computer games, machinery control (e.g., crane), and household electrical appliance remote control. Hand gesture analysis can be divided into three main approaches, namely, glove-based methods, vision-based methods, and methods for drawing gestures [<xref rid="B5" ref-type="bibr">5</xref>]. For approaches based on the data-glove, the relative position of a finger is captured by an additional sensor, which is normally a magnetic or acoustic sensor attached to a glove. A lookup table software toolkit is usually provided for hand gesture recognition [<xref rid="B7" ref-type="bibr">7</xref>]. The second way is based on the image processing, which is stricter with the image background, and thus it is not suitable for applications in a complex working environment [<xref rid="B6" ref-type="bibr">6</xref>]. The third method involves the analysis of gesture drawing [<xref rid="B5" ref-type="bibr">5</xref>], using a stylus as an input device. This method is often used for identifying written words, which has problems of reliability, accuracy, and electromagnetic interference noise.</p>
+              <p>The paper is organized as follows. In <xref ref-type="sec" rid="sec2">Section 2</xref>, the interactive astronaut-robot system is introduced in detail, including the system devices, the overall plan and the main functions, and the snake-like robot. In <xref ref-type="sec" rid="sec3">Section 3</xref>, we introduce the application of SVM and PSO for the hand gesture recognition. In <xref ref-type="sec" rid="sec4">Section 4</xref>, we designed two experiments to verify the reliability and robustness of the proposed system. Conclusions and future work are discussed in <xref ref-type="sec" rid="sec5">Section 5</xref>.</p>
+            </sec>
+            <sec id="sec2">
+              <title>2. Interactive Astronaut-Robot System</title>
+              <p>The system integrates bending sensors in a glove to capture the bending angles of all the fingers. Then the finger angles are classified through the model trained by the SVM, and corresponding instructions generated control the snake-like robot, so that the snake-like robot can assist astronauts to complete the mission. The main components include bending sensor system, STM32 controller, wireless communication module, and the modular snake robot composed with servos. The main parameters of each device are shown in <xref ref-type="table" rid="tab1">Table 1</xref>.</p>
+              <sec id="sec2.1">
+                <title>2.1. The Control System</title>
+                <p>The main function of this control system is designed to achieve the modular robot moving with the planned movement according to the instructions from the gesture recognition system. Detailed implementation is shown in <xref ref-type="fig" rid="fig2">Figure 2</xref>. After the controller gets the signal <bold>F</bold>
+<sub><italic>s</italic></sub> from the bend sensors mounted on the glove, the signal goes through a filter and a normalization preprocessing stage, and <bold>O</bold>
+<sub><italic>s</italic></sub> is sent to the controller mounted in the snake-like robot through wireless module. This controller processes <bold>O</bold>
+<sub><italic>s</italic></sub> by SVM and gets the predicting label. Then corresponding operation instructions are sent to the snake-like robot. Finally the snake-like robot executes the corresponding movement.</p>
+              </sec>
+              <sec id="sec2.2">
+                <title>2.2. Snake-Like Robot</title>
+                <p>Snakes could do very well in the rough terrain like Mars, by going over and through broken ground and sand, and squeeze through tight spaces. Thus, great interest in the snake-like robot research has been generated. The European Space Agency is developing snake-like robots aiming at providing robot with more mobility during space exploratory activities. The snake-like robot applied in the mission of lunar exploration and Mars exploration will be helpful for the rover to travel over the complex rugged surface and narrow gaps on the ground.</p>
+                <p>During some missions where a wheeled rover collaborates with a snake-like robot, the wheeled rover can be used to travel long distances, while the snake robot could detach and reach places where the rover cannot reach. And if the rover gets stuck, the snake robot could conceivably be used to help pull it away.</p>
+                <p>Hirose has proposed the serpentine curve early in 1993 [<xref rid="B29" ref-type="bibr">11</xref>]. The curvature of the serpenoid curve is given by<disp-formula id="EEq11"><label>(1)</label><mml:math id="M1"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:mi>ρ</mml:mi><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mi>α</mml:mi><mml:mi>b</mml:mi><mml:mrow><mml:mrow><mml:mi mathvariant="normal">sin</mml:mi></mml:mrow><mml:mo>⁡</mml:mo><mml:mrow><mml:mfenced separators="|"><mml:mrow><mml:mspace height="7.08pt" depth="0.12pt"/><mml:mi>b</mml:mi><mml:mi>s</mml:mi><mml:mspace height="7.08pt" depth="0.12pt"/></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>where <italic>α</italic> is amplitude angle (rad); <italic>b</italic> is constant of proportionality (rad/m); <italic>s</italic> is length of serpentine curve (m).</p>
+                <p>The snake-like robot is composed of modular units, which are connected by active revolute joints, and the change of position between relative modules results in the movement of the robot. The flexible architecture of snake-like robot makes it hard to make a turning movement like other legged robots. To ensure the snake-like robot can achieve high efficiency in turning movement, Ye et al. proposed several methods for the turning motion of snake-like robot [<xref rid="B30" ref-type="bibr">12</xref>]. The snake-like robot used in this paper is shown in <xref ref-type="fig" rid="fig3">Figure 3</xref> and made up of ten serial joints and each joint has one degree of freedom. A camera (the one encircled by the blue circle) is arranged on the head and a control module (the one encircled by the red circle) is fixed at the tail. Its physical connection is shown in <xref ref-type="fig" rid="fig4">Figure 4</xref>.</p>
+                <p>In the design of the communication system in a snake-like robot, a half-duplex asynchronous serial communication (8 bits, 1 stop, no parity) is utilized. Transmission speed is up to 1 Mbps. Link (physical) is TTL level multidrop (daisy chain type connector) considering minimizing physical cable.</p>
+                <p>The protocol of each modular unit communicating with the main controller is shown in <xref ref-type="fig" rid="fig5">Figure 5</xref>. Two 0XFF are the start code, ID is the number for the corresponding actuator, LENGTH is the length of the instruction, instruction is the instruction for the actuator to perform, PARAMETER is additional information needed to be sent other than the instruction, and the checksum is used to verify the signal. Distributed feedback compensation control is used as the control method. The specific control block diagram is shown in <xref ref-type="fig" rid="fig6">Figure 6</xref>.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <title>3. Motion Recognition and Parameter Optimization</title>
+              <p>Machine learning based on data is an important aspect of modern intelligence technology. Statistics study begins with the observation of data to conclude a model, which is the base of the forecast for future data or the data cannot be observed. Traditional statistics study the asymptotic theory when the number of samples tends to infinity. Existing learning methods are mostly based on this assumption. But, in practical problems, the number of samples is often limited, so they usually have an unsatisfactory performance. Compared with the traditional statistics, Statistical Learning Theory (SLT) is a specialized theory, which systematically studies the relationship between experiences risk and actual risk for various types of sets of functions, namely, the generalization bounds [<xref rid="B5" ref-type="bibr">5</xref>]. Vapnik and Kotz began to dedicate themselves to researching this theory from the 1960s [<xref rid="B12" ref-type="bibr">13</xref>]. In the mid-90s, because of the development of Vapnik's theory and the lack of substantive progress in the theory of neural network learning methods, SLT began to receive more appreciation. SLT was based on a solid theory and provided a unified framework for solving the learning problem with the small samples. It incorporates many of the existing methods, expected to help solve many difficult problems, for example, the selection of neural network architecture and the local minima problem. Based on this theory, there is a new universal learning method; support vector machine (SVM), using geometry classification method to find the optimal hyperplane and get the maximum margin classifier, has shown a lot of superiority compared to the existing method [<xref rid="B13" ref-type="bibr">14</xref>, <xref rid="B14" ref-type="bibr">15</xref>].</p>
+              <p>SVM is a more practical part of statistical theory, which was originally proposed by Vapnik et al. in 1992 to 1995 [<xref rid="B13" ref-type="bibr">14</xref>, <xref rid="B15" ref-type="bibr">16</xref>–<xref rid="B17" ref-type="bibr">18</xref>]. It is currently still in the development stage. SVM is a structure of risk minimization strategies, which compromise the empirical risk and confidence interval to obtain the actual minimum risk [<xref rid="B18" ref-type="bibr">19</xref>]. A SVM approaches problems by searching for the Maximum Marginal Hyperplane (MMH) where a hyperplane has an equal distance from the hyperplane to both sides of its margin to ensure the hyperplane is more accurate at classifying future data tuples [<xref rid="B19" ref-type="bibr">20</xref>]. Compared with the new algorithms like Extreme Learning Machine (ELM) [<xref rid="B20" ref-type="bibr">21</xref>], SVM is committed to using less parameters to express a complex model; it still has its advantage in methodology and is more plausible.</p>
+              <p>SVM classifies linear data directly. When the data is linearly inseparable, it transforms the original data into a higher dimensional space by using a nonlinear mapping, and then searches for a linear separating hyperplane in the new space. Nonlinear data processing steps are shown in <xref ref-type="fig" rid="fig7">Figure 7</xref>.</p>
+              <p>There are several modes of SVM, which can be used for data classification, regression, and distribution estimation [<xref rid="B21" ref-type="bibr">22</xref>]. This paper uses the C-Support Vector Classification (C-SVC) [<xref rid="B16" ref-type="bibr">17</xref>, <xref rid="B22" ref-type="bibr">23</xref>] to classify the data.</p>
+              <p>The distinguished hyperplane of the sample set <bold>X</bold> = {<bold>x</bold>
+<sub>1</sub>, <bold>x</bold>
+<sub>1</sub>,…, <bold>x</bold>
+<sub><italic>N</italic></sub>} can be shown by the formula<disp-formula id="EEq1"><label>(2)</label><mml:math id="M2"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup><mml:mi mathvariant="bold">x</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>where <bold>W</bold> is the weight vector and the direction of hyperplane. <italic>d</italic> is the dimension of the feature space. <italic>w</italic>
+<sub><italic>d</italic>+1</sub> is the offset of the hyperplane. During the course of looking for the best <bold>W</bold>
+<sup><italic>∗</italic></sup> to maximize the interval between the hyperplane and the closest sample, Lagrange multiplier method can be used to solve the problem of inequality constraint. The corresponding Lagrange function is<disp-formula id="EEq2"><label>(3)</label><mml:math id="M3"><mml:mtable style="T2"><mml:mtr><mml:mtd><mml:maligngroup/><mml:mi>L</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mspace height="7.08pt" depth="2.568pt"/><mml:mi mathvariant="bold">W</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>λ</mml:mi><mml:mspace height="7.08pt" depth="2.568pt"/></mml:mrow></mml:mfenced><mml:malignmark/><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup><mml:mi mathvariant="bold">W</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/><mml:mspace width="11.436553955078125pt"/><mml:mo>−</mml:mo><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mfenced open="[" close="]" separators="|"><mml:mrow><mml:mspace height="9.52998pt" depth="4.43001pt"/><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:mspace height="9.49698pt" depth="2.568pt"/><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msup><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mspace height="9.49698pt" depth="2.568pt"/></mml:mrow></mml:mfenced><mml:mo>−</mml:mo><mml:mn mathvariant="normal">1</mml:mn><mml:mspace height="9.52998pt" depth="4.43001pt"/></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mo>,</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>where <italic>λ</italic>
+<sub><italic>k</italic></sub> ≥ 0 and <italic>k</italic> = 1,2,…, <italic>N</italic> is the Lagrange coefficients to be determined.</p>
+              <p>To obtain a necessary condition for the extreme value in Lagrange function, the course of seeking the partial derivatives equaling zero of <bold>W</bold> and <italic>w</italic>
+<sub><italic>d</italic>+1</sub> is shown below:<disp-formula id="EEq3"><label>(4)</label><mml:math id="M4"><mml:mtable style="T17"><mml:mtr><mml:mtd><mml:maligngroup/><mml:msub><mml:mrow><mml:mfenced open="" close="|" separators="|"><mml:mrow><mml:mspace height="13.6pt" depth="7.18999pt"/><mml:mfrac><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mo>∂</mml:mo><mml:mi mathvariant="bold">W</mml:mi></mml:mrow></mml:mfrac><mml:mi>L</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.08pt" depth="2.568pt"/><mml:mi mathvariant="bold">W</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>λ</mml:mi><mml:mspace height="7.08pt" depth="2.568pt"/></mml:mrow></mml:mfenced><mml:mspace height="13.6pt" depth="7.18999pt"/></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi mathvariant="bold">W</mml:mi><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>∗</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:malignmark/><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>∗</mml:mi></mml:mrow></mml:msup><mml:mo>−</mml:mo><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>=</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:msub><mml:mrow><mml:mfenced open="" close="|" separators="|"><mml:mrow><mml:mspace height="13.6pt" depth="7.18999pt"/><mml:mfrac><mml:mrow><mml:mo>∂</mml:mo></mml:mrow><mml:mrow><mml:mo>∂</mml:mo><mml:mi mathvariant="bold">W</mml:mi></mml:mrow></mml:mfrac><mml:mi>L</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.08pt" depth="2.568pt"/><mml:mi mathvariant="bold">W</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>λ</mml:mi><mml:mspace height="7.08pt" depth="2.568pt"/></mml:mrow></mml:mfenced><mml:mspace height="13.6pt" depth="7.18999pt"/></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>∗</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:malignmark/><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>=</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>.</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>Namely,<disp-formula id="EEq4"><label>(5)</label><mml:math id="M5"><mml:mtable style="T17"><mml:mtr><mml:mtd><mml:maligngroup/><mml:msup><mml:mrow><mml:mi mathvariant="bold">W</mml:mi></mml:mrow><mml:mrow><mml:mi>∗</mml:mi></mml:mrow></mml:msup><mml:malignmark/><mml:mo>=</mml:mo><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:malignmark/><mml:mo>=</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>.</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>Convert it to the dual form:<disp-formula id="EEq5"><label>(6)</label><mml:math id="M6"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:msub><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="|"><mml:mrow><mml:mspace height="7.08pt" depth="0.12pt"/><mml:mi>λ</mml:mi><mml:mspace height="7.08pt" depth="0.12pt"/></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:mfrac><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mi> </mml:mi><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:mrow><mml:mo>+</mml:mo><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>To ensure distinguished hyperplane has the smallest risk of classification,<disp-formula id="EEq6"><label>(7)</label><mml:math id="M7"><mml:mtable style="T36"><mml:mtr><mml:mtd><mml:maligngroup/><mml:mtext>Maximise</mml:mtext><mml:malignmark/><mml:mi> </mml:mi><mml:msub><mml:mrow><mml:mi>L</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.08pt" depth="0.12pt"/><mml:mi>λ</mml:mi><mml:mspace height="7.08pt" depth="0.12pt"/></mml:mrow></mml:mfenced></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/><mml:mspace width="10pt"/><mml:mo>=</mml:mo><mml:mtext>Maximise</mml:mtext><mml:mfenced open="{" close="}" separators="|"><mml:mrow><mml:mspace height="16.99994pt" depth="13.359pt"/><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:mfrac><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:mi> </mml:mi><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:mrow><mml:mspace height="16.99994pt" depth="13.359pt"/></mml:mrow></mml:mfenced></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:mtext>Subject  to</mml:mtext><mml:malignmark/><mml:mi> </mml:mi><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>≥</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mo> </mml:mo><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>…</mml:mo><mml:mo>,</mml:mo><mml:mi>N</mml:mi><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/><mml:mi> </mml:mi><mml:mrow><mml:munderover><mml:mstyle displaystyle="true"><mml:mo stretchy="false">∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msub><mml:mrow><mml:mi>λ</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow><mml:msub><mml:mrow><mml:mi>y</mml:mi></mml:mrow><mml:mrow><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>.</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>The function showed above is the simple quadratic programming problem, which has standard solving algorithm. Once the problem is solved under the condition of <italic>λ</italic>
+<sub><italic>k</italic></sub> ≥ 0, <italic>k</italic> = 1,2,…, <italic>N</italic>, the optimal weight vector <bold>W</bold>
+<sup><italic>∗</italic></sup> will be got based on the formula shown in (<xref ref-type="disp-formula" rid="EEq4">5</xref>). Solutions meeting the requirements are called support vector.</p>
+              <p>When it comes to nonlinear classification, the data is usually mapped to a high-dimensional linear space by the kernel function in <xref ref-type="fig" rid="fig7">Figure 7</xref>. In this way the linearly inseparable data can be converted into linear separable data in a high-dimensional space. Three kinds of kernel functions are commonly used, namely, polynomial kernel of degree <italic>h</italic>, Gaussian radial basis function kernel, and Sigmoid kernel. Three kernel functions are as follows.</p>
+              <p>Polynomial kernel of degree <italic>h</italic> is<disp-formula id="EEq8"><label>(8)</label><mml:math id="M8"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:mi>K</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mspace height="4.29pt" depth="4.19899pt"/><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mspace height="4.29pt" depth="4.19899pt"/></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mfenced separators="|"><mml:mrow><mml:mspace height="6.35999pt" depth="4.19899pt"/><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn mathvariant="normal">1</mml:mn><mml:mspace height="6.35999pt" depth="4.19899pt"/></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>Gaussian radial basis function kernel is <disp-formula id="EEq9"><label>(9)</label><mml:math id="M9"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:mi>K</mml:mi><mml:mfenced separators="|"><mml:mrow><mml:mspace height="4.29pt" depth="4.19899pt"/><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mspace height="4.29pt" depth="4.19899pt"/></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mfenced open="‖" close="‖" separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo>/</mml:mo><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:msup><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>Sigmoid kernel is <disp-formula id="EEq10"><label>(10)</label><mml:math id="M10"><mml:mtable style="T1"><mml:mtr><mml:mtd><mml:mi>K</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="4.29pt" depth="4.19899pt"/><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mspace height="4.29pt" depth="4.19899pt"/></mml:mrow></mml:mfenced><mml:mo>=</mml:mo><mml:mrow><mml:mrow><mml:mi mathvariant="normal">tanh</mml:mi></mml:mrow><mml:mo>⁡</mml:mo><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.08pt" depth="4.19899pt"/><mml:mi>κ</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi>δ</mml:mi><mml:mspace height="7.08pt" depth="4.19899pt"/></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mo>.</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>
+</p>
+              <p>There are no golden rules for determining which admissible kernel will result in the most accurate result in SVM. In practice, the kernel chosen does not generally make a large difference in the resulting accuracy. SVM training always finds a global solution, unlike neural networks, such as backpropagation, where many local minima usually exist.</p>
+              <p>For the using of SVM, although the choosing of kernel generally does not make a large difference in result accuracy, when a kernel is chosen, there are still a number of parameters that should be optimized. In this paper, after selecting the Gaussian radial basis function, there are two parameters <italic>c</italic> and <italic>g</italic> that need to be optimized, where <italic>c</italic> is the penalty coefficient that means error tolerance; the higher the value is, the smaller the error can be tolerated. Parameter <italic>g</italic> determines the distribution of data after mapping to the new feature space.</p>
+              <p>There is no best way to select the SVM parameters. The most common way is to let <italic>c</italic> and <italic>g</italic> be within a certain range. In this paper, cross-validation method based on grid-search was used for the parameter optimization. Cross-validation is one of the more classic solutions [<xref rid="B21" ref-type="bibr">22</xref>]. The algorithm is conducted according to a basic idea that in the inner loop of cross-validation, once the recognition rate for the first time appears to be a local maximum, the parameter values are recorded and the inner loop ends. Finally, estimate the optimal parameters by calculating the arithmetic mean of the entire local maximum.</p>
+              <p>PSO is a new Evolutionary Algorithm (EA) developed in recent years [<xref rid="B24" ref-type="bibr">24</xref>]. The particle swarm is more than just a collection of particles. A particle by itself has almost no power to solve any problem. Progress occurs only when the particles interact. Particle swarm follows the optimal particle to search the solution space; each particle obtains a search direction and speed in next loop by comparing with the individual optimum value and global optimum value respectively with random perturbations distributed uniformly in a certain range. Compared with other EAs, the advantages of PSO are being simple, being easy to achieve, and few parameters to be adjusted. Using PSO with appropriate parameters can significantly improve the accuracy of SVM [<xref rid="B25" ref-type="bibr">25</xref>–<xref rid="B28" ref-type="bibr">28</xref>]. The formulas to update the primitive velocity and location are shown as follows:<disp-formula id="EEq100"><label>(11)</label><mml:math id="M11"><mml:mtable style="T18"><mml:mtr><mml:mtd><mml:maligngroup/><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:malignmark/><mml:mo>⟵</mml:mo><mml:mi>ω</mml:mi><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="6.82999pt" depth="2.59pt"/><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:msub><mml:mspace height="6.82999pt" depth="2.59pt"/></mml:mrow></mml:mfenced><mml:mo>⊗</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.92pt" depth="3.045pt"/><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mspace height="7.92pt" depth="3.045pt"/></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mover accent="true"><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="6.82999pt" depth="2.59pt"/><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:msub><mml:mspace height="6.82999pt" depth="2.59pt"/></mml:mrow></mml:mfenced></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/><mml:mspace width="19.5565338134765625pt"/><mml:mo>⊗</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mspace height="7.92pt" depth="4.76pt"/><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mspace height="7.92pt" depth="4.76pt"/></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:malignmark/><mml:mo>⟵</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:maligngroup/><mml:malignmark/></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula>where <inline-formula><mml:math id="M12"><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the current location; <inline-formula><mml:math id="M13"><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the previous personal best position; <inline-formula><mml:math id="M14"><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is the previous global best position; <inline-formula><mml:math id="M15"><mml:mrow><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> is velocity and <italic>ω</italic> is inertia weight; <inline-formula><mml:math id="M16"><mml:mover accent="true"><mml:mrow><mml:mi>U</mml:mi></mml:mrow><mml:mo>→</mml:mo></mml:mover><mml:mo stretchy="false">(</mml:mo><mml:mn mathvariant="normal">0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>ϕ</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math></inline-formula> represents a vector of random numbers uniformly distributed in [0, <italic>φ</italic>
+<sub><italic>i</italic></sub>] which is randomly generated at each iteration and for each particle; ⊗ is componentwise multiplication</p>
+              <p>In the original version of PSO, velocity of each particle is limited to [−<italic>V</italic>
+<sub>max</sub>, +<italic>V</italic>
+<sub>max</sub>].</p>
+              <p>The program flow using the SVM, whose parameters were chosen by the PSO to obtain a classification model, is shown in <xref ref-type="fig" rid="fig8">Figure 8</xref>.</p>
+            </sec>
+            <sec id="sec4">
+              <title>4. Experiment</title>
+              <p>In this paper, we focus on the planet surface EVA, where the autonomous robots need assistance on path planning, mission guidance, and so forth. In the process of classification of HRI instructions, the above learning method, SVM, with a small number of learning samples is used to classify the instructions. For the SVM parameter optimization, PSO algorithm was used to optimize SVM parameters <italic>c</italic> and <italic>g</italic> by the way of cross-validation. The found optimal parameters will be used to find the best SVM model. The software package LIBSVM we used was developed in [<xref rid="B21" ref-type="bibr">22</xref>].</p>
+              <p>In order to verify the accuracy and robustness of the proposed method, two experiments are conducted. First, the proposed methods are evaluated on 16 hand gestures selected from 36 hand gestures in the ASL. Second, the hand recognition algorithm has been integrated into a snake-like robot, and validation is then made with a space suit.</p>
+              <sec id="sec4.1">
+                <title>4.1. Hand Gesture Recognition</title>
+                <p>ASL has 36 hand gestures, 26 letters, and 6000 words. Although most of the ASL alphabet letters depend on finger bending, some of them also depend on hand orientation and two of them are dynamic. There are some similarities between <italic>g</italic> and <italic>q</italic>, <italic>h</italic> and <italic>u</italic>, and <italic>k</italic> and <italic>p</italic>. These couples have basically the same hand shape, but their hand orientation differs from the others. There are hand shape similarities between <italic>i</italic> and <italic>j</italic> and <italic>x</italic> and <italic>z</italic>, but <italic>j</italic> and <italic>z</italic> are dynamic characters.</p>
+                <p>In this paper, we selected 16 in 36 of ASL shown in <xref ref-type="fig" rid="fig9">Figure 9</xref> for the classification and identification experiment; corresponding gestures in the experiment are shown in <xref ref-type="fig" rid="fig10">Figure 10</xref>. For each gesture, we collected 15 sets of data, from which we use 10 for training and other 5 for the testing. The test data is normalized before testing the accuracy. In addition, we collected 5 new sets of hand shapes for each gesture to test the trained model.</p>
+                <p>For a more detailed analysis on the effect of using PSO for SVM cross-validation, we calculated the average Cross-Validation Accuracy (CVA) of the SVM cross-validation for different parameters of PSO, as shown in Tables <xref ref-type="table" rid="tab2">2</xref> and <xref ref-type="table" rid="tab3">3</xref> (each group has 6 experiments). At first, we fixed the maximum generation as 5 and adjusted the size of PSO population shown in <xref ref-type="table" rid="tab2">Table 2</xref>. The parameter of PSO is the maximum generation or the size of PSO population. Obviously, when the size of PSO population was equal to 5, the CVA reached its maximum. With the population as 5 and the maximum generation, the results shown in <xref ref-type="table" rid="tab3">Table 3</xref> indicated that when the maximum generation is equal to 5, the CVA reached its maximum.</p>
+                <p>From Tables <xref ref-type="table" rid="tab2">2</xref> and <xref ref-type="table" rid="tab3">3</xref>, we can also know that using PSO with appropriate parameters can significantly improve the accuracy of SVM in the process of cross-validation. Compared with the results of gesture recognition using ELM in [<xref rid="B31" ref-type="bibr">29</xref>], few parameters were used in this paper, and SVM had more stable results than the Extreme Learning Machine.</p>
+                <p>As we can see, the classification accuracy can always reach 100% except the size of PSO population that is too small. It demonstrates that the method in this paper has a high accuracy and strong robustness.</p>
+              </sec>
+              <sec id="sec4.2">
+                <title>4.2. Snake-Like Robot Remote Control with Hand Gestures</title>
+                <p>A snake-like robot plays a powerful role in space exploratory activities. In this paper, a snake-like robot motion control was employed of testing the accuracy, stability, and robustness of the proposed approach. We modeled the environment of astronauts on other planets, embedded the controller in the glove, and controlled the movement of the snake-like robot. Overall structure of the experiment is shown in the left of <xref ref-type="fig" rid="fig11">Figure 11</xref> and a schematic diagram of control signal flow shown in the right.</p>
+                <p>The hand gestures have been integrated into the glove-robot control system. Various motions have been identified for the snake-like robot, such as turning left/right and moving forward/backward. It demonstrates that the proposed system including the hardware and software is effective and robust. It is a good prototype for the HRI used in the space exploration. The corresponding hand gestures, robot movements, and simulated motion tracks are shown in <xref ref-type="fig" rid="fig12">Figure 12</xref>, respectively.</p>
+              </sec>
+            </sec>
+            <sec id="sec5">
+              <title>5. Conclusion and Future Works</title>
+              <p>This paper proposed a gesture-type user control system for the space exploration based on the actual application environment for the purpose of utility and stability. In this study, bending sensors were integrated with a space suit to control a snake-like robot, which was designed for the space exploration. SVM was used as the gesture signal pattern recognizer, and PSO algorithm was used for optimizing the parameters of SVM. The system classified the action sequence and ensured the accuracy and real-time performance of the control process. The experimental results showed that this system was effective with a high accuracy, reliability, and robustness.</p>
+              <p>In the future, the system will be improved with a series of command functions so that astronauts can interrupt robot's operations whenever necessary to provide guidance and assistance for the mission. Simultaneously, the collaboration between the astronaut and the robot will be strengthened and the interactions will be more precise and concise with advanced nonlinear methods [<xref rid="B32" ref-type="bibr">30</xref>, <xref rid="B33" ref-type="bibr">31</xref>]. Finally, the HRI system will be further improved with a natural and friendly interface so that nontechnical astronauts can also have a barrier-free communication with robots.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>This research is supported by Research Fund of China Manned Space Engineering (050102), the Key Research Program of the Chinese Academy of Sciences (Y4A3210301), the National Science Foundation of China (51175494, 61128008, and 51575412), and the State Key Laboratory of Robotics Foundation.</p>
+            </ack>
+            <sec>
+              <title>Competing Interests</title>
+              <p>The authors declare that they have no competing interests.</p>
+            </sec>
+            <ref-list>
+              <ref id="B1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rempel</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camilleri</surname>
+                      <given-names>M. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>D. L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The design of hand gestures for human-computer interaction: lessons from sign language interpreters</article-title>
+                  <source>
+                    <italic>International Journal of Human Computer Studies</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>72</volume>
+                  <issue>10-11</issue>
+                  <fpage>728</fpage>
+                  <lpage>735</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijhcs.2014.05.003</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84902687843</pub-id>
+                  <pub-id pub-id-type="pmid">26028955</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hasan</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdul-Kareem</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human–computer interaction using vision-based hand gesture recognition systems: a survey</article-title>
+                  <source>
+                    <italic>Neural Computing and Applications</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>25</volume>
+                  <issue>2</issue>
+                  <fpage>251</fpage>
+                  <lpage>261</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00521-013-1481-0</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84927650125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fong</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nourbakhsh</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interaction challenges in human-robot space exploration</article-title>
+                  <source>
+                    <italic>Interactions</italic>
+                  </source>
+                  <year>2005</year>
+                  <volume>12</volume>
+                  <issue>2</issue>
+                  <fpage>42</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1145/1052438.1052462</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kaushik</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jain</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gesture based interaction NUI: an overview</article-title>
+                  <source>
+                    <italic>International Journal of Engineering Trends and Technology</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>9</volume>
+                  <issue>12</issue>
+                  <fpage>633</fpage>
+                  <lpage>636</lpage>
+                  <pub-id pub-id-type="doi">10.14445/22315381/IJETT-V9P319</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ionescu</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coquin</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lambert</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buzuloiu</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic hand gesture recognition using the skeleton of the hand</article-title>
+                  <source>
+                    <italic>Eurasip Journal on Applied Signal Processing</italic>
+                  </source>
+                  <year>2005</year>
+                  <volume>2005</volume>
+                  <issue>13</issue>
+                  <fpage>2101</fpage>
+                  <lpage>2109</lpage>
+                  <pub-id pub-id-type="doi">10.1155/ASP.2005.2101</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-28844457618</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rautaray</surname>
+                      <given-names>S. S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Agrawal</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Vision based hand gesture recognition for human computer interaction: a survey</article-title>
+                  <source>
+                    <italic>Artificial Intelligence Review</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>43</volume>
+                  <issue>1</issue>
+                  <fpage>1</fpage>
+                  <lpage>54</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B7">
+                <label>7</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Murthy</surname>
+                      <given-names>G. R. S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jadon</surname>
+                      <given-names>R. S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hand gesture recognition using neural networks</article-title>
+                  <conf-name>Proceedings of the IEEE 2nd International Advance Computing Conference (IACC '10)</conf-name>
+                  <conf-date>February 2010</conf-date>
+                  <conf-loc>Patiala, India</conf-loc>
+                  <publisher-name>IEEE</publisher-name>
+                  <fpage>134</fpage>
+                  <lpage>138</lpage>
+                  <pub-id pub-id-type="doi">10.1109/iadcc.2010.5423024</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-77951178312</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lechevalier</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishimura</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Storz</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diversity in patterns of industry evolution: how an intrapreneurial regime contributed to the emergence of the service robot industry</article-title>
+                  <source>
+                    <italic>Research Policy</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>43</volume>
+                  <issue>10</issue>
+                  <fpage>1716</fpage>
+                  <lpage>1729</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.respol.2014.07.012</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84927691043</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>China's robotics successes abound</article-title>
+                  <source>
+                    <italic>Science</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>345</volume>
+                  <issue>6196</issue>
+                  <fpage>p. 523</fpage>
+                  <pub-id pub-id-type="doi">10.1126/science.345.6196.523-a</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84905908398</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castillo Cruces</surname>
+                      <given-names>R. A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wahrburg</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improving robot arm control for safe and robust haptic cooperation in orthopaedic procedures</article-title>
+                  <source>
+                    <italic>The International Journal of Medical Robotics and Computer Assisted Surgery</italic>
+                  </source>
+                  <year>2007</year>
+                  <volume>3</volume>
+                  <issue>4</issue>
+                  <fpage>316</fpage>
+                  <lpage>322</lpage>
+                  <pub-id pub-id-type="doi">10.1002/rcs.156</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-38949193954</pub-id>
+                  <pub-id pub-id-type="pmid">17948919</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29">
+                <label>11</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hirose</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mori</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biologically inspired snake-like robots</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Robotics and Biomimetics (ROBIO '04)</conf-name>
+                  <conf-date>August 2004</conf-date>
+                  <publisher-name>IEEE</publisher-name>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-28344456040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30">
+                <label>12</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Turning and side motion of snake-like robot</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA '04)</conf-name>
+                  <conf-date>May 2004</conf-date>
+                  <publisher-name>IEEE</publisher-name>
+                  <fpage>5075</fpage>
+                  <lpage>5080</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-3042694080</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12">
+                <label>13</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vapnik</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kotz</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic>Estimation of Dependences Based on Empirical Data</italic>
+                  </source>
+                  <year>2006</year>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="B13">
+                <label>14</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cherkassky</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mulier</surname>
+                      <given-names>F. M.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic>Learning From Data: Concepts, Theory, and Methods</italic>
+                  </source>
+                  <year>2007</year>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <publisher-name>John Wiley &amp; Sons</publisher-name>
+                  <pub-id pub-id-type="doi">10.1002/9780470140529</pub-id>
+                  <pub-id pub-id-type="other">MR2334401</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84889408244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miao</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparing the learning effectiveness of BP, ELM, I-ELM, and SVM for corporate credit ratings</article-title>
+                  <source>
+                    <italic>Neurocomputing</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>128</volume>
+                  <fpage>285</fpage>
+                  <lpage>295</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neucom.2013.02.054</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84893647885</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15">
+                <label>16</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boser</surname>
+                      <given-names>B. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guyon</surname>
+                      <given-names>I. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vapnik</surname>
+                      <given-names>V. N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A training algorithm for optimal margin classifiers</article-title>
+                  <conf-name>Proceedings of the 5th Annual ACM Workshop on Computational Learning Theory</conf-name>
+                  <conf-date>July 1992</conf-date>
+                  <publisher-name>ACM</publisher-name>
+                  <fpage>144</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-0026966646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cortes</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vapnik</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Support-vector networks</article-title>
+                  <source>
+                    <italic>Machine Learning</italic>
+                  </source>
+                  <year>1995</year>
+                  <volume>20</volume>
+                  <issue>3</issue>
+                  <fpage>273</fpage>
+                  <lpage>297</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00994018</pub-id>
+                  <pub-id pub-id-type="other">ZBL0831.68098</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-34249753618</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17">
+                <label>18</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schiilkop</surname>
+                      <given-names>P. B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Burgest</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vapnik</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extracting support data for a given task</article-title>
+                  <conf-name>Proceedings of the 1st International Conference on Knowledge Discovery &amp; Data Mining</conf-name>
+                  <conf-date>August 1995</conf-date>
+                  <fpage>252</fpage>
+                  <lpage>257</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B18">
+                <label>19</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fukunaga</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic>Introduction to Statistical Pattern Recognition</italic>
+                  </source>
+                  <year>2013</year>
+                  <publisher-loc>Boston, Mass, USA</publisher-loc>
+                  <publisher-name>Academic Press</publisher-name>
+                  <pub-id pub-id-type="other">MR1075415</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19">
+                <label>20</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamber</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pei</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <source>
+                    <italic>Data Mining: Concepts and Techniques</italic>
+                  </source>
+                  <year>2006</year>
+                  <edition>Southeast Asia</edition>
+                  <publisher-name>Morgan Kaufmann</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="B20">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>G.-B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Q.-Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Siew</surname>
+                      <given-names>C.-K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extreme learning machine: theory and applications</article-title>
+                  <source>
+                    <italic>Neurocomputing</italic>
+                  </source>
+                  <year>2006</year>
+                  <volume>70</volume>
+                  <issue>1–3</issue>
+                  <fpage>489</fpage>
+                  <lpage>501</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neucom.2005.12.126</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-33745903481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>C.-C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>C.-J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>LIBSVM: a library for support vector machines</article-title>
+                  <source>
+                    <italic>ACM Transactions on Intelligent Systems and Technology</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>2</volume>
+                  <issue>3, article 27</issue>
+                  <pub-id pub-id-type="doi">10.1145/1961189.1961199</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-79955702502</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22">
+                <label>23</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boser</surname>
+                      <given-names>B. E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guyon</surname>
+                      <given-names>I. M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vapnik</surname>
+                      <given-names>V. N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Training algorithm for optimal margin classifiers</article-title>
+                  <conf-name>Proceedings of the 5th Annual ACM Workshop on Computational Learning Theory</conf-name>
+                  <conf-date>July 1992</conf-date>
+                  <publisher-name>ACM</publisher-name>
+                  <fpage>144</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="other">2-s2.0-0026966646</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24">
+                <label>24</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Particle swarm optimization</article-title>
+                  <source>
+                    <italic>Encyclopedia of Machine Learning</italic>
+                  </source>
+                  <year>2010</year>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                  <fpage>760</fpage>
+                  <lpage>766</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.-J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A GA-based feature selection and parameters optimization for support vector machines</article-title>
+                  <source>
+                    <italic>Expert Systems with Applications</italic>
+                  </source>
+                  <year>2006</year>
+                  <volume>31</volume>
+                  <issue>2</issue>
+                  <fpage>231</fpage>
+                  <lpage>240</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.eswa.2005.09.024</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-33748076461</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dun</surname>
+                      <given-names>J.-F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A distributed PSO–SVM hybrid system with feature selection and parameter optimization</article-title>
+                  <source>
+                    <italic>Applied Soft Computing Journal</italic>
+                  </source>
+                  <year>2008</year>
+                  <volume>8</volume>
+                  <issue>4</issue>
+                  <fpage>1381</fpage>
+                  <lpage>1391</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asoc.2007.10.007</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-50149108380</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abdi</surname>
+                      <given-names>M. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Giveki</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Automatic detection of erythemato-squamous diseases using PSO–SVM based on association rules</article-title>
+                  <source>
+                    <italic>Engineering Applications of Artificial Intelligence</italic>
+                  </source>
+                  <year>2013</year>
+                  <volume>26</volume>
+                  <issue>1</issue>
+                  <fpage>603</fpage>
+                  <lpage>608</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.engappai.2012.01.017</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84870055956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>García Nieto</surname>
+                      <given-names>P. J.</given-names>
+                    </name>
+                    <name>
+                      <surname>García-Gonzalo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sánchez Lasheras</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Cos Juez</surname>
+                      <given-names>F. J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hybrid PSO-SVM-based method for forecasting of the remaining useful life for aircraft engines and evaluation of its reliability</article-title>
+                  <source>
+                    <italic>Reliability Engineering and System Safety</italic>
+                  </source>
+                  <year>2015</year>
+                  <volume>138</volume>
+                  <fpage>219</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ress.2015.02.001</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84923554089</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deng</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>G. B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extreme learning machine for multilayer perceptron</article-title>
+                  <source>
+                    <italic>IEEE Transactions on Neural Networks &amp; Learning Systems</italic>
+                  </source>
+                  <year>2016</year>
+                  <volume>27</volume>
+                  <issue>4</issue>
+                  <fpage>809</fpage>
+                  <lpage>821</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TNNLS.2015.2424995</pub-id>
+                  <pub-id pub-id-type="pmid">25966483</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ju</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A unified fuzzy framework for human-hand motion recognition</article-title>
+                  <source>
+                    <italic>IEEE Transactions on Fuzzy Systems</italic>
+                  </source>
+                  <year>2011</year>
+                  <volume>19</volume>
+                  <issue>5</issue>
+                  <fpage>901</fpage>
+                  <lpage>913</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TFUZZ.2011.2150756</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-80053655301</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ju</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human hand motion analysis with multisensory information</article-title>
+                  <source>
+                    <italic>IEEE/ASME Transactions on Mechatronics</italic>
+                  </source>
+                  <year>2014</year>
+                  <volume>19</volume>
+                  <issue>2</issue>
+                  <fpage>456</fpage>
+                  <lpage>466</lpage>
+                  <pub-id pub-id-type="doi">10.1109/tmech.2013.2240312</pub-id>
+                  <pub-id pub-id-type="other">2-s2.0-84895919785</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="fig1" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Schematic diagram of astronauts collaborating with agent [<xref rid="B3" ref-type="bibr">3</xref>].</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.001"/>
+            </fig>
+            <fig id="fig2" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Outline of the control system.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.002"/>
+            </fig>
+            <fig id="fig3" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>Structure of the snake-like robot.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.003"/>
+            </fig>
+            <fig id="fig4" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Physical connection.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.004"/>
+            </fig>
+            <fig id="fig5" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>Snake-like robot communication protocol.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.005"/>
+            </fig>
+            <fig id="fig6" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <p>Control block structure.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.006"/>
+            </fig>
+            <fig id="fig7" orientation="portrait" position="float">
+              <label>Figure 7</label>
+              <caption>
+                <p>SVM nonlinear data processing principle.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.007"/>
+            </fig>
+            <fig id="fig8" orientation="portrait" position="float">
+              <label>Figure 8</label>
+              <caption>
+                <p>Flow diagram of the overall program.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.008"/>
+            </fig>
+            <fig id="fig9" orientation="portrait" position="float">
+              <label>Figure 9</label>
+              <caption>
+                <p>16 kinds of gestures in ASL.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.009"/>
+            </fig>
+            <fig id="fig10" orientation="portrait" position="float">
+              <label>Figure 10</label>
+              <caption>
+                <p>Corresponding gestures in experiment.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.010"/>
+            </fig>
+            <fig id="fig11" orientation="portrait" position="float">
+              <label>Figure 11</label>
+              <caption>
+                <p>Experimental system.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.011"/>
+            </fig>
+            <fig id="fig12" orientation="portrait" position="float">
+              <label>Figure 12</label>
+              <caption>
+                <p>Snake-like robot gesture control experiments.</p>
+              </caption>
+              <graphic xlink:href="CIN2016-7845102.012"/>
+            </fig>
+            <table-wrap id="tab1" orientation="portrait" position="float">
+              <label>Table 1</label>
+              <caption>
+                <p>Main parameters of the device.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Items</th>
+                    <th align="left" rowspan="1" colspan="1">Properties</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Bend sensors</td>
+                    <td align="left" rowspan="1" colspan="1">Temperature range: −35°C~+80°C; resistance tolerance: ±30%</td>
+                  </tr>
+                  <tr>
+                    <td align="center" colspan="2" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Stm32 controller</td>
+                    <td align="left" rowspan="1" colspan="1">Cores: Cortex-M3 32-bit RISC, 512 K Flash, 64 K RAM; operating frequency: 72 MHz, 1.25 DMIPS/MHz</td>
+                  </tr>
+                  <tr>
+                    <td align="center" colspan="2" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">NRF24L01</td>
+                    <td align="left" rowspan="1" colspan="1">Transmission distance: 150 m; digital interface (SPI) speed: 0~10 Mbps; on the air data rate 1 or 2 Mbps</td>
+                  </tr>
+                  <tr>
+                    <td align="center" colspan="2" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">Servos</td>
+                    <td align="left" rowspan="1" colspan="1">Power supply range: 7~10 V; operating temperature: −5°C~+85°C; communication speed: 7343 bps~1 Mbps</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="tab2" orientation="portrait" position="float">
+              <label>Table 2</label>
+              <caption>
+                <p>Average CVA when the maximum generation is fixed.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Parameter of PSO</th>
+                    <th align="center" rowspan="1" colspan="1">CVA</th>
+                    <th align="center" rowspan="1" colspan="1">Classification accuracy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖2</td>
+                    <td align="center" rowspan="1" colspan="1">55.1968%</td>
+                    <td align="center" rowspan="1" colspan="1">64.79%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖3</td>
+                    <td align="center" rowspan="1" colspan="1">77.1160%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖4</td>
+                    <td align="center" rowspan="1" colspan="1">77.2569%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖5</td>
+                    <td align="center" rowspan="1" colspan="1">81.3294%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖6</td>
+                    <td align="center" rowspan="1" colspan="1">78.9453%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖7</td>
+                    <td align="center" rowspan="1" colspan="1">77.5563%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="tab3" orientation="portrait" position="float">
+              <label>Table 3</label>
+              <caption>
+                <p>Average CVA when the size of PSO population is fixed.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="left" rowspan="1" colspan="1">Parameter of PSO</th>
+                    <th align="center" rowspan="1" colspan="1">CVA</th>
+                    <th align="center" rowspan="1" colspan="1">Classification accuracy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">2∖5</td>
+                    <td align="center" rowspan="1" colspan="1">74.1435%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">3∖5</td>
+                    <td align="center" rowspan="1" colspan="1">76.9485%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">4∖5</td>
+                    <td align="center" rowspan="1" colspan="1">76.7045%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">5∖5</td>
+                    <td align="center" rowspan="1" colspan="1">81.3294%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">6∖5</td>
+                    <td align="center" rowspan="1" colspan="1">80.3364%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                  <tr>
+                    <td align="left" rowspan="1" colspan="1">7∖5</td>
+                    <td align="center" rowspan="1" colspan="1">80.2778%</td>
+                    <td align="center" rowspan="1" colspan="1">100%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

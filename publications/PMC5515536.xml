@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:01:39Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5515536" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5515536</identifier>
+        <datestamp>2017-07-19</datestamp>
+        <setSpec>npjmicrogr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Microgravity</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Microgravity</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Microgravity</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2373-8065</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5515536</article-id>
+              <article-id pub-id-type="pmcid">PMC5515536</article-id>
+              <article-id pub-id-type="pmc-uid">5515536</article-id>
+              <article-id pub-id-type="pmid">28725742</article-id>
+              <article-id pub-id-type="pii">npjmgrav201635</article-id>
+              <article-id pub-id-type="doi">10.1038/npjmgrav.2016.35</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Nanopore sequencing in microgravity</article-title>
+                <alt-title alt-title-type="running">Nanopore sequencing</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McIntyre</surname>
+                    <given-names>Alexa B R</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rizzardi</surname>
+                    <given-names>Lindsay</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2866-9625</contrib-id>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yu</surname>
+                    <given-names>Angela M</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Alexander</surname>
+                    <given-names>Noah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rosen</surname>
+                    <given-names>Gail L</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Botkin</surname>
+                    <given-names>Douglas J</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stahl</surname>
+                    <given-names>Sarah E</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>John</surname>
+                    <given-names>Kristen K</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <xref ref-type="aff" rid="aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Castro-Wallace</surname>
+                    <given-names>Sarah L</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff8">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McGrath</surname>
+                    <given-names>Ken</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff9">9</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Burton</surname>
+                    <given-names>Aaron S</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">6</xref>
+                  <xref ref-type="corresp" rid="caf1">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Feinberg</surname>
+                    <given-names>Andrew P</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">3</xref>
+                  <xref ref-type="corresp" rid="caf2">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mason</surname>
+                    <given-names>Christopher E</given-names>
+                  </name>
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1850-1642</contrib-id>
+                  <xref ref-type="aff" rid="aff2">2</xref>
+                  <xref ref-type="aff" rid="aff10">10</xref>
+                  <xref ref-type="aff" rid="aff11">11</xref>
+                  <xref ref-type="corresp" rid="caf3">*</xref>
+                </contrib>
+                <aff id="aff1"><label>1</label><institution>Tri-Institutional Training Program in Computational Biology and Medicine</institution>, New York, NY, <country>USA</country></aff>
+                <aff id="aff2"><label>2</label><institution>Department of Physiology and Biophysics, Weill Cornell Medical College</institution>, New York, NY, <country>USA</country></aff>
+                <aff id="aff3"><label>3</label><institution>Center for Epigenetics, Johns Hopkins University School of Medicine</institution>, Baltimore, MD, <country>USA</country></aff>
+                <aff id="aff4"><label>4</label><institution>Department of Electrical and Computer Engineering, Drexel University</institution>, Philadelphia, PA, <country>USA</country></aff>
+                <aff id="aff5"><label>5</label><institution>JES Tech</institution>, Houston, TX, <country>USA</country></aff>
+                <aff id="aff6"><label>6</label><institution>Exploration Integration and Science Directorate, Astromaterials Research and Exploration Science Division, NASA Johnson Space Center</institution>, Houston, TX, <country>USA</country></aff>
+                <aff id="aff7"><label>7</label><institution>NASA Postdoctoral Program, NASA Johnson Space Center</institution>, Houston, TX, <country>USA</country></aff>
+                <aff id="aff8"><label>8</label><institution>Biomedical Research and Environmental Sciences Division, NASA Johnson Space Center</institution>, Houston, TX, <country>USA</country></aff>
+                <aff id="aff9"><label>9</label><institution>Australian Genome Research Facility, Gehrmann Labs, University of Queensland</institution>, St Lucia, QLD, <country>Australia</country></aff>
+                <aff id="aff10"><label>10</label><institution>The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</institution>, New York, NY, <country>USA</country></aff>
+                <aff id="aff11"><label>11</label><institution>The Feil Family Brain and Mind Research Institute (BMRI)</institution>, New York, NY, <country>USA</country></aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="caf1"><label>*</label>
+(<email>aaron.burton@nasa.gov</email>)</corresp>
+                <corresp id="caf2"><label>*</label>
+(<email>afeinberg@jhu.edu</email>)</corresp>
+                <corresp id="caf3"><label>*</label>
+(<email>chm2042@med.cornell.edu</email>)</corresp>
+                <fn id="contrib" fn-type="con">
+                  <p>A.S.B., A.P.F., and C.E.M. designed the experiments, D.J.B. prepared the sample libraries. K.K.J., S.L.C.W. and A.S.B. developed the operations concepts for in-flight loading, and modified the software settings to allow sequencing in-flight. N.A. consulted on sequencing protocols and performed experiments with R6 pores. K.M. generated R9 pore data, and S.E.S. R7 pore data. L.R. and A.P.F. ran sequencing in-flight. A.B.R.M. analyzed the data and developed novel methods along with A.M.Y., G.L.R. and C.E.M.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>20</day>
+                <month>10</month>
+                <year>2016</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2016</year>
+              </pub-date>
+              <volume>2</volume>
+              <fpage>16035</fpage>
+              <lpage/>
+              <history>
+                <date date-type="received">
+                  <day>25</day>
+                  <month>01</month>
+                  <year>2016</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>24</day>
+                  <month>06</month>
+                  <year>2016</year>
+                </date>
+                <date date-type="accepted">
+                  <day>07</day>
+                  <month>08</month>
+                  <year>2016</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2016 The Author(s)</copyright-statement>
+                <copyright-year>2016</copyright-year>
+                <copyright-holder>The Author(s)</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <!--author-paid-->
+                  <license-p> This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Rapid DNA sequencing and analysis has been a long-sought goal in remote research and point-of-care medicine. In microgravity, DNA sequencing can facilitate novel astrobiological research and close monitoring of crew health, but spaceflight places stringent restrictions on the mass and volume of instruments, crew operation time, and instrument functionality. The recent emergence of portable, nanopore-based tools with streamlined sample preparation protocols finally enables DNA sequencing on missions in microgravity. As a first step toward sequencing in space and aboard the International Space Station (ISS), we tested the Oxford Nanopore Technologies MinION during a parabolic flight to understand the effects of variable gravity on the instrument and data. In a successful proof-of-principle experiment, we found that the instrument generated DNA reads over the course of the flight, including the first ever sequenced in microgravity, and additional reads measured after the flight concluded its parabolas. Here we detail modifications to the sample-loading procedures to facilitate nanopore sequencing aboard the ISS and in other microgravity environments. We also evaluate existing analysis methods and outline two new approaches, the first based on a wave-fingerprint method and the second on entropy signal mapping. Computationally light analysis methods offer the potential for <italic>in situ</italic> species identification, but are limited by the error profiles (stays, skips, and mismatches) of older nanopore data. Higher accuracies attainable with modified sample processing methods and the latest version of flow cells will further enable the use of nanopore sequencers for diagnostics and research in space.</p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Introduction</title>
+              <p>Remote molecular diagnostics on Earth and in space necessitate portable technologies. In microgravity, microbes show increased virulence,<sup><xref ref-type="bibr" rid="bib1">1</xref>,<xref ref-type="bibr" rid="bib2">2</xref></sup> while humans show immune dysregulation.<sup><xref ref-type="bibr" rid="bib3">3</xref>,<xref ref-type="bibr" rid="bib4">4</xref></sup> This is a precarious combination aboard confined vessels with no ready access to medical professionals and a limited range of supplies. Sequencing technologies could prove critical for rapid responses to medical infections in space, for instance in deciding whether to use antibiotics and, if so, which ones. Single-molecule methods can also identify modified nucleic acids,<sup><xref ref-type="bibr" rid="bib5">5</xref>,<xref ref-type="bibr" rid="bib6">6</xref>,<xref ref-type="bibr" rid="bib7">7</xref>,<xref ref-type="bibr" rid="bib8">8</xref></sup> a potentially important aspect to monitoring crew health. Nanopore sequencers, as general current sensing devices, could also assist in the search for extra-terrestrial life by increasing the range of detectable polymers beyond the canonical nucleobases of DNA and RNA.<sup><xref ref-type="bibr" rid="bib9">9</xref>,<xref ref-type="bibr" rid="bib10">10</xref></sup></p>
+              <p>The MinION sequencer from Oxford Nanopore Technologies (ONT) is a small sequencing device (4"×1.5"×1", with a mass of ~100 g) that draws power from and transmits data to a computer through a single USB 3.0 connection.<sup><xref ref-type="bibr" rid="bib11">11</xref></sup> Libraries consist of double-stranded DNA molecules with a hairpin adapter joining the strands at one end and a motor protein attached to the other end. This structure permits sequencing of both strands of the library templates when the template strand, hairpin adapter, and complementary strand pass through the pore in succession. Consensus information from the “2D” reads produces more accurate base calls than template or complement strands alone.</p>
+              <p>The nucleotides in the pore at a given time disrupt current flow with a signal specific to their identity. “Events” are called at time points where raw electric current measurements change significantly, which should reflect the entry of a single new nucleotide into the pore. However, the current detection process remains noisy and dependent on reaction conditions like temperature. Past versions of the pipeline from ONT used a hidden Markov model (HMM) algorithm with a Viterbi decoder algorithm by Metrichor to call bases from event data,<sup><xref ref-type="bibr" rid="bib12">12</xref></sup> but traditional alignment software failed to map most reads;<sup><xref ref-type="bibr" rid="bib13">13</xref>,<xref ref-type="bibr" rid="bib14">14</xref></sup> for the newest version of the pore (‘R9’), Metrichor implements a recurrent neural network for improved base calling.</p>
+              <p>Significant challenges remain in the production and interpretation of nanopore sequencing data because of the high error rates (~15% for older 2D reads<sup><xref ref-type="bibr" rid="bib13">13</xref></sup>). However, the long reads, on the order of several thousands of bases or more, are often sufficient to permit taxonomic classification at the species or genus levels.<sup><xref ref-type="bibr" rid="bib15">15</xref></sup> Furthermore, researchers using modified sample processing methods have shown accuracies of &gt;95% with the R7 pores and MAP-006 sequencing kits.<sup><xref ref-type="bibr" rid="bib16">16</xref></sup> In addition, recent data have shown that sequencing yield and quality are likely to improve as the technology develops; the latest pores (R9) give accuracies of 95% for 2D reads and 85% for 1D reads.</p>
+              <p>Considering the portability of the MinION sequencer and the utility of the resulting data for microbial identification, here we tested the MinION device during a parabolic flight to prepare for a 2016 NASA mission aboard the International Space Station. Although sequencing libraries were constructed on the ground for the present experiments, we posit that library preparation could also be performed in space with the liquid handling procedures described in Ref. <xref ref-type="bibr" rid="bib17">17</xref>. We also discuss the performance of several existing methods for taxonomic classification using the data from the microgravity flight and a control experiment performed on the ground, and explore new methods for analysis using event data. These experiments demonstrate for the first time that a nanopore sequencer works in microgravity and continues to function after multiple changes in G-force.</p>
+            </sec>
+            <sec>
+              <title>Results</title>
+              <sec>
+                <title>In-flight operation</title>
+                <p>Expanding on a proof-of-principle study regarding liquid handling in microgravity,<sup><xref ref-type="bibr" rid="bib17">17</xref></sup> we demonstrated the possibility of performing a genomics experiment in space using the MinION sequencer. We prepared two MinION runs using the same sample, the first run over the course of the parabolic flight and the second entirely on the ground using an equally aged flow cell and identical loading procedure. The sample contained equal masses of DNA from three species: Bacteriophage Lambda (cI857<italic>ind</italic> 1 <italic>Sam</italic>7); <italic>Escherichia coli</italic> (K12 MG1655); and mouse (BALB/C female genomic DNA). In a modification to the recommended protocol, we filled syringes (with plastic pipette tips) with 450 μl DNA libraries (see Materials and Methods).</p>
+                <p>Prior to the parabolic flight, we inserted one of the flow cells into the MinION (<xref ref-type="fig" rid="fig1">Figure 1a</xref>). During the microgravity portion of a parabola, we removed an air bubble from the input pore of the flow cell using an empty syringe, and then loaded the DNA library mixture (<xref ref-type="supplementary-material" rid="xob2">Supplementary Video 1</xref>). We did not observe any bubbles in the flow cell pre-flight, and we speculate that gravity or pressure changes may have contributed to the formation of the bubble. To prevent the introduction of a new air bubble, the library mixture was pushed to the end of the tip before engaging with the sample-loading pore. It was critical when removing the air bubble and loading the DNA library to keep the pipette tip firmly engaged and exactly perpendicular to the sample-loading pore to create a seal (<xref ref-type="fig" rid="fig1">Figure 1b</xref>). After loading the library, we connected the MinION device via a USB 3.0 cable to a Microsoft Surface Pro 3 (Houston, TX, USA) tablet running the sequencing software (<xref ref-type="fig" rid="fig1">Figure 1c</xref>).</p>
+                <p>We initiated sequencing after sample loading while there were still ten parabolas remaining in the flight (~1 min each, including 30 s of microgravity) and continued sequencing through transport back to Johnson Space Center (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 1</xref>). After halting and opening the sequencer, we observed that the flow cell had leaked from a vent (<xref ref-type="fig" rid="fig1">Figure 1a</xref>, arrow) likely due to being tilted vertically during transport to the Johnson Space Center. We did not observe any fluid leaks during parabolic flight.</p>
+                <p>A first step when initiating a MinION run is to scan for available pores before sequencing, which we did during the parabolic flight. We observed that the number of available nanopores for sequencing during the parabolic flights (<italic>n</italic>=16) was much lower than the maximum of 2,048 pores (512 channels with four pores each). We have observed wide variation in performance over many ground runs with older flow cell and kit versions, including the MAP-005 kit used in these experiments, and thus normal flow cell variation could account for low pore activity on a flow cell. In addition, flow cells are optimally used within 8 weeks of their receipt, whereas the flow cells used for the parabolic flight and ground control were ~12 weeks old. Nonetheless, enough of the pores were active to generate data (below). Finally, we did not perform a pre-flight scan of available pores for comparison: a key quality control step we are implementing for all flow cells we send to the ISS. Our QC runs on new R7 flow cells indicate those we sent to the ISS will likely have 1,000–1,500 available pores (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 1</xref>).</p>
+              </sec>
+              <sec>
+                <title>Further controls</title>
+                <p>To understand the effects of launch on the flow cells, we performed launch vibration testing on a fresh flow cell (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 2</xref>). The careful packing of the flow cells inside bubble wrap within a cargo transfer bag significantly reduced the vibrational forces they experienced, to a maximum of 1.7 <italic>g</italic>. After three intervals simulating movement during launch, most (~70%) of the original pores remained active (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 3</xref>), indicating that pores will likely survive travel to the ISS for current and future missions. Also, we conducted five additional ground experiments with R7 flow cells after the parabolic flight to refine the protocol before launch to the ISS and define normal flow cell range (<xref ref-type="supplementary-material" rid="xob1">Supplementary Table 1</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 3</xref>).</p>
+              </sec>
+              <sec>
+                <title>MinION data analysis</title>
+                <p>Despite the technical issues described above, the parabolic flight experiment produced three template strand reads from two MinION channels. Comparing the flight log to the sequencer timestamps, we found that the sequencer generated the longest read in microgravity, and another two after parabolas had concluded (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 1</xref>). Thus, we confirmed that the instrument is capable of producing data in microgravity and even after many gravity transitions. The ground control experiment produced 1,737 template strand (1D) reads from 261 channels, as well as 1,012 complement strand reads and 196 2D pass-filter reads, in ~3 h. For direct comparisons between the experiments, we examined only the template strands of the ground and additional control data unless otherwise noted.</p>
+                <p>The flight data exhibited increased currents across k-mers, with a median of 91.77 pA across reads, whereas the ground data exhibited a median of 74.8 pA (<xref ref-type="fig" rid="fig2">Figure 2a</xref>). These data represent mean shifts from the median currents stored in the HMM of 32.1 and 10.8 pA respectively. Both data sets still produced roughly the correct distribution of amperages across different k-mers. Among experiments with older flow cell versions, we had observed similar shifts in current distributions (<xref ref-type="fig" rid="fig2">Figure 2b</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 2</xref>), which may relate to reaction conditions such as temperature.<sup><xref ref-type="bibr" rid="bib7">7</xref></sup> Shifts of this magnitude did not occur for our additional controls with R7 flow cells (<xref ref-type="fig" rid="fig2">Figure 2c</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 3</xref>). We also see some variation in current levels between experiments with the most recent R9 flow cells (<xref ref-type="fig" rid="fig2">Figure 2d</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 4</xref>), and as such, these data suggest that variation is inherent to flow cells.</p>
+                <p>For the read produced in microgravity, we used the time of each parabola stored in the flight log to divide events by gravitational condition. Differences in current level are small as the gravitational conditions change across the read, and may represent drift over the run (<xref ref-type="fig" rid="fig3">Figure 3a</xref>). We also assessed various measures of read quality. The ONT event-calling software (MinKNOW) defines “events” at current changes large enough to suggest that a new base has entered the pore. The base-calling algorithm by Metrichor then determines how the sequence of these events should translate to the sequence of nucleotide bases. MinKNOW produced three signals (977, 3,710, and 63,362 events in length) from the flight run, but base calling reduced these signals to 170, 1,752, and 5,193 bases, respectively. The ratio of the number of events to the number of bases reveals a high proportion of “stays”, where an event does not correspond to a new k-mer in the predicted sequence, in the flight data, particularly in the final read. The average number of stays per base called was higher in the flight data reads with a mean of 5.97, as compared with 2.11 for the ground data (<xref ref-type="fig" rid="fig3">Figure 3b</xref>). “Skips” in the signal, bases predicted that do not correspond to events, occurred at a much lower rate than stays in both data sets, but still higher in the flight data, with a mean rate of 0.24 skips/base called for the flight data, and 0.11 skips/base called for the ground data (<xref ref-type="fig" rid="fig3">Figure 3c</xref>).</p>
+                <p>The failure to translate over 90% of events to bases in the longest read suggests a high degree of noise. Indeed, the median current noise level as measured by MinKNOW in for the longest flight data read and the only read produced during the parabolas (5.04 pA) was higher than in any of the ground data reads, and the other two flight data reads demonstrated more moderate levels of 0.94 and 0.91 pA, respectively (<xref ref-type="fig" rid="fig3">Figure 3d</xref>). For comparison, ground template strands featured a median noise level of 0.92 pA across reads.</p>
+              </sec>
+              <sec>
+                <title>Read classification and alignment</title>
+                <p>We used multiple computational tools to classify the flight and ground data. First, we ran the Basic Local Alignment Search Tool (BLAST) using blastn settings on the base-called reads to evaluate species detection from the mixed sample.<sup><xref ref-type="bibr" rid="bib18">18</xref></sup> The shortest of the three reads did not map to any species in the sample, whereas the longest aligned to multiple mammalian species including mouse and human, but with only 8% query coverage for the top mouse hit. The medium-length read mapped moderately well to <italic>E. coli</italic>, with 67% identity and 92% query coverage. BLAST results for the template strands were typically poor, with an average identity of 78%, but only 37% query coverage (<xref ref-type="fig" rid="fig4">Figure 4a</xref>). Almost a third of reads did not map to any of the three sample species. However, running BLAST on the 2D ground data reads returned 55 reads as Lambda phage, 72 as <italic>Escherichia coli</italic>, 51 as mouse, 17 as exclusively other species, and 1 as none (<xref ref-type="fig" rid="fig4">Figure 4b</xref>). The mean identity for 2D hits was 84%, with mean query coverage of 73%.</p>
+                <p>We then tested the graphical user interface “What’s in my Pot” (WIMP) for the Kraken taxonomic classifier, which uses k-mer alignments to determine sample identities down to the strain level.<sup><xref ref-type="bibr" rid="bib15">15</xref></sup> The WIMP pipeline attempts to classify only 2D reads that pass a certain quality threshold (defined as a mean base quality&gt;9). We ran bacterial and viral classifications on the ground data to compare with our BLAST results (<xref ref-type="fig" rid="fig4">Figure 4b</xref>). WIMP “Bacteria k24” identified 88 reads over its default threshold score, 87 of which were classified as <italic>E. coli</italic>, with 12 of those further identified as particular strains of that species. The final read was classified as <italic>Methanosarcina barkeri str. Fusaro</italic>. WIMP “Viruses k24” classified 37 reads under the genus <italic>Lambdalikevirus</italic>, and was not able to provide any further details. In total, 124 reads were classified as <italic>E. coli</italic> or <italic>Lambdalikeviru</italic>s by the two versions of WIMP, a number consistent with the BLAST results.</p>
+                <p>For a more targeted approach relevant to samples of known organisms including eukaryotes, we used the nanopore read aligner GraphMap to classify reads.<sup><xref ref-type="bibr" rid="bib19">19</xref></sup> Control experiments following an optimized protocol (see Materials and Methods) show fewer unmapped reads using GraphMap (<xref ref-type="fig" rid="fig4">Figure 4c</xref>). With low query coverage and identity using BLAST, and given WIMP is only currently applicable to 2D reads, we also tested two alternative approaches based on music processing algorithms for classifying unknown samples using the event data.</p>
+              </sec>
+              <sec>
+                <title>Uncovering Nanopore's fingerprints of genomes</title>
+                <p>Our first approach, titled Uncovering Nanopore's fingerprints of genomes (UNFOG), attempts to construct fingerprints of reference genomes and reads based on their most informative frequencies over time. This employs methods from Shazam, a mobile application that identifies songs based on short audio clips of user input.<sup><xref ref-type="bibr" rid="bib20">20</xref></sup> Shazam first fingerprints the reference collection by pairing peaks from the spectrogram of each song and storing the time between these peaks and the time offset from the beginning of the song. The algorithm then attempts to match similarly constructed fingerprints from the user input. Clips are classified based on the number of fingerprints that match a particular song at a consistent time offset. We converted reference genomes into “event space” using the mean currents for each 5-mer stored in the hidden Markov model (HMM) of Metrichor. As seen in <xref ref-type="fig" rid="fig2">Figure 2a</xref>, the amperages associated with various k-mers in our real data followed a similar distribution to the mean currents of the model. As in Shazam, we were able to construct fingerprints using peaks in a spectrogram of the signal (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 5</xref>).</p>
+                <p>We first ran a series of benchmarking tests using a subset of 12 reference bacterial genomes, including highly related species, to determine how well the algorithm is able to classify fragments from a reference genome (<italic>Enterobacter cloacae</italic>, <xref ref-type="fig" rid="fig5">Figure 5a</xref>). The best version of UNFOG was able to correctly identify a perfect sample read over 65% of the time and was largely tolerant to up to 10% mismatches. However, the percentage of reads correctly mapped dropped markedly with insertions or deletions in the read. This is similar to what has been found in music identification, where fingerprinting algorithms fail to identify alternative versions of songs due to timing differences, and poses a particular issue for nanopore sequencing. Deletions were found by one study to comprise the largest portion of errors, at roughly double the rate of insertions or mismatches in 2D base-called sequences.<sup><xref ref-type="bibr" rid="bib21">21</xref></sup></p>
+                <p>Tests on the flight data failed to classify any of the reads as Lambda phage, <italic>E. coli</italic>, or mouse, identifying one read at <italic>Staphylococcus epidermidis</italic> and a second as either <italic>Halobacillus halophilus</italic> or human. Running UNFOG on ground data revealed more promising results, with all three species present in the top five reference genomes, although <italic>Pseudomonas fluorescens</italic> and <italic>Micrococcus luteus</italic> ranked higher (<xref ref-type="fig" rid="fig5">Figure 5b</xref>). We also note that the UNFOG algorithm was able to classify the reads for both flight and ground data in a relatively short time, spanning only 180 s.</p>
+              </sec>
+              <sec>
+                <title>Uncovering Nanopore's signal mapping over genomes</title>
+                <p>Our second approach attempts to uncover greater similarity between sequences by converting them to entropy space, estimating the entropy for the signal using a generalized correlation integral approach.<sup><xref ref-type="bibr" rid="bib22">22</xref></sup> This approach has also been effective in song identification, and has correctly identified the same songs across versions by different artists.<sup><xref ref-type="bibr" rid="bib23">23</xref></sup> We had previously found that reads showed visually similar entropy patterns to the reference sequences of their BLAST hits. Initial tests with the flight and ground data revealed no such relationship (<xref ref-type="fig" rid="fig6">Figure 6a</xref>). However, we suspect that the high rate of stays in most of the reads from these data distorts the signal beyond the limits of this method. Once we reduced our search to reads with stay rates of &lt;0.1 stays/base called, visual similarity was again apparent between the sequences in entropy space, including in areas where BLAST failed to align the sequences (<xref ref-type="fig" rid="fig6">Figure 6b</xref>). Sequences that fit the criteria of having a BLAST hit with relatively high query coverage and low stay rate were particularly scarce for this data set, but we had not previously observed this issue with other experiments.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>Discussion</title>
+              <p>Nanopore sequencing promises to contribute to healthcare in increasingly remote settings, as recently demonstrated during the Ebola outbreak in West Africa.<sup><xref ref-type="bibr" rid="bib24">24</xref></sup> We show here the beginnings of a new frontier in genomics and genetics, in which humans and robotic rovers could be equipped with DNA sequencers on their travels beyond low Earth orbit. Despite some difficulties in adapting the library loading protocol for the MinION sequencer to the microgravity environment of a parabolic flight and expired flow cells, these data include the first ever DNA sequence generated in microgravity.</p>
+              <p>We propose several potential modifications to the instrument to facilitate use in reduced gravity. We observed that the attached MinION cover was difficult to control in microgravity when attempting to load the sample (<xref ref-type="supplementary-material" rid="xob3">Supplementary Video 2</xref>). Though this will be less of an issue in the consistent microgravity environment of the ISS, we recommend a mechanism to keep it in the open position during loading; aboard the ISS, this would most easily be achieved with Velcro. The most important thing to consider when loading a sample is that bubbles are easy to create but difficult to remove. Currently, if the pipette tip is not angled perpendicularly to the loading pore, it is challenging to both remove the initial air bubble and introduce sample into the pore. If the tip is misaligned, instead of removing the initial air bubble from the flow cell, the pipette will draw in ambient air, causing the sample to pool outside the flow cell rather than entering the pore during loading. The successful demonstration of positive displacement pipette use by Rizzardi <italic>et al.</italic> (2016) will enable more robust fluid transfers, and should help resolve these issues by facilitating one-handed operation of the pipette. The crew procedure for use aboard the ISS will emphasize a completely perpendicular loading and firm pressure to completely seal the pore with the pipette tip before loading to prevent pooling on the flow cell surface. Future iterations of nanopore technology may eliminate the need for careful loading procedures. Technologies under development at ONT include the VolTRAX, which aims to automate sample preparation before docking to a sequencer, and the SmidgION, a smaller device that will be compatible with mobile phones.</p>
+              <p>Future sequencing experiments on the ISS have a clear potential for success. We have optimized the protocol, as described under Materials and Methods for the later experiments with R7 pores, including making the loading procedure for flight a two-step process to cope with limited crew time. Launch vibration testing showed pores will likely survive the trip to the ISS. We also observed leakage from a vent on return to the Johnson Space Center. In the microgravity conditions on the ISS, leaking due to rotation or tilting of the sequencer is extremely unlikely to occur, because surface tension and cohesion should be the dominant forces. On the basis of our observations, the primary issue with the parabolic flight run was a low number of available pores, likely related to the age of the flow cell. Although we speculate that the variable gravitational conditions of the flight could create more opportunities for air bubbles to migrate into the nanopores and obstruct them, we did not observe any changes in signal quality across gravitational conditions (0 vs. 1.8 <italic>g</italic>) for the single read generated over the parabolas. The production of reads during and following repeated exposure to increased gravity and microgravity in the parabolic flight experiment suggests that the device will be capable of sequencing on the ISS. As the technology improves, we also expect that bubble formation will be less of an issue. An independent experiment by the Loose Laboratory on the ground reversed the direction of the 1 <italic>g</italic> acting on the flow cell by flipping the sequencer upside-down twenty minutes into a 40-minute amplicon run and did not observe any differences in quality or current shifts, confirming that gravity does not affect nanopore sequencing.<sup><xref ref-type="bibr" rid="bib25">25</xref></sup> Of greater concern than gravitational effects for space missions is device stability over extended missions with exposure to higher levels of radiation.<sup><xref ref-type="bibr" rid="bib9">9</xref></sup> Using flow cells beyond their optimal use period for this experiment illustrated the potential issues with bringing sequencers on long-term mission (e.g., a Mars mission), but also show that even expired reagents can produce data in microgravity. Further development of solid-state nanopores may be necessary for many applications in space research, since protein pores are sensitive to degradation.</p>
+              <p>In terms of data analysis, for low yield, low-quality runs, the WIMP pipeline from Metrichor is not ideal, as it classifies only 2D reads above a quality threshold. With particularly noisy data, BLAST can also fail to align a majority of reads. Although BLAST was usually able to identify several candidate species for our control data, their scores are not necessarily high or distinct enough to permit accurate identification. Targeted approaches such as GraphMap, though appropriate for our prepared mix of DNA, may not be sufficient for environmental monitoring. While we show that UNFOG has potential in theory as a taxonomic classifier, the nature of errors in nanopore sequencing currently limit its application. An entropy-based solution may be capable of greater accuracy at a significant cost in computational time; however, as we demonstrate here, this fails for reads that are extremely stretched out in time with respect to their reference sequences. Several programs attempt to deal with an analogous problem in music, that of “query by humming”, where, far from the exact versions of songs Shazam requires, a user can identify a song by humming a short segment of melody.<sup><xref ref-type="bibr" rid="bib26 bib27 bib28">26–28</xref></sup> As the chemistry continues to improve and error rates decrease, we suggest that adapted methods for fingerprinting could allow for rapid metagenomic classifications using future iterations of nanopore sequencing technology. The greatest advantage to fingerprinting would be speed: UNFOG was able to classify the almost 2,000 reads from the ground data in &lt;3 min after the database was built. For customized sequence-query applications, these and other methods could enable onsite genomics in the most remote environments, including space.</p>
+            </sec>
+            <sec>
+              <title>Materials and methods</title>
+              <sec>
+                <title>Sample preparation and protocol for parabolic flight</title>
+                <p>Each of the three types of genomic DNA samples was prepared for sequencing according to the procedures specified by ONT for the MAP-005 kit, beginning with 1 μg of each sample of organismal DNA (bacteriophage lambda, <italic>E. coli</italic> and mouse). To facilitate sample loading during the microgravity intervals of the flight, we deviated from the recommended three-step sample-loading procedure, which entails loading 500 μl of running buffer containing fuel mix, waiting 10 min, and loading an additional 500 μl of buffer and fuel mix with a 10 min wait, followed by loading 150 μl containing running buffer, fuel mix and the sequencing library mix. Instead, we pre-loaded syringes for both the flight and ground control, each containing 450 μl volume of running buffer and fuel mix with 6 μl of pre-sequencing mix from each organism. The library and pre-loaded syringes were prepared two days prior to flight, stored at −20 °C until the day of the flight, and stowed at ambient temperature aboard the plane prior to loading the flow cell.</p>
+              </sec>
+              <sec>
+                <title>R7, SQK-MAP-006 experiments</title>
+                <p>Genomic DNA samples were sheared individually and then pooled in equal concentrations targeting a concentration between 1.5 and 2 μg DNA (<xref ref-type="fig" rid="fig2">Figures 2c</xref> and <xref ref-type="fig" rid="fig4">4c</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 3</xref>). The DNA was prepared for sequencing according to the procedure specified by ONT for the MAP-006 kit. After library preparation, an aliquot of sample containing 24–84 ng of DNA was diluted with running buffer, fuel mix, and water to the specified concentrations in a total volume of 450 μl. These samples were frozen kept at −80 °C until immediately prior to loading. A 250 μl aliquot of the sample was loaded onto a R7 MinION (Oxford Science Park, Oxford, UK) flow cell. After a 10-min wait the remaining 200 μl of sample was loaded and sequencing was initiated.</p>
+              </sec>
+              <sec>
+                <title>R7, SQK-MAP-005 additional data</title>
+                <p>A pool of five bacterial genomes was prepared for sequencing via the Oxford Nanopore MinION using the ‘SQK-MAP-005’ library preparation guidelines and reagents (<xref ref-type="fig" rid="fig2">Figure 2b</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 2</xref>). Genomic DNA was analyzed for quality using the Life Technologies Qubit dsDNA BR assay (Carlsbad, CA, USA; PN# Q32850) and Agilent 2200 Tapestation genomic DNA assay (Santa Clara, CA, USA; PN# 5067–5365). New England BioLabs preCR (Ipswitch, MA, USA, PN# M0309S) was used to repair potential DNA damage prior to library preparation. All libraries were sequenced using MinION version 7.3 flow cells.</p>
+              </sec>
+              <sec>
+                <title>R9 data</title>
+                <p>The DNA sample (metagenomics gDNA from Lake Hillier XMP project) was sheared to 10 kb size using a Covaris G-tube (<xref ref-type="fig" rid="fig2">Figure 2d</xref>, <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure 4</xref>). DNA was then prepared using the Oxford Nanopore R9 protocol (version NSK-007), including FFPE repair, end repair and dA-tailing, adapter ligation and tethering, and Streptavidin recovery. The prepared library was run on an R9 MinION flowcell using MinKNOW version 0.51.1.66 with the “NC_48hr_Sequencing_Run_FLO_Min104.py” protocol. The raw data were called with Metrichor using “2D Basecalling RNN for SQK-NSK007” version 1.99 (Oxford Science Park, Oxford, UK).</p>
+              </sec>
+              <sec>
+                <title>BLAST</title>
+                <p>Nucleotide-Nucleotide BLAST 2.2.29+ was run using default settings for “somewhat similar sequences,” connecting to NCBI’s most recent nt database (as of 1 November 2015). If there were hits for multiple sample species only the highest scoring was considered. Blast hits were preferentially counted towards the known sample species. Query cover was calculated for the counted hit by taking dividing the length of the primary alignment by that of the query sequence. This differed at times from the query coverage calculated using the online version of BLAST, which is able to calculate over an aggregation of compatible aligning regions, and thus found a query coverage of 26% for the longest flight data read in its alignment to mouse. Identity was as provided by the BLAST alignment report.</p>
+              </sec>
+              <sec>
+                <title>WIMP</title>
+                <p>Base-calling and species classification were performed using the WIMP Bacteria k24 for SQK-MAP005 (version 1.27) and WIMP Viruses k24 for SQK-MAP005 (version 1.27, Oxford Science Park, Oxford, UK) pipelines. Species counts were combined for <xref ref-type="fig" rid="fig4">Figure 4b</xref>, with reads mapping to the genus Lambdalikevirus considered positive hits for Lambda phage in the absence of species-level classification for the Viruses version. We considered hits only above the default threshold score in the GUI; decreasing that threshold to zero showed more false hits for the Bacteria run and had no effect for the Viruses run.</p>
+              </sec>
+              <sec>
+                <title>GraphMap</title>
+                <p>We aligned to a combined Enterobacteria lambda phage (NCBI reference sequence NC_001416.1), <italic>E. coli</italic> (NCBI reference sequence NC_000913.3), and <italic>Mus musculus</italic> (GRCm38.p4) genome using GraphMap version 0.3.0, with the command “graphmap align -r $ref -d $fi -o $name.sam”, which saves the top result for each read.</p>
+              </sec>
+              <sec>
+                <title>UNFOG</title>
+                <p>After testing multiple parameter sets, we chose a window size of 128 and overlap of 64 to compute the FFT. We tested several sampling rates; shown are the results using a sampling rate of 10 for the test data and 50 for the real data. Spectrogram peaks over an amplitude of 5 were paired if within 100 of one another on the time axis of the spectrogram for the benchmarking test version, this was changed for the real data version to an amplitude of 20 and time limit of 300 in an attempt to increase specificity. Paired peaks were stored as hashes, along with their offset times for retrieval and comparison.</p>
+                <p>The benchmarking tests were run using a thousand random 2,500-base fragments of <italic>Enterobacter cloacae</italic> genome joined to their reverse complements to create 2D reads. Errors were induced prior to conversion of the reads from k-mers to currents to mimic possible rates in output base-called sequences. The best version of UNFOG during testing involved storing all instances of a fingerprint across each genome and later removing from consideration any fingerprints that appeared over 50 times in any reference genome. However, this modification did not improve results for the real data (possibly because exact matches are unlikely with high error rates) and significantly increased classification time; therefore, a previous version that saved only the final instance of each fingerprint was used for the real data. In the future, a step discarding the most common fingerprints will likely be incorporated into building the database. For each read, the species with the highest number of matches at a consistent offset time from the beginning of the reference sequence was counted. With both template and complement strands, the same offset time had to be found for both strands for a positive hit. In the case of ambiguous matches, the count for each potential species was increased by 1/(number of matches).</p>
+              </sec>
+              <sec>
+                <title>UNSMOG</title>
+                <p>Entropy was calculated for each base using a generalized correlation integral approach<sup><xref ref-type="bibr" rid="bib22">22</xref></sup> with a sliding window of 20 and overlap of 19. We then smoothed the signal by taking the mean over a similarly sized sliding window. These signal were then matched to the raw, entropy-converted nanopore data. Code for UNFOG/UNSMOG (uncovering Nanopore's signal mapping over genomes) is open-source and freely available; posted at <ext-link ext-link-type="uri" xlink:href="http://pbtech-vc.med.cornell.edu/git/mason-lab/unfog">http://pbtech-vc.med.cornell.edu/git/mason-lab/unfog</ext-link>.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>We acknowledge Edward Oakeley for initial discussions on using Shazam for nanopore data. Support was provided by the Tri-Institutional Training Program in Computational Biology and Medicine (via NIH training grant T32GM083937 in part), the International Space Station Program office, and the NASA Postdoctoral Program administered through a contract with Oak Ridge Associated Universities. For C.E.M we thank the Epigenomics Core Facility at Weill Cornell Medicine, as well as the Starr Cancer Consortium grants (I7-A765, I9-A9–071) and funding from the Irma T. Hirschl and Monique Weill-Caulier Charitable Trusts, Bert L and N Kuggie Vallee Foundation, the WorldQuant Foundation, The Pershing Square Sohn Cancer Research Alliance, NASA (NNX14AH50G, 15-15Omni2-0063), the National Institutes of Health (R25EB020393, R01NS076465, R01AI125416, R01ES021006), the Bill and Melinda Gates Foundation (OPP1151054), the Alfred P. Sloan Foundation (G-2015–13964), and the collaborators of the NASA Twins Study.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><xref ref-type="supplementary-material" rid="xob1">Supplementary Information</xref> accompanies the paper on the <italic>npj Microgravity</italic> 
+(<ext-link ext-link-type="uri" xlink:href="http://www.nature.com/npmgrav">http://www.nature.com/npmgrav</ext-link>)</p>
+              </fn>
+              <fn fn-type="COI-statement">
+                <p>The authors declare no conflict of interest.</p>
+              </fn>
+            </fn-group>
+            <sec sec-type="supplementary-material">
+              <supplementary-material content-type="local-data" id="xob1">
+                <label>Supplementary Information</label>
+                <media xlink:href="npjmgrav201635-s1.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="xob2">
+                <label>Supplementary Video 1</label>
+                <media xlink:href="npjmgrav201635-s2.mov">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="xob3">
+                <label>Supplementary Video 2</label>
+                <media xlink:href="npjmgrav201635-s3.mov">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <ref id="bib1">
+                <mixed-citation publication-type="journal">Klaus, D. M. &amp; Howard, H. N. <article-title>Antibiotic efficacy and microbial virulence during space flight</article-title>. <source>Trends Biotechnol.</source>
+<volume>24</volume>, <fpage>131</fpage>–136 (<year>2006</year>).<pub-id pub-id-type="pmid">16460819</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib2">
+                <mixed-citation publication-type="journal">Wilson, J. et al. <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>104</volume>, <fpage>16299</fpage>–16304 (<year>2007</year>).<pub-id pub-id-type="pmid">17901201</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib3">
+                <mixed-citation publication-type="journal">Mermel, L. A. <article-title>Infection prevention and control during prolonged human space travel</article-title>. <source>Clin. Infect. Dis.</source>
+<volume>56</volume>, <fpage>123</fpage>–130 (<year>2013</year>).<pub-id pub-id-type="pmid">23051761</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib4">
+                <mixed-citation publication-type="journal">Sonnenfeld, G. &amp; Shearer, W. T. <article-title>Immune function during space flight</article-title>. <source>Nutrition</source>
+<volume>18</volume>, <fpage>899</fpage>–903 (<year>2002</year>).<pub-id pub-id-type="pmid">12361785</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib5">
+                <mixed-citation publication-type="journal">Li, S. &amp; Mason, C. E. <article-title>The pivotal regulatory landscape of RNA modifications</article-title>. <source>Ann. Rev. Genomics Hum. Genet.</source>
+<volume>15</volume>, <fpage>127</fpage>–150 (<year>2014</year>).<pub-id pub-id-type="pmid">24898039</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib6">
+                <mixed-citation publication-type="journal">Saletore, Y. et al. <article-title>The birth of the Epitranscriptome: deciphering the function of RNA modifications</article-title>. <source>Genome Biol.</source>
+<volume>13</volume>, <fpage>175</fpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23113984</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib7">
+                <mixed-citation publication-type="other">Simpson, J. T., Workman, R., Zuzarte, P. C., David, M., Dursi, L. J. &amp; Timp, W. <article-title>Detecting DNA Methylation using the Oxford Nanopore Technologies MinION sequencer</article-title>. <source>bioRxiv</source> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="bib8">
+                <mixed-citation publication-type="other">Rand, A. C., Jain, M., Eizenga, J., Musselman-Brown, A., Olsen, H. E., Akeson, M. et al. <article-title>Cytosine Variant Calling with HighÂ­throughput Nanopore Sequencing</article-title>. <source>bioRxiv</source> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="bib9">
+                <mixed-citation publication-type="journal">Rezzonico, F. <article-title>Nanopore-based instruments as biosensors for future planetary missions</article-title>. <source>Astrobiology</source>
+<volume>14</volume>, <fpage>344</fpage>–351 (<year>2014</year>).<pub-id pub-id-type="pmid">24684166</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib10">
+                <mixed-citation publication-type="other">Garalde, D. R., Snell, E. A., Jachimowicz, D., Heron, A. J., Bruce, M., Lloyd, J. et al. <article-title>Highly parallel direct RNA sequencing on an array of nanopores</article-title>. <source>bioRxiv</source> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="bib11">
+                <mixed-citation publication-type="journal">Loman, N. J. &amp; Watson, M. <article-title>Successful test launch for nanopore sequencing</article-title>. <source>Nat. Methods</source>
+<volume>12</volume>, <fpage>303</fpage>–304 (<year>2015</year>).<pub-id pub-id-type="pmid">25825834</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib12">
+                <mixed-citation publication-type="other">Brown, C. Oxford Nanopore: selected slides for PGC Delegates. 2014. Available at http://www.globalengage.co.uk/pgcasia/Brown.pdf.</mixed-citation>
+              </ref>
+              <ref id="bib13">
+                <mixed-citation publication-type="journal">Jain, M. et al. <article-title>Improved data analysis for the MinION nanopore sequencer</article-title>. <source>Nature Methods.</source>
+<volume>12</volume>, <fpage>351</fpage>–356 (<year>2015</year>).<pub-id pub-id-type="pmid">25686389</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib14">
+                <mixed-citation publication-type="journal">Mikheyev, A. S. <article-title>Tin MMY. A first look at the Oxford Nanopore MinION sequencer</article-title>. <source>Mol. Ecol. Resources</source>
+<volume>14</volume>, <fpage>1097</fpage>–1102 (<year>2014</year>).</mixed-citation>
+              </ref>
+              <ref id="bib15">
+                <mixed-citation publication-type="other">Juul S. et al. <article-title>What’s in my pot? Real-time species identification on the MinION</article-title>. <source>bioRxiv</source>. 10.1101/030742 (2015).</mixed-citation>
+              </ref>
+              <ref id="bib16">
+                <mixed-citation publication-type="other">Li, C. et al. <article-title>INC-Seq: Accurate single molecule reads using nanopore sequencing</article-title>. <source>bioRxiv</source>
+<fpage>38042</fpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="bib17">
+                <mixed-citation publication-type="journal">Rizzardi L. et al. <article-title>Evaluation of techniques for performing cellular isolation and preservation during microgravity conditions</article-title>. <source>Nat. Micrograv.</source>
+<volume>2</volume>, <fpage>16025</fpage> (<year>2016</year>).</mixed-citation>
+              </ref>
+              <ref id="bib18">
+                <mixed-citation publication-type="journal">Altschul, S. F. et al. <article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</article-title>. <source>Nucleic Acids Res.</source>
+<volume>25</volume>, <fpage>3389</fpage>–3402 (<year>1997</year>).<pub-id pub-id-type="pmid">9254694</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib19">
+                <mixed-citation publication-type="journal">Sovic I. et al. <article-title>Fast and sensitive mapping of nanopore sequencing reads with GraphMap</article-title>. <source>Nat. Commun.</source>
+<volume>7</volume>, (2016).</mixed-citation>
+              </ref>
+              <ref id="bib20">
+                <mixed-citation publication-type="other">Wang A. L. -C.. <article-title>An industrial-strength audio search algorithm</article-title>. Proceedings of the International Conference on Music Information Retrieval 713–718 (Baltimore, MD, USA, 2003).</mixed-citation>
+              </ref>
+              <ref id="bib21">
+                <mixed-citation publication-type="journal">Laehnemann, D., Borkhardt, A. &amp; McHardy, A. C. <article-title>Denoising DNA deep sequencing data—high-throughput sequencing errors and their correction</article-title>. <source>Brief. Bioinformatics</source>
+<volume>17</volume>, <fpage>154</fpage>–179 (<year>2015</year>).<pub-id pub-id-type="pmid">26026159</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib22">
+                <mixed-citation publication-type="journal">Prichard, D. &amp; Theiler, J. <article-title>Generalized redundancies for time series analysis</article-title>. <source>Phys. D</source>
+<volume>84</volume>, <fpage>476</fpage>–493 (<year>1995</year>).</mixed-citation>
+              </ref>
+              <ref id="bib23">
+                <mixed-citation publication-type="other">Ibarrola, A. C. &amp; Chavez, E. <article-title>A robust entropy-based audio-fingerprint</article-title>. <source>2006 IEEE International Conference on IEEE Multimedia and Expo</source>
+<fpage>1729</fpage>–1732, Toronto, Ontario, Canada (<year>2006</year>).</mixed-citation>
+              </ref>
+              <ref id="bib24">
+                <mixed-citation publication-type="journal">Gardy, J., Loman, N. J. &amp; Rambaut, A. <article-title>Real-time digital pathogen surveillance—the time is now</article-title>. <source>Genome Biol.</source>
+<volume>16</volume>, <fpage>155</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">27391693</pub-id></mixed-citation>
+              </ref>
+              <ref id="bib25">
+                <mixed-citation publication-type="other">Loose, M. Real-time selective sequencing on the MinION. London Calling; London, UK (2016). Available at https://londoncallingconf.co.uk/2016 (accessed on 20 September 2016).</mixed-citation>
+              </ref>
+              <ref id="bib26">
+                <mixed-citation publication-type="journal">Park, C. H. <article-title>Query by humming based on multiple spectral hashing and scaled open-end dynamic time warping</article-title>. <source>Signal. Process.</source>
+<volume>108</volume>, <fpage>220</fpage>–225 (<year>2015</year>).</mixed-citation>
+              </ref>
+              <ref id="bib27">
+                <mixed-citation publication-type="other">Ryynanen, M. &amp; Klapuri, A. <article-title>Query by humming of midi and audio using locality sensitive hashing</article-title>. <source>2008 ICASSP 2008 IEEE International Conference on Acoustics, Speech and Signal Processing</source>
+<fpage>2249</fpage>–2252, Stuttgart, Germany (<year>2008</year>).</mixed-citation>
+              </ref>
+              <ref id="bib28">
+                <mixed-citation publication-type="journal">Guo, Z., Wang, Q., Liu, G. &amp; Guo, J. <article-title>A query by humming system based on locality sensitive hashing indexes</article-title>. <source>Signal Process.</source>
+<volume>93</volume>, <fpage>2229</fpage>–2243 (<year>2013</year>).</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="fig1">
+              <label>Figure 1</label>
+              <caption>
+                <p>(<bold>a</bold>) The MinION flow cell, which was loaded into the device prior to the parabolic flight. The white arrow marks vents, which leaked during return transport to the Johnson Space Center. (<bold>b</bold>) Loading the library onto the MinION. Angling the pipette perpendicularly to the pore was necessary to avoid introducing air bubbles. (<bold>c</bold>) The MinION setup on the plane. The flow cell was connected to a tablet running Oxford Nanopore Technologies' MinKNOW sequencing software via a USB 3.0 cable. We noted significant glare off of the tablet screen.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f1"/>
+            </fig>
+            <fig id="fig2">
+              <label>Figure 2</label>
+              <caption>
+                <p>(<bold>a</bold>) Current distributions by 5-mer for flight data, ground data, with k-mers ordered by expected means stored in Metrichor's Hidden Markov Model. S.d. of the mean were calculated across reads for the flight and ground data. (<bold>b</bold>, <bold>c</bold>) The maximum deviations from the models we observed among seven runs with kit version SQK-MAP-005, and five runs with the SQK-MAP-006 kit, moving to a 6-mer model. (<bold>d</bold>) Current distributions for a run with the newest (R9) version of the nanopore. For this version, Metrichor does not provide a model, using a recurrent neural network to base call reads, therefore we compared ‘pass’ (average quality&gt;9) and ‘fail’ reads, ordering k-mers by their mean across pass reads.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f2"/>
+            </fig>
+            <fig id="fig3">
+              <label>Figure 3</label>
+              <caption>
+                <p>(<bold>a</bold>) The single microgravity flight read, with events separated according to the gravitational force at the time of their initiation. The plot above shows all events of the read, the plot below only those associated with new k-mers after base calling, removing stays and accounting for skips in the index. Currents associated with microgravity showed significant but negligible differences with those associated with 1.8 <italic>g</italic> (<italic>D</italic>=0.08, <italic>P</italic>=1.2×10<sup>−41</sup>) and steady flight (<italic>D</italic>=0.05, <italic>P</italic>=6.2×10<sup>−17</sup>), according to the Kolmogorov–Smirnov test. However, the differences likely represent drifts in current levels over the run, as the first two microgravity segments also significantly differed from the last two (<italic>D</italic>=0.15, <italic>P</italic>=1.0×10<sup>−48</sup>), and the two post-microgravity reads also significantly differed (<italic>D</italic>=0.4, <italic>P</italic>=1.9×10<sup>−139</sup>). (<bold>b</bold>–<bold>d</bold>) Histograms of the number of stays per base, number of skips per base called, and noise for ground data reads. The orange arrows mark the approximate positions of the flight data reads. Median noise is calculated by MinKNOW for each read.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f3"/>
+            </fig>
+            <fig id="fig4">
+              <label>Figure 4</label>
+              <caption>
+                <p>(<bold>a</bold>) Blastn results for template strands from the ground control experiment. BLAST hits were preferentially counted towards the species in the sample even if others scored higher. In the case of ambiguity between multiple sample species, only the highest scoring was considered a hit. (<bold>b</bold>) A comparison of BLAST and Oxford Nanopore Technologies’ WIMP using the 2D reads from the ground experiment. We ran both bacteria and virus versions of WIMP. Here we include any read mapping to <italic>Escherichia coli</italic> or a strain thereof as <italic>Ecoli</italic>, and any read mapping to Lambdalikevirus as Lambda, although the algorithm was not able to identify reads beyond the genus level for viruses. (<bold>c</bold>) Classification results for template strand reads from the flight, ground, and later control experiments aligned to a combined Enterobacteria phage lambda, <italic>Escherichia coli</italic>, and <italic>Mus musculus</italic> (GRCm38.p4) genome using GraphMap (<ext-link ext-link-type="uri" xlink:href="https://github.com/isovic/graphmap">https://github.com/isovic/graphmap</ext-link>). We note the number of reads from each experiment as <italic>n</italic>.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f4"/>
+            </fig>
+            <fig id="fig5">
+              <label>Figure 5</label>
+              <caption>
+                <p>(<bold>a</bold>) Benchmarking results for UNFOG using 5000 base pair fragments of reference genomes. The percent of reads correctly identified as the reference species was 65%, but dropped precipitously as we induced errors into the fragments, with greater tolerance to mismatches than to indels. (<bold>b</bold>) UNFOG results for the ground data. <italic>E. coli</italic> was the top hit, as for BLAST and WIMP using 2D reads, and all three species in the sample were in the top 5 hits among 22 reference species.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f5"/>
+            </fig>
+            <fig id="fig6">
+              <label>Figure 6</label>
+              <caption>
+                <p>(<bold>a</bold>) The flight data read with the highest mapping score and the subset of <italic>Escherichia coli</italic> genome to which it aligned in entropy space. The reference sequence is shown resampled to match the length of the read, with both signals smoothed by taking the mean over a sliding window of 20. Similarity was found to be 0.01 (<italic>P</italic>=0.5) between the entropy signals using Pearson's correlation. The approximate region of alignment for the BLAST hit is marked as the burgundy line above the plot, although indices do not correspond between event space and the base-called sequence due to the presence of stays and skips in the event space read. (<bold>b</bold>) Entropy signals for a ground data read with a stays per base called ratio of 0.0009, far lower than the mean for these data (2.11). Query coverage for the BLAST alignment of this read to <italic>Lambda phage</italic> was 58%, with 68% identity. The cross correlation between the entropy signals after smoothing was low, <italic>r</italic>=0.15, but positive and significant (<italic>P</italic>=1.25×10<sup>−17</sup>). (<bold>c</bold>) Similarly smoothed event signals for the same ground data read and reference sequence as shown in (<bold>b</bold>), which resulted in lower correlation, <italic>r</italic>=0.04 (<italic>P</italic>=0.06), suggesting that taking the signal entropy may help match event space representations to references.</p>
+              </caption>
+              <graphic xlink:href="npjmgrav201635-f6"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

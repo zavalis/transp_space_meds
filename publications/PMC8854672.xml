@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:48:26Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8854672" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8854672</identifier>
+        <datestamp>2022-03-03</datestamp>
+        <setSpec>npjmicrogr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Microgravity</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Microgravity</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Microgravity</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2373-8065</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8854672</article-id>
+              <article-id pub-id-type="pmcid">PMC8854672</article-id>
+              <article-id pub-id-type="pmc-uid">8854672</article-id>
+              <article-id pub-id-type="pmid">35177635</article-id>
+              <article-id pub-id-type="publisher-id">191</article-id>
+              <article-id pub-id-type="doi">10.1038/s41526-022-00191-x</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Tracing transport of protein aggregates in microgravity versus unit gravity crystallization</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Martirosyan</surname>
+                    <given-names>Arayik</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3409-1791</contrib-id>
+                  <name>
+                    <surname>Falke</surname>
+                    <given-names>Sven</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>McCombs</surname>
+                    <given-names>Deborah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cox</surname>
+                    <given-names>Martin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6037-7710</contrib-id>
+                  <name>
+                    <surname>Radka</surname>
+                    <given-names>Christopher D.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Knop</surname>
+                    <given-names>Jan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3879-5019</contrib-id>
+                  <name>
+                    <surname>Betzel</surname>
+                    <given-names>Christian</given-names>
+                  </name>
+                  <address>
+                    <email>Christian.Betzel@uni-hamburg.de</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>DeLucas</surname>
+                    <given-names>Lawrence J.</given-names>
+                  </name>
+                  <address>
+                    <email>lawrence.delucas@aero.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.9026.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2287 2617</institution-id><institution>Institute of Biochemistry and Molecular Biology, Laboratory for Structural Biology of Infection and Inflammation, </institution><institution>University of Hamburg, c/o DESY, </institution></institution-wrap>Notkestrasse 85, Building 22A, 22607 Hamburg, Germany </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.265892.2</institution-id><institution-id institution-id-type="ISNI">0000000106344187</institution-id><institution>University of Alabama at Birmingham, </institution></institution-wrap>Birmingham, AL USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.278167.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 0747 4549</institution-id><institution>The Aerospace Corporation, </institution></institution-wrap>5030 Bradford Drive, Bldg. 1, suite 220, Huntsville, AL 35805 USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.240871.8</institution-id><institution-id institution-id-type="ISNI">0000 0001 0224 711X</institution-id><institution>St. Jude Children’s Research Hospital, </institution></institution-wrap>Memphis, TN 38015 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.9026.d</institution-id><institution-id institution-id-type="ISNI">0000 0001 2287 2617</institution-id><institution>Institute of Plant Science and Microbiology, </institution><institution>University of Hamburg, </institution></institution-wrap>22609 Hamburg, Germany </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>17</day>
+                <month>2</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>17</day>
+                <month>2</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>4</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>20</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>12</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Microgravity conditions have been used to improve protein crystallization from the early 1980s using advanced crystallization apparatuses and methods. Early microgravity crystallization experiments confirmed that minimal convection and a sedimentation-free environment is beneficial for growth of crystals with higher internal order and in some cases, larger volume. It was however realized that crystal growth in microgravity requires additional time due to slower growth rates. The progress in space research via the International Space Station (ISS) provides a laboratory-like environment to perform convection-free crystallization experiments for an extended time. To obtain detailed insights in macromolecular transport phenomena under microgravity and the assumed reduction of unfavorable impurity incorporation in growing crystals, microgravity and unit gravity control experiments for three different proteins were designed. To determine the quantity of impurity incorporated into crystals, fluorescence-tagged aggregates of the proteins (acting as impurities) were prepared. The recorded fluorescence intensities of the respective crystals reveal reduction in the incorporation of aggregates under microgravity for different aggregate quantities. The experiments and data obtained, provide insights about macromolecular transport in relation to molecular weight of the target proteins, as well as information about associated diffusion behavior and crystal lattice formation. Results suggest one explanation why microgravity-grown protein crystals often exhibit higher quality. Furthermore, results from these experiments can be used to predict which proteins may benefit more from microgravity crystallization.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Biochemistry</kwd>
+                <kwd>Biophysics</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100006193</institution-id>
+                      <institution>NASA | Glenn Research Center (NASA Glenn Research Center)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>80NSSC18K0013</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>DeLucas</surname>
+                      <given-names>Lawrence J.</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Proteins (we will use the term protein consistently to cover also other bio-macromolecules such as nucleic acids and protein-nucleic acid complexes as well) are vital and important macromolecules without which our bodies and other living organisms would be unable to repair, regulate, or protect against unwanted infectious organisms. Determination of the atomic three-dimensional structure of proteins provides critical information that allows scientists to understand how they function and interact. X-ray crystallography is the most efficient method to determine protein structures, although the technique requires growth of protein crystals of sufficient quality. Protein crystals grown in microgravity, initially utilizing unmanned rockets and subsequently on US space shuttle missions<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>, resulted in clear crystal quality improvements, reported for several investigations via X-ray diffraction analysis<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>. A microgravity environment results in protein crystals that are sometimes larger, provided sufficient growth time is available, but often it is the crystal’s quality that improves as evidenced by comparisons of diffraction resolution, mosaicity, signal-to-noise ratio of diffraction throughout the resolution range, temperature factors and final electron density maps<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR11">11</xref></sup>.</p>
+              <p id="Par3">Past microgravity experiments have investigated two possible reasons for the improved crystal quality that is often observed. This investigation provides experimental data to address the two prevailing theories regarding why a microgravity environment sometimes yields protein crystals of superior quality. The following hypothesis was addressed:</p>
+              <p id="Par4">Improved quality of microgravity-grown protein crystals is the result of two macromolecular characteristics that exist in a buoyancy-free, diffusion-dominated solution:<list list-type="order"><list-item><p id="Par5">Slower crystal growth rates, due to slower protein transport to the growing crystal surface and formation of protein depletion zones around growing crystals.</p></list-item><list-item><p id="Par6">Predilection of growing crystals to incorporate protein monomers versus larger protein oligomers, due to differences in transport rates.</p></list-item></list></p>
+              <p id="Par7">Understanding transport processes of biomolecules is of substantial importance in the growth of crystalline materials from a heated melt or from aqueous solutions, as well as for recent investigations regarding transport phenomena of cellular phase separation and cellular organization of biomolecules<sup><xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR19">19</xref></sup>. Density differences develop near growing crystal surfaces, produced by the incorporation of molecules from solution into the crystalline lattice<sup><xref ref-type="bibr" rid="CR20">20</xref>–<xref ref-type="bibr" rid="CR26">26</xref></sup>. In a microgravity environment, associated with absence of convection, there is reduced mixing of the crystallization solution and the transport of protein molecules is dominated solely by diffusion. It has been suggested that while a crystal grows from solution, a reduction of the protein and salt molecules from the solution surrounding the crystal, generates a depletion zone resulting in regions of varying concentrations<sup><xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR29">29</xref></sup>. Zones with decreased protein concentration, lower than that of the bulk solution, are generated near the growing crystal and the crystal grows in an environment with a lower supersaturation. In a diffusion-controlled microgravity environment, the transport of protein molecules occurs in quasi-stable depletion zones and the protein molecules diffuse more slowly towards the growing crystal surface<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. In addition, large protein aggregates diffuse more slowly than monomeric protein, thus the development of depletion zones may act as a diffusion filter that reduces the incorporation of aggregate impurities into the growing crystals.</p>
+              <p id="Par8">In microgravity, buoyancy-minimization and reduction of convective flow conditions provide a quiescent environment, thereby slowing the process of protein crystal nucleation and subsequent growth<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup>. It is believed that the diffusion-dominated environment causes crystals to grow more slowly since random diffusion of large protein molecules is the predominant factor responsible for their transport toward a growing crystal<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>. As a result, incoming protein molecules (approaching the crystalline lattice in random orientations) would have additional time to find the energetically favored and three-dimensional correct position at the surface of the growing crystal lattice. An electron microscopy study was performed on crystals grown at different rates for hen egg-white lysozyme with the resulting images showing an increase in crystalline step defects as growth rates increase<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. In some areas along the crystal surface, veils or open spaces formed at increased growth rates—apparently due to defects preventing the next incoming protein molecule from forming lattice contacts in the defect region. As a result, adjacent layers of protein forming on the crystal surface eventually grew over the open region, leaving a void or veil within the crystals that is assumed to be filled with aqueous solvent<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. Two theories based on protein transport rate differences in microgravity versus unit gravity have been proposed to explain the observed microgravity crystal improvements (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). One theory is based on expected slower crystal growth rates due to slower protein transport to the growing crystal surface. The second theory proposes that there is an exclusion of larger protein aggregates incorporated into the growing crystal (aggregates produce crystal defects that can reduce crystal quality)<sup><xref ref-type="bibr" rid="CR35">35</xref>–<xref ref-type="bibr" rid="CR37">37</xref></sup>. The theoretical explanation is based on the expected faster transport of a single folded protein molecule as opposed to aggregates of two or more protein molecules. There are several previous ground-based studies that indicate that a diffusive environment improves crystal quality and reduces protein aggregate impurity incorporation into growing crystals. Vekilov et al. studied the effect of convective solute and impurity transport using forced solution convection for crystallization of lysozyme protein<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Dimers of covalently bound lysozyme were introduced into an otherwise monomeric lysozyme growth solution. Their results indicate that at lower flow rates, an enhanced supply of solute to the crystal interface results in an increase in step velocity and growth rate, whereas more rapid convective transport leads to a reduction in growth kinetics (step bunching). They also demonstrated that solution flow enhances the incorporation of impurities, i.e. lysozyme dimers, into growing lysozyme crystals. Several other investigations using various techniques suggest similar differences for impurity incorporation in a diffusive versus convective environment<sup><xref ref-type="bibr" rid="CR28">28</xref>,<xref ref-type="bibr" rid="CR38">38</xref>–<xref ref-type="bibr" rid="CR40">40</xref></sup>. In one study, the effect of mass transport on the incorporation of crystal impurities and crystal quality, was evaluated using a ceiling crystallization method shown to virtually eliminate convective flow<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. The results demonstrated that diffusive mass transport, versus convective transport, reduces impurity incorporation and enhances crystal quality. Thus, based on previous experiments, it is justified to consider that microgravity-grown crystals may benefit from slow protein transport, naturally selecting for protein monomers, or the main building blocks of the crystal lattice. This can be any distinct and stable protein oligomer, versus the unwanted protein aggregates (i.e. dimer, tetramer or larger non-specifically aggregated, or misfolded protein) that typically exist in a protein crystallization growth solution. However, one study did find that there were no impurity incorporation differences for lysozyme crystals grown in microgravity and in unit gravity in the presence of varying amounts of lysozyme dimer<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>.<fig id="Fig1"><label>Fig. 1</label><caption><title>Scheme showing comparative mass transport. under microgravity and 1 G.</title><p><bold>a</bold> Under microgravity conditions, <bold>b</bold> on earth and resulting effects on protein crystal quality/mosaicity are shown. Particularly, the formation of spherical protein and protein aggregate depletion zones under microgravity conditions is supposed to be facilitated by the suppression of convection<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>.</p></caption><graphic xlink:href="41526_2022_191_Fig1_HTML" id="d32e489"/></fig></p>
+              <p id="Par9">In a diffusion-dominated environment, larger protein aggregates will travel significantly slower than smaller protein monomers thereby decreasing aggregate contamination in the crystal lattice. For an ideal case consisting of un-solvated spheres, D is proportional to one over M to the 1/3 and for a random coil macromolecule, D is proportional to one over M to the 0.5, where D is the translational diffusion coefficient and M is the molecular weight of the particle (Fick’s 1st law of diffusion corresponding to Eq. (<xref rid="Equ1" ref-type="">1</xref>)<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>,<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$J_n = - D\frac{{dn}}{{dt}}$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:msub><mml:mrow><mml:mi>J</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mi>D</mml:mi><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41526_2022_191_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where J is the diffusion flux [mol m<sup>−2</sup> s<sup>−1</sup>] depending on the particle gradient and further<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D \sim M^{\frac{1}{3}}$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi>D</mml:mi><mml:mo>~</mml:mo><mml:msup><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:msup></mml:mrow></mml:math><graphic xlink:href="41526_2022_191_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par10">The translational diffusion constant D [m<sup>2</sup> s<sup>−1</sup>], corresponding to Eq. (<xref rid="Equ2" ref-type="">2</xref>), depends on the Boltzmann constant k, temperature T [K], solvent viscosity η [Pa s] and molecular mass via the radius r [m] of the particles as following, according to the Stokes-Einstein Eq. (<xref rid="Equ3" ref-type="">3</xref>):<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D = \frac{{kT}}{{6\pi \eta r}}$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mn>6</mml:mn><mml:mi>π</mml:mi><mml:mi>η</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41526_2022_191_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p>
+              <p id="Par11">Therefore, for globular proteins it can be approximated that the value of D is somewhere between these two values. If we choose a relatively small protein like lysozyme with an exponent estimated at 0.4, the monomer D is proportional to 1/14,000<sup>0.4</sup> and the dimer D is proportional to 1/28,000<sup>0.4</sup>. Thus, the diffusion coefficient for the dimer results in an ~24% reduction. For a lysozyme tetramer the diffusion rate would decrease by ~43%. This suggests that the improvement in crystal quality may be partially due to the predilection for microgravity-grown crystals to contain a higher percentage of monomers versus a mixture of monomers and larger aggregates as larger aggregates will move progressively slower toward the growing crystal than their respective monomeric building blocks. It should also be mentioned that many proteins tend to be unstable over time, partly losing their three-dimensional structure via unfolding during a crystallization experiment. The C- and N- terminal regions of a protein peptide chain are particularly prone to such effects occurring over time. A partially unfolded, in the worst case completely unfolded protein occupies substantially larger volumes than folded protein. For example, random coil peptide aggregates will also move substantially slower in solution under microgravity conditions and therefore, will be incorporated in growing crystals less frequently than their folded counterparts. In this context it can be concluded that crystallization experiments under microgravity may show improvement.</p>
+              <p id="Par12">We utilized the International Space Station’s Light Microscopy Module (LMM), shown in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, and fluorescence labeling to address the two hypotheses mentioned before and previous experimental data regarding microgravity’s effect on protein crystal growth. Specially designed cassettes (Fig. <xref rid="Fig3" ref-type="fig">3</xref>), each containing eight capillaries, were used for the crystal growth and imaging experiments. Three proteins, chicken egg-white lysozyme, bovine serum albumin (BSA) and <italic>Plasmodium falciparum</italic> glutathione-<italic>S</italic>-transferase (<italic>Pf</italic>GST), were selected for the experiments.<fig id="Fig2"><label>Fig. 2</label><caption><title>Light Microscopy Module (LMM).</title><p>The LMM was used to visualize protein crystals on the International Space Station (ISS). The microscope was used to photograph the crystals at low (×5) and higher (×10) magnifications using white light and fluorescence microscopy. This image was kindly provided by NASA Glenn Research Center (GRC) and approved for use in this publication by NASA GRC.</p></caption><graphic xlink:href="41526_2022_191_Fig2_HTML" id="d32e646"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><title>Crystallization experiment hardware.</title><p><bold>a</bold> The SPX11 flight cassette contained eight capillaries: capillaries 1–3 contain lysozyme, capillaries 4 and 5 contain bovine serum albumin and capillaries 6–8 contain <italic>Pf</italic>GST. <bold>b</bold> Schematic diagram illustrating the capillary shape with dimensions indicated. <bold>c</bold> Empty capillary. <bold>d</bold> Section of a capillary with grown <italic>Pf</italic>GST crystals.</p></caption><graphic xlink:href="41526_2022_191_Fig3_HTML" id="d32e674"/></fig></p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Crystal growth and morphology</title>
+                <p id="Par13">A detailed statistical comparison of growth rates and crystal sizes along the different growth axes and in different sectors of the capillaries for microgravity and unit gravity crystallization was presented previously<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup> and therefore is not the focus of this publication. In summary, it was found that the average growth rate of the major axis of needle-shaped <italic>Pf</italic>GST crystals and lysozyme crystals was found to be higher (<italic>p</italic> &lt; 0.01) at unit gravity compared to the microgravity environment. Figure <xref rid="Fig4" ref-type="fig">4</xref> shows this comparison. Results from comparative crystal growth investigations showed a clear decrease in crystal growth rates along the major axis for microgravity-grown crystals of lysozyme and an increase in the length of the major axis for <italic>Pf</italic>GST crystals. The increase in length of the major axis for the <italic>Pf</italic>GST crystals is expected in a diffusion-dominated environment due to their needle-like shape. The leading edge of needle-like growing crystals receives new protein molecules via random diffusion from the front and sides, whereas the sides of needle-like crystals only receive new protein molecules from one side. In addition, the approximate number of crystals was not systematically changed under either condition, plus there was no indication for another crystal shape differing from the representative micrographs in Fig. <xref rid="Fig5" ref-type="fig">5</xref> for either of the three proteins.<fig id="Fig4"><label>Fig. 4</label><caption><title>Comparison of the growth rates.</title><p><bold>a</bold> Growth rates are shown for lysozyme and <bold>b</bold> for <italic>Pf</italic>GST crystals at unit gravity and under microgravity conditions for the time frame from 5 to 147 h after thawing. For both conditions 17 crystals from the same corresponding capillary section were investigated.</p></caption><graphic xlink:href="41526_2022_191_Fig4_HTML" id="d32e727"/></fig><fig id="Fig5"><label>Fig. 5</label><caption><title>Representative confocal fluorescence micrographs.</title><p><bold>a</bold> Lysozyme and <bold>b</bold> BSA crystals in the presence of 5% dimer of the respective protein labeled with Alexa Fluor 594 NHS ester grown at 1 G. Representative <italic>Pf</italic>GST crystals were grown in the presence of <bold>c</bold> 1% tetramer impurity and <bold>d</bold> 5% tetramer impurity labeled with Alexa Fluor 488 TFP ester and the displayed crystals were also prepared under unit gravity conditions. The crystals from the capillaries utilized for further investigation were similar in size, which means ~180–220 µm in major axis length for <italic>Pf</italic>GST, 80–120 × 80–120 × 250–300 µm for BSA and 120–180 µm in all three directions for lysozyme. Fluorescence analysis was performed on equal crystal volumes thereby eliminating the influence of crystal size on total fluorescence.</p></caption><graphic xlink:href="41526_2022_191_Fig5_HTML" id="d32e755"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Fluorescence microscopy and spectroscopy</title>
+                <p id="Par14">A detailed comparison of impurity (aggregate) incorporation into growing chicken egg-white lysozyme, BSA and <italic>Pf</italic>GST crystals is presented. To investigate impurity incorporation into growing crystals for each protein, fluorescently labeled protein aggregate samples were prepared containing different protein aggregate ratios. Figure <xref rid="Fig5" ref-type="fig">5</xref> shows typical fluorescence images obtained using a ground-based Zeiss LSM710 confocal laser scanning microscope.</p>
+                <p id="Par15">As noted in the Materials and Methods section, the mean intensity distribution of a defined crystal volume can be measured, recorded and normalized. This allows comparison of intensities of an equal crystal volume, thereby enabling accurate comparison of microgravity versus unit gravity ground-control crystals. Quantitative analysis via the fluorescent microscopy software clearly confirmed a difference in aggregate incorporation for unit gravity versus a microgravity environment. Comparison of the mean fluorescence intensity of crystals normalized to the crystal volume showed differences between the microgravity versus unit gravity control crystals for all three proteins (albeit the difference for the smallest protein, lysozyme was rather small, with exception of some outlier data). As shown in Fig. <xref rid="Fig6" ref-type="fig">6</xref>, for lysozyme, BSA and glutathione-<italic>S</italic>-transferase, the recorded fluorescence intensities for the unit gravity control crystals are higher than for the corresponding microgravity-grown crystals using identical protein batches, prepared at the same time as the flight samples.<fig id="Fig6"><label>Fig. 6</label><caption><title>Spectroscopic quantification of fluorescent oligomers incorporated into crystals.</title><p>Crystal aggregate incorporation in microgravity versus unit gravity control experiments is displayed. The box plots (<bold>a</bold>, <bold>b</bold>, and <bold>c</bold>; with symbols explained for each boxplot in <bold>b</bold>) show the aggregate incorporation based on fluorescence intensity analysis, for <bold>a</bold> lysozyme (SPX10 mission), <bold>b</bold> lysozyme (SPX 15 mission) and <bold>c</bold> BSA (SPX15 mission). For <bold>d</bold>
+<italic>Pf</italic>GST (SPX10 mission) all individual data points are included for clarity due to the lower number of crystals under investigation for each experimental condition. Individual data points are fluorescence intensities of crystals either grown at unit gravity (1 G) or microgravity (µg). The number of crystals analyzed under the respective conditions is provided in brackets and the relative amount of aggregates in % is provided as well.</p></caption><graphic xlink:href="41526_2022_191_Fig6_HTML" id="d32e813"/></fig></p>
+                <p id="Par16">This suggests that our second hypothesis, predilection of growing crystals to incorporate protein monomers versus higher protein aggregates due to differences in transport rates, may play a role in the improved quality and size of microgravity-grown crystals. The SPX10 lysozyme fluorescence data (Fig. <xref rid="Fig6" ref-type="fig">6a</xref>) shows the average measurement for 24 ground-control crystals compared with 18 flight crystals with 1.5% fluorescent aggregate added in the growth solutions and 25 ground-control crystals compared with 26 flight crystals with 5.0% fluorescent aggregate added in the growth solutions. The fluorescence intensities determined for lysozyme crystals of the SPX15 mission (Fig. <xref rid="Fig6" ref-type="fig">6b</xref>) represent the average values for 21 ground-control crystals compared with 21 flight crystals with 1.5% fluorescent aggregate added in the growth solutions and 32 ground-control crystals compared with 27 flight crystals with 5.0% fluorescent aggregate added to the growth solutions. Similar to lysozyme crystal samples of SPX15, the crystals samples of SPX10 are equally reduced in fluorescence when grown under microgravity.</p>
+                <p id="Par17">Moreover, the SPX15 BSA fluorescence data (Fig. <xref rid="Fig6" ref-type="fig">6c</xref>) shows the average measurement for 19 unit gravity control crystals compared with 19 microgravity-grown crystals with 5% fluorescent aggregate added in the growth solutions. The SPX10 glutathione-<italic>S</italic>-transferase fluorescence data (Fig. <xref rid="Fig6" ref-type="fig">6d</xref>) shows comparison of the incorporation of aggregates in 5 unit gravity controls versus 5 microgravity-grown crystals for each aggregate concentration, using identical protein batches.</p>
+                <p id="Par18">Overall, quantitative analysis of equal volumes of crystals of approximately similar size via the fluorescence microscopy software demonstrates a difference in aggregate incorporation in a unit gravity versus microgravity environment for the three different protein crystallization experiments studied. Microgravity and unit gravity experiments were performed in parallel and activated at the identical time. Using a student <italic>t</italic>-test, it is indicated that for the aggregate concentrations 0.2%, 1 and 5% (<italic>p</italic> &lt; 0.01), <italic>Pf</italic>GST crystals grown under microgravity possess a significantly lower fluorescence and thereby lower aggregate incorporation, within a confidence interval of 99%. Although, there is no significant difference in this comparison for the lowest aggregate concentration of 0.1% (<italic>p</italic> &gt; 0.05). Further, there is a significant difference for both BSA and lysozyme, including both aggregate concentrations, with a confidence <italic>p</italic> &lt; 0.01, when comparing the data plotted in Fig. <xref rid="Fig6" ref-type="fig">6</xref> in a <italic>t</italic>-test. However, as the data is not normally distributed, we further selected an appropriate nonparametric Mann–Whitney-<italic>U</italic> test<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> here, which indeed confirmed the statistical significance for both BSA and lysozyme with a significance level of 0.05, contributing to the hypothesis of reduced aggregate incorporation under microgravity. Using a Mann–Whitney-<italic>U</italic> test<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>, it was further verified that for the aggregate concentrations 0.1%, 0.2%, 1 and 5% (<italic>p</italic> &lt; 0.05), <italic>Pf</italic>GST crystals grown under microgravity possess a significantly lower fluorescence and thereby lower aggregate incorporation.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>X-ray diffraction</title>
+                <p id="Par19"><italic>Pf</italic>GST, a highly attractive target for the development of anti-malaria compounds in medicine, was crystallized, for the first time, under microgravity conditions. Unit gravity and microgravity-grown crystals were used for comparative X-ray diffraction data collection. All <italic>Pf</italic>GST crystals analyzed, not only share the same morphology but also belong to the same space group, P2<sub>1</sub>. A substantial improvement in average mosaicity and resolution was observed for the microgravity-grown crystals. On average, there is an improvement of the maximum resolution, R-factors, I/σ(I) value, as well as a clear reduction of mosaicity for microgravity-grown crystals in the absence of tetramer impurity, based on averaging three crystal datasets (Table <xref rid="Tab1" ref-type="table">1</xref>). Independent from the maximum resolution, the average I/σ(I) for an identical resolution range is increased under microgravity conditions compared to the unit gravity samples (Tables <xref rid="Tab1" ref-type="table">1</xref> and <xref rid="Tab2" ref-type="table">2</xref>). The highest maximum resolution observed among the datasets was ~2 Å for a crystal grown under microgravity. Furthermore, at two of three different selected concentrations of tetramer impurity (0.2 and 5%), the average value of crystal mosaicity is lower and the average number of obtained unique reflections is higher for the corresponding crystals grown under microgravity conditions. The average maximum resolutions of the respective datasets are improved for the microgravity-grown crystals. Nonetheless, in agreement with fluorescence quantification data, the average mosaicity is increasing for crystal growth conditions with higher amounts of fluorescently labeled tetramer added to the crystallization solution, corresponding to higher amounts of incorporated tetramer. X-ray diffraction statistics are summarized in more detail in Tables <xref rid="Tab1" ref-type="table">1</xref> and <xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Comparative summary and statistics of <italic>Pf</italic>GST X-ray diffraction data with 0 and 0.2% fluorescence labeled tetramer applied as impurity during the crystallization experiments respectively.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="5"><italic>Pf</italic>GST</th></tr><tr><th>Environment</th><th>Ground</th><th>Microgravity</th><th>Ground</th><th>Microgravity</th></tr></thead><tbody><tr><td>Relative amount of tetramer [%]</td><td>0</td><td>0</td><td>0.2</td><td>0.2</td></tr><tr><td>Number of datasets</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Temperature [K]</td><td>100</td><td>100</td><td>100</td><td>100</td></tr><tr><td>Wavelength [nm]</td><td>0.9919/0.9919/0.9919</td><td>0.9919/0.9919/0.9919</td><td>1.0332/1.0332/1.0332</td><td>1.0332</td></tr><tr><td>Space group</td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td></tr><tr><td colspan="5">Unit cell parameters</td></tr><tr><td> a [Å]</td><td>61.3/61.2/61.5</td><td>61.6/61.5/61.4</td><td>61.2/61.2/61.3</td><td>60.1/60.1/61.1</td></tr><tr><td> b [Å]</td><td>69.8/69.6/69.8</td><td>69.7/69.9/69.8</td><td>69.5/69.8/69.6</td><td>69.3/69.3/69.6</td></tr><tr><td> c [Å]</td><td>98.8/100.3/100.7</td><td>101.8/100.6/99.6</td><td>99.5/100.2/99.9</td><td>98.5/99.4/98.8</td></tr><tr><td> β [°]</td><td>90.2/90.1/90.2</td><td>92.4/92.4/91.9</td><td>92.2/92.3/92.2</td><td>91.9/92.3/91.8</td></tr><tr><td>Total number of reflections</td><td><p>38,264</p><p>49,046</p><p>72,528</p></td><td><p>16,4488</p><p>45,729</p><p>125,680</p></td><td><p>142,274</p><p>101,249</p><p>106,086</p></td><td><p>113,202</p><p>138,518</p><p>145,519</p></td></tr><tr><td>Unique number of reflections</td><td><p>11,385</p><p>14,755</p><p>14,429</p></td><td><p>48,857</p><p>13,653/</p><p>37,211</p></td><td><p>24,899</p><p>14,813</p><p>15,441</p></td><td><p>16,505</p><p>20,080</p><p>21,494</p></td></tr><tr><td>Resolution range [Å]</td><td><p>50.00–3.42 (3.62–3.42)</p><p>50.00–3.14 (3.33–3.14)</p><p>50.00–3.19 (3.38–3.19)</p></td><td><p>50.00–2.12 (2.25–2.12)</p><p>50.00–3.24 (3.43–3.24)</p><p>50.00–2.30 (2.44–2.30)</p></td><td><p>50.00–2.63 (2.79–2.63)</p><p>50.00–3.14 (3.33–3.14)</p><p>50.00–3.10 (3.28–3.10)</p></td><td><p>50.00–3.00 (3.18–3.00)</p><p>50.00–2.82 (2.99–2.82)</p><p>50.00–2.76 (2.92–2.76)</p></td></tr><tr><td>R<sub>meas</sub> [%]</td><td><p>7.9 (55.9)</p><p>16.2 (58.2)</p><p>14.9 (55.3)</p></td><td><p>9.9 (56.6)</p><p>18.6 (56.8)</p><p>8.0 (60.1)</p></td><td><p>11.5 (55.5)</p><p>18.0 (52.7)</p><p>20.4 (53.7)</p></td><td><p>12.8 (52.4)</p><p>13.2 (53.69)</p><p>12.0 (53.6)</p></td></tr><tr><td>R<sub>symm</sub> [%]</td><td><p>6.6 (47.4)</p><p>13.6 (48.4)</p><p>13.4 (49.6)</p></td><td><p>8.3 (49.9)</p><p>15.6 (49.5)</p><p>6.7 (50.3)</p></td><td><p>10.4 (50.2)</p><p>16.6 (48.7)</p><p>18.9 (49.7)</p></td><td><p>11.9 (48.5)</p><p>12.2 (49.7)</p><p>11.1 (49.4)</p></td></tr><tr><td>Mean I/σ(I)</td><td><p>12.44 (2.49)</p><p>7.57 (2.28)</p><p>9.96 (3.28)</p></td><td><p>12.09 (2.57)</p><p>7.47 (2.45)</p><p>12.82 (2.30)</p></td><td><p>13.97 (3.22)</p><p>10.03 (3.65)</p><p>8.78 (3.33)</p></td><td><p>13.81 (4.12)</p><p>13.70 (3.83)</p><p>12.05 (3.91)</p></td></tr><tr><td>Mean I/σ(I) (res. range 50.00–3.45 Å)</td><td>13.45 ± 3.74</td><td>20.48 ± 6.07</td><td>11.15 ± 4.55</td><td>17.12 ± 2.06</td></tr><tr><td>CC<sub>1/2</sub></td><td><p>99.9 (94.4)</p><p>99.7 (86.8)</p><p>99.7 (88.1)</p></td><td><p>99.8 (83.4)</p><p>99.6 (94.9)</p><p>99.8 (85.6)</p></td><td><p>99.8 (91.6)</p><p>99.6 (92.9)</p><p>99.2 (91.9)</p></td><td><p>99.8 (94.5)</p><p>99.8 (93.8)</p><p>99.8 (94.4)</p></td></tr><tr><td>Average mosaicity [°]</td><td>0.14/0.34/0.27</td><td>0.12/0.11/0.12</td><td>0.12/0.12/0.07</td><td>0.34/0.15/0.23</td></tr><tr><td>Completeness [%]</td><td><p>99.2 (98.9)</p><p>98.8 (96.3)</p><p>99.7 (99.7)</p></td><td><p>99.5 (99.4)</p><p>98.9 (96.7)</p><p>99.4 (98.8)</p></td><td><p>99.2 (98.7)</p><p>99.3 (97.1)</p><p>99.7 (99.6)</p></td><td><p>98.6 (95.0)</p><p>99.4 (98.9)</p><p>99.6 (97.9)</p></td></tr></tbody></table><table-wrap-foot><p>For each condition values for three diffraction datasets are provided and values in parenthesis refer to the outer resolution shell.</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>Comparative summary and statistics of <italic>Pf</italic>GST X-ray diffraction data using 1 and 5% fluorescence labeled tetramer applied as impurity during the crystallization experiments respectively.</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="5"><italic>Pf</italic>GST</th></tr><tr><th>Environment</th><th>Ground</th><th>Microgravity</th><th>Ground</th><th>Microgravity</th></tr></thead><tbody><tr><td>Relative amount of tetramer [%]</td><td>1</td><td>1</td><td>5</td><td>5</td></tr><tr><td>Number of datasets</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>Temperature [K]</td><td>100</td><td>100</td><td>100</td><td>100</td></tr><tr><td>Wavelength [nm]</td><td>1.0089/1.0089/1.0089</td><td>1.0089/1.0089/1.0089</td><td>1.0089/1.0089/1.0089</td><td>1.0089/1.0089/1.0089</td></tr><tr><td>Space group</td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td><td>P2<sub>1</sub></td></tr><tr><td colspan="5">Unit cell parameters</td></tr><tr><td> a [Å]</td><td>61.4/61.1/61.8</td><td>60.7/60.1/61.4</td><td>61.3/61.4/61.4</td><td>61.8/60.4/61.3</td></tr><tr><td> b [Å]</td><td>69.7/69.6/69.9</td><td>69.3/69.9/69.9</td><td>70.2/70.0/70.5</td><td>70.2/69.4/69.7</td></tr><tr><td> c [Å]</td><td>100.6/98.7/102.5</td><td>97.6/99.5/99.4</td><td>101.2/97.6/99.0</td><td>99.4/94.2/99.6</td></tr><tr><td> β [°]</td><td>91.1/92.2/92.6</td><td>89.9/91.2/91.7</td><td>92.2/91.9/91.6</td><td>91.7/89.8/92.2</td></tr><tr><td>Total number of reflections</td><td><p>32,777</p><p>27,846</p><p>71,134</p></td><td><p>37,077</p><p>29,252</p><p>10,4867</p></td><td><p>31,396</p><p>48,626</p><p>41,703</p></td><td><p>68,641</p><p>39,688</p><p>155,774</p></td></tr><tr><td>Unique number of reflections</td><td><p>9870</p><p>9467</p><p>40,196</p></td><td><p>21,271</p><p>9039</p><p>15,536</p></td><td><p>10,453</p><p>27,761</p><p>24,230</p></td><td><p>39,050</p><p>22,787</p><p>32,601</p></td></tr><tr><td>Resolution range [Å]</td><td><p>50.00–3.53 (3.75–3.53)</p><p>50.00–3.59 (3.81–3.59)</p><p>50.00–2.73 (2.90–2.73)</p></td><td><p>50.00–3.27 (3.47–3.27)</p><p>50.00–3.62 (3.84–3.62)</p><p>50.00–3.09 (3.28–3.09)</p></td><td><p>50.00–3.48 (3.69–3.48)</p><p>50.00–3.08 (3.26–3.08)</p><p>50.00–3.23 (3.42–3.23)</p></td><td><p>50.00–2.74 (2.91–2.74)</p><p>50.00–3.17 (3.37–3.10)</p><p>50.00–2.41 (2.55–2.41)</p></td></tr><tr><td>R<sub>meas</sub> [%]</td><td><p>29.4 (57.9)</p><p>29.4 (63.8)</p><p>17.2 (68.9)</p></td><td><p>23.2 (64.9)</p><p>23.3 (58.1)</p><p>10.1 (54.9)</p></td><td><p>19.6 (54.9)</p><p>10.9 (68.5)</p><p>14.9 (69.6)</p></td><td><p>20.5 (64.6)</p><p>15.5 (66.4)</p><p>7.5 (53.9)</p></td></tr><tr><td>R<sub>symm</sub> [%]</td><td><p>24.6 (48.0)</p><p>24.0 (52.1)</p><p>12.2 (48.8)</p></td><td><p>16.5 (46.0)</p><p>19.4 (48.1)</p><p>9.3 (50.7)</p></td><td><p>16.0 (44.9)</p><p>7.8 (49.2)</p><p>10.7 (50.4)</p></td><td><p>14.7 (46.3)</p><p>11.1 (47.8)</p><p>6.7 (48.0)</p></td></tr><tr><td>Mean I/σ(I)</td><td><p>4.07 (2.33)</p><p>4.35 (1.71)</p><p>6.75 (1.59)</p></td><td><p>5.38 (1.46)</p><p>4.82 (1.90)</p><p>14.88 (3.82)</p></td><td><p>5.91 (2.36)</p><p>7.93 (2.01)</p><p>5.35 (1.43)</p></td><td><p>3.91 (1.77)</p><p>5.09 (1.37)</p><p>14.42 (3.05)</p></td></tr><tr><td>Mean I/σ(I) (res. range 50.00–3.45 Å)</td><td>5.15 ± 2.10</td><td>6.19 ± 4.23</td><td>5.94 ± 2.11</td><td>11.21 ± 9.40</td></tr><tr><td>CC<sub>1/2</sub></td><td><p>97.2 (69.0)</p><p>97.4 (77.7)</p><p>98.3 (75.7)</p></td><td><p>97.4 (79.6)</p><p>99.3 (92.2)</p><p>99.9 (96.3)</p></td><td><p>91.1 (98.6)</p><p>99.6 (71.6)</p><p>99.0 (77.3)</p></td><td><p>98.1 (82.0)</p><p>98.8 (64.5)</p><p>99.9 (92.0)</p></td></tr><tr><td>Average mosaicity [°]</td><td>0.37/0.44/0.51</td><td>0.77/0.61/0.25</td><td>0.48/0.52/0.73</td><td>0.25/0.65/0.15</td></tr><tr><td>Completeness [%]</td><td><p>94.1 (74.4)</p><p>96.2 (89.7)</p><p>88.4 (85.7)</p></td><td><p>87.1 (70.3)</p><p>92.9 (60.2)</p><p>99.4 (97.0)</p></td><td><p>93.5 (74.2)</p><p>92.0 (79.6)</p><p>90.7 (79.8)</p></td><td><p>89.5 (80.4)</p><p>88.3 (61.5)</p><p>99.5 (98.2)</p></td></tr></tbody></table><table-wrap-foot><p>Values for three diffraction datasets are provided and values in parenthesis refer to the outer resolution shell.</p></table-wrap-foot></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec6" sec-type="discussion">
+              <title>Discussion</title>
+              <p id="Par20">Our investigations addressed two prevailing theories regarding why microgravity-grown protein crystals often exhibit improved X-ray diffraction statistics compared to unit gravity control crystals. The first theory concerning differences in crystal growth rates found in our experiments was previously addressed<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>. The reduction in growth rate under microgravity versus unit gravity can be explained by the driving force ratio of diffusion as defined by Tanaka et al.<sup><xref ref-type="bibr" rid="CR47">47</xref>,<xref ref-type="bibr" rid="CR48">48</xref></sup>. Data from SPX10 as well as previous studies demonstrated differences in the growth rate and geometry of crystals grown in microgravity versus unit gravity control experiments<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref>,<xref ref-type="bibr" rid="CR49">49</xref></sup>. However, for the crystals under investigation, as mentioned previously, changes were not observed for shape and geometry for microgravity versus unit gravity crystals.</p>
+              <p id="Par21">Results presented here address the second theory: “Predilection of growing crystals to incorporate protein monomers versus higher protein aggregates due to differences in transport rates”. Previous studies using cryo-electron microscopy and atomic force microscopy revealed severe defects and dislocations in protein crystals<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. Several studies demonstrate how small molecule and macromolecular impurities cause defects and dislocations in protein crystals<sup><xref ref-type="bibr" rid="CR50">50</xref>–<xref ref-type="bibr" rid="CR54">54</xref></sup>. Protein crystals affected by such defects are often completely disordered, thereby not fulfilling Braggs law<sup><xref ref-type="bibr" rid="CR55">55</xref></sup> and not allowing generation of diffraction intensities, other than background scatter. Defects and dislocations reduce the number of productive scattering units which is proportional to the overall diffraction intensity, while in parallel increasing diffuse scattering or background noise. In addition, defects may also affect the ultimate crystal size, its dimensions and growth cessation, which may explain the observation that crystals grown in microgravity are in some cases larger than their unit gravity counterparts<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>.</p>
+              <p id="Par22">These investigations used monomeric and aggregate populations of three proteins, chicken egg-white lysozyme, BSA and <italic>Pf</italic>GST. Fluorescent dyes (Alexa fluor 594 for lysozyme and BSA and Alexa fluor 488 for glutathione-<italic>S</italic>-transferase) were covalently attached to stable aggregate populations for each protein. Crystallization experiments were prepared such that protein samples used for the comparative crystallization experiments contained different protein aggregate ratios. This allowed examination of the percent incorporation of aggregate into growing protein crystals since the monomeric form of each protein did not contain fluorescent dye. As can be seen from Fig. <xref rid="Fig6" ref-type="fig">6</xref>, fluorescent analysis of equal crystal volumes for each protein showed significantly more aggregate in the control crystals (grown at unit gravity) compared to the microgravity-grown crystals. On flight SPX10, for lysozyme, the amount of average aggregate incorporation (1.5% aggregate supplementation) was ~40% higher and the average aggregate incorporation (5% aggregate supplementation) was ~60% higher for the unit gravity-grown crystals. On flight SPX15, for lysozyme, the amount of aggregate incorporation (1.5% aggregate supplementation) was ~38% higher and the aggregate incorporation (5% aggregate supplementation) was also ~60% higher for the unit gravity-grown crystals. However, there were several data points at significantly higher fluorescent intensities that may have incorrectly prejudiced these results. The box plot in Fig. <xref rid="Fig6" ref-type="fig">6</xref> shows only small differences between the microgravity and unit gravity crystal fluorescence when these outliers are not considered, despite the student <italic>t</italic>-test and Mann–Whitney-<italic>U</italic> test<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> results. For BSA, the amount of aggregate incorporation (5.0% aggregate supplement in the solution) was ~170% higher for the unit gravity-grown crystals.</p>
+              <p id="Par23"><italic>Pf</italic>GST crystals grown at unit gravity contain a higher amount of tetramer impurity compared to the crystals grown under microgravity for all the tetramer concentrations studied (Fig. <xref rid="Fig6" ref-type="fig">6</xref>). For all tetramer concentrations higher than 0.1%, the average fluorescence of the unit gravity-grown crystals increased by at least 100%. Up to a concentration of 1% tetramer the total fluorescence of the unit gravity-grown crystals is continuously increasing. Similarly, the fluorescence of the microgravity-grown crystals reaches its maximum at 5%. This trend was also observed for the mosaicity and X-ray diffraction experiments when comparing the setups with 1 and 5% tetramer. The mosaicity increases with increasing tetramer aggregate concentration from 0.2 to 5% under terrestrial conditions, indicating additional incorporation of tetramer. The mosaicity is nearly 50% reduced under microgravity for 5% tetramer content but increased under microgravity conditions for 1% tetramer content compared to the unit gravity environment. Reduced mosaicity of macromolecular crystals under microgravity in general is, as discussed, in agreement with several previous experiments<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR56">56</xref></sup>, although these previous experiments did not apply a defined gradual addition of impurities with fluorescence-based monitoring.</p>
+              <p id="Par24">Notably, according to Tanaka et al.<sup><xref ref-type="bibr" rid="CR47">47</xref>,<xref ref-type="bibr" rid="CR48">48</xref></sup>, a theoretical discussion of the reduction in impurity incorporation was presented as dependent on the ratio of the kinetic parameter β of the impurity (β<sub>i</sub>) and the target protein in the crystal lattice as well as on the ratio of the diffusion constant, D, of the impurity (D<sub>i</sub>) and the target protein. Therefore, considering almost identical affinity of aggregate and monomer protein for the growing crystal and structural similarity of monomer protein and supplemented aggregate, a reduction of aggregate incorporation into the crystal would be expected since the aggregates have a lower diffusion constant. On the other hand, smaller impurities, which could be fragments of the target protein, could be depleted accordingly, provided their affinity is lower. Considering a relatively large protein crystal, probably close to its maximal size, as the depletion zone effectiveness is increasing with increasing crystal size, the impurity uptake filtration was described to tend to approximate <inline-formula id="IEq1"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{\beta \;D_i}}{{\beta _i\;D}}$$\end{document}</tex-math><mml:math id="M8"><mml:mfrac><mml:mrow><mml:mi>β</mml:mi><mml:mspace width="0.16em"/><mml:msub><mml:mrow><mml:mi>D</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>β</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mspace width="0.16em"/><mml:mi>D</mml:mi></mml:mrow></mml:mfrac></mml:math><inline-graphic xlink:href="41526_2022_191_Article_IEq1.gif"/></alternatives></inline-formula>. Consequently, an accurate experimental determination of the values for β and D for the three different proteins under investigation, might, according to the proposed model, reflect the different relative fluorescence reduction of the microgravity-grown crystals. As observed in Fig. <xref rid="Fig6" ref-type="fig">6</xref>, the reduction of the mean and median value of fluorescence, when comparing microgravity-grown with unit gravity-grown crystals, is relatively low for lysozyme in comparison to BSA and <italic>Pf</italic>GST. However, additional parameters including the crystal size would need to be considered for a more valuable comparison of the different proteins.</p>
+              <p id="Par25">Further quantification and verification of depletion zones of the growing crystal depending on the local diffusion coefficient, crystal size as well as affinity of monomeric protein and impurity to the crystal lattice of a selected protein, as modeled by Tanaka<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>, would be informative. Complementary experiments could be performed in batch due to the comparatively simplified crystal growth kinetics<sup><xref ref-type="bibr" rid="CR48">48</xref>,<xref ref-type="bibr" rid="CR57">57</xref>,<xref ref-type="bibr" rid="CR58">58</xref></sup>.</p>
+              <p id="Par26">In summary, the results suggest that microgravity supports growth of higher quality protein crystals, via slower mass dependent protein transport in a diffusion-dominated environment. Slower growth rates could be a consequence of slower protein transport or lower supersaturation close to the crystal surface. The results support both theories presented in the hypothesis: (1) crystal growth rates are generally slower thereby allowing approaching protein molecules time to become uniformly incorporated in the crystalline lattice<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup> and (2) the diffusion-dominated environment acts as a filter in that monomeric forms of the protein will be transported to the growing crystalline lattice faster than aggregated protein, which possesses a smaller diffusion constant due to the higher hydrodynamic radius. In this context it can be concluded that higher molecular weight proteins should demonstrate a certain degree of increased benefit due to larger differences in transport rates for monomers versus aggregates, i.e. large impurities. These results suggest that information about the presence of unwanted aggregates, or fractions of partially unfolded proteins in purified protein preparations could be used in the selection process for proteins likely to exhibit additional benefit from microgravity crystallization. Purified protein samples even with minimum aggregation propensity and typically minor amounts of trace impurities exhibit additional benefit from microgravity crystallization. In conclusion, the data from Spx10 and Sps15 for all three proteins appears to confirm the second hypothesis (predilection of growing crystals to incorporate protein monomers versus larger protein oligomers in a microgravity environment) thereby agreeing with several previous investigations.</p>
+            </sec>
+            <sec id="Sec7">
+              <title>Methods</title>
+              <sec id="Sec8">
+                <title>Sample preparation</title>
+                <p id="Par27">Three different proteins, monomeric hen egg-white lysozyme, M.W. ~14.4 kDa, monomeric BSA, M.W. ~66.5 kDa, and dimeric <italic>Pf</italic>GST, M.W. ~56 kDa, were used for the experimental investigations. <italic>Pf</italic>GST from <italic>Plasmodium falciparum</italic> was expressed and purified in preparation for crystallization as previously reported with few modifications. Recombinant gene overexpression was performed in <italic>E. coli</italic> BL21(DE3) cells in overnight cultures at 19 °C. Cells were harvested by centrifugation and resuspended in Dulbecco’s phosphate-buffered saline (pH 7.4). The cell suspension was sonicated, and cell debris was removed by centrifugation at 17,000 × <italic>g</italic> at 4 °C for 1 h. Recombinant <italic>Pf</italic>GST was purified applying gravity-flow glutathione affinity chromatography resin, additionally, <italic>Pf</italic>GST dimers and tetramers were separated by size-exclusion chromatography by utilizing a HiLoad 26/600 Superdex 200 column (GE Healthcare) for subsequent labeling of the tetrameric protein (V<sub>elution</sub> ≈ 170 mL). More details about the dimeric and tetrameric state of the protein and its transition were provided by Perbandt et al.<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>. To obtain pure and stable dimeric <italic>Pf</italic>GST for crystallization trials and to stabilize the dimeric state, the protein was eluted from the affinity chromatography column using 10 mM of the GSH analog <italic>S</italic>-(<italic>p</italic>-bromobenzyl)-GSH, which was synthesized and applied according to Vince et al.<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. 4-Bromobenzyl bromide was dissolved in 500 mL of 50% ethanol aqueous solution to a concentration of 12 mM in a single neck round-bottom flask. Then L-glutathione was added into the solution via vigorous stirring. After 4-bromobenzyl bromide and L-glutathione were completely dissolved, 5 M sodium hydroxide was added dropwise into the mixture and pH 9.2 was maintained under stirring at RT for 3 h. Then, 10 M hydrochloric acid was slowly added into the mixture until reaching pH 2.1. The obtained solution was removed into a 1 L round flask and the excess of solvent was removed in a rotary evaporator at RT and 175 mbar to get a white solid product. The white solid product was dissolved in sodium phosphate buffer. Then, 1 M NaOH was added dropwise to the solution to reach pH 6.7. The final solution with pH 6.7 was sterile filtered.</p>
+                <p id="Par28">The dispersity and particle radius distribution of <italic>Pf</italic>GST dimers (30 mg/mL), as utilized for crystallization trials, were analyzed at 20 °C applying dynamic laser light scattering (DLS) to verify and confirm the stability of the oligomeric state over time for five consecutive days utilizing a DLS SpectroLight 300 system (Xtal Concepts GmbH, Hamburg, Germany). Time-resolved DLS measurements verified the mono-dispersity of the <italic>Pf</italic>GST dimer with R<sub>H</sub> = 3.7 ± 0.1 nm and tetramer, which was subsequently fluorescence tagged and used as defined aggregate, with R<sub>H</sub> = 5.7 ± 0.1 nm, respectively, averaged over time.</p>
+                <p id="Par29">Monomeric chicken egg-white lysozyme was obtained by subjecting commercially obtained protein (Biomedical’s LLC) to size-exclusion chromatography (Yarra-3000 size exclusion column). To produce stable aggregates, the purified monomeric protein was further subjected to cross-linking by using glutaraldehyde as a cross-linking agent. One gram of the purified protein was crosslinked in 100 mL 0.5% (w/w) glutaraldehyde in phosphate buffer (0.055 M Na<sub>2</sub>HPO<sub>4</sub>, 0.09 M NaH<sub>2</sub>PO<sub>4</sub>, pH 7.0) for 2 h at 22 °C. The cross-linked protein was then reapplied to the Yarra-3000 size exclusion column equilibrated with 50 mM acetate buffer pH 4.8, to separate dimeric lysozyme from remaining monomeric protein. The monomeric protein and dimer were concentrated to 12.0 mg/mL and reevaluated via size exclusion chromatography periodically to ensure stability of each protein population. The monomer and cross-linked aggregate form were found to be stable for more than 3 months. Although less than 5% of the monomer form did become aggregated after 3 months this does not affect the conclusions drawn since each sample would contain a slightly higher percentage of aggregate.</p>
+                <p id="Par30">Purified BSA was obtained from Sigma Aldrich Pharmaceuticals. The protein was then applied to a 5 × 1 cm chromatography column containing charcoal (Fluka, St. Louis Missouri, USA<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>) to remove associated lipids from the protein. This was followed by concentration and application of the purified protein to a Yarra-3000 size exclusion column which enable isolation of monomeric, dimeric and tetrameric BSA. The monomer and different aggregates were concentrated to 15 mg/mL and analyzed over time via DLS to determine and verify stability of the BSA monomer and BSA aggregate populations. The monomer and aggregate forms were found to be stable for more than 3 months. For BSA, less than 3% of the monomer form became aggregated after 3 months. In consequence and as explained for the lysozyme sample, we do not believe this significantly affects our conclusions, since it indicates that each sample ended up containing a slightly higher percentage of aggregates. As a result, there was no need to apply the cross-linking method described for the lysozyme aggregate preparation.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Fluorescent labeling of protein aggregates</title>
+                <p id="Par31">To investigate the amount of impurity incorporated into growing crystals, stable fluorescently labeled protein aggregates were prepared and subsequently added at different percent concentrations to non-labeled monomeric protein suspensions. The <italic>Pf</italic>GST tetramer as well as BSA and lysozyme dimers, acting as related impurities in the crystallization experiments, were labeled with fluorescent dyes Alexa fluor 488, TFP Esther and Alexa fluor 594 and HS Esther respectively. The Alexa fluor 488 TFP Esther and Alexa fluor 594 and HS Esther were obtained from thermal Fisher Scientific (life technology). The Alexa fluor 488 TFP Esther (5 mg) was dissolved in 0.5 mL of dimethyl sulfoxide. The reactive dye solution (80 µL) was slowly added to the stirring <italic>Pf</italic>GST tetramer solution (10 mg/mL in PBS). The reaction was incubated for 1 h at room temperature with continuous stirring. Labeled tetramer was separated from free dye using a DAX G 25 prepack gel filtration column. The amount of dye per mole of protein was determined as described previously<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>, using the molar extinction coefficients, e.g. 71,000 cm<sup>–1</sup> M<sup>–1</sup> for Alexa fluor 488 at 494 nm wavelength. The resulting degree of labeling (DOL) for Alexa fluor 488 and <italic>Pf</italic>GST tetramer used in crystallization experiments was determined to 3.8 dye molecules per protein molecule. For lysozyme and BSA aggregate labeling, a solution of the buffered dimeric protein at 2 mg/mL was mixed with Alexa floor 594 and HS Esther at 22 °C and incubated for 1 h to yield a DOL of approx. 2 and 5 for lysozyme and BSA respectively. Unbound dye was removed via spin concentration.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Crystallization protocols</title>
+                <p id="Par32">Crystallization of lysozyme was performed in 50 mM acetate buffer pH 4.8, 100 mM NaCl and protein concentration at 10 mg/mL. Crystallization of BSA was performed at pH 6.5 in 0.1 M MES buffer, a protein concentration of 40 mg/mL and using 24% polyethylene glycol 4000 as precipitant<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. <italic>Pf</italic>GST crystallization was performed in 0.1 M NaH<sub>2</sub>PO<sub>4</sub>, applying a protein concentration of 30 mg/mL using a solution of 2.8 M (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 0.1 M NaH<sub>2</sub>PO<sub>4</sub>, 15% glycerol at pH 6.7 as precipitant.</p>
+                <p id="Par33">Crystallization experiments were performed using the counter/liquid- liquid diffusion technique in capillaries (VitroCom, Inc.) of 100 mm length, 3 mm width, and 0.3 mm internal height (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). Capillaries were filled with 37 µL of precipitant and 37 µL of protein solution (supplemented with different percentages of fluorescently labeled protein aggregate) using Hamilton syringes. Lysozyme, concentrated to 10 mg/mL, was prepared in 0.1 M sodium acetate (pH 4.6) solution with the precipitant solution consisting of 1 M sodium chloride and 0.1 M sodium acetate adjusted to pH 4.6. Purified and delipidated BSA was prepared in Tris-HCl buffer at pH 7.5. A sample of <italic>Pf</italic>GST dimer and tetramer was prepared in 0.1 M Na<sub>2</sub>HPO<sub>4</sub> (pH 6.7) solution. The precipitant solution for <italic>Pf</italic>GST consisted of 2.8 M (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 0.1 M Na<sub>2</sub>HPO<sub>4</sub> and 15% glycerol (pH 6.7). Immediately after preparing each capillary the capillaries were immersed in liquid nitrogen to freeze the samples prior to launch. Eight capillaries were contained in a specially constructed cassette (ZIN Technologies) that allows the capillaries to lie flat in the cassette channels thereby enabling optical viewing with the International Space Station’s LMM. It should be noted that it would have been helpful to monitor the time course of crystallization rates in microgravity versus 1 G controls but experimental constraints using the LMM prevented these measurements. Additional details regarding the sample preparation prior to flight are provided in a previous publication<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Figure <xref rid="Fig3" ref-type="fig">3</xref> shows one of the flight capillary cassettes containing eight prepared capillaries. For subsequent experiments, crystals of similar shape and size in all three dimensions were selected to maintain comparability for the diffraction data and fluorescence intensities of crystals grown under different gravity conditions. Crystallization capillaries filled with protein and precipitant solution used for unit gravity control experiments were prepared and handled identically as for the microgravity on-orbit experiments to maintain optimal comparability. Notably, all capillaries were instantly flash frozen in liquid nitrogen, as required for transportation, and all ground-control capillaries were stored and thawed on the same day as the respective microgravity sample capillaries.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>On-orbit experiments</title>
+                <p id="Par34">Crystallization experiments were performed on the International Space Station (ISS) on two different mission launch dates SPX10, February 19th, 2017 (Lysozyme, <italic>Pf</italic>GST) and SPX15, June 29th, 2018 (BSA, Lysozyme) with samples returned on January 16th, 2019. The SPX10 mission crystal growth duration was 30 days and the SPX15 crystal growth duration was 202 days (for this mission, samples returned via a subsequent SPX16 flight to the ISS). For each mission, the crystallization cassettes were maintained at −80 °C, i.e. contained in a −80 °C freezer) within the SpaceX Dragon module until reaching the ISS. Once on orbit, the freezer was transferred to the ISS and the crystallization cassettes removed from the −80 °C freezers, and allowed to thaw, thereby initiating the liquid-diffusion process. Crystallization growth temperature was maintained between 20–23 °C for both missions. Crystal growth was monitored periodically utilizing the NASA LMM with crystallization images photographed to support measurement of crystal growth rates.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Confocal fluorescence imaging experiments</title>
+                <p id="Par35">To investigate incorporation of impurities into growing crystals for each protein, confocal fluorescence imaging experiments were performed on the ISS using the LMM microscope, ×2.5 and ×10 objectives. Fluorescence imaging experiments on the ground were performed using a Zeiss LSM710 confocal laser scanning microscope (Carl Zeiss microscopy). The Laser Confocal Microscope uses discrete laser excitation to acquire haze free high-resolution images at specific, spectral, wavelengths using PMT detectors at a resolution of 1024 × 1024 pixels. Through motorized focus control, the Zeiss ZEN imaging software acquires multiple Z-axis plane images and reconstructs and renders 3D images from the planes. These reconstructed 3D z-stacks can be used to calculate the mean intensity of each crystal. The Nis-Elements Analysis Software package has an automated measurement feature that can be used to select specific 3D regions in an image. The mean intensity distribution on a defined crystal volume can be measured and recorded and then exported to Excel. This allows the investigator to compare intensity of an equal volume for each crystal thereby enabling accurate comparison of microgravity versus ground-control crystals. Further, crystals of similar size were selected for comparison. Fluorescence investigation of <italic>Pf</italic>GST crystals used a FITC (excitation 475–495 nm, emission 515–545 nm) filter and for lysozyme and BSA crystals, a Texas Red (excitation 540–580 nm, emission 590–630 nm) filter was used.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>X-ray diffraction data collection and processing</title>
+                <p id="Par36">For cryo-protection prior to shock-freezing needle-shaped <italic>Pf</italic>GST crystals were carefully harvested from the capillaries and embedded in cryoprotectant solution (0.1 M NaH<sub>2</sub>PO<sub>4</sub>, 1.9 M (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 10 mM <italic>S</italic>-(<italic>p</italic>-bromobenzyl)-GSH, 14% glycerol, pH 6.7) using nylon loops of identical size (Mounted Cryo-Loops, Hampton Research, US). Diffraction data of individual crystals with homologous dimensions of approx. 200 µm in length were collected using a constant instrumentation setup containing a PILATUS 6 M detector at the EMBL beamline P13 and beamline P11 (PETRA III, DESY, Hamburg, Germany) at 100 K, collecting 3600 images per crystal with 0.1° rotation increment. Diffraction data were subsequently indexed, integrated and scaled using XDS and evaluated. Crystal parameters and X-ray diffraction statistics are summarized in Tables <xref rid="Tab1" ref-type="table">1</xref> and <xref rid="Tab2" ref-type="table">2</xref>. Three datasets were recorded and compared for each condition.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Reporting summary</title>
+                <p id="Par37">Further information on research design is available in the <xref rid="MOESM1" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec15">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41526_2022_191_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Reporting Summary</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>These authors contributed equally: Arayik Martirosyan, Sven Falke.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41526-022-00191-x.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors would like to thank all the people that have been involved in the SpaceX SPX10 and SPX15 mission. The authors would like to thank all the crew members of ISS expedition 50 and 52. Also the authors would like to thank all the participants (i.a. Zin Technologies) of the projects Biophysics 1 and 4. This research has been supported by the NASA (Grant No. 80NSSC18K0013), by Deutsche Luft und Raumfahrt Agentur (DLR) supporting the project via grant 50WB1422, by the Cluster of Excellence ‘Advanced Imaging of Matter’ of the Deutsche Forschungsgemeinschaft (DFG)—EXC 2056—project ID 390715994, and by DFG project BE1443/29-1. We also acknowledge UAB-High Resolution Imaging Service Center, Shelby 135c, Confocal/Light Microscopy Core at the University of Alabama at Birmingham. We acknowledge access to beamlines P11 (DESY) and P13 (DESY/EMBL, Hamburg) and are thankful for technical user support.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>L.J.D., C.B. and A.M. designed all experiments described in this publication. D.M., M.C., C.D.R, A.M., S.F. and J.K. performed experiments and supported data analysis and L.J.D., C.B., A.M. and S.F. assisted in the data processing and prepared the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>All data collected for the fluorescence experiments, as well as for the X-ray diffraction experiments can be obtained from the authors on request. Correspondence should be addressed to L.J.D. and C.B.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par38">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Ruyters, G., Betzel, C. H. &amp; Grimm, D. Biotechnology in Space. Springer Briefs 2017, 10.1007/978-3-319-64054-9).</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ng</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space-grown protein crystals are more useful for structure determination</article-title>
+                  <source>Ann. N. Y Acad. Sci.</source>
+                  <year>2002</year>
+                  <volume>974</volume>
+                  <fpage>598</fpage>
+                  <lpage>609</lpage>
+                  <?supplied-pmid 12446351?>
+                  <pub-id pub-id-type="pmid">12446351</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">McPherson, A. &amp; DeLucas, L. J., Microgravity protein crystallization. <italic>NPJ Microgravity</italic><bold>1</bold>, 15010 (2015).</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Macromolecular crystal growth in microgravity</article-title>
+                  <source>Crystallogr. Rev.</source>
+                  <year>1996</year>
+                  <volume>6</volume>
+                  <fpage>157</fpage>
+                  <lpage>305</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Helliwell</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Macromolecular crystallization in microgravity</article-title>
+                  <source>Rep. Prog. Phys.</source>
+                  <year>2005</year>
+                  <volume>68</volume>
+                  <fpage>799</fpage>
+                  <lpage>853</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>Weisgerber</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Helliwell</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Holzer</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Schroer</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Improvements in lysozyme protein crystal perfection through microgravity growth</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>1995</year>
+                  <volume>51</volume>
+                  <fpage>1099</fpage>
+                  <lpage>1102</lpage>
+                  <?supplied-pmid 15299787?>
+                  <pub-id pub-id-type="pmid">15299787</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kundrot</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pusey</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity and macromolecular crystallography</article-title>
+                  <source>Cryst. Growth Des.</source>
+                  <year>2001</year>
+                  <volume>1</volume>
+                  <fpage>87</fpage>
+                  <lpage>99</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Woerd</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extracting trends from two decades of microgravity macromolecular crystallization history</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>2005</year>
+                  <volume>61</volume>
+                  <fpage>763</fpage>
+                  <lpage>771</lpage>
+                  <?supplied-pmid 15930636?>
+                  <pub-id pub-id-type="pmid">15930636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naumann</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Bugg</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Delucas</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Suddath</surname>
+                      <given-names>FL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crystals in space</article-title>
+                  <source>Science</source>
+                  <year>1985</year>
+                  <volume>230</volume>
+                  <fpage>375</fpage>
+                  <lpage>376</lpage>
+                  <?supplied-pmid 17816059?>
+                  <pub-id pub-id-type="pmid">17816059</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>DeLucas</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bugg</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein crystal growth in space</article-title>
+                  <source>Adv. Space Biol. Med</source>
+                  <year>1991</year>
+                  <volume>1</volume>
+                  <fpage>249</fpage>
+                  <lpage>278</lpage>
+                  <?supplied-pmid 1669429?>
+                  <pub-id pub-id-type="pmid">1669429</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maes</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Toward a definition of X-ray crystal quality</article-title>
+                  <source>Cryst. Growtrh Des.</source>
+                  <year>2008</year>
+                  <volume>12</volume>
+                  <fpage>4284</fpage>
+                  <lpage>4290</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grant</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Saville</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of transport phenomena in protein crystal growth</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1991</year>
+                  <volume>108</volume>
+                  <fpage>8</fpage>
+                  <lpage>18</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <mixed-citation publication-type="other">Hurle, D. Transport and Stability. Vol. 1B. (Amsterdam, 1994).</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennema</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crystal growth from solution—theory and experiment</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1974</year>
+                  <volume>24</volume>
+                  <fpage>76</fpage>
+                  <lpage>83</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chernov</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Present day understanding of crystal growth from aqueous solutions</article-title>
+                  <source>Prog. Cryst. Growth Charact.</source>
+                  <year>1993</year>
+                  <volume>26</volume>
+                  <fpage>195</fpage>
+                  <lpage>218</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <mixed-citation publication-type="other">Sarig, S. Fundamentals of Aqueous Solution Growth. In: Handbook of Crystal Growth. Vol. 2B, ed. by D.T.J. Hurle (North-Holland/Elsevier, Amsterdam 1994), 1217–1269.</mixed-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alberti</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Phase separation in biology</article-title>
+                  <source>Curr. Biol.</source>
+                  <year>2017</year>
+                  <volume>27</volume>
+                  <fpage>R1097</fpage>
+                  <lpage>R1102</lpage>
+                  <?supplied-pmid 29065286?>
+                  <pub-id pub-id-type="pmid">29065286</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <mixed-citation publication-type="other">Shin, Y. &amp; Brangwynne, C. P. Liquid phase condensation in cell physiology and disease. <italic>Science</italic><bold>357</bold>, 10.1126/science.aaf4382 (2017).</mixed-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Liquid-liquid phase separation in biology: mechanisms, physiological functions and human diseases</article-title>
+                  <source>Sci. China Life Sci.</source>
+                  <year>2020</year>
+                  <volume>63</volume>
+                  <fpage>953</fpage>
+                  <lpage>985</lpage>
+                  <?supplied-pmid 32548680?>
+                  <pub-id pub-id-type="pmid">32548680</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Broom</surname>
+                      <given-names>BM</given-names>
+                    </name>
+                    <name>
+                      <surname>Witherow</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Snyder</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Preliminary Observations of the Effect of Solutal Convection on Crystal Morphology</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1988</year>
+                  <volume>90</volume>
+                  <fpage>130</fpage>
+                  <lpage>135</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>Shlicha</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilcox</surname>
+                      <given-names>WR</given-names>
+                    </name>
+                    <name>
+                      <surname>Lefever</surname>
+                      <given-names>RA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Convection phenomena during the growth of sodium chlorate crystals from solution</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1979</year>
+                  <volume>47</volume>
+                  <fpage>43</fpage>
+                  <lpage>60</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Molenkamp</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Janssen</surname>
+                      <given-names>PBM</given-names>
+                    </name>
+                    <name>
+                      <surname>Drenth</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein Crystallization and Marangoni Convection: Final Reports of Sounding Rocket</article-title>
+                  <source>Exp. Fluid Sci. Mater. Sci</source>
+                  <year>1994</year>
+                  <volume>1132</volume>
+                  <fpage>22</fpage>
+                  <lpage>43</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pusey</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Witherow</surname>
+                      <given-names>WK</given-names>
+                    </name>
+                    <name>
+                      <surname>Naumann</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Preliminary Investigations into Solutal Flow about Growing Tetragonal Lysozyme Crystals</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1988</year>
+                  <volume>90</volume>
+                  <fpage>105</fpage>
+                  <lpage>111</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <mixed-citation publication-type="other">Rosenberger, F. Fundamentals of Crystal Growth I: Macroscopic Equilibrium and Transport Concepts. Springer-Verlag, Berlin - Heidelberg. (1979).</mixed-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosenberger</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inorganic and protein crystal growth-similarities and differences</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1986</year>
+                  <volume>76</volume>
+                  <fpage>618</fpage>
+                  <lpage>622</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilcox</surname>
+                      <given-names>WR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Influence of convection on the growth of crystals from solution</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1983</year>
+                  <volume>65</volume>
+                  <fpage>133</fpage>
+                  <lpage>141</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malkin</surname>
+                      <given-names>AJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuznetsov</surname>
+                      <given-names>YG</given-names>
+                    </name>
+                    <name>
+                      <surname>Lucas</surname>
+                      <given-names>RW</given-names>
+                    </name>
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Surface processes in the crystallization of turnip yellow mosaic virus visualized by atomic force microscopy</article-title>
+                  <source>J. Struct. Biol.</source>
+                  <year>1999</year>
+                  <volume>127</volume>
+                  <fpage>35</fpage>
+                  <lpage>43</lpage>
+                  <?supplied-pmid 10479615?>
+                  <pub-id pub-id-type="pmid">10479615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chernov</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia-Ruiz</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visualization of the Impurity Depletion Zone Surrounding Apoferritin Crystals in Gel with Holoferritiin Dimer Impurity</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>2001</year>
+                  <volume>232</volume>
+                  <fpage>184</fpage>
+                  <lpage>187</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adawy</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Marks</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>De Grip</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>van Enckevort</surname>
+                      <given-names>WJP</given-names>
+                    </name>
+                    <name>
+                      <surname>Vlieg</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Then development of the depletion zone during ceiling crystallization: phase shifting interferometry and simulation results</article-title>
+                  <source>Cryst. Engi. Commun.</source>
+                  <year>2013</year>
+                  <volume>15</volume>
+                  <fpage>2275</fpage>
+                  <lpage>2286</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Poodt</surname>
+                      <given-names>PWG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Simple geometry for diffusion limited protein crystal growth: harnessing gravity to suppress convection</article-title>
+                  <source>Cryst. Growth Des.</source>
+                  <year>2009</year>
+                  <volume>9</volume>
+                  <fpage>885</fpage>
+                  <lpage>888</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baird</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Meehan</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Xidis</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Howard</surname>
+                      <given-names>SB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Convective diffusion in protein crystal growth</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1986</year>
+                  <volume>76</volume>
+                  <fpage>694</fpage>
+                  <lpage>700</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koszelak</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Mg</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein crystal growth rates determined by time-lapse micro photography</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1991</year>
+                  <volume>10</volume>
+                  <fpage>177</fpage>
+                  <lpage>181</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Durbin</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Feher</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Studies of crystal growth mechanisms of proteins by electron microscopy</article-title>
+                  <source>J. Mol. Biol.</source>
+                  <year>1990</year>
+                  <volume>212</volume>
+                  <fpage>763</fpage>
+                  <lpage>774</lpage>
+                  <?supplied-pmid 2329581?>
+                  <pub-id pub-id-type="pmid">2329581</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Durbin</surname>
+                      <given-names>SD</given-names>
+                    </name>
+                    <name>
+                      <surname>Feher</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein crystallization</article-title>
+                  <source>Annu Rev. Phys. Chem.</source>
+                  <year>1996</year>
+                  <volume>47</volume>
+                  <fpage>171</fpage>
+                  <lpage>204</lpage>
+                  <?supplied-pmid 8983237?>
+                  <pub-id pub-id-type="pmid">8983237</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vekilov</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenberger</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of convective solute and impurity transport in protein crystal growth</article-title>
+                  <source>J. Phys. Chem. B</source>
+                  <year>1998</year>
+                  <volume>102</volume>
+                  <fpage>5208</fpage>
+                  <lpage>5216</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vekilov</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Monaco</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Stojanoff</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenberger</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Repartitioning of NaCl and protein impurities in lysozyme crystallization</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>1996</year>
+                  <volume>52</volume>
+                  <fpage>785</fpage>
+                  <lpage>798</lpage>
+                  <?supplied-pmid 15299643?>
+                  <pub-id pub-id-type="pmid">15299643</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vekilov</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosenberger</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dependence of lysozyme growth kinetics on step sources and impurities</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>1996</year>
+                  <volume>158</volume>
+                  <fpage>540</fpage>
+                  <lpage>551</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Suzuki</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsukamoto</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshizaki</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Miura</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Fujiwara</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>First direct observation of impurity effects on the growth rate of tetragonal lysozyme crystals under microgravity as measured by interferometry</article-title>
+                  <source>Cryst. Growth Des.</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>4787</fpage>
+                  <lpage>4794</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>BR</given-names>
+                    </name>
+                    <name>
+                      <surname>Chernov</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Vekilov</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>DC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Distribution coefficients of protein impurities in ferritin and lysozyme crystals; self-purification in microgravity</article-title>
+                  <source>J. Cryst. Growth</source>
+                  <year>2000</year>
+                  <volume>211</volume>
+                  <fpage>149</fpage>
+                  <lpage>156</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Driessche</surname>
+                      <given-names>AES</given-names>
+                    </name>
+                    <name>
+                      <surname>Otalora</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Gavira</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sazaki</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <source>J. Cryst. Growth Des.</source>
+                  <year>2008</year>
+                  <volume>8</volume>
+                  <fpage>3623</fpage>
+                  <lpage>3629</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adawy</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diffusive or convective protein crystal growth,? does it really matter?!</article-title>
+                  <source>Cryst. Growth Des.</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>1150</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Snell</surname>
+                      <given-names>EH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Investigating the effect of impurities on macromolecule crystal growth in microgravity</article-title>
+                  <source>Cryst. Growth Des.</source>
+                  <year>2001</year>
+                  <volume>1</volume>
+                  <fpage>151</fpage>
+                  <lpage>158</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fick</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ueber diffusion</article-title>
+                  <source>Ann. der Phys.</source>
+                  <year>1885</year>
+                  <volume>94</volume>
+                  <fpage>59</fpage>
+                  <lpage>86</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Martirosyan, A. Effect of macromolecular mass transport in microgravity vs 1G protein crystallization. Doctoral thesis. (University of Hamburg, 2019).</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martirosyan</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of macromolecular mass transport in microgravity protein crystallization</article-title>
+                  <source>Gravitational Space Res.</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <fpage>33</fpage>
+                  <lpage>44</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nachar</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Mann‐Whitney U: a test for assessing whether two independent samples come from the same distribution</article-title>
+                  <source>Tutor. Quant. Methods Psychol.</source>
+                  <year>2008</year>
+                  <volume>13</volume>
+                  <fpage>13</fpage>
+                  <lpage>20</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tanaka</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Numerical analysis of the depletion zone formation around a growing protein crystal</article-title>
+                  <source>Ann. N. Y Acad. Sci.</source>
+                  <year>2004</year>
+                  <volume>1027</volume>
+                  <fpage>10</fpage>
+                  <lpage>19</lpage>
+                  <?supplied-pmid 15644341?>
+                  <pub-id pub-id-type="pmid">15644341</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tanaka</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Numerical model of protein crystal growth in a diffusive field such as the microgravity environment</article-title>
+                  <source>J. Synchrotron Radiat.</source>
+                  <year>2013</year>
+                  <volume>20</volume>
+                  <fpage>1003</fpage>
+                  <lpage>1009</lpage>
+                  <?supplied-pmid 24121357?>
+                  <pub-id pub-id-type="pmid">24121357</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lorenz</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Crystallization of engineered Thermus flavus 5S rRNA under earth and microgravity conditions</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>2000</year>
+                  <volume>56</volume>
+                  <fpage>498</fpage>
+                  <lpage>500</lpage>
+                  <?supplied-pmid 10739932?>
+                  <pub-id pub-id-type="pmid">10739932</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Caylor</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Macromolecular impurities and disorder in protein crystals</article-title>
+                  <source>Proteins</source>
+                  <year>1999</year>
+                  <volume>36</volume>
+                  <fpage>270</fpage>
+                  <lpage>281</lpage>
+                  <?supplied-pmid 10409821?>
+                  <pub-id pub-id-type="pmid">10409821</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hirschler</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Halgand</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Forest</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Fontecilla-Camps</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contaminant inclusion into protein crystals analyzed by electrospray mass spectrometry and X-ray crystallography</article-title>
+                  <source>Protein Sci.</source>
+                  <year>1998</year>
+                  <volume>7</volume>
+                  <fpage>185</fpage>
+                  <lpage>192</lpage>
+                  <?supplied-pmid 9514273?>
+                  <pub-id pub-id-type="pmid">9514273</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuznetsov</surname>
+                      <given-names>YG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanisms, kinetics, impurities and defects: consequences in macromolecular crystallization</article-title>
+                  <source>Acta Crystallogr F. Struct. Biol. Commun.</source>
+                  <year>2014</year>
+                  <volume>70</volume>
+                  <fpage>384</fpage>
+                  <lpage>403</lpage>
+                  <?supplied-pmid 24699728?>
+                  <pub-id pub-id-type="pmid">24699728</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hirschler</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fontecilla-Camps</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contaminant effects on protein crystal morphology in different growth environments</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>1996</year>
+                  <volume>52</volume>
+                  <fpage>806</fpage>
+                  <lpage>812</lpage>
+                  <?supplied-pmid 15299645?>
+                  <pub-id pub-id-type="pmid">15299645</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kors</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effects of impurities on membrane-protein crystallization in different systems</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>2009</year>
+                  <volume>65</volume>
+                  <fpage>1062</fpage>
+                  <lpage>73</lpage>
+                  <?supplied-pmid 19770503?>
+                  <pub-id pub-id-type="pmid">19770503</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bragg</surname>
+                      <given-names>WH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Reflexion of X-rays by Crystals</article-title>
+                  <source>Proc. R. Soc. Lond.</source>
+                  <year>1913</year>
+                  <volume>88</volume>
+                  <fpage>428</fpage>
+                  <lpage>438</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>DeLucas</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crystal-growing in space</article-title>
+                  <source>Science</source>
+                  <year>1999</year>
+                  <volume>283</volume>
+                  <fpage>1459</fpage>
+                  <?supplied-pmid 10206875?>
+                  <pub-id pub-id-type="pmid">10206875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sokolovskiy</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubov</surname>
+                      <given-names>MN</given-names>
+                    </name>
+                    <name>
+                      <surname>Besedina</surname>
+                      <given-names>NA</given-names>
+                    </name>
+                    <name>
+                      <surname>Trushin</surname>
+                      <given-names>YuV</given-names>
+                    </name>
+                    <name>
+                      <surname>Dubina</surname>
+                      <given-names>MV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Kinetic model of the formation of protein crystals in capillaries by counterdiffusion</article-title>
+                  <source>Tech. Phys. Lett.</source>
+                  <year>2018</year>
+                  <volume>44</volume>
+                  <fpage>502</fpage>
+                  <lpage>504</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Uwaha</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growth kinetics: basics of crystal growth mechanisms</article-title>
+                  <source>Elsevier</source>
+                  <year>2015</year>
+                  <volume>8</volume>
+                  <fpage>359</fpage>
+                  <lpage>399</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Perbandt</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>High resolution structures of <italic>Plasmodium falciparum</italic> GST complexes provide novel insights into the dimer-tetramer transition and a novel ligand-binding site</article-title>
+                  <source>J. Struct. Biol.</source>
+                  <year>2015</year>
+                  <volume>191</volume>
+                  <fpage>365</fpage>
+                  <lpage>375</lpage>
+                  <?supplied-pmid 26072058?>
+                  <pub-id pub-id-type="pmid">26072058</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vince</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Daluge</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Wadd</surname>
+                      <given-names>WB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Studies on the inhibition of glyoxalase I by S-substituted glutathiones</article-title>
+                  <source>J. Med Chem.</source>
+                  <year>1971</year>
+                  <volume>14</volume>
+                  <fpage>402</fpage>
+                  <lpage>404</lpage>
+                  <?supplied-pmid 5117686?>
+                  <pub-id pub-id-type="pmid">5117686</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <mixed-citation publication-type="other">Removal of fatty acids from serum albumin by charcoal treatment. <italic>J. Biol. Chem</italic>. <bold>242</bold>, 173–181 (1967).</mixed-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bujacz</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Structures of bovine, equine and leporine serum albumin</article-title>
+                  <source>Acta Crystallogr D. Biol. Crystallogr</source>
+                  <year>2012</year>
+                  <volume>68</volume>
+                  <fpage>1278</fpage>
+                  <lpage>1289</lpage>
+                  <?supplied-pmid 22993082?>
+                  <pub-id pub-id-type="pmid">22993082</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

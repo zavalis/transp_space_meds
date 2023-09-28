@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:57:22Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7515915" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7515915</identifier>
+        <datestamp>2020-09-29</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7515915</article-id>
+              <article-id pub-id-type="pmcid">PMC7515915</article-id>
+              <article-id pub-id-type="pmc-uid">7515915</article-id>
+              <article-id pub-id-type="pmid">32973159</article-id>
+              <article-id pub-id-type="pmid">32973159</article-id>
+              <article-id pub-id-type="publisher-id">71929</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-020-71929-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Changes in performance and bio-mathematical model performance predictions during 45 days of sleep restriction in a simulated space mission</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Flynn-Evans</surname>
+                    <given-names>Erin E.</given-names>
+                  </name>
+                  <address>
+                    <email>erin.e.flynn-evans@nasa.gov</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kirkley</surname>
+                    <given-names>Crystal</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Young</surname>
+                    <given-names>Millennia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bathurst</surname>
+                    <given-names>Nicholas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gregory</surname>
+                    <given-names>Kevin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vogelpohl</surname>
+                    <given-names>Verena</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>End</surname>
+                    <given-names>Albert</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hillenius</surname>
+                    <given-names>Steven</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pecena</surname>
+                    <given-names>Yvonne</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Marquez</surname>
+                    <given-names>Jessica J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.419075.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 1955 7990</institution-id><institution>Fatigue Countermeasures Laboratory N262-4, Human Systems Integration Division, </institution><institution>NASA Ames Research Center, </institution></institution-wrap>Moffett Field, CA 94035 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.186587.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 0722 3678</institution-id><institution>Fatigue Countermeasures Laboratory, Human Systems Integration Division, </institution><institution>San José State University Research Foundation, </institution></institution-wrap>Moffett Field, CA 94035 USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.419085.1</institution-id><institution-id institution-id-type="ISNI">0000 0004 0613 2864</institution-id><institution>Biomedical Research and Environmental Sciences Division, Human Health and Performance Directorate, </institution><institution>NASA Johnson Space Center, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.7551.6</institution-id><institution-id institution-id-type="ISNI">0000 0000 8983 7915</institution-id><institution>Department of Aviation and Space Psychology, </institution><institution>German Aerospace Center (DLR), </institution></institution-wrap>Hamburg, Germany </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.419075.e</institution-id><institution-id institution-id-type="ISNI">0000 0001 1955 7990</institution-id><institution>Human Computer Interaction Group, Human Systems Integration Division, </institution><institution>NASA Ames Research Center, </institution></institution-wrap>Moffett Field, CA 94035 USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>24</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>24</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>15594</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>22</day>
+                  <month>7</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© This is a U.S. Government work and not under copyright protection in the US; foreign copyright protection may apply 2020</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Lunar habitation and exploration of space beyond low-Earth orbit will require small crews to live in isolation and confinement while maintaining a high level of performance with limited support from mission control. Astronauts only achieve approximately 6 h of sleep per night, but few studies have linked sleep deficiency in space to performance impairment. We studied crewmembers over 45 days during a simulated space mission that included 5 h of sleep opportunity on weekdays and 8 h of sleep on weekends to characterize changes in performance on the psychomotor vigilance task (PVT) and subjective fatigue ratings. We further evaluated how well bio-mathematical models designed to predict performance changes due to sleep loss compared to objective performance. We studied 20 individuals during five missions and found that objective performance, but not subjective fatigue, declined from the beginning to the end of the mission. We found that bio-mathematical models were able to predict average changes across the mission but were less sensitive at predicting individual-level performance. Our findings suggest that sleep should be prioritized in lunar crews to minimize the potential for performance errors. Bio-mathematical models may be useful for aiding crews in schedule design but not for individual-level fitness-for-duty decisions.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Human behaviour</kwd>
+                <kwd>Computational models</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>NASA Human Research Program</institution>
+                  </funding-source>
+                  <award-id>NNJ15ZSA001N</award-id>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2020</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Lunar habitation and exploration of space beyond low-Earth orbit poses many challenges. Lunar crews are likely to be comprised of small groups of individuals living in confined spaces for more than a month at a time, and mission support personnel may not be consistently available to assist crewmembers due to communication delays (<ext-link ext-link-type="uri" xlink:href="https://www.nasa.gov/what-is-artemis">https://www.nasa.gov/what-is-artemis</ext-link>). Prior spaceflight missions have established that crewmembers achieve less than the recommended number of hours of sleep per night on Earth<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>; however, few studies have been conducted to determine how the reduced sleep duration observed in space may relate to performance changes among rigorously selected individuals who may be intrinsically motivated to perform at a high level. Furthermore, it is unclear whether bio-mathematical models that are used to design work schedules on Earth would provide performance predictions consistent with actual performance during a spaceflight mission. If such models can accurately predict performance changes among crew during spaceflight, they could be used to allow crew to self-schedule activities around periods of cognitive vulnerability, potentially minimizing the reliance of crewmembers on mission control oversight.</p>
+              <p id="Par3">Several studies have shown that astronauts achieve approximately 6 h of sleep per night while in space, but are able to sleep longer when on Earth<sup><xref ref-type="bibr" rid="CR2">2</xref>–<xref ref-type="bibr" rid="CR6">6</xref></sup>, suggesting that crewmembers accumulate a sleep deficit while in space. The few studies evaluating cognitive performance changes during spaceflight are mixed, with six studies including 23 crewmembers finding that inflight performance is reduced relative to on Earth<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR7">7</xref>–<xref ref-type="bibr" rid="CR10">10</xref></sup>, and three studies including six crewmembers that did not find changes in performance during spaceflight missions<sup><xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR13">13</xref></sup>. These studies are limited by low sample size, few data collection points during a mission, and varying mission durations and schedules, making it difficult to interpret whether sleep loss could relate to the changes in performance observed in some studies.</p>
+              <p id="Par4">Astronauts are a self-selected group of highly motivated individuals. Several studies have demonstrated that motivation can attenuate the cognitive declines that arise as a result of sleep deprivation over short durations of time<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. However, most studies have investigated responses to extrinsic motivators over acute sleep deprivation (i.e., when financial incentives were given to participants), which may not be consistent with the influence of intrinsic motivation (i.e., astronauts driven to succeed in a mission)<sup><xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR16">16</xref></sup>. Intrinsic motivation is modulated according to time awake and circadian phase, with a peak in motivation occurring during the biological day<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, suggesting that individuals who are working during the day and only modestly sleep deprived may be able to overcome some performance impairment when they are intrinsically motivated to perform well. Given the mixed findings on measures of performance during spaceflight, it remains unclear whether individuals selected to be astronauts can maintain performance over the course of a mission via intrinsic motivation alone to succeed even when sleep restricted.</p>
+              <p id="Par5">Several spaceflight simulations have been conducted previously; however, the study schedules for most prior spaceflight simulations were not designed to evaluate the performance of crewmembers during sleep restriction. For example, two Mars mission simulations lasting 105 and 520 days showed that crewmembers experienced reduced performance throughout the missions, but crewmembers received 8-h sleep opportunities on most days and both crews averaged over 7 h of sleep per night during those missions<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. These findings suggest that even modest sleep loss affects performance among rigorously selected individuals, yet it is unclear how shorter mission durations, such as those that are consistent with what astronauts will experience during lunar exploration, might influence performance.</p>
+              <p id="Par6">Earth-based studies of young, healthy individuals suggest that there is a dose-response relationship between sleep loss and performance, in that there is an immediate progressive reduction in performance with every day of sleep less than 8 h<sup><xref ref-type="bibr" rid="CR19">19</xref>–<xref ref-type="bibr" rid="CR21">21</xref></sup>. In addition, such studies find that people are unable to estimate the magnitude of their performance impairment on average after several days of sleep restriction<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. This means that individuals experiencing chronic sleep restriction do not recognize that they are performing poorly. In operational environments where there are few individuals available to complete tasks and where individuals are highly motivated, this disconnect could increase the potential for an operational error.</p>
+              <p id="Par7">The mismatch between how individuals feel and how they perform has been recognized in many safety-sensitive industries. For example, in aviation operations, pilots are required to self-report that they are fit-for-duty, but this self-report is supplemented by schedule optimization using bio-mathematical models<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. These models are used by scheduling personnel to identify schedules that would place individuals at work during a vulnerable period, when sleep loss and circadian misalignment may cause performance degradation. It is conceivable that such models could be used by astronauts to self-schedule tasks, thereby avoiding the need to rely on operational personnel to monitor crew and reassign tasks. Given the uncertainties associated with how highly-motivated individuals perform during sleep restriction, it is unclear whether currently available models would be appropriate for this purpose.</p>
+              <p id="Par8">Considering the lack of information on how crewmembers may be expected to perform during moderate-duration lunar missions, we aimed to determine how rigorously selected, astronaut-like individuals participating in a simulated spaceflight mission would perform during chronic sleep restriction. We further aimed to evaluate how well bio-mathematical models designed to predict performance changes due to sleepiness would correlate with actual performance in an operational environment.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Methods</title>
+              <sec id="Sec3">
+                <title>Participants</title>
+                <p id="Par9">Participants were solicited through advertisements at NASA, various military groups, academic institutions, and among the general public through <ext-link ext-link-type="uri" xlink:href="https://www.nasa.gov/analogs/hera">https://www.nasa.gov/analogs/hera</ext-link> and were selected to be “astronaut like.” Participants were required to be non-smokers, 30–55 years of age, have English language proficiency, and at least a Master of Science in a science, technology, engineering, mathematics (STEM) discipline or the equivalent years of experience. Volunteers were required to meet the NASA long-duration space flight physical standards, which were verified by physical exam. Exclusion criteria were a body mass index (BMI) greater than 30, height greater than 74 inches, any history of sleep disorders or regular use of sleep aids, any chronic health conditions, regular medication use or had dietary restrictions that could not be stopped during the mission. Individuals were selected to populate five separate crews of four crewmembers each.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Human Analog Research Exploration (HERA) habitat</title>
+                <p id="Par10">The HERA habitat is a two-story unit that has an airlock, a hygiene module, and crew quarters (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). The habitat is approximately 636 sq. ft., distributed throughout the modules. The habitat contains spaceflight simulation workstations, a galley, a communication station, an aerobic exercise station, and private sleep quarters. The habitat room temperature was maintained at 72 °F (± 5 °F), with 70% (± 10%) humidity for all missions. All necessary equipment, materials, food, and supplies for four crew members to survive inside the habitat for 45 days was provided.<fig id="Fig1"><label>Figure 1</label><caption><p>HERA habitat (<ext-link ext-link-type="uri" xlink:href="https://www.nasa.gov/analogs/hera">https://www.nasa.gov/analogs/hera</ext-link>).</p></caption><graphic xlink:href="41598_2020_71929_Fig1_HTML" id="MO1"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Pre-mission procedures</title>
+                <p id="Par11">Participants were oriented to the habitat and completed a week of training on mission procedures prior to ingress. During this time, they also provided demographic information and completed questionnaires describing their baseline characteristics.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>Mission schedule and procedures</title>
+                <p id="Par12">Five missions were scheduled for HERA Campaign 4. Each mission was scheduled for 45 days and followed the same study schedule. Crewmembers were monitored continuously by a simulated mission control to ensure their health and well-being. All activities were prescheduled and included simulated operational tasks, such as extra vehicular activities, robotic arm manoeuvres, and science activities. The crew were not required to follow any specific sleep schedule prior to entering the habitat. During the 2 weeks prior to the mission, participants completed a sleep diary that was used to estimate pre-study sleep duration. During the mission, crewmembers were scheduled for 5 h of sleep during the week (5 nights) and 8 h of sleep on the weekends (2 nights; Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Napping was not allowed during the protocol and crewmembers were monitored by mission control staff to verify their adherence to study procedures. Caffeine was only allowed between 07:45 and 14:00 h. Timing and amount of caffeine consumption was not documented.<fig id="Fig2"><label>Figure 2</label><caption><p>Study schematic for the 45-day protocol. Gray bars indicate schedule sleep. Triangles indicate the days and timing of psychomotor vigilance tests PVT. Hatched region indicates the duration of time when crewmembers were allowed to consume caffeine. The vertical dashed line indicates midnight.</p></caption><graphic xlink:href="41598_2020_71929_Fig2_HTML" id="MO2"/></fig></p>
+                <p id="Par13">Crewmembers completed a 5-min version of the psychomotor vigilance task (PVT) five times a day on 15 days distributed throughout the mission (approximately every three days). The PVT sessions were scheduled: (1) within 30 min of waking, (2) 30 min after the first PVT, (3) mid-morning, (4) mid-afternoon, (5) before going to bed. Following the first PVT of the day, the crewmembers were instructed to complete the Samn Perelli rating of fatigue.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Bio-mathematical models</title>
+                <p id="Par14">We compared the predictions of four bio-mathematical models to the actual PVT data collected in the missions. These models included (1) the Adenosine-Circadian model, which combines the Harvard Circadian Performance model with a physiological model based on the action of adenosine, which simulates the effects of chronic sleep restriction on performance<sup><xref ref-type="bibr" rid="CR23">23</xref>–<xref ref-type="bibr" rid="CR29">29</xref></sup>; (2) the Unified Model of Performance, which was developed to combine the effects of total and chronic sleep restriction<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>; (3) the Washington State University (WSU) State-space model, which uses coupled, non-homogeneous first-order ordinary differential equations to account for changes in performance associated with chronic sleep restriction<sup><xref ref-type="bibr" rid="CR31">31</xref>,<xref ref-type="bibr" rid="CR32">32</xref></sup>; and (4) the Sleep, Activity, Fatigue, and Task Effectiveness (SAFTE) model, which is based on the two-process model of sleep regulation and was originally developed for the US Army and Air Force<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>. These models were chosen because they were either funded in-part by NASA or used for other US government or military operations similar to spaceflight missions.</p>
+                <sec id="Sec8">
+                  <title>Model input and output</title>
+                  <p id="Par15">We used the interfaces developed by the modelling groups (when available) in order to assess the usability of the interfaces that would be used by operational personnel. We used the commercially available Fatigue Avoidance Scheduling Tool (FAST) to generate predictions for the SAFTE model<sup><xref ref-type="bibr" rid="CR35">35</xref></sup> and the web-based 2B-Alert interface to generate predictions for the Unified model<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. Dr. Hans Van Dongen provided us with a DOS-executable interface for evaluation of the WSU State-space model, and Dr. Andrew Phillips provided the equations used to generate predictions for the Adenosine-Circadian model in MATLAB.</p>
+                  <p id="Par16">The methods for inputting each model differed based on the interface available for the input of data and by the assumptions made by the model. Table <xref rid="Tab1" ref-type="table">1</xref> shows the possible model inputs, the inputs that we used, and the model outputs.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Description of model interface, input values, input data, and output.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Model</th><th align="left">Interface</th><th align="left">Input Values</th><th align="left">Input Data</th><th align="left">Output(s)</th></tr></thead><tbody><tr><td align="left">Adenosine-circadian</td><td align="left">Equations programmed in MATLAB</td><td align="left">Time, light levels, scheduled sleep</td><td align="left">Sleep schedule, mission light levels</td><td align="left">PVT Lapses</td></tr><tr><td align="left">State-space</td><td align="left">DOS-executable interface</td><td align="left">Time, scheduled sleep</td><td align="left">Sleep schedule</td><td align="left">PVT Lapses</td></tr><tr><td align="left">Unified</td><td align="left">Web-based interface</td><td align="left">Time, scheduled sleep, caffeine dose and time</td><td align="left">Sleep schedule</td><td align="left">PVT Lapses, PVT reaction time, PVT response speed</td></tr><tr><td align="left">SAFTE FAST</td><td align="left">Software program</td><td align="left">Time, scheduled sleep, work schedule</td><td align="left">Sleep schedule</td><td align="left">Cognitive effectiveness<sup>a</sup></td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>Cognitive effectiveness is a PVT-based measure.</p></table-wrap-foot></table-wrap></p>
+                </sec>
+              </sec>
+              <sec id="Sec9">
+                <title>Data analysis</title>
+                <sec id="Sec10">
+                  <title>Psychomotor vigilance task</title>
+                  <p id="Par17">Five PVT outcomes were considered in overall analyses: (1) mean reaction time (RT), (2) response speed (calculated as (1/mean RT) × 1,000), (3) lapses (count of RT &gt; 500 ms), 4) mean RT of 10% fastest responses (10% fastest RT), (5) mean RT of 10% slowest responses (10% slowest RT). These outcomes were selected because they have previously been shown to be associated with sleep loss and impaired performance<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. We used PVT lapses as our primary measure to compare to the bio-mathematical model predictions because three of the four models provide estimated lapse values as their predicted performance output.</p>
+                </sec>
+                <sec id="Sec11">
+                  <title>Samn Perelli</title>
+                  <p id="Par18">The Samn Perelli ratings of fatigue were completed once per day, in conjunction with the first PVT of the day.</p>
+                </sec>
+                <sec id="Sec12">
+                  <title>Scaling procedures</title>
+                  <p id="Par19">A challenge in comparing model predictions to actual performance measures is that the model outputs differ from the objective metrics available for comparison. For example, the SAFTE model, which outputs the proprietary measure “cognitive effectiveness,” could be compared to objective data, but the results of such a comparison would not be on the same scale as the other models, making it impossible to compare the model predictions to one another. In addition, although we used PVT data to assess waking performance, we used a 5-min version of the PVT. The PVT lapse predictions for each model are based on a 10-min test. As a result, comparisons between the model predictions and actual data produced by crewmembers was expected to yield consistent overestimation of PVT lapses relative to actual lapses. Due to all of these factors, we used a least-squares-optimal scaling approach to scale the model outputs relative to the data as described by Van Dongen, using PROC NLMIXED in SAS (SAS Institute Inc. Cary, NC)<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.</p>
+                </sec>
+              </sec>
+              <sec id="Sec13">
+                <title>Statistical comparisons</title>
+                <sec id="Sec14">
+                  <title>Performance and fatigue</title>
+                  <p id="Par20">We evaluated changes in the Samn Perelli and PVT performance over the course of the mission and by 8-h versus 5-h sleep condition using linear mixed-effects regression models, including participant as a random factor (PROC MIXED in SAS), and adjusted for pre-mission sleep duration. We used the same approach to evaluate PVT outcomes by test session of the day. For these models, we allowed the slopes and intercepts to vary by individual participant.</p>
+                </sec>
+                <sec id="Sec15">
+                  <title>Comparison between actual and predicted performance</title>
+                  <p id="Par21">We used all of the data available for each individual to compare to the scaled predictions for each model to the observed data. In order to assess agreement for each model to the actual data, we generated repeated measures correlation estimates in the statistical software program R (R: A Language and Environment for Statistical Computing, R Core Team, R Foundation for Statistical Computing, Vienna Austria, 2019, <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org">https://www.R-project.org</ext-link>) using the rmcorr package. In order to compare the model predictions to each other, we calculated the root mean square error (RMSE) and the normalized root mean square error (NRMSE) by dividing the RMSE value by the mean of the observed.</p>
+                  <p id="Par22">In order to evaluate the ability of each model to predict group-average performance over time, we used linear mixed-effects models, using random effects intercepts for participant and mission, to obtain R-square values as a metric of agreement and evaluate the slope and intercept coefficients of the model.</p>
+                  <p id="Par23">Further, to visualize the observed data and scaled model predictions by day of mission, session of day, and by sleep condition (8 h vs. 5 h of sleep), we used mixed models to obtain point estimates and confidence intervals of the means for each test by time, day, and sleep condition. These means and confidence limits can be compared to determine under which conditions (time or sleep schedule) the models predict closer or further from the observed.</p>
+                </sec>
+              </sec>
+              <sec id="Sec16">
+                <title>Ethics declarations</title>
+                <p id="Par24">All participants provided informed consent prior to engaging in any study procedures. All study procedures conformed to the guidelines set forth in the United States Common Rule. This study was approved by the NASA Johnson Space Center Institutional Review Board (protocol PRO2328).</p>
+              </sec>
+            </sec>
+            <sec id="Sec17">
+              <title>Results</title>
+              <p id="Par25">Sixteen participants completed four HERA missions (n = 6 female) and an additional four individuals completed 20 days of one mission (n = 1 female). The second mission of Campaign 4 was aborted due to a hurricane in the vicinity of the habitat that threatened the safety of the crew and support staff. Data from all five missions were used in analyses, except where indicated. Demographic characteristics for all participants are shown in Table <xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Demographic information for all HERA crewmembers.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Variable</th><th align="left">M (SD)</th><th align="left">Range</th></tr></thead><tbody><tr><td align="left">Age</td><td char="(" align="char">38.65 (8.19)</td><td align="left">30–55</td></tr><tr><td align="left">BMI</td><td char="(" align="char">24.39 (2.90)</td><td align="left">19.37–29.30</td></tr><tr><td align="left">Pre-study sleep duration (h)</td><td char="(" align="char">6.85 (0.64)</td><td align="left">5.6–7.8</td></tr><tr><td align="left">Pre-study bedtime</td><td char="(" align="char">23:43 (1:18)</td><td align="left">22:28–01:38</td></tr><tr><td align="left">Pre-study waketime</td><td char="(" align="char">06:33 (0:52)</td><td align="left">05:29–07:15</td></tr><tr><td align="left">Beck Depression Inventory</td><td char="(" align="char">1.62 (2.06)</td><td align="left">0–7</td></tr><tr><td align="left">MEQ</td><td char="(" align="char">52.85 (12.32)</td><td align="left">26–73</td></tr><tr><td align="left" colspan="3"><bold>STAI</bold></td></tr><tr><td align="left">State Anxiety Score</td><td char="(" align="char">48 (3.80)</td><td align="left">39–53</td></tr><tr><td align="left">Trait Anxiety Score</td><td char="(" align="char">45.6 (3.32)</td><td align="left">38–50</td></tr></tbody></table><table-wrap-foot><p>Sleep duration was self-reported in a sleep diary during the 2 weeks before the mission.</p><p><italic>BMI </italic>body mass index, <italic>h </italic>hours, <italic>MEQ </italic>Morningness-Eveningness questionnaire, <italic>STAI </italic>State-Trait Anxiety Inventory.</p></table-wrap-foot></table-wrap></p>
+              <sec id="Sec18">
+                <title>In-mission performance</title>
+                <sec id="Sec19">
+                  <title>Fatigue and performance by day of mission</title>
+                  <p id="Par26">We evaluated fatigue ratings and PVT reaction time (Fig. <xref rid="Fig3" ref-type="fig">3</xref>A), lapses (Fig. <xref rid="Fig3" ref-type="fig">3</xref>B), fastest 10% reaction time (Fig. <xref rid="Fig3" ref-type="fig">3</xref>C), response speed (Fig. <xref rid="Fig3" ref-type="fig">3</xref>D) and slowest 10% reaction time (Fig. <xref rid="Fig3" ref-type="fig">3</xref>E) over the course of the mission for all participants combined. We found a significant worsening of performance from the beginning to the end of the mission for mean reaction time, response speed, and fastest 10% reaction time (all p &lt; 0.01). We did not find a significant increase in lapses over the course of the mission (p = 0.14), nor did we observe a significant reduction in performance as measured by the slowest 10% reaction time (p = 0.91). However, the slowest 10% reaction time was elevated (mean &gt; 500 ms) from the beginning of the mission, suggesting that the participants were already sleep deprived early in the mission. Self-reported fatigue ratings did not show a linear decline over the course of the mission (p = 0.57; Fig. <xref rid="Fig3" ref-type="fig">3</xref>F).<fig id="Fig3"><label>Figure 3</label><caption><p>Average (black and red circles) psychomotor vigilance task (PVT) performance and individual daily mean values (light gray circles) by mission day for mean reaction time (<bold>A</bold>), lapses &gt; 500 ms (<bold>B</bold>), fastest 10% reaction time (<bold>C</bold>), response speed (<bold>D</bold>), slowest 10% reaction time (<bold>E</bold>), and Samn Perelli ratings (<bold>F</bold>) by day of mission. Note differences in y-axis scale for mean, fastest and slowest reaction times. Black circles indicate days following 5 h of sleep, red circles indicate days following 8 h of sleep. <italic>RT </italic>reaction time, <italic>ms </italic>milliseconds, error bars reflect the standard error of the mean.</p></caption><graphic xlink:href="41598_2020_71929_Fig3_HTML" id="MO3"/></fig></p>
+                  <p id="Par27">There were large differences in the performance trajectories of the individual crewmembers, with some individuals maintaining stable performance throughout the mission and others exhibiting a large decline in performance over the course of the mission (Fig. <xref rid="Fig2" ref-type="fig">2</xref>, gray shaded lines). To further evaluate these differences, we stratified the group by tertile of average in-mission PVT performance. The performance between the best and worst tertile groups was similar in trajectory across the mission (supplemental material and Figure <xref rid="MOESM1" ref-type="media">S1</xref>).</p>
+                </sec>
+                <sec id="Sec20">
+                  <title>Fatigue and performance by sleep condition</title>
+                  <p id="Par28">We found that all PVT outcomes were poorer following 5 h of sleep, relative to following 8 h of sleep (all p &lt; 0.01; Fig. <xref rid="Fig4" ref-type="fig">4</xref>A–E) We further found that self-reported fatigue was significantly greater on days following 5 h of sleep compared to days following 8 h of sleep (p &lt; 0.001; Fig. <xref rid="Fig4" ref-type="fig">4</xref>F). These findings were similar for those in the worst tertile of performance; however, there was no significant difference in performance among those in the tertile of best performers (supplemental material; Figure <xref rid="MOESM1" ref-type="media">S2</xref>).<fig id="Fig4"><label>Figure 4</label><caption><p>Average psychomotor vigilance task (PVT) performance for mean reaction time (<bold>A</bold>), lapses (<bold>B</bold>), fastest 10% reaction time (<bold>C</bold>), response speed (<bold>D</bold>), slowest 10% reaction time (<bold>E</bold>), and Samn Perelli ratings (<bold>F</bold>) by prior night’s sleep duration. Note differences in y-axis scale for mean, fastest and slowest reaction times. <italic>RT </italic>reaction time, <italic>ms </italic>milliseconds. ***p &lt; 0.01.</p></caption><graphic xlink:href="41598_2020_71929_Fig4_HTML" id="MO4"/></fig></p>
+                </sec>
+                <sec id="Sec21">
+                  <title>Performance by session-of-day</title>
+                  <p id="Par29">We evaluated PVT reaction time, response speed, lapses, fastest and slowest 10% reaction time by the session of the day, averaged over sessions from all days of the mission. We found that lapses significantly worsened (p = 0.048) from the beginning to the end of the day (Fig. <xref rid="Fig5" ref-type="fig">5</xref>B). Mean PVT RT (p &lt; 0.12), slowest 10% RT (p = 0.07), and response speed did not change significantly by session of the day (p = 0.99; Fig. <xref rid="Fig5" ref-type="fig">5</xref> A, D, and E) and fastest 10% RT significantly improved from the beginning to the end of the day (p = 0.02; Fig. <xref rid="Fig5" ref-type="fig">5</xref>C).<fig id="Fig5"><label>Figure 5</label><caption><p>Average (black circles) psychomotor vigilance task (PVT) performance and individual (light gray circles) mean performance by session for mean reaction time (<bold>A</bold>), lapses (<bold>B</bold>), fastest 10% reaction time (<bold>C</bold>), response speed (<bold>D</bold>), and slowest 10% reaction time (<bold>E</bold>) by session of the day. Note differences in y-axis scale for mean, fastest and slowest reaction times. <italic>RT </italic>reaction time, <italic>ms </italic>milliseconds, error bars reflect the standard error of the mean.</p></caption><graphic xlink:href="41598_2020_71929_Fig5_HTML" id="MO5"/></fig></p>
+                </sec>
+                <sec id="Sec22">
+                  <title>Association between model predictions and actual performance by day of mission</title>
+                  <p id="Par30">As expected, the raw model lapse predictions were higher than the observed group-average lapse values throughout the mission (Fig. <xref rid="Fig6" ref-type="fig">6</xref>A). The linear mixed-effects regression point estimates and confidence intervals for the scaled model predictions relative to the observed lapse values for each day of the mission suggests that the scaled models were able to predict lapses by day of the mission on average (i.e., the observed data is within the confidence intervals for the model predictions for most models on most days; Fig. <xref rid="Fig6" ref-type="fig">6</xref>B).<fig id="Fig6"><label>Figure 6</label><caption><p>Relationship between model predictions (<bold>A</bold>) and scaled model predictions (<bold>B</bold>) and associated confidence intervals with actual lapses (± standard error) by day of the mission. Actual performance measures are shown as filled circles, model predictions are shown as open symbols as follows: triangles = adenosine-circadian model, squares = unified model, diamonds = state-space model, stars = SAFTE model. Black circles indicate days following 5 h of sleep, red circles indicate days following 8 h of sleep. Note, SAFTE model outcome “cognitive effectiveness” ranges from 0–100 and is plotted in the inverse on panel (<bold>A</bold>).</p></caption><graphic xlink:href="41598_2020_71929_Fig6_HTML" id="MO6"/></fig></p>
+                </sec>
+                <sec id="Sec23">
+                  <title>Association between model predictions and actual performance by session of day</title>
+                  <p id="Par31">The raw model lapse predictions were higher than the observed group-average lapse values by session of the day (Fig. <xref rid="Fig7" ref-type="fig">7</xref>A). The linear mixed-effects regression point estimates and confidence intervals for the scaled model predictions relative to the observed lapse values suggests that the scaled models were able to predict lapses by session of the day on average (Fig. <xref rid="Fig7" ref-type="fig">7</xref>B). When we stratified the session of the day data by days following 8 h of sleep compared to days following 5 h of sleep, we found that the scaled models were generally able to capture the average changes in performance over the course of the day (Fig. <xref rid="Fig8" ref-type="fig">8</xref>A–D), although on days following 5 h of sleep, the midday data collection (session 3) and the pre-bedtime data collection (session 5) fell outside of the confidence intervals for all of the model predictions.<fig id="Fig7"><label>Figure 7</label><caption><p>Relationship between model predictions (<bold>A</bold>) and scaled model predictions (<bold>B</bold>) and associated confidence intervals with actual lapses (± standard error) by session of the day for all days combined. Actual performance measures are shown as filled circles, model predictions are shown as open symbols as follows: triangles = adenosine-circadian model, squares = unified model, diamonds = state-space model, stars = SAFTE model. Note, SAFTE model outcome “cognitive effectiveness” ranges from 0–100 and is plotted in the inverse on panel (<bold>A</bold>).</p></caption><graphic xlink:href="41598_2020_71929_Fig7_HTML" id="MO7"/></fig><fig id="Fig8"><label>Figure 8</label><caption><p>Relationship between scaled model predictions and actual lapses (± standard error) by session of the day following 8 h sleep (filled symbols) and 5 h of sleep (open circles). Actual performance measures are shown as circles (filled for 8-h, open for 5-h), model predictions are shown as follows: triangles = adenosine-circadian model (<bold>A</bold>), squares = unified model (<bold>B</bold>), diamonds = state-space model (<bold>C</bold>), stars = SAFTE model (<bold>D</bold>). Note, confidence intervals are narrow for the model predictions and are not visualized on the plot.</p></caption><graphic xlink:href="41598_2020_71929_Fig8_HTML" id="MO8"/></fig></p>
+                </sec>
+                <sec id="Sec24">
+                  <title>Overall goodness of fit measures between model predictions and actual performance</title>
+                  <p id="Par32">Each of the models yielded a weak correlation with the actual data overall according to the repeated measures correlation for scaled lapses (Table <xref rid="Tab3" ref-type="table">3</xref>).<table-wrap id="Tab3"><label>Table 3</label><caption><p>Root mean square error (RMSE) values (lower is better), normalized RMSE (NRMSE) values (lower is better), and repeated measures correlation results for the scaled model predictions relative to the actual lapse values for each crewmember.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">RMSE</th><th align="left">NRMSE</th><th align="left">Repeated measures correlation</th><th align="left">p-value</th></tr></thead><tbody><tr><td align="left">Adenosine-circadian (scaled lapses)</td><td char="." align="char">9.19</td><td char="." align="char">4.98</td><td char="." align="char">0.17</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">Unified (scaled lapses)</td><td char="." align="char">9.31</td><td char="." align="char">5.04</td><td char="." align="char">0.10</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">State-space (scaled lapses)</td><td char="." align="char">9.25</td><td char="." align="char">5.01</td><td char="." align="char">0.17</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">SAFTE (scaled lapses)</td><td char="." align="char">9.22</td><td char="." align="char">4.99</td><td char="." align="char">0.18</td><td char="." align="char">&lt; 0.01</td></tr></tbody></table></table-wrap></p>
+                  <p id="Par33">The normalized-RMSE (NRMSE) scores allow for comparison between the models, with a lower NRMSE value indicating better performance by the model. The NRMSE values were similar for all of the models (Table <xref rid="Tab3" ref-type="table">3</xref>).</p>
+                  <p id="Par34">We compared models to the data for days following 8-h sleep episodes and for days following 5-h sleep episodes. The models performed worse on average for days following the 8-h sleep episodes (Table <xref rid="Tab4" ref-type="table">4</xref>) than for the days following the 5-h sleep episodes (Table <xref rid="Tab5" ref-type="table">5</xref>) according to the repeated measures correlation. As with the overall comparison, the NRMSE scores were similar for all models following nights with 8 h of sleep compared to nights with 5 h of sleep, suggesting that no specific model was superior in this stratified analysis.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Root mean square error (RMSE) values (lower is better), normalized RMSE values (lower is better), and repeated measures correlation results for the scaled model predictions relative to the actual lapse values for each participant for the 8-h sleep condition.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">RMSE</th><th align="left">NRMSE</th><th align="left">Repeated measures correlation</th><th align="left">p-value</th></tr></thead><tbody><tr><td align="left">Adenosine-circadian (scaled lapses)</td><td char="." align="char">7.86</td><td char="." align="char">5.11</td><td char="." align="char">0.02</td><td char="." align="char">0.69</td></tr><tr><td align="left">Unified (scaled lapses)</td><td char="." align="char">7.83</td><td char="." align="char">5.09</td><td char="." align="char">0.04</td><td char="." align="char">0.43</td></tr><tr><td align="left">State-space (scaled lapses)</td><td char="." align="char">7.82</td><td char="." align="char">5.08</td><td char="." align="char">0.05</td><td char="." align="char">0.36</td></tr><tr><td align="left">SAFTE (scaled lapses)</td><td char="." align="char">7.68</td><td char="." align="char">4.99</td><td char="." align="char">0.07</td><td char="." align="char">0.69</td></tr></tbody></table></table-wrap><table-wrap id="Tab5"><label>Table 5</label><caption><p>Root mean square error (RMSE) values (lower is better), normalized RMSE values (lower is better), and repeated measures correlation results for the scaled model predictions relative to the actual lapse values for each participant for the 5-h condition.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">RMSE</th><th align="left">NRMSE</th><th align="left">Repeated measures correlation</th><th align="left">p-value</th></tr></thead><tbody><tr><td align="left">Adenosine-circadian (scaled lapses)</td><td char="." align="char">9.84</td><td char="." align="char">4.93</td><td char="." align="char">0.17</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">Unified (scaled lapses)</td><td char="." align="char">10.03</td><td char="." align="char">5.02</td><td char="." align="char">0.09</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">State-space (scaled lapses)</td><td char="." align="char">9.95</td><td char="." align="char">4.98</td><td char="." align="char">0.19</td><td char="." align="char">&lt; 0.01</td></tr><tr><td align="left">SAFTE (scaled lapses)</td><td char="." align="char">9.97</td><td char="." align="char">4.99</td><td char="." align="char">0.18</td><td char="." align="char">&lt; 0.01</td></tr></tbody></table></table-wrap></p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="Sec25">
+              <title>Discussion</title>
+              <p id="Par35">We found that rigorously selected, astronaut-like individuals experienced a progressive reduction in performance over the course of a simulated space mission that included chronic sleep restriction. Crewmembers also performed worse on days following 5 h of sleep relative to days following 8 h of sleep. In our comparison of four bio-mathematical models relative to actual in-mission performance, we found that all the models were able to capture relative changes in performance by day of mission and by session of the day but performed less well at capturing the differences in performance over days following 5 h of sleep. Although the models performed similarly to one another, they were only weakly correlated to the observed data according to our goodness of fit assessments. Our findings have implications for future space missions and for other occupations comprised of rigorously selected populations that must maintain a high level of performance despite persistent chronic sleep restriction.</p>
+              <p id="Par36">Our findings suggest that simply meeting the criteria required to be an astronaut is not in itself a determinant of resilience to chronic sleep restriction. This finding is consistent with data from populations of high-performing professionals such as physicians, airline pilots, and special operations military units, who are often required to work extended-duty work shifts that limit sleep opportunity, resulting in performance impairment<sup><xref ref-type="bibr" rid="CR39">39</xref>–<xref ref-type="bibr" rid="CR41">41</xref></sup>. The population of rigorously selected individuals that we studied exhibited performance impairment over the course of a 45-day simulated space mission on average. Notably, there were large individual differences in tolerance to the sleep restriction schedule, with some crewmembers performing well throughout the mission and with others exhibiting concerning levels of performance impairment within the first week of the mission. Some of the crewmembers reported short sleep duration pre-mission, which may explain why some individuals exhibited poor performance early in the study. Given that the crew were only afforded 8 h of sleep opportunity during their “long” sleep nights, it is likely that those who were sleep deprived at baseline never had the opportunity to recover during the mission where they accumulated further sleep debt.</p>
+              <p id="Par37">Interindividual differences in tolerance or vulnerability to sleep loss have been found in other laboratory and field studies, including fighter pilots and public safety workers<sup><xref ref-type="bibr" rid="CR42">42</xref>–<xref ref-type="bibr" rid="CR44">44</xref></sup>. Further research is needed to determine whether these differences in performance relate to differences in intrinsic motivation, differences in sleep need, or resilience to sleep loss. Despite the overall change in performance that we observed over the course of the mission, we did not observe differences in Samn Perelli fatigue ratings. Crewmembers rarely rated themselves as completely exhausted (SP rating of 7), but they did rate themselves as relatively more fatigued following nights with 5 h of sleep relative to nights with 8 h of sleep. Such discrepancies between subjective and objective measures of sleepiness have been documented in other settings, including long-haul international aircrew<sup><xref ref-type="bibr" rid="CR45">45</xref></sup>. Our findings suggest that it is important to evaluate individuals in safety sensitive occupations using objective measures of performance in order to determine how an individual is affected by sleep loss.</p>
+              <p id="Par38">NASA plans to send astronauts to orbit the Moon by 2022, with the first lunar exploration mission to occur in 2024. During these missions, crewmembers will be exposed to a high-tempo workflow involving challenging mental and physical workload while establishing the lunar Gateway and habitats. As a result, it is critical that crewmembers maintain alertness and cognitive performance during all phases of these missions. Crewmembers average approximately 6 h of sleep during spaceflight<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>, but there have been few attempts to characterize changes in performance that may accompany the short sleep duration that astronauts experience in space. In two case studies of cosmonauts, and in one study of four astronauts, no significant decrements in performance were observed during short-duration missions relative to ground-based measures<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. In contrast, two separate studies aboard the Space Shuttle (of three and five astronauts) found that crewmembers experienced impaired performance during spaceflight, changes which the authors attributed to fatigue and sleep loss among the crew<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>. More recent evidence of performance impairment during spaceflight suggest that such changes may relate to a global increase in local sleep-like events during spaceflight compared to on Earth<sup><xref ref-type="bibr" rid="CR9">9</xref></sup>, providing evidence for a relationship between sleep deficiency and performance impairment during spaceflight. Although our data were collected in a spaceflight analogue environment, they suggest that sleep loss during future space missions can be expected to impair performance even among a rigorously selected crew.</p>
+              <p id="Par39">NASA currently provides crewmembers with an 8-h sleep opportunity during spaceflight missions, yet crew still average 6 h of sleep per night. It may be necessary to provide crew with additional tools to promote longer sleep, such as providing crew with stable schedules to minimize circadian misalignment<sup><xref ref-type="bibr" rid="CR46">46</xref></sup> and sleep quarters that minimize environmental disruption<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. If such measures are insufficient for extending crew sleep, then countermeasures such as scheduled napping, strategic use of caffeine, and other alertness and sleep-promoting medications may be necessary to ensure the crew are fit for duty. Bio-mathematical models may provide some utility in helping crewmembers determine when to use such countermeasures.</p>
+              <p id="Par40">In our comparisons, we found that all of the models performed similarly to one another, suggesting that no single model is superior to the others. We found that all models appeared to be able to predict group-average performance by day of the mission and by session of the day on average. When we examined session of the day by prior night’s sleep duration (8-h vs. 5-h), we found that the observed performance was worse midday and before bed relative to the model predictions following 5 h of sleep. The worse performance that we observed during the midday session could relate to a metabolic response following lunch (the so-called ‘post-lunch dip’)<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. It is also possible that this poorer performance relates to the cessation of caffeine, which crewmembers were not allowed to use after 14:00 h. None of the models include information on how metabolism may influence performance. Only the Unified Model of Performance allows for the input of caffeine<sup><xref ref-type="bibr" rid="CR49">49</xref>,<xref ref-type="bibr" rid="CR50">50</xref></sup>, but the timing and amount of caffeine use during the mission was not recorded in a way that we could include in the model. It is likely that the predictions of the Unified model would be improved with the addition of such information. The poorer performance exhibited by the participants at the end of the day may relate to the build-up of chronic sleep restriction over time, potentially interacting with the circadian rhythm promoting sleepiness. This is consistent with the findings of St. Hilaire et al. (2016), who evaluated the same models and showed that none of the models were able to capture the accumulation of chronic sleep debt that accrued over three cycles of two nights with 3 h of sleep followed by a 10-h recovery night<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. Although, in that study, the models consistently underestimated performance at all points during the day on the second day of the third cycle of sleep restriction (i.e., the average performance in St. Hilaire et al. was much worse than what we observed). It is possible that these differences stem from the differences in the sleep opportunities afforded to participants in our studies (3 h for 2 nights/10 h recovery for 1 night vs. 5 h for 5 nights/8 h recovery for 2 nights).</p>
+              <p id="Par41">Our goodness of fit analyses found that the models were only weakly correlated with the actual data. The poor correlations that we observed are likely the result of individual differences in response to chronic sleep restriction. As a result, it would be advisable to use models such as those that we evaluated for general scheduling purposes (i.e., to determine if one schedule is superior to another) and not for making decisions about individual fitness for duty. In the spaceflight environment it could be risky for a vulnerable individual to be provided with average-level performance predictions, which might lead to that crewmember engaging in a dangerous task while unknowingly in a compromised state. There are models other than those that we evaluated that have been designed to determine individual changes in performance in response to sleep loss<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. Such individualized models have the potential to allow for a personalized medicine approach to determining an individual’s fitness for duty and should be evaluated to determine their feasibility for operational implementation.</p>
+              <p id="Par42">Although we were able to collect systematic information from carefully selected, astronaut-like individuals, our study is not without limitation. Our assessment was conducted in an Earth-based habitat that simulated the conditions of spaceflight; however, microgravity itself may influence cognition and the amount of sleep a crewmember requires in space. Despite this, our findings support the notion that individuals who possess the ‘right stuff’ are not immune to the effects of sleep loss on Earth. In addition, we used the PVT as our primary measure of cognitive impairment. The PVT is highly sensitive to sleep loss, but poor performance on the PVT may not reflect how crewmembers would perform on the more complex tasks required during a space mission<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. Finally, while crewmembers were restricted to 5 h of sleep during the week and 8 h of sleep on the weekends, we did not have objective sleep data. Although it is unlikely that the crewmembers achieved more sleep than scheduled, because they were prohibited from napping and were continuously monitored by mission control personnel. It is possible that the crew obtained less sleep than their time in bed, but we expect that the difference between time in bed and sleep duration would be modest given the sleep restriction protocol.</p>
+              <p id="Par43">In this study we found that rigorously selected, astronaut-like individuals are susceptible to the effects of chronic sleep restriction. On average, crewmembers in this simulated spaceflight mission experienced a progressive decline in performance over 45 days of sleep restriction and they performed worse at the end of the day relative to the beginning of the day, although some individuals appeared able to sustain performance over the course of the mission, while others appeared more vulnerable. We found that bio-mathematical models designed to predict changes in performance following sleep loss may be useful tools for designing schedules for future space missions, but individualized models should be evaluated for potential fitness for duty application. Our findings support the concern that chronic sleep loss is associated with performance impairment during spaceflight and suggest that measures should be taken to ensure that crewmembers are provided with the schedules and environment necessary for optimal duration and quality of sleep.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec26">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2020_71929_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary Information.</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>is available for this paper at 10.1038/s41598-020-71929-4.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>The authors wish to thank Dr. Kelley Slack and Ms. Pamela Baskin for administering pre-mission questionnaires and Dr. Peter Roma and the Human Factors and Behavioural Performance Laboratory at Johnson Space Centre for support on this project. The authors further wish to thank the NASA Flight Analog Planning team and HERA project personnel and staff at Johnson Space Center, Houston Texas, for coordinating and executing the missions. The authors also wish to thank members of the Fatigue Countermeasures Laboratory who assisted with manuscript review. This work was supported by funding from NASA program NNJ15ZSA001N.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>E.E., M.Y., K.G., J.M.—jointly conceptualized the work. E.E., K.G., C.K., S.H., J.M.—jointly planned, performed, and collected data during the study. E.E., C.K., M.Y., N.B., K.G., S.H., J.M.—supervised and performed data analysis. M.Y.—performed data visualization. E.E., C.K., N.B., K.G.—wrote the main manuscript text including figure preparation. E.E., C.K., M.Y., N.B., K.G., V.V., A.E., S.H., Y.P., J.M.—jointly reviewed and approved the manuscript.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>The datasets generated and analysed during the current study are available by request from the NASA Life Sciences Data Archive: <ext-link ext-link-type="uri" xlink:href="https://lsda.jsc.nasa.gov">https://lsda.jsc.nasa.gov</ext-link></p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par44">Drs. Flynn-Evans, Young, Marquez, and Mr. Hillenius and Gregory were employed by NASA during this study. Dr. Pecena, Ms. Vogelpohl, and Mr. End were employed by DLR during this study. Ms. Kirkley and Mr. Bathurst were employed by San José State University Research Foundation, which is a contractor for NASA. Dr. Flynn-Evans is co-owner and consultant for Baby Sleep Science.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Flynn-Evans</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Gregory</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Arsintescu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitmire</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <source>Risk of performance decrements and adverse health outcomes resulting from sleep loss, circadian desynchronization, and Work Overload</source>
+                  <year>2016</year>
+                  <publisher-loc>Houston</publisher-loc>
+                  <publisher-name>Natl. Aeronaut. Space Admin</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barger</surname>
+                      <given-names>LK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prevalence of sleep deficiency and use of hypnotic drugs in astronauts before, during, and after spaceflight: an observational study</article-title>
+                  <source>Lancet Neurol.</source>
+                  <year>2014</year>
+                  <volume>13</volume>
+                  <fpage>904</fpage>
+                  <lpage>912</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1474-4422(14)70122-X</pub-id>
+                  <?supplied-pmid 25127232?>
+                  <pub-id pub-id-type="pmid">25127232</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dijk</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sleep, performance, circadian rhythms, and light-dark cycles during two space shuttle flights</article-title>
+                  <source>Am. J. Physiol. Reg. I</source>
+                  <year>2001</year>
+                  <volume>281</volume>
+                  <fpage>R1647</fpage>
+                  <lpage>R1664</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frost</surname>
+                      <given-names>JD</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>Shumate</surname>
+                      <given-names>WH</given-names>
+                    </name>
+                    <name>
+                      <surname>Salamy</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                    <name>
+                      <surname>Booher</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep monitoring: the second manned Skylab mission</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>1976</year>
+                  <volume>47</volume>
+                  <fpage>372</fpage>
+                  <lpage>382</lpage>
+                  <?supplied-pmid 179518?>
+                  <pub-id pub-id-type="pmid">179518</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gundel</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Polyakov</surname>
+                      <given-names>VV</given-names>
+                    </name>
+                    <name>
+                      <surname>Zulley</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The alteration of human sleep and circadian rhythms during spaceflight</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>1997</year>
+                  <volume>6</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1365-2869.1997.00028.x</pub-id>
+                  <?supplied-pmid 9125693?>
+                  <pub-id pub-id-type="pmid">9125693</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santy</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <name>
+                      <surname>Kapanka</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of sleep on Shuttle missions</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>1988</year>
+                  <volume>59</volume>
+                  <fpage>1094</fpage>
+                  <lpage>1097</lpage>
+                  <?supplied-pmid 3202794?>
+                  <pub-id pub-id-type="pmid">3202794</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kelly</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <name>
+                      <surname>Hienz</surname>
+                      <given-names>RD</given-names>
+                    </name>
+                    <name>
+                      <surname>Zarcone</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wurster</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Brady</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Crewmember performance before, during, and after spaceflight</article-title>
+                  <source>J. Exp. Anal. Behav.</source>
+                  <year>2005</year>
+                  <volume>84</volume>
+                  <fpage>227</fpage>
+                  <lpage>241</lpage>
+                  <pub-id pub-id-type="doi">10.1901/jeab.2005.77-04</pub-id>
+                  <?supplied-pmid 16262187?>
+                  <pub-id pub-id-type="pmid">16262187</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Manzey</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lorenz</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Poljakov</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mental performance in extreme environments: results from a performance monitoring study during a 438-day spaceflight</article-title>
+                  <source>Ergonomics</source>
+                  <year>1998</year>
+                  <volume>41</volume>
+                  <fpage>537</fpage>
+                  <lpage>559</lpage>
+                  <pub-id pub-id-type="doi">10.1080/001401398186991</pub-id>
+                  <?supplied-pmid 9557591?>
+                  <pub-id pub-id-type="pmid">9557591</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Petit</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Local sleep-like events during wakefulness and their relationship to decreased alertness in astronauts on ISS</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2019</year>
+                  <volume>5</volume>
+                  <fpage>10</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-019-0069-0</pub-id>
+                  <?supplied-pmid 31069253?>
+                  <pub-id pub-id-type="pmid">31069253</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schiflett</surname>
+                      <given-names>SG</given-names>
+                    </name>
+                    <name>
+                      <surname>Eddy</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlegel</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Shehab</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                  </person-group>
+                  <source>Micogravity Effects on Standardized Cognitive Performance Measures</source>
+                  <year>1996</year>
+                  <publisher-loc>Washington DC</publisher-loc>
+                  <publisher-name>NTI Inc.</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benke</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Koserenko</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <name>
+                      <surname>Watson</surname>
+                      <given-names>NV</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerstenbrand</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space and cognition: the measurement of behavioral functions during a 6-day space mission</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>1993</year>
+                  <volume>64</volume>
+                  <fpage>376</fpage>
+                  <lpage>379</lpage>
+                  <?supplied-pmid 8503810?>
+                  <pub-id pub-id-type="pmid">8503810</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Manzey</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lorenz</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Schiewe</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Finell</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiele</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Behavioral aspects of human adaptation to space analyses of cognitive and psychomotor performance in space during an 8-day space mission</article-title>
+                  <source>Clin. Investig.</source>
+                  <year>1993</year>
+                  <volume>71</volume>
+                  <fpage>725</fpage>
+                  <lpage>731</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00209727</pub-id>
+                  <?supplied-pmid 8241723?>
+                  <pub-id pub-id-type="pmid">8241723</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Newman</surname>
+                      <given-names>DJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lathan</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Memory processes and motor control in extreme environments</article-title>
+                  <source>IEEE Trans. Syst. Man Cybern. Syst.</source>
+                  <year>1999</year>
+                  <volume>29</volume>
+                  <fpage>387</fpage>
+                  <lpage>394</lpage>
+                  <pub-id pub-id-type="doi">10.1109/5326.777074</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Massar</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Sasmita</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Chee</surname>
+                      <given-names>MW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep deprivation increases the costs of attentional effort: performance, preference and pupil size</article-title>
+                  <source>Neuropsychologia</source>
+                  <year>2019</year>
+                  <volume>123</volume>
+                  <fpage>169</fpage>
+                  <lpage>177</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neuropsychologia.2018.03.032</pub-id>
+                  <?supplied-pmid 29601889?>
+                  <pub-id pub-id-type="pmid">29601889</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Horne</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Pettitt</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>High incentive effects on vigilance performance during 72 hours of total sleep deprivation</article-title>
+                  <source>Acta Psychol.</source>
+                  <year>1985</year>
+                  <volume>58</volume>
+                  <fpage>123</fpage>
+                  <lpage>139</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0001-6918(85)90003-4</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Steyvers</surname>
+                      <given-names>FJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaillard</surname>
+                      <given-names>AW</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of sleep deprivation and incentives on human performance</article-title>
+                  <source>Psychol. Res.</source>
+                  <year>1993</year>
+                  <volume>55</volume>
+                  <fpage>64</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00419894</pub-id>
+                  <?supplied-pmid 8480005?>
+                  <pub-id pub-id-type="pmid">8480005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hull</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>KP</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>Czeisler</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of subjective alertness and motivation on human performance independent of circadian and homeostatic regulation</article-title>
+                  <source>J. Biol. Rhythm.</source>
+                  <year>2003</year>
+                  <volume>18</volume>
+                  <fpage>329</fpage>
+                  <lpage>338</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0748730403253584</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Basner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Mars 520-d mission simulation reveals protracted crew hypokinesis and alterations of sleep duration and timing</article-title>
+                  <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+                  <year>2013</year>
+                  <volume>110</volume>
+                  <fpage>2635</fpage>
+                  <lpage>2640</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1212646110</pub-id>
+                  <?supplied-pmid 23297197?>
+                  <pub-id pub-id-type="pmid">23297197</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Dongen</surname>
+                      <given-names>HP</given-names>
+                    </name>
+                    <name>
+                      <surname>Maislin</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Mullington</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinges</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation</article-title>
+                  <source>Sleep</source>
+                  <year>2003</year>
+                  <volume>26</volume>
+                  <fpage>117</fpage>
+                  <lpage>126</lpage>
+                  <pub-id pub-id-type="doi">10.1093/sleep/26.2.117</pub-id>
+                  <?supplied-pmid 12683469?>
+                  <pub-id pub-id-type="pmid">12683469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Belenky</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep dose-response study</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>2003</year>
+                  <volume>12</volume>
+                  <fpage>1</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1365-2869.2003.00337.x</pub-id>
+                  <?supplied-pmid 12603781?>
+                  <pub-id pub-id-type="pmid">12603781</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bermudez</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prediction of vigilant attention and cognitive performance using self-reported alertness, circadian phase, hours since awakening, and accumulated sleep loss</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <fpage>e01511770</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0151770</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Upender</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                  </person-group>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Kryger</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Roth</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Dement</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep medicine, public policy, and public health</article-title>
+                  <source>Principles and Practice of Sleep Medicine</source>
+                  <year>2017</year>
+                  <edition>6</edition>
+                  <publisher-loc>Amsterdam</publisher-loc>
+                  <publisher-name>Elsevier</publisher-name>
+                  <fpage>638</fpage>
+                  <lpage>645</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kronauer</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Commentary on the mathematical model of the human circadian system by Kronauer et al.</article-title>
+                  <source>Am. J. Physiol. Reg. I</source>
+                  <year>1982</year>
+                  <volume>242</volume>
+                  <fpage>R17</fpage>
+                  <lpage>R24</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jewett</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Forger</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>Kronauer</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Revised limit cycle oscillator model of human circadian pacemaker</article-title>
+                  <source>J. Biol. Rhythm.</source>
+                  <year>1999</year>
+                  <volume>14</volume>
+                  <fpage>493</fpage>
+                  <lpage>500</lpage>
+                  <pub-id pub-id-type="doi">10.1177/074873049901400608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jewett</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                    <name>
+                      <surname>Kronauer</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Refinement of limit cycle oscillator model of the effects of light on the human circadian pacemaker</article-title>
+                  <source>J. Theor. Biol.</source>
+                  <year>1998</year>
+                  <volume>192</volume>
+                  <fpage>455</fpage>
+                  <lpage>465</lpage>
+                  <pub-id pub-id-type="doi">10.1006/jtbi.1998.0667</pub-id>
+                  <?supplied-pmid 9680719?>
+                  <pub-id pub-id-type="pmid">9680719</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klerman</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                    <name>
+                      <surname>Dijk</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Kronauer</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Czeisler</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulations of light effects on the human circadian pacemaker: implications for assessment of intrinsic period</article-title>
+                  <source>Am. J. Physiol. Reg. I</source>
+                  <year>1996</year>
+                  <volume>270</volume>
+                  <fpage>R271</fpage>
+                  <lpage>R282</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kronauer</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <name>
+                      <surname>Forger</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>Jewett</surname>
+                      <given-names>ME</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying human circadian pacemaker response to brief, extended, and repeated light stimuli over the phototopic range</article-title>
+                  <source>J. Biol. Rhythm.</source>
+                  <year>1999</year>
+                  <volume>14</volume>
+                  <fpage>501</fpage>
+                  <lpage>516</lpage>
+                  <pub-id pub-id-type="doi">10.1177/074873049901400609</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dean</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Forger</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                    <name>
+                      <surname>Klerman</surname>
+                      <given-names>EB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Taking the lag out of jet lag through model-based schedule design</article-title>
+                  <source>PLoS Comput. Biol.</source>
+                  <year>2009</year>
+                  <volume>5</volume>
+                  <fpage>e1000418</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1000418</pub-id>
+                  <?supplied-pmid 19543382?>
+                  <pub-id pub-id-type="pmid">19543382</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>St Hilaire</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Modeling neurocognitive decline and recovery during repeated cycles of extended sleep and chronic sleep deficiency</article-title>
+                  <source>Sleep</source>
+                  <year>2017</year>
+                  <volume>40</volume>
+                  <fpage>zsw009</fpage>
+                  <pub-id pub-id-type="doi">10.1093/sleep/zsw009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rajdev</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A unified mathematical model to quantify performance impairment for both chronic sleep restriction and total sleep deprivation</article-title>
+                  <source>J. Theor. Biol.</source>
+                  <year>2013</year>
+                  <volume>331</volume>
+                  <fpage>66</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jtbi.2013.04.013</pub-id>
+                  <?supplied-pmid 23623949?>
+                  <pub-id pub-id-type="pmid">23623949</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCauley</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A new mathematical model for the homeostatic effects of sleep loss on neurobehavioral performance</article-title>
+                  <source>J. Theor. Biol.</source>
+                  <year>2009</year>
+                  <volume>256</volume>
+                  <fpage>227</fpage>
+                  <lpage>239</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jtbi.2008.09.012</pub-id>
+                  <?supplied-pmid 18938181?>
+                  <pub-id pub-id-type="pmid">18938181</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McCauley</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dynamic circadian modulation in a biomathematical model for the effects of sleep and sleep loss on waking neurobehavioral performance</article-title>
+                  <source>Sleep</source>
+                  <year>2013</year>
+                  <volume>36</volume>
+                  <fpage>1987</fpage>
+                  <lpage>1997</lpage>
+                  <pub-id pub-id-type="doi">10.5665/sleep.3246</pub-id>
+                  <?supplied-pmid 24293775?>
+                  <pub-id pub-id-type="pmid">24293775</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hursh</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Raslear</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaye</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <name>
+                      <surname>Fanzone</surname>
+                      <given-names>JF</given-names>
+                    </name>
+                  </person-group>
+                  <source>Validation and Calibration of a Fatigue Assessment Tool for Railroad Work Schedules, Summary Report</source>
+                  <year>2006</year>
+                  <publisher-loc>Washington, DC</publisher-loc>
+                  <publisher-name>DOT</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hursh</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fatigue models for applied research in warfighting</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>2004</year>
+                  <volume>75</volume>
+                  <fpage>A44</fpage>
+                  <lpage>A53</lpage>
+                  <?supplied-pmid 15018265?>
+                  <pub-id pub-id-type="pmid">15018265</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hursh</surname>
+                      <given-names>SR</given-names>
+                    </name>
+                    <name>
+                      <surname>Balkin</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Eddy</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Fatigue Avoidance Scheduling Tool: modeling to minimize the effects of fatigue on cognitive performance</article-title>
+                  <source>SAE Trans.</source>
+                  <year>2004</year>
+                  <volume>113</volume>
+                  <fpage>111</fpage>
+                  <lpage>119</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reifman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>2B-Alert Web: an open-access tool for predicting the effects of sleep/wake schedules and caffeine consumption on neurobehavioral performance</article-title>
+                  <source>Sleep</source>
+                  <year>2016</year>
+                  <volume>39</volume>
+                  <fpage>2157</fpage>
+                  <lpage>2159</lpage>
+                  <pub-id pub-id-type="doi">10.5665/sleep.6318</pub-id>
+                  <?supplied-pmid 27634801?>
+                  <pub-id pub-id-type="pmid">27634801</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Basner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinges</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Maximizing sensitivity of the psychomotor vigilance test (PVT) to sleep loss</article-title>
+                  <source>Sleep</source>
+                  <year>2011</year>
+                  <volume>34</volume>
+                  <fpage>581</fpage>
+                  <lpage>591</lpage>
+                  <pub-id pub-id-type="doi">10.1093/sleep/34.5.581</pub-id>
+                  <?supplied-pmid 21532951?>
+                  <pub-id pub-id-type="pmid">21532951</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Dongen</surname>
+                      <given-names>HP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of mathematical model predictions to experimental data of fatigue and performance</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>2004</year>
+                  <volume>75</volume>
+                  <fpage>A15</fpage>
+                  <lpage>A36</lpage>
+                  <?supplied-pmid 15018263?>
+                  <pub-id pub-id-type="pmid">15018263</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Petrilli</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <name>
+                      <surname>Roach</surname>
+                      <given-names>GD</given-names>
+                    </name>
+                    <name>
+                      <surname>Dawson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Lamond</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The sleep, subjective fatigue, and sustained attention of commercial airline pilots during an international pattern</article-title>
+                  <source>Chronobiol. Int.</source>
+                  <year>2006</year>
+                  <volume>23</volume>
+                  <fpage>1357</fpage>
+                  <lpage>1362</lpage>
+                  <pub-id pub-id-type="doi">10.1080/07420520601085925</pub-id>
+                  <?supplied-pmid 17190718?>
+                  <pub-id pub-id-type="pmid">17190718</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>St Hilaire</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Brief (&lt;4 hr) sleep episodes are insufficient for restoring performance in first-year resident physicians working overnight extended-duration work shifts</article-title>
+                  <source>Sleep</source>
+                  <year>2019</year>
+                  <volume>42</volume>
+                  <fpage>zsz041</fpage>
+                  <pub-id pub-id-type="doi">10.1093/sleep/zsz041</pub-id>
+                  <?supplied-pmid 30794317?>
+                  <pub-id pub-id-type="pmid">30794317</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Troxel</surname>
+                      <given-names>WM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <source>Sleep in the Military: Promoting Healthy Sleep Among US Servicemembers</source>
+                  <year>2015</year>
+                  <publisher-loc>Santa Monica</publisher-loc>
+                  <publisher-name>RAND Corporation</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lammers-van der Holst</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Dongen</surname>
+                      <given-names>HP</given-names>
+                    </name>
+                    <name>
+                      <surname>Drosopoulos</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerkhof</surname>
+                      <given-names>GA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inter-individual differences in sleep response to shift work in novice police officers—a prospective study</article-title>
+                  <source>Chronobiol. Int.</source>
+                  <year>2016</year>
+                  <volume>33</volume>
+                  <fpage>671</fpage>
+                  <lpage>677</lpage>
+                  <pub-id pub-id-type="doi">10.3109/07420528.2016.1167733</pub-id>
+                  <?supplied-pmid 27088753?>
+                  <pub-id pub-id-type="pmid">27088753</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rupp</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name>
+                      <surname>Wesensten</surname>
+                      <given-names>NJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Balkin</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trait-like vulnerability to total and partial sleep loss</article-title>
+                  <source>Sleep</source>
+                  <year>2012</year>
+                  <volume>35</volume>
+                  <fpage>1163</fpage>
+                  <lpage>1172</lpage>
+                  <pub-id pub-id-type="doi">10.5665/sleep.2010</pub-id>
+                  <?supplied-pmid 22851812?>
+                  <pub-id pub-id-type="pmid">22851812</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Dongen</surname>
+                      <given-names>HP</given-names>
+                    </name>
+                    <name>
+                      <surname>Caldwell</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Caldwell</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Investigating systematic individual differences in sleep-deprived performance on a high-fidelity flight simulator</article-title>
+                  <source>Behav. Res. Methods</source>
+                  <year>2006</year>
+                  <volume>38</volume>
+                  <fpage>333</fpage>
+                  <lpage>343</lpage>
+                  <pub-id pub-id-type="doi">10.3758/BF03192785</pub-id>
+                  <?supplied-pmid 16956110?>
+                  <pub-id pub-id-type="pmid">16956110</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sasaki</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kurosaki</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Mori</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Endo</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Patterns of sleep-wakefulness before and after transmeridian flight in commercial airline pilots</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>1986</year>
+                  <volume>57</volume>
+                  <fpage>B29</fpage>
+                  <lpage>42</lpage>
+                  <?supplied-pmid 3800827?>
+                  <pub-id pub-id-type="pmid">3800827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Flynn-Evans</surname>
+                      <given-names>EE</given-names>
+                    </name>
+                    <name>
+                      <surname>Barger</surname>
+                      <given-names>LK</given-names>
+                    </name>
+                    <name>
+                      <surname>Kubey</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Sullivan</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Czeisler</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian misalignment affects sleep and medication use before and during spaceflight</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>15019</fpage>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2015.19</pub-id>
+                  <?supplied-pmid 28725719?>
+                  <pub-id pub-id-type="pmid">28725719</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <mixed-citation publication-type="other">Caddick, Z. A., Gregory, K. &amp; Flynn-Evans, E. E. Sleep environment recommendations for future spaceflight vehicles. In <italic>Advances in Human Aspects of Transportation</italic> 923–933 (Springer, 2017).</mixed-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Monk</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The post-lunch dip in performance</article-title>
+                  <source>Clin. Sport Med.</source>
+                  <year>2005</year>
+                  <volume>24</volume>
+                  <fpage>e15</fpage>
+                  <lpage>e23</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.csm.2004.12.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramakrishnan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dose-dependent model of caffeine effects on human vigilance during total sleep deprivation</article-title>
+                  <source>J. Theor. Biol.</source>
+                  <year>2014</year>
+                  <volume>358</volume>
+                  <fpage>11</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jtbi.2014.05.017</pub-id>
+                  <?supplied-pmid 24859426?>
+                  <pub-id pub-id-type="pmid">24859426</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ramakrishnan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A biomathematical model of the restoring effects of caffeine on cognitive performance during sleep deprivation</article-title>
+                  <source>J. Theor. Biol.</source>
+                  <year>2013</year>
+                  <volume>319</volume>
+                  <fpage>23</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jtbi.2012.11.015</pub-id>
+                  <?supplied-pmid 23182694?>
+                  <pub-id pub-id-type="pmid">23182694</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramakrishnan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Laxminarayan</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Balkin</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Reifman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Real-time individualization of the unified model of performance</article-title>
+                  <source>J. Sleep Res.</source>
+                  <year>2017</year>
+                  <volume>26</volume>
+                  <fpage>820</fpage>
+                  <lpage>831</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jsr.12535</pub-id>
+                  <?supplied-pmid 28436072?>
+                  <pub-id pub-id-type="pmid">28436072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drummond</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>GG</given-names>
+                    </name>
+                    <name>
+                      <surname>Salamat</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                    <name>
+                      <surname>Gillin</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increasing task difficulty facilitates the cerebral compensatory response to total sleep deprivation</article-title>
+                  <source>Sleep</source>
+                  <year>2004</year>
+                  <volume>27</volume>
+                  <fpage>445</fpage>
+                  <lpage>451</lpage>
+                  <?supplied-pmid 15164897?>
+                  <pub-id pub-id-type="pmid">15164897</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:56:59Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7672645" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7672645</identifier>
+        <datestamp>2020-11-19</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7672645</article-id>
+              <article-id pub-id-type="pmcid">PMC7672645</article-id>
+              <article-id pub-id-type="pmc-uid">7672645</article-id>
+              <article-id pub-id-type="pmid">33114008</article-id>
+              <article-id pub-id-type="pmid">33114008</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms21217863</article-id>
+              <article-id pub-id-type="publisher-id">ijms-21-07863</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Impact of a Model Used to Simulate Chronic Socio-Environmental Stressors Encountered during Spaceflight on Murine Intestinal Microbiota</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7953-4870</contrib-id>
+                  <name>
+                    <surname>Alauzet</surname>
+                    <given-names>Corentine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                  <xref ref-type="aff" rid="af2-ijms-21-07863">2</xref>
+                  <xref rid="c1-ijms-21-07863" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cunat</surname>
+                    <given-names>Lisiane</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4989-5533</contrib-id>
+                  <name>
+                    <surname>Wack</surname>
+                    <given-names>Maxime</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af3-ijms-21-07863">3</xref>
+                  <xref ref-type="aff" rid="af4-ijms-21-07863">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4725-2737</contrib-id>
+                  <name>
+                    <surname>Lanfumey</surname>
+                    <given-names>Laurence</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af5-ijms-21-07863">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Legrand-Frossi</surname>
+                    <given-names>Christine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lozniewski</surname>
+                    <given-names>Alain</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                  <xref ref-type="aff" rid="af2-ijms-21-07863">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Agrinier</surname>
+                    <given-names>Nelly</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af6-ijms-21-07863">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cailliez-Grimal</surname>
+                    <given-names>Catherine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                  <xref ref-type="author-notes" rid="fn1-ijms-21-07863">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4027-6269</contrib-id>
+                  <name>
+                    <surname>Frippiat</surname>
+                    <given-names>Jean-Pol</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-07863">1</xref>
+                  <xref ref-type="author-notes" rid="fn1-ijms-21-07863">†</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-21-07863"><label>1</label>Stress Immunity Pathogens unit (SIMPA), EA 7300, Université de Lorraine, F-54000 Nancy, France; <email>lisiane.cunat@univ-lorraine.fr</email> (L.C.); <email>christine.frossi@univ-lorraine.fr</email> (C.L.-F.); <email>alain.lozniewski@univ-lorraine.fr</email> (A.L.); <email>catherine.cailliez@univ-lorraine.fr</email> (C.C.-G.); <email>jean-pol.frippiat@univ-lorraine.fr</email> (J.-P.F.)</aff>
+              <aff id="af2-ijms-21-07863"><label>2</label>CHRU-Nancy, Service de Microbiologie, F-54000 Nancy, France</aff>
+              <aff id="af3-ijms-21-07863"><label>3</label>Département d’Informatique Médicale, Biostatistiques et Santé Publique, Hôpital Européen Georges Pompidou, Assistance Publique-Hôpitaux de Paris, 75015 Paris, France; <email>maximewack@free.fr</email></aff>
+              <aff id="af4-ijms-21-07863"><label>4</label>Centre de Recherche des Cordeliers, INSERM, UMRS 1138, Université de Paris, 75006 Paris, France</aff>
+              <aff id="af5-ijms-21-07863"><label>5</label>Institute of Psychiatry and Neuroscience of Paris (IPNP), INSERM U1266, Université de Paris, F-75014 Paris, France; <email>laurence.lanfumey@inserm.fr</email></aff>
+              <aff id="af6-ijms-21-07863"><label>6</label>CHRU-Nancy, INSERM, Université de Lorraine, CIC, Epidémiologie Clinique, F-54000 Nancy, France; <email>nelly.agrinier@univ-lorraine.fr</email></aff>
+              <author-notes>
+                <corresp id="c1-ijms-21-07863"><label>*</label>Correspondence: <email>corentine.alauzet@univ-lorraine.fr</email>; Tel.: +33-383-153-938</corresp>
+                <fn id="fn1-ijms-21-07863">
+                  <label>†</label>
+                  <p>These authors contributed equally to this work.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>23</day>
+                <month>10</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>21</issue>
+              <elocation-id>7863</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>25</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>21</day>
+                  <month>10</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 by the authors.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>During deep-space travels, crewmembers face various physical and psychosocial stressors that could alter gut microbiota composition. Since it is well known that intestinal dysbiosis is involved in the onset or exacerbation of several disorders, the aim of this study was to evaluate changes in intestinal microbiota in a murine model used to mimic chronic psychosocial stressors encountered during a long-term space mission. We demonstrate that 3 weeks of exposure to this model (called CUMS for Chronic Unpredictable Mild Stress) induce significant change in intracaecal β-diversity characterized by an important increase of the <italic>Firmicutes</italic>/<italic>Bacteroidetes</italic> ratio. These alterations are associated with a decrease of <italic>Porphyromonadaceae</italic>, particularly of the genus <italic>Barnesiella</italic>, a major member of gut microbiota in mice and humans where it is described as having protective properties. These results raise the question of the impact of stress-induced decrease of beneficial taxa, support recent data deduced from in-flight experimentations and other ground-based models, and emphasize the critical need for further studies exploring the impact of spaceflight on intestinal microbiota in order to propose strategies to countermeasure spaceflight-associated dysbiosis and its consequences on health.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>gut microbiota</kwd>
+                <kwd>chronic unpredictable mild stress</kwd>
+                <kwd>spaceflight</kwd>
+                <kwd>
+                  <italic>Barnesiella</italic>
+                </kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-21-07863">
+              <title>1. Introduction</title>
+              <p>Gut microbiota (GM) form a complex microbial ecosystem whose balance and homeostasis are essential to the well-being of the host. Its composition is affected by numerous intrinsic and extrinsic factors such as antibiotics or diet [<xref rid="B1-ijms-21-07863" ref-type="bibr">1</xref>,<xref rid="B2-ijms-21-07863" ref-type="bibr">2</xref>]. Recent works have shown that host stress, particularly chronic stress, also has profound effects on the composition and organization of GM [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>,<xref rid="B4-ijms-21-07863" ref-type="bibr">4</xref>,<xref rid="B5-ijms-21-07863" ref-type="bibr">5</xref>,<xref rid="B6-ijms-21-07863" ref-type="bibr">6</xref>,<xref rid="B7-ijms-21-07863" ref-type="bibr">7</xref>,<xref rid="B8-ijms-21-07863" ref-type="bibr">8</xref>,<xref rid="B9-ijms-21-07863" ref-type="bibr">9</xref>]. Chronic or excessive stress could be involved in the onset or exacerbation of chronic disorders such as anxiety and depression, or intestinal bowel diseases (IBD) [<xref rid="B10-ijms-21-07863" ref-type="bibr">10</xref>]. More and more studies suggest a link between these pathologies and intestinal dysbiosis [<xref rid="B2-ijms-21-07863" ref-type="bibr">2</xref>,<xref rid="B10-ijms-21-07863" ref-type="bibr">10</xref>,<xref rid="B11-ijms-21-07863" ref-type="bibr">11</xref>,<xref rid="B12-ijms-21-07863" ref-type="bibr">12</xref>,<xref rid="B13-ijms-21-07863" ref-type="bibr">13</xref>]. The sympathetic nervous system and the hypothalamic–pituitary–adrenal (HPA) axis represent the main biological stress axes and are strongly involved in the bidirectional communication between the gut and the central nervous system, also called brain gut axis [<xref rid="B7-ijms-21-07863" ref-type="bibr">7</xref>,<xref rid="B8-ijms-21-07863" ref-type="bibr">8</xref>,<xref rid="B13-ijms-21-07863" ref-type="bibr">13</xref>,<xref rid="B14-ijms-21-07863" ref-type="bibr">14</xref>,<xref rid="B15-ijms-21-07863" ref-type="bibr">15</xref>]. This could explain how host stress impacts intestinal bacteria. Stress-induced modulation of GM could also be explained by the alteration of local immunity, intestinal motility, mucin secretion or visceral perception [<xref rid="B5-ijms-21-07863" ref-type="bibr">5</xref>,<xref rid="B16-ijms-21-07863" ref-type="bibr">16</xref>]. Furthermore, stress mediators released in the lumen, such as glucocorticoids and catecholamines, can directly modulate bacterial growth, virulence and gene expression [<xref rid="B6-ijms-21-07863" ref-type="bibr">6</xref>,<xref rid="B14-ijms-21-07863" ref-type="bibr">14</xref>,<xref rid="B17-ijms-21-07863" ref-type="bibr">17</xref>,<xref rid="B18-ijms-21-07863" ref-type="bibr">18</xref>,<xref rid="B19-ijms-21-07863" ref-type="bibr">19</xref>].</p>
+              <p>During spaceflight, astronauts face chronic or intermittent stressors of psychosocial (confinement, isolation, sleep deprivation, persistent circadian misalignment) or physical (gravitational changes, radiations) origins [<xref rid="B20-ijms-21-07863" ref-type="bibr">20</xref>]. These stressors, associated with dysregulation of the immune system [<xref rid="B21-ijms-21-07863" ref-type="bibr">21</xref>,<xref rid="B22-ijms-21-07863" ref-type="bibr">22</xref>], put astronauts at high risk of developing intestinal dysbiosis as illustrated by a recent study on International Space Station crew members reporting alteration of the composition of astronauts’ microbiome during space travel [<xref rid="B23-ijms-21-07863" ref-type="bibr">23</xref>]. Such dysbiosis could have an impact not only on immune system efficiency, but also on energy intake, nutriments assimilation and intermediary metabolisms such as those of antibiotics [<xref rid="B24-ijms-21-07863" ref-type="bibr">24</xref>]. As imbalance in GM could be correlated with a shift from a healthy state to a diseased state, it is important to evaluate the status of GM in response to chronic stressors encountered during long-duration space missions [<xref rid="B25-ijms-21-07863" ref-type="bibr">25</xref>].</p>
+              <p>Given constraints imposed by in-flight experimentation and limited access to such an experimental platform, various ground-based models have been developed to reproduce the effects of spaceflight conditions on an organism. Using a ground-based model, we recently showed that certain conditions disrupt murine intestinal microbiota [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>]. However, weight changes are not the only stressors encountered during space missions. Chronic socio-environmental factors such as confinement, circadian rhythm misalignment and psychosocial stressors have to be considered. Consequently, in this study, we used an easy-to-implement model (CUMS model, <xref rid="ijms-21-07863-t001" ref-type="table">Table 1</xref>, <xref ref-type="fig" rid="ijms-21-07863-f001">Figure 1</xref>a), involving the chronic exposure of mice to multiple unpredictable mild environmental and psychosocial stressors, to simulate chronic socioenvironmental stresses encountered during a spaceflight and explore their effects on GM composition. We believe that this model comes reasonably close to the diversity and intensity of socio-environmental stressors encountered by astronauts while they are aboard the ISS, as shown in <xref rid="ijms-21-07863-t001" ref-type="table">Table 1</xref>. Moreover, we previously showed that this model replicates some spaceflight-induced immunological changes observed in astronauts [<xref rid="B26-ijms-21-07863" ref-type="bibr">26</xref>].</p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-21-07863">
+              <title>2. Results</title>
+              <sec id="sec2dot1-ijms-21-07863">
+                <title>2.1. Days of CUMS Exposure Do Not Induce a Major Stress Response</title>
+                <p>Male mice were divided in two groups: ten mice submitted to 21 days of CUMS and ten controls placed in another room of the animal facility. Animals presenting injuries, such as bites that could induce inflammation, were discarded resulting in ten CUMS mice and seven controls at the end of the experiment. To evaluate stress, mice were weighted at the end of the experimental procedure and the amount of corticosterone in peripheral blood was quantified by ELISA. <xref ref-type="fig" rid="ijms-21-07863-f001">Figure 1</xref>b,c show that these two parameters were similar in both groups of mice. We also determined thymus weight since it is well known that stress induces its involution. This organ weight was normalized to body weight (<xref ref-type="fig" rid="ijms-21-07863-f001">Figure 1</xref>d). Again, no statistically significant difference could be noted between the two groups of mice.</p>
+              </sec>
+              <sec id="sec2dot2-ijms-21-07863">
+                <title>2.2. Intestinal Microbiome β-Diversity Is Significantly Modified by CUMS</title>
+                <p>To evaluate the effects of CUMS exposure on GM, we quantified by qPCR the number of 16S rRNA encoding gene copies per mg of intracaecal content. <xref ref-type="fig" rid="ijms-21-07863-f002">Figure 2</xref>a reveals that bacterial load was not significantly affected by CUMS exposure (CUMS: 1.12 × 10<sup>8</sup> ± 1.34 × 10<sup>7</sup> vs. controls: 1.39 × 10<sup>8</sup> ± 1.67 × 10<sup>7</sup>, <italic>p</italic> = 0.19) (<xref ref-type="fig" rid="ijms-21-07863-f002">Figure 2</xref>a). We also preformed pyrosequencing experiments. They generated an average of 9024 reads per sample (ranging from 4276 to 24,502) with a mean length of 527 bp (ranging from 517 to 533 bp). Individual rarefaction curves (<xref ref-type="app" rid="app1-ijms-21-07863">Supplementary Materials Figure S1</xref>) showed that the mean numbers of observed operational taxonomic units (OTUs), 140 taxa (ranging from 61 to 210 OTUs), reached in all samples a plateau of approximately 5000 sequence reads. The read coverage was therefore sufficient to capture most of the bacterial diversity of each intracaecal microbiome.</p>
+                <p>The within-sample diversity (α-diversity) indicated no significant difference between CUMS and control mice (<xref ref-type="fig" rid="ijms-21-07863-f002">Figure 2</xref>b). This suggests that CUMS mice had no change in microbial richness and evenness. However, in terms of β-diversity, Principal Component Analysis (PCA) showed distinct clustering between samples from control and CUMS mice indicating a significant change in microbiome composition (<xref ref-type="fig" rid="ijms-21-07863-f002">Figure 2</xref>c, PERMANOVA <italic>p</italic> = 0.029).</p>
+              </sec>
+              <sec id="sec2dot3-ijms-21-07863">
+                <title>2.3. Impact on Caecal Microbiome Composition</title>
+                <p>A more in-depth taxonomic analysis of bacterial types revealed several changes in microbiome composition, and variations appeared at different phylogenetic levels. Nine divisions were identified by pyrosequencing. In all samples, the majority of caecal bacteria (ranging from 92 to 98% of total 16S) belonged either to the <italic>Firmicutes</italic> (ranging from 49.3 to 94.4%) or to the <italic>Bacteroidetes</italic> phylum (ranging from 2.5 to 46.8%), with a small proportion (2–8% of the identified sequences) of bacteria from seven others phyla: <italic>Actinobacteria</italic>, Candidatus <italic>Melainobacteria</italic>, Candidatus <italic>Saccharibacteria</italic> (TM7), <italic>Cyanobacteria</italic>, <italic>Proteobacteria</italic>, <italic>Tenericutes</italic> and <italic>Verrucomicrobia</italic> (<xref ref-type="app" rid="app1-ijms-21-07863">Supplementary Materials Database S1</xref>). Moreover, 16 classes, 26 orders, 53 families, and 123 genera were identified.</p>
+                <p>CUMS led to an increase of the <italic>Firmicutes</italic> phyla (<italic>p</italic> = 0.0041) and a decrease of the <italic>Bacteroidetes</italic> taxa (<italic>p</italic> = 0.0062) compared to control mice (<xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>a).</p>
+                <p>These alterations induced a significant rise of the <italic>Firmicutes</italic>/<italic>Bacteroidetes</italic> ratio from 2.28 ± 0.38 in controls to 11.75 ± 3.43 in CUMS mice (<xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>b, <italic>p</italic> = 0.00072). The gain of <italic>Firmicutes</italic> in CUMS mice was not clearly associated to the expansion of distinct genera, except for the <italic>Clostridiales</italic> members <italic>Anaerotruncus</italic>, <italic>Coprococcus</italic> and <italic>Sporobacter</italic> (<xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>c), but seemed rather to be due to a general moderate rise of several taxa within the phylum. Concerning the diminution of <italic>Bacteroidetes</italic>, it is clearly linked to a significant decrease of <italic>Porphyromonadaceae</italic> (<italic>p</italic> = 0.022) and <italic>Flavobacteriaceae</italic> (<italic>p</italic> = 0.073) with the corresponding impacted genera being <italic>Barnesiella</italic>, <italic>Prevotella</italic>, <italic>Coprobacter</italic>, <italic>Porphyromonas</italic>, <italic>Pricia</italic>, <italic>Parabacteroides</italic>, <italic>Dysgonomonas</italic> and the vanishing of <italic>Nonlabens</italic> and <italic>Maribacter</italic> (<xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>c, <xref ref-type="app" rid="app1-ijms-21-07863">Supplementary Materials Database S1</xref>). We also noticed the lowering of another <italic>Bacteroidetes</italic> (Candidatus <italic>Armantifilum</italic> and <italic>Odoribacter</italic>) and of members of the genus <italic>Akkermansia</italic>.</p>
+                <p>At the species level, of the 389 taxa assigned, 275 species were found in control mice and 337 species in CUMS mice, corresponding to 223 species recovered in both groups (<xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>d). Among them, only 27 were shared by all animals (<italic>core microbiome</italic>).</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec3-ijms-21-07863">
+              <title>3. Discussion</title>
+              <p>It is increasingly evident that chronic psychosocial stresses influence intestinal homeostasis. Such alterations in microbiome composition can lead to local or central dysregulations that could be involved in the onset or exacerbation of chronic disorders such as IBD or psychiatric disorders [<xref rid="B2-ijms-21-07863" ref-type="bibr">2</xref>,<xref rid="B13-ijms-21-07863" ref-type="bibr">13</xref>,<xref rid="B27-ijms-21-07863" ref-type="bibr">27</xref>,<xref rid="B28-ijms-21-07863" ref-type="bibr">28</xref>]. During spaceflight, astronauts are subjected to various chronic physical and psychosocial stressors which could lead to dysbiosis, in a context of limited medical procedures and facilities. It has already been shown, using ground-based murine models, that weight modulation induces disruption of intestinal microbiota [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>,<xref rid="B29-ijms-21-07863" ref-type="bibr">29</xref>]. In this study, we used the CUMS model to mimic chronic socioenvironmental stresses encountered during space travels and explore their impact on intestinal microbiota. Indeed, we previously showed that this model replicates some spaceflight-induced immunological changes observed in astronauts [<xref rid="B26-ijms-21-07863" ref-type="bibr">26</xref>]. Furthermore, it is recognized as a reliable and effective rodent model of depression [<xref rid="B9-ijms-21-07863" ref-type="bibr">9</xref>,<xref rid="B13-ijms-21-07863" ref-type="bibr">13</xref>,<xref rid="B15-ijms-21-07863" ref-type="bibr">15</xref>,<xref rid="B28-ijms-21-07863" ref-type="bibr">28</xref>,<xref rid="B30-ijms-21-07863" ref-type="bibr">30</xref>,<xref rid="B31-ijms-21-07863" ref-type="bibr">31</xref>,<xref rid="B32-ijms-21-07863" ref-type="bibr">32</xref>].</p>
+              <p>Our results revealed that after 3 weeks of CUMS exposure, a duration chosen to simulate a six-month flight at the human scale [<xref rid="B33-ijms-21-07863" ref-type="bibr">33</xref>], there was no significant change in murine caecal bacterial load. Additionally, no statistically significant modification of the α-diversity was observed in CUMS mice by comparison to controls, indicating that the within-community diversity was not altered by this model of chronic stress. Although these results are in agreement with other studies using variants of the rodent CUMS model [<xref rid="B9-ijms-21-07863" ref-type="bibr">9</xref>,<xref rid="B28-ijms-21-07863" ref-type="bibr">28</xref>], they are discrepant when compared to other works describing a decrease of α-diversity [<xref rid="B11-ijms-21-07863" ref-type="bibr">11</xref>,<xref rid="B15-ijms-21-07863" ref-type="bibr">15</xref>,<xref rid="B31-ijms-21-07863" ref-type="bibr">31</xref>,<xref rid="B32-ijms-21-07863" ref-type="bibr">32</xref>]. Such differences could be explained by variation in the CUMS models (species, strains, age, gender, feeding conditions, type of stressors, duration of exposure to individual stress), the origin of the samples (fecal or intraluminal), or protocols (DNA extraction method, PCR parameters) [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>].</p>
+              <p>However, significant change in intracaecal global β-diversity was observed after CUMS treatment. Indeed, an important increase of the <italic>Firmicutes</italic>/<italic>Bacteroidetes</italic> ratio was observed in CUMS mice, which is consistent with other reports using variants of the rodent CUMS model [<xref rid="B9-ijms-21-07863" ref-type="bibr">9</xref>,<xref rid="B15-ijms-21-07863" ref-type="bibr">15</xref>,<xref rid="B28-ijms-21-07863" ref-type="bibr">28</xref>,<xref rid="B31-ijms-21-07863" ref-type="bibr">31</xref>]. Within the <italic>Bacteroidetes</italic> phylum, we observed a decrease of <italic>Porphyromonadaceae</italic> that has already been noted with other chronic stress such as restraint stress [<xref rid="B34-ijms-21-07863" ref-type="bibr">34</xref>] and multifactorial model of early-life adversity [<xref rid="B35-ijms-21-07863" ref-type="bibr">35</xref>]. Within this family, the greatest impact of CUMS was observed on the relative abundance of <italic>Barnesiella</italic> sp., a genus composed of <italic>Barnesiella intestinihominis</italic> and <italic>Barnesiella viscericola</italic>, belonging to the <italic>core microbiome</italic> of the murine and human gut. These species are described as having beneficial effects, such as protecting against colitis [<xref rid="B36-ijms-21-07863" ref-type="bibr">36</xref>], enhancing the efficacy of antitumor treatments [<xref rid="B37-ijms-21-07863" ref-type="bibr">37</xref>] and conferring resistance to intestinal colonization by pathogenic microorganisms [<xref rid="B38-ijms-21-07863" ref-type="bibr">38</xref>]. These data raise the question of the impact of the decrease of this major member of GM in CUMS mice.</p>
+              <p>On the other hand, the increase of <italic>Firmicutes</italic> in CUMS mice cannot be statistically correlated with the increase of specific OTUs. This lack of correlation could be due to high interindividual variability in GM illustrated by the small number of species shared by all animals, stressed or not, suggesting the existence of only a reduced <italic>core microbiome</italic>. Such variability could also explain the lack of statistical significance at low taxa level and the fact that the impact of CUMS was manifest only at the phylum level. It is noteworthy that CUMS is associated with the appearance of several new taxa (114, <xref ref-type="fig" rid="ijms-21-07863-f003">Figure 3</xref>d), mainly belonging to <italic>Firmicutes</italic>, among them various OTUs of <italic>Lactobacillus</italic> with a great interindividual variability. Some protective taxa appeared (<italic>Lactobacillus johnsonii</italic>) while other decreased (<italic>Lactobacillus murinus</italic>), potentially offsetting each other. Interestingly, we observed opposite results when using a 3G-hypergravity model with a lowering of <italic>L. johnsonii</italic> and a rise of <italic>L. murinus</italic> [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>]. Moreover, 3G-hypergravity was associated with increased bacterial load and α-diversity, as well as with a significant impact on the relative abundance of 50 intestinal species, whereas 2G-hypergravity seemed to modulate only moderately the GM composition. As described for the 2G-hypergravity model, the moderate alteration of GM observed with the CUMS model could be due to a lower activation of the HPA axis as no elevation of corticosterone level was noted in mice sera. This hypothesis is supported by higher serum corticosterone concentrations noticed in mice exposed to 3G during 21 days [<xref rid="B39-ijms-21-07863" ref-type="bibr">39</xref>], as well as during the first two weeks of exposition to the chronic mild stress model (CMS) which is more intense than CUMS because of water and food deprivation periods [<xref rid="B40-ijms-21-07863" ref-type="bibr">40</xref>]. So, as previously reported for the TCRβ repertoire [<xref rid="B41-ijms-21-07863" ref-type="bibr">41</xref>,<xref rid="B42-ijms-21-07863" ref-type="bibr">42</xref>], chronic socio-environmental stressors seem to have less impact on intestinal microbiota than gravity changes.</p>
+              <p>The results of the present study demonstrate that 3-weeks of exposure to chronic unpredictable psychosocial and environmental stressors alter mice GM, although to a lower extent than gravity changes. One limitation of this study is the small sample size that could lead to miss some modifications of GM because of intraindividual variability precluding their statistical detection. However, alteration of GM must receive attention and should be monitored in crewmembers, especially since it has been recently shown that a fecal transfer of GM from CUMS to healthy mice induces despair-like behaviors associated with alterations in serotonin pathway [<xref rid="B32-ijms-21-07863" ref-type="bibr">32</xref>]. Furthermore, these data provide additional arguments to the countermeasure protocol proposed by experts against spaceflight-associated perturbations to the immune system [<xref rid="B22-ijms-21-07863" ref-type="bibr">22</xref>]. Their recommendations include physical and psychological exercises for stress management, pre- or probiotics supplementation and dietary approaches, that could also permit to limit dysbiosis and its consequences on health. Finally, note that the results of this study go beyond astronaut health protection because the CUMS model can also be used to study the impact of everyday life stresses and it is well established that stress can contribute to the development or aggravation of several pathologies [<xref rid="B2-ijms-21-07863" ref-type="bibr">2</xref>,<xref rid="B43-ijms-21-07863" ref-type="bibr">43</xref>].</p>
+            </sec>
+            <sec id="sec4-ijms-21-07863">
+              <title>4. Materials and Methods</title>
+              <sec id="sec4dot1-ijms-21-07863">
+                <title>4.1. Experimental Animals and Ethics Statement</title>
+                <p>C57BL/6j male mice (8-week-old, mean body mass of 20 g) were purchased from Charles River (Les Oncins, France). On arrival, animals were housed for 5 days in groups of five in standard cages in the animal facility of the INSERM UMR 894 laboratory (Paris). They were housed in a quiet room under constant conditions (22 °C, 50% relative humidity, 12-h light/dark cycles with dark periods from 8 pm to 8 am) with free access to standard food and water. Then, mice were randomly divided in two groups housed in two separate rooms: one control group and one group subjected to CUMS for 21 days. Experimental procedures were carried out in conformity with the National Legislation and the Council Directive of the European Communities on the Protection of Animals Used for Experimental and Other Scientific Purposes (2010/63/UE). The CUMS protocol was approved by the French Ministry of Research (authorization 00966.02, approval date 24 January 2014).</p>
+              </sec>
+              <sec id="sec4dot2-ijms-21-07863">
+                <title>4.2. Exposure to Chronic Unpredictable Mild Psychosocial and Environmental Stressors (CUMS Model)</title>
+                <p>Isolated animals (one mouse per cage) were subjected during 21 days to different unpredictable mild psychosocial and environmental stressors, according to Pardon et al. (2000) [<xref rid="B44-ijms-21-07863" ref-type="bibr">44</xref>]. The CUMS procedure presented in <xref ref-type="fig" rid="ijms-21-07863-f001">Figure 1</xref>a was scheduled over a 1-week period and repeated throughout the 3 weeks of experimentation. Stress periods were always separated by stress-free intervals of at least 2 h to avoid any habituation process. The control group was left undisturbed in another room of the animal facility, five mice per standard cage (37.5 cm × 21.5 cm × 18 cm). Animals presenting injuries (such as bites that could induce inflammation) were discarded resulting in 7 control mice and 10 CUMS mice.</p>
+              </sec>
+              <sec id="sec4dot3-ijms-21-07863">
+                <title>4.3. Sample Collection</title>
+                <p>At the end of the experiment, CUMS and control mice were anesthetized using isoflurane, weighed and then put to death by cervical dislocation. All samples were immediately processed to avoid degradation and/or contamination. The intestine was dissected in by excising the entire caecum. Samples were opened longitudinally and their contents were removed by two successive washes in DEPC (1‰)-treated PBS. Intra-luminal contents were immediately frozen in liquid nitrogen and stored at −80 °C until DNA isolation.</p>
+              </sec>
+              <sec id="sec4dot4-ijms-21-07863">
+                <title>4.4. Corticosterone Quantification</title>
+                <p>Corticosterone was quantified in serum samples without any extraction procedure using the Corticosterone Enzyme Immunoassay kit (ArborAssays, Ann Arbor, MI, USA). Samples were analyzed in duplicate. Absorbance at 405 nm was measured and concentrations, calculated from a standard curve established using calibrators, were expressed as ng/mL.</p>
+              </sec>
+              <sec id="sec4dot5-ijms-21-07863">
+                <title>4.5. DNA Isolation</title>
+                <p>Whole genomic DNA was extracted from caecal samples (50 mg) using the Fast DNA SPIN kit for Soil (MP Biomedicals, Santa Ana, CA, USA) [<xref rid="B45-ijms-21-07863" ref-type="bibr">45</xref>] after bead beating with the FastPrep-24 Instrument (MP Biomedicals) at 6.0 ms<sup>−1</sup> for 40 s, according to manufacturer’s instructions. Purified DNA was resuspended in sterile deionized DNAse/pyrogen-free water, analyzed by spectrophotometry (NanoDrop 2000C; Labtech, Heathfield, East Sussex), and frozen (−20 °C) until analysis.</p>
+              </sec>
+              <sec id="sec4dot6-ijms-21-07863">
+                <title>4.6. Intracaecal Microbiota Sequencing</title>
+                <p>Barcoded primers Bact-515F (5′-GTGCCAGCMGCNGCGC-3′) and Bact-1061R (5′-CRRCACGAGCTGACGAC-3′) described by Klindworth et al. (2013) [<xref rid="B46-ijms-21-07863" ref-type="bibr">46</xref>] were used for the initial amplification of the V4-V6 region of the 16S rRNA gene as previously described [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>]. PCR reactions contained 2.5 U of <italic>Taq</italic> DNA Polymerase (Invitrogen, Cergy Pontoise, France), 5 µL of 5X buffer, 75 nmol MgCl<sub>2</sub>, 1 µL of 10 mM dNTPs, 1 µL of each primer (50 µM) and 50 ng of DNA. Three PCR reactions were run for each sample as follows: 95 °C for 5 min, followed by 40 cycles at 95 °C for 45 s, 60 °C for 45 s, 72 °C for 45 s and a final extension at 72 °C for 5 min. PCR reactions from the same sample were pooled, purified using the QIAquick PCR purification kit (Qiagen, Courtaboeuf, France) and quantified using a Qubit 2.0 Fluorometer (Life Technologies, Carlsbad, CA, USA) using the dsDNA HS Assay Kit (Life Technologies). To ensure equal representation of each sample in the sequencing run, each barcoded sample was standardized by calculating equimolar amounts (100 ng/sample) using the SequalPrep Normalization Plate Kit (Invitrogen) prior to pooling. Pooled samples of the 16S rRNA gene multiplexed amplicons were sequenced on a Roche 454 Genome Sequencer FLX Titanium instrument using the GS FLX Titanium XLR70 sequencing reagents and protocols (Beckman Coulter Genomics, Danvers, MA, USA).</p>
+              </sec>
+              <sec id="sec4dot7-ijms-21-07863">
+                <title>4.7. Amplicon Sequencing Data Analysis</title>
+                <p>Analysis of amplicon sequencing data was carried out using the MEGAN pipeline [<xref rid="B47-ijms-21-07863" ref-type="bibr">47</xref>]. After demultiplexing, combined raw sequencing data plus metadata were filtered to exclude low-quality reads. Next, data were denoised and clustered using the MIRA 4 software (<uri xlink:href="http://mira-assembler.sourceforge.net">http://mira-assembler.sourceforge.net</uri>). Sequences with ≥98% similarity were binned and assigned to the same OTU to approximate species-level phylotypes. Representative sequences of each OTU, derived from clusters or singletons, were assigned at different taxonomic level by using the Ribosomal Database Project II Classifier [<xref rid="B48-ijms-21-07863" ref-type="bibr">48</xref>]. To avoid a potential bias linked to variation of sequence coverage between samples, the data were normalized to 100,000 sequences per samples. Rarefaction curves were constructed to evaluate sequencing depth. Relative abundances of each OTU were compared according to the different experimental conditions. Bacterial richness and diversity across samples were estimated by calculating the following indexes as previously described [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>]: Shannon index, Evenness index, OTU’s number, Simpson’s index of diversity, and Simpson’s reciprocal index. PCA was conducted to appreciate overall distance between microbial communities, using relative abundance and taxa-to-taxa distance estimates. Obtained 16S rRNA gene sequences have been deposited into NCBI’s Sequence Read Archive database (<uri xlink:href="https://www.ncbi.nlm.nih.gov/sra">https://www.ncbi.nlm.nih.gov/sra</uri>) under accession number SRP153311.</p>
+              </sec>
+              <sec id="sec4dot8-ijms-21-07863">
+                <title>4.8. Intracaecal Bacterial Load Quantification</title>
+                <p>The amount of total bacteria was assessed by amplifying 0.5 ng of DNA extracted from each fecal sample with pan-bacterial primers targeting the 16S rRNA gene as previously described [<xref rid="B3-ijms-21-07863" ref-type="bibr">3</xref>]. Briefly, PCR assays were performed using the MESA FAST qPCR MasterMix for SYBRAssay as recommended by the manufacturer (Eurogentec, Seraing, Belgium). DNA extracted from the <italic>Barnesiella intestinihominis</italic> DSM 21032<sup>T</sup> strain using the QIAamp DNA Mini Kit (Qiagen) was used to establish the standard curves. All assays were performed in triplicate. The following thermocycling conditions were applied with the MyiQ™2 real-time PCR system (Bio-Rad Laboratories, Hercules, CA, USA): initial denaturation at 95 °C for 5 min followed by 40 cycles of 95 °C for 15 s and 60 °C for 1 min. Melting curves were obtained immediately after the amplification under the following conditions: 70 cycles of 10 s with an increment of 0.5 °C/cycle starting at 60 °C.</p>
+              </sec>
+              <sec id="sec4dot9-ijms-21-07863">
+                <title>4.9. Statistical Analysis</title>
+                <p>Comparison of body weights, corticosterone concentrations, normalized thymus weights, bacterial loads quantified by qPCR, relative abundances, and phylogenetic diversity indexes were performed using the Mann–Whitney U test with a significance level α of 0.05. <italic>p</italic>-values comprised between 0.05 and 0.10 indicate trend. The <italic>p</italic>-values were adjusted for multiple hypotheses testing using the False Discovery Rate method [<xref rid="B49-ijms-21-07863" ref-type="bibr">49</xref>] for all the results within each taxonomy level. The PERMANOVA analysis (99 permutations) was conducted on dissimilarity indices produced by the Bray–Curtis method [<xref rid="B50-ijms-21-07863" ref-type="bibr">50</xref>]. The β-diversity PCA was produced using Marti Anderson’s procedure for the analysis of multivariate homogeneity of group dispersions [<xref rid="B51-ijms-21-07863" ref-type="bibr">51</xref>]. All the analysis were performed using R version 3.5.0 (<uri xlink:href="https://www.R-project.org/">https://www.R-project.org/</uri>).</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We thank Amandine Simeon for technical assistance and Tevrasamy Marday for helping with the CUMS procedure.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app id="app1-ijms-21-07863">
+                <title>Supplementary Materials</title>
+                <p>Supplementary materials can be found at <uri xlink:href="https://www.mdpi.com/1422-0067/21/21/7863/s1">https://www.mdpi.com/1422-0067/21/21/7863/s1</uri>. Figure S1. Rarefaction curves of bacterial 16S rRNA gene sequences obtained from (A) control and (B) CUMS mice. These curves were used to evaluate if further sequencing would likely detect additional taxa. Datasets S1: Statistical analysis of intracaecal microbiomes comparing relative abundance using the nonparametric Mann-Whitney U test at the phylum level (Dataset S1_a), at the class level (Dataset S1_b), at the order level (Dataset S1_c), at the family level (Dataset S1_d), at the genus level genera (Dataset S1_e) and at the species level (Dataset S1_f).</p>
+                <supplementary-material content-type="local-data" id="ijms-21-07863-s001">
+                  <media xlink:href="ijms-21-07863-s001.7z">
+                    <caption>
+                      <p>Click here for additional data file.</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>C.A. conceived, designed and performed experiments, analyzed data. L.C. assisted with and performed experiments, and analyzed data. M.W. designed and performed statistical analysis. A.L. assisted with experimental design and analysis. L.L. designed animal experimentation and supervised mice treatments. C.L.-F. performed experiments and analyzed data. N.A. assisted with statistical design. C.C.-G. analyzed data, and wrote the manuscript. J.-P.F. assisted with experimental conceiving, design and analysis. All authors read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This work was supported by the French Space Agency (CNES) (grants DAR 4800000894, 4800000950 and 4800001008), the French Ministry of Higher Education and Research, the Université de Lorraine, the CPER IT2MP (Contrat Plan État Région, Innovations Technologiques, Modélisation &amp; Médecine Personnalisée) and FEDER (Fonds européen de développement régional), and the Institut National de la Santé et de la Recherche Médicale.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <glossary>
+              <title>Abbreviations</title>
+              <array orientation="portrait">
+                <tbody>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">CMS</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">chronic mild stress</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">CUMS</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">chronic unpredictable mild stress</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">GM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">gut microbiota</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">HPA</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">hypothalamic-pituitary-adrenal</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">IBD</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">intestinal bowel disease</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">LDA</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">linear discriminant analysis</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">OTUs</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">operational taxonomic units</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">PCA</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">principal component analysis</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">TCR</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">T cell receptor</td>
+                  </tr>
+                </tbody>
+              </array>
+            </glossary>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-21-07863">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lavelle</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffmann</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pham</surname>
+                      <given-names>H.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Langella</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guédon</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sokol</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Baseline microbiota composition modulates antibiotic-mediated effects on the gut microbiota and host</article-title>
+                  <source>Microbiome</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <elocation-id>111</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/s40168-019-0725-3</pub-id>
+                  <?supplied-pmid 31375137?>
+                  <pub-id pub-id-type="pmid">31375137</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-21-07863">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rea</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinan</surname>
+                      <given-names>T.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cryan</surname>
+                      <given-names>J.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gut Microbiota: A Perspective for Psychiatrists</article-title>
+                  <source>Neuropsychobiology</source>
+                  <year>2020</year>
+                  <volume>79</volume>
+                  <fpage>50</fpage>
+                  <lpage>62</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000504495</pub-id>
+                  <?supplied-pmid 31726457?>
+                  <pub-id pub-id-type="pmid">31726457</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-21-07863">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alauzet</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cunat</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wack</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozniewski</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Busby</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Agrinier</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cailliez-Grimal</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hypergravity disrupts murine intestinal microbiota</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <elocation-id>9410</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-45153-8</pub-id>
+                  <?supplied-pmid 31253829?>
+                  <pub-id pub-id-type="pmid">31253829</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-21-07863">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coe</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Maternal separation disrupts the integrity of the intestinal microflora in infant rhesus monkeys</article-title>
+                  <source>Dev. Psychobiol.</source>
+                  <year>1999</year>
+                  <volume>35</volume>
+                  <fpage>146</fpage>
+                  <lpage>155</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1098-2302(199909)35:2&lt;146::AID-DEV7&gt;3.0.CO;2-G</pub-id>
+                  <pub-id pub-id-type="pmid">10461128</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-21-07863">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galley</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackos</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Varaljay</surname>
+                      <given-names>V.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stressor exposure has prolonged effects on colonic microbial community structure in <italic>Citrobacter rodentium</italic>-challenged mice</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <elocation-id>45012</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/srep45012</pub-id>
+                  <pub-id pub-id-type="pmid">28344333</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-21-07863">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Geng</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Gut Microbiota Are Associated With Psychological Stress-Induced Defections in Intestinal and Blood–Brain Barriers</article-title>
+                  <source>Front. Microbiol.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <elocation-id>3067</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fmicb.2019.03067</pub-id>
+                  <pub-id pub-id-type="pmid">32010111</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-21-07863">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>L.-X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>D.-Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>D.-Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Y.-X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y.-F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shao</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>F.-F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>W.-R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Alterations and correlations of the gut microbiome, metabolism and immunity in patients with primary biliary cirrhosis: Gut microbiome in PBC patients</article-title>
+                  <source>Environ. Microbiol.</source>
+                  <year>2016</year>
+                  <volume>18</volume>
+                  <fpage>2272</fpage>
+                  <lpage>2286</lpage>
+                  <pub-id pub-id-type="doi">10.1111/1462-2920.13401</pub-id>
+                  <pub-id pub-id-type="pmid">27243236</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-21-07863">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Michels</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van de Wiele</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fouhy</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Mahony</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clarke</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Keane</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gut microbiome patterns depending on children’s psychosocial stress: Reports versus biomarkers</article-title>
+                  <source>Brain. Behav. Immun.</source>
+                  <year>2019</year>
+                  <volume>80</volume>
+                  <fpage>751</fpage>
+                  <lpage>762</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2019.05.024</pub-id>
+                  <?supplied-pmid 31112792?>
+                  <pub-id pub-id-type="pmid">31112792</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-21-07863">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tao</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of traditional Chinese medicine treatment on chronic unpredictable mild stress-induced depression-like behaviors: Intestinal microbiota and gut microbiome function</article-title>
+                  <source>Food Funct.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>5886</fpage>
+                  <lpage>5897</lpage>
+                  <pub-id pub-id-type="doi">10.1039/C9FO00399A</pub-id>
+                  <pub-id pub-id-type="pmid">31464319</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-21-07863">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dinan</surname>
+                      <given-names>T.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cryan</surname>
+                      <given-names>J.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Microbiome-Gut-Brain Axis in Health and Disease</article-title>
+                  <source>Gastroenterol. Clin. North. Am.</source>
+                  <year>2017</year>
+                  <volume>46</volume>
+                  <fpage>77</fpage>
+                  <lpage>89</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.gtc.2016.09.007</pub-id>
+                  <pub-id pub-id-type="pmid">28164854</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-21-07863">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jianguo</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xueyang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Changxin</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xuemei</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Altered gut metabolome contributes to depression-like behaviors in rats exposed to chronic unpredictable mild stress</article-title>
+                  <source>Transl. Psychiatry</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <elocation-id>40</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/s41398-019-0391-z</pub-id>
+                  <?supplied-pmid 30696813?>
+                  <pub-id pub-id-type="pmid">30696813</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-21-07863">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mackner</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hatzakis</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davies</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maltz</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fecal microbiota and metabolites are distinct in a pilot study of pediatric Crohn’s disease patients with higher levels of perceived stress</article-title>
+                  <source>Psychoneuroendocrinology</source>
+                  <year>2020</year>
+                  <volume>111</volume>
+                  <elocation-id>104469</elocation-id>
+                  <pub-id pub-id-type="doi">10.1016/j.psyneuen.2019.104469</pub-id>
+                  <?supplied-pmid 31654986?>
+                  <pub-id pub-id-type="pmid">31654986</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-21-07863">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress Triggers Flare of Inflammatory Bowel Disease in Children and Adults</article-title>
+                  <source>Front. Pediatrics</source>
+                  <year>2019</year>
+                  <volume>7</volume>
+                  <elocation-id>432</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fped.2019.00432</pub-id>
+                  <?supplied-pmid 31709203?>
+                  <pub-id pub-id-type="pmid">31709203</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-21-07863">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frankiensztajn</surname>
+                      <given-names>L.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Elliott</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koren</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The microbiota and the hypothalamus-pituitary-adrenocortical (HPA) axis, implications for anxiety and stress disorders</article-title>
+                  <source>Curr. Opin. Neurobiol.</source>
+                  <year>2020</year>
+                  <volume>62</volume>
+                  <fpage>76</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.conb.2019.12.003</pub-id>
+                  <?supplied-pmid 31972462?>
+                  <pub-id pub-id-type="pmid">31972462</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-21-07863">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cui</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fluoxetine ameliorates dysbiosis in a depression model induced by chronic unpredicted mild stress in mice</article-title>
+                  <source>Int. J. Med. Sci.</source>
+                  <year>2019</year>
+                  <volume>16</volume>
+                  <fpage>1260</fpage>
+                  <lpage>1270</lpage>
+                  <pub-id pub-id-type="doi">10.7150/ijms.37322</pub-id>
+                  <?supplied-pmid 31588192?>
+                  <pub-id pub-id-type="pmid">31588192</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-21-07863">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowd</surname>
+                      <given-names>S.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galley</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hufnagle</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>R.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyte</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exposure to a social stressor alters the structure of the intestinal microbiota: Implications for stressor-induced immunomodulation</article-title>
+                  <source>Brain. Behav. Immun.</source>
+                  <year>2011</year>
+                  <volume>25</volume>
+                  <fpage>397</fpage>
+                  <lpage>407</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2010.10.023</pub-id>
+                  <?supplied-pmid 21040780?>
+                  <pub-id pub-id-type="pmid">21040780</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-21-07863">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lyte</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vulchanova</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress at the intestinal surface: <italic>Catecholamines</italic> and <italic>mucosa-bacteria</italic> interactions</article-title>
+                  <source>Cell Tissue Res.</source>
+                  <year>2011</year>
+                  <volume>343</volume>
+                  <fpage>23</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00441-010-1050-0</pub-id>
+                  <pub-id pub-id-type="pmid">20941511</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-21-07863">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boyanova</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress hormone epinephrine (adrenaline) and norepinephrine (noradrenaline) effects on the anaerobic bacteria</article-title>
+                  <source>Anaerobe</source>
+                  <year>2017</year>
+                  <volume>44</volume>
+                  <fpage>13</fpage>
+                  <lpage>19</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.anaerobe.2017.01.003</pub-id>
+                  <pub-id pub-id-type="pmid">28077337</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-21-07863">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jiang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Shifts in the gut microbiota of mice in response to dexamethasone administration</article-title>
+                  <source>Int. Microbiol.</source>
+                  <year>2020</year>
+                  <volume>23</volume>
+                  <fpage>565</fpage>
+                  <lpage>573</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10123-020-00129-x</pub-id>
+                  <pub-id pub-id-type="pmid">32356148</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-21-07863">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Quervain</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Montano</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Praun</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roozendaal</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schelling</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiel</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ullrich</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Towards human exploration of space: The THESEUS review series on immunology research priorities</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <elocation-id>16040</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.40</pub-id>
+                  <pub-id pub-id-type="pmid">28725745</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-21-07863">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choukèr</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshall</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ponomarev</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Whitmire</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions</article-title>
+                  <source>Front. Immunol.</source>
+                  <year>2018</year>
+                  <volume>9</volume>
+                  <elocation-id>1437</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fimmu.2018.01437</pub-id>
+                  <?supplied-pmid 30018614?>
+                  <pub-id pub-id-type="pmid">30018614</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-21-07863">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Makedonas</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choukèr</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marshall</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orange</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aunon-Chancellor</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stowe</surname>
+                      <given-names>R.P.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Specific Immunologic Countermeasure Protocol for Deep-Space Exploration Missions</article-title>
+                  <source>Front. Immunol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <elocation-id>2407</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fimmu.2019.02407</pub-id>
+                  <?supplied-pmid 31681296?>
+                  <pub-id pub-id-type="pmid">31681296</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-21-07863">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Voorhies</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mark Ott</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feiveson</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oubre</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Torralba</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moncera</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <elocation-id>9911</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-46303-8</pub-id>
+                  <?supplied-pmid 31289321?>
+                  <pub-id pub-id-type="pmid">31289321</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-21-07863">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impact of space flight on bacterial virulence and antibiotic susceptibility</article-title>
+                  <source>Infect. Drug Resist.</source>
+                  <year>2015</year>
+                  <volume>8</volume>
+                  <fpage>249</fpage>
+                  <lpage>262</lpage>
+                  <pub-id pub-id-type="doi">10.2147/IDR.S67275</pub-id>
+                  <pub-id pub-id-type="pmid">26251622</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-21-07863">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saei</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barzegari</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The microbiome: The forgotten organ of the astronaut’s body—Probiotics beyond terrestrial limits</article-title>
+                  <source>Future Microbiol.</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <fpage>1037</fpage>
+                  <lpage>1046</lpage>
+                  <pub-id pub-id-type="doi">10.2217/fmb.12.82</pub-id>
+                  <pub-id pub-id-type="pmid">22953705</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-21-07863">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gaignier</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Legrand-Frossi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stragier</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mathiot</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Merlin</surname>
+                      <given-names>J.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen-Salmon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lanfumey</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Model of Chronic Exposure to Unpredictable Mild Socio-Environmental Stressors Replicates Some Spaceflight-Induced Immunological Changes</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2018</year>
+                  <volume>9</volume>
+                  <elocation-id>514</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2018.00514</pub-id>
+                  <pub-id pub-id-type="pmid">29867558</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-21-07863">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Blanchard</surname>
+                      <given-names>E.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lackner</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaccard</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowell</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carosella</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Powell</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sanders</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krasner</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuhn</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of stress in symptom exacerbation among IBS patients</article-title>
+                  <source>J. Psychosom. Res.</source>
+                  <year>2008</year>
+                  <volume>64</volume>
+                  <fpage>119</fpage>
+                  <lpage>128</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jpsychores.2007.10.010</pub-id>
+                  <pub-id pub-id-type="pmid">18222125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-21-07863">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Chronic Unpredictable Mild Stress in Rats Induces Colonic Inflammation</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <elocation-id>1228</elocation-id>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.01228</pub-id>
+                  <pub-id pub-id-type="pmid">31616319</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-21-07863">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jin</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intestinal microbiota contributes to colonic epithelial changes in simulated microgravity mouse model</article-title>
+                  <source>FASEB J.</source>
+                  <year>2017</year>
+                  <volume>31</volume>
+                  <fpage>3695</fpage>
+                  <lpage>3709</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.201700034R</pub-id>
+                  <pub-id pub-id-type="pmid">28495755</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-21-07863">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Antoniuk</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bijata</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ponimaskin</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wlodarczyk</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chronic unpredictable mild stress for modeling depression in rodents: Meta-analysis of model reliability</article-title>
+                  <source>Neurosci. Biobehav. Rev.</source>
+                  <year>2019</year>
+                  <volume>99</volume>
+                  <fpage>101</fpage>
+                  <lpage>116</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neubiorev.2018.12.002</pub-id>
+                  <pub-id pub-id-type="pmid">30529362</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-21-07863">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Gut Microbiome Modulates the Changes in Liver Metabolism and in Inflammatory Processes in the Brain of Chronic Unpredictable Mild Stress Rats</article-title>
+                  <source>Oxid. Med. Cell. Longev.</source>
+                  <year>2019</year>
+                  <volume>2019</volume>
+                  <fpage>1</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.1155/2019/7902874</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-21-07863">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Siopi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chevalier</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katsimpardi</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saha</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bigot</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moigneu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eberl</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lledo</surname>
+                      <given-names>P.-M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in Gut Microbiota by Chronic Stress Impair the Efficacy of Fluoxetine</article-title>
+                  <source>Cell Rep.</source>
+                  <year>2020</year>
+                  <volume>30</volume>
+                  <fpage>3682</fpage>
+                  <lpage>3690</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.celrep.2020.02.099</pub-id>
+                  <?supplied-pmid 32187541?>
+                  <pub-id pub-id-type="pmid">32187541</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-21-07863">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dutta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sengupta</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Men and mice: Relating their ages</article-title>
+                  <source>Life Sci.</source>
+                  <year>2016</year>
+                  <volume>152</volume>
+                  <fpage>244</fpage>
+                  <lpage>248</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.lfs.2015.10.025</pub-id>
+                  <pub-id pub-id-type="pmid">26596563</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-21-07863">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>M.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dowd</surname>
+                      <given-names>S.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parry</surname>
+                      <given-names>N.M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galley</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schauer</surname>
+                      <given-names>D.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lyte</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stressor Exposure Disrupts Commensal Microbial Populations in the Intestines and Leads to Increased Colonization by <italic>Citrobacter rodentium</italic></article-title>
+                  <source>Infect. Immun.</source>
+                  <year>2010</year>
+                  <volume>78</volume>
+                  <fpage>1509</fpage>
+                  <lpage>1519</lpage>
+                  <pub-id pub-id-type="doi">10.1128/IAI.00862-09</pub-id>
+                  <?supplied-pmid 20145094?>
+                  <pub-id pub-id-type="pmid">20145094</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-21-07863">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rincel</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aubert</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chevalier</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grohard</surname>
+                      <given-names>P.-A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Basso</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monchaux de Oliveira</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Helbling</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lévy</surname>
+                      <given-names>É.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chevalier</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leboyer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Multi-hit early life adversity affects gut microbiota, brain and behavior in a sex-dependent manner</article-title>
+                  <source>Brain. Behav. Immun.</source>
+                  <year>2019</year>
+                  <volume>80</volume>
+                  <fpage>179</fpage>
+                  <lpage>192</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbi.2019.03.006</pub-id>
+                  <?supplied-pmid 30872090?>
+                  <pub-id pub-id-type="pmid">30872090</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-21-07863">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>G.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chassard</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hennet</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Selective proliferation of intestinal <italic>Barnesiella</italic> under fucosyllactose supplementation in mice</article-title>
+                  <source>Br. J. Nutr.</source>
+                  <year>2014</year>
+                  <volume>111</volume>
+                  <fpage>1602</fpage>
+                  <lpage>1610</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0007114513004200</pub-id>
+                  <?supplied-pmid 24411010?>
+                  <pub-id pub-id-type="pmid">24411010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-21-07863">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Daillère</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vétizou</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waldschmitt</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamazaki</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Isnard</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poirier-Colame</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Duong</surname>
+                      <given-names>C.P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Flament</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lepage</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roberti</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title><italic>Enterococcus hirae</italic> and <italic>Barnesiella intestinihominis</italic> Facilitate Cyclophosphamide-Induced Therapeutic Immunomodulatory Effects</article-title>
+                  <source>Immunity</source>
+                  <year>2016</year>
+                  <volume>45</volume>
+                  <fpage>931</fpage>
+                  <lpage>943</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.immuni.2016.09.009</pub-id>
+                  <pub-id pub-id-type="pmid">27717798</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-21-07863">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ubeda</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bucci</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caballero</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Djukovic</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Toussaint</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Equinda</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipuma</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ling</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gobourne</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>No</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Intestinal Microbiota Containing <italic>Barnesiella</italic> Species Cures Vancomycin-Resistant <italic>Enterococcus faecium</italic> Colonization</article-title>
+                  <source>Infect. Immun.</source>
+                  <year>2013</year>
+                  <volume>81</volume>
+                  <fpage>965</fpage>
+                  <lpage>973</lpage>
+                  <pub-id pub-id-type="doi">10.1128/IAI.01197-12</pub-id>
+                  <?supplied-pmid 23319552?>
+                  <pub-id pub-id-type="pmid">23319552</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-21-07863">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guéguinou</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bojados</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jamon</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Derradji</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baatout</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tschirhart</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Legrand-Frossi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress response and humoral immune system alterations related to chronic hypergravity in mice</article-title>
+                  <source>Psychoneuroendocrinology</source>
+                  <year>2012</year>
+                  <volume>37</volume>
+                  <fpage>137</fpage>
+                  <lpage>147</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.psyneuen.2011.05.015</pub-id>
+                  <pub-id pub-id-type="pmid">21724335</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-ijms-21-07863">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Silberman</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wald</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Genaro</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of chronic mild stress on lymphocyte proliferative response. Participation of serum thyroid hormones and corticosterone</article-title>
+                  <source>Int. Immunopharmacol.</source>
+                  <year>2002</year>
+                  <volume>2</volume>
+                  <fpage>487</fpage>
+                  <lpage>497</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1567-5769(01)00190-4</pub-id>
+                  <pub-id pub-id-type="pmid">11962728</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-ijms-21-07863">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fonte</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaminski</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vanet</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lanfumey</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen-Salmon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ghislin</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Socioenvironmental stressors encountered during spaceflight partially affect the murine TCR-β repertoire and increase its self-reactivity</article-title>
+                  <source>FASEB J.</source>
+                  <year>2018</year>
+                  <volume>33</volume>
+                  <fpage>896</fpage>
+                  <lpage>908</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.201800969R</pub-id>
+                  <?supplied-pmid 30052484?>
+                  <pub-id pub-id-type="pmid">30052484</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-ijms-21-07863">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghislin</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ouzren-Zarhloul</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaminski</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hypergravity exposure during gestation modifies the TCRβ repertoire of newborn mice</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <elocation-id>9318</elocation-id>
+                  <pub-id pub-id-type="doi">10.1038/srep09318</pub-id>
+                  <?supplied-pmid 25792033?>
+                  <pub-id pub-id-type="pmid">25792033</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-ijms-21-07863">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glaser</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiecolt-Glaser</surname>
+                      <given-names>J.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress-induced immune dysfunction: Implications for health</article-title>
+                  <source>Nat. Rev. Immunol.</source>
+                  <year>2005</year>
+                  <volume>5</volume>
+                  <fpage>243</fpage>
+                  <lpage>251</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nri1571</pub-id>
+                  <?supplied-pmid 15738954?>
+                  <pub-id pub-id-type="pmid">15738954</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-ijms-21-07863">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pardon</surname>
+                      <given-names>M.-C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gérardin</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Joubert</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pérez-Diaz</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cohen-Salmon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Influence of prepartum chronic ultramild stress on maternal pup care behavior in mice</article-title>
+                  <source>Biol. Psychiatry</source>
+                  <year>2000</year>
+                  <volume>47</volume>
+                  <fpage>858</fpage>
+                  <lpage>863</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0006-3223(99)00253-X</pub-id>
+                  <pub-id pub-id-type="pmid">10807958</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-ijms-21-07863">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ferrand</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patron</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Legrand-Frossi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frippiat</surname>
+                      <given-names>J.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Merlin</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alauzet</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lozniewski</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of seven methods for extraction of bacterial DNA from fecal and cecal samples of mice</article-title>
+                  <source>J. Microbiol. Methods</source>
+                  <year>2014</year>
+                  <volume>105</volume>
+                  <fpage>180</fpage>
+                  <lpage>185</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mimet.2014.07.029</pub-id>
+                  <pub-id pub-id-type="pmid">25093756</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-ijms-21-07863">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klindworth</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pruesse</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schweer</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peplies</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quast</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Horn</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glockner</surname>
+                      <given-names>F.O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2013</year>
+                  <volume>41</volume>
+                  <elocation-id>e1</elocation-id>
+                  <pub-id pub-id-type="doi">10.1093/nar/gks808</pub-id>
+                  <pub-id pub-id-type="pmid">22933715</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47-ijms-21-07863">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huson</surname>
+                      <given-names>D.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beier</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Flade</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Górska</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Hadidi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitra</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruscheweyh</surname>
+                      <given-names>H.-J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tappu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>MEGAN Community Edition—Interactive Exploration and Analysis of Large-Scale Microbiome Sequencing Data</article-title>
+                  <source>PLoS Comput. Biol.</source>
+                  <year>2016</year>
+                  <volume>12</volume>
+                  <elocation-id>e1004957</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pcbi.1004957</pub-id>
+                  <pub-id pub-id-type="pmid">27327495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48-ijms-21-07863">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cole</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fish</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chai</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>McGarrell</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>C.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Porras-Alfaro</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuske</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tiedje</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ribosomal Database Project: Data and tools for high throughput rRNA analysis</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2014</year>
+                  <volume>42</volume>
+                  <fpage>D633</fpage>
+                  <lpage>D642</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkt1244</pub-id>
+                  <pub-id pub-id-type="pmid">24288368</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B49-ijms-21-07863">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benjamini</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hochberg</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing</article-title>
+                  <source>J. R. Stat. Soc. Ser. B Methodol.</source>
+                  <year>1995</year>
+                  <volume>57</volume>
+                  <fpage>289</fpage>
+                  <lpage>300</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.2517-6161.1995.tb02031.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B50-ijms-21-07863">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A new method for non-parametric multivariate analysis of variance</article-title>
+                  <source>Austral. Ecol.</source>
+                  <year>2001</year>
+                  <volume>26</volume>
+                  <fpage>32</fpage>
+                  <lpage>46</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B51-ijms-21-07863">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellingsen</surname>
+                      <given-names>K.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>B.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Multivariate dispersion as a measure of beta diversity</article-title>
+                  <source>Ecol. Lett.</source>
+                  <year>2006</year>
+                  <volume>9</volume>
+                  <fpage>683</fpage>
+                  <lpage>693</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1461-0248.2006.00926.x</pub-id>
+                  <?supplied-pmid 16706913?>
+                  <pub-id pub-id-type="pmid">16706913</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijms-21-07863-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Stress status of mice. (<bold>a</bold>) Chronic Unpredictable Mild Stress (CUMS) protocol, (<bold>b</bold>) body weights, (<bold>c</bold>) serum corticosterone concentrations, (<bold>d</bold>) thymus weights normalized to body weight in control and CUMS mice. No statistically significant differences were found using the Mann–Whitney U test.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-07863-g001"/>
+            </fig>
+            <fig id="ijms-21-07863-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Comparison of microbiota diversity between CUMS and control mice. (<bold>a</bold>) Total bacterial load quantification by qPCR corresponding to the total number of 16S rRNA gene copies per mg of intracaecal content in mice subjected to CUMS (<italic>n</italic> = 10) and in control mice (<italic>n</italic> = 7) (<italic>p</italic> = 0.19). (<bold>b</bold>) α-diversity indexes: Observed OTUs (richness, <italic>p</italic> = 0.73), Evenness (<italic>p</italic> = 0.52), Shannon index (<italic>p</italic> = 0.84), Simpson index of diversity (<italic>p</italic> = 0.69), and Simpson’s reciprocal index (<italic>p</italic> = 0.81). Statistical analyses were done using the Mann-Whitney U test. The upper and lower ranges of the box represent the 75% and 25% quartiles, respectively. Error bars reflect standard error of the mean. (<bold>c</bold>) PCA of microbiomes from CUMS vs. control mice (<italic>Pr(&gt;F)</italic> = 0.029). The variance explained by each of the main two dimensions of the PCA is indicated in parentheses on the axes.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-07863-g002"/>
+            </fig>
+            <fig id="ijms-21-07863-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>Differential abundance of bacterial taxa. (<bold>a</bold>) Mean relative abundance (%) of bacterial phyla and (<bold>b</bold>) <italic>Firmicutes</italic>/<italic>Bacteroidetes</italic> ratio in the caecal content of mice subjected to 21 days of CUMS compared to controls. Statistical analyses were done using the Mann-Whitney U test. * <italic>p</italic> &lt; 0.01; ** <italic>p</italic> &lt; 0.001. (<bold>c</bold>) Differentially abundant main genera in control mice (green) and CUMS mice (red) identified using Linear Discriminant Analysis (LDA) Effect Size (LEfSe) analysis. (<bold>d</bold>) Schematic representation of <italic>core microbiome</italic> at the species level. Green circle: number of species shared in all control mice. Red circle: number of species shared in all CUMS mice. Intersection and numbers inscribed within refer to shared species and in parentheses shared with all mice.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-07863-g003"/>
+            </fig>
+            <table-wrap id="ijms-21-07863-t001" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">ijms-21-07863-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Comparison of socio-environmental stressors encountered during space missions with those delivered using the CUMS model, and limitations of this model (adapted from [<xref rid="B26-ijms-21-07863" ref-type="bibr">26</xref>]).</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Socio-Environmental Stressors Applied in the CUMS Model (Details in <xref ref-type="fig" rid="ijms-21-07863-f001">Figure 1</xref>a)</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Socio-Environmental Stressors Encountered during Spaceflights</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Limitations of CUMS Model</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Mice confined in a small cage during 1 or 2 h.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Confinement throughout the mission.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Mice confined during short periods (ethical point of view) /astronauts confined for several months in the ISS.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Isolation of mice (sociable animals) during the whole CUMS procedure.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Isolation from friends and family.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Reversed light/dark cycle during week-end.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Disrupted circadian rhythm.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Astronauts observe 16 sunrises and sunsets during a 24 h period.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Pair housing during 2 h.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Crew tension and other interpersonal issues.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Pair housing is of a limited duration.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cage tilt for 1, 2 or 15 h.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Perturbation of spatial references.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cage tilt is of a limited duration.</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Period with difficult access to food, without a reduction in the daily food ration.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Lower dietary intake despite enough available food, changes in eating habits and rituals.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Period in a soiled cage (mice do not like wet litter).</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Uncomfortable living conditions.</td>
+                    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

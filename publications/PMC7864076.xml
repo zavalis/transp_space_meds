@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:56:15Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7864076" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7864076</identifier>
+        <datestamp>2021-06-10</datestamp>
+        <setSpec>jbc</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">J Biol Chem</journal-id>
+              <journal-id journal-id-type="iso-abbrev">J Biol Chem</journal-id>
+              <journal-title-group>
+                <journal-title>The Journal of Biological Chemistry</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0021-9258</issn>
+              <issn pub-type="epub">1083-351X</issn>
+              <publisher>
+                <publisher-name>American Society for Biochemistry and Molecular Biology</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7864076</article-id>
+              <article-id pub-id-type="pmcid">PMC7864076</article-id>
+              <article-id pub-id-type="pmc-uid">7864076</article-id>
+              <article-id pub-id-type="pmid">32989050</article-id>
+              <article-id pub-id-type="pii">S0021-9258(17)50496-2</article-id>
+              <article-id pub-id-type="doi">10.1074/jbc.RA119.011890</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Molecular Bases of Disease</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Calpain activation mediates microgravity-induced myocardial abnormalities in mice via p38 and ERK1/2 MAPK pathways</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au166">
+                  <name>
+                    <surname>Liang</surname>
+                    <given-names>Liwen</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="FN1" ref-type="fn">‡</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au167">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Huili</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="FN1" ref-type="fn">‡</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au168">
+                  <name>
+                    <surname>Cao</surname>
+                    <given-names>Ting</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="FN1" ref-type="fn">‡</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au169">
+                  <name>
+                    <surname>Qu</surname>
+                    <given-names>Lina</given-names>
+                  </name>
+                  <email>linaqu@263.net</email>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                  <xref rid="cor1" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au170">
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>Lulu</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au171">
+                  <name>
+                    <surname>Fan</surname>
+                    <given-names>Guo-Chang</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au172">
+                  <name>
+                    <surname>Greer</surname>
+                    <given-names>Peter A.</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">5</xref>
+                  <xref rid="aff6" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au173">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Jianmin</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au174">
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>Douglas L.</given-names>
+                  </name>
+                  <xref rid="aff8" ref-type="aff">8</xref>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au175">
+                  <name>
+                    <surname>Peng</surname>
+                    <given-names>Tianqing</given-names>
+                  </name>
+                  <email>tqpeng@suda.edu.cn</email>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                  <xref rid="aff9" ref-type="aff">9</xref>
+                  <xref rid="aff10" ref-type="aff">10</xref>
+                  <xref rid="cor1" ref-type="corresp">*</xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Institutes of Biology and Medical Sciences, Soochow University, Suzhou, China</aff>
+                <aff id="aff2"><label>2</label>Department of Pathology and Laboratory Medicine, Western University, London, Ontario, Canada</aff>
+                <aff id="aff3"><label>3</label>State Key Laboratory of Space Medicine Fundamentals and Application, China Astronaut Research and Training Center, Beijing, China</aff>
+                <aff id="aff4"><label>4</label>Department of Pharmacology and Systems Physiology, University of Cincinnati College of Medicine, Cincinnati, Ohio, USA</aff>
+                <aff id="aff5"><label>5</label>Division of Cancer Biology and Genetics, Queen's University Cancer Research Institute, Queen's University, Kingston, Ontario, Canada</aff>
+                <aff id="aff6"><label>6</label>Department of Pathology and Molecular Medicine, Queen's University, Kingston, Ontario, Canada</aff>
+                <aff id="aff7"><label>7</label>Department of Pathology, First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China</aff>
+                <aff id="aff8"><label>8</label>Department of Physiology and Pharmacology, Western University, London, Ontario, Canada</aff>
+                <aff id="aff9"><label>9</label>Lawson Health Research Institute of London Health Sciences Centre, London, Ontario, Canada</aff>
+                <aff id="aff10"><label>10</label>Department of Medicine, Western University, London, Ontario, Canada</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>*</label>For correspondence: Tianqing Peng; Lina Qu <email>linaqu@263.net</email><email>tqpeng@suda.edu.cn</email></corresp>
+                <fn id="FN1">
+                  <label>‡</label>
+                  <p id="cenpara40">These authors contributed equally to this work.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="collection">
+                <day>04</day>
+                <month>12</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>1</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>295</volume>
+              <issue>49</issue>
+              <fpage>16840</fpage>
+              <lpage>16851</lpage>
+              <history>
+                <date date-type="received">
+                  <day>12</day>
+                  <month>11</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>22</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 © 2020 Liang et al.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+                </license>
+              </permissions>
+              <abstract id="ceab10">
+                <p>The human cardiovascular system has adapted to function optimally in Earth's 1G gravity, and microgravity conditions cause myocardial abnormalities, including atrophy and dysfunction. However, the underlying mechanisms linking microgravity and cardiac anomalies are incompletely understood. In this study, we investigated whether and how calpain activation promotes myocardial abnormalities under simulated microgravity conditions. Simulated microgravity was induced by tail suspension in mice with cardiomyocyte-specific deletion of <italic>Capns1</italic>, which disrupts activity and stability of calpain-1 and calpain-2, and their WT littermates. Tail suspension time-dependently reduced cardiomyocyte size, heart weight, and myocardial function in WT mice, and these changes were accompanied by calpain activation, NADPH oxidase activation, and oxidative stress in heart tissues. The effects of tail suspension were attenuated by deletion of <italic>Capns1</italic>. Notably, the protective effects of <italic>Capns1</italic> deletion were associated with the prevention of phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> and attenuation of ERK1/2 and p38 activation in hearts of tail-suspended mice. Using a rotary cell culture system, we simulated microgravity in cultured neonatal mouse cardiomyocytes and observed decreased total protein/DNA ratio and induced calpain activation, phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic>, and activation of ERK1/2 and p38, all of which were prevented by calpain inhibitor-III. Furthermore, inhibition of ERK1/2 or p38 attenuated phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cardiomyocytes under simulated microgravity. This study demonstrates for the first time that calpain promotes NADPH oxidase activation and myocardial abnormalities under microgravity by facilitating p47<italic><sup>phox</sup></italic> phosphorylation via ERK1/2 and p38 pathways. Thus, calpain inhibition may be an effective therapeutic approach to reduce microgravity-induced myocardial abnormalities.</p>
+              </abstract>
+              <kwd-group id="cekeyws10">
+                <kwd>calpain</kwd>
+                <kwd>ERK1/2</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>myocardial abnormalities</kwd>
+                <kwd>NADPH oxidase</kwd>
+                <kwd>p38</kwd>
+                <kwd>cardiomyocyte</kwd>
+                <kwd>mitogen-activated protein kinase (MAPK)</kwd>
+                <kwd>heart</kwd>
+              </kwd-group>
+            </article-meta>
+            <notes>
+              <p id="mi0005">Edited by Roger J. Colbran</p>
+            </notes>
+          </front>
+          <body>
+            <p id="para120">Spaceflight or microgravity conditions are associated with myocardial atrophy, which contributes to the functional depression of the heart (<xref rid="bib1" ref-type="bibr">1</xref>, <xref rid="bib2" ref-type="bibr">2</xref>, <xref rid="bib3" ref-type="bibr">3</xref>). Depressed myocardial function is an important factor leading to post-flight orthostatic intolerance (<xref rid="bib4" ref-type="bibr">4</xref>, <xref rid="bib5" ref-type="bibr">5</xref>). However, the exact mechanisms that govern the regulation of myocardial atrophy in microgravity are incompletely understood.</p>
+            <p id="para130">Protein degradation systems play important roles in muscle atrophy (<xref rid="bib6" ref-type="bibr">6</xref>). There are three major protein degradation systems in the cardiovascular system, including the calpain system, autophagy, and the ubiquitin proteasome system (<xref rid="bib7" ref-type="bibr">7</xref>). Previous studies investigated the muscle RING finger protein-1 (MuRF1), an E3 ubiquitin ligase, and atrogin-1, a striated muscle-specific ubiquitin ligase, in the development of cardiac muscle atrophy under certain conditions (<xref rid="bib8" ref-type="bibr">8</xref>, <xref rid="bib9" ref-type="bibr">9</xref>, <xref rid="bib10" ref-type="bibr">10</xref>). It was reported that autophagy is induced during regression of cardiac hypertrophy by unloading of the heart (<xref rid="bib11" ref-type="bibr">11</xref>, <xref rid="bib12" ref-type="bibr">12</xref>) and in myocardial atrophy induced by tail suspension (<xref rid="bib13" ref-type="bibr">13</xref>), a condition simulating microgravity. Of note, inhibition of autophagy induction reduced myocardial atrophy and dysfunction in tail-suspended rats (<xref rid="bib13" ref-type="bibr">13</xref>), indicating an important role of autophagy in promoting myocardial atrophy. However, little information is available on the role of calpain in myocardial atrophy under microgravity.</p>
+            <p id="para140">Calpains belong to a family of calcium-dependent proteases with 15 identified isoforms. Two major isoforms of calpain, calpain-1 and calpain-2, are heterodimers consisting of distinct large 80-kDa catalytic subunits encoded by <italic>Capn1</italic> and <italic>Capn2</italic>, respectively, and a common small 28-kDa regulatory subunit encoded by <italic>Capns1</italic>. The regulatory subunit is indispensable for calpain-1 and calpain-2 activities, and thus, deficiency of <italic>Capns1</italic> disrupts calpain-1 and calpain-2 (<xref rid="bib14" ref-type="bibr">14</xref>). Calpains have been implicated in cardiac injury due to a variety of stressors and the progression of heart failure (<xref rid="bib15" ref-type="bibr">15</xref>, <xref rid="bib16" ref-type="bibr">16</xref>, <xref rid="bib17" ref-type="bibr">17</xref>, <xref rid="bib18" ref-type="bibr">18</xref>, <xref rid="bib19" ref-type="bibr">19</xref>, <xref rid="bib20" ref-type="bibr">20</xref>, <xref rid="bib21" ref-type="bibr">21</xref>, <xref rid="bib22" ref-type="bibr">22</xref>, <xref rid="bib23" ref-type="bibr">23</xref>). A previous study demonstrated that mechanical unloading of the heart activated the calpain system and induced myocardial atrophy (<xref rid="bib24" ref-type="bibr">24</xref>). Interestingly, calpain activation was observed in hearts of rats with tail suspension (<xref rid="bib25" ref-type="bibr">25</xref>). These prior studies suggest a possible role of calpain in microgravity-induced myocardial atrophy.</p>
+            <p id="para150">NADPH oxidase-derived ROS contributes to muscle atrophy under various conditions (<xref rid="bib2" ref-type="bibr">2</xref>, <xref rid="bib26" ref-type="bibr">26</xref>). In cardiomyocytes, NOX2-containing NADPH oxidase and NOX4 are two predominant isoforms of NADPH oxidase (<xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib28" ref-type="bibr">28</xref>). The NOX2-containing NADPH oxidase is composed of a membrane-bound complex (NOX2 or gp91<italic><sup>phox</sup></italic> and p22<italic><sup>phox</sup></italic>) and a cytosolic complex (p40<italic><sup>phox</sup></italic>, p47<italic><sup>phox</sup></italic>, p67<italic><sup>phox</sup></italic>, and a small G protein, Rac1). Activation of NADPH oxidase initiates multiple steps, mainly including phosphorylation of cytosolic subunits (<italic>e.g.</italic> p47<italic><sup>phox</sup></italic>), their translocation to the membranes, and the assembly of both cytosolic and membrane-bound complexes (<xref rid="bib27" ref-type="bibr">27</xref>, <xref rid="bib29" ref-type="bibr">29</xref>). p47<italic><sup>phox</sup></italic> has multiple serine phosphorylation sites, among which Ser-345 is located in a mitogen-activated protein kinase (MAPK) consensus sequence that is phosphorylated by p38 and ERK1/2 of the MAPK family (<xref rid="bib29" ref-type="bibr">29</xref>). Phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> causes conformational changes of p47<italic><sup>phox</sup></italic> by binding the proline isomerase Pin1, thereby facilitating its phosphorylation on other sites, leading to full activation of the NADPH oxidase (<xref rid="bib29" ref-type="bibr">29</xref>). We recently reported that selective inhibition of NADPH oxidase preserved cardiomyocyte size and heart mass and improved myocardial function in tail-suspended mice (<xref rid="bib30" ref-type="bibr">30</xref>), underscoring an important role of NADPH oxidase in microgravity-induced myocardial abnormalities. However, it remains unknown how NADPH oxidase activation is modulated in response to microgravity, and it has never been shown whether calpain regulates NADPH oxidase activation under microgravity.</p>
+            <p id="para160">In this study, we investigated whether and how calpain promotes NADPH oxidase activation and oxidative damage, leading to myocardial abnormalities during simulated microgravity.</p>
+            <sec id="cesec10">
+              <title>Results</title>
+              <sec id="cesec20">
+                <title>Tail suspension time-dependently induces calpain activation, reduces cardiomyocyte size and heart weight, and promotes myocardial dysfunction in mice</title>
+                <p id="para170">Tail suspension for 14 and 28 days significantly resulted in lower hind limb muscle mass, confirming its unloading (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>A</italic>). Tail suspension for 14 days resulted in higher levels of calpain activities in WT mouse heart tissues; the levels of calpain activities were even higher in mouse hearts after 28 days of tail suspension (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>B</italic>); however, calpain activities were not increased in <italic>Capns1</italic>-KO mouse hearts after 14 and 28 days of tail suspension (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>B</italic>). These results indicated calpain activation in tail-suspended mouse hearts. This time-dependent activation of calpain negatively correlated with heart weight (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>C</italic> and <xref rid="ecomp10" ref-type="supplementary-material">Table S1</xref>), myocardial function (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>D</italic> and <xref rid="ecomp10" ref-type="supplementary-material">Table S2</xref>), and cardiomyocyte size (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>E</italic>) in tail-suspended mice. Tail suspension for 28 days reduced the mitochondrial DNA copies of NADH dehydrogenase subunit 1 (<italic>Mtnd1)</italic> but not ATP production in WT mouse hearts (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S1, A and B</xref>).<fig id="fig1"><label>Figure 1</label><caption><p><bold>Tail suspension induces calpain activation, myocardial atrophy, and dysfunction in mice.</bold> Adult male mice were subjected to tail suspension for 14 or 28 days. <italic>A</italic>, hind limb muscle mass. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 5–7 in each group. One-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (<italic>F</italic> = 59.01, <italic>p</italic> &lt; 0.0001). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham. <italic>B</italic>, calpain activities in heart tissues from <italic>Capns1</italic>-KO mice and their WT littermates. Data are mean ± S.D., <italic>n</italic> = 6 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (interaction, <italic>F</italic> = 19.27, <italic>p</italic> &lt; 0.0001; row factor, <italic>F</italic> = 33.81, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 56.78, <italic>p</italic> &lt; 0.0001). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> 14 days after tail suspension in WT; #, <italic>p</italic> &lt; 0.05 <italic>versus</italic> 28 days after tail suspension in WT. <italic>C</italic>, the ratio of heart weight relative to tibia length. Data are mean ± S.D., <italic>n</italic> = 5–7 in each group. One-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (<italic>F</italic> = 75.13, <italic>p</italic> &lt; 0.0001). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> 14 days after tail suspension. <italic>D</italic>, fractional shortening (%) was analyzed by echocardiography. Data are mean ± S.D., <italic>n</italic> = 5–7 in each group. One-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (<italic>F</italic> = 32.44, <italic>p</italic> &lt; 0.0001). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> 14 days after tail suspension. <italic>E</italic>, <italic>top</italic>, a representative staining of wheat germ agglutinin in heart tissue sections; <italic>bottom</italic>, quantitation of cardiomyocyte cross-sectional area. Data are mean ± S.D., <italic>n</italic> = 5–6 in each group. One-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (<italic>F</italic> = 100.8, <italic>p</italic> &lt; 0.0001). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> 14 days after tail suspension.</p></caption><graphic xlink:href="gr1"/></fig></p>
+              </sec>
+              <sec id="cesec30">
+                <title>Deletion of Capns1 prevents myocardial abnormalities in tail-suspended mice</title>
+                <p id="para180">28 days after tail suspension, deletion of <italic>Capns1</italic> resulted in greater heart weight (<xref rid="fig2" ref-type="fig">Fig. 2</xref><italic>A</italic>), bigger cardiomyocyte size (<xref rid="fig2" ref-type="fig">Fig. 2</xref><italic>B</italic>), and better myocardial function in <italic>Capns1</italic> mice compared with their WT littermates (<xref rid="fig2" ref-type="fig">Fig. 2</xref><italic>C</italic> and <xref rid="ecomp10" ref-type="supplementary-material">Table S2</xref>). Because deletion of <italic>Capns1</italic> has been shown to disrupt the stability and activities of calpain-1 and calpain-2 in the heart (<xref rid="bib23" ref-type="bibr">23</xref>), these results demonstrate that inhibition of calpain prevents myocardial abnormalities under microgravity. However, cardiomyocyte-specific disruption of calpain did not prevent hind limb muscle mass loss in tail-suspended mice (<xref rid="ecomp10" ref-type="supplementary-material">Table S1</xref>).<fig id="fig2"><label>Figure 2</label><caption><p><bold>Tail suspension induces myocardial atrophy and dysfunction in WT mice, which are attenuated in <italic>Capns1</italic>-knockout mice.</bold> Mice with cardiomyocyte-specific deletion of <italic>Capns1</italic> (<italic>KO</italic>) and their WT littermates (<italic>WT</italic>) were subjected to tail suspension (TS) for 28 days. <italic>A</italic>, the heart weight/tibia length ratio was decreased in tail-suspended WT mice. Deletion of <italic>Capns1</italic> prevented the decrease of the heart weight/tibia length ratio. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 5–7 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (interaction, <italic>F</italic> = 5.749, <italic>p</italic> = 0.0264; row factor, <italic>F</italic> = 19.55, <italic>p</italic> = 0.0003; column factor, <italic>F</italic> = 1.819, <italic>p</italic> = 0.1925). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT. <italic>B</italic>, a 28-day TS resulted in lower cardiomyocyte cross-sectional area in WT mice, which was prevented in KO mice. Data are mean ± S.D., <italic>n</italic> = 4–6 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (interaction, <italic>F</italic> = 8.137, <italic>p</italic> = 0.011; row factor, <italic>F</italic> = 23.48, <italic>p</italic> = 0.0002; column factor, <italic>F</italic> = 1.929, <italic>p</italic> = 0.1828). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT. <italic>C</italic>, TS resulted in myocardial dysfunction in WT mice as determined by lower fractional shortening (%), which was prevented in KO mice. Data are mean ± S.D., <italic>n</italic> = 7 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (interaction, <italic>F</italic> = 18.76, <italic>p</italic> = 0.0002; row factor, <italic>F</italic> = 42.35, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 8.51, <italic>p</italic> = 0.0075). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT.</p></caption><graphic xlink:href="gr2"/></fig></p>
+              </sec>
+              <sec id="cesec40">
+                <title>Deficiency of Capns1 inhibits NADPH oxidase activation and oxidative stress in tail-suspended mouse hearts</title>
+                <p id="para190">Our recent study reported that simulated microgravity induced NADPH oxidase activation in tail-suspended mouse hearts (<xref rid="bib30" ref-type="bibr">30</xref>). As shown in <xref rid="fig3" ref-type="fig">Fig. 3</xref><italic>A</italic>, tail suspension for 14 days resulted in significantly higher protein levels of cytosolic subunits of NADPH oxidase, including Rac1, p47<italic><sup>phox</sup></italic>, and p67<italic><sup>phox</sup></italic> in cell membranes, indicative of NADPH oxidase activation, as activation of NADPH oxidase requires the translocation of its cytosolic subunits to the membranes (<xref rid="bib29" ref-type="bibr">29</xref>), and their levels in cell membranes further increased 28 days after tail suspension, whereas their levels in whole heart lysates were not altered. The activation of NADPH oxidase correlated with calpain activation in tail-suspended mouse hearts in a time-dependent manner (<xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>B</italic>). Notably, deficiency of <italic>Capns1</italic> reduced the protein levels of Rac1, p47<italic><sup>phox</sup></italic>, and p67<italic><sup>phox</sup></italic> in the cell membranes of tail-suspended mouse hearts, indicating that disruption of calpain-1 and calpain-2 prevents NADPH oxidase activation in tail-suspended mouse hearts (<xref rid="fig3" ref-type="fig">Fig. 3</xref>, <italic>B–E</italic>).<fig id="fig3"><label>Figure 3</label><caption><p><bold>Tail suspension induces NADPH oxidase activation in WT mice, which is prevented in <italic>Capns1</italic>-knockout mice.</bold> Mice with cardiomyocyte-specific deletion of <italic>Capns1</italic> (<italic>KO</italic>) and their WT littermates (<italic>WT</italic>) were subjected to TS for 14 or 28 days. Cell membranes were isolated from mouse hearts, and NADPH oxidase activation was determined by measuring p47<italic><sup>phox</sup></italic>, p67<italic><sup>phox</sup></italic>, and Rac1 in cell membrane fractions relative to Na<sup>+</sup>/K<sup>+</sup>-ATPase. <italic>A</italic>, representative Western blots from three different hearts for p47<italic><sup>phox</sup></italic>, p67<italic><sup>phox</sup></italic>, and Rac1 in cell membranes (<italic>top</italic>) and whole heart lysates (<italic>bottom</italic>). <italic>B</italic>, a representative Western blot from two of six different hearts for p47<italic><sup>phox</sup></italic>, p67<italic><sup>phox</sup></italic>, Rac1, and Na<sup>+</sup>/K<sup>+</sup>-ATPase in the membranes. <italic>C–E</italic>, quantitation for p67<italic><sup>phox</sup></italic> (<italic>C</italic>), p47<italic><sup>phox</sup></italic> (<italic>D</italic>), and Rac1 (<italic>E</italic>) relative to Na<sup>+</sup>/K<sup>+</sup>-ATPase. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 6 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>C</italic>, interaction, <italic>F</italic> = 22.28, <italic>p</italic> &lt; 0.0001; row factor, <italic>F</italic> = 3.988, <italic>p</italic> = 0.052; column factor, <italic>F</italic> = 2.522, <italic>p</italic> = 0.1194. <italic>D</italic>, interaction, <italic>F</italic> = 12.62, <italic>p</italic> = 0.002; row factor, <italic>F</italic> = 6.15, <italic>p</italic> = 0.0222; column factor, <italic>F</italic> = 1.455, <italic>p</italic> = 0.2417. <italic>E</italic>, interaction, <italic>F</italic> = 6.97, <italic>p</italic> = 0.0134; row factor, <italic>F</italic> = 1.898, <italic>p</italic> = 0.1792; column factor, <italic>F</italic> = 7.08, <italic>p</italic> = 0.0128. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT.</p></caption><graphic xlink:href="gr3"/></fig></p>
+                <p id="para200">In line with activation of NADPH oxidase, more ROS production was observed in heart tissues of tail-suspended mice compared with sham animals (<xref rid="fig4" ref-type="fig">Fig. 4</xref><italic>A</italic>), as was greater protein carbonyl content and malondialdehyde (MDA) production, indicators of oxidized protein and lipid peroxidation, respectively (<xref rid="fig4" ref-type="fig">Fig. 4</xref>, <italic>B</italic> and <italic>C</italic>). However, ROS production was much less in tail-suspended <italic>Capns1</italic>-KO mice compared with their WT littermates (<xref rid="fig4" ref-type="fig">Fig. 4</xref><italic>A</italic>). Similarly, deficiency of <italic>Capns1</italic> also resulted in less oxidative damage in hearts of tail-suspended mice as determined by less protein carbonyl and MDA contents (<xref rid="fig4" ref-type="fig">Fig. 4</xref>, <italic>B</italic> and <italic>C</italic>).<fig id="fig4"><label>Figure 4</label><caption><p><bold>Deletion of <italic>Capns1</italic> inhibits tail suspension-induced oxidative stress in mouse hearts.</bold> Mice with cardiomyocyte-specific deletion of <italic>Capns1</italic> (<italic>KO</italic>) and their WT littermates (<italic>WT</italic>) were subjected to TS for 28 days. Oxidative stress was assessed by measuring ROS production (<italic>A</italic>), MDA production (<italic>B</italic>), and protein carbonyl content (<italic>C</italic>) in mouse hearts. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 4–7 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>A</italic>, interaction, <italic>F</italic> = 3.358, <italic>p</italic> = 0.0855; row factor, <italic>F</italic> = 5.995, <italic>p</italic> = 0.0263; column factor, <italic>F</italic> = 5.915, <italic>p</italic> = 0.0271. <italic>B</italic>, interaction, <italic>F</italic> = 9.633, <italic>p</italic> = 0.0073; row factor, <italic>F</italic> = 1.004, <italic>p</italic> = 0.3322; column factor, <italic>F</italic> = 12.56, <italic>p</italic> = 0.0029. <italic>C</italic>, interaction, <italic>F</italic> = 7.275, <italic>p</italic> = 0.0194; row factor, <italic>F</italic> = 2.682, <italic>p</italic> = 0.1274; column factor, <italic>F</italic> = 9.306, <italic>p</italic> = 0.0101. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT.</p></caption><graphic xlink:href="gr4"/></fig></p>
+                <p id="para210">Because cardiomyocytes predominantly express NOX2 and NOX4, we also analyzed NOX4 expression, as NOX4 is primarily regulated through transcriptional mechanisms (<xref rid="bib31" ref-type="bibr">31</xref>). Tail suspension resulted in higher protein levels of NOX4 in tail-suspended mouse hearts (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S2</xref>). However, deficiency of <italic>Capns1</italic> did not change the higher protein levels of NOX4 due to tail suspension (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S2</xref>). In addition, neither tail suspension nor deletion of <italic>Capns1</italic> changed mitochondrial ROS generation and xanthine oxidase activity in tail-suspended mouse hearts (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S3 (A–C)</xref>).</p>
+                <p id="para220">Increased ROS production and consequent oxidative damage may also result from a defect of antioxidant systems. Therefore, we measured the main antioxidant enzymes in hearts. As shown in <xref rid="ecomp10" ref-type="supplementary-material">Fig. S4 (A–C)</xref>, neither tail suspension nor deletion of C<italic>apns1</italic> changed the activities of SOD, GPx, and catalase in heart tissues. These results exclude the possibility that changes of antioxidant enzymes play a role in calpain activation-associated oxidative stress in tail-suspended mouse hearts.</p>
+              </sec>
+              <sec id="cesec50">
+                <title>Calpain deficiency is associated with reduced phosphorylation of Ser-345 on p47<sup>phox</sup> in tail-suspended mouse hearts and cultured cardiomyocytes under microgravity</title>
+                <p id="para230">To investigate the potential mechanisms by which calpain promoted NADPH oxidase activation, we focused on the phosphorylation state of p47<italic><sup>phox</sup></italic> as a readout for translocation of this cytosolic subunit of NADPH oxidase to the cell membranes (<xref rid="bib29" ref-type="bibr">29</xref>). Similar to the translocation of NADPH oxidase cytosolic subunits to the membranes, the levels of phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> were higher in mouse hearts 14 and 28 days after tail suspension (<xref rid="fig5" ref-type="fig">Fig. 5</xref><italic>A</italic>). Interestingly, in tail-suspended mice, deletion of <italic>Capns1</italic> resulted in lower levels of phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> (<xref rid="fig5" ref-type="fig">Fig. 5</xref><italic>B</italic>), suggesting that calpain promotes phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in mediating NADPH oxidase activation in tail-suspended mouse hearts.<fig id="fig5"><label>Figure 5</label><caption><p><bold>Inhibition of calpain prevents phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in tail-suspended mouse hearts and cultured cardiomyocytes in response to simulated microgravity.</bold><italic>A</italic> and <italic>B</italic>, mice with cardiomyocyte-specific deletion of <italic>Capns1</italic> (<italic>KO</italic>) and their WT littermates (<italic>WT</italic>) were subjected to TS for 14 or 28 days. <italic>A</italic>, a representative Western blot from three different hearts in each group for phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345) and total p47 <italic><sup>phox</sup></italic>. <italic>B</italic>, <italic>top</italic>, a representative Western blot from two of six different hearts in each group for phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345) and total p47 <italic><sup>phox</sup></italic>; <italic>bottom</italic>, quantitation for phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345) relative to total p47 <italic><sup>phox</sup></italic>. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 6 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis (interaction, <italic>F</italic> = 14.2, <italic>p</italic> = 0.0008; row factor, <italic>F</italic> = 27.2, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 9.388, <italic>p</italic> = 0.0048). *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT or sham + KO. †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> TS + WT or sham + KO. <italic>C–E</italic>, neonatal mouse cardiomyocytes were subjected to a condition of simulated microgravity (SMG) in the presence of calpain inhibitor-III (<italic>CI-III</italic>) or vehicle for 24 h. <italic>C</italic>, calpain activities. <italic>D</italic>, total protein/DNA ratio in cardiomyocyte lysates. <italic>E</italic>, <italic>top</italic>, a representative Western blot from three different cell cultures with each in duplicate for phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345) relative to total p47<italic><sup>phox</sup></italic>; <italic>bottom</italic>, quantitation for phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345) relative to total p47<italic><sup>phox</sup></italic>. Data are mean ± S.D., <italic>n</italic> = 3–5 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>C</italic>, interaction, <italic>F</italic> = 11.75, <italic>p</italic> = 0.0090; row factor, <italic>F</italic> = 18.26, <italic>p</italic> = 0.0027; column factor, <italic>F</italic> = 12.13, <italic>p</italic> = 0.0083. <italic>D</italic>, interaction, <italic>F</italic> = 7.366, <italic>p</italic> = 0.0153; row factor, <italic>F</italic> = 86.86, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 9.917, <italic>p</italic> = 0.0062. <italic>E</italic>, interaction, <italic>F</italic> = 5.361, <italic>p</italic> = 0.0313; row factor, <italic>F</italic> = 31.8, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 5.368, <italic>p</italic> = 0.0312. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + vehicle; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> SMG + vehicle.</p></caption><graphic xlink:href="gr5"/></fig></p>
+                <p id="para240">To provide further evidence supporting the role of calpain in promoting p47<italic><sup>phox</sup></italic> phosphorylation, we simulated microgravity in cultured cardiomyocytes using the rotary cell culture system. Simulated microgravity increased calpain activities (<xref rid="fig5" ref-type="fig">Fig. 5</xref><italic>C</italic>), and this was correlated with a reduction of total protein/DNA ratio (<xref rid="fig5" ref-type="fig">Fig. 5</xref><italic>D</italic>) and an increase in phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> (<xref rid="fig5" ref-type="fig">Fig. 5</xref><italic>E</italic>). Incubation with calpain inhibitor-III prevented calpain activation, increased total protein/DNA ratio, and attenuated microgravity-induced phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cardiomyocytes (<xref rid="fig5" ref-type="fig">Fig. 5</xref>, <italic>C–E</italic>). These results recapitulated the inhibitory effect of calpain disruption on p47<italic><sup>phox</sup></italic> phosphorylation in tail-suspended mouse hearts.</p>
+              </sec>
+              <sec id="cesec60">
+                <title>MAPK signaling mediates calpain-promoted phosphorylation of Ser-345 on p47<sup>phox</sup> during microgravity</title>
+                <p id="para250">Because phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> is mediated by ERK1/2 and p38 (<xref rid="bib29" ref-type="bibr">29</xref>), we analyzed the phosphorylation of ERK1/2 and p38 in tail-suspended mouse hearts. As shown in <xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>A</italic>, the levels of phosphorylated ERK1/2 and p38 were higher in WT mouse hearts 14 days after tail suspension than those of the sham group, and 28 days after tail suspension they were lower than those of the sham group. Thus, we analyzed phosphorylated ERK1/2 and p38 in <italic>Capns1</italic>-KO mice and their WT littermates 14 days after tail suspension. As shown in <xref rid="fig6" ref-type="fig">Fig. 6</xref> (<italic>B</italic> and <italic>C</italic>), the levels of phosphorylated ERK1/2 and p38 were much lower in <italic>Capns1</italic>-KO mice compared with their WT littermates 14 days after tail suspension. These results suggest that calpain may promote phosphorylation of ERK1/2 and p38 primarily in the first 2 weeks in tail-suspended mouse hearts.<fig id="fig6"><label>Figure 6</label><caption><p><bold>Tail suspension induces activation of p38 and ERK1/2 in WT mice, which is attenuated in <italic>Capns1</italic>-knockout mice, and inhibition of calpain attenuates phosphorylation of ERK1/2 and p38 in cardiomyocytes under microgravity.</bold><italic>A–C</italic>, mice with cardiomyocyte-specific deletion of <italic>Capns1</italic> (<italic>KO</italic>) and their WT littermates (<italic>WT</italic>) were subjected to tail suspension (<italic>TS</italic>) for 14 or 28 days. <italic>A</italic>, a representative Western blot from three different hearts in each group for total and phosphorylated p38 and ERK1/2. <italic>B</italic>, <italic>top</italic>, a representative Western blot from two of six different hearts in each group for total and phosphorylated ERK1/2; <italic>bottom</italic>, quantitation for phosphorylated ERK1/2 (<italic>p-ERK1/2</italic>) relative to total ERK1/2. <italic>C</italic>, <italic>top</italic>, a representative Western blot from two of six different hearts in each group for total and phosphorylated p38; <italic>bottom</italic>, quantitation for phosphorylated p38 (<italic>p-p38</italic>) relative to total p38. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 6 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>B</italic>, interaction, <italic>F</italic> = 39.53, <italic>p</italic> &lt; 0.0001; row factor, <italic>F</italic> = 0.1185, <italic>p</italic> = 0.7366; column factor, <italic>F</italic> = 19.48, <italic>p</italic> = 0.0008. <italic>C</italic>, interaction, <italic>F</italic> = 82.32, <italic>p</italic> &lt; 0.0001; row factor, <italic>F</italic> = 14.01, <italic>p</italic> = 0.0028; column factor, <italic>F</italic> = 101.8, <italic>p</italic> &lt; 0.0001. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + WT; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> KO + vehicle. <italic>D–F</italic>, neonatal mouse cardiomyocytes were subjected to SMG in the presence of calpain inhibitor-III or vehicle for 6 and 24 h. <italic>D</italic>, a representative Western blot from three different cell cultures for total and phosphorylated p38 and ERK1/2. <italic>E</italic>, <italic>top</italic>, a representative Western blot from three different cell cultures with each in duplicate for total and phosphorylated ERK1/2; <italic>bottom</italic>, quantitation for phosphorylated ERK1/2 (p-ERK1/2) relative to total ERK1/2. <italic>F</italic>, <italic>top</italic>, a representative Western blot from three different cell cultures with each in duplicate for total and phosphorylated p38; <italic>bottom</italic>, quantitation for phosphorylated p38 (<italic>p-p38</italic>) relative to total p38. Data are mean ± S.D., <italic>n</italic> = 3 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>E</italic>, interaction, <italic>F</italic> = 46.37, <italic>p</italic> &lt; 0.0001; row factor, <italic>F</italic> = 5.254, <italic>p</italic> = 0.0329; column factor, <italic>F</italic> = 42.27, <italic>p</italic> &lt; 0.0001. <italic>F</italic>, interaction, <italic>F</italic> = 7.9, <italic>p</italic> = 0.0108; row factor, <italic>F</italic> = 155.2, <italic>p</italic> &lt; 0.0001; column factor, <italic>F</italic> = 5.059, <italic>p</italic> = 0.0359. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + vehicle; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> SMG + vehicle.</p></caption><graphic xlink:href="gr6"/></fig></p>
+                <p id="para260">To further address this in cultured cardiomyocytes, we showed that the protein levels of phosphorylated ERK1/2 were higher 6 h but not 24 h after simulated microgravity (<xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>D</italic>). Incubation with calpain inhibitor-III prevented ERK1/2 phosphorylation in cardiomyocytes 6 h after simulated microgravity (<xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>E</italic>).</p>
+                <p id="para270">The protein levels of phosphorylated p38 were higher 6 h and even higher 24 h after simulated microgravity (<xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>D</italic>). We then chose to determine the effect of calpain inhibition on p38 phosphorylation 24 h after simulated microgravity. Similarly, incubation with calpain inhibitor-III prevented p38 phosphorylation (<xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>F</italic>).</p>
+                <p id="para280">Importantly, blockage of ERK1/2 or p38 activation with PD98059 or SB203580, respectively, attenuated phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cultured cardiomyocytes after 24 h of simulated microgravity (<xref rid="fig7" ref-type="fig">Fig. 7</xref>, <italic>A</italic> and <italic>B</italic>). Because the time-course analysis for ERK1/2 and p38 phosphorylation showed that ERK1/2 phosphorylation reached the highest levels at 6 h, whereas p38 phosphorylation was at the highest level in cardiomyocytes at 24 h after simulated microgravity (<xref rid="fig6" ref-type="fig">Fig. 6</xref><italic>B</italic>), we therefore determined whether ERK1/2 mediated p38 phosphorylation induced by microgravity. However, inhibition of ERK1/2 with PD98059 did not affect the phosphorylated levels of p38 in cardiomyocytes following simulated microgravity (<xref rid="fig7" ref-type="fig">Fig. 7</xref><italic>C</italic>), suggesting that ERK1/2 and p38 independently facilitate p47<italic><sup>phox</sup></italic> phosphorylation in microgravity, whereas ERK1/2 and p38 exert their roles at early and relatively late phases of microgravity, respectively. In support of this conclusion, co-incubation of PD98059 and SB20358 did not further inhibit p47<italic><sup>phox</sup></italic> phosphorylation in microgravity compared with PD98059 or SB203580 alone (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S5</xref>). Taken together, these results suggest that calpain activation mediates microgravity-induced phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> through p38 and ERK1/2 signaling in cardiomyocytes.<fig id="fig7"><label>Figure 7</label><caption><p><bold>Inhibition of ERK1/2 and p38 prevents phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cultured cardiomyocytes in response to simulated microgravity.</bold> Neonatal mouse cardiomyocytes were subjected to SMG in the presence of PD98059, SB203580, or vehicle for 24 h. <italic>A</italic> and <italic>B</italic>, <italic>top</italic>, a representative Western blot from three different cell cultures with each in duplicate for total and phosphorylated p47<italic><sup>phox</sup></italic> (Ser-345); <italic>Bottom</italic>, quantitation for phosphorylated p47<italic><sup>phox</sup></italic> relative to total p47<italic><sup>phox</sup></italic>. <italic>C</italic>, effect of ERK1/2 inhibition on p38 phosphorylation in cardiomyocytes after SMG. <italic>Top</italic>, a representative Western blot from three different cell cultures with each in duplicate for total and phosphorylated p38; <italic>bottom</italic>, quantitation for phosphorylated p38 (<italic>p-p38</italic>) relative to total p38. Data are mean ± S.D. (<italic>error bars</italic>), <italic>n</italic> = 3 in each group. Two-way ANOVA followed by Newman–Keuls test was performed for statistical analysis. <italic>A</italic>, interaction, <italic>F</italic> = 5.958, <italic>p</italic> = 0.0311; row factor, <italic>F</italic> = 15.48, <italic>p</italic> = 0.002; column factor, <italic>F</italic> = 3.788, <italic>p</italic> = 0.0754. <italic>B</italic>, interaction, <italic>F</italic> = 8.13, <italic>p</italic> = 0.0145; row factor, <italic>F</italic> = 3.085, <italic>p</italic> = 0.1045; column factor, <italic>F</italic> = 2.035, <italic>p</italic> = 0.1792. <italic>C</italic>, interaction, <italic>F</italic> = 0.1223, <italic>p</italic> = 0.7356; row factor, <italic>F</italic> = 48.81, <italic>p</italic> = 0.0001; column factor, <italic>F</italic> = 0.29, <italic>p</italic> = 0.6049. *, <italic>p</italic> &lt; 0.05 <italic>versus</italic> sham + vehicle; †, <italic>p</italic> &lt; 0.05 <italic>versus</italic> SMG + vehicle.</p></caption><graphic xlink:href="gr7"/></fig></p>
+              </sec>
+              <sec id="cesec70">
+                <title>Inhibition of calpain does not affect MuRF1 and atrogin-1 expression in cultured cardiomyocytes under microgravity</title>
+                <p id="para290">Because both MuRF1 (<xref rid="bib8" ref-type="bibr">8</xref>, <xref rid="bib9" ref-type="bibr">9</xref>, <xref rid="bib10" ref-type="bibr">10</xref>) and atrogin-1 (<xref rid="bib32" ref-type="bibr">32</xref>, <xref rid="bib33" ref-type="bibr">33</xref>) have been implicated in promoting cardiac muscle atrophy or inhibiting cardiac hypertrophy, we also analyzed the protein levels of MuRF1 and atrogin-1 in cardiomyocytes. Simulated microgravity resulted in higher levels of MuRF1 and atrogin-1 in cultured cardiomyocytes; however, inhibition of calpain did not change the protein levels of MuRF1 and atrogin-1 in cardiomyocytes under normal conditions or microgravity (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S6</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="cesec80">
+              <title>Discussion</title>
+              <p id="para300">The major findings of this study are that disruption of calpain preserves cardiomyocyte size, heart mass, and myocardial function in tail-suspended mice, indicating an important role of calpain in myocardial atrophy under microgravity. Furthermore, calpain activation mediates NADPH oxidase activation by facilitating p38 and ERK1/2 activation and subsequent phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cardiomyocytes in response to microgravity. Thus, this study also reveals an unrecognized role of calpain in promoting NADPH oxidase activation via p38 and ERK1/2 signaling during microgravity.</p>
+              <p id="para310">Calpain activation was reported in heart tissues from tail-suspended rats (<xref rid="bib25" ref-type="bibr">25</xref>) and unloading mouse and human hearts (<xref rid="bib24" ref-type="bibr">24</xref>). In line with these prior observations, this study demonstrates that tail suspension induces calpain activation in mouse hearts. Importantly, deletion of <italic>Capns1</italic> preserved cardiomyocyte size and heart mass and protected myocardial function in tail-suspended mice, underscoring a critical role of calpain in microgravity-induced myocardial atrophy and dysfunction. Our <italic>in vitro</italic> study using cultured cardiomyocytes further supports the role of calpain in myocardial atrophy, as inhibition of calpain prevented the reduction of protein/DNA ratio after simulated microgravity. Although a previous study reported that transgenic overexpression of calpastatin failed to reduce myocardial atrophy in a mouse model of heart transplantation (<xref rid="bib24" ref-type="bibr">24</xref>), the transplanted heart does not have any loading of its left ventricular chamber, a condition totally different from the heart of a tail-suspended mouse. As further evidence in support of our finding, inhibition of calpain by transgenic overexpression of calpastatin slowed muscle waste during murine muscle disuse (<xref rid="bib34" ref-type="bibr">34</xref>). Additionally, there is usually a compensatory increase in catecholamine release after returning from a long-term spaceflight (<xref rid="bib25" ref-type="bibr">25</xref>). We have reported that incubation with the catecholamine, norepinephrine, induces calpain activation and apoptosis in cardiomyocytes (<xref rid="bib35" ref-type="bibr">35</xref>). Along with this, a prior study showed that calpain activation was induced and contributed to myocardial apoptosis in rats during the recovery period after tail suspension (<xref rid="bib25" ref-type="bibr">25</xref>). Thus, calpain may represent a useful target for prevention and therapy for myocardial disorders during and after microgravity.</p>
+              <p id="para320">Our recent study demonstrated that NADPH oxidase is activated and oxidative stress is induced in tail-suspended mouse hearts and that inhibition of NADPH oxidase with apocynin preserves cardiomyocyte size and heart weight and improves myocardial function in tail-suspended mice (<xref rid="bib30" ref-type="bibr">30</xref>). This finding suggests an important role of NADPH oxidase in myocardial abnormalities under microgravity. Although activation of NADPH oxidase has been implicated in a variety of cardiac diseases (<xref rid="bib36" ref-type="bibr">36</xref>) and modulation of NADPH oxidase activation has received intensive attention, the molecular mechanisms underlying NADPH oxidase activation remain poorly understood. An important finding of this study is that calpain activation promotes NADPH oxidase activation in tail-suspended mouse hearts. This was demonstrated by determining the translocation of its cytosolic subunits, including p47<italic><sup>phox</sup></italic>, p67<italic><sup>phox</sup></italic>, and Rac1, to the cell membranes and concomitant oxidative stress. Our study provides further evidence suggesting that calpain activation promotes phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in tail-suspended mouse hearts. Studies have implicated ERK1/2 and p38 in mediating phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> (<xref rid="bib29" ref-type="bibr">29</xref>). In line with this, we report that the protein levels of phosphorylated ERK1/2 and p38 are higher in cultured cardiomyocytes under microgravity and in tail-suspended mouse hearts. Of note, deletion of <italic>Capns1</italic> or inhibition of calpain prevented the difference in phosphorylated ERK1/2 and p38 in tail-suspended mouse hearts or cultured cardiomyocytes under microgravity, respectively. Furthermore, pharmacological inhibition of ERK1/2 and p38 attenuated phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> in cultured cardiomyocytes under microgravity. Thus, we argue that deletion of calpain inhibits phosphorylation of Ser-345 on p47<italic><sup>phox</sup></italic> by blocking ERK1/2 and p38 activation, thereby preventing translocation of cytosolic subunits of NADPH oxidase to the membrane, NADPH oxidase activation, and oxidative stress in tail-suspended mouse hearts. Nevertheless, future studies are needed to determine how calpain mediates ERK1/2 and p38 activation during microgravity. It is important to mention that simulated microgravity induces ERK1/2 and p38 activation 14 days but not 28 days after tail suspension, suggesting that ERK1/2 and p38 activation accounts for NADPH oxidase at the early phase of microgravity. This is indeed supported by <italic>in vitro</italic> studies using cultured cardiomyocytes. Moreover, inhibition of ERK1/2 or p38 attenuated but did not completely block p47<italic><sup>phox</sup></italic> phosphorylation in cardiomyocytes induced by simulated microgravity. It is therefore possible that additional mechanisms mediate NADPH oxidase activation and subsequent cardiomyocyte atrophy during the late phase of microgravity, which merits further investigation.</p>
+              <p id="para330">Interestingly, our data do not support any role of calpain in NOX4 expression in cultured cardiomyocytes and mouse hearts under microgravity. In addition to NOX2-containing NADPH oxidase and NOX4, other main sources of ROS generation are proposed in cardiomyocytes, including mitochondria and xanthine oxidase (<xref rid="bib37" ref-type="bibr">37</xref>, <xref rid="bib38" ref-type="bibr">38</xref>, <xref rid="bib39" ref-type="bibr">39</xref>). However, deletion of <italic>Capns1</italic> did not change mitochondrial ROS generation and xanthine oxidase activity during microgravity in tail-suspended mouse hearts. It is important to mention that excessive ROS production and subsequent oxidative stress is the consequence of an imbalance between ROS generation and antioxidant mechanisms (<xref rid="bib40" ref-type="bibr">40</xref>, <xref rid="bib41" ref-type="bibr">41</xref>). By examining the main antioxidant enzymes, including SOD, catalase, and GPx, this study demonstrated that deletion of <italic>Capns1</italic> had no impact on the activities of these antioxidant enzymes and, thus, rules out the possibility that defects of the main antioxidant enzymes contributed to calpain-mediated oxidative stress in tail-suspended mouse hearts.</p>
+              <p id="para340">In addition to calpain, autophagy and the ubiquitin proteasome system have been implicated in protein degradation in the cardiovascular system (<xref rid="bib7" ref-type="bibr">7</xref>), which contributes to muscle atrophy. Indeed, the ubiquitin proteasome system has been reported to promote cardiac muscle atrophy. For example, both MuRF1 and atrogin-1 expression are implicated in promoting cardiac muscle atrophy or inhibiting cardiac muscle hypertrophy, and inhibition of either reduces cardiac muscle atrophy under certain conditions (<xref rid="bib8" ref-type="bibr">8</xref>, <xref rid="bib9" ref-type="bibr">9</xref>, <xref rid="bib10" ref-type="bibr">10</xref>, <xref rid="bib32" ref-type="bibr">32</xref>, <xref rid="bib33" ref-type="bibr">33</xref>). In the present study, we also report that simulated microgravity induces an increase in MuRF1 and atrogin-1 protein levels in cultured cardiomyocytes. However, inhibition of calpain did not attenuate the higher protein levels of MuRF1 and atrogin-1 in cardiomyocytes under microgravity. Considering that calpain mediates NADPH oxidase activation and our recent study demonstrates that inhibition of NADPH oxidase did not affect MuRF1 expression in tail-suspended mouse hearts (<xref rid="bib30" ref-type="bibr">30</xref>), the calpain/NADPH oxidase pathway may represent a new mechanism contributing to microgravity-induced myocardial atrophy, which is independent of MuRF-1 and atrogin-1.</p>
+              <p id="para350">Although myocardial atrophy weakens myocardial contractility, the underlying mechanisms remain to be determined. Our data show that tail suspension for 14 and 28 days reduced mitochondrial <italic>Mtnd1</italic> DNA copies in mouse hearts. However, ATP production remains unchanged in heart tissues after tail suspension. This disparity between mitochondrial DNA copies and ATP production may be due to a reduction in cardiomyocyte size after tail suspension (by about 33% in <xref rid="fig1" ref-type="fig">Fig. 1</xref><italic>E</italic>) as a smaller cardiomyocyte may have a lesser number of mitochondria, whereas ATP production remains the same per unit of cell volume. Thus, a reduction of mitochondrial DNA copies is not a potential mechanism for myocardial dysfunction induced by microgravity. Future studies are needed to determine the detailed mechanisms by which microgravity induces myocardial dysfunction.</p>
+              <p id="para360">In summary, we have demonstrated an important role of calpain in promoting myocardial abnormalities in tail-suspended mice. Thus, targeting calpain may be a useful strategy to protect the heart under conditions of microgravity. Given that pharmacological inhibitors of calpain are under clinical trials, our findings provide important preclinical evidence to support future translational studies.</p>
+            </sec>
+            <sec id="cesec90">
+              <title>Experimental procedures</title>
+              <sec id="cesec100">
+                <title>Animals</title>
+                <p id="para370">This investigation conforms to the Guide for the Care and Use of Laboratory Animals published by the United States National Institutes of Health (8th Edition, 2011). Breeding pairs of C57BL/6 mice were purchased from the Jackson Laboratory. Mice with cardiomyocyte-specific disruption of <italic>Capns1</italic> (<italic>Capns1</italic>-KO) were generated by breeding mice bearing the targeted <italic>Capns1<sup>PZ</sup></italic> allele containing <italic>loxP</italic> sites flanking essential coding exons and mice with cardiomyocyte-specific expression of Cre recombinase under the control of α-myosin heavy chain as we described recently (<xref rid="bib23" ref-type="bibr">23</xref>). Deletion of <italic>Capns1</italic> was confirmed by analyzing <italic>Capns1</italic> mRNA expression in <italic>Capns1</italic>-KO mouse hearts as described previously (<xref rid="bib23" ref-type="bibr">23</xref>) (<xref rid="ecomp10" ref-type="supplementary-material">Fig. S7</xref>). All mice used in this study, including controls, were littermates of the same generation. A breeding program was implemented at Soochow University's animal care facilities. All experimental protocols were approved by the Animal Use Subcommittee at Soochow University (Suzhou, China).</p>
+              </sec>
+              <sec id="cesec110">
+                <title>Experimental protocol</title>
+                <p id="para380">Tail suspension was performed in <italic>Capns1</italic>-KO mice and their WT littermates (males aged 2 months) to simulate microgravity using the methods described previously (<xref rid="bib30" ref-type="bibr">30</xref>, <xref rid="bib42" ref-type="bibr">42</xref>). Briefly, a piece of tape was attached to both the tail and a swivel tied to a horizontal bar at the top of cage. Mice had free access to food and water during the tail suspension. 14 or 28 days later, mice were subjected to various experiments.</p>
+              </sec>
+              <sec id="cesec120">
+                <title>Echocardiography</title>
+                <p id="para390">Animals were lightly anesthetized with inhalant isoflurane (0.5–1%) and imaged using a 40-MHz linear array transducer attached to a preclinical ultrasound system (Vevo 2100, FUJIFILM VisualSonics, Toronto, Canada) with nominal in-plane spatial resolution of 40 μm (axial) × 80 μm (lateral). M-mode and two-dimensional parasternal short-axis scans (133 frames/s) at the level of the papillary muscles were used to assess changes in left ventricular (LV) end-systolic inner diameter, LV end-diastolic inner diameter, LV posterior wall thickness in end-diastole and end-systole, fractional shortening (%), and ejection fraction.</p>
+              </sec>
+              <sec id="cesec130">
+                <title>Histological analyses</title>
+                <p id="para400">Mice were euthanized by cervical dislocation under anesthesia using a mixture of ketamine (100 mg/kg)/xylazine (5 mg/kg, intraperitoneally). Heart tissues were collected, fixed, processed, and sectioned. For cardiomyocyte size measurement, several cross-sections of the whole heart (5 μm thick) were prepared and stained for membranes and nuclei with FITC-conjugated wheat germ agglutinin (Thermo Fisher Scientific) and Hoechst 33342 (Thermo Fisher Scientific), respectively. Single cardiomyocytes were measured using an image quantitative digital analysis system (NIH Image version 1.6) as described previously (<xref rid="bib43" ref-type="bibr">43</xref>). The outlines of at least 200 cardiomyocytes were traced in each section.</p>
+              </sec>
+              <sec id="cesec140">
+                <title>Determination of protein and DNA concentrations</title>
+                <p id="para410">The protein levels were determined by DC<sup>TM</sup> Protein Assay (Bio-Rad). Genomic DNA was extracted from cultured cardiomyocytes using a Hiyield Genomic DNA Isolation Kit (cultured cells) (Cedarlane Laboratories Ltd., Burlington, Canada) and measured by a Nanodrop spectrophotometer (<italic>A</italic><sub>260</sub>).</p>
+              </sec>
+              <sec id="cesec150">
+                <title>Determination of oxidative stress levels in hearts</title>
+                <p id="para420">The formation of ROS in heart tissue lysates was measured using the Amplex® Red hydrogen peroxide/peroxidase assay kit (Thermo Fisher Scientific), according to the manufacturer's instructions. Briefly, frozen heart tissues were homogenized in an assay buffer. The homogenates (50 μg of protein) were incubated with a fluorescent probe Amplex® Red and hydrogen peroxide/peroxidase at 37 °C. The fluorescent product formed was quantified using a spectrofluorometer measured at 485/525 nm. Changes in fluorescence were expressed as arbitrary units.</p>
+                <p id="para430">Protein carbonyl content was determined using a protein carbonyl colorimetric assay kit (Cayman Chemical Co.) following the manufacturer's instructions. A total of 700 μg of protein was used for each sample.</p>
+                <p id="para440">Lipid peroxidation in heart tissue lysates was assessed by measuring MDA production using a TBARS assay kit (Cayman Chemical) following the manufacturer's instructions. A total of 500 μg of protein was used for each sample.</p>
+              </sec>
+              <sec id="cesec160">
+                <title>Neonatal mouse cardiomyocyte cultures and simulated microgravity</title>
+                <p id="para450">Neonatal mice (born within 24 h) were euthanized by decapitation. Neonatal cardiomyocytes were prepared and cultured in Dulbecco's modified Eagle's medium with 10% newborn calf serum and penicillin-streptomycin according to methods described previously (<xref rid="bib44" ref-type="bibr">44</xref>).</p>
+                <p id="para460">Right after isolation, cardiomyocytes (1.5 × 10<sup>6</sup>) were cultured with Cytodex 3 microcarrier beads (175-μm particle size, spherical) for 24 h. To simulate microgravity, we dispersed cardiomyocytes on Cytodex 3 microcarrier beads in 5 ml of Dulbecco's modified Eagle's medium with 10% newborn calf serum and penicillin-streptomycin and then inoculated them through the syringe port inside the 5-ml high-aspect ratio vessels of a rotary cell culture system (RCCS-4, Synthecon Inc.). After being assembled, they were placed on their rotary base and maintained in a 37 °C incubator with a 5% CO<sub>2</sub>/air mixture and saturating humidity. Vessel rotation was set at 18 rpm according to our recent report (<xref rid="bib30" ref-type="bibr">30</xref>). After 24 h, cells were collected for Western blotting analysis. For the treatment with various inhibitors (PD98059 (10 μ<sc>m</sc>), SB23580 (10 μ<sc>m</sc>), and calpain inhibitor-III (10 μ<sc>m</sc>)), the inhibitors or vehicle were added to culture media at the time of inoculation into the rotary device. The cells were incubated under simulated microgravity for 24 h.</p>
+              </sec>
+              <sec id="cesec170">
+                <title>Western blotting analysis</title>
+                <p id="para470">40 μg of protein from heart tissue or cell lysates or 10 μg of protein from isolated membrane lysates were loaded onto SDS-polyacrylamide gels. After electrophoresis, the separate proteins were transferred onto Bio-Rad polyvinylidene difluoride membranes. After blocking in 5% nonfat milk for 1 h, the membranes were incubated with antibodies against NOX4 (1:1000 dilution; Abcam), Rac1 (1:1000 dilution; Abcam), MuRF1 and atrogin-1 (1:1000 dilution; Abcam), Na<sup>+</sup>/K<sup>+</sup>-ATPase (1:1000 dilution; Abcam), p67<italic><sup>phox</sup></italic> (1:1000 dilution; Abcam), phosphorylation of Ser-345 and Ser-370 on p47<italic><sup>phox</sup></italic> and total p47<italic><sup>phox</sup></italic> (1:1000 dilution; Thermo Fisher Scientific Inc.), phosphorylated p38 and total p38 (1:1000 dilution; Cell Signaling Technology), phosphorylated ERK1/2 and total ERK1/2 (1:1000 dilution; Cell Signaling Technology), and GAPDH (1:5000 dilution; Cell Signaling Technology), respectively, followed by secondary relevant antibodies conjugated with horseradish peroxidase. The signals were then developed using an enhanced version of the chemiluminescence reaction.</p>
+                <p id="para480">The protein ladders were purchased from FroggaBio Inc. (Concord, Canada) for cultured cardiomyocytes (245, 180, 135, 100, 75, 63, 48, 35, 25, 20, 17, and 11 kDa) and Thermo Fisher Scientific China Co. Ltd. for heart tissue samples (170, 130, 100, 70, 55, 40, 35, 25, 15, and 10 kDa).</p>
+              </sec>
+              <sec id="cesec180">
+                <title>Quantification of mitochondrial DNA copies by real-time PCR</title>
+                <p id="para490">Total DNA was extracted using a DNA extraction kit (Qiagen), following the manufacturer's instructions. Real-time PCR was conducted using primers specific to the mitochondrial <italic>Mtnd1</italic> region of the mitochondrial genome and β<sub>2</sub>-microglobulin (<italic>B2M</italic>) as a nuclear gene reference. The sequences of primers are as follows: <italic>Mtnd1</italic>, 5′-GAGGGAACCAAACTGAACGC-3′ and 5′-TGGATCCGTTCGTAGTTGGAG-3′; <italic>B2M</italic>, 5′-CAGACTCTGCGATGTTTCCA-3′ and 5′-GCCTGAGCACTTCCAGAAAC-3′. The mitochondrial DNA copies were expressed as the ratio of <italic>Mtnd1</italic> to <italic>B2M</italic>.</p>
+              </sec>
+              <sec id="cesec190">
+                <title>Calpain activity</title>
+                <p id="para500">Calpain activities were measured in tissue and cell lysates (15 μg of protein) using a fluorescence substrate, <italic>N</italic>-succinyl-LLVY-7-amido-4-methylcoumarin (Cedarlane Laboratories) as described previously (<xref rid="bib35" ref-type="bibr">35</xref>).</p>
+              </sec>
+              <sec id="cesec200">
+                <title>NADPH oxidase activation</title>
+                <p id="para510">NADPH oxidase activation was determined by measuring the translocation of Rac1, p47<italic><sup>phox</sup></italic>, and p67<italic><sup>phox</sup></italic> to cell membranes. Briefly, cell membranes were isolated from heart tissues using a commercial kit (Beyotime Biotechnology, Shanghai, China) according to the manufacturer's instructions. The protein levels of Rac1, p47<italic><sup>phox</sup></italic>, and p67<italic><sup>phox</sup></italic> in cell membranes and whole-heart lysates were analyzed using Western blotting. Na<sup>+</sup>/K<sup>+</sup>-ATPase and GAPDH were used as loading controls for the membranes and whole lysates, respectively.</p>
+              </sec>
+              <sec id="cesec210">
+                <title>Xanthine oxidase activity</title>
+                <p id="para520">Xanthine oxidase activity was determined in heart tissue lysates using a commercial assay kit (Beyotime Biotechnology), following the manufacturer's instructions. A total of 100 μg of protein was used for each sample in the assay.</p>
+              </sec>
+              <sec id="cesec220">
+                <title>SOD activity, catalase activity, and GPx activity</title>
+                <p id="para530">These activities were measured in heart tissue lysates using commercial assay kits (Beyotime Biotechnology), following the manufacturer's instructions. A total of 100 μg of protein was used for each sample in the assay.</p>
+              </sec>
+              <sec id="cesec230">
+                <title>Statistical analysis</title>
+                <p id="para540">All data are expressed as means ± S.D. Differences between two groups were compared by unpaired Student's <italic>t</italic> test. For multigroup comparisons, ANOVA followed by Newman–Keuls test was performed. A value of <italic>p</italic> &lt; 0.05 was considered statistically significant.</p>
+              </sec>
+            </sec>
+            <sec sec-type="data-availability" id="cesec240">
+              <title>Data availability</title>
+              <p id="para550">All data presented are available upon request from Tianqing Peng (<ext-link ext-link-type="uri" xlink:href="mailto:tpeng2@uwo.ca" id="interrefs10">tpeng2@uwo.ca</ext-link> or <ext-link ext-link-type="uri" xlink:href="mailto:tqpeng@suda.edu.cn" id="interrefs20">tqpeng@suda.edu.cn</ext-link>).</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="bibl10">
+              <title>References</title>
+              <ref id="bib1">
+                <label>1</label>
+                <element-citation publication-type="journal" id="sbref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Warburton</surname>
+                      <given-names>D.E.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Whelan</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krassioukov</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Challenges, concerns and common problems: physiological consequences of spinal cord injury and microgravity</article-title>
+                  <source>Spinal Cord</source>
+                  <volume>49</volume>
+                  <year>2011</year>
+                  <fpage>4</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1038/sc.2010.53</pub-id>
+                  <comment>20498665</comment>
+                  <pub-id pub-id-type="pmid">20498665</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sbref20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yoshida</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tabony</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galvez</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mitch</surname>
+                      <given-names>W.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Higashi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sukhanov</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delafontaine</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Molecular mechanisms and signaling pathways of angiotensin II-induced muscle wasting: potential therapeutic targets for cardiac cachexia</article-title>
+                  <source>Int. J. Biochem. Cell Biol</source>
+                  <volume>45</volume>
+                  <year>2013</year>
+                  <fpage>2322</fpage>
+                  <lpage>2332</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biocel.2013.05.035</pub-id>
+                  <comment>23769949</comment>
+                  <pub-id pub-id-type="pmid">23769949</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sbref30">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Summers</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>D.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meck</surname>
+                      <given-names>J.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coleman</surname>
+                      <given-names>T.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Computer systems analysis of spaceflight induced changes in left ventricular mass</article-title>
+                  <source>Comput. Biol. Med</source>
+                  <volume>37</volume>
+                  <year>2007</year>
+                  <fpage>358</fpage>
+                  <lpage>363</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.compbiomed.2006.04.003</pub-id>
+                  <comment>16808910</comment>
+                  <pub-id pub-id-type="pmid">16808910</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4</label>
+                <element-citation publication-type="journal" id="sbref40">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Convertino</surname>
+                      <given-names>V.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Status of cardiovascular issues related to space flight: implications for future research directions</article-title>
+                  <source>Respir. Physiol. Neurobiol</source>
+                  <volume>169</volume>
+                  <year>2009</year>
+                  <fpage>S34</fpage>
+                  <lpage>S37</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resp.2009.04.010</pub-id>
+                  <comment>19383556</comment>
+                  <pub-id pub-id-type="pmid">19383556</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sbref50">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goswami</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roma</surname>
+                      <given-names>P.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Boever</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clément</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hargens</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loeppky</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peter Stein</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blaber</surname>
+                      <given-names>A.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mano</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Iwase</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reitz</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinghofer-Szalkay</surname>
+                      <given-names>H.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using the Moon as a high-fidelity analogue environment to study biological and behavioral effects of long-duration space exploration</article-title>
+                  <source>Planet. Space Sci</source>
+                  <volume>74</volume>
+                  <year>2012</year>
+                  <fpage>111</fpage>
+                  <lpage>120</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pss.2012.07.030</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6</label>
+                <element-citation publication-type="journal" id="sbref60">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sandri</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein breakdown in muscle wasting: role of autophagy-lysosome and ubiquitin-proteasome</article-title>
+                  <source>Int. J. Biochem. Cell Biol</source>
+                  <volume>45</volume>
+                  <year>2013</year>
+                  <fpage>2121</fpage>
+                  <lpage>2129</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biocel.2013.04.023</pub-id>
+                  <comment>23665154</comment>
+                  <pub-id pub-id-type="pmid">23665154</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sbref70">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nishida</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Otsu</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Degradation systems in heart failure</article-title>
+                  <source>J. Mol. Cell. Cardiol</source>
+                  <volume>84</volume>
+                  <year>2015</year>
+                  <fpage>212</fpage>
+                  <lpage>222</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yjmcc.2015.05.004</pub-id>
+                  <comment>25981331</comment>
+                  <pub-id pub-id-type="pmid">25981331</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sbref80">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Willis</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parry</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>D.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mota</surname>
+                      <given-names>R.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beak</surname>
+                      <given-names>J.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sola</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hicks</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caughey</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>D'Agostino</surname>
+                      <given-names>R.B.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Jordan</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hundley</surname>
+                      <given-names>W.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jensen</surname>
+                      <given-names>B.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Doxorubicin exposure causes subacute cardiac atrophy dependent on the striated muscle-specific ubiquitin ligase MuRF1</article-title>
+                  <source>Circ. Heart Fail</source>
+                  <volume>12</volume>
+                  <year>2019</year>
+                  <object-id pub-id-type="publisher-id">e005234
+</object-id>
+                  <pub-id pub-id-type="doi">10.1161/circheartfailure.118.005234</pub-id>
+                  <comment>30871347</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9</label>
+                <element-citation publication-type="journal" id="sbref90">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maejima</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Usui</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhai</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takamura</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaneko</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zablocki</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yokota</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Isobe</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sadoshima</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Muscle-specific RING finger 1 negatively regulates pathological cardiac hypertrophy through downregulation of calcineurin A</article-title>
+                  <source>Circ. Heart Fail</source>
+                  <volume>7</volume>
+                  <year>2014</year>
+                  <fpage>479</fpage>
+                  <lpage>490</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCHEARTFAILURE.113.000713</pub-id>
+                  <comment>24526353</comment>
+                  <pub-id pub-id-type="pmid">24526353</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sbref100">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Willis</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rojas</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Selzman</surname>
+                      <given-names>C.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stansfield</surname>
+                      <given-names>W.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Muscle ring finger 1 mediates cardiac atrophy <italic>in vivo</italic></article-title>
+                  <source>Am. J. Physiol. Heart Circ. Physiol</source>
+                  <volume>296</volume>
+                  <year>2009</year>
+                  <fpage>H997</fpage>
+                  <lpage>H1006</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpheart.00660.2008</pub-id>
+                  <comment>19168726</comment>
+                  <pub-id pub-id-type="pmid">19168726</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sbref110">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Oyabu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaguchi</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hikoso</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takeda</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oka</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murakawa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yasui</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ueda</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nakayama</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taneike</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Omiya</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishida</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Otsu</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Autophagy-mediated degradation is necessary for regression of cardiac hypertrophy during ventricular unloading</article-title>
+                  <source>Biochem. Biophys. Res. Commun</source>
+                  <volume>441</volume>
+                  <year>2013</year>
+                  <fpage>787</fpage>
+                  <lpage>792</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbrc.2013.10.135</pub-id>
+                  <comment>24211573</comment>
+                  <pub-id pub-id-type="pmid">24211573</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sbref120">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hariharan</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ikeda</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alcendor</surname>
+                      <given-names>R.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Usui</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maejima</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sadoshima</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Autophagy plays an essential role in mediating regression of hypertrophy during unloading of the heart</article-title>
+                  <source>PLoS ONE</source>
+                  <volume>8</volume>
+                  <year>2013</year>
+                  <object-id pub-id-type="publisher-id">e51632
+</object-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0051632</pub-id>
+                  <comment>23308102</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sbref130">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xin</surname>
+                      <given-names>B.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inhibition of autophagy recovers cardiac dysfunction and atrophy in response to tail-suspension</article-title>
+                  <source>Life Sci</source>
+                  <volume>121</volume>
+                  <year>2015</year>
+                  <fpage>1</fpage>
+                  <lpage>9</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.lfs.2014.10.023</pub-id>
+                  <comment>25476825</comment>
+                  <pub-id pub-id-type="pmid">25476825</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sbref140">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goll</surname>
+                      <given-names>D.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>V.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cong</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The calpain system</article-title>
+                  <source>Physiol. Rev</source>
+                  <volume>83</volume>
+                  <year>2003</year>
+                  <fpage>731</fpage>
+                  <lpage>801</lpage>
+                  <pub-id pub-id-type="doi">10.1152/physrev.00029.2002</pub-id>
+                  <comment>12843408</comment>
+                  <pub-id pub-id-type="pmid">12843408</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15</label>
+                <element-citation publication-type="journal" id="sbref150">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Teng</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ji</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiong</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greer</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Selective deletion of endothelial cell calpain in mice reduces diabetic cardiomyopathy by improving angiogenesis</article-title>
+                  <source>Diabetologia</source>
+                  <volume>62</volume>
+                  <year>2019</year>
+                  <fpage>860</fpage>
+                  <lpage>872</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00125-019-4828-y</pub-id>
+                  <comment>30778623</comment>
+                  <pub-id pub-id-type="pmid">30778623</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sbref160">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dean</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lesnefsky</surname>
+                      <given-names>E.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inhibition of the ubiquitous calpains protects complex I activity and enables improved mitophagy in hearts following ischemia-reperfusion</article-title>
+                  <source>Am. J. Physiol. Cell Physiol</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1152/ajpcell.00190.2019</pub-id>
+                  <comment>31411917</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sbref170">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increased calpain-1 in mitochondria induces dilated heart failure in mice: role of mitochondrial superoxide anion</article-title>
+                  <source>Basic Res. Cardiol</source>
+                  <volume>114</volume>
+                  <year>2019</year>
+                  <fpage>17</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s00395-019-0726-1</pub-id>
+                  <comment>30874894</comment>
+                  <pub-id pub-id-type="pmid">30874894</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18</label>
+                <element-citation publication-type="journal" id="sbref180">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barefield</surname>
+                      <given-names>D.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>McNamara</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuster</surname>
+                      <given-names>D.W.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Govindan</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haar</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>E.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lorenz</surname>
+                      <given-names>J.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nieman</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Luther</surname>
+                      <given-names>P.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Varro</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dobrev</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ai</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ablation of the calpain-targeted site in cardiac myosin binding protein-C is cardioprotective during ischemia-reperfusion injury</article-title>
+                  <source>J. Mol. Cell Cardiol</source>
+                  <volume>129</volume>
+                  <year>2019</year>
+                  <fpage>236</fpage>
+                  <lpage>246</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yjmcc.2019.03.006</pub-id>
+                  <comment>30862451</comment>
+                  <pub-id pub-id-type="pmid">30862451</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sbref190">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>C.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kutschke</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weiss</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boudreau</surname>
+                      <given-names>R.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Margulies</surname>
+                      <given-names>K.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Targeting calpain for heart failure therapy: implications from multiple murine models</article-title>
+                  <source>JACC Basic Transl. Sci</source>
+                  <volume>3</volume>
+                  <year>2018</year>
+                  <fpage>503</fpage>
+                  <lpage>517</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jacbts.2018.05.004</pub-id>
+                  <comment>30175274</comment>
+                  <pub-id pub-id-type="pmid">30175274</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <label>20</label>
+                <element-citation publication-type="journal" id="sbref200">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiong</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardiner</surname>
+                      <given-names>R.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abel</surname>
+                      <given-names>E.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greer</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitochondrial calpain-1 disrupts ATP synthase and induces superoxide generation in type 1 diabetic hearts: a novel mechanism contributing to diabetic cardiomyopathy</article-title>
+                  <source>Diabetes</source>
+                  <volume>65</volume>
+                  <year>2016</year>
+                  <fpage>255</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="doi">10.2337/db15-0963</pub-id>
+                  <comment>26470784</comment>
+                  <pub-id pub-id-type="pmid">26470784</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib21">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sbref210">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.-C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greer</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gardiner</surname>
+                      <given-names>R.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deletion of capn4 protects the heart against endotoxemic injury by preventing ATP synthase disruption and inhibiting mitochondrial superoxide generation</article-title>
+                  <source>Circ. Heart Fail</source>
+                  <volume>8</volume>
+                  <year>2015</year>
+                  <fpage>988</fpage>
+                  <lpage>996</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCHEARTFAILURE.115.002383</pub-id>
+                  <comment>26246018</comment>
+                  <pub-id pub-id-type="pmid">26246018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <label>22</label>
+                <element-citation publication-type="journal" id="sbref220">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lacefield</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greer</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Karmazyn</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deficiency of <italic>Capn4</italic> gene inhibits nuclear factor-κB (NF-κB) protein signaling/inflammation and reduces remodeling after myocardial infarction</article-title>
+                  <source>J. Biol. Chem</source>
+                  <volume>287</volume>
+                  <year>2012</year>
+                  <fpage>27480</fpage>
+                  <lpage>27489</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M112.358929</pub-id>
+                  <comment>22753411</comment>
+                  <pub-id pub-id-type="pmid">22753411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sbref230">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greer</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnold</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abel</surname>
+                      <given-names>E.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Targeted inhibition of calpain reduces myocardial hypertrophy and fibrosis in mouse models of type 1 diabetes</article-title>
+                  <source>Diabetes</source>
+                  <volume>60</volume>
+                  <year>2011</year>
+                  <fpage>2985</fpage>
+                  <lpage>2994</lpage>
+                  <pub-id pub-id-type="doi">10.2337/db10-1333</pub-id>
+                  <comment>21911754</comment>
+                  <pub-id pub-id-type="pmid">21911754</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib24">
+                <label>24</label>
+                <element-citation publication-type="journal" id="sbref240">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Razeghi</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Volpini</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>M.-E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Youker</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stepkowski</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taegtmeyer</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanical unloading of the heart activates the calpain system</article-title>
+                  <source>J. Mol. Cell. Cardiol</source>
+                  <volume>42</volume>
+                  <year>2007</year>
+                  <fpage>449</fpage>
+                  <lpage>452</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yjmcc.2006.08.114</pub-id>
+                  <comment>17027024</comment>
+                  <pub-id pub-id-type="pmid">17027024</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib25">
+                <label>25</label>
+                <element-citation publication-type="journal" id="sbref250">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>P.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheng</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Z.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nuclear translocation of calpain-2 regulates propensity toward apoptosis in cardiomyocytes of tail-suspended rats</article-title>
+                  <source>J. Cell. Biochem</source>
+                  <volume>112</volume>
+                  <year>2011</year>
+                  <fpage>571</fpage>
+                  <lpage>580</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jcb.22947</pub-id>
+                  <comment>21268078</comment>
+                  <pub-id pub-id-type="pmid">21268078</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib26">
+                <label>26</label>
+                <element-citation publication-type="journal" id="sbref260">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barreiro</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hussain</surname>
+                      <given-names>S.N.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Protein carbonylation in skeletal muscles: impact on function</article-title>
+                  <source>Antioxid. Redox Signal</source>
+                  <volume>12</volume>
+                  <year>2010</year>
+                  <fpage>417</fpage>
+                  <lpage>429</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ars.2009.2808</pub-id>
+                  <comment>19686036</comment>
+                  <pub-id pub-id-type="pmid">19686036</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib27">
+                <label>27</label>
+                <element-citation publication-type="journal" id="sbref270">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bedard</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krause</surname>
+                      <given-names>K.-H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The NOX family of ROS-generating NADPH oxidases: physiology and pathophysiology</article-title>
+                  <source>Physiol. Rev</source>
+                  <volume>87</volume>
+                  <year>2007</year>
+                  <fpage>245</fpage>
+                  <lpage>313</lpage>
+                  <pub-id pub-id-type="doi">10.1152/physrev.00044.2005</pub-id>
+                  <comment>17237347</comment>
+                  <pub-id pub-id-type="pmid">17237347</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib28">
+                <label>28</label>
+                <element-citation publication-type="journal" id="sbref280">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nabeebaccus</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NADPH oxidases and cardiac remodelling</article-title>
+                  <source>Heart Fail. Rev</source>
+                  <volume>16</volume>
+                  <year>2011</year>
+                  <fpage>5</fpage>
+                  <lpage>12</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10741-010-9186-2</pub-id>
+                  <comment>20658317</comment>
+                  <pub-id pub-id-type="pmid">20658317</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib29">
+                <label>29</label>
+                <element-citation publication-type="journal" id="sbref290">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Belambri</surname>
+                      <given-names>S.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rolas</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raad</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hurtado-Nedelec</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dang</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>El-Benna</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NADPH oxidase activation in neutrophils: role of the phosphorylation of its subunits</article-title>
+                  <source>Eur. J. Clin. Invest</source>
+                  <volume>48</volume>
+                  <year>2018</year>
+                  <object-id pub-id-type="publisher-id">e12951
+</object-id>
+                  <pub-id pub-id-type="doi">10.1111/eci.12951</pub-id>
+                  <comment>29757466</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib30">
+                <label>30</label>
+                <element-citation publication-type="journal" id="sbref300">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Administration of losartan preserves cardiomyocyte size and prevents myocardial dysfunction in tail-suspended mice by inhibiting p47<italic>phox</italic> phosphorylation, NADPH oxidase activation and MuRF1 expression</article-title>
+                  <source>J. Transl. Med</source>
+                  <volume>17</volume>
+                  <year>2019</year>
+                  <fpage>279</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12967-019-2021-1</pub-id>
+                  <comment>31438970</comment>
+                  <pub-id pub-id-type="pmid">31438970</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib31">
+                <label>31</label>
+                <element-citation publication-type="journal" id="sbref310">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sciarretta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhai</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shao</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zablocki</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagarajan</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Terada</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Volpe</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sadoshima</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Activation of NADPH oxidase 4 in the endoplasmic reticulum promotes cardiomyocyte autophagy and survival during energy stress through the protein kinase RNA-activated-like endoplasmic reticulum kinase/eukaryotic initiation factor 2α/activating transcription factor 4 pathway</article-title>
+                  <source>Circ. Res</source>
+                  <volume>113</volume>
+                  <year>2013</year>
+                  <fpage>1253</fpage>
+                  <lpage>1264</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.113.301787</pub-id>
+                  <comment>24081881</comment>
+                  <pub-id pub-id-type="pmid">24081881</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib32">
+                <label>32</label>
+                <element-citation publication-type="journal" id="sbref320">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Willis</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lockyer</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonough</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Atrogin-1 inhibits Akt-dependent cardiac hypertrophy in mice via ubiquitin-dependent coactivation of Forkhead proteins</article-title>
+                  <source>J. Clin. Invest</source>
+                  <volume>117</volume>
+                  <year>2007</year>
+                  <fpage>3211</fpage>
+                  <lpage>3223</lpage>
+                  <pub-id pub-id-type="doi">10.1172/JCI31757</pub-id>
+                  <comment>17965779</comment>
+                  <pub-id pub-id-type="pmid">17965779</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib33">
+                <label>33</label>
+                <element-citation publication-type="journal" id="sbref330">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>H.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kedar</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonough</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arya</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D.Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Atrogin-1/muscle atrophy F-box inhibits calcineurin-dependent cardiac hypertrophy by participating in an SCF ubiquitin ligase complex</article-title>
+                  <source>J. Clin. Invest</source>
+                  <volume>114</volume>
+                  <year>2004</year>
+                  <fpage>1058</fpage>
+                  <lpage>1071</lpage>
+                  <pub-id pub-id-type="doi">10.1172/JCI200422220</pub-id>
+                  <comment>15489953</comment>
+                  <pub-id pub-id-type="pmid">15489953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib34">
+                <label>34</label>
+                <element-citation publication-type="journal" id="sbref340">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tidball</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Spencer</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Expression of a calpastatin transgene slows muscle wasting and obviates changes in myosin isoform expression during murine muscle disuse</article-title>
+                  <source>J. Physiol</source>
+                  <volume>545</volume>
+                  <year>2002</year>
+                  <fpage>819</fpage>
+                  <lpage>828</lpage>
+                  <pub-id pub-id-type="doi">10.1113/jphysiol.2002.024935</pub-id>
+                  <comment>12482888</comment>
+                  <pub-id pub-id-type="pmid">12482888</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib35">
+                <label>35</label>
+                <element-citation publication-type="journal" id="sbref350">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnold</surname>
+                      <given-names>J.M.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pampillo</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Babwah</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Taurine prevents cardiomyocyte death by inhibiting NADPH oxidase-mediated calpain activation</article-title>
+                  <source>Free Radic. Biol. Med</source>
+                  <volume>46</volume>
+                  <year>2009</year>
+                  <fpage>51</fpage>
+                  <lpage>61</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2008.09.025</pub-id>
+                  <comment>18950702</comment>
+                  <pub-id pub-id-type="pmid">18950702</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib36">
+                <label>36</label>
+                <element-citation publication-type="journal" id="sbref360">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lassègue</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>San Martín</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Griendling</surname>
+                      <given-names>K.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biochemistry, physiology, and pathophysiology of NADPH oxidases in the cardiovascular system</article-title>
+                  <source>Circ. Res</source>
+                  <volume>110</volume>
+                  <year>2012</year>
+                  <fpage>1364</fpage>
+                  <lpage>1390</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.111.243972</pub-id>
+                  <comment>22581922</comment>
+                  <pub-id pub-id-type="pmid">22581922</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib37">
+                <label>37</label>
+                <element-citation publication-type="journal" id="sbref370">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Griendling</surname>
+                      <given-names>K.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sorescu</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ushio-Fukai</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NAD(P)H oxidase: role in cardiovascular biology and disease</article-title>
+                  <source>Circ. Res</source>
+                  <volume>86</volume>
+                  <year>2000</year>
+                  <fpage>494</fpage>
+                  <lpage>501</lpage>
+                  <pub-id pub-id-type="doi">10.1161/01.res.86.5.494</pub-id>
+                  <comment>10720409</comment>
+                  <pub-id pub-id-type="pmid">10720409</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib38">
+                <label>38</label>
+                <element-citation publication-type="journal" id="sbref380">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Corda</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Laplace</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vicaut</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Duranteau</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Rapid reactive oxygen species production by mitochondria in endothelial cells exposed to tumor necrosis factor-α is mediated by ceramide</article-title>
+                  <source>Am. J. Respir. Cell Mol. Biol</source>
+                  <volume>24</volume>
+                  <year>2001</year>
+                  <fpage>762</fpage>
+                  <lpage>768</lpage>
+                  <pub-id pub-id-type="doi">10.1165/ajrcmb.24.6.4228</pub-id>
+                  <comment>11415943</comment>
+                  <pub-id pub-id-type="pmid">11415943</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib39">
+                <label>39</label>
+                <element-citation publication-type="journal" id="sbref390">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shin</surname>
+                      <given-names>M.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moon</surname>
+                      <given-names>Y.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>J.-E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>J.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reactive oxygen species produced by NADPH oxidase, xanthine oxidase, and mitochondrial electron transport system mediate heat shock-induced MMP-1 and MMP-9 expression</article-title>
+                  <source>Free Radic. Biol. Med</source>
+                  <volume>44</volume>
+                  <year>2008</year>
+                  <fpage>635</fpage>
+                  <lpage>645</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2007.10.053</pub-id>
+                  <comment>18036352</comment>
+                  <pub-id pub-id-type="pmid">18036352</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib40">
+                <label>40</label>
+                <element-citation publication-type="journal" id="sbref400">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dubey</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pessarakli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Reactive oxygen species, oxidative damage, and antioxidative defense mechanism in plants under stressful conditions</article-title>
+                  <source>J. Botany</source>
+                  <volume>2012</volume>
+                  <year>2012</year>
+                  <fpage>1</fpage>
+                  <lpage>26</lpage>
+                  <pub-id pub-id-type="doi">10.1155/2012/217037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib41">
+                <label>41</label>
+                <element-citation publication-type="journal" id="sbref410">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scandalios</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oxidative stress: molecular perception and transduction of signals triggering antioxidant gene defenses</article-title>
+                  <source>Braz. J. Med. Biol. Res</source>
+                  <volume>38</volume>
+                  <year>2005</year>
+                  <fpage>995</fpage>
+                  <lpage>1014</lpage>
+                  <pub-id pub-id-type="doi">10.1590/s0100-879x2005000700003</pub-id>
+                  <comment>16007271</comment>
+                  <pub-id pub-id-type="pmid">16007271</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib42">
+                <label>42</label>
+                <element-citation publication-type="journal" id="sbref420">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morey-Holton</surname>
+                      <given-names>E.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hindlimb unloading rodent model: technical aspects</article-title>
+                  <source>J. Appl. Physiol</source>
+                  <volume>92</volume>
+                  <year>2002</year>
+                  <fpage>1367</fpage>
+                  <lpage>1377</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00969.2001</pub-id>
+                  <comment>11895999</comment>
+                  <pub-id pub-id-type="pmid">11895999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib43">
+                <label>43</label>
+                <element-citation publication-type="journal" id="sbref430">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wan</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnold</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deficiency of Rac1 blocks NADPH oxidase activation, inhibits endoplasmic reticulum stress, and reduces myocardial remodeling in a mouse model of type 1 diabetes</article-title>
+                  <source>Diabetes</source>
+                  <volume>59</volume>
+                  <year>2010</year>
+                  <fpage>2033</fpage>
+                  <lpage>2042</lpage>
+                  <pub-id pub-id-type="doi">10.2337/db09-1800</pub-id>
+                  <comment>20522592</comment>
+                  <pub-id pub-id-type="pmid">20522592</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib44">
+                <label>44</label>
+                <element-citation publication-type="journal" id="sbref440">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lei</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Endothelial nitric-oxide synthase enhances lipopolysaccharide-stimulated tumor necrosis factor-α expression via cAMP-mediated p38 MAPK pathway in cardiomyocytes</article-title>
+                  <source>J. Biol. Chem</source>
+                  <volume>278</volume>
+                  <year>2003</year>
+                  <fpage>8099</fpage>
+                  <lpage>8105</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M207288200</pub-id>
+                  <comment>12506117</comment>
+                  <pub-id pub-id-type="pmid">12506117</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <sec id="sec1" sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <p id="para560">
+                <supplementary-material content-type="local-data" id="ecomp10">
+                  <media xlink:href="mmc1.pdf"/>
+                </supplementary-material>
+              </p>
+            </sec>
+            <fn-group>
+              <fn id="d34e1184">
+                <p id="cenpara10"><italic>Author contributions</italic>—L. L, H. L., L. Q., L. Z., G.-C. F., P. A. G., J. L., D. L. J., and T. P. conceptualization; L. L., H. L., L. Q., L. Z., and G.-C. F. data curation; L. L., H. L., T. C., L. Q., L. Z., G.-C. F., and T. P. formal analysis; L. L., L. Q., L. Z., G.-C. F., P. A. G., J. L., D. L. J., and T. P. supervision; L. L. and T. P. funding acquisition; L. L., T. C., L. Q., L. Z., D. L. J., and T. P. validation; L. L., H. L., T. C., L. Q., L. Z., G.-C. F., P. A. G., and J. L. investigation; L. L., H. L., T. C., L. Q., L. Z., G.-C. F., P. A. G., J. L., and D. L. J. methodology; L. L., H. L., L. Q., L. Z., G.-C. F., J. L., and D. L. J. writing-original draft; L. L., T. C., L. Q., L. Z., G.-C. F., P. A. G., J. L., D. L. J., and T. P. writing-review and editing; L. Z. project administration.</p>
+                <p id="cenpara20"><italic>Funding and additional information</italic>—This study was supported by the opening foundation of the State Key Laboratory of Space Medicine Fundamentals and Application, Chinese Astronaut Research and Training Center (Grants SMFA15K02 and SMFA18K01), Natural Science Foundation of Jiangsu Province Grant BK20171216, Natural Science Foundation of Zhejiang Province Grant LY14H020005, and Priority Academic Program Development of Jiangsu Higher Education Institutions.</p>
+                <p id="cenpara30"><italic>Conflict of interest</italic>—The authors declare that they have no conflicts of interest with the contents of this article.</p>
+                <p id="cenpara50"><italic>Abbreviations</italic>—The abbreviations used are:<def-list><def-item><term id="defterm10">MAPK</term><def><p id="para10">mitogen-activated protein kinase</p></def></def-item><def-item><term id="defterm20">GPx</term><def><p id="para20">glutathione peroxidase</p></def></def-item><def-item><term id="defterm30">LV</term><def><p id="para30">left ventricular</p></def></def-item><def-item><term id="defterm40">MDA</term><def><p id="para40">malondialdehyde</p></def></def-item><def-item><term id="defterm50">ROS</term><def><p id="para50">reactive oxygen species</p></def></def-item><def-item><term id="defterm60">SOD</term><def><p id="para60">superoxide dismutase</p></def></def-item><def-item><term id="defterm70">TS</term><def><p id="para70">tail suspension</p></def></def-item><def-item><term id="defterm80">KO</term><def><p id="para80">knockout</p></def></def-item><def-item><term id="defterm90">SMG</term><def><p id="para90">simulated microgravity</p></def></def-item><def-item><term id="defterm100">ANOVA</term><def><p id="para100">analysis of variance</p></def></def-item><def-item><term id="defterm110">GAPDH</term><def><p id="para110">glyceraldehyde-3-phosphate dehydrogenase.</p></def></def-item></def-list></p>
+              </fn>
+            </fn-group>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

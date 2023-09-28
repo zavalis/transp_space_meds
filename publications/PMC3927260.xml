@@ -1,0 +1,2654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:04:42Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3927260" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3927260</identifier>
+        <datestamp>2014-02-19</datestamp>
+        <setSpec>bmcps</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" xml:lang="en">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">BMC Plant Biol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">BMC Plant Biol</journal-id>
+              <journal-title-group>
+                <journal-title>BMC Plant Biology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1471-2229</issn>
+              <publisher>
+                <publisher-name>BioMed Central</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3927260</article-id>
+              <article-id pub-id-type="pmcid">PMC3927260</article-id>
+              <article-id pub-id-type="pmc-uid">3927260</article-id>
+              <article-id pub-id-type="pmid">24393219</article-id>
+              <article-id pub-id-type="publisher-id">1471-2229-14-4</article-id>
+              <article-id pub-id-type="pmid">24393219</article-id>
+              <article-id pub-id-type="doi">10.1186/1471-2229-14-4</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes" id="A1">
+                  <name>
+                    <surname>Sugimoto</surname>
+                    <given-names>Manabu</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I1">1</xref>
+                  <email>manabus@rib.okayama-u.ac.jp</email>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes" id="A2">
+                  <name>
+                    <surname>Oono</surname>
+                    <given-names>Youko</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I2">2</xref>
+                  <email>yoono@affrc.go.jp</email>
+                </contrib>
+                <contrib contrib-type="author" id="A3">
+                  <name>
+                    <surname>Gusev</surname>
+                    <given-names>Oleg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I3">3</xref>
+                  <xref ref-type="aff" rid="I4">4</xref>
+                  <xref ref-type="aff" rid="I2">2</xref>
+                  <email>oleg@cryptobio.com</email>
+                </contrib>
+                <contrib contrib-type="author" id="A4">
+                  <name>
+                    <surname>Matsumoto</surname>
+                    <given-names>Takashi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I2">2</xref>
+                  <xref ref-type="aff" rid="I5">5</xref>
+                  <email>mat@affrc.go.jp</email>
+                </contrib>
+                <contrib contrib-type="author" id="A5">
+                  <name>
+                    <surname>Yazawa</surname>
+                    <given-names>Takayuki</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I6">6</xref>
+                  <email>tyazawa@affrc.go.jp</email>
+                </contrib>
+                <contrib contrib-type="author" id="A6">
+                  <name>
+                    <surname>Levinskikh</surname>
+                    <given-names>Margarita A</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I7">7</xref>
+                  <email>ritalev@imbp.ru</email>
+                </contrib>
+                <contrib contrib-type="author" id="A7">
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>Vladimir N</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I7">7</xref>
+                  <email>vsychev@imbp.ru</email>
+                </contrib>
+                <contrib contrib-type="author" id="A8">
+                  <name>
+                    <surname>Bingham</surname>
+                    <given-names>Gail E</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I8">8</xref>
+                  <email>Gail.Bingham@sdl.usu.edu</email>
+                </contrib>
+                <contrib contrib-type="author" id="A9">
+                  <name>
+                    <surname>Wheeler</surname>
+                    <given-names>Raymond</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I9">9</xref>
+                  <email>raymond.m.wheeler@nasa.gov</email>
+                </contrib>
+                <contrib contrib-type="author" id="A10">
+                  <name>
+                    <surname>Hummerick</surname>
+                    <given-names>Mary</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="I9">9</xref>
+                  <email>mary.e.hummerick@nasa.gov</email>
+                </contrib>
+              </contrib-group>
+              <aff id="I1"><label>1</label>Institute of Plant Science and Resources, Okayama University, 2-20-1 Chuo, Kurashiki, Okayama 710-0046, Japan</aff>
+              <aff id="I2"><label>2</label>National Institute of Agrobiological Sciences, 2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan</aff>
+              <aff id="I3"><label>3</label>Institute of Fundamental Medicine and Biology, Kazan Federal University, Kazan 420008, Russia</aff>
+              <aff id="I4"><label>4</label>Institute of Space and Astronautical Science, JAXA, Tsukuba, Ibaraki 305-8505, Japan</aff>
+              <aff id="I5"><label>5</label>Agriculture, Forestry and Fisheries Research Council, Ministry of Agriculture, Forestry and Fisheries, 1-2-1 Kasumigaseki, Chiyoda-ku, Tokyo 100-8950, Japan</aff>
+              <aff id="I6"><label>6</label>Hitachi Government &amp; Public Corporation System Engineering Ltd, 2-4-18 Toyo, Koto-ku, Tokyo 135-8633, Japan</aff>
+              <aff id="I7"><label>7</label>Institute of Biomedical Problems, Russian Academy of Sciences, 76a Khorosheevskoe shosse, Moscow 123007, Russia</aff>
+              <aff id="I8"><label>8</label>Space Dynamics Laboratory, Utah State University, 1695 North Research Park Way, Logan, Utah 84341-1942, USA</aff>
+              <aff id="I9"><label>9</label>Kennedy Space Center, NASA, Florida 32899, USA</aff>
+              <pub-date pub-type="collection">
+                <year>2014</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>6</day>
+                <month>1</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>14</volume>
+              <fpage>4</fpage>
+              <lpage>4</lpage>
+              <history>
+                <date date-type="received">
+                  <day>13</day>
+                  <month>9</month>
+                  <year>2013</year>
+                </date>
+                <date date-type="accepted">
+                  <day>31</day>
+                  <month>12</month>
+                  <year>2013</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2014 Sugimoto et al.; licensee BioMed Central Ltd.</copyright-statement>
+                <copyright-year>2014</copyright-year>
+                <copyright-holder>Sugimoto et al.; licensee BioMed Central Ltd.</copyright-holder>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+                  <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+                </license>
+              </permissions>
+              <self-uri xlink:href="http://www.biomedcentral.com/1471-2229/14/4"/>
+              <abstract>
+                <sec>
+                  <title>Background</title>
+                  <p>Spaceflight environment have been shown to generate reactive oxygen species (ROS) and induce oxidative stress in plants, but little is known about the gene expression of the ROS gene network in plants grown in long-term spaceflight. The molecular response and adaptation to the spaceflight environment of Mizuna plants harvested after 27 days of cultivation onboard the International Space Station (ISS) were measured using genome-wide mRNA expression analysis (mRNA-Seq).</p>
+                </sec>
+                <sec>
+                  <title>Results</title>
+                  <p>Total reads of transcripts from the Mizuna grown in the ISS as well as on the ground by mRNA-Seq showed 8,258 and 14,170 transcripts up-regulated and down-regulated, respectively, in the space-grown Mizuna when compared with those from the ground-grown Mizuna. A total of 20 in 32 ROS oxidative marker genes were up-regulated, including high expression of four hallmarks, and preferentially expressed genes associated with ROS-scavenging including thioredoxin, glutaredoxin, and alternative oxidase genes. In the transcription factors of the ROS gene network, MEKK1-MKK4-MPK3, OXI1-MKK4-MPK3, and OXI1-MPK3 of MAP cascades, induction of WRKY22 by MEKK1-MKK4-MPK3 cascade, induction of WRKY25 and repression of Zat7 by Zat12 were suggested. RbohD and RbohF genes were up-regulated preferentially in NADPH oxidase genes, which produce ROS.</p>
+                </sec>
+                <sec>
+                  <title>Conclusions</title>
+                  <p>This large-scale transcriptome analysis revealed that the spaceflight environment induced oxidative stress and the ROS gene network activation in the space-grown Mizuna. Among transcripts altered in expression by space conditions, some were common genes response to abiotic and biotic stress. Furthermore, certain genes were exclusively up-regulated in Mizuna grown on the ISS. Surprisingly, Mizuna grew in space normally, as well as on the ground, demonstrating that plants can acclimate to long-term exposure in the spaceflight environment by reprogramming the expression of the ROS gene network.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>mRNA-Seq</kwd>
+                <kwd>Next generation sequencing</kwd>
+                <kwd>Transcriptome</kwd>
+                <kwd>Mizuna</kwd>
+                <kwd>Reactive oxygen species</kwd>
+                <kwd>International Space Station</kwd>
+                <kwd>Spaceflight</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec>
+              <title>Background</title>
+              <p>Plant cultivation in space will be necessary to augment stored foods when space mission distances and durations increase, such as for long term bases on the Moon and Mars, and even being considered for orbiting bases such as the International Space Station (ISS). Plants can play an important role in supplying nutrients, oxygen, and water to humans and can be co-utilized for waste recycling in space [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>], therefore, establishment of the culture approaches and breeding/developing plants to optimize their performance in space will be critical to future advanced space life support systems. In space, plants can be exposed to unusual and extreme environments, such as space radiation, reduced gravity, reduced atmospheric pressure, elevated or super-elevated CO<sub>2</sub> concentrations, and temperature excursions. In orbital, spaceflight cabin, lunar and Martian bases, environmental conditions for plant cultivation such as temperature, light, air, and water could be controlled, however, it would be hard to eliminate space radiation and reduced gravity, which are suspected to perturb plant growth and development.</p>
+              <p>Space radiation and microgravity are suggested to generate reactive oxygen species (ROS) in plants. Ionizing radiation produced ROS [<xref ref-type="bibr" rid="B3">3</xref>] and increased lipid peroxidation products in erythrocytes of mice housed for about 100 days in ISS [<xref ref-type="bibr" rid="B4">4</xref>], and exposure of <italic>Arabidopsis</italic> seedlings and callus cells to altered gravitational forces (clinorotation or hyper gravity) up-regulated genes associated with cellular signaling, protein phosphorylation/dephosphorylation, defense, stress response, and gravisensing [<xref ref-type="bibr" rid="B5">5</xref>-<xref ref-type="bibr" rid="B7">7</xref>]. Gene expression profiles have been analyzed to understand the stress level and adaptation challenges in plants grown in space. <italic>Arabidopsis</italic> plants (7 days old) launched and grown for 5 days in the Space Shuttle showed that the genes of HSP, drought-inducible calcium binding protein, a MADS-box protein, and MAP kinases were induced 4-fold, compared with those of ground control [<xref ref-type="bibr" rid="B8">8</xref>]. Pathogen response, wounding, drought, and cold associated genes, a gene associated with auxin-mediated lateral root development, and an essential regulator gene of photorespiration were up-regulated more than five-fold in the <italic>Arabidopsis</italic> seedlings, which were germinated and grown for 12 days in the Space Shuttle. In addition, genes associated heat shock, salt, drought, metals, wounding, phosphate, ethylene, senescence, terpenoids, seed development, cell walls, photosynthesis, and auxin were up-regulated by more than five-fold in the culture cells grown for 12 days in the Space Shuttle [<xref ref-type="bibr" rid="B9">9</xref>]. These results indicate that plant genes in the ROS network, which are induced by abiotic and biotic stress [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>], can be triggered by changes related to the spaceflight environment. However, because of the limitation of launching and cultivation in space, few studies on gene expression profiles have been performed, and in many cases plant materials were transported to orbit (i.e., not grown entirely in spaceflight), subjecting them to transient responses that may not have been due to spaceflight environment.</p>
+              <p>We have developed a plant growth system, namely Lada, which was installed in ISS to study and grow plants, including vegetables in a spaceflight environment. We have succeeded in cultivating Mizuna, tomato, pea, radish, wheat, rice, and barley in Lada aboard ISS. Both M1 and M2 pea grown from seeds formed during spaceflight showed no significant difference in growth, developmental characteristics, frequency of chromosome aberrations in primary root meristem, and level of molecular polymorphism between offspring of space-grown and ground control seeds [<xref ref-type="bibr" rid="B12">12</xref>]. On the other hand, transcription levels of superoxide dismutase, glutamyl transferase, catalase, and ascorbate peroxidase were increased in the barley germinated and grown for 26 days in Lada, though the whole-plant growth and development of the barley in spaceflight were the same as in the ground control barley [<xref ref-type="bibr" rid="B13">13</xref>]. These results suggest that plants can adapt to spaceflight environment by changing their ROS gene network.</p>
+              <p>In this study, we investigated the response of the ROS gene network in Mizuna, <italic>Brassica rapa</italic> var. <italic>nipposinica</italic>, cultivated for 27 days in ISS. Mizuna is one of the model plants for cultivating in Lada aboard ISS because it is a leafy vegetable that can fully develop in 4 weeks in order to supply not only a plant material for investigating the effect of spaceflight environment but also a fresh vegetable for astronauts to take nutrient and benefit mental health quickly [<xref ref-type="bibr" rid="B14">14</xref>]. The ROS gene network consists of a vast numbers genes, therefore, large-scale transcriptome analysis is necessary to clarify the stress level and adaptation challenges in plants under the spaceflight environment. The mRNA-Seq strategy using next generation sequencing (NGS) technology has become a powerful tool for analyzing genome-wide gene expression and global transcriptional networks. mRNA-Seq overcomes the limitations of microarray analysis, of which the probes are designed on the basis of a reference genome sequence of model species and cover only small portion of a gene. We demonstrated that an overall gene expression of the ROS gene network in the space-grown Mizuna was characterized by mapping reads from the NGS analysis to the <italic>Brassica</italic> database as a reference genome sequence and annotating genes. Our results provide a survey of plant response to the spaceflight environment and define common and different genes and cascades in the ROS gene network for adapting to the spaceflight environment.</p>
+            </sec>
+            <sec>
+              <title>Results and discussion</title>
+              <sec>
+                <title>Growth of Mizuna in space</title>
+                <p>The seeds of Mizuna was transported to ISS, germinated, and grown in “Lada”, plant growth chamber aboard the Russian segment of ISS, which has successfully produced a harvest of fresh vegetables and seeds in space [<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. The fresh weight and water content of the space-grown Mizuna were 82.9 g and 92.5%, and those of the ground-grown Mizuna were 58.0 g and 92.0%, respectively, after 28 days of cultivation, showing that Mizuna grew as well or better under spaceflight environment in ISS as well as on the ground. The reduced growth of the ground controls was likely due to the close matching of watering protocols for space and ground plants, which resulted in slower germination on the ground and some wilting symptoms of some ground control plants just prior to harvest. Although similar amounts of water were being added to space and ground plants, the tendency of water to settle to the bottom of the root trays on the ground (and be more uniformly distributed in space) could have affected overall growth.</p>
+              </sec>
+              <sec>
+                <title>Construction of the Mizuna transcript dataset and identification of differentially expressed transcripts</title>
+                <p>Total reads of transcripts from the space-grown and the ground-grown Mizuna by paired-end sequencing assay were 73,028,136 and 74,578,954. Also, 44,994,328 (61.6%) and 49,195,408 (66.0%) of transcripts of total reads were mapped to the reference <italic>Brassica rapa</italic> genome sequence, respectively. A G-test [false discovery rate (FDR) &lt; 0.001] was performed on the read count of transcripts to detect differences in gene expression between the space-grown and the ground-grown Mizuna, and to identify responsive transcripts of the space-grown Mizuna. The numbers of up-regulated and down-regulated transcripts were 8,258 and 14,170, which respectively included 467 and 1,208 unannotated transcripts (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S1).</p>
+                <p>These responsive genes were functionally characterized using Gene Ontology (GO) enrichment analysis. A total of 1,707 and 2,895 probe sets of up-regulated and down-regulated genes were respectively assigned to 26 and 52 terms in biological process category. The greatest increase in up-regulated genes occurred in oxidation-reduction process (GO:0055114), followed by protein phosphorylation (GO:0006468), the total of which represented 48% of biological process, whereas that of down-regulated genes was protein phosphorylation (GO:0006468), which represents 38% (Figure <xref ref-type="fig" rid="F1">1</xref>, Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>: Table S2). Cytochrome P450 and protein kinase were the main genes in oxidation-reduction process and protein phosphorylation, respectively. Cytochrome P450 is associated with the detoxification reactions of xenobiotic compounds activated to electrophilic molecules to maintain the redox homeostasis [<xref ref-type="bibr" rid="B16">16</xref>]. Protein kinases play key roles in signal transduction under abiotic and biotic stress. These results suggest that redox-oxidation state was perturbed and that signal transduction is regulated in the cells of the space-grown Mizuna.</p>
+                <fig id="F1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p><bold>Distribution of up-regulated and down-regulated genes in biological process category of Gene Ontology.</bold> A total of 1,707 and 2,895 probe sets of up-regulated and down-regulated genes respectively in the space grown Mizuna were assigned to the biological category. The number of top 20 GO terms in up-regulated genes and down-regulated genes are shown. The <italic>x</italic>-axis and <italic>y</italic>-axis indicate the number of transcripts and the category, respectively.</p>
+                  </caption>
+                  <graphic xlink:href="1471-2229-14-4-1"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Expression profiles of oxidative marker and ROS-scavenging genes</title>
+                <p>Table <xref ref-type="table" rid="T1">1</xref> shows 32 ROS oxidative marker genes up-regulated more than five-fold by hydrogen peroxide, superoxide, or singlet oxygen in <italic>Arabidopsis</italic>, including putative trypsin inhibitor (At2g43510), unknown protein (At1g19020), unknown protein (At1g05340), transmembrane receptor (At1g57630), and unknown protein (At2g21640), which are regarded as hallmarks for the general oxidative stress response [<xref ref-type="bibr" rid="B17">17</xref>]. In the space-grown Mizuna, 20 of 32 genes were up-regulated more than five-fold. Especially, 4 of 5 hallmark genes, Bra04768 (At2g43510, putative trypsin inhibitor), Bra031061 and Bra025707 (At1g19020, unknown protein), Bra015419 (At1g05340, unknown protein), Bra031207 (At2g21640, unknown protein), showed a greater than ten-fold increase in expression. These results show that the spaceflight environment induces oxidative stress in the cells of space-grown Mizuna.</p>
+                <table-wrap position="float" id="T1">
+                  <label>Table 1</label>
+                  <caption>
+                    <p>Expression of oxidative marker genes in the space-grown Mizuna</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" border="1">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                    </colgroup>
+                    <thead valign="top">
+                      <tr>
+                        <th align="left">
+                          <bold>Gene name</bold>
+                        </th>
+                        <th align="center">
+                          <bold>AGI code</bold>
+                        </th>
+                        <th align="center">
+                          <bold>
+                            <italic>B. rapa </italic>
+                          </bold>
+                          <bold>gene</bold>
+                        </th>
+                        <th align="center">
+                          <bold>Fold change</bold>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="bottom">Trypsin inhibitor, putative<hr/></td>
+                        <td align="center" valign="bottom">At2g43510<hr/></td>
+                        <td align="center" valign="bottom">Bra004768<hr/></td>
+                        <td align="center" valign="bottom">34<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra037705<hr/></td>
+                        <td align="center" valign="bottom">1.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra014534<hr/></td>
+                        <td align="center" valign="bottom">0.01<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Disease resistance protein putative<hr/></td>
+                        <td align="center" valign="bottom">At1g57630<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">At1g19020<hr/></td>
+                        <td align="center" valign="bottom">Bra031061<hr/></td>
+                        <td align="center" valign="bottom">41<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra025707<hr/></td>
+                        <td align="center" valign="bottom">19<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">At1g05340<hr/></td>
+                        <td align="center" valign="bottom">Bra015419<hr/></td>
+                        <td align="center" valign="bottom">43<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">At2g21640<hr/></td>
+                        <td align="center" valign="bottom">Bra031207<hr/></td>
+                        <td align="center" valign="bottom">13<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Embryo-abundant protein-related<hr/></td>
+                        <td align="center" valign="bottom">At2g41380<hr/></td>
+                        <td align="center" valign="bottom">Bra016937<hr/></td>
+                        <td align="center" valign="bottom">12<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">DNAJ heat shock<hr/></td>
+                        <td align="center" valign="bottom">At3g08970<hr/></td>
+                        <td align="center" valign="bottom">Bra029736<hr/></td>
+                        <td align="center" valign="bottom">2.2<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra036657<hr/></td>
+                        <td align="center" valign="bottom">0.47<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Glutathione S-transferase, putative<hr/></td>
+                        <td align="center" valign="bottom">At2g29490<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY family transcription factor<hr/></td>
+                        <td align="center" valign="bottom">At1g62300<hr/></td>
+                        <td align="center" valign="bottom">Bra027057<hr/></td>
+                        <td align="center" valign="bottom">5.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra034482<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Glutathione S-transferase, putative<hr/></td>
+                        <td align="center" valign="bottom">At2g29470<hr/></td>
+                        <td align="center" valign="bottom">Bra039983<hr/></td>
+                        <td align="center" valign="bottom">6.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">tolB protein-related<hr/></td>
+                        <td align="center" valign="bottom">At4g01870<hr/></td>
+                        <td align="center" valign="bottom">Bra000913<hr/></td>
+                        <td align="center" valign="bottom">1.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Embryo-abundant protein-related<hr/></td>
+                        <td align="center" valign="bottom">At4g22530<hr/></td>
+                        <td align="center" valign="bottom">Bra013623<hr/></td>
+                        <td align="center" valign="bottom">2.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Glutathione S-transferase, putative<hr/></td>
+                        <td align="center" valign="bottom">At1g17170<hr/></td>
+                        <td align="center" valign="bottom">Bra025995<hr/></td>
+                        <td align="center" valign="bottom">11<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Armadillo/beta-catenin repeat family protein<hr/></td>
+                        <td align="center" valign="bottom">At3g09350<hr/></td>
+                        <td align="center" valign="bottom">Bra029761<hr/></td>
+                        <td align="center" valign="bottom">7.3<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra001314<hr/></td>
+                        <td align="center" valign="bottom">1.4<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">UDP-glucosyl transferase family protein<hr/></td>
+                        <td align="center" valign="bottom">At2g43820<hr/></td>
+                        <td align="center" valign="bottom">Bra000330<hr/></td>
+                        <td align="center" valign="bottom">11<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra000329<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra004787<hr/></td>
+                        <td align="center" valign="bottom">0.68<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">UDP-glucosyl transferase family protein<hr/></td>
+                        <td align="center" valign="bottom">At3g11340<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Cell division cycle protein 48, putative<hr/></td>
+                        <td align="center" valign="bottom">At3g53230<hr/></td>
+                        <td align="center" valign="bottom">Bra006978<hr/></td>
+                        <td align="center" valign="bottom">7.6<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra003123<hr/></td>
+                        <td align="center" valign="bottom">2.5<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">FAD-binding domain-containing protein<hr/></td>
+                        <td align="center" valign="bottom">At1g26420<hr/></td>
+                        <td align="center" valign="bottom">Bra024717<hr/></td>
+                        <td align="center" valign="bottom">6.0<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">UDP-glucosyl transferase family protein<hr/></td>
+                        <td align="center" valign="bottom">At1g22400<hr/></td>
+                        <td align="center" valign="bottom">Bra012324<hr/></td>
+                        <td align="center" valign="bottom">4.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra012323<hr/></td>
+                        <td align="center" valign="bottom">3.7<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Embryo-abundant protein-related<hr/></td>
+                        <td align="center" valign="bottom">At3g54150<hr/></td>
+                        <td align="center" valign="bottom">Bra007051<hr/></td>
+                        <td align="center" valign="bottom">22.0<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra014837<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">At1g13340<hr/></td>
+                        <td align="center" valign="bottom">Bra016733<hr/></td>
+                        <td align="center" valign="bottom">11<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra019826<hr/></td>
+                        <td align="center" valign="bottom">1.4<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Mannitol dehydrogenase, putative (ELI3-2)<hr/></td>
+                        <td align="center" valign="bottom">At4g37990<hr/></td>
+                        <td align="center" valign="bottom">Bra010627<hr/></td>
+                        <td align="center" valign="bottom">9.9<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY family transcription factor<hr/></td>
+                        <td align="center" valign="bottom">At5g13080<hr/></td>
+                        <td align="center" valign="bottom">Bra008858<hr/></td>
+                        <td align="center" valign="bottom">15<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra006178<hr/></td>
+                        <td align="center" valign="bottom">9.5<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">FAD-binding domain-containing protein<hr/></td>
+                        <td align="center" valign="bottom">At1g26380<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Cytochrome P450 71B15, putative<hr/></td>
+                        <td align="center" valign="bottom">At3g26830<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Cytochrome P450, putative<hr/></td>
+                        <td align="center" valign="bottom">At4g37370<hr/></td>
+                        <td align="center" valign="bottom">Bra017819<hr/></td>
+                        <td align="center" valign="bottom">8.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">bHLH transcription factor<hr/></td>
+                        <td align="center" valign="bottom">At1g10585<hr/></td>
+                        <td align="center" valign="bottom">Bra031721<hr/></td>
+                        <td align="center" valign="bottom">6.3<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">At4g39670<hr/></td>
+                        <td align="center" valign="bottom">Bra004321<hr/></td>
+                        <td align="center" valign="bottom">43.5<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra010670<hr/></td>
+                        <td align="center" valign="bottom">1.4<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Zinc finger (AN1-like) family protein<hr/></td>
+                        <td align="center" valign="bottom">At3g28210<hr/></td>
+                        <td align="center" valign="bottom">Bra025324<hr/></td>
+                        <td align="center" valign="bottom">38<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Glutathione S-transferase, putative<hr/></td>
+                        <td align="center" valign="bottom">At2g29460<hr/></td>
+                        <td align="center" valign="bottom">Bra039982<hr/></td>
+                        <td align="center" valign="bottom">1.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra018385<hr/></td>
+                        <td align="center" valign="bottom">1.4<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Expressed protein<hr/></td>
+                        <td align="center" valign="bottom">265674_at<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left">2-oxoacid-dependent oxidase,</td>
+                        <td align="center">At3g49620</td>
+                        <td align="center">Bra017969</td>
+                        <td align="center">0.18</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p>Transcripts representing ROS-induced genes in at leaset six out of eight stress experiments in <italic>Arabidopsis</italic> reported by Gadjev et al. [<xref ref-type="bibr" rid="B17">17</xref>] are listed. Fold change values of the space-grown Mizuna genes associated with the listed <italic>Arabidopsis</italic> genes are shown. ND, not detected.</p>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>ROS-scavenging genes are induced to defend the cells from oxidative stress. The expression level of transcripts associated with <italic>Arabidopsis</italic> ROS-scavenging genes [<xref ref-type="bibr" rid="B18">18</xref>] was confirmed in the space-grown Mizuna (Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>: Table S3). In fact, 20 transcripts were up-regulated more than two-fold, including the major ROS-scavenging enzymes: superoxide dismutase, catalase, and glutathione peroxidase. A dramatic induction occurred in thioredoxin (Bra014037) and glutaredoxin (Bra030102, Bra032911) genes, of which the levels were increased more than 40-fold. Thioredoxin and glutaredoxin belong to the thioredoxin superfamily known to be crucial for maintaining a reduced intracellular redox state and oxidative defense [<xref ref-type="bibr" rid="B19">19</xref>]. Alternative oxidase (AOX) (Bra010153) was another highly expressed gene, with 9.2-fold up-regulation. AOX activity increases in plants under oxidative stress such as drought and salinity, and AOX functions as an antioxidant enzyme, acting to alleviate ROS accumulation [<xref ref-type="bibr" rid="B20">20</xref>-<xref ref-type="bibr" rid="B22">22</xref>]. These results suggest that the Mizuna modulates ROS-scavenging genes to eliminate oxidative stress induced by the spaceflight environment.</p>
+              </sec>
+              <sec>
+                <title>Expression profiles of ROS-responsive transcription factor genes</title>
+                <p>Plants sense the ROS level and change the expression of genes comprising the ROS signal network that regulate growth, development, and stress defense. The ROS signals are induced via mitogen-activated protein kinase (MAPK) cascades, which play a crucial role in abiotic and biotic stress responses in plants (Figure <xref ref-type="fig" rid="F2">2</xref>). In <italic>Arabidopsis</italic>, MEKK1, OXI1, and ANP1 have been shown to function upstream to MAPK cascades. The MEKK1-MKK1/MKK2-MPK4 cascade was shown to a key regulator of ROS stress signaling [<xref ref-type="bibr" rid="B23">23</xref>] and an MEKK1-MKK2-MPK4/MPK6 cascade was identified in cold and salt stress [<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref>]. An MEKK1-MKK4/MKK5-MPK3/MPK6 cascade was shown to function in protoplasts treated with bacterial flagellin peptide [<xref ref-type="bibr" rid="B26">26</xref>] and MKK4 regulated MPK3 under salt stress [<xref ref-type="bibr" rid="B27">27</xref>]. An ANP1-MKK4/MKK5-MPK3/MPK6 cascade was shown in H<sub>2</sub>O<sub>2</sub> treated <italic>Arabidopsis</italic> plants [<xref ref-type="bibr" rid="B28">28</xref>]. An OXI1-MPK3/MPK6 cascade was activated by ROS [<xref ref-type="bibr" rid="B29">29</xref>] and an OXI1-NDPK2-MPK3/MPK6 was suggested to enhance tolerance against freezing and salinity [<xref ref-type="bibr" rid="B30">30</xref>]. Aside from the induction of MEKK1, ANP1, and OXI1 by H<sub>2</sub>O<sub>2</sub>, OXI1 is activated by PDK1 via the PLC/D-PA pathway. The expression levels of the genes in the space-grown Mizuna associated with <italic>Arabidopsis</italic> MAPK cascades are presented in Figure <xref ref-type="fig" rid="F2">2</xref>. MEKK1 (Bra037860), OXI1 (Bra015120), MKK4 (Bra030430), and MPK3 (Bra038281) were up-regulated more than five-fold, indicating that MEKK1-MKK4-MPK3, OXI1-MKK4-MPK3, and OXI1-MPK3 cascades were strongly activated via ROS under spaceflight environment. The expression of PDK1 gene (Bra009447) by 1.0-fold shows that PLC/D-PA-PDK1 pathway is not related to the up-regulation of OXI1 gene.</p>
+                <fig id="F2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p><bold>Expression levels of genes in the space-grown Mizuna associated with MAPK cascade and transcription factor genes in ROS gene network.</bold> Pathway of MAPK cascade and transcription factor genes in <italic>Arabidopsis</italic> known to activate under abiotic and biotic stress are shown. Genes and fold change values in the space-grown Mizuna associated with MAPK cascade and transcription factor genes in <italic>Arabidopsis</italic> are indicated in the boxes. The more than five-fold up-regulated genes are highlighted by yellow and predicted active MAPK cascades in the space-grown Mizuna are shown by red arrows.</p>
+                  </caption>
+                  <graphic xlink:href="1471-2229-14-4-2"/>
+                </fig>
+                <p>Transcription factor genes WRKY and Zat respond to oxidative stress to control the expression of ROS network genes, of which 11 WRKY and 3 Zat genes respond with more than five-fold expression by oxidative stress in <italic>Arabidopsis</italic>[<xref ref-type="bibr" rid="B17">17</xref>]. In the space-grown Mizuna, 7 WRKY and 2 Zat genes were shown to have more than five-fold expression (Table <xref ref-type="table" rid="T2">2</xref>). Reportedly MEKK1-MEE4/MKK5-MPK3/MPK6 cascade activates WRKY22 and WRKY29 in the flagellin-treated <italic>Arabidopsis</italic>[<xref ref-type="bibr" rid="B26">26</xref>]. The expression levels of WRKY22 (Bra37368) and WRKY29 (Bra019297) in space-grown Mizuna were 9.1 and 0.7-fold, respectively, suggesting the activation of MEKK1-MKK4-MPK3-WRKY22 cascade. It was indicated to the negative control of WRKY25, WRKY33, and Zat12 by MEKK1-MKK1/MKK2-MPK4 cascade [<xref ref-type="bibr" rid="B23">23</xref>], however, WRKY25 (Bra022786), WRKY33 (Bra005104, Bra017117, Bra000064), and Zat12 (Bra002528, Bra020284, Bra006691) genes were up-regulated in the space-grown Mizuna, suggesting that the MEKK1-MKK1-MPK4 cascade in the space-grown Mizuna regulates other transcription factors or ROS network genes. Zat12 is the inducer of WRKY25 and Zat12 overexpression plants suppressed Zat7, which up-regulate WRKY70 [<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref>]. Up-regulation of Zat12 and WRKY25 genes and lack of expression or down-regulation of Zat7 and WRKY70 genes in the space-grown Mizuna suggest that Zat12 is a regulator in the ROS signal transduction pathway involved in the spaceflight environment as well as abiotic and biotic stress.</p>
+                <table-wrap position="float" id="T2">
+                  <label>Table 2</label>
+                  <caption>
+                    <p>Expression of ROS-responsive transcription factor genes in the space- grown Mizuna</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" border="1">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                    </colgroup>
+                    <thead valign="top">
+                      <tr>
+                        <th align="left">
+                          <bold>Gene name</bold>
+                        </th>
+                        <th align="center">
+                          <bold>AGI code</bold>
+                        </th>
+                        <th align="center">
+                          <bold>
+                            <italic>B. rapa </italic>
+                          </bold>
+                          <bold>gene</bold>
+                        </th>
+                        <th align="center">
+                          <bold>Fold change</bold>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="bottom">WRKY6<hr/></td>
+                        <td align="center" valign="bottom">At1g62300<hr/></td>
+                        <td align="center" valign="bottom">Bra027057<hr/></td>
+                        <td align="center" valign="bottom">5.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra034482<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY18<hr/></td>
+                        <td align="center" valign="bottom">At4g31800<hr/></td>
+                        <td align="center" valign="bottom">Bra019123<hr/></td>
+                        <td align="center" valign="bottom">43<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra023983<hr/></td>
+                        <td align="center" valign="bottom">36<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra010220<hr/></td>
+                        <td align="center" valign="bottom">26<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra011299<hr/></td>
+                        <td align="center" valign="bottom">23<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra033532<hr/></td>
+                        <td align="center" valign="bottom">1.9<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra032312<hr/></td>
+                        <td align="center" valign="bottom">1.3<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra002913<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY25<hr/></td>
+                        <td align="center" valign="bottom">At2g30250<hr/></td>
+                        <td align="center" valign="bottom">Bra022786<hr/></td>
+                        <td align="center" valign="bottom">3.9<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra018325<hr/></td>
+                        <td align="center" valign="bottom">1.3<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra021623<hr/></td>
+                        <td align="center" valign="bottom">1.2<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY30<hr/></td>
+                        <td align="center" valign="bottom">At5g24110<hr/></td>
+                        <td align="center" valign="bottom">Bra009734<hr/></td>
+                        <td align="center" valign="bottom">4.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra026467<hr/></td>
+                        <td align="center" valign="bottom">2.2<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY33<hr/></td>
+                        <td align="center" valign="bottom">At2g38470<hr/></td>
+                        <td align="center" valign="bottom">Bra005104<hr/></td>
+                        <td align="center" valign="bottom">81<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra017117<hr/></td>
+                        <td align="center" valign="bottom">17<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra000064<hr/></td>
+                        <td align="center" valign="bottom">9.5<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY40<hr/></td>
+                        <td align="center" valign="bottom">At1g80840<hr/></td>
+                        <td align="center" valign="bottom">Bra008435<hr/></td>
+                        <td align="center" valign="bottom">655<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra003588<hr/></td>
+                        <td align="center" valign="bottom">161<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra035148<hr/></td>
+                        <td align="center" valign="bottom">158<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY 43<hr/></td>
+                        <td align="center" valign="bottom">At2g46130<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY48<hr/></td>
+                        <td align="center" valign="bottom">At5g49520<hr/></td>
+                        <td align="center" valign="bottom">Bra010032<hr/></td>
+                        <td align="center" valign="bottom">64<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra036138<hr/></td>
+                        <td align="center" valign="bottom">1.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra020628<hr/></td>
+                        <td align="center" valign="bottom">0.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY53<hr/></td>
+                        <td align="center" valign="bottom">At4g23810<hr/></td>
+                        <td align="center" valign="bottom">Bra013732<hr/></td>
+                        <td align="center" valign="bottom">26<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra019265<hr/></td>
+                        <td align="center" valign="bottom">16<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY 70<hr/></td>
+                        <td align="center" valign="bottom">At3g56400<hr/></td>
+                        <td align="center" valign="bottom">Bra014692<hr/></td>
+                        <td align="center" valign="bottom">0.78<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra003239<hr/></td>
+                        <td align="center" valign="bottom">0.72<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra007243<hr/></td>
+                        <td align="center" valign="bottom">0.36<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">WRKY75<hr/></td>
+                        <td align="center" valign="bottom">At5g13080<hr/></td>
+                        <td align="center" valign="bottom">Bra008858<hr/></td>
+                        <td align="center" valign="bottom">15<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra006178<hr/></td>
+                        <td align="center" valign="bottom">9.5<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Zat7<hr/></td>
+                        <td align="center" valign="bottom">At3g46070<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Zat10<hr/></td>
+                        <td align="center" valign="bottom">At1g27730<hr/></td>
+                        <td align="center" valign="bottom">Bra010922<hr/></td>
+                        <td align="center" valign="bottom">153<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra032845<hr/></td>
+                        <td align="center" valign="bottom">45<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">Zat12<hr/></td>
+                        <td align="center" valign="bottom">At5g59820<hr/></td>
+                        <td align="center" valign="bottom">Bra002528<hr/></td>
+                        <td align="center" valign="bottom">164<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra020284<hr/></td>
+                        <td align="center" valign="bottom">58<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom"> <hr/></td>
+                        <td align="center" valign="bottom">Bra006691<hr/></td>
+                        <td align="center" valign="bottom">6.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left"> </td>
+                        <td align="center"> </td>
+                        <td align="center">Bra006692</td>
+                        <td align="center">1.6</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p>Transcripts representing oxidative stress-induced transcription factor genes in <italic>Arabidopsis</italic> reported by Gadiev et al. [<xref ref-type="bibr" rid="B17">17</xref>] are listed. Fold change values of the space-grown Mizuna genes associated with the listed <italic>Arabidopsis</italic> genes are shown.</p>
+                    <p>ND, not detected.</p>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>To confirm the predicted active MAPK cascade and transcription factor genes in the space-grown Mizuna by mRNA-Seq, gene expression was analyzed by quantitative RT-PCR using gene-specific primers (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S1, Additional file <xref ref-type="supplementary-material" rid="S5">5</xref>: Table S4). The expression levels of OXI1, MEKK1, MKK4, MPK3, Zat12, WRKY22 and WRKY25 were increased 38, 8, 5, 6, 8, 18 and 3-fold, respectively, in the space-grown Mizuna (Figure <xref ref-type="fig" rid="F3">3</xref>). This result correlates with that of mRNA-Seq, supporting the predicted active MAPK cascade and transcription factor genes under the spaceflight environment.</p>
+                <fig id="F3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p><bold>Expression of the predicted active MAPK cascade and transcription factor genes in the space-grown Mizuna by qRT-PCR.</bold> Expression levels of the predicted active genes, OXI1, MEKK1, MKK4, MPK3, Zat12, WRKY22 and WRKY25 in the space-grown and the ground-grown Mizuna were analyzed by qRT-PCR. Expression levels of genes in the space-grown and the ground-grown Mizuna were normalized with that of the α-tubulin gene as an internal control. The error bar represents standard error of the mean for three RNA isolation experiments.</p>
+                  </caption>
+                  <graphic xlink:href="1471-2229-14-4-3"/>
+                </fig>
+              </sec>
+              <sec>
+                <title>Expression profiles of ROS-producing genes</title>
+                <p>Reactive oxygen species are used as a signal molecular in plants to amplify the ROS signal network to activate defense mechanisms against abiotic and biotic stress [<xref ref-type="bibr" rid="B18">18</xref>]. NADPH oxidases play a key role in producing ROS. RbohD and RbohF genes of NADPH oxidases in <italic>Arabidopsis</italic> were induced by oxidative stress, leading to maintain the stress defense system [<xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B33">33</xref>]. There were 7 NADPH oxidase genes identified in space-grown Mizuna and RbohD (Bra020724) and RbohF (Bra027764) genes were up-regulated by 3.0-fold and 5.1-fold, respectively (Table <xref ref-type="table" rid="T3">3</xref>). This result suggests that space-grown Mizuna produces ROS to maintain the activation of ROS signal network to control the defense system with ROS-scavenging system.</p>
+                <table-wrap position="float" id="T3">
+                  <label>Table 3</label>
+                  <caption>
+                    <p>Expression of NADPH oxidase genes in the space-grown Mizuna</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" border="1">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                      <col align="center"/>
+                    </colgroup>
+                    <thead valign="top">
+                      <tr>
+                        <th align="left">
+                          <bold>Gene name</bold>
+                        </th>
+                        <th align="center">
+                          <bold>AGI code</bold>
+                        </th>
+                        <th align="center">
+                          <bold>
+                            <italic>B. rapa </italic>
+                          </bold>
+                          <bold>gene</bold>
+                        </th>
+                        <th align="center">
+                          <bold>Fold change</bold>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohA)<hr/></td>
+                        <td align="center" valign="bottom">At5g07390<hr/></td>
+                        <td align="center" valign="bottom">Bra009266<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohB)<hr/></td>
+                        <td align="center" valign="bottom">At1g09090<hr/></td>
+                        <td align="center" valign="bottom">Bra031658<hr/></td>
+                        <td align="center" valign="bottom">0.8<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohC)<hr/></td>
+                        <td align="center" valign="bottom">At5g51060<hr/></td>
+                        <td align="center" valign="bottom">Bra011911<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohD)<hr/></td>
+                        <td align="center" valign="bottom">At5g47910<hr/></td>
+                        <td align="center" valign="bottom">Bra020724<hr/></td>
+                        <td align="center" valign="bottom">3.0<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohE)<hr/></td>
+                        <td align="center" valign="bottom">At1g19230<hr/></td>
+                        <td align="center" valign="bottom">Bra025721<hr/></td>
+                        <td align="center" valign="bottom">1.0<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohF)<hr/></td>
+                        <td align="center" valign="bottom">At1g64060<hr/></td>
+                        <td align="center" valign="bottom">Bra027764<hr/></td>
+                        <td align="center" valign="bottom">5.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohG)<hr/></td>
+                        <td align="center" valign="bottom">At4g25090<hr/></td>
+                        <td align="center" valign="bottom">Bra019189<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohH)<hr/></td>
+                        <td align="center" valign="bottom">At5g60010<hr/></td>
+                        <td align="center" valign="bottom">Bra020270<hr/></td>
+                        <td align="center" valign="bottom">ND<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="bottom">NADPH oxidase (RbohI)<hr/></td>
+                        <td align="center" valign="bottom">At4g11230<hr/></td>
+                        <td align="center" valign="bottom">Bra033151<hr/></td>
+                        <td align="center" valign="bottom">1.1<hr/></td>
+                      </tr>
+                      <tr>
+                        <td align="left">NADPH oxidase (RbohJ)</td>
+                        <td align="center">At3g45810</td>
+                        <td align="center">Bra038274</td>
+                        <td align="center">ND</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <p>NADPH oxidase genes in <italic>Arabidopsis</italic> are listed and fold change values of the space-grown Mizuna genes associated with the listed <italic>Arabidopsis</italic> genes are shown. ND, not detected.</p>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions">
+              <title>Conclusions</title>
+              <p>Plants respond to environmental stress in multiple ways and have evolved mechanisms to increase their tolerance to the stress through interactive molecular and cellular changes. The components of these changes are responses of integrated ROS gene network triggered under stressful conditions. Our large-scale transcriptome analysis demonstrated that the spaceflight environment induced oxidative stress and activated a ROS gene network in the space-grown Mizuna, some of which were common genes up-regulated by abiotic and biotic stress and some of which were preferentially up-regulated genes by the spaceflight environment, even though Mizuna grew in the space as well as on the ground. Up-regulation of AOX, RbohD, and RbohF genes, activation of more than one MAPK cascades, and regulation of Zat7 and WRKY70 by Zat12 are common in plants under space, abiotic, biotic stress. Preferential high expression of thioredoxin and glutaredoxin genes, no repression of WRKY25, WRKY33, and Zat12 by MEKK1-MKK1/MKK2-MPK4 cascade, and no induction of OXI1 by PLC/D-PA-PDK1 pathway are different from those under abiotic and biotic stress. These results show that the ROS gene network for abiotic and biotic stress response and tolerance, which plants have developed to adapt the environment on the earth, could serve to acclimate plant to the abiotic stress conditions of the spaceflight environment.</p>
+            </sec>
+            <sec sec-type="methods">
+              <title>Methods</title>
+              <sec>
+                <title>Plant cultivation and spaceflight</title>
+                <p>Seeds of Mizuna, <italic>Brassica rapa var. nipposinica</italic>, were transported to ISS. Ten-15 seeds were set in each of two root modules of the Lada growth chambers aboard the Zvezda module of ISS [<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref>], and allowed to germinate. Lada consists of a control module, a water reservoir and 2 growth chambers which include a root module, leaf chamber and light module (Additional file <xref ref-type="supplementary-material" rid="S6">6</xref>: Figure S2). The light banks house two cool white flourescent lamps providing approximately 125-250 μmol m<sup>-2</sup> s<sup>-1</sup> (depending on plant height) photosynthetically active radiation (PAR). In the overall Lada experiment, two root module growth substrate mixtures were used to determine which was optimal for plant growth. One mixture contained rinsed and dried arcillite (Turface Proleague, Profile LLC, Buffalo Grove IL, US) with 15 grams of 14-14-14 Osmocote fertilizer, the other, nutrient solution soaked and dried arcillite with 14 grams of a custom mixed Nutricote fertilizer. The Lada moisture level control point was set at 85% at the start of the experiment for both root modules. One of the root modules experienced an over-watering event in which the pump failed to stop when the moisture sensors reached 85% and almost 2 liters of water was added in 35 hours. Automatic watering was disabled and the pump was operated manually for the duration of the experiment. This was duplicated in the ground controls. Because of the difference in watering regimes, only the plant tissue from the Osmocote fertilized root modules with manually controlled watering, both flight and ground controls, were used for this study. The plants were grown in Lada under 24 hr lighting. The average environmental conditions measured from the Zvezda module of the ISS over the duration of the experiment and duplicated for the ground controls were 24.3 ± 0.8°C, 3.27 ± 0.46 mm Hg pp CO<sub>2</sub>, (= 4,303 ± 605 ppm CO<sub>2</sub>) and 40.7 ± 6.9% RH. The average recorded values for the ground control experiment were 24.5 ± 0.5°C, 4,254 ± 566 ppm CO<sub>2,</sub> and 41.2 ± 2.6 RH. After 27 days of cultivation, the plants were harvested and stored at -80°C in the MELFI freezer onboard the Destiny module, and were transported to the ground at &lt; -20°C in the GLACIER cold stowage system aboard the Space Shuttle. The total radiation dose during cultivation was 8.37 mGy.</p>
+              </sec>
+              <sec>
+                <title>RNA preparation, mRNA-Seq analysis and identification of responsive transcripts</title>
+                <p>Total RNA from leaves samples was extracted using the RNeasy Plant Mini kit (Qiagen, Hilden, Germany) and cDNA library was constructed using the TruSeq<sup>TM</sup> RNA sample preparation kit (Illumina, San Diego, CA, USA). Sequencing was performed on each library to generate 100-bp paired-end reads for transcriptome sequencing on Illumina Genome Analyzer IIx platform. Stretches of low quality bases at both sides of reads were trimmed using a customized C program (Q value &lt; 15). Adapter sequences were removed using cutadapt (ver. 1.0; <ext-link ext-link-type="uri" xlink:href="http://code.google.com/p/cutadapt/">http://code.google.com/p/cutadapt/</ext-link>) with parameters ‘-e 0.1 -O 5 -m 20’ [<xref ref-type="bibr" rid="B34">34</xref>]. After pre-processing the Illumina reads, the transcript structures were reconstructed using a series of programs, namely, Bowtie 2 (ver. 2-2.0.0-beta7; <ext-link ext-link-type="uri" xlink:href="http://bowtie-bio.sourceforge.net/bowtie2/index.shtml">http://bowtie-bio.sourceforge.net/bowtie2/index.shtml</ext-link>) for short-read mapping [<xref ref-type="bibr" rid="B35">35</xref>], TopHat (ver. 2.0.5; <ext-link ext-link-type="uri" xlink:href="http://tophat.cbcb.umd.edu/">http://tophat.cbcb.umd.edu/</ext-link>) for defining exon-intron junctions [<xref ref-type="bibr" rid="B36">36</xref>], and Cufflinks (ver. 2.0.2; <ext-link ext-link-type="uri" xlink:href="http://cufflinks.cbcb.umd.edu/">http://cufflinks.cbcb.umd.edu/</ext-link>) for gene structure predictions [<xref ref-type="bibr" rid="B37">37</xref>]. For TopHat, the Reference-<italic>Brassica rapa</italic> (Chiifu-401) genome (Phytozome; <ext-link ext-link-type="uri" xlink:href="http://www.phytozome.net/">http://www.phytozome.net/</ext-link>) was used as the reference sequences with the following options: --no-discordant --no-mixed -r 46 --mate-std-dev 133 [<xref ref-type="bibr" rid="B38">38</xref>].</p>
+                <p>The expression level for each transcript was calculated as reads per kilobase of exon model per million mapped (RPKM) values based on the number of uniquely mapped reads that completely overlap with the exonic regions in each library [<xref ref-type="bibr" rid="B39">39</xref>]. The significantly differentially expressed transcripts between space- and ground-grown samples were detected by G-test (FDR &lt; 0.001). Fold changes of expression levels between samples were calculated after adding one to each RPKM value to avoid division by zero.</p>
+              </sec>
+              <sec>
+                <title>Gene ontology analysis</title>
+                <p>The GO terms assigned to the responsive transcripts were obtained from InterProScan 5 Release Candidate 2 (<ext-link ext-link-type="uri" xlink:href="http://code.google.com/p/interproscan/">http://code.google.com/p/interproscan/</ext-link>) with the parameters ‘-f tsv -t p -dp –goterms’ for each transcript [<xref ref-type="bibr" rid="B40">40</xref>].</p>
+              </sec>
+              <sec>
+                <title>GO enrichment analysis</title>
+                <p>GO enrichment was evaluated for responsive transcripts using Fischer’s exact test with a FDR threshold of 5% using R ver. 2.13.0 (<ext-link ext-link-type="uri" xlink:href="http://www.r-project.org">http://www.r-project.org</ext-link>).</p>
+              </sec>
+              <sec>
+                <title>Quantitative RT-PCR (qRT-PCR)</title>
+                <p>Poly(A)<sup>+</sup> RNA was purified from total RNA with the Poly (A) Purist MAG (Ambion, Texas, USA) and 1st strand cDNA was synthesized from poly(A)<sup>+</sup> RNA with the PrimeScript first strand cDNA Synthesis Kit (Takara Bio, Japan) according to the manufacture’s instruction. qRT-PCR was performed in a mixture of 10 μl containing 1st strand cDNA, SYBR Premix Ex Taq (Takara Bio, Japan), and 0.2 μmol each primer combination (Additional file <xref ref-type="supplementary-material" rid="S5">5</xref>: Table S4) using the LightCycler 2.0 (Roche Applied Science, Mannheim, Germany). The thermal cycle profile was 1cycle of 95˚C for 10 sec followed by 40 cycles of 95˚C for 5 sec, 60˚C for 20 sec. The cDNA quantities of each gene were calculated using LightCycler 4.0 software and the transcript expression levels were normalized with that of the α-tubulin gene as an internal control. Three technical replicate for each RNA were used for analysis. Specificity of primer combination was confirmed by melting curve of the PCR products and agarose gel electrophoresis (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>: Figure S1).</p>
+              </sec>
+              <sec>
+                <title>Supporting data</title>
+                <p>The resulting mRNA-Seq data were deposited in the DDBJ Sequence Read Archive (<ext-link ext-link-type="uri" xlink:href="http://trace.ddbj.nig.ac.jp/dra/index_e.html">http://trace.ddbj.nig.ac.jp/dra/index_e.html</ext-link>) under the accession No. DRA001106.</p>
+              </sec>
+            </sec>
+            <sec>
+              <title>Competing interests</title>
+              <p>The authors declare that they have no competing interests.</p>
+            </sec>
+            <sec>
+              <title>Authors’ contribution</title>
+              <p>MS and YO contributed equally to the design and conduct of the experiments. MS, YO, OG, and TM arranged the mRNA-Seq experiment and discussed the results. MS, YO, and TY designed and performed data analysis. MS drafted the manuscript. MAL and VNS operated the cultivation in Lada aboard ISS. GEB, RW, and MH operated the transportation of plants from ISS to the ground and prepared the ground control plants. All authors have read and approved the final manuscript.</p>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Material</title>
+              <supplementary-material content-type="local-data" id="S1">
+                <caption>
+                  <title>Additional file 1: Table S1</title>
+                  <p>Responsive transcripts in the space-grown Mizuna by G-test of the PRKM-derived read counts.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S1.xlsx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="S2">
+                <caption>
+                  <title>Additional file 2: Table S2</title>
+                  <p>Distribution of up-regulated and down-regulated genes in biological process category of Gene Ontology.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S2.xlsx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="S3">
+                <caption>
+                  <title>Additional file 3: Table S3</title>
+                  <p>Expression of ROS-scavenging genes in the space-grown Mizuna.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S3.xlsx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="S4">
+                <caption>
+                  <title>Additional file 4: Figure S1</title>
+                  <p>Agarose gel electrophoresis of the PCR products. The reaction mixture of PCR was loaded on agarose gel electrophoresis using 3% NuSieve 3:1 agarose with 1x TBE buffer and amplified fragments were detected by GelRed staining. M, 100 bp ladder marker.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S4.pptx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="S5">
+                <caption>
+                  <title>Additional file 5: Table S4</title>
+                  <p>Primers for qRT-PCR.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S5.xlsx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="S6">
+                <caption>
+                  <title>Additional file 6: Figure S2</title>
+                  <p>Lada growth chamber aboard the Zvezda module of ISS. Lada consists of a control module, a water reservoir, and two growth chambers which include a root module, leaf chamber and light module.</p>
+                </caption>
+                <media xlink:href="1471-2229-14-4-S6.pptx">
+                  <caption>
+                    <p>Click here for file</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <sec>
+              <title>Acknowledgements</title>
+              <p>We thank Russian and American astronauts for perfect operator activity of this series of plant cultivation in ISS and transportation. This research was supported in part by the Ohara Foundation of Kurashiki, Japan.</p>
+            </sec>
+            <ref-list>
+              <ref id="B1">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Ferl</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Wheeler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Levine</surname>
+                    <given-names>HG</given-names>
+                  </name>
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>A-L</given-names>
+                  </name>
+                  <article-title>Plants in space</article-title>
+                  <source>Curr Opin Plant Biol</source>
+                  <year>2002</year>
+                  <volume>5</volume>
+                  <fpage>258</fpage>
+                  <lpage>263</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1369-5266(02)00254-6</pub-id>
+                  <?supplied-pmid 11960745?>
+                  <pub-id pub-id-type="pmid">11960745</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Kanazawa</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Ishikawa</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Tomita-Yokotani</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Hashimoto</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Kitaya</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Yamashita</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Nagatomo</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Oshima</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Wada</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <article-title>Space Agriculture Task Force. Space agriculture for habitation on Mars with hyper-thermophilic aerobic composting bacteria</article-title>
+                  <source>Adv Space Res</source>
+                  <year>2008</year>
+                  <volume>41</volume>
+                  <fpage>696</fpage>
+                  <lpage>700</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2007.09.040</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Roldán-Arjona</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Ariza</surname>
+                    <given-names>RR</given-names>
+                  </name>
+                  <article-title>Repair and tolerance of oxidative DNA damage in plants</article-title>
+                  <source>Mutat Res</source>
+                  <year>2009</year>
+                  <volume>681</volume>
+                  <fpage>169</fpage>
+                  <lpage>179</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mrrev.2008.07.003</pub-id>
+                  <?supplied-pmid 18707020?>
+                  <pub-id pub-id-type="pmid">18707020</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Rizzo</surname>
+                    <given-names>AM</given-names>
+                  </name>
+                  <name>
+                    <surname>Corsetto</surname>
+                    <given-names>PA</given-names>
+                  </name>
+                  <name>
+                    <surname>Montorfano</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Milani</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Zava</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Tavella</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Cancedda</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Berra</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <article-title>Effects of long-term space flight on erythrocytes and oxidative stress of rodents</article-title>
+                  <source>PLoS One</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <issue>3</issue>
+                  <fpage>e32361</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0032361</pub-id>
+                  <?supplied-pmid 22412864?>
+                  <pub-id pub-id-type="pmid">22412864</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Martzivanou</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Hampp</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <article-title>Hyper-gravity effects on the Arabidopsis transcriptome</article-title>
+                  <source>Plant Physiol</source>
+                  <year>2003</year>
+                  <volume>118</volume>
+                  <fpage>221</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="doi">10.1034/j.1399-3054.2003.00092.x</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Barjaktarović</surname>
+                    <given-names>Z</given-names>
+                  </name>
+                  <name>
+                    <surname>Nordheim</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Lamkemeyer</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Fladerer</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Madlung</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Hampp</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <article-title>Time-course of changes in protein amounts of specific proteins upon exposure to hyper-<italic>g</italic>, 2-D clinorotation and random positioning of <italic>Arabidopsis</italic> cell cultures</article-title>
+                  <source>J Exp Bot</source>
+                  <year>2007</year>
+                  <volume>58</volume>
+                  <fpage>4357</fpage>
+                  <lpage>4363</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jxb/erm302</pub-id>
+                  <?supplied-pmid 18182437?>
+                  <pub-id pub-id-type="pmid">18182437</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Barjaktarović</surname>
+                    <given-names>Z</given-names>
+                  </name>
+                  <name>
+                    <surname>Schütz</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Madlung</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Fladerer</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Nordheim</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Hampp</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <article-title>Changes in the effective gravitational field strength affect the state of phosphorylation of stress-related proteins in callus cultures of <italic>Arabidopsis thaliana</italic></article-title>
+                  <source>J Exp Bot</source>
+                  <year>2009</year>
+                  <volume>60</volume>
+                  <fpage>779</fpage>
+                  <lpage>789</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jxb/ern324</pub-id>
+                  <?supplied-pmid 19129159?>
+                  <pub-id pub-id-type="pmid">19129159</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>AL</given-names>
+                  </name>
+                  <name>
+                    <surname>Popp</surname>
+                    <given-names>MP</given-names>
+                  </name>
+                  <name>
+                    <surname>Gurley</surname>
+                    <given-names>WB</given-names>
+                  </name>
+                  <name>
+                    <surname>Guy</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Norwood</surname>
+                    <given-names>KL</given-names>
+                  </name>
+                  <name>
+                    <surname>Ferl</surname>
+                    <given-names>RJ</given-names>
+                  </name>
+                  <article-title>Arabidopsis gene expression patterns are altered during spaceflight</article-title>
+                  <source>Adv Space Res</source>
+                  <year>2005</year>
+                  <volume>2005</volume>
+                  <issue>36</issue>
+                  <fpage>1175</fpage>
+                  <lpage>1181</lpage>
+                </mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Paul</surname>
+                    <given-names>AL</given-names>
+                  </name>
+                  <name>
+                    <surname>Zupanska</surname>
+                    <given-names>AK</given-names>
+                  </name>
+                  <name>
+                    <surname>Ostrow</surname>
+                    <given-names>DT</given-names>
+                  </name>
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Sun</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>JL</given-names>
+                  </name>
+                  <name>
+                    <surname>Shanker</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Farmerie</surname>
+                    <given-names>WG</given-names>
+                  </name>
+                  <name>
+                    <surname>Amalfitano</surname>
+                    <given-names>CE</given-names>
+                  </name>
+                  <name>
+                    <surname>Ferl</surname>
+                    <given-names>RJ</given-names>
+                  </name>
+                  <article-title>Spaceflight transcriptomes: unique responses to a novel environment</article-title>
+                  <source>Astrobiology</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <fpage>40</fpage>
+                  <lpage>56</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ast.2011.0696</pub-id>
+                  <?supplied-pmid 22221117?>
+                  <pub-id pub-id-type="pmid">22221117</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Fujita</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Fujita</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Noutoshi</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Takahashi</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Narusaka</surname>
+                    <given-names>Y</given-names>
+                  </name>
+                  <name>
+                    <surname>Yamaguchi-Shinozaki</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Shinozaki</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <article-title>Crosstalkbetween abiotic and biotic stress responses: a current view from the points of convergence in the stress signaling network</article-title>
+                  <source>Curr Opin Plant Biol</source>
+                  <year>2006</year>
+                  <volume>9</volume>
+                  <fpage>436</fpage>
+                  <lpage>442</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pbi.2006.05.014</pub-id>
+                  <?supplied-pmid 16759898?>
+                  <pub-id pub-id-type="pmid">16759898</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Miller</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Shulaev</surname>
+                    <given-names>V</given-names>
+                  </name>
+                  <name>
+                    <surname>Mittler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <article-title>Reactive oxygen signaling and abiotic stress</article-title>
+                  <source>Physiol Plant</source>
+                  <year>2008</year>
+                  <volume>133</volume>
+                  <fpage>481</fpage>
+                  <lpage>489</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1399-3054.2008.01090.x</pub-id>
+                  <?supplied-pmid 18346071?>
+                  <pub-id pub-id-type="pmid">18346071</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Gostimsky</surname>
+                    <given-names>SA</given-names>
+                  </name>
+                  <name>
+                    <surname>Levinskikh</surname>
+                    <given-names>MA</given-names>
+                  </name>
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>VN</given-names>
+                  </name>
+                  <name>
+                    <surname>Kokaeva</surname>
+                    <given-names>ZG</given-names>
+                  </name>
+                  <name>
+                    <surname>Dribnokhodova</surname>
+                    <given-names>OP</given-names>
+                  </name>
+                  <name>
+                    <surname>Khartina</surname>
+                    <given-names>GA</given-names>
+                  </name>
+                  <name>
+                    <surname>Bingkhem</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <article-title>The study of the genetic effects in generation of pea plants cultivated during the whole cycle of ontogenesis on the board of RS ISS</article-title>
+                  <source>Russian J Genetics</source>
+                  <year>2007</year>
+                  <volume>43</volume>
+                  <fpage>869</fpage>
+                  <lpage>874</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S1022795407080066</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Shagimardanova</surname>
+                    <given-names>EI</given-names>
+                  </name>
+                  <name>
+                    <surname>Gusev</surname>
+                    <given-names>OA</given-names>
+                  </name>
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>VN</given-names>
+                  </name>
+                  <name>
+                    <surname>Levinskikh</surname>
+                    <given-names>MA</given-names>
+                  </name>
+                  <name>
+                    <surname>Sharipova</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Il’inskaya</surname>
+                    <given-names>ON</given-names>
+                  </name>
+                  <name>
+                    <surname>Bingham</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Sugimoto</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <article-title>Expression of stress response genes in barley <italic>Hordeum vulgare</italic> in a spaceflight environment</article-title>
+                  <source>Mol Biol</source>
+                  <year>2010</year>
+                  <volume>44</volume>
+                  <fpage>734</fpage>
+                  <lpage>740</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S0026893310050080</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Levinskikh</surname>
+                    <given-names>MA</given-names>
+                  </name>
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>VN</given-names>
+                  </name>
+                  <name>
+                    <surname>Derendiaeva</surname>
+                    <given-names>TA</given-names>
+                  </name>
+                  <name>
+                    <surname>Signalova</surname>
+                    <given-names>OB</given-names>
+                  </name>
+                  <name>
+                    <surname>Podol’skii</surname>
+                    <given-names>IG</given-names>
+                  </name>
+                  <name>
+                    <surname>Gostimskii</surname>
+                    <given-names>SA</given-names>
+                  </name>
+                  <name>
+                    <surname>Bingham</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <article-title>Growth, development and genetic status of pea plants cultivated in space greenhouse “LADA”</article-title>
+                  <source>Aviakosm Ekolog Med</source>
+                  <year>2005</year>
+                  <volume>39</volume>
+                  <fpage>38</fpage>
+                  <lpage>43</lpage>
+                  <pub-id pub-id-type="pmid">16536032</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Sychev</surname>
+                    <given-names>VN</given-names>
+                  </name>
+                  <name>
+                    <surname>Levinskikh</surname>
+                    <given-names>MA</given-names>
+                  </name>
+                  <name>
+                    <surname>Gostimsky</surname>
+                    <given-names>SA</given-names>
+                  </name>
+                  <name>
+                    <surname>Bingham</surname>
+                    <given-names>GE</given-names>
+                  </name>
+                  <name>
+                    <surname>Podolskii</surname>
+                    <given-names>IG</given-names>
+                  </name>
+                  <article-title>Spaceflight effects on consecutive generations of peas grown onboard the Russian segment of the International Space Station</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>2007</year>
+                  <volume>60</volume>
+                  <fpage>426</fpage>
+                  <lpage>432</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2006.09.009</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Werc-Reichhart</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Hehn</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Didierjean</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <article-title>Cytochromes P450 for engineering herbicide tolerance</article-title>
+                  <source>Trends Plant Sci</source>
+                  <year>2000</year>
+                  <volume>5</volume>
+                  <fpage>116</fpage>
+                  <lpage>123</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1360-1385(00)01567-3</pub-id>
+                  <?supplied-pmid 10707077?>
+                  <pub-id pub-id-type="pmid">10707077</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Gadjev</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>Vanderauwera</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Gechev</surname>
+                    <given-names>TS</given-names>
+                  </name>
+                  <name>
+                    <surname>Laloi</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Minkov</surname>
+                    <given-names>IN</given-names>
+                  </name>
+                  <name>
+                    <surname>Shulaev</surname>
+                    <given-names>V</given-names>
+                  </name>
+                  <name>
+                    <surname>Apel</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Inze’</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Mittler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Van Breusegem</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <article-title>Transcriptomic footprints disclose specificity of reactive oxygen species signaling in Arabidopsis</article-title>
+                  <source>Plant Physiol</source>
+                  <year>2006</year>
+                  <volume>141</volume>
+                  <fpage>436</fpage>
+                  <lpage>445</lpage>
+                  <pub-id pub-id-type="doi">10.1104/pp.106.078717</pub-id>
+                  <?supplied-pmid 16603662?>
+                  <pub-id pub-id-type="pmid">16603662</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Mittler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Vanderauwera</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Gollery</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Breusegem</surname>
+                    <given-names>FV</given-names>
+                  </name>
+                  <article-title>Reactive oxygen gene network of plants</article-title>
+                  <source>Trends in Plant Sci</source>
+                  <year>2004</year>
+                  <volume>9</volume>
+                  <fpage>490</fpage>
+                  <lpage>498</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.tplants.2004.08.009</pub-id>
+                  <pub-id pub-id-type="pmid">15465684</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Berndt</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Lillig</surname>
+                    <given-names>CH</given-names>
+                  </name>
+                  <name>
+                    <surname>Holmgren</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <article-title>Thioredoxins and glutaredoxins as facilitators of protein folding</article-title>
+                  <source>Biochem Biophys Acta</source>
+                  <year>2008</year>
+                  <volume>1783</volume>
+                  <fpage>641</fpage>
+                  <lpage>650</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbamcr.2008.02.003</pub-id>
+                  <?supplied-pmid 18331844?>
+                  <pub-id pub-id-type="pmid">18331844</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Vanlerberghe</surname>
+                    <given-names>GC</given-names>
+                  </name>
+                  <name>
+                    <surname>McIntosh</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <article-title>Alternative oxidase: from gene to function</article-title>
+                  <source>Annu Rev Plant Physiol Plant Mol Biol</source>
+                  <year>1997</year>
+                  <volume>48</volume>
+                  <fpage>703</fpage>
+                  <lpage>734</lpage>
+                  <pub-id pub-id-type="doi">10.1146/annurev.arplant.48.1.703</pub-id>
+                  <?supplied-pmid 15012279?>
+                  <pub-id pub-id-type="pmid">15012279</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Moore</surname>
+                    <given-names>AL</given-names>
+                  </name>
+                  <name>
+                    <surname>Albury</surname>
+                    <given-names>MS</given-names>
+                  </name>
+                  <name>
+                    <surname>Crichton</surname>
+                    <given-names>PG</given-names>
+                  </name>
+                  <name>
+                    <surname>Affourtic</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <article-title>Function of the alternative oxidase: is it still a scavenger?</article-title>
+                  <source>Trends Plant Sci</source>
+                  <year>2002</year>
+                  <volume>7</volume>
+                  <fpage>478</fpage>
+                  <lpage>487</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1360-1385(02)02366-X</pub-id>
+                  <?supplied-pmid 12417142?>
+                  <pub-id pub-id-type="pmid">12417142</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Sugie</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Murai</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Takumi</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <article-title>Alteration of respiration capacity and transcript accumulation level of alternative oxidase genes in necrosis lines of common wheat</article-title>
+                  <source>Genes Genet Syst</source>
+                  <year>2007</year>
+                  <volume>82</volume>
+                  <fpage>231</fpage>
+                  <lpage>239</lpage>
+                  <pub-id pub-id-type="doi">10.1266/ggs.82.231</pub-id>
+                  <?supplied-pmid 17660693?>
+                  <pub-id pub-id-type="pmid">17660693</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Pitzschke</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Djamei</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Bitton</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Hirt</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <article-title>A major role of the MEKK1-MKK1/2-MPK4 pathway in ROS signalling</article-title>
+                  <source>Mol Plant</source>
+                  <year>2009</year>
+                  <volume>2</volume>
+                  <fpage>120</fpage>
+                  <lpage>137</lpage>
+                  <pub-id pub-id-type="doi">10.1093/mp/ssn079</pub-id>
+                  <?supplied-pmid 19529823?>
+                  <pub-id pub-id-type="pmid">19529823</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Teige</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Scheikl</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Eulgem</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Doczi</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Ichimura</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Shinozaki</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Dangl</surname>
+                    <given-names>JL</given-names>
+                  </name>
+                  <name>
+                    <surname>Hirt</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <article-title>The MKK2 pathway mediates cold and salt stress signaling in <italic>Arabidopsis</italic></article-title>
+                  <source>Mol Cell</source>
+                  <year>2004</year>
+                  <volume>15</volume>
+                  <fpage>141</fpage>
+                  <lpage>152</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.molcel.2004.06.023</pub-id>
+                  <?supplied-pmid 15225555?>
+                  <pub-id pub-id-type="pmid">15225555</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Ichimura</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Mizoguchi</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Yoshida</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Yuasa</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Shinozaki</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <article-title>Various abiotic stresses rapidly activate <italic>Arabidopsis</italic> MAP kinases ATMPK4 and ATMPK6</article-title>
+                  <source>Plant J</source>
+                  <year>2000</year>
+                  <volume>24</volume>
+                  <fpage>655</fpage>
+                  <lpage>665</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1365-313x.2000.00913.x</pub-id>
+                  <?supplied-pmid 11123804?>
+                  <pub-id pub-id-type="pmid">11123804</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Asai</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Tena</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Plotnikova</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Willmann</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Chiu</surname>
+                    <given-names>WL</given-names>
+                  </name>
+                  <name>
+                    <surname>Gomez-Gomez</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Boller</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Ausubel</surname>
+                    <given-names>FM</given-names>
+                  </name>
+                  <name>
+                    <surname>Sheen</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <article-title>MAP kinase signalling cascade in <italic>Arabidopsis</italic> innate immunity</article-title>
+                  <source>Nature</source>
+                  <year>2002</year>
+                  <volume>415</volume>
+                  <fpage>977</fpage>
+                  <lpage>983</lpage>
+                  <pub-id pub-id-type="doi">10.1038/415977a</pub-id>
+                  <?supplied-pmid 11875555?>
+                  <pub-id pub-id-type="pmid">11875555</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>SH</given-names>
+                  </name>
+                  <name>
+                    <surname>Woo</surname>
+                    <given-names>DH</given-names>
+                  </name>
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>JM</given-names>
+                  </name>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>SY</given-names>
+                  </name>
+                  <name>
+                    <surname>Chung</surname>
+                    <given-names>WS</given-names>
+                  </name>
+                  <name>
+                    <surname>Moon</surname>
+                    <given-names>YH</given-names>
+                  </name>
+                  <article-title><italic>Arabidopsis</italic> MKK4 mediates osmotic-stress response via its regulation of MPK3 activity</article-title>
+                  <source>Biochem Bioph Res Commun</source>
+                  <year>2011</year>
+                  <volume>412</volume>
+                  <fpage>150</fpage>
+                  <lpage>154</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bbrc.2011.07.064</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Ren</surname>
+                    <given-names>DT</given-names>
+                  </name>
+                  <name>
+                    <surname>Yang</surname>
+                    <given-names>HP</given-names>
+                  </name>
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>SQ</given-names>
+                  </name>
+                  <article-title>Cell death mediated by MAPK is associated with hydrogen peroxide production in <italic>Arabidopsis</italic></article-title>
+                  <source>J Biol Chem</source>
+                  <year>2002</year>
+                  <volume>277</volume>
+                  <fpage>559</fpage>
+                  <lpage>565</lpage>
+                  <?supplied-pmid 11687590?>
+                  <pub-id pub-id-type="pmid">11687590</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Rentel</surname>
+                    <given-names>MC</given-names>
+                  </name>
+                  <name>
+                    <surname>Lecourieux</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Ouaked</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Usher</surname>
+                    <given-names>SL</given-names>
+                  </name>
+                  <name>
+                    <surname>Petersen</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Okamoto</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Knight</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Peck</surname>
+                    <given-names>SC</given-names>
+                  </name>
+                  <name>
+                    <surname>Grierson</surname>
+                    <given-names>CS</given-names>
+                  </name>
+                  <name>
+                    <surname>Hirt</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Knight</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <article-title>OXI1 kinase is necessary for oxidative burst-mediated signalling in <italic>Arabidopsis</italic></article-title>
+                  <source>Nature</source>
+                  <year>2004</year>
+                  <volume>427</volume>
+                  <fpage>858</fpage>
+                  <lpage>861</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature02353</pub-id>
+                  <?supplied-pmid 14985766?>
+                  <pub-id pub-id-type="pmid">14985766</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Moon</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <name>
+                    <surname>Choi</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Shin</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Prasad</surname>
+                    <given-names>DT</given-names>
+                  </name>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>O</given-names>
+                  </name>
+                  <name>
+                    <surname>Kwak</surname>
+                    <given-names>SS</given-names>
+                  </name>
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>DH</given-names>
+                  </name>
+                  <name>
+                    <surname>Nam</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Bahk</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Hong</surname>
+                    <given-names>JC</given-names>
+                  </name>
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>SY</given-names>
+                  </name>
+                  <name>
+                    <surname>Cho</surname>
+                    <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Lim</surname>
+                    <given-names>CO</given-names>
+                  </name>
+                  <name>
+                    <surname>Yun</surname>
+                    <given-names>DJ</given-names>
+                  </name>
+                  <article-title>NDP kinase 2 interacts with two oxidative stress-activated MAPKs to regulate cellular redox state and enhances multiple stress tolerance in transgenic plants</article-title>
+                  <source>Proc Natl Acad Sci U S A</source>
+                  <year>2003</year>
+                  <volume>100</volume>
+                  <fpage>358</fpage>
+                  <lpage>363</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.252641899</pub-id>
+                  <?supplied-pmid 12506203?>
+                  <pub-id pub-id-type="pmid">12506203</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>SJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Fu</surname>
+                    <given-names>QT</given-names>
+                  </name>
+                  <name>
+                    <surname>Huang</surname>
+                    <given-names>WD</given-names>
+                  </name>
+                  <name>
+                    <surname>Yu</surname>
+                    <given-names>DQ</given-names>
+                  </name>
+                  <article-title>Functional analysis of an <italic>Arabidopsis</italic> transcription factor WRKY25 in heat stress</article-title>
+                  <source>Plant Cell Rep</source>
+                  <year>2009</year>
+                  <volume>28</volume>
+                  <fpage>683</fpage>
+                  <lpage>693</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00299-008-0666-y</pub-id>
+                  <?supplied-pmid 19125253?>
+                  <pub-id pub-id-type="pmid">19125253</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Ciftci-Yilmaz</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Morsy</surname>
+                    <given-names>MR</given-names>
+                  </name>
+                  <name>
+                    <surname>Song</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Coutu</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Krizek</surname>
+                    <given-names>BA</given-names>
+                  </name>
+                  <name>
+                    <surname>Lewis</surname>
+                    <given-names>MW</given-names>
+                  </name>
+                  <name>
+                    <surname>Warren</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Cushman</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Connolly</surname>
+                    <given-names>EL</given-names>
+                  </name>
+                  <name>
+                    <surname>Mittler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <article-title>The ear-motif of the C2H2 zinc-finger protein ZAT7 plays a key role in the defense response of Arabidopsis to salinity stress</article-title>
+                  <source>J Biol Chem</source>
+                  <year>2007</year>
+                  <volume>282</volume>
+                  <fpage>9260</fpage>
+                  <lpage>9268</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M611093200</pub-id>
+                  <?supplied-pmid 17259181?>
+                  <pub-id pub-id-type="pmid">17259181</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Torres</surname>
+                    <given-names>MA</given-names>
+                  </name>
+                  <name>
+                    <surname>Dangl</surname>
+                    <given-names>JL</given-names>
+                  </name>
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>JD</given-names>
+                  </name>
+                  <article-title><italic>Arabidopsis</italic> gp91phox homologues AtrbohD and AtrbohF are required for accumulation of reactive oxygen intermediates in the plant defense response</article-title>
+                  <source>Proc Natl Acad Sci USA</source>
+                  <year>2002</year>
+                  <volume>99</volume>
+                  <fpage>517</fpage>
+                  <lpage>522</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.012452499</pub-id>
+                  <?supplied-pmid 11756663?>
+                  <pub-id pub-id-type="pmid">11756663</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Martin</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <article-title>Cutadapt removes adapter sequences from high-throughput sequencing reads</article-title>
+                  <source>EMBnet. Journal</source>
+                  <year>2011</year>
+                  <volume>17</volume>
+                  <fpage>10</fpage>
+                  <lpage>12</lpage>
+                </mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Langmead</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <name>
+                    <surname>Salzberg</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <article-title>Fast gapped-read alignment with Bowtie 2</article-title>
+                  <source>Nat Methods</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>357</fpage>
+                  <lpage>359</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id>
+                  <?supplied-pmid 22388286?>
+                  <pub-id pub-id-type="pmid">22388286</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Trapnell</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Pachter</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Salzberg</surname>
+                    <given-names>SL</given-names>
+                  </name>
+                  <article-title>TopHat: discovering splice junctions with RNA-Seq</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2009</year>
+                  <volume>25</volume>
+                  <fpage>1105</fpage>
+                  <lpage>1111</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btp120</pub-id>
+                  <?supplied-pmid 19289445?>
+                  <pub-id pub-id-type="pmid">19289445</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Trapnell</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Williams</surname>
+                    <given-names>BA</given-names>
+                  </name>
+                  <name>
+                    <surname>Pertea</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>Mortazavi</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Kwan</surname>
+                    <given-names>G</given-names>
+                  </name>
+                  <name>
+                    <surname>van Baren</surname>
+                    <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Salzberg</surname>
+                    <given-names>SL</given-names>
+                  </name>
+                  <name>
+                    <surname>Wold</surname>
+                    <given-names>BJ</given-names>
+                  </name>
+                  <name>
+                    <surname>Pachter</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <article-title>Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation</article-title>
+                  <source>Nat Biotechnol</source>
+                  <year>2010</year>
+                  <volume>28</volume>
+                  <fpage>511</fpage>
+                  <lpage>515</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nbt.1621</pub-id>
+                  <?supplied-pmid 20436464?>
+                  <pub-id pub-id-type="pmid">20436464</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Cheng</surname>
+                    <given-names>F</given-names>
+                  </name>
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Fang</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Sun</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Liu</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <name>
+                    <surname>Hua</surname>
+                    <given-names>W</given-names>
+                  </name>
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>X</given-names>
+                  </name>
+                  <article-title>BRAD, the genetics and genomics database for Brassica plants</article-title>
+                  <source>BMC Plant Biol</source>
+                  <year>2011</year>
+                  <volume>11</volume>
+                  <fpage>136</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2229-11-136</pub-id>
+                  <?supplied-pmid 21995777?>
+                  <pub-id pub-id-type="pmid">21995777</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B39">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Mortazavi</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Williams</surname>
+                    <given-names>BA</given-names>
+                  </name>
+                  <name>
+                    <surname>McCue</surname>
+                    <given-names>K</given-names>
+                  </name>
+                  <name>
+                    <surname>Schaeffer</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Wold</surname>
+                    <given-names>B</given-names>
+                  </name>
+                  <article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq</article-title>
+                  <source>Nat Methods</source>
+                  <year>2008</year>
+                  <volume>5</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <?supplied-pmid 18175409?>
+                  <pub-id pub-id-type="pmid">18175409</pub-id>
+                </mixed-citation>
+              </ref>
+              <ref id="B40">
+                <mixed-citation publication-type="journal">
+                  <name>
+                    <surname>Hunter</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Jones</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Mitchell</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Apweiler</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Attwood</surname>
+                    <given-names>TK</given-names>
+                  </name>
+                  <name>
+                    <surname>Bateman</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Bernard</surname>
+                    <given-names>T</given-names>
+                  </name>
+                  <name>
+                    <surname>Binns</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Bork</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Burge</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Castro</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Coggill</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Crbett</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Das</surname>
+                    <given-names>U</given-names>
+                  </name>
+                  <name>
+                    <surname>Daugherty</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Duquenne</surname>
+                    <given-names>L</given-names>
+                  </name>
+                  <name>
+                    <surname>Finn</surname>
+                    <given-names>RD</given-names>
+                  </name>
+                  <name>
+                    <surname>Fraser</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Gough</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Haft</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Hulo</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <name>
+                    <surname>Kahn</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Kelly</surname>
+                    <given-names>E</given-names>
+                  </name>
+                  <name>
+                    <surname>Letunic</surname>
+                    <given-names>I</given-names>
+                  </name>
+                  <name>
+                    <surname>Lonsdale</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Lopez</surname>
+                    <given-names>R</given-names>
+                  </name>
+                  <name>
+                    <surname>Madera</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Maslen</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>McAnulla</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>McDowall</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>McMenamin</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Mi</surname>
+                    <given-names>H</given-names>
+                  </name>
+                  <name>
+                    <surname>Mutowo-Muellenet</surname>
+                    <given-names>P</given-names>
+                  </name>
+                  <name>
+                    <surname>Mulder</surname>
+                    <given-names>N</given-names>
+                  </name>
+                  <name>
+                    <surname>Natale</surname>
+                    <given-names>D</given-names>
+                  </name>
+                  <name>
+                    <surname>Orengo</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Pesseat</surname>
+                    <given-names>S</given-names>
+                  </name>
+                  <name>
+                    <surname>Punta</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Quinn</surname>
+                    <given-names>AF</given-names>
+                  </name>
+                  <name>
+                    <surname>Oivoire</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Sangrador-Vegas</surname>
+                    <given-names>A</given-names>
+                  </name>
+                  <name>
+                    <surname>Selengut</surname>
+                    <given-names>JD</given-names>
+                  </name>
+                  <name>
+                    <surname>Sigrist</surname>
+                    <given-names>CJA</given-names>
+                  </name>
+                  <name>
+                    <surname>Scheremetjew</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Tate</surname>
+                    <given-names>J</given-names>
+                  </name>
+                  <name>
+                    <surname>Thimmajanarthanan</surname>
+                    <given-names>M</given-names>
+                  </name>
+                  <name>
+                    <surname>Thomas</surname>
+                    <given-names>PD</given-names>
+                  </name>
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>CH</given-names>
+                  </name>
+                  <name>
+                    <surname>Yeats</surname>
+                    <given-names>C</given-names>
+                  </name>
+                  <name>
+                    <surname>Yong</surname>
+                    <given-names>SY</given-names>
+                  </name>
+                  <article-title>InterPro in 2011: new developments in the family and domain prediction database</article-title>
+                  <source>Nucl Acids Res</source>
+                  <year>2012</year>
+                  <volume>40</volume>
+                  <fpage>D306</fpage>
+                  <lpage>D312</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkr948</pub-id>
+                  <?supplied-pmid 22096229?>
+                  <pub-id pub-id-type="pmid">22096229</pub-id>
+                </mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:56:34Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6637859" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6637859</identifier>
+        <datestamp>2019-07-26</datestamp>
+        <setSpec>frontpharmacol</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Pharmacol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Pharmacol</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Pharmacol.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Pharmacology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1663-9812</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6637859</article-id>
+              <article-id pub-id-type="pmcid">PMC6637859</article-id>
+              <article-id pub-id-type="pmc-uid">6637859</article-id>
+              <article-id pub-id-type="pmid">31354476</article-id>
+              <article-id pub-id-type="doi">10.3389/fphar.2019.00747</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Pharmacology</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Bioinformatic Study of Transcriptome Changes in the Mice Lumbar Spinal Cord After the 30-Day Spaceflight and Subsequent 7-Day Readaptation on Earth: New Insights Into Molecular Mechanisms of the Hypogravity Motor Syndrome</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kuznetsov</surname>
+                    <given-names>Maksim Sergeevich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="author-notes" rid="fn001">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/613318"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lisukov</surname>
+                    <given-names>Artur Nicolaevich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rizvanov</surname>
+                    <given-names>Albert Anatolevich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/126672"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tyapkina</surname>
+                    <given-names>Oksana Victorovna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gusev</surname>
+                    <given-names>Oleg Aleksandrovich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/198705"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rezvyakov</surname>
+                    <given-names>Pavel Nicolaevich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kozlovskaya</surname>
+                    <given-names>Inessa Benedictovna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tomilovskaya</surname>
+                    <given-names>Elena Sergeevna</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/405179"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nikolskiy</surname>
+                    <given-names>Evgeny Evgenievich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/11837"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Islamov</surname>
+                    <given-names>Rustem Robertovich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="author-notes" rid="fn001">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="https://loop.frontiersin.org/people/68110"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Department of Medical Biology and Genetics, Kazan State Medical University</institution>, <addr-line>Kazan</addr-line>, <country>Russia</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Institute of Fundamental Medicine and Biology, Kazan Federal University</institution>, <addr-line>Kazan</addr-line>, <country>Russia</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Kazan Institute of Biochemistry and Biophysics, Federal Research Center “Kazan Scientific Center” of RAS</institution>, <addr-line>Kazan</addr-line>, <country>Russia</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>RIKEN Institute</institution>, <addr-line>Yokohama</addr-line>, <country>Japan</country></aff>
+              <aff id="aff5"><sup>5</sup><institution>Institute of Biomedical Problems of Russian Academy of Sciences</institution>, <addr-line>Moscow</addr-line>, <country>Russia</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Derek John Hausenloy, University College London, United Kingdom</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Leniz Nurullin, Kazan Institute of Biochemistry and Biophysics (RAS), Russia; Petr Masliukov, Yaroslavl State Medical University, Russia</p>
+                </fn>
+                <corresp id="fn001">*Correspondence: Maksim Sergeevich Kuznetsov, <email xlink:href="mailto:qmaxksmu@yandex.ru" xlink:type="simple">qmaxksmu@yandex.ru</email>; Rustem Robertovich Islamov, <email xlink:href="mailto:islamru@yahoo.com" xlink:type="simple">islamru@yahoo.com</email>
+</corresp>
+                <fn fn-type="other" id="fn002">
+                  <p>This article was submitted to Translational Pharmacology, a section of the journal Frontiers in Pharmacology</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>7</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2019</year>
+              </pub-date>
+              <volume>10</volume>
+              <elocation-id>747</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>10</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>6</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2019 Kuznetsov, Lisukov, Rizvanov, Tyapkina, Gusev, Rezvyakov, Kozlovskaya, Tomilovskaya, Nikolskiy and Islamov</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <copyright-holder>Kuznetsov, Lisukov, Rizvanov, Tyapkina, Gusev, Rezvyakov, Kozlovskaya, Tomilovskaya, Nikolskiy and Islamov</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The hypogravity motor syndrome (HMS) is one of the deleterious impacts of weightlessness on the human body in orbital space missions. There is a hypothesis that disorders of musculoskeletal system as part of HMS arise in consequence of changes in spinal motor neurons. The study was aimed at bioinformatic analysis of transcriptome changes in lumbar spinal cords of mice after a 30-day spaceflight aboard biosatellite Bion-M1 (space group, S) and subsequent 7-day readaptation to the Earth’s gravity (recovery group, R) when compared with control mice (C group) housed in simulated biosatellite conditions on the Earth. Gene ontology and human phenotype ontology databases were used to detect biological processes, molecular functions, cellular components, and human phenotypes associated with HMS. Our results suggest resemblance of molecular changes developing in space orbit and during the postflight recovery to terrestrial neuromuscular disorders. Remarkably, more prominent transcriptome changes were revealed in R vs. S and R vs. C comparisons that are possibly related to the 7-day recovery period in the Earth’s gravity condition. These data may assist with establishment of HMS pathogenesis and proposing effective preventive and therapeutic options.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>Bion-M1 biosatellite</kwd>
+                <kwd>30-day spaceflight</kwd>
+                <kwd>7-day postflight readaptation</kwd>
+                <kwd>mice lumbar spinal cord</kwd>
+                <kwd>hypogravity motor syndrome</kwd>
+                <kwd>transcriptome</kwd>
+                <kwd>bioinformatic study</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn001">Russian Foundation for Basic Research<named-content content-type="fundref-id">10.13039/501100002261</named-content></funding-source>
+                  <award-id rid="cn001">17-04-00385</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="4"/>
+                <table-count count="0"/>
+                <equation-count count="0"/>
+                <ref-count count="45"/>
+                <page-count count="10"/>
+                <word-count count="4601"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="s1">
+              <title>Introduction</title>
+              <p>Absence of gravity causes changes in virtually all organs and systems of a living organism at the molecular, cellular, and tissue levels (<xref rid="B11" ref-type="bibr">Edgerton and Roy, 2000</xref>). Fundamental knowledge of these changes extends our understanding of the human body functioning in the extreme microgravity environment of outer space and offers a clearer view of preventive options needed for astronauts on long missions.</p>
+              <p>Investigations of weightlessness effects on living organisms began with the launch of dog Laika to space in 1957 and the flight of Yuri Gagarin in 1961. Since then, studies in the domain of space medicine have revealed a variety of spaceflight effects on human cardiovascular, neurovestibular, and musculoskeletal systems (<xref rid="B19" ref-type="bibr">Grigoriev and Potapov, 2013</xref>). The hypogravity motor syndrome (HMS) is considered to be a severe microgravity effect on astronauts (<xref rid="B18" ref-type="bibr">Grigoriev and Kozlovskaya, 1991</xref>), which is why success of future remote space missions will be highly dependent on how soon we get to the roots of HMS pathogenesis and be ready to offer methods of prevention on the molecular level. An important input to this effort comes from experiments with animals that have been exposed to spaceflight weightlessness (<xref rid="B29" ref-type="bibr">Moyer et al., 2016</xref>).</p>
+              <p>Mechanisms of HMS development are still poorly explored. Interestingly, pathognomonic signs are observed in skeletal muscles following spinal or peripheral nerve disorders (<xref rid="B20" ref-type="bibr">Hides et al., 2017</xref>). Earlier, it has been shown that the important trigger of HMS is violation of sensory impulses from the skin (<xref rid="B25" ref-type="bibr">Kozlovskaya et al., 1981</xref>). Possibly, absence of sensory stimuli from mechanoreceptors of the sole skin results in the functional activity of motor neurons innervating leg muscles. However, it is well known that in a motor unit, the neuron and skeletal muscle fibers interrelate through electrical impulses and informative molecular signaling (<xref rid="B10" ref-type="bibr">Chevrel et al., 2006</xref>; <xref rid="B39" ref-type="bibr">Sakuma and Yamaguchi, 2011</xref>; <xref rid="B4" ref-type="bibr">Baguma-Nibasheka et al., 2016</xref>). Thus, skeletal muscle plasticity depends on the condition of the different inputs to motor units. In light of this assumption and based on our earlier studies of the neuromuscular synapse, peripheral nerve, and spinal cord in a rat model of hypogravity [hind limb unloading model (HUM)] (<xref rid="B9" ref-type="bibr">Chelyshev et al., 2014</xref>; <xref rid="B24" ref-type="bibr">Islamov et al., 2015</xref>), we made a supposition that HMS pathogenesis is invoked by spinal motor neurons.</p>
+              <p>Under the auspices of the Federal Space Program, the Russian Federal Space Agency and the Institute of Biomedical Problems of the Russian Academy of Sciences undertook a vast program of space bioresearches aboard biosatellite Bion-M1 launched on April 19 and landed on May 19, 2013 (<xref rid="B2" ref-type="bibr">Andreev-Andrievskiy et al., 2014</xref>). To test the hypothesis that changes in spinal motor neurons provoke HMS, a full genome study of the mice lumbar spinal cord was performed after the 30-day Bion-M1 mission. The list of genes from the lumbar spine of mice with significant increases and decreases has been presented in our previous study (<xref rid="B22" ref-type="bibr">Islamov et al., 2016</xref>). Some changes in gene expression supported our hypothesis that molecular changes in spinal motor neurons are among the key factors in HMS pathogenesis. Meanwhile, the further comparative bioinformatic analysis based on the contemporary genetic and medical databases is needed to discover the possible molecular mechanism of HMS development. At the same time, it is known that back on Earth, astronauts undergo lengthy recovery or rehabilitation (<xref rid="B27" ref-type="bibr">Loehr et al., 2015</xref>). To date, the problem of rapid rehabilitation of astronaut’s activity is under the intensive study. Obviously, the changes in the transcriptome profile arising during the readaptation to the Earth’s gravity may explain some clinical signs in astronauts after landing. The Bion-M1 research program included studies of mice immediately following the exposure to the 30-day spaceflight and after the 7-day readaptation on Earth. The chosen periods were designed for international collaborative investigation to obtain data on long-term exposure to weightlessness on varied physiological systems and provide data on behavioral readaptation of mice to Earth’s gravity after the flight (<xref rid="B2" ref-type="bibr">Andreev-Andrievskiy et al., 2014</xref>).</p>
+              <p>The investigation was designed as a full-genome study and bioinformatic analysis of transcriptome changes in the lumbar spinal cord of mice that spent 30 days onboard Bion-M1 in comparison with their counterparts that were given a week of rehabilitation to the Earth’s gravity. We examined transcriptome changes further using gene ontology (GO) and human phenotype ontology (HPO) databases for disclosure of the HMS pathogenesis and the relationship of HMS with the terrestrial neuromuscular diseases.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2_1">
+                <title>Animals and Treatment</title>
+                <p>Adult male C57BL/6J mice (4‒5 months of age, 25.1 ± 3.2 g) obtained from the “Puschino” animals breeding laboratory and nursery (Puschino, Moscow region, Russia) were divided in the flight and control groups. In its turn, the flight group was subdivided into the group of mice sacrificed 14 h following the biosatellite landing (space group, S) and the other one where the mice were given 7 days for readaptation (recovery group, R). Mice from the control (C) group were housed three per cage under simulated biosatellite conditions on Earth. Male mice were selected since they are physically stronger than female and have more stable hormonal status. The overview of the mice selection, housing, and training before they were launched, during the 30-day spaceflight and in postflight 7-day period of readaptation, was published by <xref rid="B2" ref-type="bibr">Andreev-Andrievskiy et al. (2014)</xref>. The animal protocols including euthanasia were reviewed and approved by the Commission on Bioethics at the Institute of Mitoengineering of the Lomonosov Moscow State University (protocol no. 35 of November 1, 2012) and the Commission on Biomedical Ethics at the Institute of Biomedical Problems of the Russian Academy of Sciences (protocol no. 319 of April 4, 2013).</p>
+              </sec>
+              <sec id="s2_2">
+                <title>Full-Genome Study of the Mice Lumbar Spinal Cord</title>
+                <p>In our investigation, biospecimens were obtained from six experimental animals. Lumbar spinal cords were harvested from groups S (n = 2), R (n = 2), and C (n = 2). The spinal cords of group C were extracted simultaneously with S group. Spinal cords have been removed from the vertebral column by hydraulic ejection method. Ventral and dorsal roots were sectioned, and L1 to L5 region of the lumbar enlargement were isolated and frozen in liquid nitrogen immediately. The prepared tissue samples were processed for RNA isolation from both the gray and white matter.</p>
+                <p>The microarray analysis procedures for group R were performed as described previously for groups S and C (<xref rid="B22" ref-type="bibr">Islamov et al., 2016</xref>). In short, total RNA was extracted from the entire sample of lumbar enlargements using the RNeasy Mini Kit (Qiagen, Valencia, CA). RNA quality was confirmed with 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA) where 18S and 28S ribosomal RNA served as controls. For microarray analysis, 500 ng of RNA in the Mouse GE 4x44K v2 Microarray Kit (Agilent Technologies, Santa Clara, CA) was used. Microarray analysis procedures were conducted as per manufacturer’s instructions. Quality control of the feature was performed using the settings recommended by Agilent Technologies. Raw microarray data were uploaded in ArrayExpress (accession: E-MTAB-7426).</p>
+              </sec>
+              <sec id="s2_3">
+                <title>Bioinformatic Study</title>
+                <p>We used R version 3.4.4 (R Foundation for Statistical Computing, Vienna, Austria) for all steps of data processing and analysis (code is available on github.com/bqmax/bion_m1) (<xref rid="B35" ref-type="bibr">R Core Team, 2018</xref>). Background correction and quantile-based normalization were performed before removal of control probes and within-array replicates replacement with averages. We used the hierarchical clustering with complete agglomeration and Euclidean distance as a similarity measure and principal component analysis to assess general transcriptome profiles of the experimental spinal cords (<xref rid="B3" ref-type="bibr">Aziz et al., 2017</xref>). Linear models implemented in limma package were applied to assess differential genes expression. The Benjamini–Hochberg procedure was used to control the false discovery rate (<xref rid="B37" ref-type="bibr">Ritchie et al., 2015</xref>).</p>
+                <p>To determine differentially expressed genes, the followed cutoff rules were applied: p<sub>FDR</sub>-value &lt;0.05 and absolute log2(fold change) &gt; 2 (or absolute fold change &gt;4).</p>
+                <p>For functional analysis of the obtained microarray data, we used two databases, namely GO and HPO as follows:</p>
+                <list list-type="order">
+                  <list-item>
+                    <p>Genes sets considered as differentially expressed were selected for GO-based and HPO-based overrepresentation analysis <italic>via g:Profiler interface</italic> (<xref rid="B36" ref-type="bibr">Reimand et al., 2016</xref>);</p>
+                  </list-item>
+                  <list-item>
+                    <p>Random forest algorithm implemented in GOexpress package was used for GO-based enrichment analysis (<xref rid="B38" ref-type="bibr">Rue-Albrecht, 2016</xref>).</p>
+                  </list-item>
+                </list>
+              </sec>
+              <sec id="s2_4">
+                <title>Real-Time PCR Analysis</title>
+                <p>Transcriptome data were validated by real-time PCR (RT-PCR) using SYBR Green method. Differentially regulated genes (Echs1, Ndufa9, Rplp2, Fbxo21, and Parl) were selected by both minimization of observed p-values and effect sizes (absolute fold changes). Ppib and Rpl7 genes were chosen as housekeeping references due to stable expression in different mouse tissues (<xref rid="B43" ref-type="bibr">Thomas et al., 2014</xref>; <xref rid="B7" ref-type="bibr">Bruckert et al., 2016</xref>). Primers with appropriate thermodynamic properties for these genes were designed using Vector NTI software (Invitrogen); specificity of these primers was confirmed using BLASTn. Random Hexamers (Trermo Fisher) and RevertAid transcriptase (Thermo Scientific) for reverse transcription and qPCRmix-HS SYBR (Eurogene) for quantitative PCR were employed. For RT-PCR data analysis, REST software (QIAGEN, GmbH) was used. The list of the target genes and corresponding sequences of designed primers are presented in <xref ref-type="supplementary-material" rid="SM1"><bold>Table S1</bold></xref>.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec id="s3_1">
+                <title>Hierarchical Clustering and Principal Component Analysis</title>
+                <p>Experimental observations form two distinct clusters, one of which consists of two samples from group R and the other is a compound of observations from groups S and C. Dendrogram on <xref ref-type="fig" rid="f1"><bold>Figure 1A</bold></xref> illustrates the arrangement of clades produced by hierarchical clustering. Similar results obtained with principal component analysis are visualized on the biplot (<xref ref-type="fig" rid="f1"><bold>Figure 1B</bold></xref>).</p>
+                <fig id="f1" position="float">
+                  <label>Figure 1</label>
+                  <caption>
+                    <p>Hierarchical clustering and principal component analysis. <bold>(A)</bold> Dendrogram representing hierarchical clustering of gene expression data. Observations from the R (recovery) group form a single cluster. Observations from the S (space group) and C (control) groups are in a compound cluster. <bold>(B)</bold> Principal component analysis of gene expression data. Observations from the S (space) and C (control) groups are mixed in PC1 (Dim 1) and PC2 (Dim 2) spaces.</p>
+                  </caption>
+                  <graphic xlink:href="fphar-10-00747-g001"/>
+                </fig>
+              </sec>
+              <sec id="s3_2">
+                <title>Microarray Expression Profiling</title>
+                <p>In our previous research, we employed the Mouse GE 4x44K v2 Microarray Kit to perform transcriptome analysis of the lumbar spinal cord of mice flown on Bion-M1. In comparison with group C, out of genes declared on the microarray platform increased and decreased expressions were documented in 134 genes and 41 genes, respectively. The list of up- and downregulated genes is published by Islamov R. and coauthors (<xref rid="B22" ref-type="bibr">Islamov et al., 2016</xref>).</p>
+                <p>In the present study, the same Mouse GE 4x44K v2 Microarray Kit was used for transcriptome profiling of the lumbar spinal cord from mice after 7 days of readaptation after the Bion-M1 mission (group R).</p>
+                <p>Comparative analysis between groups R and C using the declared cutoff rules revealed 1,994 downregulated and 1,726 upregulated genes. In comparison between R and S groups, there were 2,025 downregulated and 1,758 upregulated genes. For clarity, differential performance of gene expression in mice lumbar spinal cord in three comparisons is presented in the form of volcano plots (<xref ref-type="fig" rid="f2"><bold>Figure 2</bold></xref>). It is important to note that multiple groups comparison results in decrease of statistical power which did not reveal differentially expressed genes between S and C groups, as was shown earlier (<xref rid="B22" ref-type="bibr">Islamov et al., 2016</xref>). Full lists of genes considered as differentially expressed with appropriate statistics are presented in <xref ref-type="supplementary-material" rid="SM2"><bold>Table S2</bold></xref>. <xref ref-type="fig" rid="f3"><bold>Figure 3A</bold></xref> represents top 50 differentially expressed genes after hierarchical biclustering.</p>
+                <fig id="f2" position="float">
+                  <label>Figure 2</label>
+                  <caption>
+                    <p>Volcano plots present differential performance of gene expression in mice lumbar spinal cord in three comparisons. Sets of genes considered as differentially expressed using declared cutoff rules [p<sub>FDR</sub>-value &lt;0.05 and absolute log<sub>2</sub>(Fold change) &gt;2] are marked as blue dots. -log<sub>10</sub> of observed p-values are mapped to the y axis.</p>
+                  </caption>
+                  <graphic xlink:href="fphar-10-00747-g002"/>
+                </fig>
+                <fig id="f3" position="float">
+                  <label>Figure 3</label>
+                  <caption>
+                    <p>The top of differentially expressed genes and GO terms. <bold>(A)</bold> Heat map of top 50 differentially expressed genes after hierarchical biclustering. <bold>(B)</bold> Word clouds of top 15 enriched GO terms from biological processes (BP), molecular functions (MF), and cellular components (CC) namespaces and top 15 enriched HPO terms (HP). Letter size of words is proportional to 1/-log<sub>10</sub>(p<sub>FDR</sub>-value).</p>
+                  </caption>
+                  <graphic xlink:href="fphar-10-00747-g003"/>
+                </fig>
+              </sec>
+              <sec id="s3_3">
+                <title>Functional Profiling of Gene List Using g:Profiler</title>
+                <p>Based on the full list of differentially expressed genes, GO-based and HPO-based overrepresentation analysis was performed. <xref ref-type="supplementary-material" rid="SM3"><bold>Table S3</bold></xref> contains all overrepresented GO:biological processes (n = 1,775), GO:molecular functions (n = 321), GO:cellular components (n = 236), and HPO terms (n = 43). <xref ref-type="fig" rid="f3"><bold>Figure 3B</bold></xref> represents top 15 overrepresented HPO and GO terms based on p<sub>FDR</sub>-value. Notably, top-rated biological processes terms are semantically associated with the nervous system and are consistent with revealed molecular functions, cellular components, and human phenotypes.</p>
+              </sec>
+              <sec id="s3_4">
+                <title>Gene Ontology-Based Enrichment Analysis</title>
+                <p>This analysis allows discrimination of biological processes, molecular functions, and cellular components that are possibly involved with pathological processes in the spinal cord in the condition of weightlessness without loss of information about expression levels of genes in each experimental observation. The results of functional enrichment based on random forest are shown in <xref ref-type="supplementary-material" rid="SM4"><bold>Table S4</bold></xref>. Ranking of enriched GO terms depends on random forest results (aggregation of Gini scores for each genes linked with term) and count of mapped genes. For downstream analysis, we selected the top 1,000 genes based on Gini score and only terms from biological processes namespace with p-value &lt;0.01 and total genes count ≥10. Using binary biclustering, we identified “hot spots” of enrichment by bivariate maximization (implemented algorithm and R code are described in <xref ref-type="supplementary-material" rid="SM5"><bold>Appendix S1</bold></xref>). The results of analysis are presented in <xref ref-type="fig" rid="f4"><bold>Figure 4</bold></xref>. This approach allowed to reveal 28 genes linked with six GO terms: GO:0006886 (intracellular protein transport); GO:0006913 (nucleocytoplasmic transport); GO:0007165 (signal transduction); GO:0015031 (protein transport), GO:0006184 (obsolete GTP catabolic process), and GO:0007264 (small GTPase mediated signal transduction).</p>
+                <fig id="f4" position="float">
+                  <label>Figure 4</label>
+                  <caption>
+                    <p>Genes and GO terms forming “hot spot” of enrichment. Top rated 1,000 genes (based on Gini index) and enriched GO terms from biological processes (p &lt; 0.01) were selected for “hot spot” detection. Circular visualization represents links between 28 genes and six terms. Genes are scored by Gini index. GO:0006886—intracellular protein transport; GO:0006913—nucleocytoplasmic transport; GO:0007165—signal transduction; GO:0015031—protein transport; GO:0006184—obsolete GTP catabolic process; and GO:0007264—small GTPase mediated signal transduction.</p>
+                  </caption>
+                  <graphic xlink:href="fphar-10-00747-g004"/>
+                </fig>
+              </sec>
+              <sec id="s3_5">
+                <title>Real-Time PCR Validation of Microarray Data</title>
+                <p>The RT-PCR results have confirmed the directions of the obtained transcriptome changes in five of five cases in R vs. S comparison and in four of five cases in S vs. C comparison (gene Parl was upregulated in RT-PCR assay and downregulated in microarray approach). <xref ref-type="supplementary-material" rid="SM1"><bold>Table S1</bold></xref> contains fold changes for five target genes estimated in both microarray and RT-PCR analysis. It should be noted that our results are consistent with the study on the reliability of the use of RT-PCR for verifying the microarray data (<xref rid="B28" ref-type="bibr">Morey et al., 2006</xref>).</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <p>Spaceflight and exposure to microgravity cause specific changes in human skeleton (<xref rid="B41" ref-type="bibr">Smith et al., 2012</xref>) and skeletal muscles (<xref rid="B6" ref-type="bibr">Belavý et al., 2011</xref>; <xref rid="B31" ref-type="bibr">Narici and de Boer, 2011</xref>). It is known that the disorders seen in astronauts after a space mission are similar to terrestrial neuromuscular diseases in patients (<xref rid="B20" ref-type="bibr">Hides et al., 2017</xref>). Studies of the neuromuscular system plasticity in astronauts are beneficial to patients with similar disorders, and, vice versa, researches with patients may provide new options for the reconditioning of astronauts (<xref rid="B42" ref-type="bibr">Stokes et al., 2017</xref>). HMS is among the most untoward consequences of long-term orbital spaceflight. HMS is characterized by specific changes in skeletal muscles, particularly in the so-called postural muscles responsible for maintaining posture in the gravity field of the Earth (<xref rid="B18" ref-type="bibr">Grigoriev and Kozlovskaya, 1991</xref>). Along with weakness and atrophy of skeletal muscles, the ratio of muscle fiber types, expression of muscle-specific proteins, contractile characteristics, and electrophysiological properties of skeletal muscle fibers are affected gravely (<xref rid="B40" ref-type="bibr">Shenkman, 2016</xref>). The physiotherapy methods applied to patients on Earth and experience of spaceflights has shown that the most effective way to maintain an astronaut’s capacity for work and to be prepared to return to Earth is regular performance of a complex set of physical exercises (<xref rid="B18" ref-type="bibr">Grigoriev and Kozlovskaya, 1991</xref>) that astronauts have to accomplish several hours a day in order to prevent HMS (<xref rid="B27" ref-type="bibr">Loehr et al., 2015</xref>).</p>
+              <p>The proposed role of spinal motoneurons in HMS pathogenesis requires a deep insight into the molecular and cellular disorders in the spinal cord. However, up to date, little is known about microgravity effects on the central nervous system. Few reports on spinal cord of rodents after different periods of orbital flight are available. Thus, it was shown that succinate dehydrogenase activity was selectively decreased in the medium-sized motoneurons of the mice lumbar spinal cord after the 9-day spaceflight (<xref rid="B21" ref-type="bibr">Ishihara et al., 2006</xref>). In rat spinal motoneurons, the content of cytoplasmic proteins was significantly lowered 22 days after spaceflight (<xref rid="B17" ref-type="bibr">Gorbunova and Portugalov, 1976</xref>). Signs of myelin destruction and decreased number of myelin-forming cells in white matter (<xref rid="B34" ref-type="bibr">Povysheva et al., 2016</xref>) and changes in immonoexpression of choline acetyltransferase (ChAT) and neurofilament proteins in gray matter (<xref rid="B33" ref-type="bibr">Porseva et al., 2016</xref>) were shown in mice spinal cord after the 30-day exposure to microgravity. During the longest mission in space, which lasted 91 days, unfortunately, only three mice survived, and only data on spinal cord necropsy was presented (<xref rid="B8" ref-type="bibr">Cancedda et al., 2012</xref>). In general, these results demonstrate the evidence of negative effects of weightlessness on spinal cord, which may lead to HMS, although the particular mechanisms of HMS pathogenesis still need to be fully elucidated. In our investigation, we studied lumbar spinal cord housing motoneurons that innervate hind limb skeletal muscles having an antigravity function.</p>
+              <p>The contemporary “omics” technologies are widely employed in unveiling the mechanisms of human diseases. Microarray data analysis makes it possible to examine the transcriptome changes at the cell, tissue, or organic levels (<xref rid="B13" ref-type="bibr">Ewis et al., 2005</xref>). Numerous bioinformatics studies on gene expression profiling in the spinal cord of mice with neurotrauma or neurodegenerative diseases have been performed in recent years (<xref rid="B30" ref-type="bibr">Munro et al., 2012</xref>; <xref rid="B12" ref-type="bibr">Elliott et al., 2013</xref>; <xref rid="B45" ref-type="bibr">Zhu et al., 2017</xref>; <xref rid="B5" ref-type="bibr">Barham et al., 2018</xref>). There have been only few studies of spaceflight effects on the transcriptome profile in the bone tissue, immune system, and skeletal muscles of mammals (<xref rid="B32" ref-type="bibr">Nichols et al., 2006</xref>). A substantial progress in microgravity genomics has been made owing mostly to the investigations of rodent skeletal muscles. For instance, Gambara and coauthors obtained a global gene expression profile of the paraspinal skeletal muscle (longissimus dorsi) (<xref rid="B14" ref-type="bibr">Gambara et al., 2017a</xref>) as well as the slow-twitch (soleus) and fast-twitch (extensor digitorum longus) hind limb muscles (<xref rid="B15" ref-type="bibr">Gambara et al., 2017b</xref>) following the exposure onboard spacecraft Bion-M1. It was shown that microgravity strongly affected the transcriptome profile in the postural soleus muscle and slightly changed the gene expression pattern in the extensor digitorum longus and longissimus dorsi. These data pointed to the microgravity-sensitive muscle genes involved in pathogenesis of HMS.</p>
+              <p>In this study, for the first time, we investigated lumbar spinal transcriptomes of mice after their 30-day spaceflight on biosatellite Bion-M1 and subsequent 7-day readaptation on Earth. Transcriptome analysis of the obtained data was completed in three comparisons, i.e., spaceflight (S) vs. ground control (C), 7-day postflight recovery (R) vs. C, and R vs. S. The results that were received with the involvement of the GO and HPO databases suggest that molecular changes developed in the mice lumbar spinal cord during the flight are similar to those in consequence of terrestrial neuromuscular disorders (<xref rid="B20" ref-type="bibr">Hides et al., 2017</xref>; <xref rid="B42" ref-type="bibr">Stokes et al., 2017</xref>). Thus, discovered biological processes terms (nervous system development, synaptic signaling, and anterograde trans-synaptic signaling), molecular functions (signaling receptor binding, gated channel activity, and ion gated channel activity), and cellular components (plasma membrane part, synapse, and neuron projection) are highly linked with human phenotypes (electromyography: myopathic abnormalities, abnormality of muscle fibers, muscle stiffness), which are in line with signs of HMS.</p>
+              <p>Earlier, using the mice HUM, we hypothesized that HMS pathogenesis partly may be due to spinal motoneurons disorders (<xref rid="B23" ref-type="bibr">Islamov et al., 2011</xref>; <xref rid="B9" ref-type="bibr">Chelyshev et al., 2014</xref>). Taking into consideration our HUM findings demonstrating decreases in the gray and white matter areas, decrease in ChAT immunoexpression, changes in myelin gene expression, and phenotypic modifications of glial cells in lumbar spinal cords, the results of this investigation suggest that motoneurons contribute to the HMS development. These findings are in a very good agreement with the data obtained in the present bioinformatic analysis. The discovered GO-based biological processes, molecular functions, and cellular components in spinal cord support conclusions in our previous report (<xref rid="B34" ref-type="bibr">Povysheva et al., 2016</xref>) that demyelination in the central nervous system is a factor in the HMS development. Moreover, it is notable that discovered GO:0006886 (intracellular protein transport), GO:0006913 (nucleocytoplasmic transport), and GO:0015031 (protein transport) may be associated with the axonal transport. It is known that axonal proteins are synthesized in the motor neuron perikaryon and then are distributed over the axon by the mechanism of anterograde axonal transport. The distance to which the molecules are transported varies significantly. In fact, the length of human neural outgrowths may by more than 1 m. Thus, to our knowledge, this is the first report that molecular disorders in intracellular transport system may affect the axonal transport that may be one of the important mechanism of HMS pathogenesis. Furthermore, overrepresented GO terms based on differentially expressed genes have revealed biological processes and molecular functions that are involved in synaptic plasticity (chemical synaptic transmission and synaptic signaling), cell membrane permeability (ion channels, potassium channel activity, and voltage-gated ion channel activity), and cytoskeleton (cytoskeletal protein binding and actin binding) and may be the key factors in the HMS pathogenesis as well (<xref ref-type="supplementary-material" rid="SM3"><bold>Table S3</bold></xref>). These findings suggest resemblance of molecular changes developing in space and during the postflight recovery to the HPO terms for terrestrial neuromuscular disorders.</p>
+              <p>Under the auspices of the Bion-M1 program, we also used the immunohistochemical assay to investigate reactions of lumbar motor neurons from the S, R, and C groups (<xref rid="B44" ref-type="bibr">Tyapkina et al., 2016</xref>). It should be noted that the decreased immunoexpression of synaptic proteins (synaptophysin and postsynaptic density protein 95) in motor neurons of mice after the spaceflight (groups S and R) is consistent with more than 15-fold upregulation of the corresponding genes (Syp and Dlg4) in group R. Moreover, <xref rid="B33" ref-type="bibr">Porseva et al. (2016)</xref> showed that the number of neurons containing ChAT and neurofilament proteins decreased in the thoracic section of the spinal cord in mice after the 30-day spaceflight (group S in our research). According to our results, in a week after landing (group R), the level of ChAT gene revealed a 17-fold increase; levels of Nefl, Nefm, and Nefh genes increased 176, 284, and 176 times, respectively. Changes in the level of proteins in motoneurons resulted, possibly, in increased expression of the gravity-sensitive genes during the readaptation period. Meanwhile upregulation or downregulation of certain genes in spinal cord tissue after 7-day readaptation period may be due to not only compensatory reaction to 30-day period of disuse of musculoskeletal system in space but also activity of the microgravity-sensitive genes and their hierarchical status in specific biological processes. Our results are also in line with the findings of <xref rid="B14" ref-type="bibr">Gambara et al. (2017a)</xref> demonstrating expression of microgravity-sensitive non-muscle-specific genes that match with genes and trends in expression identified in the corresponding groups in our study.</p>
+              <p>Thus, the bioinformatic analysis of transcriptome changes presented in the study provides a molecular evidence of HMS resemblance to the pathogenesis of the terrestrial neurological disorders. However, because of a significant loss of mice during the mission, we received very few animals (n = 2 in each group) for our study (<xref rid="B2" ref-type="bibr">Andreev-Andrievskiy et al., 2014</xref>) and, therefore, were unable to provide an acceptable power to identify the entire pool of neuron-specific target genes. At the same time, a vast majority of transcriptomic studies (microarray and RNA-seq) are conducted with a small sample size that makes them underpowered and exploratory. In our study, linear models realized in limma package to determine differentially expressed genes were used. The implemented analysis can be considered as de facto standard approach, especially in case of small sample sizes and multiple group comparison (<xref rid="B16" ref-type="bibr">Gentleman et al., 2005</xref>). This being so, we reason that our results should be considered as exploratory due to the insufficient strength of evidence.</p>
+              <p>For today, the longest continuous presence of human in space amounts to 438 days. This period is comparable with the estimated time of a Martian mission that includes the transits to Mars and back to Earth and a short stay on the planet. As the tasks facing astronautics become more challenging, this period is likely to extend. Still, even diligent pursuance of expressly developed preventive complexes may fail to preclude HMS development completely. According to the Bion-M1 program, the mice were launched for a 30-day stay in orbit. However, major disorders in the musculoskeletal system develop in the first 2 weeks of spaceflight (<xref rid="B1" ref-type="bibr">Akima et al., 2000</xref>; <xref rid="B26" ref-type="bibr">LeBlanc et al., 1995</xref>). Therefore, the 30-day period of exposure to microgravity may be appropriate for discovery of tissue-specific and gravity-sensitive genes and intracellular pathways involved in the HMS development. Severe functional impairment of postural and locomotor musculature was obtained in mice after the 30-day spaceflight on the board Bion-M1 biosatellite (<xref rid="B2" ref-type="bibr">Andreev-Andrievskiy et al., 2014</xref>). These independent findings are in line with GO biological processes [locomotion (GO:0040011), locomotory behavior (GO:0007626), regulation of locomotion (GO:0040012), and musculoskeletal movement (GO:0050881)] terms and HPO terms [myopathy (HP:0003198) and proximal muscle weakness (HP:0003701)] revealed in our work. We believe that our bioinformatics study will help future experiments aimed at disclosure of the HMS pathogenesis and suggest advanced methods of preventing and treatment of HMS and the similar terrestrial neuromuscular disorders.</p>
+            </sec>
+            <sec sec-type="conclusions" id="s5">
+              <title>Conclusion</title>
+              <p>Comprehensive bioinformatic analysis of genes expression profiling in the mice lumbar spinal cord after the 30-day spaceflight with subsequent 7-day recovery revealed molecular cascades that may be involved in pathogenesis of HMS. These data may assist in unveiling HMS pathogenesis and development of novel effective preventive and therapeutic options. Moreover, it was shown that postflight readaptation is complicated with further molecular changes in the condition of normal gravity. However, it is necessary to take into consideration that the identified genes and pathways probably associated with HMS development may be triggered not only by weightlessness but also accelerations during spacecraft insertion and descent, exposure to space radiation, or attenuation of the Earth’s magnetic field.</p>
+            </sec>
+            <sec id="s6">
+              <title>Ethics Statement</title>
+              <p>The animal protocols including euthanasia were reviewed and approved by the Commission on Bioethics at the Institute of Mitoengineering of the Lomonosov Moscow State University (Protocol No. 35 of November 1, 2012) and the Commission on Biomedical Ethics at the Institute of Biomedical Problems of the Russian Academy of Sciences (Protocol No. 319 of April 4, 2013).</p>
+            </sec>
+            <sec id="s7">
+              <title>Author Contributions</title>
+              <p>EN and RI contributed to the study conception and design. AL, PR, OT, and OG contributed to the acquisition of data. MK, AL, AR, and RI contributed to the analysis and interpretation of data. MK, AL, PR, and RI contributed to the drafting of the manuscript. AR, IK, ET, and RI provided critical revision.</p>
+            </sec>
+            <sec sec-type="funding-information" id="s8">
+              <title>Funding</title>
+              <p>The study was funded by grant RFBR 17-04-00385, grant of Presidium of the Russian Academy of Sciences “Fundamental research for biomedicine technology development.” Albert Rizvanov was personally supported as a “leading scientist” by state assignment 20.5175.2017/6.7 of the Ministry of Science and Higher Education of Russian Federation. </p>
+            </sec>
+            <sec id="s9">
+              <title>Conflict of Interest Statement</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+              <p>The reviewer, LN, declared a shared affiliation, though no other collaboration, with three of the authors, OT, EN, and RI, to the handling Editor at the time of review.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors would like to thank Gogoleva N.E. and Gogolev Yu.V. (Kazan Institute of Biochemistry and Biophysics, Federal Research Center “Kazan Scientific Center” of RAS, Kazan, Russia) and Volkov K.D. (Kazan State Medical University) for assistance in some of the experiments. Kazan Federal University was supported by the Russian Government Program of Competitive Growth.</p>
+            </ack>
+            <sec sec-type="supplementary-material" id="s10">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fphar.2019.00747/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fphar.2019.00747/full#supplementary-material</ext-link>
+</p>
+              <supplementary-material content-type="local-data" id="SM1">
+                <label>Table S1</label>
+                <caption>
+                  <p>Validation of selected differentially regulated genes in mice lumbar spinal cord in S (space) vs. C (control) and R (recovery) vs. S (space) comparisons.</p>
+                </caption>
+                <media xlink:href="Table_1.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="SM2">
+                <label>Table S2</label>
+                <caption>
+                  <p>Differentially expressed genes identified by comparison between the R (recovery) and C (control) groups and between the R (recovery) and S (space) groups.</p>
+                </caption>
+                <media xlink:href="Table_2.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="SM3">
+                <label>Table S3</label>
+                <caption>
+                  <p>Overrepresented GO and HPO terms based on differentially expressed genes with appropriate statistics.</p>
+                </caption>
+                <media xlink:href="Table_3.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="SM4">
+                <label>Table S4</label>
+                <caption>
+                  <p>GO terms enriched using random forest with Gini feature scoring.</p>
+                </caption>
+                <media xlink:href="Table_4.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material content-type="local-data" id="SM5">
+                <label>Data Sheet S1</label>
+                <caption>
+                  <p>R code for binary biclustering and genes/GO terms selection.</p>
+                </caption>
+                <media xlink:href="DataSheet_1.pdf">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Akima</surname><given-names>H.</given-names></name><name><surname>Kawakami</surname><given-names>Y.</given-names></name><name><surname>Kubo</surname><given-names>K.</given-names></name><name><surname>Sekiguchi</surname><given-names>C.</given-names></name><name><surname>Ohshima</surname><given-names>H.</given-names></name><name><surname>Miyamoto</surname><given-names>A.</given-names></name><etal/></person-group> (<year>2000</year>). <article-title>Effect of short-duration spaceflight on thigh and leg muscle volume</article-title>. <source>Med. Sci. Sports Exerc.</source>
+<volume>32</volume>, <fpage>1743</fpage>–<lpage>1747</lpage>. <pub-id pub-id-type="doi">10.1097/00005768-200010000-00013</pub-id>
+<pub-id pub-id-type="pmid">11039647</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Andreev-Andrievskiy</surname><given-names>A.</given-names></name><name><surname>Popova</surname><given-names>A.</given-names></name><name><surname>Boyle</surname><given-names>R.</given-names></name><name><surname>Alberts</surname><given-names>J.</given-names></name><name><surname>Shenkman</surname><given-names>B.</given-names></name><name><surname>Vinogradova</surname><given-names>O.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Mice in Bion-M 1 space mission: training and selection</article-title>. <source>PLoS One</source>
+<volume>9</volume>, <elocation-id>e104830</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0104830</pub-id>
+<pub-id pub-id-type="pmid">25133741</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Aziz</surname><given-names>R.</given-names></name><name><surname>Verma</surname><given-names>C. K.</given-names></name><name><surname>Srivastava</surname><given-names>N.</given-names></name></person-group> (<year>2017</year>). <article-title>Dimension reduction methods for microarray data: a review</article-title>. <source>AIMS Bioeng.</source>
+<volume>4</volume>, <fpage>179</fpage>–<lpage>197</lpage>. <pub-id pub-id-type="doi">10.3934/bioeng.2017.1.179</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Baguma-Nibasheka</surname><given-names>M.</given-names></name><name><surname>Fracassi</surname><given-names>A.</given-names></name><name><surname>Costain</surname><given-names>W. J.</given-names></name><name><surname>Moreno</surname><given-names>S.</given-names></name><name><surname>Kablar</surname><given-names>B.</given-names></name></person-group> (<year>2016</year>). <article-title>Role of skeletal muscle in motor neuron development</article-title>. <source>Histol. Histopathol.</source>
+<volume>31</volume>, <fpage>699</fpage>–<lpage>719</lpage>. <pub-id pub-id-type="doi">10.14670/HH-11-742</pub-id>
+<pub-id pub-id-type="pmid">26892388</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barham</surname><given-names>C.</given-names></name><name><surname>Fil</surname><given-names>D.</given-names></name><name><surname>Byrum</surname><given-names>S. D.</given-names></name><name><surname>Rahmatallah</surname><given-names>Y.</given-names></name><name><surname>Glazko</surname><given-names>G.</given-names></name><name><surname>Kiaei</surname><given-names>M.</given-names></name></person-group> (<year>2018</year>). <article-title>RNA-Seq analysis of spinal cord tissues from hPFN1G118V transgenic mouse model of ALS at pre-symptomatic and end-stages of disease</article-title>. <source>Sci. Rep.</source>
+<volume>8</volume>, <fpage>13737</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-018-31132-y</pub-id>
+<pub-id pub-id-type="pmid">30213953</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Belavý</surname><given-names>D. L.</given-names></name><name><surname>Beller</surname><given-names>G.</given-names></name><name><surname>Armbrecht</surname><given-names>G.</given-names></name><name><surname>Perschel</surname><given-names>F. H.</given-names></name><name><surname>Fitzner</surname><given-names>R.</given-names></name><name><surname>Bock</surname><given-names>O.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>Evidence for an additional effect of whole-body vibration above resistive exercise alone in preventing bone loss during prolonged bed rest</article-title>. <source>Osteoporos. Int.</source>
+<volume>22</volume>, <fpage>1581</fpage>–<lpage>1591</lpage>. <pub-id pub-id-type="doi">10.1007/s00198-010-1371-6</pub-id>
+<pub-id pub-id-type="pmid">20814665</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bruckert</surname><given-names>G.</given-names></name><name><surname>Vivien</surname><given-names>D.</given-names></name><name><surname>Docagne</surname><given-names>F.</given-names></name><name><surname>Roussel</surname><given-names>B. D.</given-names></name></person-group> (<year>2016</year>). <article-title>Normalization of reverse transcription quantitative pcr data during ageing in distinct cerebral structures</article-title>. <source>Mol. Neurobiol.</source>
+<volume>53</volume>, <fpage>1540</fpage>–<lpage>1550</lpage>. <pub-id pub-id-type="doi">10.1007/s12035-015-9114-5</pub-id>
+<pub-id pub-id-type="pmid">25663136</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cancedda</surname><given-names>R.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Ruggiu</surname><given-names>A.</given-names></name><name><surname>Tavella</surname><given-names>S.</given-names></name><name><surname>Biticchi</surname><given-names>R.</given-names></name><name><surname>Santucci</surname><given-names>D.</given-names></name><etal/></person-group> (<year>2012</year>). <article-title>The Mice Drawer System (MDS) experiment and the space endurance record-breaking mice</article-title>. <source>PLoS One</source>
+<volume>7</volume>, <elocation-id>e32243</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0032243</pub-id>
+<pub-id pub-id-type="pmid">22666312</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chelyshev</surname><given-names>Y. A.</given-names></name><name><surname>Muhamedshina</surname><given-names>Y. O.</given-names></name><name><surname>Povysheva</surname><given-names>T. V.</given-names></name><name><surname>Shaymardanova</surname><given-names>G. F.</given-names></name><name><surname>Rizvanov</surname><given-names>A. A.</given-names></name><name><surname>Nigmetzyanova</surname><given-names>M. V.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Characterization of spinal cord glial cells in a model of hindlimb unloading in mice</article-title>. <source>Neuroscience</source>
+<volume>280</volume>, <fpage>328</fpage>–<lpage>339</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuroscience.2014.09.004</pub-id>
+<pub-id pub-id-type="pmid">25218808</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chevrel</surname><given-names>G.</given-names></name><name><surname>Hohlfeld</surname><given-names>R.</given-names></name><name><surname>Sendtner</surname><given-names>M.</given-names></name></person-group> (<year>2006</year>). <article-title>The role of neurotrophins in muscle under physiological and pathological conditions</article-title>. <source>Muscle Nerve</source>
+<volume>33</volume>, <fpage>462</fpage>–<lpage>476</lpage>. <pub-id pub-id-type="doi">10.1002/mus.20444</pub-id>
+<pub-id pub-id-type="pmid">16228973</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Edgerton</surname><given-names>V. R.</given-names></name><name><surname>Roy</surname><given-names>R. R.</given-names></name></person-group> (<year>2000</year>). <article-title>Invited review: gravitational biology of the neuromotor systems: a perspective to the next era</article-title>. <source>J. Appl. Physiol.</source>
+<volume>89</volume>, <fpage>1224</fpage>–<lpage>1231</lpage>. <pub-id pub-id-type="doi">10.1152/jappl.2000.89.3.1224</pub-id>
+<pub-id pub-id-type="pmid">10956372</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Elliott</surname><given-names>R.</given-names></name><name><surname>Li</surname><given-names>F.</given-names></name><name><surname>Dragomir</surname><given-names>I.</given-names></name><name><surname>Chua</surname><given-names>M. M. W.</given-names></name><name><surname>Gregory</surname><given-names>B. D.</given-names></name><name><surname>Weiss</surname><given-names>S. R.</given-names></name></person-group> (<year>2013</year>). <article-title>Analysis of the host transcriptome from demyelinating spinal cord of murine coronavirus-infected mice</article-title>. <source>PLoS One</source>
+<volume>8</volume>, <elocation-id>e75346</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0075346</pub-id>
+<pub-id pub-id-type="pmid">24058676</pub-id></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ewis</surname><given-names>A. A.</given-names></name><name><surname>Zhelev</surname><given-names>Z.</given-names></name><name><surname>Bakalova</surname><given-names>R.</given-names></name><name><surname>Fukuoka</surname><given-names>S.</given-names></name><name><surname>Shinohara</surname><given-names>Y.</given-names></name><name><surname>Ishikawa</surname><given-names>M.</given-names></name><etal/></person-group> (<year>2005</year>). <article-title>A history of microarrays in biomedicine</article-title>. <source>Expert Rev. Mol. Diagn.</source>
+<volume>5</volume>, <fpage>315</fpage>–<lpage>328</lpage>. <pub-id pub-id-type="doi">10.1586/14737159.5.3.315</pub-id>
+<pub-id pub-id-type="pmid">15934810</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gambara</surname><given-names>G.</given-names></name><name><surname>Salanova</surname><given-names>M.</given-names></name><name><surname>Ciciliot</surname><given-names>S.</given-names></name><name><surname>Furlan</surname><given-names>S.</given-names></name><name><surname>Gutsmann</surname><given-names>M.</given-names></name><name><surname>Schiffl</surname><given-names>G.</given-names></name><etal/></person-group> (<year>2017</year>a). <article-title>Gene expression profiling in slow-type calf soleus muscle of 30 days space-flown mice</article-title>. <source>PLoS One</source>
+<volume>12</volume>, <elocation-id>e0169314</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0169314</pub-id>
+<pub-id pub-id-type="pmid">28076365</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gambara</surname><given-names>G.</given-names></name><name><surname>Salanova</surname><given-names>M.</given-names></name><name><surname>Ciciliot</surname><given-names>S.</given-names></name><name><surname>Furlan</surname><given-names>S.</given-names></name><name><surname>Gutsmann</surname><given-names>M.</given-names></name><name><surname>Schiffl</surname><given-names>G.</given-names></name><etal/></person-group> (<year>2017</year>b). <article-title>Microgravity-induced transcriptome adaptation in mouse paraspinal longissimus dorsi muscle highlights insulin resistance-linked genes</article-title>. <source>Front. Physiol.</source>
+<volume>8</volume>, <elocation-id>279</elocation-id>. <pub-id pub-id-type="doi">10.3389/fphys.2017.00279</pub-id>
+<pub-id pub-id-type="pmid">28529490</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Gentleman</surname><given-names>R.</given-names></name><name><surname>Carey</surname><given-names>V. J.</given-names></name><name><surname>Huber</surname><given-names>W.</given-names></name><name><surname>Irizarry</surname><given-names>R. A.</given-names></name><name><surname>Dudoit</surname><given-names>S.</given-names></name></person-group> (<year>2005</year>). <article-title>Bioinformatics and computational biology solutions using R and bioconductor</article-title>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer-Verlag</publisher-name>. <pub-id pub-id-type="doi">10.1007/0-387-29362-0</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gorbunova</surname><given-names>A. V.</given-names></name><name><surname>Portugalov</surname><given-names>V. V.</given-names></name></person-group> (<year>1976</year>). <article-title>Cytochemical investigations of proteins and RNA in spinal motoneurons and neurons of spinal ganglia of the rat after space flight</article-title>. <source>Aviat. Space. Environ. Med.</source>
+<volume>47</volume>, <fpage>708</fpage>–<lpage>710</lpage>.<pub-id pub-id-type="pmid">971155</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Grigoriev</surname><given-names>A. I.</given-names></name><name><surname>Kozlovskaya</surname><given-names>I. B.</given-names></name></person-group> (<year>1991</year>). <article-title>Physiological reactions to muscle loading under conditions of long term hypogravity</article-title>. <source>Physiologist</source>
+<volume>30</volume> (<issue>1</issue>), <fpage>76</fpage>–<lpage>77</lpage>.</mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Grigoriev</surname><given-names>A. I.</given-names></name><name><surname>Potapov</surname><given-names>A. N.</given-names></name></person-group> (<year>2013</year>). <article-title>From the flight of Yu.A</article-title>. <source>Hum. Physiol.</source>
+<volume>39</volume>, <fpage>675</fpage>–<lpage>686</lpage>. <pub-id pub-id-type="doi">10.1134/S0362119713070074</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hides</surname><given-names>J.</given-names></name><name><surname>Lambrecht</surname><given-names>G.</given-names></name><name><surname>Ramdharry</surname><given-names>G.</given-names></name><name><surname>Cusack</surname><given-names>R.</given-names></name><name><surname>Bloomberg</surname><given-names>J.</given-names></name><name><surname>Stokes</surname><given-names>M.</given-names></name></person-group> (<year>2017</year>). <article-title>Parallels between astronauts and terrestrial patients – Taking physiotherapy rehabilitation “To infinity and beyond”</article-title>. <source>Musculoskelet. Sci. Pract.</source>
+<volume>27</volume>, <fpage>S32</fpage>–<lpage>S37</lpage>. <pub-id pub-id-type="doi">10.1016/j.msksp.2016.12.008</pub-id>
+<pub-id pub-id-type="pmid">28279266</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ishihara</surname><given-names>A.</given-names></name><name><surname>Yamashiro</surname><given-names>J.</given-names></name><name><surname>Matsumoto</surname><given-names>A.</given-names></name><name><surname>Higashibata</surname><given-names>A.</given-names></name><name><surname>Ishioka</surname><given-names>N.</given-names></name><name><surname>Shimazu</surname><given-names>T.</given-names></name><etal/></person-group> (<year>2006</year>). <article-title>Comparison of cell body size and oxidative enzyme activity in motoneurons between the cervical and lumbar segments in the rat spinal cord after spaceflight and recovery</article-title>. <source>Neurochem. Res.</source>
+<volume>31</volume>, <fpage>411</fpage>–<lpage>415</lpage>. <pub-id pub-id-type="doi">10.1007/s11064-005-9027-1</pub-id>
+<pub-id pub-id-type="pmid">16733817</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Islamov</surname><given-names>R. R.</given-names></name><name><surname>Gusev</surname><given-names>О. А.</given-names></name><name><surname>Tanabe</surname><given-names>A.</given-names></name><name><surname>Terada</surname><given-names>M.</given-names></name><name><surname>Tyapkina</surname><given-names>O. V.</given-names></name><name><surname>Petrov</surname><given-names>K. A.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>Full-genome study of gene expression in lumbar spinal cord of mice after 30-day space flight on Bion-M1 biosatellite</article-title>. <source>Acta Astronaut.</source>
+<volume>122</volume>, <fpage>231</fpage>–<lpage>236</lpage>. <pub-id pub-id-type="doi">10.1016/j.actaastro.2016.01.026</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Islamov</surname><given-names>R. R.</given-names></name><name><surname>Mishagina</surname><given-names>E. A.</given-names></name><name><surname>Tyapkina</surname><given-names>O. V.</given-names></name><name><surname>Shajmardanova</surname><given-names>G. F.</given-names></name><name><surname>Eremeev</surname><given-names>A. A.</given-names></name><name><surname>Nikolskij</surname><given-names>E. E.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>Mechanisms of spinal motoneurons survival in rats under simulated hypogravity on earth</article-title>. <source>Acta Astronaut.</source>
+<volume>68</volume>, <fpage>1469</fpage>–<lpage>1477</lpage>. <pub-id pub-id-type="doi">10.1016/j.actaastro.2009.12.001</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Islamov</surname><given-names>R. R.</given-names></name><name><surname>Tyapkina</surname><given-names>O. V.</given-names></name><name><surname>Nikol’skii</surname><given-names>E. E.</given-names></name><name><surname>Kozlovskaya</surname><given-names>I. B.</given-names></name><name><surname>Grigor’ev</surname><given-names>A. I.</given-names></name></person-group> (<year>2015</year>). <article-title>The role of spinal cord motoneurons in the mechanisms of development of low-gravity motor syndrome</article-title>. <source>Neurosci. Behav. Physiol.</source>
+<volume>45</volume>, <fpage>96</fpage>–<lpage>103</lpage>. <pub-id pub-id-type="doi">10.1007/s11055-014-0045-9</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kozlovskaya</surname><given-names>I. B.</given-names></name><name><surname>Kreydich</surname><given-names>Y. V.</given-names></name><name><surname>Oganov</surname><given-names>V. S.</given-names></name><name><surname>Kozerenko</surname><given-names>O. P.</given-names></name></person-group> (<year>1981</year>). <article-title>Pathophysiology of motor function in prolonged manned space flights</article-title>. <source>Acta Astronaut.</source>
+<volume>8</volume>, <fpage>1059</fpage>–<lpage>1072</lpage>. <pub-id pub-id-type="doi">10.1016/0094-5765(81)90079-5</pub-id>
+<pub-id pub-id-type="pmid">11543096</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>LeBlanc</surname><given-names>A.</given-names></name><name><surname>Rowe</surname><given-names>R.</given-names></name><name><surname>Schneider</surname><given-names>V.</given-names></name><name><surname>Evans</surname><given-names>H.</given-names></name><name><surname>Hedrick</surname><given-names>T.</given-names></name></person-group> (<year>1995</year>). <article-title>Regional muscle loss after short duration spaceflight</article-title>. <source>Aviat. Space. Environ. Med.</source>
+<volume>66</volume>, <fpage>1151</fpage>–<lpage>1154</lpage>.<pub-id pub-id-type="pmid">8747608</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Loehr</surname><given-names>J. A.</given-names></name><name><surname>Guilliams</surname><given-names>M. E.</given-names></name><name><surname>Petersen</surname><given-names>N.</given-names></name><name><surname>Hirsch</surname><given-names>N.</given-names></name><name><surname>Kawashima</surname><given-names>S.</given-names></name><name><surname>Ohshima</surname><given-names>H.</given-names></name></person-group> (<year>2015</year>). <article-title>Physical training for long-duration spaceflight</article-title>. <source>Aerosp. Med. Hum. Perform.</source>
+<volume>86</volume>, <fpage>14</fpage>–<lpage>23</lpage>. <pub-id pub-id-type="doi">10.3357/AMHP.EC03.2015</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morey</surname><given-names>J. S.</given-names></name><name><surname>Ryan</surname><given-names>J. C.</given-names></name><name><surname>Van Dolah</surname><given-names>F. M.</given-names></name></person-group> (<year>2006</year>). <article-title>Microarray validation: factors influencing correlation between oligonucleotide microarrays and real-time PCR</article-title>. <source>Biol. Proced. Online</source>
+<volume>8</volume>, <fpage>175</fpage>–<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1251/bpo126</pub-id>
+<pub-id pub-id-type="pmid">17242735</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moyer</surname><given-names>E. L.</given-names></name><name><surname>Dumars</surname><given-names>P. M.</given-names></name><name><surname>Sun</surname><given-names>G.-S.</given-names></name><name><surname>Martin</surname><given-names>K. J.</given-names></name><name><surname>Heathcote</surname><given-names>D. G.</given-names></name><name><surname>Boyle</surname><given-names>R. D.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>Evaluation of rodent spaceflight in the NASA animal enclosure module for an extended operational period (up to 35 days)</article-title>. <source>NPJ Microgravity</source>
+<volume>2</volume>, <elocation-id>16002</elocation-id>. <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.2</pub-id>
+<pub-id pub-id-type="pmid">28725722</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Munro</surname><given-names>K. M.</given-names></name><name><surname>Perreau</surname><given-names>V. M.</given-names></name><name><surname>Turnley</surname><given-names>A. M.</given-names></name></person-group> (<year>2012</year>). <article-title>Differential gene expression in the epha4 knockout spinal cord and analysis of the inflammatory response following spinal cord injury</article-title>. <source>PLoS One</source>
+<volume>7</volume>, <elocation-id>e37635</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0037635</pub-id>
+<pub-id pub-id-type="pmid">22629434</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Narici</surname><given-names>M. V.</given-names></name><name><surname>de Boer</surname><given-names>M. D.</given-names></name></person-group> (<year>2011</year>). <article-title>Disuse of the musculo-skeletal system in space and on earth</article-title>. <source>Eur. J. Appl. Physiol.</source>
+<volume>111</volume>, <fpage>403</fpage>–<lpage>420</lpage>. <pub-id pub-id-type="doi">10.1007/s00421-010-1556-x</pub-id>
+<pub-id pub-id-type="pmid">20617334</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nichols</surname><given-names>H. L.</given-names></name><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Wen</surname><given-names>X.</given-names></name></person-group> (<year>2006</year>). <article-title>Proteomics and genomics of microgravity</article-title>. <source>Physiol. Genomics</source>
+<volume>26</volume>, <fpage>163</fpage>–<lpage>171</lpage>. <pub-id pub-id-type="doi">10.1152/physiolgenomics.00323.2005</pub-id>
+<pub-id pub-id-type="pmid">16705019</pub-id></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Porseva</surname><given-names>V. V.</given-names></name><name><surname>Shilkin</surname><given-names>V. V.</given-names></name><name><surname>Strelkov</surname><given-names>A. A.</given-names></name><name><surname>Krasnov</surname><given-names>I. B.</given-names></name><name><surname>Masliukov</surname><given-names>P. M.</given-names></name></person-group> (<year>2016</year>). <article-title>Changes of spinal motor neurons in mice after а space flight</article-title>. <source>Morfologiia</source>
+<volume>150</volume>, <fpage>50</fpage>–<lpage>54</lpage>.</mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Povysheva</surname><given-names>T. V.</given-names></name><name><surname>Rezvyakov</surname><given-names>P. N.</given-names></name><name><surname>Shaimardanova</surname><given-names>G. F.</given-names></name><name><surname>Nikolskii</surname><given-names>E. E.</given-names></name><name><surname>Islamov</surname><given-names>R. R.</given-names></name><name><surname>Chelyshev</surname><given-names>Y. A.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>Myelinated fibers of the mouse spinal cord after a 30-day space flight</article-title>. <source>Dokl. Biol. Sci.</source>
+<volume>469</volume>, <fpage>163</fpage>–<lpage>166</lpage>. <pub-id pub-id-type="doi">10.1134/S0012496616040153</pub-id>
+<pub-id pub-id-type="pmid">27595822</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><collab>R Core Team</collab></person-group> (<year>2018</year>). <article-title>R: A language and environment for statistical computing</article-title>. <publisher-loc>Vienna</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name> Available at: <uri xlink:type="simple" xlink:href="https://www.r-project.org/">https://www.r-project.org/</uri>
+</mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Reimand</surname><given-names>J.</given-names></name><name><surname>Arak</surname><given-names>T.</given-names></name><name><surname>Adler</surname><given-names>P.</given-names></name><name><surname>Kolberg</surname><given-names>L.</given-names></name><name><surname>Reisberg</surname><given-names>S.</given-names></name><name><surname>Peterson</surname><given-names>H.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>g:profiler—a web server for functional interpretation of gene lists (2016 update)</article-title>. <source>Nucleic Acids Res.</source>
+<volume>44</volume>, <fpage>W83</fpage>–<lpage>W89</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkw199</pub-id>
+<pub-id pub-id-type="pmid">27098042</pub-id></mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ritchie</surname><given-names>M. E.</given-names></name><name><surname>Phipson</surname><given-names>B.</given-names></name><name><surname>Wu</surname><given-names>D.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Law</surname><given-names>C. W.</given-names></name><name><surname>Shi</surname><given-names>W.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Limma powers differential expression analyses for RNA-sequencing and microarray studies</article-title>. <source>Nucleic Acids Res.</source>
+<volume>43</volume>, <page-range>e47–e47</page-range>. <pub-id pub-id-type="doi">10.1093/nar/gkv007</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rue-Albrecht</surname><given-names>K.</given-names></name><name><surname>McGettigan</surname><given-names>P. A.</given-names></name><name><surname>Hernández</surname><given-names>B.</given-names></name><name><surname>Nalpas</surname><given-names>N. C.</given-names></name><name><surname>Magee</surname><given-names>D. A.</given-names></name><name><surname>Parnell</surname><given-names>A. C.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>GOexpress: an R/Bioconductor package for the identification and visualisation of robust gene ontology signatures through supervised learning of gene expression data</article-title>. <source>BMC Bioinformatics</source>
+<volume>17</volume>, <fpage>126</fpage>. <pub-id pub-id-type="doi">10.1186/s12859-016-0971-3</pub-id>
+<pub-id pub-id-type="pmid">26968614</pub-id></mixed-citation>
+              </ref>
+              <ref id="B39">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sakuma</surname><given-names>K.</given-names></name><name><surname>Yamaguchi</surname><given-names>A.</given-names></name></person-group> (<year>2011</year>). <article-title>The recent understanding of the neurotrophin’s role in skeletal muscle adaptation</article-title>. <source>J. Biomed. Biotechnol.</source>
+<volume>2011</volume>, <fpage>1</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1155/2011/201696</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B40">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shenkman</surname><given-names>B. S.</given-names></name></person-group> (<year>2016</year>). <article-title>From slow to fast: hypogravity-induced remodeling of muscle fiber myosin phenotype</article-title>. <source>Acta Naturae</source>
+<volume>8</volume>, <fpage>47</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.32607/20758251-2016-8-4-47-59</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B41">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>S. M.</given-names></name><name><surname>Heer</surname><given-names>M. A.</given-names></name><name><surname>Shackelford</surname><given-names>L. C.</given-names></name><name><surname>Sibonga</surname><given-names>J. D.</given-names></name><name><surname>Ploutz-Snyder</surname><given-names>L.</given-names></name><name><surname>Zwart</surname><given-names>S. R.</given-names></name></person-group> (<year>2012</year>). <article-title>Benefits for bone from resistance exercise and nutrition in long-duration spaceflight: evidence from biochemistry and densitometry</article-title>. <source>J. Bone Miner. Res.</source>
+<volume>27</volume>, <fpage>1896</fpage>–<lpage>1906</lpage>. <pub-id pub-id-type="doi">10.1002/jbmr.1647</pub-id>
+<pub-id pub-id-type="pmid">22549960</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stokes</surname><given-names>M.</given-names></name><name><surname>Evetts</surname><given-names>S.</given-names></name><name><surname>Hides</surname><given-names>J.</given-names></name></person-group> (<year>2017</year>). <article-title>Terrestrial neuro-musculoskeletal rehabilitation and astronaut reconditioning: Reciprocal knowledge transfer</article-title>. <source>Musculoskelet. Sci. Pract.</source>
+<volume>27</volume>, <fpage>S1</fpage>–<lpage>S4</lpage>. <pub-id pub-id-type="doi">10.1016/j.math.2016.10.003</pub-id>
+<pub-id pub-id-type="pmid">28173927</pub-id></mixed-citation>
+              </ref>
+              <ref id="B43">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Thomas</surname><given-names>K. C.</given-names></name><name><surname>Zheng</surname><given-names>X. F.</given-names></name><name><surname>Garces Suarez</surname><given-names>F.</given-names></name><name><surname>Raftery</surname><given-names>J. M.</given-names></name><name><surname>Quinlan</surname><given-names>K. G. R.</given-names></name><name><surname>Yang</surname><given-names>N.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Evidence based selection of commonly used RT-qPCR reference genes for the analysis of mouse skeletal muscle</article-title>. <source>PLoS One</source>
+<volume>9</volume>, <elocation-id>e88653</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0088653</pub-id>
+<pub-id pub-id-type="pmid">24523926</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tyapkina</surname><given-names>O. V.</given-names></name><name><surname>Rezvyakov</surname><given-names>P. N.</given-names></name><name><surname>Nurullin</surname><given-names>L. F.</given-names></name><name><surname>Petrov</surname><given-names>K. A.</given-names></name><name><surname>Nikolskiy</surname><given-names>E. E.</given-names></name><name><surname>Islamov</surname><given-names>R. R.</given-names></name></person-group> (<year>2016</year>). <article-title>Immunohistochemical study of motoneurons of the lumbar spinal cord of mice after the 30-days space flight on biosatellite BION-M1</article-title>. <source>Genes Cells</source>
+<volume>11</volume>, <fpage>80</fpage>–<lpage>83</lpage>.</mixed-citation>
+              </ref>
+              <ref id="B45">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhu</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>D.</given-names></name><name><surname>Jiao</surname><given-names>W.</given-names></name><name><surname>Chen</surname><given-names>G.</given-names></name><name><surname>Cao</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>Q.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Bioinformatics analyses of pathways and gene predictions in IL-1α and IL-1β knockout mice with spinal cord injury</article-title>. <source>Acta Histochem.</source>
+<volume>119</volume>, <fpage>663</fpage>–<lpage>670</lpage>. <pub-id pub-id-type="doi">10.1016/j.acthis.2017.07.007</pub-id>
+<pub-id pub-id-type="pmid">28851482</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

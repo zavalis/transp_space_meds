@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:45:18Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9099219" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9099219</identifier>
+        <datestamp>2022-05-13</datestamp>
+        <setSpec>pheelsevier</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Acta Astronaut</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Acta Astronaut</journal-id>
+              <journal-title-group>
+                <journal-title>Acta Astronautica</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0094-5765</issn>
+              <issn pub-type="epub">0094-5765</issn>
+              <publisher>
+                <publisher-name>IAA. Published by Elsevier Ltd.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9099219</article-id>
+              <article-id pub-id-type="pmcid">PMC9099219</article-id>
+              <article-id pub-id-type="pmc-uid">9099219</article-id>
+              <article-id pub-id-type="pmid">35582681</article-id>
+              <article-id pub-id-type="pii">S0094-5765(22)00209-0</article-id>
+              <article-id pub-id-type="doi">10.1016/j.actaastro.2022.05.013</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A Geospatial Artificial Intelligence and satellite-based earth observation cognitive system in response to COVID-19</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au1">
+                  <name>
+                    <surname>Atek</surname>
+                    <given-names>Sofiane</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                  <xref rid="cor1" ref-type="corresp">∗</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au2">
+                  <name>
+                    <surname>Pesaresi</surname>
+                    <given-names>Cristiano</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">b</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3">
+                  <name>
+                    <surname>Eugeni</surname>
+                    <given-names>Marco</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au4">
+                  <name>
+                    <surname>De Vito</surname>
+                    <given-names>Corrado</given-names>
+                  </name>
+                  <xref rid="aff3" ref-type="aff">c</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au5">
+                  <name>
+                    <surname>Cardinale</surname>
+                    <given-names>Vincenzo</given-names>
+                  </name>
+                  <xref rid="aff4" ref-type="aff">d</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au6">
+                  <name>
+                    <surname>Mecella</surname>
+                    <given-names>Massimo</given-names>
+                  </name>
+                  <xref rid="aff5" ref-type="aff">e</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au7">
+                  <name>
+                    <surname>Rescio</surname>
+                    <given-names>Antonello</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">f</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au8">
+                  <name>
+                    <surname>Petronzio</surname>
+                    <given-names>Luca</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">f</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au9">
+                  <name>
+                    <surname>Vincenzi</surname>
+                    <given-names>Aldo</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">f</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au10">
+                  <name>
+                    <surname>Pistillo</surname>
+                    <given-names>Pasquale</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">g</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au11">
+                  <name>
+                    <surname>Bianchini</surname>
+                    <given-names>Filippo</given-names>
+                  </name>
+                  <xref rid="aff6" ref-type="aff">f</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au12">
+                  <name>
+                    <surname>Giusto</surname>
+                    <given-names>Gianfranco</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">g</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au13">
+                  <name>
+                    <surname>Pasquali</surname>
+                    <given-names>Giorgio</given-names>
+                  </name>
+                  <xref rid="aff7" ref-type="aff">g</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au14">
+                  <name>
+                    <surname>Gaudenzi</surname>
+                    <given-names>Paolo</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">a</xref>
+                </contrib>
+                <aff id="aff1"><label>a</label>Department of Aerospace and Mechanical Engineering, Sapienza University of Rome, Via Eudossiana, 18 - 00184, Rome, Italy</aff>
+                <aff id="aff2"><label>b</label>Department of Letters and Modern Cultures, Sapienza University of Rome, Piazzale Aldo Moro, 5 - 00185, Rome, Italy</aff>
+                <aff id="aff3"><label>c</label>Department of Public Health and Infectious Diseases, Sapienza University of Rome, Piazzale Aldo Moro, 5 - 00185, Rome, Italy</aff>
+                <aff id="aff4"><label>d</label>Department of Medico-Surgical Sciences and Biotechnologies, Sapienza University of Rome, Umberto I Policlinico of Rome, Viale Dell’Università, 37 - 00185, Rome, Italy</aff>
+                <aff id="aff5"><label>e</label>Department of Computer, Control, and Management Engineering Antonio Ruberti, Sapienza University of Rome, Via Ariosto, 25 - 00185, Rome, Italy</aff>
+                <aff id="aff6"><label>f</label>Telespazio S.p.A, Via Tiburtina, 965 - 00156, Rome, Italy</aff>
+                <aff id="aff7"><label>g</label>e-GEOS S.p.A, Via Tiburtina, 965 - 00156, Rome, Italy</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>∗</label>Corresponding author.</corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>13</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="ppub">
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>5</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>197</volume>
+              <fpage>323</fpage>
+              <lpage>335</lpage>
+              <history>
+                <date date-type="received">
+                  <day>9</day>
+                  <month>3</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>27</day>
+                  <month>4</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>9</day>
+                  <month>5</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 IAA. Published by Elsevier Ltd. All rights reserved.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>IAA</copyright-holder>
+                <license>
+                  <license-p>Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID-19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0010">
+                <p>The pandemic emergency caused by the spread of COVID-19 has stressed the importance of promptly identifying new epidemic clusters and patterns, to ensure the implementation of local risk containment measures and provide the needed healthcare to the population. In this framework, artificial intelligence, GIS, geospatial analysis and space assets can play a crucial role. Social media analytics can be used to trigger Earth Observation (EO) satellite acquisitions over potential new areas of human aggregation. Similarly, EO satellites can be used jointly with social media analytics to systematically monitor well-known areas of aggregation (green urban areas, public markets, etc.). The information that can be obtained from the Earth Cognitive System 4 COVID-19 (ECO4CO) are both predictive, aiming to identify possible new clusters of outbreaks, and at the same time supervisorial, by monitoring infrastructures (i.e. traffic jams, parking lots) or specific categories (i.e. teenagers, doctors, teachers, etc.). In this perspective, the technologies described in this paper will allow us to detect critical areas where individuals can be involved in risky aggregation clusters. The ECO4CO data lake will be integrated with ad hoc data obtained by health care structures to understand trends and dynamics, to assess criticalities with respect to medical response and supplies, and to test possibilities useful to tackle potential future emergencies. The System will also provide geographical information on the spread of the infection which will allow an appropriate context-specific public health response to the epidemic. This project has been co-funded by the European Space Agency under its Business Applications programme.</p>
+              </abstract>
+              <kwd-group id="kwrds0010">
+                <title>Keywords</title>
+                <kwd>COVID-19</kwd>
+                <kwd>Decision support system</kwd>
+                <kwd>Geospatial artificial intelligence</kwd>
+                <kwd>Business intelligence</kwd>
+                <kwd>Earth observation</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="nomen0010">
+              <title>Acronyms/abbreviations</title>
+              <def-list>
+                <def-item>
+                  <term id="d0010">AOI</term>
+                  <def>
+                    <p id="p0035">Area of Interest</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0015">AI</term>
+                  <def>
+                    <p id="p0040">Artificial Intelligence</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0020">COVID-19</term>
+                  <def>
+                    <p id="p0045">Coronavirus Disease 2019</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0025">ECO4CO</term>
+                  <def>
+                    <p id="p0050">Earth Cognitive System for COVID-19</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0030">ED</term>
+                  <def>
+                    <p id="p0055">Emergency Department</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0035">EO</term>
+                  <def>
+                    <p id="p0060">Earth Observation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0040">GeoAI</term>
+                  <def>
+                    <p id="p0065">Geospatial Artificial Intelligence</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0045">GIS</term>
+                  <def>
+                    <p id="p0070">Geographic Information System</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0050">GUI</term>
+                  <def>
+                    <p id="p0075">Graphical User Interface</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0055">ICT</term>
+                  <def>
+                    <p id="p0080">Information and Communication Technology</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0060">ICU</term>
+                  <def>
+                    <p id="p0085">Intensive Care Units</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0065">IoT</term>
+                  <def>
+                    <p id="p0090">Internet of Things</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0070">KNN</term>
+                  <def>
+                    <p id="p0095">k-Nearest Neighbours</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0075">KPI</term>
+                  <def>
+                    <p id="p0100">Key Performance Indicator</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0080">RMSPE</term>
+                  <def>
+                    <p id="p0105">Root Mean Squared Percentage Error</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0085">SAT</term>
+                  <def>
+                    <p id="p0110">on-Site Acceptance Test</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="d0090">SME</term>
+                  <def>
+                    <p id="p0115">Small and Medium Enterprise.</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </sec>
+            <sec id="sec1">
+              <label>1</label>
+              <title>Introduction</title>
+              <p id="p0120">The spread of COVID-19 has caused an unprecedented pandemic emergency [<xref rid="bib1" ref-type="bibr">1</xref>], which has underlined the importance of promptly identifying new epidemic clusters and patterns, to ensure the implementation of local risk containment measures and provide the needed healthcare to the population [<xref rid="bib2" ref-type="bibr">2</xref>,<xref rid="bib3" ref-type="bibr">3</xref>].</p>
+              <p id="p0125">Probably one of the major issue encountered during the initial phases of the COVID-19 outbreak management was the lack of foresight and prevention [<xref rid="bib4" ref-type="bibr">4</xref>]. The initial measure has been the lockdown and large-scale restrictions on people's mobility [<xref rid="bib5" ref-type="bibr">5</xref>] as the drastic recovery action that has come too late to manage the scenario in a different way, with the known drawbacks for the economic and social fabric.</p>
+              <p id="p0130">COVID-19, which has gained an unprecedented extent and velocity of diffusion, has stressed more than in any public health emergency the importance of managing information at the speed that the situation requires [<xref rid="bib6" ref-type="bibr">6</xref>]. Nowadays, Information and Communication Technology (ICT) systems are by excellence the suitable tool to face the challenges imposed by the pandemic situation as they provide the suitable ground for fast information exchange, data sharing and the generation of knowledge. Such capability is possible thanks to the rapid development of internet-based systems and cloud computing, but also thanks to the advantages that such systems offer: they are intuitive, adaptable and flexible and can be inexpensive to maintain and operate in real time [<xref rid="bib7" ref-type="bibr">7</xref>,<xref rid="bib8" ref-type="bibr">8</xref>].</p>
+              <p id="p0135">Information and data management applied to the health system to manage the pandemic situation can find several applications such as the identification, reporting and analysis of cases and the application of contact tracing [<xref rid="bib9" ref-type="bibr">9</xref>].</p>
+              <p id="p0140">Techniques such as Geospatial artificial intelligence (GeoAI) and data from several technological products can enrich health databases, and allow to draw more accurate information in real-time on outbreaks and their spread, thus contributing as a decision support in the risk management [<xref rid="bib10" ref-type="bibr">10</xref>]. Such technology encompasses the combined use of methods and techniques in spatial science (such as Geographic Information Systems GIS), Artificial Intelligence (AI), data mining, and high-performance computing to analyse and extract meaningful information and knowledge from spatial big data, such as social media, satellite remote sensing, and several sensors, to advance the science of public health [<xref rid="bib10" ref-type="bibr">10</xref>].</p>
+              <p id="p0145">Many works have for example underlined the importance of:<list list-type="simple" id="ulist0015"><list-item id="u0035"><label>-</label><p id="p0150">assessing a temporal and geospatial analysis of COVID-19 pre-infection determinants of risk through a combination between digital cartography and statistical models [<xref rid="bib11" ref-type="bibr">11</xref>];</p></list-item><list-item id="u0040"><label>-</label><p id="p0155">conducting detailed GIS based analysis referred to pre-lockdown, lockdown, and unlock phases in order to better understand the spread of infection and support the implementation of appropriate surveillance and intervention measures [<xref rid="bib12" ref-type="bibr">12</xref>];</p></list-item><list-item id="u0045"><label>-</label><p id="p0160">using GIS and geotechnologies in order to support geographical tracking and mapping of COVID-19 for an effective surveillance and comprehension of global phenomenon [<xref rid="bib13" ref-type="bibr">13</xref>];</p></list-item><list-item id="u0050"><label>-</label><p id="p0165">developing a rigorous and high-performance system finalized to produce explanatory GIS elaborations and dashboards, models of spatial and temporal diffusion, Apps for data tracking and digital flow mapping, geolocalised online questionnaire for the identification of possible positives [<xref rid="bib14" ref-type="bibr">14</xref>];</p></list-item><list-item id="u0055"><label>-</label><p id="p0170">modelling and mapping the COVID-19 trajectory and pandemic paths, in a geographical perspective, in order to involve in a comprehensive analysis the impact of different travel and flow types on the infection [<xref rid="bib15" ref-type="bibr">15</xref>];</p></list-item><list-item id="u0060"><label>-</label><p id="p0175">devising and testing a dynamic space-time diffusion simulator in a GIS environment and based on the geocoding process to tackle the COVID-19 emergency [<xref rid="bib16" ref-type="bibr">16</xref>];</p></list-item><list-item id="u0065"><label>-</label><p id="p0180">developing and enhancing AI-based techniques and Deep Learning approaches for diagnosis and treatment to organize an arsenal of platforms, tools and methods that converge to feed a virtuous process [<xref rid="bib17" ref-type="bibr">17</xref>].</p></list-item></list>
+</p>
+              <p id="p0185">The paper presents a novel and innovative service based on the use of the emerging ICT technologies to tackle the challenging task of supporting institutions by means of Geospatial Artificial Intelligence to counter the spread of the Covid-19 pandemic.</p>
+              <p id="p0190">The Earth Cognitive System for COVID-19 (ECO4CO) service is designed to allow predicting new potential cluster areas, avoiding the virus diffusion and therefore saving people from infections.</p>
+              <p id="p0195">In the present study, the ECO4CO space asset-based system aims to reply to the emergency of the actual pandemic through the following pillars:<list list-type="simple" id="ulist0020"><list-item id="u0070"><label>•</label><p id="p0200">Cluster Area Identification: a predictive data analytics service using social media and news to automatically identify possible new outbreaks areas;</p></list-item><list-item id="u0075"><label>•</label><p id="p0205">Intelligent Satellite Tasking: an autonomous system able to task EO satellites data acquisitions;</p></list-item><list-item id="u0080"><label>•</label><p id="p0210">Object Detection: a deep learning service able to identify objects and people gathering or movements from images and videos;</p></list-item><list-item id="u0085"><label>•</label><p id="p0215">Tracking: an intelligent service able to track traffic and people movement, identifying suspect patterns or anomalies;</p></list-item><list-item id="u0090"><label>•</label><p id="p0220">Logistic Planning: a predictive data analytics service to identify region colour classification, hospitalization and medical stock purchases to match them against future needs of medical supplies.</p></list-item></list>
+</p>
+              <p id="p0225">The ECO4CO service was co-funded by the European Space Agency under its Business Applications programme in the framework of a demonstration project developed by a consortium composed of industrial and research partners, namely: Telespazio S. p.A as the prime contractor and e-GEOS S. p.A, Leonardo S. p.A, ITHACA, CherryData S. r.l and Sapienza University of Rome as the sub-primes.</p>
+              <p id="p0230">Demonstration Projects, within the ESA Business Applications programme [<xref rid="bib18" ref-type="bibr">18</xref>], consist in the implementation of pre-operational demonstration services, which are user driven. These services benefit from the integrated use of one or more space assets such as earth observation, satellite navigation and satellite telecommunication and they have a clear potential to become sustainable in the post project phase.</p>
+              <p id="p0235">The project includes a pilot phase, which has the objective of running the ECO4CO service and test it in real operational conditions [<xref rid="bib18" ref-type="bibr">18</xref>].</p>
+              <p id="p0240">The key aim of the present paper is to showcase the ECO4CO service and to report the developments carried out by the prime and the sub-primes.</p>
+              <p id="p0245">In section <xref rid="sec2" ref-type="sec">2</xref>, the service concept and the main user needs and requirements are presented. In section <xref rid="sec3" ref-type="sec">3</xref>, a description of the system and service architecture is provided. The pilot demonstration is discussed in section <xref rid="sec4" ref-type="sec">4</xref>, and finally the conclusions are drawn in section <xref rid="sec5" ref-type="sec">5</xref>.</p>
+            </sec>
+            <sec id="sec2">
+              <label>2</label>
+              <title>Service concept</title>
+              <p id="p0250">The ECO4CO Service aims at providing a set of location based information services to support different actors (i.e. National/Regional Civil Protection authorities, Public Health services) involved in the COVID-19 outbreak crisis management and recovery phase, by jointly exploiting space data such as Earth Observation (EO), satellite navigation and non-space data such as social media, mobile phones, connected vehicles, etc.</p>
+              <p id="p0255">The main goal of the ECO4CO service is to provide rapid spatial insights and evidence about geo-localised events that may have an impact on the COVID-19 outbreak evolution (e.g. people gathering, human activities in forbidden areas).</p>
+              <p id="p0260">In <xref rid="fig1" ref-type="fig">Fig. 1</xref>
+, the ECO4CO service concept is described. Social and human information business intelligence is used to automatically task Earth Observation Satellite acquisitions over potential new areas of human aggregation and similarly, EO satellites are used jointly with social and human intelligence information to systematically monitor well-known areas of aggregation (green urban areas, public markets, etc.).<fig id="fig1"><label>Fig. 1</label><caption><p>ECO4CO service concept.</p></caption><alt-text id="alttext0010">Fig. 1</alt-text><graphic xlink:href="gr1_lrg"/></fig></p>
+              <p id="p0265">The information obtained from the proposed service are both predictive aiming to isolate new possible clusters of outbreaks and supervisorial by monitoring infrastructures (i.e. traffic jam, parking lots, etc.) and tracking people gathering and movements.</p>
+              <p id="p0270">Finally, the service is used to predict logistic needs on medical centres, medicines and regional risk classification colour code switch according to the pandemic scenario.</p>
+              <p id="p0275">The key users of the service consist mainly of national and local authorities such as national and regional civil protection and regional medical coordination centres.</p>
+              <p id="p0280">The European Space Agency's Business Applications programme co-funds projects which have a focus on meeting user needs and requirements with services that are close to market. Accordingly, it was identified that the users need a service to access all information about the COVID-19 spread, and also to access heterogeneous data which can be useful to monitor the situation and predict the evolution of the outbreaks. In addition, tools to interpret data and support decisions in short time frames were also needed. In particular, users needed a service that could offer the capability to analyse in near real-time the epidemiological spread and trends of COVID-19 virus against its geographical distribution and to monitor medical data information trends, provided by health authorities, in order to identify critical areas and predict the time course of the epidemiologic evolution. The requested service would provide the data through a simple and user-friendly interface that displays analyses and predictions and allow the user to explore processed data.</p>
+            </sec>
+            <sec id="sec3">
+              <label>3</label>
+              <title>System and service architecture</title>
+              <p id="p0285">To respond to users’ needs and requirements, the ECO4CO service has been designed on top of an intelligent and autonomous end-to-end system, which combines data from satellites, Internet, traffic movements and medical information.</p>
+              <p id="p0290">The system provides the end-users with notifications, warnings and timely and geo-localised information that are crucial to effectively prevent new outbreaks, to react in advance, and to predict critical situations regarding facilities, medical storage, or mass movements.</p>
+              <p id="p0295">The end-to-end system is depicted in <xref rid="fig2" ref-type="fig">Fig. 2</xref>
+. It is based on several standalone subsystems called pillars, a centralized layer of services common and accessible to all pillars and a graphical user interface, which is the entry point to the system by the end-users.<fig id="fig2"><label>Fig. 2</label><caption><p>The ECO4CO high level system architecture.</p></caption><alt-text id="alttext0015">Fig. 2</alt-text><graphic xlink:href="gr2_lrg"/></fig></p>
+              <p id="p0300">All pillars are implemented with a container-<italic>as</italic>-a-service paradigm, which allows to deploy the solution on different platforms regardless whether they are cloud-based or not. The implementation of the micro-services architecture enables the design of flexible and scalable architectures that adapts according to the requested workload and needs.</p>
+              <p id="p0305">The ECO4CO service pillars represent the core part of the system and are described in the following paragraphs.</p>
+              <sec id="sec3.1">
+                <label>3.1</label>
+                <title>ECO4CO service pillars</title>
+                <sec id="sec3.1.1">
+                  <label>3.1.1</label>
+                  <title>Cluster Area Identification</title>
+                  <p id="p0310">The Cluster Area Identification subsystem is based on a Data Analytics engine. The service processes information and data gathered from the web through an end-to-end flow, ranging from the collection of open sources information to the building of a knowledge base, to carry out analysis and reasoning. Both artificial intelligence techniques and a big data analytics engine are used for the purpose.</p>
+                  <p id="p0315">The Data Analytics engine runs a Machine Learning algorithm able to correlate internet searches, social networks and news-channel messages, against covid-19 taxonomy (e.g. “covid symptoms”, “cough and covid”, “#covid 19”) and associating them with relevant geographical information.</p>
+                </sec>
+                <sec id="sec3.1.2">
+                  <label>3.1.2</label>
+                  <title>Intelligent Satellite Tasking</title>
+                  <p id="p0320">The Intelligent Satellite Tasking subsystem allows the interoperation with different Satellite missions. The service relies on a federation of constellations allowing to have a drastic reduction of revisiting times and enabling a true Near Real Time service. Currently the system uses high resolution Pleiades satellite images, nevertheless the system has the capability to extend to several satellite missions and perform several requests at the same time.</p>
+                  <p id="p0325">The Intelligent Satellite Tasking service automatically tasks new acquisitions over identified candidate cluster areas provided by the Cluster Area Identification service, it processes the information and eventually tasks acquisitions over the identified area. Alternatively, it can receive the tasking request directly from the users via the Graphical User Interface. The use of social media as a source of data for the identification of “hot spots” and assigning remote-sensing data acquisition tasks has been used in several works [<xref rid="bib19" ref-type="bibr">[19]</xref>, <xref rid="bib20" ref-type="bibr">[20]</xref>, <xref rid="bib21" ref-type="bibr">[21]</xref>].</p>
+                  <p id="p0330">The exploitation of Earth Observation satellite data allows the concurrent monitoring of large areas at the same time covering whole regions, up to entire countries.</p>
+                  <p id="p0335">Receiving in input the areas and the time window, the service is autonomous in arranging all relevant parameters and to directly task with no human intervention the different missions taking into account the first available suitable satellite pass covering the target location.</p>
+                  <p id="p0340">Once the data is acquired, the image is forwarded to the Object Detection Subsystem for the elaboration.</p>
+                </sec>
+                <sec id="sec3.1.3">
+                  <label>3.1.3</label>
+                  <title>Object Detection</title>
+                  <p id="p0345">The Object Detection subsystem receives in input the satellite images acquired and processed in near real time by the Intelligent Satellite Tasking. Moreover, the subsystem contains a module that allows the use of video streaming from streets surveillance cameras to perform analysis and detection of people gathering.</p>
+                  <p id="p0350">Thanks to Deep Learning algorithms, the subsystem is able to detect:<list list-type="simple" id="ulist0025"><list-item id="u0095"><label>•</label><p id="p0355">density in parking lots and open markets;</p></list-item><list-item id="u0100"><label>•</label><p id="p0360">people gatherings.</p></list-item></list>
+</p>
+                  <p id="p0365">The detection and counting of vehicles using remote sensing satellite images is a well-known strategy used in traffic and transportation system monitoring [<xref rid="bib22" ref-type="bibr">22</xref>]. Similarly, satellite images are used to detect and locate parking lots for a variety of purposes, including the construction of parking space availability models [<xref rid="bib23" ref-type="bibr">23</xref>].</p>
+                </sec>
+                <sec id="sec3.1.4">
+                  <label>3.1.4</label>
+                  <title>Tracking</title>
+                  <p id="p0370">The Tracking subsystem has the objective of providing information on people movements from a possible identified cluster area to different zones (e.g. from a city/region to another city/region) by means of Terrestrial and IoT data.</p>
+                  <p id="p0375">In particular, the use of mobile phone data is provided by mobile operators in the form of aggregated and anonymized data. Additional information can be collected by mobile devices using a mobile App. At the same time, the information from automotive data is collected to monitor road traffic and to verify the crowding of parking lots.</p>
+                </sec>
+                <sec id="sec3.1.5">
+                  <label>3.1.5</label>
+                  <title>Logistic planning</title>
+                  <p id="p0380">The Logistic Planning service is a subsystem that contains geolocalized information over the national territory relevant to COVID-19 health information. It runs continuously with configurable frequency to acquire data from different sources, which include:<list list-type="simple" id="ulist0030"><list-item id="u0105"><label>•</label><p id="p0385">The number of Emergency Department attendances;</p></list-item><list-item id="u0110"><label>•</label><p id="p0390">Medicinal stock purchases;</p></list-item><list-item id="u0115"><label>•</label><p id="p0395">Administrative regions colour coding for the COVID-19 classification;</p></list-item><list-item id="u0120"><label>•</label><p id="p0400">The number of daily infections, recoveries and fatalities at regional level.</p></list-item></list>
+</p>
+                  <p id="p0405">The healthcare sources were considered after a thorough research was made on the medical input data that could be automatically ingested into the system and according to their pertinence to the COVID-19 management. In the initial phases of the project, the use of medical data coming directly from the medical structures was considered. However, this approach encountered difficulties with respect to data privacy issues and data access automation, particularly requiring the set-up of ad-hoc computerized processes to collect, extract and clean the relevant data in compliance with data protection regulations. Alternatively, several other sources were adopted and obtained from the Italian national and regional public administrations, which disseminate the information to the public in open formats (Open Access Data) [<xref rid="bib24" ref-type="bibr">24</xref>] and where the data is sufficiently computerized (i.e. cleaned and aggregated) in ways that suit the project purposes. These sources include the Lazio (Latium) region health system [<xref rid="bib25" ref-type="bibr">25</xref>], the Italian Medicine Agency (AIFA) [<xref rid="bib26" ref-type="bibr">26</xref>], the National Civil Protection [<xref rid="bib27" ref-type="bibr">27</xref>] and the National Agency for Regional Health Services (AGENAS) [<xref rid="bib28" ref-type="bibr">28</xref>]. The data are updated by these administrations on a regular basis and are ingested by the Logistic Planning module in different formats (such as json, csv or in tabulated html format) using dedicated web crawlers. Currently, only few regional health administrations publish the emergency attendances in their respective hospitals, such as the case of the Lazio region. However such practice is expected to be more adopted in the future due to the increasing trend of computerization introduced in the Italian public administrations and the continuous effort to provide more transparency and to improve the services to the public.</p>
+                  <p id="p0410">The healthcare and medical data are fused within the ECO4CO Data Lake and are used to predict the possible needs of health supports (medicines, hospitalizations, etc.) and match them against the availability in the given specific potential cluster area, highlighting possible gaps in advance.</p>
+                  <p id="p0415">Interactions between clinicians from Umberto I Hospital of the Sapienza University of Rome and the Prime and sub-Primes were set to address the clinical implications of the Logistic Planning module outputs in the decision-making process and to direct its design to allow the interpretation of data that can be useful in the orientation of the health system response to changing scenarios.</p>
+                </sec>
+              </sec>
+              <sec id="sec3.2">
+                <label>3.2</label>
+                <title>The Graphical User Interface</title>
+                <p id="p0420">The Graphical User Interface (GUI) is the entry point of end-users to the ECO4CO system. It provides a user-friendly interface for accessing information and warnings coming from the ECO4CO subsystems. Moreover, it allows to actively and interactively perform monitoring operations on specific areas. Among its several functionalities, the user interface provides an access to an interactive geo-referenced view of browsing information items, allowing to query and navigate through results based on searching criteria. The GUI allows to retrieve warnings and information generated by the different pillars at the same time, so that it will be possible to detect criticalities residing on the same areas of interest.</p>
+              </sec>
+              <sec id="sec3.3">
+                <label>3.3</label>
+                <title>ECO4CO services</title>
+                <p id="p0425">Three services, namely Static Site Monitoring service, Dynamic Site Monitoring service and Logistic Planning service, are offered as turn-key solutions to the end-users, built on integrating the service pillars provided by the ECO4CO platform as depicted in <xref rid="fig3" ref-type="fig">Fig. 3</xref>
+.<fig id="fig3"><label>Fig. 3</label><caption><p>The ECO4CO services.</p></caption><alt-text id="alttext0020">Fig. 3</alt-text><graphic xlink:href="gr3_lrg"/></fig></p>
+                <p id="p0430">These proposed use-case services are described in the following paragraphs.</p>
+                <sec id="sec3.3.1">
+                  <label>3.3.1</label>
+                  <title>Dynamic Site Monitoring Service</title>
+                  <p id="p0435">The principal focus of this service is to develop a method for improving early geographic identification of COVID-19 outbreaks. Such service is continuous, which means that even when the area to be monitored has been determined and the information has been provided to decision-makers for their final check, the service will continue to provide information on pandemic trends and population behaviour.</p>
+                  <p id="p0440">Indeed, in this specific service, the AOI is defined automatically starting from the ones proposed by the Cluster Area Identification module. After the definition of the AOI and the decision makers green light, a first satellite tasking is started to analyse the selected area and to alert the interested users. Then, if the users’ feedbacks confirm the virus outbreak, the service is directed into the Static Site Monitoring service. The service concept of the Dynamic Site Monitoring is depicted in <xref rid="fig4" ref-type="fig">Fig. 4</xref>
+.<fig id="fig4"><label>Fig. 4</label><caption><p>The Dynamic Site Monitoring service concept.</p></caption><alt-text id="alttext0025">Fig. 4</alt-text><graphic xlink:href="gr4_lrg"/></fig></p>
+                </sec>
+                <sec id="sec3.3.2">
+                  <label>3.3.2</label>
+                  <title>Static Site Monitoring Service</title>
+                  <p id="p0445">The principal focus of this service is to provide a system able to monitor a specific area: as soon as the user submits the request, the system starts to plan request submissions for the satellites tasking, tracking and in case video streaming acquisition in the requested area.</p>
+                  <p id="p0450">With respect to the Dynamic Site Monitoring Service, where the requested area derives from the output of the Cluster Area Identification elaboration, in this case, the area is derived by the observation of warnings generated by the different services of the ECO4CO system or according to a specific request by the user to monitor a given area based on <italic>a priori</italic> information.</p>
+                  <p id="p0455">Based on the already available warnings on the area of interest, the user can choose which specific monitoring systems to activate, e.g. cameras or mobile data surveillance, official monitoring tracking mobile app, etc.</p>
+                </sec>
+                <sec id="sec3.3.3">
+                  <label>3.3.3</label>
+                  <title>Logistic planning service</title>
+                  <p id="p0460">The Logistic Planning service predicts the possible needs of health supports (medicines, hospitalizations, etc.) in order to match them against the availability in the given specific potential cluster area, highlighting possible gaps in advance.</p>
+                  <p id="p0465">Based on the collected data from the Emergency Department (ED) attendances, medical stock procurements and the number of daily infections, recoveries and fatalities, the service, enabled AI algorithms generates:<list list-type="simple" id="ulist0035"><list-item id="u0125"><label>•</label><p id="p0470">warnings related with the monitoring and prediction of regional risk classification colour switching;</p></list-item><list-item id="u0130"><label>•</label><p id="p0475">prediction of the increase of the attendance to the emergency rooms of the monitored medical sites;</p></list-item><list-item id="u0135"><label>•</label><p id="p0480">forecast of the increase of medical stocks purchase at regional level.</p></list-item></list>
+</p>
+                  <p id="p0485">Warnings are regularly stored on the ECO4CO platform with geographical and temporal information, so that users can track alarms evolution and discover new alarms while performing a query on the system.</p>
+                  <p id="p0490">The Logistic Planning service concept is represented in <xref rid="fig5" ref-type="fig">Fig. 5</xref>
+.<fig id="fig5"><label>Fig. 5</label><caption><p>The Logistic Planning service concept.</p></caption><alt-text id="alttext0030">Fig. 5</alt-text><graphic xlink:href="gr5_lrg"/></fig></p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="sec4">
+              <label>4</label>
+              <title>Pilot demonstration</title>
+              <p id="p0495">The main objective of the Pilot Demonstration activities is to run the services in real operational conditions and to collect evidence and feedback about their utility and added value from the key end-users engaged in the project [<xref rid="bib18" ref-type="bibr">18</xref>]. In fact, beyond demonstrating that the ECO4CO services are running as expected and according to the service specifications defined in the design and development phase, it is of outmost importance that the ECO4CO services prove to add value for the end-users in critical operations where they bring their unique contribution. Several Key Performance Indicators (KPIs) have been defined as quantitative indicators to verify whether the objectives of the pilot were achieved.</p>
+              <p id="p0500">To assess these KPIs, data is extracted during the pilot operation in the form of different metrics such as the time to activate the service from user AOI request, Cluster area identification accuracy, Object Detection accuracy.</p>
+              <p id="p0505">The project provides two pilot campaigns namely Pilot #1 and Pilot #2, and they have the scope of demonstrating and validating that the proposed services are able to provide effective support in detecting and identifying COVID-19 cluster areas and potential anomalies. Pilot #1 allows to test the Dynamic and Static Monitoring services, while Pilot #2 allows to test the Logic Planning service.</p>
+              <p id="p0510">Two user groups are identified to use the pilots and interact with the services through the user interface. A passive user group, is allowed to navigate the ECO4CO catalogue, perform queries on generated warnings and retrieve details on matching results. Active users belonging to the second group, are allowed to use the same functionalities as all passive users, moreover they are given the ability to actively request the monitoring of a specific area and to receive messages in specific conditions as in the case of the Static Site Monitoring Service.</p>
+              <p id="p0515">The main Task in Pilot #1 related to the Static Site Monitoring is to detect and identify anomalies relevant for COVID-19 management inside a specific area defined by the Users. The areas selected in the Pilot are located in Rome and Turin in the Lazio (Latium) and Piemonte (Piedmont) regions respectively.</p>
+              <p id="p0520">The system is in charge of the provisioning of the following products/services:<list list-type="simple" id="ulist0040"><list-item id="u0140"><label>•</label><p id="p0525">Intelligent Satellite Tasking;</p></list-item><list-item id="u0145"><label>•</label><p id="p0530">EO Data Acquisition;</p></list-item><list-item id="u0150"><label>•</label><p id="p0535">Social Media data collection and information extraction;</p></list-item><list-item id="u0155"><label>•</label><p id="p0540">Mobile/Traffic Data acquisition and its analysis;</p></list-item><list-item id="u0160"><label>•</label><p id="p0545">Object Detection based on the analysis of EO data and cameras video streaming;</p></list-item><list-item id="u0165"><label>•</label><p id="p0550">Tracking of the devices identified in the Object Detection phase.</p></list-item></list>
+</p>
+              <p id="p0555">Furthermore, in Pilot #1 during the Dynamic Site Monitoring execution, the Area of Interest (AOI) is derived from the ones proposed by the Cluster Area Identification module, suggesting to the user potential COVID-19 outbreaks. After the user's green light, a first satellite tasking is performed to analyse the selected area and to alert the interested users. Then, if the users' feedbacks confirm the virus outbreak, the service is directed into the Static Site Monitoring service.</p>
+              <p id="p0560">In the case of Pilot #2 (Logistic Planning), the service collects continuously medical-related data from the configured sources and generate warnings available for the users. The service is able to predict and to quantify the needs in terms of:<list list-type="simple" id="ulist0045"><list-item id="u0170"><label>•</label><p id="p0565">logistic health supports like medicines;</p></list-item><list-item id="u0175"><label>•</label><p id="p0570">potential warning on increase in the trend of emergency rooms attendance;</p></list-item><list-item id="u0180"><label>•</label><p id="p0575">potential warnings for change of the regional colour coding classification.</p></list-item></list>
+</p>
+              <p id="p0580">Before the start of the pilots a series of on-Site Acceptance Tests (SAT) were carried out according to an agreed testing plan defined in a system verification document. The tests aimed at demonstrating that the system met the requirements already set out in the Requirements Document and that the ECO4CO system was ready and operational.</p>
+              <p id="p0585">Unit tests were performed on each sub-service (Cluster Area Identification, Intelligent Satellite Tasking, Object Detection, Tracking, Logistic Planning), verifying the correct execution of the tasks and assessing the results against the expected outputs. The whole integrated service in a cloud environment, including the accessibility to the system from different user profiles was verified and tested and proven to be operational.</p>
+              <p id="p0590">The following sections report a set of results elaborated by the Logistic Planning service and the outcome of some use cases aiming to demonstrate the power of the correlation provided by the warning raised by the different services.</p>
+              <sec id="sec4.1">
+                <label>4.1</label>
+                <title>Results from the logistic planning pilot</title>
+                <p id="p0595">The Logistic Planning service is composed of three different sub-services, described below.</p>
+                <sec id="sec4.1.1">
+                  <label>4.1.1</label>
+                  <title>Regional risk classification colour code changes</title>
+                  <p id="p0600">The service collects updated regional civil protection data every night (new positives, deaths, hospitalized, intensive care, etc.). Every Monday night, a dedicated task processes the number of new positives, non-critical hospitalized and Intensive Care Units (ICU) patients. Three different neural networks (one for each feature) receive in input these processed data and estimate the trend of each of these variables over the next seven days. During the training, all the networks considered a time window of three previous weeks for each record. In this way the models were able to have enough memory of past occurrences without being biased by excessively remote events, being able to adapt quickly to emerging and unforeseen situations (e.g, new variants).</p>
+                  <p id="p0605">Those three predictions coincide with the parameters that the Italian government is applying to calculate the colour code of the regions and therefore are used to make this calculation. Since the new regional colour calculation system dates back to June 2021, the system applies this ratio only to data starting from that date. In the months considered during Pilot #2 that were prior to that date, a k-Nearest Neighbours (KNN) classifier was used. This model always takes the number of weekly positives, new hospitalized and ICU patients as input and automatically learns how to predict the colour code. In this way, it was ensured that the system was able to classify correctly the regional colour codes also for the first months of the period considered by the Pilot without applying the governmental guidelines.</p>
+                  <p id="p0610">The final output is a warning notifying the user about the expected situation of a specific region (switching to another colour or maintaining the same colour) during the following weeks. The generation of warnings takes place every week for all regions.</p>
+                  <p id="p0615">Considering the overall performances, this service yielded an accuracy of almost 85%, with 803 correct predictions on a total of 945. The date range considered during the pilot phase was February 2021–January 2022.</p>
+                  <p id="p0620">It is also important to highlight how the neural networks adapted independently to the rise of a new Covid-19 variant like Omicron, learning to forecast its exponential growth automatically.</p>
+                  <p id="p0625"><xref rid="fig6" ref-type="fig">Fig. 6</xref> reports the number of weekly new positives, comparing the predicted values with the real ones.<fig id="fig6"><label>Fig. 6</label><caption><p>Forecast of weekly new positives vs. actual weekly positive for Lazio region.</p></caption><alt-text id="alttext0035">Fig. 6</alt-text><graphic xlink:href="gr6_lrg"/></fig></p>
+                  <p id="p0630">The number of positives is expressed in relation to 100,000 inhabitants. Overall, it can be observed that forecasts follow correctly the actual trend, with the only notable exception during the first weeks of August 2021, where a feeble increase in the number of infections mislead the model to predict a more acute escalation. In addition, until December 2021 the model tended to overestimate slightly the real values. After the spread of the Omicron variant, which infection dynamics are sharply exponential, the system tended to marginally underestimate the real values.</p>
+                  <p id="p0635"><xref rid="fig7" ref-type="fig">Fig. 7</xref> shows the Non-critical hospitalized patients in the Lazio Region. Also in this case, the model follows a correct tendency, with two overestimating exceptions during a) April–May 2021 and b) the first weeks of August 2021. A constant growth in the number of hospitalizations caused a lag in predictions, ending with the forecasting of a sharper escalation. It can be noticed as well that until December 2021 the model tended to overestimate slightly the real values, while it switched to an underestimating performance once the Omicron variant prevailed.<fig id="fig7"><label>Fig. 7</label><caption><p>Non-Critical hospitalized patients in Lazio region: forecast vs. actual values.</p></caption><alt-text id="alttext0040">Fig. 7</alt-text><graphic xlink:href="gr7_lrg"/></fig></p>
+                  <p id="p0640"><xref rid="fig8" ref-type="fig">Fig. 8</xref> depicts the predicted number of Intensive Care patients for the Lazio region. In the figure, the two curves follow the same trend of the previous chart (<xref rid="fig7" ref-type="fig">Fig. 7</xref>), although with different absolute values. Even in this example, there are two overestimating periods during a) April–May 2021 and b) beginning of August 2021, and a weak underestimating behaviour after December 2021. Overall, the three networks present a minimum lag time in their predictions, a typical issue in time series forecasting, which however did not affect the overall reliability of the service.<fig id="fig8"><label>Fig. 8</label><caption><p>Predicted Intensive Care patients vs. real values for Lazio region.</p></caption><alt-text id="alttext0045">Fig. 8</alt-text><graphic xlink:href="gr8_lrg"/></fig></p>
+                </sec>
+                <sec id="sec4.1.2">
+                  <label>4.1.2</label>
+                  <title>Emergency room attendance</title>
+                  <p id="p0645">This sub-service takes the data of the Emergency Departments in the medical structures of the Lazio region (about fifty) every 2 h. The data is aggregated on a configurable basis (4 h were chosen as the time window) and fed to a linear regression algorithm that calculates the average number of attendances to the emergency rooms in the next 4 h. The value is converted into a warning and ingested by the platform. Alert generation uses configurable thresholds. <xref rid="fig9" ref-type="fig">Fig. 9</xref>
+gives insights about the forecast against actual values for a specific hospital (Policlinico Casilino). In this case, it is meaningful to note how the model could correctly map the attendance trend with minimal latency.<fig id="fig9"><label>Fig. 9</label><caption><p>Comparison between emergency rooms attendance forecasts and actual values in Policlinico Casilino Hospital, Rome during March 2021.</p></caption><alt-text id="alttext0050">Fig. 9</alt-text><graphic xlink:href="gr9_lrg"/></fig></p>
+                </sec>
+                <sec id="sec4.1.3">
+                  <label>4.1.3</label>
+                  <title>Pharmacological stock purchase prediction</title>
+                  <p id="p0650">This sub-service of the Logistic Planning processes data concerning the monthly purchase of the various medicines performed by every region. A regressive model predicts the number of units purchased by the administrative region for every medicine over the next month. If some forecasts exceed a threshold value (also in this case the value is configurable), then a warning is generated for that region. In this case, the alert of each region collects all the forecasts that exceed the threshold value, so for each region, there will be at most one warning per month listing all the medicines that could play a crucial role in the next month.</p>
+                  <p id="p0655">Even in this case, the model correctly mapped the trend with a Root Mean Squared Percentage Error (RMSPE) of 16%.</p>
+                  <p id="p0660"><xref rid="fig10" ref-type="fig">Fig. 10</xref> shows some forecasted values compared with the actual ones in some warnings generated by the system using datasets that extend between 2019 and 2021 covering as well a pre-pandemic period.<fig id="fig10"><label>Fig. 10</label><caption><p>Comparison between forecasts and real stocks purchases. The X-axis reports the considered month, year, the medicine and the area (injectable anaesthetics refer to injectable general anaesthetics).</p></caption><alt-text id="alttext0055">Fig. 10</alt-text><graphic xlink:href="gr10_lrg"/></fig></p>
+                </sec>
+              </sec>
+              <sec id="sec4.2">
+                <label>4.2</label>
+                <title>Use cases from the platform</title>
+                <p id="p0665">The power of the information provided by the ECO4CO platform consists in the different services that in the same periods can generate warnings coming from different sources and regarding different aspects of interest for the pandemic spread. This paragraph shows some use cases detected during the pilot and taken from the platform working with real operational data.</p>
+                <p id="p0670">For this purpose two groups of alerts are proposed, which were generated in two different periods of the pandemic that are <bold>March 2021</bold> and <bold>December 2021.</bold>
+</p>
+                <p id="p0675">For the case of March 2021, the Cluster Area Identification module, performing the sentiment analysis on Twitter messages geolocated in Rome created warnings related to the Italian keyword “assembramenti” (gatherings) on the March 10, 2021 (<xref rid="fig11" ref-type="fig">Fig. 11</xref>
+).<fig id="fig11"><label>Fig. 11</label><caption><p>Cluster Area Identification warnings.</p></caption><alt-text id="alttext0060">Fig. 11</alt-text><graphic xlink:href="gr11_lrg"/></fig></p>
+                <p id="p0680">In conjunction, an Intelligent Tasking job was started which acquired a satellite image on the March 15, 2021. The Object Detection module confirmed it by verifying the Parking lots occupancy (<xref rid="fig12" ref-type="fig">Fig. 12</xref>
+).<fig id="fig12"><label>Fig. 12</label><caption><p>Car parking detection.</p></caption><alt-text id="alttext0065">Fig. 12</alt-text><graphic xlink:href="gr12_lrg"/></fig></p>
+                <p id="p0685">In the same week (March 11th), the Logistic Planning raised several warnings related to an Emergency Department attendance increase in that area (<xref rid="fig13" ref-type="fig">Fig. 13</xref>
+).<fig id="fig13"><label>Fig. 13</label><caption><p>Logistic Planning warnings (Emergency rooms attendance increase).</p></caption><alt-text id="alttext0070">Fig. 13</alt-text><graphic xlink:href="gr13_lrg"/></fig></p>
+                <p id="p0690">For the case of December 2021, the Cluster Area Identification service created several warnings in the area of Rome for keywords like “omicron” or “febbre” (fever) from the December 24, 2021 (<xref rid="fig14" ref-type="fig">Fig. 14</xref>
+).<fig id="fig14"><label>Fig. 14</label><caption><p>Cluster Area Identification warnings.</p></caption><alt-text id="alttext0075">Fig. 14</alt-text><graphic xlink:href="gr14_lrg"/></fig></p>
+                <p id="p0695">In the same period, the Logistic Planning service raised alerts on the 20th of December forecasting a colour code switch from white to yellow. On the January 3, 2022, the Lazio Region has switched from white to yellow, confirming the system forecast (<xref rid="fig15" ref-type="fig">Fig. 15</xref>
+).<fig id="fig15"><label>Fig. 15</label><caption><p>Logistic Planning warnings (colour code switch). (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)</p></caption><alt-text id="alttext0080">Fig. 15</alt-text><graphic xlink:href="gr15_lrg"/></fig></p>
+                <p id="p0700">The warnings generated by the system, showed the ability to adapt to new variants such as the Omicron, which in Italy was first detected in 2021 and became dominant in less than one month [<xref rid="bib29" ref-type="bibr">29</xref>]. The platform allowed to forecast events linked to the Delta variant during the period of March 2021 and the rise of the new Omicron wave during December and January 2021. It was shown that the different subservices were able to produce different types of warnings (sentiment analysis, rise of Emergency Departments admittances, region colour code change) generated from different data sources and correlated to the same events. The warnings help to provide means of interpretation and support to the decision making as well as corroboration to confirm the occurrence of a particular situation. In particular, the Intelligent Tasking was triggered by the sentiment analysis and allowed to provide objective information confirming the increase of car park occupancy as a result of the predicted increase of people gatherings.</p>
+              </sec>
+            </sec>
+            <sec id="sec5">
+              <label>5</label>
+              <title>Conclusions</title>
+              <p id="p0705">In this paper, an end-to-end solution has been presented, that is capable of developing efficacious synergies from different technologies and scientific sectors in order to create an applicative and interdisciplinary system to tackle emergencies and to address healthcare, clinical and epidemiological situations.</p>
+              <p id="p0710">As a Decision Support System, the ECO4CO service offers several capabilities to the end-users and the competent authorities. It provides an analysis in near real-time of the epidemiological spread and trends of the COVID-19 disease against geographical distribution (from national level to district detail). It can help to prevent the outbreak of new possible clusters of infection cases. It allows identifying movements and changes in urban and suburban areas, monitoring aggregations and events (planned or spontaneous) involving people that are potentially exposed or positive to COVID-19.</p>
+              <p id="p0715">It permits to track potentially infected people movement on all national territory, correlate that information and map the spread of the virus-related cases within new areas.</p>
+              <p id="p0720">Moreover, it allows to monitor, manage and predict medical equipment logistic needs and schedule supplies for medical centres on all national territory, accordingly to the new potential identified clusters providing them in the shortest possible time and from the nearest available location.</p>
+              <p id="p0725">The ECO4CO platform operations during the pilot campaign have allowed to continuously assess and gradually improve its performances. The logistic planning supported by the availability of the data and the efficient use of Artificial Intelligence models, allowed to setup an operative scenario of medical needs awareness and supply management.</p>
+              <p id="p0730">The paper showed some use cases detected by the ECO4CO platform during the pilot campaign working with real operational data. The power of the information provided by the ECO4CO service consists in the different services that in the same periods can generate warnings coming from different sources and regarding different aspects of interest for the pandemic spread. This was possible thanks to the synergic use of several technologies including satellite-based Earth Observation, business and social intelligence, Artificial Intelligence and GIS systems, which are under the umbrella of Geospatial intelligence.</p>
+              <p id="p0735">The benefits of the ECO4CO service are multi-fold reaching the social, economic, geo-medical and healthcare fabrics. From a social point of view, the service provides a platform to local and national authorities to monitor and prevent the spread of infectious diseases; as a result, populations are reassured to know that the area in which they live or work is monitored and that they will be warned in case of risk of contagion. People are also involved in a process of active collaboration, which contributes to create information and knowledge.</p>
+              <p id="p0740">From an economic point of view, many resources can be saved. Industries and Small Medium Enterprises (SMEs) could avoid lockdown measures by preventing the spread of the disease and timely managing possible crisis due to personnel affected by COVID-19. These measures would prevent a huge economy loss, which would be dramatic in case of several waves of the pandemic.</p>
+              <p id="p0745">Most relevant for the healthcare of the population, the healthcare system could manage in advance the raise of critical situations and prevent the collapse of medical centres. This can be performed with the prediction of medical equipment needs so that they can be collected where available beforehand. The global effect will be an increased efficiency of the healthcare system with benefits for the sick persons.</p>
+              <p id="p0750">Finally, such service is further foreseen to provide inputs and added value for possible future emergencies after testing efficacious geotechnological and interdisciplinary solutions.</p>
+            </sec>
+            <sec sec-type="COI-statement">
+              <title>Declaration of competing interest</title>
+              <p id="p0755">The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebib0010">
+              <title>References</title>
+              <ref id="bib1">
+                <label>1</label>
+                <element-citation publication-type="book" id="sref1">
+                  <person-group person-group-type="author">
+                    <collab>World Health Organization</collab>
+                  </person-group>
+                  <part-title>An Unprecedented Challenge: Italy's First Response to COVID-19</part-title>
+                  <year>2020</year>
+                  <ext-link ext-link-type="uri" xlink:href="https://www.dors.it/documentazione/testo/202005/COVID-19-Italy-response.pdf" id="intref0010">https://www.dors.it/documentazione/testo/202005/COVID-19-Italy-response.pdf</ext-link>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <label>2</label>
+                <element-citation publication-type="journal" id="sref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pesaresi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavia</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Vito</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Three geotechnological proposals to tackle health emergencies and the monitoring of infectious diseases. Inputs from the COVID-19 pandemic for future preparedness</article-title>
+                  <source>Bollet. Della Assoc. Ital. Cartogr.</source>
+                  <volume>170</volume>
+                  <issue>Special Issue</issue>
+                  <year>2020</year>
+                  <fpage>58</fpage>
+                  <lpage>75</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <label>3</label>
+                <element-citation publication-type="journal" id="sref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pesaresi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A geographical and crosscutting look at the COVID-19 pandemic in an international framework. Introduction</article-title>
+                  <source>J-READING – J. Res. Didact. Geogr.</source>
+                  <volume>2</volume>
+                  <year>2020</year>
+                  <fpage>13</fpage>
+                  <lpage>19</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <label>4</label>
+                <element-citation publication-type="book" id="sref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yakovlev</surname>
+                      <given-names>Sergey</given-names>
+                    </name>
+                    <name>
+                      <surname>Bazilevych</surname>
+                      <given-names>Kseniia</given-names>
+                    </name>
+                    <name>
+                      <surname>Chumachenko</surname>
+                      <given-names>Dmytro</given-names>
+                    </name>
+                    <name>
+                      <surname>Chumachenko</surname>
+                      <given-names>Tetyana</given-names>
+                    </name>
+                    <name>
+                      <surname>Hulianytskyi</surname>
+                      <given-names>Leonid</given-names>
+                    </name>
+                    <name>
+                      <surname>Meniailov</surname>
+                      <given-names>Ievgen</given-names>
+                    </name>
+                    <name>
+                      <surname>Tkachenko</surname>
+                      <given-names>Anton</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>The Concept of Developing a Decision Support System for the Epidemic Morbidity Control</part-title>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <label>5</label>
+                <element-citation publication-type="journal" id="sref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iacus</surname>
+                      <given-names>Stefano Maria</given-names>
+                    </name>
+                    <name>
+                      <surname>Natale</surname>
+                      <given-names>Fabrizio</given-names>
+                    </name>
+                    <name>
+                      <surname>Santamaria</surname>
+                      <given-names>Carlos</given-names>
+                    </name>
+                    <name>
+                      <surname>Spyratos</surname>
+                      <given-names>Spyridon</given-names>
+                    </name>
+                    <name>
+                      <surname>Vespe</surname>
+                      <given-names>Michele</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating and projecting air passenger traffic during the COVID-19 coronavirus outbreak and its socio-economic impact</article-title>
+                  <source>Saf. Sci.</source>
+                  <volume>129</volume>
+                  <year>2020</year>
+                  <fpage>104791</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ssci.2020.104791</pub-id>
+                  <comment>ISSN 0925-7535</comment>
+                  <pub-id pub-id-type="pmid">32377034</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <label>6</label>
+                <mixed-citation publication-type="other" id="sref6">Pan American Health Organization, World Health Organization. Regional Office for the Americas, COVID-19 and the importance of strengthening Information Systems, Covid-19 Fact Sheets, 12 May 2020, <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/52127" id="intref0015">https://iris.paho.org/handle/10665.2/52127</ext-link> (Accessed 08.09.2021).</mixed-citation>
+              </ref>
+              <ref id="bib7">
+                <label>7</label>
+                <element-citation publication-type="journal" id="sref7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>Jihye</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>Youngtae</given-names>
+                    </name>
+                    <name>
+                      <surname>Shim</surname>
+                      <given-names>Eunyoung</given-names>
+                    </name>
+                    <name>
+                      <surname>Woo</surname>
+                      <given-names>Hyekyung</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Web-based infectious disease surveillance systems and public health perspectives: a systematic review</article-title>
+                  <source>BMC Publ. Health</source>
+                  <volume>16</volume>
+                  <year>2016</year>
+                  <fpage>1238</fpage>
+                  <comment>Article number</comment>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <label>8</label>
+                <element-citation publication-type="journal" id="sref8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Milinovich</surname>
+                      <given-names>G.J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Internet-based surveillance systems for monitoring emerging infectious diseases</article-title>
+                  <source>Lancet Infect. Dis.</source>
+                  <volume>14</volume>
+                  <issue>2</issue>
+                  <year>2014</year>
+                  <fpage>160</fpage>
+                  <lpage>168</lpage>
+                  <pub-id pub-id-type="pmid">24290841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <label>9</label>
+                <mixed-citation publication-type="other" id="sref9">Pan American Health Organization, World Health Organization. Regional Office for the Americas, COVID-19 and the role of information systems and technologies at the first level of care, Covid-19 Fact Sheets, 23 May 2020, <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/52204" id="intref0020">https://iris.paho.org/handle/10665.2/52204</ext-link> (Accessed 08.09.2021).</mixed-citation>
+              </ref>
+              <ref id="bib10">
+                <label>10</label>
+                <element-citation publication-type="journal" id="sref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kamel Boulos</surname>
+                      <given-names>M.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>VoPham</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An overview of GeoAI applications in health and healthcare</article-title>
+                  <source>Int. J. Health Geogr.</source>
+                  <volume>18</volume>
+                  <year>2019</year>
+                  <fpage>7</fpage>
+                  <pub-id pub-id-type="pmid">31043176</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <label>11</label>
+                <element-citation publication-type="journal" id="sref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lyu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hair</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yell</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qiao</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Temporal geospatial analysis of COVID-19 pre-infection determinants of risk in South Carolina</article-title>
+                  <source>Int. J. Environ. Res. Publ. Health</source>
+                  <volume>18</volume>
+                  <issue>9673</issue>
+                  <year>2021</year>
+                  <fpage>17</fpage>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <label>12</label>
+                <element-citation publication-type="journal" id="sref12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gangwar</surname>
+                      <given-names>H.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ray</surname>
+                      <given-names>P.K.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Geographic information system-based analysis of COVID-19 cases in India during pre-lockdown, lockdown, and unlock phases</article-title>
+                  <source>Int. J. Infect. Dis.</source>
+                  <volume>105</volume>
+                  <year>2021</year>
+                  <fpage>424</fpage>
+                  <lpage>435</lpage>
+                  <pub-id pub-id-type="pmid">33610777</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <label>13</label>
+                <element-citation publication-type="journal" id="sref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kamel Boulos</surname>
+                      <given-names>M.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Geraghty</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Geographical tracking and mapping of coronavirus disease COVID-19/severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) epidemic and associated events around the world: how 21st century GIS technologies are supporting the global fight against outbreaks and epidemics</article-title>
+                  <source>Int. J. Health Geogr.</source>
+                  <volume>19</volume>
+                  <issue>8</issue>
+                  <year>2020</year>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <label>14</label>
+                <element-citation publication-type="journal" id="sref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dangermond</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Vito</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pesaresi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using GIS in the Time of the COVID-19 Crisis, casting a glance at the future. A joint discussion</article-title>
+                  <source>J-READING – J. Res. Didact. Geogr.</source>
+                  <volume>1</volume>
+                  <issue>9</issue>
+                  <year>2020</year>
+                  <fpage>195</fpage>
+                  <lpage>205</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <label>15</label>
+                <element-citation publication-type="journal" id="sref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Valjarević</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milić</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valjarević</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stanojević-Ristić</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrović</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milanović</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Filipović</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ristanović</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Basarin</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lukić</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modelling and mapping of the COVID-19 trajectory and pandemic paths at global scale: a geographer's perspective</article-title>
+                  <source>Open Geosci.</source>
+                  <volume>12</volume>
+                  <year>2020</year>
+                  <fpage>1603</fpage>
+                  <lpage>1616</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <label>16</label>
+                <element-citation publication-type="journal" id="sref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pesaresi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavia</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>De Vito</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barbara</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cerabona</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Rosa</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dynamic space-time diffusion simulator in a GIS environment to tackle the covid-19 emergency. Testing a geotechnological application in Rome</article-title>
+                  <source>Geogr. Tech.</source>
+                  <volume>16</volume>
+                  <issue>Special Issue</issue>
+                  <year>2021</year>
+                  <fpage>82</fpage>
+                  <lpage>99</lpage>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <label>17</label>
+                <element-citation publication-type="journal" id="sref17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jamshidi</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lalbakhsh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Talla</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peroutka</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hadjilooei</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lalbakhsh</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jamshidi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Spada</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mirmozafari</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dehghani</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sabet</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roshani</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roshani</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bayat-Makou</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohamadzade</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Malek</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jamshidi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiani</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hashemi-Dezaki</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mohyuddin</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Artificial intelligence and COVID-19: deep learning approaches for diagnosis and treatment</article-title>
+                  <source>IEEE Access</source>
+                  <volume>8</volume>
+                  <year>2020</year>
+                  <fpage>109581</fpage>
+                  <lpage>109595</lpage>
+                  <pub-id pub-id-type="pmid">34192103</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <label>18</label>
+                <mixed-citation publication-type="other" id="sref18">European Space Agency, Management Requirements for ARTES 4.0 Downstream Applications Demonstration Projects, Appendix 3 to Contract, Reference: ESA-TIAA-PR-2020-2115, Issue/Revision 1.1, Date of Issue15/01/2021, <ext-link ext-link-type="uri" xlink:href="https://business.esa.int/documents" id="intref0025">https://business.esa.int/documents</ext-link> (Accessed 20.07.2021).</mixed-citation>
+              </ref>
+              <ref id="bib19">
+                <label>19</label>
+                <element-citation publication-type="journal" id="sref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cervone</surname>
+                      <given-names>Guido</given-names>
+                    </name>
+                    <name>
+                      <surname>Sava</surname>
+                      <given-names>Elena</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Qunying</given-names>
+                    </name>
+                    <name>
+                      <surname>Schnebele</surname>
+                      <given-names>Emily</given-names>
+                    </name>
+                    <name>
+                      <surname>Harrison</surname>
+                      <given-names>Jeff</given-names>
+                    </name>
+                    <name>
+                      <surname>Waters</surname>
+                      <given-names>Nigel</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using Twitter for tasking remote-sensing data collection and damage assessment: 2013 Boulder flood case study</article-title>
+                  <source>Int. J. Rem. Sens.</source>
+                  <volume>37</volume>
+                  <year>2016</year>
+                  <fpage>100</fpage>
+                  <lpage>124</lpage>
+                  <pub-id pub-id-type="doi">10.1080/01431161.2015.1117684</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <label>20</label>
+                <element-citation publication-type="other" id="sref20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahmad</surname>
+                      <given-names>Kashif</given-names>
+                    </name>
+                    <name>
+                      <surname>Pogorelov</surname>
+                      <given-names>Konstantin</given-names>
+                    </name>
+                    <name>
+                      <surname>Riegler</surname>
+                      <given-names>Michael</given-names>
+                    </name>
+                    <name>
+                      <surname>Conci</surname>
+                      <given-names>Nicola</given-names>
+                    </name>
+                    <name>
+                      <surname>Halvorsen</surname>
+                      <given-names>Pål</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Social media and satellites: disaster event detection, linking and summarization. Multimedia tools and applications</article-title>
+                  <comment>78. 10.1007/s11042-018-5982-9</comment>
+                  <ext-link ext-link-type="uri" xlink:href="https://link.springer.com/article/10.1007%2Fs11042-018-5982-9" id="intref0030">https://link.springer.com/article/10.1007%2Fs11042-018-5982-9</ext-link>
+                  <year>2018</year>
+                </element-citation>
+              </ref>
+              <ref id="bib21">
+                <label>21</label>
+                <element-citation publication-type="journal" id="sref21">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Jun</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Zhi</given-names>
+                    </name>
+                    <name>
+                      <surname>Plaza</surname>
+                      <given-names>Javier</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Shutao</given-names>
+                    </name>
+                    <name>
+                      <surname>Jinfen</surname>
+                      <given-names>Chen</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Henglin</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Yandong</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Yu</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Social media: new perspectives to improve remote sensing for emergency response</article-title>
+                  <source>Proc. IEEE</source>
+                  <year>2017</year>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JPROC.2017.2684460</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <label>22</label>
+                <element-citation publication-type="book" id="sref22">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Froidevaux</surname>
+                      <given-names>Alice</given-names>
+                    </name>
+                    <name>
+                      <surname>Julier</surname>
+                      <given-names>Andrea</given-names>
+                    </name>
+                    <name>
+                      <surname>Lifschitz</surname>
+                      <given-names>Agustin</given-names>
+                    </name>
+                    <name>
+                      <surname>Pham</surname>
+                      <given-names>Minh-Tan</given-names>
+                    </name>
+                    <name>
+                      <surname>Dambreville</surname>
+                      <given-names>Romain</given-names>
+                    </name>
+                    <name>
+                      <surname>Lefèvre</surname>
+                      <given-names>Sébastien</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierre</surname>
+                      <given-names>Lassalle</given-names>
+                    </name>
+                    <name>
+                      <surname>Huynh</surname>
+                      <given-names>Thanh-Long</given-names>
+                    </name>
+                  </person-group>
+                  <part-title>Vehicle Detection and Counting from VHR Satellite Images: Efforts and Open Issues</part-title>
+                  <year>2020</year>
+                  <fpage>256</fpage>
+                  <lpage>259</lpage>
+                  <pub-id pub-id-type="doi">10.1109/IGARSS39084.2020.9323827</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <label>23</label>
+                <element-citation publication-type="journal" id="sref23">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zambanini</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loghin</surname>
+                      <given-names>A.-M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pfeifer</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Soley</surname>
+                      <given-names>E.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sablatnig</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detection of parking cars in stereo satellite images</article-title>
+                  <source>Rem. Sens.</source>
+                  <volume>12</volume>
+                  <year>2020</year>
+                  <fpage>2170</fpage>
+                  <pub-id pub-id-type="doi">10.3390/rs12132170</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib24">
+                <label>24</label>
+                <mixed-citation publication-type="other" id="sref24">Italian Ministry of Economic Development [Online]. Available at: <ext-link ext-link-type="uri" xlink:href="https://www.mise.gov.it/index.php/it/open-data/cosa-sono-gli-open-data" id="intref0035">https://www.mise.gov.it/index.php/it/open-data/cosa-sono-gli-open-data</ext-link> (Accessed 08.02.2022).</mixed-citation>
+              </ref>
+              <ref id="bib25">
+                <label>25</label>
+                <mixed-citation publication-type="other" id="sref25">Lazio region website [Online]. Available at: <ext-link ext-link-type="uri" xlink:href="https://dati.lazio.it/catalog/dataset/pronto-soccorso-accessi-in-tempo-reale" id="intref0040">https://dati.lazio.it/catalog/dataset/pronto-soccorso-accessi-in-tempo-reale</ext-link> (Accessed 08.02.2022).</mixed-citation>
+              </ref>
+              <ref id="bib26">
+                <label>26</label>
+                <mixed-citation publication-type="other" id="sref26">Italian Medicines Agency website [Online]. Available at: <ext-link ext-link-type="uri" xlink:href="https://www.aifa.gov.it/en/open-data" id="intref0045">https://www.aifa.gov.it/en/open-data</ext-link> (Accessed 08.02.2022).</mixed-citation>
+              </ref>
+              <ref id="bib27">
+                <label>27</label>
+                <mixed-citation publication-type="other" id="sref27">Data repository of COVID-19 published by the Italian National Civil Protection [Online]. Available at <ext-link ext-link-type="uri" xlink:href="https://github.com/pcm-dpc/COVID-19" id="intref0050">https://github.com/pcm-dpc/COVID-19</ext-link> (Accessed 08.02.2022).</mixed-citation>
+              </ref>
+              <ref id="bib28">
+                <label>28</label>
+                <mixed-citation publication-type="other" id="sref28">AGENAS website [Online]. Available at <ext-link ext-link-type="uri" xlink:href="https://www.agenas.gov.it/agenas/l-agenzia" id="intref0055">https://www.agenas.gov.it/agenas/l-agenzia</ext-link> (Accessed 15.02.2022).</mixed-citation>
+              </ref>
+              <ref id="bib29">
+                <label>29</label>
+                <element-citation publication-type="journal" id="sref29">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stefanelli</surname>
+                      <given-names>Paola</given-names>
+                    </name>
+                    <name>
+                      <surname>Trentini</surname>
+                      <given-names>Filippo</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrone</surname>
+                      <given-names>Daniele</given-names>
+                    </name>
+                    <name>
+                      <surname>Mammone</surname>
+                      <given-names>Alessia</given-names>
+                    </name>
+                    <name>
+                      <surname>Ambrosio</surname>
+                      <given-names>Luigina</given-names>
+                    </name>
+                    <name>
+                      <surname>Manica</surname>
+                      <given-names>Mattia</given-names>
+                    </name>
+                    <name>
+                      <surname>Guzzetta</surname>
+                      <given-names>Giorgio</given-names>
+                    </name>
+                    <name>
+                      <surname>Andrea</surname>
+                      <given-names>Valeria</given-names>
+                    </name>
+                    <name>
+                      <surname>Marziano</surname>
+                      <given-names>Valentina</given-names>
+                    </name>
+                    <name>
+                      <surname>Zardini</surname>
+                      <given-names>Agnese</given-names>
+                    </name>
+                    <name>
+                      <surname>Grane</surname>
+                      <given-names>Carla</given-names>
+                    </name>
+                    <name>
+                      <surname>Ajelli</surname>
+                      <given-names>Marco</given-names>
+                    </name>
+                    <name>
+                      <surname>Martino</surname>
+                      <given-names>Angela</given-names>
+                    </name>
+                    <name>
+                      <surname>Riccardo</surname>
+                      <given-names>Flavia</given-names>
+                    </name>
+                    <name>
+                      <surname>Bella</surname>
+                      <given-names>Antonino</given-names>
+                    </name>
+                    <name>
+                      <surname>Schepisi</surname>
+                      <given-names>Monica</given-names>
+                    </name>
+                    <name>
+                      <surname>Maraglino</surname>
+                      <given-names>Francesco</given-names>
+                    </name>
+                    <name>
+                      <surname>Poletti</surname>
+                      <given-names>Piero</given-names>
+                    </name>
+                    <name>
+                      <surname>Palamara</surname>
+                      <given-names>Anna</given-names>
+                    </name>
+                    <name>
+                      <surname>Merler</surname>
+                      <given-names>Stefano</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tracking the progressive spread of the SARS-CoV-2 omicron variant in Italy, december 2021 - january 2022</article-title>
+                  <source>Diagnostics</source>
+                  <volume>12</volume>
+                  <issue>2</issue>
+                  <year>2022</year>
+                  <fpage>467</fpage>
+                  <pub-id pub-id-type="doi">10.3390/diagnostics12020467</pub-id>
+                  <comment>2022</comment>
+                  <pub-id pub-id-type="pmid">35204558</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <ack id="ack0010">
+              <title>Acknowledgment</title>
+              <p id="p0760">The present paper results from the project “Earth Cognitive System 4 COVID-19 (ECO4CO)” co-funded by the <funding-source id="gs11"><institution-wrap><institution-id institution-id-type="doi">10.13039/501100000844</institution-id><institution>European Space Agency</institution></institution-wrap></funding-source> (ESA contract N° 4000133199/20/NL/AF) and developed in collaboration by Telespazio S. p.A, e-GEOS S. p.A, Leonardo S. p.A, ITHACA, CherryData S. r.l and Sapienza University of Rome.</p>
+            </ack>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

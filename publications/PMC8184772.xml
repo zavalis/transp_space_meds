@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:53:12Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8184772" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8184772</identifier>
+        <datestamp>2021-06-08</datestamp>
+        <setSpec>scirep</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Scientific Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2045-2322</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8184772</article-id>
+              <article-id pub-id-type="pmcid">PMC8184772</article-id>
+              <article-id pub-id-type="pmc-uid">8184772</article-id>
+              <article-id pub-id-type="pmid">34099760</article-id>
+              <article-id pub-id-type="publisher-id">90458</article-id>
+              <article-id pub-id-type="doi">10.1038/s41598-021-90458-2</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Human immune system adaptations to simulated microgravity revealed by single-cell mass cytometry</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Spatz</surname>
+                    <given-names>J. M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" deceased="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Fulford</surname>
+                    <given-names>M. Hughes</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tsai</surname>
+                    <given-names>A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Gaudilliere</surname>
+                    <given-names>D.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hedou</surname>
+                    <given-names>J.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ganio</surname>
+                    <given-names>E.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Angst</surname>
+                    <given-names>M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" equal-contrib="yes">
+                  <name>
+                    <surname>Aghaeepour</surname>
+                    <given-names>N.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                  <name>
+                    <surname>Gaudilliere</surname>
+                    <given-names>Brice</given-names>
+                  </name>
+                  <address>
+                    <email>gbrice@stanford.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.410372.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 0419 2775</institution-id><institution>Department of Medicine, Metabolism Division, </institution><institution>San Francisco Department of Veterans Affairs Medical Center, </institution></institution-wrap>San Francisco, CA USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.266102.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 6811</institution-id><institution>Department of Medicine and Department of Surgery, </institution><institution>University of California, </institution></institution-wrap>San Francisco, CA USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.168010.e</institution-id><institution-id institution-id-type="ISNI">0000000419368956</institution-id><institution>Department of Anesthesiology, Perioperative, and Pain Medicine, </institution><institution>Stanford University School of Medicine, </institution></institution-wrap>300 Pasteur Dr. Rm S238, Grant Bldg, Stanford, CA 94305 USA </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.168010.e</institution-id><institution-id institution-id-type="ISNI">0000000419368956</institution-id><institution>Department of Surgery, Plastic Surgery Division, </institution><institution>Stanford University School of Medicine, </institution></institution-wrap>Stanford, CA 94305 USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.168010.e</institution-id><institution-id institution-id-type="ISNI">0000000419368956</institution-id><institution>Department of Biomedical Data Sciences, </institution><institution>Stanford University School of Medicine, </institution></institution-wrap>Stanford, CA USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.168010.e</institution-id><institution-id institution-id-type="ISNI">0000000419368956</institution-id><institution>Department of Pediatrics, </institution><institution>Stanford University School of Medicine, </institution></institution-wrap>Stanford, CA USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>7</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>7</day>
+                <month>6</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>11</volume>
+              <elocation-id>11872</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>17</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>11</day>
+                  <month>5</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">Exposure to microgravity (µG) during space flights produces a state of immunosuppression, leading to increased viral shedding, which could interfere with long term missions. However, the cellular mechanisms that underlie the immunosuppressive effects of µG are ill-defined. A deep understanding of human immune adaptations to µG is a necessary first step to design data-driven interventions aimed at preserving astronauts’ immune defense during short- and long-term spaceflights. We employed a high-dimensional mass cytometry approach to characterize over 250 cell-specific functional responses in 18 innate and adaptive immune cell subsets exposed to 1G or simulated (s)µG using the Rotating Wall Vessel. A statistically stringent elastic net method produced a multivariate model that accurately stratified immune responses observed in 1G and sµG (<italic>p</italic> value 2E−4, cross-validation). Aspects of our analysis resonated with prior knowledge of human immune adaptations to µG, including the dampening of Natural Killer, CD4<sup>+</sup> and CD8<sup>+</sup> T cell responses. Remarkably, we found that sµG enhanced STAT5 signaling responses of immunosuppressive T<sub>regs</sub>. Our results suggest µG exerts a dual effect on the human immune system, simultaneously dampening cytotoxic responses while enhancing T<sub>reg</sub> function. Our study provides a single-cell readout of sµG-induced immune dysfunctions and an analytical framework for future studies of human immune adaptations to human long-term spaceflights.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Experimental models of disease</kwd>
+                <kwd>Aerospace engineering</kwd>
+                <kwd>Immunology</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">During spaceflight, suppression of the immune system is a well-documented consequence of both short- and long-duration missions<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR9">9</xref></sup>. The dysregulation of immunological mechanisms have been studied in ground simulations of microgravity (µG)<sup><xref ref-type="bibr" rid="CR8">8</xref>–<xref ref-type="bibr" rid="CR11">11</xref></sup>, in human immune cells<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup> and in mice (astromice)<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref></sup> during spaceflight, and in astronauts<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Transcriptomic analyses of human peripheral blood mononuclear cells (PBMCs), splenocytes and purified T cells activated in µG during spaceflight have demonstrated that the absence of gravity profoundly inhibits the capacity of immune cells to respond to in-vivo<sup><xref ref-type="bibr" rid="CR8">8</xref></sup> and ex-vivo stimulations<sup><xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Evidence of enhanced virulence of pathogens<sup><xref ref-type="bibr" rid="CR16">16</xref>,<xref ref-type="bibr" rid="CR17">17</xref></sup> and increased viral shedding in astronauts exposed to µG presents potential mission-critical risks for long-duration, deep space exploration<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref></sup>.</p>
+              <p id="Par3">Emerging high-content, immune-profiling technologies, including mass cytometry, provide powerful means for the single-cell evaluation of complex physiological immune responses, such as that produced by µG<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR15">15</xref>,<xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR24">24</xref></sup>. Here, we utilized a 41-parameter mass cytometry approach to comprehensively profile the effect of µG on human PBMC surface activation markers and intracellular signaling responses, cultured in the NASA developed Rotating Wall Vessel, one of the most commonly used models of simulated (s)µG<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>. Other established sµG models include the two-dimensional clinorotation and the Random Positioning Machine models<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR31">31</xref></sup>. The primary goal of the study was to expand current knowledge anchored in bulk transcriptomic profiles of PBMCs<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup> by adding a single-cell and proteomic readout of major immune cell effector function after exposure to sµG. Ultimately, this research will identify modifiable targets that can be exploited to decrease µG-induced immunological dysregulation.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Results</title>
+              <sec id="Sec3">
+                <title>Transcriptomic assessment of peripheral immune cell adaptations to sµG recapitulates spaceflight observations</title>
+                <p id="Par4">PBMC samples from eight healthy adult donors were purchased (Stanford Blood Center, Stanford, CA) for this study. PBMCs were loaded into rotating-wall vessels and exposed to 18 h of either 1-gravity (1G, static control) or sµG. The 18 h sµG exposure was chosen based on prior studies examining the kinetics of transcriptional changes in T-cells in response to sµG showing profound effect on T cell mRNA and microRNA expression after 18 h exposure<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. We reasoned that the 18-h would allow simultaneous detection of mRNA changes and post-translational protein modifications (e.g. phosphorylation of kinases and transcription factors) that temporally coincide with sµG-induced changes observed at the mRNA level. PBMCs were analyzed at baseline (0 h, unstimulated) and following a 1.5 h or 4 h activation with a combination of Concanavalin A and anti-CD28 (ConA/Anti-CD28). Stimulation with ConA/Anti-CD28 provides a robust means to activate multiple signaling responses critically implicated in the proliferation, survival, and differentiation of innate and adaptive cells<sup><xref ref-type="bibr" rid="CR32">32</xref>,<xref ref-type="bibr" rid="CR33">33</xref></sup> was used to conform to previous studies of human PBMCs after exposure to µG (both spaceflight and sµG). For each gravity condition, two cell aliquots were obtained and subjected in parallel to (1) pooled and bead isolated Th cell gene arrays and transcriptomic analysis (qRT-PCR) of select genes previously shown to be altered by sµG and spaceflight in immune cells (including interleukin 2 receptor [IL2R]α, tumor necrosis factor [TNF]α, CD69, CLL4 and Interferon [IFN]γ<sup><xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>); or (2) single-cell proteomic analysis with mass cytometry (Fig. <xref rid="Fig1" ref-type="fig">1</xref>).<fig id="Fig1"><label>Figure 1</label><caption><p>Experimental workflow. (<bold>A</bold>) Blood samples from eight healthy volunteers were collected. Peripheral blood mononuclear cells (PBMCs) were isolated and exposed to simulated microgravity (sµG) or (1G) (static control) using a random positioning machine for 18 h, then stimulated with ConA and anti-CD28 (ConA/anti-CD28) or left unstimulated. (<bold>B</bold>) The activation and intracellular signaling responses of all major immune cell subsets were quantified using single-cell mass cytometry. In parallel, the mRNA expression of a select number of genes was quantified using qRT-PCR. (<bold>C</bold>) The high-dimensional immunological dataset was visualized as an immune signaling correlation network. Cell-type-specific immune responses that differed between the sµG and 1G conditions were identified using a multivariate Elastic Net (EN) method.</p></caption><graphic xlink:href="41598_2021_90458_Fig1_HTML" id="MO1"/></fig></p>
+                <p id="Par5">Results from the qRT-PCR analysis revealed no significant differences in baseline (unstimulated) mRNA expression after 18 h of 1G or sµG exposure. In contrast, in PBMCs stimulated with ConA/Anti-CD28, exposure to sµG decreased the mRNA expression of the interleukin 2 receptor (IL2R)α, (this subunit is required for full T cell activation), tumor necrosis factor (TNF)α, CD69, and CLL4 at the 1.5 h or 4 h stimulation time points. A trend towards decreased interferon (IFN)γ mRNA response after sµG exposure was also observed (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Our data indicate that exposure to sµG results in the broad inhibition of immune cell capacity to respond to a potent activating stimulus (ConA/Anti-CD28) and are consistent with previous transcriptomic analyses of human immune cells exposed to the spaceflight environment<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>–<xref ref-type="bibr" rid="CR15">15</xref></sup>. To determine whether differential mRNA expression translated into functional and cell-specific differences in immune cell signaling behavior, we employed a high-dimensional, single-cell mass cytometry approach.<fig id="Fig2"><label>Figure 2</label><caption><p>sµG alters immune cell transcriptional responses to ConA/anti-CD28 stimulation. Differential expression of indicated mRNA transcripts isolated from PBMCs exposed to sµG or 1G for 18 h then stimulated with ConA/anti-CD28 for 1.5 h or 4 h. Bar plots show median with standard deviation (n = 8). *indicates <italic>p</italic> &lt; 0.05, **indicates <italic>p</italic> &lt; 0.01, ***indicates <italic>p</italic> &lt; 0.001.</p></caption><graphic xlink:href="41598_2021_90458_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec4">
+                <title>Exposure to sµG produces system-wide and cell-specific alterations of immune cell responses</title>
+                <p id="Par6">PBMCs exposed to 1G or sµG were analyzed using a 41-parameter mass cytometry immunoassay. The approach allowed for the simultaneous assessment of 252 functional responses measured in 18 innate and adaptive immune cell subsets that were manually gated according to established flow cytometry guidelines (Fig. <xref rid="MOESM1" ref-type="media">S1</xref>)<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Before investigating functional responses, we first determined the effect of sµG on the relative abundance of individual cell subsets. The analysis showed no significant difference in immune cell abundance between the 1G and sµG conditions (False Discovery Rate, FDR, q &gt; 0.01, Fig. <xref rid="MOESM1" ref-type="media">S2</xref>). This was expected since the short-term incubation time used in our experiment is not enough time to detect meaningful differences in cell proliferation.</p>
+                <p id="Par7">To evaluate the effect of sµG on immune cell function, 14 functional responses—including the phosphorylation of canonical elements of the JAK/STAT, MAPK, and NF-κB signaling pathways and the expression of cell activation markers such as IL2R (CD25) and CD69 were assessed in each immune cell subset as the difference (asinh ratio) between the unstimulated and the 4 h stimulation conditions (Fig. <xref rid="Fig3" ref-type="fig">3</xref>). The resulting high-dimensional mass cytometry dataset yielded a correlated network that emphasized the connectivity of immune cell functional adaptations after sµG exposure. The correlation network divided into 16 major communities of highly correlated immune responses, which were annotated based on the signaling property, surface marker expression, and/or cell subset most highly represented (Fig. <xref rid="Fig3" ref-type="fig">3</xref>A).<fig id="Fig3"><label>Figure 3</label><caption><p>Multivariate modeling of immune cell adaptations to sµG analyzed using mass cytometry. (<bold>A</bold>) Correlation network depicting single-cell immune responses to ConA/anti-CD28 stimulation after sµG or 1G exposure. Nodes represent the protein expression or phosphorylation level of one of 14 functional proteomic markers for a given immune cell subset (asinh ratio relative to the unstimulated condition). Edges are proportional to the Spearman correlation between two nodes. The network segregates into 16 communities that were characterized based on the functional attribute that appeared most frequently in each community. (<bold>B</bold>) An EN method analysis of immune cell responses that differentiated samples exposed to sµG or 1G. The graph depicts model error rates after cross-validation across a range of regularization threshold [log(lambda)]. EN models with the lowest error rate (left vertical dotted line) and one standard deviation from the lowest error rate (right vertical line) are indicated. (<bold>C</bold>) EN model output (<italic>p</italic> = 2E−4, Wilcox signed rank test, n = 8). (<bold>D</bold>) The dot plot illustrates -log (q value) comparing the sµG and 1G conditions (after 4 h ConA/anti-CD28 stimulation). Horizontal line at y = 2 signifies a significance level of 0.01. Significant features above the grey line are colored according to their respective community. Discovery determined using the Two-stage linear step-up procedure of Benjamini, Krieger and Yekutieli, with q = 0.01.</p></caption><graphic xlink:href="41598_2021_90458_Fig3_HTML" id="MO3"/></fig></p>
+                <p id="Par8">A multivariate Elastic Net (EN) method—a regularized regression method, which performs particularly well for the analysis of high-dimensional, inter-correlated data<sup><xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup> was utilized to determine whether immune cell responses differed after 1G and sµG exposure. The EN algorithm identified a robust (<italic>p</italic> value = 2E−4, Fig. <xref rid="Fig3" ref-type="fig">3</xref>B,C) multivariate model that stratified immune cell responses after 1G and sµG exposure. Statistical significance of the EN model was established using a stringent cross-validation method (Fig. <xref rid="Fig3" ref-type="fig">3</xref>B). These results, derived from the single-cell and proteomic analysis of immune cell responses, corroborate our transcriptomic data and indicate that exposure to simulated sµG markedly alters the functional organization of the human immune signaling network.</p>
+              </sec>
+              <sec id="Sec5">
+                <title>
+                  <bold>
+                    <italic>sµG suppresses CD4</italic>
+                  </bold>
+                  <sup>+</sup>
+                  <bold>
+                    <italic>, CD8</italic>
+                  </bold>
+                  <sup>+</sup>
+                  <bold>
+                    <italic>, and NK cell effector responses while enhancing T</italic>
+                  </bold>
+                  <sub>
+                    <bold>
+                      <italic>reg</italic>
+                    </bold>
+                  </sub>
+                  <bold>
+                    <italic> responses</italic>
+                  </bold>
+                </title>
+                <p id="Par9">The EN approach produced a multivariate signature of cellular adaptations after exposure to sµG. Examination of individual EN model components plotted according to increasing FDR and effect size facilitated the biological interpretation of the multivariate EN output (Fig. <xref rid="Fig3" ref-type="fig">3</xref>D, Table <xref rid="MOESM1" ref-type="media">S2</xref>). The most informative components appeared within three communities characterized by the functional attributes CD25 (10 EN components, community 3), CD69 (11 components, community 3), or elements of the JAK/STAT signaling pathways (26 EN components, communities 2 and 5) respectively.</p>
+                <p id="Par10">EN components pointed at immune cell adaptations to sµG that were consistent with our transcriptomic findings (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). For instance, sµG exposure dampened the IL-2R (CD25) protein expression in response to ConA/Anti-CD28 in multiple innate and adaptive immune cell subsets, including CD56<sup>dim</sup>CD16<sup>+</sup>NK cells (q = 2.2E−5), and CD8<sup>+</sup>T cell subsets (q = 2.0E−6). Similarly, sµG inhibited CD69 responses to ConA/Anti-CD28 in CD4<sup>+</sup> and CD8<sup>+</sup> T cells in both naïve and memory compartments (q ranging from 3E−6 to 7.2E−3). SµG also inhibited JAK/STAT signaling (primarily pSTAT1 and pSTAT5) responses in CD8<sup>+</sup>T cell subsets compared to 1G (q ranging from 6.0E−5 to 4.1E−3), an effect that is consistent with observed transcriptional inhibition of IFNγ, which activates JAK/STAT1 and signaling responses<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. These results dovetail with prior transcriptomic and flow cytometry studies and suggest that sµG inhibits important immune cell responses implicated in defensive immunity, notably against viral pathogens, such as CD8<sup>+</sup>T and NK cytotoxic responses<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>.<fig id="Fig4"><label>Figure 4</label><caption><p>EN Model components reveal cell-specific immunosuppressive effect of sµG on innate and adaptive immune cell subsets. <italic>Center.</italic> EN model components are visualized on the correlation network. Blue/red color scheme indicates increased/decreased EN component (respectively) in the sµG vs. the 1G condition. Sizes of nodes correspond to -log (<italic>p</italic> value) (Wilcox signed rank test, n = 8). <italic>Periphery.</italic> Box plots depicting major EN model components (AsinH Ratio of the stimulated samples compared to unstimulated samples). Additional model components are listed in Table <xref rid="MOESM1" ref-type="media">S2</xref>.</p></caption><graphic xlink:href="41598_2021_90458_Fig4_HTML" id="MO4"/></fig></p>
+                <p id="Par11">The analysis also revealed surprising and cell-type specific effects of sµG, particularly within the regulatory T cell (FoxP3<sup>+</sup>T<sub>regs</sub>) compartment (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). In contrast to inhibiting the pSTAT5 responses in CD8<sup>+</sup>T and NK cells, sµG increased the pSTAT5 response in T<sub>regs</sub> (both naïve and memory T<sub>regs</sub>) compared to 1G despite the reduction of CD69 in microgravity. The frequency of T<sub>regs</sub> was not affected by sµG, as expected since the time point was only 4 h, implying that a change in T<sub>reg</sub> numbers did not contribute to observed STAT5 differences. STAT5 activity is critical for the differentiation, stability, and immunosuppressive function of peripheral T<sub>regs</sub><sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>. The differential effect of sµG on STAT5 signaling observed for T<sub>regs</sub> and CD8<sup>+</sup> T cells suggests that several immunosuppressive mechanisms synergize after exposure to sµG: sµG simultaneously dampens CD4<sup>+</sup> T, CD8<sup>+</sup> T and NK cell capacity to respond to a robust activation stimulus (decreased CD25, CD69, and JAK/STAT responses) while enhancing immunosuppressive T<sub>reg</sub> responses (increased STAT5 responses).</p>
+                <p id="Par12">Observed sµG effect on peripheral immune responses to ConA/anti-CD28 could be the result of differences in immune response capacity to stimulation or, alternatively, to differences in basal signaling activity. To determine whether sµG alters basal immune cell signaling activities, we performed an EN analysis comparing samples exposed to 1G or sµG (18 h) in the absence of ConA/anti-CD28. The analysis identified a cross-validated EN model differentiating the 1G and sµG (<italic>p</italic> value = 3.7E−4, Fig. <xref rid="MOESM1" ref-type="media">S3</xref>). Examination of the most informative features of the basal EN model showed that the basal STAT5 signaling activity in Treg subsets and basal MyD88 signaling activity (including increased MAPKAPK2, P38, NFkB and EKR1/2 signaling activities) in cDCs were lower after exposure to sµG than to 1G (Table <xref rid="MOESM1" ref-type="media">S3</xref>). In contrast, basal signaling responses in CD4<sup>+</sup>T cell (other than Tregs) or CD8<sup>+</sup>T cell subsets did not contribute to the EN model significantly. The results suggest that alteration in basal immune cell signaling tone contributes, at least partially, to observed differences in immune responses to ConA/anti-CD28.</p>
+              </sec>
+            </sec>
+            <sec id="Sec6">
+              <title>Discussion</title>
+              <p id="Par13">Immunosuppression during spaceflight has been recognized since the Apollo missions and remains a major health risk for astronauts, particularly in the development of opportunistic viral infections<sup><xref ref-type="bibr" rid="CR10">10</xref>,<xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>. This study provides an in-depth and functional assessment of the effect of sμG on the human peripheral immune system. Analysis of the high-dimensional mass cytometry dataset produced by this study identified profound and cell-specific immune alterations caused by sμG that spanned multiple innate and adaptive cell compartments. Notably, sμG suppressed key aspects of CD4<sup>+</sup>, NK cell, and CD8<sup>+</sup> T cell activation (including CD25, CD69, and JAK/STAT signaling) while enhancing STAT5 signaling responses in T<sub>reg</sub> cells.</p>
+              <p id="Par14">High parameter technologies such as mass cytometry have transformed our ability to functionally assess the human immune system in response to extreme physiological stressors. Previous studies focused on analyses of circulating inflammatory cytokines, transcriptomic assessment of bulk or isolated immune cells, or the functional evaluation of select immune cell subsets have provided important insight on the immunosuppressive effect of sμG. However, the lack of single-cell resolution or the limited number of proteomic parameters precluded a comprehensive and functional assessment of all major immune cell subsets. In this study, application of mass cytometry combined with a machine learning approach provided a statistically stringent multivariate model characterizing the effect of sμG on over 250 individual immune cell functional attributes. Demonstration of the utility of high-dimensional immune profiling and adapted analytical approaches to study μG in ground-based experiments provides the foundation for future analyses of human immune adaptations during short- and long-term spaceflights.</p>
+              <p id="Par15">The multivariate analysis pointed at immune cell alterations that were, for the most part, in agreement with prior analyses of μG’s immune modulation<sup><xref ref-type="bibr" rid="CR6">6</xref>–<xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR42">42</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>. For example, B cell responses were largely unchanged after sµG exposure. This result is in agreement with prior studies showing that B cell homeostasis is preserved during long-term spaceflight<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. Consistent with prior analyses of NK cell function during long-term spaceflight<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, our data suggest that sμG profoundly inhibits CD25 and CD69 expression in NK cell subsets, which are important markers of proliferative and cytotoxic capacity for these cell subsets. Similarly, sμG impaired multiple aspects of CD8<sup>+</sup> T cell function, including CD25, CD69, and JAK/STAT1 and STAT5 signaling responses. The observed suppression of NK and CD8<sup>+</sup> T cell function by sμG dovetails with prior documentation of clinically significant impairment of viral pathogen defenses during short and long-term spaceflights, including the re-emergence of latent viruses, such as herpes simplex virus (HSV-1), Epstein-Barr virus (EBV), cytomegalovirus (CMV) and varicella zoster virus (VZV)<sup><xref ref-type="bibr" rid="CR18">18</xref>–<xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup>.</p>
+              <p id="Par16">The single-cell resolution afforded by mass cytometry enabled novel observations. Remarkably, one of the most significant differences observed was an increased STAT5 signaling response in T<sub>regs</sub> with sμG exposure. Additional analyses of the basal mass cytometry dataset suggested that observed effect of sμG on STAT5 signaling response in T<sub>regs</sub> resulted from alterations of basal T<sub>reg</sub> signaling activity as well as T<sub>reg</sub> signaling response capacity to stimulation with ConA/anti-CD28. These results highlight one of the advantages inherent to the use of a high-parameter immunoassay, as this finding would have likely been undetected in the absence of simultaneous phenotypic and functional assessment of individual CD4<sup>+</sup> T cell subsets. Activation of the transcription factor STAT5 downstream of IL-2 is a critical signaling event for the differentiation and suppressive function of peripheral T<sub>regs</sub><sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>. Our data suggest that enhancement of T<sub>reg</sub> suppressive capacity via increased STAT5 signaling activity is a plausible mechanism contributing to astronauts’ immunosuppression observed in μG<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. Interestingly, there was no difference in CD25 expression in T<sub>regs</sub> between the sμG and 1G conditions, suggesting that sμG-induced STAT5 signaling activation does not require upregulation of the IL-2R. Rather, CD25-independent mechanisms may be implicated in the sμG-regulation of STAT5 signaling in T<sub>regs</sub>, such as activation of Protein Phosphatase 2A, which was recently shown to enhance STAT5 signaling response in T<sub>regs</sub> in the absence of CD25 upregulation<sup><xref ref-type="bibr" rid="CR46">46</xref></sup>. In contrast, CD69 expression was decreased in all CD4<sup>+</sup> T cell subsets, including T<sub>reg</sub> cells. These results emphasize the complexity of sμG immune modulation and suggests that while sμG enhances STAT5 signaling responses in T<sub>regs</sub>, other aspects of T<sub>reg</sub> suppressor functionality are impaired. The latter observation is consistent with prior in vivo adoptive transfer studies in mice on a 15-day spaceflight (STS-131), showing impairment of immune tolerance to ovalbumin in mice exposed to μG compared to 1G<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>.</p>
+              <p id="Par17">The study has certain limitations. The use of sμG as a model system limits the generalizability of the findings. Unarguably, spaceflight is the ideal environment for studying immune cell function in μG. However, sμG experiments using validated models, such as the RWV, the two-dimensional clinorotation or the RPM models<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR27">27</xref>–<xref ref-type="bibr" rid="CR31">31</xref></sup>, are an important experimental paradigm for the cost-effective discovery of novel biology that can then be tested in confirmatory in-flight experiments. Importantly, we have compared previous data from spaceflight and sμG of the rotating wall vessel and random positioning machine and have found that expression of measured transcripts (including IL2Rα, TNFα, CD69, and CCL4) was consistent between different sμG models and between sμG and spaceflight<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. In addition, our study design focused on a single sμG exposure time point. Future experiments examining additional time-points of T-cell changes to microgravity are warranted and should be high-priority scientific objectives for a future spaceflight mission. While the mass cytometry immunoassay allowed measurement of over 40 parameters per immune cell, the list of phenotypic and functional markers is not exhaustive. Similarly, immune cells were evaluated in response to a single stimulation condition, which limited analysis of their functional response. However, our approach provides the analytical basis for future work aiming at an exhaustive characterization of μG-mediated immune modulation.</p>
+              <p id="Par18">In summary, we employed high-parameter mass cytometry to produce a single-cell, functional atlas detailing the effects of sμG on the human immune system. Our findings indicate that sμG dampens important innate and adaptive immune cell effector functions while increasing suppressive immune cell function. μG thus orchestrates a multi-cellular immunosuppressive response that may contribute to impairment of pathogen defense. Our study in human immune cells exposed to sμG provides the experimental and analytical framework for future spaceflight studies that will allow the data-driven development of interventions designed to mitigate the clinical consequences of immunosuppression during spaceflight.</p>
+            </sec>
+            <sec id="Sec7">
+              <title>Materials and methods</title>
+              <p id="Par19">All procedures performed in this study involving human blood samples were in accordance with the ethical standards of the Institutional Review Board of Stanford University and with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards. De-identified peripheral whole blood samples were obtained from eight healthy human donors between the ages of 21 and 55 years from the Stanford University Blood Center. PBMCs were isolated using a Ficoll gradient method. PBMCs were counted and re-suspended in 31 ml of complete media at 3E6 cells/ml (RPMI, 10% Fetal Bovine Serum, 1% L-Glutamine, 1% Penicillin). At experimental start time (T = 0 timepoint) 10 ml of the cell suspension was loaded into three 10-ml disposable rotating (15 rpm) wall per timepoint (Synthecon, Houston, TX): (1) 1G static control, vehicle treatment, activation at experimental time point 18 h for (2) 1G ConA/Anti-CD2 (3) sμG ConA/Anti-CD28. At indicated timepoints (Fig. <xref rid="Fig1" ref-type="fig">1</xref>), 1.5 ml (4.5E6) and 500 μl (1.5E6) of cell suspension were removed and volume replaced with complete media from each rotating-wall vessel for gene expression and mass cytometry respectively. Suspended cells are rotated synchronously in the vessel such that the fluid dynamic effect on them mimics a particle allowed to free fall in a column of fluid. The time-averaged gravitational vector on individual cells is a residual 10<sup>−3</sup> g force that approximates μg<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>, cell suspensions used for RNA isolation were spun down at 300-g and suspended in 1 ml of RNACellProtect Reagent (Qiagen, Valencia, CA, USA) for downstream RNA processing and qRT-PCR. An equal volume of complete media was immediately added to the cell suspension for mass cytometry analysis and fixed using 100 µl of 16% paraformaldehyde (1.5% final concentration) for 10 min at room temperature. Samples were washed twice with phosphate-buffered saline and volume was adjusted to 100 µl for downstream mass cytometry analysis.</p>
+              <sec id="Sec8">
+                <title>qRT-PCR analysis</title>
+                <p id="Par20">Total RNA extraction was performed following standardized, previously published techniques using RNAEasy (Qiagen, Valencia, CA, USA) protocols<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Details of qRT-PCR methods have been previously published<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. At the end of the amplification period, melting curve analysis was performed to confirm the specificity of the amplicon. RNA samples were normalized to cyclophilin A (CPHI), also known as kinase C peptidyl prolyl isomerase A (PPIA), as an internal standard. PPIA expression is stable between normal gravity and μG conditions. Relative quantification of gene expression was calculated by the 2 − ΔΔ<italic>Ct</italic> equation. All data derived using qRT-PCR were from independent donor biologic samples.</p>
+                <p id="Par21">All data were checked for normality, and standard descriptive statistics computed. Overall treatment and sμG effects were evaluated using analysis of variance (2-way ANOVA) for all continuous variables. Fisher’s exact test was used to determine whether differences between groups were significant. Differences were considered significant at <italic>p</italic> &lt; 0.05. Data are reported as mean ± SD, unless otherwise noted.</p>
+              </sec>
+              <sec id="Sec9">
+                <title>Sample barcoding for mass cytometry analysis</title>
+                <p id="Par22">To minimize the effect of experimental variability on mass cytometry measurements between samples from different treatments, samples were barcoded, as previously described, using unique combinations of three out of six palladium (Pd) isotopes to enable the simultaneous staining and analysis of 20 different samples<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. This barcoding strategy minimized the impact of experimental variability on the EN model’s false-positive rate as the EN was built against the two gravity conditions.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Antibody staining and mass cytometry analysis</title>
+                <p id="Par23">Antibody staining and mass cytometry analyses were performed according to established guidelines<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. Antibody staining and mass cytometry analyses were performed using metal-conjugated antibodies against 21 surface and 14 intracellular markers which were chosen to characterize major immune cell types for functional analysis of signaling responses and activation marker expression. Antibodies were obtained either pre-conjugated from the manufacturer (Fluidigm, South San Francisco, California) or were conjugated by the investigators with the appropriate metal isotopes. Purified unconjugated antibodies in protein-free PBS carrier were labeled using the MaxPAR antibody conjugation kit (Fluidigm) following the manufacturer’s instructions. All antibodies used in the analysis were titrated and validated on samples that were processed identically to the samples in the study. Antibodies were used at concentrations listed in Table <xref rid="MOESM1" ref-type="media">S1</xref>. Barcoded and antibody-stained cells were analyzed on a Helios mass cytometer (Fluidigm, Inc.).</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Derivation of immune features</title>
+                <p id="Par24">Manual gating of immune cells from mass cytometry data identified classical and non-classical monocytes (cMC and ncMC respectively), NK cells, B cells, myeloid dendritic cells (mDCs), CD4<sup>+</sup> and CD8<sup>+</sup> T cells (naïve and memory T cells respectively), T<sub>regs</sub>, <italic>γδ</italic>T cells, and their subsets for a total of 252 unique immune-cell subsets (Fig. <xref rid="MOESM1" ref-type="media">S1</xref>)<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. For each cell subset, the mean signal intensity of functional markers was quantified, including phosphorylated (p)STAT1, pSTAT3, pSTAT5, pNF, pNFκB, total IκB, pMAPKAPK2, pP38, prpS6, pERK1/2, and pCREB as well as CD69 and CD25. Intracellular signaling response features were derived from analysis of signal intensity of all functional markers in samples stimulated with ConA/Anti-CD28. Functional responses in each cell type were calculated as the difference in median signal intensity (asinh ratio) of each signaling protein between the 0 h (unstimulated) and 4 h stimulation conditions.</p>
+              </sec>
+              <sec id="Sec12">
+                <title>Correlation network for analysis</title>
+                <p id="Par25">Spearman correlation analysis was performed between all pairs of immune features. The correlation network consists of a graph on which each edge represents a significant correlation between the two respective immune features (<italic>p</italic> value &lt; 0.05 after Bonferroni adjustment). The graph layout was calculated using the t-SNE algorithm<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>.</p>
+              </sec>
+              <sec id="Sec13">
+                <title>Elastic Net analysis of mass cytometry data</title>
+                <p id="Par26">For a matrix <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M2"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq1.gif"/></alternatives></inline-formula> of all immune features and <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y$$\end{document}</tex-math><mml:math id="M4"><mml:mi>Y</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq2.gif"/></alternatives></inline-formula> the gravity conditions (µG), a multivariate model was developed to calculate the coefficients <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta $$\end{document}</tex-math><mml:math id="M6"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq3.gif"/></alternatives></inline-formula> for each entity in <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$X$$\end{document}</tex-math><mml:math id="M8"><mml:mi>X</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq4.gif"/></alternatives></inline-formula> to minimize the overall differences from <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$Y$$\end{document}</tex-math><mml:math id="M10"><mml:mi>Y</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq5.gif"/></alternatives></inline-formula>: <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$[L(\beta ) = |Y - X\beta |{^2}]$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mi>L</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>β</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:mi>Y</mml:mi><mml:mo>-</mml:mo><mml:mi>X</mml:mi><mml:mi>β</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq6.gif"/></alternatives></inline-formula>. <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${L}_{1}$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mi>L</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq7.gif"/></alternatives></inline-formula> and <inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${L}_{2}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mi>L</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq8.gif"/></alternatives></inline-formula> regularization are applied on the <inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta $$\end{document}</tex-math><mml:math id="M18"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq9.gif"/></alternatives></inline-formula> coefficients to reduce the model complexity while allowing inclusion of highly correlated measurements, such that <inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$[L(\beta ) = |Y - X\beta {|^2} + {\lambda_1}|\beta {|_1} + {\lambda_2}|\beta |{_2}]$$\end{document}</tex-math><mml:math id="M20"><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mi>L</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>β</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo stretchy="false">|</mml:mo><mml:mi>Y</mml:mi><mml:mo>-</mml:mo><mml:mi>X</mml:mi><mml:mi>β</mml:mi><mml:msup><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>λ</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>λ</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:mi>β</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow/><mml:mn>2</mml:mn></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="41598_2021_90458_Article_IEq10.gif"/></alternatives></inline-formula> where <italic>λ</italic><sub>1</sub> and <italic>λ</italic><sub>2</sub> are selected by cross-validation.</p>
+              </sec>
+              <sec id="Sec14">
+                <title>Visualizations and data resources</title>
+                <p id="Par27">All plots were created in R. Data is available for download at cytobank.org. An R script to reproduce the analysis is publicly available upon request at <ext-link ext-link-type="uri" xlink:href="https://flowrepository.org/experiments/2461">https://flowrepository.org/experiments/2461</ext-link>.</p>
+              </sec>
+              <sec id="Sec25">
+                <title>Ethical use of de-identified human blood samples</title>
+                <p id="Par29">All experimental protocols were approved by the Institutional Review Board (IRB) of Stanford University (IRB-38551) and with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards. The need for informed consent has been waived by the IRB of Stanford University.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary Information</title>
+              <sec id="Sec15">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41598_2021_90458_MOESM1_ESM.docx">
+                      <caption>
+                        <p>Supplementary Figure 1: Gating strategy. Supplementary Figure 2: 18h exposure to sµG did not alter peripheral immune cell frequency. Supplemental Table 1: Mass cytometry antibody panel. Supplemental Table 2: Elastic Net model components differentiating the 1G and simulated microgravity conditions</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>These authors contributed equally: J. M. Spatz, M. Hughes Fulford, N. Aghaeepour and B. Gaudilliere</p>
+              </fn>
+              <fn>
+                <p>M. Hughes Fulford is deceased.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary Information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41598-021-90458-2.</p>
+            </sec>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>J.M.S. contributed experimental design, sample processing, data analysis and manuscript preparation and editing. A.T., D.G., and E.G. contributed to data analysis, writing and editing of the manuscript. M.A. contributed to manuscript preparation and editing. N.A. contributed to mass cytometry data analysis and manuscript preparation and editing. J.H. contributed to statistical analyses and manuscript editing. M.H.-F. and B.G. contributed to all aspects of the study including study design, data processing and analysis, and manuscript preparation and editing. This manuscript published in loving memory of Dr. M.H.F.</p>
+            </notes>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>The study was supported by the Stanford Department of Anesthesiology, Perioperative and Pain Medicine (AT, EG, DG, MA, NA, BG) and the UCSF Department of Biochemistry and Biophysics (JS, MHF). Grants acknowledgment: National Institutes of Health NIH R35GM137936 (AT, EG, DG, MA, BG) and R35GM138353 (NA).</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par30">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kimzey</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of extended spaceflight on hematologic and immunologic systems</article-title>
+                  <source>J. Am. Med. Womens Assoc.</source>
+                  <year>1975</year>
+                  <volume>30</volume>
+                  <fpage>218</fpage>
+                  <lpage>232</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Kimzey, S. L. in <italic>Biomedical results from Skylab</italic> (eds R.S. Johnson &amp; L.F. Dietlein) 248–282 (NASA, 1977).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kimzey</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review of hematology studies associated with space flight</article-title>
+                  <source>Biorheology</source>
+                  <year>1979</year>
+                  <volume>16</volume>
+                  <fpage>13</fpage>
+                  <lpage>21</lpage>
+                  <pub-id pub-id-type="doi">10.3233/BIR-1979-161-205</pub-id>
+                  <pub-id pub-id-type="pmid">38869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cogoli</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tschopp</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuchs-Bislin</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cell sensitivity to gravity</article-title>
+                  <source>Science</source>
+                  <year>1984</year>
+                  <volume>225</volume>
+                  <fpage>228</fpage>
+                  <lpage>230</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.6729481</pub-id>
+                  <pub-id pub-id-type="pmid">6729481</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gmunder</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cellular immunity in cosmonauts during long duration spaceflight on board the orbital MIR station</article-title>
+                  <source>Aviat Space Environ. Med.</source>
+                  <year>1994</year>
+                  <volume>65</volume>
+                  <fpage>419</fpage>
+                  <lpage>423</lpage>
+                  <?supplied-pmid 8024524?>
+                  <pub-id pub-id-type="pmid">8024524</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sonnenfeld</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of space flight on surface marker expression</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>1999</year>
+                  <volume>24</volume>
+                  <fpage>815</fpage>
+                  <lpage>820</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0273-1177(99)00074-5</pub-id>
+                  <pub-id pub-id-type="pmid">11542627</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sonnenfeld</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The immune system in space and microgravity</article-title>
+                  <source>Med. Sci. Sports Exercise</source>
+                  <year>2002</year>
+                  <volume>34</volume>
+                  <fpage>2021</fpage>
+                  <lpage>2027</lpage>
+                  <pub-id pub-id-type="doi">10.1249/01.mss.0000039073.04569.b5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                    <name>
+                      <surname>Spurlock</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Candelario</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name>
+                      <surname>Grenon</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight impairs antigen-specific tolerance induction in vivo and increases inflammatory cytokines</article-title>
+                  <source>FASEB J. Off. Publ. Feder. Am. Soc. Exp. Biol.</source>
+                  <year>2015</year>
+                  <volume>29</volume>
+                  <fpage>4122</fpage>
+                  <lpage>4132</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.15-275073</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshida</surname>
+                      <given-names>MC</given-names>
+                    </name>
+                    <name>
+                      <surname>Candelario</surname>
+                      <given-names>TL</given-names>
+                    </name>
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation</article-title>
+                  <source>Am. J. Physiol. Regul. Integr. Compar. Physiol.</source>
+                  <year>2015</year>
+                  <volume>308</volume>
+                  <fpage>R480</fpage>
+                  <lpage>488</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpregu.00449.2014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Immune status, latent viral reactivation, and stress during long-duration head-down bed rest</article-title>
+                  <source>Aviat Space Environ. Med.</source>
+                  <year>2009</year>
+                  <volume>80</volume>
+                  <fpage>A37</fpage>
+                  <lpage>44</lpage>
+                  <pub-id pub-id-type="doi">10.3357/asem.br05.2009</pub-id>
+                  <?supplied-pmid 19476168?>
+                  <pub-id pub-id-type="pmid">19476168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aghaeepour</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An immune clock of human pregnancy</article-title>
+                  <source>Sci. Immunol.</source>
+                  <year>2017</year>
+                  <pub-id pub-id-type="doi">10.1126/sciimmunol.aan2946</pub-id>
+                  <?supplied-pmid 28864494?>
+                  <pub-id pub-id-type="pmid">28864494</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The Rel/NF-kappaB pathway and transcription of immediate early genes in T cell activation are inhibited by microgravity</article-title>
+                  <source>J. Leukocyte Biol.</source>
+                  <year>2012</year>
+                  <volume>92</volume>
+                  <fpage>1133</fpage>
+                  <lpage>1145</lpage>
+                  <pub-id pub-id-type="doi">10.1189/jlb.0312157</pub-id>
+                  <?supplied-pmid 22750545?>
+                  <pub-id pub-id-type="pmid">22750545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>TT</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>CF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight alters expression of microRNA during T-cell activation</article-title>
+                  <source>FASEB J. Off. Publ. Feder. Am. Soc. Exp. Biol.</source>
+                  <year>2015</year>
+                  <volume>29</volume>
+                  <fpage>4893</fpage>
+                  <lpage>4900</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.15-277392</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boonyaratanakornkit</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Key gravity-sensitive signaling pathways drive T cell activation</article-title>
+                  <source>FASEB J. Off. Publ. Feder. Am. Soc. Exp. Biol.</source>
+                  <year>2005</year>
+                  <volume>19</volume>
+                  <fpage>2020</fpage>
+                  <lpage>2022</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.05-3778fje</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early immune response and regulation of IL-2 receptor subunits</article-title>
+                  <source>Cell. Signal.</source>
+                  <year>2005</year>
+                  <volume>17</volume>
+                  <fpage>1111</fpage>
+                  <lpage>1124</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cellsig.2004.12.016</pub-id>
+                  <?supplied-pmid 15993752?>
+                  <pub-id pub-id-type="pmid">15993752</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2007</year>
+                  <volume>104</volume>
+                  <fpage>16299</fpage>
+                  <lpage>16304</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0707155104</pub-id>
+                  <?supplied-pmid 17901201?>
+                  <pub-id pub-id-type="pmid">17901201</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Media ion composition controls regulatory and virulence response of Salmonella in spaceflight</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <fpage>e3923</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0003923</pub-id>
+                  <?supplied-pmid 19079590?>
+                  <pub-id pub-id-type="pmid">19079590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Latent virus reactivation in astronauts on the international space station</article-title>
+                  <source>NPJ Microgr.</source>
+                  <year>2017</year>
+                  <volume>3</volume>
+                  <fpage>11</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-017-0015-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Reactivation of latent epstein-barr virus: a comparison after exposure to gamma, proton, carbon, and iron radiation</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2018</year>
+                  <pub-id pub-id-type="doi">10.3390/ijms19102961</pub-id>
+                  <?supplied-pmid 30469489?>
+                  <pub-id pub-id-type="pmid">30469489</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rooney</surname>
+                      <given-names>BV</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Laudenslager</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Herpes Virus reactivation in astronauts during spaceflight and its application on earth</article-title>
+                  <source>Front. Microbiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>16</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fmicb.2019.00016</pub-id>
+                  <?supplied-pmid 30792698?>
+                  <pub-id pub-id-type="pmid">30792698</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bendall</surname>
+                      <given-names>SC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Single-cell mass cytometry of differential immune and drug responses across a human hematopoietic continuum</article-title>
+                  <source>Science</source>
+                  <year>2011</year>
+                  <volume>332</volume>
+                  <fpage>687</fpage>
+                  <lpage>696</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1198704</pub-id>
+                  <?supplied-pmid 21551058?>
+                  <pub-id pub-id-type="pmid">21551058</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsai</surname>
+                      <given-names>AS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A year-long immune profile of the systemic response in acute stroke survivors</article-title>
+                  <source>Brain : a journal of neurology</source>
+                  <year>2019</year>
+                  <volume>142</volume>
+                  <fpage>978</fpage>
+                  <lpage>991</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awz022</pub-id>
+                  <pub-id pub-id-type="pmid">30860258</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gaudilliere</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Clinical recovery from surgery correlates with single-cell immune signatures</article-title>
+                  <source>Sci. Transl. Med.</source>
+                  <year>2014</year>
+                  <volume>6</volume>
+                  <fpage>255ra131</fpage>
+                  <pub-id pub-id-type="doi">10.1126/scitranslmed.3009701</pub-id>
+                  <?supplied-pmid 25253674?>
+                  <pub-id pub-id-type="pmid">25253674</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garrett-Bakelman</surname>
+                      <given-names>FE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight</article-title>
+                  <source>Science</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1126/science.aau8650</pub-id>
+                  <?supplied-pmid 30975860?>
+                  <pub-id pub-id-type="pmid">30975860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Spatz, J. M. <italic>et al.</italic> The WNT inhibitor sclerostin is up-regulated by mechanical unloading in osteocytes in vitro. doi:D-NLM: PMC4505423 [Available on 07/03/16] OTO - NOTNLM.</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>TG</given-names>
+                    </name>
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Optimized suspension culture: the rotating-wall vessel</article-title>
+                  <source>Am. J. Physiol. Renal Physiol.</source>
+                  <year>2001</year>
+                  <volume>281</volume>
+                  <fpage>F12</fpage>
+                  <lpage>25</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajprenal.2001.281.1.F12</pub-id>
+                  <pub-id pub-id-type="pmid">11399642</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galleri</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Signal transduction in T lymphocites under simulated microgravity conditions: involvement of PKC isoforms</article-title>
+                  <source>J. Gravit. Physiol.</source>
+                  <year>2002</year>
+                  <volume>9</volume>
+                  <fpage>P289</fpage>
+                  <lpage>290</lpage>
+                  <?supplied-pmid 15002585?>
+                  <pub-id pub-id-type="pmid">15002585</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodwin</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolf</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cell culture for three-dimensional modeling in rotating-wall vessels: an application of simulated microgravity</article-title>
+                  <source>J. Tissue Cult. Methods</source>
+                  <year>1992</year>
+                  <volume>14</volume>
+                  <fpage>51</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="doi">10.1007/bf01404744</pub-id>
+                  <?supplied-pmid 11541102?>
+                  <pub-id pub-id-type="pmid">11541102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Walther</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Simulated microgravity inhibits the genetic expression of interleukin-2 and its receptor in mitogen-activated T lymphocytes</article-title>
+                  <source>FEBS Lett.</source>
+                  <year>1998</year>
+                  <volume>436</volume>
+                  <fpage>115</fpage>
+                  <lpage>118</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s0014-5793(98)01107-7</pub-id>
+                  <?supplied-pmid 9771904?>
+                  <pub-id pub-id-type="pmid">9771904</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herranz</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Ground-based facilities for simulation of microgravity: organism-specific recommendations for their use, and recommended terminology</article-title>
+                  <source>Astrobiology</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ast.2012.0876</pub-id>
+                  <?supplied-pmid 23252378?>
+                  <pub-id pub-id-type="pmid">23252378</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thiel</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Rapid cellular perception of gravitational forces in human jurkat T cells and transduction into gene expression regulation</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2020</year>
+                  <pub-id pub-id-type="doi">10.3390/ijms21020514</pub-id>
+                  <?supplied-pmid 33371261?>
+                  <pub-id pub-id-type="pmid">33371261</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dwyer</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of concanavalin A to study the immunoregulation of human T cells</article-title>
+                  <source>Clin. Exp. Immunol.</source>
+                  <year>1981</year>
+                  <volume>46</volume>
+                  <fpage>237</fpage>
+                  <lpage>249</lpage>
+                  <?supplied-pmid 6461456?>
+                  <pub-id pub-id-type="pmid">6461456</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Glenn</surname>
+                      <given-names>KC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human monocyte-derived growth factor(s) for mesenchymal cells: activation of secretion by endotoxin and concanavalin A</article-title>
+                  <source>Cell</source>
+                  <year>1981</year>
+                  <volume>25</volume>
+                  <fpage>603</fpage>
+                  <lpage>615</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0092-8674(81)90168-9</pub-id>
+                  <?supplied-pmid 7285115?>
+                  <pub-id pub-id-type="pmid">7285115</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maecker</surname>
+                      <given-names>HT</given-names>
+                    </name>
+                    <name>
+                      <surname>McCoy</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Nussenblatt</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Standardizing immunophenotyping for the human immunology project</article-title>
+                  <source>Nat. Rev. Immunol.</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <fpage>191</fpage>
+                  <lpage>200</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nri3158</pub-id>
+                  <?supplied-pmid 22343568?>
+                  <pub-id pub-id-type="pmid">22343568</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Tibshirani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Elements of Statistical Learning: Data Mining, Inference, and Prediction</source>
+                  <year>2009</year>
+                  <edition>2</edition>
+                  <publisher-loc>Berlin</publisher-loc>
+                  <publisher-name>Springer</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zou</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Hastie</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regularization and variable selection via the elastic net</article-title>
+                  <source>J. R. Stat. Soc. Ser. B (Methodol.)</source>
+                  <year>2005</year>
+                  <volume>67</volume>
+                  <fpage>301</fpage>
+                  <lpage>320</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1467-9868.2005.00503.x</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ivashkiv</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                    <name>
+                      <surname>Donlin</surname>
+                      <given-names>LT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regulation of type I interferon responses</article-title>
+                  <source>Nat. Rev. Immunol.</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>36</fpage>
+                  <lpage>49</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nri3581</pub-id>
+                  <?supplied-pmid 24362405?>
+                  <pub-id pub-id-type="pmid">24362405</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions</article-title>
+                  <source>Front. Immunol.</source>
+                  <year>2018</year>
+                  <volume>9</volume>
+                  <fpage>1437</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fimmu.2018.01437</pub-id>
+                  <?supplied-pmid 30018614?>
+                  <pub-id pub-id-type="pmid">30018614</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cohen</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Decreased generation and function of CD4+CD25(hi) T regulatory cells in human STAT5b deficiency</article-title>
+                  <source>Clin. Immunol.</source>
+                  <year>2006</year>
+                  <volume>119</volume>
+                  <fpage>S135</fpage>
+                  <lpage>S135</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.clim.2006.04.318</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fontenot</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Rasmussen</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Gavin</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Rudensky</surname>
+                      <given-names>AY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A function for interleukin 2 in Foxp3-expressing regulatory T cells</article-title>
+                  <source>Nat. Immunol.</source>
+                  <year>2005</year>
+                  <volume>6</volume>
+                  <fpage>1142</fpage>
+                  <lpage>1151</lpage>
+                  <pub-id pub-id-type="doi">10.1038/ni1263</pub-id>
+                  <?supplied-pmid 16227984?>
+                  <pub-id pub-id-type="pmid">16227984</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Immune system dysregulation occurs during short duration spaceflight on board the space shuttle</article-title>
+                  <source>J. Clin. Immunol.</source>
+                  <year>2013</year>
+                  <volume>33</volume>
+                  <fpage>456</fpage>
+                  <lpage>465</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10875-012-9824-7</pub-id>
+                  <?supplied-pmid 23100144?>
+                  <pub-id pub-id-type="pmid">23100144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bigley</surname>
+                      <given-names>AB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>NK cell function is impaired during long-duration spaceflight</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2019</year>
+                  <volume>1985</volume>
+                  <issue>126</issue>
+                  <fpage>842</fpage>
+                  <lpage>853</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00761.2018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tackett</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Prolonged exposure to simulated microgravity diminishes dendritic cell immunogenicity</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>13825</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-50311-z</pub-id>
+                  <?supplied-pmid 31554863?>
+                  <pub-id pub-id-type="pmid">31554863</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Spielmann</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>B cell homeostasis is maintained during long-duration spaceflight</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2019</year>
+                  <volume>1985</volume>
+                  <issue>126</issue>
+                  <fpage>469</fpage>
+                  <lpage>476</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00789.2018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Klatzmann</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Abbas</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The promise of low-dose interleukin-2 therapy for autoimmune and inflammatory diseases</article-title>
+                  <source>Nat. Rev. Immunol.</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <fpage>283</fpage>
+                  <lpage>294</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nri3823</pub-id>
+                  <?supplied-pmid 25882245?>
+                  <pub-id pub-id-type="pmid">25882245</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsokos</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Malek</surname>
+                      <given-names>TR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CD25 and protein phosphatase 2A cooperate to enhance IL-2R signaling in human regulatory T cells</article-title>
+                  <source>J. Immunol.</source>
+                  <year>2019</year>
+                  <volume>203</volume>
+                  <fpage>93</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="doi">10.4049/jimmunol.1801570</pub-id>
+                  <?supplied-pmid 31085588?>
+                  <pub-id pub-id-type="pmid">31085588</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zunder</surname>
+                      <given-names>ER</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Palladium-based mass tag cell barcoding with a doublet-filtering scheme and single-cell deconvolution algorithm</article-title>
+                  <source>Nat. Protocols</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <fpage>316</fpage>
+                  <lpage>333</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nprot.2015.020</pub-id>
+                  <?supplied-pmid 25612231?>
+                  <pub-id pub-id-type="pmid">25612231</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cossarizza</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Guidelines for the use of flow cytometry and cell sorting in immunological studies</article-title>
+                  <source>Eur. J. Immunol.</source>
+                  <year>2019</year>
+                  <volume>49</volume>
+                  <fpage>1457</fpage>
+                  <lpage>1973</lpage>
+                  <pub-id pub-id-type="doi">10.1002/eji.201970107</pub-id>
+                  <?supplied-pmid 31633216?>
+                  <pub-id pub-id-type="pmid">31633216</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van der Maaten</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinton</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visualizing Data using t-SNE</article-title>
+                  <source>J. Mach. Learn. Res.</source>
+                  <year>2008</year>
+                  <volume>9</volume>
+                  <fpage>2579</fpage>
+                  <lpage>2605</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:44:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9492851" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9492851</identifier>
+        <datestamp>2022-09-23</datestamp>
+        <setSpec>frontphysiol</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Physiol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Physiol</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Physiol.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Physiology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1664-042X</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9492851</article-id>
+              <article-id pub-id-type="pmcid">PMC9492851</article-id>
+              <article-id pub-id-type="pmc-uid">9492851</article-id>
+              <article-id pub-id-type="pmid">36160844</article-id>
+              <article-id pub-id-type="publisher-id">976926</article-id>
+              <article-id pub-id-type="doi">10.3389/fphys.2022.976926</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Physiology</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Assessing the effects of artificial gravity in an analog of long-duration spaceflight: The protocol and implementation of the AGBRESA bed rest study</article-title>
+                <alt-title alt-title-type="left-running-head">Clément et al.</alt-title>
+                <alt-title alt-title-type="right-running-head">
+                  <ext-link xlink:href="https://doi.org/10.3389/fphys.2022.976926" ext-link-type="uri">10.3389/fphys.2022.976926</ext-link>
+                </alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Clément</surname>
+                    <given-names>Gilles</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="c001" ref-type="corresp">*</xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/226650/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rittweger</surname>
+                    <given-names>Jörn</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/102129/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nitsche</surname>
+                    <given-names>Andrea</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1881878/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Doering</surname>
+                    <given-names>Wolfgang</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Frings-Meuthen</surname>
+                    <given-names>Petra</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1063182/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hand</surname>
+                    <given-names>Olga</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Frett</surname>
+                    <given-names>Timo</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/955903/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Noppe</surname>
+                    <given-names>Alexandra</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Paulke</surname>
+                    <given-names>Freia</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lecheler</surname>
+                    <given-names>Leopold</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jordan</surname>
+                    <given-names>Jens</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1306755/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Stern</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1734727/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mulder</surname>
+                    <given-names>Edwin</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <uri xlink:href="https://loop.frontiersin.org/people/1272459/overview"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>KBR</institution>, <addr-line>Houston</addr-line>, <addr-line>TX</addr-line>, <country>United States</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Institute of Aerospace Medicine</institution>, <institution>German Aerospace Center</institution>, <addr-line>Cologne</addr-line>, <country>Germany</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p><bold>Edited by:</bold><ext-link xlink:href="https://loop.frontiersin.org/people/265078/overview" ext-link-type="uri">Jack J. W. A. van Loon</ext-link>, VU Amsterdam, Netherlands</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p><bold>Reviewed by:</bold><ext-link xlink:href="https://loop.frontiersin.org/people/580114/overview" ext-link-type="uri">Ana Diaz-Artiles</ext-link>, Texas A and M University, United States</p>
+                  <p><ext-link xlink:href="https://loop.frontiersin.org/people/158688/overview" ext-link-type="uri">Satoshi Iwase</ext-link>, Aichi Medical University, Japan</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Gilles Clément, <email>gilles.r.clement@nasa.gov</email>
+</corresp>
+                <fn fn-type="other">
+                  <p>This article was submitted to Environmental, Aviation and Space Physiology, a section of the journal Frontiers in Physiology</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>08</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>13</volume>
+              <elocation-id>976926</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>23</day>
+                  <month>6</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2022 Clément, Rittweger, Nitsche, Doering, Frings-Meuthen, Hand, Frett, Noppe, Paulke, Lecheler, Jordan, Stern and Mulder.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Clément, Rittweger, Nitsche, Doering, Frings-Meuthen, Hand, Frett, Noppe, Paulke, Lecheler, Jordan, Stern and Mulder</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>A comprehensive strategy is required to mitigate risks to astronauts’ health, well-being, and performance. This strategy includes developing countermeasures to prevent or reduce adverse responses to the stressors astronauts encounter during spaceflight, such as weightlessness. Because artificial gravity (AG) by centrifugation simultaneously affects all physiological systems, AG could mitigate the effects of weightlessness in multiple systems. In 2019, NASA and the German Aerospace Center conducted a 60-days Artificial Gravity Bed Rest Study with the European Space Agency (AGBRESA). The objectives of this study were to 1) determine if 30 min of AG daily is protective during head down bed rest, and 2) compare the protective effects of a single daily bout (30 min) of AG versus multiple daily bouts (6 × 5 min) of AG (1 Gz at the center of mass) on physiological functions that are affected by weightlessness and by head-down tilt bed rest. The AGBRESA study involved a comprehensive suite of standard and innovative technologies to characterize changes in a broad spectrum of physiological systems. The current article is intended to provide a detailed overview of the methods used during AGBRESA.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>bed rest</kwd>
+                <kwd>artificial gravity</kwd>
+                <kwd>weightlessness</kwd>
+                <kwd>countermeasures</kwd>
+                <kwd>analogs</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn001">
+                    <institution-wrap>
+                      <institution>Johnson Space Center
+</institution>
+                      <institution-id institution-id-type="doi">10.13039/100006203</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn002">
+                    <institution-wrap>
+                      <institution>Deutsche Agentur für Raumfahrtangelegenheiten
+</institution>
+                      <institution-id institution-id-type="doi">10.13039/501100018755</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn003">
+                    <institution-wrap>
+                      <institution>European Space Agency
+</institution>
+                      <institution-id institution-id-type="doi">10.13039/501100000844</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Before humans embark on a new era of deep space exploration and missions to Mars, efficient measures must be developed to promote the health and the performance of these explorers. In weightlessness, the human body is deprived of static gravitational acceleration along the longitudinal body axis (Gz), and this gravitational unloading results in headward fluid shift (<xref rid="B37" ref-type="bibr">Vernikos et al., 1996</xref>), decreased muscular capacity (<xref rid="B8" ref-type="bibr">Edgerton and Roy, 1994</xref>), loss of bone density (<xref rid="B25" ref-type="bibr">Leblanc et al., 2007</xref>), orthostatic intolerance (<xref rid="B30" ref-type="bibr">Meck et al., 2001</xref>), and impaired postural and locomotor control (<xref rid="B5" ref-type="bibr">Cohen et al., 2012</xref>). Head-down tilt (HDT) bed rest mimics the cephalad fluid shift and body unloading that occurs during spaceflight, and therefore, bed rest has been widely used to investigate the mechanisms underlying weightlessness-associated changes in humans, and to test countermeasures for alleviating the deleterious physiological adaptations to weightlessness (<xref rid="B15" ref-type="bibr">Hargens and Vico, 2016</xref>).</p>
+              <p>Artificial gravity (AG) by centrifugation has long been considered a potential countermeasure to combat the adverse effects of weightlessness. AG is regarded as a countermeasure that addresses multiple integrated systems affected by Gz unloading (<xref rid="B4" ref-type="bibr">Clément and Pavy-le Train, 2004</xref>). Specifically, AG evokes cardiovascular responses and provides mechanical loading on bone and on antigravity muscles. AG also stimulates proprioception and the otoliths of the vestibular system. Daily AG exposure has been shown to mitigate orthostatic intolerance and maintain exercise capacity after 5–30 days of HDT bed rest (<xref rid="B38" ref-type="bibr">Yajima et al., 1994</xref>; <xref rid="B18" ref-type="bibr">Iwasaki et al., 1998</xref>; <xref rid="B19" ref-type="bibr">Iwase, 2005</xref>; <xref rid="B27" ref-type="bibr">Linnarsson et al., 2015</xref>; see <xref rid="B3" ref-type="bibr">Clément et al., 2016</xref> for a review). The Artificial Gravity Bed Rest Study with the European Space Agency (AGBRESA) was designed to evaluate the efficacy of AG to mitigate physiological deconditioning during 60 days of bed rest.</p>
+              <p>The AG interventions in the AGBRESA study consisted of a 30-min daily exposure to centripetal acceleration during short-radius centrifugation with the subjects in the supine position. This centrifugation generated 1 Gz at the body’s center of mass (CoM) and approximately 2 Gz at the feet. This acceleration induces considerable blood pooling toward the feet, cardiovascular homeostasis (<xref rid="B34" ref-type="bibr">Stenger et al., 2012</xref>), and potentially pain, which could affect the subject’s tolerance of AG over an extended period. For this reason, we opted to investigate the <italic>minimum</italic> daily duration of AG that can effectively mitigate deleterious physiological adaptations during 60 days of bed rest. Based on the previous ESA bed rest and artificial gravity study (BRAG-1) which used 30 min of AG daily (<xref rid="B27" ref-type="bibr">Linnarsson et al., 2015</xref>), the AGBRESA study included two different interventions to deliver a 30-min daily dose of AG: 1) continuously in one single bout (cAG); or 2) intermittently in six bouts of 5 min (iAG). The rationale for iAG was based on the observations that interval training and intermittent high-load exercise are the most efficient methods to support adaptation to altered gravitational loading (<xref rid="B17" ref-type="bibr">Herbert et al., 1988</xref>; <xref rid="B37" ref-type="bibr">Vernikos et al., 1996</xref>).</p>
+              <p>The primary goal of AGBRESA was to compare the efficacy and tolerability of the cAG and iAG interventions for mitigating the adverse physiological effects induced by HDT bed rest as an analog of weightlessness. The secondary aim of AGBRESA was to document the subject’s subjective rating of comfort/discomfort, perceived exhaustion, perceived benefits, and any other psychological issues associated with the AG protocols.</p>
+              <p>AGBRESA was conducted as an international collaborative effort between the National Aeronautics and Space Administration (NASA), the European Space Agency (ESA), and the German Aerospace Center (DLR). More than 20 research proposals in the fields of cardiovascular, immunology, genetics, muscle and bone, ocular, vestibular, psychology, sleep, cognition, and behavioral performance were integrated into a comprehensive assessment of the long-term responses to AG and bed rest. Details on these studies are provided in <xref rid="s11" ref-type="sec">Supplementary Material</xref>. The results of these studies will be published in separate articles. Two batteries of measures were also administered throughout the study: one determined by an International Working Group and referred to as the <italic>International Standard Measures</italic> (<xref rid="B36" ref-type="bibr">Sundblad and Orlov, 2014</xref>; <xref rid="B35" ref-type="bibr">Sundblad et al., 2016</xref>; <xref rid="B1" ref-type="bibr">Clément et al., 2022</xref>), and the other determined by ESA and called <italic>Bedrest Core Data</italic>. These standard measures include some of the tests routinely conducted on astronauts to evaluate their adaptive changes in physiological, psychological, and biological responses during spaceflight.</p>
+              <p>In this paper, we provide a detailed description of the study design, participant selection, bed rest conditions, countermeasures, health indices, and adverse events during the AGBRESA study. We also review the assessments of subjects’ susceptibility to motion sickness and their acceptability and compliance with the continuous and intermittent AG interventions. This information is useful for interpreting the results of the investigator studies and the standard measures conducted during the AGBRESA study.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and methods</title>
+              <sec id="s2-1">
+                <title>study design</title>
+                <p>The AGBRESA study was conducted in: envihab, a medical research facility at the Institute of Aerospace Medicine at DLR in Cologne, Germany. The study was carried out in 2 separate campaigns between March 2019 and December 2020. Each campaign lasted 88 days and comprised three experimental phases: 1) a 14-days baseline data collection (BDC) phase (BDC-14 through BDC-1); 2) 60 days of 6° HDT bed rest phase (HDT1 through HDT60); and 3) a 14-days recovery (R+) phase (R+0 through R+13). Twelve participants were enrolled in each campaign, meeting the maximum occupancy of the bed rest facility of:envihab. Additional ESA and DLR-supported science and medical measures were performed during four ambulatory follow-up sessions on R+28, R+90, R+360, and R+720.</p>
+                <p>The participants were allocated to one of three experimental groups: 1) a passive control (Ctrl) group not exposed to centrifugation (<italic>n</italic> = 8); 2) a cAG group exposed to 30-min of continuous centrifugation (<italic>n</italic> = 8); and 3) an iAG group exposed to 6 × 5 min of centrifugation (<italic>n</italic> = 8). During the HDT phase, the 16 participants in the cAG and iAG groups were submitted to daily 30 min of supine centrifugation with a centripetal acceleration of 1 Gz at their CoM and approximately 2 Gz at their feet. Half of the subjects (<italic>n</italic> = 4) in each of the three groups, participated in daily training using a functional re-adaptive exercise device (<xref rid="B7" ref-type="bibr">Debuse et al., 2013</xref>) during the recovery phase (<xref rid="F1" ref-type="fig">Figure 1</xref>).</p>
+                <fig position="float" id="F1">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>Schematic representation of the AGBRESA study design. FRED is a functional re-adaptive exercise device (<xref rid="B7" ref-type="bibr">Debuse et al., 2013</xref>) used during the recovery phase. Ctrl: control group, no centrifugation; cAG: continuous centrifugation for 30 min; iAG intermittent centrifugation for 6 × 5 min.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g001" position="float"/>
+                </fig>
+                <p>Studies from ESA, NASA, and DLR were approved by their local institutional review boards. In addition, a protocol reflecting the integrated experiments was approved by the ethics commission of the local medical association (number 2018143, Ärztekammer Nordrhein) in Duesseldorf, Germany, as well as the Federal Office for Radiation Protection (number Z 5-22464/2018-074-R-G, Bundesamt für Strahlenschutz). The study was prospectively registered at the German Clinical Trials Register under number DRKS00015677.</p>
+              </sec>
+              <sec id="s2-2">
+                <title>Participants</title>
+                <p>Selection inclusion criteria for the participants included: 1) physically and psychologically healthy men and women aged between 24 and 55 years old; 2) height within 153–190 cm; 3) body mass index (BMI) between 19–30 kg/m<sup>2</sup>; 4) non-smokers, or abstinence from smoking for at least 6 months prior to the start of the study; 5) possession of medical insurance; and 6) no criminal record. In addition, the candidates were required to confirm their availability for the duration of the study, including the follow-up examinations up to 2 years after bed rest, and their willingness to be assigned randomly either one of the interventions or to the control group.</p>
+                <p>Exclusion criteria included: 1) practice of strict vegetarian and vegan diet; 2) requirements for prescription medications, including contraceptives; 3) substance abuse; and 4) health conditions that would preclude participation, such as existing or history of cardiovascular dysfunction; musculoskeletal, ophthalmological, neurological, or psychiatric conditions; metabolic or endocrine disturbances (e.g., diabetes mellitus); blood clotting; pulmonary, sleep or pain disorders; gastroesophageal reflux; renal stones; or infectious or inflammatory diseases. Additionally, the candidates had to be free of any metallic implants that would interfere with MRI testing, and woman were required to have a normal length menstrual cycle (26–32 days).</p>
+                <p>The subject recruitment process commenced once the study protocol had been approved by the local ethics committee. The call for AGBRESA participants was announced <italic>via</italic> media advertisements and social media. Eligible subjects in the DLR test subject registry were also contacted. The recruitment and screening process is outlined in <xref rid="F2" ref-type="fig">Figure 2</xref>. The first step was to send an initial screening questionnaire to individuals who expressed interest in the study. Potential candidates meeting the minimum qualifying criteria were provided with study details, and thereafter, invited to attend a mandatory information session (Visit I) held at two different DLR locations in Cologne and in Hamburg. At the end of the information session, a preliminary psychological evaluation, the Freiburger Persönlichkeitsinventar (FPI) personality checklist (<xref rid="B9" ref-type="bibr">Fahrenberg et al., 2021</xref>), was collected from those who were willing to participate. If deemed suitable after the questionnaire assessments, candidates were invited to subsequent rigorous screening procedures including a modified Air Force Class III physical, psychological evaluation (Visit III), and a criminal background check. DLR physicians and psychologists who were experienced in bed rest subject selection conducted the examination.</p>
+                <fig position="float" id="F2">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>Number of candidates during the various steps of the selection process.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g002" position="float"/>
+                </fig>
+                <p>The medical screening was conducted over two visits. During the first medical examination (Visit II), an extensive medical history was taken and fasting blood and urine samples were obtained for biochemical and drug tests and to screen for thyroid gland and kidney disorders. Additionally, resting and stress electrocardiogram (ECG), orthostatic testing, eye examinations, and pre-test genetic counseling for thrombophilia were conducted. Candidates who were medically eligible for the study subsequently underwent detailed psychological screening that involved questionnaires and interviews. In addition to the FPI, the Temperament Structure Scale (<xref rid="B29" ref-type="bibr">Maschke, 1987</xref>) and the 60-item NEO-FFI personality inventory (<xref rid="B6" ref-type="bibr">Costa and McCrae, 1992</xref>) were evaluated, along with the subject’s self-reported biography.</p>
+                <p>The second medical examination (Visit IV) consisted of a blood test for HIV, hepatitis, tuberculosis, and thrombophilia. The candidates were also screened for their ability to withstand the AGBRESA centrifugation protocol. For the first campaign, the candidates were exposed to 30 min of centrifugation with one Gz at the CoM and 1.4–1.6 Gz (depending on their height) at feet level. The spin-up acceleration was with 3.81 deg/s<sup>2</sup>, i.e., half that used during HDT (7.62 deg/s<sup>2</sup>). This screening protocol was revised for the second campaign to match the spin-up acceleration used during HDT. In addition, in-depth interviews of the candidates’ eating habits were conducted, and potential MRI contraindications such as permanent tattoos, medical and dental implants, and claustrophobia were examined. The recruitment process concluded with a dual energy X-ray absorptiometry (DXA) screening of bone mineral density in the femur and lumbar vertebra.</p>
+                <p>A total of 24 participants (16 males and eight females) completed the study. The study participants provided written informed consent before inclusion in the study and received monetary compensation for their time and effort participating in the study. The demographic information of the participants is provided in <xref rid="T1" ref-type="table">Table 1</xref>. The second campaign initially started with 11 participants due to last-minute dropouts. At the start of the study, three additional individuals were prematurely discharged on medical grounds: the diagnoses were not related to the study, and none of these individuals exhibited clinical signs or symptoms during the screening process. As a result, four additional participants were recruited and enrolled in the study to construct a full cohort of 12 for the second campaign. These four new subjects started 3 weeks later than the other eight participants from the second campaign and completed the entire study protocol.</p>
+                <table-wrap position="float" id="T1">
+                  <label>TABLE 1</label>
+                  <caption>
+                    <p>Demographic information of the AGBRESA participants. All measures were recorded upon admission and are presented as Mean (SD). No statistically significant difference was detected for any of the group measures (<italic>p</italic> &lt; 0.05). cAG: continuous AG; iAG: intermittent AG; Ctrl: Control group; BMI: body max index; m: males, f: females.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">Ctrl</th>
+                        <th align="left" rowspan="1" colspan="1">cAG</th>
+                        <th align="left" rowspan="1" colspan="1">iAG</th>
+                        <th align="left" rowspan="1" colspan="1">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">N</td>
+                        <td align="left" rowspan="1" colspan="1">8 (6 m; 2 f)</td>
+                        <td align="left" rowspan="1" colspan="1">8 (5 m; 3 f)</td>
+                        <td align="left" rowspan="1" colspan="1">8 (5 m; 3 f)</td>
+                        <td align="left" rowspan="1" colspan="1">24 (16 m; 8 f)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Age (years)</td>
+                        <td align="left" rowspan="1" colspan="1">34.25 (7.85)</td>
+                        <td align="left" rowspan="1" colspan="1">31.88 (9.75)</td>
+                        <td align="left" rowspan="1" colspan="1">33.75 (10.78)</td>
+                        <td align="left" rowspan="1" colspan="1">33.29 (9.17)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Height (cm)</td>
+                        <td align="left" rowspan="1" colspan="1">177.04 (7.27)</td>
+                        <td align="left" rowspan="1" colspan="1">172.50 (8.05)</td>
+                        <td align="left" rowspan="1" colspan="1">174.10 (10.52)</td>
+                        <td align="left" rowspan="1" colspan="1">174.55 (8.55)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Weight (kg)</td>
+                        <td align="left" rowspan="1" colspan="1">79.40 (12.67)</td>
+                        <td align="left" rowspan="1" colspan="1">71.80 (10.15)</td>
+                        <td align="left" rowspan="1" colspan="1">71.40 (4.51)</td>
+                        <td align="left" rowspan="1" colspan="1">74.20 (10.03)</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td>
+                        <td align="left" rowspan="1" colspan="1">25.18 (2.58)</td>
+                        <td align="left" rowspan="1" colspan="1">24.00 (1.71)</td>
+                        <td align="left" rowspan="1" colspan="1">23.64 (1.61)</td>
+                        <td align="left" rowspan="1" colspan="1">24.27 (2.04)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>The participants were assigned in a semi-random fashion to one of the two intervention groups (cAG or iAG) or to the Ctrl group. The first campaign aimed to create groups randomly, balanced only by sex distribution, whereas the second campaign aimed to balance the age, sex, height, and weight distribution among the three experimental groups, while also complementing the demographics of the participants in the first campaign. The additional four subjects that were recruited during the ongoing second campaign were also allocated to a specific group to balance the intervention groups in terms of male/female distribution (5 m, 3 f), while also aiming to balance age and weight of participants between the groups. The group assignment was only revealed to the participants, staff, and scientists on the morning of HDT1, i.e., after all baseline data collection had been completed.</p>
+              </sec>
+              <sec id="s2-3">
+                <title>Bed rest standard conditions</title>
+                <p>In accordance with the international guidelines for bed rest studies (<xref rid="B36" ref-type="bibr">Sundblad and Orlov, 2014</xref>), the experimental conditions were standardized to enable proper comparison of results among different bed rest studies and to enhance the utility of data sharing. Throughout the study, participants followed a standard day-night cycle: they were awakened at 06:30 a.m. and lights were turned off and network disconnected at 11:00 p.m. To provide a “Zeitgeber” supporting circadian rhythm regulation, the lighting in each subject’s room and in the residential areas were closely regulated. From 07:30 a.m. to 03:00 p.m., room lighting was maintained at approximately 270 lux (measured at the head of bed), which is comparable to the light in a dimly lit office. No napping was permitted during waking hours. The study schedule and operations followed Germany’s daylight savings time shift. The average temperature and humidity of the residential area were 22.8 ± 1.6°C and 49.5% ± 4.5%, respectively, for the first campaign, and 22.5 ± 1.6°C and 53.0% ± 13.3% for the second campaign.</p>
+                <p>General health indices such as blood pressure (BP), heart rate (HR) (Intellivue MMS X2), and body temperature (self-measured using standard digital thermometer) were measured every morning in fasting state immediately after waking. Body weight (Sartorius floor scale, CAPS four weighing platform, and Combics display) was assessed after the first morning void at around 07:00 a.m., and the pooled urine volume in the preceding 24 h up until that point was recorded. To obtain accurate and standardized body weights, the participants were weighed in the same clothes throughout all assessments and the weight of the clothes was subtracted afterwards. Daily body weight during the HDT phase was measured on a designated and calibrated 6° HDT gurney on the abovementioned floor scale. All standard general health indices were obtained between 06:30 a.m. and 07:30 a.m. During the baseline and recovery phases, the subjects were ambulatory; however, physical activity was restricted to free movement within the ward.</p>
+                <p>To ensure safety and well-being of the study participants, medical care was available 24 h a day. The medical staff conducted daily ward rounds to monitor the health status of the subjects, and all medications were monitored and recorded in the clinical report throughout the study. Careful attention was paid when administering medications to avoid potential confounding effects on testing. Parameters to assess safety were evaluated from blood and urine samples collected on BDC-14, HDT10, HDT30, HDT50, R+1, and R+10. Bi-weekly ocular, ear, nose, and throat examinations and audiometry were performed by medical specialists at the start and end of the HDT phase. Additionally, subjects participated in weekly individual consultation sessions with a psychologist.</p>
+                <p>All participants continuously maintained strict 6° HDT bed rest for 60 days. They were permitted to lie on their stomach, back, or side; however, they were instructed to keep their legs straight when lying on their backs. The participants were required to always keep at least one shoulder on the mattress. They were not permitted to raise, contract, or stretch their legs to minimize mechanical stimuli (other than during the AG sessions and physiotherapy). Participants were video-monitored around the clock to assure study compliance and safety.</p>
+                <p>Daily routine activities such as eating, washing, showering, using the toilet, and leisure activities were performed in the strict 6° HDT position. Participants were not permitted to prop up their heads when eating; the head was kept below heart level at all times. As a precautionary measure to prevent otitis externa, which is prevalent in bed rest studies, ear plugs were provided for showering and participants were advised to thoroughly dry their hair and adequately drain their ears after showering. Participants were also instructed to avoid any manipulation of the outer ear canal, for example inserting in-ear headphones.</p>
+                <p>To maintain the head in the 6° HDT position along the longitudinal axis during the HDT phase, the participants were not permitted to use a regular pillow. Only a dedicated side pillow was used when the subjects were lying on their side to keep the head from rolling along the <italic>x</italic>-axis (<xref rid="F3" ref-type="fig">Figure 3</xref>). The side pillow was a modified Traumschloss Comfort neck support pillow (Gebers-Die Schlafexperten GmbH) made of cube cut visco foam (foam grade RG50). A customized pillowcase (double cloth 70% polyester, 30% viscose) contouring the shape of the foam was used for personal hygiene and to ensure the correct usage of the pillow. The correct usage of the side pillow was explained in detail to the subjects and its use was carefully monitored continuously through video surveillance cameras. The frequency of pillow usage at night was recorded and categorized (<xref rid="T2" ref-type="table">Table 2</xref>). The strict HDT bed rest and the use of only the side pillow were well tolerated by the participants over the 60 days of the study.</p>
+                <fig position="float" id="F3">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Details of the side pillow used to maintain the subjects’ head in the 6° HDT position when lying on their side.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g003" position="float"/>
+                </fig>
+                <table-wrap position="float" id="T2">
+                  <label>TABLE 2</label>
+                  <caption>
+                    <p>Number of participants and pillow usage frequency for each of the study phases. Only the custom-made side pillow was allowed during HDT.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Pillow usage</th>
+                        <th align="left" rowspan="1" colspan="1">BDC</th>
+                        <th align="left" rowspan="1" colspan="1">HDT</th>
+                        <th align="left" rowspan="1" colspan="1">R+</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Always</td>
+                        <td align="left" rowspan="1" colspan="1">19</td>
+                        <td align="left" rowspan="1" colspan="1">8</td>
+                        <td align="left" rowspan="1" colspan="1">16</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Often</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sometimes</td>
+                        <td align="left" rowspan="1" colspan="1">N/A</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Occasional</td>
+                        <td align="left" rowspan="1" colspan="1">1</td>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                        <td align="left" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Never</td>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total Count</td>
+                        <td align="left" rowspan="1" colspan="1">24</td>
+                        <td align="left" rowspan="1" colspan="1">24</td>
+                        <td align="left" rowspan="1" colspan="1">24</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>On a few occasions during the HDT phase, subjects were placed in the horizontal position (0°) due to technical limits of the equipment or to obtain higher quality scientific data. This occurred during the cardiac and muscle/bone MRIs and during the bone mineral density measurements (DXA and tibial pQCT): each subject spent about 11 h in the horizontal position during HDT while these tests were being conducted. In addition, the daily centrifugation interventions (cAG and iAG) were performed in the horizontal position so the results could be compared with those of previous AG bed rest studies that also used centrifugation in supine (horizontal) position (<xref rid="B38" ref-type="bibr">Yajima et al., 1994</xref>; <xref rid="B18" ref-type="bibr">Iwasaki et al., 1998</xref>; <xref rid="B19" ref-type="bibr">Iwase, 2005</xref>; <xref rid="B27" ref-type="bibr">Linnarsson et al., 2015</xref>). <xref rid="T3" ref-type="table">Table 3</xref> shows the total time each experimental group spent in the horizontal position during the HDT phase.</p>
+                <table-wrap position="float" id="T3">
+                  <label>TABLE 3</label>
+                  <caption>
+                    <p>Positional deviation from 6° HDT. The table indicates the number of hours during which the individuals in each experimental group were in the horizontal position (0°) during the 60-days HDT phase. These include the MRI, DXA, and pQCT exams, the AG interventions, and the rest periods between the AG runs during the iAG intervention.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">Ctrl</th>
+                        <th align="left" rowspan="1" colspan="1">cAG</th>
+                        <th align="left" rowspan="1" colspan="1">iAG</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td rowspan="4" align="left" colspan="1">HDT1-HDT30</td>
+                        <td align="left" rowspan="1" colspan="1">MRI, DXA, pQCT</td>
+                        <td align="left" rowspan="1" colspan="1">4.5</td>
+                        <td align="left" rowspan="1" colspan="1">4.5</td>
+                        <td align="left" rowspan="1" colspan="1">4.5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">AG intervention</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">15</td>
+                        <td align="left" rowspan="1" colspan="1">15</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Between AG runs</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">7.5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total</td>
+                        <td align="left" rowspan="1" colspan="1">4.5</td>
+                        <td align="left" rowspan="1" colspan="1">19.5</td>
+                        <td align="left" rowspan="1" colspan="1">27.0</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="4" align="left" colspan="1">HDT31-HDT60</td>
+                        <td align="left" rowspan="1" colspan="1">MRI, DXA, pQCT</td>
+                        <td align="left" rowspan="1" colspan="1">6.5</td>
+                        <td align="left" rowspan="1" colspan="1">6.5</td>
+                        <td align="left" rowspan="1" colspan="1">6.5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">AG intervention</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">15</td>
+                        <td align="left" rowspan="1" colspan="1">15</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Between AG runs</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">7.5</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total</td>
+                        <td align="left" rowspan="1" colspan="1">6.5</td>
+                        <td align="left" rowspan="1" colspan="1">21.5</td>
+                        <td align="left" rowspan="1" colspan="1">29.0</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">HDT1-HDT60 </td>
+                        <td align="left" rowspan="1" colspan="1">Total hours in horizontal position</td>
+                        <td align="left" rowspan="1" colspan="1">11</td>
+                        <td align="left" rowspan="1" colspan="1">41</td>
+                        <td align="left" rowspan="1" colspan="1">56</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="s2-4">
+                <title>Centrifugation</title>
+                <p>All centrifugation sessions were performed on DLR’s 3.8-m radius short-arm human centrifuge (SAHC-1, AMST Systemtechnik, Austria Metall SystemTechnik). The participants lay on the centrifuge arm with their head towards the center of rotation and their feet pointing radially outwards. Body height ratios of 0.56 for males and 0.54 for females were used to determine the CoM of each subject (<xref rid="B12" ref-type="bibr">Gambino et al., 2006</xref>). The angular velocity of the centrifuge and the participant’s position relative to the center of rotation were individually adjusted to achieve 1 Gz at the CoM and approximately 2 Gz at the level of the feet. The rotation rate ranged from 29.1 rpm for the tallest subject to 32.2 rpm for the shortest subject. When assuming an ear-height ratio of 0.93, this rotation rate resulted in approximately 0.30 Gz at the inner ear level. The angular acceleration/deceleration of the centrifuge during spin-up and spin-down was 7.62 deg/s<sup>2</sup>, which required about 22 s for the centrifuge to reach constant velocity or to stop.</p>
+                <p>The DLR SAHC-1 centrifuge included a 6° HDT nacelle to enable the subjects to be tilted before and after the centrifugation runs. Experiment preparations, including donning of equipment and safety checks, were performed while the subjects were in 6° HDT on the centrifuge (<xref rid="F4" ref-type="fig">Figure 4</xref>). Participants were placed in the supine position (0°) just prior to the centrifugation runs. Immediately after the final stop of the centrifuge, the participants were hoisted to 6° HDT for doffing of equipment and recovery measurements. For the iAG intervention, the runs were separated by 3-min pauses (excluding spin-up and spin-down time), during which participants were kept in the supine position to avoid potential vestibular disturbances induced by frequent 6° HDT positional adjustments.</p>
+                <fig position="float" id="F4">
+                  <label>FIGURE 4</label>
+                  <caption>
+                    <p>An operator is prepping a subject for a run on the DLR SAHC-1centrifuge. The subject is in HDT prior to centrifuge rotation.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g004" position="float"/>
+                </fig>
+                <p>On BDC-11 and BDC-4, all 24 participants were familiarized with centrifugation 1 Gz at the CoM and 2 Gz at feet, over two 5-min runs separated by a 3-min break. Rotation was clockwise during the BDC-11 session, and counterclockwise during the BDC-4 session. During these familiarization sessions participants were trained to avoid making head movements and to fix their gaze on one point straight ahead. Additionally, to aid the participants in maintaining cardiovascular homeostasis, they were trained to recognize signs and symptoms of presyncope. They were instructed to contract their leg muscles regularly to avoid presyncopal symptoms associated with venous pooling.</p>
+                <p>The direction of centrifuge rotation alternated daily between clockwise and counterclockwise to prevent unbalanced loading between the left and right extremities over the course of the 60-days AG training. The centrifuge room was dimly lit during the centrifugation sessions. To promote engagement and relaxation during the centrifugation session, participants were permitted to listen to music or an audiobook of choice. However, no music was allowed during centrifugation sessions that combined experimental measurements.</p>
+                <p>All centrifugation runs were conducted between 09:00 a.m. and 07:00 p.m., and the time of the day of the AG runs (morning vs. afternoon) were counterbalanced for each subject. The participants wore a harness attached to the nacelle of the centrifuge to protect them from falling. Real-time measurements of the participant’s ECG, finger pulse oximetry, and HR, as well as BP (measured every 5 min using Philips IntelliVue MP2) were monitored by a medical doctor during all centrifuge runs. The participants’ face and leg movements were monitored by on-board cameras and two-way communication with the control room was available at all times. In the event of emesis, participants were instructed to turn their heads to the side and use the motion sickness bag placed next to their arm during rotations. The rotation was terminated if the subject requested to stop, if the subject was non-responsive, or had syncope, severe signs of orthostatic intolerance (self-reported nausea, sweating, dizziness, light-headedness), a sudden drop in systolic BP (&gt;25 mmHg) or in HR (&gt;15 bpm), irregular cardiac rhythm, or a low absolute systolic BP (&lt;70 mmHg).</p>
+              </sec>
+              <sec id="s2-5">
+                <title>Nutrition</title>
+                <p>All subjects consumed a strictly controlled diet for the entire duration of the study that was tailored to individual resting metabolic rates (RMRs) and body weight (BW). RMR was measured on BDC-14 by means of indirect calorimetry using the Weir Equation, and assuming 8.64 g/day 4) for urinary nitrogen (Metalyzer 3B, CORTEX Biophysik GmbH). Then, each participant’s total energy intake was set to 1.6 × RMR (corresponding to light intensity daily physical activities) during ambulatory phases and to 1.3 × RMR (corresponding to the energy need of a sedentary adult) during HDT. The total energy in the diet was adjusted by varying the fat and carbohydrate content to maintain the body weight within 3% of that measured on HDT3.</p>
+                <p>In line with international bed rest standards (<xref rid="B36" ref-type="bibr">Sundblad and Orlov, 2014</xref>), the energy intake for each participant was determined separately for protein, fat, carbohydrates as follows: 1) the energy intake of proteins was set at 1.2g/kgBW/d; 2) the energy intake of fat was set at 30–35% of the total energy intake; 3) the intake of fiber was set at a minimum of 30 g/d; and 4) the remaining energy intake was supplied through carbohydrates. Vitamins and minerals were also standardized and controlled. To account for the reduced sunlight exposure, 1,000 international units (IU)/d vitamin D were supplemented, in addition to the dietary vitamin D content.</p>
+                <p>Daily fluid intake from food and beverages was set at 50 ml/kgBW/d. Fluids were provided as water, juices, shakes, and caffeine-free and herbal-free tea. During the early recovery days (R+0 through R+5), water intake was increased due to an increased thirst caused by the shift in body fluid. The fluid intake was increased to 70 ml/kgBW/d for R+0 and R+1, and to 60 ml/kgBW/d for R+2 and R+3. From R+4 through R+11, the fluid intake was normalized back to 50 ml/kgBW/d but was augmented by 0.5 ml/kgBW/d and the daily energy intake was increased by 0.1 x RMR to account for the increased sweat and energy loss from the reconditioning sessions.</p>
+                <p>All meals were planned and supervised by nutritionists and dieticians and were prepared in the: envihab metabolic kitchen. Nutrient content of each prepared meal was calculated using PRODI software (Kluthe Prodi 6.10 Expert, Nutri-Science, Germany). Seven different menus for the ambulatory phase and 14 different menus for the HDT phase were planned, which consisted of standard German food items. The menus were standardized per study day and were served in three main meals and one snack throughout the day. The timing at which the meals and snacks were served was also in accordance with the food consumption restrictions specified for the AG sessions and experiments. Intake of caffeine, chocolate, black tea, alcohol, and herbal drinks, or other beverages not offered in the metabolic diet, were prohibited. Subjects were required to consume the entirety of the meals within 30 min and were instructed to consume only the diet provided by the project team.</p>
+                <p>The nutritional intakes during AGBRESA are listed in <xref rid="T4" ref-type="table">Table 4</xref> along with the recommended intake of nutrients. In summary, the relative intake levels of protein, fat, and carbohydrates were approximately 15%, 32%, and 52%, respectively. The recommended values were achieved daily, with the exception of the vitamins and minerals, which were achieved weekly on average.</p>
+                <table-wrap position="float" id="T4">
+                  <label>TABLE 4</label>
+                  <caption>
+                    <p>Standardized nutritional intake for each experimental group (Mean ± SD). The AGBRESA nutritional requirements are presented in the right-most column for reference.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th rowspan="2" align="left" colspan="1">Nutrients</th>
+                        <th align="left" rowspan="1" colspan="1">BDC</th>
+                        <th align="left" rowspan="1" colspan="1">HDT</th>
+                        <th align="left" rowspan="1" colspan="1">HDT</th>
+                        <th align="left" rowspan="1" colspan="1">HDT</th>
+                        <th align="left" rowspan="1" colspan="1">R</th>
+                        <th rowspan="2" align="left" colspan="1">Nutritional req’ts</th>
+                      </tr>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">All groups</th>
+                        <th align="left" rowspan="1" colspan="1">Ctrl</th>
+                        <th align="left" rowspan="1" colspan="1">cAG</th>
+                        <th align="left" rowspan="1" colspan="1">iAG</th>
+                        <th align="left" rowspan="1" colspan="1">All groups</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total energy (kcal/d)</td>
+                        <td align="left" rowspan="1" colspan="1">2,610 ± 379</td>
+                        <td align="left" rowspan="1" colspan="1">2,431 ± 365</td>
+                        <td align="left" rowspan="1" colspan="1">2,215 ± 362</td>
+                        <td align="left" rowspan="1" colspan="1">2,266 ± 323</td>
+                        <td align="left" rowspan="1" colspan="1">2,673 ± 417</td>
+                        <td align="left" rowspan="1" colspan="1">Maintain body weight</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Protein (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">89.2 ± 11.4</td>
+                        <td align="left" rowspan="1" colspan="1">93.56 ± 16.58</td>
+                        <td align="left" rowspan="1" colspan="1">84.02 ± 13.54</td>
+                        <td align="left" rowspan="1" colspan="1">85.69 ± 6.51</td>
+                        <td align="left" rowspan="1" colspan="1">88.39 ± 13.19</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Protein (g/kgBW/d)</td>
+                        <td align="left" rowspan="1" colspan="1">1.2 ± 0.02</td>
+                        <td align="left" rowspan="1" colspan="1">1.17 ± 0.1</td>
+                        <td align="left" rowspan="1" colspan="1">1.18 ± 0.08</td>
+                        <td align="left" rowspan="1" colspan="1">1.19 ± 0.05</td>
+                        <td align="left" rowspan="1" colspan="1">1.19 ± 0.07</td>
+                        <td align="left" rowspan="1" colspan="1">1.2 g/kgBW/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Protein (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">13.99 ± 1.34</td>
+                        <td align="left" rowspan="1" colspan="1">15.61 ± 1.82</td>
+                        <td align="left" rowspan="1" colspan="1">15.43 ± 1.27</td>
+                        <td align="left" rowspan="1" colspan="1">15.52 ± 1.6</td>
+                        <td align="left" rowspan="1" colspan="1">13.53 ± 1.5</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total fat (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">90.61 ± 14.08</td>
+                        <td align="left" rowspan="1" colspan="1">83.88 ± 14.26</td>
+                        <td align="left" rowspan="1" colspan="1">75.77 ± 13.77</td>
+                        <td align="left" rowspan="1" colspan="1">77.74 ± 12.32</td>
+                        <td align="left" rowspan="1" colspan="1">92.97 ± 17</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total fat (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">31.98 ± 0.97</td>
+                        <td align="left" rowspan="1" colspan="1">31.56 ± 1.72</td>
+                        <td align="left" rowspan="1" colspan="1">31.38 ± 1.46</td>
+                        <td align="left" rowspan="1" colspan="1">31.49 ± 1.17</td>
+                        <td align="left" rowspan="1" colspan="1">31.98 ± 1.92</td>
+                        <td align="left" rowspan="1" colspan="1">30%–35% of total energy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Monosaturated fatty acids (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">31.57 ± 6.53</td>
+                        <td align="left" rowspan="1" colspan="1">29.06 ± 5.74</td>
+                        <td align="left" rowspan="1" colspan="1">26.19 ± 5.76</td>
+                        <td align="left" rowspan="1" colspan="1">26.99 ± 5.34</td>
+                        <td align="left" rowspan="1" colspan="1">34 ± 8.82</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Monosaturated fatty acids (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">11.11 ± 1.25</td>
+                        <td align="left" rowspan="1" colspan="1">10.95 ± 1.48</td>
+                        <td align="left" rowspan="1" colspan="1">10.83 ± 1.28</td>
+                        <td align="left" rowspan="1" colspan="1">10.92 ± 1.17</td>
+                        <td align="left" rowspan="1" colspan="1">11.66 ± 1.85</td>
+                        <td align="left" rowspan="1" colspan="1">≥10% of total energy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Saturated fatty acids (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">24.16 ± 4.42</td>
+                        <td align="left" rowspan="1" colspan="1">22.22 ± 4.99</td>
+                        <td align="left" rowspan="1" colspan="1">20 ± 4.64</td>
+                        <td align="left" rowspan="1" colspan="1">20.52 ± 4.23</td>
+                        <td align="left" rowspan="1" colspan="1">24.38 ± 4.65</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Saturated fatty acids (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">8.55 ± 1.03</td>
+                        <td align="left" rowspan="1" colspan="1">8.36 ± 1.38</td>
+                        <td align="left" rowspan="1" colspan="1">8.29 ± 1.31</td>
+                        <td align="left" rowspan="1" colspan="1">8.33 ± 1.23</td>
+                        <td align="left" rowspan="1" colspan="1">8.43 ± 1.12</td>
+                        <td align="left" rowspan="1" colspan="1">≤10% of total energy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Polyunsaturated fatty acids (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">30.67 ± 6.41</td>
+                        <td align="left" rowspan="1" colspan="1">28.59 ± 7.96</td>
+                        <td align="left" rowspan="1" colspan="1">25.94 ± 7.03</td>
+                        <td align="left" rowspan="1" colspan="1">26.5 ± 6.93</td>
+                        <td align="left" rowspan="1" colspan="1">30.43 ± 6.89</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Polyunsaturated fatty acids (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">10.84 ± 1.66</td>
+                        <td align="left" rowspan="1" colspan="1">10.74 ± 2.37</td>
+                        <td align="left" rowspan="1" colspan="1">10.76 ± 2.31</td>
+                        <td align="left" rowspan="1" colspan="1">10.75 ± 2.35</td>
+                        <td align="left" rowspan="1" colspan="1">10.47 ± 1.61</td>
+                        <td align="left" rowspan="1" colspan="1">≥7% of total energy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Carbohydrates (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">329.2 ± 54.33</td>
+                        <td align="left" rowspan="1" colspan="1">299.69 ± 46.03</td>
+                        <td align="left" rowspan="1" colspan="1">273.71 ± 48</td>
+                        <td align="left" rowspan="1" colspan="1">280.82 ± 48.13</td>
+                        <td align="left" rowspan="1" colspan="1">339.94 ± 58.93</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Carbohydrates (% of total energy)</td>
+                        <td align="left" rowspan="1" colspan="1">51.16 ± 1.69</td>
+                        <td align="left" rowspan="1" colspan="1">50.01 ± 2.25</td>
+                        <td align="left" rowspan="1" colspan="1">50.09 ± 2</td>
+                        <td align="left" rowspan="1" colspan="1">50.05 ± 2.01</td>
+                        <td align="left" rowspan="1" colspan="1">51.59 ± 2.18</td>
+                        <td align="left" rowspan="1" colspan="1">50%–60% of total energy</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Total fiber (g/d)</td>
+                        <td align="left" rowspan="1" colspan="1">37.13 ± 5.59</td>
+                        <td align="left" rowspan="1" colspan="1">34.1 ± 5.86</td>
+                        <td align="left" rowspan="1" colspan="1">33.98 ± 4.79</td>
+                        <td align="left" rowspan="1" colspan="1">33.11 ± 4.65</td>
+                        <td align="left" rowspan="1" colspan="1">38.57 ± 6.27</td>
+                        <td align="left" rowspan="1" colspan="1">≥30 g/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Fluid (ml/d)</td>
+                        <td align="left" rowspan="1" colspan="1">3,741 ± 472</td>
+                        <td align="left" rowspan="1" colspan="1">4,027 ± 488</td>
+                        <td align="left" rowspan="1" colspan="1">3,557 ± 488</td>
+                        <td align="left" rowspan="1" colspan="1">3,611 ± 228</td>
+                        <td align="left" rowspan="1" colspan="1">4,358 ± 707</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Fluid (ml/kgBW/d)</td>
+                        <td align="left" rowspan="1" colspan="1">50.53 ± 2.02</td>
+                        <td align="left" rowspan="1" colspan="1">51.04 ± 3.73</td>
+                        <td align="left" rowspan="1" colspan="1">50.22 ± 1.21</td>
+                        <td align="left" rowspan="1" colspan="1">50.2 ± 2.27</td>
+                        <td align="left" rowspan="1" colspan="1">58.94 ± 7.11</td>
+                        <td align="left" rowspan="1" colspan="1">50 ml/kgBW/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Calcium (mg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">1,080 ± 22.97</td>
+                        <td align="left" rowspan="1" colspan="1">1,080 ± 65.4</td>
+                        <td align="left" rowspan="1" colspan="1">1,081 ± 39.4</td>
+                        <td align="left" rowspan="1" colspan="1">1,081 ± 31.87</td>
+                        <td align="left" rowspan="1" colspan="1">1,084 ± 30.52</td>
+                        <td align="left" rowspan="1" colspan="1">1,000–1,200 mg/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Chloride (mg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">4,951 ± 444</td>
+                        <td align="left" rowspan="1" colspan="1">4,725 ± 473</td>
+                        <td align="left" rowspan="1" colspan="1">4,678 ± 457</td>
+                        <td align="left" rowspan="1" colspan="1">4,731 ± 357</td>
+                        <td align="left" rowspan="1" colspan="1">4,972 ± 591</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sodium (mg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">2,950 ± 92</td>
+                        <td align="left" rowspan="1" colspan="1">2,905 ± 203</td>
+                        <td align="left" rowspan="1" colspan="1">2,885 ± 223</td>
+                        <td align="left" rowspan="1" colspan="1">2,918 ± 152</td>
+                        <td align="left" rowspan="1" colspan="1">2,952 ± 230</td>
+                        <td align="left" rowspan="1" colspan="1">2,500–3,000 mg/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Sodium (mmol/kgBW/d)</td>
+                        <td align="left" rowspan="1" colspan="1">1.76 ± 0.26</td>
+                        <td align="left" rowspan="1" colspan="1">1.63 ± 0.29</td>
+                        <td align="left" rowspan="1" colspan="1">1.8 ± 0.27</td>
+                        <td align="left" rowspan="1" colspan="1">1.77 ± 0.14</td>
+                        <td align="left" rowspan="1" colspan="1">1.76 ± 0.28</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Potassium (mg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">3,918 ± 552</td>
+                        <td align="left" rowspan="1" colspan="1">3,715 ± 460</td>
+                        <td align="left" rowspan="1" colspan="1">3,560 ± 478</td>
+                        <td align="left" rowspan="1" colspan="1">3,586 ± 399</td>
+                        <td align="left" rowspan="1" colspan="1">3,971 ± 565</td>
+                        <td align="left" rowspan="1" colspan="1">3.0–5.0 g/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Fluoride (mg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">2.16 ± 0.54</td>
+                        <td align="left" rowspan="1" colspan="1">2 ± 0.75</td>
+                        <td align="left" rowspan="1" colspan="1">2.11 ± 0.73</td>
+                        <td align="left" rowspan="1" colspan="1">2.11 ± 0.71</td>
+                        <td align="left" rowspan="1" colspan="1">2.12 ± 0.49</td>
+                        <td align="left" rowspan="1" colspan="1">1.5–4 mg/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Iodine (µg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">203.46 ± 73.24</td>
+                        <td align="left" rowspan="1" colspan="1">208.55 ± 59.9</td>
+                        <td align="left" rowspan="1" colspan="1">206.43 ± 55.44</td>
+                        <td align="left" rowspan="1" colspan="1">208.75 ± 52.57</td>
+                        <td align="left" rowspan="1" colspan="1">194.69 ± 68.56</td>
+                        <td align="left" rowspan="1" colspan="1">≥200 μg/d</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Copper (µg/d)</td>
+                        <td align="left" rowspan="1" colspan="1">1915 ± 293</td>
+                        <td align="left" rowspan="1" colspan="1">1904 ± 343</td>
+                        <td align="left" rowspan="1" colspan="1">1807 ± 329</td>
+                        <td align="left" rowspan="1" colspan="1">1835 ± 313</td>
+                        <td align="left" rowspan="1" colspan="1">2023 ± 332</td>
+                        <td align="left" rowspan="1" colspan="1">1,500–3,000 μg/d</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="s2-6">
+                <title>Other countermeasures</title>
+                <p>Self-imposed static and dynamic muscle contractions were not permitted; however, standards for bed rest studies stipulate that key muscle groups and joints must be stretched to avoid muscle contractures and to alleviate muscle stiffness and back pain.</p>
+                <p>All participants performed a 15-min stretching routine every morning. The routine included stretching of muscles surrounding the hip, knee, ankle, shoulder, wrist, and cervical lumbar spine, and isometric contractions of hip flexors and extensors, knee extensors, and abdominal muscles. Participants were trained to perform this body stretching routine on BDC-4 by a physiotherapist and were provided with resistance bands and graphic instructions.</p>
+                <p>Starting on HDT2, a 60-min afternoon physiotherapy session was also provided every other day during the HDT phase. Additional physiotherapy sessions were provided in the first week of the R+ phase, however, the sessions on R+2 through R+5 were reduced to 30 min to accommodate the data collection schedule. The physiotherapy was divided into 4 phases: 1) HDT1 to HDT20; 2) HDT21 to HDT40; 3) HDT41 to HDT60; and 4) and R+1 to R+5, and different areas of focus, pressure, and movements were prescribed by physiotherapists for each phase. Briefly, the first phase focused on back, neck, and shoulder discomfort, which typically occurs during the early stage of HDT. The second phase concentrated on the lower back to aid circulation of the lower extremities. The third phase focused on the feet, because foot discomfort due to disuse is often reported upon re-ambulation. Additional focus was aimed at circulation of the lower extremities to promote quick recovery. The fourth phase included rehabilitation prior to departure from the unit, and helped attenuate muscle discomfort the participants experience after resuming physical activity.</p>
+                <p>Various massage techniques to warm up and manipulate soft tissue, increase blood circulation, and joint mobilization were used for the standard regimen and to provide overall comfort to the subjects. In addition to the standard regimen, individual therapies were prescribed by the medical staff as needed when a medical issue was indicated.</p>
+                <p>Before re-ambulation, the participants were informed of the general procedures and safety measures to be practiced on R+0. The standardized re-ambulation procedure was built into the orthostatic tolerance test conducted as part of the International Standard Measures and Bedrest Core Data (<xref rid="B31" ref-type="bibr">Platts et al., 2009</xref>), and was performed on the DLR’s custom-built electronic tilt-table. After completing the orthostatic tolerance test, participants were monitored for an additional 15 min by medical staff. The participants were not permitted to stand or move their heads until the subsequent vestibular testing had been conducted. For safety purposes, and to limit the magnitude of delayed onset of muscle soreness, the participants were transported to various testing rooms in a wheelchair on R+0 and R+1. Participants were not permitted to shower on R+0, and they showered in the seated position on R+1.</p>
+                <p>During the recovery phase, the participants received physiotherapist-guided reconditioning training intended to gradually restore their range of motion, whole body strength, speed, coordination, core stability and body posture. Each participant received a daily 60-min rehabilitation session for 7 days between R+4 and R+11. The rehabilitation session started on R+4, after the main study measurements had been completed and when muscle soreness due to re-ambulation had subsided. R+8 was a rest day where no reconditioning was performed. Before the HDT phase, on BDC-4, all subjects were familiarized with the specifics of the reconditioning program, to help facilitate training during the weakened state after bed rest.</p>
+                <p>The rehabilitation sessions involved generic exercise regimen using a Bosu ball (Ashland, OH, United States) for balance and coordination training; disc cone hurdle and coordination ladder for plyometric agility drills; and a medicine ball and battle ropes for strength training. No rigorous physical interventions such as jogging and weight training were included in the protocol. The exercises started slowly and easily, progressed in speed and difficulty, and where tailored to each subject’s status. The rehabilitation program ended with dynamic stretches targeting the hamstrings, glutes, lower back, and the quadriceps muscle groups, and with physiotherapeutic exercises customized to the individual needs of the subject. During AGBRESA, four subjects (Ctrl: 1 f, 1 m; cAG: 1 f; iAG: 1 m) reported patellar tendon pain during the recovery phase. For these subjects, the reconditioning program was modified to avoid exercises that involved kneeling and jumping. Instead, their training focused on trunk stabilization that engaged the pain-free areas (e.g., abdominal and back exercises on the Bosu ball). These subjects also performed dynamic stretching and the coordination training on the ladder.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="s3">
+              <title>Results</title>
+              <sec id="s3-1">
+                <title>Health indices and adverse events</title>
+                <p>The primary vital signs recorded before, during, and after bed rest were used to characterize the general health status of each subject. Measurements were obtained with the subjects at rest in the supine position (0°) during BDC and R+, and at 6° HDT during the HDT period. The vital signs were recorded first thing after waking up the subjects, in a standardized dimly lit environment, before the subjects participated in any experiments. These measurements were obtained several days after the participants acclimated to the transition between study phases. Time points were selected to coincide with standard measures and nutritional standardization. Data collected on HDT1, R+0, and R+13 (the day of discharge) were not used because the subjects’ psychological state could have affected their vital signs. Three distinct epochs were selected: 1) the BDC epoch included all measures obtained between BDC-6 and BDC-1; 2) the HDT epoch included all measures obtained between HDT3 and HDT60; and 3) the R+ epoch included all measurements obtained between R+6 and R+12. Analysis of variance (ANOVA) and linear mixed effect models were constructed to evaluate group differences in means and changes in health index over time. All analyses considered the effect of age and sex. The alpha level of significance for the analyses was set at 0.05. All statistical analyses were conducted using SPSS Statistic Version 21 (IBM SPSS Statistics for Windows v21.0, Armonk: NY, 2012).</p>
+                <p>The daily group averages of the general health measurements are shown in <xref rid="F5" ref-type="fig">Figure 5</xref>; <xref rid="T5" ref-type="table">Table 5</xref> shows results of the general health measurements or each study group at baseline (BDC-1), at the start and end of the HDT phase (HDT3 and HDT60, respectively), and at the end of the recovery phase (R+12).</p>
+                <fig position="float" id="F5">
+                  <label>FIGURE 5</label>
+                  <caption>
+                    <p>Daily group averages ± SD of the measured general health measurements for the three subject groups (8 subjects per group): heart rate, mean blood pressure, systolic blood pressure (BP), diastolic BP, temperature, 24-h urine volume, and body weight.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g005" position="float"/>
+                </fig>
+                <table-wrap position="float" id="T5">
+                  <label>TABLE 5</label>
+                  <caption>
+                    <p>Summary of the General Health Indices. Values were obtained through regression analysis and are presented for representative study dates as Mean ± SD.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th rowspan="2" align="left" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">Baseline</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">Bed rest</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">Recovery</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1"/>
+                      </tr>
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">Group</th>
+                        <th align="left" rowspan="1" colspan="1">BDC-1</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                        <th align="left" rowspan="1" colspan="1">HDT3</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                        <th align="left" rowspan="1" colspan="1">HDT60</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                        <th align="left" rowspan="1" colspan="1">R+12</th>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Heart rate (bpm)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">58.22</td>
+                        <td align="left" rowspan="1" colspan="1">±8.54</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">58.25</td>
+                        <td align="left" rowspan="1" colspan="1">±8.14</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">65.09</td>
+                        <td align="left" rowspan="1" colspan="1">±8.63</td>
+                        <td align="left" rowspan="1" colspan="1">†</td>
+                        <td align="left" rowspan="1" colspan="1">64.39</td>
+                        <td align="left" rowspan="1" colspan="1">±10.71</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">61.40</td>
+                        <td align="left" rowspan="1" colspan="1">±12.52</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">61.13</td>
+                        <td align="left" rowspan="1" colspan="1">±11.36</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">68.31</td>
+                        <td align="left" rowspan="1" colspan="1">±11.34</td>
+                        <td align="left" rowspan="1" colspan="1">†</td>
+                        <td align="left" rowspan="1" colspan="1">63.88</td>
+                        <td align="left" rowspan="1" colspan="1">±10.09</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">58.88</td>
+                        <td align="left" rowspan="1" colspan="1">±9.67</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">57.40</td>
+                        <td align="left" rowspan="1" colspan="1">±10.14</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">61.44</td>
+                        <td align="left" rowspan="1" colspan="1">±6.45</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">62.45</td>
+                        <td align="left" rowspan="1" colspan="1">±9.21</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Mean arterial Pressure (mmHg)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">84.08</td>
+                        <td align="left" rowspan="1" colspan="1">±5.05</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">88.12</td>
+                        <td align="left" rowspan="1" colspan="1">±6.42</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">90.02</td>
+                        <td align="left" rowspan="1" colspan="1">±7.51</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">77.71</td>
+                        <td align="left" rowspan="1" colspan="1">±8.50</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">77.89</td>
+                        <td align="left" rowspan="1" colspan="1">±3.41</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">84.18</td>
+                        <td align="left" rowspan="1" colspan="1">±4.40</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">87.70</td>
+                        <td align="left" rowspan="1" colspan="1">±3.09</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">77.67</td>
+                        <td align="left" rowspan="1" colspan="1">±5.52</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">80.72</td>
+                        <td align="left" rowspan="1" colspan="1">±5.84</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">80.40</td>
+                        <td align="left" rowspan="1" colspan="1">±4.44</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">84.76</td>
+                        <td align="left" rowspan="1" colspan="1">±3.64</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">73.20</td>
+                        <td align="left" rowspan="1" colspan="1">±4.62</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Systolic blood pressure (mmHg)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">114.98</td>
+                        <td align="left" rowspan="1" colspan="1">±4.94</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">119.47</td>
+                        <td align="left" rowspan="1" colspan="1">±6.08</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">117.34</td>
+                        <td align="left" rowspan="1" colspan="1">±6.97</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">110.71</td>
+                        <td align="left" rowspan="1" colspan="1">±7.71</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">110.80</td>
+                        <td align="left" rowspan="1" colspan="1">±9.02</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">114.77</td>
+                        <td align="left" rowspan="1" colspan="1">±7.54</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">116.92</td>
+                        <td align="left" rowspan="1" colspan="1">±6.76</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">108.57</td>
+                        <td align="left" rowspan="1" colspan="1">±10.39</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">109.80</td>
+                        <td align="left" rowspan="1" colspan="1">±9.45</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">109.49</td>
+                        <td align="left" rowspan="1" colspan="1">±6.95</td>
+                        <td align="left" rowspan="1" colspan="1">a</td>
+                        <td align="left" rowspan="1" colspan="1">112.93</td>
+                        <td align="left" rowspan="1" colspan="1">±6.12</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">103.97</td>
+                        <td align="left" rowspan="1" colspan="1">±8.81</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Diastolic blood pressure (mmHg)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">69.91</td>
+                        <td align="left" rowspan="1" colspan="1">±5.10</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">73.33</td>
+                        <td align="left" rowspan="1" colspan="1">±6.01</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">75.58</td>
+                        <td align="left" rowspan="1" colspan="1">±6.96</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">63.61</td>
+                        <td align="left" rowspan="1" colspan="1">±9.26</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">64.43</td>
+                        <td align="left" rowspan="1" colspan="1">±4.34</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">70.81</td>
+                        <td align="left" rowspan="1" colspan="1">±5.11</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">74.99</td>
+                        <td align="left" rowspan="1" colspan="1">±3.09</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">64.06</td>
+                        <td align="left" rowspan="1" colspan="1">±5.82</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">67.80</td>
+                        <td align="left" rowspan="1" colspan="1">±5.06</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">67.60</td>
+                        <td align="left" rowspan="1" colspan="1">±3.89</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">72.20</td>
+                        <td align="left" rowspan="1" colspan="1">±3.47</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">61.00</td>
+                        <td align="left" rowspan="1" colspan="1">±2.54</td>
+                        <td align="left" rowspan="1" colspan="1">*</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Temperature (°C)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">36.19</td>
+                        <td align="left" rowspan="1" colspan="1">±0.35</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">36.13</td>
+                        <td align="left" rowspan="1" colspan="1">±0.29</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">36.15</td>
+                        <td align="left" rowspan="1" colspan="1">±0.32</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.05</td>
+                        <td align="left" rowspan="1" colspan="1">±0.42</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">36.23</td>
+                        <td align="left" rowspan="1" colspan="1">±0.31</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.19</td>
+                        <td align="left" rowspan="1" colspan="1">±0.18</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.23</td>
+                        <td align="left" rowspan="1" colspan="1">±0.16</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.14</td>
+                        <td align="left" rowspan="1" colspan="1">±0.12</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">36.03</td>
+                        <td align="left" rowspan="1" colspan="1">±0.19</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.18</td>
+                        <td align="left" rowspan="1" colspan="1">±0.29</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.08</td>
+                        <td align="left" rowspan="1" colspan="1">±0.24</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">36.06</td>
+                        <td align="left" rowspan="1" colspan="1">±0.19</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Urine volume (ml)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">2,801.54</td>
+                        <td align="left" rowspan="1" colspan="1">±422.51</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">3,079.49</td>
+                        <td align="left" rowspan="1" colspan="1">±505.81</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">3,103.47</td>
+                        <td align="left" rowspan="1" colspan="1">±538.47</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,614.51</td>
+                        <td align="left" rowspan="1" colspan="1">±335.41</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">2,690.24</td>
+                        <td align="left" rowspan="1" colspan="1">±473.80</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,748.94</td>
+                        <td align="left" rowspan="1" colspan="1">±558.22</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,809.45</td>
+                        <td align="left" rowspan="1" colspan="1">±510.34</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,649.53</td>
+                        <td align="left" rowspan="1" colspan="1">±440.79</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">2,610.56</td>
+                        <td align="left" rowspan="1" colspan="1">±244.30</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,748.18</td>
+                        <td align="left" rowspan="1" colspan="1">±262.08</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,837.39</td>
+                        <td align="left" rowspan="1" colspan="1">±166.18</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">2,671.44</td>
+                        <td align="left" rowspan="1" colspan="1">±481.00</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" align="left" colspan="1">Body weight (kg)</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">79.28</td>
+                        <td align="left" rowspan="1" colspan="1">±12.83</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">78.27</td>
+                        <td align="left" rowspan="1" colspan="1">±12.69</td>
+                        <td align="left" rowspan="1" colspan="1"/>
+                        <td align="left" rowspan="1" colspan="1">76.87</td>
+                        <td align="left" rowspan="1" colspan="1">±12.72</td>
+                        <td align="left" rowspan="1" colspan="1">†</td>
+                        <td align="left" rowspan="1" colspan="1">79.59</td>
+                        <td align="left" rowspan="1" colspan="1">±13.29</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">71.36</td>
+                        <td align="left" rowspan="1" colspan="1">±9.92</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">70.64</td>
+                        <td align="left" rowspan="1" colspan="1">±9.92</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">69.74</td>
+                        <td align="left" rowspan="1" colspan="1">±9.78</td>
+                        <td align="left" rowspan="1" colspan="1">†</td>
+                        <td align="left" rowspan="1" colspan="1">71.89</td>
+                        <td align="left" rowspan="1" colspan="1">±10.02</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">71.51</td>
+                        <td align="left" rowspan="1" colspan="1">±4.62</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">70.88</td>
+                        <td align="left" rowspan="1" colspan="1">±4.99</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                        <td align="left" rowspan="1" colspan="1">70.08</td>
+                        <td align="left" rowspan="1" colspan="1">±5.43</td>
+                        <td align="left" rowspan="1" colspan="1">†</td>
+                        <td align="left" rowspan="1" colspan="1">72.18</td>
+                        <td align="left" rowspan="1" colspan="1">±5.76</td>
+                        <td align="left" rowspan="1" colspan="1">—</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>*significant difference from BDC‐3 (<italic>p</italic> &lt; 0.05), <sup>†</sup>significant difference from HDT3 (<italic>p</italic> &lt; 0.05), <sup>a</sup>symbolizes a significant difference from Ctrl (<italic>p</italic> &lt; 0.05).</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>Bed rest related adverse reactions that required medical intervention included nasal congestion, vertigo, headache, and inflammation, and the frequency of these events are shown in <xref rid="F6" ref-type="fig">Figure 6</xref>. These symptoms are shown because they occurred frequently (&gt;10 incidents) during the HDT phase. Vertigo included dizziness and nausea; inflammation included infection of the ears, sinuses, eyelid, and upper respiratory airways. Obstipation (particularly at the beginning of HDT), gastro-esophageal reflux, and dry eyes occurred less frequently. Other bed rest related complaints included muscle pains in the neck, shoulders, back, and knees, and gastrointestinal tract problems.</p>
+                <fig position="float" id="F6">
+                  <label>FIGURE 6</label>
+                  <caption>
+                    <p>Frequency of adverse effects during the HDT phase for each subject group.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g006" position="float"/>
+                </fig>
+                <p>Two additional countermeasure-related adverse reactions were persistent pain in the lower legs and feet (<italic>n</italic> = 1) and in the lower back (<italic>n</italic> = 1) during centrifugation. However, these adverse reactions did not result in premature cessation of the centrifugation sessions. The main complaint during the centrifugation sessions was pain at the calf muscle biopsy site.</p>
+                <p>Standard ocular safety measures during the HDT phase included bi-weekly assessments of intraocular pressure and near visual acuity. Weekly ocular monitoring during HDT was recommended by the ophthalmologist for 12 individuals because clinical suggestion of optic disc edema arose. Optic disc edema develops in astronauts during long-duration spaceflight, potentially due to headward fluid shift (<xref rid="B28" ref-type="bibr">Mader et al., 2011</xref>). <xref rid="T6" ref-type="table">Table 6</xref> shows the results of optic disc edema evaluation on the first day of optic disc edema diagnosis, the demographic information of these individuals along with the HDT58, R+0, and R+1 evaluations of the optic disc edema using fundoscopy and graded according to the Frisen Scale (<xref rid="B11" ref-type="bibr">Frisen, 1982</xref>). Interestingly, no subject in the control group showed signs of an optic disc edema greater than grade 0.</p>
+                <table-wrap position="float" id="T6">
+                  <label>TABLE 6</label>
+                  <caption>
+                    <p>Results of optic disc edema evaluation at the end of the 60-days HDT phase. OD (<italic>oculus dexter</italic>): right eye; OS (<italic>oculus sinister</italic>): left eye; ODE Dx: optic disc edema diagnosis. Frisén grade 0 corresponds to an optic disc edema of up to 2/3 of the disc, grade 1 corresponds to an optic disc edema &gt;2/3 of the disc.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1">ID</th>
+                        <th align="left" rowspan="1" colspan="1">Group</th>
+                        <th align="left" rowspan="1" colspan="1">Age (yr)</th>
+                        <th align="left" rowspan="1" colspan="1">Sex</th>
+                        <th align="left" rowspan="1" colspan="1">Height (cm)</th>
+                        <th align="left" rowspan="1" colspan="1">Weight (kg)</th>
+                        <th align="left" rowspan="1" colspan="1">OD</th>
+                        <th align="left" rowspan="1" colspan="1">OS</th>
+                        <th align="left" rowspan="1" colspan="1">1st day of ODE Dx</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">4</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">46</td>
+                        <td align="left" rowspan="1" colspan="1">Female</td>
+                        <td align="left" rowspan="1" colspan="1">183.3</td>
+                        <td align="left" rowspan="1" colspan="1">79.55</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT45</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">5</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">39</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">182</td>
+                        <td align="left" rowspan="1" colspan="1">87.22</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT45</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">6</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">42</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">179.5</td>
+                        <td align="left" rowspan="1" colspan="1">75.69</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">R+0/1</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">9</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">30</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">176.4</td>
+                        <td align="left" rowspan="1" colspan="1">80.73</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">R+0/1</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">15</td>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">27</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">171.2</td>
+                        <td align="left" rowspan="1" colspan="1">72.68</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT58</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">3</td>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">34</td>
+                        <td align="left" rowspan="1" colspan="1">Female</td>
+                        <td align="left" rowspan="1" colspan="1">174.5</td>
+                        <td align="left" rowspan="1" colspan="1">75.41</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT23</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">12</td>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">54</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">174.4</td>
+                        <td align="left" rowspan="1" colspan="1">77.16</td>
+                        <td align="left" rowspan="1" colspan="1">grade 1</td>
+                        <td align="left" rowspan="1" colspan="1">grade 1</td>
+                        <td align="left" rowspan="1" colspan="1">HDT20</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">22</td>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">27</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">175.3</td>
+                        <td align="left" rowspan="1" colspan="1">73.11</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT34</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">23</td>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">25</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">173.2</td>
+                        <td align="left" rowspan="1" colspan="1">71.27</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT58</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">13</td>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">26</td>
+                        <td align="left" rowspan="1" colspan="1">Female</td>
+                        <td align="left" rowspan="1" colspan="1">166</td>
+                        <td align="left" rowspan="1" colspan="1">71.43</td>
+                        <td align="left" rowspan="1" colspan="1">no edema</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">HDT31</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">19</td>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">29</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">174.5</td>
+                        <td align="left" rowspan="1" colspan="1">71.71</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">no edema</td>
+                        <td align="left" rowspan="1" colspan="1">HDT31</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">20</td>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">54</td>
+                        <td align="left" rowspan="1" colspan="1">Male</td>
+                        <td align="left" rowspan="1" colspan="1">188.7</td>
+                        <td align="left" rowspan="1" colspan="1">78.47</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">grade 0</td>
+                        <td align="left" rowspan="1" colspan="1">R+0/1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="s3-2">
+                <title>Artificial gravity countermeasure adherence and compliance</title>
+                <p>The adherence to the AG countermeasure in terms of attendance and exposure duration, as well as the ground reaction forces under the subjects’ feet, were recorded daily. Most participants performed static toe or heel raises during centrifugation, which did not generate any discernable ground reaction forces. In limited cases more dynamic strategies, such as shallow knee bends, were adopted to activate the skeletal muscle pump. The frequency at which the subjects engaged in such maneuvers to maintain tolerance during centrifugation vastly varied between the subjects and reflected individual differences in tolerability to the centrifugation (<xref rid="B21" ref-type="bibr">Kramer et al., 2020</xref>). Overall, no overt increase in muscle activation was observed over the course of the 60-days AG interventions.</p>
+                <p>Of the total 960 centrifugation sessions, only 12 sessions (1.25%) involving seven different individuals were interrupted (<xref rid="B10" ref-type="bibr">Frett et al., 2020</xref>). Of these 12 sessions, nine cAG sessions and one iAG session were aborted prematurely, and two sessions (1 cAG, one iAG) resumed after a short break, Reasons for discontinuing included 1) medical stop due to presyncopal signs (<italic>n</italic> = 8); 2) a high level of motion sickness including nausea/dizziness (<italic>n</italic> = 3); and 3) pain in bilateral lower legs (<italic>n</italic> = 1). The motion sickness susceptibility of these seven individuals ranged between 0 and 53.26th percentile of the population norm.</p>
+              </sec>
+              <sec id="s3-3">
+                <title>Motion sickness susceptibility</title>
+                <p>A motion sickness susceptibility questionnaire (MSSQ-short) (<xref rid="B13" ref-type="bibr">Golding, 2006</xref>) was administered on BDC-10. The MSSQ-short captures the subject’s experience of malaise, nausea, and vomiting as it relates to certain types of motion (e.g., up-down translation, yaw rotation, etc.). The subjects retrospectively rated the frequency of sickness experienced in nine different modes of transportation from 0 (= never) to 3 (= frequently) during childhood (MSSQ-Child, &lt;12 years of age) and adulthood (MSSQ-Adult, in the last 10 years). To aid in the interpretation of results, the total MSSQ raw scores (MSSQ = MSSQ-Child + MSSQ-Adult) were also evaluated as percentiles of the population norm provided by Golding (<italic>N</italic> = 257, age 26.0 ± 7.5 years) (<xref rid="B13" ref-type="bibr">Golding, 2006</xref>).</p>
+                <p><xref rid="T7" ref-type="table">Table 7</xref> lists the childhood, adulthood, and overall motion sickness susceptibility scores of the AGBRESA participants. No statistically significant difference was detected in the mean MSSQ-Child, MSSQ-Adult, and MSSQ score for the three experimental groups [<italic>F</italic> (4, 40) = 0.331, <italic>p</italic> &lt; 0.856; Wilk’s <italic>Λ</italic> = 0.937, partial η<sup>2</sup> = 0.032]. The participants’ motion sickness susceptibility before bed rest was within the population norm. In fact, the participants’ highest motion sickness susceptibility score ranked in the 72.06th percentile of the population norm.</p>
+                <table-wrap position="float" id="T7">
+                  <label>TABLE 7</label>
+                  <caption>
+                    <p>Motion sickness susceptibility scores of the AGBRESA participants at BDC-10 per experimental group as evaluated using the MSSQ questionnaires.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups">
+                    <thead valign="top">
+                      <tr>
+                        <th align="left" rowspan="1" colspan="1"/>
+                        <th align="left" rowspan="1" colspan="1">MSSQ-child mean ± SD</th>
+                        <th align="left" rowspan="1" colspan="1">MSSQ-adult mean ± SD</th>
+                        <th align="left" rowspan="1" colspan="1">MSSQ mean ± SD</th>
+                        <th align="left" rowspan="1" colspan="1">MSSQ percentile min - max</th>
+                      </tr>
+                    </thead>
+                    <tbody valign="top">
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">Ctrl</td>
+                        <td align="left" rowspan="1" colspan="1">3.23 ± 2.81</td>
+                        <td align="left" rowspan="1" colspan="1">1.54 ± 2.26</td>
+                        <td align="left" rowspan="1" colspan="1">4.77 ± 3.85</td>
+                        <td align="left" rowspan="1" colspan="1">5.06–45.20</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">cAG</td>
+                        <td align="left" rowspan="1" colspan="1">3.82 ± 2.94</td>
+                        <td align="left" rowspan="1" colspan="1">1.97 ± 1.55</td>
+                        <td align="left" rowspan="1" colspan="1">5.79 ± 3.85</td>
+                        <td align="left" rowspan="1" colspan="1">5.06–52.75</td>
+                      </tr>
+                      <tr>
+                        <td align="left" rowspan="1" colspan="1">iAG</td>
+                        <td align="left" rowspan="1" colspan="1">2.58 ± 3.77</td>
+                        <td align="left" rowspan="1" colspan="1">2.09 ± 3.63</td>
+                        <td align="left" rowspan="1" colspan="1">4.67 ± 7.04</td>
+                        <td align="left" rowspan="1" colspan="1">0.00–72.06</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="s3-4">
+                <title>Artificial gravity countermeasure acceptability</title>
+                <p>As an evaluation of countermeasure acceptability, a modified Physical Activity Enjoyment Scale (<xref rid="B20" ref-type="bibr">Kendzierski and DeCarlo, 1991</xref>) was administered to evaluate the subject’s intrinsic motivation (e.g., pleasure, excitement, and interest), values that would influence their continuous engagement in the AG sessions. The AG countermeasure acceptability assessments were conducted weekly during the HDT phase. The 18-item questionnaire was tailored to assess the centrifugation experience in domains such as enjoyment of the AG sessions, AG effect on physical conditions, mood, vitality, and the subject’s desire to continue with the AG sessions. The subjects rated their experience on a 5-point Likert scale (1 = completely disagree; 5 = completely agree) and provided descriptions of the physical consequences of AG that focused on changes in typical bed rest-related symptoms such as headaches and/or pressure in the head, back pain, dizziness, and feeling unwell. Eight items were reverse scored so that higher scores represent greater levels of enjoyment, and the total score was converted to percentage of the theoretical maximum 90 points.</p>
+                <p><xref rid="F7" ref-type="fig">Figure 7</xref> shows the average percentage enjoyment of the centrifugation sessions as an evaluation of countermeasure acceptability measured in weekly intervals. No statistically significant differences were detected between the three subject groups on the individual assessment timepoints, but the iAG group showed a significant decline in the enjoyment ratings with the repetition of the runs, whereas the cAG group did not (group x time: <italic>β</italic> = 0.251, <italic>p</italic> = 0.01; group: <italic>β</italic> = −5.095, <italic>p</italic> = 0.47; time: <italic>β</italic> = −0.325, <italic>p</italic> &lt; 0.01).</p>
+                <fig position="float" id="F7">
+                  <label>FIGURE 7</label>
+                  <caption>
+                    <p>Average acceptability of the AG countermeasure measured in weekly intervals for the cAG and iAG subject groups (8 subjects per group). Mean ± SD.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g007" position="float"/>
+                </fig>
+                <p>Reported positive effects of centrifugation included stimulation of the legs, relieved back pain, improved digestion, reduced bloating, and increased energy. The reported negative effects of centrifugation largely overlapped with those captured during the clinical evaluation above. Additional reports of discomfort included feeling of warmth, unwellness (e.g., dizziness, nausea, increased heart rate), fatigue, and pressure in the head. Most of these negative comments were clustered towards the later stage of the HDT phase (&gt;HDT28).</p>
+              </sec>
+              <sec id="s3-5">
+                <title>Neurovestibular Symptoms</title>
+                <p>Subjective ratings of the severity of neurovestibular symptoms experienced upon re-ambulation were collected at the end of the day on R+0 and R+3. The subjects were presented with the identical questionnaire used by NASA to review the list and severity of neurovestibular symptoms experienced by crewmembers upon returning from space (<xref rid="B32" ref-type="bibr">Richards et al., 2002</xref>). The questionnaire included a list of 14 potential symptoms that the subjects were asked to rate on a scale from 0 to three according to their severity (0 = none; 1 = mild, symptom awareness; 2 = moderate, symptom present, no performance impact; 3 = severe, symptom present and interferes with performance). Symptoms were off balance, feel abnormally heavy, problems when making rapid head movements, clumsiness, dizziness, difficulty turning corners, motion illusions, sweating, nausea, stomach awareness, malaise/sluggishness, disorientation, vomiting, and dry heaves. A composite Re-adaptation Symptom Severity (RSS) score was tabulated as the sum of the scores for the 14 items.</p>
+                <p>The rate of change in the RSS scores between R+0 and R+3 was not significantly different for the three subject groups (group x time: <italic>F</italic> = 1.306, <italic>p</italic> = 0.292; group: <italic>F</italic> = 4.049, <italic>p</italic> = 0.026; time: <italic>F</italic> = 51.561, <italic>p</italic> &lt; 0.001) (<xref rid="F8" ref-type="fig">Figure 8A</xref>). All but one participant (iAG, m) reported neurovestibular effects on R+0. A significant difference in the RSS scores among the three experimental groups was only detected at R+3 [<italic>F</italic> (2, 19) = 4.180, <italic>p</italic> &lt; 0.031, partial η<sup>2</sup> = 0.306]. A pair-wise <italic>post hoc</italic> test revealed that the RSS score was significantly higher in the Ctrl group than in the iAG group (Bonferroni corrected <italic>p</italic> = 0.03) on R+3.</p>
+                <fig position="float" id="F8">
+                  <label>FIGURE 8</label>
+                  <caption>
+                    <p><bold>(A)</bold>. Mean ± SD of the composite Readaptation Symptom Severity (RSS) scores in the three subject groups on R+0 and R+3. <bold>(B)</bold>. RSS sub-scores in the three subject groups for neurovestibular and other symptoms on R+0.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-976926-g008" position="float"/>
+                </fig>
+                <p><xref rid="F8" ref-type="fig">Figure 8B</xref> shows the RSS scores collected for each neurovestibular symptom on R+0 for each of the three subject groups. Other symptoms were also reported, such as muscle and joint pain in the back and lower extremities, swollen ankles, difficulty concentrating, and short-term memory lapse.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="s4">
+              <title>Discussion</title>
+              <sec id="s4-1">
+                <title>Lessons learned from artificial gravity bed rest study with the european space agency</title>
+                <p>AGBRESA was the most complex integrated bed rest study conducted in a joint effort by NASA, ESA, and the DLR to date. Implementation of strict HDT, diet, test timing, and test constraints were well controlled throughout the study. This standardization of the study platform enables comparison of the countermeasure efficacy among bed rest studies. A good example of this capability is the following. In 2017, DLR hosted the Vision Impairment and Intracranial Pressure and Psychological:envihab Research (VaPER) study, which assessed the effects of 30-days HDT bed rest combined with elevated ambient CO<sub>2</sub> levels. VaPER was the first spaceflight-analog study in which nearly half of the participants developed ocular changes akin to the Spaceflight Associated Neuro-ocular Syndrome (SANS) (<xref rid="B23" ref-type="bibr">Laurie et al., 2019</xref>). SANS is observed in approximately one third of astronauts after long-duration missions (<xref rid="B26" ref-type="bibr">Lee et al., 2016</xref>). However, the absence of head pillows during bed rest was also introduced during the VaPER study, which could have potentially exacerbated cephalad fluid shift. Consequently, the effects of elevated CO<sub>2</sub> exposure on SANS during the VaPER study were inconclusive (<xref rid="B24" ref-type="bibr">Lawley et al., 2017</xref>; <xref rid="B1" ref-type="bibr">Clément et al., 2022</xref>). Because no pillows were used during the AGBRESA study, the control subjects who were not exposed to AG can serve as a reference group for the VaPER study, and disentangle the effect of elevated ambient CO<sub>2</sub> from effects due to strict HDT bed rest. No subject in the AGBRESA control group showed signs of SANS, suggesting that the elevated CO<sub>2</sub> exposure could have be responsible for the development of ocular changes in some of the VaPER subjects (<xref rid="B22" ref-type="bibr">Laurie et al., 2021</xref>).</p>
+                <p>The 60-days bed rest phase of AGBRESA was intended to extend and complement knowledge gained from the previous four- to 21-days AG bed rest studies (<xref rid="B38" ref-type="bibr">Yajima et al., 1994</xref>; <xref rid="B18" ref-type="bibr">Iwasaki et al., 1998</xref>; <xref rid="B19" ref-type="bibr">Iwase, 2005</xref>; <xref rid="B27" ref-type="bibr">Linnarsson et al., 2015</xref>). Indeed, a longer bed rest phase enables the efficacy of AG to be evaluated on bone, muscle structure and strength, and sensorimotor deconditioning, which are more pronounced during longer durations of HDT bed rest. Additionally, in AGBRESA, the participants rated the acceptability of the various AG interventions. These responses had not been assessed in prior AG bed rest studies but are essential for the success of exploration-type space missions. Moreover, in contrast to the previous AG bed rest studies, which were conducted exclusively in men, AGBRESA was designed to have equal sex representation.</p>
+                <p>AGBRESA demonstrated that strict HDT bedrest (i.e., no pillow usage) combined with daily 30-min supine centrifugation was reasonably well accepted by the participants for 60 consecutive days. Overall, the iAG protocol had a higher completion rate and had comparable or more physical benefits than the cAG protocol. However, subjects experienced less time in the HDT position in the iAG protocol than in the cAG protocols (iAG subjects were kept in the horizontal position between consecutive centrifugation runs), which could have contributed the increased physical benefits in the iAG protocol. Nevertheless, the subjective acceptability of the iAG protocol significantly decreased over the course of 60 days.</p>
+                <p>Critical parameters for the trade-off between AG acceptability and effectiveness are duration of AG exposure and AG intensity (<xref rid="B2" ref-type="bibr">Clément, 2017</xref>). The AGBRESA design included daily 30-min centrifugation that induced 1 Gz at the CoM, which was well tolerated by the participants. A factor in this acceptability was presumably the engagement of prophylactic skeletal muscle pumps during the AG intervention to prevent presyncope. Additionally, familiarization sessions conducted during both the recruitment process and the BDC phase may have accounted for the high completion rate of the AG countermeasure. By contrast, invasive experimental procedures (e.g., muscle biopsy, microdialysis) performed on the lower extremities often led to pain during centrifugation, compromising the subject’s muscle pump performance against orthostatic intolerance. Thus, in future AG protocols, careful considerations with regards to pain management and coaching of muscle pumps should be made when invasive experiments on the lower extremities are combined with supine centrifugation.</p>
+                <p>AGBRESA experiments were integrated to avoid confounding factors and to accommodate constraints such as food intake, activity, and the time of the day of each measure. The R+0 schedule minimized redundant examinations and increased test validity while reducing risk of injuries. Still, the test schedule on R+0 was extremely packed and not all tests were completed by all subjects, mainly due to the subjects’ limited physical capacity. Performance on tests administered later in the day was complicated by fatigue and muscular pain associated with re-ambulation and physical exertion following prolonged restricted mobility. This resulted in several injuries (e.g., knee and ankle joint injury from landing during jumping), which in turn affected the following R+ phase testing, reconditioning, and eventually recovery in these subjects. To support test performance on R+0, sufficient rest time must be implemented between experiments to allow the subjects to recuperate from physical and psychological exhaustion. Sharing data between studies would reduce redundant testing of near-identical measures with unique setups on R+0. In addition, experiments requiring high acceleration loads on the lower body, such as treadmill running and drop jump tests, should be avoided on the day of re-ambulation. Moreover, experiments that are known to have a steep learning curve should be shortened with minimal repetitions.</p>
+                <p>Maintaining the physical and psychological health of bed rest subjects is imperative for subject safety and for successful completion of the study. We recommend conducting consistent safety tests and long-term follow-up measures such as those implemented in AGBRESA to keep the subjects safe and to monitor their recovery. When the head position is strictly controlled, such as during strict HDT, subjects experience more incidences of vertigo while being transported than subjects of previous bed rest studies. If an additional baseline measurement of neurovestibular symptoms is included, this would allow pre-to post-bed rest change in susceptibility to be assessed, expanding the utility of the measure beyond just evaluation the re-adaptation syndrome. Some participants experienced adverse reactions such as persistent severe vertigo or difficulties linked to food consumption early in the HDT phase that were are particularly challenging for them. Effective preventive measures, such as maneuvers for alleviating positional vertigo with minimal disruption of the HDT effect, and new strategies to manage difficulties with food and fluid intake while maintaining comparability between studies, are needed. Finally, bed rest participants are confined to bed, with limited autonomy over their schedule, isolated from their home and community, and deprived of privacy and customary amenities (<xref rid="B16" ref-type="bibr">Harrison, 2005</xref>). It is therefore important to conduct sensitivity training sessions with staff and investigators to inform them of the frustrations the participants may experience, and to promote research aimed at understanding the impact of strict HDT bed rest on psychology.</p>
+              </sec>
+              <sec id="s4-2">
+                <title>Study limitations and future directions</title>
+                <p>Due to the high operational cost and the challenging nature of complex bed rest studies, the number of participants is kept to the bare minimum required for addressing primary outcomes. Consequently, the low sample size, in this case 8 subjects per experimental group, may have limited the statistical power to detect relevant effects. We anticipate that data pooling across several bed rest studies, which is possible if standard conditions and procedures are implemented, would alleviate this issue to a certain degree. Further, despite our concentrated effort to engage more women, we could not reach the target of recruiting equal numbers of men and women in the AGBRESA study. As a result, the data suffered from imbalanced sex distribution among the experimental groups, limiting the opportunity to adequately assess potential sex differences in AG efficacy.</p>
+                <p>The AGBRESA AG protocol allowed the subjects to contract their muscles as an anti-gravity straining maneuver. Muscle contraction may have limited the efficacy of the AG countermeasure for some cardiovascular parameters and cephalad fluid shifts implicated in the development of SANS. Muscle pumping actively pushes the venous blood to the heart, increasing preload and stroke volume (<xref rid="B33" ref-type="bibr">Sparks and Rooke, 1987</xref>). This effective reverse of blood flow may have partially negated the targeted caudal fluid shift induced by centrifugation. Moreover, the high central blood volume maintained through muscle pumping may have interrupted the protective process necessary to halt plasma volume loss, which was expected to be triggered by a temporary decrease in central blood volume with centrifugation. Passive centrifugation (i.e., without activation muscle pumping) may potentially be more effective in counteracting adverse effects of headward fluid shifts and loss of plasma volume (<xref rid="B14" ref-type="bibr">Goswami et al., 2015</xref>). However, passive centrifugation could result in more frequent AG interruptions, which would make it difficult to compare the effects of cAG and iAG. Future studies need to take into consideration this trade-off when establishing the AG protocol to evaluate AG efficacy.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors wish to gratefully acknowledge the bed rest participants who volunteered their time, without whom this project would not have been possible. We also thank the AGBRESA study staff for their dedicated work and tireless effort. We thankfully acknowledge all the AGBRESA research assistants for their contribution. We also thank Dr. Bernd Johannes for statistical consultation and Kerry George for editing the manuscript.</p>
+            </ack>
+            <sec sec-type="data-availability" id="s5">
+              <title>Data availability statement</title>
+              <p>The raw data supporting the conclusion of this article will be made available by the authors, without undue reservation.</p>
+            </sec>
+            <sec id="s6">
+              <title>Ethics statement</title>
+              <p>The studies involving human participants were reviewed and approved by NASA Houston Northern Rhine Medical Association Federal Office for Radiation Protection. The patients/participants provided their written informed consent to participate in this study.</p>
+            </sec>
+            <sec id="s7">
+              <title>Author contributions</title>
+              <p>Study Design: JR, GC, and EM; provision of operational and clinical outcomes: AN (subject enrollment), WD (standard conditions), PF-M and OH (nutrition), TF and AN (countermeasure), FP and LL (medical supervision), CS (ocular safety measure); manuscript drafting: EM and GC; funding acquisition and senior author: EM. All authors participated in revision of the manuscript.</p>
+            </sec>
+            <sec id="s8">
+              <title>Funding</title>
+              <p>The study was funded by the German Aerospace Center, the European Space Agency (Contract Number 4000113871/15/NL/PG) and the National Aeronautics and Space Administration (Contract Number 80JSC018P0078), and performed at the:envihab research facility of the DLR Institute of Aerospace Medicine.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="s9">
+              <title>Conflict of interest</title>
+              <p>Author GC was employed by the company KBR.</p>
+              <p>The remaining authors declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+            <sec sec-type="disclaimer" id="s10">
+              <title>Publisher’s note</title>
+              <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+            </sec>
+            <sec id="s11">
+              <title>Supplementary material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fphys.2022.976926/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fphys.2022.976926/full#supplementary-material</ext-link>
+</p>
+              <supplementary-material id="SM1" position="float" content-type="local-data">
+                <media xlink:href="Table1.DOCX">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clément</surname><given-names>G.</given-names></name><name><surname>Crucian</surname><given-names>B.</given-names></name><name><surname>Downs</surname><given-names>M.</given-names></name><name><surname>Krieger</surname><given-names>S.</given-names></name><name><surname>Laurie</surname><given-names>S.</given-names></name><name><surname>Lee</surname><given-names>S. M.</given-names></name><etal/></person-group> (<year>2022</year>). <article-title>International standard measures during the VaPER bed rest study</article-title>. <source>Acta Astronaut.</source>
+<volume>190</volume>, <fpage>208</fpage>–<lpage>217</lpage>. <pub-id pub-id-type="doi">10.1016/j.actaastro.2021.10.017</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clément</surname><given-names>G.</given-names></name></person-group> (<year>2017</year>). <article-title>International roadmap for artificial gravity research</article-title>. <source>npj Microgravity</source>
+<volume>3</volume>, <fpage>29</fpage>. <pub-id pub-id-type="doi">10.1038/s41526-017-0034-8</pub-id>
+<pub-id pub-id-type="pmid">29184903</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clément</surname><given-names>G.</given-names></name><name><surname>Paloski</surname><given-names>W. H.</given-names></name><name><surname>Rittweger</surname><given-names>J.</given-names></name><name><surname>Linnarsson</surname><given-names>D.</given-names></name><name><surname>Bareille</surname><given-names>M. P.</given-names></name><name><surname>Mulder</surname><given-names>E.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>Centrifugation as a countermeasure during bed rest and dry immersion: What has been learned?</article-title>
+<source>J. Musculoskelet. Neuronal Interact.</source>
+<volume>16</volume>, <fpage>84</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="pmid">27282452</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clément</surname><given-names>G.</given-names></name><name><surname>Pavy-Le Traon</surname><given-names>A.</given-names></name><name><surname>PAvy-Le TrAon</surname><given-names>A.</given-names></name></person-group> (<year>2004</year>). <article-title>Centrifugation as a countermeasure during actual and simulated microgravity: A review.</article-title>
+<source>Eur. J. Appl. Physiol.</source>
+<volume>92</volume> (<issue>3</issue>), <fpage>235</fpage>–<lpage>248</lpage>. <pub-id pub-id-type="doi">10.1007/s00421-004-1118-1</pub-id>
+<pub-id pub-id-type="pmid">15156322</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cohen</surname><given-names>H. S.</given-names></name><name><surname>Kimball</surname><given-names>K. T.</given-names></name><name><surname>Mulavara</surname><given-names>A. P.</given-names></name><name><surname>Bloomberg</surname><given-names>J. J.</given-names></name><name><surname>Paloski</surname><given-names>W. H.</given-names></name></person-group> (<year>2012</year>). <article-title>Posturography and locomotor tests of dynamic balance after long-duration spaceflight</article-title>. <source>J. Vestib. Res.</source>
+<volume>22</volume> (<issue>4</issue>), <fpage>191</fpage>–<lpage>196</lpage>. <pub-id pub-id-type="doi">10.3233/VES-2012-0456</pub-id>
+<pub-id pub-id-type="pmid">23142833</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Costa</surname><given-names>P. T.</given-names></name><name><surname>McCrae</surname><given-names>R. R.</given-names></name></person-group> (<year>1992</year>). <source>Revised NEO personality inventory (NEO-PI-R) and NEO five-factor inventory (NEO-FFI) professional manual</source>. <publisher-loc>Odessa, FL</publisher-loc>: <publisher-name>Psychological Assessment Resources</publisher-name>. </mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Debuse</surname><given-names>D.</given-names></name><name><surname>Birch</surname><given-names>O.</given-names></name><name><surname>St Clair Gibson</surname><given-names>A.</given-names></name><name><surname>Caplanm</surname><given-names>N.</given-names></name></person-group> (<year>2013</year>). <article-title>Low impact weight-bearing exercise in an upright posture increases the activation of two key local muscles of the lumbo-pelvic region</article-title>. <source>Physiother. Theory Pract.</source>
+<volume>29</volume> (<issue>1</issue>), <fpage>51</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.3109/09593985.2012.698718</pub-id>
+<pub-id pub-id-type="pmid">22789062</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Edgerton</surname><given-names>V. R.</given-names></name><name><surname>Roy</surname><given-names>R. R.</given-names></name></person-group> (<year>1994</year>). <article-title>Neuromuscular adaptation to actual and simulated weightlessness</article-title>. <source>Adv. Space Biol. Med.</source>
+<volume>4</volume>, <fpage>33</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1016/s1569-2574(08)60134-3</pub-id>
+<pub-id pub-id-type="pmid">7757253</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Fahrenberg</surname><given-names>J.</given-names></name><name><surname>Hampel</surname><given-names>R.</given-names></name><name><surname>Selg</surname><given-names>H.</given-names></name></person-group> (<year>2021</year>). <source>Freiburg Personality Inventory FPI-R. Primary data from the standardization sample 2018</source>. <edition>9th Edition</edition>. <publisher-loc>Trier, Germany</publisher-loc>: <publisher-name>ZPID Leibniz Institute for psychology</publisher-name>. </mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Frett</surname><given-names>T.</given-names></name><name><surname>Green</surname><given-names>A. D.</given-names></name><name><surname>Mulder</surname><given-names>E.</given-names></name><name><surname>Noppe</surname><given-names>A.</given-names></name><name><surname>Arz</surname><given-names>M.</given-names></name><name><surname>Pustowalow</surname><given-names>W.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Tolerability of daily intermittent or continuous short-arm centrifugation during 60-day 6o head down bed rest (AGBRESA study)</article-title>. <source>PLoS ONE</source>
+<volume>15</volume> (<issue>9</issue>), <fpage>e0239228</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0239228</pub-id>
+<pub-id pub-id-type="pmid">32946482</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Frisén</surname><given-names>L.</given-names></name></person-group> (<year>1982</year>). <article-title>Swelling of the optic nerve head: A staging scheme</article-title>. <source>J. Neurol. Neurosurg. Psychiatry</source>
+<volume>45</volume> (<issue>1</issue>), <fpage>13</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1136/jnnp.45.1.13</pub-id>
+<pub-id pub-id-type="pmid">7062066</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="webpage"><person-group person-group-type="author"><name><surname>Gambino</surname><given-names>S.</given-names></name><name><surname>Mirochnik</surname><given-names>M.</given-names></name><name><surname>Schechter</surname><given-names>S.</given-names></name></person-group> (<year>2006</year>). <article-title>Center of mass of a human. The physics factbook</article-title>
+<comment>. <ext-link xlink:href="http://hypertextbook.com/facts/2006/centerofmass.shtml" ext-link-type="uri">http://hypertextbook.com/facts/2006/centerofmass.shtml</ext-link> (Accessed November 20, 2014)</comment>. </mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Golding</surname><given-names>J. F.</given-names></name></person-group> (<year>2006</year>). <article-title>Predicting individual differences in motion sickness susceptibility by questionnaire</article-title>. <source>Pers. Individ. Dif.</source>
+<volume>41</volume> (<issue>2</issue>), <fpage>237</fpage>–<lpage>248</lpage>. <pub-id pub-id-type="doi">10.1016/j.paid.2006.01.012</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goswami</surname><given-names>N.</given-names></name><name><surname>Evans</surname><given-names>J.</given-names></name><name><surname>Schneider</surname><given-names>S.</given-names></name><name><surname>von der Wiesche</surname><given-names>M.</given-names></name><name><surname>Mulder</surname><given-names>E.</given-names></name><name><surname>Rössler</surname><given-names>A.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Effects of individualized centrifugation training on orthostatic tolerance in men and women</article-title>. <source>PLoS One</source>
+<volume>10</volume>, <fpage>e0125780</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0125780</pub-id>
+<pub-id pub-id-type="pmid">26020542</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hargens</surname><given-names>A. R.</given-names></name><name><surname>Vico</surname><given-names>L.</given-names></name></person-group> (<year>2016</year>). <article-title>Long-duration bed rest as an analog to microgravity</article-title>. <source>J. Appl. Physiol.</source>
+<volume>120</volume> (<issue>8</issue>), <fpage>891</fpage>–<lpage>903</lpage>. <pub-id pub-id-type="doi">10.1152/japplphysiol.00935.2015</pub-id>
+<pub-id pub-id-type="pmid">26893033</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Harrison</surname><given-names>A. A.</given-names></name></person-group> (<year>2005</year>). <article-title>Behavioral health: Integrating research and application in support of exploration missions</article-title>. <source>Aviat. Space Environ. Med.</source>
+<volume>76</volume> (<issue>6</issue>), <fpage>B3</fpage>–<lpage>B12</lpage>. <pub-id pub-id-type="pmid">15943189</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Herbert</surname><given-names>M. E.</given-names></name><name><surname>Roy</surname><given-names>R. R.</given-names></name><name><surname>Edgerton</surname><given-names>V. R.</given-names></name></person-group> (<year>1988</year>). <article-title>Influence of one-week hindlimb suspension and intermittent high load exercise on rat muscles</article-title>. <source>Exp. Neurol.</source>
+<volume>102</volume> (<issue>2</issue>), <fpage>190</fpage>–<lpage>198</lpage>. <pub-id pub-id-type="doi">10.1016/0014-4886(88)90093-3</pub-id>
+<pub-id pub-id-type="pmid">3181357</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Iwasaki</surname><given-names>K.</given-names></name><name><surname>Hirayanagi</surname><given-names>K. I.</given-names></name><name><surname>Sasaki</surname><given-names>T.</given-names></name><name><surname>Kinoue</surname><given-names>T.</given-names></name><name><surname>Ito</surname><given-names>M.</given-names></name><name><surname>Miyamoto</surname><given-names>A.</given-names></name><etal/></person-group> (<year>1998</year>). <article-title>Effects of repeated long duration +2Gz load on man's cardiovascular function</article-title>. <source>Acta Astronaut.</source>
+<volume>42</volume> (<issue>1-8</issue>), <fpage>175</fpage>–<lpage>183</lpage>. <pub-id pub-id-type="doi">10.1016/s0094-5765(98)00115-5</pub-id>
+<pub-id pub-id-type="pmid">11541601</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Iwase</surname><given-names>S.</given-names></name></person-group> (<year>2005</year>). <article-title>Effectiveness of centrifuge-induced artificial gravity with ergometric exercise as a countermeasure during simulated microgravity exposure in humans</article-title>. <source>Acta Astronaut.</source>
+<volume>57</volume>, <fpage>75</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1016/j.actaastro.2005.03.013</pub-id>
+<pub-id pub-id-type="pmid">16010754</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kendzierski</surname><given-names>D.</given-names></name><name><surname>DeCarlo</surname><given-names>K. J.</given-names></name></person-group> (<year>1991</year>). <article-title>Physical activity enjoyment scale: Two validation studies</article-title>. <source>J. Sport Exerc. Psychol.</source>
+<volume>13</volume> (<issue>1</issue>), <fpage>50</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1123/jsep.13.1.50</pub-id>
+</mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kramer</surname><given-names>A.</given-names></name><name><surname>Venegas-Carro</surname><given-names>M.</given-names></name><name><surname>Mulder</surname><given-names>E.</given-names></name><name><surname>Lee</surname><given-names>J. K.</given-names></name><name><surname>Moreno-Villanueva</surname><given-names>M.</given-names></name><name><surname>Gruber</surname><given-names>M.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Cardiorespiratory and neuromuscular demand of daily centrifugation: Results from the 60-day AGBRESA bed rest study</article-title>. <source>Front. Physiol.</source>
+<volume>11</volume>, <fpage>562377</fpage>. <pub-id pub-id-type="doi">10.3389/fphys.2020.562377</pub-id>
+<pub-id pub-id-type="pmid">33041861</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Laurie</surname><given-names>S. S.</given-names></name><name><surname>Greenwald</surname><given-names>S. H.</given-names></name><name><surname>Marshall-Goebel</surname><given-names>K.</given-names></name><name><surname>Pardon</surname><given-names>L. P.</given-names></name><name><surname>Gupta</surname><given-names>A.</given-names></name><name><surname>Lee</surname><given-names>S. M. C.</given-names></name><etal/></person-group> (<year>2021</year>). <article-title>Optic disc edema and chorioretinal folds develop during strict 6° head-down tilt bed rest with or without artificial gravity</article-title>. <source>Physiol. Rep.</source>
+<volume>9</volume>, <fpage>e14977</fpage>. <pub-id pub-id-type="doi">10.14814/phy2.14977</pub-id>
+<pub-id pub-id-type="pmid">34355874</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Laurie</surname><given-names>S. S.</given-names></name><name><surname>Macias</surname><given-names>B. R.</given-names></name><name><surname>Dunn</surname><given-names>J. T.</given-names></name><name><surname>Young</surname><given-names>M.</given-names></name><name><surname>Stern</surname><given-names>C.</given-names></name><name><surname>Lee</surname><given-names>S. M.</given-names></name><etal/></person-group> (<year>2019</year>). <article-title>Optic disc edema after 30 days of strict head-down tilt bed rest</article-title>. <source>Ophthalmology</source>
+<volume>126</volume>, <fpage>467</fpage>–<lpage>468</lpage>. <pub-id pub-id-type="doi">10.1016/j.ophtha.2018.09.042</pub-id>
+<pub-id pub-id-type="pmid">30308219</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lawley</surname><given-names>J. S.</given-names></name><name><surname>Petersen</surname><given-names>L. G.</given-names></name><name><surname>Howden</surname><given-names>E. J.</given-names></name><name><surname>Sarma</surname><given-names>S.</given-names></name><name><surname>Cornwell</surname><given-names>W. K.</given-names></name><name><surname>Zhang</surname><given-names>R.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Effect of gravity and microgravity on intracranial pressure</article-title>. <source>J. Physiol.</source>
+<volume>595</volume> (<issue>6</issue>), <fpage>2115</fpage>–<lpage>2127</lpage>. <pub-id pub-id-type="doi">10.1113/JP273557</pub-id>
+<pub-id pub-id-type="pmid">28092926</pub-id></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>LeBlanc</surname><given-names>A. D.</given-names></name><name><surname>Spector</surname><given-names>E. R.</given-names></name><name><surname>Evans</surname><given-names>H. J.</given-names></name><name><surname>Sibonga</surname><given-names>J. D.</given-names></name></person-group> (<year>2007</year>). <article-title>Skeletal responses to space flight and the bed rest analog: A review</article-title>. <source>J. Musculoskelet. Neuronal Interact.</source>
+<volume>7</volume> (<issue>1</issue>), <fpage>33</fpage>–<lpage>47</lpage>. <pub-id pub-id-type="pmid">17396004</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>A. G.</given-names></name><name><surname>Tarver</surname><given-names>W. J.</given-names></name><name><surname>Mader</surname><given-names>T. H.</given-names></name><name><surname>Gibson</surname><given-names>C. R.</given-names></name><name><surname>Hart</surname><given-names>S. F.</given-names></name><name><surname>Otto</surname><given-names>C. A.</given-names></name></person-group> (<year>2016</year>). <article-title>Neuro-ophthalmology of space flight</article-title>. <source>J. Neuroophthalmol.</source>
+<volume>36</volume> (<issue>1</issue>), <fpage>85</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1097/WNO.0000000000000334</pub-id>
+<pub-id pub-id-type="pmid">26828842</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Linnarsson</surname><given-names>D.</given-names></name><name><surname>Hughson</surname><given-names>R. L.</given-names></name><name><surname>Fraser</surname><given-names>K. S.</given-names></name><name><surname>Clément</surname><given-names>G.</given-names></name><name><surname>Karlsson</surname><given-names>L. L.</given-names></name><name><surname>Mulder</surname><given-names>E.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Effects of an artificial gravity countermeasure on orthostatic tolerance, blood volumes and aerobic power after short-term bed rest (BR-AG1)</article-title>. <source>J. Appl. Physiol.</source>
+<volume>118</volume> (<issue>1</issue>), <fpage>29</fpage>–<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1152/japplphysiol.00061.2014</pub-id>
+<pub-id pub-id-type="pmid">25342708</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mader</surname><given-names>T. H.</given-names></name><name><surname>Gibson</surname><given-names>C. R.</given-names></name><name><surname>Pass</surname><given-names>A. F.</given-names></name><name><surname>Kramer</surname><given-names>L. K.</given-names></name><name><surname>Lee</surname><given-names>A. G.</given-names></name><name><surname>Fogarty</surname><given-names>J.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>Optic disc edema, globe flattening, choroidal folds, and hyperopic shifts observed in astronauts after long-duration space flight</article-title>. <source>Ophthalmology</source>
+<volume>118</volume>, <fpage>2058</fpage>–<lpage>2069</lpage>. <pub-id pub-id-type="doi">10.1016/j.ophtha.2011.06.021</pub-id>
+<pub-id pub-id-type="pmid">21849212</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Maschke</surname><given-names>P.</given-names></name></person-group> (<year>1987</year>). <source>Temperament-structure scales (TSS), test manual</source>. <comment>National Technical Reports Library. <ext-link xlink:href="https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/N8817197.xhtml" ext-link-type="uri">https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/N8817197.xhtml</ext-link>.</comment>
+</mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Meck</surname><given-names>J. V.</given-names></name><name><surname>Reyes</surname><given-names>C. J.</given-names></name><name><surname>Perez</surname><given-names>S. A.</given-names></name><name><surname>Goldberger</surname><given-names>A. L.</given-names></name><name><surname>Ziegler</surname><given-names>M. G.</given-names></name></person-group> (<year>2001</year>). <article-title>Marked exacerbation of orthostatic intolerance after long-vs. short-duration spaceflight in veteran astronauts</article-title>. <source>Psychosom. Med.</source>
+<volume>63</volume> (<issue>6</issue>), <fpage>865</fpage>–<lpage>873</lpage>. <pub-id pub-id-type="doi">10.1097/00006842-200111000-00003</pub-id>
+<pub-id pub-id-type="pmid">11719623</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Platts</surname><given-names>S. H.</given-names></name><name><surname>Martin</surname><given-names>D. S.</given-names></name><name><surname>Stenger</surname><given-names>M. B.</given-names></name><name><surname>Perez</surname><given-names>S. A.</given-names></name><name><surname>Ribeiro</surname><given-names>L. C.</given-names></name><name><surname>Summers</surname><given-names>R.</given-names></name><etal/></person-group> (<year>2009</year>). <article-title>Cardiovascular adaptations to long-duration head-down bed rest</article-title>. <source>Aviat. Space Environ. Med.</source>
+<volume>80</volume> (<issue>5</issue>), <fpage>A29</fpage>–<lpage>A36</lpage>. <pub-id pub-id-type="doi">10.3357/asem.br03.2009</pub-id>
+<pub-id pub-id-type="pmid">19476167</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Richards</surname><given-names>J. T.</given-names></name><name><surname>Clark</surname><given-names>J. B.</given-names></name><name><surname>Oman</surname><given-names>C. M.</given-names></name><name><surname>Marshburn</surname><given-names>T. H.</given-names></name></person-group> (<year>2002</year>). <source>Neurovestibular effects of long-duration spaceflight: A summary of MIR-phase 1 experiences</source>. <publisher-loc>Houston, TX</publisher-loc>: <publisher-name>NASA Johnson Space Center</publisher-name>. </mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Sparks</surname><given-names>H. V.</given-names></name><name><surname>Rooke</surname><given-names>T. W.</given-names></name></person-group> (<year>1987</year>). <source>Essentials of cardiovascular Physiology</source>. <publisher-loc>Minneapolis</publisher-loc>: <publisher-name>University of Minnesota Press</publisher-name>. </mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stenger</surname><given-names>M. B.</given-names></name><name><surname>Evans</surname><given-names>J. M.</given-names></name><name><surname>Knapp</surname><given-names>C. F.</given-names></name><name><surname>Lee</surname><given-names>S. M.</given-names></name><name><surname>Phillips</surname><given-names>T. R.</given-names></name><name><surname>Perez</surname><given-names>S. A.</given-names></name><etal/></person-group> (<year>2012</year>). <article-title>Artificial gravity training reduces bed rest-induced cardiovascular deconditioning</article-title>. <source>Eur. J. Appl. Physiol.</source>
+<volume>112</volume> (<issue>2</issue>), <fpage>605</fpage>–<lpage>616</lpage>. <pub-id pub-id-type="doi">10.1007/s00421-011-2005-1</pub-id>
+<pub-id pub-id-type="pmid">21626041</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sundblad</surname><given-names>P.</given-names></name><name><surname>Orlov</surname><given-names>O.</given-names></name><name><surname>Angerer</surname><given-names>O.</given-names></name><name><surname>Larina</surname><given-names>I.</given-names></name><name><surname>Cromwell</surname><given-names>R.</given-names></name></person-group> (<year>2016</year>). <article-title>Standardization of bed rest studies in the spaceflight context</article-title>. <source>J. Appl. Physiol.</source>
+<volume>121</volume>, <fpage>348</fpage>–<lpage>349</lpage>. <pub-id pub-id-type="doi">10.1152/japplphysiol.00089.2016</pub-id>
+<pub-id pub-id-type="pmid">26917693</pub-id></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Sundblad</surname><given-names>P.</given-names></name><name><surname>Orlov</surname><given-names>O.</given-names></name></person-group> (<year>2014</year>). <source>Guidelines for standardization of bed rest studies in the spaceflight context</source>. <publisher-loc>Paris</publisher-loc>: <publisher-name>International Academy of Astronautics</publisher-name>. </mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vernikos</surname><given-names>J.</given-names></name><name><surname>Ludwig</surname><given-names>D. A.</given-names></name><name><surname>Ertl</surname><given-names>A. C.</given-names></name><name><surname>Wade</surname><given-names>C. E.</given-names></name><name><surname>Keil</surname><given-names>L.</given-names></name><name><surname>O'Hara</surname><given-names>D.</given-names></name></person-group> (<year>1996</year>). <article-title>Effect of standing or walking on physiological changes induced by head down bed rest: Implications for spaceflight</article-title>. <source>Aviat. Space Environ. Med.</source>
+<volume>67</volume> (<issue>11</issue>), <fpage>1069</fpage>–<lpage>1079</lpage>. <pub-id pub-id-type="pmid">8908346</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yajima</surname><given-names>K.</given-names></name><name><surname>Miyamoto</surname><given-names>A.</given-names></name><name><surname>Ito</surname><given-names>M.</given-names></name><name><surname>Maru</surname><given-names>R.</given-names></name><name><surname>Maeda</surname><given-names>T.</given-names></name><name><surname>Sanada</surname><given-names>E.</given-names></name><etal/></person-group> (<year>1994</year>). <article-title>Human cardiovascular and vestibular responses in long minutes and low +Gz loading by short arm centrifuge</article-title>. <source>Acta Astronaut.</source>
+<volume>33</volume>, <fpage>239</fpage>–<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1016/0094-5765(94)90131-7</pub-id>
+<pub-id pub-id-type="pmid">11539528</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

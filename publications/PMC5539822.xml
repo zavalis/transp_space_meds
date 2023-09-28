@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:00:31Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5539822" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:5539822</identifier>
+        <datestamp>2017-08-11</datestamp>
+        <setSpec>sensors</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sensors (Basel)</journal-id>
+              <journal-id journal-id-type="publisher-id">sensors</journal-id>
+              <journal-title-group>
+                <journal-title>Sensors (Basel, Switzerland)</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1424-8220</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC5539822</article-id>
+              <article-id pub-id-type="pmcid">PMC5539822</article-id>
+              <article-id pub-id-type="pmc-uid">5539822</article-id>
+              <article-id pub-id-type="pmid">28684724</article-id>
+              <article-id pub-id-type="doi">10.3390/s17071583</article-id>
+              <article-id pub-id-type="publisher-id">sensors-17-01583</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>GNSS-R Altimetry Performance Analysis for the GEROS Experiment on Board the International Space Station</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9514-4992</contrib-id>
+                  <name>
+                    <surname>Camps</surname>
+                    <given-names>Adriano</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-17-01583">1</xref>
+                  <xref ref-type="aff" rid="af2-sensors-17-01583">2</xref>
+                  <xref rid="c1-sensors-17-01583" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0031-0802</contrib-id>
+                  <name>
+                    <surname>Park</surname>
+                    <given-names>Hyuk</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-17-01583">1</xref>
+                  <xref ref-type="aff" rid="af2-sensors-17-01583">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sekulic</surname>
+                    <given-names>Ivan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-17-01583">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0606-5422</contrib-id>
+                  <name>
+                    <surname>Rius</surname>
+                    <given-names>Juan Manuel</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-sensors-17-01583">1</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-sensors-17-01583"><label>1</label>CommSensLab, Unidad de Excelencia María de Maeztu, Department of Signal Theory and Communications, Universitat Politècnica de Catalunya, E-08034 Barcelona, Spain; <email>park.hyuk@tsc.upc.edu</email> (H.P.); <email>ivan.sekulic@tsc.upc.edu</email> (I.S.); <email>rius@tsc.upc.edu</email> (J.M.R.)</aff>
+              <aff id="af2-sensors-17-01583"><label>2</label>Institut d’Estudis Espacial de Catalunya/Centre de Tecnologies Espacials-Universitat Politècnica de Catalunya, UPC Campus Nord, E-08034 Barcelona, Spain</aff>
+              <author-notes>
+                <corresp id="c1-sensors-17-01583"><label>*</label>Correspondence: <email>camps@tsc.upc.edu</email>; Tel.: +34-934-054-153</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>06</day>
+                <month>7</month>
+                <year>2017</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>7</month>
+                <year>2017</year>
+              </pub-date>
+              <volume>17</volume>
+              <issue>7</issue>
+              <elocation-id>1583</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>11</day>
+                  <month>5</month>
+                  <year>2017</year>
+                </date>
+                <date date-type="accepted">
+                  <day>03</day>
+                  <month>7</month>
+                  <year>2017</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2017 by the authors.</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The GEROS-ISS (GNSS rEflectometry, Radio Occultation and Scatterometry onboard International Space Station) is an innovative experiment for climate research, proposed in 2011 within a call of the European Space Agency (ESA). This proposal was the only one selected for further studies by ESA out of ~25 ones that were submitted. In this work, the instrument performance for the near-nadir altimetry (GNSS-R) mode is assessed, including the effects of multi-path in the ISS structure, the electromagnetic-bias, and the orbital height decay. In the absence of ionospheric scintillations, the altimetry rms error is &lt;50 cm for a swath &lt;~250 km and for U<sub>10</sub> &lt;10 m/s. If the transmitted power is 3 dB higher (likely to happen at beginning of life of the GNSS spacecrafts), mission requirements (rms error is &lt;50 cm) are met for all ISS heights and for U<sub>10</sub> up to 15 m/s. However, around 1.5 GHz, the ionosphere can induce significant fading, from 2 to &gt;20 dB at equatorial regions, mainly after sunset, which will seriously degrade the altimetry and the scatterometry performances of the instrument.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>GNSS-R</kwd>
+                <kwd>altimetry</kwd>
+                <kwd>error budget</kwd>
+                <kwd>ionosphere</kwd>
+                <kwd>scintillations</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="sec1-sensors-17-01583">
+              <title>1. Introduction</title>
+              <p>This manuscript presents an analysis of the altimetry performance of GEROS-ISS: a future space borne GNSS-R (Global Navigation Satellite System Reflectometry) experiment onboard the Columbus module of the International Space Station. GNSS-R is a relatively novel technique that uses navigation signals as signals of opportunity in a sort of bistatic radar. Scatterometry observations can be performed by comparing the power of the left hand circularly polarized direct signal, and the (mostly) right hand circularly polarized reflected one. Altimetry observations can be performed by comparing the differential time of arrival between the reflected and the direct signals. The precise measurement of this delay is affected by instrument errors, but by errors in the platform itself (varying orbital height and multipath), by ionospheric effects and surface scattering mechanisms. This work summarizes the results of the altimetry error budget carried out during one of the two Phase A studies of GEROS-ISS.</p>
+              <sec id="sec1dot1-sensors-17-01583">
+                <title>1.1. The Mission</title>
+                <p>The main goal of the GEROS-ISS (GNSS rEflectometry, Radio Occultation and Scatterometry onboard International Space Station) [<xref rid="B1-sensors-17-01583" ref-type="bibr">1</xref>] is to demonstrate the capabilities of GNSS remote sensing to derive geophysical parameters of ocean, ice and land surfaces. “The main mission objectives of GEROS are (in order of priority):
+<list list-type="bullet"><list-item><p>To measure and map altimetric sea surface height of the ocean with an accuracy of 30 cm or better (goal: 20 cm) using reflected GNSS signals to allow methodology demonstration, establishment of error budget and resolutions and comparison/synergy with results of satellite based nadir-pointing altimeters. This includes Precise Orbit Determination of the GEROS payload.</p></list-item><list-item><p>To retrieve scalar ocean surface mean square slope (MSS), which is related to sea roughness, wind speed, with a GNSS spaceborne receiver to allow methodology testing, establishment of error budget and resolutions. MSS accuracy should be equivalent to a wind accuracy of 10% or 2 m/s whichever is greater. In addition, 2D MSS (directional MSS, related to wind direction) would be desirable.</p></list-item><list-item><p>To assess the potential of GNSS scatterometry for land applications and in particular to develop products such as soil moisture, vegetation biomass, and mid-latitudes snow/ice properties and to further explore the potential of GNSS radio occultation data (vertical profiles of atmospheric bending angle, refractivity, temperature, pressure, humidity and electron density), particularly in the Tropics, to detect changes in atmospheric temperature and climate relevant parameters (e.g., tropopause height) and to provide additional information for the analysis of the reflectometry data from GEROS” (from [<xref rid="B2-sensors-17-01583" ref-type="bibr">2</xref>]).</p></list-item></list></p>
+                <p>The GEROS-ISS payload will be attached to the Upper Limb Balcony of the Columbus External Payload Facility part of the International Space Station as shown in <xref ref-type="fig" rid="sensors-17-01583-f001">Figure 1</xref>.</p>
+              </sec>
+              <sec id="sec1dot2-sensors-17-01583">
+                <title>1.2. GEROS-ISS: The Payload</title>
+                <p>The GEROS-ISS payload [<xref rid="B2-sensors-17-01583" ref-type="bibr">2</xref>] will collect reflected navigation signals (GPS and Galileo, and eventually Compass and Beidou as well) at left hand circular polarization (LHCP) and right hand circular polarization (RHCP), as well as radio occultation of navigation signals (with a minimum antenna gain =9 dBi) at both RHCP and LHCP. GEROS will be installed in the upper deck of the Columbus module, the European module on board the International Space Station.</p>
+                <p>The GEROS Antenna Beamformer (GAB, see <xref ref-type="fig" rid="sensors-17-01583-f002">Figure 2</xref>) antenna will consist of 2 dual-band multi-beam (4 beams min.) up- and down-looking arrays, mounted back-to-back, and pointing dynamically (from boresight to 77° out-of-boresight), in opposite directions towards the reflection points and their corresponding direct signals. The up- and down-looking antennas will be dual-polarization (RHCP and LHCP, respectively).</p>
+                <p>The GAB will receive and form beams with GPS and Galileo signals at L1/E1 and L5/E5 (including signals from its overlay GEO satellites), and Beidou and Compass signals at B1/C1 and B5/C5. GAB’s noise figure including antenna losses will be smaller than 3.5 dB.</p>
+                <p>The GAB will include dedicated beams for dual-frequency Precise Orbit Determination (POD), conveniently tapered to avoid multipath from nearby structures as much as possible. The calibration-low noise amplifier (CAL-LNA) front-end will be placed in between the up- and down-looking arrays, and will be capable of providing the following antenna outputs at all specified frequencies: RHCP<sub>up</sub> and either LHCP<sub>down</sub> or RHCP<sub>down</sub>, or both RHCP<sub>down</sub> and LHCP<sub>down</sub>. Any signal could be routed to any receiver up to 16 times per second, to synthesize any polarization basis.</p>
+                <p>The main observables generated by the payload will be: (1) near nadir altimetry power waveforms of LHCP GNSS-R signals at the two specified frequency bands, (2) scatterometry, (3) land/cryosphere observables (RHCP and LHCP waveforms interlaced up to 16 times per second [<xref rid="B2-sensors-17-01583" ref-type="bibr">2</xref>]), (4) carrier phase evolution between the direct RHCP and the reflected LHCP signals for grazing angle altimetry, and (5) Radio Occultations and Polarimetric Radio Occultations.</p>
+              </sec>
+            </sec>
+            <sec id="sec2-sensors-17-01583">
+              <title>2. Methodology: Computation of the Altimetry Performance</title>
+              <sec id="sec2dot1-sensors-17-01583">
+                <title>2.1. Basic Instrument Performance</title>
+                <p>The estimation of the altimetry performance in terms of the delay lag <italic>τ<sub>p</sub></italic> of the waveform can be estimated using the Cramér-Rao bound (CRB) (Equation (1)), which is expressed here in the time-domain and discrete form [<xref rid="B3-sensors-17-01583" ref-type="bibr">3</xref>]:<disp-formula id="FD1-sensors-17-01583"><label>(1)</label><mml:math id="mm1"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>≥</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mstyle mathsize="small" displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mrow><mml:mover><mml:mi>C</mml:mi><mml:mo>=</mml:mo></mml:mover></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mi>s</mml:mi><mml:mo>′</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>k</mml:mi><mml:mo>−</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>s</mml:mi><mml:mo>′</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>l</mml:mi><mml:mo>−</mml:mo><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula>
+where <inline-formula><mml:math id="mm2"><mml:mrow><mml:mrow><mml:mover><mml:mi>C</mml:mi><mml:mo>=</mml:mo></mml:mover></mml:mrow></mml:mrow></mml:math></inline-formula> is the covariance matrix of the waveform <inline-formula><mml:math id="mm3"><mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, and <inline-formula><mml:math id="mm4"><mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mo>′</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula> is the waveform’s derivative. In the case of white noise, uncorrelated from sample to sample, the covariance matrix is diagonal, with elements of noise power <inline-formula><mml:math id="mm5"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:math></inline-formula>, and Equation (1) reduces to:<disp-formula id="FD2-sensors-17-01583"><label>(2)</label><mml:math id="mm6"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>≥</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mrow><mml:msub><mml:mstyle mathsize="small" displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:mi>l</mml:mi></mml:msub><mml:msup><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mi>s</mml:mi><mml:mo>′</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                <p>However, noise is not white for all waveform lags, there is some correlation between consecutive lags, and to some extent between consecutive waveforms (even though in space-borne applications it is negligible). Around the waveform peak, speckle noise dominates, degrading more the signal-to-noise ratio (SNR), and the overall performance. A simple formulation to account for the speckle noise and the noise correlation was originally derived in [<xref rid="B4-sensors-17-01583" ref-type="bibr">4</xref>] and then used in [<xref rid="B5-sensors-17-01583" ref-type="bibr">5</xref>,<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>]:<disp-formula id="FD3-sensors-17-01583"><label>(3)</label><mml:math id="mm7"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>≥</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>S</mml:mi><mml:mi>N</mml:mi><mml:mi>R</mml:mi><mml:mo>·</mml:mo><mml:msub><mml:mstyle mathsize="small" displaystyle="true"><mml:mo>∑</mml:mo></mml:mstyle><mml:mi>l</mml:mi></mml:msub><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mover accent="true"><mml:mi mathvariant="normal">s</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mo>′</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula>
+where <inline-formula><mml:math id="mm8"><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mover accent="true"><mml:mo>=</mml:mo><mml:mo>^</mml:mo></mml:mover><mml:msub><mml:mi>N</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mi>f</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, where <italic>N<sub>i</sub></italic> is the number of incoherent averages, and <italic>N<sub>i,eff</sub></italic> (<italic>l</italic>) is the effective number of incoherent averages.</p>
+                <p>If <inline-formula><mml:math id="mm9"><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>l</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>, no speckle, just white thermal noise, the variance of the optimum achievable delay precision is given [<xref rid="B7-sensors-17-01583" ref-type="bibr">7</xref>]:<disp-formula id="FD4-sensors-17-01583"><label>(4)</label><mml:math id="mm10"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>≥</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mi>S</mml:mi><mml:mi>N</mml:mi><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>B</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>·</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:mi>π</mml:mi><mml:mi>β</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>B</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula>
+which depends on the <italic>SNR</italic> and <italic>β</italic> [Hz], the so-called rms or Gabor bandwidth:<disp-formula id="FD5-sensors-17-01583"><label>(5)</label><mml:math id="mm11"><mml:mrow><mml:mrow><mml:msup><mml:mi>β</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mstyle mathsize="small" displaystyle="true"><mml:mo>∫</mml:mo></mml:mstyle><mml:msup><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mstyle mathsize="small" displaystyle="true"><mml:mo>∫</mml:mo></mml:mstyle><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula>
+being <inline-formula><mml:math id="mm12"><mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> the spectrum of the signal, including the effect of the frequency responses of the transmitter and receiver. In Equation (4), it has been made explicit that both the SNR and the Gabor bandwidth depend on the receivers’ bandwidth (B). Note that if <inline-formula><mml:math id="mm13"><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>, Equations (3) and (4) are formally identical. This is an interesting result because usually one tends to think that the larger the (Gabor) bandwidth, the better the achievable ranging (delay) precision, but this is ONLY true at a given SNR. On the contrary, for any Gabor bandwidth, the same ranging (delay) precision can be achieved, provided that the SNR is high enough.</p>
+                <p>Another important issue is hidden in Equations (3) and (4): the Cramer-Rao bound provides the absolute minimum variance that can be achieved, but this is only true if the estimator—in this case the delay estimator—is an unbiased one, and in <xref ref-type="sec" rid="sec2-sensors-17-01583">Section 2</xref> the presence of this bias will be demonstrated.</p>
+                <p><xref ref-type="table" rid="sensors-17-01583-t001">Table 1</xref> (from [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>], adapted from [<xref rid="B8-sensors-17-01583" ref-type="bibr">8</xref>]) summarizes the main parameters of the GPS and Galileo signals, and the optimum bandwidths and achievable precision heights at nadir for a SNR =20 dB, to make it independent of the antenna gain and transmitted power. <xref ref-type="table" rid="sensors-17-01583-t001">Table 1</xref> (from [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>]) shows the achievable altimetry performance assuming the dual-frequency correction for the ionospheric delay. As it can be appreciated, the <italic>σ</italic><sub>h</sub> &lt; 30 cm<sub>rms</sub> requirements are only met at E1/E5 at nadir and at the swath edge for the typical and maximum transmitted powers, and at L1/L5 only at nadir and for the highest transmitted power. These results are revised in the later part of this paper, including an analysis of the electromagnetic bias, and other error sources missing in previous studies.</p>
+                <p>GEROS-ISS payload is very similar to the one in the PARIS in Orbit Demonstration [<xref rid="B9-sensors-17-01583" ref-type="bibr">9</xref>], with which it shares many commonalities, although it will only implement the interferometric technique both for reflectometry and radio occultations. During the GEROS-ISS Phase A studies led by Astrium Defence and Space Spain (formerly EADS-CASA Espacio), the antenna size has proposed to be increased up to ~24 dB directivity @ L1/E1, and ~22 dB at L5/E5.</p>
+              </sec>
+              <sec id="sec2dot2-sensors-17-01583">
+                <title>2.2. Non-Instrumental Error Sources in GNSS-R Altimetry</title>
+                <p>In addition to the geometric delay to be measured, there are several other contributions to the estimated average delay: the clock offsets of receiver and transmitter relative to GPS time scale, the electromagnetic (EM) bias, the tropospheric, and the ionospheric delays.</p>
+                <p>The EM bias basic is defined as the ratio of the average of the radar cross-section density <inline-formula><mml:math id="mm14"><mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> times the sea surface elevation <inline-formula><mml:math id="mm15"><mml:mrow><mml:mrow><mml:mtext> </mml:mtext><mml:mrow><mml:mo>(</mml:mo><mml:mi>ξ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, divided by the average <inline-formula><mml:math id="mm16"><mml:mrow><mml:mrow><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup><mml:mtext> </mml:mtext></mml:mrow></mml:mrow></mml:math></inline-formula> [<xref rid="B10-sensors-17-01583" ref-type="bibr">10</xref>]:<disp-formula id="FD6-sensors-17-01583"><label>(6)</label><mml:math id="mm17"><mml:mrow><mml:mrow><mml:msub><mml:mi>β</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>〈</mml:mo><mml:mi>ξ</mml:mi><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup><mml:mo>〉</mml:mo></mml:mrow><mml:mrow><mml:mo>〈</mml:mo><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup><mml:mo>〉</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                <p>Equation (6) takes into account that wave valleys are flatter and appear brighter in the scattered signal, than the wave crests. Therefore, the mean sea level appears to be at a lower height than it actually is.</p>
+                <p>The tropospheric delay has two contributions, the dry delay and the wet delay. The dry delay has an average value of 2.3 m, and a residual error of ~0.7 cm, while the tropospheric wet delay is highly variable, typically from 5 to 30 cm, and can be computed using atmospheric models or microwave radiometers, with a precision of ~1.1 cm.</p>
+                <p>The ionospheric delay is also highly variable, typically from 1 to 20 m, and it is estimated using dual-frequency observations with a precision of ~0.5 cm. However, the impact of ionospheric amplitude and phase scintillations in GNSS-R have not been assessed yet.</p>
+                <sec id="sec2dot2dot1-sensors-17-01583">
+                  <title>2.2.1. Electromagnetic Bias</title>
+                  <p>The evaluation of Equation (6) can be done analytically, but requires many assumptions and approximation in order to be mathematically treatable, and in the end, it requires a numerical integration. In [<xref rid="B11-sensors-17-01583" ref-type="bibr">11</xref>], a technique was proposed to evaluate Equation (6) numerically, with a minimum number of approximations. To do that the surface wave height and <inline-formula><mml:math id="mm18"><mml:mrow><mml:mrow><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:math></inline-formula> are required. The sea surface wave height and orientation of each facet are known, as they are the outputs of a temporal sea surface generator. The value of <inline-formula><mml:math id="mm19"><mml:mrow><mml:mrow><mml:msup><mml:mi>σ</mml:mi><mml:mn>0</mml:mn></mml:msup><mml:mo> </mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>is computed using the Physical Optics under the Kirchhoff Approximation (KA-PO).</p>
+                  <p>The main results are summarized in <xref ref-type="table" rid="sensors-17-01583-t002">Table 2</xref>. Note that the EM bias increases with increasing incidence angle, and it can be as high as ~−25 cm, with an azimuthal signature up to 5 cm, <sub>peak-to-peak</sub> for U<sub>10</sub> = 15 m/s. EM bias must be corrected by means of look-up tables, wind speed and direction auxiliary data, but still if the wind speed has an uncertainty of ±2 m/s, the residual EM bias can be as high as ±5 cm.</p>
+                </sec>
+                <sec id="sec2dot2dot2-sensors-17-01583">
+                  <title>2.2.2. Impact of the Ionosphere</title>
+                  <p>When an electromagnetic wave traverses the ionosphere, the time delay in excess of the propagation time in free space (<italic>τ</italic> [ns]) depends on the frequency (<italic>f</italic> [Hz]), and the total electron content (TEC) of along the slant propagation path (STEC [e<sup>−</sup>/m<sup>2</sup>]) as:<disp-formula id="FD7-sensors-17-01583"><label>(7)</label><mml:math id="mm21"><mml:mrow><mml:mrow><mml:mi>τ</mml:mi><mml:mo>=</mml:mo><mml:mn>134.5</mml:mn><mml:mo>·</mml:mo><mml:mfrac><mml:mrow><mml:mi>S</mml:mi><mml:mi>T</mml:mi><mml:mi>E</mml:mi><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mi>f</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                  <p>Then, ionospheric effects can be eliminated by combining the pseudo-range estimates at two different frequencies (e.g., L1/E1 and L5/E5) averaged over <italic>N</italic> (<italic>N<sub>typ</sub></italic> = 3, [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>,<xref rid="B9-sensors-17-01583" ref-type="bibr">9</xref>]) consecutive observations:
+<disp-formula id="FD8-sensors-17-01583"><label>(8)</label><mml:math id="mm22"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mn>15</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mo>·</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>ρ</mml:mi><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>ρ</mml:mi><mml:mn>5</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>·</mml:mo><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>θ</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mo>·</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>f</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:msubsup><mml:mi>f</mml:mi><mml:mn>5</mml:mn><mml:mrow><mml:mo>−</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mo>〈</mml:mo><mml:mi>I</mml:mi><mml:mo>′</mml:mo><mml:mo>〉</mml:mo></mml:mrow><mml:mi>N</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>·</mml:mo><mml:mi>s</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>θ</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                  <p>Assuming that the height error is different at both frequency bands (e.g., <xref ref-type="table" rid="sensors-17-01583-t001">Table 1</xref>), the standard deviation of the resulting altimetry product is then given by [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>]:<disp-formula id="FD9-sensors-17-01583"><label>(9)</label><mml:math id="mm23"><mml:mrow><mml:mrow><mml:msub><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>h</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mrow><mml:mn>15</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mn>1.26</mml:mn></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mi>N</mml:mi></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mn>2.26</mml:mn></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mi>N</mml:mi></mml:mfrac></mml:mrow></mml:msqrt><mml:mo>·</mml:mo><mml:mfrac><mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mn>5</mml:mn></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:msqrt></mml:mrow><mml:mn>2</mml:mn></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                  <p>However, the accuracy of this correction used in navigation receivers, still needs to be validated, because the ISS height varies in time from 330 to 460 km, and it is in the middle of the ionosphere peak (maximum TEC). <xref ref-type="fig" rid="sensors-17-01583-f003">Figure 3</xref>a shows a global map of TEC computed using the Global Ionospheric Scintillation Model (GISM) [<xref rid="B12-sensors-17-01583" ref-type="bibr">12</xref>] for 28 February 2015, at Universal Time UT = 6 AM. Note that maximum TEC content occurs around noon (local time), and around 20° North/South of the magnetic equator.</p>
+                  <p>On the other hand, when an electromagnetic wave transverses the ionosphere, it suffers from intensity (<italic>I</italic>) and phase (<italic>φ</italic>) scintillations (rapid variations). The strength of the phase scintillations is characterized by <italic>σ<sub>φ</sub></italic>, the standard deviation of the phase fluctuations, while the strength of the intensity scintillations is characterized by the scintillation index (<italic>S</italic><sub>4</sub>) defined as: <disp-formula id="FD10-sensors-17-01583"><label>(10)</label><mml:math id="mm24"><mml:mrow><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mfrac><mml:mrow><mml:mo stretchy="false">〈</mml:mo><mml:msup><mml:mi>I</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">〉</mml:mo><mml:mo>−</mml:mo><mml:msup><mml:mrow><mml:mo>〈</mml:mo><mml:mi>I</mml:mi><mml:mo>〉</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mo>〈</mml:mo><mml:mi>I</mml:mi><mml:mo>〉</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:msqrt></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                  <p><xref ref-type="fig" rid="sensors-17-01583-f003">Figure 3</xref>b shows a global map of <italic>S</italic><sub>4</sub> computed using GISM for the same date and UT as in <xref ref-type="fig" rid="sensors-17-01583-f003">Figure 3</xref>a. There are two intense zones of scintillation, one at high latitudes and the other centered within ±20° of the magnetic equator, where depth of the scintillation fading ranges from 2 to more than 20 dB depending on the solar activity [<xref rid="B12-sensors-17-01583" ref-type="bibr">12</xref>], and has time constants from 0.5 to 2 s. At mid latitudes scintillation occurs exceptionally, e.g., during geomagnetic storms. Scintillation is maximum after sunset (from ~19 to 24 h), and around the vernal and autumnal equinoxes, and scintillation events can last from 30 min to hours.</p>
+                  <p>Finally, <xref ref-type="fig" rid="sensors-17-01583-f004">Figure 4</xref> presents simulated amplitude scintillations at L1/E1, L2/E2 and L5/E5 bands computed for <inline-formula><mml:math id="mm25"><mml:mrow><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mn>4</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>0.8</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula> and <italic>σ<sub>φ</sub></italic> = 0.1 rad. As it can be observed, large intensity fadings occur, and they are different at different frequency bands (i.e., 1575.42 MHz for L1/E1 at 1176.45 MHz for L5/E5a). They are closer among L2/E2 and L5/E5 because these frequencies are much closer. When the fading is large, the signal-to-noise ratio decreases, the range estimates get worse, and eventually, the signal may be totally lost, although often the SNR degradation is just a few dB. This effect cannot be calibrated using the up-looking antenna since the reflected signal passes through the ionosphere twice (completely in the down-welling path, and through most of it in the up-welling path depending on the orbital height), while the direct signal suffers much smaller ionospheric disturbances as it is only affected by the tenuous fraction of the ionosphere above the receiver.</p>
+                  <p>In order to mitigate ionospheric effects, a Sun-synchronous orbit has to be selected, preferably a 6 a.m.–6 p.m. one, because it avoids passing through the ionosphere after sun set and midnight local time. If this is not possible, e.g., GEROS experiment on-board the ISS, a potential solution may consist of the calculation of a running average and a running standard deviation of consecutive observables (e.g., 10) and check if the expected standard deviation is consistent with the expected one, either from theory or from previous observations. If it is anomalously larger, this would be a clear indication of ionospheric scintillation (or of the presence of radio frequency interference) and therefore measurements could be flagged in real time.</p>
+                </sec>
+              </sec>
+              <sec id="sec2dot3-sensors-17-01583">
+                <title>2.3. Instrumental Error Sources in GNSS-R Altimetry</title>
+                <p>The procedure followed to compute the GEROS ISS experiment performance follows that in [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>] for the PARIS In-orbit Demonstrator (IoD) Mission, with the following differences:
+<list list-type="bullet"><list-item><p>Maximum and minimum ISS orbital heights considered to compute the maximum off-boresight angle for a given swath of 500 km (i.e., 250 km half swath in each side, nominal off-boresight angle = 35°).</p></list-item><list-item><p>Antenna: instead of the hexagonal 19 element antenna array (<xref ref-type="fig" rid="sensors-17-01583-f005">Figure 5</xref>a) foreseen for PARIS IoD [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>], a rectangular 31 element antenna array (<xref ref-type="fig" rid="sensors-17-01583-f005">Figure 5</xref>b) was selected for GEROS-ISS, since larger apertures fit in the available space in the upper deck of the Columbus module. This translates into an increased directivity and increased signal-to-noise ratio. The array topology and the numerically computed elementary antenna patterns have been used to estimate the directivities for the up and down-looking antennas, at boresight and at 35° or the corresponding angle to the maximum off-boresight angle for each orbital height, and swath, and for the lower (L5/E5) and upper (L1/E1) bands. Array parameters are summarized in <xref ref-type="table" rid="sensors-17-01583-t003">Table 3</xref>.</p></list-item><list-item><p>Receivers noise figure is NF<sub>nom</sub> = 3.5 dB.</p></list-item><list-item><p>Receivers bandwidth is B = 40 MHz.</p></list-item><list-item><p>Dwell line is 100 km, unless otherwise specified. Results for a 1 ms coherent integration, and 1 s integration (incoherent averaging) time are also provided.</p></list-item><list-item><p>All other instrumental error sources, etc. as in [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>].</p></list-item><list-item><p>Inter-modulation signal power is taken into account. The inter-Modulation (IM) components are extra signal components transmitted by the GPS navigation satellites to keep the power envelope of the composite signals constant, so as to improve the performance of the solid state power amplifiers (SSPAs). The IM signals do not transmit navigation information, so they have no impact in conventional GNSS-R (cGNSS-R) or reconstructed-code GNSS-R (rGNSS-R) [<xref rid="B13-sensors-17-01583" ref-type="bibr">13</xref>], but they do in the interferometric GNSS-R (iGNSS-R), because this later technique cross-correlates the whole signal. The IM signal accounts for a 25% of the total transmitted power, so the SNR is increased by 4/3 (1.25 dB). <xref ref-type="fig" rid="sensors-17-01583-f006">Figure 6</xref>a,b show the power spectral density (PSD), and the squared auto-correlation function (ACF) of the composite GPS L1 signal with (red) and without (blue) considering the IM component. As it can be appreciated, not only the power is higher, but it is more concentrated towards the higher frequencies, which increases the Gabor bandwidth (Equation (5)), and the achievable altimetry precision.</p></list-item></list></p>
+                <p>Since both, single frequency or dual-frequency (ionosphere corrected) altimetry estimates depend on the bandwidth and the SNR (Equation (4)), for a given receiver’s bandwidth, the impact of any error source reduces to the calculation of its impact on the signal or the noise powers, and therefore, the two most important parameters are the receivers’ noise figure and the antenna directivity.</p>
+              </sec>
+              <sec id="sec2dot4-sensors-17-01583">
+                <title>2.4. Platform Error Sources in GNSS-R Altimetry</title>
+                <sec id="sec2dot4dot1-sensors-17-01583">
+                  <title>2.4.1. Impact of ISS Orbital Height Decay</title>
+                  <p>The decay rate of the ISS can vary significantly along time, with sharp vertical transitions corresponding to orbit re-boosts to move the ISS to higher altitudes (e.g., <xref ref-type="fig" rid="sensors-17-01583-f007">Figure 7</xref>, from <uri xlink:href="http://www.heavens-above.com/IssHeight.aspx">http://www.heavens-above.com/IssHeight.aspx</uri>). During solar maximum conditions, the ISS loses 400 m of altitude per day (4.63 mm/s), while during sunspot minimum conditions the rate is only 80 m per day (0.92 mm/s). These values will have to be taken into account during the long incoherent integration times foreseen in GEROS-ISS (~13.6–14 s for a dwell line of 100 km), and when computing the statistics of GEROS-ISS estimated height at different time instants. In practical terms, from an implementation point of view of the receiver it will require to split the incoherent averaging period into shorter integration times, and realign (re-track) the waveforms, before performing the second incoherent averaging [<xref rid="B15-sensors-17-01583" ref-type="bibr">15</xref>].</p>
+                </sec>
+                <sec id="sec2dot4dot2-sensors-17-01583">
+                  <title>2.4.2. Impact of ISS Shadowing and Multiple Scattering</title>
+                  <p>The ISS has a number of advantages for experimental payload installation, power availability etc., but it also has some drawbacks that have to be taken into account in a payload like this one. The potential shadowing and multiple scattering have to carefully analyzed because they can seriously distort the observations. In order to do that, a full model of the ISS has been used [<xref rid="B16-sensors-17-01583" ref-type="bibr">16</xref>], which consists of 551,748 triangles. Since this was a high number for a detailed electromagnetic simulation, a simplified model eliminating hidden parts, with just 11,620 triangles, more amenable for the analysis was used instead. Large flat areas were grouped, and hidden parts removed, as shown in <xref ref-type="fig" rid="sensors-17-01583-f008">Figure 8</xref>. The software package used is newFASANT [<xref rid="B17-sensors-17-01583" ref-type="bibr">17</xref>], a commercial one, with custom made tuning for improved computational speed in our particular scenario. Multiple reflections over flat and curved surfaces up to third order (two reflections) were found. Using the reciprocity theorem, calculations have assumed a transmitting isotropic antenna located in the position of the receiving antenna, and for each direction in the space (far-field), the different contributions (direct, the second order, and third order reflections) are computed.</p>
+                  <p>Simulation results are shown in <xref ref-type="fig" rid="sensors-17-01583-f009">Figure 9</xref> and <xref ref-type="fig" rid="sensors-17-01583-f010">Figure 10</xref>, where the notations of dot, circle o, and cross x indicate the directions of arrival of the direct signal, the second, and third order reflections, respectively (i.e., arrive to antenna after one, or two reflections). Empty areas correspond to shadowed directions blocked by the ISS structure. Note that two of the latest second order reflections occur at delays of ~150 ns and (<italic>θ</italic>, <italic>φ</italic>) ≈ (100°, ±90°), from the closest solar panels. The latest third order reflection occurs at a delay of ~300 ns and (<italic>θ</italic>, <italic>φ</italic>) ≈ (100°, 90°), again from the closest solar panel. The impact in the waveforms (or delay Doppler maps) is tricky to imagine intuitively, because of the different amplitude (in case of diffraction), and phases of each reflection, and because the scattered fields’ polarization changes, so it is collected through the co- or cross-polar antenna patterns.</p>
+                  <p>The total electric field at a given time instant is the sum of the first, second, and third order rays that reach the antenna with different time delays, and through different directions (and polarizations) of the antenna pattern. Regarding the polarization, the first order rays (direct ones) can be considered co-polar (LHCP for the down-looking antenna, and RHCP for the up-looking antenna). For the reflected signal, it is assumed that the each reflection over a metallic surface reverses the polarization perfectly, while amplitude of the reflection coefficient is <inline-formula><mml:math id="mm26"><mml:mrow><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="normal">Γ</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math></inline-formula>. Correspondingly, the second order rays are weighted by the cross-polar antenna pattern (RHCP for the down-looking antenna, and LHCP for the up-looking antenna), and the third rays are weighted by the co-polar patterns, as the first order rays.</p>
+                  <p><disp-formula id="FD11-sensors-17-01583"><label>(11a)</label><mml:math id="mm27"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>u</mml:mi><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>L</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mspace linebreak="newline"/><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>L</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula><disp-formula id="FD12-sensors-17-01583"><label>(11b)</label><mml:math id="mm28"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>d</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>L</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>L</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup></mml:mrow><mml:mo>}</mml:mo><mml:mspace linebreak="newline"/><mml:mo>+</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>L</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>j</mml:mi><mml:mi>ω</mml:mi><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo> </mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></disp-formula>
+where <inline-formula><mml:math id="mm29"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>u</mml:mi><mml:mi>p</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math id="mm30"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>d</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula> are the electric fields received by the up- and down-looking antenna, <inline-formula><mml:math id="mm31"><mml:mrow><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>R</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>θ</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>ϕ</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> is the RHCP antenna pattern (amplitude and phase), for the <italic>n</italic><sup>th</sup> order ray coming from the <inline-formula><mml:math id="mm32"><mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, and <italic>τ</italic><sub>n</sub> is the delay of the <italic>n</italic><sup>th</sup> order ray relative to the first order one. <xref ref-type="fig" rid="sensors-17-01583-f011">Figure 11</xref> shows the directions of arrival to the antenna in the antenna reference frame.</p>
+                  <p>Taking into account Equation (11a,b), the cross-correlation of the signals from up-looking and down-looking antennas can be computed (<inline-formula><mml:math id="mm33"><mml:mrow><mml:mrow><mml:mo stretchy="false">〈</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>u</mml:mi><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msubsup><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>→</mml:mo></mml:mover><mml:mrow><mml:mi>d</mml:mi><mml:mi>n</mml:mi></mml:mrow><mml:mo>*</mml:mo></mml:msubsup><mml:mo stretchy="false">〉</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>). An efficient way to compute the final GNSS-R observable consists of the computation of the convolution of the multi-path free waveforms (<inline-formula><mml:math id="mm34"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>), and the impulse response that models the multiple reflections (<inline-formula><mml:math id="mm35"><mml:mrow><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>): <disp-formula id="FD13-sensors-17-01583"><label>(12)</label><mml:math id="mm36"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>;</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>;</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math></disp-formula></p>
+                  <p>As seen in Equation (12), the multiple reflected rays contribute with additional replicas of the original waveform delayed and weighted by the corresponding antenna pattern of the direction of arrival in the antenna reference frame. Doppler effects can be neglected because of the short distances involved, and the static geometry of the ISS itself.</p>
+                  <p>For illustration purposes, assuming that <inline-formula><mml:math id="mm37"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>124</mml:mn><mml:mo>°</mml:mo><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mn>80</mml:mn><mml:mo>°</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> for the direct signal, and <inline-formula><mml:math id="mm38"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>56</mml:mn><mml:mo>°</mml:mo><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mn>84</mml:mn><mml:mo>°</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> for the far-field direction of the scattered signals. In this case, there are first and third order reflections from the scattered signals, and first and second order reflections from the direct signals. For the scattered signal, the direction of arrival of the third order reflection is <inline-formula><mml:math id="mm39"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>76</mml:mn><mml:mo>°</mml:mo><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mn>38</mml:mn><mml:mo>°</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula>, and the delay <inline-formula><mml:math id="mm40"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>3</mml:mn><mml:mrow><mml:mi>scat</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mn>0.188</mml:mn><mml:mo> </mml:mo><mml:mi mathvariant="sans-serif">μ</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula> (56 m = 0.19 coarse/acquisition chips or C/A chips). For the direct signal, the direction of arrival of the second order reflection is <inline-formula><mml:math id="mm41"><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:msubsup><mml:mi>ϕ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>79</mml:mn><mml:mo>°</mml:mo><mml:mo>,</mml:mo><mml:mo> </mml:mo><mml:mn>36</mml:mn><mml:mo>°</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> and the delay <inline-formula><mml:math id="mm42"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>τ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>dir</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mn>0.188</mml:mn><mml:mo> </mml:mo><mml:mi mathvariant="sans-serif">μ</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula> (24 m 0.08 C/A chips). Note that <inline-formula><mml:math id="mm43"><mml:mrow><mml:mrow><mml:msubsup><mml:mi>θ</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msubsup><mml:mo>&lt;</mml:mo><mml:mn>90</mml:mn><mml:mo>°</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>, i.e., the second order rays (single reflected) of the direct signal can be collected via down-looking antenna. Taking into account this multiple reflection, the simulation results are show in <xref ref-type="fig" rid="sensors-17-01583-f012">Figure 12</xref>. The waveform affected by multipath (light blue dash-dot line) <inline-formula><mml:math id="mm44"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo> </mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula>is calculated as the convolution of the waveform <inline-formula><mml:math id="mm45"><mml:mrow><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> (dark blue solid line) and <inline-formula><mml:math id="mm46"><mml:mrow><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>τ</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:math></inline-formula> (red peaks). Because of the multipath, the waveform peak increases by a factor of 1.7, and it is delayed by 0.06 C/A chips (=18 m), which is not negligible at all for altimetry purposes. The altimetric delay is found by the peak of the waveform derivative, and not by the waveform peak itself.</p>
+                  <p>Despite this, multi-path can be mitigated by computing the waveforms not as the incoherent average of the individual coherent waveforms, but as the variance of the measured coherent waveforms instead of performing the incoherent average, as demonstrated in [<xref rid="B18-sensors-17-01583" ref-type="bibr">18</xref>].</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec id="sec3-sensors-17-01583">
+              <title>3. Results: Predicted GNSS-R Altimetry Performance</title>
+              <sec id="sec3dot1-sensors-17-01583">
+                <title>3.1. GNSS-R Altimetry Performance and Trade-off between Techniques</title>
+                <p>Following the same procedure as in [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>], and taking into account the effects discussed in <xref ref-type="sec" rid="sec2dot4dot1-sensors-17-01583">Section 2.4.1</xref> and <xref ref-type="sec" rid="sec2dot4dot2-sensors-17-01583">Section 2.4.2</xref>, properly compensated for, the altimetry performance is computed for the nominal transmitted powers of the GPS (<xref ref-type="fig" rid="sensors-17-01583-f013">Figure 13</xref>) and Galileo (<xref ref-type="fig" rid="sensors-17-01583-f014">Figure 14</xref>) constellations, for the minimum (330 km) and maximum (460 km) ISS orbital heights, which require the maximum and minimum antenna off-boresight angles to satisfy the ±250 km swath requirement.</p>
+                <p>The altimetry performance is computed first individually for each band (F1 = L1 or E1, F5 = L5 or E5a), using either the conventional or the interferometric GNSS-R techniques (cGNSS-R or iGNSS-R). Then, the performance of the dual-frequency combination of these observables to compensate for the ionospheric delay (Equation (8)) is computed, that is, using either cGNSS-R or iGNSS-R, at either F1 or F5.</p>
+                <p><xref ref-type="table" rid="sensors-17-01583-t004">Table 4</xref> summarizes the results in a numerical format. In this table, the results for the minimum and maximum transmitted powers by the space vehicles of the GPS and Galileo GNSS constellations are included.</p>
+                <p>It is worth to note that for the minimum transmitted powers, in all cases, except for Galileo at nadir, the performance of the iGNSS-R technique quickly degrades because of the marginal SNR, while cGNSS-R exhibits a more graceful degradation in terms of range estimation performance. At nadir, the wind speed at which the performance of iGNSS-R and cGNSS-R decreases with increasing height, while at the swath edge it decreases with increasing local incidence angle (e.g., lower height). These results can be used as inputs for assimilation studies to assess the scientific impact of the GEROS-ISS observations.</p>
+                <p>Assuming a 1 s incoherent integration time, for a nominal instrument with errors, the altimetric rms error is smaller than 70–90 cm at nadir (38–43 cm if the transmitted power is increased by 3 dB), and smaller than 11–17 m at the swath edge (250 km) for U<sub>10</sub> &lt; 8–9 m/s (71–76 cm if the transmitted power is increased by 3 dB), and for any orbital height h<sub>ISS</sub> = 330–460 km.</p>
+                <p>Finally, the altimetry performance for different combinations of GNSS-R techniques (iGNSS-R and cGNSS-R) is discussed. In particular, the use of iGNSS-R in both bands, and the use of iGNSS-R at F1 and cGNSS-R at F5, which will make it more robust in front of the severe RFI that it is likely to appear due to DME (Distance Measuring Equipment) and TACAN (TACtical Air Navigation system) systems [<xref rid="B21-sensors-17-01583" ref-type="bibr">21</xref>]. It is worth noting that the performance degradation as compared to the use of cGNSS-R is typically a factor between 3 and 4, except for the lowest SNR, when the performance is basically the same (GPS, U<sub>10</sub> = 15 m/s).</p>
+              </sec>
+              <sec id="sec3dot2-sensors-17-01583">
+                <title>3.2. GNSS-R Altimetry Performance Sensitivity to Errors</title>
+                <p>Since both, single frequency or dual-frequency altimetry estimates depend on the bandwidth and the SNR, the sensitivity to any error source computed as the derivative of the rms altimetry error at a given frequency band (<inline-formula><mml:math id="mm47"><mml:mrow><mml:mrow><mml:msub><mml:mi>σ</mml:mi><mml:mi>f</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula>) with respect to a given parameter (<italic>P</italic>), <inline-formula><mml:math id="mm48"><mml:mrow><mml:mrow><mml:mo>∂</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mi>f</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mo>∂</mml:mo><mml:mi>P</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula>, reduces to the calculation of the sensitivity to the signal and the noise powers, whose main drivers are the antenna directivity and the receivers’ noise figure, respectively. Since the sensitivities exhibit a highly non-linear behavior, it is not possible to provide a single numerical value. Therefore, the sensitivities to the antenna pattern directivity (<xref ref-type="fig" rid="sensors-17-01583-f015">Figure 15</xref>) and the receivers’ noise figure (<xref ref-type="fig" rid="sensors-17-01583-f016">Figure 16</xref>) are presented here. Please note that the parameters presented are the derivatives of the RMS error, so when it is negative, it means that the error decreases, and the other way around. It is clear the significant degradation (increase) of the RMSE, especially at the swath edges, because of the antenna directivity drop.</p>
+                <p>If the directivity increases, so does the <italic>SNR</italic>, then the sensitivity to errors is much smaller. A last comment is illustrated in <xref ref-type="fig" rid="sensors-17-01583-f017">Figure 17</xref>. Comparing it with <xref ref-type="fig" rid="sensors-17-01583-f015">Figure 15</xref>, it can be seen that if the transmitted power is just 3 dB more, then the sensitivity to the directivity dramatically decreases, since the SNR for the iGNSS-R does not increase any further.</p>
+                <p>Other influencing factors are the antenna losses, the beamformer amplitude errors, the array phase center, the number of bits in the phase shifter, the group delay error, the bandwidth rms mismatch, the number of bits of the correlator, the Delay Refresh Rate Update (DeRRU), and the Doppler Refresh Rate Update (DoRRU). The first three have an evident impact in the <italic>SNR</italic> before correlation. The others as well, but their impact is much more moderate, as compared to the antenna directivity and receivers’ noise figure.</p>
+              </sec>
+            </sec>
+            <sec id="sec4-sensors-17-01583">
+              <title>4. Discussion</title>
+              <p>This work has evaluated the altimetry performance of the GEROS experiment on board the International Space Station. It is the natural continuation of the analysis carried out in [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>], including:
+<list list-type="simple"><list-item><label>(1)</label><p>the use of the Cramer-Rao bound has been used to assess the performance of an ideal instrument performance, including now more directive antennas,</p></list-item><list-item><label>(2)</label><p>ionospheric effects,</p></list-item><list-item><label>(3)</label><p>the ISS orbit height decay rate, and</p></list-item><list-item><label>(4)</label><p>multi-path propagation due to reflections in the ISS structure, including diffraction in curved surfaces. It has been shown that there are up to 3rd order rays (2 reflections), with delays spanning up to ~150 ns and ~300 ns for the 2nd and 3rd order rays. These coherent reflections can be mitigated as suggested in [<xref rid="B18-sensors-17-01583" ref-type="bibr">18</xref>], but it will have an impact of the scatterometry observables over land and the cryosphere.</p></list-item></list></p>
+              <p>In addition, the four possible combinations to get the dual-frequency observables needed to correct for ionospheric effects has been assessed quantitatively, concluding that, despite the cGNSS-R has a more graceful degradation because of the higher SNR, the iGNSS-R performs better for the antenna patterns considered. However, the directivity values are in the border line, and a small decrease in the directivity value, translates into a quick degradation of the performances. Assuming 1 s incoherent integration time, for a nominal instrument with errors, the altimetric rms error is smaller than 70–90 cm at nadir, and smaller than 11–17 m at the swath edge (250 km) for U<sub>10</sub> &lt;~9 m/s, and for any orbital height h<sub>ISS</sub> = 330–460 km.</p>
+            </sec>
+            <sec id="sec5-sensors-17-01583">
+              <title>5. Conclusions</title>
+              <p>Space borne GNSS-R altimetry from the ISS is feasible with a RMS error smaller than 30 cm<sub>rms</sub> within the whole swath (<italic>θ<sub>i</sub></italic> ≤ 35°) using Galileo signals (with GPS as well, but errors are beyond the GEROS-ISS requirements), when the space vehicles transmit at least their nominal power, and when dual-frequency observations are used in the ionospheric-free combination to cancel ionospheric effects (background TEC and refractive scintillations). Diffractive scintillations cannot be compensated for, but since they occur mostly after sunset and before midnight, either the measurements are discarded (or not even acquired), or a Sun-synchronous orbit with 6 a.m. or 6 p.m. LTAN (local time of the ascending node) can be selected.</p>
+              <p>Multiple scattering from the ISS structure has revealed that the strength of the received signals is affected (important for scatterometry), that the waveform peak is shifted by ~0.06 C/A chips = 18 m (important for altimetry), that there is a region where signals are blocked by the ISS itself, then, 4) that there are other regions in the space where two or up to three “rays” may reach the antenna arrays. In any case, multipath can be compensated for by computing the variance of the intensity waveforms, instead of the incoherent averaging.</p>
+              <p>Finally, the Sensitivity of the GNSS-R altimetry performance to instrumental errors has been computed, showing the criticality of the antenna pattern directivity, and the importance of keeping low noise figures in the receiver’s front-ends.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>This work has been performed during the ESA GEROS-ISS Phase A study led by Astrium Defence and Space (Spain). It has also been sponsored by projects ref. ESP2015-70014-C2-1-R “Técnicas avanzadas en teledetección aplicada usando señales GNSS y otras señales de oportunidad”, of the Spanish Ministry of Economy and Competitiveness and EU FEDER, and the Unidad de Excelencia Maria de Maeztu MDM-2016-0600, which is financed by the Agencia Estatal de Investigación, Spain, and by the EU FP7 project European GNSS-R Environment Monitoring (FP7-607126-E-GEM) project.</p>
+            </ack>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Adriano Camps performed the Error Budget analysis and wrote the paper, Hyuk Park computed the degradation of the waveforms due to multi-path in the ISS, Ivan Sekulic, and Juan Manuel Rius performed the numerical, simulations with new FASANT to compute the scattering properties of the ISS.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References and Notes</title>
+              <ref id="B1-sensors-17-01583">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wickert</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardellach</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin-Neira</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bandeiras</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertino</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andersen</surname>
+                      <given-names>O.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Catarino</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chapron</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fabra</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>GEROS-ISS: GNSS REflectometry, Radio Occultation, and Scatterometry Onboard the International Space Station</article-title>
+                  <source>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</source>
+                  <year>2016</year>
+                  <volume>9</volume>
+                  <fpage>4552</fpage>
+                  <lpage>4581</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JSTARS.2016.2614428</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-sensors-17-01583">
+                <label>2.</label>
+                <note>
+                  <p>GNSS Reflectometry, Radio Occultation and Scatterometry onboard ISS (GEROS-ISS)—SYSTEM REQUIREMENTS DOCUMENT, GEROS ESA Team, Ref. TEC-ETP/2013.202/MMN, Issue 1.1, rev. 0, date: 22/01/2014.</p>
+                </note>
+              </ref>
+              <ref id="B3-sensors-17-01583">
+                <label>3.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kay</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Fundamentals of Statistical Signal Processing: Estimation Theory</source>
+                  <publisher-name>Prentice Hall</publisher-name>
+                  <publisher-loc>Upper Saddle River, NJ, USA</publisher-loc>
+                  <year>1993</year>
+                </element-citation>
+              </ref>
+              <ref id="B4-sensors-17-01583">
+                <label>4.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valencia</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rius</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Addio</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interferometric GNSS-R achievable altimetric performance and compression/denoising using the wavelet transform: An experimental study</article-title>
+                  <source>Proceedings of the 2012 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2012)</source>
+                  <conf-loc>Munich, Germany</conf-loc>
+                  <conf-date>22–27 July 2012</conf-date>
+                  <fpage>7512</fpage>
+                  <lpage>7515</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B5-sensors-17-01583">
+                <label>5.</label>
+                <note>
+                  <p><element-citation publication-type="other" id="d35e3328"><person-group person-group-type="author"><name><surname>Camps</surname><given-names>A.</given-names></name><name><surname>Pascual</surname><given-names>D.</given-names></name><name><surname>Park</surname><given-names>H.</given-names></name><name><surname>Martin</surname><given-names>F.</given-names></name></person-group></element-citation>
+PARIS IOD: ID-16A Contribution to Performance and Error Budgets Report, PARIS-PhA-IEEC-UPC-TN-008, v3.0, 14/11/2012.</p>
+                </note>
+              </ref>
+              <ref id="B6-sensors-17-01583">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valencia i Domenech</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pascual</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rius</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ribo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benito</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Andres-Beivide</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saameno</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optimization and Performance Analysis of Interferometric GNSS-R Altimeters: Application to the PARIS IoD Mission</article-title>
+                  <source>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>1436</fpage>
+                  <lpage>1451</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JSTARS.2014.2320873</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-sensors-17-01583">
+                <label>7.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tress</surname>
+                      <given-names>H.L.V.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Detection, Estimation and Modulation Theory, Part III: Radar-Sonar, Signal Processing and Gaussian Signals in Noise</source>
+                  <publisher-name>Wiley</publisher-name>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <year>1971</year>
+                  <comment>Chapter 10</comment>
+                </element-citation>
+              </ref>
+              <ref id="B8-sensors-17-01583">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pascual</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arroyo</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Onrubia</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Precision Bounds in GNSS-R Ocean Altimetry</article-title>
+                  <source>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>1416</fpage>
+                  <lpage>1423</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JSTARS.2014.2303251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-sensors-17-01583">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin-Neira</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Addio</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buck</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Floury</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prieto-Cerdeira</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The PARIS Ocean altimeter</article-title>
+                  <source>IEEE Trans. Geosci. Remote. Sens.</source>
+                  <year>2011</year>
+                  <volume>49</volume>
+                  <fpage>2209</fpage>
+                  <lpage>2237</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TGRS.2010.2092431</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-sensors-17-01583">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Elfouhaily</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thompson</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vandemark</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chapron</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Weakly nonlinear theory and sea state bias estimations</article-title>
+                  <source>J. Geophys. Res.</source>
+                  <year>1999</year>
+                  <volume>104</volume>
+                  <fpage>7641</fpage>
+                  <lpage>7647</lpage>
+                  <pub-id pub-id-type="doi">10.1029/1998JC900128</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-sensors-17-01583">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ghavidel</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schiavulli</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Numerical Computation of the Electromagnetic Bias in GNSS-R Altimetry</article-title>
+                  <source>IEEE Trans. Geosci. Remote. Sens.</source>
+                  <year>2016</year>
+                  <volume>54</volume>
+                  <fpage>489</fpage>
+                  <lpage>498</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TGRS.2015.2460212</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-sensors-17-01583">
+                <label>12.</label>
+                <element-citation publication-type="web">
+                  <article-title>P.531: Ionospheric Propagation Data and Prediction Methods Required for the Design of Satellite Services and Systems</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.itu.int/rec/R-REC-P.531/en">https://www.itu.int/rec/R-REC-P.531/en</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2017-07-04">(accessed on 4 July 2017)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B13-sensors-17-01583">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zavorotny</surname>
+                      <given-names>V.U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gleason</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardellach</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tutorial on Remote Sensing Using GNSS Bistatic Radar of Opportunity</article-title>
+                  <source>IEEE Geosci. Remote Sens. Mag.</source>
+                  <year>2014</year>
+                  <volume>2</volume>
+                  <fpage>8</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1109/MGRS.2014.2374220</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-sensors-17-01583">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rius</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fabra</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martín-Neira</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardellach</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ribó</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Impact of Inter-Modulation Components on Interferometric GNSS-Reflectometry</article-title>
+                  <source>Remote Sens.</source>
+                  <year>2016</year>
+                  <volume>8</volume>
+                  <elocation-id>1013</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/rs8121013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-sensors-17-01583">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pascual</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso-Arroyo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carreno-Luengo</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of Spaceborne GNSS-R Delay-Doppler Tracking</article-title>
+                  <source>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</source>
+                  <year>2014</year>
+                  <volume>7</volume>
+                  <fpage>1481</fpage>
+                  <lpage>1492</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JSTARS.2014.2322198</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-sensors-17-01583">
+                <label>16.</label>
+                <element-citation publication-type="gov">
+                  <article-title>ISS (High Res)</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://nasa3d.arc.nasa.gov/detail/iss-hi-res">https://nasa3d.arc.nasa.gov/detail/iss-hi-res</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2017-07-05">(accessed on 5 July 2017)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B17-sensors-17-01583">
+                <label>17.</label>
+                <element-citation publication-type="web">
+                  <article-title>newFASANT: Simulation Software for Electromagnetic Field Analysis</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.fasant.com/en">https://www.fasant.com/en</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2017-05-10">(accessed on 10 May 2017)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B18-sensors-17-01583">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fabra</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rius</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin-Neira</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>d’Addio</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitigation of Direct Signal Cross-Talk and Study of the Coherent Component in GNSS-R</article-title>
+                  <source>IEEE Geosci. Remote Sens. Lett.</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>279</fpage>
+                  <lpage>283</lpage>
+                  <pub-id pub-id-type="doi">10.1109/LGRS.2014.2335772</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-sensors-17-01583">
+                <label>19.</label>
+                <element-citation publication-type="gov">
+                  <article-title>Navstar GPS Space Segment/Navigation User Interfaces</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="www.gps.gov/technical/icwg/IS-GPS-200G.pdf">www.gps.gov/technical/icwg/IS-GPS-200G.pdf</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2017-07-05">(accessed on 5 July 2017)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B20-sensors-17-01583">
+                <label>20.</label>
+                <element-citation publication-type="web">
+                  <article-title>Galileo Open Service SIS ICD: New Version 1.2</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.gsc-europa.eu/system/files/galileo_documents/Galileo-OS-SIS-ICD.pdf">https://www.gsc-europa.eu/system/files/galileo_documents/Galileo-OS-SIS-ICD.pdf</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2017-07-05">(accessed on 5 July 2017)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B21-sensors-17-01583">
+                <label>21.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Onrubia</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Querol</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pascual</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alonso-Arroyo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Camps</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessment of DME/TACAN RFI mitigation techniques in GNSS-R</article-title>
+                  <source>Proceedings of the 2016 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</source>
+                  <conf-loc>Beijing, China</conf-loc>
+                  <conf-date>10–15 July 2016</conf-date>
+                  <fpage>4811</fpage>
+                  <lpage>4814</lpage>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="sensors-17-01583-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>(<bold>a</bold>) View of the International Space Station, and (<bold>b</bold>) view of the Columbus module that will host GEROS-ISS payload in the upper deck.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g001"/>
+            </fig>
+            <fig id="sensors-17-01583-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>GEROS-ISS payload high level block diagram. Acronyms: GAB: GEROS Antenna Beamformer, ICU: Instrument Control Unit; PSU: Power Supply Unit; CEPA: Columbus External Payload Adapter; and SPU: Signal Processing Unit (SPU B removed during one of the Phase A studies).</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g002"/>
+            </fig>
+            <fig id="sensors-17-01583-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>(<bold>a</bold>) Slant Electron Content maps in [TECU] computed with GISM for, and associated, (<bold>b</bold>) Scintillation Index S<sub>4</sub> maps for paths for a receiver on ground. UT = 6 AM.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g003"/>
+            </fig>
+            <fig id="sensors-17-01583-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Simulated One-way ionosphere amplitude scintillations for S<sub>4</sub>= 0.8 and <italic>σ<sub>φ</sub></italic> = 0.1 rad, at L1/E1 (blue), L2/E2 (red), and L5/E5 (red).</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g004"/>
+            </fig>
+            <fig id="sensors-17-01583-f005" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>(<bold>a</bold>) Original antenna in PARIS IoD, and (<bold>b</bold>) antenna of GEROS ISS corresponding to the Phase A study led by Airbus Defense and Military.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g005"/>
+            </fig>
+            <fig id="sensors-17-01583-f006" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <p>(<bold>a</bold>) Power Spectral Density (PSD), and (<bold>b</bold>) squared auto-correlation function (ACF) of the composite GPS L1 signal with and without considering the IM component (Adapted from [<xref rid="B14-sensors-17-01583" ref-type="bibr">14</xref>]).</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g006"/>
+            </fig>
+            <fig id="sensors-17-01583-f007" orientation="portrait" position="float">
+              <label>Figure 7</label>
+              <caption>
+                <p>Evolution of the ISS orbital height during one year: periodic impulses to increase ISSS height, and gradual fall between them are clearly visible. Gradual fall is caused by the atmospheric drag. Non-constant descent rate is due to changes in the upper atmosphere density, mainly due to solar activity [<uri xlink:href="http://www.heavens-above.com/IssHeight.aspx">http://www.heavens-above.com/IssHeight.aspx</uri>].</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g007"/>
+            </fig>
+            <fig id="sensors-17-01583-f008" orientation="portrait" position="float">
+              <label>Figure 8</label>
+              <caption>
+                <p>Simplified ISS model and reference frame used.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g008"/>
+            </fig>
+            <fig id="sensors-17-01583-f009" orientation="portrait" position="float">
+              <label>Figure 9</label>
+              <caption>
+                <p>Graphical representation of the directions of arrival of direct signal or first order rays (no reflections) (<bold>·</bold>), second order rays (one reflection) (<bold>o</bold>), and third order rays (two-reflections) (<bold>x</bold>). Empty areas correspond to shadowed directions blocked by the ISS structure.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g009"/>
+            </fig>
+            <fig id="sensors-17-01583-f010" orientation="portrait" position="float">
+              <label>Figure 10</label>
+              <caption>
+                <p>(<bold>a</bold>) Delays for the second order rays, and (<bold>b</bold>) for the third order rays. Direction of Arrival (<italic>θ</italic>, <italic>φ</italic>) in the antenna far field. Co-polar antenna pattern used for the direct and third order rays, cross-polar pattern used for the second order rays. Top: first matrix and bottom: second matrix, refer to the fact that there are second order and third order rays that have the same far field direction, but enter through different directions in the antenna pattern reference frame. Color code corresponds to the delay in ns.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g010"/>
+            </fig>
+            <fig id="sensors-17-01583-f011" orientation="portrait" position="float">
+              <label>Figure 11</label>
+              <caption>
+                <p>(<bold>a</bold>) Second order arriving direction to GEROS-ISS in the antenna reference frame, and (<bold>b</bold>) third order rays arriving direction to GEROS-ISS in the ISS far field reference frame. Top: first matrix and bottom: second matrix, refer to the fact that there are second order and third order rays that have the same far field direction, but enter through different directions in the antenna pattern reference frame. Color code corresponds to the delay in ns.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g011"/>
+            </fig>
+            <fig id="sensors-17-01583-f012" orientation="portrait" position="float">
+              <label>Figure 12</label>
+              <caption>
+                <p>Example of the impact of multipath in the ISS structure.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g012"/>
+            </fig>
+            <fig id="sensors-17-01583-f013" orientation="portrait" position="float">
+              <label>Figure 13</label>
+              <caption>
+                <p>GPS constellation (nominal transmitted power [<xref rid="B19-sensors-17-01583" ref-type="bibr">19</xref>], T<sub>i</sub> = 1 s): predicted GEROS-ISS altimetry rms error (black), rms error at L1 (red) and L5 (blue), and total bias: electromagnetic bias and waveform bias (green), for h<sub>ISS</sub> = 330 km (<bold>a</bold>) and (<bold>c</bold>) and 460 km (<bold>b</bold>) and (<bold>d</bold>), and for cross-track distance 0 km (<bold>a</bold>) and (<bold>b</bold>) and 250 km (<bold>c</bold>) and (<bold>d</bold>). Code: <styled-content style="color:red">-Δ-</styled-content> σ<sub>iF1</sub>, <styled-content style="color:red">-∇-</styled-content> σ<sub>iF5</sub>, <styled-content style="color:#0070C0">-Δ-</styled-content> σ<sub>cF1</sub>, <styled-content style="color:#0070C0">-∇-</styled-content> σ<sub>cF5</sub>, — σ<sub>iF1+iF5</sub>, - - - σ<sub>cF1+cF5</sub>, ····· σ<sub>iF1+cF5</sub>, -·-·- σ<sub>cF1+iF5</sub>, <styled-content style="color:#00B050">—</styled-content> bias<sub>EM+WF.</sub></p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g013"/>
+            </fig>
+            <fig id="sensors-17-01583-f014" orientation="portrait" position="float">
+              <label>Figure 14</label>
+              <caption>
+                <p>Galileo constellation (nominal transmitted power [<xref rid="B20-sensors-17-01583" ref-type="bibr">20</xref>], T<sub>i</sub> = 1 s): predicted GEROS-ISS altimetry rms error (black), rms error at L1 (red) and L5 (blue), and total bias: electromagnetic bias and waveform bias (green), for h<sub>ISS</sub> = 330 km (<bold>a</bold>) and (<bold>c</bold>) and 460 km (<bold>b</bold>) and (<bold>d</bold>), and for cross-track distance 0 km (<bold>a</bold>) and (<bold>b</bold>) and 250 km (<bold>c</bold>) and (<bold>d</bold>). Code: <styled-content style="color:red">-Δ-</styled-content> σ<sub>iF1</sub>, <styled-content style="color:red">-∇-</styled-content> σ<sub>iF5</sub>, <styled-content style="color:#0070C0">-Δ-</styled-content> σ<sub>cF1</sub>, <styled-content style="color:#0070C0">-∇-</styled-content> σ<sub>cF5</sub>, — σ<sub>iF1+iF5</sub>, - - - σ<sub>cF1+cF5</sub>, ····· σ<sub>iF1+cF5</sub>, -·-·- σ<sub>cF1+iF5</sub>, <styled-content style="color:#00B050">—</styled-content> bias<sub>EM+WF</sub>.</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g014"/>
+            </fig>
+            <fig id="sensors-17-01583-f015" orientation="portrait" position="float">
+              <label>Figure 15</label>
+              <caption>
+                <p>RMS height error sensitivity to antenna directivity (P) at nominal values as given by <xref ref-type="table" rid="sensors-17-01583-t003">Table 3</xref>, u = [dB].</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g015"/>
+            </fig>
+            <fig id="sensors-17-01583-f016" orientation="portrait" position="float">
+              <label>Figure 16</label>
+              <caption>
+                <p>RMS height error sensitivity to receivers noise figure [dB]; errors (P) at nominal values (NF<sub>nom</sub> = 3.5 dB), u = [dB].</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g016"/>
+            </fig>
+            <fig id="sensors-17-01583-f017" orientation="portrait" position="float">
+              <label>Figure 17</label>
+              <caption>
+                <p>RMS height error sensitivity to antenna directivity (P) at nominal values +3 dB, u = [dB].</p>
+              </caption>
+              <graphic xlink:href="sensors-17-01583-g017"/>
+            </fig>
+            <table-wrap id="sensors-17-01583-t001" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">sensors-17-01583-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Altimetry rms error estimated by combining L1/E1 and L5/E5 bands to correct for the ionospheric delay at nadir and at an incidence angle of 35° (swath edge) (modified from [<xref rid="B6-sensors-17-01583" ref-type="bibr">6</xref>]). LB = 1186.6 MHz and LH = 1575.42 MHz. Requirement is for <italic>σ</italic><sub>h</sub> &lt; 30 cm<sub>rms</sub> over 100 km dwell line.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th rowspan="3" colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Altimetry Precision [cm<sub>rms</sub>]</th>
+                    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">σ<sub>h</sub> @ θ<sub>i</sub> = 0°</th>
+                    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">σ<sub>h</sub> @ θ<sub>i</sub> = 35°</th>
+                  </tr>
+                  <tr>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">T<sub>coh</sub> = 1 ms, N<sub>i</sub> = 14,500</th>
+                    <th colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">T<sub>coh</sub> = 1 ms, N<sub>i</sub> = 14,500</th>
+                  </tr>
+                  <tr>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,min</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,typ</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,max</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,min</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,typ</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T,max</sub></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Level-1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">L5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">49.8</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">29.7</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">15.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">95.3</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">56.0</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">28.5</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Lower band (L5 + E5)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">E5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">10.1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">8.3</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">7.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">19.1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">15.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">13.3</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Level-1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">L1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">22.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">16.4</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">12.9</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">51.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">37.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">27.6</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Higher band (L1 + E1)</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">E1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">15.3</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">12.8</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">11.3</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">33.6</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">26.6</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">22.4</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Level-2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">L1&amp;L5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">49.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">30.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">18.1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">97.4</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">60.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">35.7</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">(LB + HB + iono correct.)</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">E1&amp;E5</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">16.5</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">13.7</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">12.3</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">34.8</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">27.7</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">23.4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="sensors-17-01583-t002" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">sensors-17-01583-t002_Table 2</object-id>
+              <label>Table 2</label>
+              <caption>
+                <p>Average EM bias <inline-formula><mml:math id="mm20"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>β</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>E</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math></inline-formula> [cm] for incidence/scattering angles <italic>θ</italic><sub>i</sub> = <italic>θ</italic><sub>s</sub> = 0°, 25° and 45°, for wind direction <italic>ϕ</italic> = 45°, and U<sub>10</sub> = 5 m/s, 10 m/s and 15 m/s.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">U<sub>10</sub></th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>θ<sub>i,s</sub></italic> = 0°</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>θ<sub>i,s</sub></italic> = 25°</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>θ<sub>i,s</sub></italic> = 45°</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">5 m/s</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−3.89</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−3.72</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−4.96</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">10 m/s</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−8.37</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−9.73</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−13.8</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15 m/s</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−13.35</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−17.2</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−24.1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="sensors-17-01583-t003" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">sensors-17-01583-t003_Table 3</object-id>
+              <label>Table 3</label>
+              <caption>
+                <p>Average antenna array parameters used in the estimation of GEROS-ISS experiment performance.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th>
+                    <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Upper Band (L1/E1)</th>
+                    <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Lower Band (L5/E5)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Boresight</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">35°</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Boresight</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">35°</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">D<sub>up-looking</sub></td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">24.72 dB</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">20.02 dB</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">22.42 dB</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">19.62 dB</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">D<sub>down-looking</sub></td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">24.72 dB</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">22.12 dB</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">22.42 dB</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">20.82 dB</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap id="sensors-17-01583-t004" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">sensors-17-01583-t004_Table 4</object-id>
+              <label>Table 4</label>
+              <caption>
+                <p>GEROS-ISS Performance Summary [cm<sub>rms</sub>]: GPS and Galileo constellations; minimum, nominal and maximum transmitted power [<xref rid="B19-sensors-17-01583" ref-type="bibr">19</xref>,<xref rid="B20-sensors-17-01583" ref-type="bibr">20</xref>], U<sub>10</sub> = 1–15 m/s, T<sub>i</sub> = 1 s, four types of dual-frequency observables, and h<sub>ISS</sub> = 330 km and 460 km, and for cross-track distances of 0 and 250 km.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">
+</th>
+                    <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">h<sub>ISS</sub> = 330 km</th>
+                    <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">h<sub>ISS</sub> = 460 km</th>
+                  </tr>
+                  <tr>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">GNSS</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cross Track</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P<sub>T</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">U<sub>10</sub> [m/s]</th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">iF<sub>1</sub>-iF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">cF<sub>1</sub>-cF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">iF<sub>1</sub>-cF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">cF<sub>1</sub>-iF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">iF<sub>1</sub>-iF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">cF<sub>1</sub>-cF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">iF<sub>1</sub>-cF<sub>5</sub></th>
+                    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">cF<sub>1</sub>-iF<sub>5</sub></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="12" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">GPS</td>
+                    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">0 km</td>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">min</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">37</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">124</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">100</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">82</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">42</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">142</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">115</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">94</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">541</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">505</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">428</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">604</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1502</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">649</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">566</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1535</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">nom</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">18</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">77</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">58</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">53</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">20</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">87</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">66</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">60</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">55</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">248</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">190</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">168</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">63</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">289</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">222</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">196</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">max</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">10</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">53</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">37</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">39</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">11</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">58</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">41</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">44</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">31</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">148</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">102</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">112</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">35</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">170</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">117</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">129</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">250 km</td>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">min</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">99</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">202</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">165</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">153</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">84</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">201</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">161</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">146</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">410</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1446</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">249</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">326</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">195</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1442</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">64</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">184</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">nom</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">38</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">120</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">88</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">90</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">35</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">119</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">88</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">87</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">425</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">462</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">508</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">368</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">225</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">456</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">372</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">346</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">max</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">20</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">78</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">52</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">62</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">19</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">78</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">52</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">61</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">64</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">254</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">161</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">207</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">58</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">251</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">161</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">201</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="12" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">Galileo</td>
+                    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">0 km</td>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">min</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">23</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">90</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">67</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">65</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">102</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">76</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">73</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">71</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">306</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">227</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">217</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">85</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">363</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">270</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">257</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">nom</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">13</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">62</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">46</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">44</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">69</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">51</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">49</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">40</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">186</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">137</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">132</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">45</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">215</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">158</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">152</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">max</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">6</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">41</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">30</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">29</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">7</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">45</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">33</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">32</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">20</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">103</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">76</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">73</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">23</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">117</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">86</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">83</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">250 km</td>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">min</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">52</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">144</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">105</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">112</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">47</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">143</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">104</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">109</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7763</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">647</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7747</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">810</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2439</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">632</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2432</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">658</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">nom</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">94</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">67</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">72</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">24</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">93</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">66</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">70</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">325</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">228</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">250</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">81</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">321</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">225</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">242</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">max</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">58</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">40</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">43</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">11</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">57</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">40</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">42</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">37</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">167</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">115</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">127</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">35</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">166</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">116</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">124</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

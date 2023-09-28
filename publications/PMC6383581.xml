@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:57:51Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6383581" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6383581</identifier>
+        <datestamp>2019-02-22</datestamp>
+        <setSpec>ast</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Astrobiology</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Astrobiology</journal-id>
+              <journal-id journal-id-type="publisher-id">ast</journal-id>
+              <journal-title-group>
+                <journal-title>Astrobiology</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1531-1074</issn>
+              <issn pub-type="epub">1557-8070</issn>
+              <publisher>
+                <publisher-name>Mary Ann Liebert, Inc., publishers</publisher-name>
+                <publisher-loc>140 Huguenot Street, 3rd FloorNew Rochelle, NY 10801USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6383581</article-id>
+              <article-id pub-id-type="pmcid">PMC6383581</article-id>
+              <article-id pub-id-type="pmc-uid">6383581</article-id>
+              <article-id pub-id-type="pmid">30742496</article-id>
+              <article-id pub-id-type="pmid">30742496</article-id>
+              <article-id pub-id-type="publisher-id">10.1089/ast.2018.1897</article-id>
+              <article-id pub-id-type="doi">10.1089/ast.2018.1897</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Introduction</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Limits of Life and the Habitability of Mars: The ESA Space Experiment BIOMEX on the ISS</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>de Vera</surname>
+                    <given-names>Jean-Pierre</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="corr1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Alawi</surname>
+                    <given-names>Mashal</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Backhaus</surname>
+                    <given-names>Theresa</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Baqué</surname>
+                    <given-names>Mickael</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Billi</surname>
+                    <given-names>Daniela</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Böttger</surname>
+                    <given-names>Ute</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Berger</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bohmeier</surname>
+                    <given-names>Maria</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cockell</surname>
+                    <given-names>Charles</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Demets</surname>
+                    <given-names>René</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>de la Torre Noetzel</surname>
+                    <given-names>Rosa</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff9">
+                    <sup>9</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Edwards</surname>
+                    <given-names>Howell</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff10">
+                    <sup>10</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Elsaesser</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff11">
+                    <sup>11</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fagliarone</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fiedler</surname>
+                    <given-names>Annelie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff12">
+                    <sup>12</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Foing</surname>
+                    <given-names>Bernard</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff8">
+                    <sup>8</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Foucher</surname>
+                    <given-names>Frédéric</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff13">
+                    <sup>13</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fritz</surname>
+                    <given-names>Jörg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff14">
+                    <sup>14</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hanke</surname>
+                    <given-names>Franziska</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Herzog</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff15">
+                    <sup>15</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Horneck</surname>
+                    <given-names>Gerda</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hübers</surname>
+                    <given-names>Heinz-Wilhelm</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Huwe</surname>
+                    <given-names>Björn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff12">
+                    <sup>12</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Joshi</surname>
+                    <given-names>Jasmin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff12">
+                    <sup>12,</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff16">
+                    <sup>16</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kozyrovska</surname>
+                    <given-names>Natalia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff17">
+                    <sup>17</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kruchten</surname>
+                    <given-names>Martha</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lasch</surname>
+                    <given-names>Peter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff18">
+                    <sup>18</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Natuschka</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff19">
+                    <sup>19</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Leuko</surname>
+                    <given-names>Stefan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Leya</surname>
+                    <given-names>Thomas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff20">
+                    <sup>20</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lorek</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Martínez-Frías</surname>
+                    <given-names>Jesús</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff21">
+                    <sup>21</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Meessen</surname>
+                    <given-names>Joachim</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Moritz</surname>
+                    <given-names>Sophie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff12">
+                    <sup>12</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Moeller</surname>
+                    <given-names>Ralf</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Olsson-Francis</surname>
+                    <given-names>Karen</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff22">
+                    <sup>22</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Onofri</surname>
+                    <given-names>Silvano</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff23">
+                    <sup>23</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ott</surname>
+                    <given-names>Sieglinde</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pacelli</surname>
+                    <given-names>Claudia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff23">
+                    <sup>23</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Podolich</surname>
+                    <given-names>Olga</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff17">
+                    <sup>17</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rabbow</surname>
+                    <given-names>Elke</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Reitz</surname>
+                    <given-names>Günther</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rettberg</surname>
+                    <given-names>Petra</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Reva</surname>
+                    <given-names>Oleg</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff24">
+                    <sup>24</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rothschild</surname>
+                    <given-names>Lynn</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff25">
+                    <sup>25</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sancho</surname>
+                    <given-names>Leo Garcia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff26">
+                    <sup>26</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schulze-Makuch</surname>
+                    <given-names>Dirk</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff27">
+                    <sup>27</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Selbmann</surname>
+                    <given-names>Laura</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff23">
+                    <sup>23,</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff28">
+                    <sup>28</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Serrano</surname>
+                    <given-names>Paloma</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2,</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff29">
+                    <sup>29</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Szewzyk</surname>
+                    <given-names>Ulrich</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff30">
+                    <sup>30</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Verseux</surname>
+                    <given-names>Cyprien</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wadsworth</surname>
+                    <given-names>Jennifer</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wagner</surname>
+                    <given-names>Dirk</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2,</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff31">
+                    <sup>31</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Westall</surname>
+                    <given-names>Frances</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff13">
+                    <sup>13</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wolter</surname>
+                    <given-names>David</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zucconi</surname>
+                    <given-names>Laura</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff23">
+                    <sup>23</sup>
+                  </xref>
+                </contrib>
+                <aff id="aff1"><label><sup>1</sup></label>German Aerospace Center (DLR), Institute of Planetary Research, Management and Infrastructure, Research Group Astrobiological Laboratories, Berlin, Germany.</aff>
+                <aff id="aff2"><label><sup>2</sup></label>GFZ, German Research Centre for Geosciences, Helmholtz Centre Potsdam, Section 5.3 Geomicrobiology, Telegrafenberg, Potsdam, Germany.</aff>
+                <aff id="aff3"><label><sup>3</sup></label>Institut für Botanik, Heinrich-Heine-Universität (HHU), Düsseldorf, Germany.</aff>
+                <aff id="aff4"><label><sup>4</sup></label>University of Rome Tor Vergata, Department of Biology, Rome, Italy.</aff>
+                <aff id="aff5"><label><sup>5</sup></label>German Aerospace Center (DLR), Institute for Optical Sensor Systems, Berlin, Germany.</aff>
+                <aff id="aff6"><label><sup>6</sup></label>German Aerospace Center (DLR), Institute of Aerospace Medicine, Radiation Biology Department, Köln, Germany.</aff>
+                <aff id="aff7"><label><sup>7</sup></label>School of Physics and Astronomy, University of Edinburgh, Edinburgh, UK.</aff>
+                <aff id="aff8"><label><sup>8</sup></label>European Space Research and Technology Centre (ESTEC), European Space Agency (ESA), Noordwijk, the Netherlands.</aff>
+                <aff id="aff9"><label><sup>9</sup></label>Departamento de Observación de la Tierra, Instituto Nacional de Técnica Aeroespacial (INTA), Madrid, Spain.</aff>
+                <aff id="aff10"><label><sup>10</sup></label>Raman Spectroscopy Group, University Analytical Centre, Division of Chemical and Forensic Sciences, University of Bradford, West Yorkshire, UK.</aff>
+                <aff id="aff11"><label><sup>11</sup></label>Institut für experimentelle Physik, Experimentelle Molekulare Biophysik, Frei Universität Berlin, Berlin, Germany.</aff>
+                <aff id="aff12"><label><sup>12</sup></label>University of Potsdam, Biodiversity Research/Systematic Botany, Potsdam, Germany.</aff>
+                <aff id="aff13"><label><sup>13</sup></label>CNRS, Centre de Biophysique Moléculaire, UPR 4301, Orléans, France.</aff>
+                <aff id="aff14"><label><sup>14</sup></label>Museum für Naturkunde - Leibniz Institute for Evolution and Biodiversity Science, Berlin, Germany.</aff>
+                <aff id="aff15"><label><sup>15</sup></label>TH Wildau (Technical University of Applied Sciences), Wildau, Germany.</aff>
+                <aff id="aff16"><label><sup>16</sup></label>Hochschule für Technik HSR Rapperswil, Institute for Landscape and Open Space, Rapperswil, Switzerland.</aff>
+                <aff id="aff17"><label><sup>17</sup></label>Institute of Molecular Biology &amp; Genetics of NASU, Kyiv, Ukraine.</aff>
+                <aff id="aff18"><label><sup>18</sup></label>Robert Koch Institute, Centre for Biological Threats and Special Pathogens, Berlin, Germany.</aff>
+                <aff id="aff19"><label><sup>19</sup></label>Department of Ecology and Environmental Sciences, Umeå University, Umeå, Sweden.</aff>
+                <aff id="aff20"><label><sup>20</sup></label>Extremophile Research &amp; Biobank CCCryo, Fraunhofer Institute for Cell Therapy and Immunology, Branch Bioanalytics and Bioprocesses (IZI-BB), Potsdam, Germany.</aff>
+                <aff id="aff21"><label><sup>21</sup></label>Instituto de Geociencias, CSIC-Universidad Complutense de Madrid, Madrid, Spain.</aff>
+                <aff id="aff22"><label><sup>22</sup></label>School of Environment, Earth and Ecosystem Sciences, The Open University, Milton Keynes, UK.</aff>
+                <aff id="aff23"><label><sup>23</sup></label>Department of Ecological and Biological Sciences, University of Tuscia, Viterbo, Italy.</aff>
+                <aff id="aff24"><label><sup>24</sup></label>Centre for Bioinformatics and Computational Biology, Department of Biochemistry, Genetics and Microbiology, University of Pretoria, Pretoria, South Africa.</aff>
+                <aff id="aff25"><label><sup>25</sup></label>NASA Ames Research Center, Moffett Field, California, USA.</aff>
+                <aff id="aff26"><label><sup>26</sup></label>UCM, Universidad Complutense Madrid, Madrid, Spain.</aff>
+                <aff id="aff27"><label><sup>27</sup></label>Technical University Berlin, ZAA, Berlin, Germany.</aff>
+                <aff id="aff28"><label><sup>28</sup></label>Italian National Antarctic Museum (MNA), Mycological Section, Genoa, Italy.</aff>
+                <aff id="aff29"><label><sup>29</sup></label>AWI, Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Potsdam, Germany.</aff>
+                <aff id="aff30"><label><sup>30</sup></label>TU Berlin, Institute of Environmental Technology, Environmental Microbiology, Berlin, Germany.</aff>
+                <aff id="aff31"><label><sup>31</sup></label>University of Potsdam, Institute of Earth and Environmental Sciences, Potsdam, Germany.</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="corr1">Address correspondence to: Jean-Pierre de Vera, German Aerospace Center (DLR), Institute of Planetary Research, Management and Infrastructure, Research Group Astrobiological Laboratories, Rutherfordstr. 2, 12489 Berlin, Germany <email>jean-pierre.devera@dlr.de</email></corresp>
+              </author-notes>
+              <pub-date pub-type="ppub">
+                <day>01</day>
+                <month>2</month>
+                <year>2019</year>
+                <!--string-date: February 2019-->
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>12</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>12</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+              <volume>19</volume>
+              <issue>2</issue>
+              <fpage>145</fpage>
+              <lpage>157</lpage>
+              <history>
+                <date date-type="received">
+                  <day>29</day>
+                  <month>4</month>
+                  <year>2018</year>
+                  <!--string-date: Submitted 29 April 2018-->
+                </date>
+                <date date-type="accepted">
+                  <day>07</day>
+                  <month>1</month>
+                  <year>2019</year>
+                  <!--string-date: Accepted 7 January 2019-->
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© Jean-Pierre de Vera <italic>et al.</italic>, 2019; Published by Mary Ann Liebert, Inc.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access">
+                  <license-p>This Open Access article is distributed under the terms of the Creative Commons Attribution Noncommercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>) which permits any noncommercial use, distribution, and reproduction in any medium, provided the original author(s) and the source are credited.</license-p>
+                </license>
+              </permissions>
+              <self-uri content-type="pdf" xlink:type="simple" xlink:href="ast.2018.1897.pdf"/>
+              <abstract>
+                <title>Abstract</title>
+                <p>BIOMEX (BIOlogy and Mars EXperiment) is an ESA/Roscosmos space exposure experiment housed within the exposure facility EXPOSE-R2 outside the Zvezda module on the International Space Station (ISS). The design of the multiuser facility supports—among others—the BIOMEX investigations into the stability and level of degradation of space-exposed biosignatures such as pigments, secondary metabolites, and cell surfaces in contact with a terrestrial and Mars analog mineral environment. In parallel, analysis on the viability of the investigated organisms has provided relevant data for evaluation of the habitability of Mars, for the limits of life, and for the likelihood of an interplanetary transfer of life (theory of lithopanspermia). In this project, lichens, archaea, bacteria, cyanobacteria, snow/permafrost algae, meristematic black fungi, and bryophytes from alpine and polar habitats were embedded, grown, and cultured on a mixture of martian and lunar regolith analogs or other terrestrial minerals. The organisms and regolith analogs and terrestrial mineral mixtures were then exposed to space and to simulated Mars-like conditions by way of the EXPOSE-R2 facility. In this special issue, we present the first set of data obtained in reference to our investigation into the habitability of Mars and limits of life. This project was initiated and implemented by the BIOMEX group, an international and interdisciplinary consortium of 30 institutes in 12 countries on 3 continents. Preflight tests for sample selection, results from ground-based simulation experiments, and the space experiments themselves are presented and include a complete overview of the scientific processes required for this space experiment and postflight analysis. The presented BIOMEX concept could be scaled up to future exposure experiments on the Moon and will serve as a pretest in low Earth orbit.</p>
+              </abstract>
+              <kwd-group kwd-group-type="author">
+                <title>Key Words</title>
+                <kwd>EXPOSE-R2</kwd>
+                <kwd>BIOMEX</kwd>
+                <kwd>Habitability</kwd>
+                <kwd>Limits of life</kwd>
+                <kwd>Extremophiles</kwd>
+                <kwd>Mars</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="6"/>
+                <table-count count="6"/>
+                <ref-count count="71"/>
+                <page-count count="13"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s001">
+              <title>1. Results from Previous Spaceflight and Ground-Based Experiments</title>
+              <p>Previous experiments in spaceflight and ground-based studies, which were performed before the BIOMEX (BIOlogy and Mars EXperiment) proposal submission to ESA, showed that, in particular, microcolonies of bacteria, meristematic black fungi, and symbiotic associations of microorganisms such as lichens are able to survive and be reactivated after simulated and direct space experiments (Tarasenko <italic>et al.,</italic>
+<xref rid="B65" ref-type="bibr">1990</xref>; Horneck <italic>et al.,</italic>
+<xref rid="B28" ref-type="bibr">1994</xref>; de Vera <italic>et al.,</italic>
+<xref rid="B17" ref-type="bibr">2003</xref>, <xref rid="B18" ref-type="bibr">2004a</xref>, <xref rid="B19" ref-type="bibr">2004b</xref>, <xref rid="B20" ref-type="bibr">2007</xref>, <xref rid="B21" ref-type="bibr">2008</xref>, <xref rid="B22" ref-type="bibr">2010</xref>; de la Torre Noetzel <italic>et al.,</italic>
+<xref rid="B13" ref-type="bibr">2007</xref>; Sancho <italic>et al.,</italic>
+<xref rid="B58" ref-type="bibr">2007</xref>; Onofri <italic>et al.,</italic>
+<xref rid="B44" ref-type="bibr">2008</xref>, <xref rid="B45" ref-type="bibr">2010</xref>; Olsson-Francis <italic>et al.,</italic>
+<xref rid="B43" ref-type="bibr">2009</xref>; de la Torre <italic>et al.,</italic>
+<xref rid="B12" ref-type="bibr">2010</xref>; de Vera and Ott, <xref rid="B16" ref-type="bibr">2010</xref>). Bacteria strains such as <italic>Bacillus subtilis</italic> and <italic>Deinococcus radiodurans</italic> have shown a certain radiation and vacuum tolerance (Horneck, <xref rid="B27" ref-type="bibr">1993</xref>; Horneck <italic>et al.,</italic>
+<xref rid="B28" ref-type="bibr">1994</xref>, <xref rid="B30" ref-type="bibr">2001</xref>; Rettberg <italic>et al.,</italic>
+<xref rid="B55" ref-type="bibr">2002</xref>, <xref rid="B56" ref-type="bibr">2004</xref>; Möller <italic>et al.,</italic>
+<xref rid="B36" ref-type="bibr">2007a</xref>, <xref rid="B37" ref-type="bibr">2007b</xref>, <xref rid="B38" ref-type="bibr">2007c</xref>; Pogoda de la Vega <italic>et al.,</italic>
+<xref rid="B52" ref-type="bibr">2007</xref>; Wassmann <italic>et al.,</italic>
+<xref rid="B68" ref-type="bibr">2012</xref>; Panitz <italic>et al.,</italic>
+<xref rid="B50" ref-type="bibr">2014</xref>). Gram-negative endophytic bacteria and cyanobacteria survived a 14-day shuttle flight (within the shuttle interior) and exhibited enhanced plant colonizing activity in microgravity (Tarasenko <italic>et al.,</italic>
+<xref rid="B65" ref-type="bibr">1990</xref>). During the BIOPAN 5 and 6 experiments, the lichens <italic>Rhizocarpon geographicum</italic> and <italic>Xanthoria elegans</italic> were analyzed after exposure to space conditions of about 11–14 days coupled with parallel tests in ground-based facilities. These results have led to the conclusion that the tested symbiotic eukaryotic associations of alga and fungi in the lichen were not seriously damaged, and nearly 70–100% of the tested lichens survived. The lichens were physiologically active and able to germinate and grow. Furthermore, investigations on the mutation rate of photoproducts on the DNA have shown that the mycobiont (the fungal symbiont) is practically unaffected by UV radiation and that the algal symbiont is more sensitive (de Vera <italic>et al.,</italic>
+<xref rid="B17" ref-type="bibr">2003</xref>, <xref rid="B18" ref-type="bibr">2004a</xref>, <xref rid="B19" ref-type="bibr">2004b</xref>, <xref rid="B20" ref-type="bibr">2007</xref>, <xref rid="B21" ref-type="bibr">2008</xref>, <xref rid="B16" ref-type="bibr">2010</xref>; de Vera, <xref rid="B15" ref-type="bibr">2005</xref>; de la Torre Noetzel <italic>et al.,</italic>
+<xref rid="B13" ref-type="bibr">2007</xref>; Sancho <italic>et al.,</italic>
+<xref rid="B58" ref-type="bibr">2007</xref>; de la Torre <italic>et al.,</italic>
+<xref rid="B12" ref-type="bibr">2010</xref>; de Vera and Ott, <xref rid="B16" ref-type="bibr">2010</xref>). Cyanobacteria, as has been shown by analysis on akinetes (resting-state cells of cyanobacteria), were also able to survive the low Earth orbit and simulated extraterrestrial conditions (Olsson-Francis <italic>et al.,</italic>
+<xref rid="B43" ref-type="bibr">2009</xref>), while vegetative cells of <italic>Chroococcidiopsis</italic> sp. CCMEE 029 survived prolonged desiccation periods (Billi, <xref rid="B5" ref-type="bibr">2009</xref>; Fagliarone <italic>et al.,</italic>
+<xref rid="B25" ref-type="bibr">2017</xref>) and a few minutes of exposure to an attenuated Mars-like UV flux and 4 h of exposure to a Mars-like UV flux (Cockell <italic>et al.,</italic>
+<xref rid="B10" ref-type="bibr">2005</xref>). Numerous species mentioned in this study were even able to survive simulated catastrophes as induced by asteroid impact simulations (Horneck <italic>et al.,</italic>
+<xref rid="B29" ref-type="bibr">2001</xref>, <xref rid="B30" ref-type="bibr">2008</xref>; Stöffler <italic>et al.,</italic>
+<xref rid="B64" ref-type="bibr">2007</xref>; Meyer <italic>et al.,</italic>
+<xref rid="B35" ref-type="bibr">2011</xref>). Mars simulation tests with methanogenic archaea have also shown a remarkable level of survival and demonstrated physiological activity during exposure to Mars-like environmental conditions (Morozova and Wagner, <xref rid="B39" ref-type="bibr">2007</xref>; Morozova <italic>et al.,</italic>
+<xref rid="B40" ref-type="bibr">2007</xref>, <xref rid="B41" ref-type="bibr">2015</xref>; Schirmack <italic>et al.,</italic>
+<xref rid="B60" ref-type="bibr">2014</xref>). The same has been observed for meristematic black fungi during a ground-based experiment in the facilities at the German Aerospace Center (DLR) Cologne named EVT (Experiment Verification Test), which was performed for the Lichens and Fungi Experiment (LIFE) on EXPOSE-E (Onofri <italic>et al.,</italic>
+<xref rid="B44" ref-type="bibr">2008</xref>) and after the final space experiment (Onofri <italic>et al.,</italic>
+<xref rid="B46" ref-type="bibr">2012</xref>, <xref rid="B47" ref-type="bibr">2015</xref>). In other ground-based experiments, we were able to show that <italic>Paenibacillus</italic> sp. caused biocorrosion of anorthosite rock (Lytvynenko <italic>et al.,</italic>
+<xref rid="B34" ref-type="bibr">2006</xref>). In total, we can presume that a wide variety of different microorganisms, even from higher evolutionary advanced levels than those of archaea or bacteria, are able to resist and survive space and Mars-like conditions for a period of time (at least for 1.5 years). However, because of the limited capacity of the space exposure facilities, further work with replicates and other samples is still needed to finally answer questions on the degree of Mars' habitability or the kind of space and Mars-like environmental conditions that are limiting factors in reference to the most important vital functions of life (de Vera <italic>et al.,</italic>
+<xref rid="B24" ref-type="bibr">2014</xref>; Schulze-Makuch <italic>et al.,</italic>
+<xref rid="B61" ref-type="bibr">2015</xref>).</p>
+              <p>The BIOMEX results presented here further advance our knowledge and address pressing questions as mentioned above to an extended degree in comparison to previously executed space experiments, which, for the most part, were more restricted and focused on investigating the likelihood of an interplanetary transfer of life as is formulated in the lithopanspermia hypothesis (Richter, <xref rid="B57" ref-type="bibr">1865</xref>; Thomson, <xref rid="B66" ref-type="bibr">1894</xref>; Arrhenius, <xref rid="B1" ref-type="bibr">1903</xref>; see also Lee <italic>et al.,</italic>
+<xref rid="B32" ref-type="bibr">2017</xref>). Accordingly, these new BIOMEX experiments in space were intended to address new questions in planetary research and improve future space exploration goals. Nevertheless, it is clear that the results obtained by BIOMEX could also be used to evaluate previously performed space experiments in reference to lithopanspermia.</p>
+            </sec>
+            <sec id="s002">
+              <title>2. Sample Selection</title>
+              <p>As a consequence of results obtained in previous space experiments that engendered a significant number of still-open questions, a proposal named BIOMEX (ILSRA-2009-0834) was submitted in 2009. This was in response to the ESA international research announcement for research in space life sciences at the International Space Station (ISS)—ILSRA-2009—and BIOMEX was successfully selected. The proposal included replicate exposure of known species used in previous space experiments such as the reassessed Antarctic fungus <italic>Cryomyces antarcticus,</italic> the cyanobacterium <italic>Chroococcidiopsis</italic> sp., the lichen <italic>Circinaria gyrosa</italic> (formerly known as <italic>Aspicilia fruticulosa</italic> before reclassification; Sohrabi <italic>et al.,</italic>
+<xref rid="B63" ref-type="bibr">2013</xref>), and a set of new, preselected organisms for further preflight experiments (see <xref rid="T1" ref-type="table">Table 1</xref>). After survival of these organisms was shown, the samples were incorporated into the BIOMEX experiment, integrated into the final EXPOSE-R2 hardware, and sent to space on the ISS.</p>
+              <table-wrap id="T1" orientation="portrait" position="float">
+                <label>Table 1.</label>
+                <caption>
+                  <p>Selected Samples for BIOMEX</p>
+                </caption>
+                <!--OASIS TABLE HERE-->
+                <table frame="hsides" rules="groups">
+                  <colgroup>
+                    <col align="left"/>
+                    <col align="left"/>
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th colspan="2" align="left">
+                        <italic>BIOMEX selected samples for spaceflight</italic>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left">Archaea</td>
+                      <td align="left"><italic>Methanosarcina</italic> sp. strain SMA-21 (terrestrial permafrost) (GFZ/AWI Potsdam)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="5" align="left">Bacteria</td>
+                      <td align="left"><italic>Deinococcus radiodurans</italic> wild type and crtI or crtB (nonpigmented) (DLR Cologne)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Biofilm containing <italic>Leptothrix, Pedomicrobium, Pseudomonas, Hyphomonas, Tetrasphaera</italic> (TU Berlin)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Cyanobacterium <italic>Nostoc</italic> sp. strain CCCryo 231-06 (Fraunhofer IZI-BB)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Cyanobacterium <italic>Gloeocapsa</italic> OU-20 (Astrobiology Center Edinburgh)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Cyanobacterium <italic>Chroococcidiopsis</italic> sp. CCMEE 029 (Uni Roma)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Alga</td>
+                      <td align="left">Green alga <italic>Sphaerocystis</italic> sp. CCCryo 101-99 (Fraunhofer IZI-BB)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="2" align="left">Lichens</td>
+                      <td align="left"><italic>Circinaria gyrosa</italic> (INTA)</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><italic>Buellia frigida</italic> (Antarctic lichen) (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Fungi</td>
+                      <td align="left">Cryptoendolithic Antarctic black fungus <italic>Cryomyces antarcticus</italic> CCFEE 515 (Uni Viterbo)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="2" align="left">Bryophytes</td>
+                      <td align="left"><italic>Grimmia sessitana</italic> (alpine samples) (Uni Potsdam)</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><italic>Marchantia polymorpha</italic> L. (Uni Potsdam)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="8" align="left">Biomolecules</td>
+                      <td align="left">Pigment Chlorophyll (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Pigment <italic>beta</italic>-Carotene (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Pigment Naringenin (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Pigment Quercitin (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Pigment Parietin (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Pigment Melanin (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Cellulose (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Chitin (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Biofilm</td>
+                      <td align="left"><underline>Kombucha biofilm containing: Yeasts:</underline><italic>Saccharomyces ludwigii, Schizosaccharomyces pombe, Zygosaccharomyces rouxii, Zygosaccharomyces bailii, Brettanomyces bruxellensis;</italic><underline>Bacteria:</underline><italic>Paenibacillus</italic> sp. IMBG221, <italic>Acetobacter nitrogenifigens, Gluconacetobacter kombuchae</italic> sp. nov., <italic>Gluconacetobacter xylinum</italic> (NAS Ukraine)</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="5" align="left">Substrates/Minerals</td>
+                      <td align="left">Agar (as a substitute for Murein) (H-H-Uni Düsseldorf)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Minerals lunar analog mixture (MfN Berlin)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Minerals P-MRS: Early acidic Mars analog (Mixture of Fe<sub>2</sub>O<sub>3</sub>, montmorillonite, chamosite, kaolinite, siderite, hydromagnesite, quartz, gabbro, and dunite) (MfN Berlin)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Minerals S-MRS: Late basic Mars analog (Mixture of hematite, goethite, gypsum, quartz, gabbro, dunite) (MfN Berlin)</td>
+                    </tr>
+                    <tr>
+                      <td align="left">Silica discs (glass) (Astrobiology Center Edinburgh)</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="tf1">
+                    <p>Gray shaded cells indicate the samples for which results are available and included in this special collection.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <p>This new sample set was chosen systematically and comprised a selection from archaea, bacteria, and eukaryotes, which represent the three main domains of the tree of life. Most of these organisms were collected from Mars analog habitats distributed on different continents, which include the Alps (climatic and geomorphologic Mars analogy: gullies, polygons, temperatures below 0°C, dryness, and elevated UV irradiation), the steppe highlands of Central Spain (characterized by extreme insolation, high temperature contrasts, and arid summers Crespo and Barreno, <xref rid="B11" ref-type="bibr">1978</xref>]), and regions in the Arctic and Antarctica. The aim of selecting a wide variety of species was to identify which are able to demonstrate the limits of life with regard to the applied space and Mars-like conditions in low Earth orbit, as well as further our understanding of the kind of species for which Mars could be habitable.</p>
+              <sec id="s003">
+                <title>2.1. Biological samples</title>
+                <p>A set of organisms was tested, which were embedded in, or grown on, Mars (optionally lunar) analogs and other terrestrial minerals. Bacteria, biofilms of bacteria and yeast species, cyanobacteria, archaea, lichens, snow/permafrost algae, meristematic black fungi, and bryophytes of mostly alpine and polar habitats of desiccation- and radiation-resistant strains were chosen because some of these organisms are thought to be among the oldest on Earth (Wang <italic>et al.,</italic>
+<xref rid="B67" ref-type="bibr">1999</xref>; Schidlowski, <xref rid="B59" ref-type="bibr">2001</xref>; Campbell <italic>et al.,</italic>
+<xref rid="B8" ref-type="bibr">2003</xref>; Yuan <italic>et al.,</italic>
+<xref rid="B70" ref-type="bibr">2005</xref>) and, over time, have evolutionarily adapted to different environmental conditions. Some of these organisms could even be Mars-relevant because they use Mars-atmosphere resources such as CO<sub>2</sub> to form methane, a trace gas found remotely in the martian atmosphere (Formisano <italic>et al.,</italic>
+<xref rid="B26" ref-type="bibr">2004</xref>; Mumma <italic>et al.,</italic>
+<xref rid="B42" ref-type="bibr">2009</xref>) and <italic>in situ</italic> at Gale Crater by way of the rover Curiosity (Webster <italic>et al.,</italic>
+<xref rid="B69" ref-type="bibr">2015</xref>). The processes that lead to extreme variations in the methane concentration of the martian atmosphere, in particular the potential for abiogenic origin (Lefèvre and Forget, <xref rid="B33" ref-type="bibr">2009</xref>), have recently been reviewed (Yung <italic>et al.,</italic>
+<xref rid="B71" ref-type="bibr">2018</xref>). In previous studies, some of the organisms studied in the BIOMEX experiments have also exhibited a high resistance under simulated and real space conditions or simulated martian conditions. Others, like the newly selected bryophytes, provide insights on the resistance capabilities of an evolutionarily younger life-form. Details on the selected species are listed in <xref rid="T1" ref-type="table">Table 1</xref>.</p>
+              </sec>
+              <sec id="s004">
+                <title>2.2. Mars and lunar analog mineral mixtures</title>
+                <p>With the BIOMEX experiment, our goal was to analyze the effects of a space environment that approaches as closely as possible Mars-like environmental conditions and includes the use of Mars analog mixtures that could serve as a substrate or an embedding matrix for biological samples (see <xref rid="T2" ref-type="table">Table 2</xref> and <xref ref-type="fig" rid="f1">Figs. 1</xref> and <xref ref-type="fig" rid="f2">2</xref>). These Mars analog mineral mixtures mimic the regolith cover from early and late evolutionary stages of Mars (Böttger <italic>et al.,</italic>
+<xref rid="B7" ref-type="bibr">2012</xref>). The components of the mixtures were developed in the Museum für Naturkunde (MfN) Berlin (Germany) in the context of the Helmholtz-Alliance “Planetary Evolution and Life” proposal and based on several observational studies (Bibring <italic>et al.,</italic>
+<xref rid="B3" ref-type="bibr">2005</xref>, <xref rid="B4" ref-type="bibr">2006</xref>; Poulet <italic>et al.,</italic>
+<xref rid="B53" ref-type="bibr">2005</xref>; Chevrier and Mathé, <xref rid="B9" ref-type="bibr">2007</xref>). It is important to test the effects of space and the martian environment on minerals in parallel biological investigations. A welcome consequence of this space experiment would be that the investigated samples would also be tested for viability and space-resistance capacity and provide valuable data if used in a replicate space experiment with regard to the probability of lithopanspermia in the Earth-Mars system. The lithopanspermia hypothesis has also been investigated in previous space experiments on FOTON/BIOPAN some years ago and on the EXPOSE-E mission on the ISS. However, replicates are still needed. Besides the Mars analog mineral mixtures, the MfN also provided a lunar regolith analog (see <xref rid="T2" ref-type="table">Table 2</xref> and <xref ref-type="fig" rid="f1">Figs. 1</xref> and <xref ref-type="fig" rid="f3">3</xref>) for investigation into the influence of the lunar surface material on organisms, which could be relevant for life-support systems such as the selected and tested cyanobacteria (not part of this special collection of articles).</p>
+                <fig id="f1" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 1.</bold>
+                  </label>
+                  <caption>
+                    <p>Mars analog pellets integrated in the EXPOSE-R2 hardware.</p>
+                  </caption>
+                  <graphic xlink:href="fig-1"/>
+                </fig>
+                <fig id="f2" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 2.</bold>
+                  </label>
+                  <caption>
+                    <p>Grain size distribution of martian regolith analog P-MRS (early acidic MRS) and S-MRS (late basic MRS).</p>
+                  </caption>
+                  <graphic xlink:href="fig-2"/>
+                </fig>
+                <fig id="f3" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 3.</bold>
+                  </label>
+                  <caption>
+                    <p>Grain size distribution of lunar regolith analog material LRA.</p>
+                  </caption>
+                  <graphic xlink:href="fig-3"/>
+                </fig>
+                <table-wrap id="T2" orientation="portrait" position="float">
+                  <label>Table 2.</label>
+                  <caption>
+                    <p>Mars and Lunar Analog Mineral Mixtures</p>
+                  </caption>
+                  <!--OASIS TABLE HERE-->
+                  <table frame="hsides" rules="groups">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th align="left">
+                          <italic>Component</italic>
+                        </th>
+                        <th align="center">
+                          <italic>P-MRS (wt %)</italic>
+                        </th>
+                        <th align="center">
+                          <italic>S-MRS (wt %)</italic>
+                        </th>
+                        <th align="center">
+                          <italic>LRA (wt %)</italic>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left">Gabbro (Groß-Bieberau, Germany)</td>
+                        <td align="center">3</td>
+                        <td align="center">32</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Dunite—Olivine Fo<sub>96</sub> (Åheim, Norway)</td>
+                        <td align="center">2</td>
+                        <td align="center">15</td>
+                        <td align="center">5.7</td>
+                      </tr>
+                      <tr>
+                        <td align="left">CPx—Diopside (Kragerö, Norway)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">8.9</td>
+                      </tr>
+                      <tr>
+                        <td align="left">OPx—Hyperstehn (Egersund, Norway)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">5.7</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Anorthosite—Plagioclase (Larvik, Norway)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">66.8</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Quarzite (Bayerischen Wald, Germany)</td>
+                        <td align="center">10</td>
+                        <td align="center">3</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Apatite (Minas Gerais, Brasil)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">1.1</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Hematite (Cerro Bolivar, Venezuela)</td>
+                        <td align="center">5</td>
+                        <td align="center">13</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Illmenite (Flekkefiord, Norway)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">1.1</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Iron (Fe)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">1.3</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Montmorillonite (Hallertau, Germany)</td>
+                        <td align="center">45</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Chamosite (Nucic, Czech Republic)</td>
+                        <td align="center">20</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Kaolinite (Hirschau, Germany)</td>
+                        <td align="center">5</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Siderite (Hüttenberg, Austria)</td>
+                        <td align="center">5</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Hydromagnesite (Albaner Berge, Italy)</td>
+                        <td align="center">5</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Goethite (Salchendorf, Germany)</td>
+                        <td align="center">-</td>
+                        <td align="center">7</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Gypsum (Nüttermoor, Germany)</td>
+                        <td align="center">-</td>
+                        <td align="center">30</td>
+                        <td align="center">-</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Volcanic slag (Aeolian islands, Italy)</td>
+                        <td align="center">-</td>
+                        <td align="center">-</td>
+                        <td align="center">9.4</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tf2">
+                      <p>P-MRS: phyllosilicatic martian regolith = early acidic. S-MRS: sulfatic martian regolith = late basic. LRA: lunar regolith analog.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="s005">
+                <title>2.3. Ground-based environmental and space simulations</title>
+                <p>Many preflight tests were performed to discern whether the chosen samples (<xref ref-type="fig" rid="f4">Fig. 4</xref>) are able to resist extreme conditions with reference to space and martian environments. After an array of experiments on Mars-like regolith and desiccation tests, the organisms were exposed to Experiment Verification Tests (EVTs) and Scientific Verification Tests (SVTs) (Rabbow <italic>et al.,</italic>
+<xref rid="B54" ref-type="bibr">2017</xref>). In the EVTs, a number of parameters were tested individually on the selected samples. Among these tests, vacuum, a low-pressure Mars-like CO<sub>2</sub> atmosphere, extreme temperature cycles from far below zero to more than 40°C, and UVC irradiation were applied (see <xref rid="T3" ref-type="table">Table 3</xref>). The SVT experiments were conducted inside hardware with conditions that approached those of the space environment at the ISS (see <xref rid="T4" ref-type="table">Table 4</xref>).</p>
+                <fig id="f4" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 4.</bold>
+                  </label>
+                  <caption>
+                    <p>Visual table of the sample distribution within the EXPOSE-R2 hardware.</p>
+                  </caption>
+                  <graphic xlink:href="fig-4"/>
+                </fig>
+                <table-wrap id="T3" orientation="portrait" position="float">
+                  <label>Table 3.</label>
+                  <caption>
+                    <p>Experiment Verification Tests (EVTs)</p>
+                  </caption>
+                  <!--OASIS TABLE HERE-->
+                  <table frame="hsides" rules="groups">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="left"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th align="left">
+                          <italic>EXPOSE-R2 EVT part 1</italic>
+                        </th>
+                        <th align="center">
+                          <italic>BIOMEX Experiment</italic>
+                        </th>
+                      </tr>
+                      <tr>
+                        <th align="left">
+                          <italic>Test parameter</italic>
+                        </th>
+                        <th align="center">
+                          <italic>performed</italic>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td align="left">Vacuum</td>
+                        <td rowspan="2" align="left">7 d, pressure: 3.5 × 10<sup>−2</sup> ± 0.12 Pa</td>
+                      </tr>
+                      <tr>
+                        <td align="left">10<sup>−5</sup> Pa</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Mars atmosphere</td>
+                        <td rowspan="3" align="left">7 d, pressure: 6.5 × 10<sup>2</sup> ± 0.12 Pa</td>
+                      </tr>
+                      <tr>
+                        <td align="left">(CO<sub>2</sub> gas composition)</td>
+                      </tr>
+                      <tr>
+                        <td align="left">103 Pa</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Temperature</td>
+                        <td align="left">48 cycles</td>
+                      </tr>
+                      <tr>
+                        <td align="left">−10°C to +45°C</td>
+                        <td align="left">8 h each</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Temperature max and min</td>
+                        <td align="left">−25°C ± 0.5°C, 1 h</td>
+                      </tr>
+                      <tr>
+                        <td align="left">−25°C and +60°C</td>
+                        <td align="left">+60°C ± 0.5°C, 1 h</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Irradiation</td>
+                        <td align="left">0 s → 0 J/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">254 nm</td>
+                        <td align="left">18 s → 10.1 J/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">Hg low-pressure lamp</td>
+                        <td align="left">2 min 59 s → 100.2 J/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" align="left">@ 56 μW/cm<sup>2</sup></td>
+                        <td align="left">29 min 46 s → 1000.2 J/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">4 h 57 min 37 s → 9999.9 J/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <italic>EXPOSE-R2 EVT part 2 (run 1 + 2)</italic>
+                        </td>
+                        <td align="left">
+                          <italic>BIOMEX Experiment</italic>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <bold>Run 1</bold>
+                        </td>
+                        <td align="left">0 s → dark</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Irradiation</td>
+                        <td align="left">18 min →1.4 × 10<sup>3</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">200–400 nm</td>
+                        <td align="left">3 h → 1.4 × 10<sup>4</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">SOL2000</td>
+                        <td align="left">30 h → 1.4 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2" align="left">@ 1,271.2 W/m<sup>2</sup><sub>200–400nm</sub></td>
+                        <td align="left">99 h → 4.5 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">148 h → 6.8 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">
+                          <bold>Run 2</bold>
+                        </td>
+                        <td align="left">0 s → dark</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Irradiation</td>
+                        <td align="left">432 s → 5.5 × 10<sup>2</sup> kJ/m<sup>2</sup> (0.1% ND filter)</td>
+                      </tr>
+                      <tr>
+                        <td align="left">200–400 nm</td>
+                        <td align="left">1 h 12 min →5.5 × 10<sup>3</sup> kJ/m<sup>2</sup> (1.0% ND filter)</td>
+                      </tr>
+                      <tr>
+                        <td align="left">SOL2000</td>
+                        <td align="left">30 h → 1.4 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">@ 1,271.2 W/m<sup>2</sup><sub>200–400nm</sub></td>
+                        <td align="left">60 h → 2.7 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">(as for a 12-month mission duration)</td>
+                        <td align="left">120 h → 5.5 × 10<sup>5</sup> kJ/m<sup>2</sup></td>
+                      </tr>
+                      <tr>
+                        <td align="left">Gluing test</td>
+                        <td align="left">&gt;24 h vulcanization, glue: Wacker-silicone</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn id="tf3">
+                      <p>ND: neutral density.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <table-wrap id="T4" orientation="portrait" position="float">
+                  <label>Table 4.</label>
+                  <caption>
+                    <p>Scientific Verification Tests (SVTs)</p>
+                  </caption>
+                  <!--OASIS TABLE HERE-->
+                  <table frame="hsides" rules="groups">
+                    <colgroup>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                      <col align="left"/>
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th align="left">
+                          <italic>SVT</italic>
+                        </th>
+                        <th align="center">
+                          <italic>Duration</italic>
+                        </th>
+                        <th align="center">
+                          <italic>Pressure</italic>
+                        </th>
+                        <th align="center">
+                          <italic>Atmosphere</italic>
+                        </th>
+                        <th align="center"><italic>Temperature</italic> (T)</th>
+                        <th align="center">T <italic>extremes</italic></th>
+                        <th align="center">
+                          <italic>Irradiation</italic>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="2" align="left">Tray 1</td>
+                        <td rowspan="2" align="left">December 2013–January 2014, 38 d</td>
+                        <td rowspan="2" align="left">vacuum pressure at 4.1 × 10<sup>−5</sup> Pa</td>
+                        <td rowspan="2" align="left"> </td>
+                        <td rowspan="2" align="left"><italic>T</italic> cycles between −25°C (16 h in the dark) and +10°C (8 h during irradiation)</td>
+                        <td rowspan="2" align="left"> </td>
+                        <td align="left">The upper layers of each tray: UVR<sub>200–400nm</sub> with 1271 Wm<sup>−2</sup> (5.7 × 10<sup>5</sup> kJ m<sup>−2</sup>) for 5924 min</td>
+                      </tr>
+                      <tr>
+                        <td align="left">The lower layers of the trays were kept in the dark</td>
+                      </tr>
+                      <tr>
+                        <td align="left">Tray 2</td>
+                        <td align="left"> </td>
+                        <td align="left"> </td>
+                        <td align="left">Mars atmosphere (95.55% CO<sub>2</sub>, 2.7% N<sub>2</sub>, 1.6% Ar, 0.15% O<sub>2</sub>, and ∼370 ppm H<sub>2</sub>O at 1 kPa)</td>
+                        <td align="center">−23°C</td>
+                        <td align="left"> </td>
+                        <td align="left"> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+              </sec>
+              <sec id="s006">
+                <title>2.4. Radiation conditions in space</title>
+                <p>For several of the BIOMEX experiments, we used different neutral density filters (<xref ref-type="fig" rid="f5">Fig. 5</xref>) as covers below the sample window or as cutoff filters, which allowed for a radiation spectral range such as that present at the surface of Mars. For the more protected samples, doses varied between 4.13 × 10<sup>1</sup> kJ/m<sup>2</sup> and 6.5 × 10<sup>3</sup> kJ/m<sup>2</sup> (see <xref ref-type="fig" rid="f5">Fig. 5</xref> for details). Samples such as the cyanobacteria of the genera <italic>Nostoc, Gloeocapsa,</italic> and <italic>Chroococcidiopsis;</italic> the green snow/permafrost alga <italic>Sphaerocystis;</italic> and the fungus <italic>Cryomyces antarcticus</italic> were partly shielded by special MgF<sub>2</sub> neutral density filters with transmission of 0.1% for space conditions and quartz filters with transmission of 0.1% for Mars-like conditions (for detailed description of the EXPOSE-R2 facility and the space mission, see Rabbow <italic>et al.</italic> [<xref rid="B54" ref-type="bibr">2017</xref>]). These allowed for an approximation of martian subsurface radiation conditions, representing a thin soil cover with a significantly reduced amount of transmission. The reason for these filters, which covered select samples, was also to mimic those conditions that occur in natural habitats where organisms primarily colonize endolithic niches or fissures and cracks in rocks or soils or are embedded by shielding snow or ice. Some of these organisms occur naturally as endoliths, such as <italic>Chroococcidiopsis</italic> sp. and <italic>Cryomyces antarcticus</italic>. Furthermore, the neutral density filters with 0.1% transmission were additionally applied to the samples of the methanogen archaeon <italic>Methanosarcina soligelidi</italic> SMA 21. In this case, these filters were used because of the specific nature of this organism's original habitat, which is situated within permafrost-affected soils and protected by soil particles with different grain sizes. <italic>Deinococcus radiodurans</italic> was covered by neutral density filters with a transmission of 0.01%. The measured and calculated data with regard to the final doses the samples experienced, which included UVA, UVB, UVC, PAR (photosynthetically active radiation), and Lyman alpha, are represented in <xref ref-type="fig" rid="f6">Fig. 6</xref> and were kindly provided by ESA via computations completed by the company RedShift Design and Engineering BVBA.</p>
+                <fig id="f5" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 5.</bold>
+                  </label>
+                  <caption>
+                    <p>The distribution of neutral density filters and the values of transmission depending on the used material.</p>
+                  </caption>
+                  <graphic xlink:href="fig-5"/>
+                </fig>
+                <fig id="f6" fig-type="figure" orientation="portrait" position="float">
+                  <label>
+                    <bold>FIG. 6.</bold>
+                  </label>
+                  <caption>
+                    <p>Final UV/PAR radiation dose distribution on the BIOMEX compartments within EXPOSE-R2 after exposure on the ISS (data provided by RedShift).</p>
+                  </caption>
+                  <graphic xlink:href="fig-6"/>
+                </fig>
+                <p>Significant variation was observed in the dose of UV among samples that were placed within sample sites not protected by filters. The observed variations could be explained by the dependence of the sample position in the hardware, which would have been exposed to a variety of shadowing effects during the orbit of the ISS. When filters were not used in the BIOMEX experiments, the final doses varied between 4.5 × 10<sup>6</sup> and 8.4 × 10<sup>6</sup> kJ/m<sup>2</sup>. Specific organisms exposed without any neutral density filters include the epilithic lichens <italic>Circinaria gyrosa</italic> and <italic>Buellia frigida,</italic> the epilithically living bryophytes <italic>Grimmia</italic> sp. and <italic>Marchantia polymorpha,</italic> the iron bacteria biofilm, and the kombucha biofilm. Biomolecules exposed on the surface and embedded in the Mars analog mineral pellets also endured the same direct space conditions without any neutral density filters.</p>
+              </sec>
+            </sec>
+            <sec id="s007">
+              <title>3. Overview of Results within This Special Collection</title>
+              <p>The results presented in this special collection are arranged to provide an overview of each step of the processes involved in the BIOMEX experiment, that is, from selecting samples for simulation experiments to the final exposure experiments in space. Results from pretests on the chosen methanogenic archaeon of the genus <italic>Methanosarcina</italic> at the preselection level are reported in Serrano <italic>et al.</italic> (<xref rid="B62" ref-type="bibr">2019</xref>). This archaeon was chosen because of its relevance with regard to its potential for being metabolically active on Mars. Therefore, the first tests were designed to use different substrates that contained magnesium perchlorate to establish a Mars-relevant perchlorate environment and mineral mixture before attempting the next selection step of applying atmospheric and radiation-related environmental conditions within the preflight experiments EVTs and SVTs. With regard to the EVTs and SVTs, we present the results obtained by analysis of the fungus <italic>Cryomyces antarcticus</italic> (Pacelli <italic>et al.,</italic>
+<xref rid="B49" ref-type="bibr">2019</xref>) and the moss <italic>Grimmia</italic> sp. (Huwe <italic>et al.,</italic>
+<xref rid="B31" ref-type="bibr">2019</xref>). Results obtained after space exposure are shown from a series of analyses on the biofilm kombucha (Podolich <italic>et al.,</italic>
+<xref rid="B51" ref-type="bibr">2019</xref>), the cyanobacterium <italic>Chroococcidiopsis</italic> (Billi <italic>et al.,</italic>
+<xref rid="B6" ref-type="bibr">2019</xref>), the cryptoendolithic Antarctic fungus <italic>Cryomyces antarcticus</italic> (Onofri <italic>et al.,</italic>
+<xref rid="B48" ref-type="bibr">2019</xref>), and the lichens <italic>Buellia frigida</italic> (Backhaus <italic>et al.</italic>, this issue) and <italic>Circinaria gyrosa</italic> (de la Torre <italic>et al.</italic>, not part of this issue). A rough summary of the different studies is given in <xref rid="T5" ref-type="table">Table 5</xref>, and more details are shown in <xref rid="T6" ref-type="table">Table 6</xref>. Survival, physiological activity, and growth capacity were detected in all organisms tested. However, life's vital functions decreased from slight to significant, and the reader is directed to specific articles in this collection for detailed discussion of these findings. Several of the selected archaea, bacteria, and heterogenic multilayered biofilms formed by a multitude of species were found to be the most resistant to simulated or direct space and Mars-like conditions. Less resistance and a significant decrease in cell numbers and vitality with regard to the Mars-like environment were shown for multicellular life-forms such as the tested fungus <italic>Cryomyces antarcticus</italic> (Onofri <italic>et al.,</italic>
+<xref rid="B48" ref-type="bibr">2019</xref>) and the lichens <italic>Buellia frigida</italic> (Backhaus <italic>et al.,</italic>
+<xref rid="B2" ref-type="bibr">2019</xref>) and <italic>Circinaria gyrosa</italic> (de la Torre Noetzel <italic>et al.</italic>, <xref rid="B14" ref-type="bibr">2019</xref>). The bryophyte <italic>Grimmia</italic> sp. was an exception (Huwe <italic>et al.,</italic>
+<xref rid="B31" ref-type="bibr">2019</xref>), but further analysis after space exposure might show whether this specific moss is also resistant to the conditions in space. Actual results in reference to the bryophytes were shown only for the preflight selection mode of EVT and SVT. Our results so far indicate that present Mars seems to be habitable for archaea and bacteria over longer timescales. However, a clearer understanding of the limits of life would be achievable with the implementation of extended space exposure experiments on the Moon, for example, with similar space exposure facilities as those used in the present study (see de Vera <italic>et al.,</italic>
+<xref rid="B23" ref-type="bibr">2012</xref>).</p>
+              <table-wrap id="T5" orientation="portrait" position="float">
+                <label>Table 5.</label>
+                <caption>
+                  <p>Results Listed According to the Topics “Limits of Life” and Habitability of Life</p>
+                </caption>
+                <!--OASIS TABLE HERE-->
+                <table frame="hsides" rules="groups">
+                  <col align="left"/>
+                  <tbody>
+                    <tr>
+                      <td align="left">
+                        <inline-graphic xlink:href="inl-1.gif"/>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="tf4">
+                    <p>(<inline-graphic xlink:href="inl-2.jpg"/>) Survival / metabolically active / growth capacity, (<inline-graphic xlink:href="inl-3.jpg"/>) partly survival, more damaged</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+              <table-wrap id="T6" orientation="portrait" position="float">
+                <label>Table 6.</label>
+                <caption>
+                  <p>Detailed Result List Explaining the Classification Shown in <xref rid="T5" ref-type="table">Table 5</xref></p>
+                </caption>
+                <!--OASIS TABLE HERE-->
+                <table frame="hsides" rules="groups">
+                  <col align="left"/>
+                  <tbody>
+                    <tr>
+                      <td align="left">
+                        <inline-graphic xlink:href="inl-4.gif"/>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <fn id="tf5">
+                    <p>S-MRS: sulfatic martian regolith. P-MRS: phyllosilicatic martian regolith. LRA: lunar regolith analog.</p>
+                  </fn>
+                </table-wrap-foot>
+              </table-wrap>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>This research was supported by the Italian Space Agency (ASI grant BIOMEX Cyano 051-R.0 to D.B., ASI grant BIOMEX MicroColonial Fungi 063-R.0 to S.O.); the German Aerospace Center (DLR-grants: Department of Infrastructure and Management, Astrobiology Laboratories through a grant DLR-FuW-Project BIOMEX (2474128)/Department of Radiation Biology supported by the grant DLR-FuE-Projekt ISS LIFE, Programm RF-FuW, Teilprogramm 475); the German Helmholtz Association through the Helmholtz-Alliance “Planetary Evolution and Life”; the Spanish Ministry of Economy, Industry and Competitiveness (MINECO, project SUBLIMAS “SUrvival of Bacteria and LIchens on Mars Analogs and Space,” ESP2015-69810-R, 2015, to R. de la Torre, and project “CTM2015-64728-C2-1-R” to L.G. Sancho); and the National Academy of Sciences of Ukraine (grant 47/2017). We also kindly acknowledge support from the Alexander von Humboldt Foundation, the German Federal Ministry of Economics and Technology (BMWi: grant to D.W. (50WB1152) and S.O., T.B. (50WB1153) in the frame of the BIOMEX project). L.S. acknowledges The Italian Antarctic National Museum (MNA) for financial support to the Culture Collection of Fungi From Extreme Environments (CCFEE). Also, Dirk Schulze-Makuch acknowledges the support of the ERC Advanced Grant HOME (# 339231). We would like to thank personally Antje Hermelink and the Robert Koch Institute for the SEM images, and Victor Parro (Centro de Astrobiología) for his opinion and suggestions concerning microbial survival to perchlorate exposure. Thank you also to Ralf Liebermann as well as Dorit Siebert and Sandra Jönsson, University of Potsdam, for supporting sample handling. The authors express appreciation to Mr. V'yacheslav Moskaluyk for excellent service regarding the examination of extracellular membrane vesicles, using a scanning electron microscope. We would like to express a special thank you to the BGR for the logistics for the necessary field work in Antarctica during the GANOVEX 10 expedition so that the collection of samples within Mars-analog field sites for BIOMEX was possible, and we are very thankful to Andreas Läufer, the expedition leader.</p>
+              <p>We thank ESA for supporting the EXPOSE experiments and in particular the BIOMEX project (ESA-ILSRA 2009-0834, PI: J.-P. de Vera), and we thank the cosmonauts for their excellent EVA work. Thank you also for the final dose calculation and providence of data by RedShift. Moreover, we would like to thank the anonymous reviewers for constructive feedback.</p>
+            </ack>
+            <sec id="s008" sec-type="COI-statement">
+              <title>Author Disclosure Statement</title>
+              <p>No competing financial interests exist.</p>
+            </sec>
+            <ref-list content-type="parsed">
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arrhenius</surname><given-names>S.</given-names></name></person-group> (<year>1903</year>) <article-title>Die Verbreitung des Lebens im Weltenraum</article-title>. <source>Umschau</source>
+<volume>7</volume>:<fpage>481</fpage>–<lpage>485</lpage></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Backhaus</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meeßen</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Demets</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2019</year>) <article-title>Characterization of viability of the lichen <italic>Buellia frigida</italic> after 1.5 years in space on the International Space Station</article-title>. <source>Astrobiology</source>, <volume>19</volume>:<fpage>233</fpage>–<lpage>241</lpage>; doi:<pub-id pub-id-type="doi">10.1089/ast.2018.1894</pub-id><pub-id pub-id-type="pmid">30742495</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bibring</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Langevin</surname><given-names>Y.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gendrin</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gondet</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Poulet</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Berthé</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Soufflot</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Arvidson</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mangold</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mustard</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Drossart</surname><given-names>P.</given-names></name></person-group>, <collab>OMEGA Team</collab>, <person-group person-group-type="author"><name><surname>Erard</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Forni</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Combes</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Encrenaz</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fouchet</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Merchiorri</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Belluci</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Altieri</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Formisano</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bonello</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Capaccioni</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cerroni</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Coradini</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fonti</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kottsov</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ignatiev</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moroz</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Titov</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zasova</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mangold</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pinet</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Douté</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schmitt</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sotin</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hauber</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hoffmann</surname><given-names>H.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Jaumann</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Keller</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Duxbury</surname><given-names>T.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Forget</surname><given-names>F.</given-names></name></person-group> (<year>2005</year>) <article-title>Mars surface diversity as revealed by the OMEGA/Mars express observations</article-title>. <source>Science</source>
+<volume>307</volume>:<fpage>1576</fpage>–<lpage>1581</lpage><pub-id pub-id-type="pmid">15718430</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bibring</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Squyres</surname><given-names>S.W.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Arvidson</surname><given-names>R.E.</given-names></name></person-group> (<year>2006</year>) <article-title>Planetary science. Merging views on Mars</article-title>. <source>Science</source>
+<volume>313</volume>:<fpage>1899</fpage>–<lpage>1901</lpage><pub-id pub-id-type="pmid">17008516</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Billi</surname><given-names>D.</given-names></name></person-group> (<year>2009</year>) <article-title>Subcellular integrities in <italic>Chroococcidiopsis</italic> sp. CCMEE 029 survivors after prolonged desiccation revealed by molecular probes and genome stability assays</article-title>. <source>Extremophiles</source>
+<volume>13</volume>:<fpage>49</fpage>–<lpage>57</lpage><pub-id pub-id-type="pmid">18931823</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Billi</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Verseux</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fagliarone</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Napoli</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Baqué</surname><given-names>M.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group> (<year>2019</year>) <article-title>A desert cyanobacterium under simulated Mars-like conditions in low Earth orbit: implications for the habitability of Mars</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>158</fpage>–<lpage>169</lpage>; doi:<pub-id pub-id-type="doi">10.1089/ast.2017.1807</pub-id><pub-id pub-id-type="pmid">30742497</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Böttger</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Weber</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hübers</surname><given-names>H.-W.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Schulze-Makuch</surname><given-names>D.</given-names></name></person-group> (<year>2012</year>) <article-title>Optimizing the detection of carotene in cyanobacteria in a martian regolith analogue with a Raman spectrometer for the ExoMars mission</article-title>. <source>Planet Space Sci</source>
+<volume>60</volume>:<fpage>356</fpage>–<lpage>362</lpage></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Campbell</surname><given-names>N.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reece</surname><given-names>J.B.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Markl</surname><given-names>J.</given-names></name></person-group> (<year>2003</year>) <article-title>Biologie</article-title>. <source>Spektrum Akademischer Verlag</source>, <fpage>533</fpage>–<lpage>639</lpage></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chevrier</surname><given-names>V.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Mathé</surname><given-names>P.E.</given-names></name></person-group> (<year>2007</year>) <article-title>Mineralogy and evolution of the surface of Mars: a review</article-title>. <source>Planet Space Sci</source>
+<volume>55</volume>:<fpage>289</fpage>–<lpage>314</lpage></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schuerger</surname><given-names>A.C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Billi</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Friedmann</surname><given-names>E.I.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group> (<year>2005</year>) <article-title>Effects of a simulated martian UV flux on the cyanobacterium, <italic>Chroococcidiopsis</italic> sp. 029</article-title>. <source>Astrobiology</source>
+<volume>5</volume>:<fpage>127</fpage>–<lpage>140</lpage><pub-id pub-id-type="pmid">15815164</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Crespo</surname><given-names>A.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Barreno</surname><given-names>E.</given-names></name></person-group> (<year>1978</year>) <article-title>Sobre las comunidades terrícolas de liquenes vagantes Sphaerothalio, Xanthoparmelion vagantis al. Nova)</article-title>. <source>Acta Botànica Malacitana</source>
+<volume>4</volume>:<fpage>55</fpage>–<lpage>62</lpage></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sancho</surname><given-names>L.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ascaso</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de los Ríos</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Olsson-Francis</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Berger</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Frías</surname><given-names>J.M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wierzchos</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reina</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pintado</surname><given-names>A.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Demets</surname><given-names>R.</given-names></name></person-group> (<year>2010</year>) <article-title>Survival of lichens and bacteria exposed to outer space conditions—results of the Lithopanspermia experiments</article-title>. <source>Icarus</source>
+<volume>208</volume>:<fpage>735</fpage>–<lpage>748</lpage></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de la Torre Noetzel</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sancho</surname><given-names>L.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pintado</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Deutschmann</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reina</surname><given-names>M.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2007</year>) <article-title>BIOPAN experiment LICHENS on the Foton M2 mission: preflight verification tests of the <italic>Rhizocarpon geographicum</italic>-granite ecosystem</article-title>. <source>Adv Space Res</source>
+<volume>40</volume>:<fpage>1665</fpage>–<lpage>1671</lpage></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de la Torre Noetzel</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ortega García</surname><given-names>M.V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Miller</surname><given-names>A.Z.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bassy</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Granja</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cubero</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Jordão</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Martínez Frías</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Backhaus</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sancho</surname><given-names>L.G.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group> (<year>2019</year>) <article-title>Lichens survive on board the EXPOSE-R2 facility outside the ISS: results of the BIOMEX experiment</article-title>. <source>Astrobiology</source>, in press; doi:<pub-id pub-id-type="doi">10.1089/ast.2018.1959</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group> (<year>2005</year>) <article-title>Grenzen des Überlebens: Flechten als Modellsystem für das Potential von Adaptationsmechanismen eines Symbioseorganismus unter Extrembedingungen</article-title>. <source>Inaugural Dissertation at the Heinrich-Heine-University, ULB Düsseldorf</source>, <publisher-name>Düsseldorf</publisher-name>, <publisher-loc>Germany</publisher-loc></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2010</year>) <article-title>Resistance of symbiotic eukaryotes to simulated space conditions and asteroid impact catastrophes</article-title>. In <source>Symbioses and Stress</source>, edited by <person-group person-group-type="editor"><name><surname>Seckbach</surname><given-names>J.</given-names></name></person-group> and <person-group person-group-type="editor"><name><surname>Grube</surname><given-names>M.</given-names></name></person-group>, <publisher-name>Springer Science Series Volume 17: Cellular Origins, Life in Extreme Habitats and Astrobiology, Springer Science+Business Media</publisher-name>, <publisher-loc>Dordrecht, the Netherlands</publisher-loc>, pp <fpage>595</fpage>–<lpage>611</lpage></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2003</year>) <article-title>The potential of lichen symbiosis to cope with extreme conditions of outer space—I. Influence of UV radiation and space vacuum on the vitality of lichen symbiosis and germination capacity</article-title>. <source>Int J Astrobiol</source>
+<volume>1</volume>:<fpage>285</fpage>–<lpage>293</lpage></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2004a</year>) <article-title>The potential of lichen symbiosis to cope with the extreme conditions of outer space II: germination capacity of lichen ascospores in response to simulated space conditions</article-title>. <source>Adv Space Res</source>
+<volume>33</volume>:<fpage>1236</fpage>–<lpage>1243</lpage><pub-id pub-id-type="pmid">15806704</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2004b</year>) <article-title>In the context of panspermia: may lichens serve as shuttles for their bionts in space?</article-title> In <italic>Proceedings of the III European Workshop on Exo-Astrobiology. Mars: The Search for Life</italic>, ESA SP-545, edited by <person-group person-group-type="editor"><name><surname>Harris</surname><given-names>R.A.</given-names></name></person-group> and <person-group person-group-type="editor"><name><surname>Ouwehand</surname><given-names>L.</given-names></name></person-group>, <publisher-name>European Space Agency</publisher-name>, <publisher-loc>Noordwijk, the Netherlands</publisher-loc>, pp <fpage>197</fpage>–<lpage>198</lpage></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Tilmes</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Heydenreich</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2007</year>) <article-title>Potential of prokaryotic and eukaryotic organisms in a Mars like environment and as reference system for the search of life on other planets</article-title>. In <conf-name><italic>Proceedings of the DGLR International Symposium “To the Moon and Beyond,”</italic></conf-name>
+<publisher-name>DGLR</publisher-name>, <publisher-loc>Bremen</publisher-loc></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2008</year>) <article-title>Life at the limits: capacities of isolated and cultured lichen symbionts to resist extreme environmental stresses</article-title>. <source>Orig Life Evol Biosph</source>
+<volume>38</volume>:<fpage>457</fpage>–<lpage>468</lpage><pub-id pub-id-type="pmid">18523859</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möhlmann</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Butina</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Lorek</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wernecke</surname><given-names>R.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group> (<year>2010</year>) <article-title>Survival potential and photosynthetic activity of lichens under Mars-like conditions: a laboratory study</article-title>. <source>Astrobiology</source>
+<volume>10</volume>:<fpage>215</fpage>–<lpage>227</lpage><pub-id pub-id-type="pmid">20402583</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Boettger</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Noetzel</surname><given-names>R.D.L</given-names></name></person-group>T., <person-group person-group-type="author"><name><surname>Sánchez</surname><given-names>F.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Grunow</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schmitz</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Lange</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hübers</surname><given-names>H.-W.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Billi</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Baqué</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Berger</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bohmeier</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Westall</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Jänchen</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kozyrovska</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Leya</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Foing</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Demets</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bryce</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Serrano</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Edwards</surname><given-names>H.G.M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Joshi</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Huwe</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ehrenfreund</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Elsaesser</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meessen</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Feyh</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Szewzyk</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Jaumann</surname><given-names>R.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Spohn</surname><given-names>T.</given-names></name></person-group> (<year>2012</year>) <article-title>Supporting Mars exploration: BIOMEX in low Earth orbit and further astrobiological studies on the Moon using Raman and PanCam technology</article-title>. <source>Planet Space Sci</source>
+<volume>74</volume>:<fpage>103</fpage>–<lpage>110</lpage></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schulze-Makuch</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Khan</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Lorek</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Koncz</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möhlmann</surname><given-names>D.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Spohn</surname><given-names>T.</given-names></name></person-group> (<year>2014</year>) <article-title>Adaptation of an Antarctic lichen to martian niche conditions can occur within 34 days</article-title>. <source>Planet Space Sci</source>
+<volume>98</volume>:<fpage>182</fpage>–<lpage>190</lpage></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fagliarone</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mosca</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ubaldi</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Verseux</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Baqué</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wilmotte</surname><given-names>A.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Billi</surname><given-names>D.</given-names></name></person-group> (<year>2017</year>) <article-title>Avoidance of protein oxidation correlates with the desiccation and radiation resistance of hot and cold desert strains of the cyanobacterium <italic>Chroococcidiopsis</italic></article-title>. <source>Extremophiles</source>
+<volume>21</volume>:<fpage>981</fpage>–<lpage>991</lpage><pub-id pub-id-type="pmid">28856526</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Formisano</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Atreya</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Encrenaz</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ignatiev</surname><given-names>N.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Giurann</surname><given-names>M.</given-names></name></person-group> (<year>2004</year>) <article-title>Detection of methane in the atmosphere of Mars</article-title>. <source>Science</source>
+<volume>306</volume>:<fpage>1758</fpage>–<lpage>1761</lpage><pub-id pub-id-type="pmid">15514118</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>1993</year>) <article-title>Responses of <italic>Bacillus subtilis</italic> spores to space environment: results from experiments in space</article-title>. <source>Orig Life Evol Biosph</source>
+<volume>23</volume>:<fpage>37</fpage>–<lpage>52</lpage><pub-id pub-id-type="pmid">8433836</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bücker</surname><given-names>H.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group> (<year>1994</year>) <article-title>Long term survival of bacterial spores in space</article-title>. <source>Adv Space Res</source>
+<volume>14</volume>:<fpage>41</fpage>–<lpage>45</lpage><pub-id pub-id-type="pmid">11539977</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stöffler</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Eschweiler</surname><given-names>U.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Hornemann</surname><given-names>U.</given-names></name></person-group> (<year>2001</year>) <article-title>Bacterial spores survive simulated meteorite impact</article-title>. <source>Icarus</source>
+<volume>149</volume>:<fpage>285</fpage>–<lpage>290</lpage></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stöffler</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hornemann</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schade</surname><given-names>S.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Artemieva</surname><given-names>N.</given-names></name></person-group> (<year>2008</year>) <article-title>Microbial rock inhabitants survive hypervelocity impacts on Mars-like host planets: first phase of lithopanspermia experimentally tested</article-title>. <source>Astrobiology</source>
+<volume>8</volume>:<fpage>17</fpage>–<lpage>44</lpage><pub-id pub-id-type="pmid">18237257</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huwe</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fiedler</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moritz</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Joshi</surname><given-names>J.</given-names></name></person-group> (<year>2019</year>) <article-title>Mosses in low Earth orbit—implications for the limits of life and the habitability of Mars</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>221</fpage>–<lpage>232</lpage>. doi:<pub-id pub-id-type="doi">10.1089/ast.2018.1889</pub-id><pub-id pub-id-type="pmid">30742499</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>N.N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fries</surname><given-names>M.D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gil</surname><given-names>J.F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Beck</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pellinen-Wannberg</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schmitz</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Steele</surname><given-names>A.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Hofmann</surname><given-names>B.A.</given-names></name></person-group> (<year>2017</year>) <article-title>The extreme biology of meteorites: their role in understanding the origin and distribution of life on Earth and in the Universe</article-title>. In <source>Adaption of Microbial Life to Environmental Extremes: Novel Research Results and Application</source>, edited by <person-group person-group-type="editor"><name><surname>Stan-Lotter</surname><given-names>H.</given-names></name></person-group> and <person-group person-group-type="editor"><name><surname>Fendrihan</surname><given-names>S.</given-names></name></person-group>, <publisher-name>Springer</publisher-name>, <publisher-loc>Cham, Switzerland</publisher-loc>, pp <fpage>283</fpage>–<lpage>325</lpage></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lefèvre</surname><given-names>F.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Forget</surname><given-names>F.</given-names></name></person-group> (<year>2009</year>) <article-title>Observed variations of methane on Mars unexplained by known atmospheric chemistry and physics</article-title>. <source>Nature</source>
+<volume>460</volume>:<fpage>720</fpage>–<lpage>723</lpage><pub-id pub-id-type="pmid">19661912</pub-id></mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lytvynenko</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zaetz</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Voznyuk</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kovalchuk</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rogutskyy</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mytrokhyn</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Estrela-Lopis</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Borodinova</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mashkovska</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Foing</surname><given-names>B.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Kozyrovska</surname><given-names>N.</given-names></name></person-group> (<year>2006</year>) <article-title>A rationally assembled microbial community for growing <italic>Tagetes patula</italic> L. in a lunar greenhouse</article-title>. <source>Res Microbiol</source>
+<volume>157</volume>:<fpage>87</fpage>–<lpage>92</lpage><pub-id pub-id-type="pmid">16364607</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Meyer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Misgaiski</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stöffler</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Artemieva</surname><given-names>N.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hornemann</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moeller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group> (<year>2011</year>) <article-title>Shock experiments in support of the lithopanspermia theory: the influence of host rock composition, temperature, and shock pressure on the survival rate of endolithic and epilithic microorganisms</article-title>. <source>Meteorit Planet Sci</source>
+<volume>46</volume>:<fpage>701</fpage>–<lpage>718</lpage></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stackebrandt</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Berger</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Doherty</surname><given-names>A.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Nicholson</surname><given-names>W.L.</given-names></name></person-group> (<year>2007a</year>) <article-title>Role of DNA repair by non-homologous end joining (NHEJ) in <italic>Bacillus subtilis</italic> spore resistance to extreme dryness, mono- and polychromatic UV and ionizing radiation</article-title>. <source>J Bacteriol</source>
+<volume>189</volume>:<fpage>3306</fpage>–<lpage>3311</lpage><pub-id pub-id-type="pmid">17293412</pub-id></mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Douki</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cadet</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stackebrandt</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Nicholson</surname><given-names>W.L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2007b</year>) <article-title>UV-radiation-induced formation of DNA bipyrimidine photoproducts in <italic>Bacillus subtilis</italic> endospores and their repair during germination</article-title>. <source>Int Microbiol</source>
+<volume>10</volume>:<fpage>39</fpage>–<lpage>46</lpage><pub-id pub-id-type="pmid">17407059</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stackebrandt</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Douki</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cadet</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mollenkopf</surname><given-names>H.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2007c</year>) <article-title>DNA bipyrimidine photoproduct repair and transcriptional response of UV-C irradiated <italic>Bacillus subtilis</italic></article-title>. <source>Arch Microbiol</source>
+<volume>188</volume>:<fpage>421</fpage>–<lpage>431</lpage><pub-id pub-id-type="pmid">17551712</pub-id></mixed-citation>
+              </ref>
+              <ref id="B39">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morozova</surname><given-names>D.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group> (<year>2007</year>) <article-title>Stress response of methanogenic archaea from Siberian permafrost compared with methanogens from non permafrost habitats</article-title>. <source>FEMS Microbiol Ecol</source>
+<volume>61</volume>:<fpage>16</fpage>–<lpage>25</lpage><pub-id pub-id-type="pmid">17428303</pub-id></mixed-citation>
+              </ref>
+              <ref id="B40">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morozova</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möhlmann</surname><given-names>D.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group> (<year>2007</year>) <article-title>Survival of methanogenic archaea from Siberian permafrost under simulated martian thermal conditions</article-title>. <source>Orig Life Evol Biosph</source>
+<volume>37</volume>:<fpage>189</fpage>–<lpage>200</lpage><pub-id pub-id-type="pmid">17160628</pub-id></mixed-citation>
+              </ref>
+              <ref id="B41">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Morozova</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moeller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group> (<year>2015</year>) <article-title>Enhanced Radiation Resistance of Methanosarcina soligelidi SMA21, a new Methanogenic Archaeon isolated from a Siberian Permafrost-Affected Soil in direct comparison to Methanosarcina barkeri</article-title>. <source>Astrobiology</source>
+<volume>15</volume>:<fpage>951</fpage>–<lpage>960</lpage><pub-id pub-id-type="pmid">26544020</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mumma</surname><given-names>M.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Villanueva</surname><given-names>G.L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Novak</surname><given-names>R.E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hewagama</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bonev</surname><given-names>B.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>DiSanti</surname><given-names>M.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mandell</surname><given-names>A.M.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Smith</surname><given-names>M.D.</given-names></name></person-group> (<year>2009</year>) <article-title>Strong release of methane on Mars in northern summer 2003</article-title>. <source>Science</source>
+<volume>323</volume>:<fpage>1041</fpage>–<lpage>1045</lpage><pub-id pub-id-type="pmid">19150811</pub-id></mixed-citation>
+              </ref>
+              <ref id="B43">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Olsson-Francis</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Towner</surname><given-names>M.C.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group> (<year>2009</year>) <article-title>Survival of akinetes (resting-state cells of cyanobacteria) in low Earth orbit and simulated extraterrestrial conditions</article-title>. <source>Orig Life Evol Biosph</source>
+<volume>39</volume>:<fpage>565</fpage>–<lpage>579</lpage><pub-id pub-id-type="pmid">19387863</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Barreca</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Agnoletti</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Hatton</surname><given-names>J.</given-names></name></person-group> (<year>2008</year>) <article-title>Resistance of Antarctic black fungi and cryptoendolithic communities to simulated space and Mars conditions</article-title>. <source>Stud Mycol</source>
+<volume>61</volume>:<fpage>99</fpage>–<lpage>109</lpage><pub-id pub-id-type="pmid">19287532</pub-id></mixed-citation>
+              </ref>
+              <ref id="B45">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Barreca</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Isola</surname><given-names>D.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group> (<year>2010</year>) <article-title>Do fungi survive under actual space conditions? Searching for evidence in favour of lithopanspermia</article-title>. <source>Plant Biosyst</source>
+<volume>143</volume>:<fpage>S85</fpage>–<lpage>S87</lpage></mixed-citation>
+              </ref>
+              <ref id="B46">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Scalzi</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2012</year>) <article-title>Survival of rock-colonizing organisms after 1.5 years in outer space</article-title>. <source>Astrobiology</source>
+<volume>12</volume>:<fpage>508</fpage>–<lpage>516</lpage><pub-id pub-id-type="pmid">22680696</pub-id></mixed-citation>
+              </ref>
+              <ref id="B47">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Scalzi</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Venkateswaran</surname><given-names>K.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2015</year>) <article-title>Survival of Antarctic cryptoendolithic fungi in simulated martian conditions on board the International Space Station</article-title>. <source>Astrobiology</source>
+<volume>15</volume>:<fpage>1052</fpage>–<lpage>1059</lpage><pub-id pub-id-type="pmid">26684504</pub-id></mixed-citation>
+              </ref>
+              <ref id="B48">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pacelli</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group> (<year>2019</year>) <article-title>Survival, DNA, and ultrastructural integrity of a cryptoendolithic Antarctic fungus in Mars and lunar rock analogs exposed on the ISS</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>170</fpage>–<lpage>182</lpage>. doi:<pub-id pub-id-type="doi">10.1089/ast.2017.1728</pub-id><pub-id pub-id-type="pmid">30376361</pub-id></mixed-citation>
+              </ref>
+              <ref id="B49">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pacelli</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Selbmann</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zucconi</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Coleine</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Böttger</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Dadachova</surname><given-names>E.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Onofri</surname><given-names>S.</given-names></name></person-group> (<year>2019</year>) <article-title>Responses of the black fungus <italic>Cryomyces antarcticus</italic> to simulated martian and space conditions on rock analogs</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>209</fpage>–<lpage>220</lpage>. doi:<pub-id pub-id-type="doi">10.1089/ast.2016.1631</pub-id><pub-id pub-id-type="pmid">30067087</pub-id></mixed-citation>
+              </ref>
+              <ref id="B50">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moeller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cadet</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Douki</surname><given-names>Th.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group> (<year>2014</year>) <article-title>The SPORES experiment of the EXPOSE-R mission: <italic>Bacillus subtilis</italic> spores in artificial meteorites</article-title>. <source>Int J Astrobiol</source>
+<volume>14</volume>:<fpage>105</fpage>–<lpage>114</lpage></mixed-citation>
+              </ref>
+              <ref id="B51">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Podolich</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kukharenko</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Haidak</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zaets</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zaika</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Storozhuk</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Palchikovska</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Orlovska</surname><given-names>I.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reva</surname><given-names>O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Borisova</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Khirunenko</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sosnin</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kravchenko</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Skoryk</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kremenskoy</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Demets</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Olsson-Francis</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kozyrovska</surname><given-names>N.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group> (<year>2019</year>) <article-title>Multimicrobial kombucha culture tolerates Mars-like conditions simulated on low Earth orbit</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>183</fpage>–<lpage>196</lpage>. doi:<pub-id pub-id-type="doi">10.1089/ast.2017.1746</pub-id><pub-id pub-id-type="pmid">30484685</pub-id></mixed-citation>
+              </ref>
+              <ref id="B52">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pogoda de la Vega</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Reit</surname><given-names>G.</given-names></name></person-group> (<year>2007</year>) <article-title>Simulation of the environmental climate conditions on martian surface and its effect on <italic>Deinococcus radiodurans</italic></article-title>. <source>Adv Space Res</source>
+<volume>40</volume>:<fpage>1672</fpage>–<lpage>1677</lpage></mixed-citation>
+              </ref>
+              <ref id="B53">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Poulet</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bibring</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mustard</surname><given-names>J.F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gendrin</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mangold</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Langevin</surname><given-names>Y.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Arvidson</surname><given-names>R.E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gondet</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gomez</surname><given-names>C.</given-names></name></person-group>, and <collab>The Omega Team</collab>. (<year>2005</year>) <article-title>Phyllosilicates on Mars and implications for early martian climate</article-title>. <source>Nature</source><volume>438</volume>:<fpage>623</fpage>–<lpage>627</lpage><pub-id pub-id-type="pmid">16319882</pub-id></mixed-citation>
+              </ref>
+              <ref id="B54">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Parpart</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schulte</surname><given-names>W.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Molter</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Jaramillo</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Demets</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Weiß</surname><given-names>P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Wilnecker</surname><given-names>R.</given-names></name></person-group> (<year>2017</year>) <article-title>EXPOSE-R2: the astrobiological ESA mission on board of the International Space Station</article-title>. <source>Front Microbiol</source>
+<volume>8</volume>, doi:<pub-id pub-id-type="doi">10.3389/fmicb.2017.01533</pub-id></mixed-citation>
+              </ref>
+              <ref id="B55">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Eschweiler</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Strauch</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wänke</surname><given-names>H.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Brack</surname><given-names>A.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Barbier</surname><given-names>B.</given-names></name></person-group> (<year>2002</year>) <article-title>Survival of microorganisms in space protected by meteorite material: results of the experiment EXOBIOLOGIE of the PERSEUS mission</article-title>. <source>Adv Space Res</source>
+<volume>30</volume>:<fpage>1539</fpage>–<lpage>1545</lpage><pub-id pub-id-type="pmid">12575719</pub-id></mixed-citation>
+              </ref>
+              <ref id="B56">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group> (<year>2004</year>) <article-title>Biological space experiments for the simulation of martian conditions: UV radiation and martian soil analogues</article-title>. <source>Adv Space Res</source>
+<volume>33</volume>:<fpage>1294</fpage>–<lpage>1301</lpage><pub-id pub-id-type="pmid">15803617</pub-id></mixed-citation>
+              </ref>
+              <ref id="B57">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Richter</surname><given-names>H.</given-names></name></person-group> (<year>1865</year>) <article-title>Zur Darwinschen Lehre. Schmidts Jahrb</article-title>. <source>Ges Med</source>
+<volume>126</volume>:<fpage>243</fpage>–<lpage>249</lpage></mixed-citation>
+              </ref>
+              <ref id="B58">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sancho</surname><given-names>L.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de la Torre</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ascaso</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de los Rios</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pintado</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wierzchos</surname><given-names>J.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Schuster</surname><given-names>M.</given-names></name></person-group> (<year>2007</year>) <article-title>Lichens survive in space: results from the 2005 LICHENS experiment</article-title>. <source>Astrobiology</source>
+<volume>7</volume>:<fpage>443</fpage>–<lpage>454</lpage><pub-id pub-id-type="pmid">17630840</pub-id></mixed-citation>
+              </ref>
+              <ref id="B59">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schidlowski</surname><given-names>M.</given-names></name></person-group> (<year>2001</year>) <article-title>Carbon isotopes as biogeochemical recorders of life over 3.8 Ga of Earth history: evolution of a concept</article-title>. <source>Precambrian Res</source>
+<volume>106</volume>:<fpage>117</fpage>–<lpage>134</lpage></mixed-citation>
+              </ref>
+              <ref id="B60">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schirmack</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Böhm</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Brauer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Löhmannsröben</surname><given-names>H.-G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möhlmann</surname><given-names>D.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group> (<year>2014</year>) <article-title>Laser spectroscopic real time measurements of methanogenic activity under simulated martian subsurface analogue conditions</article-title>. <source>Planet Space Sci</source>
+<volume>98</volume>:<fpage>198</fpage>–<lpage>204</lpage></mixed-citation>
+              </ref>
+              <ref id="B61">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schulze-Makuch</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schulze-Makuch</surname><given-names>A.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Houtkooper</surname><given-names>J.M.</given-names></name></person-group> (<year>2015</year>) <article-title>The physical, chemical, and physiological limits of life</article-title>. <source>Life</source>
+<volume>5</volume>:<fpage>1472</fpage>–<lpage>1486</lpage><pub-id pub-id-type="pmid">26193325</pub-id></mixed-citation>
+              </ref>
+              <ref id="B62">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Serrano</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Alawi</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.-P.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Wagner</surname><given-names>D.</given-names></name></person-group> (<year>2019</year>) <article-title>Response of methanogenic archaea from Siberian permafrost and nonpermafrost environments to simulated Mars-like desiccation and the presence of perchlorate</article-title>. <source>Astrobiology</source>
+<volume>19</volume>:<fpage>197</fpage>–<lpage>208</lpage>; doi:<pub-id pub-id-type="doi">10.1089/ast.2018.1877</pub-id><pub-id pub-id-type="pmid">30742498</pub-id></mixed-citation>
+              </ref>
+              <ref id="B63">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sohrabi</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stenroos</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Myllys</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Søchting</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ahti</surname><given-names>T.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Hyvönen</surname><given-names>J.</given-names></name></person-group> (<year>2013</year>) <article-title>Phylogeny and taxonomy of the ‘manna lichens’</article-title>. <source>Mycol Progress</source>
+<volume>12</volume>:<fpage>231</fpage>–<lpage>269</lpage></mixed-citation>
+              </ref>
+              <ref id="B64">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Stöffler</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ott</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hornemann</surname><given-names>U.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>C.S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Möller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>de Vera</surname><given-names>J.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Fritz</surname><given-names>J.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Artemieva</surname><given-names>N.A.</given-names></name></person-group> (<year>2007</year>) <article-title>Experimental evidence for the impact ejection of viable microorganisms from Mars-like planets</article-title>. <source>Icarus</source>
+<volume>186</volume>:<fpage>585</fpage>–<lpage>588</lpage></mixed-citation>
+              </ref>
+              <ref id="B65">
+                <mixed-citation publication-type="confproc"><person-group person-group-type="author"><name><surname>Tarasenko</surname><given-names>V.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kozyrovska</surname><given-names>N.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Nechitailo</surname><given-names>G.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ngo Ke</surname><given-names>S.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Tarnavskaja</surname><given-names>E.B.</given-names></name></person-group> (<year>1990</year>) <article-title>Cytological aspects of relationships of eucaryotes and nitrogen-fixing eu- and cyanobacteria in artificial association under microgravity</article-title>. In <conf-name><italic>Abstracts of the XXIII COSPAR 1990</italic></conf-name>, <conf-loc>The Hague, the Netherlands</conf-loc>, p <fpage>55</fpage></mixed-citation>
+              </ref>
+              <ref id="B66">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Thomson</surname><given-names>W.</given-names></name></person-group> (<year>1894</year>) <article-title>1871 presidential address to the British Association</article-title>. In <source>Popular Lectures and Addresses</source>, <publisher-name>MacMillan and Co.</publisher-name>, <publisher-loc>New York</publisher-loc>, pp <fpage>132</fpage>–<lpage>205</lpage></mixed-citation>
+              </ref>
+              <ref id="B67">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>D.Y.C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kumar</surname><given-names>S.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Hedges</surname><given-names>S.B.</given-names></name></person-group> (<year>1999</year>) <article-title>Divergence time estimated for the early history of animal phyla and the origin of plants, animals and fungi</article-title>. <source>Proc Biol Sci</source>
+<volume>266</volume>:<fpage>163</fpage>–<lpage>171</lpage><pub-id pub-id-type="pmid">10097391</pub-id></mixed-citation>
+              </ref>
+              <ref id="B68">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wassmann</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moeller</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Rabbow</surname><given-names>E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Panitz</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Reitz</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Douki</surname><given-names>Th.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cadet</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stan-Lotter</surname><given-names>H.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Cockell</surname><given-names>Ch</given-names></name></person-group>S., and <person-group person-group-type="author"><name><surname>Rettberg</surname><given-names>P.</given-names></name></person-group> (<year>2012</year>) <article-title>Survival of spores of the UV-resistant <italic>Bacillus subtilis</italic> strain MW01 after exposure to low Earth orbit and simulated martian conditions: data from the space experiment ADAPT on EXPOSE-E</article-title>. <source>Astrobiology</source>
+<volume>12</volume>:<fpage>498</fpage>–<lpage>507</lpage><pub-id pub-id-type="pmid">22680695</pub-id></mixed-citation>
+              </ref>
+              <ref id="B69">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Webster</surname><given-names>C.R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mahaffy</surname><given-names>P.R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Atreya</surname><given-names>S.K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Flesch</surname><given-names>G.J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mischna</surname><given-names>M.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Meslin</surname><given-names>P.-Y.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Farley</surname><given-names>K.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Conrad</surname><given-names>P.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Christensen</surname><given-names>L.E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Pavlov</surname><given-names>A.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Martín-Torres</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Zorzano</surname><given-names>M.-P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>McConnochie</surname><given-names>T.H.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Owen</surname><given-names>T.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Eigenbrode</surname><given-names>J.L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Glavin</surname><given-names>D.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Steele</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Malespin</surname><given-names>C.A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Archer</surname><given-names>P.D.</given-names><suffix>Jr</suffix></name></person-group>, <person-group person-group-type="author"><name><surname>Sutter</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Coll</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Freissinet</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>McKay</surname><given-names>C.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Moores</surname><given-names>J.E.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Schwenzer</surname><given-names>S.P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Bridges</surname><given-names>J.C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Navarro-Gonzalez</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gellert</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Lemmon</surname><given-names>M.T.</given-names></name></person-group>, <collab>the MSL Science Team</collab>. (<year>2015</year>) <article-title>Mars methane detection and variability at Gale Crater</article-title>. <source>Science</source><volume>347</volume>:<fpage>415</fpage>–<lpage>417</lpage><pub-id pub-id-type="pmid">25515120</pub-id></mixed-citation>
+              </ref>
+              <ref id="B70">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yuan</surname><given-names>X.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Xiao</surname><given-names>S.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Taylor</surname><given-names>T.N.</given-names></name></person-group> (<year>2005</year>) <article-title>Lichen like symbiosis 600 million years ago</article-title>. <source>Science</source>
+<volume>308</volume>:<fpage>1017</fpage>–<lpage>1020</lpage><pub-id pub-id-type="pmid">15890881</pub-id></mixed-citation>
+              </ref>
+              <ref id="B71">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yung</surname><given-names>Y.L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Chen</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Nealson</surname><given-names>K.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Atreya</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Beckett</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Blank</surname><given-names>J.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ehlmann</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Eiler</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Etiope</surname><given-names>G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Ferry</surname><given-names>J.G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Forget</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Gao</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Hu</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Kleinböhl</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Klusman</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Lefèvre</surname><given-names>F.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Miller</surname><given-names>C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mischna</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Mumma</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Newman</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Oehler</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Okumura</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Oremland</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Orphan</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Popa</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Russell</surname><given-names>M.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Shen</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Sherwood Lollar</surname><given-names>B.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Staehle</surname><given-names>R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stamenković</surname><given-names>V.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Stolper</surname><given-names>D.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Templeton</surname><given-names>A.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Vandaele</surname><given-names>A.C.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Viscardy</surname><given-names>S.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Webster</surname><given-names>C.R.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wennberg</surname><given-names>P.O.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Wong</surname><given-names>M.L.</given-names></name></person-group>, and <person-group person-group-type="author"><name><surname>Worden</surname><given-names>J.</given-names></name></person-group> (<year>2018</year>) <article-title>Methane on Mars and habitability: challenges and responses</article-title>. <source>Astrobiology</source>
+<volume>18</volume>:<fpage>1221</fpage>–<lpage>1242</lpage><pub-id pub-id-type="pmid">30234380</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+            <glossary>
+              <title>Abbreviations Used</title>
+              <def-list>
+                <def-item>
+                  <term id="G1">BIOMEX</term>
+                  <def>
+                    <p>BIOlogy and Mars EXperiment</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G2">DLR</term>
+                  <def>
+                    <p>German Aerospace Center</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G3">EVTs</term>
+                  <def>
+                    <p>Experiment Verification Tests</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G4">ISS</term>
+                  <def>
+                    <p>International Space Station</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G5">MfN</term>
+                  <def>
+                    <p>Museum für Naturkunde</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G6">PAR</term>
+                  <def>
+                    <p>photosynthetically active radiation</p>
+                  </def>
+                </def-item>
+                <def-item>
+                  <term id="G7">SVTs</term>
+                  <def>
+                    <p>Scientific Verification Tests</p>
+                  </def>
+                </def-item>
+              </def-list>
+            </glossary>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

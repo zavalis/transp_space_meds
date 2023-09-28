@@ -1,0 +1,2410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:54:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8005132" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8005132</identifier>
+        <datestamp>2021-03-29</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8005132</article-id>
+              <article-id pub-id-type="pmcid">PMC8005132</article-id>
+              <article-id pub-id-type="pmc-uid">8005132</article-id>
+              <article-id pub-id-type="pmid">33806917</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms22063252</article-id>
+              <article-id pub-id-type="publisher-id">ijms-22-03252</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Nox2 Inhibition Regulates Stress Response and Mitigates Skeletal Muscle Fiber Atrophy during Simulated Microgravity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lawler</surname>
+                    <given-names>John M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref rid="c1-ijms-22-03252" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hord</surname>
+                    <given-names>Jeffrey M.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af2-ijms-22-03252">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ryan</surname>
+                    <given-names>Pat</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Holly</surname>
+                    <given-names>Dylan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Janini Gomes</surname>
+                    <given-names>Mariana</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af3-ijms-22-03252">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rodriguez</surname>
+                    <given-names>Dinah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af4-ijms-22-03252">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1024-5952</contrib-id>
+                  <name>
+                    <surname>Guzzoni</surname>
+                    <given-names>Vinicius</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af5-ijms-22-03252">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2496-9257</contrib-id>
+                  <name>
+                    <surname>Garcia-Villatoro</surname>
+                    <given-names>Erika</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Green</surname>
+                    <given-names>Chase</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Yang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af3-ijms-22-03252">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5818-9676</contrib-id>
+                  <name>
+                    <surname>Little</surname>
+                    <given-names>Sarah</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af6-ijms-22-03252">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Garcia</surname>
+                    <given-names>Marcela</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hill</surname>
+                    <given-names>Lorrie</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Brooks</surname>
+                    <given-names>Mary-Catherine</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lawler</surname>
+                    <given-names>Matthew S.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                  <xref ref-type="aff" rid="af7-ijms-22-03252">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Keys</surname>
+                    <given-names>Nicolette</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8224-7925</contrib-id>
+                  <name>
+                    <surname>Mohajeri</surname>
+                    <given-names>Amin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6909-8056</contrib-id>
+                  <name>
+                    <surname>Kamal</surname>
+                    <given-names>Khaled Y.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-22-03252">1</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Grimm</surname>
+                    <given-names>Daniela</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-22-03252"><label>1</label>Redox Biology &amp; Cell Signaling Laboratory, Department of Health and Kinesiology, Graduate Faculty of Nutrition, Texas A&amp;M University, College Station, TX 77843, USA; <email>jeffrey-hord@uiowa.edu</email> (J.M.H.); <email>patryan412@tamu.edu</email> (P.R.); <email>dsh0008@tamu.edu</email> (D.H.); <email>mariana@alunos.fmb.unesp.br</email> (M.J.G.); <email>dinahrdz@tamu.edu</email> (D.R.); <email>vinicius.guzzoni@gmail.com</email> (V.G.); <email>erika.garcia@tamu.edu</email> (E.G.-V.); <email>c.d.green@tamu.edu</email> (C.G.); <email>leeyang20@gmail.com</email> (Y.L.); <email>selittle@tamu.edu</email> (S.L.); <email>mmg2927@tamu.edu</email> (M.G.); <email>lorrie621@tamu.edu</email> (L.H.); <email>mcbrooks797@tamu.edu</email> (M.-C.B.); <email>lawle172@umn.edu</email> (M.S.L.); <email>nikkikeys@tamu.edu</email> (N.K.); <email>am1@tamu.edu</email> (A.M.); <email>kymoustafa@tamu.edu</email> (K.Y.K.)</aff>
+              <aff id="af2-ijms-22-03252"><label>2</label>Department of Molecular Physiology &amp; Biophysics, University of Iowa, Iowa City, IA 52242, USA</aff>
+              <aff id="af3-ijms-22-03252"><label>3</label>Brigham &amp; Women’s Hospital, Harvard Medical School, Cambridge, MA 02115, USA</aff>
+              <aff id="af4-ijms-22-03252"><label>4</label>Department of Kinesiology, University of Texas Rio Grande Valley, Harlingen, TX 78539, USA</aff>
+              <aff id="af5-ijms-22-03252"><label>5</label>Department of Cellular and Molecular Biology, Federal University of Paraíba, João Pessoa, Paraíba 58059900, Brazil</aff>
+              <aff id="af6-ijms-22-03252"><label>6</label>School of Medicine, University of North Carolina, Chapel Hill, NC 27516, USA</aff>
+              <aff id="af7-ijms-22-03252"><label>7</label>Department of Biomedical Engineering, University of Minnesota, Minneapolis, MN 55455, USA</aff>
+              <author-notes>
+                <corresp id="c1-ijms-22-03252"><label>*</label>Correspondence: <email>jml2621@email.tamu.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>23</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>22</volume>
+              <issue>6</issue>
+              <elocation-id>3252</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2021 by the authors.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Insufficient stress response and elevated oxidative stress can contribute to skeletal muscle atrophy during mechanical unloading (e.g., spaceflight and bedrest). Perturbations in heat shock proteins (e.g., HSP70), antioxidant enzymes, and sarcolemmal neuronal nitric oxidase synthase (nNOS) have been linked to unloading-induced atrophy. We recently discovered that the sarcolemmal NADPH oxidase-2 complex (Nox2) is elevated during unloading, downstream of angiotensin II receptor 1, and concomitant with atrophy. Here, we hypothesized that peptidyl inhibition of Nox2 would attenuate disruption of HSP70, MnSOD, and sarcolemmal nNOS during unloading, and thus muscle fiber atrophy. F344 rats were divided into control (CON), hindlimb unloaded (HU), and hindlimb unloaded +7.5 mg/kg/day gp91ds-tat (HUG) groups. Unloading-induced elevation of the Nox2 subunit p67phox-positive staining was mitigated by gp91ds-tat. HSP70 protein abundance was significantly lower in HU muscles, but not HUG. MnSOD decreased with unloading; however, MnSOD was not rescued by gp91ds-tat. In contrast, Nox2 inhibition protected against unloading suppression of the antioxidant transcription factor Nrf2. nNOS bioactivity was reduced by HU, an effect abrogated by Nox2 inhibition. Unloading-induced soleus fiber atrophy was significantly attenuated by gp91ds-tat. These data establish a causal role for Nox2 in unloading-induced muscle atrophy, linked to preservation of HSP70, Nrf2, and sarcolemmal nNOS.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>NADPH oxidase</kwd>
+                <kwd>oxidative stress</kwd>
+                <kwd>unloading</kwd>
+                <kwd>atrophy</kwd>
+                <kwd>skeletal muscle</kwd>
+                <kwd>HSP70</kwd>
+                <kwd>MnSOD</kwd>
+                <kwd>Nrf2</kwd>
+                <kwd>nNOS</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-22-03252">
+              <title>1. Introduction</title>
+              <p>Skeletal muscles are dynamic metabolic and force-producing tissues that adapt to changes in mechanical loading by remodeling their mass and force-generating capacity. Mechanical unloading that occurs with spaceflight, casting, splint, and bedrest elicits a rapid and profound atrophy of affected skeletal muscles [<xref rid="B1-ijms-22-03252" ref-type="bibr">1</xref>], coupled with a partial shift of Type I to Type II muscle fibers [<xref rid="B2-ijms-22-03252" ref-type="bibr">2</xref>]. Regulating skeletal muscle size in response to changing, dynamic mechanical stressors is accomplished by altering muscle fiber cross-sectional area (CSA). Although the mechanisms underlying skeletal muscle atrophy are complex, redundant, and multifactorial, emerging data over the last 15 years has focused on upstream oxidative stress, inflammatory signaling, and insufficient stress proteins [<xref rid="B3-ijms-22-03252" ref-type="bibr">3</xref>,<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B5-ijms-22-03252" ref-type="bibr">5</xref>,<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>]. Our laboratory identified reduction in heat shock protein 70 (HSP70) and heat shock protein 25 (HSP25) in rat soleus muscles during mechanical unloading [<xref rid="B7-ijms-22-03252" ref-type="bibr">7</xref>,<xref rid="B8-ijms-22-03252" ref-type="bibr">8</xref>]. Andy Judge and colleagues demonstrated that transfection of <italic>HSP70</italic> and <italic>HSP25</italic> genes [<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>,<xref rid="B9-ijms-22-03252" ref-type="bibr">9</xref>] mitigated unloading-induced muscle atrophy. We recently reported that the combination of curcumin and fish oil produced an elevation of HSP70 and protected against muscle fiber atrophy during unloading [<xref rid="B10-ijms-22-03252" ref-type="bibr">10</xref>]. We previously noted suppression of manganese-isoform of superoxide dismutase (MnSOD) during mechanical unloading [<xref rid="B8-ijms-22-03252" ref-type="bibr">8</xref>,<xref rid="B11-ijms-22-03252" ref-type="bibr">11</xref>].</p>
+              <p>The contribution of oxidative stress to mechanical unloading-induced muscle atrophy remains complex and not fully understood. While some antioxidant cocktails [<xref rid="B12-ijms-22-03252" ref-type="bibr">12</xref>] and nutraceutical antioxidants [<xref rid="B13-ijms-22-03252" ref-type="bibr">13</xref>] have been equivocal or ineffective in protecting against atrophy of unloaded skeletal muscle, the overexpression of catalase [<xref rid="B14-ijms-22-03252" ref-type="bibr">14</xref>], mitochondrial-targeted antioxidants [<xref rid="B15-ijms-22-03252" ref-type="bibr">15</xref>], and intervention with a mimetic of superoxide dismutase and catalase (EUK-134) [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>] were more successful. We previously noted an elevation of the pro-oxidant enzyme NAPDH oxidase-2 (Nox-2) during unloading in skeletal muscle [<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>,<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. However, the potential role of Nox2 in skeletal muscle hypertrophy remains poorly understood.</p>
+              <p>Recently, we discovered that the angiotensin receptor-blocker losartan reduced Nox2 activity and assembly of Nox2 subunits (e.g., p67phox, rac1 and p47phox) in skeletal muscle of rats experiencing 7 days of hindlimb unloading. Inhibition of oxidative stress by EUK-134 or via the angiotensin II receptor 1 inhibition also prevented skeletal muscle fiber atrophy and translocation of the mu-splice variant of nitric oxide synthase (nNOSµ) from the sarcolemma into the cytosol [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>,<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. In addition, inhibition using the chimeric peptide (gp91ds-tat) has been reported to inhibit p47phox association with gp91phox in NADPH oxidase [<xref rid="B18-ijms-22-03252" ref-type="bibr">18</xref>]. Recently, our laboratory discovered that using gp91ds-tat inhibition of Nox2 caused more than a 50% reduction in superoxide produced during unloading [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. Previously, Suzuki et al. [<xref rid="B19-ijms-22-03252" ref-type="bibr">19</xref>] and Vitadello et al. [<xref rid="B20-ijms-22-03252" ref-type="bibr">20</xref>] reported a mechanistic connection between nNOSµ translocation and muscle atrophy.</p>
+              <p>Therefore, the purpose of this investigation was to test the effects of Nox2 inhibition on markers of stress-protective proteins, nNOSµ translocation, and muscle atrophy during mechanical unloading. A peptidyl inhibition of Nox2 was used to prevent the assembly of the Nox2 complex and thus preventing nNOSµ translocation. We hypothesized that Nox2 inhibition would rescue or elevate protein expression HSP70 and manganese-specific superoxide dismutase (MnSOD), mitigate loss of sarcolemmal nNOSµ, and attenuate unloading-induced muscle atrophy.</p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-22-03252">
+              <title>2. Results</title>
+              <sec id="sec2dot1-ijms-22-03252">
+                <title>2.1. Effect of Nox2 Inhibition on the Nox2 Complex Assembly</title>
+                <p>To confirm that gp91ds-tat was affecting assembly of the Nox2 complex, we tested the effect of Nox2 inhibition on p67phox-positive staining, including the membrane. P67phox is a cytosolic protein that binds to the Nox2 complex, permitting activation as a source of ROS production [<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>,<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. We found substantial enhancement of membrane-bound-positive staining with hindlimb unloading, using dystrophin as a sarcolemmal marker (<xref ref-type="fig" rid="ijms-22-03252-f001">Figure 1</xref>). Gp91ds-tat treatment mitigated the enhancement of sarcolemmal-positive staining in the unloaded rat soleus muscle. Quantification of p67phox-positive staining revealed a significant increase in p67phox levels in hindlimb unloaded rats injected with a scrambled sequence. Gp91ds-tat injections, however, significantly attenuated unloading-induced increases in p67phox-positive staining. In addition, the HUG group-positive staining for p67phox did remain significantly higher than ambulatory controls.</p>
+              </sec>
+              <sec id="sec2dot2-ijms-22-03252">
+                <title>2.2. Nox2 Inhibition Attenuates Disruption of HSP70 Protein Expression</title>
+                <p>HSP70 protein abundance was assessed. Not surprisingly, there was a significant reduction in HSP70 levels with unloading (<xref ref-type="fig" rid="ijms-22-03252-f002">Figure 2</xref>A). However, protein expression levels in the unloading group receiving gp91dstat were not significantly different than the control group. We also quantified protein abundance of HSP90 (<xref ref-type="fig" rid="ijms-22-03252-f002">Figure 2</xref>B). While HSP90 trended lower with hindlimb unloading in the rat soleus, there were no statistically significant effects for either unloading or Nox2 inhibition.</p>
+              </sec>
+              <sec id="sec2dot3-ijms-22-03252">
+                <title>2.3. Nrf2 Levels Are Elevated by the Inhibition of Nox2</title>
+                <p>MnSOD is a mitochondrial antioxidant enzyme that we previously discovered is suppressed with unloading [<xref rid="B8-ijms-22-03252" ref-type="bibr">8</xref>]. MnSOD levels here trended significantly lower with unloading (<xref ref-type="fig" rid="ijms-22-03252-f002">Figure 2</xref>C) with no significant protection by Nox2 inhibition. Nuclear factor erythroid 2-related factor 2 (Nrf2) is a leucine zipper protein and transcription factor that regulates antioxidant proteins including superoxide dismutase, catalase, heme oxygenase-1, and glutathione peroxidase [<xref rid="B21-ijms-22-03252" ref-type="bibr">21</xref>]. We observed that Nrf2 abundance in the nuclear fraction was significantly reduced by unloading (<xref ref-type="fig" rid="ijms-22-03252-f002">Figure 2</xref>D). In contrast, Nrf2 levels were significantly protected during unloading when Nox2 was inhibited, suggestive of potential for preservation of antioxidant protection.</p>
+              </sec>
+              <sec id="sec2dot4-ijms-22-03252">
+                <title>2.4. Nox2 Inhibition Mitigates the Reduction in nNOS Activity and Translocation</title>
+                <p>In order to identify changes in nNOS activity and thus •NO bioavailability, we used the NADPH diaphorase assay technique, previously described by Hord et al. [<xref rid="B20-ijms-22-03252" ref-type="bibr">20</xref>]. Here, we found a profound decrease in NADPH diaphorase-positive staining (<xref ref-type="fig" rid="ijms-22-03252-f003">Figure 3</xref>), with loss of nNOS activity most apparent visualized around the cell membrane. In contrast, gp91ds-tat provided substantial and significant protection against the unloading-induced reduction in NADPH diaphorase-positive staining. We then visualized changes in sarcolemmal nNOS using confocal fluorescence microscopy, using β-sarcoglycan as our stable sarcolemmal marker. nNOS-positive staining at the sarcolemmal was largely and heterogeneously lost in the unloaded soleus (<xref ref-type="fig" rid="ijms-22-03252-f004">Figure 4</xref>) but was mitigated by gp91ds-tat, consistent with NADPH diaphorase findings.</p>
+              </sec>
+              <sec id="sec2dot5-ijms-22-03252">
+                <title>2.5. Changes in Skeletal Muscle Morphology</title>
+                <p>To determine whether Nox2 inhibition protected skeletal muscle morphology, we measured soleus mass, plantar flexor weight, muscle fiber cross-sectional area, and muscle fiber type. Body weight decreased modestly, but significantly in both HU and HUG groups (approximately 15–20 g). Soleus mass was 24% lower in unloaded F344 rats, while significantly protected in gp91ds-tat-treated rats (<xref ref-type="fig" rid="ijms-22-03252-f005">Figure 5</xref>). However, soleus mass in the HUG group remained significantly lower in than control, ambulatory rats. Plantar flexor complex mass, corrected for body mass, was significantly reduced in unloaded rats injected with the scramble peptide sequence. However, it was significantly protected by gp91ds-tat and not significantly lower than in the control group.</p>
+                <p>Soleus muscle fiber cross-sectional area (CSA) was assessed using two methods: (1) hand-tracing images and subsequent ImageJ analysis (<xref ref-type="fig" rid="ijms-22-03252-f006">Figure 6</xref>A); and (2) programed quantification using the SMASH program (<xref ref-type="fig" rid="ijms-22-03252-f006">Figure 6</xref>B), adapted by our laboratory as described earlier [<xref rid="B10-ijms-22-03252" ref-type="bibr">10</xref>]. We also calculated muscle fiber CSA, divided into 500 µm<sup>2</sup> divisions or modules (<xref ref-type="fig" rid="ijms-22-03252-f006">Figure 6</xref>C). We found a significant decrease in soleus CSA due to unloading in rats injected with the scrambled peptide sequence using both the hand trace methodology (−35%) and SMASH (−37%). However, there was a significant attenuation of muscle fiber atrophy by gp91dstat using both methodologies. Muscle fiber CSA did remain significantly lower in the HUG group than controls using hand trace methodology. However, there was a trend without statistical significance downward in HUG muscle fiber CSA vs. controls using SMASH.</p>
+                <p>We then subdivided muscle fiber CSA into 500 µm<sup>2</sup> increments to develop histogram blots for CON, HU, and HUG groups. Upon analysis we observed a significant left shift in soleus muscle fiber CSA in <xref ref-type="fig" rid="ijms-22-03252-f006">Figure 6</xref>C, signifying a substantially greater number of small muscle fibers (&lt;2500 µm<sup>2</sup>). In contrast, gp91ds-tat treatment prevented or mitigated the large left shift in muscle fiber CSA.</p>
+                <p>The percentage of Type II fibers trended higher in HU rats but did not research statistical significantly. (<xref ref-type="fig" rid="ijms-22-03252-f007">Figure 7</xref>) HUG levels of % Type II and % Type I fibers were similar to controls. The trend downward in the % of Type I fibers during hindlimb unloading did not reach statistical significance.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec3-ijms-22-03252">
+              <title>3. Discussion</title>
+              <p>Inhibition of Nox2 with the gp91ds-tat peptide resulted in partial protection of HSP70 and Nrf2 protein abundance in the rat soleus during mechanical unloading compared with hindlimb unloading with the scrambled sequence. However, Nox2 inhibition did not mitigate the loss on the antioxidant enzyme MnSOD. nNOS bioavailability at the sarcolemma was significantly protected by Nox2 inhibition. As predicted, abatement of nNOS translocation by gp91ds-tat was linked to partial protection of soleus mass and muscle fiber cross-sectional area during unloading. These data indicate that Nox2 is causal in unloading-induced nNOS translocation and muscle fiber atrophy, potentially mediated in part by a decline in HSP70. A summary slide of our model outlining the principle findings and following discussion is presented in <xref ref-type="fig" rid="ijms-22-03252-f008">Figure 8</xref>.</p>
+              <p>The importance of a loss or insufficiency in HSP70, and other stress-protective proteins, serving as a mediator of unloading-induced muscle atrophy has been supported by multiple independent investigations [<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>,<xref rid="B7-ijms-22-03252" ref-type="bibr">7</xref>,<xref rid="B8-ijms-22-03252" ref-type="bibr">8</xref>,<xref rid="B20-ijms-22-03252" ref-type="bibr">20</xref>,<xref rid="B22-ijms-22-03252" ref-type="bibr">22</xref>]. While the mechanisms underlying protection against atrophy are not completely understood, the role of HSP70 as a protein chaperone and antioxidant has gained significant support [<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>,<xref rid="B7-ijms-22-03252" ref-type="bibr">7</xref>]. Indeed, transfection of the <italic>HSP70</italic> gene results in a significant attenuation of unloading or casting-related muscle atrophy [<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>]. The stress-protective protein grp94 has been causally linked to partial abrogation of nNOS translocation and muscle atrophy [<xref rid="B20-ijms-22-03252" ref-type="bibr">20</xref>,<xref rid="B23-ijms-22-03252" ref-type="bibr">23</xref>], including upregulation of grp94 via curcumin supplementation [<xref rid="B24-ijms-22-03252" ref-type="bibr">24</xref>]. Protection against skeletal muscle atrophy during unloading by combining fish oil and curcumin supplementation was recently linked to a concomitant elevation of HSP70 [<xref rid="B10-ijms-22-03252" ref-type="bibr">10</xref>]. Reduction in HSP70 with aging may also contribute to sarcopenia [<xref rid="B25-ijms-22-03252" ref-type="bibr">25</xref>]. However, to our knowledge this is the first data to suggest that an unloading-induced suppression of HSP70 could contribute to loss of sarcolemmal nNOS. This important notion requires future examination.</p>
+              <p>Nox2 is a membrane oxidoreductase that produces ROS in response to skeletal muscle contractions [<xref rid="B26-ijms-22-03252" ref-type="bibr">26</xref>] and stretch [<xref rid="B27-ijms-22-03252" ref-type="bibr">27</xref>]. Extracellular ROS appear to communicate with neighboring myocytes, thus regulating contractile function [<xref rid="B28-ijms-22-03252" ref-type="bibr">28</xref>,<xref rid="B29-ijms-22-03252" ref-type="bibr">29</xref>], glucose uptake [<xref rid="B30-ijms-22-03252" ref-type="bibr">30</xref>,<xref rid="B31-ijms-22-03252" ref-type="bibr">31</xref>], pre-conditioning elevation of stress-protective proteins [<xref rid="B32-ijms-22-03252" ref-type="bibr">32</xref>], metabolism [<xref rid="B33-ijms-22-03252" ref-type="bibr">33</xref>], and gene expression [<xref rid="B34-ijms-22-03252" ref-type="bibr">34</xref>]. However, the assembly of the Nox2 complex dramatically rises with Duchenne muscular dystrophy [<xref rid="B35-ijms-22-03252" ref-type="bibr">35</xref>] and Type II diabetes [<xref rid="B36-ijms-22-03252" ref-type="bibr">36</xref>], contributing to pathology. Paradoxically, there has been an observed elevation of Nox2 with mechanical unloading and denervation in skeletal muscle [<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>,<xref rid="B37-ijms-22-03252" ref-type="bibr">37</xref>].</p>
+              <p>Thus, we tested the ability of a peptidyl inhibitor of Nox2 to affect skeletal muscle morphology. Indeed, Nox2 inhibition significantly mitigated skeletal muscle fiber atrophy, establishing a causal role for Nox2 in skeletal muscle atrophy. Recently, our laboratory tested the ability of angiotensin II receptor I (AT1R) blockade (ARB) to mitigate elevation of Nox2 assembly, and thus oxidative stress, nNOS translocation and muscle fiber atrophy [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. Indeed, the ARB losartan attenuated unloading-induced elevation of Nox2 subunits (gp91phox, p67phox, p47phox, Rac1), Nox2 activity, loss of sarcolemmal nNOS, and muscle fiber atrophy [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. Together, these data indicate that an AT1R–Nox2 pathway is contributing to unloading-induced atrophy in skeletal muscle.</p>
+              <p>The causal nature of Nox2 on nNOS translocation and muscle fiber atrophy supports previous evidence of the role of oxidative stress in mechanotransduction and atrophic process during mechanical unloading. Overexpression of the antioxidant enzyme catalase, with localization in mitochondria, previously suppressed ubiquitin ligase activation and skeletal muscle atrophy [<xref rid="B14-ijms-22-03252" ref-type="bibr">14</xref>]. Our laboratory previously used a salen-manganese mimetic of superoxide dismutase and catalase [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>] to demonstrate that oxidative stress triggers translocation of nNOS, activation of FoxO3a, and suppression of anabolic signaling thus leading to muscle atrophy [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>]. Together, these data suggest that AT1R- and Nox2-mediated oxidative stress is important in mechanotransduction during mechanical unloading in skeletal muscle.</p>
+              <p>Our data also indicate a potential interaction between Nox2 and HSP70 during unloading. Previous studies in other tissues or pathologies revealed that HSP70 can regulate NADPH oxidases, including Nox2, and thus oxidative stress [<xref rid="B38-ijms-22-03252" ref-type="bibr">38</xref>,<xref rid="B39-ijms-22-03252" ref-type="bibr">39</xref>]. HSP70, through the carboxy terminus of Hsp70 interacting protein (CHIP), caused ubiquination and thus degradation of NADPH oxidase-4 (Nox4) in kidney cells [<xref rid="B39-ijms-22-03252" ref-type="bibr">39</xref>]. Interestingly, losartan enhanced HSP70 while genetic ablation of HSP70 elevated NADPH oxidase activity. HSP70 may also suppress ROS production by inhibiting the pro-inflammatory transcription factor NF-kappaB [<xref rid="B38-ijms-22-03252" ref-type="bibr">38</xref>]. However, the interaction between HSP70 and Nox2 in skeletal muscle is complex and not well understood in wasting skeletal muscle [<xref rid="B37-ijms-22-03252" ref-type="bibr">37</xref>].</p>
+              <p>The antioxidant enzyme MnSOD was downregulated with mechanical unloading, consistent with previous studies [<xref rid="B8-ijms-22-03252" ref-type="bibr">8</xref>,<xref rid="B11-ijms-22-03252" ref-type="bibr">11</xref>]. However, inhibition of Nox2 did not prevent loss of MnSOD during unloading. Given that mitochondrial ROS are also elevated during mechanical unloading in skeletal muscle [<xref rid="B15-ijms-22-03252" ref-type="bibr">15</xref>], our data suggest that MnSOD inhibition may be more closely linked to mitochondrial ROS rather than Nox2 during unloading.</p>
+              <p>The antioxidant transcription factor Nrf2 has been shown to be downregulated with mechanical unloading [<xref rid="B40-ijms-22-03252" ref-type="bibr">40</xref>], while providing protection against muscle wasting and oxidative stress with hibernation [<xref rid="B41-ijms-22-03252" ref-type="bibr">41</xref>], sarcopenia [<xref rid="B42-ijms-22-03252" ref-type="bibr">42</xref>,<xref rid="B43-ijms-22-03252" ref-type="bibr">43</xref>], and TNF-alpha-induced atrophy [<xref rid="B44-ijms-22-03252" ref-type="bibr">44</xref>]. However, it is uncertain whether protection of Nrf2 when Nox2 was inhibited in the current study contributed to the protection against unloading-induced skeletal muscle fiber atrophy [<xref rid="B40-ijms-22-03252" ref-type="bibr">40</xref>]. Interestingly, during hyperthermia Nrf2 may be involved in upregulating HSP70 and HO-1 [<xref rid="B45-ijms-22-03252" ref-type="bibr">45</xref>]. Nrf2 is a critical regulator of HO-1 through binding the antioxidant response element (ARE), which activated by the extracellular regulated kinase (ERK) [<xref rid="B46-ijms-22-03252" ref-type="bibr">46</xref>]. Conversely, HO-1 can also upregulate Nrf2 through the inhibition or ablation of p38 MAPK [<xref rid="B47-ijms-22-03252" ref-type="bibr">47</xref>,<xref rid="B48-ijms-22-03252" ref-type="bibr">48</xref>]. However, the mechanisms underlying Nrf2 regulation of HSP70 during unloading and inhibition of Nox2 remain unknown.</p>
+              <p>Quercetin was recently found to protect cytokine-linked atrophy by elevating Nrf2 and downstream HO-1 [<xref rid="B44-ijms-22-03252" ref-type="bibr">44</xref>]. Other nutritional supplements such as fish oil and curcumin appeared to provide protection against unloading-induced muscle atrophy through upregulation of HSP70 and downregulation of Nox2 [<xref rid="B10-ijms-22-03252" ref-type="bibr">10</xref>]. Our data suggest that protection of HO-1 could be more important than MnSOD in protecting against unloading-induced atrophy and, while unresolved, is a focus of future investigations. Future experiments could use MAPK inhibitors, which upregulate Nrf2/HO-1 pathway, as novel pharmacological therapeutics against unloading-induced atrophy.</p>
+              <p>In summary, inhibition of Nox2 during mechanical unloading protected HSP70 and Nrf2 levels, attenuated translocation of nNOS from the sarcolemma, and reduced muscle fiber atrophy. The data provide the first evidence that elevated Nox2 can play a causal role in mechanotransduction and remodeling that occur in unloaded skeletal muscle. Future research should further examine interaction of redox signaling and stress-protective proteins in unmodeled skeletal muscle.</p>
+            </sec>
+            <sec id="sec4-ijms-22-03252">
+              <title>4. Material and Methods</title>
+              <sec id="sec4dot1-ijms-22-03252">
+                <title>4.1. Animals</title>
+                <p>Four-month-old Fisher-344 (F344) rats were used in this investigation and were purchased from Harlan Sprague-Dawley. F344 rats are a common rodent model for mechanical unloading and spaceflight. Phenotypic muscle fiber trophy and fiber type shift from slow to fast twitch are similar to humans [<xref rid="B49-ijms-22-03252" ref-type="bibr">49</xref>]. Rats were kept in a 12/12 h daylight cycle, temperature controlled, and provided chow and water ad libitum. Animal care met all federal stipulations per NIH statutes (NRC Guide for care and use of lab animals, 8th Edition, 2011) and consistent with the Animal Welfare Act and the Public Health Service Policy as well as the Humane Care and Use of Laboratory Animals.</p>
+              </sec>
+              <sec id="sec4dot2-ijms-22-03252">
+                <title>4.2. Experimental Design and Hindlimb Unloading</title>
+                <p>Fisher-344 rats were divided into three groups (<italic>n</italic> = 6/group): ambulatory controls (CON), hindlimb unloaded (7 days) injected i.p. with a scrambled sequence as a control (HUScr), and hindlimb unloaded +7.5 mg/kg gp91ds-tat (HUG). Rats were injected beginning 24 h before the experiment. Scrambled sequence (sgp91ds-tat) TAMRAGGGGYGRKKRRQRRRCL-RITRQSRNH2 and active Nox2 inhibitor gp91ds-tat ([H]RKKRRQRRRCSTRIRRQL-[NH<sub>3</sub>]) were purchased from Bio-synthesis (Lewisville, TX, USA).</p>
+                <p>The hindlimb unloading procedure was conducted as previously described [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>]. Hindlimb unloading replicates the physiological effects of bedrest and spaceflight [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>]. Briefly, rats were anesthetized using a cocktail of ketamine (75 mg/kg) and xylazine (10 mg/kg), and tails were cleaned with alcohol. Rats were then fitted with a flexible harness attached to a crosswire through a swivel that allowed ambulation around the cage and free access to food and water. Rats were then elevated at a spinal angle of 40° so that hindfeet were approximately 1 cm off the cage floor. At the end of the hindlimb unloading period, rats from all groups were sacrificed with sodium pentobarbital (120 mg/kg), soleus muscles were dissected, cleaned, and weighed. Muscle samples were frozen in isopentane cooled in liquid nitrogen.</p>
+              </sec>
+              <sec id="sec4dot3-ijms-22-03252">
+                <title>4.3. Muscle Tissue Preparation</title>
+                <p>Soleus samples were minced and homogenized in lysis buffer (pH = 7.4) containing 25 mM Tris-HCL, pH 7.4, 100 mM NaCl, 1 mM EDTA, 1 mM EGTA, as well as a protease and phosphatase inhibitor cocktail. The homogenization procedure involved a procedure previously described [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>,<xref rid="B50-ijms-22-03252" ref-type="bibr">50</xref>]. Briefly, solei muscles were homogenized at 4 °C in lysis buffer using a motorized ground glass on ground glass mortar and pestle system. Debris was pelleted by centrifugation at 1000× <italic>g</italic> for 10 min. The resulting supernatant was centrifuged at 20,000× <italic>g</italic>.</p>
+              </sec>
+              <sec id="sec4dot4-ijms-22-03252">
+                <title>4.4. Western Immunoblot</title>
+                <p>Protein expression was determined by Western immunoblot analysis per the technique outlined previously [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>]. The 20 µg samples of soleus were loaded on 10% polyacrylamide gels and electrophoresed using a Bio-Rad Protein III gel-box onto a nitrocellulose membrane (Bio-Rad, Hercules, CA, USA). Soleus extracts (20 µg) along with sample buffer were loaded into wells of 10% SDS-PAGE gels. Samples were then electrophoresed at 120 V for 75 min. Membranes were blocked in a non-fat milk buffer (5% non-fat milk in TBS) for 1 h. Following blocking, membranes were incubated overnight (4 °C) in blocking buffer with the appropriate primary antibodies: anti-MnSOD (rabbit pAb; 1:20,000; Cat# ab13533, Abcam, Cambridge, MA, USA), anti-Nrf2 (rabbit pAb; 1:1000; Cat# 16396-1-AP, Proteintech, Rosemont, IL, USA), anti-HSP70 (rabbit pAb; 1:2000; Cat# ADI-SPA-812-F, Enzo, Farmingdale, NY, USA), and anti-HSP90 (rabbit mAb; 1:1000; Cat# C45G5, Cell Signaling, Danvers, MA, USA).</p>
+                <p>Proteins were visualized by Super Signal West Dura Extended Duration Substrate (Cat# 34076, Thermo Scientific, Waltham, MA, USA) enhanced chemiluminescence detection, and developed with a Fuji LAS-4000 Luminescent Image Analyzer (FujiFilm Medical Systems, Lexington, MA, USA). Quantification was performed using NIH ImageJ software with Ponceau-S staining (cytoplasmic: band ~38 kDa mark (GAPDH)) used as a loading control.</p>
+              </sec>
+              <sec id="sec4dot5-ijms-22-03252">
+                <title>4.5. Histological Analysis</title>
+                <p>Soleus muscle samples were cut in 10 µm sections from the midbelly of the muscle using a cryostat (Thermo Scientific, Shandon Cryotome FSE) and allowed to air dry for 30 min. We used NADPH diaphorase histochemical analysis described by Hord, et. al [<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>] to ascertain the presence and localization of active nNOS. Soleus muscle cross-sections were fixed for 20 min with 2% paraformaldehyde, then washed 2X in PBS. Slides were then incubated at 37 °C for two hours in 50 mM Tris-HCl buffer (pH = 8.00) with 0.2% Triton-X-100, 0.5 mM nitrotetrazolium blue chloride, and 1 mM β-NADPH. Distilled water was used to stop the enzymatic reaction, and slides were then air dried. Soleus sections were then mounted with Vectamount permanent medium (Vectamount, Cat# H-5000, Vector Laboratories, Burlingame, CA, USA).</p>
+                <p>Images of stained were taken using a Zeiss Axioplot upright microscope and Zeiss Axiocam HRc color camera (Carl Zeiss Microimaging, Thornwood, NY, USA). NIH Image J was used to quantify NADPH-diaphorase-stained samples ImageJ by using the cross-sectional circumference (CSC) to quantify the percentage of the positively stained sarcolemma.</p>
+              </sec>
+              <sec id="sec4dot6-ijms-22-03252">
+                <title>4.6. Immunofluorescence (IF)</title>
+                <p>Soleus samples were sectioned at a thickness of 10 µm in a cryostat (Thermo-Fisher: Shandon Cryotome FSE) at −15 °C onto a microscope slide [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>]. Sections were fixed in acetone for 10 min. Sections were blocked in TBS with 0.05% Tween20 and 10% goat serum for 15 min. Primary antibodies were incubated for 60 min in blocking buffer for p67phox (mouse mAb; 1:200; BD Biosciences 610913) and dystrophin (rabbit pAb; 1:200; Cat# sc15376, Santa Cruz Biotechnology Inc., Dallas, TX, USA). Appropriate 2° antibodies (1:200 dilution) with a fluorochrome (e.g., AlexaFluor 488) were attached. Hybridoma antibodies for MHCI, MHCIIA, and MHCIIB were used for fiber type.</p>
+                <p>Slides were then mounted with ProLong Gold antifade reagent (ProlongTM, Cat# P36930, Life Technologies, Eugene, OR, USA) and visualized on a Zeiss (510 META) confocal laser scanning microscope (CLSM), or via fluorescence microscope (Zeiss Axioplan, Carl Zeiss, Gottingen, Germany) in the Texas A&amp;M Image Analysis Core Facility. Images were analyzed using membrane macros for Fiji ImageJ processing [<xref rid="B51-ijms-22-03252" ref-type="bibr">51</xref>] and the SMASH program for specific membrane protein abundance. Sarcolemmal proteins were co-localized with β-sarcoglycan or Na+/K+ ATPase to visualize the sarcolemma as membrane marker. A subset of samples was used for Type I CSA (~160 fibers/muscle) and Type II CSA analysis (~50 fibers/muscle). All images were calibrated with a stage micrometer and cross-sectional area is presented as µm<sup>2</sup>. We assessed &gt; 200 muscle fibers per muscle sample in all groups for muscle fiber cross-sectional area.</p>
+              </sec>
+              <sec id="sec4dot7-ijms-22-03252">
+                <title>4.7. Statistical Analysis</title>
+                <p>Summary data are reported as the mean ± SEM. One-way ANOVAs with Student–Newman Keuls use post hoc on GraphPad 8 software (GraphPad Software, Inc., San Diego, CA, USA) were used to distinguish among group mean differences. Skeletal muscle fiber cross-sectional area was evaluated with a nested ANOVA design with Tukey’s post hoc test utilized to distinguish among group differences. Level of statistical significance was set at <italic>p</italic> &lt; 0.05.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors would like to thank all the Redox Biology &amp; Cell Signaling Laboratory members for their technical support. Furthermore, many thanks to Christopher Woodman and James Fluckey for their laboratory equipment support and use.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, J.M.L.; formal analysis, J.M.L. and K.Y.K.; funding acquisition, J.M.L.; investigation, J.M.L. and J.M.H.; methodology, J.M.H., P.R., D.H., M.J.G., D.R., V.G., E.G.-V., C.G., Y.L., S.L., M.G., L.H., M.-C.B., N.K., M.S.L. and A.M.; resources, J.M.L. and J.M.H.; supervision, J.M.L.; writing—original draft, J.M.L. and K.Y.K.; writing—review and editing J.M.L., K.Y.K. and A.M. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This work was generously supported by grants from NASA (80NSSC19K0432, NNX13AE45G) to J.M.L., the Huffines Institute at Texas A&amp;M University to J.M.H. and J.M.L. and the FAPESP Fellow program to V.G.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>This study was approved by the Institutional Animal Care and Use Committee (IACUC) of Texas A&amp;M University according to the approved Animal Use Protocols (AUP) (IACUC 2018-0363) on March 2019.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-22-03252">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fitts</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Romatowski</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Paddon-Jones</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolfe</surname>
+                      <given-names>R.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrando</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The deleterious effects of bed rest on human skeletal muscle fibers are exacerbated by hypercortisolemia and ameliorated by dietary supplementation</article-title>
+                  <source>Am. J. Physiology. Cell Physiol.</source>
+                  <year>2007</year>
+                  <volume>293</volume>
+                  <fpage>C313</fpage>
+                  <lpage>C320</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpcell.00573.2006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-22-03252">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Edgerton</surname>
+                      <given-names>V.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>R.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monti</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adaptations in skeletal muscle disuse or decreased-use atrophy</article-title>
+                  <source>Am. J. Phys. Med. Rehabil.</source>
+                  <year>2002</year>
+                  <volume>81</volume>
+                  <issue>Suppl. 11</issue>
+                  <fpage>S127</fpage>
+                  <lpage>S147</lpage>
+                  <pub-id pub-id-type="doi">10.1097/00002060-200211001-00014</pub-id>
+                  <pub-id pub-id-type="pmid">12409818</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-22-03252">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arbogast</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matuszczak</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hardin</surname>
+                      <given-names>B.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moylan</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ware</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kennedy</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reid</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bowman-Birk inhibitor concentrate prevents atrophy, weakness, and oxidative stress in soleus muscle of hindlimb-unloaded mice</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2007</year>
+                  <volume>102</volume>
+                  <fpage>956</fpage>
+                  <lpage>964</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00538.2006</pub-id>
+                  <pub-id pub-id-type="pmid">17110517</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-22-03252">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kuczmarski</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guzzoni</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia-Villatoro</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holly</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Falcon</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of Eukarion-134 on Akt-mTOR signalling in the rat soleus during 7 days of mechanical unloading</article-title>
+                  <source>Exp. Physiol.</source>
+                  <year>2018</year>
+                  <volume>103</volume>
+                  <fpage>545</fpage>
+                  <lpage>558</lpage>
+                  <pub-id pub-id-type="doi">10.1113/EP086649</pub-id>
+                  <pub-id pub-id-type="pmid">29315934</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-22-03252">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Powers</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smuder</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oxidative stress and disuse muscle atrophy: Cause or consequence?</article-title>
+                  <source>Curr. Opin. Clin. Nutr. Metab. Care</source>
+                  <year>2012</year>
+                  <volume>15</volume>
+                  <fpage>240</fpage>
+                  <pub-id pub-id-type="doi">10.1097/MCO.0b013e328352b4c2</pub-id>
+                  <?supplied-pmid 22466926?>
+                  <pub-id pub-id-type="pmid">22466926</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-22-03252">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Senf</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>McClung</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hsp70 overexpression inhibits NF-κB and Foxo3a transcriptional activities and prevents skeletal muscle atrophy</article-title>
+                  <source>FASEB J.</source>
+                  <year>2008</year>
+                  <volume>22</volume>
+                  <fpage>3836</fpage>
+                  <lpage>3845</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.08-110163</pub-id>
+                  <pub-id pub-id-type="pmid">18644837</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-22-03252">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwak</surname>
+                      <given-names>H.-B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Biphasic stress response in the soleus during reloading after hind limb unloading</article-title>
+                  <source>Med. Sci. Sports Exerc.</source>
+                  <year>2012</year>
+                  <volume>44</volume>
+                  <fpage>600</fpage>
+                  <lpage>609</lpage>
+                  <pub-id pub-id-type="doi">10.1249/MSS.0b013e31823ab37a</pub-id>
+                  <pub-id pub-id-type="pmid">21983076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-22-03252">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwak</surname>
+                      <given-names>H.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Differential response of heat shock proteins to hindlimb unloading and reloading in the soleus</article-title>
+                  <source>Muscle Nerve Off. J. Am. Assoc. Electrodiagn. Med.</source>
+                  <year>2006</year>
+                  <volume>33</volume>
+                  <fpage>200</fpage>
+                  <lpage>207</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mus.20454</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-22-03252">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Senf</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>FOXO signaling is required for disuse muscle atrophy and is directly regulated by Hsp70</article-title>
+                  <source>Am. J. Physiol. Cell Physiol.</source>
+                  <year>2010</year>
+                  <volume>298</volume>
+                  <fpage>C38</fpage>
+                  <lpage>C45</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpcell.00315.2009</pub-id>
+                  <pub-id pub-id-type="pmid">19864323</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-22-03252">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia-Villatoro</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guzzoni</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Botchlett</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holly</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Janini Gomes</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effect of combined fish oil &amp; Curcumin on murine skeletal muscle morphology and stress response proteins during mechanical unloading</article-title>
+                  <source>Nutr. Res.</source>
+                  <year>2019</year>
+                  <volume>65</volume>
+                  <fpage>17</fpage>
+                  <lpage>28</lpage>
+                  <?supplied-pmid 30954343?>
+                  <pub-id pub-id-type="pmid">30954343</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-22-03252">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Demaree</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hindlimb unloading increases oxidative stress and disrupts antioxidant capacity in skeletal muscle</article-title>
+                  <source>Free Radic. Biol. Med.</source>
+                  <year>2003</year>
+                  <volume>35</volume>
+                  <fpage>9</fpage>
+                  <lpage>16</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0891-5849(03)00186-2</pub-id>
+                  <pub-id pub-id-type="pmid">12826251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-22-03252">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koesterer</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Powers</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increased antioxidant capacity does not attenuate muscle atrophy caused by unweighting</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2002</year>
+                  <volume>93</volume>
+                  <fpage>1959</fpage>
+                  <lpage>1965</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00511.2002</pub-id>
+                  <?supplied-pmid 12391085?>
+                  <pub-id pub-id-type="pmid">12391085</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-22-03252">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Farid</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reid</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerken</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Durham</surname>
+                      <given-names>W.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of dietary curcumin or N-acetylcysteine on NF-kappaB activity and contractile performance in ambulatory and unloaded murine soleus</article-title>
+                  <source>Nutr. Metab.</source>
+                  <year>2005</year>
+                  <volume>2</volume>
+                  <fpage>20</fpage>
+                  <pub-id pub-id-type="doi">10.1186/1743-7075-2-20</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-22-03252">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gagnon</surname>
+                      <given-names>B.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Senf</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hain</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Judge</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ros-mediated activation of NF-kappaB and Foxo during muscle disuse</article-title>
+                  <source>Muscle Nerve</source>
+                  <year>2010</year>
+                  <volume>41</volume>
+                  <fpage>110</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mus.21526</pub-id>
+                  <pub-id pub-id-type="pmid">19813194</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-22-03252">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Min</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smuder</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwon</surname>
+                      <given-names>O.-s.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kavazis</surname>
+                      <given-names>A.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Szeto</surname>
+                      <given-names>H.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Powers</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitochondrial-targeted antioxidants protect skeletal muscle against immobilization-induced muscle atrophy</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2011</year>
+                  <volume>111</volume>
+                  <fpage>1459</fpage>
+                  <lpage>1466</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00591.2011</pub-id>
+                  <pub-id pub-id-type="pmid">21817113</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-22-03252">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kunst</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Joshi</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Botchlett</surname>
+                      <given-names>R.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramirez</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EUK-134 ameliorates nNOSμ translocation and skeletal muscle fiber atrophy during short-term mechanical unloading</article-title>
+                  <source>Am. J. Physiol. Regul. Integr. Comp. Physiol.</source>
+                  <year>2014</year>
+                  <volume>306</volume>
+                  <fpage>R470</fpage>
+                  <lpage>R482</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpregu.00371.2013</pub-id>
+                  <pub-id pub-id-type="pmid">24477538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-22-03252">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>M.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Farris</surname>
+                      <given-names>K.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guzzoni</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nox2 signaling and muscle fiber remodeling are attenuated by losartan administration during skeletal muscle unloading</article-title>
+                  <source>Physiol. Rep.</source>
+                  <year>2021</year>
+                  <volume>9</volume>
+                  <fpage>e14606</fpage>
+                  <pub-id pub-id-type="doi">10.14814/phy2.14606</pub-id>
+                  <pub-id pub-id-type="pmid">33400850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-22-03252">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rey</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cifuentes</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiarash</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quinn</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagano</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel competitive inhibitor of NAD (P) H oxidase assembly attenuates vascular O2− and systolic blood pressure in mice</article-title>
+                  <source>Circ. Res.</source>
+                  <year>2001</year>
+                  <volume>89</volume>
+                  <fpage>408</fpage>
+                  <lpage>414</lpage>
+                  <pub-id pub-id-type="doi">10.1161/hh1701.096037</pub-id>
+                  <pub-id pub-id-type="pmid">11532901</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-22-03252">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Suzuki</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Motohashi</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Uezumi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukada</surname>
+                      <given-names>S.-I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshimura</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Itoyama</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aoki</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miyagoe-Suzuki</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takeda</surname>
+                      <given-names>S.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NO production results in suspension-induced muscle atrophy through dislocation of neuronal NOS</article-title>
+                  <source>J. Clin. Investig.</source>
+                  <year>2007</year>
+                  <volume>117</volume>
+                  <fpage>2468</fpage>
+                  <lpage>2476</lpage>
+                  <pub-id pub-id-type="doi">10.1172/JCI30654</pub-id>
+                  <pub-id pub-id-type="pmid">17786240</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-22-03252">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vitadello</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gherardini</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gorza</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The stress protein/chaperone Grp94 counteracts muscle disuse atrophy by stabilizing subsarcolemmal neuronal nitric oxide synthase</article-title>
+                  <source>Antioxid. Redox Signal.</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <fpage>2479</fpage>
+                  <lpage>2496</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ars.2012.4794</pub-id>
+                  <pub-id pub-id-type="pmid">24093939</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-22-03252">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>da Costa</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodrigues</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pereira</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>J.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alves</surname>
+                      <given-names>J.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lobato</surname>
+                      <given-names>N.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tostes</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nrf2 as a potential mediator of cardiovascular risk in metabolic diseases</article-title>
+                  <source>Front. Pharmacol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>382</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphar.2019.00382</pub-id>
+                  <pub-id pub-id-type="pmid">31031630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-22-03252">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naito</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Powers</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Demirel</surname>
+                      <given-names>H.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugiura</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dodd</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aoki</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Heat stress attenuates skeletal muscle atrophy in hindlimb-unweighted rats</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2000</year>
+                  <volume>88</volume>
+                  <fpage>359</fpage>
+                  <lpage>363</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jappl.2000.88.1.359</pub-id>
+                  <pub-id pub-id-type="pmid">10642402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-22-03252">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lechado</surname>
+                      <given-names>A.I.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vitadello</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Traini</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Namuduri</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gastaldello</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gorza</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sarcolemmal loss of active nNOS (Nos1) is an oxidative stress-dependent, early event driving disuse atrophy</article-title>
+                  <source>J. Pathol.</source>
+                  <year>2018</year>
+                  <volume>246</volume>
+                  <fpage>433</fpage>
+                  <lpage>446</lpage>
+                  <pub-id pub-id-type="doi">10.1002/path.5149</pub-id>
+                  <?supplied-pmid 30066461?>
+                  <pub-id pub-id-type="pmid">30066461</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-22-03252">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vitadello</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Germinario</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ravara</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Libera</surname>
+                      <given-names>L.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Danieli-Betto</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gorza</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Curcumin counteracts loss of force and atrophy of hindlimb unloaded rat soleus by hampering neuronal nitric oxide synthase untethering from sarcolemma</article-title>
+                  <source>J. Physiol.</source>
+                  <year>2014</year>
+                  <volume>592</volume>
+                  <fpage>2637</fpage>
+                  <lpage>2652</lpage>
+                  <pub-id pub-id-type="doi">10.1113/jphysiol.2013.268672</pub-id>
+                  <pub-id pub-id-type="pmid">24710058</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-22-03252">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dillmann</surname>
+                      <given-names>W.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mestril</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Faulkner</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Overexpression of HSP70 in mouse skeletal muscle protects against muscle damage and age-related muscle dysfunction</article-title>
+                  <source>Faseb J. Off. Publ. Fed. Am. Soc. Exp. Biol.</source>
+                  <year>2004</year>
+                  <volume>18</volume>
+                  <fpage>355</fpage>
+                  <lpage>357</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fj.03-0395fje</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-22-03252">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sakellariou</surname>
+                      <given-names>G.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasilaki</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palomero</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kayani</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zibrik</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Studies of mitochondrial and nonmitochondrial sources implicate nicotinamide adenine dinucleotide phosphate oxidase (s) in the increased skeletal muscle superoxide generation that occurs during contractile activity</article-title>
+                  <source>Antioxid. Redox Signal.</source>
+                  <year>2013</year>
+                  <volume>18</volume>
+                  <fpage>603</fpage>
+                  <lpage>621</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ars.2012.4623</pub-id>
+                  <pub-id pub-id-type="pmid">23050834</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-22-03252">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>C.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prosser</surname>
+                      <given-names>B.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lederer</surname>
+                      <given-names>W.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanical stretch-induced activation of ROS/RNS signaling in striated muscle</article-title>
+                  <source>Antioxid. Redox Signal.</source>
+                  <year>2014</year>
+                  <volume>20</volume>
+                  <fpage>929</fpage>
+                  <lpage>936</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ars.2013.5517</pub-id>
+                  <pub-id pub-id-type="pmid">23971496</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-22-03252">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cline</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Coast</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of oxidant challenge on contractile function of the aging rat diaphragm</article-title>
+                  <source>Am. J. Physiol.</source>
+                  <year>1997</year>
+                  <volume>272</volume>
+                  <issue-part>(2 Pt 1)</issue-part>
+                  <fpage>E201</fpage>
+                  <lpage>E207</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpendo.1997.272.2.E201</pub-id>
+                  <pub-id pub-id-type="pmid">9124323</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-22-03252">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwak</surname>
+                      <given-names>H.-B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barnes</surname>
+                      <given-names>W.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Redox modulation of diaphragm contractility: Interaction between DHPR and RyR channels</article-title>
+                  <source>Free Radic. Biol. Med.</source>
+                  <year>2010</year>
+                  <volume>49</volume>
+                  <fpage>1969</fpage>
+                  <lpage>1977</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2010.09.025</pub-id>
+                  <pub-id pub-id-type="pmid">20920578</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-22-03252">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henríquez-Olguín</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Knudsen</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raun</surname>
+                      <given-names>S.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dalbram</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Treebak</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sylow</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holmdahl</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaimovich</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cytosolic ROS production by NADPH oxidase 2 regulates muscle glucose uptake during exercise</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-019-12523-9</pub-id>
+                  <pub-id pub-id-type="pmid">30602773</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-22-03252">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Merry</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Steinberg</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>G.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>McConell</surname>
+                      <given-names>G.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Skeletal muscle glucose uptake during contraction is regulated by nitric oxide and ROS independently of AMPK</article-title>
+                  <source>Am. J. Physiol. Endocrinol. Metab.</source>
+                  <year>2010</year>
+                  <volume>298</volume>
+                  <fpage>E577</fpage>
+                  <lpage>E585</lpage>
+                  <pub-id pub-id-type="doi">10.1152/ajpendo.00239.2009</pub-id>
+                  <?supplied-pmid 20009026?>
+                  <pub-id pub-id-type="pmid">20009026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-22-03252">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lawler</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hord</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mitochondria in the middle: Exercise preconditioning protection of striated muscle</article-title>
+                  <source>J. Physiol.</source>
+                  <year>2016</year>
+                  <volume>594</volume>
+                  <fpage>5161</fpage>
+                  <lpage>5183</lpage>
+                  <pub-id pub-id-type="doi">10.1113/JP270656</pub-id>
+                  <pub-id pub-id-type="pmid">27060608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-22-03252">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henríquez-Olguín</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boronat</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cabello-Verrugio</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaimovich</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hidalgo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jensen</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The emerging roles of nicotinamide adenine dinucleotide phosphate oxidase 2 in skeletal muscle redox signaling and metabolism</article-title>
+                  <source>Antioxid. Redox Signal.</source>
+                  <year>2019</year>
+                  <volume>31</volume>
+                  <fpage>1371</fpage>
+                  <lpage>1410</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ars.2018.7678</pub-id>
+                  <pub-id pub-id-type="pmid">31588777</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-22-03252">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Henríquez-Olguín</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Díaz-Vegas</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Utreras-Mendoza</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Campos</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arias-Calderón</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Llanos</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Contreras-Ferrat</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Espinosa</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Altamirano</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaimovich</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NOX2 inhibition impairs early muscle gene expression induced by a single exercise bout</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2016</year>
+                  <volume>7</volume>
+                  <fpage>282</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2016.00282</pub-id>
+                  <?supplied-pmid 27471471?>
+                  <pub-id pub-id-type="pmid">27471471</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-22-03252">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Prosser</surname>
+                      <given-names>B.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ward</surname>
+                      <given-names>C.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lederer</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>X-ROS signaling: Rapid mechano-chemo transduction in heart</article-title>
+                  <source>Science</source>
+                  <year>2011</year>
+                  <volume>333</volume>
+                  <fpage>1440</fpage>
+                  <lpage>1445</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1202768</pub-id>
+                  <?supplied-pmid 21903813?>
+                  <pub-id pub-id-type="pmid">21903813</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-22-03252">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Souto Padron de Figueiredo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salmon</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruno</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jimenez</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>H.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Halade</surname>
+                      <given-names>G.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahuja</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clark</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>DeFronzo</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abboud</surname>
+                      <given-names>H.E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Nox2 mediates skeletal muscle insulin resistance induced by a high fat diet</article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2015</year>
+                  <volume>290</volume>
+                  <fpage>13427</fpage>
+                  <lpage>13439</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M114.626077</pub-id>
+                  <pub-id pub-id-type="pmid">25825489</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-22-03252">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scalabrin</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pollock</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Staunton</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brooks</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>McArdle</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasilaki</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Redox responses in skeletal muscle following denervation</article-title>
+                  <source>Redox Biol.</source>
+                  <year>2019</year>
+                  <volume>26</volume>
+                  <fpage>101294</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.redox.2019.101294</pub-id>
+                  <?supplied-pmid 31450104?>
+                  <pub-id pub-id-type="pmid">31450104</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-22-03252">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Costa-Beber</surname>
+                      <given-names>L.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hirsch</surname>
+                      <given-names>G.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heck</surname>
+                      <given-names>T.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ludwig</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Chaperone duality: The role of extracellular and intracellular HSP70 as a biomarker of endothelial dysfunction in the development of atherosclerosis</article-title>
+                  <source>Arch. Physiol. Biochem.</source>
+                  <year>2020</year>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.1080/13813455.2020.1745850</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-22-03252">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lorenzo</surname>
+                      <given-names>A.F.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costantino</surname>
+                      <given-names>V.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Appiolaza</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cacciamani</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benardon</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bocanegra</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vallés</surname>
+                      <given-names>P.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Heat shock protein 70 and CHIP promote Nox4 ubiquitination and degradation within the losartan antioxidative effect in proximal tubule cells</article-title>
+                  <source>Cell. Physiol. Biochem.</source>
+                  <year>2015</year>
+                  <volume>36</volume>
+                  <fpage>2183</fpage>
+                  <lpage>2197</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000430184</pub-id>
+                  <pub-id pub-id-type="pmid">26279425</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-ijms-22-03252">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cannavino</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brocca</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sandri</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bottinelli</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pellegrino</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>PGC1-alpha over-expression prevents metabolic alterations and soleus muscle atrophy in hindlimb unloaded mice</article-title>
+                  <source>J. Physiol.</source>
+                  <year>2014</year>
+                  <volume>592</volume>
+                  <fpage>4575</fpage>
+                  <lpage>4589</lpage>
+                  <pub-id pub-id-type="doi">10.1113/jphysiol.2014.275545</pub-id>
+                  <pub-id pub-id-type="pmid">25128574</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-ijms-22-03252">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chazarin</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ziemianin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meugnier</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loizon</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chery</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arnemo</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Swenson</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gauquelin-Koch</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Limited oxidative stress favors resistance to skeletal muscle atrophy in hibernating brown bears (Ursus arctos)</article-title>
+                  <source>Antioxidants</source>
+                  <year>2019</year>
+                  <volume>8</volume>
+                  <elocation-id>334</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/antiox8090334</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-ijms-22-03252">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>D.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>S.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>X.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>X.Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>B.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>D.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xiao</surname>
+                      <given-names>W.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhuang</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nrf2 deficiency exacerbates frailty and sarcopenia by impairing skeletal muscle mitochondrial biogenesis and dynamics in an age-dependent manner</article-title>
+                  <source>Exp. Gerontol.</source>
+                  <year>2019</year>
+                  <volume>119</volume>
+                  <fpage>61</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.exger.2019.01.022</pub-id>
+                  <pub-id pub-id-type="pmid">30690066</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-ijms-22-03252">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kitaoka</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takeda</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tamura</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fujimaki</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takemasa</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hatta</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nrf2 deficiency does not affect denervation-induced alterations in mitochondrial fission and fusion proteins in skeletal muscle</article-title>
+                  <source>Physiol. Rep.</source>
+                  <year>2016</year>
+                  <volume>4</volume>
+                  <fpage>e13064</fpage>
+                  <pub-id pub-id-type="doi">10.14814/phy2.13064</pub-id>
+                  <?supplied-pmid 28039408?>
+                  <pub-id pub-id-type="pmid">28039408</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-ijms-22-03252">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>C.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Joe</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chung</surname>
+                      <given-names>H.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ha</surname>
+                      <given-names>T.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quercetin Reduces Tumor Necrosis Factor Alpha-Induced Muscle Atrophy by Upregulation of Heme Oxygenase-1</article-title>
+                  <source>J. Med. Food</source>
+                  <year>2018</year>
+                  <volume>21</volume>
+                  <fpage>551</fpage>
+                  <lpage>559</lpage>
+                  <pub-id pub-id-type="doi">10.1089/jmf.2017.4108</pub-id>
+                  <pub-id pub-id-type="pmid">29569982</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-ijms-22-03252">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bozaykut</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ozer</surname>
+                      <given-names>N.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Karademir</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nrf2 silencing to inhibit proteolytic defense induced by hyperthermia in HT22 cells</article-title>
+                  <source>Redox Biol.</source>
+                  <year>2016</year>
+                  <volume>8</volume>
+                  <fpage>323</fpage>
+                  <lpage>332</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.redox.2016.03.001</pub-id>
+                  <pub-id pub-id-type="pmid">26966891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-ijms-22-03252">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Piao</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>G.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kang</surname>
+                      <given-names>M.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>N.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Surh</surname>
+                      <given-names>Y.-J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyun</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Up-regulation of Nrf2-mediated heme oxygenase-1 expression by eckol, a phlorotannin compound, through activation of Erk and PI3K/Akt</article-title>
+                  <source>Int. J. Biochem. Cell Biol.</source>
+                  <year>2010</year>
+                  <volume>42</volume>
+                  <fpage>297</fpage>
+                  <lpage>305</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biocel.2009.11.009</pub-id>
+                  <pub-id pub-id-type="pmid">19931411</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47-ijms-22-03252">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Naidu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vijayan</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Santoso</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kietzmann</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Immenschuh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inhibition and Genetic Deficiency of p38 MAPK Up-Regulates Heme Oxygenase-1 Gene Expression via Nrf2</article-title>
+                  <source>J. Immunol.</source>
+                  <year>2009</year>
+                  <volume>182</volume>
+                  <fpage>7048</fpage>
+                  <lpage>7057</lpage>
+                  <pub-id pub-id-type="doi">10.4049/jimmunol.0900006</pub-id>
+                  <pub-id pub-id-type="pmid">19454702</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48-ijms-22-03252">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kyriakis</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Avruch</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mammalian mitogen-activated protein kinase signal transduction pathways activated by stress and inflammation</article-title>
+                  <source>Physiol. Rev.</source>
+                  <year>2001</year>
+                  <volume>81</volume>
+                  <fpage>807</fpage>
+                  <lpage>869</lpage>
+                  <pub-id pub-id-type="doi">10.1152/physrev.2001.81.2.807</pub-id>
+                  <pub-id pub-id-type="pmid">11274345</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B49-ijms-22-03252">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fitts</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trappe</surname>
+                      <given-names>S.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costill</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>P.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Creer</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Colloton</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Romatowski</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bain</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres</article-title>
+                  <source>J. Physiol.</source>
+                  <year>2010</year>
+                  <volume>588</volume>
+                  <issue-part>Pt 18</issue-part>
+                  <fpage>3567</fpage>
+                  <lpage>3592</lpage>
+                  <pub-id pub-id-type="doi">10.1113/jphysiol.2010.188508</pub-id>
+                  <pub-id pub-id-type="pmid">20660569</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B50-ijms-22-03252">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dimauro</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pearson</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caporossi</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simple protocol for the subcellular fractionation of skeletal muscle cells and tissue</article-title>
+                  <source>BMC Res. Notes</source>
+                  <year>2012</year>
+                  <volume>5</volume>
+                  <elocation-id>513</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/1756-0500-5-513</pub-id>
+                  <pub-id pub-id-type="pmid">22994964</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B51-ijms-22-03252">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schindelin</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arganda-Carreras</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Frise</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaynig</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Longair</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pietzsch</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Preibisch</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rueden</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saalfeld</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmid</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fiji: An open-source platform for biological-image analysis</article-title>
+                  <source>Nat. Methods</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>676</fpage>
+                  <lpage>682</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.2019</pub-id>
+                  <?supplied-pmid 22743772?>
+                  <pub-id pub-id-type="pmid">22743772</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijms-22-03252-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Peptidyl inhibition of NADPH oxidase-2 (Nox2) by gp91ds-tat reduces membrane-positive staining of Nox2 subunit p67phox. (<bold>A</bold>) p67 blot immunofluorescence during hindlimb unloading in soleus muscle, with dystrophin as a membrane marker. (<bold>B</bold>) Positive staining for p67phox was quantified with one-way ANOVAs run to determine mean differences in positive staining. Fischer-344 rats were divided into the following groups (<italic>n</italic> = 6/group): ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HU), and HU + gp91ds-tat (HUG). (a) is statistically significantly different than CON; (b) is significantly different than HU.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g001"/>
+            </fig>
+            <fig id="ijms-22-03252-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Protein abundance for heat shock protein 70 (HSP70), heat shock protein 90, manganese superoxide dismutase (MnSOD), and nuclear factor erythroid 2-related factor 2 (Nrf2) in ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HU), and HU + gp91ds-tat (HUG). Representative immunoblots with Ponceau stain as a protein loading control are found in (<bold>A</bold>) HSP70, (<bold>B</bold>) HSP90, (<bold>C</bold>) MnSOD, and (<bold>D</bold>) Nrf2. Protein abundance quantification was determined using Western immunoblotting and quantified using ImageJ for HSP70, HSP90, MnSOD, and Nrf2. (a) designates significantly different means than CON; (b) represents a significance difference vs. HU. MnSOD ANOVA was significantly different (<italic>p</italic> = 0.049) with a downward trend for HU and HUG groups compared with Control solei.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g002"/>
+            </fig>
+            <fig id="ijms-22-03252-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>NADPH diaphorase staining assay, a biomarker of nNOS activity, for the rat soleus muscle is displayed in (<bold>A</bold>). (<bold>B</bold>) NADPH diaphorase-positive staining was quantified for ambulatory controls (CON), hindlimb unloaded with scrambled peptide (HU), and HU + gp91ds-tat (HUG). To distinguish among statistically different group means, (a) designates a significant difference vs. CON; (b) indicates significance difference with the HU group.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g003"/>
+            </fig>
+            <fig id="ijms-22-03252-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Confocal fluorescence staining for neuronal nitric oxide synthase is displayed in <xref ref-type="fig" rid="ijms-22-03252-f004">Figure 4</xref>. nNOS images are found in (<bold>A</bold>). β-sarcoglycan was used as a membrane marker in (<bold>B</bold>). Merged images are shown in (<bold>C</bold>). Fluorescence stains for the following groups were taken for ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HU), and HU with gp91ds-tat peptidyl inhibitor of Nox2 (HUG). nNOS-positive staining subsides with HU.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g004"/>
+            </fig>
+            <fig id="ijms-22-03252-f005" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>Effects of peptide Nox2 inhibition on skeletal muscle and body mass. (<bold>A</bold>) Body mass for ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HU), and HU + gp91ds-tat (HUG). (<bold>B</bold>) Soleus mass means are. (<bold>C</bold>) Plantar flexor mass/body mass ratio. (a) designates significantly different means than CON; (b) represents a significance difference vs. HU.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g005"/>
+            </fig>
+            <fig id="ijms-22-03252-f006" orientation="portrait" position="float">
+              <label>Figure 6</label>
+              <caption>
+                <p>Nox2 inhibition via gp91ds-tat reduces unloading-induced soleus fiber atrophy. Ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HU), and HU + gp91ds-tat (HUG) groups are displayed. (<bold>A</bold>) Soleus fiber cross-sectional area (CSA) was quantified using a hand traced macro on ImageJ. (<bold>B</bold>) We also quantified muscle fiber using the SMASH program. (<bold>C</bold>) Muscle fiber CSA distribution. To distinguish among groups with statistically significant group means, (a) is significantly different than CON; (b) is significantly different than HU.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g006"/>
+            </fig>
+            <fig id="ijms-22-03252-f007" orientation="portrait" position="float">
+              <label>Figure 7</label>
+              <caption>
+                <p>Immunofluorescence stains for Type IIa fibers using Hybridoma antibodies is shown in (<bold>A</bold>) % Type IIa and Type I fibers were quantified for ambulatory controls (CON), hindlimb unloaded + scrambled peptide (HUSCr), and HU + gp91ds-tat (HUG) in (<bold>B</bold>,<bold>C</bold>). Hindlimb unloading results in a trend upwards in Type IIa fiber but did not reach statistical significance.</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g007"/>
+            </fig>
+            <fig id="ijms-22-03252-f008" orientation="portrait" position="float">
+              <label>Figure 8</label>
+              <caption>
+                <p>Summary model of Nox2 inhibition (in red) and downstream effects. The figure includes integration of findings from previous studies discussed within the manuscript [<xref rid="B4-ijms-22-03252" ref-type="bibr">4</xref>,<xref rid="B6-ijms-22-03252" ref-type="bibr">6</xref>,<xref rid="B10-ijms-22-03252" ref-type="bibr">10</xref>,<xref rid="B15-ijms-22-03252" ref-type="bibr">15</xref>,<xref rid="B16-ijms-22-03252" ref-type="bibr">16</xref>,<xref rid="B17-ijms-22-03252" ref-type="bibr">17</xref>,<xref rid="B19-ijms-22-03252" ref-type="bibr">19</xref>,<xref rid="B20-ijms-22-03252" ref-type="bibr">20</xref>].</p>
+              </caption>
+              <graphic xlink:href="ijms-22-03252-g008"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

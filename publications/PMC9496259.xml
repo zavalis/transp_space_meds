@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:44:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9496259" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9496259</identifier>
+        <datestamp>2022-09-23</datestamp>
+        <setSpec>biomedicines</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Biomedicines</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Biomedicines</journal-id>
+              <journal-id journal-id-type="publisher-id">biomedicines</journal-id>
+              <journal-title-group>
+                <journal-title>Biomedicines</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2227-9059</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9496259</article-id>
+              <article-id pub-id-type="pmcid">PMC9496259</article-id>
+              <article-id pub-id-type="pmc-uid">9496259</article-id>
+              <article-id pub-id-type="pmid">36140288</article-id>
+              <article-id pub-id-type="doi">10.3390/biomedicines10092187</article-id>
+              <article-id pub-id-type="publisher-id">biomedicines-10-02187</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Validating Causal Diagrams of Human Health Risks for Spaceflight: An Example Using Bone Data from Rodents</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Reynolds</surname>
+                    <given-names>Robert J.</given-names>
+                  </name>
+                  <xref rid="af1-biomedicines-10-02187" ref-type="aff">1</xref>
+                  <xref rid="c1-biomedicines-10-02187" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Scott</surname>
+                    <given-names>Ryan T.</given-names>
+                  </name>
+                  <xref rid="af2-biomedicines-10-02187" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3031-0398</contrib-id>
+                  <name>
+                    <surname>Turner</surname>
+                    <given-names>Russell T.</given-names>
+                  </name>
+                  <xref rid="af3-biomedicines-10-02187" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Iwaniec</surname>
+                    <given-names>Urszula T.</given-names>
+                  </name>
+                  <xref rid="af3-biomedicines-10-02187" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bouxsein</surname>
+                    <given-names>Mary L.</given-names>
+                  </name>
+                  <xref rid="af4-biomedicines-10-02187" ref-type="aff">4</xref>
+                  <xref rid="af5-biomedicines-10-02187" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Sanders</surname>
+                    <given-names>Lauren M.</given-names>
+                  </name>
+                  <xref rid="af6-biomedicines-10-02187" ref-type="aff">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1042-7011</contrib-id>
+                  <name>
+                    <surname>Antonsen</surname>
+                    <given-names>Erik L.</given-names>
+                  </name>
+                  <xref rid="af7-biomedicines-10-02187" ref-type="aff">7</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Grimm</surname>
+                    <given-names>Daniela</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Hemmersbach</surname>
+                    <given-names>Ruth</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-biomedicines-10-02187"><label>1</label>KBR Wyle Services, LLC, NASA Johnson Space Center, Houston, TX 77058, USA</aff>
+              <aff id="af2-biomedicines-10-02187"><label>2</label>KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA</aff>
+              <aff id="af3-biomedicines-10-02187"><label>3</label>Skeletal Biology Laboratory, Oregon State University, Corvallis, OR 97331, USA</aff>
+              <aff id="af4-biomedicines-10-02187"><label>4</label>Center for Advanced Orthopaedic Studies, Beth Israel Deaconess Medical Center, Boston, MA 02215, USA</aff>
+              <aff id="af5-biomedicines-10-02187"><label>5</label>Department of Orthopedic Surgery, Harvard Medical School, Boston, MA 02115, USA</aff>
+              <aff id="af6-biomedicines-10-02187"><label>6</label>Blue Marble Space Institute of Science, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA 94043, USA</aff>
+              <aff id="af7-biomedicines-10-02187"><label>7</label>Department of Emergency Medicine, Center for Space Medicine, Baylor College of Medicine, Houston, TX 77030, USA</aff>
+              <author-notes>
+                <corresp id="c1-biomedicines-10-02187"><label>*</label>Correspondence: <email>robert.j.reynolds-2@nasa.gov</email></corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>05</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>10</volume>
+              <issue>9</issue>
+              <elocation-id>2187</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>01</day>
+                  <month>7</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>12</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 by the authors.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>As part of the risk management plan for human system risks at the US National Aeronautics and Space Administration (NASA), the NASA Human Systems Risk Board uses causal diagrams (in the form of directed, acyclic graphs, or DAGs) to communicate the complex web of events that leads from exposure to the spaceflight environment to performance and health outcomes. However, the use of DAGs in this way is relatively new at NASA, and thus far, no method has been articulated for testing their veracity using empirical data. In this paper, we demonstrate a set of procedures for doing so, using (a) a DAG related to the risk of bone fracture after exposure to spaceflight; and (b) four datasets originally generated to investigate this phenomenon in rodents. Tests of expected marginal correlation and conditional independencies derived from the DAG indicate that the rodent data largely agree with the structure of the diagram. Incongruencies between tests and the expected relationships in one of the datasets are likely explained by inadequate representation of a key DAG variable in the dataset. Future directions include greater tie-in with human data sources, including multiomics data, which may allow for more robust characterization and measurement of DAG variables.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>spaceflight</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>causal diagrams</kwd>
+                <kwd>directed acyclic graphs</kwd>
+                <kwd>bone fracture</kwd>
+                <kwd>translational science</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>Translational Research Institute for Space Health</funding-source>
+                  <award-id>NASA NNX16AO69A</award-id>
+                </award-group>
+                <funding-statement>This project received no external grant funding, though E.L.A. was supported by the Translational Research Institute for Space Health, through NASA NNX16AO69A.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-biomedicines-10-02187">
+              <title>1. Introduction</title>
+              <p>The risks to human health and performance in spaceflight are myriad and complex [<xref rid="B1-biomedicines-10-02187" ref-type="bibr">1</xref>,<xref rid="B2-biomedicines-10-02187" ref-type="bibr">2</xref>,<xref rid="B3-biomedicines-10-02187" ref-type="bibr">3</xref>,<xref rid="B4-biomedicines-10-02187" ref-type="bibr">4</xref>,<xref rid="B5-biomedicines-10-02187" ref-type="bibr">5</xref>]. The work involved in characterizing and mitigating those risks draws from highly disparate groups of expertise, including life scientists, physicians, engineers, and program managers. The de facto approach to both the research and management of spaceflight human health risks has been to consider the major risks as isolated problems, with little to no relation to the others [<xref rid="B4-biomedicines-10-02187" ref-type="bibr">4</xref>]. This allowed deep exploration by specific sets of experts in the characterization phases but introduced challenges into the translation to clinical and operational domains where both logic and experience tell us that these risks are interconnected, with risk systems sharing common causes and contributing to common outcomes [<xref rid="B3-biomedicines-10-02187" ref-type="bibr">3</xref>,<xref rid="B4-biomedicines-10-02187" ref-type="bibr">4</xref>]. Effective reduction in the risks humans face in spaceflight requires translation of the knowledge gained in areas such as space biology to improve mitigations and countermeasures at the human level. These translational challenges are experienced in different forms across many fields [<xref rid="B6-biomedicines-10-02187" ref-type="bibr">6</xref>]. The attempt to develop countermeasures to reduce the likelihood of one potential problem may lead to the unintended increase in the probability of others. To approach and manage this complexity, the Human Systems Risk Board (HSRB) at the National Aeronautics and Space Administration (NASA) embarked on a pilot project creating a series of causal diagrams that explicitly graph the pathways between known and suspected contributing factors at the highest level, and the sequence of events between them. These pathways all start with exposure to spaceflight environmental hazards, and end with mission level outcomes of interest to the astronauts and the agency. One narrative causal diagram was created for each of 29 individual spaceflight risks [<xref rid="B5-biomedicines-10-02187" ref-type="bibr">5</xref>,<xref rid="B7-biomedicines-10-02187" ref-type="bibr">7</xref>]. Examples of HSRB risks include those organized around hazardous exposures (e.g., Toxic Exposure Risk, Celestial Dust Risk, Radiation Risk), those centered on medical outcomes (e.g., Bone Fracture Risk, Venous Thromboembolism Concern, Spaceflight-Associated Neuro–Ocular Syndrome), and those concerned with in-flight deconditioning (e.g., Muscle Risk, Aerobic Risk). Insight from these areas helps inform how to set standards and adjust design to accommodate the human in the spaceflight vehicles, habitats, and spacesuits. Thus, the interconnected relationship among risks extends to Human Systems Integration Architectures with the attendant increase in system complexity.</p>
+              <p>The causal diagrams used in conjunction with the HSRB risks are created and maintained as Directed Acyclic Graphs (DAGs), a type of network diagram with properties well-suited to causal diagramming [<xref rid="B8-biomedicines-10-02187" ref-type="bibr">8</xref>,<xref rid="B9-biomedicines-10-02187" ref-type="bibr">9</xref>]. The resultant DAGs facilitate better communication of complex risks, and the structure of the fully integrated risk network allows for insights generated through social network type analysis and leaves open the possibility of evolving the combined risk network to a Bayesian Network.</p>
+              <p>The creation of causal diagrams via subject matter expert opinion does not guarantee accuracy of the causal explanations they contain. In fact, one goal of creating and configuration managing these diagrams by the HSRB is to invite evidence-based recommendations for evolving the diagrams. Without the addition of empirical data to back the causal explanations on a diagram, it is only speculation—however well-informed it may purport to be. These DAGs, and the validation of DAGs (with data underpinning their structural relationship), will ultimately be used by mission planners and NASA leadership to create systemic quantifiable biomedical health risk probabilities for upcoming deep space missions (i.e., cis-Lunar, Mars transit, Mars surface missions). Once empirical data populate the many risks via DAGs, and those DAGs are validated, approaches are enabled for mission planners to receive concrete individualized probability values of adverse health risks on deep space missions. It must be made clear at this point that the currently available quantified probabilities for mission planners are limited to the Integrated Medical Model and the NASA Space Cancer Radiation model, which together address only 2 of the 29 HSRB risks (the Medical Conditions Risk and the Radiation Carcinogenesis Risk) [<xref rid="B10-biomedicines-10-02187" ref-type="bibr">10</xref>,<xref rid="B11-biomedicines-10-02187" ref-type="bibr">11</xref>,<xref rid="B12-biomedicines-10-02187" ref-type="bibr">12</xref>]. Mission planners currently proceed with the best information that is available, but there is a strong need to develop innovative approaches for quantifying systemic risk in an evidence-based manner.</p>
+              <p>As causal diagrams are relatively new to the biomedical field at NASA, there has not yet been the exposition of a method and procedure for using data to validate them. An objective and repeatable procedure is needed so that researchers both inside and outside NASA can use data in a standardized, meaningful fashion for validating, and as necessary, proposing amendments to the causal explanations encapsulated in the 29 risk diagrams. An ideal method is one that can be generalized to utilize data from various organisms (humans, animals, or cells), and from either spaceflight or terrestrial analogue exposures. These data from various levels of evidence (astronaut clinical, human research, animal, cellular) are scored at varying levels of strong, moderate, weak, or speculative in the greater DAG data schema [<xref rid="B5-biomedicines-10-02187" ref-type="bibr">5</xref>]. Here we expand upon the framework put forth by Ankan et al. [<xref rid="B8-biomedicines-10-02187" ref-type="bibr">8</xref>] and propose that this method be used for translating space or analog data into evidence either in support of or in refutation of a causal diagram. We illustrate the method using data from a limited portion of the HSRB Bone Fracture Risk DAG, with data from four studies of rodent bone turnover from either spaceflight or a partial weightbearing exposure analog. This paper serves as an exploration of methods to validate DAGs as well as a pathfinder for approaches to translating valuable human and animal research data into a domain that is intended to inform risk reduction in human spaceflight.</p>
+            </sec>
+            <sec id="sec2-biomedicines-10-02187">
+              <title>2. Materials and Methods</title>
+              <p>Causal diagrams attempt to visually represent the cause-and-effect relationships between multiple factors or events. DAGs are a form of network graph that have requirements and properties making them useful for causal representation [<xref rid="B8-biomedicines-10-02187" ref-type="bibr">8</xref>,<xref rid="B9-biomedicines-10-02187" ref-type="bibr">9</xref>]. DAGs are inherently visual (graph), have one-way links (directed), and contain no loops (acyclic). These latter two requirements of DAGs are important as they are what establishes and enforces the temporal relationship between variables: causes must precede effects. </p>
+              <p>The objects on DAGs are often called “nodes” or “vertices” and they represent random variables. Causal relationships between variables are represented as directed (one-way) arrows, originating with causes and terminating in effects. These arrows are referred to as “links” or “edges”.</p>
+              <p>In this framework, one factor is a “cause” of another if two conditions are met: the cause temporally precedes the effect, and the probability distribution of the effect varies over the values of the cause. Note that this is equivalent to saying that the variables in the cause–effect relationship are not statistically independent from one another. This also means that we can consider each node to have a conditional probability distribution inside of it, which depends on the values assumed by all its causes. It is this probabilistic relationship between causes and effects which we will exploit in the validation of causal diagrams.</p>
+              <p>The causal diagram we present as our example here is a slightly modified subgraph extracted from a larger causal diagram developed by scientists at NASA to explain the risk of skeletal fragility in response to changes in skeletal loading under conditions of altered gravity [<xref rid="B7-biomedicines-10-02187" ref-type="bibr">7</xref>]. This example is the first attempt to populate and validate with empirical data any section of the 29 HSRB-created space health risk DAGs.</p>
+              <p>Data were obtained from the NASA Ames Life Science Data Archive (ALSDA) [<xref rid="B13-biomedicines-10-02187" ref-type="bibr">13</xref>]. In 2021, ALSDA integrated with NASA GeneLab [<xref rid="B14-biomedicines-10-02187" ref-type="bibr">14</xref>], and began scientifically curating datasets in-line with NASA GeneLab standards (a multiomics-centric repository), thus enabling scientific spaceflight and space-relevant data to be minable concurrently (both multiomics and phenomic–physiological–behavioral). In addition, this integrative ALSDA transformation ensured data quality and scientific confidence in datasets accessed by researchers and the public for reuse. This also included ensuring ALSDA datasets were maximally open access [<xref rid="B15-biomedicines-10-02187" ref-type="bibr">15</xref>], FAIR (findable, accessible, interoperable, reusable) [<xref rid="B16-biomedicines-10-02187" ref-type="bibr">16</xref>], and data files were curated to be machine-readable (e.g., “tidy” data format) [<xref rid="B17-biomedicines-10-02187" ref-type="bibr">17</xref>], transparent, reproducible, and maximally “AI-ready” [<xref rid="B13-biomedicines-10-02187" ref-type="bibr">13</xref>,<xref rid="B18-biomedicines-10-02187" ref-type="bibr">18</xref>,<xref rid="B19-biomedicines-10-02187" ref-type="bibr">19</xref>]). </p>
+              <p>This study’s method for DAG validation for the Bone HSRB-produced risk involves four datasets from rodents [<xref rid="B20-biomedicines-10-02187" ref-type="bibr">20</xref>,<xref rid="B21-biomedicines-10-02187" ref-type="bibr">21</xref>,<xref rid="B22-biomedicines-10-02187" ref-type="bibr">22</xref>,<xref rid="B23-biomedicines-10-02187" ref-type="bibr">23</xref>] produced through the bioassays of: (1) micro-computed tomography (μCT), (2) dual-energy X-ray absorptiometry (DXA), (3) histomorphometry, or (4) biomechanical strength testing [<xref rid="B24-biomedicines-10-02187" ref-type="bibr">24</xref>,<xref rid="B25-biomedicines-10-02187" ref-type="bibr">25</xref>,<xref rid="B26-biomedicines-10-02187" ref-type="bibr">26</xref>,<xref rid="B27-biomedicines-10-02187" ref-type="bibr">27</xref>]. Values derived from the studies pertained to one or more of: bone formation (mineral apposition rate, ceased bone formation, mineralized surface/bone surface, and bone formation rate/bone surface); bone resorption (label length and osteoclast perimeter); bone mass (bone volume/tissue volume, bone mineral content, and bone mineral density); trabecular microarchitecture (trabecular thickness, number, and separation/spacing); or bone strength (maximum load/fail load). <xref rid="biomedicines-10-02187-t001" ref-type="table">Table 1</xref> provides details of these studies, including the number of animals, study conditions, and measurements made. The study by Dubeé et al. contained data from μCT only; the 2015 Keune et al. study provided data from both μCT and DXA; the 2016 Keune et al. study offered measurements from histomorphometry; and Ko et al. had data obtained by μCT, histomorphometry, and biomechanical strength testing data. </p>
+              <p>Three of the included studies were of rats [<xref rid="B21-biomedicines-10-02187" ref-type="bibr">21</xref>,<xref rid="B22-biomedicines-10-02187" ref-type="bibr">22</xref>,<xref rid="B23-biomedicines-10-02187" ref-type="bibr">23</xref>] and one was of mice [<xref rid="B20-biomedicines-10-02187" ref-type="bibr">20</xref>]. There was one ground-based study which used partial body weight unloading as the exposure, while the other three studies sent animals to space. The design of the spaceflight studies was generally one exposure group with one or more terrestrial control groups. Total sample sizes of the studies were approximately 24 animals, save for the ground analog study of Ko et al., where rats were randomized to one of four partial weightbearing levels and one of three exposure durations, for a total of 12 exposure groups. Each exposure condition had 12 rats assigned to it, for a total of 144 animals. However, due to missing data, the working dataset had complete observations on only 140 rats. </p>
+              <p>To avoid adding variables to the bone DAG used here, to make the data comparable to the spaceflight studies, and to ensure any bone effects due to unloading were clearly observable in the data, we included only the 0% (control group), 60%, and 80% unloaded exposure groups, and only those animals that were exposed for 28 days. This resulted in a dataset of 33 observations from the Ko et al. study. Of those 33, 14 had measures of bone formation and bone resorption, making the effective sample size for the tests of conditional independencies only 14. Thus, the tests of marginal correlation had a sample size of either 33 or 14, depending on whether or not they were testing a relationship that included bone formation or resorption. </p>
+              <p>The original datasets contained variables that were related to—but not necessarily synonymous with—the random variables on the bone DAG. In most cases, the data contained more than one variable related to single concepts on the causal diagram. As a method of using all available information from multiple measures in a compact way, we created composite variables using principal component analysis (PCA). The details of this procedure and its results can be found in the <xref rid="app1-biomedicines-10-02187" ref-type="app">Supplementary Materials</xref> to this article.</p>
+              <p>The statistical analyses in this study consisted of building composite measures of the random variables on the bone causal diagram and then using those measures to test relationships implied by the diagram. The testing procedure for these relationships generally follows the approach set out by Ankan et al. [<xref rid="B8-biomedicines-10-02187" ref-type="bibr">8</xref>].</p>
+              <p>Through structural analysis of the bone risk DAG, we extracted the set of expected marginal correlations and conditional independencies implied by the structure of the DAG [<xref rid="B9-biomedicines-10-02187" ref-type="bibr">9</xref>,<xref rid="B28-biomedicines-10-02187" ref-type="bibr">28</xref>]. These serve as testable hypotheses for the accuracy of the network structure. Marginal dependencies are pairs of variables that should have a non-zero bivariate correlation (i.e., when not controlling for other factors). Conditional independencies are pairs of variables that should have zero correlation when controlling for one or more variables as specified by analysis of the DAG structure. To define the variable relationships implied by the bone risk DAG, we used the dagitty web interface (available at dagitty.net) and the package “dagitty” in the R statistical computing software, version 2021.09.2, Vienna, Austria [<xref rid="B8-biomedicines-10-02187" ref-type="bibr">8</xref>,<xref rid="B29-biomedicines-10-02187" ref-type="bibr">29</xref>]. To compute marginal correlations between pairs of variables we used the “ci_cor” function in the “confintr” package [<xref rid="B30-biomedicines-10-02187" ref-type="bibr">30</xref>]. This function computes the correlation as well as the 95% confidence interval for the correlation. To guard against violations of linearity between pairs of variables, we specified the function to use the Spearman correlation statistic. Confidence intervals for the Spearman correlation coefficient were generated with bias-corrected accelerated bootstrapping, the default for the package. This method adjusts the endpoints of the bootstrapped confidence interval to compensate for skew among the bootstrapped samples, leading to more robust estimates.</p>
+              <p>The “dagitty” package in R offers the function “localTests”, which takes both a DAG (in the form of dagitty code) and the correlation matrix of variables that correspond to the DAG’s variables as its input. The function then returns partial correlations for each conditional independency in the DAG and their 95% confidence intervals. We used this function to compute the set of correlations corresponding to the conditional independencies on the DAG.</p>
+              <p>Whereas marginal correlations are pairs of variables expected to have non-zero correlation, conditional independencies are relationships where the partial correlation is expected to be 0 after controlling for specific intermediate variables along causal pathways (and if the DAG is correct). We considered a correlation to be non-zero if it passed both of the following criteria: (a) the correlation is the direction (positive or negative) consistent with the posited causal relationships; and (b) the absolute value of the correlation is greater than or equal to 0.15. In other words, a marginal correlation is validated as non-zero if it is directionally correct and is of sufficient magnitude to be distinguishable from 0. Partial correlations generated to test conditional independencies are validated if the absolute value of the partial correlation coefficient is less than 0.15 (i.e., is indistinguishable from 0). We chose a threshold of magnitude for non-zero correlation because it is possible to have values that are close to 0 with tight confidence intervals that do not include 0. In such instances the correlation is effectively zero, and the magnitude threshold allows us to interpret it as such. We chose the value of 0.15 as a minimal heuristic standard. As such, this value can be considered arbitrary, and other thresholds can and should be considered depending on the context.</p>
+              <p>Another possible validation criterion could be that the 95% confidence interval surrounding the correlation does not include 0. In our view, directionality and magnitude of correlation are far more important criteria in biological systems, and thus, together are sufficient to consider a variable pair to be correlated. Perhaps more importantly, Ggiven the potential lack of statistical power in spaceflight research, and recent criticisms of statistical hypothesis testing in spaceflight research [<xref rid="B31-biomedicines-10-02187" ref-type="bibr">31</xref>,<xref rid="B32-biomedicines-10-02187" ref-type="bibr">32</xref>], we believe that a lack of statistical precision alone should not be enough to disqualify a marginal correlation from being validated. As such, we do not consider the confidence interval to be a necessary ingredient for validating DAG structure, but report it here for comparison and discussion.</p>
+            </sec>
+            <sec sec-type="results" id="sec3-biomedicines-10-02187">
+              <title>3. Results</title>
+              <sec id="sec3dot1-biomedicines-10-02187">
+                <title>3.1. Causal Diagram</title>
+                <p>A modified portion of the bone risk DAG (i.e., a “subgraph”) is shown as <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref>. In this causal diagram, skeletal unloading is the “exposure” as denoted by the green node color and the label “E”. As such, it is the ultimate cause of all downstream nodes through its direct causal influence on bone formation and bone resorption. These two processes are both causes of bone mass and trabecular architecture, which in turn are both causes of the outcome, bone strength, here marked with an “O”. The arrows between all variables are colored green, which denotes that all paths on this diagram are on causal paths between skeletal unloading and bone strength.</p>
+              </sec>
+              <sec id="sec3dot2-biomedicines-10-02187">
+                <title>3.2. Variable Relationships</title>
+                <p>Analysis of the DAG in <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref> revealed the marginal correlations and conditional independencies implied by the diagram. Because of the general linear flow of the causation in the DAG, all variables on the DAG should have non-zero marginal correlation. <xref rid="biomedicines-10-02187-t002" ref-type="table">Table 2</xref> lists the pairs of variables which should be marginally correlated, and the expected direction (positive or negative) between them. In general, skeletal unloading should result in less bone formation (negative correlation) and more bone resorption (positive correlation). These in turn should lead to lower bone mass and a sparser trabecular microarchitecture. Lower mass and a sparser trabecular microarchitecture should result in lower bone strength.</p>
+                <p><xref rid="biomedicines-10-02187-t003" ref-type="table">Table 3</xref> displays the conditional independencies implied by <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref>. Careful study of the statements in <xref rid="biomedicines-10-02187-t003" ref-type="table">Table 3</xref> reveals that variables are conditionally independent whenever all paths between them are “blocked”. For example, bone strength is independent of exposure when we control for bone formation and bone resorption, or when we control for bone mass and trabecular microarchitecture. Similarly, exposure is independent of both bone mass and trabecular microarchitecture when we control for bone formation and bone resorption. </p>
+                <p>Two variables on a DAG are also independent whenever we have accounted for their common causes. This is demonstrated when bone formation is independent of bone resorption after controlling for skeletal unloading, and with bone mass being independent of trabecular microarchitecture after controlling for bone formation and bone resorption.</p>
+              </sec>
+              <sec id="sec3dot3-biomedicines-10-02187">
+                <title>3.3. Tests of Marginal Correlation</title>
+                <p>The results of the tests of marginal correlation are displayed in <xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref>. Point values are correlation coefficients between the pairs of variables (marked with arrowheads), and the segments are their 95% confidence intervals. Blue arrowhead markers represent correlations whose absolute values are greater than or equal to 0.15—the required minimum value to be considered a non-zero correlation—and are in the expected direction of association (i.e., positive or negative). Blue confidence bands are those that do not intersect 0 (the dotted, vertical line in <xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref>). Those with red arrowhead markers have absolute values less than or equal to 0.15 and/or are not in the expected direction; those with red confidence bands are those that cross 0.</p>
+                <p>The bone DAG implied 15 marginal correlations among its six variables. Although the datasets used here enabled us to conduct 38 tests in all, not all studies offered tests of all relationships. Of note is the study by Ko et al., which offered the only measurement of bone strength, and thus the only set of tests of this variable against the others. </p>
+                <p>Examination of <xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref> reveals that all correlations from the Dubeé data were in the expected direction, and had sufficient magnitude of effect size to be considered non-zero correlations. The correlation between exposure and trabecular microarchitecture was the only correlation lacking statistical precision, with its confidence interval inclusive of zero.</p>
+                <p>The 2015 Keune data enabled us to test three relationships with nine marginal correlations. Once again, all of these correlations were in the correct direction and of sufficient effect size to be considered non-zero correlations. Here too, a single correlation lacked statistical precision.</p>
+                <p>The Keune 2016 data afforded six correlations. All six of the point estimates were in the expected direction and of sufficient magnitude to be considered non-zero. Three of these had confidence intervals that crossed zero. </p>
+                <p>The Ko data provided the opportunity to compute 15 correlations. Among these, four fell within the grey zone in <xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref>, making them effectively zero. Two correlations had point values outside the grey zone but were in the wrong direction. The remaining nine correlations were directionally correct and large enough to be considered non-zero. Three of them had confidence intervals inclusive of 0.</p>
+              </sec>
+              <sec id="sec3dot4-biomedicines-10-02187">
+                <title>3.4. Tests of Conditional Independencies</title>
+                <p>The bone DAG of <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref> offered eight conditional independencies, but only the Keune 2016 and the Ko datasets contained variables that would allow for testing them. The Ko data were able to test all eight conditional independencies, while the Keune 2016 data were able to test two of them. <xref rid="biomedicines-10-02187-f003" ref-type="fig">Figure 3</xref> displays the results of these tests.</p>
+                <p>The Keune 2016 data offered tests of the independence of bone formation from bone resorption given exposure, and the independence of bone mass from exposure given bone formation and bone resorption. Both correlations were within the −0.15 to 0.15 limits effectively validating these two conditional independencies in those data.</p>
+                <p>In the Ko data, only two out of eight conditional independencies were validated. Among the six non-zero correlations, all of them involved either bone resorption, bone formation, or both. Four of the failed tests were conditional on both bone formation and bone resorption, which was the entire set of relationships that were conditional on this pair. One of the other two non-zero results also involved bone formation but not resorption, and the other involved bone resorption but not formation. The relationships that were confirmed included the conditional independence of the exposure and bone strength when controlling for bone mass and trabecular microarchitecture, and the independence of bone formation and resorption when controlling for exposure.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4-biomedicines-10-02187">
+              <title>4. Discussion</title>
+              <sec id="sec4dot1-biomedicines-10-02187">
+                <title>4.1. Interpretation of Findings</title>
+                <p>In this example DAG validation, we used data from four studies of the effects of skeletal unloading from rodents to test the causal explanation of how unloading may lead to diminished bone strength. Our results were mixed in that the marginal correlations provided some evidence for the involvement of all the included variables in the story of skeletal unloading and bone strength, but six of the eight conditional independencies were not validated by the data. At first blush, this might lead us to reject at least some of the structure of the DAG presented as <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref>. This, however, would be premature; the lack of concordance between the expected relationships defined by the DAG and the correlations that test them could be due to one or more of several explanations: <list list-type="alpha-lower"><list-item><p><italic toggle="yes">The causal diagram could be drawn incorrectly for the outcome</italic>. The first and most obvious reason a DAG is not validated by empirical data is that the DAG is fundamentally incorrect. This could be due to incorrect causal relationships drawn between variables, the lack of needed connections between variables, the erroneous inclusion of irrelevant variables, or the omission of needed explanatory variables or confounders (See <xref rid="sec4dot2-biomedicines-10-02187" ref-type="sec">Section 4.2</xref> below for further discussion).</p></list-item><list-item><p><italic toggle="yes">Analogs could have a different mechanism</italic>. In this scenario the causal diagram is correct for the real-world system it explains, but incorrect for a particular analog dataset that is attempting to approximate it. In other words, the analog is an imperfect simulation of the causal mechanism under study. This is of the utmost concern when using animal models to approximate human exposures (e.g., sending rodents to space), when there may be interspecies differences in physiology, or when humans experience analog exposures (e.g., bed rest studies). In these situations, the correct DAG for the analog could have different nodes and/or slightly different causal mechanisms. For example, in this DAG the terms, bone mass, trabecular microarchitecture, and bone strength were originally modeled as bone density, bone structure, and skeletal fragility in the HSRB official DAG. Where “strength” may be a corollary of fragility, the effects of brittleness as opposed to a load-based conception of strength may impact these results.</p></list-item><list-item><p><italic toggle="yes">Variables used in the testing may not be appropriate measures of the random variables on the causal diagram</italic>. In this scenario, the DAG is drawn correctly, any analog in use is a good representation of the real causal system, but one or more measures in the data are inappropriate to represent random variables on the DAG. This can be because the measure is capturing the wrong phenomenon, or because it is measuring the correct phenomenon at the wrong time or in the wrong way.</p></list-item></list></p>
+                <p>Among the set of marginal correlations (<xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref>), there were two that were directionally inconsistent, two that lacked sufficient magnitude to be considered non-zero, and two that were lacking in both criteria: directionally inconsistent and of insufficient magnitude. Blending expert knowledge with the details of our results, rather than conclude that the DAG is incorrect, we believe that the measure of bone resorption in the Ko et al. dataset is an inadequate measure (Scenario C from above). We come to this conclusion for several reasons.</p>
+                <p>First, the correlational failures are highly specific to one dataset and one variable: five out of six failed marginal correlations and five out of six failed conditional independencies were in the Ko dataset and involved bone resorption. Next, three out of the six failed marginal correlations and one of the three failed conditional independencies involving bone resorption in the Ko data were validated by independent tests in the Keune 2016 data. The validation of these relationships in a different setting makes the conceptual relationship more believable and the Ko bone resorption measure more suspect. Finally, the Keune 2016 resorption measure (fluorochrome label length) specifically measures the cumulative extent of bone resorption from the beginning of the study to the end, whereas the measure present in the Ko data is a measure of bone resorption activity, providing a look at this activity at the time of assay only. Essentially, if the rodents in the Ko data had already reached a new homeostasis of bone mass and trabecular microarchitecture by day 28 after exposure, the cross-sectional resorption activity would be comparatively low, and a cumulative resorption measure would be comparatively high. Using the former in place of the latter would mean that the bone resorption measure is not capturing bone resorption in the way the DAG is describing it, and would create the exact opposite of the expected correlations.</p>
+              </sec>
+              <sec id="sec4dot2-biomedicines-10-02187">
+                <title>4.2. Revising Incorrectly Drawn Causal Diagrams</title>
+                <p>In part (a) of <xref rid="sec4dot1-biomedicines-10-02187" ref-type="sec">Section 4.1</xref> above, we identified the possibility of having an incorrect visual hypothesis of the variable relationships as a cause of validation failure. It is important to note that failure modes (b) and (c) in <xref rid="sec4dot1-biomedicines-10-02187" ref-type="sec">Section 4.1</xref> are applicable to the data and its validity in representing variables on the causal diagram (rather than the structure of the diagram itself). These possibilities should be thoroughly investigated and eliminated before entertaining the idea that the diagram may be drawn incorrectly. If the researcher is confident that the causal diagram is incorrect, an attempt may be made to modify it based on the correlation structure of the data used in the validation study. However, this runs the risk of producing a causal diagram completely biased to those data, and repeated validity testing with the same data will only indicate how fully this has been achieved. For these reasons, we advocate that, in the context of HSRB causal diagrams, any modifications should only be proposed when researchers are confident that the data upon which they are basing the modifications are generalizable, such as when they are the result of a systematic literature review, or a large, well-controlled randomized study. Short of this, a more epistemologically sound approach may be to develop the diagram that is most consistent with the currently available data as a proposed update, then perform new studies or otherwise obtain new data to test its validity.</p>
+              </sec>
+              <sec id="sec4dot3-biomedicines-10-02187">
+                <title>4.3. Statistical Precision as a Criterion</title>
+                <p>As mentioned previously, we have not considered statistical precision to be a validation criterion in this exercise, but included it here for consideration. Had we included it as a criterion, an additional eight marginal correlations in <xref rid="biomedicines-10-02187-f002" ref-type="fig">Figure 2</xref> would have failed to be validated on this standard alone, even though the (absolute) magnitudes of all of these correlations were in excess of 0.25. The wide confidence intervals for the estimates derived from the Ko data in <xref rid="biomedicines-10-02187-f003" ref-type="fig">Figure 3</xref> would have led to three correlation confidence intervals that were suggestive of non-zero correlation, while the absolute values of the point estimates were all well beyond the 0.15 threshold. These issues illustrate the effect of low statistical power on these intervals, and underscore why we feel that in the context of spaceflight research, statistical precision is a poor criterion.</p>
+              </sec>
+              <sec id="sec4dot4-biomedicines-10-02187">
+                <title>4.4. Limitations of the Method</title>
+                <p>As with any empirical scientific exercise, the methodology exemplified here has limitations. First among them is that using secondary datasets for DAG validation can be challenging, as few studies will have all the variables needed to validate an entire DAG, and, as in meta-analysis, the variables may take various forms that do not map perfectly to DAG variables. This may require that validations be performed piecemeal, as we have shown here, utilizing datasets to validate only portions of the DAG. This leaves scientists to collect these partial validations and form a judgment from potentially incomplete information. From this perspective, DAG validation—far from being an epistemological silver bullet—merely formalizes our certainties and remaining uncertainties. However, this too has value inasmuch as it defines our understanding and our needs for targeted follow-on mechanistic research. In this case, the identification of knowledge gaps is critical to help scientific program managers consider targeted funding. Additionally, this has significant value in encouraging translational communication between different groups of experts who otherwise may not interact. </p>
+                <p>Even if the DAG presented here were to be fully validated by the included rodent data (i.e., all marginal correlations and conditional independencies were met), we would still not definitively declare the DAG to be correct; this is the well-known philosophical “Problem of Induction” revisited [<xref rid="B33-biomedicines-10-02187" ref-type="bibr">33</xref>]. It reminds us that just because there is good correspondence between a causal explanation and the observed data, that does not mean it is the correct explanation, as there are many alternative explanations that could correspond with the data equally well. In the context of causal diagramming, this means there could be many more DAGs whose testable implications could be met by the data. Thus, causal DAGs will ideally be validated with a variety of data over time, building the cumulative evidence for its veracity and inspiring edits and improvements as the data warrant.</p>
+              </sec>
+              <sec id="sec4dot5-biomedicines-10-02187">
+                <title>4.5. DAG Validation and NASA’s Level of Evidence Assessments</title>
+                <p>DAG validation, such as what we have demonstrated here, is related to the Level of Evidence (LoE) assessment performed by Risk Custodial Teams as part of NASA’s Human System Risk Management Process [<xref rid="B5-biomedicines-10-02187" ref-type="bibr">5</xref>,<xref rid="B7-biomedicines-10-02187" ref-type="bibr">7</xref>]. The LoE process refers to assessing the strength of evidence for each individual arrow on a DAG. It assigns an ordinal rating based on a subset of causal guidelines first defined by epidemiologist Sir A. Bradford Hill in 1965 [<xref rid="B34-biomedicines-10-02187" ref-type="bibr">34</xref>]. Assignment of LoE for an individual causal relationship requires careful review and synthesis of the published literature as well as any unpublished data that NASA has which may be germane. Though this may seem like a highly similar activity to DAG validation, there are important differences. First, LoE assessment is the process of documenting a specific set of heuristic evidentiary criteria for a given causal connection. It attempts to answer the question, “How strong is the evidence that <italic toggle="yes">this single arrow</italic> is correct?” In contrast, the DAG validation process asks, “Does the available evidence support that this <italic toggle="yes">causal system</italic> is correct?” There can be discordance between these two approaches if important causal relationships have been missed in the DAG; all defined arrows may be true, but the DAG may be incorrect for lack of needed causal relationships and/or important variables. Thus, DAG validation should occur after the LoE assessment is at least preliminarily complete, and both assessments should be repeated as often as new evidence warrants. </p>
+                <p>However, even if all testable implications were validated, further evidence would still be needed, since all studies used here were of rodents, and none were of humans. Full evaluation of LoE involves an assessment of Quality of Evidence (QoE). While LoE applies to the full set of evidence that informs the justification for a specific edge in a DAG, QoE applies to the specific publications, studies, or datasets used; in this case, it would be the four datasets mentioned above [<xref rid="B20-biomedicines-10-02187" ref-type="bibr">20</xref>,<xref rid="B21-biomedicines-10-02187" ref-type="bibr">21</xref>,<xref rid="B22-biomedicines-10-02187" ref-type="bibr">22</xref>,<xref rid="B23-biomedicines-10-02187" ref-type="bibr">23</xref>]. The 12 guidelines for assessing QoE in the context of animal or cellular studies are provided in Table F-3 in the NASA Human System Risk Management Plan [<xref rid="B5-biomedicines-10-02187" ref-type="bibr">5</xref>]. In short, animal studies are initially considered as “weak” evidence for human system risks based in large part on known translational challenges. Animal studies are eligible for a higher LoE if they demonstrate attention to experimental design and external validation of animal translational research methods, using animal models or cellular or molecular endpoints to generalize from animal to human. Given the pilot nature of this study and the selection of four convenience datasets, a formal evaluation of QoE and LoE has not been performed here. This is because effort was primarily focused on exploring the methods of validation prior to investing resources in a full analysis. However, increasing demonstration of high-quality evidence in the studies/datasets used in future research can help inform assessments of a lack of concordance in these validation approaches. Namely, that studies and datasets that meet high quality guidelines may be more likely to suggest an issue with the DAG itself than with the data being used to validate the DAG. </p>
+                <p>While this approach applies specifically to the edge or edges in question within the DAG, the question remains as to whether an LoE rating can apply to a whole DAG or subset of a DAG. This would bring the potential for rapid visualization of knowledge gaps that can be tailored to levels of confidence. In the larger systems domain of risk analysis for spaceflight missions, streamlined communication of locations of high and low confidence in our causal understanding of risk can yield large dividends. Engineers and program managers require a high-level justification for science investments and system trades in human spaceflight. Walking through the nuances of cellular, molecular, or animal research can be counterproductive in trade-space analyses which are already detail-oriented towards systems engineering challenges. The DAG validation processes explored here may eventually provide a pathway that enables better communication of critical information for human system risk contributions to total mission risk.</p>
+              </sec>
+              <sec id="sec4dot6-biomedicines-10-02187">
+                <title>4.6. Future Directions</title>
+                <p>For cis-Lunar, Mars transit, and Mars surface missions (deep space), the approach the space biomedical field took towards low Earth orbit (LEO) will likely evolve for research and risk analysis/quantification. Indeed, a recent analysis of the proportion of medical/health risk per overall deep space risk mission posture estimated that an initial Mars mission will carry a level of medical health risk that is equal to or greater than the entire mission risk that astronauts faced on the Space Shuttle [<xref rid="B11-biomedicines-10-02187" ref-type="bibr">11</xref>]. Beyond the inclusion of human data (both spaceflight and terrestrial analog) housed in the NASA Life Sciences Data Archive (LSDA), and the curation of more non-human data for DAG validation from sources such as the NASA ALSDA, future spaceflight experiments/grants (whether from NASA or partner agencies) should specifically include experiments that address gaps in knowledge identified by the DAGs, consistent with applied research needs. </p>
+                <p>In future studies, the wealth of human spaceflight multiomics data being collected by the NASA Human Research Program (for NASA astronauts), and NASA GeneLab (for animals, humans, and model organisms) must be incorporated into the DAGs to provide molecular-level evidence and relationships. Incorporation of multiomics (e.g., transcriptomics, proteomics, metabolomics) may enable the description of greater detail within and between HSRB nodes. In addition, once scientists generate robust measurement models from existing multiomics data, this will enable the development of new assays and biomarkers that characterize key aspects of risk. Further, machine learning is poised to help analyze multiomics, imaging, and other tabular evidence to add towards this causal DAG risk assessment. Previous work has demonstrated the utility of machine learning for biological causal inference, with the development of CRISP (Causal Relation and Inference Search Platform) for biomedical omics data [<xref rid="B35-biomedicines-10-02187" ref-type="bibr">35</xref>]. Additionally, recent machine learning innovations have led to algorithms which are designed to learn the structure of a DAG from a given set of data, broadening the capabilities for incorporating existing space biological data with the DAG structure [<xref rid="B36-biomedicines-10-02187" ref-type="bibr">36</xref>]. </p>
+                <p>In some instances, it may be necessary to omit some detailed variables from multiomics datasets or add some explanatory details to DAGs to understand how the multiomics data and DAG fit together, as the data may speak to causal phenomena that fit “between’’ the existing nodes on the HSRB DAG. Thus, a maximally “open science” community approach is necessary to unite original investigators with external collaborators to facilitate such understanding and ultimately build a robust community consensus on all DAGs. </p>
+                <p>The voice and expertise of the communities who produce and reuse these data (and metadata) are critical to standardizing and incorporating space biological and scientific data towards risk probability estimation. Across the 29 DAGs [<xref rid="B7-biomedicines-10-02187" ref-type="bibr">7</xref>] in the effort to validate and enrich them with empirical data, voices must be heard from a wide span of biological and human health researchers. At the core of such a collaborative science campaign is the need to make the necessary biomedical data findable, accessible, interoperable, and reusable for populating DAGs.</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec5-biomedicines-10-02187">
+              <title>5. Conclusions</title>
+              <p>In this example, we have demonstrated a working procedure for the validation of a DAG with data submitted to a NASA data repository (with data not used to originally formulate the DAG). When considering the totality of the evidence these datasets provide, the results largely validate the DAG, and thus affirm the story: skeletal unloading, whether from entering microgravity in space or from partial weightbearing in a terrestrial analog study, stimulates bone resorption and reduces bone formation at some skeletal sites. This in turn leads to lower bone mass and a sparser trabecular microarchitecture, factors which ultimately result in reduced bone strength.</p>
+              <p>Though this example validated only a small portion of a single larger HSRB risk DAG, the method illustrated here is a general framework for using empirical data to validate causal explanations encoded as a DAG, and as such, may be applied to any DAG for which data can be brought to bear (be that data from NASA data repositories or from other sources).</p>
+              <p>While the computation of marginal correlations and partial correlations are basic statistical procedures, the interpretation of the results of these tests requires active reasoning and is anything but procedural. Determining why certain implications fail to be validated requires the investigator to wade through the specifics of the results and carefully reason against the possible explanations. It may require multiple iterations of DAG revision and testing, and possibly additional research. This is how NASA’s risk management process is intended to function: existing DAGs prompt evaluation of evidence, which in turn inspires improvements in the causal explanation, which prompts further research and an update to the DAG, and so on, in a virtuous cycle.</p>
+              <p>Like any other hypothesis, a DAG is never fully proven true, but instead may mount enough evidence in its favor that it becomes no longer worth doubting; we leave it to subject matter experts and other stakeholders to decide when that point has been reached, on a risk-by-risk basis. NASA’s strategy to make long-term human space exploration as safe as possible is to reduce risk through the strategic application of mission and procedure planning, and engineering or medical countermeasures. Whether in complex systems or simple ones, no problem can be effectively solved that is not first effectively understood (and measured). The use of DAGs for modeling complex risk systems and the method we illustrate here for validating them are additional steps in building that understanding.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors would like to thank Mary Van Baalen, Daniel Buckland, and Erin Connell from the NASA Human Systems Risk Board for logistical support in this developmental work. Thanks also to Sylvain Costes and Danielle Lopez from the NASA Ames Life Sciences Data Archive for data accessibility and management; the reception and input from the ALSDA Analysis Working Group; and the Space Biology Program (Science Mission Directorate, Biological and Physical Sciences Division) of the National Aeronautics and Space Administration. Special thanks to Joshua Alwood for additional data curation and comments on the manuscript.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <app-group>
+              <app id="app1-biomedicines-10-02187">
+                <title>Supplementary Materials</title>
+                <p>The following supporting information can be downloaded at: <uri xlink:href="https://www.mdpi.com/article/10.3390/biomedicines10092187/s1">https://www.mdpi.com/article/10.3390/biomedicines10092187/s1</uri>, Table S1: Composition of component variables.</p>
+                <supplementary-material id="biomedicines-10-02187-s001" position="float" content-type="local-data">
+                  <media xlink:href="biomedicines-10-02187-s001.zip">
+                    <caption>
+                      <p>Click here for additional data file.</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, R.J.R. and R.T.S.; methodology, R.J.R.; data curation, R.T.S., R.T.T., U.T.I. and M.L.B.; writing—original draft preparation, R.J.R.; writing—review and editing, R.T.S., L.M.S., R.T.T., U.T.I., M.L.B. and E.L.A. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>Ethical review and approval were waived for this study due to the secondary use of datasets on animals, all of which individually received ethical review and approval when originally collected.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>Data used in this work are available through the NASA Ames Life Sciences Data Archive at LSDS-451 (Keune et al., 2015), LSDS-452 (Keune et al., 2016), LSDS-453 (Ko et al., 2020), and LSDS-454 (Alwood, 2016).</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-biomedicines-10-02187">
+                <label>1.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>C.H.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>Institute of Medicine (US) Committee on Creating a Vision for Space Medicine During Travel Beyond Earth Orbit</article-title>
+                  <source>Safe Passage: Astronaut Care for Exploration Missions</source>
+                  <publisher-name>National Academies Press</publisher-name>
+                  <publisher-loc>Washington, DC, USA</publisher-loc>
+                  <year>2001</year>
+                  <?supplied-pmid 25057582?>
+                </element-citation>
+              </ref>
+              <ref id="B2-biomedicines-10-02187">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Romero</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Francisco</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The NASA human system risk mitigation process for space exploration</article-title>
+                  <source>Acta Astronaut.</source>
+                  <year>2020</year>
+                  <volume>175</volume>
+                  <fpage>606</fpage>
+                  <lpage>615</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2020.04.046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-biomedicines-10-02187">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Afshinnekoo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>MacKay</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pariset</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cekanaviciute</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barker</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilroy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassane</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration</article-title>
+                  <source>Cell</source>
+                  <year>2021</year>
+                  <volume>184</volume>
+                  <fpage>6002</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2021.11.008</pub-id>
+                  <?supplied-pmid 34822785?>
+                  <pub-id pub-id-type="pmid">34822785</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-biomedicines-10-02187">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Goswami</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Batzel</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clément</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>T.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hargens</surname>
+                      <given-names>A.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharp</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blaber</surname>
+                      <given-names>A.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roma</surname>
+                      <given-names>P.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinghofer-Szalkay</surname>
+                      <given-names>H.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Maximizing information from space data resources: A case for expanding integration across research disciplines</article-title>
+                  <source>Eur. J. Appl. Physiol.</source>
+                  <year>2013</year>
+                  <volume>113</volume>
+                  <fpage>1645</fpage>
+                  <lpage>1654</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00421-012-2507-5</pub-id>
+                  <?supplied-pmid 23073848?>
+                  <pub-id pub-id-type="pmid">23073848</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-biomedicines-10-02187">
+                <label>5.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Antonsen</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human System Risk Management Plan</article-title>
+                  <day>1</day>
+                  <month>October</month>
+                  <year>2020</year>
+                  <comment>(No. JSC 66705)</comment>
+                  <comment>Available online: <ext-link xlink:href="https://ntrs.nasa.gov/citations/20205008887" ext-link-type="uri">https://ntrs.nasa.gov/citations/20205008887</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B6-biomedicines-10-02187">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Austin</surname>
+                      <given-names>C.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Opportunities and challenges in translational science</article-title>
+                  <source>Clin. Transl. Sci.</source>
+                  <year>2021</year>
+                  <volume>14</volume>
+                  <fpage>1629</fpage>
+                  <lpage>1647</lpage>
+                  <pub-id pub-id-type="doi">10.1111/cts.13055</pub-id>
+                  <?supplied-pmid 33982407?>
+                  <pub-id pub-id-type="pmid">33982407</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-biomedicines-10-02187">
+                <label>7.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Antonsen</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Charvat</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Petersen</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Connell</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shelhamer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Baalen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abukmail</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marotta</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Directed Acyclic Graph Guidance Documentation. 15 June 2022 (NASA/TM–20220006812)</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://ntrs.nasa.gov/citations/20220006812" ext-link-type="uri">https://ntrs.nasa.gov/citations/20220006812</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B8-biomedicines-10-02187">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ankan</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wortel</surname>
+                      <given-names>I.M.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Textor</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Testing Graphical Causal Models Using the R Package “dagitty”</article-title>
+                  <source>Curr. Protoc.</source>
+                  <year>2021</year>
+                  <volume>1</volume>
+                  <fpage>e45</fpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/33592130" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/33592130</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1002/cpz1.45</pub-id>
+                  <?supplied-pmid 33592130?>
+                  <pub-id pub-id-type="pmid">33592130</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-biomedicines-10-02187">
+                <label>9.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koller</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Friedman</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Probabilistic graphical models: Principles and techniques</article-title>
+                  <source>Adaptive Computation and Machine Learning</source>
+                  <publisher-name>MIT Press</publisher-name>
+                  <publisher-loc>Cambridge, MA, USA</publisher-loc>
+                  <year>2009</year>
+                </element-citation>
+              </ref>
+              <ref id="B10-biomedicines-10-02187">
+                <label>10.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>F.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>M.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chappell</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space Radiation Cancer Risk Projections and Uncertainties NASA/TP-2013-217375, NASA, 2012</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://spaceradiation.jsc.nasa.gov/irModels/TP-2013-217375.pdf" ext-link-type="uri">https://spaceradiation.jsc.nasa.gov/irModels/TP-2013-217375.pdf</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B11-biomedicines-10-02187">
+                <label>11.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Antonsen</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Baalen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kadwa</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boley</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arellano</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerstman</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chappell</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Semones</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Elgart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of Health and Performance Risk for Accelerated Mars Mission Scenarios NASA/TM-20210009779, NASA, 2021</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://ntrs.nasa.gov/citations/20210009779" ext-link-type="uri">https://ntrs.nasa.gov/citations/20210009779</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B12-biomedicines-10-02187">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Antonsen</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Myers</surname>
+                      <given-names>J.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boley</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Arellano</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerstman</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kadwa</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buckland</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Baalen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Estimating Medical Risk in Human Spaceflight</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2022</year>
+                  <volume>8</volume>
+                  <fpage>8</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-022-00193-9</pub-id>
+                  <?supplied-pmid 35361776?>
+                  <pub-id pub-id-type="pmid">35361776</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-biomedicines-10-02187">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grigorev</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackintosh</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gebre</surname>
+                      <given-names>S.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mason</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>del Alto</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advancing the Integration of Biosciences Data Sharing to Further Enable Space Exploration</article-title>
+                  <source>Cell Rep.</source>
+                  <year>2020</year>
+                  <volume>33</volume>
+                  <fpage>108441</fpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/33242404" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/33242404</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1016/j.celrep.2020.108441</pub-id>
+                  <pub-id pub-id-type="pmid">33242404</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-biomedicines-10-02187">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berrios</surname>
+                      <given-names>D.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grigorev</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gebre</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NASA GeneLab: Interfaces for the Exploration of Space Omics Data</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2021</year>
+                  <volume>49</volume>
+                  <fpage>D1515</fpage>
+                  <lpage>D1522</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/33080015" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/33080015</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkaa887</pub-id>
+                  <pub-id pub-id-type="pmid">33080015</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-biomedicines-10-02187">
+                <label>15.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>National Academies of Sciences Engineering and Medicine (U.S.)</collab>
+                    <collab>Committee on Toward an Open Science Enterprise, and National Academies of Sciences Engineering and Medicine (U.S.)</collab>
+                  </person-group>
+                  <article-title>Board on Research Data and Information. Open Science by Design: Realizing a Vision for 21st Century Research</article-title>
+                  <source>Consensus study report of the National Academies of Sciences, Engineering, Medicine</source>
+                  <publisher-name>National Academies Press</publisher-name>
+                  <publisher-loc>Washington, DC, USA</publisher-loc>
+                  <year>2018</year>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/books/NBK525417/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/books/NBK525417/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B16-biomedicines-10-02187">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilkinson</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dumontier</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aalbersberg</surname>
+                      <given-names>I.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Appleton</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Axton</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baak</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blomberg</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boiten</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silva Santos</surname>
+                      <given-names>L.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bourne</surname>
+                      <given-names>P.E.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The FAIR Guiding Principles for Scientific Data Management and Stewardship</article-title>
+                  <source>Sci. Data</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>160018</fpage>
+                  <pub-id pub-id-type="doi">10.1038/sdata.2016.18</pub-id>
+                  <pub-id pub-id-type="pmid">26978244</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-biomedicines-10-02187">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wickham</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tidy Data</article-title>
+                  <source>J. Stat. Softw.</source>
+                  <year>2014</year>
+                  <volume>59</volume>
+                  <fpage>1</fpage>
+                  <lpage>23</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.jstatsoft.org/v59/i10/paper" ext-link-type="uri">https://www.jstatsoft.org/v59/i10/paper</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.18637/jss.v059.i10</pub-id>
+                  <pub-id pub-id-type="pmid">26917999</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-biomedicines-10-02187">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Haibe-Kains</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adam</surname>
+                      <given-names>G.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hosny</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khodakarami</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waldron</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>McIntosh</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goldenberg</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kundaje</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Greene</surname>
+                      <given-names>C.S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transparency and Reproducibility in Artificial Intelligence</article-title>
+                  <source>Nature</source>
+                  <year>2020</year>
+                  <volume>586</volume>
+                  <fpage>E14</fpage>
+                  <lpage>E16</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/33057217" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/33057217</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2766-y</pub-id>
+                  <pub-id pub-id-type="pmid">33057217</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-biomedicines-10-02187">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lavin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilligan-Lee</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Visnjic</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganju</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Newman</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganguly</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lange</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baydin</surname>
+                      <given-names>A.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gibson</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Technology Readiness Levels for Machine Learning Systems</article-title>
+                  <source>arXiv</source>
+                  <year>2021</year>
+                  <pub-id pub-id-type="arxiv">2101.03989</pub-id>
+                  <pub-id pub-id-type="doi">10.48550/arXiv.2101.03989</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-biomedicines-10-02187">
+                <label>20.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dubée</surname>
+                      <given-names>P.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>N.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pendleton</surname>
+                      <given-names>M.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alwood</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantifying Cancellous Bone Structural Changes in Microgravity: Axial Skeleton Results from the Rodent Research-1 Mission</article-title>
+                  <source>Proceedings of the American Society for Gravitational and Space Research</source>
+                  <conf-loc>Cleveland, OH, USA</conf-loc>
+                  <conf-date>26–29 October 2016</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B21-biomedicines-10-02187">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keune</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Philbrick</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Branscum</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Iwaniec</surname>
+                      <given-names>U.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight-Induced Vertebral Bone Loss in Ovariectomized Rats is Associated with Increased Bone Marrow Adiposity and no Change in Bone Formation</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2016</year>
+                  <volume>2</volume>
+                  <fpage>16016</fpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/28725730" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/28725730</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1038/npjmgrav.2016.16</pub-id>
+                  <pub-id pub-id-type="pmid">28725730</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-biomedicines-10-02187">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keune</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Branscum</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Iwaniec</surname>
+                      <given-names>U.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of Spaceflight on Bone Microarchitecture in the Axial and Appendicular Skeleton in Growing Ovariectomized Rats</article-title>
+                  <source>Sci Rep.</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <fpage>18671</fpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/26691062" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/26691062</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1038/srep18671</pub-id>
+                  <pub-id pub-id-type="pmid">26691062</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-biomedicines-10-02187">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ko</surname>
+                      <given-names>F.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mortreux</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riveros</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagy</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rutkove</surname>
+                      <given-names>S.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouxsein</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dose-Dependent Skeletal Deficits Due to Varied Reductions in Mechanical Loading in Rats</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>15</fpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/32435691" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/32435691</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-0105-0</pub-id>
+                  <pub-id pub-id-type="pmid">32435691</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-biomedicines-10-02187">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bouxsein</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boyd</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Christiansen</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guldberg</surname>
+                      <given-names>R.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jepsen</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Müller</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Guidelines for Assessment of Bone Microstructure in Rodents Using Micro-Computed Tomography</article-title>
+                  <source>J. Bone Miner. Res.</source>
+                  <year>2010</year>
+                  <volume>25</volume>
+                  <fpage>1468</fpage>
+                  <lpage>1486</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/20533309" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/20533309</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1002/jbmr.141</pub-id>
+                  <pub-id pub-id-type="pmid">20533309</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-biomedicines-10-02187">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dempster</surname>
+                      <given-names>D.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Compston</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drezner</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glorieux</surname>
+                      <given-names>F.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanis</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Malluche</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meunier</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Recker</surname>
+                      <given-names>R.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parfitt</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Standardized Nomenclature, Symbols, and Units for Bone Histomorphometry: A 2012 Update of the Report of the ASBMR Histomorphometry Nomenclature Committee</article-title>
+                  <source>J. Bone Miner. Res.</source>
+                  <year>2013</year>
+                  <volume>28</volume>
+                  <fpage>2</fpage>
+                  <lpage>17</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/23197339" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/23197339</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1002/jbmr.1805</pub-id>
+                  <pub-id pub-id-type="pmid">23197339</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-biomedicines-10-02187">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Iwaniec</surname>
+                      <given-names>U.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wronski</surname>
+                      <given-names>T.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Turner</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>2008. Histological Analysis of Bone</article-title>
+                  <source>Methods Mol. Biol.</source>
+                  <year>2018</year>
+                  <volume>447</volume>
+                  <fpage>325</fpage>
+                  <lpage>341</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/18369927" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/18369927</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1007/978-1-59745-242-7_21</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-biomedicines-10-02187">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jepsen</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vashishth</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>X.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Meulen</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Establishing Biomechanical Mechanisms in Mouse Models: Practical Guidelines for Systematically Evaluating Phenotypic Changes in the Diaphyses of Long Bones</article-title>
+                  <source>J. Bone Miner. Res.</source>
+                  <year>2015</year>
+                  <volume>30</volume>
+                  <fpage>951</fpage>
+                  <lpage>966</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/25917136" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/25917136</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1002/jbmr.2539</pub-id>
+                  <pub-id pub-id-type="pmid">25917136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-biomedicines-10-02187">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Textor</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Zander</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilthorpe</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liskiewicz</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ellison</surname>
+                      <given-names>G.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Robust Causal Inference Using Directed Acyclic Graphs: The R Package ‘Dagitty’</article-title>
+                  <source>Int. J. Epidemiol.</source>
+                  <year>2016</year>
+                  <volume>45</volume>
+                  <fpage>1887</fpage>
+                  <lpage>1894</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/28089956" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/28089956</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1093/ije/dyw341</pub-id>
+                  <pub-id pub-id-type="pmid">28089956</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-biomedicines-10-02187">
+                <label>29.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>R Core Team</collab>
+                  </person-group>
+                  <source>R: A Language and Environment for Statistical Computing</source>
+                  <publisher-name>R Foundation for Statistical Computing</publisher-name>
+                  <publisher-loc>Vienna, Austria</publisher-loc>
+                  <year>2019</year>
+                  <comment>Available online: <ext-link xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R-project.org/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B30-biomedicines-10-02187">
+                <label>30.</label>
+                <element-citation publication-type="webpage">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mayer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Confintr: Confidence Intervals</article-title>
+                  <comment>R Package Version 0.1.2</comment>
+                  <year>2022</year>
+                  <comment>Available online: <ext-link xlink:href="https://CRAN.R-project.org/package=confintr" ext-link-type="uri">https://CRAN.R-project.org/package=confintr</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B31-biomedicines-10-02187">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ploutz-Snyder</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fiedler</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feiveson</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Justifying Small-n Research in Scientifically Amazing Settings: Challenging the Notion That Only “Big-n” Studies Are Worthwhile</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2014</year>
+                  <volume>116</volume>
+                  <fpage>1251</fpage>
+                  <lpage>1252</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/24408991" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/24408991</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.01335.2013</pub-id>
+                  <pub-id pub-id-type="pmid">24408991</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-biomedicines-10-02187">
+                <label>32.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shelhamer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Introductory Chapter: Research Methods for the Next 60 Years of Space Exploration</article-title>
+                  <source>Beyond LEO—Human Health Issues for Deep Space Exploration</source>
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                  </person-group>
+                  <publisher-name>IntechOpen</publisher-name>
+                  <publisher-loc>London, UK</publisher-loc>
+                  <year>2020</year>
+                  <fpage>3</fpage>
+                  <lpage>8</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.intechopen.com/chapters/72023" ext-link-type="uri">https://www.intechopen.com/chapters/72023</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B33-biomedicines-10-02187">
+                <label>33.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Popper</surname>
+                      <given-names>K.R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>The Logic of Scientific Discovery</source>
+                  <publisher-name>Basic Books</publisher-name>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <year>1959</year>
+                </element-citation>
+              </ref>
+              <ref id="B34-biomedicines-10-02187">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hill</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Environment and Disease: Association or Casation?</article-title>
+                  <source>Proc. R Soc. Med.</source>
+                  <year>1965</year>
+                  <volume>58</volume>
+                  <fpage>295</fpage>
+                  <lpage>300</lpage>
+                  <comment>Available online: <ext-link xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/14283879" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/pubmed/14283879</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                  <pub-id pub-id-type="doi">10.1177/003591576505800503</pub-id>
+                  <pub-id pub-id-type="pmid">14283879</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-biomedicines-10-02187">
+                <label>35.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Budd</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blass</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoarfrost</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khezeli</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Silva</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Soboczenski</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mackintosh</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chia</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kalantari</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Prototyping CRISP: A Causal Relation and Inference Search Platform applied to Colorectal Cancer Data</article-title>
+                  <source>Proceedings of the 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)</source>
+                  <conf-loc>Nara, Japan</conf-loc>
+                  <conf-date>9–11 March 2021</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B36-biomedicines-10-02187">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>DAG Structure Learning with Graph Neural Networks</article-title>
+                  <source>arXiv</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="arxiv">1904.10098</pub-id>
+                  <comment>Available online: <ext-link xlink:href="https://arxiv.org/abs/1904.10098" ext-link-type="uri">https://arxiv.org/abs/1904.10098</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-06-21">(accessed on 21 June 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="biomedicines-10-02187-f001">
+              <label>Figure 1</label>
+              <caption>
+                <p>Causal diagram (in DAG form) showing the causal pathways between skeletal unloading and bone strength.</p>
+              </caption>
+              <graphic xlink:href="biomedicines-10-02187-g001" position="float"/>
+            </fig>
+            <fig position="float" id="biomedicines-10-02187-f002">
+              <label>Figure 2</label>
+              <caption>
+                <p>Correlations and 95% confidence intervals for testing marginal associations. The grey band represents the no-effect zone, or the zone in which a point estimate is considered indistinguishable from zero. Arrows point in the direction of expected correlation, above or below zero; blue arrows are those of sufficient magnitude to be considered non-zero (outside of the grey band), while red arrows are of insufficient magnitude to be considered non-zero (inside the grey band). Blue interval bands exclude 0 while red interval bands include 0.</p>
+              </caption>
+              <graphic xlink:href="biomedicines-10-02187-g002" position="float"/>
+            </fig>
+            <fig position="float" id="biomedicines-10-02187-f003">
+              <label>Figure 3</label>
+              <caption>
+                <p>Partial correlations and 95% confidence bands for testing conditional independencies. The grey band represents the no-effect zone, or the zone in which a point estimate is considered indistinguishable from zero. Blue points are those that lie inside the grey band and thus are considered to have zero correlation. Red points are those that lie outside the grey band and thus are considered to have non-zero correlation. Blue interval bands include 0 and red bands exclude 0.</p>
+              </caption>
+              <graphic xlink:href="biomedicines-10-02187-g003" position="float"/>
+            </fig>
+            <table-wrap position="float" id="biomedicines-10-02187-t001">
+              <object-id pub-id-type="pii">biomedicines-10-02187-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Study design characteristics.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Study</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Animal Type</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Exposure</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Control</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Bone Assayed</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Duration (days)</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">N</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Dubeé [<xref rid="B20-biomedicines-10-02187" ref-type="bibr">20</xref>]</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">C57BL/6 mice</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Spaceflight </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Terrestrial</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">L4 vertebra</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">37</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">27</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Keune 2015 [<xref rid="B22-biomedicines-10-02187" ref-type="bibr">22</xref>]</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fisher 344 rats</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Spaceflight </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Terrestrial</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Femur</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">24</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Keune 2016 [<xref rid="B21-biomedicines-10-02187" ref-type="bibr">21</xref>]</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Fisher 344 rats</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Spaceflight </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Terrestrial</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">L2 vertebra</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">22</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ko [<xref rid="B23-biomedicines-10-02187" ref-type="bibr">23</xref>]</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Wistar rats</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Terrestrial: 80% or 60% unloaded </td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Terrestrial: 0% unloaded</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Both femurs</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">28</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">33</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="biomedicines-10-02187-t002">
+              <object-id pub-id-type="pii">biomedicines-10-02187-t002_Table 2</object-id>
+              <label>Table 2</label>
+              <caption>
+                <p>Marginal correlations and their expected directions of association.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Variable 1</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Variable 2</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Expected Direction</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Unloading</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone resorption</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone strength</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone resorption</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone strength</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Negative</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone strength</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone strength</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone strength</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Positive</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="biomedicines-10-02187-t003">
+              <object-id pub-id-type="pii">biomedicines-10-02187-t003_Table 3</object-id>
+              <label>Table 3</label>
+              <caption>
+                <p>Conditional independencies of the DAG in <xref rid="biomedicines-10-02187-f001" ref-type="fig">Figure 1</xref>.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Variable 1</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Variable 2</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Conditioning Set</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Unloading</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation, Bone resorption</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Unloading</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation, Bone resorption</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Trabecular microarchitecture</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation, Bone resorption</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone Strength</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Unloading</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone formation, Bone resorption</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone Strength</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Unloading</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass, Trabecular microarchitecture</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone Strength</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone Formation</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass, Trabecular microarchitecture</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone Strength</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone resorption</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Bone mass, Trabecular microarchitecture</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone resorption</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">⊥</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bone formation</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">|</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Skeletal unloading</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn>
+                  <p>In the notation used here ⊥ means “is independent of” while | means “given”. Thus, A⊥B|C would be read “A is independent of B, given C”.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

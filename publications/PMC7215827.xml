@@ -1,0 +1,3087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:59:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7215827" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7215827</identifier>
+        <datestamp>2020-05-22</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7215827</article-id>
+              <article-id pub-id-type="pmcid">PMC7215827</article-id>
+              <article-id pub-id-type="pmc-uid">7215827</article-id>
+              <article-id pub-id-type="pmid">32290466</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms21082666</article-id>
+              <article-id pub-id-type="publisher-id">ijms-21-02666</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Transcriptional Profiling of the Probiotic <italic>Escherichia coli</italic> Nissle 1917 Strain under Simulated Microgravity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Yim</surname>
+                    <given-names>Jaewoo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-02666">1</xref>
+                  <xref ref-type="author-notes" rid="fn1-ijms-21-02666">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cho</surname>
+                    <given-names>Sung Won</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-02666">1</xref>
+                  <xref ref-type="author-notes" rid="fn1-ijms-21-02666">†</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Kim</surname>
+                    <given-names>Beomhee</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-02666">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6228-0288</contrib-id>
+                  <name>
+                    <surname>Park</surname>
+                    <given-names>Sungwoo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-02666">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Han</surname>
+                    <given-names>Yong Hee</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-21-02666">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7434-7053</contrib-id>
+                  <name>
+                    <surname>Seo</surname>
+                    <given-names>Sang Woo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-21-02666">1</xref>
+                  <xref ref-type="aff" rid="af2-ijms-21-02666">2</xref>
+                  <xref ref-type="aff" rid="af3-ijms-21-02666">3</xref>
+                  <xref ref-type="aff" rid="af4-ijms-21-02666">4</xref>
+                  <xref rid="c1-ijms-21-02666" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-21-02666"><label>1</label>School of Chemical and Biological Engineering, Seoul National University, 1 Gwanak-ro, Gwanak-Gu, Seoul 08826, Korea; <email>jaewoo95@snu.ac.kr</email> (J.Y.); <email>swon0912@snu.ac.kr</email> (S.W.C.); <email>bluesia@snu.ac.kr</email> (B.K.); <email>sw.park@snu.ac.kr</email> (S.P.)</aff>
+              <aff id="af2-ijms-21-02666"><label>2</label>Interdisciplinary Program in Bioengineering, Seoul National University, 1 Gwanak-ro, Gwanak-Gu, Seoul 08826, Korea; <email>wyongh@snu.ac.kr</email></aff>
+              <aff id="af3-ijms-21-02666"><label>3</label>Institute of Chemical Processes, Seoul National University, 1 Gwanak-ro, Gwanak-Gu, Seoul 08826, Korea</aff>
+              <aff id="af4-ijms-21-02666"><label>4</label>Institute of Engineering Research, Seoul National University, 1 Gwanak-ro, Gwanak-Gu, Seoul 08826, Korea</aff>
+              <author-notes>
+                <corresp id="c1-ijms-21-02666"><label>*</label>Correspondence: <email>swseo@snu.ac.kr</email></corresp>
+                <fn id="fn1-ijms-21-02666">
+                  <label>†</label>
+                  <p>These authors contributed equally to this work.</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>4</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>4</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>21</volume>
+              <issue>8</issue>
+              <elocation-id>2666</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>3</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>09</day>
+                  <month>4</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 by the authors.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Long-term space missions affect the gut microbiome of astronauts, especially the viability of some pathogens. Probiotics may be an effective solution for the management of gut microbiomes, but there is a lack of studies regarding the physiology of probiotics in microgravity. Here, we investigated the effects of microgravity on the probiotic <italic>Escherichia coli</italic> Nissle 1917 (EcN) by comparing transcriptomic data during exponential and stationary growth phases under simulated microgravity and normal gravity. Microgravity conditions affected several physiological features of EcN, including its growth profile, biofilm formation, stress responses, metal ion transport/utilization, and response to carbon starvation. We found that some changes, such as decreased adhesion ability and acid resistance, may be disadvantageous to EcN relative to gut pathogens under microgravity, indicating the need to develop probiotics optimized for space flight.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>microgravity</kwd>
+                <kwd><italic>E. coli</italic> Nissle 1917</kwd>
+                <kwd>probiotics</kwd>
+                <kwd>RNA-sequencing</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-21-02666">
+              <title>1. Introduction</title>
+              <p>The recent surge of long-term space exploration necessitates an increased attention on the health risks associated with space travel. Studies have shown that astronauts who stay in space for extended time undergo changes in their microbiome environment. A study conducted by Garrett-Bakelman et al., at the National Aeronautics and Space Administration (NASA), has shown that an astronaut who underwent a year-long space mission experienced a change in his gut microbiome composition, compared to that of his earthbound twin sibling [<xref rid="B1-ijms-21-02666" ref-type="bibr">1</xref>]. Furthermore, astronauts who have spent six to twelve months at the International Space Station (ISS) have also undergone changes in their gut microbiomes [<xref rid="B2-ijms-21-02666" ref-type="bibr">2</xref>]. These changes include the increase of <italic>Parasutterella</italic>, which is associated with chronic intestinal inflammation with inflammatory bowel disease (IBD) and the reduction of intestinal <italic>Fusicatenibacter</italic>, <italic>Pseudobutyrivibrio</italic>, and <italic>Akkermansia</italic>, which have anti-inflammatory properties [<xref rid="B2-ijms-21-02666" ref-type="bibr">2</xref>]. These results demonstrate that some factors during spaceflight can be critical to the gut microbiome of astronauts. These factors may affect the growth of both beneficial and detrimental microbial strains in the gut and thereby increase the possibility of the development of IBD.</p>
+              <p>Multiple studies have indicated that microgravity (MG) conditions induce several physiological changes. Studies conducted at the ISS primarily targeted pathogens such as <italic>Salmonella enterica</italic> serovar Typhimurium χ3339<italic>, Bacillus subtilis</italic> strain 168, and <italic>Pseudomonas aeruginosa</italic> PAO1, and have shown that virulence responses increase with enhanced stress resistance [<xref rid="B3-ijms-21-02666" ref-type="bibr">3</xref>,<xref rid="B4-ijms-21-02666" ref-type="bibr">4</xref>,<xref rid="B5-ijms-21-02666" ref-type="bibr">5</xref>,<xref rid="B6-ijms-21-02666" ref-type="bibr">6</xref>]. Unfortunately, due to the challenges of sending bacterial samples to the ISS, the majority of studies have been done in laboratories on Earth using a rotary cell culture system (RCCS) and simulated MG conditions. The application of the RCCS system has expanded the scope of target strains considered to include <italic>Escherichia coli</italic> K-12 MG1655 and others. The results obtained using simulated MG are similar to those from the ISS. In both cases, MG alters biofilm formation, starvation metabolism, metal ion uptake, and multiple stress responses, including acidic, heat, osmotic, and oxidative conditions of the microorganisms [<xref rid="B7-ijms-21-02666" ref-type="bibr">7</xref>,<xref rid="B8-ijms-21-02666" ref-type="bibr">8</xref>,<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>,<xref rid="B10-ijms-21-02666" ref-type="bibr">10</xref>,<xref rid="B11-ijms-21-02666" ref-type="bibr">11</xref>,<xref rid="B12-ijms-21-02666" ref-type="bibr">12</xref>]. Although previous studies have focused on pathogens and laboratory strains [<xref rid="B3-ijms-21-02666" ref-type="bibr">3</xref>,<xref rid="B6-ijms-21-02666" ref-type="bibr">6</xref>,<xref rid="B13-ijms-21-02666" ref-type="bibr">13</xref>], it is also important to investigate the effect of MG on beneficial strains, such as probiotics in the gut. One such strain is <italic>E</italic>. <italic>coli</italic> Nissle 1917 (EcN), which was isolated from feces of a German soldier and is a representative probiotic that has been reported to improve host immunity [<xref rid="B14-ijms-21-02666" ref-type="bibr">14</xref>,<xref rid="B15-ijms-21-02666" ref-type="bibr">15</xref>,<xref rid="B16-ijms-21-02666" ref-type="bibr">16</xref>,<xref rid="B17-ijms-21-02666" ref-type="bibr">17</xref>]. Its probiotic effects have been established and has been commercialized. For instance, it is the probiotic used in Mutaflor, which is medically effective in treating chronic constipation and Crohn’s disease, a type of autoimmune disease [<xref rid="B18-ijms-21-02666" ref-type="bibr">18</xref>].</p>
+              <p>In this study, we performed comparative transcriptomic profiling of EcN to determine the effect of MG on cell growth and metabolism. We compared genome-scale data from strand-specific massive parallel complementary DNA (cDNA) sequencing (RNA-seq) during exponential and stationary growth phases under simulated MG and normal gravity (NG) conditions. This study should serve as a starting point for understanding of the effects of MG on the cell metabolism of probiotics and to provide insight into the engineering principles of probiotics, which will lead to an improvement in the health of astronauts during spaceflight.</p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-21-02666">
+              <title>2. Results and Discussion</title>
+              <sec id="sec2dot1-ijms-21-02666">
+                <title>2.1. Growth and Transcriptomic Profiling of EcN under Simulated MG and NG</title>
+                <p>To culture EcN under simulated MG and NG conditions, we used a clinostat with different directions of rotation (<xref ref-type="fig" rid="ijms-21-02666-f001">Figure 1</xref>A). MG conditions were simulated by rotating the system around the horizontal axis and manipulating the rotation speed of the vessel to reduce shear stress [<xref rid="B19-ijms-21-02666" ref-type="bibr">19</xref>]. NG conditions were maintain by rotating the system around the vertical axis [<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>]. When EcN growth in glucose M9 minimal media was measured under MG (μ<sub>MG</sub>) and NG (μ<sub>NG</sub>) conditions, the maximum specific growth rates were 0.36 and 0.44 h<sup>−1</sup>, respectively (<xref ref-type="fig" rid="ijms-21-02666-f001">Figure 1</xref>B). In contrast to other studies that used <italic>E</italic>. <italic>coli</italic> K-12 MG1655 [<xref rid="B7-ijms-21-02666" ref-type="bibr">7</xref>,<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>], the growth of EcN was slower under MG than NG. The growth difference under MG compared to that under NG may have been due to the sum effect of several factors involved with cell fitness.</p>
+                <p>To reveal the metabolic changes of EcN in response to decreased gravity, we performed comparative transcriptomic profiling (RNA-seq) during exponential and stationary growth phases under MG and NG conditions. Differentially expressed genes (DEGs) were selected using the criteria of ≥2-fold changes (P ≤ 0.01) in fragments per kilobase of exon per million fragments mapped (FPKM) values. As many genes in the EcN reference strain CP007799.1 from the National Center for Biotechnology Information (NCBI) database were unannotated, we identified these unlabeled genes using Basic Local Alignment Search Tool (BLAST) software (blastp) [<xref rid="B20-ijms-21-02666" ref-type="bibr">20</xref>] and publicly available web-based databases, such as the EcoCyc <italic>E. coli</italic> database (<uri xlink:href="http://ecocyc.org/">http://ecocyc.org/</uri>) [<xref rid="B21-ijms-21-02666" ref-type="bibr">21</xref>] and Kyoto Encyclopedia of Genes and Genomes (KEGG) [<xref rid="B22-ijms-21-02666" ref-type="bibr">22</xref>]. A total of 86 genes were differentially expressed during the exponential growth phase and 224 genes were differentially expressed during the stationary growth phase (<xref ref-type="fig" rid="ijms-21-02666-f001">Figure 1</xref>C). Among these DEGs, 11 were common to both growth phases (<xref ref-type="fig" rid="ijms-21-02666-f001">Figure 1</xref>C). As shown in <xref rid="ijms-21-02666-t001" ref-type="table">Table 1</xref>, the majority of common DEGs maintained their tendencies of being either up-regulated or down-regulated in both phases. Interestingly, some genes, such as cytochrome <italic>bo</italic><sub>3</sub> ubiquinol oxidase (<italic>cyoA</italic>), cold shock protein (<italic>cspA</italic>), and cysteine transporter (<italic>tcyP</italic>), exhibited changes in their direction of regulation. Among the DEGs in the exponential and stationary growth phases, 38 and 43 genes were up-regulated, respectively, while 48 and 181 genes were down-regulated, respectively (<xref ref-type="app" rid="app1-ijms-21-02666">Tables S1 and S2</xref>). Some were represented according to functional categories of hierarchical clusters diagrams based on expression ratios of MG to NG (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>). These categories included biofilm formation, stress responses, metal ion transport/utilization, and carbon metabolism.</p>
+              </sec>
+              <sec id="sec2dot2-ijms-21-02666">
+                <title>2.2. Effect of MG on EcN Biofilm Formation</title>
+                <p>Cell surface components, such as type I curli fimbriae and lipopolysaccharide (LPS), are important for the formation of complex biofilm structures, which protect cells from exterior factors [<xref rid="B23-ijms-21-02666" ref-type="bibr">23</xref>,<xref rid="B24-ijms-21-02666" ref-type="bibr">24</xref>,<xref rid="B25-ijms-21-02666" ref-type="bibr">25</xref>]. Previous research has shown that MG can induce changes in gene expression related to biofilm formation [<xref rid="B4-ijms-21-02666" ref-type="bibr">4</xref>,<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>,<xref rid="B12-ijms-21-02666" ref-type="bibr">12</xref>,<xref rid="B26-ijms-21-02666" ref-type="bibr">26</xref>,<xref rid="B27-ijms-21-02666" ref-type="bibr">27</xref>,<xref rid="B28-ijms-21-02666" ref-type="bibr">28</xref>,<xref rid="B29-ijms-21-02666" ref-type="bibr">29</xref>,<xref rid="B30-ijms-21-02666" ref-type="bibr">30</xref>]. Similar to previous studies, most EcN genes related to type I fimbriae synthesis (<italic>fimA, fimI, fimC, fimD, fimG</italic>), flagella motility regulation (<italic>ycgR</italic>), and flagella synthesis (<italic>fliC</italic>) were up-regulated (2.18–4.14-fold) under MG during the exponential growth, which allowed for increased biofilm formation (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>A and <xref ref-type="app" rid="app1-ijms-21-02666">Table S1</xref>). However, these genes were not differentially expressed between conditions of MG and NG during stationary growth. Since oxygen availability is lower in MG than NG [<xref rid="B31-ijms-21-02666" ref-type="bibr">31</xref>], cells may offset this difference by forming thicker and more structured biofilm architecture from the onset, regardless of growth phase [<xref rid="B28-ijms-21-02666" ref-type="bibr">28</xref>]. Unlike other bacteria, EcN under MG during stationary growth phase repressed genes related to major structural subunit of curli (<italic>csgB, csgA;</italic> 5.19–6.55-fold), LPS core synthesis (<italic>rfaQ, rfaG, rfaP</italic>; 2.03–2.39-fold), and lipid A (<italic>lpxP</italic>; 2.25-fold) [<xref rid="B32-ijms-21-02666" ref-type="bibr">32</xref>]. <italic>CsgC</italic>, which functions as an inhibitor of <italic>csgA</italic> expression was highly expressed under MG conditions (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>A and <xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>) [<xref rid="B33-ijms-21-02666" ref-type="bibr">33</xref>].</p>
+                <p>In addition to the structural robustness of the cell itself, the adhesion ability of EcN appeared to be the opposite of that reported for other gut microbiome species. For instance, F1C fimbriae, <italic>E. coli</italic> common pili (ECP), and K5 capsule play key roles in the adhesion of EcN to gut epithelial cells in [<xref rid="B34-ijms-21-02666" ref-type="bibr">34</xref>]. Under MG, <italic>focA</italic>, which encodes the major F1C fimbriae subunit, was repressed during the exponential growth phase (2.28-fold) and <italic>ecpC, ecpB, ecpA,</italic> which encode ECP, and <italic>ecpR</italic>, which encodes the transcriptional regulator of ECP synthesis, were repressed (2.48–7.36-fold) during entire cell growth. Additionally, multiple copies of <italic>kfiA</italic> and <italic>kfiB</italic> encoding K5 capsule biosynthesis components were up-regulated (2.25–2.61-fold) under the same conditions (<xref ref-type="app" rid="app1-ijms-21-02666">Tables S1 and S2</xref>). When <italic>kfiB</italic> is knocked-out, EcN attachment to Caco-2 cells is known to increase [<xref rid="B35-ijms-21-02666" ref-type="bibr">35</xref>]. Collectively, the shifts in expression we observed may interfere with EcN adhesion to epithelial cells and prevent intestinal colonization. Additional experimental validation may need to be performed outside Earth in the future. Considering that cell adhesion of pathogens is increased under MG conditions [<xref rid="B2-ijms-21-02666" ref-type="bibr">2</xref>], these results suggest that EcN may be less competitive in MG, resulting in pathogens causing an imbalance of the gut microbiome during spaceflight [<xref rid="B34-ijms-21-02666" ref-type="bibr">34</xref>].</p>
+              </sec>
+              <sec id="sec2dot3-ijms-21-02666">
+                <title>2.3. Effect of MG on EcN Stress Responses</title>
+                <p>Exposure to MG can result in several changes outside of cell membrane, including convectional thermal loss and reductions in shear force. Cells must adapt to new conditions under MG by expressing resistance-related proteins [<xref rid="B36-ijms-21-02666" ref-type="bibr">36</xref>]. In previous studies, bacteria in MG showed increased resistance to heat, osmotic pressure, and acidic conditions [<xref rid="B6-ijms-21-02666" ref-type="bibr">6</xref>,<xref rid="B8-ijms-21-02666" ref-type="bibr">8</xref>,<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>,<xref rid="B12-ijms-21-02666" ref-type="bibr">12</xref>,<xref rid="B37-ijms-21-02666" ref-type="bibr">37</xref>]. EcN for the most part maintained these general stress response tendencies (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>B and <xref ref-type="fig" rid="ijms-21-02666-f003">Figure 3</xref>). During the exponential growth phase, EcN in MG displayed higher expression levels of heat shock protein (<italic>htpG</italic>; 2.06-fold), cold shock protein (<italic>cspA</italic>; 2.38-fold) compared to those under NG conditions (<xref ref-type="app" rid="app1-ijms-21-02666">Table S1</xref>). Expression of heat shock proteins (<italic>hspQ</italic>, <italic>htpX</italic>, and <italic>ibpAB</italic>) and membrane protein involved in stress response (<italic>bhsA</italic>) were increased (2.21–7.96-fold) in the stationary growth phase. Meanwhile, <italic>cspA</italic>, which was induced during exponential growth, was down-regulated (2.24-fold) during the stationary growth phase (<xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>). While <italic>cspA</italic> has a role as a global regulator [<xref rid="B38-ijms-21-02666" ref-type="bibr">38</xref>], it is unclear why its expression tendency differed under the two growth phases.</p>
+                <p>Interestingly, EcN exhibited different trends in acidic resistance during the exponential growth phase under MG compared to that of other bacteria, with the repression of acid resistant chaperones (<italic>hdeBA</italic> and <italic>hdeD</italic>) being 2.38–2.75-fold [<xref rid="B39-ijms-21-02666" ref-type="bibr">39</xref>] and glutamate decarboxylases (<italic>gadB</italic> and <italic>gadA</italic>) being 2.36–2.48-fold (<xref ref-type="app" rid="app1-ijms-21-02666">Table S1</xref>). <italic>Gad</italic> encoded proteins are known as the components of the glutamate-dependent acid resistance (AR) system, which is an efficient AR system called AR2 [<xref rid="B40-ijms-21-02666" ref-type="bibr">40</xref>]. During the stationary growth phase, glutamate decarboxylase (<italic>gadA</italic>) remained repressed (2.27-fold), along with arginine decarboxylase (<italic>adiA</italic>; 2.30-fold), which is another AR system known as AR3 (<xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>) [<xref rid="B41-ijms-21-02666" ref-type="bibr">41</xref>]. These findings suggest that MG conditions may retard the growth of EcN by inducing more acidic conditions compared to that of NG, especially during the exponential growth phase [<xref rid="B42-ijms-21-02666" ref-type="bibr">42</xref>]. Lower resistance to acidic stress by EcN under conditions of MG indicates that EcN may not function efficiently as a probiotic during spaceflight when administered orally, as it must pass through the gastrointestinal tract.</p>
+              </sec>
+              <sec id="sec2dot4-ijms-21-02666">
+                <title>2.4. Effect of MG on EcN Metal Ion Transport/Utilization</title>
+                <p>Previous studies have commonly shown that MG induces repression of metal ion uptake systems, including those for iron [<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>], copper [<xref rid="B8-ijms-21-02666" ref-type="bibr">8</xref>], nickel [<xref rid="B7-ijms-21-02666" ref-type="bibr">7</xref>], and zinc [<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>]. Similar to these previous studies, we found that various metal ion uptake systems in EcN were also down-regulated under MG conditions (<xref ref-type="fig" rid="ijms-21-02666-f004">Figure 4</xref>). During the exponential growth phase, ferrous ion transporter (<italic>feoB</italic>) was repressed 2.30-fold, the copper ion efflux system (<italic>cusBA</italic>) 7.32–9.58-fold, copper transport chaperone (<italic>copA</italic>) [<xref rid="B43-ijms-21-02666" ref-type="bibr">43</xref>] 6.07-fold, nickel efflux protein (<italic>rcnA</italic>) 5.53-fold, zinc transporter (<italic>znuA</italic>) 2.82-fold, and Zn/Cd binding protein (<italic>zinT</italic>) 2.43-fold. Expression of enzymes that require iron as a cofactor, such as ubiquinone biosynthesis protein (<italic>yhbUV</italic>) and succinate dehydrogenase (<italic>fumB</italic>), was also reduced 2.66–5.10-fold as a result of less iron uptake (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>C and <xref ref-type="app" rid="app1-ijms-21-02666">Table S1</xref>) [<xref rid="B44-ijms-21-02666" ref-type="bibr">44</xref>].</p>
+                <p>During stationary growth, the tendencies of metal ion uptake regulation continued. Genes related to ferrichrome transporter protein synthesis (<italic>fhuA</italic>) and enterobactin biosynthesis (<italic>entH</italic>, <italic>aroA</italic>, and <italic>menF</italic>) were down-regulated 2.05–3.20-fold. Enterobactin is a siderophore that transports iron ions by binding the ion and then passing through the cellular membrane together [<xref rid="B45-ijms-21-02666" ref-type="bibr">45</xref>,<xref rid="B46-ijms-21-02666" ref-type="bibr">46</xref>]. Similarly, synthesis of zinc transporter (<italic>znuA</italic> and <italic>znuCB</italic>) and Zn/Cd binding protein (<italic>zinT</italic>) were continuously down-regulated 2.68–15.62-fold along with other enzymes that require zinc ions as cofactors (<italic>frmA</italic>, <italic>manA</italic>, and <italic>mepM</italic>), which were down-regulated 2.12–3.96-fold [<xref rid="B47-ijms-21-02666" ref-type="bibr">47</xref>,<xref rid="B48-ijms-21-02666" ref-type="bibr">48</xref>,<xref rid="B49-ijms-21-02666" ref-type="bibr">49</xref>]. Zinc uptake modulator (<italic>zraP</italic>) blocks zinc ion uptake and was up-regulated 2.11-fold [<xref rid="B50-ijms-21-02666" ref-type="bibr">50</xref>]. It is worth pointing out that the synthesis of yersiniabactin transporters (<italic>ybtX</italic>, <italic>ybtQ</italic>, <italic>ybtP</italic>, and <italic>yhdX</italic>), which are known as the siderophores transporting iron and zinc ions in the EcN [<xref rid="B51-ijms-21-02666" ref-type="bibr">51</xref>,<xref rid="B52-ijms-21-02666" ref-type="bibr">52</xref>], were repressed 2.09–4.50-fold during the stationary growth phase. In addition, the molybdate efflux system, including molybdate ion transporter (<italic>modA</italic> and <italic>modC</italic>) and <italic>hycA, hycB, hycC, hycD, hycE, hycG,</italic> and <italic>hycH</italic>, which are known to be dependent on molybdate [<xref rid="B53-ijms-21-02666" ref-type="bibr">53</xref>,<xref rid="B54-ijms-21-02666" ref-type="bibr">54</xref>], were expressed less under MG during the stationary growth phase (2.32–3.48-fold) compared to that under NG (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>C and <xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>).</p>
+                <p>The tendency to lower free metal ion concentrations in the cytoplasm of cells was observed according to the utilization of iron ions. Intracellular iron ions may remain as free cations or form complexes, such as iron–sulfur (Fe-S) clusters or heme groups [<xref rid="B55-ijms-21-02666" ref-type="bibr">55</xref>,<xref rid="B56-ijms-21-02666" ref-type="bibr">56</xref>]. By forming Fe-S complexes, imported free iron ions associate with sulfate ions to alleviate the exposure of cells to hydroxide radicals that result from the presence of excessive free iron ions [<xref rid="B57-ijms-21-02666" ref-type="bibr">57</xref>]. During the exponential growth phase, genes related to Fe-S assembly, such as iron–sulfur cluster assembly protein synthesis (<italic>iscR, iscS, iscUA</italic>) and iron–sulfur cluster biosynthesis chaperone (<italic>hscA</italic>), were up-regulated 2.05–3.31-fold. To supply sulfur for combining with iron ions, cysteine can be broken down by cysteine desulfurase [<xref rid="B58-ijms-21-02666" ref-type="bibr">58</xref>,<xref rid="B59-ijms-21-02666" ref-type="bibr">59</xref>]. Therefore, elevated assembly of the Fe-S clusters may induce sulfur and cysteine starvation inside the cell, resulting in the activation of sulfate transporter (<italic>sbp</italic>), which was up-regulated 2.32-fold, and cysteine transporter (<italic>tcyP</italic>), which was up-regulated 2.27-fold (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>C and <xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>) [<xref rid="B59-ijms-21-02666" ref-type="bibr">59</xref>,<xref rid="B60-ijms-21-02666" ref-type="bibr">60</xref>].</p>
+                <p>However, during the stationary growth phase, the direction of regulation of genes related to iron utilization was the opposite of that during exponential growth. For instance, sulfur metabolism was generally down-regulated. As shown in <xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>C and <xref ref-type="app" rid="app1-ijms-21-02666">Table S2</xref>, repressed genes included transcription factor <italic>cbl</italic> (2.07-fold), cysteine transporter (<italic>tcyP</italic>, <italic>tcyN</italic>, <italic>tcyJ</italic>; 2.30–2.69-fold), cysteine synthase (<italic>cysM</italic>; 2.13-fold), and genes related to sulfate assimilation (<italic>cysDNC</italic> and <italic>cysJIH</italic>; 2.61–4.63-fold) [<xref rid="B61-ijms-21-02666" ref-type="bibr">61</xref>]. These genes are known to be activated by transcription factor <italic>cysB</italic> when induced by O-acetylserine (OAS) [<xref rid="B59-ijms-21-02666" ref-type="bibr">59</xref>]. Furthermore, sulfide and thiosulfate act in a competitive manner with OAS as anti-inducers [<xref rid="B62-ijms-21-02666" ref-type="bibr">62</xref>]. These results indicate that the intracellular availability of sulfide and thiosulfate during stationary growth of the EcN under MG conditions may be the opposite to that during exponential growth.</p>
+              </sec>
+              <sec id="sec2dot5-ijms-21-02666">
+                <title>2.5. Effect of MG on EcN Carbon Metabolism</title>
+                <p>MG is able to induce a lack of convective mixing, resulting in the creation of what have been referred to as “depletion zones” [<xref rid="B63-ijms-21-02666" ref-type="bibr">63</xref>]. Many studies have reported that MG induces carbon starvation stress due to nutrient depletion [<xref rid="B7-ijms-21-02666" ref-type="bibr">7</xref>,<xref rid="B9-ijms-21-02666" ref-type="bibr">9</xref>,<xref rid="B26-ijms-21-02666" ref-type="bibr">26</xref>]. Under conditions of carbon starvation, carbohydrate catabolism was altered, especially the sequentially inhibition of glycolysis and the pentose phosphate (PP) pathway [<xref rid="B64-ijms-21-02666" ref-type="bibr">64</xref>]. Consistent with this, we found that the glycolysis enzymes 6-phosphofructokinase (<italic>pfkA</italic>) and glyceraldehyde-3-phosphate dehydrogenase (<italic>gapA</italic>) were repressed (2.27–3.68-fold) during the exponential growth phase, while genes related to the pentose phosphate (PP) pathway (<italic>pgl</italic>, <italic>tktB</italic>, <italic>ribB</italic>, <italic>prsA</italic>, and <italic>hisG</italic>) and Entner–Doudoroff (ED) pathway (<italic>gntK</italic> and <italic>edd</italic>) [<xref rid="B65-ijms-21-02666" ref-type="bibr">65</xref>] were repressed (2.17–14.89-fold) during the stationary growth phase (<xref ref-type="fig" rid="ijms-21-02666-f005">Figure 5</xref>, <xref ref-type="app" rid="app1-ijms-21-02666">Tables S1 and S2</xref>). Repression of <italic>pfkA</italic> at the exponential growth phase can induce the higher flux of glucose to the PP or ED pathway. Activation of these pathways may help protect cells from oxidative stress by production of NADPH [<xref rid="B66-ijms-21-02666" ref-type="bibr">66</xref>,<xref rid="B67-ijms-21-02666" ref-type="bibr">67</xref>]. By the way, regulation of the tricarboxylic acid (TCA) cycle can burden oxidative stress to the cell. Repressed glycolytic metabolism due to carbon starvation may also affect the tricarboxylic acid (TCA) cycle [<xref rid="B68-ijms-21-02666" ref-type="bibr">68</xref>]. During the exponential growth phase, succinate:quinone oxidoreductase (<italic>sdhA</italic>) and malate:quinone oxidoreductase (<italic>mqo</italic>) were up-regulated 2.76–3.24-fold, concurrently with the repression of fumarate hydratase (<italic>fumB</italic>) 2.68-fold and fumarate reductases 2.77–3.03-fold (<xref ref-type="fig" rid="ijms-21-02666-f005">Figure 5</xref>, <xref ref-type="app" rid="app1-ijms-21-02666">Tables S1 and S2</xref>). The reduction of quinone by increased expression of <italic>mqo</italic> may be especially detrimental to EcN as the imbalance between quinone and quinol can induce oxidative stress [<xref rid="B69-ijms-21-02666" ref-type="bibr">69</xref>]. In addition, there is a possibility of fumarate accumulation due to the activation of <italic>sdhA</italic>, which may consequently result in oxidative stress [<xref rid="B70-ijms-21-02666" ref-type="bibr">70</xref>,<xref rid="B71-ijms-21-02666" ref-type="bibr">71</xref>].</p>
+                <p>Other genes related to energy metabolism were also differentially regulated. During the exponential phase, vitamin synthesis (<italic>cobW</italic>) and biotin synthesis (<italic>bioD</italic>) genes were down-regulated 2.96–4.17-fold (<xref ref-type="app" rid="app1-ijms-21-02666">Table S1</xref>). Since biotin is an essential cofactor for fatty acid metabolism [<xref rid="B72-ijms-21-02666" ref-type="bibr">72</xref>], a shortage of biotin under MG may hamper cell growth. During the stationary growth phase, pyrimidine synthesis enzymes (<italic>carA</italic> and <italic>carB</italic>) were repressed 2.27–2.65-fold. Furthermore, the γ-aminobutyric acid (GABA) shunt pathway was also repressed, along with the acid resistance system (<xref ref-type="fig" rid="ijms-21-02666-f005">Figure 5</xref>) [<xref rid="B73-ijms-21-02666" ref-type="bibr">73</xref>,<xref rid="B74-ijms-21-02666" ref-type="bibr">74</xref>]. Finally, <italic>gadA</italic> and <italic>gadB</italic> were repressed 2.36–2.48-fold during the exponential growth phase while <italic>gadA</italic> and <italic>gdhA</italic> were repressed 2.27–2.28-fold during the stationary growth phase (<xref ref-type="fig" rid="ijms-21-02666-f002">Figure 2</xref>D, <xref ref-type="app" rid="app1-ijms-21-02666">Tables S1 and S2</xref>).</p>
+              </sec>
+            </sec>
+            <sec sec-type="conclusions" id="sec3-ijms-21-02666">
+              <title>3. Conclusions</title>
+              <p>Probiotics, including EcN, may be an effective solution in the management of the gut microbiome of astronauts as they can protect the gut microbiome from pathogens during the space flight. We investigated the effects of simulated MG on EcN using comparative transcriptomic analysis during exponential and stationary growth phases. Some changes identified were disadvantageous to EcN when competing against other pathogenic microbes. EcN tended to develop lower relative abilities for acidic resistance and adhesion under MG conditions, which may make it more difficult for it to survive as it passes through the acidic conditions of stomach and to attach to intestinal cells. Additionally, EcN exhibited altered metal ion transport/utilization and repressed energy and carbon metabolism in response to oxidative stress and nutrient depletion, respectively. Collectively, these results demonstrate the need for further studies that will be essential for the development of effective probiotics that are able to function under MG as guardians of the gut microbiome.</p>
+            </sec>
+            <sec id="sec4-ijms-21-02666">
+              <title>4. Materials and Methods</title>
+              <sec id="sec4dot1-ijms-21-02666">
+                <title>4.1. Overall Work Flow of This Study</title>
+                <p>The total work flow of our study was listed in the following order. (1) Culture the sample under microgravity and normal gravity conditions, respectively. (2) Harvest both samples at the exponential and stationary growth phase. (3) Extract total RNAs from the harvested samples. (4) Remove the rRNA from the extracted RNA samples. (5) Construct the RNA-seq library samples. (6) Run next-generation sequencing and analyze the sequencing data.</p>
+              </sec>
+              <sec id="sec4dot2-ijms-21-02666">
+                <title>4.2. Bacterial Strain and Growth Conditions</title>
+                <p>The strain used in this study was EcN, which was cultured in M9 minimal media (47.8 mM Na<sub>2</sub>HPO<sub>4</sub>∙7H<sub>2</sub>O, 22 mM KH<sub>2</sub>PO<sub>4</sub>, 8.6 mM NaCl, 18.7 mM NH<sub>4</sub>Cl, 2 mM MgSO<sub>4</sub>, and 0.1 mM CaCl<sub>2</sub>) supplemented with 0.4% glucose (<italic>w</italic>/<italic>v</italic>). To develop the inoculum, a single colony of EcN grown on a Luria-Broth (LB) broth agar plate was inoculated into M9 media with 0.4% glucose and incubated with shaking at 37 °C. The cultures were incubated overnight to allow the cells to enter the stationary growth phase and then used as inocula for the clinostat system.</p>
+              </sec>
+              <sec id="sec4dot3-ijms-21-02666">
+                <title>4.3. Growth of EcN in a Clinostat</title>
+                <p>After culturing overnight, and the EcN cells entering the stationary growth phase, a sample of the culture was diluted 10<sup>−3</sup> and added to clinostat vessels (Synthecon, Inc., Houston, TX, USA). The vessels (d = 12.5 cm) were installed either perpendicularly or horizontally to simulate MG and NG conditions, respectively. To generate conditions of low shear stress, samples were incubated in vessels rotating &lt; 25 rpm. The optical density at 600 nm (OD<sub>600</sub>) was checked to monitor the growth profile of EcN for each condition. Briefly, the clinostat vessel was detached from the instrument every hour and the OD<sub>600</sub> of the culture was determined to generate the growth profiles of the EcN. Based on the growth curves, we determined the points of exponential and stationary growth. For RNA extraction, 1 mL of EcN was harvested at two points of cell growth, which included the exponential growth phase (OD<sub>600</sub> 0.6–0.8) and stationary growth phase (OD<sub>600</sub> 1.2). Each experimental condition was performed in duplicate.</p>
+              </sec>
+              <sec id="sec4dot4-ijms-21-02666">
+                <title>4.4. RNA Extraction, cDNA Synthesis, and Sequencing</title>
+                <p>Total RNA was extracted from 3 mL of cultured EcN samples at each growth point for each gravitational condition. Before RNA extraction, harvested samples were treated with RNAprotect Bacteria Reagent (Qiagen, Hilden, Germany). Then, we used Qiagen RNeasy Plus Mini kit (Qiagen, Hilden, Germany) for RNA extractions. First, 6 mL of RNA protect reagent was added to each culture sample. After 5 min incubation, the samples were pelleted and resuspended in 400 μL Tris-EDTA pH 8.0 (TE) buffer (Sigma–Aldrich, Saint Louis, MO, USA). After a second round of pelleting and washing, the sample was eluted with 200 μL TE buffer. Then 1 μL SUPERase•In RNase inhibitor (Invitrogen, Carlsbad, CA, USA), 3 μL of 10 M units of Ready-Lyse Lysozyme solution (Lucigen, Middleton, WI, USA), 1 μL of 20 mg/mL Proteinase K (Invitrogen, Thermo Fisher Scientific Inc, Waltham, MA, USA), and 3 μL of 20% sodium dodecyl sulfate (Sigma–Aldrich, Saint Louis, MO, USA) were added and incubated for 30 min in ice. Then, 700 μL RLT-β-ME buffer, which was prepared with addition of 10 μL of β-mercaptoethanol (Sigma–Aldrich, Saint Louis, MO, USA) to 1 mL of RLT Buffer, was added to make visible particle. The samples were centrifuged and the supernatants purified using gDNA Eliminator Mini Spin Columns (Qiagen, Hilden, Germany). The filtered samples then had 500 μL of 100% EtOH added and purified using RNeasy Mini Spin Columns (Qiagen, Hilden, Germany). Using 350 μL RW1 and 1 mL RPE buffer (Qiagen, Hilden, Germany), the RNA samples were washed and eluted with RNase-free deionized distilled water. Purified RNA samples were analyzed using an RNA 6000 Pico Kit on an Agilent 2100 bioanalyzer (Agilent, Santa Clara, CA, USA). The RNA integrity number (RIN) ranged from 2.6 to 9.9.</p>
+                <p>To remove any ribosomal RNA (rRNA) from the RNA stock, a Ribo-Zero rRNA Removal Kit for Gram-negative bacteria (Illumina, San Diego, CA, USA) was used. The RNA solutions were treated with 2 μL Ribo-Zero Reaction Buffer (Illumina, San Diego, CA, USA) and 5 μL Ribo-Zero Removal Solution (Illumina, San Diego, CA, USA). Magnetic beads were prepared by washing and then resuspending them in 30 μL AMPure XP magnetic bead resuspension solution (Beckman Coulter, Fullerton, CA, USA) and 3 μL of RiboGuard RNase Inhibitor (Illumina, San Diego, CA, USA). The prepared magnetic beads were then added to hybridized the RNA sample and purified using RNeasy MinElute spin columns (Qiagen, Hilden, Germany). Removal of the rRNA was confirmed using a Qubit Fluorometer (Invitrogen, Thermo Fisher Scientific Inc, Waltham, MA, USA) and Agilent 2100 Bioanalyzer (Agilent, Santa Clara, CA, USA).</p>
+                <p>The extracted RNA samples with the rRNA removed were then used for cDNA synthesis using a KAPA Stranded RNA-Seq Library Preparation Kit (Kapa Biosystems, Inc., Wilmington, MA, USA). Samples were fragmented and each strand synthesized into cDNA. After bead-based purification, the cDNA strands were A-tailed for adapter ligation. After the adaptor ligation incubation, the samples were purified using 20% PEG 8000/2.5 M NaCl solution (Kapa Biosystems, Inc., Wilmington, MA, USA). The cDNA strands of sizes consistent with the target range were selected and then amplified by real-time PCR. Overall, eight samples including duplicate samples from the two growth phases and two culture condition were quality-checked (9.86–64.4 ng/μL) using the Agilent 2100 Bioanalyzer (Agilent, Santa Clara, CA, USA) and sequenced using Illumina HiSeq 4000 System (Macrogen, Seoul, Korea). All raw data for RNA-seq has been deposited into the Gene Expression Omnibus at the NCBI under GSE147272.</p>
+              </sec>
+              <sec id="sec4dot5-ijms-21-02666">
+                <title>4.5. Read Processing, Alignment, and Quantification</title>
+                <p>Sequenced reads from the RNA-seq analysis showed low proportions of rRNA, which indicated that the rRNA was successfully removed. The RNA-seq reads were then mapped based on the EcN reference genome (CP007799) using bowtie and cuffdiff tools. The calculated FPKM values from cuffdiff were used to identify the DEGs. DEGs with log<sub>2</sub>-fold expression changes ≥ 1.0 and false discovery rates (FDR) ≥ 0.01 were selected.</p>
+              </sec>
+              <sec id="sec4dot6-ijms-21-02666">
+                <title>4.6. Differential Expression and Functional Analyses</title>
+                <p>Unidentified DEGs from the reference genome were compared with genes from other <italic>E. coli</italic> strains using blastp BLAST software and the EcoCyc database (<uri xlink:href="www.ecocyc.org">www.ecocyc.org</uri>). The function of each DEG was then analyzed based on the KEGG and EcoCyc gene operon online databases.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="app1-ijms-21-02666">
+                <title>Supplementary Materials</title>
+                <p>Supplementary Materials can be found at <uri xlink:href="https://www.mdpi.com/1422-0067/21/8/2666/s1">https://www.mdpi.com/1422-0067/21/8/2666/s1</uri>. Table S1: Differentially Expressed Genes of the <italic>Escherichia coli</italic> Nissle 1917 strain in the exponential growth phase, Table S2: Differentially Expressed Genes of the <italic>Escherichia coli</italic> Nissle 1917 strain in the stationary growth phase.</p>
+                <supplementary-material content-type="local-data" id="ijms-21-02666-s001">
+                  <media xlink:href="ijms-21-02666-s001.zip">
+                    <caption>
+                      <p>Click here for additional data file.</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization, J.Y., S.W.C. and S.W.S.; Methodology, J.Y., S.W.C., B.K. and S.P.; Validation, B.K. and S.P.; Formal Analysis, B.K. and S.P.; Investigation, J.Y., S.W.C., B.K. and S.P.; Resources, S.W.C. and B.K.; Software, B.K. and Y.H.H.; Data Curation, J.W., S.W.C., B.K. and Y.H.H.; Writing—Original Draft Preparation, J.Y. and S.W.C.; Writing—Review and Editing, J.Y., S.W.C. and S.W.S.; Visualization, J.Y.; Supervision, S.W.S.; Project Administration, S.W.S.; Funding Acquisition, S.W.S. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This work was supported by the Bio and Medical Technology Development Program (NRF-2018M3A9H3020459), the C1 Gas Refinery Program (NRF-2015M3D3A1A01064882), the Basic Research Laboratory Project (NRF-2018R1A4A1022513), the Basic Science Research Program (NRF-2018R1C1B6001129) through the National Research Foundation (NRF) of Korea, funded by the Ministry of Science and ICT (MSIT), and the Next-Generation BioGreen 21 Program (PJ01323601) funded by Rural Development Administration. SWS is partially supported by Creative-Pioneering Researchers Program through Seoul National University (SNU).</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflicts of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-21-02666">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Garrett-Bakelman</surname>
+                      <given-names>F.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Darshi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gur</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macias</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>McKenna</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Meydan</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mishra</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasrini</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight</article-title>
+                  <source>Science</source>
+                  <year>2019</year>
+                  <volume>364</volume>
+                  <fpage>eaau8650</fpage>
+                  <?supplied-pmid 30975860?>
+                  <pub-id pub-id-type="pmid">30975860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-21-02666">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Voorhies</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mark Ott</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feiveson</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oubre</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Torralba</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moncera</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>9911</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-46303-8</pub-id>
+                  <?supplied-pmid 31289321?>
+                  <pub-id pub-id-type="pmid">31289321</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-21-02666">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Quick</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Honer zu Bentrup</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crabbe</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sarker</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barrila</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Porwollik</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Media ion composition controls regulatory and virulence response of <italic>Salmonella</italic> in spaceflight</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <elocation-id>e3923</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0003923</pub-id>
+                  <?supplied-pmid 19079590?>
+                  <pub-id pub-id-type="pmid">19079590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-21-02666">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morrison</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fajardo-Cavazos</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicholson</surname>
+                      <given-names>W.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparison of <italic>Bacillus subtilis</italic> transcriptome profiles from two separate missions to the International Space Station</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2019</year>
+                  <volume>5</volume>
+                  <fpage>1</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-018-0061-0</pub-id>
+                  <pub-id pub-id-type="pmid">30623021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-21-02666">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crabbe</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schurr</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monsieurs</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morici</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schurr</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsaprailis</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stefanyshyn-Piper</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Transcriptional and proteomic responses of <italic>Pseudomonas aeruginosa</italic> PAO1 to spaceflight conditions involve <italic>Hfq</italic> regulation and reveal a role for oxygen</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2011</year>
+                  <volume>77</volume>
+                  <fpage>1221</fpage>
+                  <lpage>1230</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.01582-10</pub-id>
+                  <pub-id pub-id-type="pmid">21169425</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-21-02666">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosenzweig</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abogunde</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawal</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>Y.U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sodipe</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jejelowo</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight and modeled microgravity effects on microbial growth and virulence</article-title>
+                  <source>Appl. Microbiol. Biotechnol.</source>
+                  <year>2010</year>
+                  <volume>85</volume>
+                  <fpage>885</fpage>
+                  <lpage>891</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00253-009-2237-8</pub-id>
+                  <pub-id pub-id-type="pmid">19847423</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-21-02666">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arunasri</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adil</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Venu Charan</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suvro</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Himabindu Reddy</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shivaji</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of simulated microgravity on <italic>E. coli</italic> K12 MG1655 growth and gene expression</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <elocation-id>e57860</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0057860</pub-id>
+                  <pub-id pub-id-type="pmid">23472115</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-21-02666">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tucker</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huff</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fofanov</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Willson</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fox</surname>
+                      <given-names>G.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Characterization of <italic>Escherichia coli</italic> MG1655 grown in a low-shear modeled microgravity environment</article-title>
+                  <source>BMC Microbiol.</source>
+                  <year>2007</year>
+                  <volume>7</volume>
+                  <elocation-id>15</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/1471-2180-7-15</pub-id>
+                  <pub-id pub-id-type="pmid">17343762</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-21-02666">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vukanti</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mintz</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leff</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in Gene Expression of <italic>E. coli</italic> under Conditions of Modeled Reduced Gravity</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2008</year>
+                  <volume>20</volume>
+                  <fpage>41</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-008-9012-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-21-02666">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramamurthy</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Porwollik</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>McClelland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nickerson</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low-Shear modeled microgravity alters the <italic>Salmonella enterica</italic> serovar typhimurium stress response in an <italic>RpoS</italic>-independent manner</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2002</year>
+                  <volume>68</volume>
+                  <fpage>5408</fpage>
+                  <lpage>5416</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.68.11.5408-5416.2002</pub-id>
+                  <pub-id pub-id-type="pmid">12406731</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-21-02666">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nickerson</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramamurthy</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microbial responses to microgravity and other low-shear environments</article-title>
+                  <source>Microbiol. Mol. Biol. Rev.</source>
+                  <year>2004</year>
+                  <volume>68</volume>
+                  <fpage>345</fpage>
+                  <lpage>361</lpage>
+                  <pub-id pub-id-type="doi">10.1128/MMBR.68.2.345-361.2004</pub-id>
+                  <?supplied-pmid 15187188?>
+                  <pub-id pub-id-type="pmid">15187188</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-21-02666">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crabbe</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pycke</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Houdt</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monsieurs</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nickerson</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leys</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cornelis</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Response of <italic>Pseudomonas aeruginosa</italic> PAO1 to low shear modelled microgravity involves <italic>AlgU</italic> regulation</article-title>
+                  <source>Environ. Microbiol.</source>
+                  <year>2010</year>
+                  <volume>12</volume>
+                  <fpage>1545</fpage>
+                  <lpage>1564</lpage>
+                  <?supplied-pmid 20236169?>
+                  <pub-id pub-id-type="pmid">20236169</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-21-02666">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nickerson</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramamurthy</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>LeBlanc</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Honer zu Bentrup</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low-shear modeled microgravity: A global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis</article-title>
+                  <source>J. Microbiol. Methods</source>
+                  <year>2003</year>
+                  <volume>54</volume>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0167-7012(03)00018-6</pub-id>
+                  <pub-id pub-id-type="pmid">12732416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-21-02666">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guzy</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Paclik</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schirbel</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonnenborn</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wiedenmann</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sturm</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The probiotic <italic>Escherichia coli</italic> strain Nissle 1917 induces gammadelta T cell apoptosis via caspase- and <italic>FasL</italic>-dependent pathways</article-title>
+                  <source>Int. Immunol.</source>
+                  <year>2008</year>
+                  <volume>20</volume>
+                  <fpage>829</fpage>
+                  <lpage>840</lpage>
+                  <pub-id pub-id-type="doi">10.1093/intimm/dxn041</pub-id>
+                  <?supplied-pmid 18448456?>
+                  <pub-id pub-id-type="pmid">18448456</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-21-02666">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sonnenborn</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title><italic>Escherichia coli</italic> strain Nissle 1917-from bench to bedside and back: History of a special Escherichia coli strain with probiotic properties</article-title>
+                  <source>FEMS Microbiol. Lett.</source>
+                  <year>2016</year>
+                  <volume>363</volume>
+                  <fpage>fnw212</fpage>
+                  <pub-id pub-id-type="doi">10.1093/femsle/fnw212</pub-id>
+                  <?supplied-pmid 27619890?>
+                  <pub-id pub-id-type="pmid">27619890</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-21-02666">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ukena</surname>
+                      <given-names>S.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dringenberg</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Engelhardt</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Seidler</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hansen</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bleich</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bruder</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Franzke</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogler</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Probiotic <italic>Escherichia coli</italic> Nissle 1917 inhibits leaky gut by enhancing mucosal integrity</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2007</year>
+                  <volume>2</volume>
+                  <elocation-id>e1308</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0001308</pub-id>
+                  <?supplied-pmid 18074031?>
+                  <pub-id pub-id-type="pmid">18074031</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-21-02666">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wehkamp</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harder</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehkamp</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehkamp-von Meissner</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schlee</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Enders</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sonnenborn</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nuding</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bengmark</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fellermann</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>NF-kappaB- and AP-1-mediated induction of human beta defensin-2 in intestinal epithelial cells by <italic>Escherichia coli</italic> Nissle 1917: A novel effect of a probiotic bacterium</article-title>
+                  <source>Infect. Immun.</source>
+                  <year>2004</year>
+                  <volume>72</volume>
+                  <fpage>5750</fpage>
+                  <lpage>5758</lpage>
+                  <pub-id pub-id-type="doi">10.1128/IAI.72.10.5750-5758.2004</pub-id>
+                  <pub-id pub-id-type="pmid">15385474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-21-02666">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jacobi</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Malfertheiner</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title><italic>Escherichia coli</italic> Nissle 1917 (Mutaflor): New insights into an old probiotic bacterium</article-title>
+                  <source>Dig. Dis.</source>
+                  <year>2011</year>
+                  <volume>29</volume>
+                  <fpage>600</fpage>
+                  <lpage>607</lpage>
+                  <pub-id pub-id-type="doi">10.1159/000333307</pub-id>
+                  <pub-id pub-id-type="pmid">22179217</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-21-02666">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huijser</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Desktop RPM: New small size microgravity simulator for the bioscience laboratory</article-title>
+                  <source>Fokker Space</source>
+                  <year>2000</year>
+                  <volume>1</volume>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-21-02666">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Altschul</surname>
+                      <given-names>S.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Madden</surname>
+                      <given-names>T.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schaffer</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lipman</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gapped BLAST and PSI-BLAST: A new generation of protein database search programs</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>1997</year>
+                  <volume>25</volume>
+                  <fpage>3389</fpage>
+                  <lpage>3402</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/25.17.3389</pub-id>
+                  <pub-id pub-id-type="pmid">9254694</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-21-02666">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Keseler</surname>
+                      <given-names>I.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Collado-Vides</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gama-Castro</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ingraham</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Paley</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Paulsen</surname>
+                      <given-names>I.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peralta-Gil</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Karp</surname>
+                      <given-names>P.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>EcoCyc: A comprehensive database resource for <italic>Escherichia coli</italic></article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2005</year>
+                  <volume>33</volume>
+                  <fpage>D334</fpage>
+                  <lpage>D337</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gki108</pub-id>
+                  <?supplied-pmid 15608210?>
+                  <pub-id pub-id-type="pmid">15608210</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-21-02666">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kanehisa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Araki</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goto</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hattori</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hirakawa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Itoh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katayama</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawashima</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Okuda</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tokimatsu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>KEGG for linking genomes to life and the environment</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2008</year>
+                  <volume>36</volume>
+                  <fpage>D480</fpage>
+                  <lpage>D484</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkm882</pub-id>
+                  <?supplied-pmid 18077471?>
+                  <pub-id pub-id-type="pmid">18077471</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-21-02666">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bak</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suk</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Young Lee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>K.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>B.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification of novel sRNAs involved in biofilm formation, motility, and fimbriae formation in <italic>Escherichia coli</italic></article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <fpage>15287</fpage>
+                  <pub-id pub-id-type="doi">10.1038/srep15287</pub-id>
+                  <pub-id pub-id-type="pmid">26469694</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-21-02666">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Van Houdt</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Michiels</surname>
+                      <given-names>C.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Role of bacterial cell surface structures in Escherichia coli biofilm formation</article-title>
+                  <source>Res. Microbiol.</source>
+                  <year>2005</year>
+                  <volume>156</volume>
+                  <fpage>626</fpage>
+                  <lpage>633</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.resmic.2005.02.005</pub-id>
+                  <?supplied-pmid 15950122?>
+                  <pub-id pub-id-type="pmid">15950122</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-21-02666">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khadke</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Woo</surname>
+                      <given-names>J.-T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inhibitory Effects of Honokiol and Magnolol on Biofilm Formation by <italic>Acinetobacter baumannii</italic></article-title>
+                  <source>Biotechnol. Bioproc. E</source>
+                  <year>2019</year>
+                  <volume>24</volume>
+                  <fpage>359</fpage>
+                  <lpage>365</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12257-019-0006-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-21-02666">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zea</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prasad</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Levy</surname>
+                      <given-names>S.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shrestha</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klaus</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A Molecular Genetic Basis Explaining Altered Bacterial Behavior in Space</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2016</year>
+                  <volume>11</volume>
+                  <elocation-id>e0164359</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0164359</pub-id>
+                  <pub-id pub-id-type="pmid">27806055</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-21-02666">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Benoit</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Klaus</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity, bacteria, and the influence of motility</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>2007</year>
+                  <volume>39</volume>
+                  <fpage>1225</fpage>
+                  <lpage>1232</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2006.10.009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-21-02666">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tengra</surname>
+                      <given-names>F.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Young</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shong</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marchand</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>H.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pangule</surname>
+                      <given-names>R.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parra</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dordick</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Plawsky</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Spaceflight promotes biofilm formation by <italic>Pseudomonas aeruginosa</italic></article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <elocation-id>e62437</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0076106</pub-id>
+                  <pub-id pub-id-type="pmid">23658630</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-21-02666">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lynch</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mukundakrishnan</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benoit</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ayyaswamy</surname>
+                      <given-names>P.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title><italic>Escherichia coli</italic> biofilms formed under low-shear modeled microgravity in a ground-based system</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2006</year>
+                  <volume>72</volume>
+                  <fpage>7701</fpage>
+                  <lpage>7710</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.01294-06</pub-id>
+                  <pub-id pub-id-type="pmid">17028231</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-21-02666">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rong</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Increased biofilm formation ability in <italic>Klebsiella pneumoniae</italic> after short-term exposure to a simulated microgravity environment</article-title>
+                  <source>Microbiologyopen</source>
+                  <year>2016</year>
+                  <volume>5</volume>
+                  <fpage>793</fpage>
+                  <lpage>801</lpage>
+                  <pub-id pub-id-type="doi">10.1002/mbo3.370</pub-id>
+                  <pub-id pub-id-type="pmid">27185296</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-21-02666">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alexeeva</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hellingwerf</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Teixeira de Mattos</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Quantitative assessment of oxygen availability: Perceived aerobiosis and its effect on flux distribution in the respiratory chain of <italic>Escherichia coli</italic></article-title>
+                  <source>J. Bacteriol.</source>
+                  <year>2002</year>
+                  <volume>184</volume>
+                  <fpage>1402</fpage>
+                  <lpage>1406</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JB.184.5.1402-1406.2002</pub-id>
+                  <?supplied-pmid 11844770?>
+                  <pub-id pub-id-type="pmid">11844770</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-21-02666">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vorachek-Warren</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carty</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cotter</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raetz</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An <italic>Escherichia coli</italic> mutant lacking the cold shock-induced palmitoleoyltransferase of lipid A biosynthesis: Absence of unsaturated acyl chains and antibiotic hypersensitivity at 12 degrees C</article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2002</year>
+                  <volume>277</volume>
+                  <fpage>14186</fpage>
+                  <lpage>14193</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M200408200</pub-id>
+                  <?supplied-pmid 11830594?>
+                  <pub-id pub-id-type="pmid">11830594</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-21-02666">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chorell</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Åden</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Götheson</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koch</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sefer</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matthews</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wittung-Stafshede</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The bacterial curli system possesses a potent and selective inhibitor of amyloid formation</article-title>
+                  <source>Mol. Cell</source>
+                  <year>2015</year>
+                  <volume>57</volume>
+                  <fpage>445</fpage>
+                  <lpage>455</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.molcel.2014.12.025</pub-id>
+                  <?supplied-pmid 25620560?>
+                  <pub-id pub-id-type="pmid">25620560</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-21-02666">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lasaro</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salinger</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goulian</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>F1C fimbriae play an important role in biofilm formation and intestinal colonization by the <italic>Escherichia coli</italic> commensal strain Nissle 1917</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2009</year>
+                  <volume>75</volume>
+                  <fpage>246</fpage>
+                  <lpage>251</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.01144-08</pub-id>
+                  <pub-id pub-id-type="pmid">18997018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-21-02666">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nzakizwanayo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ogilvie</surname>
+                      <given-names>L.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dedi</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macfarlane</surname>
+                      <given-names>W.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>B.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Disruption of <italic>Escherichia coli</italic> Nissle 1917 K5 Capsule Biosynthesis, through Loss of Distinct <italic>kfi</italic> genes, Modulates Interaction with Intestinal Epithelial Cells and Impact on Cell Health</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <elocation-id>e0120430</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0120430</pub-id>
+                  <pub-id pub-id-type="pmid">25790373</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-21-02666">
+                <label>36.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chouker</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Stress challenges and Immunity in Space: From Mechanisms to Monitoring and Preventive Strategies</source>
+                  <publisher-name>Springer Science &amp; Business Media</publisher-name>
+                  <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+                  <year>2011</year>
+                  <fpage>203</fpage>
+                  <lpage>227</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-21-02666">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhee</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Influence of Low-Shear Modeled Microgravity on Heat Resistance, Membrane Fatty Acid Composition, and Heat Stress-Related Gene Expression in <italic>Escherichia coli</italic> O157:H7 ATCC 35150, ATCC 43889, ATCC 43890, and ATCC 43895</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2016</year>
+                  <volume>82</volume>
+                  <fpage>2893</fpage>
+                  <lpage>2901</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.00050-16</pub-id>
+                  <pub-id pub-id-type="pmid">26944847</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-21-02666">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Phadtare</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alsina</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Inouye</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cold-shock response and cold-shock proteins</article-title>
+                  <source>Curr. Opin. Microbiol.</source>
+                  <year>1999</year>
+                  <volume>2</volume>
+                  <fpage>175</fpage>
+                  <lpage>180</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1369-5274(99)80031-9</pub-id>
+                  <pub-id pub-id-type="pmid">10322168</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-21-02666">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Malki</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Le</surname>
+                      <given-names>H.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milles</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kern</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caldas</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdallah</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Richarme</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Solubilization of protein aggregates by the acid stress chaperones <italic>HdeA</italic> and <italic>HdeB</italic></article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2008</year>
+                  <volume>283</volume>
+                  <fpage>13679</fpage>
+                  <lpage>13687</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M800869200</pub-id>
+                  <pub-id pub-id-type="pmid">18359765</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-ijms-21-02666">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castanie-Cornet</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cam</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bastiat</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cros</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bordes</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gutierrez</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Acid stress response in Escherichia coli: Mechanism of regulation of <italic>gadA</italic> transcription by <italic>RcsB</italic> and <italic>GadE</italic></article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2010</year>
+                  <volume>38</volume>
+                  <fpage>3546</fpage>
+                  <lpage>3554</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkq097</pub-id>
+                  <pub-id pub-id-type="pmid">20189963</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-ijms-21-02666">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kolmakova-Partensky</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A bacterial arginine-agmatine exchange transporter involved in extreme acid resistance</article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2007</year>
+                  <volume>282</volume>
+                  <fpage>176</fpage>
+                  <lpage>182</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M610075200</pub-id>
+                  <pub-id pub-id-type="pmid">17099215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-ijms-21-02666">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>H.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rhee</surname>
+                      <given-names>M.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity Alters the Physiological Characteristics of <italic>Escherichia coli</italic> O157:H7 ATCC 35150, ATCC 43889, and ATCC 43895 under Different Nutrient Conditions</article-title>
+                  <source>Appl. Environ. Microbiol.</source>
+                  <year>2014</year>
+                  <volume>80</volume>
+                  <fpage>2270</fpage>
+                  <lpage>2278</lpage>
+                  <pub-id pub-id-type="doi">10.1128/AEM.04037-13</pub-id>
+                  <?supplied-pmid 24487539?>
+                  <pub-id pub-id-type="pmid">24487539</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-ijms-21-02666">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rensing</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grass</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title><italic>Escherichia coli</italic> mechanisms of copper homeostasis in a changing environment</article-title>
+                  <source>FEMS Microbiol. Rev.</source>
+                  <year>2003</year>
+                  <volume>27</volume>
+                  <fpage>197</fpage>
+                  <lpage>213</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0168-6445(03)00049-4</pub-id>
+                  <pub-id pub-id-type="pmid">12829268</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-ijms-21-02666">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>King</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Selak</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gottlieb</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Succinate dehydrogenase and fumarate hydratase: Linking mitochondrial dysfunction and cancer</article-title>
+                  <source>Oncogene</source>
+                  <year>2006</year>
+                  <volume>25</volume>
+                  <fpage>4675</fpage>
+                  <lpage>4682</lpage>
+                  <pub-id pub-id-type="doi">10.1038/sj.onc.1209594</pub-id>
+                  <?supplied-pmid 16892081?>
+                  <pub-id pub-id-type="pmid">16892081</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-ijms-21-02666">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beauchene</surname>
+                      <given-names>N.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mettert</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moore</surname>
+                      <given-names>L.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Keles</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Willey</surname>
+                      <given-names>E.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiley</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>O<sub>2</sub> availability impacts iron homeostasis in <italic>Escherichia coli</italic></article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2017</year>
+                  <volume>114</volume>
+                  <fpage>12261</fpage>
+                  <lpage>12266</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1707189114</pub-id>
+                  <?supplied-pmid 29087312?>
+                  <pub-id pub-id-type="pmid">29087312</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-ijms-21-02666">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miethke</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Molecular strategies of microbial iron assimilation: From high-affinity complexes to cofactor assembly systems</article-title>
+                  <source>Metallomics</source>
+                  <year>2013</year>
+                  <volume>5</volume>
+                  <fpage>15</fpage>
+                  <lpage>28</lpage>
+                  <pub-id pub-id-type="doi">10.1039/C2MT20193C</pub-id>
+                  <?supplied-pmid 23192658?>
+                  <pub-id pub-id-type="pmid">23192658</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47-ijms-21-02666">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>S.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Szubin</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palsson</surname>
+                      <given-names>B.O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Genome-wide Reconstruction of <italic>OxyR</italic> and <italic>SoxRS</italic> Transcriptional Regulatory Networks under Oxidative Stress in <italic>Escherichia coli</italic> K-12 MG1655</article-title>
+                  <source>Cell Rep.</source>
+                  <year>2015</year>
+                  <volume>12</volume>
+                  <fpage>1289</fpage>
+                  <lpage>1299</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.celrep.2015.07.043</pub-id>
+                  <?supplied-pmid 26279566?>
+                  <pub-id pub-id-type="pmid">26279566</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48-ijms-21-02666">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gao</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leary</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mechanism and kinetics of metalloenzyme phosphomannose isomerase: Measurement of dissociation constants and effect of zinc binding using ESI-FTICR mass spectrometry</article-title>
+                  <source>Anal. Chem.</source>
+                  <year>2005</year>
+                  <volume>77</volume>
+                  <fpage>5596</fpage>
+                  <lpage>5603</lpage>
+                  <pub-id pub-id-type="doi">10.1021/ac050549m</pub-id>
+                  <pub-id pub-id-type="pmid">16131071</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B49-ijms-21-02666">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wolf</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schmidt</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Zinc and glutamate dehydrogenase in putative glutamatergic brain structures</article-title>
+                  <source>Acta Histochem.</source>
+                  <year>1983</year>
+                  <volume>72</volume>
+                  <fpage>15</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0065-1281(83)80004-X</pub-id>
+                  <pub-id pub-id-type="pmid">6192663</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B50-ijms-21-02666">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Noll</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrukhin</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lutsenko</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification of a novel transcription regulator from <italic>Proteus mirabilis</italic>, PMTR, revealed a possible role of YJAI protein in balancing zinc in <italic>Escherichia coli</italic></article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>1998</year>
+                  <volume>273</volume>
+                  <fpage>21393</fpage>
+                  <lpage>21401</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.273.33.21393</pub-id>
+                  <pub-id pub-id-type="pmid">9694902</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B51-ijms-21-02666">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Koh</surname>
+                      <given-names>E.-I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hung</surname>
+                      <given-names>C.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Henderson</surname>
+                      <given-names>J.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Yersiniabactin-Associated ATP Binding Cassette Proteins <italic>YbtP</italic> and <italic>YbtQ</italic> Enhance <italic>Escherichia coli</italic> Fitness during High-Titer Cystitis</article-title>
+                  <source>Infect. Immun.</source>
+                  <year>2016</year>
+                  <volume>84</volume>
+                  <fpage>1312</fpage>
+                  <lpage>1319</lpage>
+                  <pub-id pub-id-type="doi">10.1128/IAI.01211-15</pub-id>
+                  <pub-id pub-id-type="pmid">26883590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B52-ijms-21-02666">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Behnsen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valeri</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoover</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tjokrosurjo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Montaldo</surname>
+                      <given-names>N.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Treacy-Abarca</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garibay</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilston</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Probiotic <italic>Escherichia coli</italic> Nissle 1917 Uses Zinc Transporters and the Siderophore Yersiniabactin to Acquire Zinc in the Inflamed Gut and Outcompete <italic>Salmonella Typhimurium</italic></article-title>
+                  <source>FASEB J.</source>
+                  <year>2017</year>
+                  <volume>31</volume>
+                  <fpage>622</fpage>
+                  <lpage>626</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B53-ijms-21-02666">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hasona</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Self</surname>
+                      <given-names>W.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ray</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shanmugam</surname>
+                      <given-names>K.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Molybdate-dependent transcription of <italic>hyc</italic> and <italic>nar</italic> operons of <italic>Escherichia coli</italic> requires <italic>MoeA</italic> protein and <italic>ModE</italic>-molybdate</article-title>
+                  <source>FEMS Microbiol. Lett.</source>
+                  <year>1998</year>
+                  <volume>169</volume>
+                  <fpage>111</fpage>
+                  <lpage>116</lpage>
+                  <pub-id pub-id-type="doi">10.1111/j.1574-6968.1998.tb13306.x</pub-id>
+                  <?supplied-pmid 9851041?>
+                  <pub-id pub-id-type="pmid">9851041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B54-ijms-21-02666">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thome</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gust</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Toci</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mendel</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bittner</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Magalon</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Walburger</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A sulfurtransferase is essential for activity of formate dehydrogenases in <italic>Escherichia coli</italic></article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2012</year>
+                  <volume>287</volume>
+                  <fpage>4671</fpage>
+                  <lpage>4678</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M111.327122</pub-id>
+                  <?supplied-pmid 22194618?>
+                  <pub-id pub-id-type="pmid">22194618</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B55-ijms-21-02666">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gisselberg</surname>
+                      <given-names>J.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dellibovi-Ragheb</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matthews</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bosch</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Prigge</surname>
+                      <given-names>S.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The suf iron-sulfur cluster synthesis pathway is required for apicoplast maintenance in malaria parasites</article-title>
+                  <source>PLoS Pathog.</source>
+                  <year>2013</year>
+                  <volume>9</volume>
+                  <elocation-id>e1003655</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.ppat.1003655</pub-id>
+                  <?supplied-pmid 24086138?>
+                  <pub-id pub-id-type="pmid">24086138</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B56-ijms-21-02666">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Seo</surname>
+                      <given-names>S.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Latif</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Brien</surname>
+                      <given-names>E.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Szubin</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palsson</surname>
+                      <given-names>B.O.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Deciphering <italic>Fur</italic> transcriptional regulatory network highlights its complex role beyond iron metabolism in <italic>Escherichia coli</italic></article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2014</year>
+                  <volume>5</volume>
+                  <fpage>4910</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms5910</pub-id>
+                  <?supplied-pmid 25222563?>
+                  <pub-id pub-id-type="pmid">25222563</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B57-ijms-21-02666">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pomposiello</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Demple</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global adjustment of microbial physiology during free radical stress</article-title>
+                  <source>Adv. Microb. Physiol.</source>
+                  <year>2002</year>
+                  <volume>46</volume>
+                  <fpage>319</fpage>
+                  <lpage>341</lpage>
+                  <pub-id pub-id-type="pmid">12073656</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B58-ijms-21-02666">
+                <label>58.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wendisch</surname>
+                      <given-names>V.F.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Amino Acid Biosynthesis–Pathways, Regulation and Metabolic Engineering</source>
+                  <publisher-name>Springer Science &amp; Business Media</publisher-name>
+                  <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+                  <year>2007</year>
+                  <volume>Volume 5</volume>
+                  <fpage>198</fpage>
+                  <lpage>218</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B59-ijms-21-02666">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>André</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haudecoeur</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monot</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohtani</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimizu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dupuy</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin-Verstraete</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global regulation of gene expression in response to cysteine availability in <italic>Clostridium perfringens</italic></article-title>
+                  <source>BMC Microbiol.</source>
+                  <year>2010</year>
+                  <volume>10</volume>
+                  <fpage>204</fpage>
+                  <lpage>208</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2180-10-234</pub-id>
+                  <pub-id pub-id-type="pmid">20670397</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B60-ijms-21-02666">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fontecave</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Py</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ollagnier de Choudens</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barras</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>From Iron and Cysteine to Iron-Sulfur Clusters: The Biogenesis Protein Machineries</article-title>
+                  <source>EcoSal Plus</source>
+                  <year>2008</year>
+                  <volume>3</volume>
+                  <pub-id pub-id-type="doi">10.1128/ecosalplus.3.6.3.14</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B61-ijms-21-02666">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kawano</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suzuki</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohtsu</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Current understanding of sulfur assimilation metabolism to biosynthesize L-cysteine and recent progress of its fermentative overproduction in microorganisms</article-title>
+                  <source>Appl. Microbiol. Biotechnol.</source>
+                  <year>2018</year>
+                  <volume>102</volume>
+                  <fpage>8203</fpage>
+                  <lpage>8211</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00253-018-9246-4</pub-id>
+                  <pub-id pub-id-type="pmid">30046857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B62-ijms-21-02666">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ostrowski</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kredich</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>In vitro interactions of <italic>CysB</italic> protein with the <italic>cysJIH</italic> promoter of <italic>Salmonella typhimurium</italic>: Inhibitory effects of sulfide</article-title>
+                  <source>J. Bacteriol.</source>
+                  <year>1990</year>
+                  <volume>172</volume>
+                  <fpage>779</fpage>
+                  <lpage>785</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JB.172.2.779-785.1990</pub-id>
+                  <pub-id pub-id-type="pmid">2105304</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B63-ijms-21-02666">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McPherson</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of a microgravity environment on the crystallization of biological macromolecules</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>1993</year>
+                  <volume>6</volume>
+                  <fpage>101</fpage>
+                  <lpage>109</lpage>
+                  <?supplied-pmid 11541857?>
+                  <pub-id pub-id-type="pmid">11541857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B64-ijms-21-02666">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shimizu</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regulation Systems of Bacteria such as <italic>Escherichia coli</italic> in Response to Nutrient Limitation and Environmental Stresses</article-title>
+                  <source>Metabolites</source>
+                  <year>2013</year>
+                  <volume>4</volume>
+                  <fpage>1</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.3390/metabo4010001</pub-id>
+                  <?supplied-pmid 24958385?>
+                  <pub-id pub-id-type="pmid">24958385</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B65-ijms-21-02666">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schreiber</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Appel</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Makowka</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fähnrich</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roettger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajirezaei</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sönnichsen</surname>
+                      <given-names>F.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schönheit</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>W.F.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The Entner-Doudoroff pathway is an overlooked glycolytic route in cyanobacteria and plants</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2016</year>
+                  <volume>113</volume>
+                  <fpage>5441</fpage>
+                  <lpage>5446</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1521916113</pub-id>
+                  <pub-id pub-id-type="pmid">27114545</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B66-ijms-21-02666">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mailloux</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Puiseux-Dao</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Appanna</surname>
+                      <given-names>V.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oxidative Stress Evokes a Metabolic Adaptation That Favors Increased NADPH Synthesis and Decreased NADH Production in <italic>Pseudomonas fluorescens</italic></article-title>
+                  <source>J. Bacteriol.</source>
+                  <year>2007</year>
+                  <volume>189</volume>
+                  <fpage>6665</fpage>
+                  <lpage>6675</lpage>
+                  <pub-id pub-id-type="doi">10.1128/JB.00555-07</pub-id>
+                  <?supplied-pmid 17573472?>
+                  <pub-id pub-id-type="pmid">17573472</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B67-ijms-21-02666">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wasylenko</surname>
+                      <given-names>T.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahn</surname>
+                      <given-names>W.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stephanopoulos</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The oxidative pentose phosphate pathway is the primary source of NADPH for lipid overproduction from glucose in <italic>Yarrowia lipolytica</italic></article-title>
+                  <source>Metab. Eng.</source>
+                  <year>2015</year>
+                  <volume>30</volume>
+                  <fpage>27</fpage>
+                  <lpage>39</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ymben.2015.02.007</pub-id>
+                  <pub-id pub-id-type="pmid">25747307</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B68-ijms-21-02666">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Voigt</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoi</surname>
+                      <given-names>L.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jürgen</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Albrecht</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehrenreich</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Veith</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evers</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maurer</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hecker</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schweder</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The glucose and nitrogen starvation response of <italic>Bacillus licheniformis</italic></article-title>
+                  <source>Proteomics</source>
+                  <year>2007</year>
+                  <volume>7</volume>
+                  <fpage>413</fpage>
+                  <lpage>423</lpage>
+                  <pub-id pub-id-type="doi">10.1002/pmic.200600556</pub-id>
+                  <pub-id pub-id-type="pmid">17274076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B69-ijms-21-02666">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bolton</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dunlap</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Formation and Biological Targets of Quinones: Cytotoxic versus Cytoprotective Effects</article-title>
+                  <source>Chem. Res. Toxicol.</source>
+                  <year>2017</year>
+                  <volume>30</volume>
+                  <fpage>13</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acs.chemrestox.6b00256</pub-id>
+                  <pub-id pub-id-type="pmid">27617882</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B70-ijms-21-02666">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cardaci</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jerby</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>MacKenzie</surname>
+                      <given-names>E.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sciacovelli</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>T.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaude</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leach</surname>
+                      <given-names>J.D.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edrada-Ebel</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Fumarate induces redox-dependent senescence by modifying glutathione metabolism</article-title>
+                  <source>Nat. Commun.</source>
+                  <year>2015</year>
+                  <volume>6</volume>
+                  <fpage>6001</fpage>
+                  <pub-id pub-id-type="doi">10.1038/ncomms7001</pub-id>
+                  <pub-id pub-id-type="pmid">25613188</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B71-ijms-21-02666">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>M.-F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Di He</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>C.X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hong</surname>
+                      <given-names>P.Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qian</surname>
+                      <given-names>Z.-J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Antioxidant Peptide Purified from Enzymatic Hydrolysates of <italic>Isochrysis Zhanjiangensis</italic> and Its Protective Effect against Ethanol Induced Oxidative Stress of HepG2 Cells</article-title>
+                  <source>Biotechnol. Bioproc. E</source>
+                  <year>2019</year>
+                  <volume>24</volume>
+                  <fpage>308</fpage>
+                  <lpage>317</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12257-018-0391-5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B72-ijms-21-02666">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cronan</surname>
+                      <given-names>J.E.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                  </person-group>
+                  <article-title>The gene encoding the biotin carboxylase subunit of <italic>Escherichia coli</italic> acetyl-CoA carboxylase</article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>1992</year>
+                  <volume>267</volume>
+                  <fpage>855</fpage>
+                  <lpage>863</lpage>
+                  <pub-id pub-id-type="pmid">1370469</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B73-ijms-21-02666">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Janetopoulos</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Systematic analysis of γ-aminobutyric acid (GABA) metabolism and function in the social amoeba <italic>Dictyostelium discoideum</italic></article-title>
+                  <source>J. Biol. Chem.</source>
+                  <year>2013</year>
+                  <volume>288</volume>
+                  <fpage>15280</fpage>
+                  <lpage>15290</lpage>
+                  <pub-id pub-id-type="doi">10.1074/jbc.M112.427047</pub-id>
+                  <?supplied-pmid 23548898?>
+                  <pub-id pub-id-type="pmid">23548898</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B74-ijms-21-02666">
+                <label>74.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ren</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Production of γ-aminobutyric acid in <italic>Escherichia coli</italic> by engineering MSG pathway</article-title>
+                  <source>Prep. Biochem. Biotechnol.</source>
+                  <year>2018</year>
+                  <volume>48</volume>
+                  <fpage>906</fpage>
+                  <lpage>913</lpage>
+                  <pub-id pub-id-type="doi">10.1080/10826068.2018.1514519</pub-id>
+                  <?supplied-pmid 30265207?>
+                  <pub-id pub-id-type="pmid">30265207</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijms-21-02666-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>(<bold>A</bold>) The operating orientation of the rotary cell culture system (RCCS) under microgravity (MG) and normal gravity (NG) conditions is shown. (<bold>B</bold>) The growth profiles of EcN at 37 °C in a clinostat under MG and NG conditions are shown. (<bold>C</bold>) Identified differentially expressed genes (DEGs) during the exponential and stationary growth phases are shown in the Venn diagram.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-02666-g001"/>
+            </fig>
+            <fig id="ijms-21-02666-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Hierarchical clusters diagram of the fold change ratio of DEGs for each group. Each column represents the DEGs in the exponential (Exp) and stationary (Sta) growth phase, respectively. The fold change is relative to the original value. Mean positive fold change values represent the expression ratio of MG to NG for the DEGs up-regulated under MG conditions compared to that under NG conditions and are indicated in red. Mean negative fold change values represent the expression ratio of NG to MG for the DEGs down-regulated under MG conditions compared to that under NG conditions and are indicated in blue. The gene <italic>csgC</italic> was expressed only under MG conditions during the stationary growth phase.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-02666-g002"/>
+            </fig>
+            <fig id="ijms-21-02666-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>DEGs related to stress resistance are shown. The up-regulated and down-regulated genes under the MG condition compared to the NG condition are depicted by the direction of the up and down arrowheads, respectively. DEGs during the exponential and stationary growth phases are indicated by the solid and empty arrowheads, respectively.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-02666-g003"/>
+            </fig>
+            <fig id="ijms-21-02666-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>DEGs related to metal ion acquisition and utilization are shown. The up-regulated and down-regulated genes under the MG condition compared to the NG condition are depicted by the direction of the up and down arrowheads, respectively. DEGs during the exponential and stationary growth phases are indicated by the solid and empty arrowheads, respectively.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-02666-g004"/>
+            </fig>
+            <fig id="ijms-21-02666-f005" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p>DEGs related to carbon starvation metabolism are shown. The up-regulated and down-regulated genes under the MG condition compared to the NG condition are depicted by the direction of the up and down arrowheads, respectively. DEGs during the exponential and the stationary growth phases are indicated by the solid and empty arrowheads, respectively.</p>
+              </caption>
+              <graphic xlink:href="ijms-21-02666-g005"/>
+            </fig>
+            <table-wrap id="ijms-21-02666-t001" orientation="portrait" position="float">
+              <object-id pub-id-type="pii">ijms-21-02666-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>DEGs presented in both MG and NG. All DEGs that overlapped the two gravity conditions are listed as fold change values and the categorized group indicated. Fold change value are relative to the original value. The positive fold change values are provided as the expression ratio of MG to NG. The negative fold change values are provided as the expression ratio of NG to MG.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Locus Tag</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Fold Change (Exp)</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Fold Change (Sta)</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Gene Function</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Gene</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Function Category</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_01835</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−3.51</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−2.48</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">hypothetical protein</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>ecpC</italic>
+                    </td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">Biofilm formation</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ECOLIN_01840</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−3.57</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−4.46</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">hypothetical protein</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>ecpB</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Biofilm formation</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_01845</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−3.56</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−7.36</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">fimbrial protein</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>ecpA</italic>
+                    </td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">Biofilm formation</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ECOLIN_01850</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−2.76</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−3.78</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">LuxR family transcriptional regulator</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>ecpR</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Biofilm formation</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_19660</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">2.38</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−2.24</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">cold-shock protein</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>cspA</italic>
+                    </td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">Stress resistance</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ECOLIN_19450</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−2.36</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−2.27</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">glutamate decarboxylase</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>gadA</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Stress resistance</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_09330</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">2.27</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−2.30</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">L-cystine transporter tcyP</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>tcyP</italic>
+                    </td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">Metal ion utilization</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ECOLIN_09975</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−2.82</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−5.68</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">zinc ABC transporter substrate-binding protein</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>znuA</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Metal ion utilization</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_10835</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−2.43</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">−15.62</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">zinc/cadmium-binding protein</td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>zinT</italic>
+                    </td>
+                    <td align="center" valign="middle" style="background:#CCCCCC" rowspan="1" colspan="1">Metal ion utilization</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ECOLIN_02515</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2.50</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−2.17</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">cytochrome o ubiquinol oxidase subunit II</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">
+                      <italic>cyoA</italic>
+                    </td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Uncategorized</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">ECOLIN_01860</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">−3.45</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">−11.11</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">50 S ribosomal protein L31 type B</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">
+                      <italic>-</italic>
+                    </td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin;background:#CCCCCC" rowspan="1" colspan="1">Uncategorized</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

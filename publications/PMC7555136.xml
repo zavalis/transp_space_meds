@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:57:47Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7555136" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7555136</identifier>
+        <datestamp>2020-10-14</datestamp>
+        <setSpec>life</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Life (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Life (Basel)</journal-id>
+              <journal-id journal-id-type="publisher-id">life</journal-id>
+              <journal-title-group>
+                <journal-title>Life</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2075-1729</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7555136</article-id>
+              <article-id pub-id-type="pmcid">PMC7555136</article-id>
+              <article-id pub-id-type="pmc-uid">7555136</article-id>
+              <article-id pub-id-type="pmid">32933026</article-id>
+              <article-id pub-id-type="doi">10.3390/life10090196</article-id>
+              <article-id pub-id-type="publisher-id">life-10-00196</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Integrated RNA-seq Analysis Indicates Asynchrony in Clock Genes between Tissues under Spaceflight</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1158-9098</contrib-id>
+                  <name>
+                    <surname>Fujita</surname>
+                    <given-names>Shin-ichiro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-life-10-00196">1</xref>
+                  <xref ref-type="aff" rid="af2-life-10-00196">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Rutter</surname>
+                    <given-names>Lindsay</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-life-10-00196">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3490-3892</contrib-id>
+                  <name>
+                    <surname>Ong</surname>
+                    <given-names>Quang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-life-10-00196">1</xref>
+                  <xref ref-type="aff" rid="af2-life-10-00196">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Muratani</surname>
+                    <given-names>Masafumi</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-life-10-00196">2</xref>
+                  <xref rid="c1-life-10-00196" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-life-10-00196"><label>1</label>Doctoral Program in Biomedical Sciences, Graduate School of Comprehensive Human Sciences, University of Tsukuba, Ibaraki 305-8575, Japan; <email>s1730411@s.tsukuba.ac.jp</email> (S.-i.F.); <email>s1736043@s.tsukuba.ac.jp</email> (Q.O.)</aff>
+              <aff id="af2-life-10-00196"><label>2</label>Department of Genome Biology, Faculty of Medicine, University of Tsukuba, Ibaraki 305-8575, Japan; <email>rutter.lindsay.fn@u.tsukuba.ac.jp</email></aff>
+              <author-notes>
+                <corresp id="c1-life-10-00196"><label>*</label>Correspondence: <email>muratani@md.tsukuba.ac.jp</email>; Tel.: +81-029-853-3349</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>11</day>
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>9</month>
+                <year>2020</year>
+              </pub-date>
+              <volume>10</volume>
+              <issue>9</issue>
+              <elocation-id>196</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>8</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>9</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2020 by the authors.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Rodent models have been widely used as analogs for estimating spaceflight-relevant molecular mechanisms in human tissues. NASA GeneLab provides access to numerous spaceflight omics datasets that can potentially generate novel insights and hypotheses about fundamental space biology when analyzed in new and integrated fashions. Here, we performed a pilot study to elucidate space biological mechanisms across tissues by reanalyzing mouse RNA-sequencing spaceflight data archived on NASA GeneLab. Our results showed that clock gene expressions in spaceflight mice were altered compared with those in ground control mice. Furthermore, the results suggested that spaceflight promotes asynchrony of clock gene expressions between peripheral tissues. Abnormal circadian rhythms are associated not only with jet lag and sleep disorders but also with cancer, lifestyle-related diseases, and mental disorders. Overall, our findings highlight the importance of elucidating the causes of circadian rhythm disruptions using the unique approach of space biology research to one day potentially develop countermeasures that benefit humans on Earth and in space.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>circadian rhythm</kwd>
+                <kwd>RNA-seq</kwd>
+                <kwd>bioinformatics</kwd>
+                <kwd>genomics</kwd>
+                <kwd>gene expression</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>spaceflight</kwd>
+                <kwd>space biology</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-life-10-00196">
+              <title>1. Introduction</title>
+              <p>The unique environment during spaceflight affects various physiological functions in astronauts [<xref rid="B1-life-10-00196" ref-type="bibr">1</xref>,<xref rid="B2-life-10-00196" ref-type="bibr">2</xref>]. With increasing opportunities for human spaceflight, a better understanding of the effects of spaceflight on the human body at the molecular level is essential. Unfortunately, solid tissue biopsies cannot be performed in the full human body in most cases. Human biopsies can usually only be obtained by using less invasive approaches, rendering it all the more difficult to investigate human tissue-level mechanisms during spaceflight. The impact of spaceflight itself is challenging to understand owing to its inherent complexity of environmental stressors, such as confinement in a closed environment, microgravity, radiation, and noise. Since the dawn of human spaceflight, basic life science experiments have been actively conducted in space to learn more about disease processes here on Earth from a new and unique perspective. Rodent models are often used as analogs for estimating biological mechanisms inside human tissues [<xref rid="B3-life-10-00196" ref-type="bibr">3</xref>,<xref rid="B4-life-10-00196" ref-type="bibr">4</xref>]. Mice studies under spaceflight conditions have been successfully conducted to elicit molecular mechanisms at the tissue and cellular levels [<xref rid="B3-life-10-00196" ref-type="bibr">3</xref>,<xref rid="B5-life-10-00196" ref-type="bibr">5</xref>,<xref rid="B6-life-10-00196" ref-type="bibr">6</xref>,<xref rid="B7-life-10-00196" ref-type="bibr">7</xref>,<xref rid="B8-life-10-00196" ref-type="bibr">8</xref>].</p>
+              <p>Omics analysis has led to many novel discoveries for researchers through advances in genome-wide analysis techniques [<xref rid="B9-life-10-00196" ref-type="bibr">9</xref>]. Since the NASA GeneLab database was launched in 2015, the open-access database and its multi-omics format have provided researchers with countless new insights [<xref rid="B10-life-10-00196" ref-type="bibr">10</xref>,<xref rid="B11-life-10-00196" ref-type="bibr">11</xref>,<xref rid="B12-life-10-00196" ref-type="bibr">12</xref>,<xref rid="B13-life-10-00196" ref-type="bibr">13</xref>,<xref rid="B14-life-10-00196" ref-type="bibr">14</xref>,<xref rid="B15-life-10-00196" ref-type="bibr">15</xref>]. The NASA GeneLab database stores a variety of open-access, spaceflight-related omics datasets for numerous organisms, including microbes, plants, animals, and humans [<xref rid="B16-life-10-00196" ref-type="bibr">16</xref>,<xref rid="B17-life-10-00196" ref-type="bibr">17</xref>]. Datasets are stored as microarrays, RNA-seq, bisulfite sequencing, proteomics, and metabolomics [<xref rid="B16-life-10-00196" ref-type="bibr">16</xref>,<xref rid="B17-life-10-00196" ref-type="bibr">17</xref>]. Omics data are rich with information on the different molecules that make up living organisms. Furthermore, GeneLab Analysis Working Groups (AWGs) regularly update data standardization workflows in the database to meet the latest recommendations from the bioinformatics discipline. As such, multi-omics data from a platform like NASA GeneLab can be continuously re-investigated with newer and deeper analyses to potentially extract novel insights and hypotheses that assess the biological risks of space missions.</p>
+              <p>This study aimed to reanalyze archived RNA-seq data from NASA GeneLab to unravel molecular responses to spaceflight. We conducted enrichment analysis on data from multiple tissues to investigate what molecular changes were revealed under spaceflight conditions. Enrichment analysis indicated that common ontologies and critical regulators between peripheral tissues were associated with circadian rhythms. Our results suggested that clock genes across tissues were affected by expression changes under spaceflight conditions. Furthermore, we observed asynchrony in the expression of the clock genes between certain peripheral tissues. Circadian rhythm disruption is associated not only with astronaut health and performance but also with cancer, lifestyle-related diseases, and mental disorders here on Earth [<xref rid="B18-life-10-00196" ref-type="bibr">18</xref>,<xref rid="B19-life-10-00196" ref-type="bibr">19</xref>]. Therefore, further studies on how spaceflight affects tissue functions should be an essential agenda item in order to better understand mammalian physiology and potentially create countermeasures that benefit humans on Earth and in space. Our study did not determine whether clock genes were primarily affected by spaceflight factors (such as microgravity and radiation) and/or extraneous factors (such as rearing environment and sample processing) [<xref rid="B20-life-10-00196" ref-type="bibr">20</xref>]. Our findings not only generate new insights into space biological mechanisms, but also underline the critical need for space biology researchers to maintain and share detailed experimental metadata so that meta-analyses may one day disentangle exactly which factors cause circadian rhythm disruption during spaceflight.</p>
+            </sec>
+            <sec id="sec2-life-10-00196">
+              <title>2. Materials and Methods</title>
+              <sec id="sec2dot1-life-10-00196">
+                <title>2.1. Data Preparation and Processing</title>
+                <p>The transcriptome datasets used for this study were from openly available data housed on NASA’s GeneLab platform and are updated to meet the latest recommendations from the analysis workflow by NASA GeneLab AWGs (<uri>genelab.nasa.gov</uri>). Specifically, 8 RNA-seq datasets from NASA GeneLab (GLDS-98, -99, -101, -102, -103, -104, -105, and -168) were used for downstream analysis [<xref rid="B21-life-10-00196" ref-type="bibr">21</xref>,<xref rid="B22-life-10-00196" ref-type="bibr">22</xref>,<xref rid="B23-life-10-00196" ref-type="bibr">23</xref>,<xref rid="B24-life-10-00196" ref-type="bibr">24</xref>,<xref rid="B25-life-10-00196" ref-type="bibr">25</xref>,<xref rid="B26-life-10-00196" ref-type="bibr">26</xref>,<xref rid="B27-life-10-00196" ref-type="bibr">27</xref>,<xref rid="B28-life-10-00196" ref-type="bibr">28</xref>]. These data were all derived from the same mission. Metadata on NASA GeneLab indicated that 16-week-old C57BL/6 J female mice were used and that the mice were maintained under a 12 h light/dark cycle throughout the 37-day spaceflight mission. Each dataset corresponded to a different mouse tissue: adrenal glands, extensor digitorum longus muscle, gastrocnemius muscle, kidneys, quadriceps muscle, soleus muscle, tibialis anterior muscle, and liver, respectively. In addition, each dataset contained about 5–6 spaceflight (FLT) and 5–6 ground control (GC). We used the External RNA Control Consortium (ERCC) results for the quantitative values of GLDS-168. We performed 2 main forms of differentially expressed gene (DEG) analyses: 1 tissue-wide analysis and 8 individual tissue analyses. For the tissue-wide analysis, we compared all the FLT samples regardless of the tissue (<italic>n</italic> = 47) with all GC samples regardless of the tissue (<italic>n</italic> = 46). Quantile normalization was performed on each “rna_seq_Unnormalized counts.csv” file stored in each “GeneLab Processed RNA-Seq Files” directory on NASA GeneLab using CLC Genomics Workbench (version 11.0.2, QIAGEN, Hilden, Germany). The <italic>t</italic> test was used for the statistical analysis, and the statistical threshold was defined with a false discovery rate (FDR) &lt; 0.1. For each of the 8 individual tissue analyses, we downloaded the “rna_seq_differential_expression.csv” files stored in the “GeneLab Processed RNA-Sseq Files” directory on NASA GeneLab, in which statistical analysis had already been conducted to determine DEGs. The statistical threshold was defined as FDR &lt; 0.05.</p>
+              </sec>
+              <sec id="sec2dot2-life-10-00196">
+                <title>2.2. Data Visualization</title>
+                <p>Principal component analysis (PCA) was performed using the scikit-learn package 0.17.1 in Python v3.7 (<uri xlink:href="https://scikit-learn.org">https://scikit-learn.org</uri>). Heatmaps were generated using the Python seaborn.clustermap function (<uri xlink:href="https://seaborn.pydata.org">https://seaborn.pydata.org</uri>).</p>
+              </sec>
+              <sec id="sec2dot3-life-10-00196">
+                <title>2.3. Enrichment Analysis</title>
+                <p>Enrichment analysis was performed on DEGs using Metascape with default settings [<xref rid="B29-life-10-00196" ref-type="bibr">29</xref>].</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3-life-10-00196">
+              <title>3. Results</title>
+              <sec id="sec3dot1-life-10-00196">
+                <title>3.1. Spaceflight Could Cause Significant Changes in the Expression of Clock Genes in Multiple Tissues</title>
+                <p>To examine how spaceflight affects prevalent molecular mechanisms across tissues, we reanalyzed 8 RNA-seq datasets archived on the NASA GeneLab database using tissue-wide analysis. Comparison between FLT and GC identified 13 up-regulated genes and 13 down-regulated genes (FDR &lt; 0.1) (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>A). PCA plots of the 26 tissue-wide DEGs showed that the first principal component separated the 5 muscle tissues from the adrenal glands, kidneys, and liver tissues, whereas the second principal component separated the FLT group from the GC group (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>B). Enrichment analysis showed that terms related to circadian rhythms, herpes simplex infection, and endocrine system development were significantly enriched in the 26 DEGs of the tissue-wide analysis (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>C).</p>
+              </sec>
+              <sec id="sec3dot2-life-10-00196">
+                <title>3.2. Spaceflight Could Enrich Key Regulators Related to Circadian Rhythms in Peripheral Tissues</title>
+                <p>DEGs between FLT and GC were identified at the FDR &lt; 0.05 level separately for each of the 8 individual tissues: adrenal glands (<italic>n</italic> = 67), kidneys (<italic>n</italic> = 299), liver (<italic>n</italic> = 4644), extensor digitorum longus (<italic>n</italic> = 2809), gastrocnemius (<italic>n</italic> = 232), quadriceps (<italic>n</italic> = 763), soleus (<italic>n</italic> = 4931), and tibialis anterior (<italic>n</italic> = 1163) (<xref ref-type="fig" rid="life-10-00196-f002">Figure 2</xref>A). A previous report that analyzed these data [<xref rid="B13-life-10-00196" ref-type="bibr">13</xref>] found that spaceflight induced the largest number of DEGs in the soleus (similar to our current results). However, despite this consistent ranking, our results were not consistent with the previous study in terms of the actual DEG counts [<xref rid="B13-life-10-00196" ref-type="bibr">13</xref>]. We note that Beheshti et al. used the same dataset as we did but analyzed it using a different RNA-seq workflow that included a t-test with a <italic>p</italic>-value ≤ 0.05 [<xref rid="B13-life-10-00196" ref-type="bibr">13</xref>]. This indicates that RNA-seq results highly depend on the standardized processing workflows. To allow sufficient reproducibility, the NASA Genelab team has established standardized processing workflows for omics datasets (<uri xlink:href="https://genelab-data.ndc.nasa.gov/genelab/projects">https://genelab-data.ndc.nasa.gov/genelab/projects</uri>). Our study used DEGs that were defined by analysis pipelines developed by GeneLab AWGs, which regularly update and share data standardization workflows in the database to meet the latest recommendations from the bioinformatics discipline. Therefore, the reanalysis of archived datasets might be worthwhile for finding novel insights. Our findings showed that the liver was the tissue with the second largest number of DEGs. This discrepancy may be due to the liver datasets being re-sequenced between the previous report and our study as described in GLDS-48 (<uri xlink:href="https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-48">https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-48</uri>). PCA plots demonstrated remarkable differences between FLT and GC conditions in all tissues (<xref ref-type="fig" rid="life-10-00196-f002">Figure 2</xref>B). These results suggested that gene expression changes occurred in each peripheral tissue during spaceflight. To examine the underlying molecular mechanisms across tissues caused by spaceflight, enrichment analysis was performed on the DEGs of the 8 tissues and showed shared terms between tissues (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>A). Clustering analysis of protein–protein interaction (PPI) networks using MODE showed that the terms related to circadian rhythms were most significantly enriched in MODE1 (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>B,C).</p>
+              </sec>
+              <sec id="sec3dot3-life-10-00196">
+                <title>3.3. Spaceflight Could Induce Asynchrony in Clock Genes between Peripheral Tissues</title>
+                <p>The genes in MODE1 are known to play a role in a core loop that regulates circadian rhythm cycles via a feedback mechanism, altogether synchronizing circadian rhythms between tissues from signals of the central nervous system via light input to the eye (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>B) [<xref rid="B30-life-10-00196" ref-type="bibr">30</xref>]. Therefore, we predicted that clock genes under spaceflight would show gene expression patterns that were consistent between peripheral tissues. To investigate this hypothesis, we focused on the genes in the MODE1 cluster and confirmed their FDR values (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). We found that some clock genes did not significantly change expression during spaceflight in the adrenal glands, kidneys, and liver (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). For example, <italic>Cry</italic> and <italic>Per</italic> gene expressions were not significantly altered under spaceflight in the adrenal glands (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). On the other hand, most muscle tissues showed a significantly changed expression for most of these same clock genes under spaceflight (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). Furthermore, we plotted the fold changes of <italic>Arntl</italic> (also known as <italic>Bmal1</italic>) and <italic>Per2</italic> as representative clock genes because they are known to be in antiphase with each other (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>B) [<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>]. <italic>Arntl</italic> was consistently up-regulated and <italic>Per2</italic> was consistently down-regulated across all muscle tissues in the spaceflight condition (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>B). <italic>Arntl</italic> was also consistently up-regulated in the adrenal glands, kidneys, and liver. However, <italic>Per2</italic> did not show significant changes in the adrenal glands and liver, and only showed significant changes at less conservative thresholds in the kidneys compared to the muscle tissues (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>B). In summary, our results suggested that the clock genes became asynchronous between certain peripheral tissues by some undetermined stimuli under spaceflight conditions.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4-life-10-00196">
+              <title>4. Discussion</title>
+              <p>Our purpose was to elucidate the biological mechanisms across tissues by reanalyzing integrated RNA-seq data of mice during spaceflight. We found that the FLT group showed significantly altered clock gene expressions across tissues compared to the GC group (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>A–C). Astronauts experience sleep and circadian rhythm shifts that impair health, alertness, and performance during spaceflight [<xref rid="B18-life-10-00196" ref-type="bibr">18</xref>,<xref rid="B19-life-10-00196" ref-type="bibr">19</xref>]. Therefore, understanding the effects of the spaceflight environment on the circadian rhythm system is important for long-term crewed space missions. It would also be important as the commercial spaceflight field expands for passengers and pilots who regularly fly orbital or suborbital flights between, say, New York City and Tokyo. This is because the circadian rhythms of the cells in most peripheral tissues are uncoupled into their own circadian rhythms by crossing time zones in a jet plane or spaceflight [<xref rid="B32-life-10-00196" ref-type="bibr">32</xref>]. Moreover, enrichment analysis in the tissue-wide analysis enriched herpes simplex infection and endocrine system development as prevalent molecular mechanisms across tissues (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>C). Previous studies have reported immune alterations during spaceflight, consisting of reductions in T cell and Natural Killer (NK) cell function, and the reactivation of latent herpes viruses [<xref rid="B33-life-10-00196" ref-type="bibr">33</xref>,<xref rid="B34-life-10-00196" ref-type="bibr">34</xref>,<xref rid="B35-life-10-00196" ref-type="bibr">35</xref>]. Spaceflight could induce increased levels of stress hormones including cortisol, dehydroepiandrosterone, epinephrine, and norepinephrine through hypothalamic-pituitary-adrenal (HPA) and sympathetic-adrenal-medullary (SAM) axes activation [<xref rid="B33-life-10-00196" ref-type="bibr">33</xref>,<xref rid="B34-life-10-00196" ref-type="bibr">34</xref>,<xref rid="B35-life-10-00196" ref-type="bibr">35</xref>]. These stress hormones are reported to affect the immune system such as causing the reactivation of viruses under spaceflight [<xref rid="B33-life-10-00196" ref-type="bibr">33</xref>,<xref rid="B34-life-10-00196" ref-type="bibr">34</xref>,<xref rid="B35-life-10-00196" ref-type="bibr">35</xref>]. Circulating stress hormones, such as glucocorticoids, play a role in the mediation of the circadian clock and the synchronization of peripheral clocks [<xref rid="B36-life-10-00196" ref-type="bibr">36</xref>,<xref rid="B37-life-10-00196" ref-type="bibr">37</xref>]. Therefore, the interaction of the endocrine axis and the immune system with regard to the circadian clock could be associated with the underlying molecular mechanisms across tissues under spaceflight.</p>
+              <p>The central clock localized in the suprachiasmatic nucleus (SCN) unifies circadian rhythms between tissues through neurotransmission and hormonal signals [<xref rid="B30-life-10-00196" ref-type="bibr">30</xref>]. After the SCN receives light input from the eye, the resulting signal from the SCN synchronizes the peripheral clocks of peripheral tissues. At the same time, this light-induced mechanism can be altered by external stimuli such as food intake, which can cause peripheral tissues to perform their own phase of circadian rhythm [<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>]. In other words, other events may be driving the observed circadian rhythm changes other than the light–dark cycle in peripheral tissues. Indeed, previous mice studies during spaceflight have implemented carefully controlled 12 h light–dark cycles but still observed circadian rhythm-related disruptions at both the behavioral and molecular biological levels. For instance, studies have reported that the FLT group showed significant increases in behavior activity during the dark cycle and in food intake throughout the mission compared to the GC group [<xref rid="B3-life-10-00196" ref-type="bibr">3</xref>,<xref rid="B38-life-10-00196" ref-type="bibr">38</xref>]. Likewise, other studies reported that clock-related gene expressions were changed in the liver and eyes of mice that underwent spaceflight for about one month [<xref rid="B10-life-10-00196" ref-type="bibr">10</xref>,<xref rid="B30-life-10-00196" ref-type="bibr">30</xref>,<xref rid="B39-life-10-00196" ref-type="bibr">39</xref>]. A previous study suggested that the circadian rhythm could contribute to signs of non-alcoholic fatty liver disease (NAFLD) at the molecular level in mice under spaceflight [<xref rid="B10-life-10-00196" ref-type="bibr">10</xref>]. It is essential for future studies to investigate the molecular details of how circadian rhythms are disrupted during spaceflight.</p>
+              <p>Our results using DEGs from the 8 tissues showed that circadian rhythms were commonly enriched (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>A). Clustering analysis of PPI networks showed that MODE1 was most significantly enriched in terms and genes related to the circadian rhythm (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>B,C). Genes in MODE1 positively regulate clock gene expressions, such as those of <italic>Per</italic> and <italic>Cry</italic>, by forming heterodimers of the transcription factors (TFs) Arntl and Clock [<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>]. On the other hand, the proteins produced from these same clock genes negatively regulate the transcriptional activities of <italic>Arntl</italic> and <italic>Clock</italic> to form the core loop of the diurnal fluctuation rhythm [<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>]. We found that most of the clock genes in the MODE1 cluster showed significantly altered expression across the muscle tissues under spaceflight (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). In contrast, most clock genes (except <italic>Arntl</italic>) in the MODE1 cluster did not significantly change in the adrenal glands, kidneys, and liver (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A). While the fold change of <italic>Arntl</italic> was consistently up-regulated across all tissues, <italic>Per2</italic> did not show significant changes in the adrenal glands and liver, and only showed significant changes at less conservative thresholds in the kidneys compared to the muscle tissues (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>B). Given that the data we used came from studies that reported treating GC mice as similarly as possible to FLT mice by implementing controlled light–dark cycles and food resources within the same housing devices [<xref rid="B3-life-10-00196" ref-type="bibr">3</xref>,<xref rid="B38-life-10-00196" ref-type="bibr">38</xref>], we predicted that clock genes under spaceflight would show gene expression patterns that were in synchrony between peripheral tissues. However, our results suggested that other factors besides the environmental light–dark cycle (such as gravity, radiation, and rearing environment) may be driving asynchrony of the circadian rhythm between certain peripheral tissues during spaceflight.</p>
+              <p>We observed that the adrenal glands, kidneys, and liver showed similar expression distribution in the PCA plot (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>B). Enrichment analysis for the tissue-wide analysis showed that endocrine system development terms were enriched as prevalent molecular mechanisms across tissues. In addition, these 3 tissues showed inconsistent clock gene expression changes compared to most muscle tissues (<xref ref-type="fig" rid="life-10-00196-f004">Figure 4</xref>A,B). These 3 tissues relate to functions known to be affected by the circadian rhythm, such as the endocrine systems (renin-angiotensin-aldosterone system, erythropoietin, vasopressin, and glucocorticoids) and water–mineral balance regulation [<xref rid="B40-life-10-00196" ref-type="bibr">40</xref>,<xref rid="B41-life-10-00196" ref-type="bibr">41</xref>,<xref rid="B42-life-10-00196" ref-type="bibr">42</xref>,<xref rid="B43-life-10-00196" ref-type="bibr">43</xref>]. Indeed, spaceflight conditions in humans are believed to induce activation of the endocrine systems, including renin-aldosterone, glucocorticoid, and catecholamines, and changes in water–mineral balance [<xref rid="B18-life-10-00196" ref-type="bibr">18</xref>,<xref rid="B44-life-10-00196" ref-type="bibr">44</xref>,<xref rid="B45-life-10-00196" ref-type="bibr">45</xref>,<xref rid="B46-life-10-00196" ref-type="bibr">46</xref>]. In addition, during a Mars simulation study in humans, the hormones aldosterone and cortisol fluctuated for longer-than-usual periods despite constant salt intake, suggesting that clock genes may be involved in water–mineral balance [<xref rid="B47-life-10-00196" ref-type="bibr">47</xref>]. Few studies have examined the responses of adrenal glands and kidneys in spaceflight [<xref rid="B45-life-10-00196" ref-type="bibr">45</xref>,<xref rid="B47-life-10-00196" ref-type="bibr">47</xref>,<xref rid="B48-life-10-00196" ref-type="bibr">48</xref>,<xref rid="B49-life-10-00196" ref-type="bibr">49</xref>,<xref rid="B50-life-10-00196" ref-type="bibr">50</xref>,<xref rid="B51-life-10-00196" ref-type="bibr">51</xref>]. Therefore, our observed asynchrony of clock genes in these three tissues may provide new molecular-level insights about the endocrine systems and water–mineral balance regulation during spaceflight.</p>
+              <p><italic>Arntl</italic>, <italic>Clock</italic>, <italic>Per2</italic>, <italic>Per3</italic>, <italic>Cry1</italic>, and <italic>Cry2</italic> were enriched across some tissues in MODE1 of the PPI network analysis (<xref ref-type="fig" rid="life-10-00196-f003">Figure 3</xref>B). In addition, <italic>Arntl</italic>, <italic>Clock</italic>, and <italic>Per3</italic> were significantly changed in the tissue-wide analysis (<xref ref-type="fig" rid="life-10-00196-f001">Figure 1</xref>A). Since TFs of these genes form core clock components in circadian rhythm mechanisms [<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>], these clock genes could play a role as key regulators associated with underlying mechanisms of physiology and metabolism under spaceflight [<xref rid="B18-life-10-00196" ref-type="bibr">18</xref>,<xref rid="B52-life-10-00196" ref-type="bibr">52</xref>]. For example, previous studies showed that clock genes have demonstrated a role of circadian rhythm in muscle atrophy and bone remodeling [<xref rid="B53-life-10-00196" ref-type="bibr">53</xref>,<xref rid="B54-life-10-00196" ref-type="bibr">54</xref>,<xref rid="B55-life-10-00196" ref-type="bibr">55</xref>]. In addition, these clock genes have been implicated in NAFLD [<xref rid="B56-life-10-00196" ref-type="bibr">56</xref>], the symptoms of which have been observed in mice during spaceflight [<xref rid="B10-life-10-00196" ref-type="bibr">10</xref>]. Furthermore, <italic>Arntl</italic> plays a role in the circadian regulation of acute glucocorticoid secretion in the adrenal glands in response to stress [<xref rid="B57-life-10-00196" ref-type="bibr">57</xref>]. Mice models carrying a conditional allele for <italic>Arntl</italic> showed several disorders, such as increased urine volume, changes in the circadian rhythm of urinary sodium excretion, increased glomerular filtration rate, and significantly reduced plasma aldosterone levels [<xref rid="B58-life-10-00196" ref-type="bibr">58</xref>]. <italic>Clock</italic> null mice showed abnormal circadian rhythmicity of plasma aldosterone levels and changes in circadian gene expression patterns in the kidney [<xref rid="B59-life-10-00196" ref-type="bibr">59</xref>]. Glucocorticoids could shift the phase of circadian oscillations of <italic>Per1</italic> and <italic>Per2</italic> expressions in peripheral tissues [<xref rid="B60-life-10-00196" ref-type="bibr">60</xref>]. <italic>Cry</italic> genes are associated with changes in the transcriptional response to glucocorticoids in mouse embryonic fibroblasts [<xref rid="B61-life-10-00196" ref-type="bibr">61</xref>]. In addition, <italic>Cry1</italic> and <italic>Cry2</italic> null mice indicated salt-sensitive hypertension via abnormally high synthesis of the mineralocorticoid aldosterone by the adrenal gland [<xref rid="B62-life-10-00196" ref-type="bibr">62</xref>]. Given that circulating stress hormones are increased and circadian rhythms are altered in astronauts and mice [<xref rid="B34-life-10-00196" ref-type="bibr">34</xref>,<xref rid="B35-life-10-00196" ref-type="bibr">35</xref>,<xref rid="B63-life-10-00196" ref-type="bibr">63</xref>], spaceflight could contribute to circadian rhythm disruption and asynchrony between peripheral tissues. Therefore, these results suggest that these clock genes could modulate physiology and metabolism mechanisms as key regulators during spaceflight environmental changes. However, the role of clock genes is unknown in peripheral tissues under spaceflight. In a simulated microgravity study, for example, <italic>Arntl</italic> disrupted diurnal oscillation in rat cerebrovascular contractility by changing circadian regulation of the miR-103/CaV 1.2 signal pathway [<xref rid="B64-life-10-00196" ref-type="bibr">64</xref>]. Oscillations of <italic>Arntl</italic> were amplified under simulated microgravity in human keratinocytes [<xref rid="B65-life-10-00196" ref-type="bibr">65</xref>]. Future studies could determine clock gene roles in peripheral tissues under spaceflight, such as by using clock genes null mice under spaceflight [<xref rid="B66-life-10-00196" ref-type="bibr">66</xref>].</p>
+              <p>This study has several limitations. First, the RNA-seq data in this study only reflect the effects of spaceflight after 1-month missions. We note that major clock gene expressions of <italic>Drosophila melanogaster</italic> were unaffected after short-term spaceflight for 13 days, despite being exposed to the same 12 h light/dark cycles that the mice were exposed to in the data we analyzed [<xref rid="B20-life-10-00196" ref-type="bibr">20</xref>]. Hence, our pilot study provides new motivation to elucidate both shorter and longer time series of molecular circadian mechanisms under spaceflight in mammals. Second, it is unclear whether our mice results generalize to human levels; future spaceflight experiments can explore clock-related gene expression changes in human tissue samples derived from liquid biopsies. Third, although the data we used came from studies that reported treating GC mice as similarly as possible to FLT mice, clock gene expressions may be changed by factors that may not be routinely controlled within and between spaceflight datasets, such as sample collection and dissection schedules [<xref rid="B20-life-10-00196" ref-type="bibr">20</xref>,<xref rid="B31-life-10-00196" ref-type="bibr">31</xref>]. It is crucial for principal investigators to provide detailed metadata when publishing their data; this includes sample handling information, such as dissection and freezing schedules. In addition, the current study provided preliminary findings related to circadian rhythm disruptions during spaceflight using limited types of tissue datasets that were all from the same mission. However, the circadian rhythm is known to depend on other systems that we did not explore (such as cardiovascular and nervous systems) [<xref rid="B18-life-10-00196" ref-type="bibr">18</xref>]; these types of data are currently not available on NASA GeneLab collectively from the same mission and sample manipulation. Future studies may expand upon our pilot study and investigate all systems related to circadian rhythms if they become available in NASA GeneLab.</p>
+              <p>In summary, since the safety and performance of astronauts and commercial spaceflight pilots can be affected by disruption of circadian clocks, our study highlights the necessity of further investigation into the impact of spaceflight on mammalian tissue functions. Our results shed novel insights into possible health consequences under spaceflight conditions, including the overall disruption of clock gene synchronization between peripheral tissues. As of now, our pilot study remains inconclusive as to whether disruptions in the clock gene expressions in mice during spaceflight are due to the space environment itself or to sample operation artifacts or to both. The current cross-data study was possible due to open-source space omics databases that implement state-of-the-art metadata normalization. As metadata standardization and multi-omics approaches to space biology continue to improve, future studies may more conclusively determine causes and countermeasures to circadian rhythm disruptions in space.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>We thank NASA GeneLab for making space omics datasets available. We thank Haruka Ozaki (University of Tsukuba) for helpful advice and Flaminia Miyamasu (University of Tsukuba) for editing a draft of this manuscript. This work was supported by JSPS KAKENHI Grant Numbers JP15K21745, JP 20H03234.</p>
+            </ack>
+            <notes>
+              <title>Author Contributions</title>
+              <p>The following contributions were made by the authors of this manuscript: conceptualization, S.-i.F., L.R., Q.O. and M.M.; methodology, S.-i.F.; formal analysis, S.-i.F.; investigation, S.-i.F.; gathering and analyzing the data, S.-i.F.; writing—original draft preparation, S.-i.F.; writing—review and editing, L.R., Q.O. and M.M.; visualization, S.-i.F.; supervision, M.M. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>This research was funded by JSPS (15K21745, 20H03234).</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-life-10-00196">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kandarpa</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ganapathy</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human health during space travel: An overview</article-title>
+                  <source>Neurol. India</source>
+                  <year>2019</year>
+                  <volume>67</volume>
+                  <fpage>176</fpage>
+                  <pub-id pub-id-type="doi">10.4103/0028-3886.259123</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-life-10-00196">
+                <label>2.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="editor">
+                    <name>
+                      <surname>Barratt</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pool</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Principles of Clinical Medicine for Space Flight</source>
+                  <publisher-name>Springer</publisher-name>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <year>2019</year>
+                  <isbn>978-1-4939-9887-6</isbn>
+                </element-citation>
+              </ref>
+              <ref id="B3-life-10-00196">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>S.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saravia-Butler</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirazi-Fard</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leveson-Gower</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cadena</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beegle</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Solis</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ronca</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validation of a New Rodent Experimental System to Investigate Consequences of Long Duration Space Habitation</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>2336</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-58898-4</pub-id>
+                  <?supplied-pmid 32047211?>
+                  <pub-id pub-id-type="pmid">32047211</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-life-10-00196">
+                <label>4.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Furukawa</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagamatsu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nenoi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fujimori</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kakinuma</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katsube</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsuruoka</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirai</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nakamura</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space Radiation Biology for “Living in Space”</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.hindawi.com/journals/bmri/2020/4703286/">https://www.hindawi.com/journals/bmri/2020/4703286/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2020-04-11">(accessed on 11 April 2020)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B5-life-10-00196">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shiba</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mizuno</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yumoto</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimomura</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobayashi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morita</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimbo</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamada</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kudo</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shinohara</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Development of new experimental platform ’MARS’-Multiple Artificial-gravity Research System-to elucidate the impacts of micro/partial gravity on mice</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>10837</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-017-10998-4</pub-id>
+                  <?supplied-pmid 28883615?>
+                  <pub-id pub-id-type="pmid">28883615</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-life-10-00196">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bradbury</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>J.U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rowan</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poole</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lauko</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chou</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling the Impact of Microgravity at the Cellular Level: Implications for Human Disease</article-title>
+                  <source>Front. Cell Dev. Biol.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>96</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fcell.2020.00096</pub-id>
+                  <?supplied-pmid 32154251?>
+                  <pub-id pub-id-type="pmid">32154251</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-life-10-00196">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatziravdeli</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katsaras</surname>
+                      <given-names>G.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lambrou</surname>
+                      <given-names>G.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gene Expression in Osteoblasts and Osteoclasts under Microgravity Conditions: A Systematic Review</article-title>
+                  <source>Curr. Genom.</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <fpage>184</fpage>
+                  <lpage>198</lpage>
+                  <pub-id pub-id-type="doi">10.2174/1389202920666190422142053</pub-id>
+                  <?supplied-pmid 31929726?>
+                  <pub-id pub-id-type="pmid">31929726</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-life-10-00196">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matsuda</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kato</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Inoue-Suzuki</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kikuchi</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohta</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kagawa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hattori</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kobayashi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shiba</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shirakawa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dietary intervention of mice using an improved Multiple Artificial-gravity Research System (MARS) under artificial 1 g</article-title>
+                  <source>Npj Microgravity</source>
+                  <year>2019</year>
+                  <volume>5</volume>
+                  <fpage>16</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-019-0077-0</pub-id>
+                  <pub-id pub-id-type="pmid">31312718</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-life-10-00196">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shendure</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Balasubramanian</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Church</surname>
+                      <given-names>G.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gilbert</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rogers</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schloss</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waterston</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>DNA sequencing at 40: Past, present and future</article-title>
+                  <source>Nature</source>
+                  <year>2017</year>
+                  <volume>550</volume>
+                  <fpage>345</fpage>
+                  <lpage>353</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature24286</pub-id>
+                  <pub-id pub-id-type="pmid">29019985</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-life-10-00196">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chakravarty</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fogle</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fazelinia</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silveira</surname>
+                      <given-names>W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boyko</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Polo</surname>
+                      <given-names>S.-H.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saravia-Butler</surname>
+                      <given-names>A.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hardiman</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>19195</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-55869-2</pub-id>
+                  <pub-id pub-id-type="pmid">31844325</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-life-10-00196">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grabham</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN through Reactive Oxygen Species</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <elocation-id>661</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms20030661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-life-10-00196">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cekanaviciute</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>4191</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-018-22613-1</pub-id>
+                  <pub-id pub-id-type="pmid">29520055</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-life-10-00196">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ray</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fogle</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berrios</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A microRNA signature and TGF-β1 response were identified as the key master regulators for spaceflight response</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2018</year>
+                  <volume>13</volume>
+                  <elocation-id>e0199621</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0199621</pub-id>
+                  <?supplied-pmid 30044882?>
+                  <pub-id pub-id-type="pmid">30044882</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-life-10-00196">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stainforth</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cahill</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silveira</surname>
+                      <given-names>W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rathi</surname>
+                      <given-names>K.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hardiman</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chauhan</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models</article-title>
+                  <source>Cancers</source>
+                  <year>2020</year>
+                  <volume>12</volume>
+                  <elocation-id>381</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/cancers12020381</pub-id>
+                  <?supplied-pmid 32045996?>
+                  <pub-id pub-id-type="pmid">32045996</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-life-10-00196">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Karouia</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peyvan</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pohorille</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Toward biotechnology in space: High-throughput instruments for in situ biological research beyond Earth</article-title>
+                  <source>Biotechnol. Adv.</source>
+                  <year>2017</year>
+                  <volume>35</volume>
+                  <fpage>905</fpage>
+                  <lpage>932</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biotechadv.2017.04.003</pub-id>
+                  <pub-id pub-id-type="pmid">28433608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-life-10-00196">
+                <label>16.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Berrios</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weitz</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grigorev</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gebre</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beheshti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Visualizing Omics Data from Spaceflight Samples using the NASA GeneLab Platform</article-title>
+                  <source>Proceedings of the 12th International Conference</source>
+                  <conf-loc>San Francisco, CA, USA</conf-loc>
+                  <conf-date>23–25 March 2020</conf-date>
+                  <fpage>89</fpage>
+                  <lpage>98</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B17-life-10-00196">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ray</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gebre</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fogle</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Berrios</surname>
+                      <given-names>D.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tran</surname>
+                      <given-names>P.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costes</surname>
+                      <given-names>S.V.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>GeneLab: Omics database for spaceflight experiments</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2019</year>
+                  <volume>35</volume>
+                  <fpage>1753</fpage>
+                  <lpage>1759</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/bty884</pub-id>
+                  <?supplied-pmid 30329036?>
+                  <pub-id pub-id-type="pmid">30329036</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-life-10-00196">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Astaburuaga</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Basti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Herms</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Relógio</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian regulation of physiology: Relevance for space medicine</article-title>
+                  <source>REACH</source>
+                  <year>2019</year>
+                  <volume>14–15</volume>
+                  <fpage>100029</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.reach.2019.100029</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-life-10-00196">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>J.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qu</surname>
+                      <given-names>W.-M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>S.-G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X.-P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lv</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Z.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Y.-L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Keeping the right time in space: Importance of circadian clock and sleep for physiology and performance of astronauts</article-title>
+                  <source>Mil. Med. Res.</source>
+                  <year>2014</year>
+                  <volume>1</volume>
+                  <fpage>1</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.1186/2054-9369-1-23</pub-id>
+                  <pub-id pub-id-type="pmid">25722860</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-life-10-00196">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of Spaceflight on the Circadian Rhythm, Lifespan and Gene Expression of Drosophila melanogaster</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <elocation-id>e0121600</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0139758</pub-id>
+                  <pub-id pub-id-type="pmid">25798821</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-life-10-00196">
+                <label>21.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Adrenal Gland Transcriptomic, Proteomic, and Epigenomic Data</source>
+                  <comment>Version 7</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/n1jq-2364</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-life-10-00196">
+                <label>22.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Extensor Digitorum Longus Muscle Transcriptomic and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/1h3m-3q49</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-life-10-00196">
+                <label>23.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Gastrocnemius Muscle Transcriptomic, Proteomic, and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/sdmt-ae51</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-life-10-00196">
+                <label>24.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Kidney Transcriptomic, Proteomic, and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/yn9m-2d19</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-life-10-00196">
+                <label>25.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Quadriceps Muscle Transcriptomic, Proteomic, and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/9vzk-b116</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-life-10-00196">
+                <label>26.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Soleus Muscle Transcriptomic and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/em9r-w619</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-life-10-00196">
+                <label>27.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Rodent Research-1 (RR1) NASA Validation Flight: Mouse Tibialis Anterior Muscle Transcriptomic, Proteomic, and Epigenomic Data</source>
+                  <comment>Version 4</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/xgw6-6t64</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-life-10-00196">
+                <label>28.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galazka</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <source>RR-1 and RR-3 Mouse Liver Transcriptomics with and without ERCC Control RNA Spike-Ins</source>
+                  <comment>Version 8</comment>
+                  <publisher-name>GeneLab</publisher-name>
+                  <publisher-loc>Mountain View, CA, USA</publisher-loc>
+                  <pub-id pub-id-type="doi">10.26030/rwyp-9325</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-life-10-00196">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pache</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Khodabakhshi</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanaseichuk</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Benner</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chanda</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Metascape provides a biologist-oriented resource for the analysis of systems-level datasets</article-title>
+                  <source>Nat. Commun</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>1523</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41467-019-09234-6</pub-id>
+                  <pub-id pub-id-type="pmid">30944313</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-life-10-00196">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mao</surname>
+                      <given-names>X.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishiyama</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Byrum</surname>
+                      <given-names>S.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stanbouly</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jones</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drew</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sridharan</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boerma</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tackett</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zawieja</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Characterization of mouse ocular response to a 35-day spaceflight mission: Evidence of blood-retinal barrier disruption and ocular adaptations</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>8215</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-44696-0</pub-id>
+                  <pub-id pub-id-type="pmid">31160660</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-life-10-00196">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Preußner</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heyd</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Post-transcriptional control of the mammalian circadian clock: Implications for health and disease</article-title>
+                  <source>Pflug. Arch.</source>
+                  <year>2016</year>
+                  <volume>468</volume>
+                  <fpage>983</fpage>
+                  <lpage>991</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00424-016-1820-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-life-10-00196">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>R.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kreitzman</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The rhythms of life: What your body clock means to you!</article-title>
+                  <source>Exp. Physiol.</source>
+                  <year>2014</year>
+                  <volume>99</volume>
+                  <fpage>599</fpage>
+                  <lpage>606</lpage>
+                  <pub-id pub-id-type="doi">10.1113/expphysiol.2012.071118</pub-id>
+                  <pub-id pub-id-type="pmid">24363383</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-life-10-00196">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Makedonas</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sams</surname>
+                      <given-names>C.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierson</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Simpson</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stowe</surname>
+                      <given-names>R.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zwart</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krieger</surname>
+                      <given-names>S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rooney</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Countermeasures-based Improvements in Stress, Immune System Dysregulation and Latent Herpesvirus Reactivation onboard the International Space Station—Relevance for Deep Space Missions and Terrestrial Medicine</article-title>
+                  <source>Neurosci. Biobehav. Rev.</source>
+                  <year>2020</year>
+                  <volume>115</volume>
+                  <fpage>68</fpage>
+                  <lpage>76</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.neubiorev.2020.05.007</pub-id>
+                  <?supplied-pmid 32464118?>
+                  <pub-id pub-id-type="pmid">32464118</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-life-10-00196">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mann</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sundaresan</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mehta</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Crucian</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Doursout</surname>
+                      <given-names>M.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Devakottai</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of microgravity and other space stressors in immunosuppression and viral reactivation with potential nervous system involvement</article-title>
+                  <source>Neurol. India</source>
+                  <year>2019</year>
+                  <volume>67</volume>
+                  <fpage>198</fpage>
+                  <pub-id pub-id-type="doi">10.4103/0028-3886.259125</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-life-10-00196">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akiyama</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Horie</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hinoi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hiraiwa</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kato</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maekawa</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takahashi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Furukawa</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How does spaceflight affect the acquired immune system?</article-title>
+                  <source>NPJ Micrograv.</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>14</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-0104-1</pub-id>
+                  <?supplied-pmid 32411817?>
+                  <pub-id pub-id-type="pmid">32411817</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-life-10-00196">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dumbell</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matveeva</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oster</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian Clocks, Stress, and Immunity</article-title>
+                  <source>Front. Endocrinol.</source>
+                  <year>2016</year>
+                  <volume>7</volume>
+                  <fpage>37</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fendo.2016.00037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-life-10-00196">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Edgar</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stangherlin</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagy</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nicoll</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Efstathiou</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Neill</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reddy</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cell autonomous regulation of herpes and influenza virus infection by the circadian clock</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <year>2016</year>
+                  <volume>113</volume>
+                  <fpage>10085</fpage>
+                  <lpage>10090</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1601895113</pub-id>
+                  <pub-id pub-id-type="pmid">27528682</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-life-10-00196">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ronca</surname>
+                      <given-names>A.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moyer</surname>
+                      <given-names>E.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Talyansky</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lowe</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Padmanabhan</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Choi</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cadena</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Globus</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Behavior of mice aboard the International Space Station</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>4717</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-40789-y</pub-id>
+                  <pub-id pub-id-type="pmid">30976012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B39-life-10-00196">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Overbey</surname>
+                      <given-names>E.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>da Silveira</surname>
+                      <given-names>W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stanbouly</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nishiyama</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Roque-Torres</surname>
+                      <given-names>G.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pecaut</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zawieja</surname>
+                      <given-names>D.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Willey</surname>
+                      <given-names>J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delp</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>13304</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-49453-x</pub-id>
+                  <pub-id pub-id-type="pmid">31527661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-life-10-00196">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gizowski</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trudel</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bourque</surname>
+                      <given-names>C.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Central and peripheral roles of vasopressin in the circadian defense of body hydration</article-title>
+                  <source>Best Pract. Res. Clin. Endocrinol. Metab.</source>
+                  <year>2017</year>
+                  <volume>31</volume>
+                  <fpage>535</fpage>
+                  <lpage>546</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.beem.2017.11.001</pub-id>
+                  <pub-id pub-id-type="pmid">29224666</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-life-10-00196">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kalsbeek</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Spek</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lei</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Endert</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buijs</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fliers</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian rhythms in the hypothalamo–pituitary–adrenal (HPA) axis</article-title>
+                  <source>Mol. Cell. Endocrinol.</source>
+                  <year>2012</year>
+                  <volume>349</volume>
+                  <fpage>20</fpage>
+                  <lpage>29</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mce.2011.06.042</pub-id>
+                  <pub-id pub-id-type="pmid">21782883</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-life-10-00196">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pasqualetti</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Casale</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian rhythm of serum erythropoietin in healthy subjects</article-title>
+                  <source>Riv. Eur. Sci. Med. Farm.</source>
+                  <year>1996</year>
+                  <volume>18</volume>
+                  <fpage>91</fpage>
+                  <lpage>93</lpage>
+                </element-citation>
+              </ref>
+              <ref id="B43-life-10-00196">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>New Insights into the Circadian Rhythm and Its Related Diseases</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>682</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.00682</pub-id>
+                  <pub-id pub-id-type="pmid">31293431</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-life-10-00196">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Afonin</surname>
+                      <given-names>B.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grigor’ev</surname>
+                      <given-names>A.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pavlova</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of short-term space flights on the activity of the renin-angiotensin-aldosterone system and on the blood concentration of cyclic nucleotides and prostaglandins</article-title>
+                  <source>Kosm. Biol. Aviakosm. Med.</source>
+                  <year>1986</year>
+                  <volume>20</volume>
+                  <fpage>27</fpage>
+                  <lpage>30</lpage>
+                  <?supplied-pmid 3784519?>
+                  <pub-id pub-id-type="pmid">3784519</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-life-10-00196">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christensen</surname>
+                      <given-names>N.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Drummer</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Norsk</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Renal and sympathoadrenal responses in space</article-title>
+                  <source>Am. J. Kidney Dis.</source>
+                  <year>2001</year>
+                  <volume>38</volume>
+                  <fpage>679</fpage>
+                  <lpage>683</lpage>
+                  <pub-id pub-id-type="doi">10.1053/ajkd.2001.27758</pub-id>
+                  <?supplied-pmid 11532706?>
+                  <pub-id pub-id-type="pmid">11532706</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-life-10-00196">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Drummer</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Norsk</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Heer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Water and sodium balance in space</article-title>
+                  <source>Am. J. Kidney Dis.</source>
+                  <year>2001</year>
+                  <volume>38</volume>
+                  <fpage>684</fpage>
+                  <lpage>690</lpage>
+                  <pub-id pub-id-type="doi">10.1053/ajkd.2001.27765</pub-id>
+                  <?supplied-pmid 11532707?>
+                  <pub-id pub-id-type="pmid">11532707</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B47-life-10-00196">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rakova</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jüttner</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dahlmann</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schröder</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Linz</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kopp</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rauh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goller</surname>
+                      <given-names>U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Agureev</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Long-Term Space Flight Simulation Reveals Infradian Rhythmicity in Human Na+ Balance</article-title>
+                  <source>Cell Metab.</source>
+                  <year>2013</year>
+                  <volume>17</volume>
+                  <fpage>125</fpage>
+                  <lpage>131</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cmet.2012.11.013</pub-id>
+                  <pub-id pub-id-type="pmid">23312287</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B48-life-10-00196">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miyake</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamasaki</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waki</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katahira</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>O.-ishi</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Katsuda</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagayama</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ijiri</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hazama</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimizu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Morphological characteristics of the kidney and lung in the neonatal rats observed after 16 days spaceflight</article-title>
+                  <source>Biol. Sci. Space</source>
+                  <year>2003</year>
+                  <volume>17</volume>
+                  <fpage>173</fpage>
+                  <lpage>174</lpage>
+                  <pub-id pub-id-type="pmid">14676359</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B49-life-10-00196">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liakopoulos</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leivaditis</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Eleftheriadis</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dombros</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The kidney in space</article-title>
+                  <source>Int. Urol. Nephrol.</source>
+                  <year>2012</year>
+                  <volume>44</volume>
+                  <fpage>1893</fpage>
+                  <lpage>1901</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s11255-012-0289-7</pub-id>
+                  <pub-id pub-id-type="pmid">23001611</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B50-life-10-00196">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hammond</surname>
+                      <given-names>T.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Allen</surname>
+                      <given-names>P.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Birdsall</surname>
+                      <given-names>H.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of Space Flight on Mouse Liver versus Kidney: Gene Pathway Analyses</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2018</year>
+                  <volume>19</volume>
+                  <elocation-id>4106</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms19124106</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B51-life-10-00196">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santucci</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawano</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohira</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Terada</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nakai</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Francia</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alleva</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aloe</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ochiai</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cancedda</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2012</year>
+                  <volume>7</volume>
+                  <elocation-id>e40112</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0040112</pub-id>
+                  <pub-id pub-id-type="pmid">22808101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B52-life-10-00196">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strollo</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gentile</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Strollo</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mambro</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vernikos</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Recent Progress in Space Physiology and Aging</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2018</year>
+                  <volume>9</volume>
+                  <fpage>1551</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2018.01551</pub-id>
+                  <?supplied-pmid 30483144?>
+                  <pub-id pub-id-type="pmid">30483144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B53-life-10-00196">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.-Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tong</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Miao</surname>
+                      <given-names>Z.-N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ye</surname>
+                      <given-names>J.-X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuan</surname>
+                      <given-names>F.-L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Emerging role of circadian rhythm in bone remodeling</article-title>
+                  <source>J. Mol. Med.</source>
+                  <year>2019</year>
+                  <volume>97</volume>
+                  <fpage>19</fpage>
+                  <lpage>24</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00109-018-1723-9</pub-id>
+                  <?supplied-pmid 30446776?>
+                  <pub-id pub-id-type="pmid">30446776</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B54-life-10-00196">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Aoyama</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kojima</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sasaki</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ishikawa</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tanaka</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimoda</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hattori</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aoki</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takahashi</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hirooka</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Day-Night Oscillation of Atrogin1 and Timing-Dependent Preventive Effect of Weight-Bearing on Muscle Atrophy</article-title>
+                  <source>EBioMedicine</source>
+                  <year>2018</year>
+                  <volume>37</volume>
+                  <fpage>499</fpage>
+                  <lpage>508</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ebiom.2018.10.057</pub-id>
+                  <?supplied-pmid 30391495?>
+                  <pub-id pub-id-type="pmid">30391495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B55-life-10-00196">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chatterjee</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian clock regulation of skeletal muscle growth and repair</article-title>
+                  <source>F1000Research</source>
+                  <year>2016</year>
+                  <volume>5</volume>
+                  <fpage>1549</fpage>
+                  <pub-id pub-id-type="doi">10.12688/f1000research.9076.1</pub-id>
+                  <?supplied-pmid 27540471?>
+                  <pub-id pub-id-type="pmid">27540471</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B56-life-10-00196">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shi</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian Clock Genes in the Metabolism of Non-alcoholic Fatty Liver Disease</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>423</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.00423</pub-id>
+                  <?supplied-pmid 31139087?>
+                  <pub-id pub-id-type="pmid">31139087</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B57-life-10-00196">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leliavski</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shostak</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Husse</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oster</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Impaired glucocorticoid production and response to stress in Arntl-deficient male mice</article-title>
+                  <source>Endocrinology</source>
+                  <year>2014</year>
+                  <volume>155</volume>
+                  <fpage>133</fpage>
+                  <lpage>142</lpage>
+                  <pub-id pub-id-type="doi">10.1210/en.2013-1531</pub-id>
+                  <?supplied-pmid 24189141?>
+                  <pub-id pub-id-type="pmid">24189141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B58-life-10-00196">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tokonami</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mordasini</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pradervand</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Centeno</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jouffe</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maillard</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonny</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gachon</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomez</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sequeira-Lopez</surname>
+                      <given-names>M.L.S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Local Renal Circadian Clocks Control Fluid–Electrolyte Homeostasis and BP</article-title>
+                  <source>JASN</source>
+                  <year>2014</year>
+                  <volume>25</volume>
+                  <fpage>1430</fpage>
+                  <lpage>1439</lpage>
+                  <pub-id pub-id-type="doi">10.1681/ASN.2013060641</pub-id>
+                  <?supplied-pmid 24652800?>
+                  <pub-id pub-id-type="pmid">24652800</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B59-life-10-00196">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nikolaeva</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pradervand</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Centeno</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zavadova</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tokonami</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maillard</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bonny</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Firsov</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Circadian Clock Modulates Renal Sodium Handling</article-title>
+                  <source>J. Am. Soc. Nephrol.</source>
+                  <year>2012</year>
+                  <volume>23</volume>
+                  <fpage>1019</fpage>
+                  <lpage>1026</lpage>
+                  <pub-id pub-id-type="doi">10.1681/ASN.2011080842</pub-id>
+                  <pub-id pub-id-type="pmid">22440902</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B60-life-10-00196">
+                <label>60.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nicolaides</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Charmandari</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kino</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chrousos</surname>
+                      <given-names>G.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stress-Related and Circadian Secretion and Target Tissue Actions of Glucocorticoids: Impact on Health</article-title>
+                  <source>Front. Endocrinol. (Lausanne)</source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <fpage>70</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fendo.2017.00070</pub-id>
+                  <pub-id pub-id-type="pmid">28503165</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B61-life-10-00196">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lamia</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Papp</surname>
+                      <given-names>S.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barish</surname>
+                      <given-names>G.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Uhlenhaut</surname>
+                      <given-names>N.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jonker</surname>
+                      <given-names>J.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Downes</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cryptochromes mediate rhythmic repression of the glucocorticoid receptor</article-title>
+                  <source>Nature</source>
+                  <year>2011</year>
+                  <volume>480</volume>
+                  <fpage>552</fpage>
+                  <lpage>556</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature10700</pub-id>
+                  <pub-id pub-id-type="pmid">22170608</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B62-life-10-00196">
+                <label>62.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Doi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Takahashi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Komatsu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamazaki</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamada</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Haraguchi</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Emoto</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Okuno</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tsujimoto</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanematsu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Salt-sensitive hypertension in circadian clock-deficient Cry-null mice involves dysregulated adrenal Hsd3b6</article-title>
+                  <source>Nat. Med.</source>
+                  <year>2010</year>
+                  <volume>16</volume>
+                  <fpage>67</fpage>
+                  <lpage>74</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm.2061</pub-id>
+                  <?supplied-pmid 20023637?>
+                  <pub-id pub-id-type="pmid">20023637</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B63-life-10-00196">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Larina</surname>
+                      <given-names>I.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Witson</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smirnova</surname>
+                      <given-names>T.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y.-M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Circadian rhythms of salivary cortisol content during long-term space flight</article-title>
+                  <source>Hum. Physiol.</source>
+                  <year>2000</year>
+                  <volume>26</volume>
+                  <fpage>462</fpage>
+                  <lpage>467</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02760276</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B64-life-10-00196">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bai</surname>
+                      <given-names>Y.-G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Song</surname>
+                      <given-names>J.-B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ge</surname>
+                      <given-names>Y.-L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>H.-Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>J.-H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>M.-J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>BMAL1 Disrupted Intrinsic Diurnal Oscillation in Rat Cerebrovascular Contractility of Simulated Microgravity Rats by Altering Circadian Regulation of miR-103/CaV1.2 Signal Pathway</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <elocation-id>3947</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms20163947</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B65-life-10-00196">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ranieri</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cucina</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bizzarri</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alimandi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Torrisi</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity influences circadian clock oscillation in human keratinocytes</article-title>
+                  <source>FEBS Open Bio</source>
+                  <year>2015</year>
+                  <volume>5</volume>
+                  <fpage>717</fpage>
+                  <lpage>723</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.fob.2015.08.012</pub-id>
+                  <?supplied-pmid 26448904?>
+                  <pub-id pub-id-type="pmid">26448904</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B66-life-10-00196">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cadena</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brachat</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuss</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Giorgetti</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kneissel</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Glass</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Skeletal muscle in MuRF1 null mice is not spared in low-gravity conditions, indicating atrophy proceeds by unique mechanisms in space</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2019</year>
+                  <volume>9</volume>
+                  <fpage>9397</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-019-45821-9</pub-id>
+                  <?supplied-pmid 31253821?>
+                  <pub-id pub-id-type="pmid">31253821</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="life-10-00196-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Differential gene expression between spaceflight and ground control across mice tissues. (<bold>A</bold>) is the heatmap of the 26 tissue-wide DEGs between FLT and GC. (<bold>B</bold>) are PCA plots of the 26 tissue-wide DEGs between FLT and GC conditions. PCA plots are colored by conditions (left) and tissue types (right). (<bold>C</bold>) is the bar chart of enrichment ontology categories in the tissue-wide DEGs between FLT and GC. Abbreviations: FLT, spaceflight mice; GC, ground control mice; ADR, adrenal glands; EDL, extensor digitorum longus; GST, gastrocnemius; KDN, kidneys; Quad, quadriceps; SLS, soleus; TA, tibialis anterior; LVR, liver.</p>
+              </caption>
+              <graphic xlink:href="life-10-00196-g001"/>
+            </fig>
+            <fig id="life-10-00196-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>DEG numbers and PCA plots for each peripheral tissue. (<bold>A</bold>) is the number of DEGs detected between FLT and GC conditions. (<bold>B</bold>) are PCA plots for each of the 8 different tissues.</p>
+              </caption>
+              <graphic xlink:href="life-10-00196-g002"/>
+            </fig>
+            <fig id="life-10-00196-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p>Functional enrichment analysis of DEGs in each tissue. (<bold>A</bold>) is the heatmap of the top-level Gene Ontology (GO) biological process categories for DEGs in each tissue. Gray color indicates a lack of significant term. (<bold>B</bold>) are the clustered PPI networks by MCODE identified from the combined list of all DEGs in each tissue. (<bold>C</bold>) is the bar plot of clusters of enrichment categories detected by the MCODE algorithm. Abbreviations: Up, up-regulated genes; Down, down-regulated genes.</p>
+              </caption>
+              <graphic xlink:href="life-10-00196-g003"/>
+            </fig>
+            <fig id="life-10-00196-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>Clock gene expression patterns. (<bold>A</bold>) is the heatmap of the FDR values of clock genes for each tissue. (<bold>B</bold>) is the fold change (FLT/GC) of representative clock genes (<italic>Arntl</italic> and <italic>Per2</italic>), which are known to be in antiphase oscillation with each other. The dashed horizontal lines indicate fold change magnitudes with values of one as visual references. * FDR &lt; 0.05, ** FDR &lt; 0.01.</p>
+              </caption>
+              <graphic xlink:href="life-10-00196-g004"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

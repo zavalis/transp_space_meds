@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:03:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4327036" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:4327036</identifier>
+        <datestamp>2015-02-23</datestamp>
+        <setSpec>sensors</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Sensors (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Sensors (Basel)</journal-id>
+              <journal-title-group>
+                <journal-title>Sensors (Basel, Switzerland)</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1424-8220</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC4327036</article-id>
+              <article-id pub-id-type="pmcid">PMC4327036</article-id>
+              <article-id pub-id-type="pmc-uid">4327036</article-id>
+              <article-id pub-id-type="pmid">25558995</article-id>
+              <article-id pub-id-type="pmid">25558995</article-id>
+              <article-id pub-id-type="doi">10.3390/s150100565</article-id>
+              <article-id pub-id-type="publisher-id">sensors-15-00565</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Non-Invasive UWB Sensing of Astronauts' Breathing Activity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Baldi</surname>
+                    <given-names>Marco</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Cerri</surname>
+                    <given-names>Graziano</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chiaraluce</surname>
+                    <given-names>Franco</given-names>
+                  </name>
+                  <xref rid="c1-sensors-15-00565">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Eusebi</surname>
+                    <given-names>Lorenzo</given-names>
+                  </name>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Russo</surname>
+                    <given-names>Paola</given-names>
+                  </name>
+                </contrib>
+                <aff id="af1-sensors-15-00565">Università Politecnica delle Marche, Dipartimento di Ingegneria dell'Informazione, Via Brecce Bianche 12, Ancona 60131, Italy; E-Mails: <email>m.baldi@univpm.it</email> (M.B.); <email>g.cerri@univpm.it</email> (G.C.); <email>lorenzo.eusebi.pro@gmail.com</email> (L.E.); <email>paola.russo@univpm.it</email> (P.R.)</aff>
+              </contrib-group>
+              <author-notes>
+                <fn id="fn1-sensors-15-00565">
+                  <p>Academic Editor: Stefano Mariani</p>
+                </fn>
+                <corresp id="c1-sensors-15-00565"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>f.chiaraluce@univpm.it</email>; Tel.: +39-071-220-4467; Fax: +39-071-220-4224.</corresp>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <month>1</month>
+                <year>2015</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>30</day>
+                <month>12</month>
+                <year>2014</year>
+              </pub-date>
+              <volume>15</volume>
+              <issue>1</issue>
+              <fpage>565</fpage>
+              <lpage>591</lpage>
+              <history>
+                <date date-type="received">
+                  <day>11</day>
+                  <month>11</month>
+                  <year>2014</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>12</month>
+                  <year>2014</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2015 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+                <copyright-year>2015</copyright-year>
+                <license>
+                  <license-p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The use of a UWB system for sensing breathing activity of astronauts must account for many critical issues specific to the space environment. The aim of this paper is twofold. The first concerns the definition of design constraints about the pulse amplitude and waveform to transmit, as well as the immunity requirements of the receiver. The second issue concerns the assessment of the procedures and the characteristics of the algorithms to use for signal processing to retrieve the breathing frequency and respiration waveform. The algorithm has to work correctly in the presence of surrounding electromagnetic noise due to other sources in the environment. The highly reflecting walls increase the difficulty of the problem and the hostile scenario has to be accurately characterized. Examples of signal processing techniques able to recover breathing frequency in significant and realistic situations are shown and discussed.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>breath detection</kwd>
+                <kwd>electromagnetic compatibility</kwd>
+                <kwd>sensors</kwd>
+                <kwd>radiated emission</kwd>
+                <kwd>radiated susceptibility</kwd>
+                <kwd>signal processing</kwd>
+                <kwd>space missions</kwd>
+                <kwd>spectral analysis</kwd>
+                <kwd>ultra wide bandwidth</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro">
+              <label>1.</label>
+              <title>Introduction</title>
+              <p>The possibility of using ultra wide bandwidth (UWB) technology for monitoring some physiological parameters, for example, concerning the respiration activity of astronauts, has been the objective of the project entitled “Non Invasive Monitoring by Ultra wide band Radar of Respiratory Activity of people inside a spatial environment” (NIMURRA), funded by the Italian Space Agency (ASI). The project has involved four Universities, namely: “La Sapienza” University in Rome, University of L'Aquila, University of Bologna and Polytechnical University of Marche, and two Italian small/medium enterprises, Advanced Computer Systems (ACS) and Kayser Italia, whose main core business is the development of systems in support of space missions.</p>
+              <p>The chance to estimate in real time the frequency and depth of respiratory acts is of particular importance [<xref rid="b1-sensors-15-00565" ref-type="bibr">1</xref>], because, as the environment pressure varies, compensation mechanisms can be triggered, which indirectly highlight a possible suffering state of the organism because of a lack of oxygen. Despite subjective symptoms are extremely variegated, a modification of both frequency and depth of respiratory acts is always present, and can be considered as a marker in case of hypoxic suffering (lack of oxygen). It is evident that in such conditions it would be extremely useful to be able to monitor the respiratory activity of the astronauts, an investigation which cannot be carried out by means of the classical optoelectronic plethysmography technique [<xref rid="b2-sensors-15-00565" ref-type="bibr">2</xref>] both for the limitations that the needed petticoat would impose and because this technique requires immobility from the patient. Starting from the previous considerations, the rationale of the project for sensing the respiratory activity concerned the design of a completely non-invasive technique, which also allows the subject under examination to freely move.</p>
+              <p>The monitoring of the astronauts can be performed in different environments and situations, for example when they are working inside the space station modules, during the extra vehicular activity (EVA), or when they are resting. In particular, the project focused on the monitoring of the astronauts when they are inside the crew quarter devoted to rest. In fact, rest and sleep have been consistently reported as being of poor quality in microgravity, both by American astronauts and Russian cosmonauts [<xref rid="b3-sensors-15-00565" ref-type="bibr">3</xref>,<xref rid="b4-sensors-15-00565" ref-type="bibr">4</xref>], but up to now only few studies have addressed the combined action of microgravity and rest on respiration and chest wall mechanics.</p>
+              <p>Radio frequency (RF) systems for the detection of the physiological activities have been proposed in the literature, but, to the authors' knowledge, they were never specifically addressed for aerospace applications; such equipment can be grouped into two main families: Doppler and UWB systems. Historically, Doppler systems were considered first for the detection of vital signs. The idea consists of revealing thorax movements to obtain the respiratory frequency using radar techniques in the microwave region [<xref rid="b5-sensors-15-00565" ref-type="bibr">5</xref>–<xref rid="b10-sensors-15-00565" ref-type="bibr">10</xref>]. Most of the research effort is devoted to the processing of the received signal, and several techniques which make the processing more robust were described and implemented [<xref rid="b11-sensors-15-00565" ref-type="bibr">11</xref>,<xref rid="b12-sensors-15-00565" ref-type="bibr">12</xref>] to investigate also the capability to detect heartbeat. More recent papers are essentially addressed to overcome existing difficulties for applications to realistic environments, introducing more effective processing strategies [<xref rid="b13-sensors-15-00565" ref-type="bibr">13</xref>,<xref rid="b14-sensors-15-00565" ref-type="bibr">14</xref>], whereas other works deal with practical aspects related to the electronic device fabrication [<xref rid="b15-sensors-15-00565" ref-type="bibr">15</xref>–<xref rid="b17-sensors-15-00565" ref-type="bibr">17</xref>].</p>
+              <p>A different choice is offered by the capability of UWB radars to pass through obstacles, by their high resolution, low costs, low energy consumption, low power spectral density levels, associated with ultra-short pulse transmission and immunity against multipath interference [<xref rid="b18-sensors-15-00565" ref-type="bibr">18</xref>]. The first applications to cardio-respiratory activity monitoring of UWB radar have been proposed by McEwan in [<xref rid="b19-sensors-15-00565" ref-type="bibr">19</xref>], where a baseband radar with “range gating” receiver is proposed. The features of the UWB radar were also exploited to extract human vital signs in complex environments [<xref rid="b20-sensors-15-00565" ref-type="bibr">20</xref>–<xref rid="b23-sensors-15-00565" ref-type="bibr">23</xref>], whereas specific UWB radar systems [<xref rid="b24-sensors-15-00565" ref-type="bibr">24</xref>–<xref rid="b27-sensors-15-00565" ref-type="bibr">27</xref>] were designed for the rescue of victims trapped in rubble.</p>
+              <p>The novelty of the NIMURRA project is represented by the application of the UWB technique to monitor astronauts' respiration in a space environment. Despite the premises above, in fact, the use of a biomedical radar in this involved scenario has not been extensively studied in previous literature. This very specific contest requires an accurate electro-magnetic (EM) characterization of the module. More precisely, two aspects of paramount importance for the system design are analyzed in this paper. The first aspect regards the compatibility of the system with the surrounding environment in terms of emitted electromagnetic noise, because both the UWB system and external equipment can be considered at the same time culprit and victim of malfunctioning. As a consequence the analysis of robust algorithms to cancel out interfering signals for a correct detection of the breathing frequency is the second mandatory requirement.</p>
+              <p>The installation of equipment on board the International Space Station (ISS), that could be assumed as a valuable testbed for the application of the proposed system, involves a detailed analysis of the electromagnetic compatibility (EMC) aspects. The importance of this issue is proved by previous experimental analysis on airplanes [<xref rid="b28-sensors-15-00565" ref-type="bibr">28</xref>–<xref rid="b30-sensors-15-00565" ref-type="bibr">30</xref>] where emission of UWB signals have been evaluated within the bandwidth of some aerospace electronics. Therefore, at first, we show how some design constraints have been assessed in order to take into account the presence of other electronic equipment already on board of the station, to avoid any undesired electromagnetic emissions which may cause malfunctioning of other devices (emission issues) and to withstand different radiated and conducted emissions from other sources (immunity issues).</p>
+              <p>However, compliance with electromagnetic interference (EMI) international standards is not the only requirement, because the capability of the system to recover the correct breathing frequency has to be assured also in the presence of low level disturbing signals, both narrow band and broad band, superimposed on the received pulses. Suitable signal processing algorithms must be developed for such a purpose. Conceptually, the breathing rate can be obtained by means of a Fourier analysis, that is, a fast Fourier transform (FFT), if necessary through effective implementations like the chirp-Z transform (CZT), which allows to isolate the fundamental frequency of an “essentially periodic” signal as the breath is (at least in normal conditions). The fundamental frequency corresponds to identifying the position of the major peak in the spectrum. However, the correct identification of the breathing rate should occur, as mentioned, in a noisy environment and in the presence of reflected signals due to obstacles and objects around the monitored astronaut. This may require the adoption of smart numerical tools and procedures, for example consisting of the adoption of multi-peak detection [<xref rid="b31-sensors-15-00565" ref-type="bibr">31</xref>] or multicolumn FFT [<xref rid="b32-sensors-15-00565" ref-type="bibr">32</xref>]. Although we have also taken into account these variants, the results we will show throughout the paper will be mostly referred to the classical approach, which consists of searching for the major peak only. In fact, such a method is often sufficient for estimating the breathing rate, even in the complex space environment considered. Moreover, in this paper, besides the evaluation of the breathing rate, another target is the reconstruction of the entire breathing signal. This goal has been pursued as well, through the employment of a suitable reference signal. We have also faced the problem of compensating possible random movements during rest, by introducing suitable tools in the signal processor. Both the EM and signal processing approaches have been validated through laboratory experiments in order to assess the reliability of the simulation tools that have been used to model the complex and critical space applications.</p>
+              <p>The paper is organized as follows: in Section 2 a brief description of the whole system is reported; in Section 3 the system compliance to international EMI standards is addressed; in Section 4 the algorithms for the signal processing are presented; in Section 5 significant results concerning the application of the algorithms to a signal degraded by environmental electromagnetic interference are reported; finally some conclusions are summarized in Section 6.</p>
+            </sec>
+            <sec>
+              <label>2.</label>
+              <title>System Description</title>
+              <p>The proposed monitoring system is based on the measurement of the signal reflected back by a subject when radiated with a UWB antenna system. The basic elements of the proposed architecture are shown in <xref rid="f1-sensors-15-00565" ref-type="fig">Figure 1</xref>. The UWB pulse generator sends a train of ultra-short pulses to the transmitter front-end, which is terminated with the transmit antenna. The antenna modifies the shape of the pulses (this must be taken into account in the design) according to its transfer function characteristics. The pulses are reflected by the moving thorax of the subject and come back to the receive antenna where they are acquired and sent to the acquisition and processing system, which gives in output the desired unknown quantities, e.g., the breath frequency.</p>
+              <p>More precisely, the system radiates different pulses with a pulse repetition frequency (PRF) high enough to sample accurately the thorax displacements. During the respiration activity the thorax of the subject changes its position relative to the antenna and so the reflected pulses arrive at the antenna with different delay times. Based on the measurement of such delays, the breathing frequency and the time evolution of the respiration can be recovered with good accuracy through a suitable processing of the received waveforms. Such a procedure, requires the individuation and definition of the following parameters [<xref rid="b33-sensors-15-00565" ref-type="bibr">33</xref>]: (1) Level, profile, and temporal duration of transmit-receive pulse; (2) Position and width of the transmit-receive antenna beam; (3) Re-irradiation levels and patterns caused by the subject experiencing the EM field action; (4) Levels of power absorbed in the different organs of the exposed subject; (5) Algorithms to extract data of interest from the received signal and to elaborate them.</p>
+              <p>The adoption of a UWB sensing system in the considered context is justified by the several advantages it offers with respect to more conventional solutions. Besides the fundamental feature to be completely non-invasive, that was a pre-requisite of the NIMURRA project, further advantages of the UWB technique related to the very short pulses (and, consequently, very large bandwidths) involved are: high spatial resolution, high sensitivity (by using the so-called range gating technique), low values of power spectral density, almost negligible risk of undesired biological effects on the monitored subject, and low cost. Moreover, the UWB pulses are not influenced by blankets or clothes.</p>
+              <p>A common choice for the pulse shape is to use the <italic>n</italic>-th derivative, <italic>n</italic> ≥ 1, of the Gaussian function. By centering the pulse at the time instant τ = 0, we have:
+<disp-formula id="FD1"><label>(1)</label><mml:math id="mm1"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>n</mml:mi></mml:msup><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>σ</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:msup></mml:mrow></mml:mfrac><mml:msub><mml:mi>H</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>τ</mml:mi><mml:mrow><mml:msub><mml:mi>σ</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>G</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi>τ</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula>where <italic>C<sub>n</sub></italic> is a constant determining the pulse amplitude, <italic>p<sub>n</sub></italic>(τ) is the pulse waveform as a function of the time τ, <italic>H<sub>n</sub></italic> is the Hermite polynomial of order <italic>n</italic> and <italic>G</italic> is the Gaussian function with zero mean and standard deviation σ<italic><sub>n</sub></italic>. The latter determines the effective pulse duration. For example, in the case of <italic>n</italic> = 1 (Gaussian monocycle), σ<italic><sub>n</sub></italic> = τ<italic><sub>p</sub></italic>/2, where τ<italic><sub>p</sub></italic> is the time gap between the maximum and the minimum of the monocycle. As the pulses so defined have nominally infinite extension in time, their effective duration τ<italic><sub>d</sub></italic> must be properly defined. For example, we can consider the interval outside which the pulse assumes, in modulus, values not greater than 1‰ of the maximum amplitude. In the case of <italic>n</italic> = 1, this corresponds to have τ<italic><sub>d</sub></italic> ≈ 3.75τ<italic><sub>p</sub></italic>. Finally, for the same case of <italic>n</italic> = 1, we have τ<italic><sub>p</sub></italic> = 1/(π<italic>f<sub>c</sub></italic>), where <italic>f</italic><sub>c</sub> is the frequency at which the spectrum of the pulse is maximum (central frequency). The UWB signal spectrum has a central role in the analysis and will be discussed in Section 3.</p>
+              <p>The antenna has to work in the 3.1–10.6 GHz band according to the US Federal Communications Commission (FCC) definition [<xref rid="b34-sensors-15-00565" ref-type="bibr">34</xref>]. During the project, different types of antenna have been analyzed mostly based on the Vivaldi antenna structure, because it provides the required large bandwidth and a high fidelity factor [<xref rid="b35-sensors-15-00565" ref-type="bibr">35</xref>]. Results, not reported here for the sake of brevity, show that the system performance is not significantly affected by the antenna type. Therefore, the only antenna we have considered for the following analysis and simulation is an antipodal Vivaldi antenna.</p>
+              <p>The antenna (<xref rid="f2-sensors-15-00565" ref-type="fig">Figure 2</xref>) has been designed and realized in our laboratory, following a proper optimization by a commercial software [<xref rid="b36-sensors-15-00565" ref-type="bibr">36</xref>]. The required design specifications consist of a half power beamwidth (HPBW) in the order of 55° to illuminate uniformly the thorax at a distance of 50 cm, a fidelity factor &gt; 0.9, and an S<sub>11</sub> &lt; 10 dB in the UWB band. The geometry of the realized antennas is shown in <xref rid="f2-sensors-15-00565" ref-type="fig">Figure 2</xref>. The final dimensions of the antenna are <italic>L</italic> = 171 mm, <italic>w</italic> = 114 mm, and the fidelity factor is equal to 0.978 in the main lobe direction.</p>
+              <p>The fundamental features of the antennas, that is, gain, HPBW and S<sub>11</sub>, respectively, are reported in <xref rid="f3-sensors-15-00565" ref-type="fig">Figure 3</xref>. The electromagnetic environment analyzed in the paper can be considered stressing for the EM simulator and therefore some measurements were carried out to check the proper setting of the parameters and the corresponding accuracy of the numerical results. The first of such tests concerns the measurement of the characteristics of the designed antennas that was performed with a vector network analyzer (VNA). In particular the S<sub>11</sub> was measured, because it is one of the most critical parameters of an antenna. The results of the S<sub>11</sub> measurements are reported in <xref rid="f3-sensors-15-00565" ref-type="fig">Figure 3c</xref>, and there compared with the simulations. As we can see, the agreement between measurements and simulations results is very good.</p>
+              <p>Another configuration taken into account for the software stress test is shown in <xref rid="f4-sensors-15-00565" ref-type="fig">Figure 4</xref>, where the antenna is placed in front of a metallic panel (40 cm × 40 cm) and the S<sub>11</sub> of the antenna was measured and simulated. The panel is placed in the near field region of the antenna at a distance of 100 cm. The measurements were carried out inside an anechoic environment. In <xref rid="f5-sensors-15-00565" ref-type="fig">Figure 5</xref> the signal received by the antenna is reported for both the simulation and the measurements, showing a good agreement. The time domain response of the system to a pulse generated by the VNA is reported: the highest peaks in the range [<xref rid="b2-sensors-15-00565" ref-type="bibr">2</xref>–<xref rid="b7-sensors-15-00565" ref-type="bibr">7</xref>] ns represent reflections due to the antenna and connectors mismatching, even if we have measured |S<sub>11</sub>| &lt; −10 dB in the whole UWB range. Also in this case the comparison is very good. This means that even if the antenna mismatch is not high in absolute value, it has to be compared with the useful signal that can be even lower. It is worth noticing that the reflection of the metallic panel is a very low signal that may be masked by environmental disturbances.</p>
+            </sec>
+            <sec>
+              <label>3.</label>
+              <title>EMC Issues</title>
+              <p>The characterization of the environment from an electromagnetic point of view plays an important role for the definition of the UWB radar emission and susceptibility specifications. In particular we have decided to refer to the worst combination between the EMC requirements fixed for two important space module laboratories: Columbus [<xref rid="b37-sensors-15-00565" ref-type="bibr">37</xref>] and Harmony (also known as Node 2) [<xref rid="b38-sensors-15-00565" ref-type="bibr">38</xref>], both present in the ISS.</p>
+              <sec>
+                <label>3.1.</label>
+                <title>Compliance with Standard for Emissions</title>
+                <p>Radiated emission (RE) measurement procedures are defined by the MIL-STD 461 [<xref rid="b39-sensors-15-00565" ref-type="bibr">39</xref>] and 462 [<xref rid="b40-sensors-15-00565" ref-type="bibr">40</xref>], and the maximum allowed radiated emission levels are reported in <xref rid="f6-sensors-15-00565" ref-type="fig">Figure 6</xref>. As the measurement distance from the antenna is fixed at 1 m, the far field antenna behavior cannot be assumed for the RE prediction and a field computation in near field is required.</p>
+                <p>The aim of the analysis is the assessment of the design specification concerning the maximum input voltage feeding the antenna that allows system compliance with the emission standards. For such purpose, the field radiated by different kinds of antenna (a double ridge antenna, a printed Vivaldi antenna, and a solid Vivaldi antenna) has been analyzed, using the CST software [<xref rid="b36-sensors-15-00565" ref-type="bibr">36</xref>] to test the robustness of the approach with respect to the radiating systems. In particular, the relationship between the allowed electric field limits, the pulse spectral density and the pulse waveform has been determined.</p>
+                <p>As the EMC standards are given in the frequency domain, the transfer function <italic>H</italic>(<italic>f</italic>) between the Fourier transform of the 1 m electric field, <italic>E</italic>(<italic>f</italic>), and the Fourier transform of the antenna input voltage, <italic>V</italic>(<italic>f</italic>), is computed:
+<disp-formula id="FD2"><label>(2)</label><mml:math id="mm2"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>E</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:msup><mml:mtext>m</mml:mtext><mml:mrow><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula></p>
+                <p>This quantity is used to recover the voltage spectral density limit <italic>S</italic>(<italic>f</italic>) for the UWB pulse applicable to the antenna, in order to fulfill the electric field limits <italic>E</italic><sub>limit</sub> previously shown in <xref rid="f6-sensors-15-00565" ref-type="fig">Figure 6</xref>:
+<disp-formula id="FD3"><label>(3)</label><mml:math id="mm3"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mtext>limit</mml:mtext></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>⋅</mml:mo><mml:mtext>RBW</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mrow><mml:mtext>V</mml:mtext><mml:mo>/</mml:mo><mml:mtext>Hz</mml:mtext></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula>where RBW is the resolution bandwidth of the measurement instruments.</p>
+                <p>The emission level measured with the standard procedure depends on the PRF of the UWB signal compared to the RBW of the instrument. In <xref rid="FD3" ref-type="disp-formula">Equation (3)</xref> we assume that PRF ≪ RBW, so that the emission level is simply the inverse of the RBW of the instrument.</p>
+                <p><xref rid="f7-sensors-15-00565" ref-type="fig">Figure 7</xref> reports |<italic>S</italic>(<italic>f</italic>)| from <xref rid="FD3" ref-type="disp-formula">Equation (3)</xref> when RBW = 1 MHz (as prescribed by standard) for the considered Vivaldi antenna. This figure provides the root mean square (RMS) value of an upper limit to the spectral density of the admissible pulse in its single side representation. In this sense, it allows to check the applicability of a UWB pulse.</p>
+                <p>Considering the pulse described in <xref rid="FD1" ref-type="disp-formula">Equation (1)</xref>, the corresponding spectral density is:
+<disp-formula id="FD4"><label>(4)</label><mml:math id="mm4"><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>⋅</mml:mo><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt><mml:mo>⋅</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>-</mml:mo><mml:mi>j</mml:mi><mml:mn>2</mml:mn><mml:mi>π</mml:mi><mml:mi>f</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>n</mml:mi></mml:msup><mml:mo>⋅</mml:mo><mml:msup><mml:mi>G</mml:mi><mml:mo>′</mml:mo></mml:msup><mml:mo stretchy="false">(</mml:mo><mml:mi>f</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>σ</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math></disp-formula>where <italic>C<sub>n</sub></italic> is the unknown amplitude, <italic>G</italic>′(<italic>f</italic>, σ<italic><sub>n</sub></italic>) is the Fourier transform of the Gaussian function and the factor 
+<inline-formula><mml:math id="mm5"><mml:mrow><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt></mml:mrow></mml:math></inline-formula> accounts for the single side representation and for the RMS calibration of the peak detector. For example, considering the first five time derivatives of the Gaussian pulse with σ<sub>1</sub> = σ<sub>2</sub> = 75 ps, σ<sub>3</sub> = 60 ps, σ<sub>4</sub> = 55 ps, σ<sub>5</sub> = 50 ps, that ensure an almost equal pulse duration, it is possible to recover the greatest value of the amplitude <italic>C<sub>n</sub></italic> in <xref rid="FD4" ref-type="disp-formula">Equation (4)</xref> that fulfills the emission limits.</p>
+                <p><xref rid="f8-sensors-15-00565" ref-type="fig">Figure 8</xref> shows the spectral densities of the UWB input signals corresponding to the time impulse reported in <xref rid="f9-sensors-15-00565" ref-type="fig">Figure 9</xref>. It is noticeable that the deep notch at 2.45 GHz produces the highest limitation in the pulse amplitude up to the third derivative, whereas for higher order derivatives its effect is less evident.</p>
+              </sec>
+              <sec>
+                <label>3.2.</label>
+                <title>Compliance with the Standard for Susceptibility</title>
+                <p>Susceptibility assessment is considered according to the procedures standardized by MIL-STD 461 [<xref rid="b39-sensors-15-00565" ref-type="bibr">39</xref>] and 462 [<xref rid="b40-sensors-15-00565" ref-type="bibr">40</xref>], and the mask shown in <xref rid="f10-sensors-15-00565" ref-type="fig">Figure 10</xref> that represents the worst combination between the Columbus and the Harmony EMC requirements.</p>
+                <p>In order to design an immune device, the voltage received by the antenna during a susceptibility test has to be calculated. Considering that the device has to be uniformly radiated, an incident plane wave is used. The electromagnetic configuration of the susceptibility test is different with respect to the emission test: in particular the former is defined for far field conditions, whereas the latter has to be obtained in a near field situation. As a consequence, <xref rid="FD2" ref-type="disp-formula">Equation (2)</xref> cannot be used, and a new transfer function <italic>R</italic>(<italic>f</italic>) for the antenna in receiving mode has to be evaluated. Moreover, the modulus only is taken into account because the standards only specify the field intensity; then, we have:
+<disp-formula id="FD5"><label>(5)</label><mml:math id="mm6"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>V</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>E</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mtext>m</mml:mtext><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math></disp-formula>where |<italic>E</italic> (<italic>f</italic>)| is the amplitude of the plane wave impinging on the antenna, and |<italic>V</italic> (<italic>f</italic>)| is the corresponding maximum amplitude of the received voltage. From <xref rid="FD5" ref-type="disp-formula">Equation (5)</xref>, the susceptibility voltage level for each frequency is:
+<disp-formula id="FD6"><label>(6)</label><mml:math id="mm7"><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mrow><mml:mi>O</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mtext>dB</mml:mtext></mml:mrow><mml:mtext>V</mml:mtext></mml:msub></mml:mrow></mml:msub><mml:mrow><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mtext>dB</mml:mtext></mml:mrow><mml:mrow><mml:mrow><mml:mtext>V</mml:mtext><mml:mo>/</mml:mo><mml:mtext>m</mml:mtext></mml:mrow></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>f</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mtext>dB</mml:mtext></mml:mrow><mml:mtext>m</mml:mtext></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:math></disp-formula>where <italic>M</italic>(<italic>f</italic>) is the standard susceptibility field level, and <italic>O</italic>(<italic>f</italic>) its corresponding received voltage.</p>
+                <p>As an example of the procedure, the transfer function of the Vivaldi antenna has been calculated and the received voltage, corresponding to the electric field of <xref rid="f10-sensors-15-00565" ref-type="fig">Figure 10</xref>, has been recovered. The result obtained is shown in <xref rid="f11-sensors-15-00565" ref-type="fig">Figure 11</xref>. This voltage can be used by the designer of the sensing system receiver to verify the front end components hazard and to establish proper countermeasures (limiters or suppressor devices for example).</p>
+              </sec>
+            </sec>
+            <sec>
+              <label>4.</label>
+              <title>Signal Processing Solutions</title>
+              <p>In this section, we describe the theoretical and software tools we have adopted for extracting the respiration features and, in particular, the breath frequency from the received signal. Some preliminary numerical examples will be also provided, that however do not take into account the EMC issues. The latter will be instead considered in Section 5, which is devoted to the presentation of some results in realistic environments.</p>
+              <sec>
+                <label>4.1.</label>
+                <title>Breath Rate Detection</title>
+                <p>The core of the signal processing algorithm consists of the acquisition of an elaboration matrix <bold>R</bold> that collects a number of received waveforms, comprehensive of the useful signal (<italic>i.e.</italic>, reflected from the thorax) and undesired ones (due to fixed obstacles in the environment, thermal noise, disturbing signals from electronic apparatus—here neglected for the reasons explained in the premise—, <italic>etc.</italic>). More precisely, each row of <bold>R</bold> contains the samples of a received waveform. The time-axis along each received waveform is termed “fast-time” (τ) and has a rather small sampling time <italic>T<sub>f</sub></italic> (e.g., <italic>T<sub>f</sub></italic> = 10 ps). The interval between subsequent acquisitions (that is, two adjacent rows of <bold>R</bold>) is indicated by <italic>T<sub>s</sub></italic> and is in the order of 0.1 s. The corresponding time-axis is termed “slow-time” (<italic>t</italic>). The duration of the measurement interval is denoted by <italic>T<sub>meas</sub></italic> and the ratio between <italic>T<sub>meas</sub></italic> and <italic>T<sub>s</sub></italic> provides the number of rows of <bold>R</bold>.</p>
+                <p>The difficulty in achieving small values of <italic>T<sub>s</sub></italic> and, most of all, of <italic>T<sub>f</sub></italic> is a critical point of the experimental system since, in the absence of an efficient sampling and real time communication of the sampled data, the performance may degrade. However, if the target is to detect only the breath frequency, the theoretical constraints on the sampling interval can be relaxed while continuing to obtain satisfactory results. The impact is more pronounced as concerns the reconstruction of the entire waveform (if desired) where, however, limited sampling can be partly compensated through the adoption of more refined (and therefore complex) detection techniques.</p>
+                <p>A pictorial example of matrix <bold>R</bold> at the receiver input is shown in <xref rid="f12-sensors-15-00565" ref-type="fig">Figure 12a</xref>: vertical, multi-colored, straight lines denote the presence of static clutter contributions due to some fixed obstacles present in the considered environment; these undesired echoes can be identified and removed through suitable signal processing algorithms.</p>
+                <p>The static clutter is typically removed by using a motion filter [<xref rid="b41-sensors-15-00565" ref-type="bibr">41</xref>] that subtracts from each waveform the average of all the waveforms along the slow-time. <xref rid="f12-sensors-15-00565" ref-type="fig">Figure 12b</xref> represents the same matrix <bold>R</bold> as in <xref rid="f12-sensors-15-00565" ref-type="fig">Figure 12a</xref>, but after application of the motion filter: the static clutter has been completely removed while the oscillating trace, that is due to the thorax reflection and gives the useful signal to detect, is only slightly modified (distorted) by the action of the motion filter.</p>
+                <p>A spectral analysis can be then realized on the matrix so obtained. An important issue concerns the choice of the fast-time instant at which to perform the spectral analysis. It is possible to show [<xref rid="b41-sensors-15-00565" ref-type="bibr">41</xref>] that the best choice for this instant coincides with the propagation time (forward and backward) along the nominal distance <italic>d</italic><sub>0</sub> of the subject under test, <italic>i.e.</italic>, τ<sub>0</sub> = 2<italic>d</italic><sub>0</sub>/<italic>c</italic>, where <italic>c</italic> is the velocity of light. In some cases the value of τ<sub>0</sub> is known a priori. This can be considered a realistic assumption for the case of the astronaut during rest.</p>
+                <p>When this is not, a procedure for estimating the unknown τ<sub>0</sub> consists of looking at the energy of the motion-filter output and choosing τ = τ̂<sub>0</sub> such that the energy is maximum. Obviously, in a digital implementation, the accuracy in finding the exact value of τ<sub>0</sub> is limited by the fast-time sampling interval.</p>
+                <p>For better evidence, in the following <xref rid="FD7" ref-type="disp-formula">Equations (7)</xref> and <xref rid="FD8" ref-type="disp-formula">(8)</xref>, we represent the received signal as a continuous signal. On the other hand, it should be noted that in presence of a strong oversampling (as required for an efficient estimate) the digital signal can be efficiently described through a continuous waveform. So, noting by <italic>r</italic>(<italic>t</italic>, τ) the signal at the output of the motion filter, supposed to be applied over a 1 Ω resistance (a different value of the resistance would only imply a scale factor, inessential for the analysis), the value of its energy in the interval between <italic>t</italic><sub>start</sub> and <italic>t</italic><sub>start</sub> + <italic>T</italic><sub>meas</sub>, is given by:
+<disp-formula id="FD7"><label>(7)</label><mml:math id="mm8"><mml:mrow><mml:mi>e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:munderover><mml:mo>∫</mml:mo><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mtext>start</mml:mtext></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mtext>start</mml:mtext></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mtext>meas</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mrow></mml:math></disp-formula>and we must find the value τ = τ̂<sub>0</sub> such that <italic>e</italic>(τ) is maximum. As an alternative, we can introduce the following definition, that has the meaning of energy of the average value (over the slow-time axis) of the motion-filter output:
+<disp-formula id="FD8"><label>(8)</label><mml:math id="mm9"><mml:mrow><mml:mi>e</mml:mi><mml:mo>'</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mrow><mml:munderover><mml:mo>∫</mml:mo><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mtext>start</mml:mtext></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mtext>start</mml:mtext></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mtext>meas</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:mrow><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>t</mml:mi><mml:mo>,</mml:mo><mml:mi>τ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mrow></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mtext>meas</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                <p>Potentially, the use of <xref rid="FD8" ref-type="disp-formula">Equation (8)</xref> in the place of <xref rid="FD7" ref-type="disp-formula">Equation (7)</xref> has the advantage to reduce the effect of the thermal noise, since the latter is averaged through the integral operation. An example in this sense is provided in [<xref rid="b42-sensors-15-00565" ref-type="bibr">42</xref>]. An intermediate situation occurs when the value of τ<sub>0</sub> is known only approximately. Once again, this scenario is significant for the specific application we are considering as, during rest, it is possible that the astronaut makes some limited and slow movements, around the nominal position, that slightly modify the distance between the thorax and the antenna. In this case, a “robust” procedure for counter estimation errors in the local value of τ<sub>0</sub> consists of computing the Fourier transform not only at the selected τ̂<sub>0</sub> but also in a range around that value.</p>
+                <sec>
+                  <title>Example 1</title>
+                  <p>Let us consider a simulated environment, where the thorax movement is modeled through a sinusoidal function (this is a simplifying assumption, that however is acceptable in normal breath conditions. In Section 5, a more general triangle behavior will be also considered) with frequency <italic>f<sub>b</sub></italic> = 0.475 Hz and amplitude <italic>m<sub>b</sub></italic> = 12 mm. The nominal distance between the subject and the antenna is <italic>d</italic><sub>0</sub> = 0.8 m, that corresponds to τ<sub>0</sub> = 5.33 ns. Let us consider <italic>T<sub>s</sub></italic> = 0.2 s and <italic>T<sub>f</sub></italic> = 10 ps. This setting corresponds to the matrix <bold>R</bold> in <xref rid="f12-sensors-15-00565" ref-type="fig">Figure 12</xref>. Let us suppose that the estimate of τ<sub>0</sub> provides τ̂<sub>0</sub>= 5.34 ns. The mono-dimensional slow-time FFT computed, at that instant, along the slow-time axis is shown in <xref rid="f13-sensors-15-00565" ref-type="fig">Figure 13</xref>. The Fourier transform shows peaks at the right breath rate (0.475 Hz) and its multiples, so that the unknown quantity <italic>f<sub>b</sub></italic> can be properly estimated.</p>
+                  <p>Let us suppose, instead, that the estimate provides a value farther from the exact one, e.g., τ̂<sub>0</sub>= 5.38 ns. In this case, the FFT provides the result shown in <xref rid="f13-sensors-15-00565" ref-type="fig">Figure 13b</xref>. The highest peak now occurs at a frequency that is twice the right value. In conclusion, we can say that the procedure above, based on a single, properly selected, FFT fast-time instant, produces reliable and unambiguous results only on condition that the estimate of τ<sub>0</sub> is very accurate. As mentioned above, the inaccuracy in the estimate of τ<sub>0</sub> can be compensated by extending the computation of the Fourier transform to a range centered around τ̂<sub>0</sub>. <xref rid="f14-sensors-15-00565" ref-type="fig">Figure 14</xref> shows, in a color map, the values of the Fourier transform computed on the set of columns in a range equivalent to ±5 mm around the estimated nominal distance, when τ̂<sub>0</sub> = 5.38 ns. We see that most of the Fourier transforms, in the considered range of fast-time values, show a peak at <italic>f<sub>b</sub></italic>. Obviously, coherent with the previous analysis, some transforms have a peak at 2<italic>f<sub>b</sub></italic>, and this may yield an error if evaluation is done on single vectors. The impact of such wrong estimates is smoothed by averaging the results on the ensemble of transforms. This is shown in <xref rid="f15-sensors-15-00565" ref-type="fig">Figure 15</xref>, that reports the “average” transform so obtained; from the figure, we see that this average spectrum has a peak at <italic>f<sub>b</sub></italic> that, therefore, can be correctly estimated also in the presence of some error in the estimated value of τ<sub>0</sub>.</p>
+                </sec>
+              </sec>
+              <sec>
+                <label>4.2.</label>
+                <title>Thorax Movement Reconstruction</title>
+                <p>The accurate reconstruction of the instantaneous thorax position is possible, at least in principle, by using a correlation-based radar. A block scheme of a system of this type is shown in <xref rid="f16-sensors-15-00565" ref-type="fig">Figure 16</xref>. Apart from the possible introduction of suitable scaling factors, the correlation function is defined as the integral (<italic>i.e.</italic>, low-pass filtering) of the product between the received signal <italic>r</italic>(<italic>t</italic>, τ) and a reference signal <italic>s</italic>(<italic>t</italic>, τ). The position of the maximum of the correlation function allows to determine directly the target distance. Computation of the correlation must be repeated at any acquisition, <italic>i.e.</italic>, for any value of the slow-time <italic>t</italic>.</p>
+                <p>The main problem when using correlation-based methods is the choice of the reference signal. Various options are possible. The simplest choice for the reference signal consists of assuming the same pulse shape as in the transmitter [<xref rid="b43-sensors-15-00565" ref-type="bibr">43</xref>]; this, however, makes detection highly vulnerable to possible distortion of the signal. The best correlation, in fact, is obtained when the shape of the reference signal matches well the received pulse (rather than the transmitted one).</p>
+                <p>For this reason, in [<xref rid="b44-sensors-15-00565" ref-type="bibr">44</xref>] a method is proposed that is based on the continuous wavelet transform (CWT). Thanks to the property of wavelets to be localized in time and frequency, they can be adapted, through optimization of the dilatation and translation scale factors, to the received waveform. The main drawback of the method in [<xref rid="b44-sensors-15-00565" ref-type="bibr">44</xref>] is the rather long processing time it requires. On the other hand, once having specified the environment, an approximation of the expected received pulse shape can be determined in advance. In the experiment described in [<xref rid="b45-sensors-15-00565" ref-type="bibr">45</xref>], for example, a received signal was found, that was very similar to the seventh derivative of the Gaussian function, so that the latter was assumed as the reference.</p>
+                <p>In [<xref rid="b46-sensors-15-00565" ref-type="bibr">46</xref>], we have proposed a different approach, which consists of considering, as the reference signal, the same waveform of the received signal. More precisely, by exploiting the <italic>range-gating</italic> capability that is inherent to the UWB radar, the significant part of the received signal is isolated and then used as the reference.</p>
+                <sec>
+                  <title>Example 2</title>
+                  <p>Let us consider the same scenario hinted in Example 1. Following [<xref rid="b46-sensors-15-00565" ref-type="bibr">46</xref>], the received signal has been used as the reference signal. The reconstructed thorax movement, originally described through a sinusoidal function with frequency <italic>f<sub>b</sub></italic> = 0.475 Hz and amplitude <italic>m<sub>b</sub></italic> = 12 mm, is plotted in <xref rid="f17-sensors-15-00565" ref-type="fig">Figure 17</xref>. Qualitatively, we see that both the values of <italic>f<sub>b</sub></italic> and <italic>m<sub>b</sub></italic> are estimated with good accuracy.</p>
+                  <p>The goodness of the thorax movement reconstruction can be measured by computing the correlation coefficient between the original and reconstructed respiration waveforms, defined as:
+<disp-formula id="FD9"><label>(9)</label><mml:math id="mm10"><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:msubsup><mml:mi>z</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:msub><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:msubsup><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>where <italic>z<sub>i</sub></italic> is the actual value of the chest displacement at the <italic>i</italic>-th sampling instant and τ̂<italic><sub>i</sub></italic> its estimated value. Alternatively, we can compute the normalized-square-error (NSE), defined as:
+<disp-formula id="FD10"><label>(10)</label><mml:math id="mm11"><mml:mrow><mml:mtext>NSE</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mrow><mml:mrow><mml:msub><mml:mo>∑</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:msubsup><mml:mi>z</mml:mi><mml:mi>i</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula></p>
+                </sec>
+                <sec>
+                  <title>Example 2 (ctd.)</title>
+                  <p>The normalized-square-error for the waveform shown in <xref rid="f17-sensors-15-00565" ref-type="fig">Figure 17</xref>, where the received signal has been used as the local reference, is NSE = 2.35 × 10<sup>−4</sup>. By using the method in [<xref rid="b44-sensors-15-00565" ref-type="bibr">44</xref>] for the same example, the error is smaller, resulting in NSE = 7.18 × 10<sup>−5</sup>. As a drawback, however, the processing time for the method based on CWT is significantly higher (more than 10 times greater). The processing time is also small when using the transmitted waveform as the reference signal but, in this case, the error becomes significantly larger: for the considered example, it is NSE = 1.99 × 10<sup>−2</sup>.</p>
+                </sec>
+              </sec>
+              <sec>
+                <label>4.3.</label>
+                <title>Body Movement Compensation</title>
+                <p>Obviously, the UWB radar detection techniques is altered by the body movement and, in the absence of proper countermeasures, detecting the respiration waveform and even its rate can become impossible. In spite of its importance, this problem has rarely been faced in previous literature. The solution proposed in [<xref rid="b47-sensors-15-00565" ref-type="bibr">47</xref>], for the case of a Doppler radar sensor, adopts a complex signal demodulation technique. The system uses multiple antennas and transceivers to perform detection both from the front and from the back of the human body. Through theory and experiments, the authors demonstrate that a small random body movement (in the order of 5 cm in a time of 5 s) can be completely canceled out. Such a limited and slow movement may be significant when the subject is in rest position (as in the NIMURRA reference scenario), while, in general, wider and faster excursions could be investigated as well. In [<xref rid="b13-sensors-15-00565" ref-type="bibr">13</xref>], such an approach is extended by considering a different demodulation method for noncontact vital sign detection, <italic>i.e.</italic>, the arctangent demodulation. In this case, the measurement efficiency is related to the calibration accuracy of the baseband dc offset. A further solution, presented in [<xref rid="b48-sensors-15-00565" ref-type="bibr">48</xref>], adopts a differential front-end Doppler radar operating at two different frequencies. All these methods exploit Doppler radar sensors and require at least two antennas.</p>
+                <p>In [<xref rid="b49-sensors-15-00565" ref-type="bibr">49</xref>], we have proposed a method to compensate for the body movement also in monostatic UWB radars, with only one antenna placed in front of the body. The method extends the procedure described in Section 4.1 for the case of still subjects. Similar to the latter, the best fast-time instant, τ<sub>0</sub>, must be identified, at which performing the spectral analysis. As described in Section 4.1 when the subject is still, this can be done searching for the value of τ at which the energy is maximum. In this case the energy can be averaged, for each fast-time instant, over the whole slow-time axis <italic>t</italic>. On the contrary, when the subject is moving, such approach becomes inefficient, and the value of τ<sub>0</sub> needs to be determined separately for each row (or block of rows, if the subject movement is slow) of matrix <bold>R</bold>. Since τ<sub>0</sub> measures the “nominal” subject distance <italic>d</italic><sub>0</sub>, by estimating it we can follow the body movement, compensate it and, finally, recover the unknown parameters.</p>
+                <p>More precisely, for each row of the matrix, we must estimate the distance between the antenna and the chest, which is influenced by both the respiration activity and the subject movement. In order to assess the respiration parameters, we need to separate these two contributions. For such purpose, we use the estimated distance values as input for a fitting function that interpolates them, as a function of the slow-time, by means of a sum of <italic>m</italic> sinusoidal functions (<italic>m</italic> is the order of the interpolating law). It should be noted that a similar fitting technique is used in [<xref rid="b50-sensors-15-00565" ref-type="bibr">50</xref>] to model and cancel the respiration motion when reconstructing the cardiac motion. In that case, however, besides the different target, the authors use a polynomial of order <italic>m</italic> instead of sinusoidal functions. A fitting function suitable for our purposes is available, for example, in Matlab<sup>®</sup>, with 1 ≤ <italic>m</italic> ≤ 8. By adjusting its parameters, the fitting function allows to estimate the subject movement (<italic>i.e.</italic>, the variation of <italic>d</italic><sub>0</sub>), and to separate it from the breath activity. In principle, separation would be possible by using simple pass-band filters. However, these filters often have overlapped harmonics, which make filtering inefficient. The use of the fitting tool permits us to overcome this drawback. The received waveforms are then realigned by shifting each of them by a quantity that is equal to the estimated subject movement at the corresponding row. This allows to obtain a “compensated” elaboration matrix, which is equivalent to have a still subject placed at the initial distance from the antenna, and to perform a spectral analysis in the same manner as when the subject is still. Moreover, by isolating the chest movement, the value of <italic>m<sub>b</sub></italic> can be estimated as well. Numerical examples are reported in [<xref rid="b49-sensors-15-00565" ref-type="bibr">49</xref>].</p>
+                <p>In order to assess and validate the considered techniques in a real life environment, an experimental setup has been prepared and a measurement campaign has been carried out. The experimental setup models a bistatic UWB radar exploiting two double-ridge antennas. The equipment involves a Picosecond Pulse Labs 2600C pulse generator (Picosecond Pulse Labs, Boulder, CO, USA) and a Tektronix TDS 7404 oscilloscope (Tektronix, Inc., Beaverton, OR, USA) with digital data acquisition feature, each connected to one antenna. The pulse generator has PRF equal to 1 kHz and pulse length of about 1.5 ns. The oscilloscope has sampling rate equal to 20 GSamples/s and works in “fast frame” acquisition mode. The measurements were performed inside a semi anechoic environment, with anechoic walls placed behind the subject under test, to simulate a low-reflection scenario (like an open environment). <xref rid="f18-sensors-15-00565" ref-type="fig">Figure 18</xref> reports an example of the transmitted and received waveform in the considered experimental setup.</p>
+                <p>The experiment was performed by placing a human subject at a distance of about 1 m from the transmitting and receiving antennas and acquiring the backscattered waveforms during an observation time of 60 s. The human subject was breathing normally, with a breathing frequency of about 0.18 Hz.</p>
+                <p>The data acquired during this experiment has been processed offline through the algorithms described above. A further correlation-based algorithm has been exploited for the jitter correction, with the aim to compensate for the trigger inaccuracies experienced during acquisitions. <xref rid="f19-sensors-15-00565" ref-type="fig">Figure 19</xref> reports the matrix <bold>R</bold> obtained from the acquired data, before and after motion filtering.</p>
+                <p>As we observe from the figure, the sampled data was highly noisy, and affected by high levels of static clutter due to signal reflections (both before and after the transmitting antenna). Despite this, we observe from <xref rid="f19-sensors-15-00565" ref-type="fig">Figure 19b</xref> that the motion filter is able to significantly reduce the static clutter level and thus highlighting a trace corresponding to the breathing signal. The spectral analysis of this trace returned an estimated breathing frequency of about 0.19 Hz, hence the estimation error was less than 6%.</p>
+              </sec>
+            </sec>
+            <sec>
+              <label>5.</label>
+              <title>Application to the Space Environment</title>
+              <p>The examples presented in Section 4 give an idea of the potentialities of the approach. However, the peculiarity of our analysis is to apply the UWB sensing system to the detection of the breath signal in a complex scenario like that of a space module. For this purpose, it has to be considered that the system works in a highly resonant environment and, moreover, it suffers all the possible EMI signals coming from other sources. The system has to work properly also in this highly noisy environment.</p>
+              <p>Based on these premises, it is evident that, in order to analyze the performance of the system, a complete characterization of the environment is necessary. The UWB system is intended to be placed inside the racks where the astronauts rest. The choice of locating the system for breathing detection inside the rack where the astronauts sleep was adopted after a long preliminary study concerning the propagation of electromagnetic pulses in the ISS typical environment. The study has permitted us to highlight many critical situations due to multipath [<xref rid="b51-sensors-15-00565" ref-type="bibr">51</xref>]. The racks have a metallic structure closed with special fabric for acoustic and solar radiation protection, and a door is placed in the front side of each rack. In order to take into account the presence of the rack, the numerical analysis has been divided in two parts. Firstly, the space module environment and an open rack were analyzed [<xref rid="b51-sensors-15-00565" ref-type="bibr">51</xref>]. The results show that, as expected, the reflecting behavior of the module creates a very noisy environment due to the multiple reflections of the structure. The reflected pulses can be considered as a broadband noise superposed to the useful signal coming from the body. It is important to observe that, for the goals of our analysis, it is sufficient to consider, and properly simulate, only the reflections due to the metallic walls of the rack. As mentioned above, the situation would be different if sensing were realized when the astronauts freely move inside the space station; in this case a complete characterization of the multipath profile would be necessary, like that realized in designing a wi-fi network on board of the ISS [<xref rid="b52-sensors-15-00565" ref-type="bibr">52</xref>,<xref rid="b53-sensors-15-00565" ref-type="bibr">53</xref>]. A sensing of this kind, though certainly interesting, still exhibits several practical problems that make its implementation rather difficult. For this reason, the NIMURRA project has been focused on breath sensing during the rest.</p>
+              <p>Then, in the second part of the study, the performance of the system was assessed in presence of broadband and narrowband noise sources external to the rack, while considering the human body inside the rack. The effect of the EMI sources could induce errors in the calculation of the breathing frequency, even though their emission levels are sufficiently low to avoid the risk of component damage, as discussed in Section 3.</p>
+              <p>The considered geometry is shown in <xref rid="f20-sensors-15-00565" ref-type="fig">Figure 20</xref>: the closed volume has dimensions 104 cm × 85 cm × 201 cm and contains the human body modeled through a phantom. Although highly sophisticated models are available [<xref rid="b54-sensors-15-00565" ref-type="bibr">54</xref>,<xref rid="b55-sensors-15-00565" ref-type="bibr">55</xref>], the phantom is simulated as if it was formed by a perfectly conductor material, in order to reduce the computational effort. This may seem a strong assumption. Actually, some tests have been carried out to check its reliability: our simulations show that the time domain response does not differ significantly in the two cases of lossy biologic tissues or perfectly conductor material in the first 10 ns [<xref rid="b56-sensors-15-00565" ref-type="bibr">56</xref>] which are enough to collect the single measurement, via a proper range gating. Not shown in the figure, the UWB Vivaldi antenna is placed in front of the subject chest.</p>
+              <p>The respiration waveform is approximated by a triangular behavior (ascending curve for inhalation and descending curve for exhalation). The fundamental frequency is <italic>f<sub>b</sub></italic> = 0.2 Hz, that therefore represents the unknown to estimate. For processing purposes, the displacement of the thorax during the breathing activity is discretized into different stationary steps. This approximation can be done because the speed of the displacement is very low compared to the pulse speed. The signal to be processed is a combination of all the simulations done for each position of the thorax.</p>
+              <p><xref rid="f21-sensors-15-00565" ref-type="fig">Figure 21</xref> reports one of the received waveforms in the considered setting, <italic>i.e.</italic>, by using the subject and rack models, and in the absence of external EMI sources. A set of received waveforms of this kind is collected into the processing matrix <bold>R</bold>, which is reported in <xref rid="f22-sensors-15-00565" ref-type="fig">Figure 22a</xref>. The matrix <bold>R</bold>, so obtained, is used as input for the signal processing algorithms described in Section 4, with the aim to estimate the breathing frequency.</p>
+              <p>First of all, motion filtering is performed in order to isolate the echoes corresponding to the subject thorax. The result of this processing is reported in <xref rid="f22-sensors-15-00565" ref-type="fig">Figure 22b</xref>, which provides a three-dimensional representation of the matrix <bold>R</bold> after performing motion filtering. We observe that the dominant components are those exhibiting an oscillating behavior during the slow-time, which is due to respiration.</p>
+              <p>This allows to identify the optimal fast-time instant τ<sub>0</sub>, corresponding to the subject distance, and to select the relevant data for the spectral analysis. This way, we obtain the frequency spectrum reported in <xref rid="f23-sensors-15-00565" ref-type="fig">Figure 23</xref>, were we observe that the peaks due to the subject respiration frequency and its multiples are clearly visible. By selecting the highest peak, we obtain and estimated breathing frequency <italic>f̂<sub>b</sub></italic> = 0.20288 Hz, which is almost coincident with the real respiration frequency in this experiment.</p>
+              <p>Let us now introduce some external sources of EMI signals. For this purpose, an antenna radiating the interfering signals is placed near the human body, simulating a direct illumination between this source and the UWB antenna (worst case). Both a broadband noise signal and a continuous wave signal are considered, radiated by a differential mode source (<italic>i.e.</italic>, a loop) and a common mode source (<italic>i.e.</italic>, a dipole) respectively. In the first case, a loop with a diameter of 1.5 cm is fed with a 4 V trapezoidal clock signal generator having an output impedance of 200 Ω, a frequency of 2 GHz, a rise time of 50 ps and a duty cycle of 50%. This situation could represent the disturbance originated from a small circuit of an electronic device. In the second case, a dipole antenna fed with a continuous wave signal at 2.45 GHz with a voltage generator of 2.4 V is considered. This example can represent the case of a wi-fi system placed near the body of the astronauts. In both cases, the emissions of the disturbing antennas are compliant with the EMC standard inside the module, as specified in Section 3. The thermal noise has been neglected, due to its limited effects compared to the other impairments. The received waveform, which is reported in <xref rid="f24-sensors-15-00565" ref-type="fig">Figure 24</xref>, is obviously more noisy with respect to the previous case, reported in <xref rid="f21-sensors-15-00565" ref-type="fig">Figure 21</xref>.</p>
+              <p>Also the matrix <bold>R</bold>, reported in <xref rid="f25-sensors-15-00565" ref-type="fig">Figure 25a</xref>, is now much less regular, and then difficult to analyze. The same matrix cleaned up by the motion filter is shown in <xref rid="f25-sensors-15-00565" ref-type="fig">Figure 25b</xref>.</p>
+              <p>Apparently the samples are very noisy; actually, however, the trace of the breathing signal is still clearly visible. Consequently, the spectral analysis provides the curve shown in <xref rid="f26-sensors-15-00565" ref-type="fig">Figure 26</xref>, from which we observe that the peaks corresponding to the breathing frequency and its multiples are still clearly distinguishable. This confirms that, even in the presence of the considered external EMI sources, the breathing frequency can be estimated correctly. In fact, we obtain the same estimated frequency value as before.</p>
+            </sec>
+            <sec sec-type="conclusions">
+              <label>6.</label>
+              <title>Conclusions</title>
+              <p>The feasibility study of a system for remote breathing sensing of astronauts was the main goal of the ASI NIMURRA project. One of the main problems faced during the project development was the definition of the system design specifications, because each electronic device on board of the space station has to undergo to regulations much more severe than those addressed to terrestrial environments. In this paper a thorough analysis of the presence of the breath sensor inside the rack where the astronaut rests has been presented. The study was based on simulation of realistic situations as far as the environment characteristics, both in terms of geometry and EMI sources, is concerned. To perform accurate simulations in a critical environment, an experimental validation of the numerical results has been carried out. As the main feature of the system is the contactless sensing through UWB pulses, the radiation of electromagnetic pulses has been analyzed and compared with emission standards in order to assess the most suitable duration, amplitude and waveform of the pulses to be radiated to retrieve respiration frequency. The impact of the electromagnetic environment has been also considered because the highly resonant structure may cause susceptibility problems and malfunctions due to the interference with other electromagnetic sources nearby and with pulse echoes reflected by metallic walls of the rack instead of the thorax movements of the monitored astronauts. The study has also concerned the definition and implementation of suitable signal processing tools able to remove the static clutter from the received waveforms and to isolate the contributions due to the breathing activity. By performing a spectral analysis after an initial filtering, the breathing rate is reliably detected. The whole respiration waveform can also be recovered through the use of a correlation-based approach exploiting a reference signal. The devised signal processing tools have been also validated through an experimental campaign carried out, in the laboratory, on human subjects. Based on our results, we can conclude that the solution based on UWB signals for respiration sensing of astronauts is feasible, robust and it offers sufficient accuracy to highlight conditions of suffering due to lack of oxygen.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>This research has been funded in part by the Italian Space Agency (ASI), within the NIMURRA project, under contract No. I/009/11/0. The authors wish to thank Adelmo De Santis and Alfredo De Leo for their contribution concerning the laboratory experiments.</p>
+            </ack>
+            <notes>
+              <title>Author Contributions</title>
+              <p>G. Cerri, L. Eusebi and P. Russo have investigated the electromagnetic aspects, as regards both the theoretical and the experimental issues. M. Baldi and F. Chiaraluce have investigated the signal processing aspects, developing the software for elaborating the signals and extracting from them the relevant quantities. All the authors have contributed to the writing and critical review of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="b1-sensors-15-00565">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roshan Fekr</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Janidarmian</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Radecka</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zilic</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A medical cloud-based platform for respiration rate measurement and hierarchical classification of breath disorders</article-title>
+                  <source>Sensors</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>11204</fpage>
+                  <lpage>11224</lpage>
+                  <pub-id pub-id-type="pmid">24961214</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b2-sensors-15-00565">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Development of a respiratory inductive plethysmography module supporting multiple sensors for wearable systems</article-title>
+                  <source>Sensors</source>
+                  <year>2012</year>
+                  <volume>12</volume>
+                  <fpage>13167</fpage>
+                  <lpage>13184</lpage>
+                  <pub-id pub-id-type="pmid">23201991</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b3-sensors-15-00565">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Santy</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kapanka</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Davis</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart</surname>
+                      <given-names>D.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of sleep on Shuttle missions</article-title>
+                  <source>Aviat. Space Environ. Med.</source>
+                  <year>1988</year>
+                  <volume>59</volume>
+                  <fpage>1094</fpage>
+                  <lpage>1097</lpage>
+                  <pub-id pub-id-type="pmid">3202794</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b4-sensors-15-00565">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stampi</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Sleep and circadian rhythms in space</article-title>
+                  <source>J. Clin. Pharmacol.</source>
+                  <year>1994</year>
+                  <volume>34</volume>
+                  <fpage>518</fpage>
+                  <lpage>534</lpage>
+                  <pub-id pub-id-type="pmid">8089264</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b5-sensors-15-00565">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubecke</surname>
+                      <given-names>V.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boric-Lubecke</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review on recent advances in Doppler radar sensors for noncontact healthcare monitoring</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2013</year>
+                  <volume>61</volume>
+                  <fpage>2046</fpage>
+                  <lpage>2060</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b6-sensors-15-00565">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>Y.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>C.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>L.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>R.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>W.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>G.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Wireless sensor networks for vital signs monitoring: Application in a nursing home</article-title>
+                  <source>Int. J. Distr. Sens. Netw.</source>
+                  <year>2012</year>
+                  <volume>2012</volume>
+                  <pub-id pub-id-type="doi">10.1155/2012/685107.</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b7-sensors-15-00565">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Franks</surname>
+                      <given-names>C.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brown</surname>
+                      <given-names>B.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnston</surname>
+                      <given-names>D.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contactless respiration monitoring of infants</article-title>
+                  <source>Med. Biol. Eng.</source>
+                  <year>1976</year>
+                  <volume>14</volume>
+                  <fpage>306</fpage>
+                  <lpage>318</lpage>
+                  <pub-id pub-id-type="pmid">940391</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b8-sensors-15-00565">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>J.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A microprocessor-based non-invasive arterial pulse wave analyzer</article-title>
+                  <source>IEEE Trans. Biomed.</source>
+                  <year>1985</year>
+                  <volume>32</volume>
+                  <fpage>451</fpage>
+                  <lpage>455</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b9-sensors-15-00565">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>K.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Misra</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chuang</surname>
+                      <given-names>H.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Postov</surname>
+                      <given-names>E</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An X-band microwave life-detection system</article-title>
+                  <source>IEEE Trans. Biomed.</source>
+                  <year>1986</year>
+                  <volume>33</volume>
+                  <fpage>697</fpage>
+                  <lpage>701</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b10-sensors-15-00565">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lohman</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boric-Lubecke</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ong</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sondhi</surname>
+                      <given-names>M.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A digital signal processor for Doppler radar sensing of vital signs</article-title>
+                  <source>IEEE Eng. Med. Biol.</source>
+                  <year>2002</year>
+                  <volume>21</volume>
+                  <fpage>161</fpage>
+                  <lpage>164</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b11-sensors-15-00565">
+                <label>11.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boric-Lubecke</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubecke</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Madsen</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Samardzija</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheung</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Doppler radar sensing of multiple subjects in single and multiple antenna systems</article-title>
+                  <conf-name>Proceedings of the 7th International Conference on Telecommunications in Modern Satellite, Cable and Broadcasting Services</conf-name>
+                  <conf-loc>Niš, Serbia and Montenegro</conf-loc>
+                  <conf-date>28–30 September 2005</conf-date>
+                  <volume>Volume 1</volume>
+                  <fpage>7</fpage>
+                  <lpage>11</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b12-sensors-15-00565">
+                <label>12.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Madsen</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boric-Lubecke</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubecke</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detection of multiple heartbeats using Doppler radar</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing</conf-name>
+                  <conf-loc>Toulouse, France</conf-loc>
+                  <conf-date>14–19 May 2006</conf-date>
+                  <volume>Volume 1</volume>
+                  <fpage>1160</fpage>
+                  <lpage>1163</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b13-sensors-15-00565">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Random body movement cancellation in Doppler radar vital sign detection</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2008</year>
+                  <volume>56</volume>
+                  <fpage>3143</fpage>
+                  <lpage>3152</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b14-sensors-15-00565">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D'Urso</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leone</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Soldovieri</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A simple strategy for life signs detection via an X-band experimental set-up</article-title>
+                  <source>Prog. Electromagn. Res. C</source>
+                  <year>2009</year>
+                  <volume>9</volume>
+                  <fpage>119</fpage>
+                  <lpage>129</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b15-sensors-15-00565">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yanming</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jenshan</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Experiment and spectral analysis of a low-power Ka-band heartbeat detector measuring from four sides of a human body</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2006</year>
+                  <volume>54</volume>
+                  <fpage>4464</fpage>
+                  <lpage>4471</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b16-sensors-15-00565">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>B.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boric-Lubecke</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubecke</surname>
+                      <given-names>V.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Arctangent demodulation with DC offset compensation in quadrature Doppler radar receiver systems</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2007</year>
+                  <volume>55</volume>
+                  <fpage>1073</fpage>
+                  <lpage>1079</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b17-sensors-15-00565">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>F.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hsiao</surname>
+                      <given-names>C.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Horng</surname>
+                      <given-names>T.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peng</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jau</surname>
+                      <given-names>J.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel vital-sign sensor based on a self-injection-locked oscillator</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2010</year>
+                  <volume>58</volume>
+                  <fpage>4112</fpage>
+                  <lpage>4120</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b18-sensors-15-00565">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yilmaz</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Foster</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detecting vital signs with wearable wireless sensors</article-title>
+                  <source>Sensors</source>
+                  <year>2010</year>
+                  <volume>10</volume>
+                  <fpage>10837</fpage>
+                  <lpage>10862</lpage>
+                  <pub-id pub-id-type="pmid">22163501</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b19-sensors-15-00565">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Azevedo</surname>
+                      <given-names>S.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>McEwan</surname>
+                      <given-names>T.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Micropower impulse radar</article-title>
+                  <source>IEEE Potentials</source>
+                  <year>1997</year>
+                  <volume>16</volume>
+                  <fpage>15</fpage>
+                  <lpage>20</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b20-sensors-15-00565">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yarovoy</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ligthart</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matuzas</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Levitas</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>UWB radar for human being detection</article-title>
+                  <source>IEEE Aerosp. Electron. Syst. Mag.</source>
+                  <year>2006</year>
+                  <volume>23</volume>
+                  <fpage>22</fpage>
+                  <lpage>26</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b21-sensors-15-00565">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nezirovic</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yarovoy</surname>
+                      <given-names>A.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ligthart</surname>
+                      <given-names>L.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Signal processing for improved detection of trapped victims using UWB radar</article-title>
+                  <source>IEEE Trans. Geosci. Remote Sens.</source>
+                  <year>2010</year>
+                  <volume>48</volume>
+                  <fpage>2005</fpage>
+                  <lpage>2014</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b22-sensors-15-00565">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Advanced signal processing for vital sign extraction with applications in UWB radar detection of trapped victims in complex environments</article-title>
+                  <source>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</source>
+                  <year>2013</year>
+                  <volume>7</volume>
+                  <fpage>783</fpage>
+                  <lpage>791</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b23-sensors-15-00565">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhou</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatial spectrum-based imaging for UWB through-the-wall MIMO arrays</article-title>
+                  <source>Int. J. Antennas Propag.</source>
+                  <year>2014</year>
+                  <volume>2014</volume>
+                  <pub-id pub-id-type="doi">10.1155/2014/825403.</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b24-sensors-15-00565">
+                <label>24.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arai</surname>
+                      <given-names>I</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Survivor search radar system for persons trapped under earthquake rubble</article-title>
+                  <conf-name>Proceedings of the Asia-Pacific Microwave Conference</conf-name>
+                  <conf-loc>Taipei, Taiwan</conf-loc>
+                  <conf-date>3–6 December 2001</conf-date>
+                  <volume>Volume 2</volume>
+                  <fpage>663</fpage>
+                  <lpage>668</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b25-sensors-15-00565">
+                <label>25.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Labarthe</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mutzig</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jecko</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hamieh</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinod</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feix</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lalande</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Denoual</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Floch</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertrand</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>An ultra-wideband radar concept for the detection of buried victims beneath building rubble</article-title>
+                  <conf-name>Proceedings of the International Radar Conference—Surveillance for a Safer World</conf-name>
+                  <conf-loc>Bordeaux, France</conf-loc>
+                  <conf-date>12–16 October 2009</conf-date>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b26-sensors-15-00565">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zeng</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Through-wall detection of human being's movement by UWB radar</article-title>
+                  <source>IEEE Geosci. Remote Sens. Lett.</source>
+                  <year>2012</year>
+                  <volume>9</volume>
+                  <fpage>1079</fpage>
+                  <lpage>1083</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b27-sensors-15-00565">
+                <label>27.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grazzini</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pieraccini</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parrini</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Spinetti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macaluso</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dei</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Atzeni</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An ultra-wideband high-dynamic range GPR for detecting buried people after collapse of buildings</article-title>
+                  <conf-name>Proceedings of the 13th International Conference on Ground Penetrating Radar</conf-name>
+                  <conf-loc>Lecce, Italy</conf-loc>
+                  <conf-date>21–25 June 2010</conf-date>
+                  <fpage>1</fpage>
+                  <lpage>6</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b28-sensors-15-00565">
+                <label>28.</label>
+                <element-citation publication-type="webpage">
+                  <comment>NASA/TM-2002–211949</comment>
+                  <article-title>Ultrawideband Electromagnetic Interference to Aircraft Radios Results of Limited Functional Testing With United Airlines and Eagles Wings Incorporated</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://ntrs.nasa.gov/search.jsp?R=20020085182">http://ntrs.nasa.gov/search.jsp?R=20020085182</ext-link></comment>
+                  <date-in-citation>(accessed on 28 October 2014)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="b29-sensors-15-00565">
+                <label>29.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ely</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martin</surname>
+                      <given-names>W.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuller</surname>
+                      <given-names>G.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shaver</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Larsen</surname>
+                      <given-names>W.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>UWB EMI to aircraft radios: Field evaluation on operational commercial transport airplanes</article-title>
+                  <conf-name>Proceeding of the 23rd Digital Avionics Systems Conference</conf-name>
+                  <conf-loc>Salt Lake City, UT, USA</conf-loc>
+                  <conf-date>24–28 October 2004</conf-date>
+                  <fpage>9D4.1</fpage>
+                  <lpage>9D4.11</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b30-sensors-15-00565">
+                <label>30.</label>
+                <element-citation publication-type="webpage">
+                  <comment>NASA/TP-2005–213606</comment>
+                  <article-title>UWB EMI to Aircraft Radios: Field Evaluation on Operational Commercial Transport Airplanes</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://ntrs.nasa.gov/search.jsp?R=20050176486">http://ntrs.nasa.gov/search.jsp?R=20050176486</ext-link></comment>
+                  <date-in-citation>(accessed on 28 October 2014)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="b31-sensors-15-00565">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>J.C.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gunawan</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chua</surname>
+                      <given-names>E.C.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maskooki</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guan</surname>
+                      <given-names>Y.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Low</surname>
+                      <given-names>K.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>So</surname>
+                      <given-names>C.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Poh</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Wireless sensing of human respiratory parameters by low-power ultrawideband impulse radio radar</article-title>
+                  <source>IEEE Trans. Instrum. Meas.</source>
+                  <year>2011</year>
+                  <volume>60</volume>
+                  <fpage>928</fpage>
+                  <lpage>938</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b32-sensors-15-00565">
+                <label>32.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nezirovic</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stationary clutter- and linear-trend suppression in impulse-radar-based respiratory motion detection</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Ultra-Wideband</conf-name>
+                  <conf-loc>Bologna, Italy</conf-loc>
+                  <conf-date>14–16 September 2011</conf-date>
+                  <fpage>331</fpage>
+                  <lpage>335</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b33-sensors-15-00565">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bernardi</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cicchetti</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pisa</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pittella</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Piuzzi</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Testa</surname>
+                      <given-names>O</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Design, realization, and test of a UWB radar sensor for breath activity monitoring</article-title>
+                  <source>IEEE Sens. J.</source>
+                  <year>2014</year>
+                  <volume>14</volume>
+                  <fpage>584</fpage>
+                  <lpage>596</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b34-sensors-15-00565">
+                <label>34.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <collab>FCC</collab>
+                  </person-group>
+                  <source>Revision of Part 15 of the Commission's Rules Regarding Ultra-Wideband Transmission Systems</source>
+                  <publisher-name>Federal Communications Commission Std.</publisher-name>
+                  <publisher-loc>Washington, DC, USA</publisher-loc>
+                  <year>2002</year>
+                </element-citation>
+              </ref>
+              <ref id="b35-sensors-15-00565">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lamensdorf</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Susman</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Baseband-pulse-antenna techniques</article-title>
+                  <source>IEEE Antennas Propag. Mag.</source>
+                  <year>1994</year>
+                  <volume>36</volume>
+                  <fpage>20</fpage>
+                  <lpage>30</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b36-sensors-15-00565">
+                <label>36.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Microwave Studio. CST-Computer Simulation Technology</article-title>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="https://www.cst.com/Products/CSTMWS">https://www.cst.com/Products/CSTMWS</ext-link></comment>
+                  <date-in-citation>(accessed on 28 October 2014)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="b37-sensors-15-00565">
+                <label>37.</label>
+                <element-citation publication-type="book">
+                  <comment>COL-ESA-RQ-014</comment>
+                  <source>Columbus EMC &amp; Power Quality Requirements</source>
+                  <publisher-name>European Space Agency, Directorate of Manned Spaceflight and Microgravity</publisher-name>
+                  <publisher-loc>Noordwijk, The Netherlands</publisher-loc>
+                  <year>2000</year>
+                </element-citation>
+              </ref>
+              <ref id="b38-sensors-15-00565">
+                <label>38.</label>
+                <element-citation publication-type="webpage">
+                  <comment>SSP 30237—Revision F</comment>
+                  <article-title>Space Station Electromagnetic Emission and Susceptibility Requirements. International Space Station Program</article-title>
+                  <year>2001</year>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://snebulos.mit.edu/projects/reference">http://snebulos.mit.edu/projects/reference</ext-link></comment>
+                  <date-in-citation>(accessed on 29 December 2014)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="b39-sensors-15-00565">
+                <label>39.</label>
+                <element-citation publication-type="book">
+                  <comment>MIL-STD-461-E</comment>
+                  <source>Requirements for the Control of Electromagnetic Interference Characteristics of Subsystems and Equipment</source>
+                  <publisher-name>Department of Defense</publisher-name>
+                  <publisher-loc>Englewood, CO, USA</publisher-loc>
+                  <year>1999</year>
+                </element-citation>
+              </ref>
+              <ref id="b40-sensors-15-00565">
+                <label>40.</label>
+                <element-citation publication-type="book">
+                  <comment>MIL-STD-462-D</comment>
+                  <source>Test Method Standard for Measurement of Electromagnetic Interference Characteristics</source>
+                  <publisher-name>Department of Defense</publisher-name>
+                  <publisher-loc>Englewood, CO, USA</publisher-loc>
+                  <year>1999</year>
+                </element-citation>
+              </ref>
+              <ref id="b41-sensors-15-00565">
+                <label>41.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Venkatesh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anderson</surname>
+                      <given-names>C.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rivera</surname>
+                      <given-names>N.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buehrer</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Implementation and analysis of respiration-rate estimation using impulse-based UWB</article-title>
+                  <conf-name>Proceedings of the IEEE Military Communication Conference</conf-name>
+                  <conf-loc>Atlantic City, NJ, USA</conf-loc>
+                  <conf-date>17–20 October 2005</conf-date>
+                  <volume>Volume 5</volume>
+                  <fpage>3314</fpage>
+                  <lpage>3320</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b42-sensors-15-00565">
+                <label>42.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baldi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiaraluce</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moretti</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Venieri</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanaj</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Signal modeling and processing for physiological sensing through UWB radars</article-title>
+                  <conf-name>Proceedings of the 19th International Conference on Software, Telecommunications &amp; Computer Networks</conf-name>
+                  <conf-loc>Split, Croatia</conf-loc>
+                  <conf-date>15–17 September 2011</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="b43-sensors-15-00565">
+                <label>43.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leib</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Menzel</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schleicher</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schumacher</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Vital signs monitoring with a UWB radar based on a correlation receiver</article-title>
+                  <conf-name>Proceedings of the 4th European Conference on Antennas Propagation</conf-name>
+                  <conf-loc>Barcelona, Spain</conf-loc>
+                  <conf-date>12–16 April 2010</conf-date>
+                  <fpage>3425</fpage>
+                  <lpage>3429</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b44-sensors-15-00565">
+                <label>44.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ossberger</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Buchegger</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schimback</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stelzer</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weigel</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Non-invasive respiratory movement detection and monitoring of hidden humans using ultra wideband pulse radar</article-title>
+                  <conf-name>Proceedings of the International Workshop on Ultrawide Bandwidth System &amp; Conference on Ultra System Technology</conf-name>
+                  <conf-loc>Kyoto, Japan</conf-loc>
+                  <conf-date>18–21 May 2004</conf-date>
+                  <fpage>395</fpage>
+                  <lpage>399</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b45-sensors-15-00565">
+                <label>45.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schleicher</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dederer</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Leib</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasr</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Trasser</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Menzel</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schumacher</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Highly compact impulse UWB transmitter for high resolution movement detection</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Ultra-Wideband</conf-name>
+                  <conf-loc>Hannover, Germany</conf-loc>
+                  <conf-date>10–12 September 2008</conf-date>
+                  <volume>Volume 1</volume>
+                  <fpage>89</fpage>
+                  <lpage>92</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b46-sensors-15-00565">
+                <label>46.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baldi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiaraluce</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanaj</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moretti</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis and simulation of algorithms for vital signs detection using UWB radars</article-title>
+                  <conf-name>Proceedings of the IEEE International Conference on Ultra-Wideband</conf-name>
+                  <conf-loc>Bologna, Italy</conf-loc>
+                  <conf-date>14–16 September 2011</conf-date>
+                  <fpage>341</fpage>
+                  <lpage>345</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b47-sensors-15-00565">
+                <label>47.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Complex signal demodulation and random body movement cancellation techniques for non-contact vital sign detection</article-title>
+                  <conf-name>Proceedings of the IEEE International Microwave Symposium Digest</conf-name>
+                  <conf-loc>Atlanta, GA, USA</conf-loc>
+                  <conf-date>15–20 June 2008</conf-date>
+                  <fpage>567</fpage>
+                  <lpage>570</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b48-sensors-15-00565">
+                <label>48.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fletcher</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Low-cost differential front-end for Doppler radar vital sign monitoring</article-title>
+                  <conf-name>Proceedings of the IEEE International Microwave Symposium Digest</conf-name>
+                  <conf-loc>Boston, MA, USA</conf-loc>
+                  <conf-date>7–12 June 2009</conf-date>
+                  <fpage>1325</fpage>
+                  <lpage>1328</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b49-sensors-15-00565">
+                <label>49.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baldi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Appignani</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zanaj</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chiaraluce</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Body movement compensation in UWB radars for respiration monitoring</article-title>
+                  <conf-name>Proceedings of the IEEE First AESS European Conference on Satellite Telecommunications</conf-name>
+                  <conf-loc>Rome, Italy</conf-loc>
+                  <conf-date>2–5 October 2012</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="b50-sensors-15-00565">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huangfu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ran</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>1-D microwave imaging of human cardiac motion: An ab-initio investigation</article-title>
+                  <source>IEEE Trans. Microw. Theory Tech.</source>
+                  <year>2013</year>
+                  <volume>61</volume>
+                  <fpage>2101</fpage>
+                  <lpage>2107</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b51-sensors-15-00565">
+                <label>51.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di Carlofelice</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>di Giampaolo</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tognolatti</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A numerical investigation of UWB wave propagation inside a module of the International Space Station</article-title>
+                  <conf-name>Proceedings of the International Symposium on Electromagnetic Compatibility</conf-name>
+                  <conf-loc>Rome, Italy</conf-loc>
+                  <conf-date>17–21 September 2012</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="b52-sensors-15-00565">
+                <label>52.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gutierrez</surname>
+                      <given-names>F.</given-names>
+                      <suffix>Jr.</suffix>
+                    </name>
+                    <name>
+                      <surname>Zitrick</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ragan</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rappaport</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Multipath Study for A Wi-Fi Network in a Space Station Environment</source>
+                  <comment>Technical Report, WNCG-TR-2005-09-01</comment>
+                  <publisher-name>The University of Texas</publisher-name>
+                  <publisher-loc>Austin, TX, USA</publisher-loc>
+                  <year>2005</year>
+                </element-citation>
+              </ref>
+              <ref id="b53-sensors-15-00565">
+                <label>53.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hwu</surname>
+                      <given-names>S.U.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loh</surname>
+                      <given-names>Y.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sham</surname>
+                      <given-names>C.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space station wireless local area network signal characteristics modeling and measurements</article-title>
+                  <conf-name>Proceedings of the 25th IEEE/AIAA Conference on Digital Avionics Systems</conf-name>
+                  <conf-loc>Portland, OR, USA</conf-loc>
+                  <conf-date>15–19 October 2006</conf-date>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b54-sensors-15-00565">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ackerman</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The visible human project</article-title>
+                  <source>Proc. IEEE</source>
+                  <year>1998</year>
+                  <volume>86</volume>
+                  <fpage>504</fpage>
+                  <lpage>511</lpage>
+                </element-citation>
+              </ref>
+              <ref id="b55-sensors-15-00565">
+                <label>55.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christ</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kainz</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hahn</surname>
+                      <given-names>E.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Honegger</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zefferer</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Neufeld</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rascher</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Janka</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bautz</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The virtual family—Development of surface-based anatomical models of two adults and two children for dosimetric simulations</article-title>
+                  <source>Phys. Med. Biol.</source>
+                  <year>2010</year>
+                  <volume>55</volume>
+                  <fpage>N23</fpage>
+                  <lpage>N38</lpage>
+                  <pub-id pub-id-type="pmid">20019402</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="b56-sensors-15-00565">
+                <label>56.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Russo</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mariani Primiani</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>de Leo</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cerri</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Radiated susceptibility of breath monitoring system based on UWB pulses in spacecraft modules</article-title>
+                  <conf-name>Proceedings of the International Symposium on Electromagnetic Compatibility</conf-name>
+                  <conf-loc>Rome, Italy</conf-loc>
+                  <conf-date>17–21 September 2012</conf-date>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="f1-sensors-15-00565" position="float">
+              <label>Figure 1.</label>
+              <caption>
+                <p>Block diagram of the considered sensing system.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f1"/>
+            </fig>
+            <fig id="f2-sensors-15-00565" position="float">
+              <label>Figure 2.</label>
+              <caption>
+                <p>Antipodal Vivaldi antenna.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f2"/>
+            </fig>
+            <fig id="f3-sensors-15-00565" position="float">
+              <label>Figure 3.</label>
+              <caption>
+                <p>(<bold>a</bold>) Gain; (<bold>b</bold>) HPBW; (<bold>c</bold>) Comparison between the measured and the simulated S<sub>11</sub> of the designed Vivaldi antennas.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f3"/>
+            </fig>
+            <fig id="f4-sensors-15-00565" position="float">
+              <label>Figure 4.</label>
+              <caption>
+                <p>Photo of the setup considered for the software stress test.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f4"/>
+            </fig>
+            <fig id="f5-sensors-15-00565" position="float">
+              <label>Figure 5.</label>
+              <caption>
+                <p>Reflection of the metallic panel: comparison between the simulation and the measurement.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f5"/>
+            </fig>
+            <fig id="f6-sensors-15-00565" position="float">
+              <label>Figure 6.</label>
+              <caption>
+                <p>Electric field limits as a worst-case combination of Columbus and Harmony EMC requirements.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f6"/>
+            </fig>
+            <fig id="f7-sensors-15-00565" position="float">
+              <label>Figure 7.</label>
+              <caption>
+                <p>Spectral density limits for the analyzed antenna input voltage. RBW = 1 MHz ≫ PRF.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f7"/>
+            </fig>
+            <fig id="f8-sensors-15-00565" position="float">
+              <label>Figure 8.</label>
+              <caption>
+                <p>Admissible spectral density for the exciting pulses.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f8"/>
+            </fig>
+            <fig id="f9-sensors-15-00565" position="float">
+              <label>Figure 9.</label>
+              <caption>
+                <p>Pulse time evolution for the first five derivatives of the Gaussian pulse.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f9"/>
+            </fig>
+            <fig id="f10-sensors-15-00565" position="float">
+              <label>Figure 10.</label>
+              <caption>
+                <p>Susceptibility levels considered during the simulation, obtained as a worst-case combination of Columbus and Harmony EMC requirements.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f10"/>
+            </fig>
+            <fig id="f11-sensors-15-00565" position="float">
+              <label>Figure 11.</label>
+              <caption>
+                <p>Susceptibility voltage level for the Vivaldi antenna.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f11"/>
+            </fig>
+            <fig id="f12-sensors-15-00565" position="float">
+              <label>Figure 12.</label>
+              <caption>
+                <p>Example of matrix <bold>R</bold>. (<bold>a</bold>) Before motion filtering; (<bold>b</bold>) After motion filtering.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f12"/>
+            </fig>
+            <fig id="f13-sensors-15-00565" position="float">
+              <label>Figure 13.</label>
+              <caption>
+                <p>Example of breath rate detection through FFT. (<bold>a</bold>) In the case of (almost) correct τ<sub>0</sub> estimate; (<bold>b</bold>) In the case of incorrect τ<sub>0</sub> estimate.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f13"/>
+            </fig>
+            <fig id="f14-sensors-15-00565" position="float">
+              <label>Figure 14.</label>
+              <caption>
+                <p>Iterated FFT around the τ<sub>0</sub> estimate.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f14"/>
+            </fig>
+            <fig id="f15-sensors-15-00565" position="float">
+              <label>Figure 15.</label>
+              <caption>
+                <p>Average FFT for the considered example.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f15"/>
+            </fig>
+            <fig id="f16-sensors-15-00565" position="float">
+              <label>Figure 16.</label>
+              <caption>
+                <p>Schematic representation of correlation-based detection.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f16"/>
+            </fig>
+            <fig id="f17-sensors-15-00565" position="float">
+              <label>Figure 17.</label>
+              <caption>
+                <p>Example of reconstruction of the thorax movement: original waveform (+) against reconstructed waveform (o).</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f17"/>
+            </fig>
+            <fig id="f18-sensors-15-00565" position="float">
+              <label>Figure 18.</label>
+              <caption>
+                <p>Example of (<bold>a</bold>) transmitted and (<bold>b</bold>) received waveforms in the experimental setup.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f18"/>
+            </fig>
+            <fig id="f19-sensors-15-00565" position="float">
+              <label>Figure 19.</label>
+              <caption>
+                <p>Experimental data. (<bold>a</bold>) Before motion filtering; (<bold>b</bold>) After motion filtering.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f19"/>
+            </fig>
+            <fig id="f20-sensors-15-00565" position="float">
+              <label>Figure 20.</label>
+              <caption>
+                <p>Geometry considered for the calculation of the interfering signal.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f20"/>
+            </fig>
+            <fig id="f21-sensors-15-00565" position="float">
+              <label>Figure 21.</label>
+              <caption>
+                <p>Example of received waveform in the absence of external EMI sources.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f21"/>
+            </fig>
+            <fig id="f22-sensors-15-00565" position="float">
+              <label>Figure 22.</label>
+              <caption>
+                <p>3-D representation of matrix <bold>R</bold> in the absence of external EMI sources. (<bold>a</bold>) Before motion filtering; (<bold>b</bold>) After motion filtering.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f22"/>
+            </fig>
+            <fig id="f23-sensors-15-00565" position="float">
+              <label>Figure 23.</label>
+              <caption>
+                <p>Spectral analysis in the absence of external EMI sources.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f23"/>
+            </fig>
+            <fig id="f24-sensors-15-00565" position="float">
+              <label>Figure 24.</label>
+              <caption>
+                <p>Example of received waveform in the presence of external EMI sources.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f24"/>
+            </fig>
+            <fig id="f25-sensors-15-00565" position="float">
+              <label>Figure 25.</label>
+              <caption>
+                <p>3-D representation of matrix <bold>R</bold> in the presence of external EMI sources. (<bold>a</bold>) Before motion filtering; (<bold>b</bold>) After motion filtering.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f25"/>
+            </fig>
+            <fig id="f26-sensors-15-00565" position="float">
+              <label>Figure 26.</label>
+              <caption>
+                <p>Spectral analysis in the presence of external EMI sources.</p>
+              </caption>
+              <graphic xlink:href="sensors-15-00565f26"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

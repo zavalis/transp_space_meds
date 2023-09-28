@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:44:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9411571" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9411571</identifier>
+        <datestamp>2022-08-27</datestamp>
+        <setSpec>npjmicrogr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="review-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Microgravity</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Microgravity</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Microgravity</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2373-8065</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9411571</article-id>
+              <article-id pub-id-type="pmcid">PMC9411571</article-id>
+              <article-id pub-id-type="pmc-uid">9411571</article-id>
+              <article-id pub-id-type="pmid">36008494</article-id>
+              <article-id pub-id-type="publisher-id">222</article-id>
+              <article-id pub-id-type="doi">10.1038/s41526-022-00222-7</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Perspective</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Terrestrial health applications of visual assessment technology and machine learning in spaceflight associated neuro-ocular syndrome</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4860-827X</contrib-id>
+                  <name>
+                    <surname>Ong</surname>
+                    <given-names>Joshua</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tavakkoli</surname>
+                    <given-names>Alireza</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zaman</surname>
+                    <given-names>Nasif</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1681-9438</contrib-id>
+                  <name>
+                    <surname>Kamran</surname>
+                    <given-names>Sharif Amit</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8999-0212</contrib-id>
+                  <name>
+                    <surname>Waisberg</surname>
+                    <given-names>Ethan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5472-0172</contrib-id>
+                  <name>
+                    <surname>Gautam</surname>
+                    <given-names>Nikhil</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Andrew G.</given-names>
+                  </name>
+                  <address>
+                    <email>aglee@houstonmethodist.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                  <xref ref-type="aff" rid="Aff9">9</xref>
+                  <xref ref-type="aff" rid="Aff10">10</xref>
+                  <xref ref-type="aff" rid="Aff11">11</xref>
+                  <xref ref-type="aff" rid="Aff12">12</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.21925.3d</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 9000</institution-id><institution>University of Pittsburgh School of Medicine, </institution></institution-wrap>Pittsburgh, PA USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.266818.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 914X</institution-id><institution>Human-Machine Perception Laboratory, Department of Computer Science and Engineering, </institution><institution>University of Nevada, Reno, </institution></institution-wrap>Reno, NV USA </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.7886.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 0768 2743</institution-id><institution>University College Dublin School of Medicine, Belfield, </institution></institution-wrap>Dublin, Ireland </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.21940.3e</institution-id><institution-id institution-id-type="ISNI">0000 0004 1936 8278</institution-id><institution>Department of Computer Science, </institution><institution>Rice University, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.39382.33</institution-id><institution-id institution-id-type="ISNI">0000 0001 2160 926X</institution-id><institution>Center for Space Medicine, </institution><institution>Baylor College of Medicine, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.63368.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 0445 0041</institution-id><institution>Department of Ophthalmology, </institution><institution>Blanton Eye Institute, Houston Methodist Hospital, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.63368.38</institution-id><institution-id institution-id-type="ISNI">0000 0004 0445 0041</institution-id><institution>The Houston Methodist Research Institute, </institution><institution>Houston Methodist Hospital, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="GRID">grid.5386.8</institution-id><institution-id institution-id-type="ISNI">000000041936877X</institution-id><institution>Departments of Ophthalmology, Neurology, and Neurosurgery, </institution><institution>Weill Cornell Medicine, </institution></institution-wrap>New York, NY USA </aff>
+                <aff id="Aff9"><label>9</label><institution-wrap><institution-id institution-id-type="GRID">grid.176731.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 1547 9964</institution-id><institution>Department of Ophthalmology, </institution><institution>University of Texas Medical Branch, </institution></institution-wrap>Galveston, TX USA </aff>
+                <aff id="Aff10"><label>10</label><institution-wrap><institution-id institution-id-type="GRID">grid.240145.6</institution-id><institution-id institution-id-type="ISNI">0000 0001 2291 4776</institution-id><institution>University of Texas MD Anderson Cancer Center, </institution></institution-wrap>Houston, TX USA </aff>
+                <aff id="Aff11"><label>11</label><institution-wrap><institution-id institution-id-type="GRID">grid.264756.4</institution-id><institution-id institution-id-type="ISNI">0000 0004 4687 2082</institution-id><institution>Texas A&amp;M College of Medicine, </institution></institution-wrap>Bryan, TX USA </aff>
+                <aff id="Aff12"><label>12</label><institution-wrap><institution-id institution-id-type="GRID">grid.412584.e</institution-id><institution-id institution-id-type="ISNI">0000 0004 0434 9816</institution-id><institution>Department of Ophthalmology, </institution><institution>The University of Iowa Hospitals and Clinics, </institution></institution-wrap>Iowa City, IA USA </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>25</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>25</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>37</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>1</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>1</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">The neuro-ocular effects of long-duration spaceflight have been termed Spaceflight Associated Neuro-Ocular Syndrome (SANS) and are a potential challenge for future, human space exploration. The underlying pathogenesis of SANS remains ill-defined, but several emerging translational applications of terrestrial head-mounted, visual assessment technology and machine learning frameworks are being studied for potential use in SANS. To develop such technology requires close consideration of the spaceflight environment which is limited in medical resources and imaging modalities. This austere environment necessitates the utilization of low mass, low footprint technology to build a visual assessment system that is comprehensive, accessible, and efficient. In this paper, we discuss the unique considerations for developing this technology for SANS and translational applications on Earth. Several key limitations observed in the austere spaceflight environment share similarities to barriers to care for underserved areas on Earth. We discuss common terrestrial ophthalmic diseases and how machine learning and visual assessment technology for SANS can help increase screening for early intervention. The foundational developments with this novel system may help protect the visual health of both astronauts and individuals on Earth.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Eye manifestations</kwd>
+                <kwd>Disease prevention</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100000104</institution-id>
+                      <institution>National Aeronautics and Space Administration (NASA)</institution>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id>80NSSC20K1831</award-id>
+                  <principal-award-recipient>
+                    <name>
+                      <surname>Tavakkoli</surname>
+                      <given-names>Alireza</given-names>
+                    </name>
+                  </principal-award-recipient>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par2">Spaceflight Associated Neuro-Ocular Syndrome (SANS) refers to a constellation of neurologic and ocular, clinical and imaging findings observed in astronauts following long-duration spaceflight (LDSF). These findings include optic disc edema, posterior globe flattening, total and retinal nerve layer thickening, optic nerve sheath distension, chorioretinal folds, retinal cotton wool spots, and hyperopic refractive shift<sup><xref ref-type="bibr" rid="CR1">1</xref>–<xref ref-type="bibr" rid="CR3">3</xref></sup>. Some of the findings in SANS (e.g., globe flattening and refractive error) can persist for years after returning to Earth<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR3">3</xref>–<xref ref-type="bibr" rid="CR5">5</xref></sup>. The National Aeronautics and Space Administration (NASA) has been closely documenting these findings and has assigned SANS an elevated “Likelihood and Consequence” rating largely based on the large uncertainty surrounding the impact it can have on astronaut health and performance. This rating indicates that improved characterization and mitigation of SANS is critical for future planetary missions<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>.</p>
+              <p id="Par3">Although the exact pathophysiology for SANS is not completely understood, close pre-, in-, and post-flight monitoring of astronauts is on-going. NASA has funded the development of a compact virtual reality (VR) device integrated with multi-modal visual assessments, computational mapping tools, and machine learning frameworks to closely assess ocular structure and functional changes during LDSF<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. The multi-modal VR-based visual assessments include visual acuity, contrast sensitivity, dynamic visual acuity, eye-tracking technology, and metamorphopsia assessment<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. The fusion of VR-based visual assessments and machine learning techniques with structural changes seen on imaging will be required to establish a comprehensive representation of the neuro-ophthalmic structural changes and the symptoms produced by SANS (Fig. <xref rid="Fig1" ref-type="fig">1</xref>). The technology is adapted for the limitations of future planetary travel, including limited time for medical testing, stringent weight limits for medical equipment<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, and reduced communication with terrestrial healthcare experts<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>. Parallel technology developments may also find use on Earth for individuals with low access to direct face-to-face eye care. Therefore, these technological innovations including detection and monitoring technology may be adapted to address longstanding barriers to care for terrestrial, vision-threatening ophthalmic diseases. As evidenced by NASA’s <italic>SpinOff</italic> publication, advancing the frontier of space exploration often revolutionizes technology for life on Earth<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. In this article, we discuss this novel medical technology in its relation to SANS and how it can be applied to prevent irreversible vision loss for low-resource areas on Earth.<fig id="Fig1"><label>Fig. 1</label><caption><title>Roadmap in novel monitoring and researching the pathogenesis of spaceflight associated neuro-ocular syndrome (SANS) enabled by multi-modal visual assessment technology and machine learning.</title><p>Data enabling study of etiology and pathogenesis of SANS is built upon two domains of data: visual function (<bold>A</bold>, <bold>B</bold>) and ocular structure (<bold>C</bold>). Two main research avenues must be established. <bold>A</bold>, <bold>B</bold> Novel multi-modal visual assessment with virtual reality technology to quantify parameters of visual function (Λ) changes caused by SANS-specific neuro-ophthalmic structural changes. <bold>C</bold> Novel techniques to establish shared and complimentary representations (Φ) of both the structure changes and the changes made to the parameters of the visual function due to SANS. <bold>D</bold> These novel parametric functional representations and the accompanying mappings between the visual function and ocular structure can provide a comprehensive and whole some battery of assessments capable of measuring the impact from each domain (e.g., structural changes) on the other (e.g., visual function symptoms). These techniques should be deployed and tested both terrestrially and under microgravity conditions to ensure their reliability, specificity, and sensitivity for both terrestrial and spaceflight applications. Illustration by Joshua Ong, Nasif Zaman, Sharif Kamran, and Alireza Tavakkoli.</p></caption><graphic xlink:href="41526_2022_222_Fig1_HTML" id="d32e495"/></fig></p>
+            </sec>
+            <sec id="Sec2">
+              <title>Proposed pathophysiology of SANS</title>
+              <p id="Par4">Multiple hypotheses on the pathogenesis of SANS have emerged since the initial description of SANS findings by Mader et al.<sup><xref ref-type="bibr" rid="CR3">3</xref></sup> Initially termed visual impairment and intracranial pressure (VIIP), SANS has been hypothesized to be due to elevated intracranial pressure (ICP) due to the cephalad fluid shift seen during microgravity<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. During LDSF, there is a loss in hydrostatic pressure that produces an upward shift of fluid, possibly leading to cerebral venous congestion and elevated ICP. These findings may lead to optic disc edema (ODE) and vision impairment similarly seen in terrestrial idiopathic intracranial hypertension (IIH)<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>. However, SANS is not accompanied with other classic signs of IIH such as pulsatile tinnitus and severe headache. While several astronauts with SANS have had slightly elevated post-flight lumbar puncture opening pressures, other astronauts with SANS have also demonstrated normal post-flight opening pressures<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. In addition, most IIH patients present with symmetrical ODE whereas more than half of the astronauts with SANS reported by Mader et al. had either unilateral or asymmetric ODE<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup> although this finding may reflect the limitations of small sample size and subclinical but bilateral findings in SANS. Further observation and longer durations during spaceflight may give additional insight into the ODE presentation in SANS. These initial reports suggested that SANS may not solely be due to elevated ICP, leading to the name change from VIIP to SANS in 2017<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>.</p>
+              <p id="Par5">Another potential hypothesis for SANS revolves around the ocular glymphatic system, a paravascular transport system at the optic nerve (ON)<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>. Recent literature has shown that the biomolecular composition of cerebrospinal fluid (CSF) within the ON sheath (ONS) can differ from the CSF in the spinal cord, suggesting that CSF pressure and composition may differ between various CSF compartments<sup><xref ref-type="bibr" rid="CR14">14</xref></sup>. Wostyn et al. proposed that SANS may be due to a microgravity-induced compartmentalization of CSF within the ONS due to a one-way valve mechanism in the glymphatic system, thus leading to elevated pressures in the ONS while displaying normal post-flight opening pressures<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. Galdamez et al. postulates that microgravity-induced cerebral venous stasis may contribute towards ODE in SANS. Due to cephalad fluid shifts, this stasis may induce insufficient adenosine triphosphate (ATP) generation, thus inhibiting the Na<sup>+</sup>/K<sup>+</sup> ATPase pump with subsequent edema at the ON head<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. Strangman et al. hypothesizes that increased cerebral blood volume pulsatility during LDSF may lead to vascular and ocular structural remodeling, potentially explaining the persistence of SANS findings after returning to Earth<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+              <p id="Par6">The proposed pathogenesis of SANS plays a critical role in the development of novel monitoring technology. Post-flight magnetic resonance imaging (MRI) in LDSF astronauts have shown to have an upward shift of the brain and optic chiasm<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Shinojima et al. hypothesizes that the mechanical upward brain shift “pulls” the optic nerve posteriorly which produces an anterior counterforce of the dura on the posterior globe, leading to the globe flattening seen in SANS<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Unfortunately, an MRI scanner is not available onboard the ISS and MRI in SANS is limited to pre- and post-flight testing. Marshall-Goebel et al. discussed the limitations in data for understanding SANS with an emphasis on brain physiology<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. As MRI data from SANS is collected post-mission, the findings may not be fully representative of the physiological changes that occur during spaceflight<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>. This limitation in data may be a barrier in further understanding SANS and moving towards a specific hypothesis. Direct ICP monitoring in-flight is also not available. From a machine learning perspective, this lack of data in the space environment is a significant barrier to training and validating future models for deployment. To further investigate SANS pathogenesis and build more accurate machine learning models, the use of generative adversarial networks, a powerful machine learning framework, may serve to address several of these limitations. Generative adversarial networks allow for artificial image reconstruction from available modalities, which can be designed to incorporate in-flight imaging to generate a synthetic orbit MRI to monitor globe flattening progression (Fig. <xref rid="Fig2" ref-type="fig">2</xref>). Generative adversarial networks may also generate synthetic data that allows for machine learning models to train and become more accurate<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. This powerful model and its use for SANS will be further elaborated in a subsequent section. While multiple hypotheses have emerged, the true pathogenesis of SANS may be multi-factorial and these hypotheses allow for directed technology development for SANS. The following section describes the development of visual assessment technology that allows for close detection of SANS during LDSF.<fig id="Fig2"><label>Fig. 2</label><caption><title>Leveraging artificial intelligence (AI) to study the pathophysiology behind SANS.</title><p><bold>A</bold> Terrestrial mechanism such as optical coherence tomography (OCT), orbital ultrasound (OU), fundus photography, and magnetic resonance imaging (MRI) perform various measurements on the structure of the human visual pathways. <bold>B</bold> Post-flight imaging has shown that shifts of the brain and the optic chiasm, among other things, produce ocular structural changes such as globe flattening, choroidal folds, and optic disc edema. Unfortunately, some imaging modalities such as MRI are not conducive to be deployed in-flight. <bold>C</bold> Sophisticated artificial intelligence (AI) techniques such as generative adversarial networks (GANs) have shown promise in their ability to fuse information from multiple data modalities to produce effective representation of the data shared across these modalities. Encoders take encodes from the data domain into the latent/feature space, decoders decode from the latent/feature space back into the data space, and transformers aids with fusion and incorporating temporal and spatial correlations in the data. Inspired by these advances, GAN architectures hold the key in establishing a fusion of representative features among various modalities pertinent to SANS in order to produce imaging data unavailable in-flight. This provides a new era in studying SANS and the risk of its progression.</p></caption><graphic xlink:href="41526_2022_222_Fig2_HTML" id="d32e608"/></fig></p>
+            </sec>
+            <sec id="Sec3">
+              <title>Multi-modal visual assessment technology for spaceflight associated neuro-ocular syndrome</title>
+              <p id="Par7">The space environment represents the epitome of resource efficiency. Missions onboard the ISS must be optimized based on various factors including crew number, schedule, equipment weight, size, setup time, usage time, and power consumption<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Specific ocular structure imaging technologies such as the fundoscopy, OCT, and ocular ultrasound exist onboard the ISS<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR21">21</xref></sup>. These technologies have been instrumental in understanding SANS. Alongside imaging modalities, visual function assessments such as visual acuity and contrast sensitivity may also help to monitor the clinical and functional outcomes of SANS. To improve SANS monitoring, NASA has funded the mapping of a framework to detect subtle variations in ocular structure utilizing visual function data along with previous imaging data from astronauts<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>. The goal is to augment and analyze indirect, accessible indications (e.g., visual function) of SANS to predict more direct indications (e.g., imaging). For example, subtle hyperopic shifts measured using visual acuity variation may indicate globe flattening and optical axial length changes seen after LDSF<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. In this section, we discuss various considerations for building a comprehensive visual assessment system for spaceflight that can also be leveraged for low access-to-care areas on Earth.</p>
+              <p id="Par8">Most modern terrestrial ocular imaging display systems can be modified for LDSF. The visual function tests currently available onboard the ISS use laptops to deliver visual stimuli and measure performance<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. Head-mounted display technology, which has already been utilized during spaceflight, may be able to further optimize visual functional testing<sup><xref ref-type="bibr" rid="CR22">22</xref></sup>. This technology can decrease testing times, tighten control over dichoptic stimuli presentation, and eliminate the influence of external illumination<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR24">24</xref></sup>. Virtual reality (VR) technology now offers eye tracking that can help measure saccade, adaptation, and retinal loci<sup><xref ref-type="bibr" rid="CR25">25</xref>,<xref ref-type="bibr" rid="CR26">26</xref></sup>, greatly increasing the breadth of information available to understand SANS mechanisms. With these considerations in mind, SANS research currently includes building a compact, VR-based system that efficiently measures visual acuity, color and contrast sensitivity, and visual distortions across the visual field with multiple sessions to develop a robust model of the astronauts’ vision throughout longitudinal missions (Fig. <xref rid="Fig3" ref-type="fig">3</xref>)<sup><xref ref-type="bibr" rid="CR6">6</xref></sup>.<fig id="Fig3"><label>Fig. 3</label><caption><title>Wearable Multi-modal Visual Assessment System Design.</title><p>Computer-aided design model of the multi-modal visual assessment virtual reality hardware device with dynamic freeform lenses, multi-layer refraction, eye-tracking camera technology, and freeform displays. Design by Nasif Zaman, Joshua Ong, and Alireza Tavakkoli.</p></caption><graphic xlink:href="41526_2022_222_Fig3_HTML" id="d32e678"/></fig></p>
+              <p id="Par9">The efficient properties that make this multi-modal assessment system useful onboard the ISS also make it valuable for underserved areas on Earth. A portable, self-guided screening tool can be stationed in rural areas with limited access to eye care. The low operating cost of the system may lead to increased compliance and frequency in testing as suggested by other VR eye care studies<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR27">27</xref></sup>. Baseline evaluations can be established in the earlier test phases and the gradual aggregation of functional data would lead to a reliable model of the individual’s ocular health. As we discuss in later sections, early detection and intervention in common ophthalmic diseases such as glaucoma is critical for preventing vision loss<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>.</p>
+            </sec>
+            <sec id="Sec4">
+              <title>Comprehensive visual assessments during spaceflight</title>
+              <p id="Par10">Decreased visual function in astronauts might lead to loss of productivity during missions, thus, close monitoring is of utmost importance. Currently onboard the ISS, astronauts undergo many routine functional visual assessments (e.g., visual acuity, Amsler grid test). Contrast sensitivity testing is also available<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. These tests have well-established terrestrial applications<sup><xref ref-type="bibr" rid="CR29">29</xref></sup>. For optimal monitoring, these visual assessments may benefit from consistent distancing and illumination calibration to reduce the subjectivity of the tests. These objectives may be achieved through virtual reality (VR) head-mounted systems. The laptop screen-based tests available onboard the ISS may be repurposed for an immersive experience with this technology. Additionally, if all visual function tests are delivered using one VR device, it will be possible to make inference on other tests once a session is recorded. Specifically for SANS monitoring, it is important to identify any subtle perceptual impact so that countermeasures can be designed. Intelligent delivery of stimuli under various conditions would help identify subtle perceptual loss.</p>
+              <p id="Par11">Optic disc edema, globe flattening, nerve fiber layer thickening, and choroidal folds are common imaging findings in SANS<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. While it is important to monitor SANS, frequently repeating these imaging tests to would consume a significant portion of mission time. Therefore, quick sessions of different visual function tests are being considered to continually track the different aspects of SANS symptoms. This can be achieved by mapping visual functional data with imaging data using pre-existing astronaut data as well as head-down tilt bed rest, an analog for SANS<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Several primary tests will be important for this system including visual acuity, contrast sensitivity, Amsler grid, and visual fields (Fig. <xref rid="Fig4" ref-type="fig">4</xref>). These assessments can be linked to specific SANS findings that parallel terrestrial ocular relationships such as contrast sensitivity and retinal nerve fiber layer thickening<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. In addition, these visual function tests may be able to further characterize any deficiencies in SANS by providing additional visual assessment tests. In the terrestrial pathologies section, we highlight how many of these visual assessments can be utilized to screen and monitor common ophthalmic pathologies.<fig id="Fig4"><label>Fig. 4</label><caption><title>Framework for a Comprehensive Model of Visual Function.</title><p>Multi-modal visual assessments for building a comprehensive model of visual function for SANS monitoring. These assessments include visual acuity evaluation, trivector color sensitivity test, reading accuracy, and contrast sensitivity threshold/function parameters.</p></caption><graphic xlink:href="41526_2022_222_Fig4_HTML" id="d32e732"/></fig></p>
+              <p id="Par12">Lastly, the ideal implementation of this system would be to initially establish a baseline for astronauts on Earth. Specific modeling and stimulus presentation in a completely controlled immersive environment would provide a complementary metric. A Bayesian approach where each session updates the parameters based on all previous sessions make it possible to continually track the status of the important visual parameters<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. The implementation of such a system, in parallel with intelligent algorithms onboard to decipher imaging and assessment information, can greatly improve SANS monitoring for future spaceflight.</p>
+            </sec>
+            <sec id="Sec5">
+              <title>Machine learning in spaceflight associated neuro-ocular syndrome (SANS)</title>
+              <p id="Par13">When anticipating limitations for deep space exploration, the delayed communication to imaging specialists and prolonged absence of terrestrial-only imaging are critical aspects to consider for SANS. Currently, in-flight imaging modalities can be employed to computationally extract objective information. However, detailed interpretation often requires terrestrial specialists to analyze and distinguish SANS findings<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. For future space exploration, the communication bandwidth may be insufficient for effective exchange of high-quality images and communication between terrestrial healthcare providers and astronauts<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. In addition, there are restrictions to medical devices that have been instrumental to understanding SANS such as MRI<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. To optimize the utility of in-flight imaging and closely monitor SANS, artificial intelligence (AI) frameworks serve as promising solutions to address many limitations anticipated during planetary missions. In this section, we cover AI machine learning techniques, including generative adversarial networks and unsupervised learning, that are being developed to optimize the detection of SANS and address the issue of limited imaging modalities. These techniques are concurrently developed to pair with the visual assessment VR technology, providing a powerful diagnostic tool for both astronauts and communities with limited access to care.</p>
+              <p id="Par14">Machine learning systems often require large amounts of data for effective algorithm training. With a large emphasis on imaging, the field of ophthalmology is well-suited for this technology; this is evidenced by IDx-DR, an AI diabetic retinopathy diagnostic system and the first AI device approved for clinical use by the Food and Drug Administration<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. Machine learning in ophthalmology has been successfully applied to various modalities, such as applying machine learning with fundoscopy and OCT to detect glaucoma and segment retinal layers<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Given that these imaging modalities are also onboard the ISS for ocular health monitoring, machine learning serves as promising asset for understanding SANS.</p>
+              <p id="Par15">A large challenge to developing machine learning applications for human spaceflight is the severe limitation in data for training and validating machine learning models. Less than 600 individuals have flow to space across a period of multiple decades<sup><xref ref-type="bibr" rid="CR36">36</xref></sup>. In-flight ophthalmic imaging modalities have also differed over these decades which adds another layer of dataset insufficiency. When machine learning models are trained poorly with insufficient data, the outcomes of the model when exposed to novel, external scenarios may be inaccurate. Validation of the model is also an important step in understanding the accuracy of the machine learning framework, which must also have a large enough dataset for reliable assessment. Analyses of machine learning algorithms for terrestrial diabetic retinopathy have strongly demonstrated the need for rigorous testing on real-world data prior to integration into clinical use<sup><xref ref-type="bibr" rid="CR37">37</xref></sup>. At the current trajectory, machine learning models built just upon astronaut data may not perform at the most optimal level to accurately monitor and assess for anticipated missions in the coming decade. Several considerations/methods may be utilized to address this unique challenge in machine learning for astronaut health. Transfer learning is a neural network technique that has been utilized terrestrially to address the lack of labeled large imaging datasets<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>. Transfer learning takes a pre-trained model, typically trained on a much larger labeled dataset, and applies parts of the neural network layers to the new model of interest. This approach of reusing a learned, accurate model is highly effective for building more robust models in scenarios of insufficient or limited datasets for training. Validated, labeled terrestrial models trained on large datasets that have specific features of interests may serve as a proper source model for increasing the robustness of these machine learning frameworks for spaceflight. Another method to circumvent the insufficiency of data is to supplement with terrestrial analog data. Head-down tilt bed rest is a terrestrial analog that mimics the cephalad fluid shifts in spaceflight and has been observed to produce optic disc edema and chorioretinal folds within 60 days<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>. While these bed rest studies do have their own terrestrial limitations (e.g., duration of studies), the relative cost and time compared to spaceflight is much less. Lastly, as commercial spaceflight continues to grow, it is anticipated that more individuals will travel to space at a larger rate. SANS develops after LDSF, thus short-duration spaceflight will likely not yield data. However, as the commercialization of spaceflight continues to rapidly expand, more individuals may be exposed to prolonged periods of microgravity and develop SANS. This increase in data will be helpful for developing machine learning techniques for exploration spaceflight.</p>
+              <p id="Par16">Two highly applied machine learning techniques in ophthalmic imaging are called supervised learning and unsupervised learning. The main difference between these machine learning algorithms is that supervised learning pairs input data with an annotation to train the model end-to-end whereas unsupervised learning only has input data to train the model. Supervised learning techniques include image classification and object detection<sup><xref ref-type="bibr" rid="CR41">41</xref>,<xref ref-type="bibr" rid="CR42">42</xref></sup> and unsupervised learning techniques include image reconstruction and image denoising<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR44">44</xref></sup>. Since fundoscopy and OCT are available on the ISS, terrestrial specialists can relatively quickly employ machine learning techniques to further understand ocular physiology and SANS with in-flight modalities during LDSF. Supervised learning algorithms have demonstrated success in various ophthalmic tasks, including hemorrhage detection, retinal vessel segmentation, and glaucoma localization<sup><xref ref-type="bibr" rid="CR45">45</xref>–<xref ref-type="bibr" rid="CR47">47</xref></sup>. In Fig. <xref rid="Fig5" ref-type="fig">5</xref>, we illustrate a supervised learning auto-encoder architecture for retinal vessel segmentation from a fundus image that can be applied to astronaut fundoscopy (Fig. <xref rid="Fig5" ref-type="fig">5</xref>)<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. Angiographic extraction of the retinal vasculature may play an important role in further understanding SANS. A recent study observed decreased arterial and venous densities in astronaut retinas after six-month missions<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. The authors conclude that retinal vascular remodeling may represent as a useful biomarker for understanding SANS, and that further research is necessary to better characterize these retinal changes to spaceflight<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. Deep learning-based retinal segmentation allows for robust evaluation of important biomarkers including branching angles, bifurcations, vessel tortuosity, and artery-vein ratio<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. By merging this technique with an imaging modality onboard the ISS, in-flight changes in retinal vasculature may be further understood.<fig id="Fig5"><label>Fig. 5</label><caption><title>Supervised Machine Learning Approach for Retinal Vessel Segmentation.</title><p>A supervised approach for retinal vessel segmentation from a retinal fundus image using Auto-encoder architecture. The architecture consists of multiple convolutions, down sampling, up sampling blocks and skip connections in between using concatenate layers.</p></caption><graphic xlink:href="41526_2022_222_Fig5_HTML" id="d32e846"/></fig></p>
+              <p id="Par17">Unsupervised learning is a valuable technique to address data transfer speeds during spaceflight. The technique is carried out using an auto-encoder for extracting and retaining intricate features. An auto-encoder is made of an encoder and decoder to reduce data dimensions. This machine learning architecture is powerful for medical image denoising, reconstruction, and compression<sup><xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR51">51</xref>,<xref ref-type="bibr" rid="CR52">52</xref></sup>. During spaceflight, unsupervised learning is effective for SANS by denoising and removing artifacts from limited in-flight imaging to detect subtle changes, as well as compressing key images while maintaining critical features to expedite transmission times to Earth during exploratory missions. As illustrated in Fig. <xref rid="Fig6" ref-type="fig">6</xref>, an autoencoder is employed to reconstruct the fundus image, successfully denoising the image in the process (Fig. <xref rid="Fig6" ref-type="fig">6</xref>)<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>.<fig id="Fig6"><label>Fig. 6</label><caption><title>Unsupervised Machine Learning Approach for Retinal Fundus Image Denoising.</title><p>An unsupervised approach for denoising fundus images using Auto-encoder architecture. The architecture consists of an encoder and decoder network. The encoder consists of convolution followed by downsampling layers, Whereas the decoder consists of upsampling layers. Other than that, it has multiple skin connections in between using concatenate layers.</p></caption><graphic xlink:href="41526_2022_222_Fig6_HTML" id="d32e879"/></fig></p>
+              <p id="Par18">Since machine learning has been employed terrestrially with fundoscopy and OCT, deploying a similar automated system in ISS is likely to be effective. In SANS, optic disc edema and nerve fiber layer thickening can be detected by incorporating deep learning techniques, and cotton wool spots and globe flattening can be identified and localized using segmentation-based deep learning architectures<sup><xref ref-type="bibr" rid="CR53">53</xref>,<xref ref-type="bibr" rid="CR54">54</xref></sup>. Unfortunately, imaging modalities such as MRI and fluorescein angiography (FA) are not available on the ISS, which have been instrumental in SANS proposed pathogenesis and confirming choroidal folds after LDSF, respectively<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup><sup>,</sup><sup><xref ref-type="bibr" rid="CR55">55</xref></sup>. This limitation can be addressed by implementing the revolutionary deep learning architecture termed “Generative Adversarial Network” (GAN). GANs can synthesize images from one modality to another, such as generating of FA images from fundus images<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>, and generating fundus autofluorescence from OCT<sup><xref ref-type="bibr" rid="CR57">57</xref>,<xref ref-type="bibr" rid="CR58">58</xref></sup>, thus, creating an artificial imaging modality. Figure <xref rid="Fig7" ref-type="fig">7</xref> illustrates a multi-scale GAN for FA synthesis from color fundus photographs (Fig. <xref rid="Fig7" ref-type="fig">7</xref>)<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>.<fig id="Fig7"><label>Fig. 7</label><caption><title>A multi-scale generative network for fluorescein angiography (FA) synthesis from color fundus.</title><p>The model comprises of two generators and two discriminators for taking in images of different resolutions and scales. There is a feature fusion between the coarse and fine generators, which extracts both global and local features. The discriminators take in pairs of fundus and FA images and dictates if the image pairs are real or fake. The generator only other hand synthesizes FA from retinal fundus images at two different scales.</p></caption><graphic xlink:href="41526_2022_222_Fig7_HTML" id="d32e933"/></fig></p>
+              <p id="Par19">GANs learn by playing a min-max “game” between two distinct architectures termed “Generator” and “Discriminator”<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>. The generator attempts to synthesize realistic images of Modality B from Modality A, whereas the discriminator is tasked to distinguish between real and fake modality B images. This is work can be furthered extended to incorporating multiple modalities of images to generate the missing data. For example, GANs can be developed to extract valuable features in fundoscopy, OCT, and ocular ultrasound. In addition, functional information like visual acuity, metamorphopsia, and contrast sensitivity from the multi-modal VR system can be merged into GAN frameworks to optimize the synthesis of an artificial imaging modalities. The GAN output does not have to be a single structured data like MRI, fundus, or OCT; instead, we can have multiple outputs for detecting and localizing underlying conditions like globe flattening, cotton spots, optic disc edema, and choroidal folds. Similar work was done by incorporating retinal nerve fiber layer maps, confocal scanning laser ophthalmoscopy imaging, and enface images to detect glaucomatous visual field defects and predict mean deviation of visual fields from spectral domain-OCT images<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. The technological innovation of the Hood Glaucoma Report software in OCT allows for precise diagnostic information and optimizes detection of subtle changes in glaucoma<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>. In the future, similar machine learning architectures trained on astronaut and terrestrial analog data can be deployed for detecting SANS and will help monitor disease progression during LDSF in real-time.</p>
+              <p id="Par20">Ultimately, machine learning and VR visual assessment technology can address many of the limitations for monitoring SANS during planetary travel. When these limitations are broken down to the core fundamentals, such as limited access to ophthalmic screening and imaging modalities, they closely parallel with limitations seen in low access-to-care areas on Earth. As the number of individuals affected by preventable vision impairment is anticipated to grow by the millions in the coming decades<sup><xref ref-type="bibr" rid="CR63">63</xref>,<xref ref-type="bibr" rid="CR64">64</xref></sup>, it is imperative to increase access to screening and imaging modalities. Several future considerations for integration of these technologies include in-flight computational capabilities and integrated software to directly feed imaging data into established machine learning models. Further insight into these integration considerations will be more strongly established as the technology progresses. While serving an incredible use for detecting SANS, innovations in machine learning and VR technology can be leveraged to benefit many communities across the world that experience barriers in receiving optimal vision care. In the following section we discuss how these innovations for SANS can help preserve vision and quality of life on Earth.</p>
+            </sec>
+            <sec id="Sec6">
+              <title>Terrestrial ophthalmic diseases and preventable irreversible vision loss</title>
+              <p id="Par21">The World Health Organization estimates that over 2.2 billion people have some level of visual impairment with at least 1 billion arising from preventable or unaddressed causes<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>. With larger aging populations, providing widespread, cost-effective solutions to prevent vision loss becomes increasingly critical and novel interventions are needed. The development of the advanced visual assessment technology with machine learning for the austere environment of spaceflight can help attenuate these risks and address longstanding barriers to ophthalmic healthcare on Earth. Several barriers seen on Earth parallel challenges faced during spaceflight (Fig. <xref rid="Fig8" ref-type="fig">8</xref>). In this section, we discuss common vision-threatening diseases that may benefit from the multi-modal vision technology and machine learning frameworks being developed for SANS.<fig id="Fig8"><label>Fig. 8</label><caption><title>Parallels in the limitations for ophthalmic care seen in spaceflight and in underserved communities on Earth.</title><p>The spaceflight environment and underserved areas on Earth have overlapping similarities. These parallels include limited ophthalmic care, limited access to ophthalmic imaging, limited access to certain testing procedures, and limited access to screening and monitoring for vision-threatening conditions.</p></caption><graphic xlink:href="41526_2022_222_Fig8_HTML" id="d32e979"/></fig></p>
+              <p id="Par22">Diabetic retinopathy (DR) is one of the leading causes of vision loss in working-age individuals globally<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>. In 2020, approximately 103 million people had DR and this number is expected to reach 224 million by 2040<sup><xref ref-type="bibr" rid="CR63">63</xref>,<xref ref-type="bibr" rid="CR67">67</xref></sup>. For conditions such as proliferative DR, the outcomes of treatment are highly dependent on the timing of laser treatment, which is optimally administered prior to vision being significantly affected but when high-risk characteristics are present (e.g., microaneurysms)<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>. The Early Treatment Diabetic Retinopathy Study (ETDRS) reported that early intervention with laser photocoagulation in DR appears associated with good long-term vision for patients, with 84% of patients demonstrating 20/40 or better in one of the eyes at long-term follow up<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>, highlighting the importance of early detection. Establishing a screening program for DR has shown significant benefits as in Iceland, one of the first countries to start such a program, which substantially decreased the prevalence of legal blindness in its diabetic population by 4.8 times<sup><xref ref-type="bibr" rid="CR69">69</xref></sup>. Similar results were seen in the Newcastle District where a retina screening program decreased partial sightedness and blindness by more than two thirds<sup><xref ref-type="bibr" rid="CR70">70</xref></sup>. Although screening programs for DR have proven to be highly effective at preventing blindness, they have yet to be implemented worldwide due to the various challenges including healthcare disparities.</p>
+              <p id="Par23">Significant disparities exist in the access to eye care services worldwide with the majority of blindness (approximately 90%) found in developing countries where ophthalmic services are highly limited<sup><xref ref-type="bibr" rid="CR71">71</xref></sup>. Many of these limitations, particularly access to screening and ophthalmic personnel, parallel similar situations seen during spaceflight. This mobile and efficient technology that has been adapted for spaceflight may address these barriers to optimal vision health and overall health of the community; recent advances have shown that retinal evaluation can help identify individuals at risk for cognitive and cardiovascular pathologies<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>. These findings further support the practical utility of cost-effective, mobile visual assessment technology for increased screening of retinal diseases. By building a comprehensive model of visual function for diabetic patients, the small footprint visual assessment and machine learning technology originally designed for SANS can help to address these challenges, providing low-cost, frequent screening for many at-risk individuals to reduce healthcare inequalities and the burden of debilitating diseases.</p>
+              <p id="Par24">Innovative visual assessment technology using machine learning also has strong potential to prevent blindness in high-resource areas. Literature has shown that even in countries with strong healthcare infrastructures, over half of the causes of visual impairment are preventable (56%)<sup><xref ref-type="bibr" rid="CR71">71</xref>,<xref ref-type="bibr" rid="CR73">73</xref></sup>. Limburg and Keunen reported that the highest proportion of avoidable blindness in the Netherlands was seen in individuals with disabilities, followed by residents of nursing homes, illustrating how the lack of screening programs disproportionately affects high-risk individuals. Headset-based visual assessments with machine learning allow for more frequent screening for individuals with disabilities and reduce the need for in-person visits for immobile individuals. These implementations may improve the quality of life and economic independence within these populations.</p>
+              <p id="Par25">Glaucoma and age-related macular degeneration (AMD) are also among the most common causes of preventable blindness worldwide, with AMD being most common cause of blindness in individuals over age 50 worldwide<sup><xref ref-type="bibr" rid="CR64">64</xref>,<xref ref-type="bibr" rid="CR74">74</xref>,<xref ref-type="bibr" rid="CR75">75</xref></sup> (Table <xref rid="Tab1" ref-type="table">1</xref>). Open-angle glaucoma (OAG) is the most common type of glaucoma and often presents with subtle peripheral vision loss that can go undetected for years, leading to severe vision loss at an advanced stage without intervention<sup><xref ref-type="bibr" rid="CR76">76</xref></sup>. OAG is often detected using three main measures: perimetry, optic nerve head morphology, and intraocular pressure (IOP)<sup><xref ref-type="bibr" rid="CR77">77</xref></sup>. Although OAG can be effectively treated to attenuate progressive blindness, there are limited glaucoma screening programs to detect the subtle vision loss. Several reasons for this lack of population-based screening stem from unclear evidence of the longitudinal cost-effectiveness of screening and insufficient evidence for a simple and precise validated screening test<sup><xref ref-type="bibr" rid="CR78">78</xref>,<xref ref-type="bibr" rid="CR79">79</xref></sup>. IOP assessments are often performed with tonometry and optic nerve head morphology is often assessed with OCT, both typically requiring additional operators to perform the assessment<sup><xref ref-type="bibr" rid="CR80">80</xref>,<xref ref-type="bibr" rid="CR81">81</xref></sup>. The current gold standard for visual field perimetry testing is standard automated perimetry (SAP)<sup><xref ref-type="bibr" rid="CR82">82</xref></sup>. However, SAP is stationary, has relatively large cost and space requirements<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. This limits the areas where SAP can be available for individuals, particularly in underserved areas. Limited capacity in clinics have also been noted as a limitation and may lead to delays in follow-up appointments for glaucoma patients<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. A potential solution to circumvent these barriers is to employ VR-based perimetry for high-risk individuals, providing relatively low-cost, more accessible monitoring for undetected peripheral vision loss from OAG. VR perimetry allows for portable, self-administration of visual field testing<sup><xref ref-type="bibr" rid="CR83">83</xref></sup>. The asynchronous delivery of this portable assessment can increase accessibility in austere communities where SAP is physically unavailable or from delayed follow-up appointments. At-home VR-based perimetry has also been explored<sup><xref ref-type="bibr" rid="CR84">84</xref></sup> which may allow for more accessible testing in senior living communities where perimetry can be brought to community members. A current limitation is that it is still a relatively new technology that will likely require years of further research before becoming widely adopted. Although VR systems are much more cost-effective than SAP, individual home-based testing may not be cost-effective; however, the accessibility and delivery of VR-based perimetry in underserved areas may address barriers including high cost of stationary SAP and limited clinic capacity. A higher frequency in functional perimetry testing may allow for a more precise and personalized model of ocular function and structure relationship for OAG patients when combined with imaging modalities. Several risk factors for OAG also overlap with AMD, and VR vision assessment technology can serve as a particularly efficient screening modality for individuals that have these shared risk factors. Severe vision loss in AMD is primarily caused by the development of choroidal neovascularization (CNV)<sup><xref ref-type="bibr" rid="CR74">74</xref></sup>. Multiple studies have demonstrated that early detection and intervention of CNV is essential to prevent vision loss<sup><xref ref-type="bibr" rid="CR74">74</xref></sup>. FA has been deemed an option for early detection of CNV<sup><xref ref-type="bibr" rid="CR74">74</xref></sup>. Thus, by employing VR-based metamorphopsia assessments and GANs for FA imaging for high-risk individuals, CNV can be rapidly detected and lead to timely intervention to prevent irreversible vision loss.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Epidemiology, screening, treatments, and 20-year outlook for diabetic retinopathy, glaucoma, and age-related macular degeneration.</p></caption><table frame="hsides" rules="groups"><thead><tr><th/><th>Diabetic retinopathy</th><th>Glaucoma</th><th>Age-related macular degeneration</th></tr></thead><tbody><tr><td>Epidemiology and Demographics most affected</td><td>An estimated 1 in 29 persons aged 40 or older in the US have diabetic retinopathy<sup><xref ref-type="bibr" rid="CR86">86</xref></sup>. Diabetic retinopathy typically causes blindness during working-age years, resulting in substantial economic costs.</td><td>An estimated 70 million people worldwide have glaucoma, and it is the leading cause of irreversible blindness<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. Risk factors include old age, family history of glaucoma, use of corticosteroids, elevated IOP, and African American ethnicity.</td><td><p>Estimated to account for 9% of all cases of blindness worldwide<sup><xref ref-type="bibr" rid="CR87">87</xref></sup>.</p><p>The main risk factors for AMD are genetic predisposition, age, and nicotine consumption.</p></td></tr><tr><td>Screening modalities and effectiveness</td><td>Ophthalmoscopy is the standard method to screen for diabetic retinopathy, with the earliest clinical sign being microaneurysms in the posterior pole. Fluorescein angiography is an invasive method to detect vascular changes in established diabetic retinopathy. OCT may provide additional information on the retinal layers<sup><xref ref-type="bibr" rid="CR88">88</xref></sup></td><td><p>Early diagnosis can be challenging due to insidious nature of disease progression.</p><p>Recommended examination consists of a clinical history, tonometry, stereoscopic examination, and slit-lamp examination. Visual fields should also be examined a minimum of three times within the first year a diagnosis is made.</p></td><td>Initial symptoms of AMD often consist of central visual field loss or distorted vision. Diagnosis of AMD typically includes visual acuity, ophthalmic examination, examination of the macular layer with OCT, funduscopic evaluation with dilated pupils, and fluorescein angiography, if necessary<sup><xref ref-type="bibr" rid="CR87">87</xref></sup></td></tr><tr><td>Current treatments</td><td><p>Lifestyle modifications</p><p>Anti-VEGF Intravitreal Injections</p><p>Laser Photocoagulation</p></td><td>Eye drops, Trabeculectomy, Laser Trabeculoplasty, Minimally Invasive Glaucoma Surgery<sup><xref ref-type="bibr" rid="CR28">28</xref></sup></td><td>Depending on Wet/Dry Classification. Laser Photocoagulation. Anti-VEGF Intravitreal Injections</td></tr><tr><td>10–20 year outlook</td><td>The number of people with diabetic retinopathy worldwide is expected to reach 224 million by 2040<sup><xref ref-type="bibr" rid="CR63">63</xref></sup></td><td>In 2040, the number of people with glaucoma is expected to reach 111.8 million<sup><xref ref-type="bibr" rid="CR64">64</xref></sup></td><td>By 2040, 288 million people are expected to develop AMD<sup><xref ref-type="bibr" rid="CR75">75</xref></sup></td></tr></tbody></table></table-wrap></p>
+              <p id="Par26">Ultimately, the application of this mobile, low-cost visual assessment technology can allow for the detection of preventable visual impairments for underserved and/or high-risk patients that would otherwise not receive eye screening or ophthalmic care.</p>
+            </sec>
+            <sec id="Sec7">
+              <title>Future outlook and summary</title>
+              <p id="Par27">In the 1980’s, NASA developed laser radar (LADAR) technology for autonomous spacecraft docking in orbit. Today, this space-based innovation serves as integral precision, eye-tracking technology for LASIK, one of the most common ophthalmic surgeries<sup><xref ref-type="bibr" rid="CR85">85</xref></sup>. The translational application of space technology continues to move forward in improving vision and quality of life on Earth. With projected outlook of increasing vision loss affecting millions in the coming decades, it is of utmost importance to apply cutting-edge technology to preserve vision and quality of life on Earth. The development of revolutionary VR and machine learning technology for SANS can help address many longstanding barriers to achieving healthy vision on Earth.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This work was supported by the National Aeronautics and Space Administration (NASA) under NASA Grant 80NSSC20K1831 titled: A Non-intrusive Ocular Monitoring Framework to Model Ocular Structure and Functional Changes due to Long-term Spaceflight.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>J.O. concept design, manuscript writing, figure development; A.T. figure development, manuscript review and editing; N.Z. manuscript writing, figure development; S.A.K. manuscript writing, figure development; E.W. manuscript writing, figure development; N.G. manuscript writing, figure development; A.G.L. manuscript review and editing.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par28">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Spaceflight associated neuro-ocular syndrome (SANS) and the neuro-ophthalmologic effects of microgravity: a review and an update</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>7</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-0097-9</pub-id>
+                  <?supplied-pmid 32047839?>
+                  <pub-id pub-id-type="pmid">32047839</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>ZS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Red risks for a journey to the red planet: The highest priority human health risks for a mission to Mars</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2020</year>
+                  <volume>6</volume>
+                  <fpage>33</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-00124-6</pub-id>
+                  <?supplied-pmid 33298950?>
+                  <pub-id pub-id-type="pmid">33298950</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mader</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optic disc edema, globe flattening, choroidal folds, and hyperopic shifts observed in astronauts after long-duration space flight</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2011</year>
+                  <volume>118</volume>
+                  <fpage>2058</fpage>
+                  <lpage>2069</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ophtha.2011.06.021</pub-id>
+                  <?supplied-pmid 21849212?>
+                  <pub-id pub-id-type="pmid">21849212</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mader</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Persistent asymmetric optic disc swelling after long-duration space flight: implications for pathogenesis</article-title>
+                  <source>J. Neuroophthalmol.</source>
+                  <year>2017</year>
+                  <volume>37</volume>
+                  <fpage>133</fpage>
+                  <lpage>139</lpage>
+                  <pub-id pub-id-type="doi">10.1097/WNO.0000000000000467</pub-id>
+                  <?supplied-pmid 27930421?>
+                  <pub-id pub-id-type="pmid">27930421</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Thomas H. et al. Persistent globe flattening in astronauts following long-duration spaceflight. <italic>Neuro-Ophthalmology</italic>, 10.1080/01658107.2020.1791189 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <mixed-citation publication-type="other">NASA. A Non-intrusive ocular monitoring framework to model ocular structure and functional changes due to long-term spaceflight (80NSSC20K1831). <italic>NASA Life Sci. Data Archive</italic> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Ong, J. et al. A multi-modal visual assessment system for monitoring spaceflight associated neuro-ocular syndrome (SANS) during long duration spaceflight. <italic>J. Vision</italic><bold>22</bold>, 10.1167/jov.22.3.6 (2022).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">NASA. NASA MEDB 1.10 Eye examinations. <ext-link ext-link-type="uri" xlink:href="https://lsda.jsc.nasa.gov/lsda_data/document/Project/MRID/MEDB_1.10_1.10.1_Eye%20Examinations%2012_11_17_Project_13_27_17.pdf">https://lsda.jsc.nasa.gov/lsda_data/document/Project/MRID/MEDB_1.10_1.10.1_Eye%20Examinations%2012_11_17_Project_13_27_17.pdf</ext-link> (2017).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ushakov.</surname>
+                      <given-names>IB</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Main findings of psychophysiological studies in the Mars 500 experiment</article-title>
+                  <source>Her. Russian Acad. Sci.</source>
+                  <year>2014</year>
+                  <volume>84</volume>
+                  <fpage>106</fpage>
+                  <lpage>114</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S1019331614020063</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kintz</surname>
+                      <given-names>NM</given-names>
+                    </name>
+                    <name>
+                      <surname>Palinkas</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Communication delays impact behavior and performance aboard the international space station</article-title>
+                  <source>Aerosp. Med. Hum. Perform.</source>
+                  <year>2016</year>
+                  <volume>87</volume>
+                  <fpage>940</fpage>
+                  <lpage>946</lpage>
+                  <pub-id pub-id-type="doi">10.3357/AMHP.4626.2016</pub-id>
+                  <?supplied-pmid 27779953?>
+                  <pub-id pub-id-type="pmid">27779953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <mixed-citation publication-type="other">Skelly, C. New Spinoff Publication Shares How NASA Innovations Benefit Life on Earth. <italic>National Aeronautics and Space Administration</italic> Space Tech, <ext-link ext-link-type="uri" xlink:href="https://www.nasa.gov/press-release/new-spinoff-publication-shares-how-nasa-innovations-benefit-life-on-earth">https://www.nasa.gov/press-release/new-spinoff-publication-shares-how-nasa-innovations-benefit-life-on-earth</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nelson</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                    <name>
+                      <surname>Mulugeta</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Myers</surname>
+                      <given-names>JG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity-induced fluid shift and ophthalmic changes</article-title>
+                  <source>Life (Basel)</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <fpage>621</fpage>
+                  <lpage>665</lpage>
+                  <pub-id pub-id-type="pmid">25387162</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wostyn</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>De Deyn</surname>
+                      <given-names>PP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The “ocular glymphatic system”: an important missing piece in the puzzle of optic disc edema in astronauts?</article-title>
+                  <source>Invest Ophthalmol. Vis. Sci.</source>
+                  <year>2018</year>
+                  <volume>59</volume>
+                  <fpage>2090</fpage>
+                  <lpage>2091</lpage>
+                  <pub-id pub-id-type="doi">10.1167/iovs.17-23263</pub-id>
+                  <?supplied-pmid 29677371?>
+                  <pub-id pub-id-type="pmid">29677371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Killer</surname>
+                      <given-names>HE</given-names>
+                    </name>
+                    <name>
+                      <surname>Jaggi</surname>
+                      <given-names>GP</given-names>
+                    </name>
+                    <name>
+                      <surname>Flammer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Miller</surname>
+                      <given-names>NR</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>AR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The optic nerve: a new window into cerebrospinal fluid composition</article-title>
+                  <source>Brain</source>
+                  <year>2006</year>
+                  <volume>129</volume>
+                  <fpage>1027</fpage>
+                  <lpage>1030</lpage>
+                  <pub-id pub-id-type="doi">10.1093/brain/awl045</pub-id>
+                  <?supplied-pmid 16504971?>
+                  <pub-id pub-id-type="pmid">16504971</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Galdamez</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Brunstetter</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Tarver</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Origins of cerebral edema: implications for spaceflight-associated neuro-ocular syndrome</article-title>
+                  <source>J. Neuroophthalmol.</source>
+                  <year>2020</year>
+                  <volume>40</volume>
+                  <fpage>84</fpage>
+                  <lpage>91</lpage>
+                  <pub-id pub-id-type="doi">10.1097/WNO.0000000000000852</pub-id>
+                  <?supplied-pmid 31633590?>
+                  <pub-id pub-id-type="pmid">31633590</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strangman</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Increased cerebral blood volume pulsatility during head-down tilt with elevated carbon dioxide: the SPACECOT Study</article-title>
+                  <source>J. Appl Physiol. (1985)</source>
+                  <year>2017</year>
+                  <volume>123</volume>
+                  <fpage>62</fpage>
+                  <lpage>70</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00947.2016</pub-id>
+                  <pub-id pub-id-type="pmid">28360122</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effects of spaceflight on astronaut brain structure as indicated on MRI</article-title>
+                  <source>N. Engl. J. Med</source>
+                  <year>2017</year>
+                  <volume>377</volume>
+                  <fpage>1746</fpage>
+                  <lpage>1753</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMoa1705129</pub-id>
+                  <?supplied-pmid 29091569?>
+                  <pub-id pub-id-type="pmid">29091569</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shinojima</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kakeya</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Tada</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Association of space flight with problems of the brain and eyes</article-title>
+                  <source>JAMA Ophthalmol.</source>
+                  <year>2018</year>
+                  <volume>136</volume>
+                  <fpage>1075</fpage>
+                  <lpage>1076</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jamaophthalmol.2018.2635</pub-id>
+                  <?supplied-pmid 29978215?>
+                  <pub-id pub-id-type="pmid">29978215</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marshall-Goebel</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Damani</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Bershad</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Brain physiological response and adaptation during spaceflight</article-title>
+                  <source>Neurosurgery</source>
+                  <year>2019</year>
+                  <volume>85</volume>
+                  <fpage>E815</fpage>
+                  <lpage>E821</lpage>
+                  <pub-id pub-id-type="doi">10.1093/neuros/nyz203</pub-id>
+                  <?supplied-pmid 31215633?>
+                  <pub-id pub-id-type="pmid">31215633</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yoon</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Drumright</surname>
+                      <given-names>LN</given-names>
+                    </name>
+                    <name>
+                      <surname>van der Schaar</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Anonymization through data synthesis using generative adversarial networks (ADS-GAN)</article-title>
+                  <source>IEEE J. Biomed. Health Inf.</source>
+                  <year>2020</year>
+                  <volume>24</volume>
+                  <fpage>2378</fpage>
+                  <lpage>2388</lpage>
+                  <pub-id pub-id-type="doi">10.1109/JBHI.2020.2980262</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <mixed-citation publication-type="other">Ong, J. et al. Neuro-ophthalmic imaging and visual assessment technology for spaceflight associated neuro-ocular syndrome (SANS). <italic>Surv. Ophthalmol</italic>, 10.1016/j.survophthal.2022.04.004 (2022).</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Gaskill, M. Nine Ways We Use AR and VR on the International Space Station. <italic>NASA Space Station Research</italic>, <ext-link ext-link-type="uri" xlink:href="https://www.nasa.gov/mission_pages/station/research/news/nine-ways-we-use-ar-vr-on-iss">https://www.nasa.gov/mission_pages/station/research/news/nine-ways-we-use-ar-vr-on-iss</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arvind</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dichoptic stimulation improves detection of glaucoma with multifocal visual evoked potentials</article-title>
+                  <source>Invest Ophthalmol. Vis. Sci.</source>
+                  <year>2007</year>
+                  <volume>48</volume>
+                  <fpage>4590</fpage>
+                  <lpage>4596</lpage>
+                  <pub-id pub-id-type="doi">10.1167/iovs.07-0318</pub-id>
+                  <?supplied-pmid 17898282?>
+                  <pub-id pub-id-type="pmid">17898282</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tsapakis</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Visual field examination method using virtual reality glasses compared with the Humphrey perimeter</article-title>
+                  <source>Clin. Ophthalmol.</source>
+                  <year>2017</year>
+                  <volume>11</volume>
+                  <fpage>1431</fpage>
+                  <lpage>1443</lpage>
+                  <pub-id pub-id-type="doi">10.2147/OPTH.S131160</pub-id>
+                  <?supplied-pmid 28848325?>
+                  <pub-id pub-id-type="pmid">28848325</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <mixed-citation publication-type="other">Sipatchin, A., Wahl, S. &amp; Rifai, K. Eye-tracking for clinical ophthalmology with virtual reality (vr): a case study of the HTC vive pro eye’s usability. <italic>Healthcare (Basel)</italic><bold>9</bold>, 10.3390/healthcare9020180 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <mixed-citation publication-type="other">Clay, V., Konig, P. &amp; Konig, S. Eye tracking in virtual reality. <italic>J. Eye Mov. Res.</italic><bold>12</bold>, 10.16910/jemr.12.1.3 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stapelfeldt</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kucur</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Hohn</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Sznitman</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Virtual reality-based and conventional visual field examination comparison in healthy and glaucoma patients</article-title>
+                  <source>Transl. Vis. Sci. Technol.</source>
+                  <year>2021</year>
+                  <volume>10</volume>
+                  <fpage>10</fpage>
+                  <pub-id pub-id-type="doi">10.1167/tvst.10.12.10</pub-id>
+                  <?supplied-pmid 34614166?>
+                  <pub-id pub-id-type="pmid">34614166</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weinreb</surname>
+                      <given-names>RN</given-names>
+                    </name>
+                    <name>
+                      <surname>Aung</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Medeiros</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The pathophysiology and treatment of glaucoma: a review</article-title>
+                  <source>JAMA</source>
+                  <year>2014</year>
+                  <volume>311</volume>
+                  <fpage>1901</fpage>
+                  <lpage>1911</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2014.3192</pub-id>
+                  <?supplied-pmid 24825645?>
+                  <pub-id pub-id-type="pmid">24825645</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bennett</surname>
+                      <given-names>CR</given-names>
+                    </name>
+                    <name>
+                      <surname>Bex</surname>
+                      <given-names>PJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Merabet</surname>
+                      <given-names>LB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The assessment of visual function and functional vision</article-title>
+                  <source>Semin Pediatr. Neurol.</source>
+                  <year>2019</year>
+                  <volume>31</volume>
+                  <fpage>30</fpage>
+                  <lpage>40</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.spen.2019.05.006</pub-id>
+                  <?supplied-pmid 31548022?>
+                  <pub-id pub-id-type="pmid">31548022</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ong</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <name>
+                      <surname>Moss</surname>
+                      <given-names>HE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Head-down tilt bed rest studies as a terrestrial analog for spaceflight associated neuro-ocular syndrome</article-title>
+                  <source>Front Neurol.</source>
+                  <year>2021</year>
+                  <volume>12</volume>
+                  <fpage>648958</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fneur.2021.648958</pub-id>
+                  <?supplied-pmid 33841315?>
+                  <pub-id pub-id-type="pmid">33841315</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amanullah</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The relationship between contrast sensitivity and retinal nerve fiber layer thickness in patients with glaucoma</article-title>
+                  <source>Graefes Arch. Clin. Exp. Ophthalmol.</source>
+                  <year>2017</year>
+                  <volume>255</volume>
+                  <fpage>2415</fpage>
+                  <lpage>2422</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00417-017-3789-4</pub-id>
+                  <?supplied-pmid 28875347?>
+                  <pub-id pub-id-type="pmid">28875347</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Skalicky</surname>
+                      <given-names>SE</given-names>
+                    </name>
+                    <name>
+                      <surname>Kong</surname>
+                      <given-names>GY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel means of clinical visual function testing among glaucoma patients, including virtual reality</article-title>
+                  <source>J. Curr. Glaucoma Pr.</source>
+                  <year>2019</year>
+                  <volume>13</volume>
+                  <fpage>83</fpage>
+                  <lpage>87</lpage>
+                  <pub-id pub-id-type="doi">10.5005/jp-journals-10078-1265</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <mixed-citation publication-type="other">Peters, M. Space station’s data rate increase supports future exploration. <ext-link ext-link-type="uri" xlink:href="http://www.nasa.gov/feature/goddard/2019/data-rate-increase-on-the-international-space-station-supports-future-exploration">www.nasa.gov/feature/goddard/2019/data-rate-increase-on-the-international-space-station-supports-future-exploration</ext-link><bold>NASA</bold> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Savoy</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>IDx-DR for diabetic retinopathy screening</article-title>
+                  <source>Am. Fam. Phys.</source>
+                  <year>2020</year>
+                  <volume>101</volume>
+                  <fpage>307</fpage>
+                  <lpage>308</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ting</surname>
+                      <given-names>DSW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Artificial intelligence and deep learning in ophthalmology</article-title>
+                  <source>Br. J. Ophthalmol.</source>
+                  <year>2019</year>
+                  <volume>103</volume>
+                  <fpage>167</fpage>
+                  <lpage>175</lpage>
+                  <pub-id pub-id-type="doi">10.1136/bjophthalmol-2018-313173</pub-id>
+                  <?supplied-pmid 30361278?>
+                  <pub-id pub-id-type="pmid">30361278</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>TP</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Weight, muscle and bone loss during space flight: another perspective</article-title>
+                  <source>Eur. J. Appl. Physiol.</source>
+                  <year>2013</year>
+                  <volume>113</volume>
+                  <fpage>2171</fpage>
+                  <lpage>2181</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00421-012-2548-9</pub-id>
+                  <?supplied-pmid 23192310?>
+                  <pub-id pub-id-type="pmid">23192310</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>AY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Multicenter, head-to-head, real-world validation study of seven automated artificial intelligence diabetic retinopathy screening systems. diabetes care 2021;44:XXXX-XXXX</article-title>
+                  <source>Diabetes Care</source>
+                  <year>2021</year>
+                  <volume>44</volume>
+                  <fpage>e108</fpage>
+                  <lpage>e109</lpage>
+                  <pub-id pub-id-type="doi">10.2337/dci21-0007</pub-id>
+                  <?supplied-pmid 33972325?>
+                  <pub-id pub-id-type="pmid">33972325</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cheng</surname>
+                      <given-names>PM</given-names>
+                    </name>
+                    <name>
+                      <surname>Malhi</surname>
+                      <given-names>HS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Transfer learning with convolutional neural networks for classification of abdominal ultrasound images</article-title>
+                  <source>J. Digit Imaging</source>
+                  <year>2017</year>
+                  <volume>30</volume>
+                  <fpage>234</fpage>
+                  <lpage>243</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10278-016-9929-2</pub-id>
+                  <?supplied-pmid 27896451?>
+                  <pub-id pub-id-type="pmid">27896451</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Morid</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Borjali</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Del Fiol</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A scoping review of transfer learning research on medical image analysis using ImageNet</article-title>
+                  <source>Comput Biol. Med</source>
+                  <year>2021</year>
+                  <volume>128</volume>
+                  <fpage>104115</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.compbiomed.2020.104115</pub-id>
+                  <?supplied-pmid 33227578?>
+                  <pub-id pub-id-type="pmid">33227578</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laurie</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optic disc edema and chorioretinal folds develop during strict 6 degrees head-down tilt bed rest with or without artificial gravity</article-title>
+                  <source>Physiol. Rep.</source>
+                  <year>2021</year>
+                  <volume>9</volume>
+                  <fpage>e14977</fpage>
+                  <pub-id pub-id-type="doi">10.14814/phy2.14977</pub-id>
+                  <?supplied-pmid 34355874?>
+                  <pub-id pub-id-type="pmid">34355874</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">He, K., Zhang, X., Ren, S. &amp; Sun, J. Deep residual learning for image recognition. <italic>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</italic>, 770-778, 10.1109/CVPR.2016.90 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Dai, J., Li, Y., He, K. &amp; Sun, J. R-FCN: Object Detection via Region-based Fully Convolutional Networks. <italic>NIPS'16: Proceedings of the 30th International Conference on Neural Information Processing Systems</italic>, 379–387, 10.5555/3157096.3157139 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schlemper</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Caballero</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajnal</surname>
+                      <given-names>JV</given-names>
+                    </name>
+                    <name>
+                      <surname>Price</surname>
+                      <given-names>AN</given-names>
+                    </name>
+                    <name>
+                      <surname>Rueckert</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A deep cascade of convolutional neural networks for dynamic MR image reconstruction</article-title>
+                  <source>IEEE Trans. Med. Imaging</source>
+                  <year>2018</year>
+                  <volume>37</volume>
+                  <fpage>491</fpage>
+                  <lpage>503</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TMI.2017.2760978</pub-id>
+                  <?supplied-pmid 29035212?>
+                  <pub-id pub-id-type="pmid">29035212</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuo</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Meng</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Beyond a Gaussian Denoiser: residual learning of deep CNN for image denoising</article-title>
+                  <source>IEEE Trans. Image Process</source>
+                  <year>2017</year>
+                  <volume>26</volume>
+                  <fpage>3142</fpage>
+                  <lpage>3155</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TIP.2017.2662206</pub-id>
+                  <?supplied-pmid 28166495?>
+                  <pub-id pub-id-type="pmid">28166495</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <mixed-citation publication-type="other">Fu, H., Xu, Y., Wong, D. &amp; Liu, J. Retinal vessel segmentation via deep learning network and fully-connected conditional random fields. <italic>IEEE International Symposium on Biomedical Imaging</italic>, 698–701, 10.1109/ISBI.2016.7493362 (2016).</mixed-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mitra</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Banerjee</surname>
+                      <given-names>PS</given-names>
+                    </name>
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Roy</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Setua</surname>
+                      <given-names>SK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The region of interest localization for glaucoma analysis from retinal fundus image using deep learning</article-title>
+                  <source>Comput. Methods Prog. Biomed.</source>
+                  <year>2018</year>
+                  <volume>165</volume>
+                  <fpage>25</fpage>
+                  <lpage>35</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cmpb.2018.08.003</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Retinal hemorrhage detection by rule-based and machine learning approach</article-title>
+                  <source>Annu Int Conf. IEEE Eng. Med Biol. Soc.</source>
+                  <year>2017</year>
+                  <volume>2017</volume>
+                  <fpage>660</fpage>
+                  <lpage>663</lpage>
+                  <pub-id pub-id-type="pmid">29059959</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Budai</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Bock</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Maier</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hornegger</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Michelson</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Robust vessel segmentation in fundus images</article-title>
+                  <source>Int J. Biomed. Imaging</source>
+                  <year>2013</year>
+                  <volume>2013</volume>
+                  <fpage>154860</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2013/154860</pub-id>
+                  <?supplied-pmid 24416040?>
+                  <pub-id pub-id-type="pmid">24416040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vyas</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Decreased vascular patterning in the retinas of astronaut crew members as new measure of ocular damage in spaceflight-associated neuro-ocular syndrome</article-title>
+                  <source>Invest Ophthalmol. Vis. Sci.</source>
+                  <year>2020</year>
+                  <volume>61</volume>
+                  <fpage>34</fpage>
+                  <pub-id pub-id-type="doi">10.1167/iovs.61.14.34</pub-id>
+                  <?supplied-pmid 33372980?>
+                  <pub-id pub-id-type="pmid">33372980</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <mixed-citation publication-type="other">Khanal, A. &amp; Estrada, R. Dynamic deep networks for retinal vessel segmentation. <italic>Front. Comput. Sci.</italic><bold>2</bold>, 10.3389/fcomp.2020.00035 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <mixed-citation publication-type="other">Teikari, P., Najjar, R. P., Schmetterer, L. &amp; Milea, D. Embedded deep learning in ophthalmology: making ophthalmic imaging smarter. <italic>Ther. Adv. Ophthalmol</italic><bold>11</bold>, 2515841419827172, 10.1177/2515841419827172 (2019).</mixed-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tan</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Eswaran</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using autoencoders for mammogram compression</article-title>
+                  <source>J. Med. Syst.</source>
+                  <year>2011</year>
+                  <volume>35</volume>
+                  <fpage>49</fpage>
+                  <lpage>58</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10916-009-9340-3</pub-id>
+                  <?supplied-pmid 20703586?>
+                  <pub-id pub-id-type="pmid">20703586</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A coarse-to-fine deep learning framework for optic disc segmentation in fundus images</article-title>
+                  <source>Biomed. Signal Process Control</source>
+                  <year>2019</year>
+                  <volume>51</volume>
+                  <fpage>82</fpage>
+                  <lpage>89</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.bspc.2019.01.022</pub-id>
+                  <?supplied-pmid 33850515?>
+                  <pub-id pub-id-type="pmid">33850515</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ahn</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Ahn</surname>
+                      <given-names>KS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>US</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Accuracy of machine learning for differentiation between optic neuropathies and pseudopapilledema</article-title>
+                  <source>BMC Ophthalmol.</source>
+                  <year>2019</year>
+                  <volume>19</volume>
+                  <fpage>178</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s12886-019-1184-0</pub-id>
+                  <?supplied-pmid 31399077?>
+                  <pub-id pub-id-type="pmid">31399077</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Stenger, M. B. et al. Evidence report: risk of spaceflight associated neuro-ocular syndrome (SANS). <italic>NASA Human Research Program Human Health Countermeasures Element</italic>. <ext-link ext-link-type="uri" xlink:href="https://humanresearchroadmap.nasa.gov/evidence/reports/SANS.pdf">https://humanresearchroadmap.nasa.gov/evidence/reports/SANS.pdf</ext-link> (2017).</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tavakkoli</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamran</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hossain</surname>
+                      <given-names>KF</given-names>
+                    </name>
+                    <name>
+                      <surname>Zuckerbrod</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel deep learning conditional generative adversarial network for producing angiography images from retinal fundus photographs</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2020</year>
+                  <volume>10</volume>
+                  <fpage>21580</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-020-78696-2</pub-id>
+                  <?supplied-pmid 33299065?>
+                  <pub-id pub-id-type="pmid">33299065</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Geographic atrophy segmentation in SD-OCT images using synthesized fundus autofluorescence imaging</article-title>
+                  <source>Comput Methods Prog. Biomed.</source>
+                  <year>2019</year>
+                  <volume>182</volume>
+                  <fpage>105101</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cmpb.2019.105101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>You</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>JK</given-names>
+                    </name>
+                    <name>
+                      <surname>Ryu</surname>
+                      <given-names>IH</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoo</surname>
+                      <given-names>TK</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Application of generative adversarial networks (GAN) for ophthalmology image domains: a survey</article-title>
+                  <source>Eye Vis.</source>
+                  <year>2022</year>
+                  <volume>9</volume>
+                  <fpage>6</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40662-022-00277-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hajeb Mohammad Alipour</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Rabbani</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Akhlaghi</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diabetic retinopathy grading by digital curvelet transform</article-title>
+                  <source>Comput Math. Methods Med</source>
+                  <year>2012</year>
+                  <volume>2012</volume>
+                  <fpage>761901</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2012/761901</pub-id>
+                  <?supplied-pmid 23056148?>
+                  <pub-id pub-id-type="pmid">23056148</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <mixed-citation publication-type="other">Goodfellow, I. et al. Generative adversarial networks. <italic>Advances in neural information processing systems</italic><bold>27</bold>, 10.1007/978-1-4842-3679-6_8 (2014).</mixed-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Christopher</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Deep learning approaches predict glaucomatous visual field damage from OCT optic nerve head en face images and retinal nerve fiber layer thickness maps</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2020</year>
+                  <volume>127</volume>
+                  <fpage>346</fpage>
+                  <lpage>356</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ophtha.2019.09.036</pub-id>
+                  <?supplied-pmid 31718841?>
+                  <pub-id pub-id-type="pmid">31718841</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Heidelberg. Heidelberg Engineering Introduces the GMPE Hood Glaucoma Report for SPECTRALIS OCT <italic>Heidelberg Engineering Press,</italic><ext-link ext-link-type="uri" xlink:href="https://www.heidelbergengineering.com/us/press-releases/heidelberg-engineering-introduces-the-gmpe-hood-glaucoma-report-for-spectralis-oct/">https://www.heidelbergengineering.com/us/press-releases/heidelberg-engineering-introduces-the-gmpe-hood-glaucoma-report-for-spectralis-oct/</ext-link> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <mixed-citation publication-type="other">WHO. Strengthening diagnosis and treatment of Diabetic Retinopathy in SEA Region. <italic>Regional Office for South-East Asia</italic> World Health Organization, <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789290227946">https://www.who.int/publications/i/item/9789290227946</ext-link> (2020).</mixed-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tham</surname>
+                      <given-names>YC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2014</year>
+                  <volume>121</volume>
+                  <fpage>2081</fpage>
+                  <lpage>2090</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ophtha.2014.05.013</pub-id>
+                  <?supplied-pmid 24974815?>
+                  <pub-id pub-id-type="pmid">24974815</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <mixed-citation publication-type="other">WHO. Blindness and vision impairment. <italic>World Health Organization Fact Sheet</italic>, <ext-link ext-link-type="uri" xlink:href="https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment">https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment</ext-link> (2021).</mixed-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ting</surname>
+                      <given-names>DS</given-names>
+                    </name>
+                    <name>
+                      <surname>Cheung</surname>
+                      <given-names>GC</given-names>
+                    </name>
+                    <name>
+                      <surname>Wong</surname>
+                      <given-names>TY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diabetic retinopathy: global prevalence, major risk factors, screening practices and public health challenges: a review</article-title>
+                  <source>Clin. Exp. Ophthalmol.</source>
+                  <year>2016</year>
+                  <volume>44</volume>
+                  <fpage>260</fpage>
+                  <lpage>277</lpage>
+                  <pub-id pub-id-type="doi">10.1111/ceo.12696</pub-id>
+                  <?supplied-pmid 26716602?>
+                  <pub-id pub-id-type="pmid">26716602</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <mixed-citation publication-type="other">Teo, Z. L. et al. Global prevalence of diabetic retinopathy and projection of burden through 2045: systematic review and meta-analysis. <italic>Ophthalmology</italic>, 10.1016/j.ophtha.2021.04.027 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chew</surname>
+                      <given-names>EY</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The long-term effects of laser photocoagulation treatment in patients with diabetic retinopathy: the early treatment diabetic retinopathy follow-up study</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2003</year>
+                  <volume>110</volume>
+                  <fpage>1683</fpage>
+                  <lpage>1689</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0161-6420(03)00579-7</pub-id>
+                  <?supplied-pmid 13129862?>
+                  <pub-id pub-id-type="pmid">13129862</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stefansson</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Screening and prevention of diabetic blindness</article-title>
+                  <source>Acta Ophthalmol. Scand.</source>
+                  <year>2000</year>
+                  <volume>78</volume>
+                  <fpage>374</fpage>
+                  <lpage>385</lpage>
+                  <pub-id pub-id-type="doi">10.1034/j.1600-0420.2000.078004374.x</pub-id>
+                  <?supplied-pmid 10990036?>
+                  <pub-id pub-id-type="pmid">10990036</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Arun</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Ngugi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Lovelock</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effectiveness of screening in preventing blindness due to diabetic retinopathy</article-title>
+                  <source>Diabet. Med</source>
+                  <year>2003</year>
+                  <volume>20</volume>
+                  <fpage>186</fpage>
+                  <lpage>190</lpage>
+                  <pub-id pub-id-type="doi">10.1046/j.1464-5491.2003.t01-1-00899.x</pub-id>
+                  <?supplied-pmid 12675661?>
+                  <pub-id pub-id-type="pmid">12675661</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>HR</given-names>
+                    </name>
+                    <name>
+                      <surname>Keeffe</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>World blindness: a 21st century perspective</article-title>
+                  <source>Br. J. Ophthalmol.</source>
+                  <year>2001</year>
+                  <volume>85</volume>
+                  <fpage>261</fpage>
+                  <lpage>266</lpage>
+                  <pub-id pub-id-type="doi">10.1136/bjo.85.3.261</pub-id>
+                  <?supplied-pmid 11222327?>
+                  <pub-id pub-id-type="pmid">11222327</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vujosevic</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Screening for diabetic retinopathy: new perspectives and challenges</article-title>
+                  <source>Lancet Diabetes Endocrinol.</source>
+                  <year>2020</year>
+                  <volume>8</volume>
+                  <fpage>337</fpage>
+                  <lpage>347</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S2213-8587(19)30411-5</pub-id>
+                  <?supplied-pmid 32113513?>
+                  <pub-id pub-id-type="pmid">32113513</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Limburg</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Keunen</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Blindness and low vision in The Netherlands from 2000 to 2020-modeling as a tool for focused intervention</article-title>
+                  <source>Ophthalmic Epidemiol.</source>
+                  <year>2009</year>
+                  <volume>16</volume>
+                  <fpage>362</fpage>
+                  <lpage>369</lpage>
+                  <pub-id pub-id-type="doi">10.3109/09286580903312251</pub-id>
+                  <?supplied-pmid 19995201?>
+                  <pub-id pub-id-type="pmid">19995201</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwartz</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Loewenstein</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Early detection of age related macular degeneration: current status</article-title>
+                  <source>Int J. Retin. Vitreous</source>
+                  <year>2015</year>
+                  <volume>1</volume>
+                  <fpage>20</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s40942-015-0022-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Dibas</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Yorio</surname>
+                      <given-names>T</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Glucocorticoid therapy and ocular hypertension</article-title>
+                  <source>Eur. J. Pharm.</source>
+                  <year>2016</year>
+                  <volume>787</volume>
+                  <fpage>57</fpage>
+                  <lpage>71</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ejphar.2016.06.018</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR76">
+                <label>76.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schuster</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Erb</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoffmann</surname>
+                      <given-names>EM</given-names>
+                    </name>
+                    <name>
+                      <surname>Dietlein</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Pfeiffer</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The diagnosis and treatment of glaucoma</article-title>
+                  <source>Dtsch Arztebl Int</source>
+                  <year>2020</year>
+                  <volume>117</volume>
+                  <fpage>225</fpage>
+                  <lpage>234</lpage>
+                  <?supplied-pmid 32343668?>
+                  <pub-id pub-id-type="pmid">32343668</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR77">
+                <label>77.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stein</surname>
+                      <given-names>JD</given-names>
+                    </name>
+                    <name>
+                      <surname>Khawaja</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Weizer</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Glaucoma in adults-screening, diagnosis, and management: a review</article-title>
+                  <source>JAMA</source>
+                  <year>2021</year>
+                  <volume>325</volume>
+                  <fpage>164</fpage>
+                  <lpage>174</lpage>
+                  <pub-id pub-id-type="doi">10.1001/jama.2020.21899</pub-id>
+                  <?supplied-pmid 33433580?>
+                  <pub-id pub-id-type="pmid">33433580</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR78">
+                <label>78.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Glaucoma screening in the real world</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2011</year>
+                  <volume>118</volume>
+                  <fpage>1008</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ophtha.2011.02.011</pub-id>
+                  <?supplied-pmid 21539989?>
+                  <pub-id pub-id-type="pmid">21539989</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR79">
+                <label>79.</label>
+                <mixed-citation publication-type="other">Hamid, S., Desai, P., Hysi, P., Burr, J. M. &amp; Khawaja, A. P. Population screening for glaucoma in UK: current recommendations and future directions. <italic>Eye</italic>, 10.1038/s41433-021-01687-8 (2021).</mixed-citation>
+              </ref>
+              <ref id="CR80">
+                <label>80.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Resch</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Optic nerve head morphology in primary open-angle glaucoma and nonarteritic anterior ischaemic optic neuropathy measured with spectral domain optical coherence tomography</article-title>
+                  <source>Acta Ophthalmol.</source>
+                  <year>2018</year>
+                  <volume>96</volume>
+                  <fpage>e1018</fpage>
+                  <lpage>e1024</lpage>
+                  <pub-id pub-id-type="doi">10.1111/aos.13804</pub-id>
+                  <?supplied-pmid 30240137?>
+                  <pub-id pub-id-type="pmid">30240137</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR81">
+                <label>81.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tonnu</surname>
+                      <given-names>PA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A comparison of four methods of tonometry: method agreement and interobserver variability</article-title>
+                  <source>Br. J. Ophthalmol.</source>
+                  <year>2005</year>
+                  <volume>89</volume>
+                  <fpage>847</fpage>
+                  <lpage>850</lpage>
+                  <pub-id pub-id-type="doi">10.1136/bjo.2004.056614</pub-id>
+                  <?supplied-pmid 15965164?>
+                  <pub-id pub-id-type="pmid">15965164</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR82">
+                <label>82.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Alencar</surname>
+                      <given-names>LM</given-names>
+                    </name>
+                    <name>
+                      <surname>Medeiros</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of standard automated perimetry and newer functional methods for glaucoma diagnosis and follow-up</article-title>
+                  <source>Indian J. Ophthalmol.</source>
+                  <year>2011</year>
+                  <volume>59</volume>
+                  <issue>Suppl</issue>
+                  <fpage>S53</fpage>
+                  <lpage>S58</lpage>
+                  <?supplied-pmid 21150035?>
+                  <pub-id pub-id-type="pmid">21150035</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR83">
+                <label>83.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Montelongo</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Gonzalez</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Morgenstern</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Donahue</surname>
+                      <given-names>SP</given-names>
+                    </name>
+                    <name>
+                      <surname>Groth</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A virtual reality-based automated perimeter, device, and pilot study</article-title>
+                  <source>Transl. Vis. Sci. Technol.</source>
+                  <year>2021</year>
+                  <volume>10</volume>
+                  <fpage>20</fpage>
+                  <pub-id pub-id-type="doi">10.1167/tvst.10.3.20</pub-id>
+                  <?supplied-pmid 34003954?>
+                  <pub-id pub-id-type="pmid">34003954</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR84">
+                <label>84.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deiner</surname>
+                      <given-names>MS</given-names>
+                    </name>
+                    <name>
+                      <surname>Damato</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                    <name>
+                      <surname>Ou</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Implementing and monitoring at-home virtual reality oculo-kinetic perimetry during COVID-19</article-title>
+                  <source>Ophthalmology</source>
+                  <year>2020</year>
+                  <volume>127</volume>
+                  <fpage>1258</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ophtha.2020.06.017</pub-id>
+                  <?supplied-pmid 32535062?>
+                  <pub-id pub-id-type="pmid">32535062</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR85">
+                <label>85.</label>
+                <mixed-citation publication-type="other">NASA. The right track for vision correction <italic>NASA SpinOff</italic>, <ext-link ext-link-type="uri" xlink:href="https://spinoff.nasa.gov/spinoff2003/hm_1.html">https://spinoff.nasa.gov/spinoff2003/hm_1.html</ext-link> (2003).</mixed-citation>
+              </ref>
+              <ref id="CR86">
+                <label>86.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kempen</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>The prevalence of diabetic retinopathy among adults in the United States</article-title>
+                  <source>Arch. Ophthalmol.</source>
+                  <year>2004</year>
+                  <volume>122</volume>
+                  <fpage>552</fpage>
+                  <lpage>563</lpage>
+                  <pub-id pub-id-type="doi">10.1001/archopht.122.4.552</pub-id>
+                  <?supplied-pmid 15078674?>
+                  <pub-id pub-id-type="pmid">15078674</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR87">
+                <label>87.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Stahl</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The diagnosis and treatment of age-related macular degeneration</article-title>
+                  <source>Dtsch Arztebl Int</source>
+                  <year>2020</year>
+                  <volume>117</volume>
+                  <fpage>513</fpage>
+                  <lpage>520</lpage>
+                  <?supplied-pmid 33087239?>
+                  <pub-id pub-id-type="pmid">33087239</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR88">
+                <label>88.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Corcostegui</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Update on diagnosis and treatment of diabetic retinopathy: a consensus guideline of the working group of ocular health (Spanish Society of Diabetes and Spanish Vitreous and Retina Society.</article-title>
+                  <source>J. Ophthalmol.</source>
+                  <year>2017</year>
+                  <volume>2017</volume>
+                  <fpage>8234186</fpage>
+                  <pub-id pub-id-type="doi">10.1155/2017/8234186</pub-id>
+                  <?supplied-pmid 28695003?>
+                  <pub-id pub-id-type="pmid">28695003</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

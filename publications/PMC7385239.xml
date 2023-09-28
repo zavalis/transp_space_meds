@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:58:27Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:7385239" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:7385239</identifier>
+        <datestamp>2020-08-12</datestamp>
+        <setSpec>frontneurosci</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Neurosci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Neurosci</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Neurosci.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Neuroscience</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">1662-4548</issn>
+              <issn pub-type="epub">1662-453X</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC7385239</article-id>
+              <article-id pub-id-type="pmcid">PMC7385239</article-id>
+              <article-id pub-id-type="pmc-uid">7385239</article-id>
+              <article-id pub-id-type="pmid">32792894</article-id>
+              <article-id pub-id-type="doi">10.3389/fnins.2020.00697</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Neuroscience</subject>
+                  <subj-group>
+                    <subject>Brief Research Report</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Performance on the Robotics On-Board Trainer (ROBoT-r) Spaceflight Simulation During Acute Sleep Deprivation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wong</surname>
+                    <given-names>Lily</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Pradhan</surname>
+                    <given-names>Sean</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Karasinski</surname>
+                    <given-names>John</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff3">
+                    <sup>3</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff4">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/956382/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hu</surname>
+                    <given-names>Cindy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/974883/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Strangman</surname>
+                    <given-names>Gary</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Ivkovic</surname>
+                    <given-names>Vladimir</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff5">
+                    <sup>5</sup>
+                  </xref>
+                  <xref ref-type="aff" rid="aff6">
+                    <sup>6</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Arsintescu</surname>
+                    <given-names>Lucia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Flynn-Evans</surname>
+                    <given-names>Erin</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff7">
+                    <sup>7</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="c001">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:type="simple" xlink:href="http://loop.frontiersin.org/people/952780/overview"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Fatigue Countermeasures Laboratory, Human Systems Integration Division, San José State University Research Foundation</institution>, <addr-line>Moffett Field, CA</addr-line>, <country>United States</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Department of Management, Menlo College</institution>, <addr-line>Atherton, CA</addr-line>, <country>United States</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Department of Mechanical and Aerospace Engineering, University of California, Davis</institution>, <addr-line>Davis, CA</addr-line>, <country>United States</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>Human Systems Integration Division, NASA Ames Research Center</institution>, <addr-line>Moffett Field, CA</addr-line>, <country>United States</country></aff>
+              <aff id="aff5"><sup>5</sup><institution>Department of Psychiatry, Massachusetts General Hospital</institution>, <addr-line>Charlestown, MA</addr-line>, <country>United States</country></aff>
+              <aff id="aff6"><sup>6</sup><institution>Department of Psychiatry, Harvard Medical School</institution>, <addr-line>Boston, MA</addr-line>, <country>United States</country></aff>
+              <aff id="aff7"><sup>7</sup><institution>Fatigue Countermeasures Laboratory, Human Systems Integration Division, NASA Ames Research Center</institution>, <addr-line>Moffett Field, CA</addr-line>, <country>United States</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Christos Frantzidis, Aristotle University of Thessaloniki, Greece</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Alain Gonfalone, European Space Agency (ESA), France; Alkinoos Athanasiou, University General Hospital of Thessaloniki AHEPA, Greece; Hamdi Chtourou, University of Sfax, Tunisia; Ana Diaz Artiles, Texas A&amp;M University, United States</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Erin Flynn-Evans, <email>erin.e.flynn-evans@nasa.gov</email></corresp>
+                <fn fn-type="other" id="fn004">
+                  <p>This article was submitted to Sleep and Circadian Rhythms, a section of the journal Frontiers in Neuroscience</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>21</day>
+                <month>7</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2020</year>
+              </pub-date>
+              <volume>14</volume>
+              <elocation-id>697</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>17</day>
+                  <month>4</month>
+                  <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                  <day>09</day>
+                  <month>6</month>
+                  <year>2020</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2020 Wong, Pradhan, Karasinski, Hu, Strangman, Ivkovic, Arsintescu and Flynn-Evans.</copyright-statement>
+                <copyright-year>2020</copyright-year>
+                <copyright-holder>Wong, Pradhan, Karasinski, Hu, Strangman, Ivkovic, Arsintescu and Flynn-Evans</copyright-holder>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Exploration of deep space poses many challenges. Mission support personnel will not be immediately available to assist crewmembers performing complex operations on future long-duration exploration operations. Consequently, it is imperative that crewmembers have objective, reliable, and non-invasive metrics available to aid them in determining their fitness for duty prior to engaging in potentially dangerous tasks. The Robotics On-Board Trainer (ROBoT) task is NASA’s platform for training astronauts to perform docking and grappling maneuvers. It is regularly used by crewmembers during spaceflight for refresher training. The operational ROBoT system, however, does not record data. Thus, a research version of ROBoT, called ROBoT-r, was developed so that operationally relevant data could be mined to provide feedback to crewmembers. We investigated whether ROBoT-r metrics would change according to sleep loss and circadian phase in a 28-h laboratory-based sleep deprivation study. Overall, participants showed improvement over time despite sleep loss, indicating continued learning. Performance on the psychomotor vigilance task (PVT) followed an expected profile, with reduced performance across the night. These findings suggest that individuals may be able to temporarily compensate for sleep loss to maintain performance on complex, novel tasks. It is possible that some ROBoT-r metrics may be sensitive to sleep loss after longer bouts of wakefulness or after individuals have habituated to the task. Studies with additional participants and extended pre-training on the ROBoT-r task should be conducted to disentangle how brain activity may change as individuals learn and habituate to complex tasks during sleep loss.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>Robotics On-Board Trainer</kwd>
+                <kwd>performance</kwd>
+                <kwd>complex tasks</kwd>
+                <kwd>sleep loss</kwd>
+                <kwd>circadian phase</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="3"/>
+                <table-count count="2"/>
+                <equation-count count="0"/>
+                <ref-count count="35"/>
+                <page-count count="10"/>
+                <word-count count="0"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="S1">
+              <title>Introduction</title>
+              <p>Alertness and performance fluctuate according to prior sleep history and circadian time of day (<xref rid="B13" ref-type="bibr">Dijk et al., 1992</xref>). Crewmembers aboard the International Space Station (ISS) and Space Shuttle sleep less in space relative to on Earth (<xref rid="B3" ref-type="bibr">Barger et al., 2014</xref>; <xref rid="B18" ref-type="bibr">Gonfalone, 2016</xref>) and they spend approximately 1 out of every 5 days in a circadian misaligned state (<xref rid="B17" ref-type="bibr">Flynn-Evans et al., 2015</xref>). In addition, they report sleeping less on nights prior to critical tasks and can be required to “slam shift,” staying awake for many hours to adjust their sleep schedules in advance of a rendezvous with a visiting vehicle (<xref rid="B3" ref-type="bibr">Barger et al., 2014</xref>). The degree of sleep loss and circadian misalignment experienced by astronauts is unclear, but similar patterns of long bouts of waking and short sleep episodes have been associated with attentional failures and performance impairment among other high-performing cohorts on Earth (<xref rid="B27" ref-type="bibr">Lockley et al., 2004</xref>). Such degradation has been equated to performance impairment due to alcohol intoxication (<xref rid="B11" ref-type="bibr">Dawson and Reid, 1997</xref>). There is some evidence to suggest that sleep loss and circadian misalignment have impacted operations during spaceflight. In particular, the catastrophic collision of the Progress resupply vehicle with the Space Station Mir was attributed in part to human error due to a crewmember experiencing sleep loss and fragmentation prior to the accident (<xref rid="B2" ref-type="bibr">Arthur, 1998</xref>).</p>
+              <p>Exploration of deep space poses additional complications in managing crewmember fatigue. Mission support personnel will not be immediately available to back up and correct crewmembers performing complex operations due to the expected communication delay and lack of situational awareness. Similarly, mission support will not be immediately available to assist in decision-making following an incident or accident. As a result, it is imperative that crewmembers have objective and reliable metrics available to assist them in identifying performance risks prior to engaging in potentially dangerous mission operations.</p>
+              <p>Although there are several cognitive tests that have been identified as being associated with fatigue (e.g., the psychomotor vigilance task; PVT; <xref rid="B14" ref-type="bibr">Dinges and Powell, 1985</xref>), such tests have been questioned for their operational relevance. An ideal performance indicator for spaceflight should be sensitive to sleep loss and circadian misalignment using measures that are similar to the crewmember’s actual work requirements. The Robotics On-Board Trainer (ROBoT), derivative of NASA’s Dynamic Skills Trainer (DST; <xref rid="B23" ref-type="bibr">Johnson and Alexander, 2013</xref>) is just such an operational measure of an individual’s performance capabilities. ROBoT simulates a track-and-capture maneuver using Canadarm2 robotic arm on the ISS to grapple a transiting spacecraft. The research version of ROBoT, ROBoT-r, was recently developed and has been used in NASA analog missions (<xref rid="B22" ref-type="bibr">Ivkovic et al., 2019</xref>), but changes in performance using ROBoT-r under controlled conditions of sleep loss and circadian misalignment have not been characterized. Thus, the goal of this investigation was to identify changes in performance on ROBoT-r over 28 h of wakefulness. Specifically, we aimed to test the hypothesis that three measures of performance extracted from ROBoT-r (% of successful captures, alignment-reversal score, and efficiency to capture, see methods for detailed descriptions of these measures) would decline over 28 h of sleep loss. Furthermore, we aimed to compare ROBoT-r outcomes with the PVT, which is currently a “gold-standard” measure of performance impairment arising from fatigue.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="S2">
+              <title>Materials and Methods</title>
+              <sec id="S2.SS1">
+                <title>ROBoT-r Simulation</title>
+                <p>We assessed performance on ROBoT-r in the Fatigue Countermeasures Laboratory at NASA Ames Research Center (NASA-ARC). ROBoT-r is used by astronauts to rehearse docking and grappling maneuvers using the robotic arm on the ISS. The simulation is based on highly realistic 3D simulations of the Canadarm2 robotic arm on the ISS and associated physics relating to spaceflight (<xref ref-type="fig" rid="F1">Figure 1</xref>). The ROBoT-r simulation involves a difficult and critical spaceflight maneuver of grappling an incoming spacecraft. To complete the task, the participant must extend the robotic arm to the incoming spacecraft, line up the end effector with a target on the approaching vessel, and grapple a pin on the vessel to “capture” the target. This maneuver requires situation analysis, planning, decision-making, object orientation, mental rotation, visual processing, fine motor control, and visual motor integration.</p>
+                <fig id="F1" position="float">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>Experimental Set-up and screen views. <bold>(A)</bold> Illustration of the ROBoT-r experimental set-up. The participant sat on the left side and used the rotational (near side, used by participant’s right hand) and translational (far side, used by participant’s left hand) hand controllers to move the robotic arm toward the target. <bold>(B)</bold> The view of the screen facing the participant. The white circle in the center represents the target that the participant must grapple. In order to achieve the grapple, the participant must align the end of the robotic arm, represented by the thin horizontal line just above the target, with the center of the target. <bold>(C)</bold> The view of the screen facing the investigator showing the individual’s performance, including whether the individual captured the target, the alignment/reversal score, and efficiency to capture.</p>
+                  </caption>
+                  <graphic xlink:href="fnins-14-00697-g001"/>
+                </fig>
+                <p>Each ROBoT-r testing session consists of 12 runs that range from easy to hard H-II Transfer Vehicle (i.e., resupply vessel) track-and-capture scenarios. The simulation randomly selects a run from a large library in each category prior to the presentation of the visual display. Participants have up to 99 s to successfully grapple the target before the run times-out. Trials can be administered with “frozen” or “unfrozen” dynamics. That is, the task can be completed with the spacecraft target grapple fixture locked into a fixed position in space (frozen dynamics) or the task can be completed with the spacecraft target (and connected grapple fixture) moving independently, as would be the case during a real track-and-capture maneuver (unfrozen dynamics). Participants completed all experimental trials using unfrozen dynamics.</p>
+                <p>The physical ROBoT-r system includes a left-hand translational controller (x/y/z directions) and a right-hand rotational controller (pitch/roll/yaw), plus two laptop computer screens. One screen displays a realistic rendering of the entire 3D scene, including docking/grappling target and arm, from three separate viewpoints. A second screen displays graphs and status indicators for monitoring the arm status and user’s performance in real-time. During our experiment, the second screen was oriented toward the study staff member in order to monitor the participant’s progress. In spaceflight operations, crewmembers would be able to view the second screen. <xref ref-type="fig" rid="F1">Figure 1</xref> shows the orientation of the hand controllers and screens. The current study was approved by the NASA Ames Human Research Institutional Review Board (protocol HRI-339).</p>
+              </sec>
+              <sec id="S2.SS2">
+                <title>Study Information</title>
+                <sec id="S2.SS2.SSS1">
+                  <title>Participants and Selection/Exclusion Criteria</title>
+                  <p>Participants were required to be healthy (i.e., certified to participate in the study by their primary care physician, and cleared by the NASA Ames Medical Monitor following medical record review), drug and medication free, non-smokers, and have no history of serious chronic conditions or mental illness. To participate, individuals were expected to have normal sleep habits defined as Pittsburg Sleep Quality Index (PSQI; <xref rid="B8" ref-type="bibr">Buysse et al., 1989</xref>) scores less than five, Fatigue Severity Scale (<xref rid="B24" ref-type="bibr">Krupp et al., 1989</xref>) scores less than 36, and Morningness-Eveningness Questionnaire (MEQ; <xref rid="B20" ref-type="bibr">Horne and Östberg, 1976</xref>) scores less than 58 or greater than 42. Participants were excluded from participation if they had experienced acute total sleep deprivation (one night of staying awake all night) anytime in the prior 12 months, or if they traveled across one or more time zones in the prior 3 months.</p>
+                  <p>Participants were also excluded if they typically consumed excessive alcohol (i.e., greater than 14 standard drinks/week for males, and greater than 7 standard drinks/week for females), and if they reported illicit drug use. Similarly, participants were excluded if they scored higher than 70 on the Minnesota Multiphasic Personality Inventory (MMPI-2; <xref rid="B7" ref-type="bibr">Butcher et al., 1989</xref>). Depression scale, higher than 75 on the MMPI-2 Psychopathic Deviance, Schizophrenia, and Hypomania State scale, higher than 10 on the Beck Depression Inventory (BDI; <xref rid="B6" ref-type="bibr">Beck et al., 1961</xref>), or higher than 40 on the State Trait Anxiety Inventory (<xref rid="B33" ref-type="bibr">Spielberger et al., 1983</xref>). Additionally, participants were excluded if they scored above any of the following criteria on the scales of the Symptom Checklist 90-R (<xref rid="B12" ref-type="bibr">Derogatis and Savitz, 1999</xref>): greater than 1.25 on Depression, greater than 1 on Hostility, greater than 0.75 on Phobic Anxiety, greater than 1.25 on Paranoid Ideation, greater than 1 on Psychoticism, and greater than 1.25 on Anxiety.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS3">
+                <title>Pre-study Procedures</title>
+                <p>One week before the laboratory study, participants maintained stable and individually selected sleep-wake schedules, with 8 h in bed each night. To ensure compliance, each participant wore an activity monitor (Actiwatch Spectrum, Respironics Inc<sup>®</sup>, Bend, OR, United States) on their non-dominant wrist, recorded daily time stamped voicemails at their sleep and wake times, and maintained a sleep diary. Each participant completed five 1–2 h training sessions on the ROBoT-r simulator on five separate days during the week prior to the laboratory visit. During the first training session, prior to attempting their first run, participants were oriented to the simulator and provided with basic information on how the robotic arm moves through space (e.g., definitions of pitch, yaw, roll, and relationship to the hand controllers). Each training session included 12 ROBoT-r runs, with three easy runs, three medium-easy runs, three medium-hard runs, and three hard runs, defined as 25, 50, 75, and 100% of the maximum linear velocity and angular velocity allowed by NASA for capture. The first training session was completed with frozen dynamics (i.e., a stationary target) in order to orient the participant to the simulation. Subsequent training sessions were completed with unfrozen dynamics (i.e., the capsule constituted a moving target).</p>
+                <sec id="S2.SS3.SSS1">
+                  <title>Laboratory Procedures</title>
+                  <p>Participants arrived at the NASA-ARC sleep laboratory 1–2 h after their habitual wake time. Following orientation, participants were placed in a time-free environment and instructed to select a comfortable chair on wheels to sit in, where they maintained a constant posture throughout the study. In order to maintain a regulated physiological state, participants were prohibited from standing during the study. In order to complete study procedures, participants were wheeled from a common room to a sound-attenuated room that housed the ROBoT-r simulator during trials. Similarly, participants were wheeled to the bathroom as needed and instructed to use the minimal posture change required to move to the toilet for bathroom breaks. In order to reduce the influence of metabolism on alertness, meals were divided into hourly isocaloric snacks based on the participant’s body weight. Ambient light was maintained at a constant illuminance of less than 15 lux, with an irradiance level measured at 1.03 μW/cm<sup>2</sup> at the angle of gaze, and all extraneous lighting sources were prohibited. Study participants were run in groups of up to four participants at a time.</p>
+                  <p>The ROBoT-r simulation was administered regularly, with each participant completing a 12-run session approximately every 3–4 h over 28 h. A trained study staff member administered the sessions and provided verbal feedback to the participant following each run. Feedback consisted of informing the participant about the position of the grapple fixture over the pin (e.g., too far over, too shallow, the angle of the grapple over the pin), time to capture, alignment to the pin, number of reversals and alignment-reversal score. The Karolinska Sleepiness Scale (KSS; <xref rid="B1" ref-type="bibr">Åkerstedt and Gillberg, 1990</xref>) and a five-minute version of the PVT (administered on a PVT-192 device) were completed in a separate, quiet room immediately following each ROBoT-r session.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS4">
+                <title>Statistical Analyses</title>
+                <p>Analyses were calculated using R statistical software (version 3.3.3, <xref rid="B100" ref-type="bibr">R Core Team, 2014</xref>) and SPSS (version 26.0, IBM SPSS Statistics for Windows, Armonk, NY, United States). We calculated the following PVT metrics: (1) mean (1/RT)*1000 (reciprocal reaction time, or response speed), (2) <italic>number of lapses</italic> – the cumulative number of reaction times exceeding 500 ms, (3) <italic>optimum response times</italic> – the fastest 10% of response times for all trials (fastest 10% mean RT) which indicates the best performance a participant is capable of producing, and (4) <italic>cognitive slowing</italic> – the slowest 10% of reciprocal response times for all trials (slowest 10% mean (1/RT)*1000), which indicates the vigilance response slowing. A PVT response was considered valid if RT was greater than 100 ms. Responses with an RT less than 100 ms were counted as false starts. All PVT data were analyzed using linear mixed-effects models including participant as a random effect. We further computed conditional and marginal pseudo <italic>R</italic><sup>2</sup> in order to provide a measure of the effect size.</p>
+                <p>We evaluated three primary measures from the ROBoT-r trials including the alignment-reversal score, the efficiency to capture, and the percentage of successful captures. The alignment-reversal score is a composite score ranging from 0 to 10 (10 is best) that is automatically calculated by the ROBoT-r software following each trial based on how the end effector is aligned with the target at pre-defined distances from the target. Efficiency to capture is the duration of time measured in seconds that it takes for an individual to complete the task (or 99 s to time out if they were not successful) and “successful capture” is simply whether or not the participant was able to capture the target within the allotted time, irrespective of the quality of the capture. We evaluated each of these measures over all runs (i.e., the mean of an entire trial including all difficulty levels), by time in the 28-h study, and by difficulty level (i.e., easy, medium-easy, medium-hard, hard).</p>
+                <p>We compared each of the ROBoT-r outcomes to the PVT outcomes and self-reported sleepiness using Pearson correlations. We evaluated trends over time for the pre-laboratory training sessions and for the laboratory stay separately for ROBoT-r and PVT outcomes, using mixed-effects linear regressions (with participant as the repeated-factor). To further investigate participants’ learning on the ROBoT-r task, we performed a series of polynomial mixed-effects linear regressions using the following primary metrics as outcomes: <italic>efficiency</italic> (i.e., time in seconds), <italic>alignment-reversal scores</italic>, <italic>captures</italic>, and <italic>overall success</italic>. In order to parse out the impact of learning effects, we controlled for each individual subjects’ variance by including subject as a random effect term across the models. Given the binary nature of captures and overall success, a binomial family parameter was specified for all models containing these variables. Mixed-effects models for the ROBoT-r outcomes were performed in RStudio (Version 1.1.456, Boston, MA, United States) for macOS using the lme4 (<xref rid="B5" ref-type="bibr">Bates et al., 2015</xref>) and lmerTest packages (<xref rid="B25" ref-type="bibr">Kuznetsova et al., 2017</xref>). Both conditional and marginal pseudo <italic>R</italic><sup>2</sup> values were computed for these models using the MuMIn package (<xref rid="B4" ref-type="bibr">Bartoń, 2009</xref>). Conditional pseudo-<italic>R</italic><sup>2</sup> describes the proportion of variance explained by both the fixed and random effects, while marginal pseudo-<italic>R</italic><sup>2</sup> indicates variance explained by the fixed factors alone (<xref rid="B30" ref-type="bibr">Nakagawa and Schielzeth, 2013</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="S3">
+              <title>Results</title>
+              <p>Nine participants completed the study (4 female, 5 male; <italic>M</italic><sub><italic>age</italic></sub> = 31.89 years, SD = 10.04, Range = 19–49). The demographic characteristics of the participants are shown in <xref rid="T1" ref-type="table">Table 1</xref>.</p>
+              <table-wrap id="T1" position="float">
+                <label>TABLE 1</label>
+                <caption>
+                  <p>Demographic information.</p>
+                </caption>
+                <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                  <thead>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Variable</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1"><italic>M</italic> (SD)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">Range</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Sleep duration (h)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">8.08 (0.45)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">7.35–9.52</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Pre-study bedtime</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">22:36 (0:52)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">21:04–01:57</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Pre-study waketime</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">06:41 (1:00)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">05:06–10:34</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">PSQI</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">2.78 (1.64)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0.00–5.00</td>
+                    </tr>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">MEQ</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">53.39 (6.16)</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">43.00–61.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table-wrap-foot>
+                  <attrib>
+                    <italic>Sleep duration was calculated using the sleep diary. <italic>M</italic>, mean; SD, standard deviation; h, hours; PSQI, Pittsburgh Sleep Quality Index; MEQ, Morningness-Eveningness Questionnaire.</italic>
+                  </attrib>
+                </table-wrap-foot>
+              </table-wrap>
+              <sec id="S3.SS1">
+                <title>ROBoT-r Performance</title>
+                <p>The participants showed a significant improvement from the second to the last training session (the first training session was excluded due to it being completed with frozen dynamics) for all measures indicating a practice effect (alignment-reversal score <italic>b</italic> = 0.35, SE = 0.07, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.10, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.05; efficiency to capture <italic>b</italic> = −2.60, SE = 0.91, <italic>p</italic> = 0.004, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.25, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.01; percentage of successful captures <italic>b</italic> = 0.30, SE = 0.12, <italic>p</italic> = 0.01, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.13, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.03; <xref ref-type="fig" rid="F2">Figure 2</xref>, left panels). During the study, there was also a modest, but statistically significant improvement in performance over time for the overall alignment-reversal score (<italic>b</italic> = 0.10, SE = 0.02, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.15, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.01; see <xref ref-type="fig" rid="F2">Figure 2A</xref>, right), efficiency to capture (<italic>b</italic> = −1.16, SE = 0.34, <italic>p</italic> = 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.25, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.01; see <xref ref-type="fig" rid="F2">Figure 2B</xref>, right), and percentage of successful captures (<italic>b</italic> = 0.25, SE = 0.06, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.17, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.06; see <xref ref-type="fig" rid="F2">Figure 2C</xref>, right) according to our mixed-effects regression analysis. In order to determine whether differences might be apparent depending on the difficulty of the task, we separated the captures by difficulty level and found several differences in the ROBoT-r metrics by time awake (<xref ref-type="fig" rid="F2">Figure 2</xref>, gray lines and <xref rid="T2" ref-type="table">Table 2</xref>). Specifically, we found a modest, but statistically significant improvement in the percentage of successful captures for medium-easy and hard trials. We also found a significant improvement in the alignment reversal scores and efficiency to capture (i.e., decreased time) for medium-easy and hard trials.</p>
+                <fig id="F2" position="float">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>Overall performance on ROBoT-r for the group for the five training sessions (left) and by time awake during the study (right). <bold>(A)</bold> Alignment-reversal score, <bold>(B)</bold> efficiency (seconds to capture), <bold>(C)</bold> percentage of successful captures. Filled black circles and black line indicates the overall mean of all trials. Sub-sets of trials by difficulty are joined by gray lines; open triangles, easy trials; open squares, medium-easy trials; open diamonds, medium hard trials; open inverted triangles, hard trials. Note that training session 1 was completed with frozen dynamics (i.e., without motion) and is excluded from analyses. Plots represent mean ± standard error, *<italic>p</italic> &lt; 0.05 for the overall change in time from the linear mixed effects models.</p>
+                  </caption>
+                  <graphic xlink:href="fnins-14-00697-g002"/>
+                </fig>
+                <table-wrap id="T2" position="float">
+                  <label>TABLE 2</label>
+                  <caption>
+                    <p>Mixed-effects regression models for ROBoT-r outcomes over time awake by difficulty level.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                    <thead>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="center" colspan="16" rowspan="1">Trial difficulty<hr/></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="1" colspan="1"/>
+                        <td valign="top" align="center" colspan="4" rowspan="1">Easy<hr/></td>
+                        <td valign="top" align="center" colspan="4" rowspan="1">Medium-easy<hr/></td>
+                        <td valign="top" align="center" colspan="4" rowspan="1">Medium-hard<hr/></td>
+                        <td valign="top" align="center" colspan="4" rowspan="1">Hard<hr/></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Outcome</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1"><italic>b</italic> (SE)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ1">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>C</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ2">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>M</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1"><italic>b</italic> (SE)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ3">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>C</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ4">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>M</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1"><italic>b</italic> (SE)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ5">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>C</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ6">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>M</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1"><italic>b</italic> (SE)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <italic>p</italic>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ7">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>C</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">
+                          <inline-formula>
+                            <mml:math id="INEQ8">
+                              <mml:msubsup>
+                                <mml:mi>R</mml:mi>
+                                <mml:mi>M</mml:mi>
+                                <mml:mn>2</mml:mn>
+                              </mml:msubsup>
+                            </mml:math>
+                          </inline-formula>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Alignment-reversal score</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.03 (0.03)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.38</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.17</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.003</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.13 (0.04)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.001</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.21</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.04</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.09 (0.05)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.06</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.17</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.01</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.13 (0.06)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.18</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Efficiency to capture</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">−0.68 (0.51)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.19</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.18</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">−1.43 (0.61)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.30</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">−0.78 (0.67)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.24</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.24</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.005</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">−1.76 (0.64)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.007</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.31</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Percentage of successful captures</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.76 (0.40)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.06</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.31</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.39 (0.16)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.31</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.02</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.22 (0.11)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.06</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.08</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.05</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.20 (0.10)</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.05</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.20</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">0.04</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <attrib>
+                      <italic><inline-formula><mml:math id="INEQ9"><mml:msubsup><mml:mi>R</mml:mi><mml:mi>C</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula>, Conditional Pseudo-<italic>R</italic><sup>2</sup>; <inline-formula><mml:math id="INEQ10"><mml:msubsup><mml:mi>R</mml:mi><mml:mi>M</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:math></inline-formula>, Marginal Pseudo-<italic>R</italic><sup>2</sup>.</italic>
+                    </attrib>
+                  </table-wrap-foot>
+                </table-wrap>
+              </sec>
+              <sec id="S3.SS2">
+                <title>PVT Analyses</title>
+                <p>Performance on the PVT varied as expected, with worsening performance over time awake (<xref ref-type="fig" rid="F3">Figure 3</xref>). For mean 1/RT there was a significant decrease over time (<italic>b</italic> = −0.13, SE = 0.02, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.84, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.03). Analysis of lapses indicated an increase of lapses over time (<italic>b</italic> = 1.30, SE = 0.30, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.76, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.15). The analyses also revealed an increase in fastest 10% RT (<italic>b</italic> = 3.26, SE = 0.67, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.88, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.11) and a decrease in slowest 10% 1/RT over time (<italic>b</italic> = −0.18, SE = 0.03, <italic>p</italic> &lt; 0.001, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.56, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.09). However, with the exception of a positive relationship between sleepiness ratings and the percentage of successful captures (<italic>r</italic> = 0.24, <italic>p</italic> &lt; 0.05), we found no other significant associations between any of the PVT outcomes or KSS ratings and ROBoT-r performance metrics (<italic>r</italic> &lt; ± 0.21, <italic>p</italic> &gt; 0.05; non-significant results shown in <xref ref-type="supplementary-material" rid="TS1">Supplementary Table S1</xref>).</p>
+                <fig id="F3" position="float">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Change in PVT outcomes by time awake. Open symbols represent mean ± standard error. 1/RT = reciprocal reaction time, lapses = RT &gt; 500 ms.</p>
+                  </caption>
+                  <graphic xlink:href="fnins-14-00697-g003"/>
+                </fig>
+              </sec>
+              <sec id="S3.SS3">
+                <title>Learning Effects</title>
+                <p>None of the models showed a significant effect when controlling for learning effects (<italic>p</italic> &gt; 0.05), except for the effect of time on the efficiency for medium-easy trials (<italic>p</italic> = 0.03, Conditional Pseudo-<italic>R</italic><sup>2</sup> = 0.24, Marginal Pseudo-<italic>R</italic><sup>2</sup> = 0.01, i.e., performance slowed during the night; full results shown in <xref ref-type="supplementary-material" rid="TS1">Supplementary Table S2</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="S4">
+              <title>Discussion</title>
+              <p>We evaluated performance on the ROBoT-r during a laboratory sleep deprivation study. Although performance on the PVT changed as expected, with worsening performance over time awake, ROBoT-r performance outcomes did not follow a similar pattern. We observed a modest improvement in performance on ROBoT-r over the course of sleep loss. We did not observe any correlations between ROBoT-r performance and PVT outcomes for our study. These findings were contrary to expectations. We hypothesized that performance on ROBoT-r would worsen, with fewer successful captures, and that the time to complete the maneuver would be longer over the course of sleep loss relative to baseline rested performance. We instead found that alignment-reversal score performance, capture success, and time to complete the trials modestly improved over time. Our findings support the notion that individuals who are acutely sleep deprived can maintain performance on this interesting, complex task.</p>
+              <p>Despite the unexpected results, our findings are similar to prior studies. <xref rid="B34" ref-type="bibr">Strangman et al. (2005)</xref> evaluated a 3D sensorimotor docking task following normal sleep and 24 h of sleep deprivation. During this study, six individuals completed a simulated docking maneuver, which required them to fly a remote control spacecraft into the center of a computer screen using joysticks, while in a Magnetic Resonance Imaging (MRI) scanner. The investigators found no performance reduction on any of the metrics evaluated. However, they did find differences in brain activity during sleep deprivation, suggesting that individuals experienced an adaptive cerebral response when attempting to perform a complex task while sleep deprived. Studies that have been conducted to evaluate physical performance on robotic laparoscopic procedures during sleep deprivation have yielded similar results (<xref rid="B21" ref-type="bibr">Howard et al., 2003</xref>; <xref rid="B35" ref-type="bibr">Uchal et al., 2005</xref>; <xref rid="B26" ref-type="bibr">Lehmann et al., 2010</xref>; <xref rid="B31" ref-type="bibr">Neuschwander et al., 2017</xref>). The motor coordination and mental focus required to complete laparoscopic surgery procedures is similar to that required to complete a robotic arm maneuver. During laparoscopic surgery, the surgeon must use two hands and a camera display to manipulate robotic instruments inserted into a patient to complete the procedure. In a protocol similar to that used in the present study, with five pre-study training sessions on a laparoscopic simulator, one group found no differences in performance in a rested condition compared to a sleep-deprived condition (<xref rid="B26" ref-type="bibr">Lehmann et al., 2010</xref>). These findings have been supported by several other studies, with varying study designs (<xref rid="B21" ref-type="bibr">Howard et al., 2003</xref>; <xref rid="B35" ref-type="bibr">Uchal et al., 2005</xref>; <xref rid="B31" ref-type="bibr">Neuschwander et al., 2017</xref>). Although these findings suggest that motivated individuals are able to compensate for sleep loss to complete complex tasks, it appears that such compensation comes at the expense of cognitive reserve in other areas. For example, sleep-deprived surgeons have been shown to exhibit impaired teamwork skills, such as reduced verbal communication with team members, during laparoscopic surgery (<xref rid="B31" ref-type="bibr">Neuschwander et al., 2017</xref>).</p>
+              <p>The notion that individuals can invoke the resources needed to complete complex tasks is also supported by controlled laboratory studies and brain imaging experiments. In a review of the effects of sleep deprivation on decision-making, <xref rid="B19" ref-type="bibr">Harrison and Horne (2000)</xref> summarized work suggesting that tasks that are “complex, interesting, or variable…encourage sleepy people to apply compensatory effort and perform normally.” Several studies have been conducted where individuals were sleep deprived and then required to complete complex tasks while simultaneously being scanned using MRI. These studies have demonstrated that individuals are able to compensate for increased task difficulty (<xref rid="B15" ref-type="bibr">Drummond et al., 2000</xref>; <xref rid="B9" ref-type="bibr">Chee and Choo, 2004</xref>; <xref rid="B16" ref-type="bibr">Drummond et al., 2004</xref>) and cognitive load (<xref rid="B10" ref-type="bibr">Choo et al., 2005</xref>) during sleep deprivation by recruiting resources from brain regions that are inactive during simple or boring tasks.</p>
+              <p>It is possible that the novelty of ROBoT-r may wear off after individuals reach an asymptote, which might make some elements of the task vulnerable to fatigue-related reductions in performance. Alternatively, it is possible that once performance plateaus, individuals will exhibit smaller variations in performance, making vulnerability to sleep loss and circadian misalignment easier to detect. We did not have a way to measure either of these possibilities in our study. In addition, we did not conduct enough training simulations for our study participants to reach an asymptote. However, performance on the easy trials appeared to stabilize during the laboratory study. Despite this, we did not see any sleep or time-of-day variation in performance when we restricted our analysis to the easy trials, although the easy trials may not have been challenging enough to elicit mistakes. Additional studies are needed to determine how training effects may have influenced our findings.</p>
+              <p>It is tempting to deduce that repetitive, standardized reaction time tasks such as the PVT are irrelevant in operational environments where highly trained, motivated individuals are required to complete complex tasks. However, there is evidence that tasks such as the PVT serve as an important—and sensitive—diagnostic tool for identifying vulnerability due to sleep loss. In operational environments, individuals are often required to multi-task and deal with unexpected events. While such variety in workload may be alerting to some extent, the accumulation of multiple layers of vulnerability increases the risk of operational failure (<xref rid="B32" ref-type="bibr">Reason, 2000</xref>). For example, high workload, sleep loss, circadian misalignment, and mode confusion are all examples of potential points of vulnerability, but when combined, the risk of operational failure increases. There are numerous examples of accidents that have occurred when highly trained individuals failed to perform while sleep deprived (<xref rid="B29" ref-type="bibr">Mitler et al., 1988</xref>; <xref rid="B28" ref-type="bibr">Marcus and Rosekind, 2016</xref>). In these cases, it was typically the convergence of many factors that led to the accident, with sleep loss or circadian misalignment being one point of vulnerability. It is unclear, however, what percentage change in response time has operational relevance. Given the challenges with administering a task like the PVT in an operational environment, it may be possible to embed a PVT-like secondary task within the ROBoT-r simulation in order to more passively collect diagnostic information about the state of the operator.</p>
+              <p>Although we systematically evaluated performance on a complex task over 28 h of sleep deprivation, our study is not without limitation. First, we recruited healthy, astronaut-like individuals to participate in the study. This sample population may be generalizable to other high performing cohorts, such as surgeons, pilots, and drone operators, but the stringent recruiting and small sample of individuals that we studied may not reflect what would occur in the rest of the population. In addition, we only studied one task at four levels of difficulty. There were no circumstances where the participants experienced any off-nominal situations. We also studied performance on the robotic arm simulator in a controlled laboratory environment. The laboratory did not mimic the isolation and confinement or high tempo environment experienced by crewmembers while in space. Future studies should explore whether individuals are still able to maintain alertness in unexpected situations and in operational environments.</p>
+            </sec>
+            <sec id="S5">
+              <title>Conclusion</title>
+              <p>In summary, we attempted to characterize sleep and circadian-related changes in robotics performance. We found that individuals improved on all aspects of performance over time, despite being sleep deprived for over 24 h. We did not find any correlation between ROBoT-r metrics and PVT metrics. Additional studies are needed to determine whether secondary tasks could be embedded within the ROBoT-r task to unmask sleep and circadian-related vulnerabilities. It would also be useful to evaluate how quickly individuals learn ROBoT-r when training sessions are limited to the daytime and under rested conditions, given that the participants were able to continue to improve in their performance during the night. These findings also suggest that it may be valuable to examine ROBoT-r data from individuals who have reached proficiency on the task to determine whether habituation might uncover susceptibility to performance impairment during sleep loss or when performing robotics maneuvers at adverse circadian phases.</p>
+            </sec>
+            <sec sec-type="data-availability" id="S6">
+              <title>Data Availability Statement</title>
+              <p>The datasets presented in this article are not readily available because NASA review and ethical approval for secondary use of data are required. Data collected for this study may be made available by the corresponding author after the requestor completes NASA requirements. Requests to access the datasets should be directed to erin.e.flynn-evans@nasa.gov.</p>
+            </sec>
+            <sec id="S7">
+              <title>Ethics Statement</title>
+              <p>The studies involving human participants were reviewed and approved by the NASA Ames Research Center Human Research Institutional Review Board. The patients/participants provided their written informed consent to participate in this study.</p>
+            </sec>
+            <sec id="S8">
+              <title>Author Contributions</title>
+              <p>LW, GS, VI, and EF-E conceptualized the study and analysis. LW, SP, JK, CH, and EF-E collected the data. SP, JK, LA, and EF-E analyzed the data. LW, SP, and EF-E wrote the manuscript. All authors contributed to the article and approved the submitted version.</p>
+            </sec>
+            <sec id="conf1">
+              <title>Conflict of Interest</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn fn-type="financial-disclosure">
+                <p><bold>Funding.</bold> This study was funded by the NASA Human Research Program, Human Factors and Behavioral Health Element and the San José State University Research Foundation.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <p>The authors wish to thank the participants of this study. The authors also wish to thank Mr. Mark Anderson and Dr. Brent Beutter of NASA Ames Research Center, and Mr. D. Greg Alexander and the DST Technology Laboratory at NASA Johnson Space Center for technical support during this study. The authors also wish to thank Mr. Nicholas Bathurst and the interns and research staff of the Fatigue Countermeasures Laboratory who aided in collecting this data.</p>
+            </ack>
+            <sec id="S11" sec-type="supplementary material">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fnins.2020.00697/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fnins.2020.00697/full#supplementary-material</ext-link></p>
+              <supplementary-material content-type="local-data" id="TS1">
+                <media xlink:href="Table_1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Åkerstedt</surname><given-names>T.</given-names></name><name><surname>Gillberg</surname><given-names>M.</given-names></name></person-group> (<year>1990</year>). <article-title>Subjective and objective sleepiness in the active individual.</article-title>
+<source><italic>Int. J. Neurosci.</italic></source>
+<volume>52</volume>
+<fpage>29</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.3109/00207459008994241</pub-id>
+<?supplied-pmid 2265922?><pub-id pub-id-type="pmid">2265922</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arthur</surname><given-names>C.</given-names></name></person-group> (<year>1998</year>). <source><italic>Mir Crash Arose from Russian Spending Cuts.</italic></source> Available online at: <ext-link ext-link-type="uri" xlink:href="https://www.independent.co.uk/news/mir-crash-arose-from-russian-spending-cuts-cuts-caused-mir-crash-with-1182424.html">https://www.independent.co.uk/news/mir-crash-arose-from-russian-spending-cuts-cuts-caused-mir-crash-with-1182424.html</ext-link>
+<comment>(accessed April 16, 2020)</comment>.</mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barger</surname><given-names>L. K.</given-names></name><name><surname>Flynn-Evans</surname><given-names>E. E.</given-names></name><name><surname>Kubey</surname><given-names>A.</given-names></name><name><surname>Walsh</surname><given-names>L.</given-names></name><name><surname>Ronda</surname><given-names>J. M.</given-names></name><name><surname>Wang</surname><given-names>W.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Prevalence of sleep deficiency and use of hypnotic drugs in astronauts before, during, and after spaceflight: an observational study.</article-title>
+<source><italic>Lancet Neurol.</italic></source>
+<volume>13</volume>
+<fpage>904</fpage>–<lpage>912</lpage>. <pub-id pub-id-type="doi">10.1016/S1474-4422(14)70122-X</pub-id><pub-id pub-id-type="pmid">25127232</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bartoń</surname><given-names>K.</given-names></name></person-group> (<year>2009</year>). <source><italic>Mu-MIn: Multi-model inference. R Package Version 1.43.17.</italic></source></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bates</surname><given-names>D.</given-names></name><name><surname>Mächler</surname><given-names>M.</given-names></name><name><surname>Bolker</surname><given-names>B.</given-names></name><name><surname>Walker</surname><given-names>S.</given-names></name></person-group> (<year>2015</year>). <article-title>Fitting linear mixed-effects models using lme4.</article-title>
+<source><italic>J. Stat. Softw.</italic></source>
+<volume>67</volume>
+<fpage>1</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v067.i01</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Beck</surname><given-names>A. T.</given-names></name><name><surname>Ward</surname><given-names>C. H.</given-names></name><name><surname>Mendelson</surname><given-names>M.</given-names></name><name><surname>Mock</surname><given-names>J.</given-names></name><name><surname>Erbaugh</surname><given-names>J.</given-names></name></person-group> (<year>1961</year>). <article-title>An inventory for measuring depression.</article-title>
+<source><italic>Arch. Gen. Psychiatry</italic></source>
+<volume>4</volume>
+<fpage>561</fpage>–<lpage>571</lpage>.<pub-id pub-id-type="pmid">13688369</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Butcher</surname><given-names>J. N.</given-names></name><name><surname>Dahlstrom</surname><given-names>W. G.</given-names></name><name><surname>Graham</surname><given-names>J. R.</given-names></name><name><surname>Tellegen</surname><given-names>A. M.</given-names></name><name><surname>Kreammer</surname><given-names>B.</given-names></name></person-group> (<year>1989</year>). <source><italic>The Minnesota Multiphasic Personality Inventory-2 (MMPI-2) Manual for Administration and Scoring.</italic></source>
+<publisher-loc>Minneapolis, MN</publisher-loc>: <publisher-name>University of Minneapolis Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buysse</surname><given-names>D. J.</given-names></name><name><surname>Reynolds</surname><given-names>C. F.</given-names><suffix>III</suffix></name><name><surname>Monk</surname><given-names>T. H.</given-names></name><name><surname>Berman</surname><given-names>S. R.</given-names></name><name><surname>Kupfer</surname><given-names>D. J.</given-names></name></person-group> (<year>1989</year>). <article-title>The pittsburgh sleep quality index: a new instrument for psychiatric practice and research.</article-title>
+<source><italic>Psychiatry Res.</italic></source>
+<volume>28</volume>
+<fpage>193</fpage>–<lpage>213</lpage>. <pub-id pub-id-type="doi">10.1016/0165-1781(89)90047-4</pub-id><pub-id pub-id-type="pmid">2748771</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chee</surname><given-names>M. W.</given-names></name><name><surname>Choo</surname><given-names>W. C.</given-names></name></person-group> (<year>2004</year>). <article-title>Functional imaging of working memory after 24 hr of total sleep deprivation.</article-title>
+<source><italic>J. Neurosci.</italic></source>
+<volume>24</volume>
+<fpage>4560</fpage>–<lpage>4567</lpage>. <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0007-04.2004</pub-id>
+<?supplied-pmid 15140927?><pub-id pub-id-type="pmid">15140927</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Choo</surname><given-names>W. C.</given-names></name><name><surname>Lee</surname><given-names>W. W.</given-names></name><name><surname>Venkatraman</surname><given-names>V.</given-names></name><name><surname>Sheu</surname><given-names>F. S.</given-names></name><name><surname>Chee</surname><given-names>M. W.</given-names></name></person-group> (<year>2005</year>). <article-title>Dissociation of cortical regions modulated by both working memory load and sleep deprivation and by sleep deprivation alone.</article-title>
+<source><italic>Neuroimage</italic></source>
+<volume>25</volume>
+<fpage>579</fpage>–<lpage>587</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuroimage.2004.11.029</pub-id>
+<?supplied-pmid 15784437?><pub-id pub-id-type="pmid">15784437</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dawson</surname><given-names>D.</given-names></name><name><surname>Reid</surname><given-names>K.</given-names></name></person-group> (<year>1997</year>). <article-title>Fatigue, alcohol and performance impairment.</article-title>
+<source><italic>Nature</italic></source>
+<volume>388</volume>:<issue>235</issue>. <pub-id pub-id-type="doi">10.1038/40775</pub-id>
+<?supplied-pmid 9230429?><pub-id pub-id-type="pmid">9230429</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Derogatis</surname><given-names>L. R.</given-names></name><name><surname>Savitz</surname><given-names>K. L.</given-names></name></person-group> (<year>1999</year>). “<article-title>The SCL-90-R, brief symptom inventory, and matching clinical rating scales</article-title>,” in <source><italic>The Use of Psychological Testing for Treatment Planning and Outcomes Assessment</italic></source>, <role>ed.</role>
+<person-group person-group-type="editor"><name><surname>Maruish</surname><given-names>M. E.</given-names></name></person-group> (<publisher-loc>Mahwah, NJ</publisher-loc>: <publisher-name>Lawrence Erlbaum Associates Publishers</publisher-name>), <fpage>679</fpage>–<lpage>724</lpage>.</mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dijk</surname><given-names>D. J.</given-names></name><name><surname>Duffy</surname><given-names>J. F.</given-names></name><name><surname>Czeisler</surname><given-names>C. A.</given-names></name></person-group> (<year>1992</year>). <article-title>Circadian and sleep/wake dependent aspects of subjective alertness and cognitive performance.</article-title>
+<source><italic>J. Sleep Res.</italic></source>
+<volume>1</volume>
+<fpage>112</fpage>–<lpage>117</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2869.1992.tb00021.x</pub-id>
+<?supplied-pmid 10607036?><pub-id pub-id-type="pmid">10607036</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dinges</surname><given-names>D. F.</given-names></name><name><surname>Powell</surname><given-names>J. W.</given-names></name></person-group> (<year>1985</year>). <article-title>Microcomputer analyses of performance on a portable, simple visual RT task during sustained operations.</article-title>
+<source><italic>Behav. Res. Methods Instr. Comput.</italic></source>
+<volume>17</volume>
+<fpage>652</fpage>–<lpage>655</lpage>. <pub-id pub-id-type="doi">10.3758/bf03200977</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Drummond</surname><given-names>S. P.</given-names></name><name><surname>Brown</surname><given-names>G. G.</given-names></name><name><surname>Gillin</surname><given-names>J. C.</given-names></name><name><surname>Stricker</surname><given-names>J. L.</given-names></name><name><surname>Wong</surname><given-names>E. C.</given-names></name><name><surname>Buxton</surname><given-names>R. B.</given-names></name></person-group> (<year>2000</year>). <article-title>Altered brain response to verbal learning following sleep deprivation.</article-title>
+<source><italic>Nature</italic></source>
+<volume>403</volume>
+<fpage>655</fpage>–<lpage>657</lpage>. <pub-id pub-id-type="doi">10.1038/35001068</pub-id>
+<?supplied-pmid 10688201?><pub-id pub-id-type="pmid">10688201</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Drummond</surname><given-names>S. P.</given-names></name><name><surname>Brown</surname><given-names>G. G.</given-names></name><name><surname>Salamat</surname><given-names>J. S.</given-names></name><name><surname>Gillin</surname><given-names>J. C.</given-names></name></person-group> (<year>2004</year>). <article-title>Increasing task difficulty facilitates the cerebral compensatory response to total sleep deprivation.</article-title>
+<source><italic>Sleep</italic></source>
+<volume>27</volume>
+<fpage>445</fpage>–<lpage>451</lpage>.<pub-id pub-id-type="pmid">15164897</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Flynn-Evans</surname><given-names>E.</given-names></name><name><surname>Barger</surname><given-names>L. K.</given-names></name><name><surname>Kubey</surname><given-names>A.</given-names></name><name><surname>Sullivan</surname><given-names>J. P.</given-names></name><name><surname>Czeisler</surname><given-names>C. A.</given-names></name></person-group> (<year>2015</year>). “<article-title>Sleep and circadian rhythms among 21 astronauts during long-duration missions on the International Space Station</article-title>,” in <source><italic>Paper Presented at NASA Human Research Program Investigators’ Workshop</italic></source>, (<publisher-loc>Galveston, TX</publisher-loc>: <publisher-name>NASA</publisher-name>).</mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gonfalone</surname><given-names>A.</given-names></name></person-group> (<year>2016</year>). <article-title>Sleep on manned space flights: zero gravity reduces sleep duration.</article-title>
+<source><italic>Pathophysiology</italic></source>
+<volume>23</volume>
+<fpage>259</fpage>–<lpage>263</lpage>. <pub-id pub-id-type="doi">10.1016/j.pathophys.2016.08.003</pub-id>
+<?supplied-pmid 27645475?><pub-id pub-id-type="pmid">27645475</pub-id></mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Harrison</surname><given-names>Y.</given-names></name><name><surname>Horne</surname><given-names>J. A.</given-names></name></person-group> (<year>2000</year>). <article-title>The impact of sleep deprivation on decision making: a review.</article-title>
+<source><italic>J. Exp. Psycholol. Appl.</italic></source>
+<volume>6</volume>
+<fpage>236</fpage>–<lpage>249</lpage>. <pub-id pub-id-type="doi">10.1037/1076-898x.6.3.236</pub-id>
+<?supplied-pmid 11014055?><pub-id pub-id-type="pmid">11014055</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horne</surname><given-names>J. A.</given-names></name><name><surname>Östberg</surname><given-names>O.</given-names></name></person-group> (<year>1976</year>). <article-title>A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms.</article-title>
+<source><italic>Int. J. Chronobiol.</italic></source>
+<volume>4</volume>
+<fpage>97</fpage>–<lpage>110</lpage>.<pub-id pub-id-type="pmid">1027738</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Howard</surname><given-names>S. K.</given-names></name><name><surname>Gaba</surname><given-names>D. M.</given-names></name><name><surname>Smith</surname><given-names>B. E.</given-names></name><name><surname>Weinger</surname><given-names>M. B.</given-names></name><name><surname>Herndon</surname><given-names>C.</given-names></name><name><surname>Keshavacharya</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2003</year>). <article-title>Simulation study of rested versus sleep-deprived anesthesiologists.</article-title>
+<source><italic>Anesthesiology</italic></source>
+<volume>98</volume>
+<fpage>1345</fpage>–<lpage>1355</lpage>. <pub-id pub-id-type="doi">10.1097/00000542-200306000-00008</pub-id>
+<?supplied-pmid 12766642?><pub-id pub-id-type="pmid">12766642</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ivkovic</surname><given-names>V.</given-names></name><name><surname>Sommers</surname><given-names>B.</given-names></name><name><surname>Cefaratti</surname><given-names>D. A.</given-names></name><name><surname>Newman</surname><given-names>G.</given-names></name><name><surname>Thomas</surname><given-names>D. W.</given-names></name><name><surname>Alexander</surname><given-names>D. G.</given-names></name><etal/></person-group> (<year>2019</year>). <article-title>Operationally relevant behavior assessment using the robotic on-board trainer for research (ROBoT-r).</article-title>
+<source><italic>Aerospace Med. Hum. Perform.</italic></source>
+<volume>90</volume>
+<fpage>819</fpage>–<lpage>825</lpage>. <pub-id pub-id-type="doi">10.3357/amhp.5324.2019</pub-id>
+<?supplied-pmid 31426899?><pub-id pub-id-type="pmid">31426899</pub-id></mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>G.</given-names></name><name><surname>Alexander</surname><given-names>G.</given-names></name></person-group> (<year>2013</year>). <source><italic>Robotics On-Board Trainer (ROBoT) Report No.: MSC-25005-1.</italic></source>
+<publisher-loc>Houston</publisher-loc>: <publisher-name>NASA Johnson Space Center</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Krupp</surname><given-names>L. B.</given-names></name><name><surname>LaRocca</surname><given-names>N. G.</given-names></name><name><surname>Muir-Nash</surname><given-names>J.</given-names></name><name><surname>Steinberg</surname><given-names>A. D.</given-names></name></person-group> (<year>1989</year>). <article-title>The fatigue severity scale: application to patients with multiple sclerosis and systemic lupus erythematosus.</article-title>
+<source><italic>Arch. Neurol.</italic></source>
+<volume>46</volume>
+<fpage>1121</fpage>–<lpage>1123</lpage>.<pub-id pub-id-type="pmid">2803071</pub-id></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kuznetsova</surname><given-names>A.</given-names></name><name><surname>Brockhoff</surname><given-names>P. B.</given-names></name><name><surname>Christensen</surname><given-names>R. H. B.</given-names></name></person-group> (<year>2017</year>). <article-title>lmerTest package: tests in linear mixed effects models.</article-title>
+<source><italic>J. Stat. Softw.</italic></source>
+<volume>82</volume>
+<fpage>1</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v082.i13</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lehmann</surname><given-names>K. S.</given-names></name><name><surname>Martus</surname><given-names>P.</given-names></name><name><surname>Little-Elk</surname><given-names>S.</given-names></name><name><surname>Maass</surname><given-names>H.</given-names></name><name><surname>Holmer</surname><given-names>C.</given-names></name><name><surname>Zurbuchen</surname><given-names>U.</given-names></name><etal/></person-group> (<year>2010</year>). <article-title>Impact of sleep deprivation on medium-term psychomotor and cognitive performance of surgeons: prospective cross-over study with a virtual surgery simulator and psychometric tests.</article-title>
+<source><italic>Surgery</italic></source>
+<volume>147</volume>
+<fpage>246</fpage>–<lpage>254</lpage>. <pub-id pub-id-type="doi">10.1016/j.surg.2009.08.007</pub-id>
+<?supplied-pmid 20109624?><pub-id pub-id-type="pmid">20109624</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lockley</surname><given-names>S. W.</given-names></name><name><surname>Cronin</surname><given-names>J. W.</given-names></name><name><surname>Evans</surname><given-names>E. E.</given-names></name><name><surname>Cade</surname><given-names>B. E.</given-names></name><name><surname>Lee</surname><given-names>C. J.</given-names></name><name><surname>Landrigan</surname><given-names>C. P.</given-names></name><etal/></person-group> (<year>2004</year>). <article-title>Effect of reducing interns’ weekly work hours on sleep and attentional failures.</article-title>
+<source><italic>New Engl. J. Med.</italic></source>
+<volume>351</volume>
+<fpage>1829</fpage>–<lpage>1837</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa041404</pub-id>
+<?supplied-pmid 15509816?><pub-id pub-id-type="pmid">15509816</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marcus</surname><given-names>J. H.</given-names></name><name><surname>Rosekind</surname><given-names>M. R.</given-names></name></person-group> (<year>2016</year>). <article-title>Fatigue in transportation: NTSB investigations and safety recommendations.</article-title>
+<source><italic>Injury Prevent.</italic></source>
+<volume>23</volume>
+<fpage>232</fpage>–<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1136/injuryprev-2015-041791</pub-id>
+<?supplied-pmid 26929259?><pub-id pub-id-type="pmid">26929259</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mitler</surname><given-names>M. M.</given-names></name><name><surname>Carskadon</surname><given-names>M. A.</given-names></name><name><surname>Czeisler</surname><given-names>C. A.</given-names></name><name><surname>Dement</surname><given-names>W. C.</given-names></name><name><surname>Dinges</surname><given-names>D. F.</given-names></name><name><surname>Graeber</surname><given-names>R. C.</given-names></name></person-group> (<year>1988</year>). <article-title>Catastrophes, sleep, and public policy: consensus report.</article-title>
+<source><italic>Sleep</italic></source>
+<volume>11</volume>
+<fpage>100</fpage>–<lpage>109</lpage>. <pub-id pub-id-type="doi">10.1093/sleep/11.1.100</pub-id>
+<?supplied-pmid 3283909?><pub-id pub-id-type="pmid">3283909</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nakagawa</surname><given-names>S.</given-names></name><name><surname>Schielzeth</surname><given-names>H.</given-names></name></person-group> (<year>2013</year>). <article-title>A general and simple method for obtaining <italic>R2</italic> from generalized linear mixed-effects models.</article-title>
+<source><italic>Methods Ecol. Evol.</italic></source>
+<volume>4</volume>
+<fpage>133</fpage>–<lpage>142</lpage>. <pub-id pub-id-type="doi">10.1111/j.2041-210x.2012.00261.x</pub-id></mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Neuschwander</surname><given-names>A.</given-names></name><name><surname>Job</surname><given-names>A.</given-names></name><name><surname>Younes</surname><given-names>A.</given-names></name><name><surname>Mignon</surname><given-names>A.</given-names></name><name><surname>Delgoulet</surname><given-names>C.</given-names></name><name><surname>Cabon</surname><given-names>P.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Impact of sleep deprivation on anaesthesia residents’ non-technical skills: a pilot simulation-based prospective randomized trial.</article-title>
+<source><italic>Br. J. Anaesth.</italic></source>
+<volume>119</volume>
+<fpage>125</fpage>–<lpage>131</lpage>. <pub-id pub-id-type="doi">10.1093/bja/aex155</pub-id>
+<?supplied-pmid 28974071?><pub-id pub-id-type="pmid">28974071</pub-id></mixed-citation>
+              </ref>
+              <ref id="B100">
+                <mixed-citation publication-type="book"><collab>R Core Team</collab> (<year>2014</year>). <source><italic>R: A Language and Environment for Statistical Computing.</italic></source>
+<publisher-loc>Vienna</publisher-loc>: <publisher-name>R Foundation for Statistical Computing.</publisher-name> Available online at: <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org/">http://www.R-project.org/</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Reason</surname><given-names>J.</given-names></name></person-group> (<year>2000</year>). <article-title>Human error: models and management.</article-title>
+<source><italic>West. J. Med.</italic></source>
+<volume>172</volume>
+<fpage>393</fpage>–<lpage>396</lpage>. <pub-id pub-id-type="doi">10.1136/ewjm.172.6.393</pub-id>
+<?supplied-pmid 10854390?><pub-id pub-id-type="pmid">10854390</pub-id></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Spielberger</surname><given-names>C. D.</given-names></name><name><surname>Gorsuch</surname><given-names>R. L.</given-names></name><name><surname>Lushene</surname><given-names>R.</given-names></name><name><surname>Vagg</surname><given-names>P. R.</given-names></name><name><surname>Jacobs</surname><given-names>G. A.</given-names></name></person-group> (<year>1983</year>). <source><italic>Manual for the State-Trait Anxiety Inventory.</italic></source>
+<publisher-loc>Palo Alto, CA</publisher-loc>: <publisher-name>Consulting Psychologists Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Strangman</surname><given-names>G.</given-names></name><name><surname>Thompson</surname><given-names>J. H.</given-names></name><name><surname>Strauss</surname><given-names>M. M.</given-names></name><name><surname>Marshburn</surname><given-names>T. H.</given-names></name><name><surname>Sutton</surname><given-names>J. P.</given-names></name></person-group> (<year>2005</year>). <article-title>Functional brain imaging of a complex navigation task following one night of total sleep deprivation: a preliminary study.</article-title>
+<source><italic>J. Sleep Res.</italic></source>
+<volume>14</volume>
+<fpage>369</fpage>–<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2869.2005.00488.x</pub-id>
+<?supplied-pmid 16364137?><pub-id pub-id-type="pmid">16364137</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Uchal</surname><given-names>M.</given-names></name><name><surname>Tjugum</surname><given-names>J.</given-names></name><name><surname>Martinsen</surname><given-names>E.</given-names></name><name><surname>Qiu</surname><given-names>X.</given-names></name><name><surname>Bergamaschi</surname><given-names>R.</given-names></name></person-group> (<year>2005</year>). <article-title>The impact of sleep deprivation on product quality and procedure effectiveness in a laparoscopic physical simulator: a randomized controlled trial.</article-title>
+<source><italic>Am. J. Surg.</italic></source>
+<volume>189</volume>
+<fpage>753</fpage>–<lpage>757</lpage>. <pub-id pub-id-type="doi">10.1016/j.amjsurg.2005.03.021</pub-id>
+<?supplied-pmid 15910732?><pub-id pub-id-type="pmid">15910732</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

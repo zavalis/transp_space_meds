@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T18:06:12Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3135614" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:3135614</identifier>
+        <datestamp>2011-07-15</datestamp>
+        <setSpec>plosone</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+              <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+              <journal-id journal-id-type="publisher-id">plos</journal-id>
+              <journal-id journal-id-type="pmc">plosone</journal-id>
+              <journal-title-group>
+                <journal-title>PLoS ONE</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1932-6203</issn>
+              <publisher>
+                <publisher-name>Public Library of Science</publisher-name>
+                <publisher-loc>San Francisco, USA</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC3135614</article-id>
+              <article-id pub-id-type="pmcid">PMC3135614</article-id>
+              <article-id pub-id-type="pmc-uid">3135614</article-id>
+              <article-id pub-id-type="pmid">21765954</article-id>
+              <article-id pub-id-type="pmid">21765954</article-id>
+              <article-id pub-id-type="publisher-id">PONE-D-10-05720</article-id>
+              <article-id pub-id-type="doi">10.1371/journal.pone.0022214</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Research Article</subject>
+                </subj-group>
+                <subj-group subj-group-type="Discipline-v2">
+                  <subject>Biology</subject>
+                  <subj-group>
+                    <subject>Astrobiology</subject>
+                    <subj-group>
+                      <subject>Extraterrestrial Life</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Model Organisms</subject>
+                    <subj-group>
+                      <subject>Animal Models</subject>
+                    </subj-group>
+                  </subj-group>
+                  <subj-group>
+                    <subject>Molecular Cell Biology</subject>
+                    <subj-group>
+                      <subject>Cellular Structures</subject>
+                      <subj-group>
+                        <subject>Cytoplasm</subject>
+                        <subject>Cytoskeleton</subject>
+                        <subject>Nucleolus</subject>
+                        <subject>Subcellular Organelles</subject>
+                      </subj-group>
+                    </subj-group>
+                    <subj-group>
+                      <subject>Cell Death</subject>
+                      <subject>Cell Division</subject>
+                      <subject>Cellular Stress Responses</subject>
+                    </subj-group>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Simulated Microgravity Compromises Mouse Oocyte Maturation by Disrupting Meiotic Spindle Organization and Inducing Cytoplasmic Blebbing</article-title>
+                <alt-title alt-title-type="running-head">Oocyte Maturation under Simulated Microgravity</alt-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Changli</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="author-notes" rid="fn1">
+                    <sup>¤</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Guo</surname>
+                    <given-names>Xinzheng</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Fang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Xiaoshuang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tian</surname>
+                    <given-names>X. Cindy</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff2">
+                    <sup>2</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Li</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wu</surname>
+                    <given-names>Zhenfang</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zhang</surname>
+                    <given-names>Shouquan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="aff1">
+                    <sup>1</sup>
+                  </xref>
+                  <xref ref-type="corresp" rid="cor1">
+                    <sup>*</sup>
+                  </xref>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1">
+                <label>1</label>
+                <addr-line>Guangdong Provincial Key Lab of Agro-Animal Genomics and Molecular Breeding, College of Animal Science, South China Agricultural University, Guangzhou, Guangdong, People's Republic of China</addr-line>
+              </aff>
+              <aff id="aff2">
+                <label>2</label>
+                <addr-line>Department of Animal Science, Center for Regenerative Biology, University of Connecticut, Storrs, Connecticut, United States of America</addr-line>
+              </aff>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Polymenis</surname>
+                    <given-names>Michael</given-names>
+                  </name>
+                  <role>Editor</role>
+                  <xref ref-type="aff" rid="edit1"/>
+                </contrib>
+              </contrib-group>
+              <aff id="edit1">Texas A&amp;M University, United States of America</aff>
+              <author-notes>
+                <corresp id="cor1">* E-mail: <email>sqzhang@scau.edu.cn</email></corresp>
+                <fn fn-type="con">
+                  <p>Conceived and designed the experiments: CW ZW SZ. Performed the experiments: CW FW XL. Analyzed the data: CW XG FW. Contributed reagents/materials/analysis tools: CW XG LL XL. Wrote the paper: CW XG XCT SZ.</p>
+                </fn>
+                <fn id="fn1" fn-type="current-aff">
+                  <label>¤</label>
+                  <p>Current address: Guangdong Medical College, No. 2, Wenming Donglu, Xiashan District, Zhanjiang, Guangdong Province, People's Republic of China</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="collection">
+                <year>2011</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>13</day>
+                <month>7</month>
+                <year>2011</year>
+              </pub-date>
+              <volume>6</volume>
+              <issue>7</issue>
+              <elocation-id>e22214</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>2</day>
+                  <month>12</month>
+                  <year>2010</year>
+                </date>
+                <date date-type="accepted">
+                  <day>20</day>
+                  <month>6</month>
+                  <year>2011</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Wu et al.</copyright-statement>
+                <copyright-year>2011</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>In the present study, we discovered that mouse oocyte maturation was inhibited by simulated microgravity via disturbing spindle organization. We cultured mouse oocytes under microgravity condition simulated by NASA's rotary cell culture system, examined the maturation rate and observed the spindle morphology (organization of cytoskeleton) during the mouse oocytes meiotic maturation. While the rate of germinal vesicle breakdown did not differ between 1 g gravity and simulated microgravity, rate of oocyte maturation decreased significantly in simulated microgravity. The rate of maturation was 8.94% in simulated microgravity and was 73.0% in 1 g gravity. The results show that the maturation of mouse oocytes in vitro was inhibited by the simulated microgravity. The spindle morphology observation shows that the microtubules and chromosomes can not form a complete spindle during oocyte meiotic maturation under simulated microgravity. And the disorder of γ-tubulin may partially result in disorganization of microtubules under simulated microgravity. These observations suggest that the meiotic spindle organization is gravity dependent. Although the spindle organization was disrupted by simulated microgravity, the function and organization of microfilaments were not pronouncedly affected by simulated microgravity. And we found that simulated microgravity induced oocytes cytoplasmic blebbing via an unknown mechanism. Transmission electron microscope detection showed that the components of the blebs were identified with the cytoplasm. Collectively, these results indicated that the simulated microgravity inhibits mouse oocyte maturation via disturbing spindle organization and inducing cytoplasmic blebbing.</p>
+              </abstract>
+              <counts>
+                <page-count count="8"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="s1">
+              <title>Introduction</title>
+              <p>Microgravity has been reported to induce numerous adverse effects on animals. Studies on astronauts have shown that microgravity is closely associated with bone loss, muscle atrophy, as well as decreased immune <xref rid="pone.0022214-Graebe1" ref-type="bibr">[1]</xref>, <xref rid="pone.0022214-White1" ref-type="bibr">[2]</xref>, <xref rid="pone.0022214-Zayzafoon1" ref-type="bibr">[3]</xref>. Ideally, real spaceflights should be used to study the effects of space gravity variations, these opportunities, however, are very limited, in addition to the high costs, short duration, deferred reaction, and interference from other conditions aboarding the spacecraft <xref rid="pone.0022214-PurevdorjGage1" ref-type="bibr">[4]</xref>. As a result, simulation models have been designed to test the gravitational effect on the biological systems. Ground-based models have generated reproductive results similar to those obtained from spaceflight, thereby confirming the appropriateness of these models for studying reproductive responses <xref rid="pone.0022214-Tou1" ref-type="bibr">[5]</xref>. Recently, it has been reported that simulated microgravity disrupted mouse early embryo development <xref rid="pone.0022214-Wakayama1" ref-type="bibr">[6]</xref>. The effects of decreased gravity on mammalian oocyte maturation, however, have not been investigated.</p>
+              <p>Mammalian oocyte maturation entails an ordered series of cellular events, including germinal vesicle breakdown, chromosome condensation, spindle formation and migration. The asymmetrical cellular division produces polar bodies and a big, competent, fertilizable oocyte. These events are dependent upon the dynamic changes of oocyte cytoskeleton (microtubules and microfilaments). The cytoskeleton has been described as the structure through which cells sense gravity <xref rid="pone.0022214-Ingber1" ref-type="bibr">[7]</xref>. Microtubules, which play essential roles during mitosis, including chromosome capture, congregation, and segregation, and cytokinesis <xref rid="pone.0022214-Maiato1" ref-type="bibr">[8]</xref>, <xref rid="pone.0022214-KlineSmith1" ref-type="bibr">[9]</xref>, were altered and mitosis was prolonged in human breast cancer cell line MCF-7 when cultured under weightless conditions <xref rid="pone.0022214-Vassy1" ref-type="bibr">[10]</xref>. Microfilaments are disorganized in simulated microgravity through activation of Rho, a serine and threonine kinase <xref rid="pone.0022214-Higashibata1" ref-type="bibr">[11]</xref>.</p>
+              <p>In view of the effects of microgravity on cytoskeleton and the importance of cytoskeleton during oocyte maturation, we hypothesize that the decrease of gravity influences the process of oocyte maturation. The objectives of the present study were to investigate the effect of simulated microgravity on the mouse oocytes maturation <italic>in vitro</italic> and to determine whether the effect is on the microtubules or microfilaments. We used the rotary cell culture system (RCCS) made by National Aeronautics and Space Administration (NASA) to simulate microgravity and studied its effects on mammalian oocyte maturation using the mouse as a model.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="s2">
+              <title>Materials and Methods</title>
+              <sec id="s2a">
+                <title>Chemicals and animals</title>
+                <p>All chemicals were obtained from Sigma Chemical Company unless otherwise stated. Hormones were obtained from Ningbo Hormone Company (Ningbo, China). Female Kunming white mice were obtained from Guangdong Medical and Laboratorial Animal Center (Guangzhou, China).</p>
+              </sec>
+              <sec id="s2b">
+                <title>Oocyte collection and culture</title>
+                <p>Animal care and handling were conducted in accordance with policies on the care and use of animals promulgated by the ethical committee of the Guangdong Medical and Laboratorial Animal Center.</p>
+                <p>Female Kunming White mice at 6–8 weeks of age were injected intraperitoneally with 7.5 IU of PMSG. The females were euthanized 45–48 h post-PMSG administration, and fully grown, germinal vesicle (GV)-intact oocytes were retrieved from each ovary by puncturing the follicles with a 26 gauge sterile needle. The collection medium was M199 with 25 mM HEPES buffer (GIBCO, Cat. No.12350039). The GV oocytes were then transferred into M199 (GIBCO, Cat. No.11150059) supplemented with 10% FCS (Hyclone), 1 IU/ml FSH, 1 IU/ml hCG, 1 µg/ml estradiol, and 0.036 g/l sodium pyruvate, and were cultured in 5% CO<sub>2</sub> in air at 37°C.</p>
+                <p>Oocytes were cultured in 50 µl droplets under mineral oil in Falcon petri dishes (Item No.351008) under 1 g gravity. We used the RCCS (Sythecon, USA) developed by NASA to simulate microgravity. The 2-ml high aspect ratio vessels (HARVs) used in the RCCS provide a low-turbulence, low-shear cell culture environment with abundant oxygenation. The rotation randomizes the gravitational vector and leaves cells in a state of constant free-fall, mimicking some aspects of microgravity <xref rid="pone.0022214-Schwarz1" ref-type="bibr">[12]</xref>, <xref rid="pone.0022214-Nickerson1" ref-type="bibr">[13]</xref>. After 16 hours culture, the oocytes were collected to examine the maturation rate. The culture experiments were repeated more than 3 times. The total number of oocytes was 1012 in 1 g gravity group, and the total number was 1726 in simulated microgravity group. To detect γ-tubulin, oocytes were collected at 6-hour, 9-hour and 16 hour, respectively. And this experiment was repeated three times.</p>
+              </sec>
+              <sec id="s2c">
+                <title>Immunohistochemistry and laser-scanning confocal microscopy</title>
+                <p>The oocytes were fixed at 37°C for at least 30 min in a stabilizing buffer containing 2% formaldehyde, 0.5% Triton X-100, 1 µM taxol, 10 units/ml aprotinin and 50% deuterium oxide. They were then washed three times in a washing buffer (PBS containing 3 mM NaN<sub>3</sub>, 0.01% Triton X-100, 0.2% non-fat dried milk, 2% normal goat serum, 0.1 M glycine, and 2% BSA) and then left in the washing buffer overnight at 4°C for blocking and permeabilization <xref rid="pone.0022214-Carabatsos1" ref-type="bibr">[14]</xref>. Oocytes were incubated with mouse momoclonal anti-α-tubulin antibody (Sigma, T9026) at a final dilution of 1∶200 over night at 4°C and then washed three times in the washing buffer. Oocytes were sequentially incubated with fluorescein isothiocyanate (FITC)-conjugated goat anti-mouse secondary antibody (Molecular Probes, F-2761) for 1 h at 37°C to visualize microtubules. To label for microfilaments, the oocytes were subsequently incubated with Rhodamine-Phalloidin (Molecular Probes, R-415) (1∶200) for 30 min at 37°C. Finally, the oocytes were washed, stained for DNA with Hoechst 33342 (Molecular Probes, USA), mounted in PBS containing 50% glycerol, as an anti-fading reagent, and 25 mg/ml NaN<sub>3</sub>
+<xref rid="pone.0022214-Chang1" ref-type="bibr">[15]</xref>, and examined with a Zeiss laser-scanning confocal microscope (LSM510 META DUO SCAN, Germany). To label γ-tubulin, oocytes were incubated with mouse monoclonal anti-γ-tubulin (Sigma, T6557) at a final dilution of 1∶400. The oocytes which stained for γ-tubulin were observed with fluorescent microscope (Nikon).</p>
+              </sec>
+              <sec id="s2d">
+                <title>Transmission electron microscopy (TEM)</title>
+                <p>The oocytes were fixed in 2.5% glutaraldehyde in 0.1 M PBS at 4°C, embedded in 1.2% agar. The embedded oocytes were placed in 5% glutaraldehyde to fix for a week at 4°C. Oocytes were washed 6 times with 1% PBS, 20 min each time. They were then fixed for 2 h in 1% OsO<sub>4</sub> at 4°C and washed 6 times with 1% PBS. After dehydration in graded series of ethanol and acetone, the oocytes were embedded in Epon 812 and ultra-thin sectioned. The sections were stained with uranylacetate and lead citrated for TEM (Tecnai 12, Netherlands).</p>
+              </sec>
+              <sec id="s2e">
+                <title>Statistical Analysis</title>
+                <p>All percentages from at least three repeated experiments are expressed as means±SEM. Data were analyzed by independent-sample t-test. <italic>P&lt;</italic>0.05 was considered statistically significant.</p>
+              </sec>
+            </sec>
+            <sec id="s3">
+              <title>Results</title>
+              <sec id="s3a">
+                <title>Simulated microgravity compromises mouse oocyte maturation</title>
+                <p>To investigate the effects of simulated microgravity on mouse oocyte maturation, immature (GV stage) oocytes were cultured for spontaneously maturation under conditions of 1 g gravity and simulated microgravity. 16 hours later, the proportions of GV, GVBD and MII oocytes in the two groups were recorded after the onset of maturation (<xref ref-type="fig" rid="pone-0022214-g001">Fig. 1</xref>). At 1 g and simulated microgravity, 1.94%±0.43% (n = 1,012) and 1.52%±0.38% (n = 1,726) oocytes did not undergo GVBD (<italic>P</italic>&gt;0.05), respectively, indicating that the resumption of meiosis was not affected by gravity. On the contrary, extrusion of the first polar body and progression to the MII stage was significantly affected by gravity. While 73.0%±2.6% (n = 1,012) of oocytes extruded the first polar body under 1 g condition, only 8.94%±2.35% oocytes (n = 1,726) did so under simulated microgravity (<italic>P</italic>&lt;0.01). Although oocytes underwent GVBD under simulated microgravity, the oocytes showed different phenotypes observed with light microscope. Most of oocytes still sustained the ball-shape, 12.96% of oocytes underwent cytoplasmic blebbing, and 13.03% of oocytes formed a cytoplasmic protrusion (<xref ref-type="fig" rid="pone-0022214-g001">Fig. 1</xref>). Our results indicated that the mouse oocyte maturation was remarkable compromised when cultured under microgravity condition.</p>
+                <fig id="pone-0022214-g001" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0022214.g001</object-id>
+                  <label>Figure 1</label>
+                  <caption>
+                    <title>Development of GV oocytes under simulated microgravity.</title>
+                    <p>Oocytes were cultured in 1 g gravity (control) and simulated microgravity (smg). After 16 hours cultured, the percentage of different phenotypes were analyzed. This experiment was repeated more than 3 times. Different letters denote statistical differences between groups. a vs b, P&lt;0.01; c vs d, P&lt;0.05.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0022214.g001"/>
+                </fig>
+              </sec>
+              <sec id="s3b">
+                <title>Simulated microgravity disrupts meiotic spindle organization</title>
+                <p>As mentioned above, 80% oocytes that underwent GVBD could not progress to MII stage. Because the meiotic spindle is the main cellular apparatus responsible for cell division (polar body extrusion), we examined the meiotic spindle under different gravity conditions.</p>
+                <p>At 1 g gravity, meiotic I spindle was well organized several hours after GVBD, exhibiting a typical barrel shape (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A, a</xref>). The meiotic II spindle, which is also barrel-shaped, quickly formed after the first polar body extruded (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A, c</xref>). However, under simulated microgravity condition, typical MI spindle could not form. Chromosomes were able to congregate, but microtubules failed to arrange chromosomes correctly. In some oocytes, condensed chromosomes were surrounded by little unordered microtubules (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A,d</xref>). And in other oocytes, chromosomes-attached microtubules were not obvious (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A, e</xref>). In the oocytes which extruded the first polar body under microgravity condition, the meiotic II spindle was also deformed (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A, f</xref>). As the normal spindle configuration in simulated microgravity was the same with that in 1 g gravity, we did not show the normal spindle picture in simulated microgravity. The percentage of different microtubule subtypes was recorded (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2B</xref>). There were only 4.83%+1.54% oocytes formed normal spindle which were cultured under simulated microgravity. Our results indicated that simulated microgravity disrupted meiotic spindle organization, probably by interrupting microtubules organization, which might be one reason that most oocytes could not extrude the first polar body in microgravity condition.</p>
+                <fig id="pone-0022214-g002" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0022214.g002</object-id>
+                  <label>Figure 2</label>
+                  <caption>
+                    <title>Simulated microgravity disrupts microtubules aggregation in mouse oocytes.</title>
+                    <p>A. Spindle morphology of mouse oocytes during meiosis cultured under 1 g gravity (a–c) and simulated microgravity (d–f). a) A mouse oocyte cultured at 6 hours. The barrel-shaped MI spindle is seen with microtubules and chromosomes, arranged on the equatorial plate. b) At 8 hours, chromosomes were separating. c) At 16 hours, the mouse oocyte extruded the first polar body and formed the second spindle. d) At 16 hours, the mouse oocyte showed chromosomes attached with few disordered microtubules. e) At 16 hours, chromosomes without microtubules attachment migrated. f) At 16 hours, the mouse oocyte extruded the first polar body and formed the second spindle. Blue = chromosomes, green = microtubules; Scale bar = 10 µm. B. Percent of microtubules subtypes. Oocytes were cultured in 1 g gravity (control, n = 98) and simulated microgravity (smg, n = 136). After 16 hours cultured, the percentage of different phenotypes were analyzed. Little unordered MTs means that there were little unordered microtubules attached to the chromosomes. Unseen MTs means that there were no obvious microtubules attached to chromosomes. This experiment was repeated 3 times. Different letters denote statistical differences between groups. a vs b, P&lt;0.01; c vs d, P&lt;0.05.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0022214.g002"/>
+                </fig>
+                <p>γ-Tubulin is essential for microtubule nucleation and spindle formation during mouse oocyte meiosis <xref rid="pone.0022214-Meng1" ref-type="bibr">[16]</xref>, <xref rid="pone.0022214-RaynaudMessina1" ref-type="bibr">[17]</xref>. To determine whether the microtubules disorganized by simulated microgravity was the result of the γ-tubulin disorder, we detected the γ-tubulin and chromosomes. In 1 g gravity, γ-tubulin were located at both poles of the meiotic spindle (<xref ref-type="fig" rid="pone-0022214-g003">Fig. 3A, a–c</xref>). Compared to the control, the abnormal γ-tubulin concentrated into dots located around the chromosomes after a 6-hour culture (<xref ref-type="fig" rid="pone-0022214-g003">Fig. 3A, d</xref>). At 9 hours, γ-tubulin dotted in cytoplasm markedly (<xref ref-type="fig" rid="pone-0022214-g003">Fig. 3A, e</xref>). At the end of the culture, γ-tubulin concentrated into two dots and located in the cytoplasm far away the condensing chromosomes (<xref ref-type="fig" rid="pone-0022214-g003">Fig. 3A, f</xref>). The percentage of abnormal γ-tubulin was increased in simulated microgravity along with prolonging culture time (<xref ref-type="fig" rid="pone-0022214-g003">Fig. 3B</xref>).</p>
+                <fig id="pone-0022214-g003" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0022214.g003</object-id>
+                  <label>Figure 3</label>
+                  <caption>
+                    <title>Simulated microgravity disorders γ-tubulin in mouse oocytes.</title>
+                    <p>A. Location of γ-tubulin in mouse oocytes during meiosis cultured at different stages under 1 g gravity (a–c) and simulated microgravity (d–f).At 6 (a), 9 (b) and 16 (c) hours, γ-Tubulin accumulated at the spindle poles. d) At 6 hours, γ-Tubulin aggregated around the chromosomes. e) At 9 hours, γ-Tubulin dotted in cytoplasm markedly. f) At 16 hours, γ-Tubulin concentrated into two dots and located in the cytoplasm far away chromosomes. Blue = chromosomes, green = γ-tubulin. Each experiment was replicated 3 times with a minimum of 18 oocytes each group. B. Percent of disorder γ-tubulin configuration in mouse oocytes cultured at different time points under 1 g (control) and simulated microgravity (smg). At 6 h, n = 60(control), n = 91(smg). At 9 h, n = 79(control), n = 128(smg). At 16 h, n = 84(control), n = 117(smg). Every time point experiment was repeated 3 times. Different letters denote statistical differences between groups. a vs b, P&lt;0.01; c vs d, P&lt;0.05.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0022214.g003"/>
+                </fig>
+                <p>The incidence of abnormal γ-tubulin and the disrupted microtubules suggested that the failure of microtubules organization was the results of the γ-tubulin disorder.</p>
+              </sec>
+              <sec id="s3c">
+                <title>The function and organization of microfilaments were not disrupted by simulated microgravity</title>
+                <p>Microfilaments are critical for the migration of meiotic spindle and chromosomes toward the periphery of oocytes <xref rid="pone.0022214-Calarco1" ref-type="bibr">[18]</xref>, <xref rid="pone.0022214-Bezanilla1" ref-type="bibr">[19]</xref>. On the other hand, microfilaments are reorganized when meiotic spindle (actually the chromatin) approaching to form a special structure named actin cap, which marks the site of polar body extrusion <xref rid="pone.0022214-Sun1" ref-type="bibr">[20]</xref>, <xref rid="pone.0022214-Verlhac1" ref-type="bibr">[21]</xref>.</p>
+                <p>In this study, we found the chromatins, whether integrated with microtubules or not, were able to migrate to the oocyte periphery under microgravity condition (<xref ref-type="fig" rid="pone-0022214-g002">Fig. 2A,d and 2A,e</xref>), indicating the microfilaments network responsible for spindle or chromatins movement was still functional when gravity was reduced. At the same time, chromatins could also induce microfilaments rearrangement to form actin caps (<xref ref-type="fig" rid="pone-0022214-g004">Fig. 4c, 4d and 4e</xref>), showing the organization of microfilaments was not disrupted by simulated microgravity.</p>
+                <fig id="pone-0022214-g004" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0022214.g004</object-id>
+                  <label>Figure 4</label>
+                  <caption>
+                    <title>Simulated microgravity does not disorder microfilaments organization and function in mouse oocytes.</title>
+                    <p>Immunofluorescence localization of microfilaments (red) in mouse oocytes cultured at 16 hours under 1 g gravity (a, b) and simulated microgravity (c, d, e). a) Microfilaments formed the actins cap, the bright red stain area near the chromosomes (blue). Chromosomes arranged on the plate. b) Oocyte extruded first polar body, microfilaments aggregated in the cortex. c) Microfilaments formed actins cap near the chromosomes. Chromosomes condensed abnormally. d) Oocyte extruded the first polar body. Microfilaments aggregated in the cortex. e) Oocyte formed a protrusion with microfilaments aggregated in the oolemma near the abnormal chromosomes. Scale bar = 10 µm.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0022214.g004"/>
+                </fig>
+                <p>Our results show that even though most oocytes failed to mature and microtubules were disorganized in simulated microgravity, the main function and organization of microfilaments was not pronouncedly affected.</p>
+              </sec>
+              <sec id="s3d">
+                <title>Simulated microgravity induces cytoplasmic blebbing</title>
+                <p>Interestingly, in our study, 12.96%±3.24% (n = 1,726) oocytes cultured under microgravity exhibited a distinct but less-defined phenotype, which is marked by many cytoplasmic micro-protrusions around the oocyte (<xref ref-type="fig" rid="pone-0022214-g005">Fig. 5B,a</xref>). Under 1 g gravity, however, we rarely observed this phenotype. We also detected the chromatins, microtubules and microfilaments of these oocytes with inmunofluorescence. The concentrated chromosomes were close to the membrane without obvious spindle microtubules (<xref ref-type="fig" rid="pone-0022214-g005">Fig. 5A,a</xref>). It also suggests that the microtubules aggregation was disrupted in these blebbing oocytes by simulated microgravity. The microfilaments immunofluorescence showed microfilaments present near the chromosomes and around the blebs in the oolemma and the actin cap was not markedly (<xref ref-type="fig" rid="pone-0022214-g005">Fig. 5A, b</xref>). The chromosomes condensation, spindle aberration and cytoplasmic blebbing indicated that failure of meiosis I was because of the failed karyokinesis but not the failed cytokinesis.</p>
+                <fig id="pone-0022214-g005" position="float">
+                  <object-id pub-id-type="doi">10.1371/journal.pone.0022214.g005</object-id>
+                  <label>Figure 5</label>
+                  <caption>
+                    <title>Simulated microgravity induces mouse oocytes cytoplasmic blebbing.</title>
+                    <p>Morphology of mouse oocytes with blebs in the perivitelline space cultured in simulated microgravity. A. a) Immunodetection of microtubules (green) and DNA (blue) in blebbing oocytes. b) Immunodetection of microfilaments (red) and DNA (blue) in blebbing oocytes. B. a) An oocyte cultured in simulated microgravity with many cytoplasmic blebs in the perivitelline space (arrow) under normal light microscopy. b) Morphology of oocyte with cytoplasmic blebs in the perivitelline space under transmission electron microscopy. Blebs protruded from the cytoplasm (asterisks) and a free bleb released from the cytoplasm (arrow). c) The ultrastructure of protruded bleb. The blebs do not appear to contain structures other than components of the cytoplasm, and microvilli around the bleb. d) The free bleb in the perivitelline space with microvilli around it. The components of the bleb are identical with the components of the cytoplasm.</p>
+                  </caption>
+                  <graphic xlink:href="pone.0022214.g005"/>
+                </fig>
+                <p>To further characterize these blebs, we examined the oocytes by transmission electron microscopy. Blebs are actually projections of the oocyte cytoplasm, and some blebs are detached from the cytoplasm (<xref ref-type="fig" rid="pone-0022214-g005">Fig. 5B, b</xref>). No special ultrastructures were observed in the cytoplasmic blebs(<xref ref-type="fig" rid="pone-0022214-g005">Fig. 5B, c–d</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="s4">
+              <title>Discussion</title>
+              <p>Reproductive functions are changed by microgravity, for example, decreased gravity causes decreases in sperm counts and plasma FSH in males <xref rid="pone.0022214-Sapp1" ref-type="bibr">[22]</xref>, <xref rid="pone.0022214-Deaver1" ref-type="bibr">[23]</xref>, <xref rid="pone.0022214-Nichiporuk1" ref-type="bibr">[24]</xref> and increases in abortion and changes in maternal behavior <xref rid="pone.0022214-Gharbi1" ref-type="bibr">[25]</xref>, <xref rid="pone.0022214-Ronca1" ref-type="bibr">[26]</xref>. At the cellular and subcellular levels, microgravity changes cell structure, metabolism, behavior and survival <xref rid="pone.0022214-Lewis1" ref-type="bibr">[27]</xref>, <xref rid="pone.0022214-HughesFulford1" ref-type="bibr">[28]</xref>. In ground-based studies, the random positioning machine (PRM, a 3D clinostat system), and RCCS are commonly used to simulated microgravity condition. In addition to simulate microgravity, RCCS can be used to generate shear stress to cultured cells <xref rid="pone.0022214-Xie1" ref-type="bibr">[29]</xref>. Microgravity condition simulated by RCCS promotes spermatocytes entry into the first meiotic division <xref rid="pone.0022214-Pellegrini1" ref-type="bibr">[30]</xref>. In this study, we used the RCCS to simulated microgravity and examined the effects of simulated microgravity on mouse oocytes maturation. Even though microgravity has no effect on the resumption of meiosis or microfilament organization and functions, microgravity profoundly inhibited the polar body extrusion by disrupting the organization of microtubules. As the γ-tubulin is essential for regulating microtubule dynamics and the abnormal distribution of γ-tubulin in simulated microgravity, we speculated that the disorganization of microtubules in simulated microgravity even not all but partially was the results of the disorder of γ-tubulin.</p>
+              <p>Microtubules are essential component of meiotic spindle, which manages polar body extrusion and distributes genetic materials equally into the polar body and the remaining oocyte. Microtubule nucleation is initiated from γ-tubulin and disrupted γ-tubulin promotes spindle microtubule disorganization <xref rid="pone.0022214-RaynaudMessina1" ref-type="bibr">[17]</xref>, <xref rid="pone.0022214-Zimmerman1" ref-type="bibr">[31]</xref>. As the oocytes begin to mature, microtubules polymerize around the chromosomes and eventually assemble into the meiotic spindle. Previous studies have showed that microtubule self-organization is gravity-dependent. For human lymphocytes (Jurkat), human epithelial cells (MCF-7), human thyroid carcinoma cells, and swine testicular cells <xref rid="pone.0022214-Lewis1" ref-type="bibr">[27]</xref>, <xref rid="pone.0022214-Vassy2" ref-type="bibr">[32]</xref>, <xref rid="pone.0022214-Infanger1" ref-type="bibr">[33]</xref>, <xref rid="pone.0022214-Strollo1" ref-type="bibr">[34]</xref>, microtubule organizations under simulated microgravity conditions were substantially reduced compared with those under 1 g conditions. In our study, normal meiotic spindles were formed in mouse oocytes under 1 g gravity. But most oocytes cultured in simulated microgravity formed abnormal spindles with few microtubules. Knockdown of γ-tubulin by siRNA in mouse oocytes resulted in smaller spindles with misaligned chromosomes <xref rid="pone.0022214-Barrett1" ref-type="bibr">[35]</xref>. In this study, the organization of γ-tubulin was disordered in simulated microgravity, which induced the failure of aggregation of microtubules and resulted in abnormal spindle. The results indicate that the microtubule polymerization and organization of mouse oocytes was disrupted by simulated microgravity and resulted in the malformation of intact meiotic spindles. Although the chromosomes migration was not inhibited by simulated microgravity most likely through the actions of microfilaments, the homologous chromosomes can not separate without the function of spindle microtubules. So the oocyte maturation was inhibited by the simulated microgravity through disordered γ-tubulin microtubules organization and disrupting meiotic spindle assembly.</p>
+              <p>During maturation the oocytes develop cell polarity, which is required for asymmetric cell divisions to extrude polar bodies. Microfilaments are required for chromosomes or spindle migration to the cortex of oocytes and are essential for oocyte polarization. A gravity sensitivity of the actin cytoskeleton has been reported on mouse MC 3T3-E1 osteoblasts <xref rid="pone.0022214-Vassy2" ref-type="bibr">[32]</xref> and human breast cancer MCF-7 cells <xref rid="pone.0022214-HughesFulford2" ref-type="bibr">[36]</xref>. Therefore, we supposed that the oocytes might not polarize themselves under microgravity condition. However, our results showed that the function and organization of microfilaments had not been disrupted by simulated microgravity. Chromosomes could still migrate to oocyte periphery and could induce cortical reorganization of microfilaments to form actin caps as normal gravity. Our results were in accord with the researches on J-111 cells and human SH-SY5Y neuroblastoma, in which cells microfilaments are not affected by microgravity <xref rid="pone.0022214-Meloni1" ref-type="bibr">[37]</xref>, <xref rid="pone.0022214-Rosner1" ref-type="bibr">[38]</xref>. We reasoned that in different cells types there might be different sensitivities of microfilaments in response to microgravity, or that different cells switch on and off different pathways to react microgravity.</p>
+              <p>One important finding in our study is that simulated microgravity induces cytoplasmic micro-protrusions of maturing oocytes. 12.96%±3.2% (n = 1,726) oocytes cultured under simulated microgravity were induced cytoplasmic blebbing. This phenotype was rarely observed in 1 g gravity. Until now, available data concerning structural changes during mouse oocyte maturation in simulated microgravity were relatively scarce. Choroidal epithelial cells appear cytoplasmic extensions on apical surface, partial loss of cell polarization in weightlessness and induced alteration in the fine structure of choroids plexus <xref rid="pone.0022214-Gabrion1" ref-type="bibr">[39]</xref>. This was the only one study with cytoplasmic extension in weightlessness we can search. The actin cap was not remarkably in these blebbing oocytes should be because at around anaphase I, oocytes without normal spindle structure can not released from SAC, and microfilaments of actin cap spreaded to the whole oocytes membrane, then induced the cytoplasmic blebbing.</p>
+              <p>Some animals studies had been conducted on the effect of microgravity on female reproduction, most of these studies focused on the fertilization, embryo development and pregnancy. Fertilization can occur normally under microgravity and preimplantation embryo development might require 1 g environment <xref rid="pone.0022214-Wakayama1" ref-type="bibr">[6]</xref>, <xref rid="pone.0022214-Chang1" ref-type="bibr">[15]</xref>. Rats kept in space during the latter half of their pregnancies are able to support the growth and development of their gestating offspring <xref rid="pone.0022214-Burden1" ref-type="bibr">[40]</xref>, <xref rid="pone.0022214-Ronca2" ref-type="bibr">[41]</xref>. As female astronauts suppress their menstrual cycles during spaceflight <xref rid="pone.0022214-Jennings1" ref-type="bibr">[42]</xref>, relatively little is known about the effect of spaceflight on female reproduction. Whether the oocyte maturation and ovulation are normal during female astronauts in weightlessness is still unclear. Here, our observations suggest that oocytes maturation were compromised under simulated microgravity environment.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <p>The authors wish to thank Dr. Ching-Chien Chang (Reproductive Biology Associates, Atlanta, USA), Wei-Su (South China Agricultural University, Guangzhou) and Hai-lan Tang (Jinan University, Guangzhou) for technical assistance with laser scanning confocal microscopy.</p>
+            </ack>
+            <fn-group>
+              <fn fn-type="COI-statement">
+                <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+              </fn>
+              <fn fn-type="financial-disclosure">
+                <p><bold>Funding: </bold>The work was supported by National Basic Research Program of China (973 Program, 2010CB945001; 2011CB944202; 2011CB944203) to Shouquan Zhang. The funders had no role in study design, date collection and analysis, decision to publish, or preparation of the manuscript.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>References</title>
+              <ref id="pone.0022214-Graebe1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Graebe</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuck</surname>
+                      <given-names>EL</given-names>
+                    </name>
+                    <name>
+                      <surname>Lensing</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Putcha</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Derendorf</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Physiological, pharmacokinetic, and pharmacodynamic changes in space.</article-title>
+                  <source>J Clin Pharmacol</source>
+                  <volume>44</volume>
+                  <fpage>837</fpage>
+                  <lpage>853</lpage>
+                  <pub-id pub-id-type="pmid">15286087</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-White1">
+                <label>2</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>White</surname>
+                      <given-names>RJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Averner</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>Humans in space.</article-title>
+                  <source>Nature</source>
+                  <volume>409</volume>
+                  <fpage>1115</fpage>
+                  <lpage>1118</lpage>
+                  <pub-id pub-id-type="pmid">11234026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Zayzafoon1">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zayzafoon</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Meyers</surname>
+                      <given-names>VE</given-names>
+                    </name>
+                    <name>
+                      <surname>McDonald</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <year>2005</year>
+                  <article-title>Microgravity: the immune response and bone.</article-title>
+                  <source>Immunol Rev</source>
+                  <volume>208</volume>
+                  <fpage>267</fpage>
+                  <lpage>280</lpage>
+                  <pub-id pub-id-type="pmid">16313354</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-PurevdorjGage1">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Purevdorj-Gage</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Sheehan</surname>
+                      <given-names>KB</given-names>
+                    </name>
+                    <name>
+                      <surname>Hyman</surname>
+                      <given-names>LE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Effects of low-shear modeled microgravity on cell function, gene expression, and phenotype in Saccharomyces cerevisiae.</article-title>
+                  <source>Appl Environ Microbiol</source>
+                  <volume>72</volume>
+                  <fpage>4569</fpage>
+                  <lpage>4575</lpage>
+                  <pub-id pub-id-type="pmid">16820445</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Tou1">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tou</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Ronca</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Grindeland</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Wade</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <year>2002</year>
+                  <article-title>Models to study gravitational biology of Mammalian reproduction.</article-title>
+                  <source>Biol Reprod</source>
+                  <volume>67</volume>
+                  <fpage>1681</fpage>
+                  <lpage>1687</lpage>
+                  <pub-id pub-id-type="pmid">12444041</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Wakayama1">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wakayama</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamagata</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuge</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2009</year>
+                  <article-title>Detrimental effects of microgravity on mouse preimplantation development in vitro.</article-title>
+                  <source>PLoS One</source>
+                  <volume>4</volume>
+                  <fpage>e6753</fpage>
+                  <pub-id pub-id-type="pmid">19707597</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Ingber1">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ingber</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <year>1999</year>
+                  <article-title>How cells (might) sense microgravity.</article-title>
+                  <source>FASEB J</source>
+                  <volume>13</volume>
+                  <issue>Suppl</issue>
+                  <fpage>S3</fpage>
+                  <lpage>15</lpage>
+                  <pub-id pub-id-type="pmid">10352140</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Maiato1">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Maiato</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Sampaio</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Sunkel</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Microtubule-associated proteins and their essential roles during mitosis.</article-title>
+                  <source>Int Rev Cytol</source>
+                  <volume>241</volume>
+                  <fpage>53</fpage>
+                  <lpage>153</lpage>
+                  <pub-id pub-id-type="pmid">15548419</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-KlineSmith1">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kline-Smith</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Walczak</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Mitotic spindle assembly and chromosome segregation: refocusing on microtubule dynamics.</article-title>
+                  <source>Mol Cell</source>
+                  <volume>15</volume>
+                  <fpage>317</fpage>
+                  <lpage>327</lpage>
+                  <pub-id pub-id-type="pmid">15304213</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Vassy1">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vassy</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Portet</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Beil</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Millot</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Fauvel-Lafeve</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2003</year>
+                  <article-title>Weightlessness acts on human breast cancer cell line MCF-7.</article-title>
+                  <source>Adv Space Res</source>
+                  <volume>32</volume>
+                  <fpage>1595</fpage>
+                  <lpage>1603</lpage>
+                  <pub-id pub-id-type="pmid">15002416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Higashibata1">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Higashibata</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Imamizo-Sato</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Seki</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamazaki</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Ishioka</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Influence of simulated microgravity on the activation of the small GTPase Rho involved in cytoskeletal formation–molecular cloning and sequencing of bovine leukemia-associated guanine nucleotide exchange factor.</article-title>
+                  <source>BMC Biochem</source>
+                  <volume>7</volume>
+                  <fpage>19</fpage>
+                  <pub-id pub-id-type="pmid">16803636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Schwarz1">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schwarz</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Goodwin</surname>
+                      <given-names>TJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Wolf</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <year>1992</year>
+                  <article-title>Cell culture for three-dimensional modeling in rotating-wall vessels: an application of simulated microgravity.</article-title>
+                  <source>J Tissue Cult Methods</source>
+                  <volume>14</volume>
+                  <fpage>51</fpage>
+                  <lpage>57</lpage>
+                  <pub-id pub-id-type="pmid">11541102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Nickerson1">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nickerson</surname>
+                      <given-names>CA</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <name>
+                      <surname>Ramamurthy</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>LeBlanc</surname>
+                      <given-names>CL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2003</year>
+                  <article-title>Low-shear modeled microgravity: a global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis.</article-title>
+                  <source>J Microbiol Methods</source>
+                  <volume>54</volume>
+                  <fpage>1</fpage>
+                  <lpage>11</lpage>
+                  <pub-id pub-id-type="pmid">12732416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Carabatsos1">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Carabatsos</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Combelles</surname>
+                      <given-names>CM</given-names>
+                    </name>
+                    <name>
+                      <surname>Messinger</surname>
+                      <given-names>SM</given-names>
+                    </name>
+                    <name>
+                      <surname>Albertini</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <year>2000</year>
+                  <article-title>Sorting and reorganization of centrosomes during oocyte maturation in the mouse.</article-title>
+                  <source>Microsc Res Tech</source>
+                  <volume>49</volume>
+                  <fpage>435</fpage>
+                  <lpage>444</lpage>
+                  <pub-id pub-id-type="pmid">10842370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Chang1">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>CC</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagy</surname>
+                      <given-names>ZP</given-names>
+                    </name>
+                    <name>
+                      <surname>Abdelmassih</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Interactions of the meiotic spindle with mitotic chromosomes in GV mouse oocytes.</article-title>
+                  <source>Reprod Biomed Online</source>
+                  <volume>13</volume>
+                  <fpage>213</fpage>
+                  <lpage>221</lpage>
+                  <pub-id pub-id-type="pmid">16895635</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Meng1">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meng</surname>
+                      <given-names>XQ</given-names>
+                    </name>
+                    <name>
+                      <surname>Fan</surname>
+                      <given-names>HY</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>ZS</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>YL</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Localization of gamma-tubulin in mouse eggs during meiotic maturation, fertilization, and early embryonic development.</article-title>
+                  <source>J Reprod Dev</source>
+                  <volume>50</volume>
+                  <fpage>97</fpage>
+                  <lpage>105</lpage>
+                  <pub-id pub-id-type="pmid">15007207</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-RaynaudMessina1">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Raynaud-Messina</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Merdes</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <year>2007</year>
+                  <article-title>Gamma-tubulin complexes and microtubule organization.</article-title>
+                  <source>Curr Opin Cell Biol</source>
+                  <volume>19</volume>
+                  <fpage>24</fpage>
+                  <lpage>30</lpage>
+                  <pub-id pub-id-type="pmid">17178454</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Calarco1">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Calarco</surname>
+                      <given-names>PG</given-names>
+                    </name>
+                  </person-group>
+                  <year>2005</year>
+                  <article-title>The role of microfilaments in early meiotic maturation of mouse oocytes.</article-title>
+                  <source>Microsc Microanal</source>
+                  <volume>11</volume>
+                  <fpage>146</fpage>
+                  <lpage>153</lpage>
+                  <pub-id pub-id-type="pmid">15817144</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Bezanilla1">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bezanilla</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wadsworth</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <year>2009</year>
+                  <article-title>Spindle positioning: actin mediates pushing and pulling.</article-title>
+                  <source>Curr Biol</source>
+                  <volume>19</volume>
+                  <fpage>R168</fpage>
+                  <lpage>169</lpage>
+                  <pub-id pub-id-type="pmid">19243693</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Sun1">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>QY</given-names>
+                    </name>
+                    <name>
+                      <surname>Lai</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Park</surname>
+                      <given-names>KW</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuhholzer</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Prather</surname>
+                      <given-names>RS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>Dynamic events are differently mediated by microfilaments, microtubules, and mitogen-activated protein kinase during porcine oocyte maturation and fertilization in vitro.</article-title>
+                  <source>Biol Reprod</source>
+                  <volume>64</volume>
+                  <fpage>879</fpage>
+                  <lpage>889</lpage>
+                  <pub-id pub-id-type="pmid">11207204</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Verlhac1">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Verlhac</surname>
+                      <given-names>MH</given-names>
+                    </name>
+                    <name>
+                      <surname>Lefebvre</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Guillaud</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Rassinier</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Maro</surname>
+                      <given-names>B</given-names>
+                    </name>
+                  </person-group>
+                  <year>2000</year>
+                  <article-title>Asymmetric division in mouse oocytes: with or without Mos.</article-title>
+                  <source>Curr Biol</source>
+                  <volume>10</volume>
+                  <fpage>1303</fpage>
+                  <lpage>1306</lpage>
+                  <pub-id pub-id-type="pmid">11069114</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Sapp1">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sapp</surname>
+                      <given-names>WJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Philpott</surname>
+                      <given-names>DE</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>CS</given-names>
+                    </name>
+                    <name>
+                      <surname>Kato</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Stevenson</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1990</year>
+                  <article-title>Effects of spaceflight on the spermatogonial population of rat seminiferous epithelium.</article-title>
+                  <source>FASEB J</source>
+                  <volume>4</volume>
+                  <fpage>101</fpage>
+                  <lpage>104</lpage>
+                  <pub-id pub-id-type="pmid">2295370</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Deaver1">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Deaver</surname>
+                      <given-names>DR</given-names>
+                    </name>
+                    <name>
+                      <surname>Amann</surname>
+                      <given-names>RP</given-names>
+                    </name>
+                    <name>
+                      <surname>Hammerstedt</surname>
+                      <given-names>RH</given-names>
+                    </name>
+                    <name>
+                      <surname>Ball</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Veeramachaneni</surname>
+                      <given-names>DN</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1992</year>
+                  <article-title>Effects of caudal elevation on testicular function in rats. Separation of effects on spermatogenesis and steroidogenesis.</article-title>
+                  <source>J Androl</source>
+                  <volume>13</volume>
+                  <fpage>224</fpage>
+                  <lpage>231</lpage>
+                  <pub-id pub-id-type="pmid">1351049</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Nichiporuk1">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nichiporuk</surname>
+                      <given-names>IA</given-names>
+                    </name>
+                    <name>
+                      <surname>Evdokimov</surname>
+                      <given-names>VV</given-names>
+                    </name>
+                    <name>
+                      <surname>Erasova</surname>
+                      <given-names>VI</given-names>
+                    </name>
+                    <name>
+                      <surname>Smirnov</surname>
+                      <given-names>OA</given-names>
+                    </name>
+                    <name>
+                      <surname>Goncharova</surname>
+                      <given-names>AG</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1998</year>
+                  <article-title>Male reproductive system in conditions of bed-rest in a head-down tilt.</article-title>
+                  <source>J Gravit Physiol</source>
+                  <volume>5</volume>
+                  <fpage>P101</fpage>
+                  <lpage>102</lpage>
+                  <pub-id pub-id-type="pmid">11542307</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Gharbi1">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gharbi</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>El Fazaa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Fagette</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Gauquelin</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Gharib</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1996</year>
+                  <article-title>Cortico-adrenal function under simulated weightlessness during gestation in the rat–effects on fetal development.</article-title>
+                  <source>J Gravit Physiol</source>
+                  <volume>3</volume>
+                  <fpage>63</fpage>
+                  <lpage>68</lpage>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Ronca1">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ronca</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>Altered gravity effects on mothers and offspring: the importance of maternal behavior.</article-title>
+                  <source>J Gravit Physiol</source>
+                  <volume>8</volume>
+                  <fpage>P133</fpage>
+                  <lpage>136</lpage>
+                  <pub-id pub-id-type="pmid">12650203</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Lewis1">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                    <name>
+                      <surname>Reynolds</surname>
+                      <given-names>JL</given-names>
+                    </name>
+                    <name>
+                      <surname>Cubano</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                    <name>
+                      <surname>Hatton</surname>
+                      <given-names>JP</given-names>
+                    </name>
+                    <name>
+                      <surname>Lawless</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1998</year>
+                  <article-title>Spaceflight alters microtubules and increases apoptosis in human lymphocytes (Jurkat).</article-title>
+                  <source>FASEB J</source>
+                  <volume>12</volume>
+                  <fpage>1007</fpage>
+                  <lpage>1018</lpage>
+                  <pub-id pub-id-type="pmid">9707173</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-HughesFulford1">
+                <label>28</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2003</year>
+                  <article-title>Function of the cytoskeleton in gravisensing during spaceflight.</article-title>
+                  <source>Adv Space Res</source>
+                  <volume>32</volume>
+                  <fpage>1585</fpage>
+                  <lpage>1593</lpage>
+                  <pub-id pub-id-type="pmid">15002415</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Xie1">
+                <label>29</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhong</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Puscheck</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Shear stress induces preimplantation embryo death that is delayed by the zona pellucida and associated with stress-activated protein kinase-mediated apoptosis.</article-title>
+                  <source>Biol Reprod</source>
+                  <volume>75</volume>
+                  <fpage>45</fpage>
+                  <lpage>55</lpage>
+                  <pub-id pub-id-type="pmid">16571875</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Pellegrini1">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pellegrini</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Siena</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Claps</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Cesare</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Dolci</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2010</year>
+                  <article-title>Microgravity promotes differentiation and meiotic entry of postnatal mouse male germ cells.</article-title>
+                  <source>PLoS One</source>
+                  <volume>5</volume>
+                  <fpage>e9064</fpage>
+                  <pub-id pub-id-type="pmid">20140225</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Zimmerman1">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zimmerman</surname>
+                      <given-names>WC</given-names>
+                    </name>
+                    <name>
+                      <surname>Sillibourne</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Rosa</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Doxsey</surname>
+                      <given-names>SJ</given-names>
+                    </name>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Mitosis-specific anchoring of gamma tubulin complexes by pericentrin controls spindle organization and mitotic entry.</article-title>
+                  <source>Mol Biol Cell</source>
+                  <volume>15</volume>
+                  <fpage>3642</fpage>
+                  <lpage>3657</lpage>
+                  <pub-id pub-id-type="pmid">15146056</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Vassy2">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vassy</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Portet</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Beil</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Millot</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Fauvel-Lafeve</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2001</year>
+                  <article-title>The effect of weightlessness on cytoskeleton architecture and proliferation of human breast cancer cell line MCF-7.</article-title>
+                  <source>FASEB J</source>
+                  <volume>15</volume>
+                  <fpage>1104</fpage>
+                  <lpage>1106</lpage>
+                  <pub-id pub-id-type="pmid">11292682</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Infanger1">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Kossmehl</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Shakibaei</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kossmehl-Zorn</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Simulated weightlessness changes the cytoskeleton and extracellular matrix proteins in papillary thyroid carcinoma cells.</article-title>
+                  <source>Cell Tissue Res</source>
+                  <volume>324</volume>
+                  <fpage>267</fpage>
+                  <lpage>277</lpage>
+                  <pub-id pub-id-type="pmid">16432709</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Strollo1">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strollo</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Masini</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Pastorino</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Ricci</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Vadrucci</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>2004</year>
+                  <article-title>Microgravity-induced alterations in cultured testicular cells.</article-title>
+                  <source>J Gravit Physiol</source>
+                  <volume>11</volume>
+                  <fpage>P187</fpage>
+                  <lpage>188</lpage>
+                  <pub-id pub-id-type="pmid">16237831</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Barrett1">
+                <label>35</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barrett</surname>
+                      <given-names>SL</given-names>
+                    </name>
+                    <name>
+                      <surname>Albertini</surname>
+                      <given-names>DF</given-names>
+                    </name>
+                  </person-group>
+                  <year>2007</year>
+                  <article-title>Allocation of gamma-tubulin between oocyte cortex and meiotic spindle influences asymmetric cytokinesis in the mouse oocyte.</article-title>
+                  <source>Biol Reprod</source>
+                  <volume>76</volume>
+                  <fpage>949</fpage>
+                  <lpage>957</lpage>
+                  <pub-id pub-id-type="pmid">17287496</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-HughesFulford2">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughes-Fulford</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Lewis</surname>
+                      <given-names>ML</given-names>
+                    </name>
+                  </person-group>
+                  <year>1996</year>
+                  <article-title>Effects of microgravity on osteoblast growth activation.</article-title>
+                  <source>Exp Cell Res</source>
+                  <volume>224</volume>
+                  <fpage>103</fpage>
+                  <lpage>109</lpage>
+                  <pub-id pub-id-type="pmid">8612673</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Meloni1">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meloni</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Galleri</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Pippia</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Cogoli-Greuter</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Cytoskeleton changes and impaired motility of monocytes at modelled low gravity.</article-title>
+                  <source>Protoplasma</source>
+                  <volume>229</volume>
+                  <fpage>243</fpage>
+                  <lpage>249</lpage>
+                  <pub-id pub-id-type="pmid">17180508</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Rosner1">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rosner</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Wassermann</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Moller</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Hanke</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <year>2006</year>
+                  <article-title>Effects of altered gravity on the actin and microtubule cytoskeleton of human SH-SY5Y neuroblastoma cells.</article-title>
+                  <source>Protoplasma</source>
+                  <volume>229</volume>
+                  <fpage>225</fpage>
+                  <lpage>234</lpage>
+                  <pub-id pub-id-type="pmid">17180506</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Gabrion1">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gabrion</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Maurel</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Clavel</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Davet</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Fareh</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <year>1996</year>
+                  <article-title>Changes in apical organization of choroidal cells in rats adapted to spaceflight or head-down tilt.</article-title>
+                  <source>Brain Res</source>
+                  <volume>734</volume>
+                  <fpage>301</fpage>
+                  <lpage>315</lpage>
+                  <pub-id pub-id-type="pmid">8896838</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Burden1">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Burden</surname>
+                      <given-names>HW</given-names>
+                    </name>
+                    <name>
+                      <surname>Zary</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Alberts</surname>
+                      <given-names>JR</given-names>
+                    </name>
+                  </person-group>
+                  <year>1999</year>
+                  <article-title>Effects of space flight on the immunohistochemical demonstration of connexin 26 and connexin 43 in the postpartum uterus of rats.</article-title>
+                  <source>J Reprod Fertil</source>
+                  <volume>116</volume>
+                  <fpage>229</fpage>
+                  <lpage>234</lpage>
+                  <pub-id pub-id-type="pmid">10615247</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Ronca2">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ronca</surname>
+                      <given-names>AE</given-names>
+                    </name>
+                  </person-group>
+                  <year>2003</year>
+                  <article-title>Mammalian development in space.</article-title>
+                  <source>Adv Space Biol Med</source>
+                  <volume>9</volume>
+                  <fpage>217</fpage>
+                  <lpage>251</lpage>
+                  <pub-id pub-id-type="pmid">14631635</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="pone.0022214-Jennings1">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jennings</surname>
+                      <given-names>RT</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>ES</given-names>
+                    </name>
+                  </person-group>
+                  <year>2000</year>
+                  <article-title>Gynecological and reproductive issues for women in space: a review.</article-title>
+                  <source>Obstet Gynecol Surv</source>
+                  <volume>55</volume>
+                  <fpage>109</fpage>
+                  <lpage>116</lpage>
+                  <pub-id pub-id-type="pmid">10674254</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

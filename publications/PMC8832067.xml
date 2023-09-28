@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:48:58Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8832067" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8832067</identifier>
+        <datestamp>2022-02-12</datestamp>
+        <setSpec>frontphysiol</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Physiol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Physiol</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Physiol.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Physiology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1664-042X</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8832067</article-id>
+              <article-id pub-id-type="pmcid">PMC8832067</article-id>
+              <article-id pub-id-type="pmc-uid">8832067</article-id>
+              <article-id pub-id-type="pmid">35153834</article-id>
+              <article-id pub-id-type="doi">10.3389/fphys.2022.806357</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Physiology</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Crash Prediction Using Deep Learning in a Disorienting Spaceflight Analog Balancing Task</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wang</surname>
+                    <given-names>Yonglin</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="fn002" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1630817/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tang</surname>
+                    <given-names>Jie</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="fn002" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1541156/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Vimal</surname>
+                    <given-names>Vivekanand Pandey</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="c001" ref-type="corresp">
+                    <sup>*</sup>
+                  </xref>
+                  <xref rid="fn002" ref-type="author-notes">
+                    <sup>†</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1444221/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lackner</surname>
+                    <given-names>James R.</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1023024/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>DiZio</surname>
+                    <given-names>Paul</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">
+                    <sup>2</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <xref rid="aff4" ref-type="aff">
+                    <sup>4</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/183962/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Hong</surname>
+                    <given-names>Pengyu</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">
+                    <sup>1</sup>
+                  </xref>
+                  <xref rid="aff3" ref-type="aff">
+                    <sup>3</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/307608/overview"/>
+                </contrib>
+              </contrib-group>
+              <aff id="aff1"><sup>1</sup><institution>Computer Science Department, Brandeis University</institution>, <addr-line>Waltham, MA</addr-line>, <country>United States</country></aff>
+              <aff id="aff2"><sup>2</sup><institution>Ashton Graybiel Spatial Orientation Laboratory, Brandeis University</institution>, <addr-line>Waltham, MA</addr-line>, <country>United States</country></aff>
+              <aff id="aff3"><sup>3</sup><institution>Volen Center for Complex Systems, Brandeis University</institution>, <addr-line>Waltham, MA</addr-line>, <country>United States</country></aff>
+              <aff id="aff4"><sup>4</sup><institution>Psychology Department, Brandeis University</institution>, <addr-line>Waltham, MA</addr-line>, <country>United States</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Rahul Goel, San José State University Research Foundation, United States</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Scott Wood, NASA, United States; Ajitkumar Mulavara, KBRwyle, United States; Akshay S. Ravindran, University of Houston, United States</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Vivekanand Pandey Vimal, <email>somde@brandeis.edu</email></corresp>
+                <fn fn-type="equal" id="fn002">
+                  <p><sup>†</sup>These authors have contributed equally to this work and share first authorship</p>
+                </fn>
+                <fn fn-type="other" id="fn004">
+                  <p>This article was submitted to Environmental, Aviation and Space Physiology, a section of the journal Frontiers in Physiology</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>1</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>13</volume>
+              <elocation-id>806357</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>31</day>
+                  <month>10</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>07</day>
+                  <month>1</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2022 Wang, Tang, Vimal, Lackner, DiZio and Hong.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Wang, Tang, Vimal, Lackner, DiZio and Hong</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>Were astronauts forced to land on the surface of Mars using manual control of their vehicle, they would not have familiar gravitational cues because Mars’ gravity is only 0.38 g. They could become susceptible to spatial disorientation, potentially causing mission ending crashes. In our earlier studies, we secured blindfolded participants into a Multi-Axis Rotation System (MARS) device that was programmed to behave like an inverted pendulum. Participants used a joystick to stabilize around the balance point. We created a spaceflight analog condition by having participants dynamically balance in the horizontal roll plane, where they did not tilt relative to the gravitational vertical and therefore could not use gravitational cues to determine their position. We found 90% of participants in our spaceflight analog condition reported spatial disorientation and all of them showed it in their data. There was a high rate of crashing into boundaries that were set at ± 60<sup>°</sup> from the balance point. Our goal was to see whether we could use deep learning to predict the occurrence of crashes before they happened. We used stacked gated recurrent units (GRU) to predict crash events 800 ms in advance with an AUC (area under the curve) value of 99%. When we prioritized reducing false negatives we found it resulted in more false positives. We found that false negatives occurred when participants made destabilizing joystick deflections that rapidly moved the MARS away from the balance point. These unpredictable destabilizing joystick deflections, which occurred in the duration of time after the input data, are likely a result of spatial disorientation. If our model could work in real time, we calculated that immediate human action would result in the prevention of 80.7% of crashes, however, if we accounted for human reaction times (∼400 ms), only 30.3% of crashes could be prevented, suggesting that one solution could be an AI taking temporary control of the spacecraft during these moments.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>spaceflight analog</kwd>
+                <kwd>crash prediction</kwd>
+                <kwd>spatial disorientation (SD)</kwd>
+                <kwd>dynamic balance</kwd>
+                <kwd>vehicle control</kwd>
+                <kwd>deep learning—artificial neural network (DL-ANN)</kwd>
+                <kwd>vestibular</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source id="cn001">
+                    <institution-wrap>
+                      <institution>National Aeronautics and Space Administration</institution>
+                      <institution-id institution-id-type="doi">10.13039/100000104</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id award-type="contract" rid="cn001">NNX16AO69A</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source id="cn002">
+                    <institution-wrap>
+                      <institution>Air Force Office of Scientific Research</institution>
+                      <institution-id institution-id-type="doi">10.13039/100000181</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id award-type="contract" rid="cn002">FA9550-12-1-0395</award-id>
+                </award-group>
+                <award-group>
+                  <funding-source id="cn003">
+                    <institution-wrap>
+                      <institution>National Science Foundation</institution>
+                      <institution-id institution-id-type="doi">10.13039/100000001</institution-id>
+                    </institution-wrap>
+                  </funding-source>
+                  <award-id award-type="contract" rid="cn003">OAC 1920147</award-id>
+                </award-group>
+              </funding-group>
+              <counts>
+                <fig-count count="8"/>
+                <table-count count="4"/>
+                <equation-count count="2"/>
+                <ref-count count="47"/>
+                <page-count count="12"/>
+                <word-count count="8224"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="S1">
+              <title>Introduction</title>
+              <p>Spatial disorientation occurs when pilots have an inaccurate perception of their position, motion or attitude and is caused by a variety of factors (<xref rid="B33" ref-type="bibr">Poisson and Miller, 2014</xref>). Studies have estimated that 90–100% of pilots have experienced it (<xref rid="B25" ref-type="bibr">Newman, 2007</xref>; <xref rid="B13" ref-type="bibr">Gibb et al., 2011</xref>). A majority of fatal aircraft accidents caused by spatial disorientation occur when pilots are unaware that they are disoriented (<xref rid="B4" ref-type="bibr">Braithwaite et al., 1998</xref>). Astronauts will similarly be susceptible to spatial disorientation during gravitational transitions such as when landing on the surface of a planet or the Moon (<xref rid="B38" ref-type="bibr">Shelhamer, 2015</xref>; <xref rid="B6" ref-type="bibr">Clément et al., 2020</xref>) because they will not have access to familiar gravitational cues and they will have previously undergone sensorimotor adaptions to weightlessness which are not fully understood. Long duration spaceflight will also add multiple simultaneous stressors, such as radiation, psychological problems (e.g., isolation, anxiety, depression), physiological changes (cardiovascular, bone, muscle, visual, and vestibular systems), which may heighten the effects of spatial disorientation (<xref rid="B6" ref-type="bibr">Clément et al., 2020</xref>). Despite improvements in technology, rates of spatial disorientation are not significantly reducing (<xref rid="B9" ref-type="bibr">Daiker et al., 2018</xref>). There are very few studies that have attempted to develop an alerting system that can predict crashes when a pilot is disoriented. <xref rid="B9" ref-type="bibr">Daiker et al. (2018)</xref> proposed a proof-of-concept idea for NASA’s Cost Effective Devices for Alerting Research (CEDAR), where they used a model of the vestibular system, aircraft dynamics, and sensors to create a predictive alerting model. Though deep learning has been used successfully in predicting the outcome of manual control errors (<xref rid="B47" ref-type="bibr">Zgonnikova et al., 2016</xref>), no study has used deep learning methods such as artificial neural networks to predict crashes in situations where participants are spatially disoriented. Our study is in line with the NASA Human Research Program Roadmap revised July 2021 (<xref rid="B24" ref-type="bibr">NASA, 2021</xref>) that lists “Sensorimotor Manual Control Countermeasure Development” as a critical task and designates two critical research gaps: (1) “Characterize the effects of short and long-duration weightlessness on manual control (fine motor control) after G transitions.” (SM-102), and (2) “Develop and test manual control countermeasures, such as vibrotactile assistance vest, and other human factors aids” (SM-202). The Roadmap citation describing such countermeasures explicitly mentions the use of AI targeting human-automation task sharing. Attempts to address these gaps under operational spaceflight conditions have been hampered by the limited access to astronauts close to the G transition of landing (<xref rid="B23" ref-type="bibr">Moore et al., 2019</xref>), and the Roadmap explicitly calls for studies like ours with relevant partial analogs.</p>
+              <p>We created a spaceflight analog task that led to disorientation by securing blindfolded participants into our Multi-axis Rotation System Device (MARS) in the horizontal roll plane (<xref rid="F1" ref-type="fig">Figure 1</xref>). In this plane, participants do not tilt relative to the gravitational vertical and as a result cannot use gravity dependent otolith and somatosensory shear forces to obtain a sense of their angular position. To determine their angular position, they can only use motion cues detected by the semicircular canals and rapidly adapting somatosensory receptors. We programmed the MARS with inverted pendulum dynamics because of its relevance to unstable vehicle control. Participants were instructed to use an attached joystick to stabilize themselves around the balance point (θ = 0<sup>°</sup>) (<xref rid="B27" ref-type="bibr">Panic et al., 2015</xref>, <xref rid="B26" ref-type="bibr">2017</xref>; <xref rid="B43" ref-type="bibr">Vimal et al., 2016</xref>, <xref rid="B40" ref-type="bibr">2017</xref>, <xref rid="B44" ref-type="bibr">2018</xref>, <xref rid="B41" ref-type="bibr">2019</xref>). Crash boundaries were set at ± 60<sup>°</sup> from the balance point, and when it was reached the MARS would reset back to the balance point. In this condition, 90% of participants reported spatial disorientation and all of them showed it in their data as a pattern of positional drifting. Compared to the control condition (Vertical Roll Plane, where gravitational cues from tilt were available), the rate of crashes was significantly higher and collectively participants in the horizontal roll plane showed poor performance and minimal learning across trials (<xref rid="B40" ref-type="bibr">Vimal et al., 2017</xref>, <xref rid="B41" ref-type="bibr">2019</xref>). Our goal was to train and compare recurrent neural networks (RNN) and non-RNN deep learning models to predict the occurrence of crashes before they happened in our disorienting spaceflight analog task.</p>
+              <fig position="float" id="F1">
+                <label>FIGURE 1</label>
+                <caption>
+                  <p>MARS in the horizontal roll plane with the balance point at θ = 0°.</p>
+                </caption>
+                <graphic xlink:href="fphys-13-806357-g001" position="float"/>
+              </fig>
+            </sec>
+            <sec sec-type="materials|methods" id="S2">
+              <title>Materials and Methods</title>
+              <sec id="S2.SS1">
+                <title>Data Collection</title>
+                <p>To build the deep learning models we used data from <xref rid="B40" ref-type="bibr">Vimal et al. (2017; 2019; 2020</xref>).</p>
+                <sec id="S2.SS1.SSS1">
+                  <title>Participants</title>
+                  <p>34 healthy adult participants (18 females and 16 males, 20.4 ± 2.0 years old) gave written consent to participate in the experiments approved by the Brandeis Institutional Review Board. In our prior work (<xref rid="B45" ref-type="bibr">Vimal et al., 2020</xref>) we showed that these participants span a large range of learning and performance and could be clustered into three groups: Proficient, Somewhat Proficient and Not Proficient. The Proficient group showed significant learning across trials for majority of our metrics, whereas the Not-Proficient group acquired a suboptimal strategy that led to worsening performance in most metrics over time.</p>
+                </sec>
+                <sec id="S2.SS1.SSS2">
+                  <title>Equipment</title>
+                  <p>The MARS was programmed with inverted pendulum dynamics about a horizontal roll axis (<xref rid="F1" ref-type="fig">Figure 1</xref>) using the equation, <inline-formula><mml:math id="INEQ2" overflow="scroll"><mml:mrow><mml:mover accent="true"><mml:mi mathvariant="normal">θ</mml:mi><mml:mo>¨</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mrow><mml:msub><mml:mtext>k</mml:mtext><mml:mrow><mml:mtext>P</mml:mtext></mml:mrow></mml:msub><mml:mo>⁢</mml:mo><mml:mtext>sin</mml:mtext><mml:mo>⁢</mml:mo><mml:mi mathvariant="normal">θ</mml:mi></mml:mrow></mml:mrow></mml:math></inline-formula>, where θ is the angular deviation from the direction of balance (DOB) in degrees, and k<sub><italic>P</italic></sub> is the pendulum constant. To make the task challenging, we used a pendulum constant of 600<sup>°</sup>/s<sup>2</sup> (≈0.52 Hz) based on our prior work (<xref rid="B43" ref-type="bibr">Vimal et al., 2016</xref>, <xref rid="B40" ref-type="bibr">2017</xref>, <xref rid="B44" ref-type="bibr">2018</xref>, <xref rid="B41" ref-type="bibr">2019</xref>). “Crash” boundaries were set at ± 60<sup>°</sup> from the direction of balance. Angular velocity was limited to ± 300<sup>°</sup>/s, and angular acceleration to ± 180<sup>°</sup>/s<sup>2</sup>. At every time step (∼0.02 s), a velocity increment proportional to the joystick deflection was added to the MARS velocity and computed by a Runge-Kutta RK4 solver (<xref rid="B18" ref-type="bibr">Lambert, 1973</xref>) to calculate the new MARS angular position and velocity.</p>
+                </sec>
+                <sec id="S2.SS1.SSS3">
+                  <title>Procedure</title>
+                  <p>Participants were blindfolded and wore noise canceling headphones that played white noise. They were secured in the MARS with a five-point harness, a lap belt, lateral support plates and foot straps (<xref rid="F1" ref-type="fig">Figure 1</xref>). Their heads were stabilized using a U-shaped frame cushioned with foam that was attached to the MARS. To prevent visual or auditory cues, they were blindfolded and wore earplugs and noise canceling headphones that played white noise. A Logitech Freedom 2.4 cordless joystick was attached to the right arm rest and a “kill switch” that the participant could press to stop the experiment was attached to the left arm rest. No participant ever used the kill switch.</p>
+                  <p>Prior to data collection, participants watched a video of a person balancing the MARS in the horizontal roll plane and of the MARS reaching the “crash boundaries” at ± 60<sup>°</sup> from the balance point and then resetting. They were told that the MARS behaved like an inverted pendulum and they were instructed to use the joystick to minimize oscillations about the balance point, which was always at 0<sup>°</sup> (their starting position). The trial started with an auditory “begin” and whenever participants reached the crash boundaries, they heard “lost control, resetting.” As the MARS automatically reset to the start position at a rate of 5<sup>°</sup>/s, the joystick was disabled. Once at the reset position, which was always 0<sup>°</sup>, they heard an auditory “begin” command and the joystick was simultaneously enabled. Participants balanced in two sessions conducted on consecutive days. On each day they underwent five blocks of four trials, with each trial consisting of 100 cumulative seconds of balancing, excluding the reset times after crashes, or a total elapsed time of 150 s. After every four trials participants were brought to an upright orientation and were given a 2 min break during which they were questioned about any symptoms of motion sickness. They were given no verbal feedback about their performance.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS2">
+                <title>Crash Prediction by Deep Learning</title>
+                <p>Our goal was to predict the occurrence of crashes before they happened. We used a classification approach where we took windows of data (MARS angular position and velocity, and joystick deflection) and then predicted whether a crash would happen later or not (i.e., classified the data segment as leading to a crash or non-crash). We trained deep learning models, which is a machine learning method that uses models consisting of artificial neural networks. Deep learning models can automatically extract often obscured patterns in intricate, high-dimensional data of large quantity (<xref rid="B21" ref-type="bibr">LeCun et al., 2015</xref>), thereby qualifying as excellent choices for our classification task.</p>
+                <sec id="S2.SS2.SSS1">
+                  <title>Preprocessing Data Into Episodes</title>
+                  <p>First we extracted all of the segments of data (angular position, velocity, and joystick deflection) that were continuous, under human control, and did not have any crashes. We refer to these segments of data as episodes and <xref rid="F2" ref-type="fig">Figure 2</xref> provides an example, which shows the characteristic pattern of positional drifting (in black) where a representative participant oscillates away from the balance point at 0° until they hit the crash boundary at 60°. By this definition, there were 21,469 episodes in total. We split all of the episodes so that 90% of them (19,322 in total) were used as the training set to train the deep learning models and the rest (2,147 in total) were used as the test set to evaluate the effectiveness of the models.</p>
+                  <fig position="float" id="F2">
+                    <label>FIGURE 2</label>
+                    <caption>
+                      <p>A segment of trial data from a representative participant showing angular position (black), angular velocity (red) and joystick deflection (blue). The characteristic pattern of positional drifting can be seen to end with the participant hitting the crash boundary at 60<sup>°</sup>.</p>
+                    </caption>
+                    <graphic xlink:href="fphys-13-806357-g002" position="float"/>
+                  </fig>
+                  <p>For every episode, to generate training samples, we slid a fixed size window from a crash event to the next one and extracted the MARS angular position, MARS angular velocity and joystick deflections (<xref rid="F3" ref-type="fig">Figure 3</xref>). This process excluded the windows that overlapped with the MARS’ resetting times (after a crash, the MARS resets to the 0<sup>°</sup> point and participants have no control). A sample was labeled as a “crash” if a crash happened within the “time-in-advance” interval, e.g., in <xref rid="F3" ref-type="fig">Figure 3</xref>, “sliding window 2” would be labeled as a crash. Otherwise, it was labeled as a “non-crash,” e.g., sliding window 1 in <xref rid="F3" ref-type="fig">Figure 3</xref>. These windows were used as input and the labels as the correct answer, in order to either train the model to predict the correct label or to evaluate whether the trained model predicted the label correctly.</p>
+                  <fig position="float" id="F3">
+                    <label>FIGURE 3</label>
+                    <caption>
+                      <p>When training the model, sliding windows between crash events sent data to the model along with either a 0 or 1 to indicate whether a crash occurred in the time-in-advance. During testing, the sliding window inputted data to the model and the model output whether a crash would occur or not in the time-in-advance duration.</p>
+                    </caption>
+                    <graphic xlink:href="fphys-13-806357-g003" position="float"/>
+                  </fig>
+                  <p>Previous work found, unexpectedly, that a percentage of joystick deflections were made in the same direction as MARS angular position and velocity, accelerating the MARS toward rather than away from the crash boundaries. These are called “destabilizing joystick deflections” and are indicative of non-proficient control patterns (<xref rid="B45" ref-type="bibr">Vimal et al., 2020</xref>). Because of their importance, we engineered destabilizing joystick deflections as an additional feature where it was defined as a Boolean feature that was true if position, velocity, and joystick deflection all had the same sign. That is, for any given sliding window, for every time point, we extracted MARS angular position, velocity and joystick deflections, and in addition, for every time point, we had either a 0 (not a destabilizing joystick point) or a 1 (destabilizing joystick point).</p>
+                  <p>To prevent data leakage where portions of the same data were used in both the training and testing phases, we made certain that all sliding window samples from a given episode were either in the training pool or the testing pool, but not both.</p>
+                </sec>
+                <sec id="S2.SS2.SSS2">
+                  <title>Deep Learning Algorithms</title>
+                  <p>There exist a wide variety of deep learning models, each suitable for a different range of tasks. For our classification task on time-series data, to enable shorter latency in future real-world implementations where computational resources may be limited, we opted for models with lower complexity and implemented multilayer perceptron (MLP), convolutional neural network (CNN), long short-term memory (LSTM), gated recurrent unit (GRU), stacked LSTM and stacked GRU. All models mentioned in this paper were built with Keras and TensorFlow and used binary cross-entropy as the loss function and sigmoid as the activation function for the final output layer. The descriptions of the hardware and the training procedure can be found in <xref rid="SM1" ref-type="supplementary-material">Supplementary Material</xref>.</p>
+                  <sec id="S2.SS2.SSS2.Px1">
+                    <title>Multilayer Perceptron</title>
+                    <p>The MLP is the classical type of deep learning neural network. It usually contains a few feed-forward fully connected layers of neurons (<xref rid="B35" ref-type="bibr">Rosenblatt, 1961</xref>).</p>
+                    <p>After manual tuning, the chosen MLP consisted of five layers—an input layer, three hidden layers, and an output layer. The input layer flattens the input data matrix into a vector. The vector is then passed through the hidden layers, which each has 50 neurons and rectified linear unit (ReLU) as its activation function.</p>
+                  </sec>
+                  <sec id="S2.SS2.SSS2.Px2">
+                    <title>Convolutional Neural Network</title>
+                    <p>The CNN works well with data that has spatial relationship. It was originally developed for image processing (<xref rid="B22" ref-type="bibr">LeCun et al., 1989</xref>) and can also be applied to processing temporal sequences (e.g., <xref rid="B17" ref-type="bibr">Kim, 2014</xref>). It uses convolution kernels to slide along input sequences and pooling layers to down-sample kernel output; CNN therefore can provide time-invariant responses, meaning that it can be sensitive to similar input patterns that appear at different time steps.</p>
+                    <p>The structure of the optimized CNN in this experiment was as follows: the first convolution layer (implemented with Conv1D) had 128 filters of size 3 and a stride of 1, with ReLU as its activation function, and padding such that the output had the same length as the input; this convolution layer was then followed by a max pooling layer of size 2. Then, the output of the first max pooling layer was passed to another set of convolution layer and max pooling layer that was the same as the first convolution layer except for having 128 files of size 4. Before the final output layer, the result of the second max pooling layer was then flattened and passed to a feedforward neural network with 100 neurons and ReLU as its activation function.</p>
+                  </sec>
+                  <sec id="S2.SS2.SSS2.Px3">
+                    <title>Long Short-Term Memory</title>
+                    <p>The LSTM model is one type of recurrent neural network (RNN) which feeds the outputs, namely cell state and hidden state, of previous time steps back onto itself (<xref rid="B14" ref-type="bibr">Hochreiter and Schmidhuber, 1997</xref>). An LSTM module contains three gates (i.e., input gate, output gate, and forget gate) which control the information flow throughout the module and allow it to keep track of longer-term dependencies in the input sequences in contrast to classic recurrent neural networks.</p>
+                    <p>The following describes the configuration of the LSTM model after manual optimization. The LSTM had a hidden layer of size 100, and the final hidden state output of the LSTM model was passed to a dropout layer with a rate of 0.5, followed by a fully connected layer of size 128 with Rectified Linear Unit (ReLU) activations. The final output layer was added after the fully connected layer.</p>
+                  </sec>
+                  <sec id="S2.SS2.SSS2.Px4">
+                    <title>Gated Recurrent Unit</title>
+                    <p>The GRU model is another type of RNN, similar to LSTM in terms of using gates to control its internal information flows. Unlike LSTM, GRU does not have a separate cell state and only has a hidden state (<xref rid="B5" ref-type="bibr">Cho et al., 2014</xref>). This simplification makes a GRU have fewer parameters than a LSTM, and hence sometimes easier to train.</p>
+                    <p>The following describes the configuration of the GRU model after manual optimization. Similar to the LSTM model in our experiment, the GRU module had a hidden layer of size 100, and its output was passed to a dropout layer with a rate of 0.5, followed by a fully connected layer of size 128 with Rectified Linear Unit (ReLU) activations and the final output layer.</p>
+                  </sec>
+                  <sec id="S2.SS2.SSS2.Px5">
+                    <title>Stacked Recurrent Neural Networks</title>
+                    <p>In addition to using a single RNN module in the mode, we also experimented with including additional modules stacked on top of the original one, namely, stacked LSTM and stacked GRU.</p>
+                    <p>A stacked LSTM stacks multiple LSTMs on top of one another (<xref rid="B28" ref-type="bibr">Pascanu et al., 2013</xref>; <xref rid="B37" ref-type="bibr">Sha and Hong, 2017</xref>; <xref rid="B32" ref-type="bibr">Peters et al., 2018</xref>). A LSTM in a top layer takes the hidden state outputs of the LSTM below it and feeds its outputs to another LSTM above it. This arrangement allows the whole model to capture longer and multiple-resolution time-dependencies.</p>
+                    <p>We trained with a double-layer stacked LSTM, which had two LSTM modules stacked as described. Both modules had hidden states of size 100. We then took the hidden state output of the top-layer LSTM and fed it to a fully connected layer of 128 neurons with ReLU activations, followed by the final output layer.</p>
+                    <p>A stacked GRU adopts the same stacked architecture of a stacked LSTM but with two GRU modules (<xref rid="B39" ref-type="bibr">Sun et al., 2020</xref>).</p>
+                    <p>The double-layer stacked GRU model trained in our experiment was similar to the stacked LSTM model with both modules having hidden states of size 100. The final hidden state output passed to a 128-neuron, ReLU activated fully connected layer, then eventually passed to the final output layer.</p>
+                  </sec>
+                  <sec id="S2.SS2.SSS2.Px6">
+                    <title>Non-deep Baseline Model</title>
+                    <p>In addition to the deep learning algorithms, we also implemented the simple linear classifier (<xref rid="B8" ref-type="bibr">Cox, 1958</xref>), which transforms a simple linear combination of the input features to the output by a sigmoid function. This model provides a baseline for our comparisons. We will demonstrate that simple linear models do not perform as well as deep learning models in complex tasks such as our spaceflight analog condition. A significant advantage of using deep learning approaches is that they can be applied to the raw inputs and achieve similar or better performance.</p>
+                  </sec>
+                </sec>
+                <sec id="S2.SS2.SSS3">
+                  <title>Cross Validation</title>
+                  <p>To determine how well our models were performing against each other on the training set and how the best model could perform on an unseen test set, we evaluated the deep learning classifiers with 10-fold cross-validation (CV). In 10-fold CV, the training dataset is divided into 10 non-overlapping subsets. We used each subset to evaluate a model trained on the other nine subsets. Finally, we took the metrics averaged over 10 folds as an estimate of how the model would perform on the entire training set. After we identified the best model with the highest CV metrics, we kept the model from the best performing fold for final evaluation on the test set.</p>
+                </sec>
+                <sec id="S2.SS2.SSS4">
+                  <title>Evaluation of Model Performance</title>
+                  <p>We evaluated model performance initially with “Area Under the Receiver Operating Characteristic Curve” (AUC), a threshold invariant metric for model selection during 10-fold CV. In our case, AUC represents the probability that the model ranks a random non-crash example as less likely to crash than a random crash sample, which is the desired behavior. Therefore, a higher AUC would mean that the model is better trained and separates crash samples more clearly from non-crash samples.</p>
+                  <p>While high AUC may reflect how well the model distinguishes the positive and negative labels, it does not provide a full view of how useful the model would be in practice, where cost-driven threshold tuning is crucial. For example, in aviation and spaceflight applications, false negatives will have much higher costs than false positives. <xref rid="T1" ref-type="table">Table 1</xref> illustrates the four types of predictions. False negatives, where the model incorrectly predicts that no crash will occur, may lead to death, depending on how the algorithm decision is implemented (warning to pilots vs. pilot override). In contrast, false positives, where the model incorrectly predicts that a crash will occur, will result in the pilot being on alert. Therefore, in our spaceflight analog task, we want to minimize false negatives. There are two measures that allow us to quantify these concepts:</p>
+                  <table-wrap position="float" id="T1">
+                    <label>TABLE 1</label>
+                    <caption>
+                      <p>Definition of the four types of prediction.</p>
+                    </caption>
+                    <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                      <thead>
+                        <tr>
+                          <td valign="top" align="left" rowspan="1" colspan="1"/>
+                          <td valign="top" align="center" rowspan="1" colspan="1">Actual crash</td>
+                          <td valign="top" align="left" rowspan="1" colspan="1">Actual non-crash</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td valign="top" align="left" rowspan="1" colspan="1">
+                            <bold>Model predicted crash</bold>
+                          </td>
+                          <td valign="top" align="center" rowspan="1" colspan="1">True positive</td>
+                          <td valign="top" align="left" rowspan="1" colspan="1">False positive</td>
+                        </tr>
+                        <tr>
+                          <td valign="top" align="left" rowspan="1" colspan="1">
+                            <bold>Model predicted non-crash</bold>
+                          </td>
+                          <td valign="top" align="center" rowspan="1" colspan="1">False negative</td>
+                          <td valign="top" align="left" rowspan="1" colspan="1">True negative</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </table-wrap>
+                  <p>Recall is defined by:</p>
+                  <disp-formula id="S2.Ex1">
+                    <mml:math id="M1" overflow="scroll">
+                      <mml:mrow>
+                        <mml:mtext>Recall</mml:mtext>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mpadded width="+5pt">
+                              <mml:mi>True</mml:mi>
+                            </mml:mpadded>
+                            <mml:mo>⁢</mml:mo>
+                            <mml:mi>Positive</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:mpadded width="+5pt">
+                                <mml:mi>True</mml:mi>
+                              </mml:mpadded>
+                              <mml:mo>⁢</mml:mo>
+                              <mml:mi>Positive</mml:mi>
+                            </mml:mrow>
+                            <mml:mo>+</mml:mo>
+                            <mml:mrow>
+                              <mml:mpadded width="+5pt">
+                                <mml:mi>False</mml:mi>
+                              </mml:mpadded>
+                              <mml:mo>⁢</mml:mo>
+                              <mml:mi>Negative</mml:mi>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:mfrac>
+                      </mml:mrow>
+                    </mml:math>
+                  </disp-formula>
+                  <p>Thus, a higher recall in our application means a higher percentage of all crash samples being correctly classified as crashes by the model, hence fewer missed crashes.</p>
+                  <p>Precision is defined by:</p>
+                  <disp-formula id="S2.Ex2">
+                    <mml:math id="M2" overflow="scroll">
+                      <mml:mrow>
+                        <mml:mtext>Precision</mml:mtext>
+                        <mml:mo>=</mml:mo>
+                        <mml:mfrac>
+                          <mml:mrow>
+                            <mml:mpadded width="+5pt">
+                              <mml:mi>True</mml:mi>
+                            </mml:mpadded>
+                            <mml:mo>⁢</mml:mo>
+                            <mml:mi>Positive</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mrow>
+                              <mml:mpadded width="+5pt">
+                                <mml:mi>True</mml:mi>
+                              </mml:mpadded>
+                              <mml:mo>⁢</mml:mo>
+                              <mml:mi>Positive</mml:mi>
+                            </mml:mrow>
+                            <mml:mo>+</mml:mo>
+                            <mml:mrow>
+                              <mml:mpadded width="+5pt">
+                                <mml:mi>False</mml:mi>
+                              </mml:mpadded>
+                              <mml:mo>⁢</mml:mo>
+                              <mml:mi>Positive</mml:mi>
+                            </mml:mrow>
+                          </mml:mrow>
+                        </mml:mfrac>
+                      </mml:mrow>
+                    </mml:math>
+                  </disp-formula>
+                  <p>In our application, a higher precision means higher percentage of the model’s crash predictions are correct.</p>
+                  <p>When evaluating the same model, as we move the model’s decision threshold to different values, we would have different pairs of precision and recall values. One common way to evaluate using these threshold sensitive metrics is to set a predefined value on either precision or recall and calculate the corresponding value of the other metric. Based on the cost analysis and definitions above, when evaluating the performance of our models, we prioritized minimizing false negatives and we preferred models with a high recall value, which we set to be 95%. At a recall of 95%, we then looked at which models had greater precision and we refer to this selection criteria as P@0.95R.</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="S3">
+              <title>Results</title>
+              <sec id="S3.SS1">
+                <title>Model Selection</title>
+                <p>We applied 10-fold cross-validation, AUC, and precision at recall to evaluate the performance of our approach. In addition to prediction accuracy, we also wanted to predict crashes as early as possible.</p>
+                <p><xref rid="T2" ref-type="table">Table 2</xref> shows the P@0.95R averaged over 10-fold CV for each window size, time-in-advance duration, and model type combination. We found that the simple linear model performed extremely poorly when compared to the deep learning models when there are only raw machine readings (i.e., angular position and velocity, joystick deflection) and one manually engineered Boolean feature (destabilizing joystick deflections) available without extensive feature engineering. The advantage of using deep learning models is that they can automatically learn representations (i.e., features) from the same raw data with minimal feature engineering and achieve much better results.</p>
+                <table-wrap position="float" id="T2">
+                  <label>TABLE 2</label>
+                  <caption>
+                    <p>Precision at 0.95 recall (P@0.95R) scores averaged over 10-fold cross-validation for each model type, window size, and time-in-advance combinations.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                    <thead>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Models</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Window size</td>
+                        <td valign="top" align="center" colspan="3" rowspan="1">P@0.95R at time-in-advance (%)<hr/></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">300 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">600 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Simple linear model</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">2.95 ± 0.51</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">3.28 ± 0.21</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">5.25 ± 0.33</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">2.72 ± 0.57</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">3.37 ± 0.15</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">5.4 ± 0.38</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">2.82 ± 0.6</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">3.5 ± 0.16</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">5.43 ± 0.27</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">MLP</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">78.63 ± 6.01</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">66.9 ± 2.43</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">29.01 ± 1.45</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">85.98 ± 5.31</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">67.14 ± 2.99</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">30.99 ± 1.17</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">74.23 ± 14.88</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">65.79 ± 3.71</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">31.19 ± 1.67</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">CNN</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">84.01 ± 3.89</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">65.45 ± 3</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">28.72 ± 1.71</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">82.25 ± 5.34</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">65.76 ± 4.86</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">30.47 ± 1.32</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">85.25 ± 5.96</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">67.58 ± 3.95</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">32.28 ± 1.4</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">LSTM</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">92.02 ± 3.6</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">75.41 ± 3.91</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">31.71 ± 1.62</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">90.38 ± 5.99</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">75.16 ± 3.11</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.34 ± 2.49</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">91.08 ± 5.63</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">72.94 ± 2.68</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.24 ± 1.8</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">GRU</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">91.94 ± 5.73</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">75.05 ± 3.26</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">32.2 ± 2.27</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">91.44 ± 3.32</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">74.36 ± 3.23</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.05 ± 2.17</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">90.62 ± 5.89</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">71.35 ± 2.94</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.35 ± 1.61</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Stacked LSTM</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">89.8 ± 7.85</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">75.21 ± 2.48</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">32.59 ± 1.72</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">93.34 ± 3.25</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">76.18 ± 3.99</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.74 ± 2.36</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">92.46 ± 3.76</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">76.88 ± 1.32</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.93 ± 1.64</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Stacked GRU</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">89.7 ± 6.58</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">76.63 ± 2.63</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">32.83 ± 1.45</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,000 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">92.02 ± 4.98</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">76.47 ± 2.62</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">34.77 ± 1.84</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td valign="top" align="left" rowspan="1" colspan="1">1,500 ms</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">90.42 ± 6.73</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">74.92 ± 1.74</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">35.81 ± 1.87</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p>Among the deep learning models in <xref rid="T2" ref-type="table">Table 2</xref>, we found lower precision values for the set value of 95% recall for non-RNN such as MLP and CNN. We determined stacked GRU to be the best based on the following reasons. Overall, stacked-RNNs performed somewhat better than single-layer RNNs in terms of CV results. Furthermore, we chose stacked GRU for detailed examination because the time to train a stacked GRU (average 12.63 h per 10-fold CV) is much shorter than stacked LSTM (average 15.01 h per 10-fold CV), without notable degradation in evaluation metrics. Therefore we chose stacked GRU because it performed better than single layer RNNs and performed at the same level as LSTM while taking less computational time. <xref rid="F4" ref-type="fig">Figure 4</xref> shows the detailed architecture of the chosen stacked-GRU model.</p>
+                <fig position="float" id="F4">
+                  <label>FIGURE 4</label>
+                  <caption>
+                    <p>The final crash prediction model. <bold>(A)</bold> A close-up of the GRU cell; pink circles represent element-wise matrix operations, yellow blocks represent the activation functions. It is recurrent in that the hidden state of the previous time step (h<sub><italic>t</italic>–1</sub>) is fed back to the same GRU unit to generate the new hidden state at the current time step (h<sub><italic>t</italic></sub>) <bold>(B)</bold> the two GRU modules in the stacked GRU model unroll to process the data at each time step in the input window and produce a prediction of whether a crash will happen. At time t, GRU<sub>1</sub> takes feature values (x<sub><italic>t</italic></sub>) as input, while GRU<sub>2</sub> takes the hidden state output as its input. After the last time step, the hidden state output of GRU<sub>2</sub> (h’<sub><italic>L</italic></sub>) is passed to a feedforward neural network to generate a prediction.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-806357-g004" position="float"/>
+                </fig>
+              </sec>
+              <sec id="S3.SS2">
+                <title>Time-in-Advance Prediction</title>
+                <p>We chose a data window size of 1,000 ms to capture enough joystick behavior because participants on average make full joystick deflections at 1–2 Hz (<xref rid="B43" ref-type="bibr">Vimal et al., 2016</xref>, <xref rid="B40" ref-type="bibr">2017</xref>, <xref rid="B44" ref-type="bibr">2018</xref>). Additionally, we did not find large changes in model performance with different data window sizes (see <xref rid="SM1" ref-type="supplementary-material">Supplementary Figure 1</xref>).</p>
+                <p>We found a tradeoff between recall and precision in all model types, where setting a higher recall empirically resulted in a lower precision (e.g., stacked GRU as shown in <xref rid="F5" ref-type="fig">Figure 5</xref>). Greater time-in-advance durations resulted in lower values of precision (<xref rid="F5" ref-type="fig">Figure 5</xref>).</p>
+                <fig position="float" id="F5">
+                  <label>FIGURE 5</label>
+                  <caption>
+                    <p>Precision at different recall values and time-in-advance durations, for stacked GRU at 1,000 ms window size.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-806357-g005" position="float"/>
+                </fig>
+                <p>We wanted time-in-advance duration to be as long as possible, so that crash prediction can be generated as soon as possible. As a summary number for prediction capability, we chose 800 ms as the best time-in-advance duration which resulted in a 10-fold CV AUC of 0.9927 ± 0.0006 and P@0.95R of 0.5432 ± 0.0203. The model takes on average 30 ms to classify one data window on a 2.5 GHz Intel Xeon CPU, which should impose few latency issues on real-time implementation.</p>
+              </sec>
+              <sec id="S3.SS3">
+                <title>Analysis of Results at High Recall</title>
+                <p>To further understand our model’s capabilities, we examined those crashes that were misclassified as non-crash (i.e., false negatives) by the model even at a recall as high as 95%. In <xref rid="F6" ref-type="fig">Figure 6</xref>, we plotted the rate of the model misclassifying crash samples as non-crash (blue) and non-crash samples as crashes (orange), grouped by the farthest the participant had been from the balance point in the data window, i.e., the largest magnitude of angular position. We found that the crashes which were the hardest for the model to correctly identify were those that occurred when participants were near the balance point (0<sup>°</sup>) where over 46% of crash samples were mislabeled as non-crashes.</p>
+                <fig position="float" id="F6">
+                  <label>FIGURE 6</label>
+                  <caption>
+                    <p>Percentage of misclassified crash samples (blue) or non-crash samples (orange) out of all samples within a range of the largest magnitude of angular positions in the data window.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-806357-g006" position="float"/>
+                </fig>
+                <p>To understand what caused a crash at such a seemingly safe location of the 0<sup>°</sup> point, we examined the data in the 800 ms time-in-advance duration following these false negative inputs, i.e., outside of the 1,000 ms sliding window data available to the model. We found that participants were making destabilizing joystick deflections in the time-in-advance duration that led to the crashes. <xref rid="T3" ref-type="table">Table 3</xref> shows that the percentage of destabilizing joystick deflections in the time-in-advance duration was the greatest for false negatives (<xref rid="T3" ref-type="table">Table 3</xref>), meaning that participants often made unexpected destabilizing joystick deflections in the time-in-advance portion which was unavailable to the model. This suggests that the reason the model predicted “no crash” was because the participants were performing well near the balance point but then unexpectedly initiated a destabilizing joystick deflection because they were disoriented and did not have a clear sense of their orientation. True positives had the smallest percentage because critical errors had already been made which would lead to a crash.</p>
+                <table-wrap position="float" id="T3">
+                  <label>TABLE 3</label>
+                  <caption>
+                    <p>Percentage of predictions containing unexpected destabilizing joystick deflection in time-in-advance duration.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                    <thead>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Type of prediction</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">False negative</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">False positive</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">True negative</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">True positive</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">
+                          <bold>% of DJD</bold>
+                        </td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">67.50%</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">58.92%</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">53.94%</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">33.64%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </table-wrap>
+                <p><xref rid="F6" ref-type="fig">Figure 6</xref> also revealed that false positives (model incorrectly predicted a crash would happen) were more likely to occur at large angular positions near the crash boundaries (±60<sup>°</sup>). Because we prioritized reducing false negatives (having a high recall), we had a higher rate of false positives (low precision). To further understand when false positives occurred, in <xref rid="F7" ref-type="fig">Figure 7</xref>, we created a density map of angular position and velocity. We found that false positives had higher angular position and velocity, suggesting that the model was identifying dangerous behavior as being potential places of crashes. Similar results can be seen for true positives (model correctly predicts a crash will occur) because the greatest danger was at high values of position and velocity.</p>
+                <fig position="float" id="F7">
+                  <label>FIGURE 7</label>
+                  <caption>
+                    <p>Density maps of the velocity and position at all-time steps in time-in-advance duration.</p>
+                  </caption>
+                  <graphic xlink:href="fphys-13-806357-g007" position="float"/>
+                </fig>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="S4">
+              <title>Discussion</title>
+              <p>Our objective was to create a model that could predict the occurrence of crashes in a stabilization task where participants were spatially disoriented similar to what astronauts may experience. We used the angular position, velocity and joystick deflections from the stabilization task to train a stacked GRU model to predict whether a crash would occur at a certain future time point. We chose stacked GRU over other models because its recurrent neural network (RNN) structure gave it an advantage for analyzing our time sequence data over non-RNN methods. Within the RNN methods, stacked GRU performed slightly more efficiently (<xref rid="T2" ref-type="table">Table 2</xref>). Based on the obtained AUC (Area Under the Receiver Operating Characteristic Curve), we found that our model performs well at predicting crashes as early as 1,500 ms before (<xref rid="SM1" ref-type="supplementary-material">Supplementary Figure 1</xref>). However, for aviation and spaceflight applications, false negative errors (model incorrectly predicts no crash) would be considered much worse than false positive errors (model incorrectly predicts that a crash will occur). For this reason we prioritized minimizing false negatives by setting the recall very high (95%), which resulted in a higher rate of false positives (i.e., lower precision, <xref rid="F5" ref-type="fig">Figure 5</xref>). Please refer to the equations in section “Evaluation of Model Performance” for the definitions of precision and recall.</p>
+              <p>To understand and characterize the types of crashes the model could not predict even at a high recall value, we plotted the rate of the model misclassifying crash samples as being non-crashes (<xref rid="F6" ref-type="fig">Figure 6</xref>). We were surprised to find that many of the false negative crashes started near the equilibrium point (0°) which many would consider the safest place to be. We discovered that the model’s inability to predict this group of false negative crashes was because participants made unexpected destabilizing joystick deflections in the time-in-advance duration (which the model did not have access to) that caused the device to rapidly accelerate away from the balance point (<xref rid="T3" ref-type="table">Table 3</xref>). These destabilizing joystick deflections were likely made because participants in the horizontal roll plane are often disoriented and have inaccurate perception of their angular position (<xref rid="B42" ref-type="bibr">Vimal et al., 2021</xref>).</p>
+              <p>Because we chose to set a high recall (minimizing false negatives) we had a high rate of false positives (<xref rid="F5" ref-type="fig">Figure 5</xref>). We were curious about when the model classified false positives. <xref rid="F6" ref-type="fig">Figure 6</xref> reveals that false positives were occurring at large values of angular position near the crash boundaries (± 60<sup>°</sup>). In <xref rid="F7" ref-type="fig">Figure 7</xref>, we found that false positives occurred at very large magnitudes of angular position and velocity. For this reason, it is possible that false positives could serve as a warning signal for pilots who may be disoriented and reach dangerous angular deviations and velocities. Having too high a false positive rate could result in pilots losing trust with the model. It is not well understood what values of false positives will maintain trust between pilots and Artificial Intelligence (AI), or what level of trust in the AI is useful because case studies show that both too much and too little trust in the technology can lead to fatal accidents in ships and aircraft (<xref rid="B46" ref-type="bibr">Wickens, 1995</xref>; <xref rid="B10" ref-type="bibr">Dalcher, 2007</xref>; <xref rid="B15" ref-type="bibr">Hoff and Bashir, 2015</xref>). Our future work will explore the role of trust and the rate of acceptable false positives.</p>
+              <p><xref rid="F5" ref-type="fig">Figure 5</xref> shows that the model can predict a crash 800 ms in advance at a high recall (0.95 recall and 0.50 precision). However, would a warning signal at this point prevent any crashes? In <xref rid="F8" ref-type="fig">Figure 8</xref> we plotted the angular position and velocity 800 ms before all crashes. In our previous work, we had measured boundaries, which if reached, would result in unavoidable crashes (<xref rid="B43" ref-type="bibr">Vimal et al., 2016</xref>, <xref rid="B40" ref-type="bibr">2017</xref>). All points in <xref rid="F8" ref-type="fig">Figure 8</xref> that are inside the boundaries are therefore considered recoverable.</p>
+              <fig position="float" id="F8">
+                <label>FIGURE 8</label>
+                <caption>
+                  <p>Angular position and velocity 800 ms before all crashes. Those points inside the boundaries can avoid a crash.</p>
+                </caption>
+                <graphic xlink:href="fphys-13-806357-g008" position="float"/>
+              </fig>
+              <p>In <xref rid="T4" ref-type="table">Table 4</xref>, we found that if immediate control were taken, 80.7% of crashes could be avoided. Humans can respond to stimuli in 250 ms (<xref rid="B2" ref-type="bibr">Barnett-Cowan and Harris, 2009</xref>); however, to respond to more complex cues that require joystick deflections, participants would likely need 400 ms (<xref rid="B3" ref-type="bibr">Berryhill et al., 2005</xref>). <xref rid="T4" ref-type="table">Table 4</xref> shows that with increasing reaction times, receiving a warning would not be sufficient to prevent crashes. Therefore because of the low precision value and short reaction time, our model would not be deployable in a purely human controlled situation. However, this could be resolved if the AI system took temporary control of the spacecraft or aircraft. For example, <xref rid="F5" ref-type="fig">Figure 5</xref> shows that with a 400 ms time-in-advance duration, we can obtain a recall value of 95% and a precision value of 92%. Additionally, as mentioned above, many false positives occur at large values of angular position and velocity (<xref rid="F7" ref-type="fig">Figure 7</xref>). In future work, in addition to the deep learning crash detection model, we will also create a warning system to detect dangerous conditions such as large values of angular position and velocity, which will further reduce the false positives and therefore increase the precision.</p>
+              <table-wrap position="float" id="T4">
+                <label>TABLE 4</label>
+                <caption>
+                  <p>Percentage of avoidable crashes reduces as prediction time elapses.</p>
+                </caption>
+                <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+                  <thead>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">Time after window ends</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0 ms</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">200 ms</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">400 ms</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">600 ms</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">800 ms</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td valign="top" align="left" rowspan="1" colspan="1">
+                        <bold>% savable</bold>
+                      </td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">80.71%</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">55.42%</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">30.30%</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">8.54%</td>
+                      <td valign="top" align="center" rowspan="1" colspan="1">0%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+              <p>Our current model is trained on data related to MARS “crashes.” However when away from Earth, in a spaceflight condition, astronauts will not be able to safely acquire significant data on crashes. In future studies, we will train the model to identify different levels of danger (as opposed to only crashes), such as poor patterns of behavior (e.g., destabilizing joystick deflections) and dangerous situations (e.g., high angular positions and velocities). In practice, this would mean that as astronauts acquire new data, which can include suboptimal performance, our methodology could be used to train the model and set parameters that identify poor performance or they could label it themselves. In the future, we aim to communicate the warnings generated from the deep learning model as well as body orientation through vibrotactile feedback which has been previously shown to be useful for preventing spatial disorientation during air flight (<xref rid="B36" ref-type="bibr">Rupert, 2000</xref>).</p>
+            </sec>
+            <sec sec-type="conclusion" id="S5">
+              <title>Conclusion</title>
+              <p>Some studies estimate 90–100% of pilots have experienced spatial disorientation and it is a leading cause of fatal aircraft accidents (<xref rid="B25" ref-type="bibr">Newman, 2007</xref>; <xref rid="B13" ref-type="bibr">Gibb et al., 2011</xref>). In the present study, we used data from a spaceflight analog balancing task that reliably led to spatial disorientation and loss of control. The deep learning and AI communities have explored problems related to crash avoidance for conventional ground vehicles (<xref rid="B29" ref-type="bibr">Peng et al., 2019</xref>), autonomous vehicles (<xref rid="B31" ref-type="bibr">Perumal et al., 2021</xref>), unmanned aerial vehicles (<xref rid="B11" ref-type="bibr">Gandhi et al., 2017</xref>), ships (<xref rid="B30" ref-type="bibr">Perera, 2018</xref>), swarming systems (<xref rid="B19" ref-type="bibr">Lan et al., 2020</xref>), and aircraft collisions with other aircraft (<xref rid="B16" ref-type="bibr">Julian et al., 2019</xref>). However, no one to our knowledge has used deep learning to predict the occurrence of crashes in a novel analog condition where participants experience disorientation similar to what pilots and astronauts may experience.</p>
+              <p>Space exploration will often demand astronauts to solve problems independently because of factors such as time delays in communication with Earth (<xref rid="B7" ref-type="bibr">Cooke and Hine, 2002</xref>). Additionally, because astronauts will be exploring novel environments, optimal solutions to problems will not be known. These problems can arise both in the short term, such as spatial disorientation experienced during gravitational transitions and in the longer term such as effects to the brain from sustained long duration spaceflight (<xref rid="B34" ref-type="bibr">Roberts et al., 2017</xref>). The consequences this will have on spaceflight are not fully understood especially when combined with multiple simultaneous stressors caused by factors such as radiation, psychological and physiological changes (<xref rid="B6" ref-type="bibr">Clément et al., 2020</xref>). Therefore, it is important to develop countermeasures such as artificial intelligence systems that are tested under a range of spaceflight analog conditions on Earth and can learn and adapt as astronauts collect data in space.</p>
+              <p>In our approach we develop an artificial intelligence system that does not have prior knowledge of the paradigm (such as inverted pendulum dynamics and the human vestibular system) and is not trained on optimal behavior (such as in the vertical roll plane where participants have task relevant gravitational cues). Instead our model is trained on data obtained from our disorienting spaceflight analog task. Because our model did not rely on detailed knowledge of the paradigm it suggests that this methodology could be applied to other novel and disorienting conditions such as drifting during brownout (<xref rid="B12" ref-type="bibr">Gaydos et al., 2012</xref>), loss of control in human postural balancing in artificial gravity (<xref rid="B1" ref-type="bibr">Bakshi et al., 2020</xref>) or from vestibular deficits (<xref rid="B20" ref-type="bibr">Lawson et al., 2016</xref>).</p>
+            </sec>
+            <sec sec-type="data-availability" id="S6">
+              <title>Data Availability Statement</title>
+              <p>Publicly available datasets were analyzed in this study. This data can be found here: <ext-link xlink:href="https://figshare.com/s/7d935199c01c0edcafa1" ext-link-type="uri">https://figshare.com/s/7d935199c01c0edcafa1</ext-link>.</p>
+            </sec>
+            <sec id="S7">
+              <title>Ethics Statement</title>
+              <p>The studies involving human participants were reviewed and approved by the Brandeis Institutional Review Board. The patients/participants provided their written informed consent to participate in this study.</p>
+            </sec>
+            <sec id="S8">
+              <title>Author Contributions</title>
+              <p>VV designed and ran the spaceflight analog condition and JL and PD advised. PH advised YW and JT who developed the deep learning model and ran all of the simulations. VV, YW, and JT wrote the manuscript. All authors contributed to manuscript revision, read, and approved the submitted version.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="conf1">
+              <title>Conflict of Interest</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+            <sec sec-type="disclaimer" id="pudiscl1">
+              <title>Publisher’s Note</title>
+              <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+            </sec>
+          </body>
+          <back>
+            <sec sec-type="funding-information" id="S9">
+              <title>Funding</title>
+              <p>VV was supported by the Translational Research Institute for Space Health through NASA NNX16AO69A. The MARS device was provided by the Air Force Office of Scientific Research AFOSR FA9550-12-1-0395. The computing was supported by the NSF OAC 1920147.</p>
+            </sec>
+            <sec sec-type="supplementary-material" id="S10">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fphys.2022.806357/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fphys.2022.806357/full#supplementary-material</ext-link></p>
+              <supplementary-material id="SM1" position="float" content-type="local-data">
+                <media xlink:href="Data_Sheet_1.docx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bakshi</surname><given-names>A.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2020</year>). <article-title>The effect of hypergravity on upright balance and voluntary sway.</article-title>
+<source><italic>J. Neurophysiol.</italic></source>
+<volume>124</volume>
+<fpage>1986</fpage>–<lpage>1994</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00611.2019</pub-id>
+<?supplied-pmid 32997579?><pub-id pub-id-type="pmid">32997579</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barnett-Cowan</surname><given-names>M.</given-names></name><name><surname>Harris</surname><given-names>L. R.</given-names></name></person-group> (<year>2009</year>). <article-title>Perceived timing of vestibular stimulation relative to touch, light and sound.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<volume>198</volume>
+<fpage>221</fpage>–<lpage>231</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-009-1779-4</pub-id>
+<?supplied-pmid 19352639?><pub-id pub-id-type="pmid">19352639</pub-id></mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Berryhill</surname><given-names>M.</given-names></name><name><surname>Kveraga</surname><given-names>K.</given-names></name><name><surname>Hughes</surname><given-names>H. C.</given-names></name></person-group> (<year>2005</year>). <article-title>Effects of directional uncertainty on visually-guided joystick pointing.</article-title>
+<source><italic>Percept. Mot. Skills</italic></source>
+<volume>100</volume>
+<fpage>267</fpage>–<lpage>274</lpage>. <pub-id pub-id-type="doi">10.2466/pms.100.1.267-274</pub-id>
+<?supplied-pmid 15773718?><pub-id pub-id-type="pmid">15773718</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Braithwaite</surname><given-names>M. G.</given-names></name><name><surname>Durnford</surname><given-names>S. J.</given-names></name><name><surname>Crowley</surname><given-names>J. S.</given-names></name><name><surname>Rosado</surname><given-names>N. R.</given-names></name><name><surname>Albano</surname><given-names>J. P.</given-names></name></person-group> (<year>1998</year>). <article-title>Spatial disorientation in US Army rotary-wing operations.</article-title>
+<source><italic>Aviat. Space Environ. Med.</italic></source>
+<volume>69</volume>
+<fpage>1031</fpage>–<lpage>1037</lpage>.<pub-id pub-id-type="pmid">9819157</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cho</surname><given-names>K.</given-names></name><name><surname>Van Merriënboer</surname><given-names>B.</given-names></name><name><surname>Gulcehre</surname><given-names>C.</given-names></name><name><surname>Bahdanau</surname><given-names>D.</given-names></name><name><surname>Bougares</surname><given-names>F.</given-names></name><name><surname>Schwenk</surname><given-names>H.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Learning phrase representations using RNN encoder-decoder for statistical machine translation.</article-title>
+<source><italic>arXiv</italic></source> [<comment>Preprint</comment>] arXiv:1406.1078, <pub-id pub-id-type="doi">10.3115/v1/D14-1179</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clément</surname><given-names>G. R.</given-names></name><name><surname>Boyle</surname><given-names>R. D.</given-names></name><name><surname>George</surname><given-names>K. A.</given-names></name><name><surname>Nelson</surname><given-names>G. A.</given-names></name><name><surname>Reschke</surname><given-names>M. F.</given-names></name><name><surname>Williams</surname><given-names>T. J.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Challenges to the central nervous system during human spaceflight missions to Mars.</article-title>
+<source><italic>J. Neurophysiol.</italic></source>
+<volume>123</volume>
+<fpage>2037</fpage>–<lpage>2063</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00476.2019</pub-id>
+<?supplied-pmid 32292116?><pub-id pub-id-type="pmid">32292116</pub-id></mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cooke</surname><given-names>D. E.</given-names></name><name><surname>Hine</surname><given-names>B.</given-names></name></person-group> (<year>2002</year>). <article-title>Virtual collaborations with the real: NASA’s new era in space exploration.</article-title>
+<source><italic>IEEE Intell. Syst.</italic></source>
+<volume>17</volume>
+<fpage>63</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1109/mis.2002.999222</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cox</surname><given-names>D. R.</given-names></name></person-group> (<year>1958</year>). <article-title>The regression analysis of binary sequences.</article-title>
+<source><italic>J. R. Stat. Soc. Ser. B (Methodological)</italic></source>
+<volume>20</volume>
+<fpage>215</fpage>–<lpage>232</lpage>. <pub-id pub-id-type="doi">10.1111/j.2517-6161.1958.tb00292.x</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Daiker</surname><given-names>R.</given-names></name><name><surname>Ellis</surname><given-names>K.</given-names></name><name><surname>Mathan</surname><given-names>S.</given-names></name><name><surname>Redmond</surname><given-names>W.</given-names></name></person-group> (<year>2018</year>). “<article-title>Use of real-time, predictive human modeling for spatial disorientation detection and mitigation</article-title>,” in <source><italic>Proceedings of the Modsim World 2018 Conference</italic></source>, (<publisher-loc>Norfolk, VA</publisher-loc>).</mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dalcher</surname><given-names>D.</given-names></name></person-group> (<year>2007</year>). <article-title>Why the pilot cannot be blamed: a cautionary note about excessive reliance on technology.</article-title>
+<source><italic>Int. J. Risk Assess. Manag.</italic></source>
+<volume>7</volume>
+<fpage>350</fpage>–<lpage>366</lpage>. <pub-id pub-id-type="doi">10.1504/IJRAM.2007.011988</pub-id>
+<?supplied-pmid 35009967?><pub-id pub-id-type="pmid">35009967</pub-id></mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Gandhi</surname><given-names>D.</given-names></name><name><surname>Pinto</surname><given-names>L.</given-names></name><name><surname>Gupta</surname><given-names>A.</given-names></name></person-group> (<year>2017</year>). “<article-title>Learning to fly by crashing</article-title>,” in <source><italic>Proceedings of the 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS): IEEE</italic></source>, (<publisher-loc>Vancouver, BC</publisher-loc>), <fpage>3948</fpage>–<lpage>3955</lpage>. <pub-id pub-id-type="doi">10.1109/IROS.2017.8206247</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gaydos</surname><given-names>S. J.</given-names></name><name><surname>Harrigan</surname><given-names>M. J.</given-names></name><name><surname>Bushby</surname><given-names>A. J.</given-names></name></person-group> (<year>2012</year>). <article-title>Ten years of spatial disorientation in US Army rotary-wing operations.</article-title>
+<source><italic>Aviat. Space Environ. Med.</italic></source>
+<volume>83</volume>
+<fpage>739</fpage>–<lpage>745</lpage>. <pub-id pub-id-type="doi">10.3357/asem.3196.2012</pub-id>
+<?supplied-pmid 22872986?><pub-id pub-id-type="pmid">22872986</pub-id></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gibb</surname><given-names>R.</given-names></name><name><surname>Ercoline</surname><given-names>B.</given-names></name><name><surname>Scharff</surname><given-names>L.</given-names></name></person-group> (<year>2011</year>). <article-title>Spatial disorientation: decades of pilot fatalities.</article-title>
+<source><italic>Aviat. Space Environ. Med.</italic></source>
+<volume>82</volume>
+<fpage>717</fpage>–<lpage>724</lpage>. <pub-id pub-id-type="doi">10.3357/asem.3048.2011</pub-id>
+<?supplied-pmid 21748911?><pub-id pub-id-type="pmid">21748911</pub-id></mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hochreiter</surname><given-names>S.</given-names></name><name><surname>Schmidhuber</surname><given-names>J.</given-names></name></person-group> (<year>1997</year>). <article-title>Long short-term memory.</article-title>
+<source><italic>Neural Comp.</italic></source>
+<volume>9</volume>
+<fpage>1735</fpage>–<lpage>1780</lpage>. <pub-id pub-id-type="doi">10.1162/neco.1997.9.8.1735</pub-id>
+<?supplied-pmid 9377276?><pub-id pub-id-type="pmid">9377276</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hoff</surname><given-names>K. A.</given-names></name><name><surname>Bashir</surname><given-names>M.</given-names></name></person-group> (<year>2015</year>). <article-title>Trust in automation: integrating empirical evidence on factors that influence trust.</article-title>
+<source><italic>Hum. Factors</italic></source>
+<volume>57</volume>
+<fpage>407</fpage>–<lpage>434</lpage>. <pub-id pub-id-type="doi">10.1177/0018720814547570</pub-id>
+<?supplied-pmid 25875432?><pub-id pub-id-type="pmid">25875432</pub-id></mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Julian</surname><given-names>K. D.</given-names></name><name><surname>Kochenderfer</surname><given-names>M. J.</given-names></name><name><surname>Owen</surname><given-names>M. P.</given-names></name></person-group> (<year>2019</year>). <article-title>Deep neural network compression for aircraft collision avoidance systems.</article-title>
+<source><italic>J. Guid. Control Dyn.</italic></source>
+<volume>42</volume>
+<fpage>598</fpage>–<lpage>608</lpage>. <pub-id pub-id-type="doi">10.2514/1.G003724</pub-id>
+<?supplied-pmid 34425589?><pub-id pub-id-type="pmid">34425589</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Kim</surname><given-names>Y.</given-names></name></person-group> (<year>2014</year>). “<article-title>Convolutional neural networks for sentence classification</article-title>,” in <source><italic>Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</italic></source>, (<publisher-loc>Doha</publisher-loc>). <pub-id pub-id-type="doi">10.1371/journal.pone.0253308</pub-id>
+<?supplied-pmid 34157028?></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Lambert</surname><given-names>J. D.</given-names></name></person-group> (<year>1973</year>). <source><italic>Computational Methods in Ordinary Differential Equations. Introductory Mathematics for Scientists and Engineers.</italic></source>
+<publisher-loc>Hoboken, NY</publisher-loc>: <publisher-name>Wiley</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lan</surname><given-names>X.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Zhao</surname><given-names>Z.</given-names></name></person-group> (<year>2020</year>). <article-title>Cooperative control for swarming systems based on reinforcement learning in unknown dynamic environment.</article-title>
+<source><italic>Neurocomputing</italic></source>
+<volume>410</volume>
+<fpage>410</fpage>–<lpage>418</lpage>. <pub-id pub-id-type="doi">10.1016/j.neucom.2020.06.038</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lawson</surname><given-names>B. D.</given-names></name><name><surname>Rupert</surname><given-names>A. H.</given-names></name><name><surname>Mcgrath</surname><given-names>B. J.</given-names></name></person-group> (<year>2016</year>). <article-title>The neurovestibular challenges of astronauts and balance patients: some past countermeasures and two alternative approaches to elicitation, assessment and mitigation.</article-title>
+<source><italic>Front. Syst. Neurosci.</italic></source>
+<volume>10</volume>:<issue>96</issue>. <pub-id pub-id-type="doi">10.3389/fnsys.2016.00096</pub-id>
+<?supplied-pmid 27920669?><pub-id pub-id-type="pmid">27920669</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>LeCun</surname><given-names>Y.</given-names></name><name><surname>Bengio</surname><given-names>Y.</given-names></name><name><surname>Hinton</surname><given-names>G.</given-names></name></person-group> (<year>2015</year>). <article-title>Deep learning.</article-title>
+<source><italic>Nature</italic></source>
+<volume>521</volume>
+<fpage>436</fpage>–<lpage>444</lpage>. <pub-id pub-id-type="doi">10.1038/nature14539</pub-id>
+<?supplied-pmid 26017442?><pub-id pub-id-type="pmid">26017442</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>LeCun</surname><given-names>Y.</given-names></name><name><surname>Boser</surname><given-names>B.</given-names></name><name><surname>Denker</surname><given-names>J.</given-names></name><name><surname>Henderson</surname><given-names>D.</given-names></name><name><surname>Howard</surname><given-names>R.</given-names></name><name><surname>Hubbard</surname><given-names>W.</given-names></name><etal/></person-group> (<year>1989</year>). “<article-title>Handwritten digit recognition with a back-propagation network</article-title>,” in <source><italic>Advances in Neural Information Processing Systems</italic></source>, <role>ed.</role>
+<person-group person-group-type="editor"><name><surname>Touretzk</surname><given-names>D.</given-names></name></person-group> (<publisher-loc>Denver, CO</publisher-loc>: <publisher-name>Morgan Kaufmann</publisher-name>), <fpage>2</fpage>.</mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moore</surname><given-names>S. T.</given-names></name><name><surname>Dilda</surname><given-names>V.</given-names></name><name><surname>Morris</surname><given-names>T. R.</given-names></name><name><surname>Yungher</surname><given-names>D. A.</given-names></name><name><surname>Macdougall</surname><given-names>H. G.</given-names></name><name><surname>Wood</surname><given-names>S. J.</given-names></name></person-group> (<year>2019</year>). <article-title>Long-duration spaceflight adversely affects post-landing operator proficiency.</article-title>
+<source><italic>Sci. Rep.</italic></source>
+<volume>9</volume>:<issue>2677</issue>. <pub-id pub-id-type="doi">10.1038/s41598-019-39058-9</pub-id>
+<?supplied-pmid 30804413?><pub-id pub-id-type="pmid">30804413</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="book"><collab>NASA</collab> (<year>2021</year>). <source><italic>Human Research Roadmap: A Risk Reduction Strategy for Human Space Exploration.</italic></source>
+<publisher-loc>Washington, DC</publisher-loc>: <publisher-name>NASA</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Newman</surname><given-names>D. G.</given-names></name></person-group> (<year>2007</year>). <source><italic>An Overview of Spatial Disorientation as a Factor in Aviation Accidents and Incidents.</italic></source>
+<publisher-loc>Canberra, ACT</publisher-loc>: <publisher-name>Australian Transport Safety Bureau</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Panic</surname><given-names>A. S.</given-names></name><name><surname>Panic</surname><given-names>H.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2017</year>). <article-title>Gravitational and somatosensory influences on control and perception of roll balance.</article-title>
+<source><italic>Aerospace Med. Hum. Perform.</italic></source>
+<volume>88</volume>
+<fpage>993</fpage>–<lpage>999</lpage>. <pub-id pub-id-type="doi">10.3357/AMHP.4853.2017</pub-id>
+<?supplied-pmid 29046174?><pub-id pub-id-type="pmid">29046174</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Panic</surname><given-names>H.</given-names></name><name><surname>Panic</surname><given-names>A. S.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2015</year>). <article-title>Direction of balance and perception of the upright are perceptually dissociable.</article-title>
+<source><italic>J. Neurophysiol.</italic></source>
+<volume>113</volume>
+<fpage>3600</fpage>–<lpage>3609</lpage>. <pub-id pub-id-type="doi">10.1152/jn.00737.2014</pub-id>
+<?supplied-pmid 25761954?><pub-id pub-id-type="pmid">25761954</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pascanu</surname><given-names>R.</given-names></name><name><surname>Gulcehre</surname><given-names>C.</given-names></name><name><surname>Cho</surname><given-names>K.</given-names></name><name><surname>Bengio</surname><given-names>Y.</given-names></name></person-group> (<year>2013</year>). <article-title>How to construct deep recurrent neural networks.</article-title>
+<source><italic>arXiv</italic></source> [<comment>Preprint</comment>] <volume>arXiv</volume>:<issue>1312.6026</issue>,</mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Peng</surname><given-names>L.</given-names></name><name><surname>Sotelo</surname><given-names>M. A.</given-names></name><name><surname>He</surname><given-names>Y.</given-names></name><name><surname>Ai</surname><given-names>Y.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name></person-group> (<year>2019</year>). <article-title>Rough set based method for vehicle collision risk assessment through inferring Driver’s braking actions in near-crash situations.</article-title>
+<source><italic>IEEE Intell. Trans. Syst. Magaz.</italic></source>
+<volume>11</volume>
+<fpage>54</fpage>–<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1109/MITS.2019.2903539</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Perera</surname><given-names>L. P.</given-names></name></person-group> (<year>2018</year>). “<article-title>Autonomous ship navigation under deep learning and the challenges in COLREGs</article-title>,” in <source><italic>Proceedings of the 37th International Conference on Offshore Mechanics and Arctic Engineering: American Society of Mechanical Engineers), V11BT12A005</italic></source>, (<publisher-loc>Madrid</publisher-loc>).</mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Perumal</surname><given-names>P. S.</given-names></name><name><surname>Sujasree</surname><given-names>M.</given-names></name><name><surname>Chavhan</surname><given-names>S.</given-names></name><name><surname>Gupta</surname><given-names>D.</given-names></name><name><surname>Mukthineni</surname><given-names>V.</given-names></name><name><surname>Shimgekar</surname><given-names>S. R.</given-names></name><etal/></person-group> (<year>2021</year>). <article-title>An insight into crash avoidance and overtaking advice systems for autonomous vehicles: a review, challenges and solutions.</article-title>
+<source><italic>Eng. Applic. Artif. Intell.</italic></source>
+<volume>104</volume>:<issue>104406</issue>. <pub-id pub-id-type="doi">10.1016/j.engappai.2021.104406</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Peters</surname><given-names>M. E.</given-names></name><name><surname>Neumann</surname><given-names>M.</given-names></name><name><surname>Iyyer</surname><given-names>M.</given-names></name><name><surname>Gardner</surname><given-names>M.</given-names></name><name><surname>Clark</surname><given-names>C.</given-names></name><name><surname>Lee</surname><given-names>K.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>Deep contextualized word representations.</article-title>
+<source><italic>arXiv</italic></source>[<comment>Preprint</comment>] <volume>arXiv</volume>:<issue>1802.05365</issue>, <pub-id pub-id-type="doi">10.18653/v1/N18-1202</pub-id></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Poisson</surname><given-names>R. J.</given-names></name><name><surname>Miller</surname><given-names>M. E.</given-names></name></person-group> (<year>2014</year>). <article-title>Spatial disorientation mishap trends in the US Air Force 1993–2013.</article-title>
+<source><italic>Aviat. Space Environ. Med.</italic></source>
+<volume>85</volume>
+<fpage>919</fpage>–<lpage>924</lpage>. <pub-id pub-id-type="doi">10.3357/ASEM.3971.2014</pub-id>
+<?supplied-pmid 25197890?><pub-id pub-id-type="pmid">25197890</pub-id></mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Roberts</surname><given-names>D. R.</given-names></name><name><surname>Albrecht</surname><given-names>M. H.</given-names></name><name><surname>Collins</surname><given-names>H. R.</given-names></name><name><surname>Asemani</surname><given-names>D.</given-names></name><name><surname>Chatterjee</surname><given-names>A. R.</given-names></name><name><surname>Spampinato</surname><given-names>M. V.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Effects of spaceflight on astronaut brain structure as indicated on MRI.</article-title>
+<source><italic>New Engl. J. Med.</italic></source>
+<volume>377</volume>
+<fpage>1746</fpage>–<lpage>1753</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1705129</pub-id>
+<?supplied-pmid 29091569?><pub-id pub-id-type="pmid">29091569</pub-id></mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Rosenblatt</surname><given-names>F.</given-names></name></person-group> (<year>1961</year>). <source><italic>Principles of Neurodynamics. Perceptrons and the Theory of Brain Mechanisms.</italic></source>
+<publisher-loc>Buffalo NY</publisher-loc>: <publisher-name>Cornell Aeronautical Lab Inc</publisher-name>. <pub-id pub-id-type="doi">10.21236/AD0256582</pub-id></mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rupert</surname><given-names>A. H.</given-names></name></person-group> (<year>2000</year>). <article-title>An instrumentation solution for reducing spatial disorientation mishaps.</article-title>
+<source><italic>IEEE Eng. Med. Biol. Magaz.</italic></source>
+<volume>19</volume>
+<fpage>71</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1109/51.827409</pub-id>
+<?supplied-pmid 10738664?><pub-id pub-id-type="pmid">10738664</pub-id></mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Sha</surname><given-names>L.</given-names></name><name><surname>Hong</surname><given-names>P.</given-names></name></person-group> (<year>2017</year>). “<article-title>Neural knowledge tracing</article-title>,” in <source><italic>Proceedings of the International Conference on Brain Function Assessment in Learning</italic></source>, (<publisher-loc>Berlin</publisher-loc>: <publisher-name>Springer</publisher-name>), <fpage>108</fpage>–<lpage>117</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-319-67615-9_10</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shelhamer</surname><given-names>M.</given-names></name></person-group> (<year>2015</year>). <article-title>Trends in sensorimotor research and countermeasures for exploration-class space flights.</article-title>
+<source><italic>Front. Syst. Neurosci.</italic></source>
+<volume>9</volume>:<issue>115</issue>. <pub-id pub-id-type="doi">10.3389/fnsys.2015.00115</pub-id>
+<?supplied-pmid 26321927?><pub-id pub-id-type="pmid">26321927</pub-id></mixed-citation>
+              </ref>
+              <ref id="B39">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sun</surname><given-names>P.</given-names></name><name><surname>Boukerche</surname><given-names>A.</given-names></name><name><surname>Tao</surname><given-names>Y.</given-names></name></person-group> (<year>2020</year>). <article-title>SSGRU: A novel hybrid stacked GRU-based traffic volume prediction approach in a road network.</article-title>
+<source><italic>Comput. Commun.</italic></source>
+<volume>160</volume>
+<fpage>502</fpage>–<lpage>511</lpage>. <pub-id pub-id-type="doi">10.1016/j.comcom.2020.06.028</pub-id></mixed-citation>
+              </ref>
+              <ref id="B40">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2017</year>). <article-title>Learning dynamic balancing in the roll plane with and without gravitational cues.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<volume>235</volume>
+<fpage>3495</fpage>–<lpage>3503</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-017-5068-3</pub-id>
+<?supplied-pmid 28849394?><pub-id pub-id-type="pmid">28849394</pub-id></mixed-citation>
+              </ref>
+              <ref id="B41">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2019</year>). <article-title>Learning and long-term retention of dynamic self-stabilization skills.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<volume>237</volume>
+<fpage>2775</fpage>–<lpage>2787</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-019-05631-x</pub-id>
+<?supplied-pmid 31444539?><pub-id pub-id-type="pmid">31444539</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name></person-group> (<year>2021</year>). <article-title>The role of spatial acuity in a dynamic balancing task without gravitational cues.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<fpage>1</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-021-06239-w</pub-id>
+<?supplied-pmid 34652493?><pub-id pub-id-type="pmid">33170341</pub-id></mixed-citation>
+              </ref>
+              <ref id="B43">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name></person-group> (<year>2016</year>). <article-title>Learning dynamic control of body roll orientation.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<volume>234</volume>
+<fpage>483</fpage>–<lpage>492</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-015-4469-4</pub-id>
+<?supplied-pmid 26525709?><pub-id pub-id-type="pmid">26525709</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name></person-group> (<year>2018</year>). <article-title>Learning dynamic control of body yaw orientation.</article-title>
+<source><italic>Exp. Brain Res.</italic></source>
+<volume>236</volume>
+<fpage>1321</fpage>–<lpage>1330</lpage>. <pub-id pub-id-type="doi">10.1007/s00221-018-5216-4</pub-id>
+<?supplied-pmid 29508040?><pub-id pub-id-type="pmid">29508040</pub-id></mixed-citation>
+              </ref>
+              <ref id="B45">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vimal</surname><given-names>V. P.</given-names></name><name><surname>Zheng</surname><given-names>H.</given-names></name><name><surname>Hong</surname><given-names>P.</given-names></name><name><surname>Fakharzadeh</surname><given-names>L. N.</given-names></name><name><surname>Lackner</surname><given-names>J. R.</given-names></name><name><surname>Dizio</surname><given-names>P.</given-names></name></person-group> (<year>2020</year>). <article-title>Characterizing individual differences in a dynamic stabilization task using machine learning.</article-title>
+<source><italic>Aerospace Med. Hum. Perform.</italic></source>
+<volume>91</volume>
+<fpage>479</fpage>–<lpage>488</lpage>. <pub-id pub-id-type="doi">10.3357/AMHP.5552.2020</pub-id>
+<?supplied-pmid 32408931?><pub-id pub-id-type="pmid">32408931</pub-id></mixed-citation>
+              </ref>
+              <ref id="B46">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wickens</surname><given-names>C. D.</given-names></name></person-group> (<year>1995</year>). <article-title>Designing for situation awareness and trust in automation.</article-title>
+<source><italic>IFAC Proc. Volumes</italic></source>
+<volume>28</volume>
+<fpage>365</fpage>–<lpage>370</lpage>. <pub-id pub-id-type="doi">10.1016/b978-0-08-042361-6.50063-5</pub-id></mixed-citation>
+              </ref>
+              <ref id="B47">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Zgonnikova</surname><given-names>I.</given-names></name><name><surname>Zgonnikov</surname><given-names>A.</given-names></name><name><surname>Kanemoto</surname><given-names>S.</given-names></name></person-group> (<year>2016</year>). “<article-title>Stick must fall: Using machine learning to predict human error in virtual balancing task</article-title>,” in <source><italic>Proceedings of the 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW): IEEE</italic></source>, (<publisher-loc>Barcelona</publisher-loc>), <fpage>173</fpage>–<lpage>177</lpage>. <pub-id pub-id-type="doi">10.1109/ICDMW.2016.0032</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

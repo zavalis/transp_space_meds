@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:42:31Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9687979" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9687979</identifier>
+        <datestamp>2022-11-25</datestamp>
+        <setSpec>biology</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Biology (Basel)</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Biology (Basel)</journal-id>
+              <journal-id journal-id-type="publisher-id">biology</journal-id>
+              <journal-title-group>
+                <journal-title>Biology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2079-7737</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9687979</article-id>
+              <article-id pub-id-type="pmcid">PMC9687979</article-id>
+              <article-id pub-id-type="pmc-uid">9687979</article-id>
+              <article-id pub-id-type="pmid">36421391</article-id>
+              <article-id pub-id-type="pmid">36421391</article-id>
+              <article-id pub-id-type="doi">10.3390/biology11111677</article-id>
+              <article-id pub-id-type="publisher-id">biology-11-01677</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Striated Muscle Evaluation Based on Velocity and Amortization Ratio of Mechanical Impulse Propagation in Simulated Microgravity Environment</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Nistorescu</surname>
+                    <given-names>Alexandru</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                  <xref rid="af1-biology-11-01677" ref-type="aff">1</xref>
+                  <xref rid="c1-biology-11-01677" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4678-9655</contrib-id>
+                  <name>
+                    <surname>Busnatu</surname>
+                    <given-names>Stefan Sebastian</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                  <xref rid="af2-biology-11-01677" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9439-8715</contrib-id>
+                  <name>
+                    <surname>Dinculescu</surname>
+                    <given-names>Adrian</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="af1-biology-11-01677" ref-type="aff">1</xref>
+                  <xref rid="c1-biology-11-01677" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5355-0482</contrib-id>
+                  <name>
+                    <surname>Olteanu</surname>
+                    <given-names>Gabriel</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="af2-biology-11-01677" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Marin</surname>
+                    <given-names>Mihaela</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="af1-biology-11-01677" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Jercalau</surname>
+                    <given-names>Cosmina Elena</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <xref rid="af2-biology-11-01677" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2435-5028</contrib-id>
+                  <name>
+                    <surname>Vizitiu</surname>
+                    <given-names>Cristian</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                  <xref rid="af1-biology-11-01677" ref-type="aff">1</xref>
+                  <xref rid="af3-biology-11-01677" ref-type="aff">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Papacocea</surname>
+                    <given-names>Ioana Raluca</given-names>
+                  </name>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing – original draft</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing – review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing – review &amp; editing</role>
+                  <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+                  <xref rid="af4-biology-11-01677" ref-type="aff">4</xref>
+                </contrib>
+              </contrib-group>
+              <contrib-group>
+                <contrib contrib-type="editor">
+                  <name>
+                    <surname>Flouris</surname>
+                    <given-names>Andreas</given-names>
+                  </name>
+                  <role>Academic Editor</role>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-biology-11-01677"><label>1</label>Space Applications for Human Health and Safety Department, Institute of Space Science, 077125 Măgurele, Romania</aff>
+              <aff id="af2-biology-11-01677"><label>2</label>Department of Cardiology, University of Medicine and Pharmacy “Carol Davila”, Emergency Hospital “Bagdasar-Arseni”, 050474 Bucharest, Romania</aff>
+              <aff id="af3-biology-11-01677"><label>3</label>Department of Automatics and Information Technology, Faculty of Electrical Engineering and Computer Science, Transilvania University of Brasov, 500024 Brasov, Romania</aff>
+              <aff id="af4-biology-11-01677"><label>4</label>Physiology Department, Carol Davila University of Medicine and Pharmacy, 050474 Bucharest, Romania</aff>
+              <author-notes>
+                <corresp id="c1-biology-11-01677"><label>*</label>Correspondence: <email>alexnistorescu@spacescience.ro</email> (A.N.); <email>adrian.dinculescu@spacescience.ro</email> (A.D.)</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>18</day>
+                <month>11</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>11</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>11</volume>
+              <issue>11</issue>
+              <elocation-id>1677</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>12</day>
+                  <month>10</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>15</day>
+                  <month>11</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 by the authors.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <sec>
+                  <title>Simple Summary</title>
+                  <p>Long-duration space flight missions impose extreme physiological stress and changes on the crew due to the microgravity exposure. The herein study was performed by using MusTone, a device developed by the Institute of Space Science, to understand the influence of microgravity physiological stress on striated muscles and to provide countermeasures that are able to minimize the negative effects of weightlessness on musculoskeletal function. The results emerged following a statistical analysis performed on the data collected from six subjects engaged in a 21-days Dry Immersion (DI) experiment. Two parameters of muscles’ fibers behavior in the longitudinal direction were extracted and analyzed (i.e., propagation velocity and amortization ratio). It was confirmed that muscle deconditioning is time-dependent and also that, as muscle exposure to Dry Immersion increases, the amortization ratio increases and is more significant in the distal position. Moreover, muscle deconditioning occurs in a gradient: it starts first in distal points and affects more the distal muscles, those which are involved in posture maintenance and have an antigravity role. The results are important when taking into account space tourism developments, as long as astronauts and space tourism candidates will require a reliable real-time and non-invasive method able to quantify the muscle dynamic changes.</p>
+                </sec>
+                <sec>
+                  <title>Abstract</title>
+                  <p>Long-duration space flight missions impose extreme physiological stress and/or changes, such as musculoskeletal function degradation, on the crew due to the microgravity exposure. A great deal of research studies have been conducted in order to understand these physiological stress influences and to provide countermeasures to minimize the observed negative effects of weightlessness exposure on musculoskeletal function. Among others, studies and experiments have been conducted in DI analogue Earth-based facilities in order to reproduce the weightlessness negative effects on the human body. This paper presents a complex muscular analysis of mechanical wave propagation in striated muscle, using MusTone, a device developed in-house at the Institute of Space Science, Romania. The data were collected during a 21-day DI campaign in order to investigate muscle fibers’ behavior in longitudinal direction, after applying a mechanical impulse, taking into account two particular parameters, namely propagation velocity and amortization ratio. The parameters were determined based on the wave-propagation data collected from five points (one impact point, two distal direction points, and two proximal direction points) along the muscle fiber. By statistically analyzing propagation velocity and amortization ratio parameters, the study revealed that muscle deconditioning is time dependent, the amortization ratio is more significant in the distal direction, and the lower fibers are affected the most.</p>
+                </sec>
+              </abstract>
+              <kwd-group>
+                <kwd>muscle mechanical properties</kwd>
+                <kwd>dry immersion</kwd>
+                <kwd>simulated microgravity environment</kwd>
+                <kwd>striated muscle</kwd>
+                <kwd>mechanical excitation</kwd>
+                <kwd>imponderability</kwd>
+                <kwd>muscle loss</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>Romanian Ministry of Research, Innovation and Digitalization</funding-source>
+                  <award-id>16N/2019</award-id>
+                </award-group>
+                <funding-statement>This work was supported by the Romanian Ministry of Research, Innovation and Digitalization, grant no. 16N/2019, within the National Nucleus Program.</funding-statement>
+              </funding-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-biology-11-01677">
+              <title>1. Introduction</title>
+              <p>Since the first ever 89 min human exposure to microgravity on 12 April 1961, up until the current regular long-duration missions (LDMs) in microgravity, numerous studies have highlighted physiological and biomechanical human body adaptation during space explorations. In this respect, given the absence of the static loading and drastic limitations in dynamic loading specific to 1-g, the human musculoskeletal system is led toward hypofunction and disuse atrophy [<xref rid="B1-biology-11-01677" ref-type="bibr">1</xref>,<xref rid="B2-biology-11-01677" ref-type="bibr">2</xref>].</p>
+              <p>Although different types of countermeasures, such as fitness, medication, nutrition, or special clothing, for protecting the musculoskeletal system have been developed in the last 50 years, their poor efficiency is reported in numerous studies, both during and after spaceflights [<xref rid="B2-biology-11-01677" ref-type="bibr">2</xref>,<xref rid="B3-biology-11-01677" ref-type="bibr">3</xref>,<xref rid="B4-biology-11-01677" ref-type="bibr">4</xref>]. A special recovery program for the musculoskeletal extensor and flexor muscles’ mass, volume, and strength decline [<xref rid="B2-biology-11-01677" ref-type="bibr">2</xref>,<xref rid="B5-biology-11-01677" ref-type="bibr">5</xref>] is required after a spaceflight due to the poor efficiency of these countermeasures.</p>
+              <p>As documented, during human exposure in real microgravity, a significant decline was reported in calf muscle performance as follows: −35% during 180 days on Mir [<xref rid="B6-biology-11-01677" ref-type="bibr">6</xref>] and −20 to −29% during 6 months on International Space Station (ISS). Another example was highlighted in the case of soleus muscle, with a higher atrophy, i.e., −15 ± 2%, in relation to the gastrocnemius muscle atrophy, i.e., −10 ± 2% [<xref rid="B3-biology-11-01677" ref-type="bibr">3</xref>]. Subjected to microgravity experiments, limb muscles present an exponential deconditioning, starting significantly even from the first days of exposure [<xref rid="B7-biology-11-01677" ref-type="bibr">7</xref>], where quadriceps’ strength loss reaches 11% during maximal voluntary contraction (MVC) [<xref rid="B8-biology-11-01677" ref-type="bibr">8</xref>] in 3-day Dry Immersion (DI) experiments.</p>
+              <p>In order to gain a better understanding on skeletal muscles disuse effects and their regenerative capacity during and after weightlessness exposure, further studies have complemented the very few data elicited from human spaceflight via different Earth-based facilities. The so-called analogues for human spaceflight and simulated weightlessness are used to induce, among other problems, musculoskeletal deconditioning affections [<xref rid="B1-biology-11-01677" ref-type="bibr">1</xref>,<xref rid="B5-biology-11-01677" ref-type="bibr">5</xref>,<xref rid="B9-biology-11-01677" ref-type="bibr">9</xref>]. Even though, in this regard, the most common ground-based microgravity analog is long-duration head-down tilt bed rest (HDBR) [<xref rid="B10-biology-11-01677" ref-type="bibr">10</xref>], the (DI) microgravity analog is much better at stimulating the space gravitational environment by the absence of support unloading [<xref rid="B11-biology-11-01677" ref-type="bibr">11</xref>]. Individuals are semi-flexed inside a waterproof and elastic fabric in a supine position floating via water buoyancy [<xref rid="B10-biology-11-01677" ref-type="bibr">10</xref>] and remaining dry. In consequence, it is observed that DI is revealing effects on the human body seven times more rapidly than HDBR [<xref rid="B12-biology-11-01677" ref-type="bibr">12</xref>,<xref rid="B13-biology-11-01677" ref-type="bibr">13</xref>]. The DI bathtubs [<xref rid="B14-biology-11-01677" ref-type="bibr">14</xref>] filled with water, which is automatically maintained between 32 and 34.5 °C, ensured the comfort of the subjects during the study due to the elastic, thin and large enough waterproof fabric fixed on the outside edge of the bath. The immersion bathtubs’ fabric is large enough to hold the subjects, immersed in water up to the neck, in suspension [<xref rid="B15-biology-11-01677" ref-type="bibr">15</xref>], a condition that mimics the “floating” of astronauts, placing less pressure on the body, for many days, used to accurately and rapidly reproduce on Earth most of physiological effects of short spaceflights.</p>
+              <p>A Dry Immersion environment induces an obvious decrease in postural muscle tone, with reduced electromyographic activity of the extensor muscles (antigravity muscles) and an increased activity of the flexor muscles within the first few hours. Subsequent studies [<xref rid="B16-biology-11-01677" ref-type="bibr">16</xref>] evoke an important reduction in the maximal voluntary force of antigravity muscles of the leg (m. triceps surae), with a decrease in muscle force of 19% after 7 days of DI and 4 months of HDBR, as well as a reduction in the endurance of these muscles.</p>
+              <p>Sensorimotor changes are reproduced in the first few hours and become more pronounced after 3 to 7 days of DI. These changes include perturbations in maintaining the vertical posture, disturbances in locomotor activity, and disturbances in the coordination and precision of movements. Exposure to DI triggers different disorders of postural and voluntary motor control as a result of the resetting of neuromuscular control. </p>
+              <p>Several studies (see review by Tomilovskaya et. al [<xref rid="B13-biology-11-01677" ref-type="bibr">13</xref>]) concluded that the lack of gravitational support causes a reverse order in the recruitment of motor units with the suppression of small motor units and facilitation of large motor units. </p>
+              <p>These multiple changes occurring in human motor function [<xref rid="B17-biology-11-01677" ref-type="bibr">17</xref>,<xref rid="B18-biology-11-01677" ref-type="bibr">18</xref>,<xref rid="B19-biology-11-01677" ref-type="bibr">19</xref>] under the conditions of real or simulated microgravity (DI, HDBR) are called hypo-gravitational motor syndrome, which includes a deficit in vestibular, proprioception, and support afferent activity and substantial alterations in the functional (atony, decline in speed-force qualities) and structural (atrophy and phenotype deterioration/domination of fast myosin heavy chain isoform expression) characteristics of skeletal muscles. </p>
+              <p>Even though DI model studies have provided, over time, significant knowledge on microgravity-induced human physiological changes, the literature is poor in terms of DI-related microgravity effects for over 7 days. Thus, for the benefit of ultra-long space missions, the first 21-day DI campaign was undertaken that targets, among other problems, detailed musculoskeletal deconditioning experiments. The study was developed within the Russian Academy of Sciences, Russian Federation State Research Center Institute of Biomedical Problems (IBMP RAS), in 2018 [<xref rid="B20-biology-11-01677" ref-type="bibr">20</xref>]. Based on the 21-day DI campaign, the present paper is oriented toward the muscle-property investigations performed with the MusTone device [<xref rid="B21-biology-11-01677" ref-type="bibr">21</xref>,<xref rid="B22-biology-11-01677" ref-type="bibr">22</xref>], a myotonometric device designed and developed within The Space Applications for Human Health and Safety Department (SAHHSD), Institute of Space Science, Bucharest–Magurele, Romania. The authors hypothesized that the longer duration of the DI may affect muscle deconditioning in different patterns and also that differences between muscles’ response may occur depending on their position and role in body sustaining (deconditioning gradient/distal muscles are affected more and earlier than proximal ones).</p>
+              <p>According to Remi Demangel et al. [<xref rid="B8-biology-11-01677" ref-type="bibr">8</xref>], the muscle deconditioning is also associated with muscle viscoelasticity properties, which are a marker of the mechanical characteristics of the muscle. These can be evaluated with a myotonometer upon the oscillation acceleration signal. In this manner, three parameters were evaluated: <list list-type="bullet"><list-item><p>Dynamic stiffness characterizes resistance to a contraction or to an external force that deforms its initial shape;</p></list-item><list-item><p>Oscillation frequency is an indicator of intrinsic tension of a muscle in passive state, without voluntary contraction;</p></list-item><list-item><p>Logarithmic decrement is a parameter that indicates muscle-elasticity capabilities and mechanical energy dissipation after deformation.</p></list-item></list></p>
+              <p>Subtle changes in muscle-viscoelasticity properties reveal the early development of muscle damage.</p>
+              <p>Muscle deconditioning involves a decrease in dynamic stiffness and oscillation frequency and an increase in logarithmic decrement.</p>
+              <p>Since the development of the MyotonPRO device developed by Myoton AS, myotonometry has become a quite often used non-invasive method in order to determine/assess mechanical properties (tone, stiffness, elasticity, relaxation, and creep) of the superficial skeletal muscles and other soft biological tissues, such as ligaments, tendons, skin, and subcutaneous tissues. The measuring method of the muscle mechanical properties with MyotonPRO consists of three main parts: (1) a short duration (15 milliseconds) with a light mechanical force (0.6 N) exertion of a mechanical impulse applied to the target muscle, (2) recording damped natural oscillation of soft biological tissue in the form of an acceleration signal [<xref rid="B23-biology-11-01677" ref-type="bibr">23</xref>], and (3) computation of parameters. The MyotonPRO device records information in the impact point and is able to characterize muscle health through the following parameters: oscillation frequency, logarithmic decrement, dynamic stiffness, relaxation time after mechanical stress (time required for muscle tissue to return to the shape before deformation), and ratio between muscle deformation time and relaxation time.</p>
+              <p>Compared to the MyotonPRO device, the hereby proposed MusTone [<xref rid="B21-biology-11-01677" ref-type="bibr">21</xref>] device can gather more information from both proximal and distal directions and can evaluate, in addition to the abovementioned parameters, others related to the propagation of the mechanical impulse along the muscle fiber, such as propagation velocity and amortization ratio. Given the presented background, the team used the updated MusTone device to measure the muscle mechanical properties in vivo in a 21-day DI experiment, as this is supposed to have more marked effects.</p>
+              <p>The mechanical wave transmission into the resting muscle mass depends on the muscle viscoelastic properties (elasticity and density) and on the contractile myofilaments and the extracellular matrix composition [<xref rid="B24-biology-11-01677" ref-type="bibr">24</xref>]. The team evaluated the mechanical wave characteristics by using MusTone.</p>
+            </sec>
+            <sec id="sec2-biology-11-01677">
+              <title>2. Materials and Methods</title>
+              <sec sec-type="subjects" id="sec2dot1-biology-11-01677">
+                <title>2.1. Participants</title>
+                <p>The 21-day DI experiment on MusTone involved 6 male volunteer subjects with the right side as the dominant part, mean age 29 ± 3.68 (M ± SD) years, height 176.38 ± 4.38 (M ± SD) cm, and body weight 77.03 ± 8.97 kg (M ± SD). The anthropometric parameters of the experiment participants were within the physiological norm. The calculated body mass index (BMI) mean before the DI was 24.7 ± 2.07 kg/m2 (M ± SD). Detailed information on the subjects is given in <xref rid="biology-11-01677-t001" ref-type="table">Table 1</xref>. All the subjects signed an informed consent form to participate in the experiment, which was approved by the bioethical commission of the Institute of Biomedical Problems (IBMP) of the Russian Academy of Sciences.</p>
+                <p>Considering that the subjects investigated in our experiment are a fraction of the same batch of subjects Tomilovskaya et al. studied in Reference [<xref rid="B25-biology-11-01677" ref-type="bibr">25</xref>], the anthropometric parameters of normality of the subjects were checked by using the Shapiro–Wilk test, and the group was homogeneous in terms of age, weight, height, and body mass index; all of these parameters had a normal distribution (<xref rid="biology-11-01677-t001" ref-type="table">Table 1</xref>).</p>
+              </sec>
+              <sec id="sec2dot2-biology-11-01677">
+                <title>2.2. Study Procedure and Device Description</title>
+                <p>For the present 21-day DI study, the MusTone device, which is described below, was used.</p>
+                <p>The MusTone device (<xref rid="biology-11-01677-f001" ref-type="fig">Figure 1</xref>) was developed in-house within the Institute of Space Science, Bucharest, with the main purpose to record the mechanical wave propagation, using accelerometer sensors placed along and/or across the muscle fibers in order to perform complex muscular analysis. The device has great versatility, allowing us to use up to 10 accelerometers (2 on the piston and 8 placed on the skin) in the longitudinal axis of the muscle. The configuration used for this experiment consists of 2 accelerometers placed proximally (P1 and P2) and 2 accelerometers placed distally (D1 and D2) for each muscle. An analysis was performed on all the accelerometers placed on the skin closest to the impact point, both proximal and distal (P1 and D1) and at a distance (P2 and D2). The accelerometers were positioned on the skin according to the diagram presented in <xref rid="biology-11-01677-f002" ref-type="fig">Figure 2</xref>.</p>
+                <p>MusTone’s functioning principle is based on a mechanical excitation applied on the tissue through a controllable percussion in regard to shape and duration, perpendicular to the direction of the muscle fiber. The acceleration signal is collected from the accelerometer associated with the striker, as well as the measurement accelerometers placed along the muscle fiber. The collected signals give information on how the mechanical perturbation propagates along the muscle fiber. </p>
+                <p>The muscles investigated for the present article were the soleus and rectus femoris, which are located on the right side of the body, and accelerometers were placed according to <xref rid="biology-11-01677-f003" ref-type="fig">Figure 3</xref>. Considering their role in regard to body posture, the changes that occur during DI should be important. The muscle fiber and boundaries were identified by a specialist. The position of the accelerometers was marked in order to assure the experiment’s reproducibility in different experiment days.</p>
+                <p>The experiment was performed in the DI bath facility at IBMP Moscow, Russia. This particular study was without any kind of countermeasures, and inside the immersion bath, the movement was limited. The water temperature was held at 32.5 ± 2 °C. For hygiene purposes, the subjects were raised from the bath every evening for an average of 15–20 min, and most procedures were performed in the prone position of the subject. For all the experimental procedures performed during the study that required the subject to be raised from the bath for a short time, the subject was in a prone position. In their free time, they had the opportunity to read, work on a laptop, watch TV, or talk on the phone.</p>
+                <p>For the present experiment, 10 percussions were performed on each measurement, with approximately 5 s between, and the mean value was considered in order to obtain better results. The parameters used are presented in <xref rid="biology-11-01677-t002" ref-type="table">Table 2</xref>. The resulting accelerometry data were postprocessed by using MATLAB, 2010. <italic toggle="yes">version R2020a</italic>, Natick, Massachusetts: The MathWorks Inc. software, and the physiological parameters of interest were extracted.</p>
+                <p>From a statistical point of view, data were analyzed by using a comparison of the studied parameters (AR and velocity) after different intervals of dry immersion, using ANOVA mixed effects. All values were expressed as mean and standard deviation. Significance was considered against a <italic toggle="yes">p</italic>-value &lt; 0.05.</p>
+                <p>For the MusTone device, measurements were performed in 5 periods of time: one before the immersion, 3 measurements inside the immersion period, and 1 after the subject was extracted from the bath. The experiment unfolding is presented in <xref rid="biology-11-01677-f004" ref-type="fig">Figure 4</xref>, below.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="sec3-biology-11-01677">
+              <title>3. Results</title>
+              <p>The present study investigated muscles’ behavior in the longitudinal direction, parallel to muscle fascicles, using two parameters, namely the Amortization Ratio (AR) and Propagation Velocity (V); and in two directions, namely proximal (P1 and P2) and distal (D1 and D2) in different immersion days.</p>
+              <sec id="sec3dot1-biology-11-01677">
+                <title>3.1. Amortization Ratio for Rectus Femoris Muscle (AR_RF)</title>
+                <p>The data analysis for the rectus femoris muscle showed that, for the proximal propagation (RF_AP1), the AR increases during DI in a time-dependent manner, as seen in <xref rid="biology-11-01677-f005" ref-type="fig">Figure 5</xref>A. The average value of the AR before DI was 0.396 ± 0.114 (P—preparation period). After 10 days of DI, the changes were not significant (average was 0.498 ± 0.13); instead, in DI-B, the AR value were statistically significant −0.549 ± 0.087, (<italic toggle="yes">p</italic> &lt; 0.05).</p>
+                <p>A similar tendency was observed for the distal propagation (RF_AD1) of the mechanical impulse (<xref rid="biology-11-01677-f005" ref-type="fig">Figure 5</xref>B): the average value of the AR before DI was 0.346 ± 0.091. After DI-A, the AR average became 0.475 ± 0.118, but it is still not significant (<italic toggle="yes">p</italic> &gt; 0.05).</p>
+                <p>After prolonged DI, the AR values were statistically significant, after DI-B 0.522 ± 0.058 and DI-C 0.523 ± 0.07, <italic toggle="yes">p</italic> &lt; 0.05, compared to the preparation period (P): 0.346 ± 0.09.</p>
+                <p>For the P2 accelerometer (RF_AP2) shown in <xref rid="biology-11-01677-f006" ref-type="fig">Figure 6</xref>A, the increase of the AR was more consistent. Compared to the values collected before DI, (P = 0.082 ± 0.04), after all DI moments, the values increased significantly (<italic toggle="yes">p</italic> &lt; 0.05): DI-A = 0.138 ± 0.047, DI-B = 0.166 ± 0.05, and DI-C = 0.162 ± 0.07.</p>
+                <p>For the D2 (<xref rid="biology-11-01677-f006" ref-type="fig">Figure 6</xref>B) accelerometer (RF_AD2), no significant differences were observed between the AR values in relation to the duration of DI (<italic toggle="yes">p</italic> &gt; 0.05). Even though the highest AR was observed for the DIB, the differences were not significant (<italic toggle="yes">p</italic> &gt; 0.05).</p>
+              </sec>
+              <sec id="sec3dot2-biology-11-01677">
+                <title>3.2. Amortization Ratio for Soleus Muscle (AR_Sol)</title>
+                <p>The data analysis for the soleus (Sol) muscle showed a similar pattern: for the proximal propagation (Sol_AP1), the AR increased during DI, as shown in <xref rid="biology-11-01677-f007" ref-type="fig">Figure 7</xref>A. The average value of the AR before DI was 0.557 ± 0.179. After DI-A, the AR average significantly increases to 0.779 ± 0.109 (<italic toggle="yes">p</italic> &lt; 0.05). We also noted significant differences in DI-A vs. DI-C (0.779 ± 0.109 vs. 0.598 ± 0.136) and DI-B vs. DI-C (0.657 ± 0.214 vs. 0.598 ± 0.136). Regarding the distal propagation of the mechanical impulse (Sol_AD1), in <xref rid="biology-11-01677-f007" ref-type="fig">Figure 7</xref>B, the average value of the AR before DI was 0.465 ± 0.077. After DI-A, the AR average increases, but it is not significant: 0.599 ± 0.128 (<italic toggle="yes">p</italic> &gt; 0.05). After prolonged DI, the AR values became statistically significant: 0.618 ± 0.077 after DI-B, and 0.644 ± 0.113 after DI-C (<italic toggle="yes">p</italic> &lt; 0.05).</p>
+                <p>For the P2 accelerometer (Sol_AP2) shown in <xref rid="biology-11-01677-f008" ref-type="fig">Figure 8</xref>A, the increase of the AR was significant after prolonged DI. Compared to P = 0.142 ± 0,07, the values increase significantly (<italic toggle="yes">p</italic> &lt; 0.05): DI-C = 0.282 ± 0.02 and R = 0.251 ± 0.05.</p>
+                <p>For the D2 accelerometer, for all intervals of DI (DIA = 0.297 ± 0.01, DIB = 0.305 ± 0.05, DIC = 0.290 ± 0.10, and R = 0.285 ± 0.05), we observed significant increases versus P = 0.177 ± 0.05. (<italic toggle="yes">p</italic> &lt; 0.05).</p>
+                <p>The AR is related to the muscle-structure changes that occur during prolonged DI.</p>
+                <p>Making a comparison between muscles for the P1 accelerometer on the amortization ratio, we can see that the corresponding values for Sol were significantly increased versus RF after DI-A (0.779 ± 0.109 vs. 0.498 ± 0.131) and DI-B (0.657 ± 0.214 vs. 0.55 ± 0.08), <italic toggle="yes">p</italic> &lt; 0.05, which is consistent with the results obtained in distal direction (accelerometer D1). Meanwhile, the corresponding values for Sol were significantly increased versus RF after DI-A (0.599 ± 0.12 vs. 0.475 ± 0.118), DI-C (0.644 ± 0.113 vs. 0.523 ± 0.07 and R (0.568 ± 0.07 vs. 0.462 ± 0.04), <italic toggle="yes">p</italic> &lt; 0.05.</p>
+                <p>In both individual muscle analyses, we observed a significantly increased AR in distal direction D1 which could express a deconditioning gradient of muscle-structure changes related to gravity absence. Both studied muscles are related to vertical posture maintenance, and the present study revealed that changes are significantly higher in the distal direction than in proximal after prolonged DI.</p>
+                <p>The comparison between muscles in the far proximal direction (P2 accelerometer) showed that the values for Sol were significantly increased (<italic toggle="yes">p</italic> &lt; 0.05) after DI-A (0.247 ± 0.06 vs. 0.138 ± 0.04), and R (0.095 ± 0.02 vs. 0.251 ± 0.05).</p>
+                <p>A similar comparison between the Sol and RF muscles in the far distal direction (D2 accelerometer) showed significant differences after DI-A (0.297 ± 0.05 vs. 0.157 ± 0.06), DI-B (0.305 ± 0.05 vs. 0.149 ± 0.06), and R (0.284 ± 0.05 vs. 0.145 ± 0.05), <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </sec>
+              <sec id="sec3dot3-biology-11-01677">
+                <title>3.3. Propagation Velocity (V)</title>
+                <p>For the RF, as shown in <xref rid="biology-11-01677-f009" ref-type="fig">Figure 9</xref>A, we observed a tendency of V to increase after DI-C in proximal propagation (VP1), but the values were not statistically significant. The velocity in the distal direction (VD1), as can be observed in <xref rid="biology-11-01677-f009" ref-type="fig">Figure 9</xref>B, sustains the previous observation, showing a significant increase after DI-B versus P (6.645 ± 1.193 versus 4.875 ± 1.64)), <italic toggle="yes">p</italic> &lt; 0.05. Moreover, we observed a significant increase of the same parameter in distal direction between DI-B versus DI-A (6.645 ± 1.193 versus 5.247 ± 1.179), <italic toggle="yes">p</italic> &lt; 0.005.</p>
+                <p>For the soleus, we did not observe statistically significant differences for the V average in proximal and distal propagation.</p>
+                <p>Considering the velocity in close proximal direction for the RF and Sol muscles (P1 accelerometer), there were no observed significant differences during 21 days of DI; however, in the recovery period, a significant increase of the velocity in RF versus Sol was observed (6.386 ± 0.891 versus 5.316 ± 0.797), <italic toggle="yes">p</italic> &lt; 0.05. The far proximal sensor, P2 accelerometer, did not record differences between the two muscles.</p>
+                <p>The same comparison in the close distal direction and far distal direction for RF and Sol did not present significant differences.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec4-biology-11-01677">
+              <title>4. Discussion</title>
+              <p>The present study investigated rectus femoris and soleus muscle behavior in the longitudinal direction during 21 days of DI.</p>
+              <p>The literature on both human and animal experiments showed a significant decrease in muscle tone in the first days of DI, but a majority of these experiments were focused on short-term exposure, whereas, in this context, the present study offers the opportunity to analyze muscle deconditioning on long-term exposure.</p>
+              <p>Previous studies presented a large group of parameters (structural, microstructural, and functional) to characterize muscle transformation during spaceflight. For instance, the Sarcolab study [<xref rid="B28-biology-11-01677" ref-type="bibr">28</xref>]—performed on two astronauts after space flight on ISS—analyzed the muscles strength, size, and architecture; the cross-sectional area of the single muscle fiber; and the expression of the costameric proteins (vinculin, integrin-linked focal adhesion kinase, FAK), which were reduced in both cases, but with significant differences. There were also alterations in troponin I and troponin T in both crew members, as well as changes in actin and tropomyosin in one subject.</p>
+              <p>Several modulators of the atrophy process were also studied. In one study [<xref rid="B29-biology-11-01677" ref-type="bibr">29</xref>], the process of muscle hypotrophy/atrophy during spaceflight was attributed to D vitamin receptor expression, which induces myotube atrophy in vitro.</p>
+              <p>In another study [<xref rid="B30-biology-11-01677" ref-type="bibr">30</xref>], adiponectin alteration due to biorhythm changes was mentioned to contribute to muscle hypotrophy during space flight. The mechanisms involved the intracellular calcium content of the muscle fiber and muscle mass regulation which is why the adiponectin analogues were proposed as therapeutic solutions in spaceflight.</p>
+              <p>Changes such as the reduction in electric stimulation of the muscle fiber, the reduction in the sarcomeric proteins, and the energetic metabolism of the muscle were described [<xref rid="B31-biology-11-01677" ref-type="bibr">31</xref>] during hypo gravity. Moreover, changes in the myosin fibers’ phenotype in favor of the fast ones occurred.</p>
+              <p>One parameter that the team identified and analyzed is the modification of the AR parameter, and they regarded it as one of the most significant markers of muscle deconditioning; its measurement may allow for an assessment of the degree of muscle damage.</p>
+              <p>When AR was analyzed separately in the RF and Sol, respectively, we observed a significant increase of this parameter both in the proximal and distal direction, in both muscles. Significant changes appeared earlier in distal propagation than in proximal for RF, and this behavior was similar for P1 and P2 accelerometers. When comparing the AR for RF and Sol muscles, we observed that the AR increase was significantly bigger for Sol, with greater consistency in the distal direction.</p>
+              <p>In our study, prolonging the immersion process beyond 13 days demonstrated a statistically significant change for both muscles in the distal site. As the immersion period increased, the value of the AR increased. More specifically, concerning RF, an important statistical increase in the attenuation ratio was observed from DI-A to DI-C, while for the Sol muscle, this change was observed from DI-B to DI-C.</p>
+              <p>Based on these results, it may be outlined the hypothesis that muscle deconditioning occurs in a deconditioning gradient: it is possible to start first in the more distal points and to affect initially the more the distal muscles, i.e., those that are involved in posture maintenance and play an antigravity role.</p>
+              <p>This was the first time when a more complex analysis of the muscle mechanical properties was performed in a long-term DI (21 days) experiment. Four acceleration sensors (P1, P2, D1, and D2) were used to record mechanical wave propagation in proximal and distal directions in relation to the impact point.</p>
+              <p>The second analyzed parameter in our study was the propagation velocity of the mechanical wave; interestingly, for the RF, the values were significantly increased only in the distal direction, starting with DI-B. The increase of the propagation velocity can be related to a reduced muscle density, in relation to previously mentioned intracellular changes.</p>
+              <p>There were recorded significant differences between velocities of the two muscles in favor of Sol (VD2_RF versus VD2_Sol) after DI-C, in distal propagation. These data also sustain a more intense deconditioning in distal direction of the postural muscles.</p>
+              <p>The data that were obtained are consistent with previous studies [<xref rid="B32-biology-11-01677" ref-type="bibr">32</xref>] that used ultrasound application to induce the propagation of a mechanical shear wave. The maximum shear strain was related to the maximal force, and the reduction of this parameter was related to an increased rigidity of the muscle extracellular composition.</p>
+              <p>Considering Reference [<xref rid="B33-biology-11-01677" ref-type="bibr">33</xref>], it may be sustained that the long-term deconditioning after prolonged DI, expressed as the velocity propagation increase, is due to a reduced muscle density, at least partially.</p>
+              <p>One of the limitations of the present study was the small number of cases and the investigation of the muscle groups only on the right side of the body, as the target of our research did not involve any asymmetry assay.</p>
+              <p>Another limitation could be the investigation of only longitudinal direction muscle behavior; however, as stated in Reference [<xref rid="B34-biology-11-01677" ref-type="bibr">34</xref>], muscle deconditioning involves mainly a decrease in strength that is more important than the reduction in muscle mass or volume.</p>
+              <p>Further studies prove that gravity absence creates not only anatomical, biochemical, and functional changes in the muscles but also acts in relation to time and the muscle position/role in the human body. Considering the extensive DI experiment and the large amount of data collected by different participants on a wide range of devices, a joint article for a comparison with a well-known device is being taken into consideration.</p>
+            </sec>
+            <sec sec-type="conclusions" id="sec5-biology-11-01677">
+              <title>5. Conclusions</title>
+              <p>Muscle deconditioning is time dependent; as the exposure of muscle to DI increases, the AR increases.</p>
+              <p>The changes of the AR are more significant in both muscles in the distal direction. Basically, it can be postulated that the lower fibers would be most affected probably due to the lack of the pressure to which the fibers are subjected in an orthostatic position in normal conditions. Prolonging the immersion process by more than 10 days demonstrates a statistically significant change for both studied muscles, especially for the accelerometers positioned at the distal level.</p>
+              <p>Based on these results, one may sustain the hypothesis that muscle deconditioning occurs in an orthostatic gradient: it starts first in distal points and more greatly affects the distal muscles, those that are involved in posture maintenance and which have an essential antigravity role. From what we know, this was the first time a muscle-deconditioning gradient was detected and described. This was possible due to the special features of the MusTone device that allowed us to collect data simultaneously in many points along the muscle fiber. Further studies will be necessary to consolidate our results.</p>
+              <p>Due to the development of space tourism, astronauts and space tourism candidates will require a fast, non-invasive, reliable method that can be used to rapidly quantify the muscle dynamic changes in a real-time manner.</p>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>The authors are thankful for the opportunity offered by the Institute for Biomedical Problems of the Russian Academy to participate in the 21-day Dry Immersion study to test the MusTone device. The authors are grateful also to Vlad Văleanu and Pierre de Hillerin, Senior Researchers, for supporting the team and sharing their tremendous expertise in the human-performance field.</p>
+            </ack>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Experiment methodology—A.N., A.D., M.M. and C.V.; literature investigation—A.N., S.S.B., A.D., G.O., M.M., C.E.J., C.V. and I.R.P.; data curation—A.D., A.N. and I.R.P.; data processing—A.N., A.D. and I.R.P.; data validation—I.R.P., S.S.B., G.O. and C.E.J.; formal analysis—A.D., A.N. and I.R.P.; supervision –A.N., I.R.P., C.V. and S.B; writing—original draft preparation—A.N., S.S.B., A.D., G.O., M.M., C.E.J., C.V. and I.R.P.; writing—review and editing—A.N., S.S.B., A.D., G.O., M.M., C.E.J., C.V. and R.P; proofreading A.N. and S.S.B. All authors have read and agreed to the published version of the manuscript.</p>
+            </notes>
+            <notes>
+              <title>Institutional Review Board Statement</title>
+              <p>The study was performed according to the Declaration of Helsinki on research involving human participants. The Ethics Committee of the Institute of Biomedical Problems (Moscow) approved the study protocol (protocol no. 483, dated 3 August 2018).</p>
+            </notes>
+            <notes>
+              <title>Informed Consent Statement</title>
+              <p>Written informed consent was obtained before the study procedures began, and participants were allowed to withdraw at any time. Written informed consent was obtained from the individual(s) for the publication of any potentially identifiable images or data included in this article.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data Availability Statement</title>
+              <p>The data presented in this study are available upon request from the corresponding author. The data are not publicly available due to the contract signed between institutions participating in the experiment.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest.</p>
+            </notes>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-biology-11-01677">
+                <label>1.</label>
+                <element-citation publication-type="gov">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Harris</surname>
+                      <given-names>B.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stewart</surname>
+                      <given-names>D.F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Summary and Recommendations for Initial Exercise Prescription</article-title>
+                  <source>Proceedings of the Workshop on Exercise Long-Duration Space Flight Conference Proceedings, Lyndon B. Johnson Space Center Houston, Texas 1986, NASA Conference Publication 3051</source>
+                  <comment>Available online: <ext-link xlink:href="https://ntrs.nasa.gov/citations/19910001261" ext-link-type="uri">https://ntrs.nasa.gov/citations/19910001261</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-10-11">(accessed on 11 October 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B2-biology-11-01677">
+                <label>2.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Letier</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Motard</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Luchsinger</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kovacs</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stauffer</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bertschi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evetts</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waldie</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ilzkovitz</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gancet</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dynasuit, Intelligent Space Countermeasure Suit Concept Based on New Artificial Muscles Technologies and Biofeedback</article-title>
+                  <source>Proceedings of the International Symposium on artificial intelligence, robotics and automation in space</source>
+                  <conf-loc>Turin, Italy</conf-loc>
+                  <conf-date>4–6 September 2012</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B3-biology-11-01677">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Trappe</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Costill</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gallagher</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Creer</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peters</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Evans</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fitts</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Exercise in space: Human skeletal muscle after 6 months aboard the International Space Station</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2009</year>
+                  <volume>106</volume>
+                  <fpage>1159</fpage>
+                  <lpage>1168</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.91578.2008</pub-id>
+                  <?supplied-pmid 19150852?>
+                  <pub-id pub-id-type="pmid">19150852</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-biology-11-01677">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Richter</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Braunstein</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Winnard</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nasser</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weber</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Human biomechanical and cardiopulmonary responses to partial gravity—A systematic review</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2017</year>
+                  <volume>8</volume>
+                  <fpage>583</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2017.00583</pub-id>
+                  <?supplied-pmid 28860998?>
+                  <pub-id pub-id-type="pmid">28860998</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-biology-11-01677">
+                <label>5.</label>
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barratt</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baker</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pool</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <source>Principles of Clinical Medicine for Space Flight</source>
+                  <publisher-name>Springer Science &amp; Business Media</publisher-name>
+                  <publisher-loc>New York, NY, USA</publisher-loc>
+                  <year>2008</year>
+                  <fpage>1</fpage>
+                  <lpage>936</lpage>
+                  <pub-id pub-id-type="doi">10.1007/978-0-387-68164-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-biology-11-01677">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lambertz</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pérot</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaspranski</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goubel</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of long-term spaceflight on mechanical properties of muscles in humans</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2001</year>
+                  <volume>90</volume>
+                  <fpage>179</fpage>
+                  <lpage>188</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jappl.2001.90.1.179</pub-id>
+                  <?supplied-pmid 11133909?>
+                  <pub-id pub-id-type="pmid">11133909</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-biology-11-01677">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fitts</surname>
+                      <given-names>R.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riley</surname>
+                      <given-names>D.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Widrick</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Physiology of a microgravity environment invited review: Microgravity and skeletal muscle</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2000</year>
+                  <volume>89</volume>
+                  <fpage>823</fpage>
+                  <lpage>839</lpage>
+                  <pub-id pub-id-type="doi">10.1152/jappl.2000.89.2.823</pub-id>
+                  <?supplied-pmid 10926670?>
+                  <pub-id pub-id-type="pmid">10926670</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-biology-11-01677">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Demangel</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Treffel</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Py</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brioche</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pagano</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bareille</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pessemesse</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Candau</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gharib</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Early structural and functional signature of 3-day human skeletal muscle disuse using the dry immersion model</article-title>
+                  <source>J. Physiol.</source>
+                  <year>2017</year>
+                  <volume>595</volume>
+                  <fpage>4301</fpage>
+                  <pub-id pub-id-type="doi">10.1113/JP273895</pub-id>
+                  <pub-id pub-id-type="pmid">28326563</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-biology-11-01677">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holt</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Macias</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Watenpaugh</surname>
+                      <given-names>D.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S.M.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chang</surname>
+                      <given-names>D.G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hargens, A.R. WISE 2005: Aerobic and resistive countermeasures prevent paraspinal muscle deconditioning during 60-day bed rest in women</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2016</year>
+                  <volume>120</volume>
+                  <fpage>1215</fpage>
+                  <lpage>1222</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00532.2015</pub-id>
+                  <pub-id pub-id-type="pmid">26893030</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-biology-11-01677">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Green</surname>
+                      <given-names>D.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>J.P.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spinal health during unloading and reloading associated with spaceflight</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>1126</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2017.01126</pub-id>
+                  <pub-id pub-id-type="pmid">29403389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-biology-11-01677">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saveko</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishnikov</surname>
+                      <given-names>I.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nistorescu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinculescu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valeanu</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vizitiu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Orlov</surname>
+                      <given-names>O.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects Of 21-Day Support Unloading On Characteristics Of Transverse Stiffness Of Human Muscles</article-title>
+                  <source>Aerosp. Environ. Med.</source>
+                  <year>2020</year>
+                  <volume>54</volume>
+                  <fpage>15</fpage>
+                  <lpage>22</lpage>
+                  <pub-id pub-id-type="doi">10.21687/0233-528X-2020-54-4-15-22</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-biology-11-01677">
+                <label>12.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Custaud</surname>
+                      <given-names>M.-A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neuromuscular and cardiovascular alterations in orthostatic hypotension and postural instability induced by microgravity</article-title>
+                  <source>Proceedings of the 42nd Assembly Cospar</source>
+                  <conf-loc>Pasadena, CA, USA</conf-loc>
+                  <conf-date>14–22 July 2018</conf-date>
+                </element-citation>
+              </ref>
+              <ref id="B13-biology-11-01677">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shigueva</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sayenko</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishnikov</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dry immersion as a ground-based model of microgravity physiological effects</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>284</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.00284</pub-id>
+                  <pub-id pub-id-type="pmid">30971938</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-biology-11-01677">
+                <label>14.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>MEDES Dry Immersion Bathtubs</article-title>
+                  <comment>Available online: <ext-link xlink:href="http://www.medes.fr/en/the-space-clinic/the-equipments/dry-immersion-bath.html" ext-link-type="uri">http://www.medes.fr/en/the-space-clinic/the-equipments/dry-immersion-bath.html</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-03-18">(accessed on 18 March 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B15-biology-11-01677">
+                <label>15.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>The European Space Agency Dry Immersion Infographic</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.esa.int/ESA_Multimedia/Images/2020/03/Dry_immersion_infographic" ext-link-type="uri">https://www.esa.int/ESA_Multimedia/Images/2020/03/Dry_immersion_infographic</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-03-18">(accessed on 18 March 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B16-biology-11-01677">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Navasiolava</surname>
+                      <given-names>N.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Custaud</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Larina</surname>
+                      <given-names>I.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mano</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gauquelin-Koch</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gharib, C.; Kozlovskaya, I.B. Long-term dry immersion: Review and prospects</article-title>
+                  <source>Eur. J. Appl. Physiol.</source>
+                  <year>2010</year>
+                  <volume>111</volume>
+                  <fpage>1235</fpage>
+                  <lpage>1260</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00421-010-1750-x</pub-id>
+                  <pub-id pub-id-type="pmid">21161267</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-biology-11-01677">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pechenkova</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nosikova</surname>
+                      <given-names>I.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rumshiskaya</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Litvinova</surname>
+                      <given-names>L.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishnikov</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mershina</surname>
+                      <given-names>E.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinitsyn</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Ombergen</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeurissen</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jillings</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Alterations of functional brain connectivity after long-duration spaceflight as revealed by fMRI</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>761</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.00761</pub-id>
+                  <?supplied-pmid 31333476?>
+                  <pub-id pub-id-type="pmid">31333476</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-biology-11-01677">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shenkman</surname>
+                      <given-names>B.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cellular responses of human postural muscle to dry immersion</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2019</year>
+                  <volume>10</volume>
+                  <fpage>187</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2019.00187</pub-id>
+                  <?supplied-pmid 30914964?>
+                  <pub-id pub-id-type="pmid">30914964</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-biology-11-01677">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nosikova</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Riabova</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kitov</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NAIAD-2020: Characteristics of Motor Evoked Potentials After 3-Day Exposure to Dry Immersion in Women</article-title>
+                  <source>Front. Hum. Neurosci.</source>
+                  <year>2021</year>
+                  <volume>15</volume>
+                  <fpage>738</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fnhum.2021.753259</pub-id>
+                  <?supplied-pmid 34924980?>
+                  <pub-id pub-id-type="pmid">34924980</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-biology-11-01677">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishnikov</surname>
+                      <given-names>I.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shigueva</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saveko</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kitov</surname>
+                      <given-names>V.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vassilieva</surname>
+                      <given-names>G.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ponomarev</surname>
+                      <given-names>S.A..</given-names>
+                    </name>
+                    <name>
+                      <surname>Smirnova</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.B.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>21-Day Dry Immersion: Schedule of Investigations and Major Results</article-title>
+                  <source>Hum. Physiol.</source>
+                  <year>2021</year>
+                  <volume>47</volume>
+                  <fpage>735</fpage>
+                  <lpage>743</lpage>
+                  <pub-id pub-id-type="doi">10.1134/S0362119721070112</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-biology-11-01677">
+                <label>21.</label>
+                <element-citation publication-type="confproc">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nistorescu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dinculescu</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vizitiu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marin</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandu</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Soleus muscle assessment during 21 day dry immersion study using mustone device</article-title>
+                  <source>Proceedings of the 2019 7th E-Health and Bioengineering Conference, EHB</source>
+                  <conf-loc>Lasi, Romania</conf-loc>
+                  <conf-date>21–23 November 2019</conf-date>
+                  <publisher-name>Institute of Electrical and Electronics Engineers Inc.</publisher-name>
+                  <publisher-loc>Piscataway, NJ, USA</publisher-loc>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1109/EHB47216.2019.8970052</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-biology-11-01677">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Navasiolava</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishvikov</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gauquelin-Koch</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gharib</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kozlovskaya</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Custaud</surname>
+                      <given-names>M.-A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cardiovascular System Under Simulated Weightlessness: Head-Down Bed Rest vs. Dry Immersion</article-title>
+                  <source>Front. Physiol.</source>
+                  <year>2020</year>
+                  <volume>11</volume>
+                  <fpage>395</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fphys.2020.00395</pub-id>
+                  <pub-id pub-id-type="pmid">32508663</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-biology-11-01677">
+                <label>23.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Technology–Myoton</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.myoton.com/technology/" ext-link-type="uri">https://www.myoton.com/technology/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-03-18">(accessed on 18 March 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B24-biology-11-01677">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>A.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Perreault</surname>
+                      <given-names>E.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Royston</surname>
+                      <given-names>T.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>S.S.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Changes in shear wave propagation within skeletal muscle during active and passive force generation</article-title>
+                  <source>J. Biomech.</source>
+                  <year>2019</year>
+                  <volume>94</volume>
+                  <fpage>115</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jbiomech.2019.07.019</pub-id>
+                  <pub-id pub-id-type="pmid">31376979</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-biology-11-01677">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomilovskaya</surname>
+                      <given-names>E.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rukavishnikov</surname>
+                      <given-names>I.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Amirova</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shigueva</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saveko</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kitov</surname>
+                      <given-names>V.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vasilieva</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ponomarev</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Smirnova</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Кozlovskaya</surname>
+                      <given-names>I.B.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>21-day dry immersion: Design and primary results</article-title>
+                  <source>Aviakosmicheskaya I Ekol. Meditsina</source>
+                  <year>2020</year>
+                  <volume>54</volume>
+                  <fpage>5</fpage>
+                  <lpage>14</lpage>
+                  <pub-id pub-id-type="doi">10.21687/0233-528X-2020-54-4-5-14</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-biology-11-01677">
+                <label>26.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Soleus, the Forgotten Muscle for Runners</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.shutterstock.com/ro/image-vector/medical-illustration-symptoms-calf-muscle-tear-1973677565/" ext-link-type="uri">https://www.shutterstock.com/ro/image-vector/medical-illustration-symptoms-calf-muscle-tear-1973677565/</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-11-16">(accessed on 16 November 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B27-biology-11-01677">
+                <label>27.</label>
+                <element-citation publication-type="webpage">
+                  <article-title>Rectus Femoris Muscle</article-title>
+                  <comment>Available online: <ext-link xlink:href="https://www.shutterstock.com/image-illustration/rectus-femoris-muscle-anatomy-3d-illustration-2101537804" ext-link-type="uri">https://www.shutterstock.com/image-illustration/rectus-femoris-muscle-anatomy-3d-illustration-2101537804</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2022-11-11">(accessed on 11 November 2022)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B28-biology-11-01677">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rittweger</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Albracht</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Flück</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ruoss</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Brocca</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Longa</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Moriggi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Seynnes</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Di Giulio</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tenori</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sarcolab pilot study into skeletal muscle’s adaptation to long-term spaceflight</article-title>
+                  <source>Npj Microgravity</source>
+                  <year>2018</year>
+                  <volume>4</volume>
+                  <fpage>18</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-018-0052-1</pub-id>
+                  <pub-id pub-id-type="pmid">30246141</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-biology-11-01677">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuzawa</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koike</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Manabe</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oishi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>VDR regulates simulated microgravity-induced atrophy in C2C12 myotubes</article-title>
+                  <source>Sci. Rep.</source>
+                  <year>2022</year>
+                  <volume>12</volume>
+                  <fpage>1377</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41598-022-05354-0</pub-id>
+                  <pub-id pub-id-type="pmid">35082348</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-biology-11-01677">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Krause</surname>
+                      <given-names>M.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Milne</surname>
+                      <given-names>K.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hawke</surname>
+                      <given-names>T.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Adiponectin—Consideration for its Role in Skeletal Muscle Health</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2019</year>
+                  <volume>20</volume>
+                  <elocation-id>1528</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms20071528</pub-id>
+                  <pub-id pub-id-type="pmid">30934678</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-biology-11-01677">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vilchinskaya</surname>
+                      <given-names>N.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krivoi</surname>
+                      <given-names>I.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shenkman</surname>
+                      <given-names>B.S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>AMP-Activated Protein Kinase as a Key Trigger for the Disuse-Induced Skeletal Muscle Remodeling</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <year>2018</year>
+                  <volume>19</volume>
+                  <elocation-id>3558</elocation-id>
+                  <pub-id pub-id-type="doi">10.3390/ijms19113558</pub-id>
+                  <?supplied-pmid 30424476?>
+                  <pub-id pub-id-type="pmid">30424476</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-biology-11-01677">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bilston</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bolsterlee</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nordez</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sinha</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Contemporary image-based methods for measuring passive mechanical properties of skeletal muscles in vivo</article-title>
+                  <source>J. Appl. Physiol.</source>
+                  <year>2019</year>
+                  <volume>126</volume>
+                  <fpage>1454</fpage>
+                  <lpage>1464</lpage>
+                  <pub-id pub-id-type="doi">10.1152/japplphysiol.00672.2018</pub-id>
+                  <?supplied-pmid 30236053?>
+                  <pub-id pub-id-type="pmid">30236053</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-biology-11-01677">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miyamoto</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hirata</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kanehisa</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshitake</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Validity of Measurement of Shear Modulus by Ultrasound Shear Wave Elastography in Human Pennate Muscle</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2015</year>
+                  <volume>10</volume>
+                  <elocation-id>e0124311</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0124311</pub-id>
+                  <?supplied-pmid 25853777?>
+                  <pub-id pub-id-type="pmid">25853777</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-biology-11-01677">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ikai</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaga</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Calculation of muscle strength per unit cross-sectional area of human muscle by means of ultrasonic measurement</article-title>
+                  <source>Int. Z. Fur Angew. Physiol. Einschl. Arb.</source>
+                  <year>1968</year>
+                  <volume>26</volume>
+                  <fpage>26</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF00696087</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="biology-11-01677-f001">
+              <label>Figure 1</label>
+              <caption>
+                <p>MusTone Device components: (<bold>A</bold>) data-processing unit, (<bold>B</bold>) impulse applicator, (<bold>C</bold>) power supply, and (<bold>D</bold>) accelerometers.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g001" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f002">
+              <label>Figure 2</label>
+              <caption>
+                <p>Accelerometers of interest position in relation to the impact point.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g002" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f003">
+              <label>Figure 3</label>
+              <caption>
+                <p>Accelerometer position on muscle bundle: (<bold>A</bold>) soleus [<xref rid="B26-biology-11-01677" ref-type="bibr">26</xref>] and (<bold>B</bold>) rectus femoris [<xref rid="B27-biology-11-01677" ref-type="bibr">27</xref>].</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g003" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f004">
+              <label>Figure 4</label>
+              <caption>
+                <p>Experiment unfolding during 21-day immersion.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g004" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f005">
+              <label>Figure 5</label>
+              <caption>
+                <p>Amortization ratio for rectus femoris muscle (RF): (<bold>A</bold>) close proximal propagation (P1) and (<bold>B</bold>) close distal propagation (D1). The statistical significance of results is noted with an asterisk (*): * <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g005" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f006">
+              <label>Figure 6</label>
+              <caption>
+                <p>Amortization ratio for rectus femoris muscle (RF): (<bold>A</bold>) far proximal propagation (P2) and (<bold>B</bold>) far distal propagation (D2). The statistical significance of results is noted with an asterisk (*): * <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g006" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f007">
+              <label>Figure 7</label>
+              <caption>
+                <p>Amortization ratio for Sol: (<bold>A</bold>) close proximal propagation (P1) and (<bold>B</bold>) close distal propagation (D1). The statistical significance of results is noted with an asterisk (*): * <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g007" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f008">
+              <label>Figure 8</label>
+              <caption>
+                <p>Amortization ratio for Sol: (<bold>A</bold>) far proximal propagation (P2) and (<bold>B</bold>) far distal propagation (D2). The statistical significance of the results is noted with an asterisk (*): * <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g008" position="float"/>
+            </fig>
+            <fig position="float" id="biology-11-01677-f009">
+              <label>Figure 9</label>
+              <caption>
+                <p>Propagation velocity for rectus femoris muscle (RF): (<bold>A</bold>) close proximal propagation (P1) and (<bold>B</bold>) close distal propagation (D1). The statistical significance of results is noted with an asterisk (*): * <italic toggle="yes">p</italic> &lt; 0.05.</p>
+              </caption>
+              <graphic xlink:href="biology-11-01677-g009" position="float"/>
+            </fig>
+            <table-wrap position="float" id="biology-11-01677-t001">
+              <object-id pub-id-type="pii">biology-11-01677-t001_Table 1</object-id>
+              <label>Table 1</label>
+              <caption>
+                <p>Subject’s body parameters.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Age</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Height</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Body Mass</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Index of Body Mass</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">23</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">174</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">81.7</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">27.0</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">30</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">183</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">86.9</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">25.9</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S3</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">32</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">180.1</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">80.8</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">24.9</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S4</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">176.5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">81</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">26.0</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">32</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">172</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">64.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">21.7</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">S6</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">31</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">172.7</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">67.6</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">22.7</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Mean value</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">29</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">176,383</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">77,033</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">24,700</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">SD</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">3.688</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">4.383</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">8.975</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">2.072</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">SEM</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.506</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.789</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.664</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.846</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <table-wrap position="float" id="biology-11-01677-t002">
+              <object-id pub-id-type="pii">biology-11-01677-t002_Table 2</object-id>
+              <label>Table 2</label>
+              <caption>
+                <p>Parameters used for the present DI experiment.</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Parameter</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Set Value</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Measurement Unit</th>
+                    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Observations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Acquisition step</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">0.2</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ms</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Values are recorded each 0.2 ms</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Stimulus action time</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">10</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ms</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Time necessary for the percussion to be applied</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Acquisition start</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">−5</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ms</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">If the value is negative, the acquisition starts before the impulse is applied</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">Acquisition time</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">650</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">ms</td>
+                    <td align="center" valign="middle" rowspan="1" colspan="1">The duration of the recording</td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Scale</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">±4 g</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">m/s2</td>
+                    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Amplitude scale</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:53:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8116305" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8116305</identifier>
+        <datestamp>2021-05-26</datestamp>
+        <setSpec>springeropen</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Radiat Environ Biophys</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Radiat Environ Biophys</journal-id>
+              <journal-title-group>
+                <journal-title>Radiation and Environmental Biophysics</journal-title>
+              </journal-title-group>
+              <issn pub-type="ppub">0301-634X</issn>
+              <issn pub-type="epub">1432-2099</issn>
+              <publisher>
+                <publisher-name>Springer Berlin Heidelberg</publisher-name>
+                <publisher-loc>Berlin/Heidelberg</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8116305</article-id>
+              <article-id pub-id-type="pmcid">PMC8116305</article-id>
+              <article-id pub-id-type="pmc-uid">8116305</article-id>
+              <article-id pub-id-type="pmid">33929575</article-id>
+              <article-id pub-id-type="pmid">33929575</article-id>
+              <article-id pub-id-type="publisher-id">910</article-id>
+              <article-id pub-id-type="doi">10.1007/s00411-021-00910-0</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Original Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>A bespoke health risk assessment methodology for the radiation protection of astronauts</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7399-9191</contrib-id>
+                  <name>
+                    <surname>Walsh</surname>
+                    <given-names>Linda</given-names>
+                  </name>
+                  <address>
+                    <email>linda.walsh@uzh.ch</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5218-9293</contrib-id>
+                  <name>
+                    <surname>Hafner</surname>
+                    <given-names>Luana</given-names>
+                  </name>
+                  <address>
+                    <email>luana.hafner@gmail.com</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Straube</surname>
+                    <given-names>Ulrich</given-names>
+                  </name>
+                  <address>
+                    <email>ulrich.straube@esa.int</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4863-4128</contrib-id>
+                  <name>
+                    <surname>Ulanowski</surname>
+                    <given-names>Alexander</given-names>
+                  </name>
+                  <address>
+                    <email>a.ulanowski@iaea.org</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                  <xref ref-type="aff" rid="Aff5">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Fogtman</surname>
+                    <given-names>Anna</given-names>
+                  </name>
+                  <address>
+                    <email>anna.fogtman@esa.int</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Durante</surname>
+                    <given-names>Marco</given-names>
+                  </name>
+                  <address>
+                    <email>M.Durante@gsi.de</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff6">6</xref>
+                  <xref ref-type="aff" rid="Aff7">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Weerts</surname>
+                    <given-names>Guillaume</given-names>
+                  </name>
+                  <address>
+                    <email>guillaume.weerts@esa.int</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schneider</surname>
+                    <given-names>Uwe</given-names>
+                  </name>
+                  <address>
+                    <email>uwe.schneider@uzh.ch</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="aff" rid="Aff8">8</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.7400.3</institution-id><institution-id institution-id-type="ISNI">0000 0004 1937 0650</institution-id><institution>Department of Physics, Science Faculty, </institution><institution>University of Zürich, </institution></institution-wrap>Winterthurerstrasse 190, 8057 Zurich, Switzerland </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.5801.c</institution-id><institution-id institution-id-type="ISNI">0000 0001 2156 2780</institution-id><institution>Department of Physics, </institution><institution>ETH Zurich, </institution></institution-wrap>Otto-Stern-Weg 1, 8092 Zurich, Switzerland </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.507239.a</institution-id><institution-id institution-id-type="ISNI">0000 0004 0623 7092</institution-id><institution>Medical Operations and Space Medicine, HRE-OM, </institution><institution>European Space Agency, ESA, European Astronaut Centre, EAC, </institution></institution-wrap>Cologne, Germany </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.420221.7</institution-id><institution-id institution-id-type="ISNI">0000 0004 0403 8399</institution-id><institution>Present Address: Environment Laboratories, </institution><institution>International Atomic Energy Agency, </institution></institution-wrap>2444 Seibersdorf, Austria </aff>
+                <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="GRID">grid.4567.0</institution-id><institution-id institution-id-type="ISNI">0000 0004 0483 2525</institution-id><institution>Institute of Radiation Medicine, </institution><institution>Helmholtz Zentrum München- German Research Center for Environmental Health, </institution></institution-wrap>85764 Neuherberg, Germany </aff>
+                <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="GRID">grid.159791.2</institution-id><institution-id institution-id-type="ISNI">0000 0000 9127 4365</institution-id><institution>Biophysics Department, </institution><institution>GSI Helmholtzzentrum für Schwerionenforschung, </institution></institution-wrap>Darmstadt, Germany </aff>
+                <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="GRID">grid.6546.1</institution-id><institution-id institution-id-type="ISNI">0000 0001 0940 1669</institution-id><institution>Technische Universität Darmstadt, </institution></institution-wrap>Darmstadt, Germany </aff>
+                <aff id="Aff8"><label>8</label>Radiotherapy Hirslanden, Witellikerstrasse 40, 8032 Zurich, Switzerland </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>30</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>30</day>
+                <month>4</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <year>2021</year>
+              </pub-date>
+              <volume>60</volume>
+              <issue>2</issue>
+              <fpage>213</fpage>
+              <lpage>231</lpage>
+              <history>
+                <date date-type="received">
+                  <day>18</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>10</day>
+                  <month>4</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par1">An alternative approach that is particularly suitable for the radiation health risk assessment (HRA) of astronauts is presented. The quantity, Radiation Attributed Decrease of Survival (RADS), representing the cumulative decrease in the unknown survival curve at a certain attained age, due to the radiation exposure at an earlier age, forms the basis for this alternative approach. Results are provided for all solid cancer plus leukemia incidence RADS from estimated doses from theoretical radiation exposures accumulated during long-term missions to the Moon or Mars. For example, it is shown that a 1000-day Mars exploration mission with a hypothetical mission effective dose of 1.07 Sv at typical astronaut ages around 40 years old, will result in the probability of surviving free of all types of solid cancer and leukemia until retirement age (65 years) being reduced by 4.2% (95% CI 3.2; 5.3) for males and 5.8% (95% CI 4.8; 7.0) for females. RADS dose–responses are given, for the outcomes for incidence of all solid cancer, leukemia, lung and female breast cancer. Results showing how RADS varies with age at exposure, attained age and other factors are also presented. The advantages of this alternative approach, over currently applied methodologies for the long-term radiation protection of astronauts after mission exposures, are presented with example calculations applicable to European astronaut occupational HRA. Some tentative suggestions for new types of occupational risk limits for space missions are given while acknowledging that the setting of astronaut radiation-related risk limits will ultimately be decided by the Space Agencies. Suggestions are provided for further work which builds on and extends this new HRA approach, e.g., by eventually including non-cancer effects and detailed space dosimetry.</p>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Space radiation protection</kwd>
+                <kwd>Space flight</kwd>
+                <kwd>Radiation-related cancer</kwd>
+                <kwd>Radiation attributed decrease of survival</kwd>
+                <kwd>Radiation risk model</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution-wrap>
+                      <institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100000844</institution-id>
+                      <institution>European Space Agency</institution>
+                    </institution-wrap>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Universität Zürich</institution>
+                  </funding-source>
+                </award-group>
+                <open-access>
+                  <p>Open Access funding provided by Universität Zürich.</p>
+                </open-access>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© Springer-Verlag GmbH Germany, part of Springer Nature 2021</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1">
+              <title>Introduction</title>
+              <p id="Par2">Uncertainties in detrimental health risks from space radiation exposure are main mission-duration limiting factors in the planning of long-term interplanetary missions involving astronauts (Hellweg et al. <xref ref-type="bibr" rid="CR12">2020</xref>; Chancellor et al. <xref ref-type="bibr" rid="CR5">2014</xref>). Current detrimental health risk assessments for space applications mainly consider how to account for and protect against heavy-ion carcinogenesis (Durante and Cucinotta <xref ref-type="bibr" rid="CR9">2008</xref>). Different national space agencies currently adopt non-aligned approaches for limiting the total radiation exposure accumulated during the career of an astronaut and this non-alignment poses problems for planning international exploratory-class missions (McKenna-Lawlor et al. <xref ref-type="bibr" rid="CR20">2014</xref>).</p>
+              <p id="Par3">A recent position paper, on research plans in Europe for radiation hazard assessments in space, recommended the development of European space radiation risk models to better characterize the radiation risks to astronauts (Walsh et al. <xref ref-type="bibr" rid="CR40">2019a</xref>). In line with this recommendation, an alternative approach to the radiation health risk assessment (HRA) of astronauts and the advantages of this approach, over currently applied methodologies for astronaut HRA, are presented here. Application of a cumulative risk measure called Radiation Attributed Decrease of Survival (RADS) and representing the cumulative decrease in the unknown survival curve at a certain attained age, due to the radiation exposure at an earlier age, forms the basis for this alternative approach (Ulanowski et al. <xref ref-type="bibr" rid="CR35">2019</xref>, <xref ref-type="bibr" rid="CR36">2020a</xref>). This risk assessment approach is somewhat simpler than currently applied radiation lifetime risk measure methodologies, and relies less, than current methodologies, on detrimental health information drawn from the general population, which are not a good proxy for atypically healthy, non-smoking and carefully health monitored astronauts.</p>
+              <p id="Par4">In comparison to other lifetime cumulative risk measures (Vaeth and Pierce <xref ref-type="bibr" rid="CR38">1990</xref>) such as Life Attributable Risk or Years of Life Lost/Relative Reduction of Lifetime and the Risk of Exposure Induced Death (REID), where this latter quantity is currently applied in the US for astronaut radiation HRA (NASA <xref ref-type="bibr" rid="CR22">2007</xref>,<xref ref-type="bibr" rid="CR23"> 2013</xref>), RADS requires fewer assumptions and input parameters, making a comprehensive uncertainty analysis more realistically achievable than in the past. A systematic overview of the conventional and alternative risk metrics is beyond the scope of this study and can be found in Ulanowski et al. (<xref ref-type="bibr" rid="CR36">2020a</xref>, <xref ref-type="bibr" rid="CR37">b</xref>). The outcomes for disease incidence groupings rather than disease mortality groupings has been applied in this approach for the many reasons given in the discussion section. However, RADS is a generic term for a quantity which may be applied either to disease mortality outcomes or to disease incidence outcomes. When applied to disease incidence outcomes, RADS represents the radiation attributed decrease in disease-free survival.</p>
+              <p id="Par5">This alternative approach is presented here for several sex-specific disease incidence outcome groupings: all solid cancer plus leukemia, all solid cancer, leukemia, lung cancer and female breast cancer. For comparison purposes, some of the results for RADS are compared here directly to results computed for the parallel incidence quantity to REID, i.e., Risk of Exposure Induced Cancer (REIC), using European population data and applying the same framework to both risk quantities. All of the cumulative risk quantities mentioned need to be based on radiation-related disease risk models from existing radiation epidemiology cohorts with long-term follow-up. Currently, risks (e.g., Grant et al. <xref ref-type="bibr" rid="CR10">2017</xref>) based on the Life Span Study (LSS) cohort data from survivors of the A-bombs in Japan, exposed to gamma and neutron radiation, are applied for this purpose. Such risk models give the disease risks per unit weighted or equivalent organ dose, i.e., weighted by the A-bomb neutron Relative (to gamma) Biological Effectiveness (RBE), so the choice of this LSS specific neutron RBE directly affects the risk estimates per unit weighted organ dose calculated from the A-bomb epidemiological data. LSS neutron RBEs higher than the value of 10, generally applied, result in smaller LSS based risks per unit weighted or equivalent A-bomb organ dose. For this reason, a clear distinction is required here between the neutron RBE, which is by necessity applied in obtaining the risk models from the A-bomb survivors (LSS neutron RBE), and the neutron RBE (and other RBE types) appropriate for the neutron fluence of galactic cosmic radiation and solar radiation (space RBEs).</p>
+              <p id="Par6">Recent indications (Cordova and Cullings <xref ref-type="bibr" rid="CR7">2019</xref>, and earlier references cited therein) of higher LSS neutron RBEs than 10, are taken into account in the alternative approach by applying a published empirical LSS neutron RBE model (Hafner et al. <xref ref-type="bibr" rid="CR11">2021</xref>). The LSS neutron RBE is not directly applicable to astronaut dosimetric monitoring data as a proxy for neutron space RBE. Ultimately, however, such A-bomb-based risks per unit weighted LSS organ dose should be applied to the unit weighted organ doses calculated from actual astronaut dosimetry monitoring data and appropriate space RBEs for different space radiation types taken from authoritative assessments (e.g., ICRP <xref ref-type="bibr" rid="CR17">2013</xref>). It is these weighted or equivalent organ doses from the space radiation that need to be applied in the future, within the current HRA framework, to obtain the actual risks for astronauts. However, the inclusion of actual astronaut dosimetry monitoring data and detailed space dosimetry is beyond the scope of the current paper.</p>
+              <p id="Par7">To illustrate the application scope of this alternative HRA methodology, risks are presented at: either a 1 Gy weighted A-bomb organ dose or dose response; or for estimated effective doses for several hypothetical Moon or Mars missions. For this purpose, assumptions are made that different unit organ doses in Gy (i.e., for colon and bone marrow) will be equal and also equal to the effective dose in Sv, for very high energy space radiation and for a given fluence, as first-order approximations.</p>
+              <p id="Par8">Further work, described in the discussion section, will be done in the future to include actual astronaut dosimetry monitoring data and to assess the feasibility of including other important detrimental health outcomes such as cardiovascular and central nervous system diseases into this RADS-based HRA methodology.</p>
+            </sec>
+            <sec id="Sec2">
+              <title>Materials and methods</title>
+              <sec id="Sec3">
+                <title>General description of the methods</title>
+                <p id="Par9">Most currently applied cumulative lifetime measures for assessing the risk of radiation-related detrimental health outcomes (e.g., incidence or mortality in various cancer groupings), are based on the radiation risks from the Life Span Study (LSS) of Hiroshima and Nagasaki A-bomb survivors (e.g., Preston et al. <xref ref-type="bibr" rid="CR25">2007</xref>; Grant et al. <xref ref-type="bibr" rid="CR10">2017</xref>). The LSS provides data for fitting mathematical models for the proportional (excess relative risk, ERR) and additive (excess absolute risk, EAR) increases of the radiation-related rates of the outcome of interest (cancer or other disease) with respect to the LSS baseline rates. These risks are usually expressed as a function of weighted unit organ dose from the A-bombs (LSS gamma organ dose + 10 × LSS neutron organ dose) appropriate for the outcome considered, assuming an LSS neutron RBE of 10. Also, a risk centering at an age at exposure (<italic>e</italic>) of 30 years and attained age (<italic>a</italic>) of 70 years (i.e., age-centred sex-averaged risks) years is generally used for various models for different cancer groupings (e.g., all solid cancer). The LSS risk models are completed with risk effect modifiers that can be applied to re-calculate these central risks to provide risks at different ages at exposure, attained ages and for males and females.</p>
+                <p id="Par10">In radiation health risk assessment, it is often required, not only to know the risks at certain ages and not only with respect to the LSS baseline rates in various cancer groupings but to have a measure of the lifetime (or segment of lifetime) risks after radiation exposure in different populations. To calculate such cumulative risks, the ERR and EAR from the LSS (or other radiation epidemiology studies) are usually combined with the baseline rates in the population of interest, and the general survival characteristics in the population of interest and integrated over age, from age at exposure (accounting for outcome latency time) up to the age at which the cumulative risk is required. Vaeth and Pierce (<xref ref-type="bibr" rid="CR38">1990</xref>), introduced several cumulative risk measures generally applied in radiation health risk assessments, including the Risk of Exposure Induced Death (REID), as currently applied by NASA. REID is based on the survival function, i.e., the dose-dependent conditional survival probabilities of persons alive at age at exposure, <italic>e</italic>, to reach at least age <italic>a</italic>. This survival function, of the exposed population, includes acute mortality after exposures up to several Gy and late radiation-induced non-cancer mortality (Kellerer et al. <xref ref-type="bibr" rid="CR18">2001</xref>), where these latter two quantities have very large uncertainties.</p>
+                <p id="Par11">In general, uncertainties are high when lifetime cumulative risks are based on survival functions that need to be projected far into the future, because (a) the current population disease and death rates must be assumed to remain constant far into the future (Walsh et al. <xref ref-type="bibr" rid="CR39">2014</xref>) and (b) the survival characteristics of the at-risk exposed persons (i.e., astronauts here) must be assumed to be well represented by the general population. A radiation risk assessment method, that inherently substantially reduces the dependence on population statistics and completely removes the requirement of survival curve input, has recently been described (Ulanowski et al. <xref ref-type="bibr" rid="CR35">2019</xref>). This method, called radiation attributed decrease of survival (RADS) is particularly useful for risk assessments in highly atypical exposed groups such as astronauts (i.e., atypically healthy, non-smoking and carefully health monitored) and forms the basis of the work presented here for a bespoke approach to HRA for the radiation protection of astronauts (see also Walsh et al. <xref ref-type="bibr" rid="CR41">2019b</xref>). The first stage in this approach will be based on outcome incidence rather than mortality and a consideration of the LSS neutron RBE, inherent in the LSS A-bomb radiation risk models, will also be included. RADS represents a cumulative radiation risk which is only based on the radiation-attributed hazard, <italic>H</italic><sub>c</sub>, which is just the total integrated excess incidence risks for the outcome of interest, <italic>c</italic>, and is conditional on survival until a certain age <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a$$\end{document}</tex-math><mml:math id="M2"><mml:mi>a</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq1.gif"/></alternatives></inline-formula>:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{RADS}\left(a|e,D,\mathrm{RBE}\right)=1-\mathrm{exp}\left(-{H}_{\mathrm{c}}\left(a|e,D,\mathrm{RBE}\right)\right),$$\end{document}</tex-math><mml:math id="M4" display="block"><mml:mrow><mml:mi mathvariant="normal">RADS</mml:mi><mml:mfenced close=")" open="("><mml:mi>a</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>D</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi mathvariant="normal">exp</mml:mi><mml:mfenced close=")" open="("><mml:mo>-</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>a</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>D</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>
+where <italic>D</italic> is the organ weighted dose and RBE is the LSS neutron relative biological effectiveness. For example, for the outcome of all solid cancer, <italic>s</italic>, and colon dose, <italic>D</italic><sub>c</sub>, the hazard is:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${H}_{\mathrm{s}}\left(a|e,D,\mathrm{RBE}\right)= {\int }_{e+l}^{a}{h}_{\mathrm{s}}\left(u,e,{D}_{\mathrm{c}},\mathrm{RBE}\right)\mathrm{d}u.$$\end{document}</tex-math><mml:math id="M6" display="block"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>a</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>D</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:msubsup><mml:mo>∫</mml:mo><mml:mrow><mml:mi>e</mml:mi><mml:mo>+</mml:mo><mml:mi>l</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:msubsup><mml:msub><mml:mi>h</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced><mml:mi mathvariant="normal">d</mml:mi><mml:mi>u</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par13">i.e., an integral from age at exposure plus some latency period, l, up to any required attained age, where<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${h}_{\mathrm{S}}\left(a,e,{D}_{\mathrm{c}},\mathrm{RBE}\right)=\frac{w{\mathrm{ERR}}_{\mathrm{S}}\left({D}_{\mathrm{c}},a,e,\mathrm{RBE}\right){m}_{S}\left(a\right)+(1-w){\mathrm{EAR}}_{S}({D}_{\mathrm{c}},a,e,\mathrm{RBE})/\mathrm{10,000}}{\mathrm{DDREF}}$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mi mathvariant="normal">S</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>w</mml:mi><mml:msub><mml:mi mathvariant="normal">ERR</mml:mi><mml:mi mathvariant="normal">S</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi></mml:mfenced><mml:msub><mml:mi>m</mml:mi><mml:mi>S</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>a</mml:mi></mml:mfenced><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>w</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi mathvariant="normal">EAR</mml:mi><mml:mi>S</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">RBE</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">/</mml:mo><mml:mrow><mml:mn>10</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:mrow></mml:mrow><mml:mi mathvariant="normal">DDREF</mml:mi></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula> which accounts for a dose and dose rate effectiveness factor (DDREF) and population age and sex-specific cancer incidence rates <italic>m</italic><sub>s</sub>(<italic>a</italic>). The factor <italic>w</italic> is applied to weight the relative contributions by the ERR and EAR models. ICRP (<xref ref-type="bibr" rid="CR16">2007</xref>) stated that weights of 0.5 were applied in detriment calculations, except for the outcomes breast cancer and leukemia, where only an EAR model was applied and except for lung cancer where a <italic>w</italic> = 0.3 was applied—these are the weights adopted in the results section except for leukaemia where a weight of 0.5 was applied also for the outcome all solid cancer plus leukemia. Although, to reflect the full range in the uncertainty connected with the choice of numerical values for w, the results for incidence risks in various cancer groupings are presented here also with the extreme values of <italic>w</italic> = 0 and <italic>w</italic> = 1. For the outcome leukemia, the application of a DDREF is not recommended (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>) and, therefore, not applied here.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Input requirements for calculating RADS</title>
+                <p id="Par15">
+                  <list list-type="order">
+                    <list-item>
+                      <p id="Par16">Outcome types initially considered. The following malignant diseases or groups of malignant diseases were initially considered (ICD-10 classification codes are shown in parentheses) because they are known to be important sites for adult HRA (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>):</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par17">All solid cancers (C00–C80);</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par18">Leukemia, defined here as all leukemia (i.e., most of the ICD10: C91–C95 subclasses, excluding CLL, C91.1 and C91.4, and excluding ATL, C91.5);</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par19">Female breast cancer (C50);</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par20">Lung cancer (C34).</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par21">Population age-specific cancer incidence rates, given by sex, cancer site and 5-year age group, are available from the Cancer Incidence in Five Continents Volume XI (CI5 XI) (Bray et al. <xref ref-type="bibr" rid="CR2">2017</xref>). The rates for the regions in the following eight countries were combined: Belgium, Denmark, France, Germany, Italy, The Netherlands, Spain, United Kingdom, because this was assumed to be a good representation of European rates for European Space Agency (ESA) astronauts. Originally, Sweden was in the choice of countries to combine but the Swedish rates were not included in CI5 XI. Combined rates for these 8 countries were obtained by first sorting by Continent, to exclude colonies outside Europe, and calculated by taking the mean of incidence rates from the years 2008–2012 for the following cancers: (ICD-10 code) breast (C50), lung (incl. trachea and bronchus) (C33–34), lymphoid leukemia (C91), myeloid leukemia (C92–94), leukemia unspecified (C95). Results are also presented for all solid cancer plus leukemia with the combined ICD-10 code as already given for all solid cancer and leukemia separately. These ICD groups match the ICD 10 codes pertaining to the LSS cancer risk models, as closely as possible.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par22">The LSS ERR model for all solid cancer based on colon dose from Grant et al. (<xref ref-type="bibr" rid="CR10">2017</xref>) and the EAR model for all solid cancer from Walsh et al. (<xref ref-type="bibr" rid="CR41">2019b</xref>) were applied. LSS ERR and EAR models for leukemia based on red bone marrow dose from Hsu et al. (<xref ref-type="bibr" rid="CR13">2013</xref>) were applied. For female breast cancer models based on breast dose from Preston et al. (<xref ref-type="bibr" rid="CR25">2007</xref>) were applied. For lung cancer, the radiation only ERR model from Table 3 of Cahoon et al. (<xref ref-type="bibr" rid="CR3">2017</xref>) and an EAR model fitted, by the current authors, by changing this ERR into an additive model with otherwise the same parameterisation, based on lung weighted organ dose were applied. These model choices were based on models fitted to the most recently available LSS incidence data for which the data and EPICURE scripts were publicly available because we needed to re-fit the same models, with the extra information on the (unavailable) parameter covariance matrices that we needed to apply in the uncertainty analysis. All implemented ERR and EAR model parameters are given in Table <xref rid="Tab4" ref-type="table">4</xref> of Appendix A.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par23">The dose and dose rate effectiveness factor (DDREF). The current methodology allows a user-based choice in the software developed for this HRA (see below) of either an ICRP (<xref ref-type="bibr" rid="CR16">2007</xref>) recommended value of a DDREF = 2, or any other value. The impact of uncertainties in the DDREF can be assessed by running the prototype risk calculation software with different values. This choice can eventually be made, and uncertainties included, to reflect the future recommendations for DDREF from ICRP Task Group (TG) 91 on “Radiation Risk Inference at Low-dose and Low-dose Rate Exposure for Radiological Protection Purposes”. This TG is currently evaluating the scientific evidence of low-dose and low-dose-rate effects (Rühm et al. <xref ref-type="bibr" rid="CR26">2015</xref>, <xref ref-type="bibr" rid="CR27">2016</xref>, <xref ref-type="bibr" rid="CR28">2018</xref>; Shore et al. <xref ref-type="bibr" rid="CR30">2017</xref>). However, all results presented here are for a DDREF of 1, for the purposes of illustrating this HRA methodology. For the outcome leukemia, a DDREF is not applied here in line with ICRP recommendations (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>). For missions with organ doses above the usual levels considered in ground-based radiation protection of up to a few hundred mGy, it may be more appropriate to call this factor a dose rate effectiveness factor (DREF) (see “<xref rid="Sec13" ref-type="sec">Discussion</xref>” section).</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par24">The LSS neutron RBE. The impact, of different A-bomb neutron RBEs assumed in the LSS risk models, on radiation risk models applied in space HRA has already been considered (Schneider and Walsh <xref ref-type="bibr" rid="CR29">2009</xref>). The current methodology allows a user-based choice because this previous work has been extended and an LSS neutron RBE model has been recently developed (Hafner et al. <xref ref-type="bibr" rid="CR11">2021</xref>) and applied here. An LSS neutron RBE value of 80 is applied here for the purposes of illustrating this HRA methodology, since Cordova and Cullings (<xref ref-type="bibr" rid="CR7">2019</xref>) and other comprehensive studies cited therein, found indications that the LSS neutron RBE for colon dose is 80 (95% CI 20; 190), i.e., much higher than the value of 10 usually applied in most official analyses of the LSS data. The impact of uncertainties in the LSS neutron RBE can be assessed by running the prototype risk calculation software with different values.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par25">Mission-based data on the astronauts at risk. The current software implementing this HRA methodology allows a user-based choice of the number of missions (1 up to a current maximum of 4) and for each mission, the astronauts age in years and organ dose for the chosen outcome of interest i.e., colon dose, red bone marrow (RBM) dose, breast dose and lung dose for the outcomes all solid cancer, leukemia, female breast cancer and lung cancer, respectively. The results for all solid cancer plus leukemia risk are calculated by either: adjusting the RADS outcome to “all solid cancer and leukemia” before integration, Eq. (<xref rid="Equ2" ref-type="">2</xref>); or adding the REIC risks per unit organ dose for both outcomes—both procedures are based on the assumption that colon and the RBM organ doses in Gy will be equal and equal to the effective dose in Sv, for very high energy space radiation for a given fluence, as a first-order approximation. For the purposes of illustrating the HRA methodology, results are presented for either a 1 Sv dose or a dose response or for approximate characteristic doses for several hypothetical Moon or Mars missions resulting in doses of 0.17, 1.03 or 1.07 Sv, estimated at solar minimum and with a 5 g cm<sup>−2</sup> aluminium shielding of the space craft (NASA <xref ref-type="bibr" rid="CR21">2005</xref>; Cucinotta <xref ref-type="bibr" rid="CR8">2007</xref>).</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par26">An accounting for the non-smoking status of astronauts is required because CI5 XI population age-specific lung cancer incidence rates <italic>m</italic><sub>s</sub>(<italic>a</italic>), applied in Eq. (<xref rid="Equ3" ref-type="">3</xref>), are generally only available in Europe for the general population [made up from all types of smoking behaviour: current smokers (CS); never smokers (NS); and former smokers (FS)]. The NASA methodology (Chappell <xref ref-type="bibr" rid="CR6">2014</xref>) has been adopted, adapted and applied here to European CI5 XI data to estimate NS cancer incidence rates from the following: relative risk for lung cancer mortality associated with smoking exposure in CS and FS relative to never smokers (Thun et al. <xref ref-type="bibr" rid="CR34">2013</xref>); A lethality factor for lung cancer of 0.89 for males and females (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>); and the prevalence of NS, FS and CS in the German population for 2012 (from Figs. 2 and 3 of Zeiher et al. 2018). This latter source of prevalence information was applied under the assumption that prevalence percentages in the German population are a good approximation to prevalence in the 8 European countries combined CI5 XI data. Appendix B gives further details of this methodology.</p>
+                    </list-item>
+                    <list-item>
+                      <p id="Par27">Choices for latency periods, <italic>l</italic>, to apply in Eq. (<xref rid="Equ2" ref-type="">2</xref>) above, for each outcome are required. Here the latency periods applied in the WHO Fukushima HRA of 2 years for leukemia and 5 years for the other outcomes considered here, were adopted (WHO <xref ref-type="bibr" rid="CR42">2013</xref>; Walsh et al. <xref ref-type="bibr" rid="CR39">2014</xref>).</p>
+                    </list-item>
+                  </list>
+                </p>
+              </sec>
+              <sec id="Sec5">
+                <title>Input requirements for calculating REIC</title>
+                <p id="Par28">The full methodology and equations for calculating REIC have already been given and results for all solid cancer plus leukemia have already been provided for astronaut HRA (Hafner et al. <xref ref-type="bibr" rid="CR11">2021</xref>). The only differences between the calculations provided for REIC in Hafner et al. (<xref ref-type="bibr" rid="CR11">2021</xref>) and here are that in Hafner et al. (<xref ref-type="bibr" rid="CR11">2021</xref>), the German cancer incidence rates were applied instead of the CI5 XI—eight country rates used here. The other input requirements 1–8 given above, are actually the same for REIC and for RADS, but with the additional requirement for REIC of a dose-dependent survival curve that accounts for late radiation-induced non-cancer mortality, such as cardiac mortality and acute radiation-induced all-cause mortality with the model forms already given in detail by Hafner et al. (<xref ref-type="bibr" rid="CR11">2021</xref>). The large uncertainties in the survival curve coming from, among other sources, the uncertainties in the models accounting for late and acute mortality, were not accounted for here because these models are only published with parameter central estimates.</p>
+              </sec>
+              <sec id="Sec6">
+                <title>The software applied and the accounting for uncertainties</title>
+                <p id="Par29">Published ERR and EAR models were refitted by the current authors to obtain the model fit-parameters (Table <xref rid="Tab4" ref-type="table">4</xref> of Appendix A) and the parameter covariance matrices (Tables <xref rid="Tab5" ref-type="table">5</xref>, <xref rid="Tab6" ref-type="table">6</xref>, <xref rid="Tab7" ref-type="table">7</xref>, <xref rid="Tab8" ref-type="table">8</xref>, <xref rid="Tab9" ref-type="table">9</xref>, <xref rid="Tab10" ref-type="table">10</xref>, <xref rid="Tab11" ref-type="table">11</xref> and <xref rid="Tab12" ref-type="table">12</xref> of Appendix A) using the EPICURE software with the AMFIT module (Preston et al. <xref ref-type="bibr" rid="CR24">1993</xref>). The RADS methodology included a Monte-Carlo uncertainty analysis and was programmed in the open-source R-statistical programming language, making use of the open-source R-function called mvrnorm for Monte-Carlo simulations accounting for correlations. A user-friendly graphical interface (programmed in SHINY R graphical interface, <ext-link ext-link-type="uri" xlink:href="https://shiny.rstudio.com">https://shiny.rstudio.com</ext-link>) was created allowing for different choices of input parameters (e.g., DDREF, LSS neutron RBE, number of realisations, etc.) and either graphical or tabular output of the HRA results. The Monte-Carlo simulations were done to account for the uncertainties of the ERR and EAR fit parameters in the calculation of RADS, by computing new sets of realisation of these parameters by sampling according to the parameter covariance matrices. Uncertainties in the European 8-country CI5 XI baseline incidence rates were considered by a Poisson sampling of the rates. The number of realisations used was either 1000 for each point in the graphical results or 10,000 for the tabular results. The Monte Carlo simulations were used to provide 95% confidence intervals (for modelling uncertainty) on RADS and REIC applied here as the applicable uncertainty range for all the results. The simple Newton–Cotes rectangle rule method was applied for the numerical integrations over age, in one-year intervals of age. On repeated calculations with 10,000 realisations, the 95% CI values on RADS were stable to within ± 0.02%.</p>
+              </sec>
+              <sec id="Sec7">
+                <title>Application of risk limits</title>
+                <p id="Par30">Since RADS is free from assumptions on future survival, it is not limited in time and, following the underlying model’s prediction, has a strong dependence on the attained age. No official RADS limit has been published so far, so different risk limit settings are tentatively suggested here. In general, risk limits are related to limits on numbers of fatality cases, within a pre-defined time frame. However, in this application, risks for various cancer groupings based on incidence rates and incidence models are applied, so a transfer of mortality risk limits to incidence may be required for radiation protection discussions and decisions related to the feasibilities of potential space missions.</p>
+                <p id="Par31">There are several ways to approach the setting of limits and two suggestions are given here. NASA applies a limit of 3% at the 95% upper confidence level of the risk of exposure-induced death (REID) (NASA <xref ref-type="bibr" rid="CR23">2013</xref>). A general lethality factor of 0.49 results for all cancers using different cancer lethality factors (taken from Table A.4.5 of ICRP <xref ref-type="bibr" rid="CR16">2007</xref>) when weighted with the cancer case counts of the A-bomb survivor data. Taking this particular general lethality factor into account, the incidence limit for REIC and RADS corresponding to the NASA mortality limit could be set to be 6.1% at the upper 95% CI.</p>
+                <p id="Par32">The ICRP (<xref ref-type="bibr" rid="CR15">1991</xref>) report states that one case of death per year per 1000 persons is acceptable as a measure for occupational risk. This corresponds to a fatality risk of 0.1% per year and a total occupational fatality risk of 4%, assuming a work life of 40 years and a retirement age of 65 years. Consequently, another possibility could be to set the 95% limit for RADS to 4% lethality factor. This will lead to a limit of 8.2% which, for a working life can be assumed to remain constant at this level for ages above 65 years for all solid cancer plus leukemia incidence. Using the fatality risk of 0.1% mentioned above, a factor of 0.2% per year could then be subtracted from the 8.2% for each age below 65 years. Risk limits could be chosen to pertain to any period post-exposure, i.e., the rest of lifetime (as with current NASA limits) or a total occupational risk limit up to retirement age of e.g., 65 years of age or a composite limit e.g., RADS at age 65 years (for retirement planning) considered in tandem with RADS at age 80 years (for lifestyles planning at advanced ages).</p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Results</title>
+              <p id="Par33">All risk results presented in this section are for various cancer incidence groupings and given with 95% confidence intervals calculated with Monte-Carlo simulations. A DDREF of 1 was applied consistently in all results. The LSS ERR and EAR models, that go into the calculation of RADS, were consistently adjusted to account for an A-bomb fission neutron RBE relative to gammas, in the LSS data of 80. This choice of 80, can be adjusted in the software to other values, is specific to the A-bomb risk models and should not be interpreted as a suggestion to apply a neutron RBE = 80 for neutron components of space radiation. No baseline scaling between LSS baselines and CI5, 8-country baseline rates was applied for reasons already given (Hafner et al. <xref ref-type="bibr" rid="CR11">2021</xref>, which also contains results both with and without this type of scaling).</p>
+              <sec id="Sec9">
+                <title>Comparisons of REIC and RADS for all solid cancer plus leukemia incidence</title>
+                <p id="Par34">Figures <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> for males and females respectively, show REIC and RADS for all solid cancer plus leukemia incidence, calculated with a DDREF of 1 for the all solid cancer contribution and an LSS neutron RBE of 80 applied to the LSS organ doses unless specified in the x-axis. Figures <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> show 3 types of plots for each risk type (REIC and RADS): plot type 1—the functional behaviours of risk at attained age 65 year after exposure at age 40 years to different organ doses up to 2 Gy (the risk to dose response); plot type 2—the risk at attained age 65 as a function of age at exposure to 1 Gy organ dose; plot type 3—the risk at attained age 65 years, as a function of LSS neutron RBE after exposure at age 40 years to 1 Gy organ dose. These figures are given with 95% confidence intervals as uncertainty ranges (dashed lines) and for an equally weighted (<italic>w</italic> = 0.5) contribution of ERR and EAR in the all solid cancer model and in the leukemia model. The first row of plots (type 1) in Figs. <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> shows that the risks for females are higher than the risks for males. At the doses under about the 2 Gy organ dose limit shown, the REIC and RADS risks are very similar. The second row of plots (type 2) in Figs. <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> shows how the risks decrease with age at exposure, again the REIC and RADS risks show very similar trends. The third row of plots (type 3) in Figs. <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> shows how the risks decrease with increasing assumed LSS neutron RBE, again the REIC and RADS risks show very similar trends. As previously noted by Hafner et al. (<xref ref-type="bibr" rid="CR11">2021</xref>) for REIC and by Schneider and Walsh (<xref ref-type="bibr" rid="CR29">2009</xref>) for REID, a higher neutron RBE applied to the LSS organ doses than the value of 10, traditionally used in the LSS risk models, can reduce the cumulative risks up to almost 50%, and this trend is also seen for RADS here. To help a reader who may be more familiar in interpreting cumulative risk estimates obtained using LSS risks per unit LSS doses calculated with the LSS neutron RBE of 10, conversion factors, <italic>f</italic>, where RADS (LSS neutron RBE = 10) = <italic>f</italic> × RADS(LSS neutron RBE = 80), for the conditions in Figs. <xref rid="Fig1" ref-type="fig">1</xref> and <xref rid="Fig2" ref-type="fig">2</xref> (plot type 3), are <italic>f</italic> = 1.79 for males and <italic>f</italic> = 1.74 for females. The practical result of this behaviour is that longer space missions may be justifiable within given risk limits of radiological protection.<fig id="Fig1"><label>Fig. 1</label><caption><p>Comparison of REIC and RADS, in decimals, for males for all solid cancer plus leukemia using age at exposure of 40, an attained age of 65, an organ dose of 1 Gy and equal weighting for the ERR and EAR in all solid cancer model and in the leukemia model. It is assumed here that the effective dose, <italic>E</italic> in Sv is equal to the organ dose in Gy. Note: the very large uncertainties in the survival curve from e.g., the radiation dependant acute mortality in the survival curves above 2 Gy, are not included in the results for REIC</p></caption><graphic xlink:href="411_2021_910_Fig1_HTML" id="MO1"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><p>Comparison of REIC and RADS, in decimals, for females for all solid cancer plus leukemia using age at exposure of 40, an attained age of 65, an organ dose of 1 Gy and equal weighting for the ERR and EAR all solid cancer model and leukemia model. It is assumed here that the effective dose, <italic>E</italic> in Sv is equal to the organ dose in Gy. Note: the very large uncertainties in the survival curve from e.g., the radiation dependant acute mortality in the survival curves above 2 Gy, are not included in the results for REIC</p></caption><graphic xlink:href="411_2021_910_Fig2_HTML" id="MO2"/></fig></p>
+              </sec>
+              <sec id="Sec10">
+                <title>Comparisons of REIC and RADS for the outcome all solid cancer plus leukemia incidence for different space missions</title>
+                <p id="Par35">In Table <xref rid="Tab1" ref-type="table">1</xref> REIC and RADS central estimates and 95% CIs are given for different hypothetical space missions. The missions considered are a Lunar mission lasting 180 days with an astronaut exposure to 0.17 Sv effective dose, a 600-day duration Mars swing-by mission for an exposure of 1.03 Sv and a Mars exploration mission lasting 1000 days and resulting in an exposure of 1.07 Sv. The exposures are assumed to occur at an average age at exposure of 40 years and the risks pertain to an attained age of 65 years. The calculations are based on the assumption that the effective dose in Sv is equal to the colon and RBM organ doses in Gy. The RADS central estimate for females is systematically 1.4 times higher than for males. The RADS central estimate lies under the tentatively suggested 6.1 and 8.2% upper 95% CI limits for every scenario, except for the two Mars missions for women at the upper 95% CI level, which at 6.75 and 7.00% for the swing-by and exploration mission respectively, are over the 6.1% limit option but under the 8.2% limit option both tentatively suggested above. However, when the non-cancer risks are included, in future work, both risk limits could be exceeded.<table-wrap id="Tab1"><label>Table 1</label><caption><p>All solid cancer plus leukemia incidence risks for different space missions calculated for an average age at exposure of 40 years, an attained age of 65 years and equal weighting for the ERR and EAR all solid cancer model and leukemia models</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" rowspan="2">Mission type, duration (days)</th><th align="left" rowspan="2"><italic>E</italic>/Sv</th><th align="left" colspan="2">REIC [%]</th><th align="left" colspan="2">RADS [%]</th></tr><tr><th align="left">Males</th><th align="left">Females</th><th align="left">Males</th><th align="left">Females</th></tr></thead><tbody><tr><td align="left">Lunar, 180</td><td char="." align="char">0.17</td><td align="left">0.59 (0.44; 0.75)</td><td align="left">0.88 (0.72; 1.07)</td><td align="left">0.67 (0.51; 0.85)</td><td align="left">0.94 (0.77; 1.14)</td></tr><tr><td align="left">Mars swing-by, 600</td><td char="." align="char">1.03</td><td align="left">3.20 (2.41; 4.10)</td><td align="left">4.79 (3.89; 5.82)</td><td align="left">4.00 (3.05; 5.11)</td><td align="left">5.59 (4.57; 6.75)</td></tr><tr><td align="left">Mars exploration, 1000</td><td char="." align="char">1.07</td><td align="left">3.31 (2.49; 4.24)</td><td align="left">4.95 (4.03; 6.02)</td><td align="left">4.16 (3.16; 5.30)</td><td align="left">5.80 (4.75; 7.00)</td></tr></tbody></table><table-wrap-foot><p>It is assumed here that the effective dose, <italic>E</italic> in Sv is equal to the colon and RBM organ dose in Gy, and that the colon organ dose is equal to the RBM dose in Gy. Note: the very large uncertainties in the survival curve from e.g., the radiation dependant acute mortality in the survival curves above 2 Gy, are not included in the results for REIC</p></table-wrap-foot></table-wrap></p>
+              </sec>
+              <sec id="Sec11">
+                <title>General comparisons of RADS for the four cancer incidence groupings considered</title>
+                <p id="Par36">Table <xref rid="Tab2" ref-type="table">2</xref> gives results for RADS in %, all for an exposure to 1 Gy organ dose at age 40 years, for the four cancer incidence groupings considered and calculated by integrating the Hazard equation, Eq. (<xref rid="Equ3" ref-type="">3</xref>) in the RADS calculation up to different upper limits of attained ages, i.e., 65, 70, 75 and 80 years of age.<table-wrap id="Tab2"><label>Table 2</label><caption><p>RADS incidence risk for various groupings of cancer incidence risks, in percent, calculated for different attained ages for an exposure to 1 Gy organ dose at age 40 years</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Attained age (years)</th><th align="left" colspan="2">65</th><th align="left" colspan="2">70</th><th align="left" colspan="2">75</th><th align="left" colspan="2">80</th></tr><tr><th align="left"/><th align="left">Males</th><th align="left">Females</th><th align="left">Males</th><th align="left">Females</th><th align="left">Males</th><th align="left">Females</th><th align="left">Males</th><th align="left">Females</th></tr></thead><tbody><tr><td align="left" colspan="9">Mixed ERR and EAR</td></tr><tr><td align="left"> All solid cancer</td><td align="left">3.1 (2.5; 3.9)</td><td align="left">4.9 (4.1; 5.9)</td><td align="left">4.5 (3.6; 5.6)</td><td align="left">6.5 (5.4; 7.8)</td><td align="left">6.1 (4.9; 7.6)</td><td align="left">8.2 (6.9; 9.8)</td><td align="left">7.8 (6.3; 9.7)</td><td align="left">10.1 (8.5; 12.0)</td></tr><tr><td align="left"> Leukemia</td><td align="left">0.8 (0.1; 1.5)</td><td align="left">0.5 (0.1; 1.0)</td><td align="left">0.9 (0.2; 1.8)</td><td align="left">0.6 (0.1; 1.2)</td><td align="left">1.1 (0.2; 2.1)</td><td align="left">0.7 (0.1; 1.4)</td><td align="left">1.3 (0.2; 2.4)</td><td align="left">0.8 (0.1; 1.5)</td></tr><tr><td align="left"> Lung</td><td align="left">0.5 (0.2; 0.7)</td><td align="left">0.8 (0.5; 1.3)</td><td align="left">0.7 (0.4; 1.1)</td><td align="left">1.2 (0.8; 1.7)</td><td align="left">1.0 (0.5; 1.5)</td><td align="left">1.5 (1.1; 2.2)</td><td align="left">1.3 (0.7; 2.0)</td><td align="left">2.0 (1.4; 2.7)</td></tr><tr><td align="left"> Lung adjusted (NS)</td><td align="left">0.3 (0.1; 0.5)</td><td align="left">0.4 (0.2; 0.5)</td><td align="left">0.4 (0.2; 0.7)</td><td align="left">0.5 (0.4; 0.8)</td><td align="left">0.6 (0.3; 1.0)</td><td align="left">0.8 (0.5; 1.1)</td><td align="left">0.8 (0.4; 1.4)</td><td align="left">1.1 (0.8; 1.5)</td></tr><tr><td align="left"> Breast</td><td align="left">–</td><td align="left">0.5 (0.3; 0.8)</td><td align="left">–</td><td align="left">0.6 (0.4; 1.0)</td><td align="left">–</td><td align="left">0.8 (0.5; 1.3)</td><td align="left">–</td><td align="left">1.0 (0.6; 1.6)</td></tr><tr><td align="left" colspan="9">ERR (<italic>w</italic> = 1)</td></tr><tr><td align="left"> All solid cancer</td><td align="left">3.9 (2.8; 5.2)</td><td align="left">6.7 (5.2; 8.6)</td><td align="left">5.8 (4.2; 7.7)</td><td align="left">8.8 (6.8; 11.1)</td><td align="left">7.9 (5.8; 10.5)</td><td align="left">10.8 (8.4; 13.6)</td><td align="left">10.2 (7.5; 13.3)</td><td align="left">12.9 (10.1; 16.1)</td></tr><tr><td align="left"> Leukemia</td><td align="left">1.0 (− 0.2; 2.4)</td><td align="left">0.7 (− 0.1; 1.7)</td><td align="left">1.2 (− 0.2; 2.8)</td><td align="left">0.8 (− 0.2; 1.9)</td><td align="left">1.5 (− 0.3; 3.3)</td><td align="left">0.9 (− 0.2; 2.2)</td><td align="left">1.8 (− 0.3; 3.8)</td><td align="left">1.1 (− 0.2; 2.5)</td></tr><tr><td align="left"> Lung</td><td align="left">0.8 (0.3; 1.5)</td><td align="left">1.8 (1.0; 3.2)</td><td align="left">1.1 (0.4; 2.1)</td><td align="left">2.4 (1.4; 4.1)</td><td align="left">1.5 (0.6; 2.7)</td><td align="left">3.1 (1.8; 4.9)</td><td align="left">1.9 (0.8; 3.4)</td><td align="left">3.6 (2.3; 5.7)</td></tr><tr><td align="left"> Lung adjusted (NS)</td><td align="left">0.1 (0.03; 0.2)</td><td align="left">0.2 (0.1; 0.4)</td><td align="left">0.1 (0.05; 0.3)</td><td align="left">0.4 (0.2; 0.6)</td><td align="left">0.2 (0.1; 0.4)</td><td align="left">0.6 (0.3; 0.9)</td><td align="left">0.3 (0.1; 0.6)</td><td align="left">0.8 (0.5; 1.2)</td></tr><tr><td align="left"> Breast</td><td align="left">–</td><td align="left">5.0 (2.6; 8.6)</td><td align="left">–</td><td align="left">6.0 (3.2; 10.1)</td><td align="left">–</td><td align="left">6.7 (3.6; 11.1)</td><td align="left">–</td><td align="left">7.4 (3.9; 12.0)</td></tr><tr><td align="left" colspan="9">EAR (<italic>w</italic> = 0)</td></tr><tr><td align="left"> All solid cancer</td><td align="left">2.3 (1.7; 3.1)</td><td align="left">3.1 (2.4; 3.9)</td><td align="left">3.2 (2.3; 4.3)</td><td align="left">4.2 (3.3; 5.3)</td><td align="left">4.2 (3.0; 5.6)</td><td align="left">5.6 (4.4; 6.9)</td><td align="left">5.4 (3.9; 7.2)</td><td align="left">7.1 (5.6; 8.8)</td></tr><tr><td align="left"> Leukemia</td><td align="left">0.6 (− 0.01; 1.1)</td><td align="left">0.4 (0; 0.8)</td><td align="left">0.7 (− 0.01; 1.3)</td><td align="left">0.4 (0; 0.9)</td><td align="left">0.7 (− 0.01; 1.4)</td><td align="left">0.5 (0.0; 1.0)</td><td align="left">0.8 (− 0.01; 1.6)</td><td align="left">0.5 (0.0; 1.1)</td></tr><tr><td align="left"> Lung</td><td align="left">0.3 (0.1; 0.6)</td><td align="left">0.4 (0.2; 0.7)</td><td align="left">0.5 (0.2; 0.9)</td><td align="left">0.6 (0.4; 0.9)</td><td align="left">0.7 (0.3; 1.3)</td><td align="left">0.9 (0.6; 1.3)</td><td align="left">1.0 (0.4; 1.8)</td><td align="left">1.3 (0.8; 1.8)</td></tr><tr><td align="left"> Lung adjusted (NS)</td><td align="left">0.3 (0.1; 0.6)</td><td align="left">0.4 (0.2; 0.7)</td><td align="left">0.5 (0.2; 0.9)</td><td align="left">0.6 (0.4; 0.9)</td><td align="left">0.7 (0.3; 1.3)</td><td align="left">0.9 (0.6; 1.3)</td><td align="left">1.0 (0.4; 1.8)</td><td align="left">1.3 (0.8; 1.8)</td></tr><tr><td align="left"> Breast</td><td align="left">–</td><td align="left">0.5 (0.3; 0.8)</td><td align="left">–</td><td align="left">0.6 (0.4; 1.0)</td><td align="left">–</td><td align="left">0.8 (0.5; 1.3)</td><td align="left">–</td><td align="left">1.0 (0.6; 1.6)</td></tr></tbody></table><table-wrap-foot><p>The weights, <italic>w</italic>, for the mixed ERR and EAR (ERR: EAR) are: all solid cancer (0.5: 0.5), leukemia (0.5: 0.5), lung and lung adjusted for non-smoking (NS) (0.3: 0.7), breast (0: 1)</p></table-wrap-foot></table-wrap></p>
+                <p id="Par37">The top section of this table gives the results calculated with <italic>w</italic> values, used to weight the relative contributions to the hazard, Eq. (<xref rid="Equ3" ref-type="">3</xref>), of the ERR, of 0.5 for all solid cancer and leukemia; 0.3 for lung; and 0 for breast. The middle section of Table <xref rid="Tab2" ref-type="table">2</xref> shows the effect of using just an ERR weighting (<italic>w</italic> = 1) and the bottom section of this table shows the effect of using just an EAR weighting (<italic>w</italic> = 0). From the top panel of Table <xref rid="Tab2" ref-type="table">2</xref> it can be seen that the different upper limits of attained ages have a large effect on the RADS central estimates, so that for all solid cancers, the RADS for females at attained age 80 years is 10.1% (95% CI 8.5; 12.0) compared to 4.9% (4.1; 5.9) at attained age 65 years. For males the same type of comparison is 7.8% (6.3; 9.7) at attained age 80 years but 3.1% (2.5; 3.9) at attained age 65 years. So, although the RADS for all solid cancer are generally lower for males than for females (reflecting the trends in the models from the LSS (Grant et al. <xref ref-type="bibr" rid="CR10">2017</xref>) used to calculate RADS), the ratio of RADS at attained age 80 to RADS at attained age 65 is larger for males than for females.</p>
+                <p id="Par38">The results in Table <xref rid="Tab2" ref-type="table">2</xref> for leukemia show that the male RADS for all attained ages are higher than for females, reflecting the trends in the models from the LSS (Hsu et al. <xref ref-type="bibr" rid="CR13">2013</xref>) forming the basis of the RADS calculations. The opposite trend can be seen for lung cancer where the female risks are between about 1.5–1.7 times higher than for males when the CI5 population lung cancer incidence rates are not adjusted to rates for non-smokers. Once the CI5 lung cancer incidence rates are adjusted to approximate rates for non-smokers (Appendix B), this reduces to about 1.3–1.4, so the female to male ratio of lung cancer RADS is lower in non-smokers than for the general 8-country population (with all types of smoking exposures). If a purely ERR transfer is made (middle section of Table <xref rid="Tab2" ref-type="table">2</xref>) the lung cancer RADS for females is higher than for males by a factor of between 1.9 and 2.6 with mixed smoking exposure CI5 rates or a factor between 1.3 and 1.4 for CI5 rates adjusted to non-smoking.</p>
+                <p id="Par39">The RADS for female breast cancer in Table <xref rid="Tab2" ref-type="table">2</xref> show that the central estimates based on the ICRP (<xref ref-type="bibr" rid="CR16">2007</xref>) recommended 100% EAR transfer (<italic>w</italic> = 0) are a factor of 10 smaller than with 100% ERR risk transfer at attained age 65 (<italic>w</italic> = 1), with this factor reducing to about 7 at attained age 80 years. The RADS at attained age 80 years is either a factor of 2 or 1.5 times the RADS at attained age 65 years for purely EAR or ERR transfer respectively.</p>
+                <p id="Par40">Figures <xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig4" ref-type="fig">4</xref>, for men and women, respectively, show 3 types of plots for each of the 4 cancer groupings: plot type 1—the functional behaviours of RADS at attained age 65 year after exposure at age 40 years to different organ doses up to 2 Gy (the RADS dose response); plot type 2—RADS at attained age 65 as a function of age at exposure to 1 Gy organ dose; plot type 3—RADS as a function of attained age after exposure at age 40 years to 1 Gy organ dose. Figures <xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig4" ref-type="fig">4</xref> show that the shape of the RADS organ dose response under 2 Gy is linear for all 4 cancer groupings. The dependence of RADS on age at exposure is strongly decreasing for all solid cancers and for breast cancer while remaining quite flat for leukemia and lung cancer. The type 3 plots, for RADS variation with attained age, just reflect the types of results already presented as central estimates in Table <xref rid="Tab2" ref-type="table">2</xref> and above.<fig id="Fig3"><label>Fig. 3</label><caption><p>RADS incidence risks for men, in decimals, for different cancer groupings, calculated for an age at exposure of 40 years, an attained age of 65 years and a dose of 1 Gy using a mixed ERR and EAR model. The weights, <italic>w</italic>, for the mixed ERR and EAR (ERR: EAR) are: all solid cancer, abbreviated to solid cancer in the graphics (0.5: 0.5), leukemia (0.5: 0.5), lung and lung adjusted for non-smoking (0.3: 0.7)</p></caption><graphic xlink:href="411_2021_910_Fig3_HTML" id="MO3"/></fig><fig id="Fig4"><label>Fig. 4</label><caption><p>RADS incidence risks for women, in decimals, for different cancer groupings, calculated for an age at exposure of 40 years, an attained age of 65 years and a dose of 1 Gy using a mixed ERR and EAR model. The weights, w, for the mixed ERR and EAR are: (ERR: EAR) all solid cancer, abbreviated to solid cancer in the graphics (0.5: 0.5), leukemia (0.5: 0.5), lung and lung adjusted for non-smoking (0.3: 0.7), breast (0: 1)</p></caption><graphic xlink:href="411_2021_910_Fig4_HTML" id="MO4"/></fig></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Comparisons of RADS for different space missions considering the four cancer incidence groupings</title>
+                <p id="Par41">Table <xref rid="Tab3" ref-type="table">3</xref> provides a further breakdown, into cancer groupings, of the RADS for males and females already presented in Table <xref rid="Tab1" ref-type="table">1</xref>. Although RADS for different outcomes is not additive post calculation (see “<xref rid="Sec13" ref-type="sec">Discussion</xref>” section), it is instructive to be able to see the magnitudes of the relative contributions of the 4 cancer groupings to the RADS for all solid cancer plus leukemia, and the effects on the RADS for lung cancer of applying the CI5 baseline rate adjustment to non-smoking rates. From Table <xref rid="Tab3" ref-type="table">3</xref> it is clear that leukemia is the second largest contributor to all solid cancer plus leukemia RADS for males and that lung cancer RADS is always a smaller contribution than leukemia for males. For females, leukemia is the second largest contributor to all solid cancer plus leukemia RADS but this contribution is only slightly larger than the contribution from breast cancer. For males and females, the RADS for lung cancer based on the CI5 rates adjusted to rates for non-smokers is numerically smaller than the RADS for the other outcomes.<table-wrap id="Tab3"><label>Table 3</label><caption><p>RADS incidence risks, in percent, for different cancer sites for different missions</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Males</th><th align="left">Lunar mission 0.17 Sv</th><th align="left">Mars swing-by 1.03 Sv</th><th align="left">Mars exploration 1.07 Sv</th></tr></thead><tbody><tr><td align="left">All solid cancer</td><td align="left">0.53 (0.42; 0.67)</td><td align="left">3.20 (2.53; 3.99)</td><td align="left">3.32 (2.62; 4.14)</td></tr><tr><td align="left">Leukemia</td><td align="left">0.13 (0.02; 0.26)</td><td align="left">0.81 (0.13; 1.56)</td><td align="left">0.84 (0.14; 1.62)</td></tr><tr><td align="left">All solid cancer plus leukemia</td><td align="left">0.67 (0.51; 0.85)</td><td align="left">4.00 (3.05; 5.11)</td><td align="left">4.16 (3.16; 5.30)</td></tr><tr><td align="left">Lung</td><td align="left">0.08 (0.04; 0.13)</td><td align="left">0.47 (0.25; 0.77)</td><td align="left">0.48 (0.26; 0.79)</td></tr><tr><td align="left">Lung adjusted (NS)</td><td align="left">0.04 (0.02; 0.08)</td><td align="left">0.26 (0.12; 0.49)</td><td align="left">0.27 (0.12; 0.51)</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left">Females</th><th align="left">Lunar mission 0.17 Sv</th><th align="left">Mars swing-by 1.03 Sv</th><th align="left">Mars exploration 1.07 Sv</th></tr></thead><tbody><tr><td align="left">All solid cancer</td><td align="left">0.85 (0.70; 1.03)</td><td align="left">5.06 (4.18; 6.07)</td><td align="left">5.25 (4.34; 6.30)</td></tr><tr><td align="left">Leukemia</td><td align="left">0.09 (0.01; 0.18)</td><td align="left">0.54 (0.08; 1.08)</td><td align="left">0.56 (0.08; 1.12)</td></tr><tr><td align="left">All solid cancer plus leukemia</td><td align="left">0.94 (0.77; 1.14)</td><td align="left">5.59 (4.57; 6.75)</td><td align="left">5.80 (4.75; 7.00)</td></tr><tr><td align="left">Lung</td><td align="left">0.14 (0.09; 0.22)</td><td align="left">0.85 (0.56; 1.32)</td><td align="left">0.88 (0.58; 1.37)</td></tr><tr><td align="left">Lung adjusted (NS)</td><td align="left">0.06 (0.04; 0.09)</td><td align="left">0.37 (0.24; 0.56)</td><td align="left">0.38 (0.25; 0.59)</td></tr><tr><td align="left">Breast</td><td align="left">0.08 (0.05; 0.13)</td><td align="left">0.49 (0.29; 0.79)</td><td align="left">0.51 (0.30; 0.82)</td></tr></tbody></table><table-wrap-foot><p>The risks are calculated for an age at exposure of 40 years, an attained age of 65 years using a mixed ERR and EAR model. The weights, w, for the mixed ERR and EAR (ERR: EAR) are: all solid cancer (0.5: 0.5), leukemia (0.5: 0.5), all solid cancer plus leukemia (0.5: 0.5) lung and lung adjusted for non-smoking (NS) (0.3: 0.7), breast (0: 1)</p></table-wrap-foot></table-wrap></p>
+              </sec>
+            </sec>
+            <sec id="Sec13">
+              <title>Discussion</title>
+              <p id="Par42">The application of RADS in radiation HRA for European astronauts has been presented here. This application involved the development and verification of a prototype software for calculating RADS, for any post mission age, for 4 cancer incidence outcomes related to hypothetical organ doses from exposures accumulated during up to 4 separate missions. However, up to now, only organ weighted doses and estimated mission effective doses have been explicitly considered in the calculations presented in this paper.</p>
+              <p id="Par43">RADS is a convenient description of cumulative radiation risk that is independent of survival rates and has many other advantages (Ulanowski et al. <xref ref-type="bibr" rid="CR35">2019</xref>). RADS is less dependent than other quantities used in radiation protection, such as LAR and REIC, on large uncertainties involved with projections of contemporary demography and health population statistics far into the future. RADS is also, unlike REIC, independent of a knowledge of the underlying and highly uncertain survival curve. This latter feature makes RADS highly suitable for application to crews on international exploratory-class missions, requiring international risk alignments because the survival curves from the national statistics corresponding to the nationality of the astronaut’s space agency are not required. RADS closely resembles other quantities e.g., LAR and REIC at lower doses and, if the competing risks are negligible. RADS is not suggested here as a total replacement for conventional quantities, such as LAR, used to communicate general radiation risks for the purposes of radiation protection of general populations exposed to low doses. RADS has a rather more specific suitability, namely in applications for radiation risk assessments: for atypical groups or individuals such as astronauts; and at radiation organ doses higher than 1 Gy as received on some space missions and also in radiotherapy (with dose ranges up to several tens of Gy). These are the main reasons why RADS is highly suitable for and was chosen for the bespoke health risk assessment methodology for the radiation protection of astronauts based on European data described in this paper.</p>
+              <p id="Par44">There are also some disadvantages inherent in RADS applications. Other quantities such as LAR and REIC are usually treated as being directly additive, post calculation, for the different outcomes of interest (e.g., as in ICRP <xref ref-type="bibr" rid="CR16">2007</xref>). In contrast, RADS is not additive, post calculation, for different outcomes. Although RADS can be defined, pre-calculation, for the sum of different outcomes to form a composite and then calculated for this composite outcome. RADS depends on age, but may be more heavily dependent on age at old ages than for middle ages, for cancers or diseases which tend to develop very late in life (e.g., lung cancer and cardiovascular disease). On the other hand, RADS is independent of competing risks which vary with, among other factors, gender and ethnicity, and tend to increase more at old age than at middle age.</p>
+              <p id="Par45">The bespoke RADS based HRA for astronauts described here is based on outcome incidence rather than mortality because, among other reasons: cure rates for most diseases are increasing with time; survival times for persons with diseases are generally increasing; and astronauts post-mission undergo a higher level of medical screening than the general population, meaning that cancers are detected earlier and, therefore, have higher cure rates and lower mortality risks than for the general population of Europe on-average. Risks for the outcome incidence, while not directly quantifying the psychological effect of a cancer diagnosis and the resulting impact on quality of life and career progression, are a better choice in this respect than mortality outcomes which totally ignore these factors. If, however, mortality risks are actually required for decision making by flight directors, these can be readily obtained by either applying lethality factors to the incidence risks or by basing RADS on mortality risk models and mortality population data.</p>
+              <p id="Par46">The overall choice for the selection of ERR and EAR models for input into the RADS calculations presented here was unfortunately highly constrained due to the necessity to choose models for which the data used to fit the models was publicly available so that the models could be re-fitted by the current authors to provide the unpublished EAR model for lung cancer and all covariance matrices that were an essential input requirement for the Monte-Carlo uncertainty analysis (Appendix A). In general, the choice was based on the most recent LSS cancer incidence models with publicly available data on the website of the Radiation Effects Research Foundation (<ext-link ext-link-type="uri" xlink:href="http://www.rerf.or.jp">http://www.rerf.or.jp</ext-link>). Several LSS ERR risk models for lung cancer were provided in Table 3 of Cahoon et al. (<xref ref-type="bibr" rid="CR3">2017</xref>) for the most recent follow-up period (1958–2009). The choice was made to apply the simplest lung cancer ERR risk model i.e. The “radiation only” model, as opposed to the model also including a “generalized multiplicative” adjustment for radiation and smoking, was used to calculate the risks here. These two models have very similar central estimates for the ERR/Gy lung dose of 0.83 (95% CI 0.58; 1.09) and 0.81 (0.51; 1.18) for the radiation only and generalized multiplicative models, respectively and the radiation risk effect modifiers were also very similar in both models. Relative radiation risk for lung cancer was reported to be almost 4 times higher in men compared to women (Cahoon et al. <xref ref-type="bibr" rid="CR3">2017</xref>). In the newly fitted EAR model, unadjusted for smoking, the current authors do not find a statistically significant sex dependence which is reflected in the RADS results in Table <xref rid="Tab2" ref-type="table">2</xref>. The large sex dependence in the ERR has been discussed as a limiting factor which may prevent female astronauts participating in space missions to the same extent as male astronauts on the basis of risk constraints for radiation protection. However, more work is needed by the RERF experts to provide a smoking adjusted EAR model before these preliminary results are confirmed. It is interesting to note that risk models for radiation-induced lung adenocarcinoma adjusted for smoking based on imputed data do not find a sex dependence in descriptive ERR models and in parameters of mechanistic models (Castelletti et al. <xref ref-type="bibr" rid="CR4">2019</xref>).</p>
+              <p id="Par47">In the future, other risk models from occupational cohorts such as the Million Person Study (Boice et al. <xref ref-type="bibr" rid="CR1">2019</xref>) or as developed for the German probability of causation assessment tool ProZES (Ulanowski et al. <xref ref-type="bibr" rid="CR37">2020b</xref>) could also be implemented for astronaut HRA. Generally, it would be good practice to see how different risk models from different studies affect the HRA results, but given the stringent practical constraints mentioned above, this possibility was very limited at this point in time.</p>
+              <p id="Par48">There are several ways to approach the setting of occupational radiation risk limits for astronauts and two tentative suggestions were given here. Ultimately, however, the space agencies will decide which approach to apply and useful approaches can be envisaged that involve the practically appealing and bespoke HRA for astronauts presented here.</p>
+              <p id="Par49">The purpose of the HRA presented here is to delineate the risks at dose levels in Gy from space radiation. The risk calculations needed to be based on the use of colon, RBM, lung and breast, as the initial choice, of four target tissues for organ doses from A-bomb radiation used in the risks per unit dose based on the primary (LSS) data, and on the assumption that for applications in space, the LSS risks per organ dose in Gy is equal to the risk per effective dose in Sv. This assumption is based on a consideration that, for the very high energies involved in space radiation, the doses to these four tissues will, to first order, and for a given fluence, be equal. This assumption can only be made for space applications, because for ground-based applications there are clear differences in the LSS A-bomb gamma and neutron doses for particular organs, where an extreme example of this is the difference between mean neutron dose to the breast which is more than a factor of three times higher than the mean neutron dose to the colon, due to shielding by the human body (Kellerer et al. <xref ref-type="bibr" rid="CR19">2006</xref>). LSS neutron RBE dependence in the LSS risk models, upon which the RADS calculations are based, is accounted for here with an empirical LSS neutron RBE model (Hafner et al. <xref ref-type="bibr" rid="CR11">2021</xref>). This model allows the application of an LSS neutron RBE value of 80, as indicated by Cordova and Cullings (<xref ref-type="bibr" rid="CR7">2019</xref>) and other comprehensive studies cited therein, rather than the RBE of 10 usually applied in most official analyses of the LSS data (e.g., Preston et al. <xref ref-type="bibr" rid="CR25">2007</xref>; Grant et al. <xref ref-type="bibr" rid="CR10">2017</xref>; Cahoon et al. <xref ref-type="bibr" rid="CR3">2017</xref>; Hsu et al. <xref ref-type="bibr" rid="CR13">2013</xref>). When all other factors are equal, the behaviour of decreasing cumulative risk estimates obtained using LSS risks per unit LSS doses calculated as the LSS neutron RBE increase from 10 to 80, allows longer space missions within given risk limits of radiological protection. Ideally, to better quantify this effect, the separate neutron and gamma doses for a selection of organs are required with all the publicly available LSS data for future work on astronaut HRA. However, the fact that some analyses indicate LSS neutron RBEs of 80 does not provide definitive evidence to imply that these values should be directly applied in space radiation dosimetry, especially, when the alternative values are based on experimentally derived data or measurements (e.g., as in ICRP <xref ref-type="bibr" rid="CR17">2013</xref>). Clearly, large uncertainties remain in differences in indicators of biological damaging effects from the gamma and neutron radiation delivered at 2–5 meV (that accounts for most of the dose in the LSS) and from the much higher energy radiation associated with galactic cosmic rays and solar particle events occurring in space. Conceivably such biological effects in space could differ by detrimental health outcome, but currently there is a paucity of published information available on this particular aspect.</p>
+              <p id="Par50">All results presented here, except those for leukemia, are for a DDREF of 1, for the purposes of illustrating this HRA methodology. DDREF is recommended (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>) for radiological protection purposes, to extrapolate from high doses and dose rates to lower values. However, because the doses to astronauts are not really low, it could be better to call this a DREF (dose rate effectiveness factor) in future work especially if values other than unity are applied.</p>
+              <p id="Par51">Further work recommended to be done in the near future, apart from considering a wider range of organs and tissues at cancer risk than those considered here, involves two main aspects of extending the HRA framework presented here. First, a more detailed dosimetry needs to be investigated and applied for converting mission doses to the required weighted or equivalent organ doses for HRA. This phase should involve (a) some use of appropriately generalized/anonymised crew exposure data, (b) collaboration with dosimetry experts to carry out organ dose calculations for exposures in space, (c) consideration of knowledge from radiation biology, (d) input from space agency information technology experts, (e) a full consideration of the space dosimetry results given in ICRP (<xref ref-type="bibr" rid="CR17">2013</xref>). ICRP (<xref ref-type="bibr" rid="CR17">2013</xref>) is the basis of astronaut dose assessment and introduced the term effective dose equivalent. The effective dose equivalent is about one-third less than the effective dose in a mission to Mars. However, in paragraph 126 of ICRP (<xref ref-type="bibr" rid="CR17">2013</xref>) it is stated that “An application of the quantity effective dose equivalent, however, is not recommended for the assessment of doses of individuals or small groups of astronauts when these should become a basis for risk estimates. …..; risk estimates should be based on either absorbed dose or dose equivalent data for the organs and tissues of males or females, and corresponding risk factors for these tissues for male and female adults”. Secondly, an investigation is required into how non-cancer effects may be appropriately included with cancer grouping outcomes, into the risk assessment software.</p>
+              <p id="Par52">The inclusion of radiation effects on non-cancer outcomes for the immune system; respiratory system; endocrine system; eye lens opacification; the cardio-vascular system; and central nervous system, could be investigated and, where possible, included. However, this task will be far less straight-forward for non-cancer outcomes than it is for cancer outcomes. For example, radiation effects on heart diseases have been reported in the studies of the Hiroshima and Nagasaki A-bomb survivors (e.g., Takahashi et al. <xref ref-type="bibr" rid="CR33">2017</xref>) and at low dose rates in workers in nuclear facilities and high back-ground radiation areas, but the risks per unit dose vary widely and have large confidence intervals (see e.g., Table 4 in Shore et al. <xref ref-type="bibr" rid="CR31">2019</xref>; Hughson et al. <xref ref-type="bibr" rid="CR14">2017</xref>). Some epidemiological studies report a positive association of circulatory diseases with radiation exposure, but radiation effects and their mechanisms are not sufficiently investigated, although thought to involve vascular endothelial cell injury of arteries and vessels together with enhanced inflammatory reactions (Sylvester et al. <xref ref-type="bibr" rid="CR32">2018</xref>; Hughson et al. <xref ref-type="bibr" rid="CR14">2017</xref>). It is often difficult to locate appropriate population incidence statistics for non-cancer outcomes for inclusion into the risk calculations based on ERR models, and making further progress on this aspect could also be a priority.</p>
+              <p id="Par53">Other aspects for further work already suggested (Walsh et al. <xref ref-type="bibr" rid="CR40">2019a</xref>) include long-term improvements to the new HRA method which could be extended to include considerations of developments in: innovative radiation track structure transport codes; further refinements to both A-bomb-relevant and space-relevant RBE models; results from nano-dosimetry; and radiobiological experiments, done to improve the characterisations (particle types, energy and energy deposition spectra, qualitative differences between high LET and HZE ions) of ionising radiation in space.</p>
+            </sec>
+            <sec id="Sec14">
+              <title>Conclusion</title>
+              <p id="Par54">This work done in this paper offers an alternative risk metric to be used for the assessment and communication of radiation-induced risks from space missions. Risks based on the outcome incidence rather than mortality are recommended for many different reasons discussed here. Risks based on RADS are recommended because RADS is (a) highly suitable for atypical groups not represented well by general population data and (b) based on fewer assumptions and input parameters than REIC. RADS is a very useful cumulative risk measure for astronaut HRA and is, unlike REIC, independent of a knowledge of the underlying and highly uncertain survival curve. Whereas REIC gives the probability of a premature incidence of a cancer (in the cancer grouping considered) attributable to radiation exposure, RADS gives a cumulative radiation risk conditional on survival until a certain age. RADS applied to disease incidence can be thought of as the cumulative decrease in the unknown probability of surviving disease (i.e., a particular cancer grouping) free up to a certain attained age, due to the radiation exposure at an earlier age. If, however, mortality risks are actually required for decision making by flight directors, these can also be readily obtained with this alternative methodology. RADS is also highly suitable for application on international missions requiring international risk alignments, because, unlike REIC, the survival curves from the national statistics corresponding to the nationality of the astronaut’s space agency, are not required. When all other factors are equal, the behaviour of decreasing cumulative risk estimates obtained using LSS risks per unit LSS doses calculated as the LSS neutron RBE increase from 10 to 80, allows longer space missions within given risk limits of radiological protection.</p>
+            </sec>
+          </body>
+          <back>
+            <app-group>
+              <app id="App1">
+                <sec id="Sec15">
+                  <title>Appendix A Excess relative risk and excess absolute risk model fit-parameters and the parameter covariance matrices</title>
+                  <p id="Par55">Supplementary model fitting parameter results (Table <xref rid="Tab4" ref-type="table">4
+</xref>) and parameter covariance matrices (Tables <xref rid="Tab5" ref-type="table">5</xref>, <xref rid="Tab6" ref-type="table">6</xref>, <xref rid="Tab7" ref-type="table">7</xref>, <xref rid="Tab8" ref-type="table">8</xref>, <xref rid="Tab9" ref-type="table">9</xref>, <xref rid="Tab10" ref-type="table">10</xref>, <xref rid="Tab11" ref-type="table">11</xref> and <xref rid="Tab12" ref-type="table">12</xref>, rounded to the first 3 significant digits) are given here for re-fitting the LSS Excess Relative Risk (ERR) and Excess Absolute Risk (EAR) models for solid cancer, leukemia and breast cancer. The lung cancer incidence ERR model was also refitted but the EAR risk model applied in the software tool was fitted only by the current authors. This was required because the original publication (for follow-up 1958–2009, Cahoon et al. <xref ref-type="bibr" rid="CR3">2017</xref>) did not provide an <italic>EAR</italic> model without smoking adjustment (i.e., an <italic>EAR</italic> model with the same adjustments as the <italic>ERR</italic> model given as the first entry in Table 3 of Cahoon et al. (<xref ref-type="bibr" rid="CR3">2017</xref>)). Such a model is analogous to the earlier <italic>EAR</italic> all solid cancer incidence model (for follow-up 1958–1998, Preston et al. <xref ref-type="bibr" rid="CR25">2007</xref>) with very similar fit parameters. The fit parameters (see Table <xref rid="Tab4" ref-type="table">4</xref>) and parameter covariance matrix for this lung EAR model, unadjusted for smoking, were obtained by using the publicly available data set (rerf.or.jp) and the EPICURE software with the AMFIT module (Preston et al. <xref ref-type="bibr" rid="CR24">1993</xref>) for Poisson regression on grouped data. The other fit-parameters were refitted to the datasets used with the original LSS publications cited in the main text.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Results of re-fitting a linear model to solid cancer, lung and breast cancer excess relative and absolute incidence as well as a linear-quadratic model to leukemia excess relative and absolute incidence to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="6">Fit parameters for ERR</th></tr><tr><th align="left"/><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>δ</italic><sup>b</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left">Solid cancer</td><td align="left">0.5024</td><td align="left">–</td><td align="left">− 1.567</td><td align="left">− 0.2133</td><td align="left">0.2864</td></tr><tr><td align="left">Leukemia</td><td align="left">0.7899</td><td align="left">0.9501</td><td align="left">− 1.09</td><td align="left">− 0.8075</td><td align="left">–</td></tr><tr><td align="left">Lung cancer</td><td align="left">0.8248</td><td align="left">–</td><td align="left">− 2.117</td><td align="left">0.1486</td><td align="left">0.5893</td></tr><tr><td align="left">Breast cancer<sup>c</sup></td><td align="left">0.8776</td><td align="left">–</td><td align="left">− 2.224</td><td align="left">0.004856</td><td align="left">–</td></tr></tbody></table><table frame="hsides" rules="groups"><thead><tr><th align="left" colspan="6">Fit parameters for EAR</th></tr><tr><th align="left"/><th align="left"><italic>β</italic><sup>d</sup></th><th align="left"><italic>δ</italic><sup>e</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left">Solid cancer</td><td align="left">53.31</td><td align="left">–</td><td align="left">2.35</td><td align="left">− 0.3195</td><td align="left">0.1385</td></tr><tr><td align="left">Leukemia</td><td align="left">1.059</td><td align="left">1.086</td><td align="left">− 1.447</td><td align="left">0.4118</td><td align="left">− 0.421<sup>c</sup></td></tr><tr><td align="left">Lung cancer</td><td align="left">7.566</td><td align="left">–</td><td align="left">3.976</td><td align="left">− 0.03775</td><td align="left">0.1161</td></tr><tr><td align="left">Breast cancer<sup>c</sup></td><td align="left">9.257</td><td align="left">–</td><td align="left">1.725</td><td align="left">− 0.4543</td><td align="left">–</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In Gy<sup>−1</sup></p><p><sup>b</sup>n Gy<sup>−2</sup></p><p><sup>c</sup>Women only</p><p><sup>d</sup>In (10,000 PY Gy)<sup>−1</sup></p><p><sup>e</sup>In 10,000 PY<sup>−1</sup> Gy<sup>−2</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab5"><label>Table 5</label><caption><p>Resulting covariance matrix for the ERR fit parameters from fitting a linear dose–response model to <italic>solid cancer incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted colon dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">ERR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">0.00191</td><td char="." align="char">0.00282</td><td char="." align="char">0.00105</td><td align="left">− 0.000275</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.00282</td><td char="." align="char">0.0557</td><td char="." align="char">− 0.00500</td><td align="left">0.00163</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">0.00105</td><td char="." align="char">− 0.00500</td><td char="." align="char">0.00261</td><td align="left">− 0.000309</td></tr><tr><td align="left"><italic>s</italic></td><td char="." align="char">− 0.000275</td><td char="." align="char">0.00163</td><td char="." align="char">− 0.000309</td><td align="left">0.00345</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In Gy<sup>−1</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab6"><label>Table 6</label><caption><p>Resulting covariance matrix for the EAR fit parameters from fitting a linear dose–response model to <italic>solid cancer incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted colon dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><italic>EAR cov</italic></th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">22.8</td><td char="." align="char">0.290</td><td char="." align="char">0.116</td><td align="left">− 0.113</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.290</td><td char="." align="char">0.0440</td><td char="." align="char">− 0.00465</td><td align="left">− 0.00236</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">0.116</td><td char="." align="char">− 0.00465</td><td char="." align="char">0.00259</td><td align="left">− 0.000132</td></tr><tr><td align="left"><italic>s</italic></td><td char="." align="char">− 0.113</td><td char="." align="char">− 0.00236</td><td char="." align="char">− 0.000132</td><td align="left">0.00387</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In (10,000 PY Gy)<sup>−1</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab7"><label>Table 7</label><caption><p>Resulting covariance matrix for the ERR fit parameters from fitting a linear-quadratic dose–response model to <italic>leukemia incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted RBM dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">ERR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>δ</italic><sup>b</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">0.218</td><td align="left">− 0.0555</td><td char="." align="char">0.00466</td><td char="." align="char">0.0287</td></tr><tr><td align="left"><italic>δ</italic><sup>b</sup></td><td char="." align="char">− 0.0555</td><td align="left">0.123</td><td char="." align="char">0.0396</td><td char="." align="char">0.0242</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.00466</td><td align="left">0.0396</td><td char="." align="char">0.197</td><td char="." align="char">− 0.0555</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">0.0287</td><td align="left">0.0242</td><td char="." align="char">− 0.0555</td><td char="." align="char">0.0671</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In Gy<sup>−1</sup></p><p><sup>b</sup>In Gy<sup>−2</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab8"><label>Table 8</label><caption><p>Resulting covariance matrix for the EAR fit parameters from fitting a linear-quadratic dose–response model to <italic>leukemia incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted RBM dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">EAR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>δ</italic><sup>b</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">0.302</td><td align="left">− 0.0746</td><td char="." align="char">0.0821</td><td align="left">− 0.0204</td><td align="left">− 0.0393</td></tr><tr><td align="left"><italic>δ</italic><sup>b</sup></td><td char="." align="char">− 0.0746</td><td align="left">0.175</td><td char="." align="char">0.0545</td><td align="left">− 0.0114</td><td align="left">− 0.0273</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.0821</td><td align="left">0.0545</td><td char="." align="char">0.112</td><td align="left">− 0.0288</td><td align="left">− 0.00620</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">− 0.0204</td><td align="left">− 0.0114</td><td char="." align="char">− 0.0288</td><td align="left">0.0116</td><td align="left">0.00162</td></tr><tr><td align="left"><italic>s</italic></td><td char="." align="char">− 0.0393</td><td align="left">− 0.0273</td><td char="." align="char">− 0.00620</td><td align="left">0.00162</td><td align="left">0.0551</td></tr></tbody></table><table-wrap-foot><p>For males the column and row with the gender parameter <inline-formula id="IEq29"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s$$\end{document}</tex-math><mml:math id="M10"><mml:mi>s</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq29.gif"/></alternatives></inline-formula> can be neglected</p><p><sup>a</sup>In (10,000 PY Gy)<sup>−1</sup></p><p><sup>b</sup>In 10,000 PY<sup>−1</sup> Gy<sup>−2</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab9"><label>Table 9</label><caption><p>Resulting covariance matrix for the ERR fit parameters from fitting a linear dose–response model to <italic>lung incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted absorbed lung dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">ERR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">0.0177</td><td char="." align="char">0.0283</td><td char="." align="char">− 0.00107</td><td char="." align="char">0.00000593</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.0283</td><td char="." align="char">0.895</td><td char="." align="char">− 0.0443</td><td char="." align="char">− 0.00833</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">− 0.00107</td><td char="." align="char">− 0.0443</td><td char="." align="char">0.0134</td><td char="." align="char">0.00123</td></tr><tr><td align="left"><italic>s</italic></td><td char="." align="char">0.00000593</td><td char="." align="char">− 0.00833</td><td char="." align="char">0.00123</td><td char="." align="char">0.0146</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In Gy<sup>−1</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab10"><label>Table 10</label><caption><p>Resulting covariance matrix for the EAR fit parameters from fitting a linear dose–response model to <italic>lung cancer incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted absorbed lung dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">EAR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th><th align="left"><italic>s</italic></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">2.00</td><td char="." align="char">0.295</td><td char="." align="char">− 0.0152</td><td char="." align="char">− 0.158</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.295</td><td char="." align="char">0.534</td><td char="." align="char">− 0.0413</td><td char="." align="char">− 0.0233</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">− 0.0152</td><td char="." align="char">− 0.0413</td><td char="." align="char">0.0132</td><td char="." align="char">0.00130</td></tr><tr><td align="left"><italic>s</italic></td><td char="." align="char">− 0.158</td><td char="." align="char">− 0.0233</td><td char="." align="char">0.00130</td><td char="." align="char">0.0361</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In (10,000 PY Gy)<sup>−1</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab11"><label>Table 11</label><caption><p>Resulting covariance matrix for the ERR fit parameters from fitting a linear dose–response model to <italic>breast incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted breast dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"><italic>ERR cov</italic></th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">0.0429</td><td char="." align="char">0.0879</td><td char="." align="char">0.00333</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.0879</td><td char="." align="char">0.494</td><td char="." align="char">− 0.0522</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.00333</td><td char="." align="char">− 0.0522</td><td char="." align="char">0.0186</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In Gy<sup>−1</sup></p></table-wrap-foot></table-wrap><table-wrap id="Tab12"><label>Table 12</label><caption><p>Resulting covariance matrix for the EAR fit parameters from fitting a linear dose–response model to <italic>breast incidence</italic> to the atomic bomb data at attained age 70 years after exposure at age 30 years applying the EPICURE-AMFIT code to the atomic survivor data with respect to weighted breast dose</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">EAR cov</th><th align="left"><italic>β</italic><sup>a</sup></th><th align="left"><italic>γ</italic><sub><italic>a</italic></sub></th><th align="left"><italic>γ</italic><sub><italic>e</italic></sub></th></tr></thead><tbody><tr><td align="left"><italic>β</italic><sup>a</sup></td><td char="." align="char">2.49</td><td char="." align="char">0.274</td><td char="." align="char">0.0453</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>a</italic></sub></td><td char="." align="char">0.274</td><td char="." align="char">0.205</td><td char="." align="char">− 0.0346</td></tr><tr><td align="left"><italic>γ</italic><sub><italic>e</italic></sub></td><td char="." align="char">0.0453</td><td char="." align="char">− 0.0346</td><td char="." align="char">0.0146</td></tr></tbody></table><table-wrap-foot><p><sup>a</sup>In (10,000 PY Gy)<sup>−1</sup></p></table-wrap-foot></table-wrap></p>
+                  <p id="Par56">The model forms (ER—where ER is either ERR or EAR) give the risk per unit organ or tissue dose <inline-formula id="IEq2"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{t}$$\end{document}</tex-math><mml:math id="M12"><mml:msub><mml:mi>D</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq2.gif"/></alternatives></inline-formula> for all solid cancer, breast cancer and lung cancer, <inline-formula id="IEq3"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M14"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq3.gif"/></alternatives></inline-formula>, multiplied by a risk effect modifying function that depends on the variables attained age <inline-formula id="IEq4"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a$$\end{document}</tex-math><mml:math id="M16"><mml:mi>a</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq4.gif"/></alternatives></inline-formula>, age at exposure <inline-formula id="IEq5"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$e$$\end{document}</tex-math><mml:math id="M18"><mml:mi>e</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq5.gif"/></alternatives></inline-formula> and gender <inline-formula id="IEq6"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s$$\end{document}</tex-math><mml:math id="M20"><mml:mi>s</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq6.gif"/></alternatives></inline-formula>:<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{ER}}_{\mathrm{t}}\left({D}_{\mathrm{t}},e,a,s\right)= \beta {D}_{\mathrm{t}}{\mu }_{\mathrm{t}}\left(e,a,s\right).$$\end{document}</tex-math><mml:math id="M22" display="block"><mml:mrow><mml:msub><mml:mi mathvariant="normal">ER</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:msub><mml:mi>μ</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par57">The subscript t denotes organ or tissue and <inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{t}}$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi>μ</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq7.gif"/></alternatives></inline-formula> is the risk effect modifying function:<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{t}}\left(e,a,s\right)=\mathrm{exp}\left({\gamma }_{e}\left(\frac{e-30}{10}\right)+{\gamma }_{a}\mathrm{log}\left(\frac{a}{70}\right)\right)\left(1\mp s\right),$$\end{document}</tex-math><mml:math id="M26" display="block"><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi mathvariant="normal">exp</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>γ</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi>e</mml:mi><mml:mo>-</mml:mo><mml:mn>30</mml:mn></mml:mrow><mml:mn>10</mml:mn></mml:mfrac></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mi mathvariant="normal">log</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>a</mml:mi><mml:mn>70</mml:mn></mml:mfrac></mml:mfenced></mml:mfenced><mml:mfenced close=")" open="("><mml:mn>1</mml:mn><mml:mo>∓</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>
+where − is used for males and + for females. The fit parameters <inline-formula id="IEq8"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\gamma }_{e}$$\end{document}</tex-math><mml:math id="M28"><mml:msub><mml:mi>γ</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq8.gif"/></alternatives></inline-formula>, <inline-formula id="IEq9"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\gamma }_{a}$$\end{document}</tex-math><mml:math id="M30"><mml:msub><mml:mi>γ</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq9.gif"/></alternatives></inline-formula> and <inline-formula id="IEq10"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s$$\end{document}</tex-math><mml:math id="M32"><mml:mi>s</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq10.gif"/></alternatives></inline-formula> are sex-averaged and centred at an attained age <inline-formula id="IEq11"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a$$\end{document}</tex-math><mml:math id="M34"><mml:mi>a</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq11.gif"/></alternatives></inline-formula> of 70 years and an age at exposure <inline-formula id="IEq12"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$e$$\end{document}</tex-math><mml:math id="M36"><mml:mi>e</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq12.gif"/></alternatives></inline-formula> of 30 years.</p>
+                  <p id="Par59">The leukemia models have a linear-quadratic dose–response model:<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{ERR}}_{\mathrm{L}}\left({D}_{\mathrm{m}},e,a,s\right)=\left( \beta {D}_{\mathrm{m}}+\delta {{D}_{\mathrm{m}}}^{2}\right){\mu }_{\mathrm{L}1}\left(e,a\right),$$\end{document}</tex-math><mml:math id="M38" display="block"><mml:mrow><mml:msub><mml:mi mathvariant="normal">ERR</mml:mi><mml:mi mathvariant="normal">L</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced close=")" open="("><mml:mi>β</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>δ</mml:mi><mml:msup><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mfenced><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{EAR}}_{\mathrm{L}}\left({D}_{\mathrm{m}},e,a,s\right)=( \beta {D}_{\mathrm{m}}+\delta {D}_{\mathrm{m}}^{2}){\mu }_{\mathrm{L}2}(e,a,s)$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:mrow><mml:msub><mml:mi mathvariant="normal">EAR</mml:mi><mml:mi mathvariant="normal">L</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>β</mml:mi><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>δ</mml:mi><mml:msubsup><mml:mi>D</mml:mi><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>
+where <inline-formula id="IEq13"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\beta$$\end{document}</tex-math><mml:math id="M42"><mml:mi>β</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq13.gif"/></alternatives></inline-formula> and <inline-formula id="IEq14"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta$$\end{document}</tex-math><mml:math id="M44"><mml:mi>δ</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq14.gif"/></alternatives></inline-formula> are the linear and quadratic dose–response parameters. L denotes leukemia, <inline-formula id="IEq15"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{\mathrm{m}}$$\end{document}</tex-math><mml:math id="M46"><mml:msub><mml:mi>D</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq15.gif"/></alternatives></inline-formula> red bone marrow dose and <inline-formula id="IEq16"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{L}1}$$\end{document}</tex-math><mml:math id="M48"><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq16.gif"/></alternatives></inline-formula> and <inline-formula id="IEq17"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{L}2}$$\end{document}</tex-math><mml:math id="M50"><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq17.gif"/></alternatives></inline-formula> are the risk effect modifying functions:<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{L}1}\left(e,a\right)=\mathrm{exp}\left({\gamma }_{e}log\left(\frac{a-e}{40}\right)+{\gamma }_{a}\mathrm{log}\left(\frac{a}{70}\right)\right),$$\end{document}</tex-math><mml:math id="M52" display="block"><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi mathvariant="normal">exp</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>γ</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>g</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mo>-</mml:mo><mml:mi>e</mml:mi></mml:mrow><mml:mn>40</mml:mn></mml:mfrac></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mi mathvariant="normal">log</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>a</mml:mi><mml:mn>70</mml:mn></mml:mfrac></mml:mfenced></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mu }_{\mathrm{L}2}\left(e,a,s\right)=\mathrm{exp}\left({\gamma }_{e}\left(\frac{e-30}{10}\right)+{\gamma }_{a}\mathrm{log}\left(\frac{a}{70}\right)\right)\mathrm{exp}\left(s\right).$$\end{document}</tex-math><mml:math id="M54" display="block"><mml:mrow><mml:msub><mml:mi>μ</mml:mi><mml:mrow><mml:mi mathvariant="normal">L</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mfenced close=")" open="("><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>s</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi mathvariant="normal">exp</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>γ</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mfenced close=")" open="("><mml:mfrac><mml:mrow><mml:mi>e</mml:mi><mml:mo>-</mml:mo><mml:mn>30</mml:mn></mml:mrow><mml:mn>10</mml:mn></mml:mfrac></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>γ</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mi mathvariant="normal">log</mml:mi><mml:mfenced close=")" open="("><mml:mfrac><mml:mi>a</mml:mi><mml:mn>70</mml:mn></mml:mfrac></mml:mfenced></mml:mfenced><mml:mi mathvariant="normal">exp</mml:mi><mml:mfenced close=")" open="("><mml:mi>s</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula></p>
+                  <p id="Par61">The fit parameters <inline-formula id="IEq18"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\gamma }_{e}$$\end{document}</tex-math><mml:math id="M56"><mml:msub><mml:mi>γ</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq18.gif"/></alternatives></inline-formula> and <inline-formula id="IEq19"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\gamma }_{a}$$\end{document}</tex-math><mml:math id="M58"><mml:msub><mml:mi>γ</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq19.gif"/></alternatives></inline-formula> are sex-averaged and centred at an attained age <inline-formula id="IEq20"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$a$$\end{document}</tex-math><mml:math id="M60"><mml:mi>a</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq20.gif"/></alternatives></inline-formula> of 70 years and an age at exposure <inline-formula id="IEq21"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$e$$\end{document}</tex-math><mml:math id="M62"><mml:mi>e</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq21.gif"/></alternatives></inline-formula> of 30 years. The fit parameter <inline-formula id="IEq22"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s$$\end{document}</tex-math><mml:math id="M64"><mml:mi>s</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq22.gif"/></alternatives></inline-formula> is given for women and set to 0 for men.</p>
+                </sec>
+                <sec id="Sec16">
+                  <title>Appendix B Never smoker age-specific lung cancer rate estimation</title>
+                  <p id="Par62">The idea is to take the general population [made up from current smokers (CS), never smokers (NS), and former smokers (FS)] based age-specific lung cancer incidence rates for the CI5–8 countries and approximately adjust them to represent the rates for never smokers as most relevant for astronaut health risk assessment. The NASA methodology in Chappell (<xref ref-type="bibr" rid="CR6">2014</xref>) has been adopted and adapted here and applied, to European CI5–8 country lung cancer age-specific incidence data (Fig. <fig id="Fig5"><label>Fig. 5</label><caption><p>European CI5–8 country lung cancer age-specific incidence data (rates are in units of number of incident cases per 100,000 persons, in one year). The top panel shows the actual CI5–8 country data and the lower panel shows how these rates change after adjustment to non-smoking rates using the method described</p></caption><graphic position="anchor" xlink:href="411_2021_910_Fig5_HTML" id="MO5"/></fig><xref rid="Fig5" ref-type="fig">5</xref> top panel).</p>
+                  <p id="Par63">The steps required to estimate never smoke lung rates by gender and age:<list list-type="order"><list-item><p id="Par64">Obtain relative risks for lung cancer mortality, <inline-formula id="IEq23"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{RR}}_{\mathrm{M}}$$\end{document}</tex-math><mml:math id="M66"><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">M</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq23.gif"/></alternatives></inline-formula> for current (CS) and former smokers (FS) in contemporary cohorts in comparison to lifetime never smokers (NS). <inline-formula id="IEq24"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{RR}}_{\mathrm{M}}= {\mathrm{RR}}_{\mathrm{CS}} \mathrm{or} {\mathrm{RR}}_{\mathrm{FS}}$$\end{document}</tex-math><mml:math id="M68"><mml:mrow><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">M</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">CS</mml:mi></mml:msub><mml:mi mathvariant="normal">or</mml:mi><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">FS</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq24.gif"/></alternatives></inline-formula> are the assumed relative risk for lung cancer mortality associated with smoking exposure in CS and FS relative to never smokers. (Thun et al. <xref ref-type="bibr" rid="CR34">2013</xref>): “For women who were current smokers, as compared with women who had never smoked, the relative risks of death from lung cancer were 2.73, 12.65, and <bold>25.66</bold> in the 1960s, 1980s, and <bold>contemporary cohorts</bold>, respectively; corresponding relative risks for male current smokers, as compared with men who had never smoked, were 12.22, 23.81, and <bold>24.97</bold>.” where the bold has been added to indicate the values applied here.</p></list-item><list-item><p id="Par65">Convert these mortality risks into incidence risks:<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{RR}}_{{\text{M}}} = {\text{RR}}_{{\text{I}}} \times L,$$\end{document}</tex-math><mml:math id="M70" display="block"><mml:mrow><mml:msub><mml:mtext>RR</mml:mtext><mml:mtext>M</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mtext>RR</mml:mtext><mml:mtext>I</mml:mtext></mml:msub><mml:mo>×</mml:mo><mml:mi>L</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>where the lethality factor, <inline-formula id="IEq25"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L$$\end{document}</tex-math><mml:math id="M72"><mml:mi>L</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq25.gif"/></alternatives></inline-formula> for lung cancer of 0.89 for males and females (ICRP <xref ref-type="bibr" rid="CR16">2007</xref>) is applied.
+</p></list-item><list-item><p id="Par67">Obtain estimates of smoking prevalence, <inline-formula id="IEq26"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p$$\end{document}</tex-math><mml:math id="M74"><mml:mi>p</mml:mi></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq26.gif"/></alternatives></inline-formula>, for the populations and years and age categories of interest. <inline-formula id="IEq27"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${p}_{\mathrm{i}}$$\end{document}</tex-math><mml:math id="M76"><mml:msub><mml:mi>p</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq27.gif"/></alternatives></inline-formula> is the prevalence of never smokers (NS), former smokers (FS), and current smokers (CS) in the German population for 2012 (Zeiher et al. <xref ref-type="bibr" rid="CR43">2018</xref>, Figs. 1 and 2, read from graphics). There is no direct information for FS in age categories in Zeiher et al. (<xref ref-type="bibr" rid="CR43">2018</xref>), but these can be inferred from the data provided in the paper. Overall, the prevalence percentages for NS, FS and CS are 38, 30, 32 for males and 53, 22, 25 for females, respectively. This assumes that prevalence percentages in the German population are a good approximation for prevalence in the 8 European countries, which the authors were unable to locate in published form for each country and age group.</p></list-item><list-item><p id="Par68">Estimate the relative risk for lung cancer incidence associated with mixed exposure of smokers, former smokers and never smokers relative to never smokers (by sex and age group). The <inline-formula id="IEq28"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathrm{RR}}_{\mathrm{I}}$$\end{document}</tex-math><mml:math id="M78"><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="411_2021_910_Article_IEq28.gif"/></alternatives></inline-formula> can be calculated as follows:<disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{RR}}_{{\text{I}}} = p_{{{\text{NS}}}} + p_{{{\text{FS}}}} \left( {L \times {\text{RR}}_{{{\text{FS}}}} } \right) + p_{{{\text{CS}}}} \left( {L \times {\text{RR}}_{{{\text{CS}}}} } \right).$$\end{document}</tex-math><mml:math id="M80" display="block"><mml:mrow><mml:msub><mml:mtext>RR</mml:mtext><mml:mtext>I</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mtext>NS</mml:mtext></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mtext>FS</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>L</mml:mi><mml:mo>×</mml:mo><mml:msub><mml:mtext>RR</mml:mtext><mml:mtext>FS</mml:mtext></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mtext>CS</mml:mtext></mml:msub><mml:mfenced close=")" open="("><mml:mrow><mml:mi>L</mml:mi><mml:mo>×</mml:mo><mml:msub><mml:mtext>RR</mml:mtext><mml:mtext>CS</mml:mtext></mml:msub></mml:mrow></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p id="Par69">Obtain the fraction that is not attributable to smoking, never smoking attributable fraction (NASAF),<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\text{NSAF}} = 1 - {\text{SAF,}}$$\end{document}</tex-math><mml:math id="M82" display="block"><mml:mrow><mml:mtext>NSAF</mml:mtext><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mtext>SAF,</mml:mtext></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula>
+where the smoking attributable fractions (SAFs) by sex and age group:</p><p id="Par70"><disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{SAF}=\frac{{\mathrm{RR}}_{\mathrm{I}}-1}{{\mathrm{RR}}_{\mathrm{I}}},$$\end{document}</tex-math><mml:math id="M84" display="block"><mml:mrow><mml:mi mathvariant="normal">SAF</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathrm{NSAF}= 1-\frac{\left({\mathrm{RR}}_{\mathrm{I}}-1\right)}{{\mathrm{RR}}_{\mathrm{I}}}=\frac{1}{{\mathrm{RR}}_{\mathrm{I}}}.$$\end{document}</tex-math><mml:math id="M86" display="block"><mml:mrow><mml:mi mathvariant="normal">NSAF</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mfrac><mml:mfenced close=")" open="("><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mfenced><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:msub><mml:mi mathvariant="normal">RR</mml:mi><mml:mi mathvariant="normal">I</mml:mi></mml:msub></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="411_2021_910_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p id="Par71">The NSAF then multiplies the sex and age-specific CI5–8 country lung cancer rates to estimate NS lung rates by gender and age (Fig. <xref rid="Fig5" ref-type="fig">5</xref> lower panel).</p></list-item></list></p>
+                </sec>
+              </app>
+            </app-group>
+            <fn-group>
+              <fn>
+                <p>
+                  <bold>Publisher's Note</bold>
+                </p>
+                <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+            </fn-group>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This work makes use of the data obtained from the Radiation Effects Research Foundation (RERF) in Hiroshima, Japan. RERF is a private foundation funded equally by the Japanese Ministry of Health and Welfare and the US Department of Energy through the US National Academy of Sciences. The conclusions in this work are those of the authors and do not necessarily reflect the scientific judgment of RERF or its funding agencies. The first author (LW) would like to thank the ESA-EAC for the financial support connected with this work.</p>
+            </ack>
+            <notes notes-type="funding-information">
+              <title>Funding</title>
+              <p>Open Access funding provided by Universität Zürich.</p>
+            </notes>
+            <notes notes-type="ethics">
+              <title>Compliance with ethical standards</title>
+              <notes id="FPar1" notes-type="COI-statement">
+                <title>Conflict of interest</title>
+                <p id="Par320">The authors declare that they have no conflict of interest.</p>
+              </notes>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Boice</surname>
+                      <given-names>JD</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <name>
+                      <surname>Ellis</surname>
+                      <given-names>ED</given-names>
+                    </name>
+                    <name>
+                      <surname>Golden</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Sex-specific lung cancer risk among radiation workers in the million-person study and patients TB-fluoroscopy</article-title>
+                  <source>Int J Radiat Biol</source>
+                  <year>2019</year>
+                  <pub-id pub-id-type="doi">10.1080/09553002.2018.15474412019</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR2">
+                <mixed-citation publication-type="other">Bray F, Colombet M, Mery L et al (eds) (2017) Cancer incidence in five continents, Vol. XI (electronic version). International Agency for Research on Cancer, Lyon. Available from: <ext-link ext-link-type="uri" xlink:href="https://ci5.iarc.fr">https://ci5.iarc.fr</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cahoon</surname>
+                      <given-names>EK</given-names>
+                    </name>
+                    <name>
+                      <surname>Preston</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierce</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lung, laryngeal and other respiratory cancer incidence among Japanese atomic bomb survivors: an updated analysis from 1958 through 2009</article-title>
+                  <source>Radiat Res</source>
+                  <year>2017</year>
+                  <volume>187</volume>
+                  <fpage>538</fpage>
+                  <lpage>548</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR14583.1</pub-id>
+                  <pub-id pub-id-type="pmid">28323575</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR4">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Castelletti</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaiser</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Simonetto</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Furukawa</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Küchenhoff</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Stathopoulos</surname>
+                      <given-names>GT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Risk of lung adenocarcinoma from smoking and radiation arises in distinct molecular pathways</article-title>
+                  <source>Carcinogenesis</source>
+                  <year>2019</year>
+                  <volume>40</volume>
+                  <issue>10</issue>
+                  <fpage>1240</fpage>
+                  <lpage>1250</lpage>
+                  <pub-id pub-id-type="doi">10.1093/carcin/bgz036</pub-id>
+                  <pub-id pub-id-type="pmid">30915466</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chancellor</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Scott</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Sutton</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space radiation: the number one risk to astronaut health beyond low earth orbit</article-title>
+                  <source>Life</source>
+                  <year>2014</year>
+                  <volume>4</volume>
+                  <fpage>491</fpage>
+                  <lpage>510</lpage>
+                  <pub-id pub-id-type="doi">10.3390/life4030491</pub-id>
+                  <pub-id pub-id-type="pmid">25370382</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR6">
+                <mixed-citation publication-type="other">Chappell L (2014) Background cancer and mortality rates. Documentation for background rates used by the NASA Space Cancer Risk codes SRAG-COM-RISK-2014-013</mixed-citation>
+              </ref>
+              <ref id="CR7">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cordova</surname>
+                      <given-names>KA</given-names>
+                    </name>
+                    <name>
+                      <surname>Cullings</surname>
+                      <given-names>HM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Assessing the relative biological effectiveness of neutrons across organs of varying depth among the atomic bomb survivors</article-title>
+                  <source>Radiat Res</source>
+                  <year>2019</year>
+                  <volume>192</volume>
+                  <fpage>380</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR15391.1</pub-id>
+                  <pub-id pub-id-type="pmid">31390313</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR8">
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                  </person-group>
+                  <source>Space radiation organ doses for astronauts on past and future missions</source>
+                  <year>2007</year>
+                  <publisher-loc>Houston</publisher-loc>
+                  <publisher-name>NASA Center for AeroSpace Information, NASA</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR9">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Durante</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Cucinotta</surname>
+                      <given-names>FA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Heavy ion carcinogenesis and human space exploration</article-title>
+                  <source>Nat Rev Cancer</source>
+                  <year>2008</year>
+                  <volume>8</volume>
+                  <fpage>465</fpage>
+                  <lpage>472</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrc2391</pub-id>
+                  <pub-id pub-id-type="pmid">18451812</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grant</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Brenner</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugiyama</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Solid cancer incidence among the Life Span Study of atomic bomb survivors: 1958–2009</article-title>
+                  <source>Radiat Res</source>
+                  <year>2017</year>
+                  <volume>187</volume>
+                  <fpage>513</fpage>
+                  <lpage>537</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR14492.1</pub-id>
+                  <pub-id pub-id-type="pmid">28319463</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR11">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hafner</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>U</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cancer incidence risks above and below 1 Gy for radiation protection in space</article-title>
+                  <source>Life Sci Space Res</source>
+                  <year>2021</year>
+                  <volume>28</volume>
+                  <fpage>41</fpage>
+                  <lpage>56</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.lssr.2020.09.001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hellweg</surname>
+                      <given-names>CE</given-names>
+                    </name>
+                    <name>
+                      <surname>Berger</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Matthiä</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Baumstark-Khan</surname>
+                      <given-names>C</given-names>
+                    </name>
+                  </person-group>
+                  <source>Radiation in space: relevance and risk for human missions</source>
+                  <year>2020</year>
+                  <publisher-name>Springer Nature Switzerland AG</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <mixed-citation publication-type="other">Hsu WL, Preston DL, Soda M, Sugiyama H, Funamoto S, Kodama K, KimuraA, Kamada N, Dohy H, Tomonaga M, Iwanaga M, Miyazaki Y, Cullings H, Suyama A, Ozasa K, Shore R, Mabuchi K (2013) The incidence of leukemia, lymphoma and multiple myeloma among atomic bomb survivors: 1950–2001. Radiat Res 179:361–382</mixed-citation>
+              </ref>
+              <ref id="CR14">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hughson</surname>
+                      <given-names>RL</given-names>
+                    </name>
+                    <name>
+                      <surname>Helm</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Durante</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Heart in space: effect of the extraterrestrial environment on the cardiovascular system</article-title>
+                  <source>Nat Rev Cardiol</source>
+                  <year>2017</year>
+                  <volume>15</volume>
+                  <fpage>167</fpage>
+                  <lpage>180</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrcardio.2017.157</pub-id>
+                  <pub-id pub-id-type="pmid">29053152</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <mixed-citation publication-type="other">ICRP (1991) Recommendations of the International Commission on Radiological Protection. ICRP Publication 60. Ann. ICRP 21(1–3)</mixed-citation>
+              </ref>
+              <ref id="CR16">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <collab>ICRP</collab>
+                  </person-group>
+                  <article-title>Recommendations of the International Commission on Radiological Protection. ICRP publication 103</article-title>
+                  <source>Ann ICRP</source>
+                  <year>2007</year>
+                  <volume>37</volume>
+                  <fpage>1</fpage>
+                  <lpage>332</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <mixed-citation publication-type="other">ICRP (2013) Assessment of radiation exposure of astronauts in space. ICRP Publication 123. Ann ICRP 42(4)</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kellerer</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Nekolla</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the conversion of solid cancer excess relative risk into lifetime attributable risk</article-title>
+                  <source>Radiat Environ Biophys</source>
+                  <year>2001</year>
+                  <volume>40</volume>
+                  <fpage>249</fpage>
+                  <lpage>257</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s004110100106</pub-id>
+                  <pub-id pub-id-type="pmid">11820733</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kellerer</surname>
+                      <given-names>AM</given-names>
+                    </name>
+                    <name>
+                      <surname>Rühm</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Indications of the neutron effect contribution in the solid cancer data of the a-bomb survivors</article-title>
+                  <source>Health Phys</source>
+                  <year>2006</year>
+                  <volume>90</volume>
+                  <fpage>554</fpage>
+                  <lpage>564</lpage>
+                  <pub-id pub-id-type="doi">10.1097/01.HP.0000184917.94232.cd</pub-id>
+                  <pub-id pub-id-type="pmid">16691103</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR20">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>McKenna-Lawlor</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Bhardwaj</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrari</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuznetsov</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Lal</surname>
+                      <given-names>AK</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagamatsu</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Nymmik</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Panasyuk</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Petrov</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Feasibility study of astronaut standardized career dose limits in LEO and the outlook for BLEO</article-title>
+                  <source>Acta Astronaut</source>
+                  <year>2014</year>
+                  <volume>104</volume>
+                  <fpage>565</fpage>
+                  <lpage>573</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2014.07.011</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR21">
+                <mixed-citation publication-type="other">NASA (National Aeronautics and Space Administration) (2005) Managing Lunar and Mars mission radiation risks, Part I: cancer risks, uncertainties, and shielding effectiveness. NASA/TP-2005-213164. NASA, Washington, D.C.</mixed-citation>
+              </ref>
+              <ref id="CR22">
+                <mixed-citation publication-type="other">NASA (National Aeronautics and Space Administration) (2007) NASA Space Flight Human Standard, Volume 1: Crew Health. NASA-STD-3001. NASA, Washington, D.C.</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <mixed-citation publication-type="other">NASA (National Aeronautics and Space Administration) (2013) Space Radiation Cancer Risk Projections and Uncertainties—2012, NASA/TP-2013-217375</mixed-citation>
+              </ref>
+              <ref id="CR24">
+                <element-citation publication-type="book">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Preston</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Lubin</surname>
+                      <given-names>JH</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierce</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <source>Epicure user’s guide</source>
+                  <year>1993</year>
+                  <publisher-loc>Seattle</publisher-loc>
+                  <publisher-name>HiroSoft International Corp.</publisher-name>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Preston</surname>
+                      <given-names>DL</given-names>
+                    </name>
+                    <name>
+                      <surname>Ron</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Tokuoka</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Solid cancer incidence in atomic bomb survivors: 1958–1998</article-title>
+                  <source>Radiat Res</source>
+                  <year>2007</year>
+                  <volume>168</volume>
+                  <fpage>1</fpage>
+                  <lpage>64</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR0763.1</pub-id>
+                  <pub-id pub-id-type="pmid">17722996</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rühm</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Woloschak</surname>
+                      <given-names>GE</given-names>
+                    </name>
+                    <name>
+                      <surname>Shore</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Dose and dose-rate effects of ionizing radiation: a discussion in the light of radiological protection</article-title>
+                  <source>Radiat Environ Biophys</source>
+                  <year>2015</year>
+                  <volume>54</volume>
+                  <issue>4</issue>
+                  <fpage>379</fpage>
+                  <lpage>401</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00411-015-0613-6</pub-id>
+                  <pub-id pub-id-type="pmid">26343037</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <mixed-citation publication-type="other">Rühm W, Azizova T, Bouffler S et al (2016) Dose-rate effects in radiation biology and radiation protection. In: Proceedings of the third international symposium on the system of radiological protection. Ann. ICRP, vol 45, no 1S</mixed-citation>
+              </ref>
+              <ref id="CR28">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rühm</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Azizova</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Bouffler</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Typical doses and dose rates in studies pertinent to radiation risk inference at low doses and low dose rates</article-title>
+                  <source>J Rad Res</source>
+                  <year>2018</year>
+                  <volume>59</volume>
+                  <issue>S2</issue>
+                  <fpage>ii1</fpage>
+                  <lpage>ii10</lpage>
+                  <pub-id pub-id-type="doi">10.1093/jrr/rrx093</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cancer risk above 1 Gy and the impact for space radiation protection</article-title>
+                  <source>Adv Space Res</source>
+                  <year>2009</year>
+                  <volume>44</volume>
+                  <fpage>202</fpage>
+                  <lpage>209</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2009.03.026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR30">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Azizova</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Risk of solid cancer in low dose-rate radiation epidemiological studies and the dose-rate effectiveness factor</article-title>
+                  <source>Int J Radiat Biol</source>
+                  <year>2017</year>
+                  <volume>93</volume>
+                  <fpage>1064</fpage>
+                  <lpage>1078</lpage>
+                  <pub-id pub-id-type="doi">10.1080/09553002.2017.1319090</pub-id>
+                  <pub-id pub-id-type="pmid">28421857</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shore</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Beck</surname>
+                      <given-names>HL</given-names>
+                    </name>
+                    <name>
+                      <surname>Boice</surname>
+                      <given-names>JD</given-names>
+                      <suffix>Jr</suffix>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Recent epidemiological studies and the linear no-threshold model for radiation protection—considerations regarding NCRP commentary 27</article-title>
+                  <source>Health Phys</source>
+                  <year>2019</year>
+                  <volume>116</volume>
+                  <fpage>235</fpage>
+                  <lpage>246</lpage>
+                  <pub-id pub-id-type="doi">10.1097/HP.0000000000001015</pub-id>
+                  <pub-id pub-id-type="pmid">30585971</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sylvester</surname>
+                      <given-names>CB</given-names>
+                    </name>
+                    <name>
+                      <surname>Abe</surname>
+                      <given-names>J-I</given-names>
+                    </name>
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>ZS</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Radiation-induced cardiovascular disease: mechanisms and importance of linear energy transfer</article-title>
+                  <source>Front Cardiovasc Med</source>
+                  <year>2018</year>
+                  <volume>5</volume>
+                  <fpage>5</fpage>
+                  <pub-id pub-id-type="doi">10.3389/fcvm.2018.00005</pub-id>
+                  <pub-id pub-id-type="pmid">29445728</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Takahashi</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Shimizu</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Grant</surname>
+                      <given-names>EJ</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Heart disease mortality in the Life Span Study, 1950–2008</article-title>
+                  <source>Radiat Res</source>
+                  <year>2017</year>
+                  <volume>187</volume>
+                  <fpage>319</fpage>
+                  <lpage>332</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR14347.1</pub-id>
+                  <pub-id pub-id-type="pmid">28170314</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Thun</surname>
+                      <given-names>MJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Carter</surname>
+                      <given-names>BD</given-names>
+                    </name>
+                    <name>
+                      <surname>Feskanich</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>50-year trends in smoking-related mortality in the United States</article-title>
+                  <source>N Engl J Med</source>
+                  <year>2013</year>
+                  <volume>368</volume>
+                  <fpage>351</fpage>
+                  <lpage>364</lpage>
+                  <pub-id pub-id-type="doi">10.1056/NEJMsa1211127</pub-id>
+                  <pub-id pub-id-type="pmid">23343064</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ulanowski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaiser</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>On prognostic estimates of radiation risk in medicine and radiation protection</article-title>
+                  <source>Radiat Environ Biophys</source>
+                  <year>2019</year>
+                  <volume>58</volume>
+                  <fpage>305</fpage>
+                  <lpage>319</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00411-019-00794-1</pub-id>
+                  <pub-id pub-id-type="pmid">31006050</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ulanowski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaiser</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lifetime radiation risk of stochastic effects—prospective evaluation for space flight or medicine</article-title>
+                  <source>Ann ICRP</source>
+                  <year>2020</year>
+                  <volume>49</volume>
+                  <issue>1_suppl</issue>
+                  <fpage>200</fpage>
+                  <lpage>212</lpage>
+                  <pub-id pub-id-type="doi">10.1177/0146645320956517</pub-id>
+                  <pub-id pub-id-type="pmid">33054322</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR37">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ulanowski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Shemiakina</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Güthlin</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>ProZES: the methodology and software tool for assessment of assigned share of radiation in probability of cancer occurrence</article-title>
+                  <source>Radiat Environ Biophys</source>
+                  <year>2020</year>
+                  <volume>59</volume>
+                  <fpage>601</fpage>
+                  <lpage>629</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00411-020-00866-7</pub-id>
+                  <pub-id pub-id-type="pmid">32851496</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Vaeth</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierce</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Calculating excess lifetime risk in relative risk models</article-title>
+                  <source>Environ Health Prospect</source>
+                  <year>1990</year>
+                  <volume>87</volume>
+                  <fpage>83</fpage>
+                  <lpage>94</lpage>
+                  <pub-id pub-id-type="doi">10.1289/ehp.908783</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>W</given-names>
+                    </name>
+                    <name>
+                      <surname>Shore</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A framework for estimating radiation-related cancer risks in Japan from the 2011 Fukushima Nuclear Accident</article-title>
+                  <source>Radit Res</source>
+                  <year>2014</year>
+                  <volume>182</volume>
+                  <fpage>556</fpage>
+                  <lpage>572</lpage>
+                  <pub-id pub-id-type="doi">10.1667/RR13779.1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Schneider</surname>
+                      <given-names>U</given-names>
+                    </name>
+                    <name>
+                      <surname>Fogtman</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Research plans in Europe for radiation health hazard assessment in exploratory space missions</article-title>
+                  <source>Life Sci Space Res</source>
+                  <year>2019</year>
+                  <volume>21</volume>
+                  <fpage>73</fpage>
+                  <lpage>82</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.lssr.2019.04.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Walsh</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ulanowski</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Kaiser</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Risk bases can complement dose bases for implementing and optimising a radiological protection strategy in urgent and transition emergency phases</article-title>
+                  <source>Radiat Environ Biophys</source>
+                  <year>2019</year>
+                  <volume>58</volume>
+                  <fpage>539</fpage>
+                  <lpage>552</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00411-019-00809-x</pub-id>
+                  <pub-id pub-id-type="pmid">31346699</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR42">
+                <mixed-citation publication-type="other">WHO (2013) Health risk assessment from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami based on a preliminary dose estimation. WHO. <ext-link ext-link-type="uri" xlink:href="http://www.who.int/ionizing_radiation/pub_meet/fukushima_risk_assessment_2013/en">http://www.who.int/ionizing_radiation/pub_meet/fukushima_risk_assessment_2013/en</ext-link></mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zeiher</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Zeitliche Trends beim Rauchverhalten Erwachsener in Deutschland</article-title>
+                  <source>Bundesgesundheitsblatt</source>
+                  <year>2018</year>
+                  <volume>61</volume>
+                  <fpage>1365</fpage>
+                  <lpage>1376</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00103-018-2817-9</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:51:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:8508200" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:8508200</identifier>
+        <datestamp>2021-10-13</datestamp>
+        <setSpec>frontmicrobio</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Front Microbiol</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Front Microbiol</journal-id>
+              <journal-id journal-id-type="publisher-id">Front. Microbiol.</journal-id>
+              <journal-title-group>
+                <journal-title>Frontiers in Microbiology</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1664-302X</issn>
+              <publisher>
+                <publisher-name>Frontiers Media S.A.</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC8508200</article-id>
+              <article-id pub-id-type="pmcid">PMC8508200</article-id>
+              <article-id pub-id-type="pmc-uid">8508200</article-id>
+              <article-id pub-id-type="pmid">34650522</article-id>
+              <article-id pub-id-type="doi">10.3389/fmicb.2021.685254</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Microbiology</subject>
+                  <subj-group>
+                    <subject>Original Research</subject>
+                  </subj-group>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Performance of Multiple Metagenomics Pipelines in Understanding Microbial Diversity of a Low-Biomass Spacecraft Assembly Facility</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Wood</surname>
+                    <given-names>Jason M.</given-names>
+                  </name>
+                  <uri xlink:href="http://loop.frontiersin.org/people/206945/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Singh</surname>
+                    <given-names>Nitin K.</given-names>
+                  </name>
+                  <uri xlink:href="http://loop.frontiersin.org/people/397478/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Guan</surname>
+                    <given-names>Lisa</given-names>
+                  </name>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1351047/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Seuylemezian</surname>
+                    <given-names>Arman</given-names>
+                  </name>
+                  <uri xlink:href="http://loop.frontiersin.org/people/505805/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Benardini</surname>
+                    <given-names>James Nick</given-names>
+                  </name>
+                  <uri xlink:href="http://loop.frontiersin.org/people/1166765/overview"/>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Venkateswaran</surname>
+                    <given-names>Kasthuri</given-names>
+                  </name>
+                  <xref rid="c001" ref-type="corresp">
+                    <sup>*</sup>
+                  </xref>
+                  <uri xlink:href="http://loop.frontiersin.org/people/23226/overview"/>
+                </contrib>
+              </contrib-group>
+              <aff><institution>Biotechnology and Planetary Protection Group, Jet Propulsion Laboratory, California Institute of Technology</institution>, <addr-line>Pasadena, CA</addr-line>, <country>United States</country></aff>
+              <author-notes>
+                <fn fn-type="edited-by">
+                  <p>Edited by: Rafael R. de la Haba, University of Seville, Spain</p>
+                </fn>
+                <fn fn-type="edited-by">
+                  <p>Reviewed by: Marc Warwick Van Goethem, Lawrence Berkeley National Laboratory, United States; Digvijay Verma, Babasaheb Bhimrao Ambedkar University, India</p>
+                </fn>
+                <corresp id="c001">*Correspondence: Kasthuri Venkateswaran, <email>kjvenkat@jpl.nasa.gov</email></corresp>
+                <fn fn-type="other" id="fn004">
+                  <p>This article was submitted to Extreme Microbiology, a section of the journal Frontiers in Microbiology</p>
+                </fn>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>28</day>
+                <month>9</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2021</year>
+              </pub-date>
+              <volume>12</volume>
+              <elocation-id>685254</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>27</day>
+                  <month>8</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>Copyright © 2021 Wood, Singh, Guan, Seuylemezian, Benardini and Venkateswaran.</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <copyright-holder>Wood, Singh, Guan, Seuylemezian, Benardini and Venkateswaran</copyright-holder>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>NASA planetary protection (PP) requires an assessment of the biological contamination of the potential microbial burden on spacecraft destined to explore planetary bodies that may harbor signs of life, like Mars and Europa. To help meet these goals, the performance of multiple metagenomic pipelines were compared and assessed for their ability to detect microbial diversity of a low-biomass clean room environment used to build spacecraft destined to these planetary bodies. Four vendors were chosen to implement their own metagenomic analysis pipeline on the shotgun sequences retrieved from environmental surfaces in the relevant environments at NASA’s Jet Propulsion Laboratory. None of the vendors showed the same microbial profile patterns when analyzing same raw dataset since each vendor used different pipelines, which begs the question of the validity of a single pipeline to be recommended for future NASA missions. All four vendors detected species of interest, including spore-forming and extremotolerant bacteria, that have the potential to hitch-hike on spacecraft and contaminate the planetary bodies explored. Some vendors demonstrated through functional analysis of the metagenomes that the molecular mechanisms for spore-formation and extremotolerance were represented in the data. However, relative abundances of these microorganisms varied drastically between vendor analyses, questioning the ability of these pipelines to quantify the number of PP-relevant microorganisms on a spacecraft surface. Metagenomics offers tantalizing access to the genetic and functional potential of a microbial community that may offer NASA a viable method for microbial burden assays for planetary protection purposes. However, future development of technologies such as streamlining the processing of shotgun metagenome sequence data, long read sequencing, and all-inclusive larger curated and annotated microbial genome databases will be required to validate and translate relative abundances into an actionable assessment of PP-related microbes of interest. Additionally, the future development of machine learning and artificial intelligence techniques could help enhance the quality of these metagenomic analyses by providing more accurate identification of the genetic and functional potential of a microbial community.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>planetary protection</kwd>
+                <kwd>metagenomics</kwd>
+                <kwd>Spacecraft Assembly Facility</kwd>
+                <kwd>microbial diversity</kwd>
+                <kwd>low-biomass</kwd>
+              </kwd-group>
+              <counts>
+                <fig-count count="4"/>
+                <table-count count="1"/>
+                <equation-count count="0"/>
+                <ref-count count="60"/>
+                <page-count count="17"/>
+                <word-count count="14172"/>
+              </counts>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="S1">
+              <title>Introduction</title>
+              <p>Planetary protection (PP) requires a periodic assessment of the potential biological contamination for microbial burden of space flight hardware destined to or nearby planetary bodies that may or may not have harbored signs of life such as Mars or the Icy Worlds of the outer solar system (<xref rid="B10" ref-type="bibr">COSPAR, 2011</xref>). Space hardware exploring the possibility of life on a planetary body of interest, such as recent missions to Mars, are required to be cleaned to have less than an average of 300 spores/m<sup>2</sup> on spacecraft surfaces and less than 5 × 10<sup>5</sup> spores at launch (<xref rid="B3" ref-type="bibr">Benardini et al., 2014</xref>). For future missions, such as Mars Sample Return, in addition to limiting outbound contamination, the science community has deemed it important to collect an Earth-based assessment of the potential biological and organic contamination that the hardware could have experienced as part of the hardware integration and test operations (<xref rid="B2" ref-type="bibr">Beaty et al., 2018</xref>). Upcoming missions to the outer planets and the Icy Worlds, such as Europa Clipper, require less than 1 × 10<sup>–4</sup> probability of contamination of the subsurface ocean by Earth-based microorganisms (<xref rid="B39" ref-type="bibr">National Research Council, 2000</xref>). Currently, the NASA standard assay (NSA) is used to test for spores on spacecraft, but this assay will not detect most microorganisms (<xref rid="B38" ref-type="bibr">NASA., 2010</xref>). Heat tolerant microorganisms (80°C; 15 min) that can grow aerobically in a nutrient rich Tryptic Soy Agar (TSA) medium, incubated at 32°C, for 72 h are captured by this NSA measurement, but slow growing microorganisms that (i) prefer cooler or hotter temperatures, (ii) are obligate anaerobes, (iii) or have dietary requirements not met by TSA may not be detected by this NSA method.</p>
+              <p>Metagenomics has been identified as an alternative biological verification technique to replace or supplement a culture-based assay that NASA could potentially use to detect the widest possible spectrum of microorganisms, including those of PP interest. NASA is seeking to develop this technology to demonstrate bioburden control assessments for enumeration of relevant viable organisms or contamination risk assessment. In doing so, this approach would likely include an enumeration, phylogenetic identification, and high-resolution characterization of microbial traits and biochemical capabilities from spacecraft surfaces. Microorganisms such as those which are radiation resistant, psychrophilic or anaerobic, etc., are likely to withstand space flight conditions (launch to landing) and may be able to survive on an extraterrestrial planet (forward contamination) (<xref rid="B56" ref-type="bibr">Thompson et al., 2017</xref>). High throughput metagenomics sequencing and bioinformatics pipelines have the potential to rapidly identify most of the microbial diversity (<xref rid="B19" ref-type="bibr">Horneck et al., 2012</xref>; <xref rid="B55" ref-type="bibr">Tamames and Puente-Sánchez, 2019</xref>) and to classify those microorganisms into PP relevant categories, but are not yet available.</p>
+              <p>The goal of this work is to test the ability of modern metagenomics pipelines to enable NASA in defining new PP requirements for detecting microorganisms on space hardware for future life detection missions. Proven modern molecular technologies are essential for NASA’s mission because none of the techniques used to clean and sterilize spacecraft components and subsystems (e.g., dry-heat sterilization, vapor hydrogen peroxide, oxygen plasma, etc.) are compatible with fully assembled, modern day spacecraft (<xref rid="B8" ref-type="bibr">Chung et al., 2008</xref>; <xref rid="B51" ref-type="bibr">Shirey et al., 2017</xref>). Hence, hitch-hiking microorganisms associated with spacecraft must be measured and characterized using modern molecular techniques throughout assembly of the spacecraft. Techniques like 16S rRNA gene cloning (1980s) (<xref rid="B44" ref-type="bibr">Pace, 1997</xref>), microarray (early 2000s) (<xref rid="B57" ref-type="bibr">Vaishampayan et al., 2010</xref>), and targeted amplicon sequencing (2010s) (<xref rid="B36" ref-type="bibr">Minich et al., 2018</xref>) were tried and utilized to measure the widest possible spectrum of microorganisms associated with spacecraft components, however, these molecular methods are unable to characterize functional pathways which are essential for identifying PP related microorganisms. Shotgun metagenomics sequencing and analyses pipelines can detect, quantify, and assess potential metabolisms of both cultivable and uncultivable microorganisms (<xref rid="B52" ref-type="bibr">Singh et al., 2018</xref>).</p>
+              <p>To test the ability of various metagenomics pipelines to detect the widest possible spectrum of microorganisms and of relevance to the PP mission, four vendors (labeled C, J, L, and N) were chosen to perform analyses of metagenomes generated from surface samples collected at the Jet Propulsion Laboratory (JPL) Spacecraft Assembly Facility (SAF) between March and August, 2016, just prior to the beginning of assembly of the Mars 2020 rover, a bioburden controlled and sample return biological contamination knowledge capture mission. These vendors are affiliated with a private industry (Vendor L), national laboratory (Vendor J), and academia (Vendor C, N), in the United States. The SAF is a good test environment for this project because (i) it is where Mars bound spacecraft have been assembled, (ii) it is a critical cleanroom for projects where component to assembly level integration and testing occurs, (iii) a rigorous cleaning regime and bio-control ensures that surface samples are low in biomass like samples from spacecraft surfaces, and (iv) it is a good testbed where microorganisms of PP concern could be detected and have been previously documented (<xref rid="B46" ref-type="bibr">Probst et al., 2010</xref>; <xref rid="B59" ref-type="bibr">Vaishampayan et al., 2012</xref>). Each vendor implemented their own metagenomics analysis pipeline and choose their own sequence databases for comparison without our interference, but all vendors were provided the same metagenomics sequence and associated metadata.</p>
+              <p>To measure the effectiveness of each pipeline, various requirements were considered. Quality control measures such as adapter removal, filtering of human reads, and sequence length and quality cutoffs were expected to be performed by each vendor. Control samples that displayed high or low similarity with other samples were included in the dataset sent to each vendor to test how controls were processed. Databases used by each vendor were considered for their ability to detect microorganisms of PP concern. The proportion of high-quality sequences assigned an annotation is also important, as a more comprehensive description of the sampled diversity clarifies the PP risk presented by detected microorganisms.</p>
+            </sec>
+            <sec sec-type="materials|methods" id="S2">
+              <title>Materials and Methods</title>
+              <sec id="S2.SS1">
+                <title>Description of Samples and Sample Selection Criteria</title>
+                <p>Among more than 200 samples collected from the JPL SAF clean room floors and control samples that were shotgun metagenome sequenced (<xref rid="B18" ref-type="bibr">Hendrickson et al., 2017</xref>), 20 were selected for this exercise (<xref rid="T1" ref-type="table">Table 1</xref>). These consist of handling and instrument controls, which include two dirty samples (FC2; 872,202 reads and MC2; 573,199 reads), and a clean sample (FC9; 5,471 reads). Additionally, SAF floor samples containing &lt;1 × 10<sup>6</sup> reads (<italic toggle="yes">n</italic> = 2; Group L) and &gt;1 × 10<sup>6</sup> reads (<italic toggle="yes">n</italic> = 15; Group H) were included. Among samples containing &gt;1 × 10<sup>6</sup> reads, three consist of microorganisms relevant for PP (Actinobacteria, Firmicutes, etc., Group H-F).</p>
+                <table-wrap position="float" id="T1">
+                  <label>TABLE 1</label>
+                  <caption>
+                    <p>Characteristics of samples analyzed.</p>
+                  </caption>
+                  <table frame="hsides" rules="groups" cellspacing="3" cellpadding="3">
+                    <thead>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1"/>
+                        <td rowspan="1" colspan="1"/>
+                        <td valign="top" align="justify" rowspan="1" colspan="1"/>
+                        <td valign="top" align="justify" rowspan="1" colspan="1"/>
+                        <td valign="top" align="justify" rowspan="1" colspan="1"/>
+                        <td valign="top" align="justify" rowspan="1" colspan="1"/>
+                        <td valign="top" align="center" colspan="3" rowspan="1">Vendor L<hr/></td>
+                        <td valign="top" align="center" colspan="3" rowspan="1">Vendor J<hr/></td>
+                        <td valign="top" align="center" colspan="3" rowspan="1">Vendor C<hr/></td>
+                        <td valign="top" align="center" colspan="2" rowspan="1">Vendor N<hr/></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Sample</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Group</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Location</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Sample Type</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Date of Sampling</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Total number of raw reads</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">QC Reads<sup>1</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Taxonomically Classified Reads<sup>2</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">&gt;1%<sup>3</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">QC Reads<sup>1</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Taxonomically Classified Reads<sup>4</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">&gt;1%<sup>3</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">QC Reads<sup>1</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Taxonomically Classified Reads<sup>5</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">&gt;1%<sup>3</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">QC Reads<sup>1</sup></td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Taxonomically Classified Reads<sup>6</sup></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">FC2</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Field Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Air of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">872,202</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">74,023</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">338</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">332</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">320,075</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,263</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,163</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">41,880</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,911</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,705</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15,726</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">FC9</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Field Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Air of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12-July-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,471</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">232</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">–</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">–</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">704</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">44</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">401</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">44</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">44</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">83</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">MC2</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Maxwell Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Extraction Control</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">573,199</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">129,426</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">923</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">893</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">290,218</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">81,808</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">30,287</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">118,891</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">58,717</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">57,179</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">100,730</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S14</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">L</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L6</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">529,438</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">108,702</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">225</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">222</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">259,750</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">31,984</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,669</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">101,610</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,406</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,813</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">77,363</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S99</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">L</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L11</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">26-July-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">427,481</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,671</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12,223 7</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">10,932</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,653</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,894</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">432</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,564</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">194</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">194</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,544</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S12</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L2</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,097,438</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">787,877</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,108</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,061</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">869,207</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">267,667</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">48,750</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">564,322</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">59,647</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">45,850</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">676,490</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S16</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L5</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,205,398</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">862,588</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,030</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,896</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">954,606</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">604,825</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">100,850</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">823,471</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">270,698</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">260,492</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">754,851</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S17</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L9</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-Mar-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">10,647,036</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,726,824</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">26,421</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">25,298</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,782,262</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,176,911</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">108,555</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">9,733,552</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">502,672</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">458,315</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">8,680,384</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S18</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L13</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,254,780</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">858,915</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,028</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,938</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">974,280</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">389,330</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">85,782</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">829,518</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">126,622</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">112,610</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">743,226</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S20</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L10</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15-Mar-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,001,909</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,584,542</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,593</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,371</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,644,129</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,001,993</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">240,780</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,535,396</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">283,615</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">205,900</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,305,244</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S41</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L1</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17-May-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,329,331</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,857,079</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,886</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,641</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,811,738</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">519,088</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">63,155</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,346,708</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">93,215</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">67,717</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,639,304</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S42</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L10</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17-May-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,726,783</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,212,223</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,793</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,497</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,208,614</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">803,127</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">68,856</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,261,498</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">204,248</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">153,587</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,056,000</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S43</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L8</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17-May-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17,258,784</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15,574,766</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">27,828</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">25,427</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">15,455,888</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,682,775</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">464,348</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">14,069,392</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,328,792</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,111,901</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">14,659,904</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S44</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L12</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17-May-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,335,957</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,104,044</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,310</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,291</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,099,278</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">312,955</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">46,684</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">729,636</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">56,630</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">43,348</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,025,038</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S45</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L10</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">17-May-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,369,108</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,948,423</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,274</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,174</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,940,897</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">549,588</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">59,777</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,549,155</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">146,026</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">103,581</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,809,578</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S57</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L5</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1-June-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,661,331</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,319,103</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">8,192</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">7,743</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,317,306</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,205,865</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">238,697</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,166,598</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">218,332</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">147,781</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,189,283</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S108</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L9</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">16-August-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,150,195</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,090,570</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,759</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,632</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,068,840</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,316,931</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">151,302</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,063,778</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">463,731</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">354,047</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,005,116</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S29</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H-F</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L10</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">30-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">4,117,535</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,477,442</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">21,199</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">19,808</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,568,720</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,324,729</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">316,881</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,229,576</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,996,816</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,926,851</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,050,205</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S30</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H-F</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L1</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">30-March-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,592,661</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,220,908</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">11,982</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">11,388</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,243,095</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,487,003</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">405,394</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">3,209,450</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,106,955</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,028,611</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">2,846,917</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" align="left" rowspan="1" colspan="1">S76</td>
+                        <td valign="top" align="left" rowspan="1" colspan="1">H-F</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">L5</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">Floor of SAF</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">28-June-2016</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">14,027,039</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12,697,322</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,797</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">5,418</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12,636,003</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">1,332,390</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">136,865</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12,709,423</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">251,337</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">211,846</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">12,079,811</td>
+                        <td valign="top" align="center" rowspan="1" colspan="1">N/A</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table-wrap-foot>
+                    <fn>
+                      <p>Groups includes all control samples (<italic toggle="yes">n</italic> = 3), group [L]ow includes samples &lt;1 × 10<sup>6</sup> reads (<italic toggle="yes">n</italic> = 2), and group [H]igh includes samples &gt;1 × 10<sup>6</sup> reads (<italic toggle="yes">n</italic> = 15). A subset of group H, group H-F, includes samples known to be abundant in Actinobacteria and Firmicutes. <sup>1</sup>Quality Control pipelines are detailed in section “Materials and Methods”. <sup>2</sup>Proprietary pipeline of Vendor L. <sup>3</sup>Low abundance taxa (&lt;1% of a library) were removed from each vendor provided table to simplify comparison. <sup>4</sup>Diamond BlastX/MEGAN6 analysis by Vendor J. <sup>5</sup>KrakenUniq analysis by Vendor C. <sup>6</sup>MetaPhlAn2 analysis by Vendor N provides relative abundance in terms of %, not absolute read counts. <sup>7</sup>Anomaly.</p>
+                    </fn>
+                  </table-wrap-foot>
+                </table-wrap>
+                <p>Sample collection and processing methods were previously published (<xref rid="B18" ref-type="bibr">Hendrickson et al., 2017</xref>). Briefly, 1 m<sup>2</sup> of floor was wiped with sterile, pre-moistened 23 × 23 cm polyester wipes (Texwipe; TX1009, Kernersville, NC, United States), and placed in a sterile bottle containing 200 mL phosphate buffer saline (PBS). The sample was mixed thoroughly, and the resulting particulates and microorganisms suspended in the PBS were concentrated with a CP-150 concentrating pipette (InnovaPrep, Drexel, MO, United States). DNA was extracted from concentrated samples using a Maxwell 16 (Promega, Madison, WI, United States) and sequenced using Illumina MiSeq (San Diego, CA, United States). Handling control samples (pre-moistened polyester wipes waved in the air of SAF) were also examined exactly like the SAF environmental samples. Reagent controls were also included during DNA extraction with the Maxwell 16 (well filled with PBS rather than concentrated sample).</p>
+              </sec>
+              <sec id="S2.SS2">
+                <title>Metagenome Sequencing</title>
+                <p>Shotgun metagenome sequencing was carried out as described previously (<xref rid="B52" ref-type="bibr">Singh et al., 2018</xref>; <xref rid="B1" ref-type="bibr">Avila-Herrera et al., 2020</xref>). Briefly, DNA libraries were prepared for sequencing using the NextEra DNA Library Preparation Kit (Illumina, Inc., San Diego, CA, United States). Quality and fragment size were assessed on the Agilent Tapestation 4200 (Agilent Technologies, Santa Clara, CA, United States). Libraries were quantitated using the Qubit fluorimeter (Thermo Fisher Scientific, Waltham, MA, United States) and normalized to equivalent DNA quantities, pooled, and diluted according to the manufacturer’s standard recommendations. Shotgun metagenomic sequencing was performed using an Illumina NextSeq 500 with the NextSeq Series High Output Kit v2 (Illumina Inc., San Diego, CA, United States), using 150 base pair, paired end reads. Fastq files are generated from the sequencing results using the bcl2fastq software (Illumina) and given to vendors.</p>
+              </sec>
+              <sec id="S2.SS3">
+                <title>Taxonomic and Functional Assignment</title>
+                <p>Each vendor was asked to perform their own taxonomic and functional assignment for all metagenomic reads provided to them using their preferred pipeline. Each vendor used different methods for quality control (QC) and classification of sequence data, used different databases for taxonomic and functional annotation. Detailed descriptions of the methodologies of each vendor are provided below.</p>
+              </sec>
+              <sec id="S2.SS4">
+                <title>Vendor L Methods</title>
+                <sec id="S2.SS4.SSS1">
+                  <title>Quality Control</title>
+                  <p>To support multiple platforms, metadata included in the read files are analyzed to determine the appropriate QC pipeline and threshold settings. Settings are persisted to the database (for default values) and GUI support is implemented to allow users to enter custom threshold values for subsequent steps. An executable binary file is constructed and launched as either a parallel worker thread or parallel executor (Spark support) to construct an interactive HTML5 compliant page. This page is served to the user through workflow support in the GUI. Low quality reads are removed and cataloged (metadata to RDS) according to user-selected values.</p>
+                </sec>
+                <sec id="S2.SS4.SSS2">
+                  <title>Read Pairing</title>
+                  <p>For sequencing technologies and protocols that support paired reads, similar sample paired read files are merged leveraging proprietary merge packages implemented in Java. Output is directed to a file system and file paths are persisted in the database allowing for simple GUI navigation.</p>
+                </sec>
+                <sec id="S2.SS4.SSS3">
+                  <title>Adapter Prediction</title>
+                  <p>For paired reads that do not include known inserts and adapter sequences, the paired reads are run through a predictive algorithm. Metadata is pulled from the proprietary algorithm and persisted in the database.</p>
+                </sec>
+                <sec id="S2.SS4.SSS4">
+                  <title>Trimming</title>
+                  <p>Merged paired reads are trimmed by either the known sequence input, or the predicted adapters that can be optionally generated. Trimmed, quality control screened files are then used in subsequent analysis using TrimGalore Version 0.6.5<sup><xref rid="footnote1" ref-type="fn">1</xref></sup>.</p>
+                </sec>
+                <sec id="S2.SS4.SSS5">
+                  <title>Phylogenetic Analysis</title>
+                  <p>High-throughput BLAST servers were set up on GPU-based AWS Elastic Cloud Compute (EC2) instances to support a high-throughput parallel read blast. Each individual read was mapped against libraries of known microbial genome assemblies. Reads that meet either default or user set thresholds can be aligned with all known microbial genomes and depending on similarity score can be assigned a taxonomic identification.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS5">
+                <title>Vendor J Methods</title>
+                <sec id="S2.SS5.SSS1">
+                  <title>Metagenome Sequence Data Processing</title>
+                  <p>Paired-end 150 bp reads were processed with Trimmomatic (<xref rid="B5" ref-type="bibr">Bolger et al., 2014</xref>) to trim adapter sequences and low-quality ends, with a minimum Phred score of 20 across the entire length of the read used as a quality cutoff. Reads shorter than 80 bp after trimming were discarded. All reads were normalized across samples as previously recommended (<xref rid="B40" ref-type="bibr">Nayfach and Pollard, 2016</xref>). High-quality filtered reads were clustered to respective taxonomic levels (domains through species) using the lowest common ancestor (LCA) algorithm provided by MEGAN6 (<xref rid="B20" ref-type="bibr">Huson et al., 2007</xref>).</p>
+                </sec>
+                <sec id="S2.SS5.SSS2">
+                  <title>Taxonomic and Functional Assignment</title>
+                  <p>For lower downstream processing and visualization, the MEGAN6 metagenomics toolkit was used (<xref rid="B22" ref-type="bibr">Huson et al., 2017</xref>). The NCBI taxonomy database (<xref rid="B47" ref-type="bibr">Sayers et al., 2008</xref>), containing over 6.6 × 10<sup>5</sup> reference sequences, and NCBI-NR protein sequence database, consisting of entries from GenPept, Swiss-Prot, PIR, PDB, and RefSeq, were used to assign taxonomic features to reads by using DIAMOND (<xref rid="B7" ref-type="bibr">Buchfink et al., 2015</xref>) and the weighted LCA algorithm of MEGAN6 (<xref rid="B21" ref-type="bibr">Huson et al., 2016</xref>). The identification of the reads to a taxon is not based on the genes only, but it is based on the comparison of the reads with the reference sequences deduced from the genomes of the curated NCBI taxonomy database (<xref rid="B47" ref-type="bibr">Sayers et al., 2008</xref>). Briefly, taxonomic and functional binning of the metagenomic reads is carried out using MEGAN6 (<xref rid="B22" ref-type="bibr">Huson et al., 2017</xref>), with the following settings: minScore = 50, maxExpected = 0.01, topPercent = 10, and minSupportPercent = 0.01. The resulting taxon assignments are presented in this manuscript. Functional analysis was carried out by mapping filtered DNA sequences against a reference database of all proteins within eggNOG (<xref rid="B45" ref-type="bibr">Powell et al., 2011</xref>), SEED (<xref rid="B43" ref-type="bibr">Overbeek et al., 2005</xref>), and Kyoto Encyclopedia of Genes and Genomes (KEGG) (<xref rid="B23" ref-type="bibr">Kanehisa and Goto, 2000</xref>) databases. The search for translated DNA sequences was executed using DIAMOND, and hits that spanned ≥20 amino acids with ≥90% similarity were retained. In cases where one read matched these criteria against multiple proteins, only the protein or proteins (in the event of a tie) with the maximum bit score were considered. Pathways were analyzed by summing counts of each KEGG orthology in a pathway. Using different databases allowed a detailed view of reads defined by gene function consisting of a collection of biologically defined (i) subsystems, (ii) clusters of orthologous groups, and (iii) collection of metabolic pathways.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS6">
+                <title>Vendor C Methods</title>
+                <sec id="S2.SS6.SSS1">
+                  <title>Quality Control</title>
+                  <p>Adapters and low-quality bases were removed using AdapterRemoval v2 (<xref rid="B48" ref-type="bibr">Schubert et al., 2016</xref>). Bases with a quality of 1 were removed as were ambiguous bases. Reads shorter than 50 bp after trimming were discarded. The remaining reads were aligned against the human genome with alternate contigs using Bowtie2 (<xref rid="B28" ref-type="bibr">Langmead and Salzberg, 2012</xref>) and “–sensitive” settings. Read pairs where only one read aligned were discarded.</p>
+                  <p>Jellyfish (<xref rid="B32" ref-type="bibr">Marçais and Kingsford, 2011</xref>) was used to count k-mers in the processed reads. All k-mers, including singletons were counted. Various statistics were calculated on k-mers using a python script<sup><xref rid="footnote2" ref-type="fn">2</xref></sup>. The two statistics presented here are (1) fraction of k-mers which are singletons, the number of k-mers which only occurred once vs. the total number of unique k-mers, and (2) k-mer entropy, Shannon entropy calculated over the probability of drawing each k-mer at random, as shown in previous work (<xref rid="B9" ref-type="bibr">Cleary et al., 2015</xref>; <xref rid="B11" ref-type="bibr">Costea et al., 2017</xref>).</p>
+                  <p>Identification of likely negative controls from QC data was performed by manual inspection. Decision factors included the k-mer complexity (high singleton fraction, low entropy), the number of reads filtered, and taxonomic similarity to other samples (<xref rid="B30" ref-type="bibr">Levy and Borenstein, 2012</xref>; <xref rid="B56" ref-type="bibr">Thompson et al., 2017</xref>).</p>
+                </sec>
+                <sec id="S2.SS6.SSS2">
+                  <title>Taxonomic Profiling</title>
+                  <p>Initial taxonomic profiling was performed by mapping clean-reads to all of RefSeq Microbial (1,977,559 unique taxa) using KrakenUniq (<xref rid="B6" ref-type="bibr">Breitwieser et al., 2018</xref>). KrakenUniq can produce false positive species calls, so we aggressively filtered results (<xref rid="B35" ref-type="bibr">McIntyre et al., 2017</xref>). We removed all species which were identified using fewer than 1,024 unique marker k-mers across the entire dataset. Additionally, species were removed if they were identified with fewer than 10,000 unique marker k-mers unless at least 10% of all known marker k-mers for that species were found. To provide an additional comparison, taxonomic profiles generated by MetaPhlAn2 (<xref rid="B49" ref-type="bibr">Segata et al., 2012</xref>) were also analyzed.</p>
+                </sec>
+                <sec id="S2.SS6.SSS3">
+                  <title><italic toggle="yes">De novo</italic> Genome Assembly</title>
+                  <p>Bacterial genomic sequences were assembled using metaSPAdes (<xref rid="B41" ref-type="bibr">Nurk et al., 2017</xref>), the best in-class metagenomic assembler. Resulting sequences were filtered for quality and duplicates, and annotated by aligning them to known sequences in the NCBI NT database. Annotations were processed using a series of GitHub scripts<sup><xref rid="footnote3" ref-type="fn">3</xref></sup> to identify a single likely annotation per outcome. Possible genes were annotated on the assembled <italic toggle="yes">Acinetobacter</italic> and <italic toggle="yes">Bacillus</italic> genomes (planetary protection relevant microbes), using PROKKA<sup><xref rid="footnote4" ref-type="fn">4</xref></sup>. Many contigs, particularly larger contigs, did not precisely match any known taxa and may be from novel microbial strains.</p>
+                </sec>
+                <sec id="S2.SS6.SSS4">
+                  <title>Estimating Growth Rate</title>
+                  <p>The estimated rate of growth for the two major taxa identified was evaluated using Growth Rate Index (GRiD) (<xref rid="B13" ref-type="bibr">Emiola and Oh, 2018</xref>). GRiD uses the peak to trough ratio of coverage on a microbial genome and a sophisticated series of filters to estimate that genomes rate of replication. GRiD is designed to work well even with low coverage samples and low-quality genome assemblies.</p>
+                </sec>
+                <sec id="S2.SS6.SSS5">
+                  <title>Functional Analysis</title>
+                  <p>Microbial function was evaluated using the Human Microbiome Project (HMP) Unified Metabolic Analysis Network (HUMAnN2) (<xref rid="B14" ref-type="bibr">Franzosa et al., 2018</xref>). HUMAnN2 maps reads to UniRef90, a database of functional genes and combines genes into known metabolic pathways. Pathways are summarized by the total abundance of genes in the pathway and by the fraction of genes in the pathway which are identified. Pathways with less than 50% coverage were filtered from further analysis.</p>
+                </sec>
+                <sec id="S2.SS6.SSS6">
+                  <title>Comparison to MetaSUB Data</title>
+                  <p>Vendor C used MetaSUB<sup><xref rid="footnote5" ref-type="fn">5</xref></sup>, a large database of metagenomic samples from urban environments, to contextualize PP samples. This includes 2,126 MetaSUB samples with surface annotations and 371 MetaSUB samples collected from the air of six cities. These MetaSUB samples were processed for taxonomy and metabolic function analogously to how Vendor C processed the 20 samples in this study (<italic toggle="yes">n</italic> = 2,517 total).</p>
+                  <p>After processing all 2,517 samples, taxonomic and functional profiles were reduced to a binary representation, indicating if a given taxa or pathway was detected in a given sample or not. Without performing this reduction of profiles to a binary representation, clean-room samples would cluster separate from MetaSUB samples. UMAP (<xref rid="B34" ref-type="bibr">McInnes et al., 2020</xref>) was used to perform dimensionality reductions for both taxonomy and function and observation of the results (<xref rid="B16" ref-type="bibr">Hart et al., 2015</xref>).</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS7">
+                <title>Vendor N Methods</title>
+                <sec id="S2.SS7.SSS1">
+                  <title>Sequencing Metrics and Quality Control</title>
+                  <p>The sequencing quality of all 20 datasets was assessed using the publicly available FASTX-toolkit package<sup><xref rid="footnote6" ref-type="fn">6</xref></sup>, as well as FastQC package<sup><xref rid="footnote7" ref-type="fn">7</xref></sup>. Prior to analysis with MetaPhlAn2 and Kraken2 (see below), the paired reads were trimmed to removed adapters and low-quality bases using Trimmomatic (<xref rid="B5" ref-type="bibr">Bolger et al., 2014</xref>) with the following parameters: ILLUMINACLIP:/path/to/adapter.fasta:2:25:10 SLIDINGWINDOW:5:20 MINLEN:60.</p>
+                </sec>
+                <sec id="S2.SS7.SSS2">
+                  <title>Metagenomic Analysis of Sample Composition</title>
+                  <p>All sequence reads were segmented into non-overlapping 50-mer fragments, which were then taxonomically classified down to the species level using the MTSv pipeline. The MTSv pipeline<sup><xref rid="footnote8" ref-type="fn">8</xref></sup> uses a local copy of NCBI’s GenBank database (accessed as of 06/15/2018) as its reference database. The pipeline performed a true alignment with up to three mismatches tolerated against all taxonomically classified sequences. Only the sequences that align to one-and-only-one taxonomic unit within the entirety of NCBI’s GenBank are used for taxonomic classification. In this fashion, only the sequence fragments that unambiguously support the presence of an organism are used, significantly reducing the false positive rate associated with metagenomic characterization of complex samples. Only organisms achieving at least 300 unique signature hits are reported.</p>
+                  <p>The 20 metagenome datasets were also analyzed with MetaPhlAn2 (<xref rid="B49" ref-type="bibr">Segata et al., 2012</xref>), Kraken2 (<xref rid="B60" ref-type="bibr">Wood et al., 2019</xref>) and the downstream statistical module, Bracken (<xref rid="B31" ref-type="bibr">Lu et al., 2017</xref>). Bracken takes Kraken2 output and computes species abundance using Bayesian reestimation. In contrast to MetaPhlAn2, which relies upon a subset of markers for a given genome for classification, thereby limiting its ability to resolve low abundance organisms, Kraken2 is a k-mer based alignment against a reduced, but still large, version of RefSeq. Thus, Kraken2/Bracken is generally able to identify organisms in low abundance, but conversely is susceptible to false positives.</p>
+                </sec>
+                <sec id="S2.SS7.SSS3">
+                  <title>Functional Analysis of Samples</title>
+                  <p>HUMAnN2 (<xref rid="B14" ref-type="bibr">Franzosa et al., 2018</xref>) is a tool for gene annotation metabolic pathway discovery from both metagenomic and metatranscriptomic data, and was developed by the same group that published MetaPhlAn2. HUMAnN2 generates three types of output: gene family abundance; pathway abundance; and pathway coverage. Each sample was run through HUMAnN2 where the analysis focused on gene family abundance for each genome that was discovered by MetaPhlAn2.</p>
+                </sec>
+              </sec>
+              <sec id="S2.SS8">
+                <title>Comparative Analyses of Vendor Results</title>
+                <p>All four vendors provided a table containing abundances for microbial species detected in each metagenomic libraries. Since some vendors provided species in addition to strain names while others provided only species names, all strain names were excised and abundances were summed as necessary to better facilitate a comparison between vendors. All read counts in the subsequent species tables were normalized by the number of annotated reads in each metagenomics library if not already performed by the vendor. Output tables from each vendor containing taxon abundance were merged together and utilized for comparative analyses.</p>
+                <p>Venn diagrams demonstrating overlap among species by the four vendors were generated using InteractiVenn (<xref rid="B17" ref-type="bibr">Heberle et al., 2015</xref>) for surface samples and controls separately. Analysis of similarities (ANOSIM) and non-metric multidimensional scaling (NMDS) comparing taxon tables from the four vendors were performed using the vegan R package (<xref rid="B42" ref-type="bibr">Oksanen et al., 2013</xref>) and custom R scripts<sup><xref rid="footnote9" ref-type="fn">9</xref></sup><sup>,</sup><sup><xref rid="footnote10" ref-type="fn">10</xref></sup>. Network diagrams for surface samples or controls were generated by averaging relative abundance for each taxon for each vendor and converting the resulting species matrix into a network using Cytoscape (v.3.8.0) (<xref rid="B50" ref-type="bibr">Shannon et al., 2003</xref>) and a custom Perl script<sup><xref rid="footnote11" ref-type="fn">11</xref></sup>.</p>
+              </sec>
+            </sec>
+            <sec sec-type="results" id="S3">
+              <title>Results</title>
+              <p>A key need for PP efforts is a rigorous genetic catalog of the presence of microorganisms on and around spacecraft associated environments, as well as an assessment of their likelihood of survival or persistence as well as proliferation in extraterrestrial conditions. To aid in this effort, we analyzed 20 PP-related samples for microbial taxonomy, metabolic function, growth rate, and assembled large genomic contigs. Shotgun metagenomics raw reads (BioProject <ext-link xlink:href="PRJNA668809" ext-link-type="DDBJ/EMBL/GenBank">PRJNA668809</ext-link>) were given to four different vendors to analyze bioinformatically using their favorite publicly available or in-house pipelines to hypothesize on the composition of the microbial community sampled. One of the main features of the analysis pipeline that deviated from other vendors was that Vendor J performed a protein-based taxonomic assignment, whereas other vendors carried out nucleotide-based taxonomic assignment. All vendors removed adapter sequences and human reads, retaining &lt;1% (of control sample FC9) to &gt;90% (of sample S108) of the total raw reads (7.22 × 10<sup>7</sup>; <xref rid="T1" ref-type="table">Table 1</xref>) which allowed for further taxonomic classification. To simplify comparative analyses, low abundance taxa identified by each vendor that comprised &lt;1% relative abundance of a library were excised, reducing the effective number of reads analyzed by 0 to 92% (<xref rid="T1" ref-type="table">Table 1</xref>).</p>
+              <sec id="S3.SS1">
+                <title>Vendor L Results</title>
+                <p>After QC steps followed by the Vendor L pipeline to remove adapter sequences and human reads generated 61,637,680 reads from 20 samples tested, and hence this vendor retained 85% of the raw reads for further analyses (<xref rid="T1" ref-type="table">Table 1</xref>, <xref rid="F1" ref-type="fig">Figure 1</xref>, and <xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1A</xref>). The number of QC reads associated with 17 SAF floor samples ranged from 2,671 (S99) to 15,574,766 (S43), whereas the number of reads from field controls (<italic toggle="yes">n</italic> = 2) and Maxwell reagent control (<italic toggle="yes">n</italic> = 1) samples were less than 1,000. Only 0.22% of these QC reads were taxonomically classified by Vendor L. In general, Vendor L detected 82 species with high confidence (&gt;1% relative abundance in at least one library) in the 17 SAF surface samples analyzed (<xref rid="F2" ref-type="fig">Figure 2A</xref>), including 4 species of potential PP concern, <italic toggle="yes">Bacillus flexus</italic>, <italic toggle="yes">Brevundimonas diminuta, Acinetobacter lwoffii</italic>, and <italic toggle="yes">A. johnsonii</italic>. Additionally, Vendor L detected multiple species that are normally associated with the human skin and gut microbiome, including <italic toggle="yes">Ruminococcus gnavus</italic>, <italic toggle="yes">Staphylococcus aureus</italic>, <italic toggle="yes">S. epidermidis</italic>, and <italic toggle="yes">Propionibacterium acnes</italic>.</p>
+                <fig position="float" id="F1">
+                  <label>FIGURE 1</label>
+                  <caption>
+                    <p>Abundance of reads in SAF floor samples that passed quality control (QC) measures of each vendor (black and black with cross-hatch; gray represents reads discarded by the QC stage; black without cross-hatch represent QC reads taxonomically classified) <bold>(A)</bold>, and relative abundance of species detected by each vendor <bold>(B)</bold>. Samples with a low- (group [L]ow; &lt;1 × 10<sup>6</sup>) or high- (group [H]igh; &gt;1 × 10<sup>6</sup>) numbers of reads were included. Samples with high numbers of reads associated with Actinobacteria and Firmicutes (group H-F) were also included. Vendor C used KrakenUniq and vendor N used MetaPhlAn2 for classifying the reads and assigning taxa.</p>
+                  </caption>
+                  <graphic xlink:href="fmicb-12-685254-g001" position="float"/>
+                </fig>
+                <fig position="float" id="F2">
+                  <label>FIGURE 2</label>
+                  <caption>
+                    <p>The number of taxa identified in each sample by the four vendors <bold>(A)</bold>, and a Venn diagram representing overlap in taxa detected in SAF floor samples <bold>(B)</bold>.</p>
+                  </caption>
+                  <graphic xlink:href="fmicb-12-685254-g002" position="float"/>
+                </fig>
+                <p>One of the field control samples (FC9) was found to possess only 232 reads after QC, hence no useful chromatogram could be generated to determine the distribution of species. In the other two control samples, Vendor L detected 11 species in Maxwell control (MC2) and 10 species in field control (FC2) samples (<xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1B</xref>). There were 2 bacterial species of potential PP concern [<italic toggle="yes">Bacillus flexus</italic> (83 reads) and <italic toggle="yes">Anoxybacillus kestanbolensis</italic> (61 reads)] found in Maxwell control (MC2) with very low number of reads. Similarly, Vendor L detected bacterial species associated with the human microbiome in controls samples (30–162 reads in FC2 and 28–489 reads in MC2), including <italic toggle="yes">Staphylococcus aureus</italic>, <italic toggle="yes">S. epidermidis</italic>, and <italic toggle="yes">Propionibacterium acnes</italic>.</p>
+                <p>During this study, Vendor L communicated that they have developed a proprietary pipeline to assemble genomes for unknown taxonomic units. Vendor L’s approach includes a method to determine contiguous regions of unmapped reads and to score and assess them for potential assembly into novel genomes of unknown species. However, such metagenome assembled genomes were not described by this vendor for this work. In addition, Vendor L failed to provide the results of their functional characterization.</p>
+              </sec>
+              <sec id="S3.SS2">
+                <title>Vendor J Results</title>
+                <p>Among the total reads, ∼86% (62,448,263 reads) passed through the QC process (Fastp) of Vendor J (<xref rid="T1" ref-type="table">Table 1</xref>, <xref rid="F1" ref-type="fig">Figure 1A</xref>, and <xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1A</xref>). After QC most of the reads were taxonomically classified as bacteria (85%), followed by eukaryotes (14%), then viruses (&lt;1%), with few archaeal signatures detected (&lt;0.1%). Vendor J detected 110 microbial taxa with high confidence (&gt;1% relative abundance in at least one library) in the shotgun metagenome (<xref rid="F1" ref-type="fig">Figure 1B</xref>). Dominating bacterial genera included <italic toggle="yes">Bacillus</italic>, <italic toggle="yes">Acinetobacter</italic>, <italic toggle="yes">Bacteroides</italic>, <italic toggle="yes">Mycobacterium</italic>, <italic toggle="yes">Parabacteroides</italic>, <italic toggle="yes">Sphingomonas</italic>, <italic toggle="yes">Paracoccus</italic>, <italic toggle="yes">Lachnoclostridium</italic>, <italic toggle="yes">Clostridium</italic>, and <italic toggle="yes">Hungatella</italic>. Vendor J paid special attention to detect Firmicutes and Actinobacteria, microorganisms that forms spores or are hardy; also, they are resistant to the extreme conditions (arid, radiation, etc.). <italic toggle="yes">Bacillus</italic>, <italic toggle="yes">Lachnoclostridium</italic>, and <italic toggle="yes">Clostridium</italic> were dominant Firmicutes, while <italic toggle="yes">Mycobacterium</italic>, <italic toggle="yes">Corynebacterium</italic>, and <italic toggle="yes">Microbacterium</italic> dominated <italic toggle="yes">Actinobacteria</italic>. Dominant bacteria detected are part of the human microbiome, which could be the reason for their abundance in the SAF environment.</p>
+                <p>Vendor J was able to taxonomically resolve to members of eukaryotes with &gt;1% abundance in these samples, even though these cleanrooms were documented to be low in fungal diversity (<xref rid="B27" ref-type="bibr">La Duc et al., 2012</xref>). Among the total metagenomic reads of eukaryotes (14%), only half of them were associated with identifiable taxa having &gt;1% relative abundance. Most of these eukaryotic sequences were Fungi, dominated by <italic toggle="yes">Aureobasidium pullulans</italic> and <italic toggle="yes">Coniosporium apollinis</italic>. Both the dominant fungi have been associated with low nutrient biomes (<xref rid="B27" ref-type="bibr">La Duc et al., 2012</xref>). Strains of <italic toggle="yes">A. pullulans</italic> have been isolated from SAF (<xref rid="B26" ref-type="bibr">La Duc et al., 2003</xref>), and <italic toggle="yes">C. apollinis</italic> is a rock inhibiting lithotroph (<xref rid="B53" ref-type="bibr">Sterflinger et al., 1997</xref>) that may be living in the cleanroom floor of the SAF. Similarly, less than 0.02% of archaeal and virus signatures were observed among the predominant metagenomic reads (&gt;1%). Such low abundance of archaea and viruses in cleanrooms are well-known (<xref rid="B37" ref-type="bibr">Moissl et al., 2008</xref>).</p>
+                <p>Vendor J also inspected the genomic and metabolic capability of the microbial community members. To examine the presence of dormancy and sporulation genes, sequence reads from all samples were mapped to individual microbial genes, and then assigned to KEGG, SEED, and eggNOG categories. Genes associated with stationary phase, dormancy, and persistence were detected by Vendor J, including the HipAB system implicated in growth arrest, persistence, and drug tolerance, the Mycobacterial signal transduction system (MprAB) required for persistent infections, and a ribosomal hibernation related cluster. Additionally, multiple genes associated with sporulation were detected, including coat proteins (CotJABC), synthesis of dipicolinate and the exosporium, forespore to mother cell channel proteins, spore germination and germinant receptors, and other sporulation cluster genes like SigEG, SpoIIIAA-SpoIIIAH, SpoVA, and SpoVS (<xref rid="TS1" ref-type="supplementary-material">Supplementary Table 1</xref>). A low-biomass environment tends to have a majority of spore-forming populations (<xref rid="B25" ref-type="bibr">La Duc et al., 2007</xref>), and this environment is exhibiting presence of functional genes associated with spore-forming members. A descriptive result of eggNOG categories is presented in <xref rid="TS1" ref-type="supplementary-material">Supplementary Table 1D</xref>, mainly addressing the primary cellular function. KEGG analysis showed a much better input of the functional makeup of the microbial community. The presence of factors for “metabolism of terpenoids and polyketides,” “biosynthesis of other secondary metabolites,” “xenobiotics biodegradation and metabolism,” and “environmental adaptation,” represents a highly stressed and competitive environment. A closer look into the environmental adaption reveals the presence of the “bacterial secretion system” which is a strategy utilized by the pathogenic organism to infect the host. Our previous studies have shown that spacecraft associated environment is very similar to the nosocomial setup as both are maintained to near sterile levels using industrial cleaners (data not shown).</p>
+              </sec>
+              <sec id="S3.SS3">
+                <title>Vendor C Results</title>
+                <p>Before any processing, the 20 samples contained a total of 72,183,076 reads. Of these, just over 10 million reads contained large Illumina adapter sequences. Vendor C removed adapters and low-quality bases using AdapterRemoval, thus reducing the total read count to 61,666,094 reads. Vendor C then removed human reads by aligning to the human reference genome using Bowtie2 (hg38, sensitive), and after removing reads where only one end aligned to the reference, Vendor C was left with 56,086,819 reads, 78% of the total (<xref rid="T1" ref-type="table">Table 1</xref>). Vendor C noted that this is a surprisingly small amount of human DNA for an environmental sample (<xref rid="B33" ref-type="bibr">Mason et al., 2016</xref>). Vendor C noted that FC9 and FC2 had noticeably lower complexity than other samples and correctly assumed they were negative controls. A third sample (MC2), was considered ambiguous by Vendor C due to its intermediate complexity. This MC2 sample was a Maxwell reagent control and Vendor C curation deemed correct in deciding which samples were control samples during this blind study.</p>
+                <p>Vendor C identified 82 relatively abundant taxa (&gt;1%; <xref rid="F1" ref-type="fig">Figure 1</xref>) in SAF floor samples, some of which are relevant for PP efforts. By abundance, these species principally came from 7 genera: <italic toggle="yes">Bacillus</italic>, <italic toggle="yes">Acinetobacter</italic>, <italic toggle="yes">Paracoccus</italic>, <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Sphingomonas</italic>, <italic toggle="yes">Methylobacterium</italic>, and <italic toggle="yes">Brevundimonas</italic>. Samples could be broadly clustered into three groups based on their taxonomic profile: the putative negative controls (two samples), <italic toggle="yes">Acinetobacter</italic>-dominated samples (eleven samples), and <italic toggle="yes">Bacillus</italic>-dominated samples (six samples). One sample, S14, was ambiguous. <italic toggle="yes">Acinetobacter</italic>-dominated samples tended to have higher taxonomic diversity than <italic toggle="yes">Bacillus</italic>-dominated samples. Dozens of these organisms are known to persist and survive in deserts, oceans, the arctic, or other harsh terrestrial environments, and are thus likely to be relevant for inter-planetary missions and planning. Vendor C identified a range of predicted phenotypes of PP interest, including: spore-forming, resistance to radiation, resistance to desiccation, halophilic, resistance to extreme pH, able to survive in cold temperatures (including cold waters), resistance to cleaning products, resistance to heavy metals, and an ability to metabolize unusual carbon sources.</p>
+                <p>Vendor C also used MetaSPAdes (<xref rid="B41" ref-type="bibr">Nurk et al., 2017</xref>) to generate assembled contigs from a variety of taxa. Long (&gt;500 kbp) assembled contigs appear to be closely related to <italic toggle="yes">Acinetobacter lwoffii</italic> and <italic toggle="yes">Bacillus cereus</italic>, but do not precisely match any genome in the public databases. The long assembled contigs were covered by an average depth of 100X, indicating sufficient depth for accurate assembly. Contigs longer than 10 kbp were also assembled from a variety of other taxa. They noticed a large amount of <italic toggle="yes">Pinus</italic> sequences, but also assembled sequences from 20 plausible microbial taxa, including <italic toggle="yes">Acinetobacter</italic> and <italic toggle="yes">Bacillus</italic>. No sequence could be assembled from the two putative negative controls. GRiD was able to estimate the replication rate of the <italic toggle="yes">Acinetobacter</italic> assembly for all samples except controls (FC2, FC9, and MC2), and it was also able to estimate <italic toggle="yes">Bacillus</italic> replication rate for all samples with <italic toggle="yes">Bacillus</italic> (<xref rid="FS2" ref-type="supplementary-material">Supplementary Figure 2A</xref>). For both taxa, GRiD showed a high rate of replication (a GRiD score of 2 is a typical threshold for fast replication) in most samples. In samples where scores for both taxa could be obtained the GRiD scores for both taxa were similar, often with overlapping of the 95% confidence interval and similar mean estimates. Excluding two outliers, (S99 and S16) the mean estimate for each sample falls in a tight range. Techniques to estimate bacterial replication from metagenomic data are novel and have never been applied to low-complexity or clean-room data yet, and as such, thus these results should be viewed as preliminary.</p>
+                <p>The abundance of different functional pathways in samples was identified using HUMAnN2 (<xref rid="B14" ref-type="bibr">Franzosa et al., 2018</xref>) with UniRef90 (<xref rid="B54" ref-type="bibr">Suzek et al., 2014</xref>). Dimensionality reduction of the functional pathways showed a group of SAF samples clustering with MetaSUB air samples and a group of samples clustering with surface samples (<xref rid="FS2" ref-type="supplementary-material">Supplementary Figure 2B</xref>). However, these clusters did not correspond at the taxonomic level. Vendor C identified 48 biochemical and biological pathways that were differentially abundant in SAF samples (20 samples) compared to both MetaSUB-surface (2,126 samples) and MetaSUB-air samples (317 samples) (<italic toggle="yes">p</italic> &lt; 0.01, Mann-Whitney-<italic toggle="yes">U</italic> test). These pathways were universally more abundant in SAF samples than MetaSUB samples, and may represent specific adaptation to the cleanroom environment. Enriched pathways were principally for nucleotide and protein biosynthesis, including <italic toggle="yes">de novo</italic> biosynthesis of adenosine, guanosine, L-valine, L-isoleucine, L-lysine, L-proline, L-arginine, and L-methionine. Additionally, pathways associated with metabolism which may be linked to new metabolic sources were also enriched, including glycolysis, pentose-phosphate-pathway, the glyoxylate bypass, acetylene degradation, and fermentation to isobutanol. In particular, nucleotide biosynthesis has been linked to bacterial resistance to radiation and desiccation (<xref rid="B12" ref-type="bibr">Cox and Battista, 2005</xref>).</p>
+              </sec>
+              <sec id="S3.SS4">
+                <title>Vendor N Results</title>
+                <p>Primary quality control evaluation revealed that four of 20 samples (20%) were primarily composed of adapter dimer. One of these samples (S14) yielded no classifiable reads while the other three negative control samples (FC2, FC9, and MC2) showed considerably low number of taxa. Hence, Vendor N correctly concluded that FC2, FC9, and MC2 were negative controls, since the identity of the samples were not revealed to any vendors.</p>
+                <p>Taxonomy of the samples was determined using three methods: MTSv; MetaPhlAn2, and Bracken. MTSv uses an alignment method, which maps 50-mers from each sample to a local copy of the NCBI GenBank database. Metagenomic Phylogenetic Analysis (MetaPhlAn2) maps shotgun sequence reads to a database of clade-specific marker sequences and additionally determines relative abundance. The MetaPhlAn2 database contains one million genes that represent 17,000 reference genomes (bacterial, archaeal, viral, and eukaryotic). The third method, called Bayesian Reestimation of Abundance with Kraken (Bracken) performs k-mer mapping to a reduced version of the RefSeq database. All three of these methods provided generally similar results with limited but identifiable differences.</p>
+                <p>The MTSv method identified 189 taxa (155 bacteria, 4 fungi, 18 eukaryotes, and 2 viruses). Of these, 55 were called with very high confidence (40 bacteria, 14 eukaryotes, and 1 virus). MetaPhlAn2 called 121 bacteria, 1 eukaryote, and one virus. However, only 38 microbial taxa were found to be abundant (&gt;1%; <xref rid="F1" ref-type="fig">Figure 1</xref>) in SAF floor samples. Most of the bacterial genera and many of the species overlapped, but MTSv called species not identified by MetaPhlAn2 and the latter did not identify plant, <italic toggle="yes">Homo sapiens</italic> and other eukaryotes because they are not in the MetaPhlAn2 database. The Bracken results were more similar to those obtained using MetaPhlAn2, although additional species under the genera <italic toggle="yes">Acinetobacter</italic>, <italic toggle="yes">Bacillus</italic>, <italic toggle="yes">Paracoccus</italic>, <italic toggle="yes">Pseudomonas</italic>, and <italic toggle="yes">Sphingomonas</italic> were reported. A critical difference between read handling for MTSv and MetaPhlAn2 and Bracken is that MTSv reads were not trimmed prior to analysis, likely increasing overall sensitivity and decreasing specificity.</p>
+                <p>The relative abundance profiles provided by MetaPhlAn2 and Bracken revealed that in most cases, samples were composed of only a few dominant species and that those species were most frequently <italic toggle="yes">Acinetobacter lwoffii</italic>, a common skin inhabitant, or <italic toggle="yes">Bacillus thuringiensis</italic>, a common soil organism. Indeed, most of high abundance organisms identified by these methods were members of the human microbiome. In addition to these high abundance organisms, some low abundance organisms of interest were identified, such as the potentially radiotolerant <italic toggle="yes">Methylobacterium radiotolerans</italic> and <italic toggle="yes">Deinococcus</italic> sp., the UV resistant <italic toggle="yes">Hymenobacter</italic> sp. and the halotolerant <italic toggle="yes">Kocuria rhizophila</italic>. Several sphingomonads that have the potential to degrade hydrocarbons were also identified.</p>
+                <p>The bacteria identified were annotated using the KEGG and the HUMAnN2 tool. Vendor N examined the annotation tables for features associated with sporulation, peroxide resistance, halotolerance, cold shock, phosphate starvation and antibiotic and heavy metal resistance and discovered genes associated with all these functions (<xref rid="TS2" ref-type="supplementary-material">Supplementary Table 2</xref>). This includes 73 predicted sporulation proteins, including sigma factors, two component regulators, germination proteins, assembly proteins, stage-specific proteins, proteases, and coat proteins. A variety of heat shock proteins, including ECF sigma factors and chaperones, and cold shock proteins were annotated in numerous organisms. Catalase, heme and non-heme peroxidases, glutathione peroxidase and peroxiredoxin, which are all involved in resistance to peroxide were also found. Halotolerance factors, including glycine/betaine transporters or inositol monophosphatase, and genes associated with resistance to cadmium, camphor, chromate, cobalt, copper, fluoride, mercury, and tellurite were predicted. Additionally, genes associated with resistance to at least thirteen antibiotics, including vancomycin were found.</p>
+              </sec>
+              <sec id="S3.SS5">
+                <title>Comparative Analyses of All Vendors</title>
+                <p>Analyses of taxonomic tables (<xref rid="TS3" ref-type="supplementary-material">Supplementary Table 3</xref>) produced by all four vendors (J, C, N, and L) reveals differences in classification methodologies used. Different QC metrics used by the four vendors resulted in different numbers of sequences analyzed in subsequent stages (<xref rid="F1" ref-type="fig">Figure 1A</xref> and <xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1A</xref>). Analyses of species-level taxon tables using stacked bar plots of relative species abundance (<xref rid="F1" ref-type="fig">Figure 1B</xref> and <xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1B</xref>) reveal the differences in taxonomic classification among vendors. The number of taxa identified in each sample by the four vendors are depicted in <xref rid="F2" ref-type="fig">Figure 2A</xref>. Although there is overlap in species identified (<xref rid="F2" ref-type="fig">Figure 2B</xref>), no two vendors report the same relative abundance (<xref rid="F1" ref-type="fig">Figure 1</xref>), likely owing to different databases used during analysis. When using the same taxonomic classifier (MetaPhlAn2) with its own built-in database, there is a large similarity in relative abundance of species between vendor C and N that is easily visible in a stacked bar plot (<xref rid="FS3" ref-type="supplementary-material">Supplementary Figure 3</xref>), showing that earlier QC steps likely played a minor role in these different taxonomic classifications.</p>
+                <p>In low-biomass SAF floor samples (S014 and S099) that resulted in &lt;1 × 10<sup>6</sup> reads (sample group [L]ow), only vendors L, J, and C provided taxonomic classification. Vendor L describes these low-biomass samples as containing mainly human skin commensals, including <italic toggle="yes">A. lwoffii</italic> (16–50%), <italic toggle="yes">A. johnsonii</italic> (11–20%), <italic toggle="yes">B. flexus</italic> (1–23%), <italic toggle="yes">P. acnes</italic> (5–19%), <italic toggle="yes">Phaeobacter gallaeciensis</italic> (0–7%), <italic toggle="yes">S. aureus</italic> (0–4%), and <italic toggle="yes">S. epidermidis</italic> (1–14%). Vendor J describes these samples as containing <italic toggle="yes">A. lwoffii</italic> (&lt;1–8%), <italic toggle="yes">A. johnsonii</italic> (&lt;1-1%), <italic toggle="yes">Cnuella takakiae</italic> (0–9%), <italic toggle="yes">S. aureus</italic> (&lt;1–18%), <italic toggle="yes">Mycobacterium xenopi</italic> (2–53%), <italic toggle="yes">Sphingomonas paucimobilis</italic> (0–15%), <italic toggle="yes">Skermanella aerolata</italic> (0–2%), and <italic toggle="yes">A. baumannii</italic> (1–3%). Vendor C describes these two low-biomass samples as containing <italic toggle="yes">A. johnsonii</italic> (1–25%), <italic toggle="yes">A. schindleri</italic> (&lt;1–24%), <italic toggle="yes">Acinetobacter</italic> sp. NCu2D-2 (0–16%), <italic toggle="yes">Acinetobacter</italic> sp. TTH0-4 (0–7%), <italic toggle="yes">Bullavirinae</italic> (3–33%), <italic toggle="yes">Enterobacteria</italic> phage phiX174 <italic toggle="yes">sensu lato</italic> (3–33%), <italic toggle="yes">Mycobacterium avium</italic> (0–10%), and <italic toggle="yes">Sphingomonas</italic> sp. LK-11 (0–10%).</p>
+                <p>Taxonomic classifications for high-biomass samples collected from the SAF floor that resulted in &gt;1 × 10<sup>6</sup> reads (sample group H) were successfully provided by all four vendors without fail. Vendor L described these samples as being dominated by a diverse assemblage: <italic toggle="yes">A. lwoffii</italic> (1–55%), <italic toggle="yes">A. johnsonii</italic> (2–22%), <italic toggle="yes">B. flexus</italic> (0–24%), <italic toggle="yes">Bacteroides fragilis</italic> (0–5%), <italic toggle="yes">B. plebeius</italic> (0–10%), <italic toggle="yes">Faecalibacterium prausnitzii</italic> (0–8%), <italic toggle="yes">Paracoccus aminovorans</italic> (0–10%), <italic toggle="yes">P. marcusii</italic> (0–11%), <italic toggle="yes">P. acnes</italic> (&lt;1–22%), <italic toggle="yes">Rothia mucilaginosa</italic> (0–4%), <italic toggle="yes">Ruminococcus gnavus</italic> (0–79%), <italic toggle="yes">Sphingomonas yabuuchiae</italic> (0–14%), <italic toggle="yes">Staphylococcus aureus</italic> (0–33%), <italic toggle="yes">S. epidermidis</italic> (0–19%), <italic toggle="yes">S. haemolyticus</italic> (0–11%), <italic toggle="yes">Streptococcus infantis</italic> (0–8%), and <italic toggle="yes">Veillonella dispar</italic> (0–7%). Vendor J also described these samples as being comprised of a diverse assemblage: an unidentified <italic toggle="yes">Acidobacteria</italic> sp. (0–6%), <italic toggle="yes">A. baumannii</italic> (&lt;1–15%), <italic toggle="yes">A. lwoffii</italic> (&lt;1–16%), <italic toggle="yes">B. cereus</italic> (&lt;1–56%), <italic toggle="yes">B. thuringiensis</italic> (&lt;1–34%), <italic toggle="yes">Bacteroides plebeius</italic> (0–5%), an unidentified <italic toggle="yes">Brevundimonas</italic> sp. (&lt;1–13%), <italic toggle="yes">Cellulomonas cellasea</italic> (0–5%), <italic toggle="yes">Comamonas terrigena</italic> (0–6%), <italic toggle="yes">Mycobacterium tuberculosis</italic> (0–5%), <italic toggle="yes">M. xenopi</italic> (6–69%), <italic toggle="yes">Paracoccus salipaludis</italic> (&lt;1–12%), <italic toggle="yes">P. sediminis</italic> (&lt;1–45%), <italic toggle="yes">Prevotella</italic> sp. CAG:891 (0–24%), <italic toggle="yes">Roseomonas nepalensis</italic> (&lt;1–10%), <italic toggle="yes">Rubellimicrobium</italic> sp. YIM 131921 (&lt;1–10%), <italic toggle="yes">Skermanella aerolata</italic> (&lt;1–15%), <italic toggle="yes">S. aureus</italic> (&lt;1–27%), and <italic toggle="yes">Xanthomonas campestris</italic> (0–13%). Vendor C similarly described a diverse assemblage in the SAF floor samples, containing <italic toggle="yes">A. baumannii</italic> (&lt;1–7%), <italic toggle="yes">A. calcoaceticus</italic> (&lt;1–12%), <italic toggle="yes">A. johnsonii</italic> (&lt;1–16%), <italic toggle="yes">A. schindleri</italic> (&lt;1–15%), <italic toggle="yes">Acinetobacter</italic> sp. NCu2D-2 (&lt;1–6%), <italic toggle="yes">B. cereus</italic> (0–64%), <italic toggle="yes">B. mycoides</italic> (0–22%), <italic toggle="yes">B. thuringiensis</italic> (0–23%), <italic toggle="yes">Bullavirinae</italic> (&lt;1–14%), an unidentified <italic toggle="yes">Dikarya</italic> sp. (0–10%), <italic toggle="yes">Enterobacteria</italic> phage phiX174 <italic toggle="yes">sensu lato</italic> (&lt;1–14%), <italic toggle="yes">Leishmania major</italic> (0–18%), <italic toggle="yes">Mycobacterium avium</italic> (&lt;1–10%), <italic toggle="yes">Negativicoccus massiliensis</italic> (0–5%), <italic toggle="yes">Pseudomonas stutzeri</italic> (&lt;1–21%), <italic toggle="yes">Rothia mucilaginosa</italic> (0–9%), <italic toggle="yes">Streptococcus parasanguinis</italic> (0–7%), and <italic toggle="yes">Xanthomonas campestris</italic> (0–10%). Vendor N described these samples as being composed of mainly <italic toggle="yes">A. lwoffii</italic> (3–91%), <italic toggle="yes">B. thuringiensis</italic> (&lt;1–92%), <italic toggle="yes">Bacteroides coprocola</italic> (0–10%), <italic toggle="yes">Mycobacterium xenopi</italic> (2–39%), <italic toggle="yes">Rickettsia felis</italic> (0–9%), <italic toggle="yes">Ruminococcus gnavus</italic> (0–9%), <italic toggle="yes">S. aureus</italic> (0–13%), <italic toggle="yes">Staphylococcus</italic> phage PVL (0–32%), and an unidentified <italic toggle="yes">Veillonella</italic> sp. (0–12%).</p>
+                <p>High-biomass samples collected from the SAF floor that resulted in &gt;1 × 10<sup>6</sup> reads and contained a high abundance of Firmicutes or Actinobacteria (sample group H-F) were analyzed by all vendors. Vendor L described these samples as containing <italic toggle="yes">A. johnsonii</italic> (2–11%), <italic toggle="yes">A. lwoffii</italic> (2–19%), <italic toggle="yes">B. flexus</italic> (1–24%), <italic toggle="yes">Faecalibacterium prausnitzii</italic> (0–8%), <italic toggle="yes">P. acnes</italic> (&lt;1–22%), <italic toggle="yes">S. aureus</italic> (4–33%), and <italic toggle="yes">S. epidermidis</italic> (1–19%). Vendor J described these samples as containing <italic toggle="yes">B. cereus</italic> (&lt;1–56%), <italic toggle="yes">B. thuringiensis</italic> (&lt;1–9%), <italic toggle="yes">Mycobacterium xenopi</italic> (6–69%), <italic toggle="yes">Paracoccus sediminis</italic> (&lt;1–6%), and <italic toggle="yes">Skermanella aerolata</italic> (&lt;1–15%) in abundance. Vendor C described these three samples as containing <italic toggle="yes">B. cereus</italic> (0–64%), <italic toggle="yes">B. mycoides</italic> (0–22%), <italic toggle="yes">B. thuringiensis</italic> (0–12%), <italic toggle="yes">Bullavirinae</italic> (&lt;1–14%), an unidentified <italic toggle="yes">Dikarya</italic> sp. (0–10%), <italic toggle="yes">Enterobacteria</italic> phage phiX174 <italic toggle="yes">sensu lato</italic> (&lt;1–14%), and <italic toggle="yes">Mycobacterium avium</italic> (&lt;1–6%). Vendor N described these three samples as being dominated by <italic toggle="yes">A. lwoffii</italic> (3–59%), <italic toggle="yes">B. thuringiensis</italic> (0–92%), and <italic toggle="yes">Mycobacterium xenopi</italic> (2–39%).</p>
+                <p>A Venn diagram representing overlap in species detected in SAF floor samples by the four vendors (<xref rid="F2" ref-type="fig">Figure 2B</xref>) demonstrates the similarity and differences between the methods used. All four vendors detected three microbial species in common from floor samples, including <italic toggle="yes">A. johnsonii</italic>, <italic toggle="yes">P. stutzeri</italic>, and <italic toggle="yes">S. aureus</italic>. Species detected by only three vendors include <italic toggle="yes">A. lwoffii</italic>, <italic toggle="yes">B. thuringiensis</italic>, <italic toggle="yes">Bacteroides plebeius</italic>, <italic toggle="yes">E. coli</italic>, <italic toggle="yes">Haemophilus parainfluenzae</italic>, <italic toggle="yes">Rickettsia felis</italic>, <italic toggle="yes">Rothia mucilaginosa</italic>, and <italic toggle="yes">Ruminococcus gnavus</italic>. All vendors classified species from floor samples not classified by other vendors, with Vendor L uniquely classifying 64 of 82 species (78%), Vendor J uniquely classifying 82 of 110 species (75%), Vendor C uniquely classifying 59 of 83 species (71%), and Vendor N uniquely classifying 18 of 38 species (47%).</p>
+                <p>By plotting SAF floor and control samples with respect to the species classified by each vendor using non-metric multidimensional scaling (NMDS; <xref rid="F3" ref-type="fig">Figure 3</xref>), the differences between methods used becomes very apparent. For the most part, point clusters representing SAF floor samples taxonomically classified by each vendor do not share the same ordination space with other vendors, with disjoint 99% confidence intervals for the sample mean (lightly colored ellipses). Control samples analyzed by all vendors (square glyphs) cluster separately (empty ellipse) from the SAF floor samples. Analysis of similarities of species classification among vendors shows that there is more similarity between samples analyzed by the same vendor than there is a similarity between vendors that is statistically significant (ANOSIM; <italic toggle="yes">R</italic> = 0.6056, <italic toggle="yes">P</italic> = 0.001).</p>
+                <fig position="float" id="F3">
+                  <label>FIGURE 3</label>
+                  <caption>
+                    <p>Non-metric multidimensional scaling (NMDS) plot representing differences in species detected in SAF floor samples (circle glyphs) and control samples (square glyphs). Lighter colored ellipses represent the 99% confidence interval for the mean of the SAF floor samples for each vendor. The empty ellipse represents the 99% confidence interval for the mean of the control samples for all vendors.</p>
+                  </caption>
+                  <graphic xlink:href="fmicb-12-685254-g003" position="float"/>
+                </fig>
+                <p>All four vendors detected <italic toggle="yes">S. aureus</italic>, a skin-associated bacterium, as a dominant species in control samples (<xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1B</xref>). <italic toggle="yes">S. aureus</italic> makes up 34–97% of handling control sample FC2 (4.2 × 10<sup>4</sup> reads), and 14–66% of Maxwell reagent control MC2 (1.56 × 10<sup>5</sup> reads). <italic toggle="yes">B. thuringiensis, B. cereus</italic>, and <italic toggle="yes">B. flexus</italic> which are closely related, spore-forming, soil-associated bacteria, also made up a large proportion (9–66%) of Maxwell reagent control sample MC2. However, Vendor L only identified <italic toggle="yes">B. flexus</italic> in this sample and Vendor N only identified <italic toggle="yes">B. thuringiensis</italic>, while Vendor J and Vendor C identified closely related <italic toggle="yes">B. cereus</italic> and <italic toggle="yes">B. thuringiensis</italic>.</p>
+                <p>Analysis of overlap in the dominant species (&gt;1%) detected in control samples (kitome) by each vendor (<xref rid="FS1" ref-type="supplementary-material">Supplementary Figure 1C</xref>) reveals limited similarity. However, the number of taxonomically classified reads (&gt;1%) in these libraries were extremely low, ranging from 9 to 57,179 reads. All four vendors detected one species in common, <italic toggle="yes">S. aureus</italic>. Vendor C, Vendor N, and Vendor J additionally detected <italic toggle="yes">B. thuringiensis</italic>. All vendors but Vendor N uniquely identified species in the control samples: Vendor L uniquely identified 13 of 17 species, Vendor J uniquely identified 41 of 50 species, and Vendor C uniquely identified 12 of 19 species.</p>
+              </sec>
+              <sec id="S3.SS6">
+                <title>Comparative Analyses of All Vendors on Planetary Protection Relevant Microbial Species</title>
+                <p>The Space Studies Board suggested classifying microbial species based on the level of concern that the species could survive unintentional transport via spacecraft and colonize a planetary body such as Mars or Jupiter’s icy moon Europa (<xref rid="B39" ref-type="bibr">National Research Council, 2000</xref>). To this end, they created four categories: Type A, microorganisms cultivable on the NSA without heat shock; Type B, spore-forming microorganisms (NSA heat-shock); Type C, radiation-resistant (10% survival at 0.8 Mrad), spore-forming microorganisms; and Type D, radiation-resistant (10% survival at 4.0 Mrad), non-spore-forming microorganisms. Although microorganisms classified as Type C and Type D are the most likely to survive space flight, we consider microorganisms classified as Type B, Type C, and Type D, or extremophiles suited to mission-specific environments as potentially PP relevant microbial species for this analysis.</p>
+                <p>All four vendors detected bacteria that may be relevant for planetary protection purposes (see red nodes in <xref rid="F4" ref-type="fig">Figure 4</xref>). Radiation resistant bacteria associated with <italic toggle="yes">Acinetobacter</italic> (<italic toggle="yes">A. baumannii</italic>, <italic toggle="yes">A. johnsonii</italic>, <italic toggle="yes">A. lwoffii</italic>, and <italic toggle="yes">A. schindleri</italic>), <italic toggle="yes">Brevundimonas diminuta</italic>, and an unidentified <italic toggle="yes">Brevundimonas</italic> sp. were detected by multiple vendors in SAF samples. Additionally, Vendor C detected other <italic toggle="yes">Acinetobacter</italic> species in SAF floor samples, including <italic toggle="yes">A. calcoaceticus</italic> and other <italic toggle="yes">Acinetobacter</italic> species (strains LoGeW2-3, NCu2D-2, and TTH0-4). An unidentified <italic toggle="yes">Acidobacteria</italic> sp., which could be an extremophile (<xref rid="B24" ref-type="bibr">Kielak et al., 2016</xref>), was detected by Vendor J in SAF floor samples. Notably, all four vendors detected members of <italic toggle="yes">Bacillus</italic>, a genus of microorganisms of PP concern with spore-forming capabilities. <italic toggle="yes">B. cereus</italic> was detected by Vendor J and Vendor C; <italic toggle="yes">B. flexus</italic> was detected by Vendor L; <italic toggle="yes">B. mycoides</italic> was detected by Vendor J and Vendor C; and <italic toggle="yes">B. thuringiensis</italic> was detected by Vendors C, N, and J.</p>
+                <fig position="float" id="F4">
+                  <label>FIGURE 4</label>
+                  <caption>
+                    <p>Network diagram showing the relationship between vendors (blue nodes) and detected species (red and gray nodes). Species of potential Planetary Protection concern have red colored nodes while others have gray colored nodes.</p>
+                  </caption>
+                  <graphic xlink:href="fmicb-12-685254-g004" position="float"/>
+                </fig>
+                <p>Among the functional characteristics, genes associated with dormancy and sporulation pathways were detected by Vendors J and N. These include sigma factors, two component regulators, germination proteins, assembly proteins, stage-specific proteins, proteases, and coat proteins. Additionally, these two vendors detected gene pathways involved in resistance to antimicrobial agents, heavy metals, and resistance to stress (e.g., aerotolerance, heat shock, cold shock, and osmotic stress), potentially showing adaptation of these microorganisms to the clean-room environment.</p>
+                <p>In field control sample (FC2), spore-forming bacteria including <italic toggle="yes">B. cereus</italic>, <italic toggle="yes">B. flexus</italic>, and <italic toggle="yes">B. thuringiensis</italic> were also detected but in low numbers. In addition, the spore-forming <italic toggle="yes">Anoxybacillus kestanbolensis</italic> was also detected in the Maxwell reagent control sample (MC2) by Vendor L.</p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="S4">
+              <title>Discussion</title>
+              <p>NASA PP efforts are concerned with hitch-hiking microorganisms that may have the capability to withstand spaceflight conditions and contaminate a planetary body of scientific interest. Concerns regarding the inability of the NSA culture method to detect all microorganisms in a sample has led NASA to look toward state-of-the art molecular methods like shotgun metagenomics to detect a wider range of taxa on spacecraft and associated environments. All four vendors used in this study identified taxa of PP concern in the JPL SAF environment where spacecraft are built, including <italic toggle="yes">Acidobacteria</italic>, <italic toggle="yes">Acinetobacter, Anoxybacillus</italic>, <italic toggle="yes">Bacillus, Brevundimonas</italic>, and <italic toggle="yes">Caulobacteraceae</italic>, demonstrating that modern metagenomic approaches and computational biology can detect these organisms of concern, unlike NSA culture methods.</p>
+              <p>Although similar species were detected by the four vendors, one issue noted by these analyses is that the relative abundances varied drastically between vendors. Different QC measures likely played a minor role in this since Vendor C and N used different QC methods but arrived at similar results when using the same taxonomic classifier (MetaPhlAn2; <xref rid="FS3" ref-type="supplementary-material">Supplementary Figure 3</xref>). The largest contributors to this difference in relative abundance is likely due to the different programs and databases used. Although Vendor L, Vendor J, and Vendor C used similar sequence-based analyses, their results varied drastically due to different databases used. Vendor C and Vendor N both used MetaPhlAn2 with its built-in database to arrive at very similar results, but different from the results produced by Vendor J and Vendor L, and Vendor C when using KrakenUniq. MetaPhlAn2 reports relative abundances in terms of the number of cells (<xref rid="B49" ref-type="bibr">Segata et al., 2012</xref>) rather than fraction of reads as done by the other analyses, likely contributing to this observed difference.</p>
+              <p>By ignoring relative abundance calculations and simply examining the overlap in species detected (<xref rid="F2" ref-type="fig">Figure 2B</xref>), the difference between vendors becomes clearer. The overlap in species identified in SAF floor samples between the four vendors is small (three species). Vendor J and Vendor C shared the largest overlap in species identified (17 species). Vendor J identified more species than other vendors (110), likely due to the vast size of the database they used. All vendors uniquely identified species not identified by the other vendors. Failure to detect microorganisms present in a sample is concerning for PP purposes, especially if the missed microorganisms could survive on a spacecraft and go on to contaminate a planetary body of scientific interest. Utilization of large databases containing a wide breadth of available reference genome sequences may help to alleviate this issue.</p>
+              <p>Falsely detected species may also be of concern, especially if the detected species is of potential PP concern. Falsely detecting such a species would needlessly require extra rounds of cleaning, negatively affect the schedule of a spacecraft build, and potentially delay its launch. The large number of uniquely detected species by each vendor is especially concerning in this regard. Some of these uniquely identified species may have simply been miscategorized due to lack of a better alternative in the databases used or sequence fragments aligning to genomic regions with poor phylogenetic resolution. Adding a requirement for minimum coverage of a genome prior to classifying a species as present in a sample may help to limit such false positives. In addition, computational analysis at the genus level may also solve this problem since short reads of metagenome sequences may not have the taxonomic resolution to differentiate taxa at the species level.</p>
+              <p>Some of the same species seen in SAF floor samples can be seen in control samples, alluding to potential contamination of sampling equipment (e.g., the wipes) or reagents. Simply excising species with an abundant number of reads found in control samples from environmental samples is an option, but this may be problematic for PP purposes given that some of the species detected in the control samples are organisms of potential PP concern. The QC read counts were extremely low in these control samples, and the PP relevant microorganisms detected (<italic toggle="yes">Bacillus</italic> spp. and <italic toggle="yes">Anoxybacillus kestanbolensis</italic>) likely had a minor influence on the species detected in the floor samples. Compared to control samples, QC reads from floor samples were much more abundant (<xref rid="T1" ref-type="table">Table 1</xref>). Among control samples, <italic toggle="yes">S. aureus</italic> constituted 47–97% of a sample, whereas <italic toggle="yes">S. aureus</italic> constituted 1–11% in corresponding floor samples. Furthermore, viability assessment of the microbes would help to eliminate the kitomes from the calculations. In addition to pretreating with propidium monoazide (<xref rid="B58" ref-type="bibr">Vaishampayan et al., 2013</xref>), application of novel technique such as GRiD analysis would eliminate naked DNA sequences associated with kitomes. In this study, Vendor C was able to estimate the replication rate of some taxa from SAF samples but such analysis did not show replication of taxa in control samples (FC2, FC9, and MC2).</p>
+              <p>The variance in relative abundance seen between vendors may make metagenomic assays problematic for PP purposes without additional work on calibration of these metagenomic pipelines. The ability to estimate the number of problematic microorganisms on a spacecraft surface is currently hampered by these large variations between methods and databases used, but is paramount for determining the amount of bioburden on these surfaces. Synthetic metagenomes containing sequence fragments in known quantities have been developed (<xref rid="B35" ref-type="bibr">McIntyre et al., 2017</xref>), and can be utilized for this purpose. However, it would be beneficial to develop synthetic metagenomes from the genomes of microorganisms that PP efforts are concerned with, in addition to microorganisms previously detected in PP-relevant samples, to better test and calibrate these pipelines. Since SAF cleanrooms are known to be similar to other built environments with regular human movement (<xref rid="B29" ref-type="bibr">Lax et al., 2014</xref>), inclusion of microorganisms known to inhabit these environments in a synthetic metagenome would be important. Additionally, procedural changes that include spiking a known quantity of DNA into samples prior to sequencing should be considered to allow for more precise estimates of microbial abundance (<xref rid="B15" ref-type="bibr">Hardwick et al., 2018</xref>; <xref rid="B4" ref-type="bibr">Blackburn et al., 2019</xref>).</p>
+              <p>Only ∼15% of the QC sequences were utilized for identification of species by all vendors except Vendor L (&lt;1%), likely due to the non-availability of annotated genomes in public databases. Public databases are mainly comprised of cultivable microorganisms with annotations, whereas very few genomes of non-cultivable microorganisms are present. To enable the utilization of discarded shotgun metagenome reads, metagenome assembled genomes (MAG) of microorganisms present in NASA cleanroom samples should be generated, allowing for annotation of their genetic capabilities and detection of PP-relevant metabolisms. Since spacecraft associated surfaces are low in biomass (<xref rid="B36" ref-type="bibr">Minich et al., 2018</xref>), MAGs should additionally be generated from the samples collected from PP relevant extreme environments such as radionucleotide dumping sites, nuclear accidents, and hot and cold arid regions of the Earth. Additionally, MAGs should be generated from samples collected from built-environments that do not undergo strict cleaning regimes and are directly adjacent to the relevant cleanrooms, to ensure that the genetic repertoire of microorganisms that may hitch-hike between the two are captured. MAGs from such environments would help to identify and annotate these uncultivable microorganisms to decipher the metabolic and functional pathways and expand the understanding of species diversity of spacecraft and associated environments.</p>
+              <p>This study was performed using short metagenomic sequences (∼150-bp) generated using Illumina technology, which is known to function with low-biomass clean room samples. The vast number of sequences that can be produced by this technology usually offsets its main drawback, the short length of the sequences. Short sequences are often harder to identify with certainty because they align to highly conserved segments of a genome and provide no specific information, or because they represent novelty that is not yet represented in a public database. Longer sequences generated by technologies developed by Pacific Biosciences (PacBio) and Oxford Nanopore Technology (ONT) provide an opportunity to more accurately identify a larger portion of the sequences generated because the ambiguous segments are often linked to segments that can be identified. Technologies that generate longer sequences should be considered for future metagenomic studies of spacecraft hardware to aid in identification of PP relevant taxa. The issues associated with long read technologies like ONT MinION or PacBio are that these methodologies require higher concentration of DNA as well as longer fragment length. Such issues can be mitigated when larger surface areas are collected and gentle sample processing technologies developed to get longer fragment DNA length. These tasks are not trivial to perform in samples collected from an extremely oligotrophic, clean, low-biomass spacecraft and associated environments.</p>
+              <p>Each vendor in this study utilized different computational algorithms and pipelines to analyze the provided shotgun metagenome data, and here we attempt to highlight some of the benefits and downfalls of each approach. Vendor C and Vendor N used multiple methods for taxonomic identification (Vendor C used KrakenUniq and MetaPhlAn2; Vendor N used MTSv, MetaPhlAn2, and Kraken/Braken), which allowed them to have more confidence in species identified via multiple methods. However, Vendor N did not provide taxon tables for their MTSv or Kraken/Braken results, so comparative analyses with these pipelines were not possible. The taxon table provided by Vendor L identified &lt;1% of QC sequences, with an anomaly in sample S99 where 12,223 reads were taxonomically classified, but only 2,671 reads passed their QC stage (458% identified), bringing into question the overall quality of their results. Vendor J used a massive database (NCBI-NR) that allowed them to identify species not detected by other vendors, however, the degenerate nature of protein sequences (with to regard to DNA sequences) means that their pipeline would have a hard time differentiating between two closely related microorganisms. Vendors L, C, and N all used databases containing DNA sequences for identification potentially allowing for more specific results, but increased computation time to analyze DNA sequences limited the size of databases that could be used. The custom database used by Vendor L to analyze the shotgun metagenome sequences was too limited in genetic breadth to accurately describe the diversity present in the samples provided to them. Vendor C and Vendor J generated MAGs from the dataset provided, giving these vendors more confidence in the species identified. These MAGs additionally allowed Vendor C to estimate the rate of growth of these microorganisms by using the GRiD software package to map that ratio of DNA close to the origin of replication with that of the terminus region. Although no results were provided, Vendor L claims to be working on novel machine-learning/artificial-intelligence algorithms that could help increase accuracy of results.</p>
+            </sec>
+            <sec sec-type="conclusion" id="S5">
+              <title>Conclusion</title>
+              <p>Although metagenomics offers tantalizing access to the genetic and functional potential of a microbial community, more work needs to be carried out to standardize ever evolving analyses pipelines and databases used to understand big-data generated from a low-biomass environment. To standardize these metagenomics sequence analyses pipelines, synthetic metagenomes containing known quantities should be developed and utilized. Additionally, the use of sequencing technologies that produce longer sequences should be considered to aid in the identification of PP-relevant microorganisms. Even though all the vendors in this study utilized different computational algorithms and pipelines to analyze the provided shotgun metagenome data, Vendor J approaches allowed them to identify species not detected by other vendors. Invariably, all vendors utilized could only resolve about 15% of the shotgun sequences since public databases contain only annotated sequences pertaining to culturable microorganisms. Metagenomics has the potential to be a useful assay for detecting microorganisms of PP concern and explore functional characteristics of yet-to-be cultured microorganisms by constructing MAGs.</p>
+            </sec>
+            <sec sec-type="data-availability" id="S6">
+              <title>Data Availability Statement</title>
+              <p>Publicly available datasets were analyzed in this study. This data can be found here: BioProject <ext-link xlink:href="PRJNA668809" ext-link-type="DDBJ/EMBL/GenBank">PRJNA668809</ext-link>.</p>
+            </sec>
+            <sec id="S7">
+              <title>Author Contributions</title>
+              <p>KV and JB coordinated with all authors in designing the concept, executed the study, implemented the project, involved in data analyses, communicated with all vendors in producing the data, and involved in the logistical efforts of the work. JW and KV wrote the manuscript. JW generated figures and tables for the manuscript and performed all statistical analyses. NS implemented some of the bioinformatics analyses. AS generated a figure for the manuscript. LG and AS curated metadata and organized the sequence data. All authors contributed to the article and approved the submitted version.</p>
+            </sec>
+            <sec sec-type="COI-statement" id="conf1">
+              <title>Conflict of Interest</title>
+              <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+            </sec>
+            <sec sec-type="disclaimer" id="s10">
+              <title>Publisher’s Note</title>
+              <p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+            </sec>
+          </body>
+          <back>
+            <sec sec-type="funding-information" id="S15">
+              <title>Funding</title>
+              <p>This research was supported by the NASA Planetary Protection Office funds to JB which also funded a portion of the fellowship of JW. The funders had no role in study design, data collection and interpretation, the writing of the manuscript, or the decision to submit the work for publication.</p>
+            </sec>
+            <ack>
+              <p>The research described in this manuscript was performed at the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA. The authors would like to thank Kyle Landry (Liberty BioSecurity), Sara Highlander (T-Gen) and Paul Kiem (Northern Arizona University), and Chris Mason (Weill Cornell Medicine) for their support in treating data with various metagenomics pipelines. ©2021 California Institute of Technology. Government sponsorship acknowledged.</p>
+            </ack>
+            <fn-group>
+              <fn id="footnote1">
+                <label>1</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/FelixKrueger/TrimGalore" ext-link-type="uri">https://github.com/FelixKrueger/TrimGalore</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote2">
+                <label>2</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/dcdanko/gimmebio/blob/master/gimmebio/kmers/gimmebio/kmers/cli.py" ext-link-type="uri">https://github.com/dcdanko/gimmebio/blob/master/gimmebio/kmers/gimmebio/kmers/cli.py</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote3">
+                <label>3</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/dcdanko/gimmebio/blob/develop/gimmebio/assembly/gimmebio/assembly/cli.py" ext-link-type="uri">https://github.com/dcdanko/gimmebio/blob/develop/gimmebio/assembly/gimmebio/assembly/cli.py</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote4">
+                <label>4</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/tseemann/prokka" ext-link-type="uri">https://github.com/tseemann/prokka</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote5">
+                <label>5</label>
+                <p>
+                  <ext-link xlink:href="http://www.metasub.org" ext-link-type="uri">http://www.metasub.org</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote6">
+                <label>6</label>
+                <p>
+                  <ext-link xlink:href="http://hannonlab.cshl.edu/fastx_toolkit/" ext-link-type="uri">http://hannonlab.cshl.edu/fastx_toolkit/</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote7">
+                <label>7</label>
+                <p>
+                  <ext-link xlink:href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/" ext-link-type="uri">https://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote8">
+                <label>8</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/FofanovLab/MTSv" ext-link-type="uri">https://github.com/FofanovLab/MTSv</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote9">
+                <label>9</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/sandain/R/blob/main/anosim.R" ext-link-type="uri">https://github.com/sandain/R/blob/main/anosim.R</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote10">
+                <label>10</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/sandain/R/blob/main/mds.R" ext-link-type="uri">https://github.com/sandain/R/blob/main/mds.R</ext-link>
+                </p>
+              </fn>
+              <fn id="footnote11">
+                <label>11</label>
+                <p>
+                  <ext-link xlink:href="https://github.com/sandain/pigeon/blob/main/scripts/species-matrix2graphml.pl" ext-link-type="uri">https://github.com/sandain/pigeon/blob/main/scripts/species-matrix2graphml.pl</ext-link>
+                </p>
+              </fn>
+            </fn-group>
+            <sec sec-type="supplementary material" id="S10">
+              <title>Supplementary Material</title>
+              <p>The Supplementary Material for this article can be found online at: <ext-link xlink:href="https://www.frontiersin.org/articles/10.3389/fmicb.2021.685254/full#supplementary-material" ext-link-type="uri">https://www.frontiersin.org/articles/10.3389/fmicb.2021.685254/full#supplementary-material</ext-link></p>
+              <supplementary-material id="FS1" position="float" content-type="local-data">
+                <label>Supplementary Figure 1</label>
+                <caption>
+                  <p>Abundance of reads in control samples that passed quality control (QC) measures of each vendor (dark- and light-blue; gray represents reads discarded by the QC stage; dark-blue represent QC reads taxonomically classified) <bold>(A)</bold>, relative abundance of species detected by each vendor <bold>(B)</bold>, Venn diagram representing overlap in species detected in control samples <bold>(C)</bold>, and network diagram showing the relationship between vendors (blue nodes) and detected species (red and gray nodes; red nodes are species of potential Planetary Protection concern) in control samples <bold>(D)</bold>. The FC9 sample is not included due to the low number of reads (<italic toggle="yes">n</italic> = 44) as well as their taxonomic affiliation to the genus and species was not resolved.</p>
+                </caption>
+                <media xlink:href="Image_1.TIFF">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="FS2" position="float" content-type="local-data">
+                <label>Supplementary Figure 2</label>
+                <caption>
+                  <p>Estimated replication score for assembled <italic toggle="yes">Acinetobacter</italic> and <italic toggle="yes">Bacillus</italic> species in each sample <bold>(A)</bold>. Higher scores indicate faster replication, range indicates the 95% confidence interval. Some samples were not scored for one or both species because that species was not detected. Values are similar when reference genomes are substituted for assemblies. Red glyphs are <italic toggle="yes">Acinetobacter</italic> and blue are <italic toggle="yes">Bacillus</italic>. Comparison of cleanroom samples with the MetaSUB database <bold>(B)</bold>. Both panels (left and right) show cleanroom samples plotted with MetaSUB samples as the background. Plotting was performed using UMAP to reduce data to two dimensions. The input data were binary, indicating presence or absence of a feature. Left shows microbial species, right shows microbial metabolic pathways.</p>
+                </caption>
+                <media xlink:href="Image_2.TIFF">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="FS3" position="float" content-type="local-data">
+                <label>Supplementary Figure 3</label>
+                <caption>
+                  <p>Relative abundance of species detected by Vendor C and Vendor N when both vendors use the same taxonomic classification algorithm (MetaPhlAn2).</p>
+                </caption>
+                <media xlink:href="Image_3.TIFF">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="TS1" position="float" content-type="local-data">
+                <label>Supplementary Table 1</label>
+                <caption>
+                  <p>Dormancy and sporulation subsystems <bold>(A)</bold> and all subsystems <bold>(B)</bold> detected by vendor J using the SEED database.</p>
+                </caption>
+                <media xlink:href="Table_1.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="TS2" position="float" content-type="local-data">
+                <label>Supplementary Table 2</label>
+                <caption>
+                  <p>Genes and predicted proteins associated with sporulation, heat shock, peroxide resistance, halotolerance, cold shock, phosphate starvation, and antibiotic and heavy metal resistance detected by vendor N using HUMAnN2.</p>
+                </caption>
+                <media xlink:href="Table_2.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+              <supplementary-material id="TS3" position="float" content-type="local-data">
+                <label>Supplementary Table 3</label>
+                <caption>
+                  <p>Taxonomic classification of SAF floor samples <bold>(A)</bold> and control samples <bold>(B)</bold> performed by each vendor.</p>
+                </caption>
+                <media xlink:href="Table_3.xlsx">
+                  <caption>
+                    <p>Click here for additional data file.</p>
+                  </caption>
+                </media>
+              </supplementary-material>
+            </sec>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Avila-Herrera</surname><given-names>A.</given-names></name><name><surname>Thissen</surname><given-names>J.</given-names></name><name><surname>Urbaniak</surname><given-names>C.</given-names></name><name><surname>Be</surname><given-names>N. A.</given-names></name><name><surname>Smith</surname><given-names>D. J.</given-names></name><name><surname>Karouia</surname><given-names>F.</given-names></name><etal/></person-group> (<year>2020</year>). <article-title>Crewmember microbiome may influence microbial composition of ISS habitable surfaces.</article-title>
+<source><italic toggle="yes">PLoS One</italic></source>
+<volume>15</volume>:<issue>e0231838</issue>. <pub-id pub-id-type="doi">10.1371/journal.pone.0231838</pub-id>
+<?supplied-pmid 32348348?><pub-id pub-id-type="pmid">32348348</pub-id></mixed-citation>
+              </ref>
+              <ref id="B2">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Beaty</surname><given-names>D. W.</given-names></name><name><surname>Mcsween</surname><given-names>H. Y.</given-names></name><name><surname>Carrier</surname><given-names>B. L.</given-names></name><name><surname>Czaja</surname><given-names>A. D.</given-names></name><name><surname>Goreva</surname><given-names>Y. S.</given-names></name><name><surname>Hausrath</surname><given-names>E. M.</given-names></name><etal/></person-group> (<year>2018</year>). “<article-title>Analysis of the Scientific Value of the Mars2020 Spacecraft Genetic Inventory to Mars Sample Return</article-title>,” in <source><italic toggle="yes">49th Lunar and Planetary Science Conference</italic></source>, (<publisher-loc>Houston, TX</publisher-loc>).</mixed-citation>
+              </ref>
+              <ref id="B3">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Benardini</surname><given-names>J. N.</given-names></name><name><surname>La Duc</surname><given-names>M. T.</given-names></name><name><surname>Beaudet</surname><given-names>R. A.</given-names></name><name><surname>Koukol</surname><given-names>R.</given-names></name></person-group> (<year>2014</year>). <article-title>Implementing planetary protection measures on the mars science laboratory.</article-title>
+<source><italic toggle="yes">Astrobiology</italic></source>
+<volume>14</volume>
+<fpage>27</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1089/ast.2013.0989</pub-id>
+<?supplied-pmid 24432776?><pub-id pub-id-type="pmid">24432776</pub-id></mixed-citation>
+              </ref>
+              <ref id="B4">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Blackburn</surname><given-names>J.</given-names></name><name><surname>Wong</surname><given-names>T.</given-names></name><name><surname>Madala</surname><given-names>B. S.</given-names></name><name><surname>Barker</surname><given-names>C.</given-names></name><name><surname>Hardwick</surname><given-names>S. A.</given-names></name><name><surname>Reis</surname><given-names>A. L. M.</given-names></name><etal/></person-group> (<year>2019</year>). <article-title>Use of Synthetic DNA spike-in controls (sequins) for human genome sequencing.</article-title>
+<source><italic toggle="yes">Nat. Protoc.</italic></source>
+<volume>14</volume>
+<fpage>2119</fpage>–<lpage>2151</lpage>. <pub-id pub-id-type="doi">10.1038/s41596-019-0175-1</pub-id>
+<?supplied-pmid 31217595?><pub-id pub-id-type="pmid">31217595</pub-id></mixed-citation>
+              </ref>
+              <ref id="B5">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bolger</surname><given-names>A. M.</given-names></name><name><surname>Lohse</surname><given-names>M.</given-names></name><name><surname>Usadel</surname><given-names>B.</given-names></name></person-group> (<year>2014</year>). <article-title>Trimmomatic: a flexible trimmer for Illumina sequence data.</article-title>
+<source><italic toggle="yes">Bioinformatics</italic></source>
+<volume>30</volume>
+<fpage>2114</fpage>–<lpage>2120</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btu170</pub-id>
+<?supplied-pmid 24695404?><pub-id pub-id-type="pmid">24695404</pub-id></mixed-citation>
+              </ref>
+              <ref id="B6">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Breitwieser</surname><given-names>F. P.</given-names></name><name><surname>Baker</surname><given-names>D. N.</given-names></name><name><surname>Salzberg</surname><given-names>S. L.</given-names></name></person-group> (<year>2018</year>). <article-title>KrakenUniq: confident and fast metagenomics classification using unique K-mer Counts.</article-title>
+<source><italic toggle="yes">Genome Biol.</italic></source>
+<volume>19</volume>:<issue>198</issue>.</mixed-citation>
+              </ref>
+              <ref id="B7">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buchfink</surname><given-names>B.</given-names></name><name><surname>Xie</surname><given-names>C.</given-names></name><name><surname>Huson</surname><given-names>D. H.</given-names></name></person-group> (<year>2015</year>). <article-title>Fast and sensitive protein alignment using DIAMOND.</article-title>
+<source><italic toggle="yes">Nat. Methods</italic></source>
+<volume>12</volume>
+<fpage>59</fpage>–<lpage>60</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.3176</pub-id>
+<?supplied-pmid 25402007?><pub-id pub-id-type="pmid">25402007</pub-id></mixed-citation>
+              </ref>
+              <ref id="B8">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chung</surname><given-names>S.</given-names></name><name><surname>Kern</surname><given-names>R.</given-names></name><name><surname>Koukol</surname><given-names>R.</given-names></name><name><surname>Barengoltz</surname><given-names>J.</given-names></name><name><surname>Cash</surname><given-names>H.</given-names></name></person-group> (<year>2008</year>). <article-title>Vapor hydrogen peroxide as alternative to dry heat microbial reduction.</article-title>
+<source><italic toggle="yes">Adv. Space Res.</italic></source>
+<volume>42</volume>
+<fpage>1150</fpage>–<lpage>1160</lpage>. <pub-id pub-id-type="doi">10.1016/j.asr.2008.01.005</pub-id></mixed-citation>
+              </ref>
+              <ref id="B9">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cleary</surname><given-names>B.</given-names></name><name><surname>Brito</surname><given-names>I. L.</given-names></name><name><surname>Huang</surname><given-names>K.</given-names></name><name><surname>Gevers</surname><given-names>D.</given-names></name><name><surname>Shea</surname><given-names>T.</given-names></name><name><surname>Young</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Detection of low-abundance bacterial strains in metagenomic datasets by eigengenome partitioning.</article-title>
+<source><italic toggle="yes">Nat Biotechnol.</italic></source>
+<volume>33</volume>
+<fpage>1053</fpage>–<lpage>1060</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.3329</pub-id>
+<?supplied-pmid 26368049?><pub-id pub-id-type="pmid">26368049</pub-id></mixed-citation>
+              </ref>
+              <ref id="B10">
+                <mixed-citation publication-type="book"><collab>COSPAR</collab> (<year>2011</year>). <source><italic toggle="yes">COSPAR Planetary Protection Policy.</italic></source>
+<publisher-loc>Houston, TX</publisher-loc>: <publisher-name>World Space Council</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B11">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Costea</surname><given-names>P. I.</given-names></name><name><surname>Zeller</surname><given-names>G.</given-names></name><name><surname>Sunagawa</surname><given-names>S.</given-names></name><name><surname>Pelletier</surname><given-names>E.</given-names></name><name><surname>Alberti</surname><given-names>A.</given-names></name><name><surname>Levenez</surname><given-names>F.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Towards standards for human fecal sample processing in metagenomic studies.</article-title>
+<source><italic toggle="yes">Nat. Biotechnol.</italic></source>
+<volume>35</volume>
+<fpage>1069</fpage>–<lpage>1076</lpage>.<pub-id pub-id-type="pmid">28967887</pub-id></mixed-citation>
+              </ref>
+              <ref id="B12">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cox</surname><given-names>M. M.</given-names></name><name><surname>Battista</surname><given-names>J. R.</given-names></name></person-group> (<year>2005</year>). <article-title><italic toggle="yes">Deinococcus radiodurans</italic> — the consummate survivor.</article-title>
+<source><italic toggle="yes">Nat. Rev. Microbiol.</italic></source>
+<volume>3</volume>
+<fpage>882</fpage>–<lpage>892</lpage>. <pub-id pub-id-type="doi">10.1038/nrmicro1264</pub-id>
+<?supplied-pmid 16261171?><pub-id pub-id-type="pmid">16261171</pub-id></mixed-citation>
+              </ref>
+              <ref id="B13">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Emiola</surname><given-names>A.</given-names></name><name><surname>Oh</surname><given-names>J.</given-names></name></person-group> (<year>2018</year>). <article-title>High throughput <italic toggle="yes">in situ</italic> metagenomic measurement of bbacterial replication at ultra-low sequencing coverage.</article-title>
+<source><italic toggle="yes">Nat. Commun.</italic></source>
+<volume>9</volume>:<issue>4956</issue>.</mixed-citation>
+              </ref>
+              <ref id="B14">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Franzosa</surname><given-names>E. A.</given-names></name><name><surname>Mciver</surname><given-names>L. J.</given-names></name><name><surname>Rahnavard</surname><given-names>G.</given-names></name><name><surname>Thompson</surname><given-names>L. R.</given-names></name><name><surname>Schirmer</surname><given-names>M.</given-names></name><name><surname>Weingart</surname><given-names>G.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>Species-level functional profiling of metagenomes and metatranscriptomes.</article-title>
+<source><italic toggle="yes">Nat. Methods</italic></source>
+<volume>15</volume>
+<fpage>962</fpage>–<lpage>968</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-018-0176-y</pub-id>
+<?supplied-pmid 30377376?><pub-id pub-id-type="pmid">30377376</pub-id></mixed-citation>
+              </ref>
+              <ref id="B15">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hardwick</surname><given-names>S. A.</given-names></name><name><surname>Chen</surname><given-names>W. Y.</given-names></name><name><surname>Wong</surname><given-names>T.</given-names></name><name><surname>Kanakamedala</surname><given-names>B. S.</given-names></name><name><surname>Deveson</surname><given-names>I. W.</given-names></name><name><surname>Ongley</surname><given-names>S. E.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>Synthetic microbe communities provide internal reference standards for metagenome sequencing and analysis.</article-title>
+<source><italic toggle="yes">Nat. Commun.</italic></source>
+<volume>9</volume>:<issue>3096</issue>.</mixed-citation>
+              </ref>
+              <ref id="B16">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hart</surname><given-names>Y.</given-names></name><name><surname>Sheftel</surname><given-names>H.</given-names></name><name><surname>Hausser</surname><given-names>J.</given-names></name><name><surname>Szekely</surname><given-names>P.</given-names></name><name><surname>Ben-Moshe</surname><given-names>N. B.</given-names></name><name><surname>Korem</surname><given-names>Y.</given-names></name><etal/></person-group> (<year>2015</year>). <article-title>Inferring biological tasks using pareto analysis of high-dimensional data.</article-title>
+<source><italic toggle="yes">Nat. Methods</italic></source>
+<volume>12</volume>
+<fpage>233</fpage>–<lpage>235</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.3254</pub-id>
+<?supplied-pmid 25622107?><pub-id pub-id-type="pmid">25622107</pub-id></mixed-citation>
+              </ref>
+              <ref id="B17">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Heberle</surname><given-names>H.</given-names></name><name><surname>Meirelles</surname><given-names>G. V.</given-names></name><name><surname>Da Silva</surname><given-names>F. R.</given-names></name><name><surname>Telles</surname><given-names>G. P.</given-names></name><name><surname>Minghim</surname><given-names>R.</given-names></name></person-group> (<year>2015</year>). <article-title>InteractiVenn: a web-based tool for the analysis of sets through venn diagrams.</article-title>
+<source><italic toggle="yes">BMC Bioinform.</italic></source>
+<volume>16</volume>:<issue>169</issue>. <pub-id pub-id-type="doi">10.1186/s12859-015-0611-3</pub-id>
+<?supplied-pmid 25994840?><pub-id pub-id-type="pmid">25994840</pub-id></mixed-citation>
+              </ref>
+              <ref id="B18">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Hendrickson</surname><given-names>R.</given-names></name><name><surname>Lundgren</surname><given-names>P.</given-names></name><name><surname>Malli Mohan</surname><given-names>G. B.</given-names></name><name><surname>Urbaniak</surname><given-names>C.</given-names></name><name><surname>Benardini</surname><given-names>J. N.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2017</year>). “<article-title>Comprehensive Measurement of Microbial Burden in Nutrient-Deprived Cleanrooms</article-title>,” in <source><italic toggle="yes">47th International Conference on Environmental Systems</italic></source>, (<publisher-loc>Charleston, SC</publisher-loc>: <publisher-name>International Conference on Environmental Systems</publisher-name>).</mixed-citation>
+              </ref>
+              <ref id="B19">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Horneck</surname><given-names>G.</given-names></name><name><surname>Moeller</surname><given-names>R.</given-names></name><name><surname>Cadet</surname><given-names>J.</given-names></name><name><surname>Douki</surname><given-names>T.</given-names></name><name><surname>Mancinelli</surname><given-names>R. L.</given-names></name><name><surname>Nicholson</surname><given-names>W. L.</given-names></name><etal/></person-group> (<year>2012</year>). <article-title>Resistance of bacterial endospores to outer space for planetary protection purposes—experiment PROTECT of the EXPOSE-E Mission.</article-title>
+<source><italic toggle="yes">Astrobiology</italic></source>
+<volume>12</volume>
+<fpage>445</fpage>–<lpage>456</lpage>. <pub-id pub-id-type="doi">10.1089/ast.2011.0737</pub-id>
+<?supplied-pmid 22680691?><pub-id pub-id-type="pmid">22680691</pub-id></mixed-citation>
+              </ref>
+              <ref id="B20">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huson</surname><given-names>D. H.</given-names></name><name><surname>Auch</surname><given-names>A. F.</given-names></name><name><surname>Qi</surname><given-names>J.</given-names></name><name><surname>Schuster</surname><given-names>S. C.</given-names></name></person-group> (<year>2007</year>). <article-title>MEGAN analysis of metagenomic data.</article-title>
+<source><italic toggle="yes">Genome Res.</italic></source>
+<volume>17</volume>
+<fpage>377</fpage>–<lpage>386</lpage>. <pub-id pub-id-type="doi">10.1101/gr.5969107</pub-id>
+<?supplied-pmid 17255551?><pub-id pub-id-type="pmid">17255551</pub-id></mixed-citation>
+              </ref>
+              <ref id="B21">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huson</surname><given-names>D. H.</given-names></name><name><surname>Beier</surname><given-names>S.</given-names></name><name><surname>Flade</surname><given-names>I.</given-names></name><name><surname>Górska</surname><given-names>A.</given-names></name><name><surname>El-Hadidi</surname><given-names>M.</given-names></name><name><surname>Mitra</surname><given-names>S.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>MEGAN community edition - interactive exploration and analysis of large-scale microbiome sequencing data.</article-title>
+<source><italic toggle="yes">PLoS Comput. Biol.</italic></source>
+<volume>12</volume>:<issue>e1004957</issue>. <pub-id pub-id-type="doi">10.1371/journal.pcbi.1004957</pub-id>
+<?supplied-pmid 27327495?><pub-id pub-id-type="pmid">27327495</pub-id></mixed-citation>
+              </ref>
+              <ref id="B22">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Huson</surname><given-names>D. H.</given-names></name><name><surname>Tappu</surname><given-names>R.</given-names></name><name><surname>Bazinet</surname><given-names>A. L.</given-names></name><name><surname>Xie</surname><given-names>C.</given-names></name><name><surname>Cummings</surname><given-names>M. P.</given-names></name><name><surname>Nieselt</surname><given-names>K.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Fast and simple protein-alignment-guided assembly of orthologous gene families from microbiome sequencing reads.</article-title>
+<source><italic toggle="yes">Microbiome</italic></source>
+<volume>5</volume>:<issue>11</issue>.</mixed-citation>
+              </ref>
+              <ref id="B23">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kanehisa</surname><given-names>M.</given-names></name><name><surname>Goto</surname><given-names>S.</given-names></name></person-group> (<year>2000</year>). <article-title>KEGG: kyoto encyclopedia of genes and genomes.</article-title>
+<source><italic toggle="yes">Nucleic Acids Res.</italic></source>
+<volume>28</volume>
+<fpage>27</fpage>–<lpage>30</lpage>.<pub-id pub-id-type="pmid">10592173</pub-id></mixed-citation>
+              </ref>
+              <ref id="B24">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kielak</surname><given-names>A. M.</given-names></name><name><surname>Barreto</surname><given-names>C. C.</given-names></name><name><surname>Kowalchuk</surname><given-names>G. A.</given-names></name><name><surname>Van Veen</surname><given-names>J. A.</given-names></name><name><surname>Kuramae</surname><given-names>E. E.</given-names></name></person-group> (<year>2016</year>). <article-title>The ecology of acidobacteria: moving beyond genes and genomes.</article-title>
+<source><italic toggle="yes">Front. Microbiol.</italic></source>
+<volume>7</volume>:<issue>744</issue>. <pub-id pub-id-type="doi">10.3389/fmicb.2016.00744</pub-id>
+<?supplied-pmid 27303369?><pub-id pub-id-type="pmid">27303369</pub-id></mixed-citation>
+              </ref>
+              <ref id="B25">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>La Duc</surname><given-names>M. T.</given-names></name><name><surname>Dekas</surname><given-names>A.</given-names></name><name><surname>Osman</surname><given-names>S.</given-names></name><name><surname>Moissl</surname><given-names>C.</given-names></name><name><surname>Newcombe</surname><given-names>D.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2007</year>). <article-title>Isolation and characterization of bacteria capable of tolerating the extreme conditions of clean room environments.</article-title>
+<source><italic toggle="yes">Appl. Environ. Microbiol.</italic></source>
+<volume>73</volume>
+<fpage>2600</fpage>–<lpage>2611</lpage>. <pub-id pub-id-type="doi">10.1128/aem.03007-06</pub-id>
+<?supplied-pmid 17308177?><pub-id pub-id-type="pmid">17308177</pub-id></mixed-citation>
+              </ref>
+              <ref id="B26">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>La Duc</surname><given-names>M. T.</given-names></name><name><surname>Nicholson</surname><given-names>W.</given-names></name><name><surname>Kern</surname><given-names>R.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2003</year>). <article-title>Microbial characterization of the mars odyssey spacecraft and its encapsulation facility.</article-title>
+<source><italic toggle="yes">Environ. Microbiol.</italic></source>
+<volume>5</volume>
+<fpage>977</fpage>–<lpage>985</lpage>. <pub-id pub-id-type="doi">10.1046/j.1462-2920.2003.00496.x</pub-id>
+<?supplied-pmid 14510851?><pub-id pub-id-type="pmid">14510851</pub-id></mixed-citation>
+              </ref>
+              <ref id="B27">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>La Duc</surname><given-names>M. T.</given-names></name><name><surname>Vaishampayan</surname><given-names>P.</given-names></name><name><surname>Nilsson</surname><given-names>H. R.</given-names></name><name><surname>Torok</surname><given-names>T.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2012</year>). <article-title>Pyrosequencing-derived bacterial, archaeal, and fungal diversity of spacecraft hardware destined for mars.</article-title>
+<source><italic toggle="yes">Appl. Environ. Microbiol.</italic></source>
+<volume>78</volume>
+<fpage>5912</fpage>–<lpage>5922</lpage>. <pub-id pub-id-type="doi">10.1128/aem.01435-12</pub-id>
+<?supplied-pmid 22729532?><pub-id pub-id-type="pmid">22729532</pub-id></mixed-citation>
+              </ref>
+              <ref id="B28">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Langmead</surname><given-names>B.</given-names></name><name><surname>Salzberg</surname><given-names>S. L.</given-names></name></person-group> (<year>2012</year>). <article-title>Fast gapped-read alignment with Bowtie 2.</article-title>
+<source><italic toggle="yes">Nat. Methods</italic></source>
+<volume>9</volume>
+<fpage>357</fpage>–<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id>
+<?supplied-pmid 22388286?><pub-id pub-id-type="pmid">22388286</pub-id></mixed-citation>
+              </ref>
+              <ref id="B29">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lax</surname><given-names>S.</given-names></name><name><surname>Smith</surname><given-names>D. P.</given-names></name><name><surname>Hampton-Marcell</surname><given-names>J.</given-names></name><name><surname>Owens</surname><given-names>S. M.</given-names></name><name><surname>Handley</surname><given-names>K. M.</given-names></name><name><surname>Scott</surname><given-names>N. M.</given-names></name><etal/></person-group> (<year>2014</year>). <article-title>Longitudinal analysis of microbial interaction between humans and the indoor environment.</article-title>
+<source><italic toggle="yes">Science</italic></source>
+<volume>345</volume>
+<fpage>1048</fpage>–<lpage>1052</lpage>. <pub-id pub-id-type="doi">10.1126/science.1254529</pub-id>
+<?supplied-pmid 25170151?><pub-id pub-id-type="pmid">25170151</pub-id></mixed-citation>
+              </ref>
+              <ref id="B30">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Levy</surname><given-names>R.</given-names></name><name><surname>Borenstein</surname><given-names>E.</given-names></name></person-group> (<year>2012</year>). “<article-title>Reverse Ecology: From Systems to Environments and Back</article-title>,” in <source><italic toggle="yes">Evolutionary Systems Biology</italic></source>, <role>ed.</role>
+<person-group person-group-type="editor"><name><surname>Soyer</surname><given-names>O.</given-names></name></person-group> (<publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer</publisher-name>).</mixed-citation>
+              </ref>
+              <ref id="B31">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lu</surname><given-names>J.</given-names></name><name><surname>Breitwieser</surname><given-names>F. P.</given-names></name><name><surname>Thielen</surname><given-names>P.</given-names></name><name><surname>Salzberg</surname><given-names>S. L.</given-names></name></person-group> (<year>2017</year>). <article-title>Bracken: estimating species abundance in metagenomics data.</article-title>
+<source><italic toggle="yes">PeerJ Comput. Sci.</italic></source>
+<volume>3</volume>:<issue>e104</issue>. <pub-id pub-id-type="doi">10.7717/peerj-cs.104</pub-id></mixed-citation>
+              </ref>
+              <ref id="B32">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marçais</surname><given-names>G.</given-names></name><name><surname>Kingsford</surname><given-names>C.</given-names></name></person-group> (<year>2011</year>). <article-title>A fast, lock-free approach for efficient parallel counting of occurrences of K-mers.</article-title>
+<source><italic toggle="yes">Bioinformatics</italic></source>
+<volume>27</volume>
+<fpage>764</fpage>–<lpage>770</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btr011</pub-id>
+<?supplied-pmid 21217122?><pub-id pub-id-type="pmid">21217122</pub-id></mixed-citation>
+              </ref>
+              <ref id="B33">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mason</surname><given-names>C.</given-names></name><name><surname>Afshinnekoo</surname><given-names>E.</given-names></name><name><surname>Ahsannudin</surname><given-names>S.</given-names></name><name><surname>Ghedin</surname><given-names>E.</given-names></name><name><surname>Read</surname><given-names>T.</given-names></name><name><surname>Fraser</surname><given-names>C.</given-names></name><etal/></person-group> (<year>2016</year>). <article-title>The Metagenomics and metadesign of the subways and urban biomes (MetaSUB) international consortium inaugural meeting report.</article-title>
+<source><italic toggle="yes">Microbiome</italic></source>
+<volume>4</volume>:<issue>24</issue>.</mixed-citation>
+              </ref>
+              <ref id="B34">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>McInnes</surname><given-names>L.</given-names></name><name><surname>Healy</surname><given-names>J.</given-names></name><name><surname>Melville</surname><given-names>J.</given-names></name></person-group> (<year>2020</year>). <source><italic toggle="yes">UMAP: uniform manifold approximation and projection for dimension reduction.</italic></source>
+<publisher-loc>Ithaca, NY</publisher-loc>: <publisher-name>arXiv e print</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B35">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McIntyre</surname><given-names>A. B. R.</given-names></name><name><surname>Ounit</surname><given-names>R.</given-names></name><name><surname>Afshinnekoo</surname><given-names>E.</given-names></name><name><surname>Prill</surname><given-names>R. J.</given-names></name><name><surname>Hénaff</surname><given-names>E.</given-names></name><name><surname>Alexander</surname><given-names>N.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>Comprehensive benchmarking and ensemble approaches for metagenomic classifiers.</article-title>
+<source><italic toggle="yes">Genome Biol.</italic></source>
+<volume>18</volume>:<issue>182</issue>.</mixed-citation>
+              </ref>
+              <ref id="B36">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Minich</surname><given-names>J. J.</given-names></name><name><surname>Zhu</surname><given-names>Q.</given-names></name><name><surname>Janssen</surname><given-names>S.</given-names></name><name><surname>Hendrickson</surname><given-names>R.</given-names></name><name><surname>Amir</surname><given-names>A.</given-names></name><name><surname>Vetter</surname><given-names>R.</given-names></name><etal/></person-group> (<year>2018</year>). <article-title>KatharoSeq enables high-throughput microbiome analysis from low-biomass samples.</article-title>
+<source><italic toggle="yes">mSystems</italic></source>
+<volume>3</volume>
+<fpage>e217</fpage>–<lpage>e218</lpage>.</mixed-citation>
+              </ref>
+              <ref id="B37">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moissl</surname><given-names>C.</given-names></name><name><surname>Bruckner</surname><given-names>J. C.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2008</year>). <article-title>Archaeal diversity analysis of spacecraft assembly clean rooms.</article-title>
+<source><italic toggle="yes">ISME J.</italic></source>
+<volume>2</volume>
+<fpage>115</fpage>–<lpage>119</lpage>. <pub-id pub-id-type="doi">10.1038/ismej.2007.98</pub-id>
+<?supplied-pmid 18180750?><pub-id pub-id-type="pmid">18180750</pub-id></mixed-citation>
+              </ref>
+              <ref id="B38">
+                <mixed-citation publication-type="book"><collab>NASA.</collab> (<year>2010</year>). <source><italic toggle="yes">Handbook for the Microbiological Examination of Space Hardware, NASA-HDBK-6022.</italic></source>
+<publisher-loc>Washington, DC</publisher-loc>: <publisher-name>National Aeronautics and Space Administration</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B39">
+                <mixed-citation publication-type="book"><collab>National Research Council.</collab> (<year>2000</year>). <source><italic toggle="yes">Preventing the Forward Contamination of Europa.</italic></source>
+<publisher-loc>Washington, DC</publisher-loc>: <publisher-name>The National Academies Press</publisher-name>.</mixed-citation>
+              </ref>
+              <ref id="B40">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nayfach</surname><given-names>S.</given-names></name><name><surname>Pollard</surname><given-names>K. S.</given-names></name></person-group> (<year>2016</year>). <article-title>Toward accurate and quantitative comparative metagenomics.</article-title>
+<source><italic toggle="yes">Cell</italic></source>
+<volume>166</volume>
+<fpage>1103</fpage>–<lpage>1116</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2016.08.007</pub-id>
+<?supplied-pmid 27565341?><pub-id pub-id-type="pmid">27565341</pub-id></mixed-citation>
+              </ref>
+              <ref id="B41">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nurk</surname><given-names>S.</given-names></name><name><surname>Meleshko</surname><given-names>D.</given-names></name><name><surname>Korobeynikov</surname><given-names>A.</given-names></name><name><surname>Pevzner</surname><given-names>P. A.</given-names></name></person-group> (<year>2017</year>). <article-title>MetaSPAdes: a new versatile metagenomic assembler.</article-title>
+<source><italic toggle="yes">Genome Res.</italic></source>
+<volume>27</volume>
+<fpage>824</fpage>–<lpage>834</lpage>. <pub-id pub-id-type="doi">10.1101/gr.213959.116</pub-id>
+<?supplied-pmid 28298430?><pub-id pub-id-type="pmid">28298430</pub-id></mixed-citation>
+              </ref>
+              <ref id="B42">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Oksanen</surname><given-names>J.</given-names></name><name><surname>Blanchet</surname><given-names>F. G.</given-names></name><name><surname>Kindt</surname><given-names>R.</given-names></name><name><surname>Legendre</surname><given-names>P.</given-names></name><name><surname>Minchin</surname><given-names>P. R.</given-names></name><name><surname>O’hara</surname><given-names>R. B.</given-names></name><etal/></person-group> (<year>2013</year>). <source><italic toggle="yes">Vegan: Community Ecology Package”. 2.0-10 ed.</italic></source> Available online at: <ext-link xlink:href="https://CRAN.R-project.org/package=vegan" ext-link-type="uri">https://CRAN.R-project.org/package=vegan</ext-link>
+<comment>(accessed Nov 28, 2020)</comment>.</mixed-citation>
+              </ref>
+              <ref id="B43">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Overbeek</surname><given-names>R.</given-names></name><name><surname>Begley</surname><given-names>T.</given-names></name><name><surname>Butler</surname><given-names>R. M.</given-names></name><name><surname>Choudhuri</surname><given-names>J. V.</given-names></name><name><surname>Chuang</surname><given-names>H. Y.</given-names></name><name><surname>Cohoon</surname><given-names>M.</given-names></name><etal/></person-group> (<year>2005</year>). <article-title>The subsystems approach to genome annotation and its use in the project to annotate 1000 Genomes.</article-title>
+<source><italic toggle="yes">Nucleic Acids Res.</italic></source>
+<volume>33</volume>
+<fpage>5691</fpage>–<lpage>5702</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gki866</pub-id>
+<?supplied-pmid 16214803?><pub-id pub-id-type="pmid">16214803</pub-id></mixed-citation>
+              </ref>
+              <ref id="B44">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pace</surname><given-names>N. R.</given-names></name></person-group> (<year>1997</year>). <article-title>A molecular view of microbial diversity and the biosphere.</article-title>
+<source><italic toggle="yes">Science</italic></source>
+<volume>276</volume>
+<fpage>734</fpage>–<lpage>740</lpage>. <pub-id pub-id-type="doi">10.1126/science.276.5313.734</pub-id>
+<?supplied-pmid 9115194?><pub-id pub-id-type="pmid">9115194</pub-id></mixed-citation>
+              </ref>
+              <ref id="B45">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Powell</surname><given-names>S.</given-names></name><name><surname>Szklarczyk</surname><given-names>D.</given-names></name><name><surname>Trachana</surname><given-names>K.</given-names></name><name><surname>Roth</surname><given-names>A.</given-names></name><name><surname>Kuhn</surname><given-names>M.</given-names></name><name><surname>Muller</surname><given-names>J.</given-names></name><etal/></person-group> (<year>2011</year>). <article-title>eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges.</article-title>
+<source><italic toggle="yes">Nucleic Acids Res.</italic></source>
+<volume>40</volume>
+<fpage>D284</fpage>–<lpage>D289</lpage>.<pub-id pub-id-type="pmid">22096231</pub-id></mixed-citation>
+              </ref>
+              <ref id="B46">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Probst</surname><given-names>A.</given-names></name><name><surname>Vaishampayan</surname><given-names>P.</given-names></name><name><surname>Osman</surname><given-names>S.</given-names></name><name><surname>Moissl-Eichinger</surname><given-names>C.</given-names></name><name><surname>Andersen</surname><given-names>G. L.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2010</year>). <article-title>Diversity of anaerobic microbes in spacecraft assembly clean rooms.</article-title>
+<source><italic toggle="yes">Appl. Environ. Microbiol.</italic></source>
+<volume>76</volume>
+<fpage>2837</fpage>–<lpage>2845</lpage>. <pub-id pub-id-type="doi">10.1128/aem.02167-09</pub-id>
+<?supplied-pmid 20228115?><pub-id pub-id-type="pmid">20228115</pub-id></mixed-citation>
+              </ref>
+              <ref id="B47">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sayers</surname><given-names>E. W.</given-names></name><name><surname>Barrett</surname><given-names>T.</given-names></name><name><surname>Benson</surname><given-names>D. A.</given-names></name><name><surname>Bryant</surname><given-names>S. H.</given-names></name><name><surname>Canese</surname><given-names>K.</given-names></name><name><surname>Chetvernin</surname><given-names>V.</given-names></name><etal/></person-group> (<year>2008</year>). <article-title>Database resources of the national center for biotechnology information.</article-title>
+<source><italic toggle="yes">Nucleic Acids Res.</italic></source>
+<volume>37</volume>
+<fpage>D5</fpage>–<lpage>D15</lpage>.<pub-id pub-id-type="pmid">18940862</pub-id></mixed-citation>
+              </ref>
+              <ref id="B48">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schubert</surname><given-names>M.</given-names></name><name><surname>Lindgreen</surname><given-names>S.</given-names></name><name><surname>Orlando</surname><given-names>L.</given-names></name></person-group> (<year>2016</year>). <article-title>AdapterRemoval v2: rapid adapter trimming, identification, and read merging.</article-title>
+<source><italic toggle="yes">BMC Res. Notes</italic></source>
+<volume>9</volume>:<issue>88</issue>. <pub-id pub-id-type="doi">10.1186/s13104-016-1900-2</pub-id>
+<?supplied-pmid 26868221?><pub-id pub-id-type="pmid">26868221</pub-id></mixed-citation>
+              </ref>
+              <ref id="B49">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Segata</surname><given-names>N.</given-names></name><name><surname>Waldron</surname><given-names>L.</given-names></name><name><surname>Ballarini</surname><given-names>A.</given-names></name><name><surname>Narasimhan</surname><given-names>V.</given-names></name><name><surname>Jousson</surname><given-names>O.</given-names></name><name><surname>Huttenhower</surname><given-names>C.</given-names></name></person-group> (<year>2012</year>). <article-title>Metagenomic microbial community profiling using unique clade-specific marker genes.</article-title>
+<source><italic toggle="yes">Nat. Methods</italic></source>
+<volume>9</volume>
+<fpage>811</fpage>–<lpage>814</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.2066</pub-id>
+<?supplied-pmid 22688413?><pub-id pub-id-type="pmid">22688413</pub-id></mixed-citation>
+              </ref>
+              <ref id="B50">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shannon</surname><given-names>P.</given-names></name><name><surname>Markiel</surname><given-names>A.</given-names></name><name><surname>Ozier</surname><given-names>O.</given-names></name><name><surname>Baliga</surname><given-names>N. S.</given-names></name><name><surname>Wang</surname><given-names>J. T.</given-names></name><name><surname>Ramage</surname><given-names>D.</given-names></name><etal/></person-group> (<year>2003</year>). <article-title>Cytoscape: a software environment for integrated models of biomolecular interaction networks.</article-title>
+<source><italic toggle="yes">Genome Res.</italic></source>
+<volume>13</volume>
+<fpage>2498</fpage>–<lpage>2504</lpage>. <pub-id pub-id-type="doi">10.1101/gr.1239303</pub-id>
+<?supplied-pmid 14597658?><pub-id pub-id-type="pmid">14597658</pub-id></mixed-citation>
+              </ref>
+              <ref id="B51">
+                <mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Shirey</surname><given-names>T. B.</given-names></name><name><surname>Schubert</surname><given-names>W.</given-names></name><name><surname>Benardini</surname><given-names>J.</given-names></name></person-group> (<year>2017</year>). “<article-title>An Overview of Surface Heat Microbial Reduction as a Viable Microbial Reduction Modality for Spacecraft Surfaces</article-title>,” in <source><italic toggle="yes">47th International Conference on Environmental Systems</italic></source>, (<publisher-loc>Charleston, S C</publisher-loc>: <publisher-name>International Conference on Environmental System</publisher-name>).</mixed-citation>
+              </ref>
+              <ref id="B52">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Singh</surname><given-names>N. K.</given-names></name><name><surname>Wood</surname><given-names>J. M.</given-names></name><name><surname>Karouia</surname><given-names>F.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2018</year>). <article-title>Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces.</article-title>
+<source><italic toggle="yes">Microbiome</italic></source>
+<volume>6</volume>:<issue>214</issue>.</mixed-citation>
+              </ref>
+              <ref id="B53">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sterflinger</surname><given-names>K.</given-names></name><name><surname>De Baere</surname><given-names>R.</given-names></name><name><surname>De Hoog</surname><given-names>G. S.</given-names></name><name><surname>De Wachter</surname><given-names>R.</given-names></name><name><surname>Krumbein</surname><given-names>W. E.</given-names></name><name><surname>Haase</surname><given-names>G.</given-names></name></person-group> (<year>1997</year>). <article-title><italic toggle="yes">Coniosporium perforans</italic> and <italic toggle="yes">C. apollinis</italic>, two new rock-inhabiting fungi isolated from marble in the Sanctuary of Delos (Cyclades. Greece).</article-title>
+<source><italic toggle="yes">Antonie van Leeuwenhoek</italic></source>
+<volume>72</volume>
+<fpage>349</fpage>–<lpage>363</lpage>.<pub-id pub-id-type="pmid">9442275</pub-id></mixed-citation>
+              </ref>
+              <ref id="B54">
+                <mixed-citation publication-type="journal"><name><surname>Suzek</surname><given-names>B. E.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Huang</surname><given-names>H.</given-names></name><name><surname>Mcgarvey</surname><given-names>P. B.</given-names></name><name><surname>Wu</surname><given-names>C. H.</given-names></name><collab>The Uniprot Consortium.</collab> (<year>2014</year>). <article-title>UniRef Clusters: a comprehensive and scalable alternative for improving sequence similarity searches.</article-title>
+<source><italic toggle="yes">Bioinformatics</italic></source>
+<volume>31</volume>
+<fpage>926</fpage>–<lpage>932</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btu739</pub-id>
+<?supplied-pmid 25398609?><pub-id pub-id-type="pmid">25398609</pub-id></mixed-citation>
+              </ref>
+              <ref id="B55">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tamames</surname><given-names>J.</given-names></name><name><surname>Puente-Sánchez</surname><given-names>F.</given-names></name></person-group> (<year>2019</year>). <article-title>SqueezeMeta, a highly portable, fully automatic metagenomic analysis pipeline.</article-title>
+<source><italic toggle="yes">Front. Microbiol</italic></source>:<volume>9</volume>:<issue>3349</issue>. <pub-id pub-id-type="doi">10.3389/fmicb.2018.03349</pub-id>
+<?supplied-pmid 30733714?><pub-id pub-id-type="pmid">30733714</pub-id></mixed-citation>
+              </ref>
+              <ref id="B56">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Thompson</surname><given-names>L. R.</given-names></name><name><surname>Sanders</surname><given-names>J. G.</given-names></name><name><surname>Mcdonald</surname><given-names>D.</given-names></name><name><surname>Amir</surname><given-names>A.</given-names></name><name><surname>Ladau</surname><given-names>J.</given-names></name><name><surname>Locey</surname><given-names>K. J.</given-names></name><etal/></person-group> (<year>2017</year>). <article-title>A communal catalogue reveals earth’s multiscale microbial diversity.</article-title>
+<source><italic toggle="yes">Nature</italic></source>
+<volume>551</volume>
+<fpage>457</fpage>–<lpage>463</lpage>.<pub-id pub-id-type="pmid">29088705</pub-id></mixed-citation>
+              </ref>
+              <ref id="B57">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vaishampayan</surname><given-names>P.</given-names></name><name><surname>Osman</surname><given-names>S.</given-names></name><name><surname>Andersen</surname><given-names>G.</given-names></name><name><surname>Venkateswaran</surname><given-names>K.</given-names></name></person-group> (<year>2010</year>). <article-title>High-Density 16S microarray and clone library–based microbial community composition of the phoenix spacecraft assembly clean room.</article-title>
+<source><italic toggle="yes">Astrobiology</italic></source>
+<volume>10</volume>
+<fpage>499</fpage>–<lpage>508</lpage>. <pub-id pub-id-type="doi">10.1089/ast.2009.0443</pub-id>
+<?supplied-pmid 20624058?><pub-id pub-id-type="pmid">20624058</pub-id></mixed-citation>
+              </ref>
+              <ref id="B58">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vaishampayan</surname><given-names>P.</given-names></name><name><surname>Probst</surname><given-names>A. J.</given-names></name><name><surname>La Duc</surname><given-names>M. T.</given-names></name><name><surname>Bargoma</surname><given-names>E.</given-names></name><name><surname>Benardini</surname><given-names>J. N.</given-names></name><name><surname>Andersen</surname><given-names>G. L.</given-names></name><etal/></person-group> (<year>2013</year>). <article-title>New perspectives on viable microbial communities in low-biomass cleanroom environments.</article-title>
+<source><italic toggle="yes">ISME J.</italic></source>
+<volume>7</volume>
+<fpage>312</fpage>–<lpage>324</lpage>.<pub-id pub-id-type="pmid">23051695</pub-id></mixed-citation>
+              </ref>
+              <ref id="B59">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vaishampayan</surname><given-names>P. A.</given-names></name><name><surname>Rabbow</surname><given-names>E.</given-names></name><name><surname>Horneck</surname><given-names>G.</given-names></name><name><surname>Venkateswaran</surname><given-names>K. J.</given-names></name></person-group> (<year>2012</year>). <article-title>Survival of <italic toggle="yes">Bacillus pumilus</italic> spores for a prolonged period of time in real space conditions.</article-title>
+<source><italic toggle="yes">Astrobiology</italic></source>
+<volume>12</volume>
+<fpage>487</fpage>–<lpage>497</lpage>. <pub-id pub-id-type="doi">10.1089/ast.2011.0738</pub-id>
+<?supplied-pmid 22680694?><pub-id pub-id-type="pmid">22680694</pub-id></mixed-citation>
+              </ref>
+              <ref id="B60">
+                <mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wood</surname><given-names>D. E.</given-names></name><name><surname>Lu</surname><given-names>J.</given-names></name><name><surname>Langmead</surname><given-names>B.</given-names></name></person-group> (<year>2019</year>). <article-title>Improved metagenomic analysis with kraken 2.</article-title>
+<source><italic toggle="yes">Genome Biol.</italic></source>
+<volume>20</volume>:<issue>257</issue>.</mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

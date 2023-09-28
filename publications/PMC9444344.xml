@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:56:07Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9444344" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9444344</identifier>
+        <datestamp>2022-09-05</datestamp>
+        <setSpec>nihpa</setSpec>
+        <setSpec>pmc-open</setSpec>
+        <setSpec>manuscript</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" dtd-version="1.3" xml:lang="en" article-type="research-article">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-journal-id">101573691</journal-id>
+              <journal-id journal-id-type="pubmed-jr-id">39703</journal-id>
+              <journal-id journal-id-type="nlm-ta">Cell Rep</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Cell Rep</journal-id>
+              <journal-title-group>
+                <journal-title>Cell reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2211-1247</issn>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9444344</article-id>
+              <article-id pub-id-type="pmcid">PMC9444344</article-id>
+              <article-id pub-id-type="pmc-uid">9444344</article-id>
+              <article-id pub-id-type="pmid">33242408</article-id>
+              <article-id pub-id-type="pmid">33242408</article-id>
+              <article-id pub-id-type="doi">10.1016/j.celrep.2020.108429</article-id>
+              <article-id pub-id-type="manuscript">nihpa1653534</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Multi-omic, Single-Cell, and Biochemical Profiles of Astronauts Guide Pharmacological Strategies for Returning to Gravity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Gertz</surname>
+                    <given-names>Monica L.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A2" ref-type="aff">2</xref>
+                  <xref rid="FN1" ref-type="author-notes">17</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chin</surname>
+                    <given-names>Christopher R.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="FN1" ref-type="author-notes">17</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Tomoiaga</surname>
+                    <given-names>Delia</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>MacKay</surname>
+                    <given-names>Matthew</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                  <xref rid="A16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Chang</surname>
+                    <given-names>Christina</given-names>
+                  </name>
+                  <xref rid="A16" ref-type="aff">16</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Butler</surname>
+                    <given-names>Daniel</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Afshinnekoo</surname>
+                    <given-names>Ebrahim</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Bezdan</surname>
+                    <given-names>Daniela</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A5" ref-type="aff">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Schmidt</surname>
+                    <given-names>Michael A.</given-names>
+                  </name>
+                  <xref rid="A6" ref-type="aff">6</xref>
+                  <xref rid="A7" ref-type="aff">7</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mozsary</surname>
+                    <given-names>Christopher</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Melnick</surname>
+                    <given-names>Ari</given-names>
+                  </name>
+                  <xref rid="A8" ref-type="aff">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Garrett-Bakelman</surname>
+                    <given-names>Francine</given-names>
+                  </name>
+                  <xref rid="A8" ref-type="aff">8</xref>
+                  <xref rid="A9" ref-type="aff">9</xref>
+                  <xref rid="A10" ref-type="aff">10</xref>
+                  <xref rid="A11" ref-type="aff">11</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Crucian</surname>
+                    <given-names>Brian</given-names>
+                  </name>
+                  <xref rid="A12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Lee</surname>
+                    <given-names>Stuart M.C.</given-names>
+                  </name>
+                  <xref rid="A13" ref-type="aff">13</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Zwart</surname>
+                    <given-names>Sara R.</given-names>
+                  </name>
+                  <xref rid="A14" ref-type="aff">14</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Smith</surname>
+                    <given-names>Scott M.</given-names>
+                  </name>
+                  <xref rid="A12" ref-type="aff">12</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Meydan</surname>
+                    <given-names>Cem</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Mason</surname>
+                    <given-names>Christopher E.</given-names>
+                  </name>
+                  <xref rid="A1" ref-type="aff">1</xref>
+                  <xref rid="A3" ref-type="aff">3</xref>
+                  <xref rid="A4" ref-type="aff">4</xref>
+                  <xref rid="A15" ref-type="aff">15</xref>
+                  <xref rid="FN2" ref-type="author-notes">18</xref>
+                  <xref rid="CR1" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="A1"><label>1</label>Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10021, USA</aff>
+              <aff id="A2"><label>2</label>Interdisciplinary Program in Neuroscience, George Mason University, Fairfax, VA 22030, USA</aff>
+              <aff id="A3"><label>3</label>The WorldQuant Initiative for Quantitative Prediction, Weill Cornell Medicine, New York, NY 10065, USA</aff>
+              <aff id="A4"><label>4</label>The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY 10021, USA</aff>
+              <aff id="A5"><label>5</label>Institute of Medical Virology and Epidemiology of Viral Diseases, University Hospital, Tübingen 72076, Germany</aff>
+              <aff id="A6"><label>6</label>Advanced Pattern Analysis and Countermeasures Group, Boulder, CO 80302, USA</aff>
+              <aff id="A7"><label>7</label>Sovaris Aerospace, Boulder, CO 80302, USA</aff>
+              <aff id="A8"><label>8</label>Department of Medicine, Weill Cornell Medicine, New York, NY 10021, USA</aff>
+              <aff id="A9"><label>9</label>Department of Medicine, University of Virginia, Charlottesville, VA 22908, USA</aff>
+              <aff id="A10"><label>10</label>Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, VA 22908, USA</aff>
+              <aff id="A11"><label>11</label>University of Virginia Cancer Center, Charlottesville, VA 22908, USA</aff>
+              <aff id="A12"><label>12</label>Human Health and Performance Directorate, NASA Johnson Space Center, Houston, TX 77058, USA</aff>
+              <aff id="A13"><label>13</label>KBR, Houston, TX 77058, USA</aff>
+              <aff id="A14"><label>14</label>Department of Preventive Medicine and Population Health, University of Texas Medical Branch, Galveston, TX 77555, USA</aff>
+              <aff id="A15"><label>15</label>The Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10065, USA</aff>
+              <aff id="A16"><label>16</label>Becton Dickinson &amp; Co., Washington, DC 20001</aff>
+              <author-notes>
+                <fn fn-type="equal" id="FN1">
+                  <label>17</label>
+                  <p id="P1">These authors contributed equally</p>
+                </fn>
+                <fn fn-type="other" id="FN2">
+                  <label>18</label>
+                  <p id="P2">Lead Contact</p>
+                </fn>
+                <fn fn-type="con" id="FN3">
+                  <p id="P3">AUTHOR CONTRIBUTIONS</p>
+                  <p id="P4">M.L.G. and C.E.M. conceived the study. C.R.C., D.T., and D.B. performed the single-cell processing and C.R.C. performed the analysis, with E.A., D.B., M.M., C.M., M.A.S., F.G.-B., and A.M. providing guided annotations and interpretations. B.C., S.M.C.L., S.R.Z., and S.M.S. provided the biochemical data and interpretation. All authors read and approved the manuscript.</p>
+                </fn>
+                <corresp id="CR1"><label>*</label>Correspondence: <email>chm2042@med.cornell.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="nihms-submitted">
+                <day>30</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="ppub">
+                <day>08</day>
+                <month>12</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>25</day>
+                <month>11</month>
+                <year>2020</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>05</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>33</volume>
+              <issue>10</issue>
+              <fpage>108429</fpage>
+              <lpage>108429</lpage>
+              <permissions>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract id="ABS1">
+                <title>SUMMARY</title>
+                <p id="P5">The National Aeronautics and Space Administration (NASA) Twins Study created an integrative molecular profile of an astronaut during NASA’s first 1-year mission on the International Space Station (ISS) and included comparisons to an identical Earth-bound twin. The unique biochemical profiles observed when landing on Earth after such a long mission (e.g., spikes in interleukin-1 [IL-1]/6/10, c-reactive protein [CRP], C-C motif chemokine ligand 2 [CCL2], IL-1 receptor antagonist [IL-1ra], and tumor necrosis factor alpha [TNF-α]) opened new questions about the human body’s response to gravity and how to plan for future astronauts, particularly around initiation or resolution of inflammation. Here, single-cell, multi-omic (100-plex epitope profile and gene expression) profiling of peripheral blood mononuclear cells (PBMCs) showed changes to blood cell composition and gene expression post-flight, specifically for monocytes and dendritic cell precursors. These were consistent with flight-induced cytokine and immune system stress, followed by skeletal muscle regeneration in response to gravity. Finally, we examined these profiles relative to 6-month missions in 28 other astronauts and detail potential pharmacological interventions for returning to gravity in future missions.</p>
+              </abstract>
+              <abstract abstract-type="summary" id="ABS2">
+                <title>In Brief</title>
+                <p id="P6">Gertz et al. present a re-analysis of the landing data from the NASA Twins Study, suggesting that the biochemical signature reflects muscle regeneration after atrophy rather than a detrimental inflammatory response. This is mediated through muscle-derived IL-6 anti-inflammatory cascades. Single-cell analysis supports this role. Potential pharmacological interventions are also discussed.</p>
+              </abstract>
+              <abstract abstract-type="graphical" id="ABS3">
+                <title>Graphical Abstract</title>
+                <p id="P7">
+                  <graphic xlink:href="nihms-1653534-f0006.jpg" position="anchor"/>
+                </p>
+              </abstract>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="S1">
+              <title>INTRODUCTION</title>
+              <p id="P8">Landing on a planet after transit in space is a complex event for the human body, leading to a broad range of physiological and psychological stressors. The National Aeronautics and Space Administration (NASA) Twins Study (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>) resulted in the first-ever multi-omic profile of an astronaut after almost a year (340 days) on the International Space Station (ISS), while leveraging a comparison to his monozygotic Earth-bound twin. More than 300 samples were collected across 19 time points before, during, and after spaceflight, and data were generated across myriad modalities of human and microbial biology, including isolations of stool, saliva, skin, urine, plasma, peripheral blood mononuclear cells (PBMCs), and immune cells that were CD4<sup>+</sup>, CD8<sup>+</sup>, and CD19<sup>+</sup> enriched and lymphocyte depleted (LD). The study used a wide battery of methods: short-read and long-read whole-genome sequencing (WGS), whole-genome bisulfite sequencing (WGBS), RNA sequencing (poly(A), ribo-, microRNA [miRNA]), shotgun metagenome sequencing, 16S rRNA sequencing, targeted proteomics (liquid chromatography-mass spectrometry [LC-MS]), untargeted proteomics (PECAN, MaxQuant), targeted metabolomics (gas chromatography [GC]-MS), mitochondrial respiration (SeaHorse), oxidative state (electron paramagnetic resonance [EPR]), T cell and B cell receptor (TCR/BCR) profiling, cognition tests, vascular measures, and health biometrics (nutrition, height, weight) (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Previous results identified a significant increase upon landing of five markers: interleukin-6 (IL-6), c-reactive protein (CRP), IL-10, C-C motif chemokine ligand 2 (CCL2/monocyte chemoattractant protein-1 [MCP1]), and IL-1 receptor antagonist (IL-1ra), which is followed immediately by a decrease in markers that were elevated during flight. These included tumor necrosis factor α (TNF-α), IL-1α, and IL-1β, which are normally associated with immune dysregulation but are also involved in bone metabolism and early stages of muscle regeneration.</p>
+              <p id="P9">To narrow down the roles that these inflammatory proteins and epitopes play during landing, we considered gravity as one of the most prominent changes to affect flight subject (TW) on landing, although we cannot disregard other factors (e.g., environment). Based on previous studies performed on astronauts following 6-month missions, it was determined that in-flight countermeasures were insufficient to fully replicate or replace the daily mechanical loading exerted by gravity (<xref rid="R14" ref-type="bibr">Genc et al., 2010</xref>), which resulted in decreased muscle volume and strength, particularly in the lower extremities (<xref rid="R1" ref-type="bibr">Akima et al., 2000</xref>; <xref rid="R69" ref-type="bibr">Trappe et al., 2009</xref>; <xref rid="R16" ref-type="bibr">Gopalakrishnan et al., 2010</xref>; <xref rid="R59" ref-type="bibr">Smith et al., 2012a</xref>; <xref rid="R27" ref-type="bibr">Korth, 2015</xref>; <xref rid="R58" ref-type="bibr">Smith, 2018</xref>; <xref rid="R31" ref-type="bibr">Lee et al., 2020b</xref>). Moreover, muscle and bone deterioration are time-dependent processes (<xref rid="R73" ref-type="bibr">Winnard et al., 2019</xref>; <xref rid="R25" ref-type="bibr">Ko et al., 2020</xref>). Therefore, reintroduction to Earth’s gravity after a year of weightlessness would likely cause greater reloading injury and inflammation during muscle regeneration and growth than might be seen after 6 months in space (<xref rid="R12" ref-type="bibr">Fitts et al., 2000</xref>; <xref rid="R38" ref-type="bibr">Matsumoto et al., 2011</xref>; <xref rid="R64" ref-type="bibr">Stein, 2013</xref>; <xref rid="R58" ref-type="bibr">Smith, 2018</xref>). The thorough biochemical profiling performed in the Twins Study has captured this post-landing phenomenon (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>).</p>
+              <p id="P10">Here, we generated single-cell, multi-omic (protein and RNA) data from the twin astronauts (TW and ground subject [HR]) and examined in greater detail the unique biochemical profiles expressed upon return to unit gravity (1g). Single-cell epitope and expression analysis of peripheral blood monocytes (PBMCs) showed elevated levels of classical monocytes (CD14<sup>+</sup>, CD16<sup>−</sup>, pro-inflammatory) on landing compared with pre-flight values, which proceeded to decrease post-flight as non-classical monocytes (CD14<sup>−</sup>, CD16<sup>+</sup>, anti-inflammatory) increased. Many of these proteins are pleiotropic, exerting many functions throughout the body, and they are often associated with initiation or resolution of detrimental inflammatory responses. In light of the self-reported flu-like symptoms, skin inflammation, and discomfort experienced by TW on landing, the question arises as to whether such symptoms should be treated pharmacologically to attenuate them for future missions; and if so, how? In this analysis, we describe the major effects and interactions of these proteins with respect to the process of muscle regeneration as well as examine possible pharmacological interventions for future astronauts.</p>
+            </sec>
+            <sec id="S2">
+              <title>RESULTS</title>
+              <sec id="S3">
+                <title>Biochemical Response to Landing on Earth</title>
+                <p id="P11">Biochemical profiling of the flight subject TW revealed a clear molecular signature in response to his return to 1g (<xref rid="F1" ref-type="fig">Figure 1</xref>), most notably for the samples collected on day zero (R0) at Johnson Space Center (JSC) crew quarters, ~24 h after de-orbit. During this time, TW engaged in some ambulatory activities, but slept for the greater part of the journey from Kazakhstan to JSC. A second set of samples was then collected on R+5 (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>; <xref rid="R30" ref-type="bibr">Lee et al., 2020a</xref>). The cytokines depicted in <xref rid="F1" ref-type="fig">Figure 1</xref> showed relatively stable levels in TW, with a significant spike immediately after landing, with increases at R0 and R+5 in IL-6 (100%), CRP (1,150%), IL-10 (4%), CCL2/MCP1 (475%), and IL-1ra (1,500%), compared to pre-flight means (ANOVA, <italic toggle="yes">q</italic> &lt; 0.001) (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). These cytokines are normally associated with inflammatory immune responses, and by R+60, all biochemical markers had returned to pre-flight levels. These cytokines are also associated with muscle regeneration and indicate a physiological response to muscle exertion in the presence of gravity as opposed to a purely detrimental inflammatory response.</p>
+                <p id="P12">Interestingly, these changes are consistent with changes in other astronauts after shorter (up to 6-month-duration) missions (<xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>) (<xref rid="R8" ref-type="bibr">Crucian et al., 2014</xref>). IL-6, IL-10, CCL2, and IL-1ra all showed major increases upon landing compared with pre-flight median levels for each astronaut, although TW showed a more pronounced elevation of these markers after his 12-month mission than the set of 28 astronauts returning from 6-month missions. It should be noted that the IL-6 and IL-10 results for TW were below the assay detection limits for pre-flight and post-flight samples but close to the upper limit of detection for the return time point in the comparable assay plotted in <xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>, making absolute quantification difficult.</p>
+              </sec>
+              <sec id="S4">
+                <title>Pathway Interactions Driving Muscle Regeneration</title>
+                <p id="P13">The prominent cytokines in the landing signatures map to known mechanistic relationships and biological pathways involved in muscle regeneration (<xref rid="F2" ref-type="fig">Figure 2</xref>). IL-6 is at the center of these different pathways and holds the most connections to the other markers. Of note, IL-6 has two signaling pathways: trans-signaling and classic signaling (<xref rid="R53" ref-type="bibr">Scheller et al., 2011</xref>). The former is associated with a pro-inflammatory response (e.g., increases in IL-1β and TNF-α) and the latter is associated with the anti-inflammatory functions of exercise and homeostasis (e.g., inhibitory effect on TNF-α and IL-1) (<xref rid="R6" ref-type="bibr">Chalaris et al., 2010</xref>; <xref rid="R53" ref-type="bibr">Scheller et al., 2011</xref>; <xref rid="R74" ref-type="bibr">Yan et al., 2016</xref>; <xref rid="R9" ref-type="bibr">Del Giudice and Gangestad, 2018</xref>). Given this relationship, the data from TW and other astronauts suggest that IL-6 is following a trans-signaling pathway while in flight, since it is elevated along with TNF-α and IL-1(α and β) (ANOVA, <italic toggle="yes">q</italic> &lt; 0.05) (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). However, at R0, IL-6 increased 100%, while TNF-α and IL-1 decreased sharply between R0 and R+5. IL-10 and IL-1ra also increased at R0 (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>), as is predicted by the known pathways of muscle regeneration. Taking these combined interactions into consideration, the R0 and R+5 biochemical data from TW suggest that IL-6 mechanism changes upon landing, switching to function through the classical signaling pathway in response to increased muscle loading and gravity.</p>
+              </sec>
+              <sec id="S5">
+                <title>In-Flight Marker Shifts</title>
+                <p id="P14">A broad range of biochemical markers were elevated during flight and decreased significantly on return (ANOVA, <italic toggle="yes">q</italic> &lt; 0.05; <xref rid="F3" ref-type="fig">Figure 3</xref>) (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Although many of these are involved in mediating inflammation, cell growth, and cell prolifer ation, as well as tumor proliferation and vascularization (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>), they are also involved in musculoskeletal pathways. Most notably, these include inflammatory, osteoclastogenic cytokines (TNF-α, IL-1α, IL-1β, IL-8) (<xref rid="R2" ref-type="bibr">Amarasekara et al., 2018</xref>) and chemokines (CCL5, CCL3) (<xref rid="R76" ref-type="bibr">Yano et al., 2005</xref>; <xref rid="R70" ref-type="bibr">Vallet et al., 2011</xref>), which are involved in osteoclast activation and osteoblast inhibition as well as muscle atrophy. Important mediators include growth factors (fibroblast growth factor [FGF] basic, granulocyte colony stimulating factor [GCSF], granulocyte macrophage colony stimulating factor [GM-CSF]) (<xref rid="R41" ref-type="bibr">Nagaraju et al., 1998</xref>; <xref rid="R28" ref-type="bibr">Kuwabara et al., 2001</xref>; <xref rid="R45" ref-type="bibr">Park et al., 2007</xref>; <xref rid="R77" ref-type="bibr">Yun et al., 2010</xref>; <xref rid="R7" ref-type="bibr">Charoenlarp et al., 2017</xref>), which are associated not only with processes of muscle differentiation and regeneration but also with osteoclast-mediated bone resorption and inflammation. As with the cytokines elevated in response to landing, the profiles of TNF-α, IL-1β, IL-8, CCL5, and GCSF are similar to those measured in other astronauts (<xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>). Again, these measured effects are not as pronounced for the astronauts returning from shorter flights compared with TW. This would appear to be a result of these markers not becoming as elevated during the shorter flight. Urinary bone resorption markers that also decreased include urinary deoxypyridinoline (DPD), urinary C-terminal crosslinking telopeptide (CTX), and urinary N-terminal telopeptide (NTX), among others (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). The decrease of these markers immediately following the rise of markers associated with muscle regeneration (<xref rid="F1" ref-type="fig">Figure 1</xref>), further support the suggested interpretation of the landing signatures as a progression from muscular atrophy, inflammation, and bone resorption during flight to muscle regeneration and bone anabolism upon landing.</p>
+              </sec>
+              <sec id="S6">
+                <title>Single-Cell Epitope and Expression Analysis</title>
+                <p id="P15">Immune cell types were also profiled at the epitope and gene expression levels to discern the impact of spaceflight on cellular composition. Time points include pre-flight, landing, and post-flight data; there is no in-flight data available for single-cell analysis. Clusters were identified through projection of both RNA and epitope expression (<xref rid="F4" ref-type="fig">Figure 4A</xref>; <xref rid="SD1" ref-type="supplementary-material">Figure S2</xref>). Composition analysis was done after removal of T and B cell populations, as the samples were CD4, CD8, and CD19 depleted (<xref rid="F4" ref-type="fig">Figures 4B</xref> and <xref rid="F4" ref-type="fig">4C</xref>). Although the composition of immune cell populations seemed to be impacted both on landing and during post-landing recovery, these values were not out of the range observed in the matching ground samples. The monocyte population seemed to be most affected in terms of composition, with a large increase in the number of classical monocytes compared with the other profiled cell populations on the day TW returned to Earth. This is supported by the number of cells at day R0 expressing high levels CD14 compared with CD16 (<xref rid="F4" ref-type="fig">Figures 4D</xref>–<xref rid="F4" ref-type="fig">4G</xref>). By days 36 and 191 post-flight, the numbers of classical monocytes decreased back to levels similar to the measured pre-flight values, and the ratio of CD14 and CD16 high expressing cells is more similar to the pre-flight time points. By contrast, the circulating monocyte-dendritic cell precursor (MDP) and progenitor populations do increase post-flight; this is supported by an increase in the expression of CD34 (<xref rid="F4" ref-type="fig">Figures 4H</xref> and <xref rid="F4" ref-type="fig">4I</xref>). There was also an increase in CD274, a marker of monocyte activation, at days 36 and 191 post-flight (<xref rid="F4" ref-type="fig">Figures 4J</xref> and <xref rid="F4" ref-type="fig">4K</xref>). Additionally, the expression of CD14 mRNA and CD14 epitope was compared to determine which cells were likely new classical monocytes. Cells were defined to be new classical monocytes if their scaled CD14 mRNA expression was greater than 1, while their scaled CD14 epitope expression was less than 1 (<xref rid="F4" ref-type="fig">Figures 4L</xref> and <xref rid="F4" ref-type="fig">4M</xref>). The proportion of new classical monocytes to the total monocyte population was then determined for each time point (<xref rid="F4" ref-type="fig">Figures 4N</xref> and <xref rid="F4" ref-type="fig">4O</xref>). The increase in new monocytes in the post-flight time points is consistent with the increase in circulating MDP and progenitor cells.</p>
+                <p id="P16">In addition to the holistic composition analysis, we determined expression of select genes in pathways related to the measured biochemical response to landing in the monocyte-related population at each time point, including IL-6, TNF receptor 1 (TNFR1), TNFR2, non-canonical nuclear factor κB (NF-κB), and GM-CSF (<xref rid="F5" ref-type="fig">Figure 5</xref>). Cells were grouped by day into pre-flight (where L is days before launch, L-462, L-448, L-414, L-371 for TW and GD-366 for HR), landing (where R us days post return, R0 for TW and GD+3 for HR), and post-flight (R+36, R+191 for TW and GD+66 for HR) and tested to determine whether the changes in expression were significant for these signatures by Wilcoxon rank-sum test in a pairwise fashion (<xref rid="SD2" ref-type="supplementary-material">Table S2</xref>). IL-6 pathways are most affected in the classical monocyte population, where we see statistically significant differences (all adjusted p values &lt; 9.33E–14) between pre-flight, landing, and post-flight expression (<xref rid="F5" ref-type="fig">Figure 5E</xref>; <xref rid="SD2" ref-type="supplementary-material">Table S2</xref>), with an increase at R0 compared with pre-flight and subsequent decrease post-flight. MDPs and intermediate and non-classical monocytes also show significant differences between landing and post-flight measurements as well as between pre-flight and post-flight, with decreases in post-flight values compared with landing and pre-flight (<xref rid="SD2" ref-type="supplementary-material">Table S2</xref>).</p>
+                <p id="P17">The TNFR1 and TNFR2 non-canonical NF-κB pathways were also affected. TNFR1 showed statistically significant differences between landing and post-flight measurements for MDPs and classical, intermediate, and non-classical monocytes, with decreases in post-landing values compared with landing and pre-flight values (all <italic toggle="yes">q</italic> &lt; 0.01) (<xref rid="F5" ref-type="fig">Figures 5F</xref> and <xref rid="F5" ref-type="fig">5G</xref>; <xref rid="SD2" ref-type="supplementary-material">Table S2</xref>). Similar to IL-6, TNFR2 was also most affected in its classical monocyte population, although appearing to have an almost inverse relationship with IL-6 in its pre-flight, landing, and post-flight responses. TNFR2 shows a decrease in expression at R0 compared to pre-flight and subsequent increase post-flight. MDPs and intermediate monocytes also show significant differences between landing and post-flight measurements, as well as between pre-flight and post-flight measurements, with increases in post-flight values compared with landing and pre-flight values.</p>
+                <p id="P18">Given the rapid dynamics of the MDPs and other immune precursor populations, we then compared the response to the GM-CSF-associated cells between the pre-flight and landing samples. These data showed that the only population with a significant increase in expression is in the progenitor cells (<xref rid="F5" ref-type="fig">Figure 5H</xref>; <xref rid="SD2" ref-type="supplementary-material">Table S2</xref>). By contrast, when comparing the post-flight samples to either the pre-flight or landing samples, we see significant increases in expression within the classical and intermediate monocytes, as well as the neutrophils. The post-flight progenitor cells also had significantly increased expression compared with the pre-flight samples, but not the landing samples. The increase in GM-CSF response in the circulating progenitor cells at R0 correlates with the increase in their proportion of PBMCs. At R+36 and R+191, the classical and intermediate monocytes had elevated levels of GM-CSF pathway genes. This indicates a general expansion of the monocyte population, as evidenced by the increase in the new classical monocyte population. GM-CSF alone does not influence polarization of the monocytes, which is evidenced by an increase in new classical monocytes being accompanied by a decrease in the ratio of classical-to-non-classical monocytes, consistent with initiation of skeletal muscle repair (<xref rid="R72" ref-type="bibr">Wicks and Roberts, 2016</xref>; <xref rid="R24" ref-type="bibr">Kim et al., 2018</xref>).</p>
+              </sec>
+            </sec>
+            <sec id="S7">
+              <title>DISCUSSION</title>
+              <sec id="S8">
+                <title>Cytokine Shifts Mediating Inflammation, Muscle Regeneration, and Bone Anabolism</title>
+                <p id="P19">The biochemical profiling and single-cell analysis taken together suggest mechanisms involved in a physiological response to muscle regeneration and bone anabolism on landing. Muscle unloading conditions occurred concomitantly with the elevation of biomarkers associated with bone resorption, muscle atrophy, and regeneration during flight in TW. Soon after returning to 1g, muscle activation likely initiated cascades driven by the large increase of muscle-derived IL-6, comparable with signal cascades involving the same pathways and cytokines in studies involving intense exercise. While there are many factors influencing the changes in expression of the measured cytokines, muscle is the largest internal organ with autocrine, paracrine, and endocrine functions and is therefore most likely to be among the greatest contributors to the biochemical changes observed in TW (<xref rid="R46" ref-type="bibr">Pedersen, 2009</xref>, <xref rid="R47" ref-type="bibr">2013</xref>; <xref rid="R20" ref-type="bibr">Hamrick, 2011</xref>).</p>
+                <p id="P20">It is well established that muscle and bone mass are closely linked across growth, development, and aging on Earth. Spaceflight has been shown to cause skeletal muscle atrophy as a result of mechanical unloading, in spite of heavy resistive exercise regimens (<xref rid="R12" ref-type="bibr">Fitts et al., 2000</xref>; <xref rid="R4" ref-type="bibr">Brooks and Myburgh, 2014</xref>). Ground-based studies have also demonstrated that muscle atrophy is associated with bone loss and conversely, mechanical stimuli from muscle with bone anabolism and osteogenesis (<xref rid="R20" ref-type="bibr">Hamrick, 2011</xref>). These ground studies suggest that an increase of bone resorption markers in the flight data may be linked to muscle unloading (<xref rid="R25" ref-type="bibr">Ko et al., 2020</xref>) and atrophy, although more flight studies would be needed. The elevated in-flight markers include osteoclastogenic cytokines TNF-α, IL-1β, and IL-1α, among others, all of which also drive muscle wasting in chronic inflammatory conditions (<xref rid="R75" ref-type="bibr">Yang and Hu, 2018</xref>). Moreover, all the osteoclastogenic cytokines and chemokines, as well as the elevated bone resorption markers shown in <xref rid="F3" ref-type="fig">Figure 3</xref>, decrease significantly immediately after landing, following an ~100-fold increase in IL-6, again likely due to increased muscle loading. Noting that although loads such as standing and walking may not have been high, they were novel in comparison with spaceflight, both by using muscles not applied during exercise countermeasures and by having a higher cumulative load throughout the day.</p>
+              </sec>
+              <sec id="S9">
+                <title>Parallels between Pathogenic Immune Response and Muscle Regeneration</title>
+                <p id="P21">Under normal weight-bearing conditions, muscle regeneration during acute injury due to exercise can be divided into three major time-dependent phases that parallel an immune response to pathogens: the first and second phases are pro-inflammatory and the third phase is anti-inflammatory (<xref rid="R75" ref-type="bibr">Yang and Hu, 2018</xref>). In the first phase, pro-inflammatory cytokines including TNF-α and IL-1 are released to promote requisite inflammation to the affected muscle tissue (<xref rid="R17" ref-type="bibr">Gordon and Galli, 1990</xref>; <xref rid="R18" ref-type="bibr">Gorospe et al., 1996</xref>; <xref rid="R51" ref-type="bibr">Radley and Grounds, 2006</xref>). The second phase involves the conversion of monocytes to classically activated, pro-inflammatory M1 macrophages and the recruitment of T cells, which also express and maintain large amounts of TNF-α and IL-1β. The third phase is marked by the switch from pro-inflammatory M1-type to anti-inflammatory M2-type macrophages, which produce IL-10 to suppress the local inflammatory response and promote regeneration (<xref rid="R65" ref-type="bibr">Stout and Suttles, 2004</xref>; <xref rid="R75" ref-type="bibr">Yang and Hu, 2018</xref>). In the case of atrophy from non-use, however, mouse studies have indicated that unloading conditions such as spaceflight can inhibit or delay skeletal muscle regeneration by interfering with the recruitment of macrophages and abnormally persistent neutrophils (<xref rid="R26" ref-type="bibr">Kohno et al., 2012</xref>). The phenotype is thus predominantly driven by pro-inflammatory M1-type macrophages that are high in expression of TNF-α and IL-1β, leading to prolonged inflammation and incomplete muscle regeneration (<xref rid="R26" ref-type="bibr">Kohno et al., 2012</xref>).</p>
+                <p id="P22">The elevated in-flight levels of TNF-α, IL-1(β and α), along with the lack of IL-10 elevation in the biochemical data, suggest that while all three stages of muscle regeneration may be present during flight as a result of daily exercise, the first two pro-inflammatory stages appear to predominate over the third anti-inflammatory stage. On landing, the regeneration process progresses to the final, anti-inflammatory phase of regeneration as is supported by the increase of IL-10 and IL-1ra as well as the simultaneous decrease of TNF-α and IL-1(β and α).</p>
+              </sec>
+              <sec id="S10">
+                <title>Shifts in Monocyte Populations and Select Gene Pathways Suggest Muscle Regeneration</title>
+                <p id="P23">The single-cell data show a significant increase in the classical monocyte population at R0 compared with the pre-flight samples. Since there are no in-flight data available, it is unknown whether this population was elevated prior to landing. However, this might be the case as this would be consistent with chronic inflammation. Moreover, the change observed in the post-landing single-cell data, showing a progressive decrease in the classical monocyte population (M1 progenitor) and a progressive increase in non-classical (M2 progenitor) monocytes, supports the biochemical data that suggest a disrupted regeneration process in-flight. The decline in the post-landing neutrophil population may be indicative of change in the state of persistence in muscle, or re-acclimation to the terrestrial environment (and microbiome) (<xref rid="R57" ref-type="bibr">Singh et al., 2018</xref>), but it is difficult to say without knowing inflight values (<xref rid="R5" ref-type="bibr">Castro-Wallace et al., 2017</xref>; <xref rid="R39" ref-type="bibr">McIntyre et al., 2019</xref>). Expression of select gene pathways further supports this interpretation, particularly in the apparent near-inverse relationship between IL-6 and TNFR2, mainly in the classical monocyte population. It is also interesting to note the R0 values in the single-cell data returned to pre-flight values by R+36.</p>
+              </sec>
+              <sec id="S11">
+                <title>Pharmacological Interventions</title>
+                <p id="P24">Insights from the multi-omics data generated in the NASA Twins Study and the comprehensive biochemical profiling analyzed can potentially translate into targeted pharmacotherapies for astronauts to ameliorate symptoms experienced on return to Earth. However, these must be weighed carefully, as many potential interventions would impair muscle regeneration. Here, we review some of the pharmacological measures specific to different cytokines and chemokines with significant shifts in TW’s return, which are also summarized in <xref rid="T1" ref-type="table">Table 1</xref>.</p>
+                <p id="P25">Of the five cytokines that spiked on landing, only two appear to be good candidates for pharmacological intervention: IL-6 and IL-1ra. IL-6 is at the center of the pathways involving muscle regeneration, which would make it an ideal target for pharmacological manipulation. However, global inhibition of IL-6 can result in impaired muscle growth (<xref rid="R19" ref-type="bibr">Grivennikov et al., 2009</xref>; <xref rid="R53" ref-type="bibr">Scheller et al., 2011</xref>; <xref rid="R21" ref-type="bibr">Hoene et al., 2013</xref>; <xref rid="R40" ref-type="bibr">Muñoz-Cánoves et al., 2013</xref>). Yet, selective inhibition of IL-6 trans-signaling is possible using soluble gp130 (sgp130) to bind the IL-6/soluble IL-R6 (sIL-6R) complex in circulation (<xref rid="R23" ref-type="bibr">Kaiser et al., 2018</xref>). Moreover, studies suggest that classic signaling may mediate beneficial effects on bone repair and that selective inhibition of IL-6 trans-signaling may have therapeutic potential (<xref rid="R19" ref-type="bibr">Grivennikov et al., 2009</xref>; <xref rid="R53" ref-type="bibr">Scheller et al., 2011</xref>; <xref rid="R23" ref-type="bibr">Kaiser et al., 2018</xref>). As opposed to selective inhibition of trans-signaling, in-flight enhancement of IL-6 is another possibility. Although IL-6 is already slightly elevated in-flight, the source of IL-6 is dictating an inflammatory, trans-signaling pathway as is supported by the elevated levels of TNF-α and IL-1. In studies of IL-6 enhancement, recombinant human IL-6 (rhIL-6) infusion inhibited levels of TNF-α similarly to the effects of exercise, or increased production of IL-1ra and IL-10 without increasing TNF-α (<xref rid="R62" ref-type="bibr">Starkie et al., 2003</xref>; <xref rid="R63" ref-type="bibr">Steensberg et al., 2013</xref>). These provide potential options for control of the inflammatory downstream effects of IL-6 trans-signaling while in flight, although not necessarily on landing since there is already an abundance of muscle-derived IL-6. Enhancement of IL-1ra may be a strategy better suited for landing. IL-1ra is involved in the resolution of inflammation in skeletal muscle repair after exercise by blocking IL-1 inflammatory pathways as well as IL-6 trans-signaling without affecting muscle-generated IL-6 (<xref rid="R48" ref-type="bibr">Pedersen et al., 2001</xref>; <xref rid="R43" ref-type="bibr">Nordmann et al., 2015</xref>). A clinical trial by <xref rid="R43" ref-type="bibr">Nordmann et al. (2015)</xref> found that IL-1 antagonism with a recombinant, non-glycosylated form of the human IL-1ra (anakinra) improved glycemia and decreased systemic inflammation including trans-signaling of IL-6 without affecting muscle-derived IL-6, which is independent of IL-1 signaling.</p>
+                <p id="P26">Inhibition of CRP on landing may be unfavorable for muscle regeneration and must be considered carefully. Like IL-6, CRP has pro- and anti-inflammatory roles in many processes related to inflammation and tissue maintenance (<xref rid="R9" ref-type="bibr">Del Giudice and Gangestad, 2018</xref>). In the absence of inflammation, CRP production is stimulated by IL-6 via classic signaling. Through this pathway, CRP is acting in an anti-inflammatory role by stimulating the release of IL-10 and IL-1ra, contributing to tissue repair and clearance of damaged cells, as well as resolving inflammation by inducing the anti-inflammatory M2 phenotype in macrophages, which promotes tissue repair and wound healing (<xref rid="R9" ref-type="bibr">Del Giudice and Gangestad, 2018</xref>).</p>
+                <p id="P27">Although CCL2 is often a pharmacological target for inflammation, it plays an essential role inducing a requisite inflammatory response to repair and regenerate skeletal muscle (<xref rid="R11" ref-type="bibr">Deshmane et al., 2009</xref>; <xref rid="R33" ref-type="bibr">Lu et al., 2011</xref>). Human clinical trials in most investigational drugs that target CCL2/CCR2 signaling have failed except for plozalizumab (<xref rid="R15" ref-type="bibr">Gilbert et al., 2011</xref>). Alprazolam, a benzodiazepine medication, has been found to inhibit IL-1α-elicited CCL2 production without inhibiting IL-8 production (<xref rid="R44" ref-type="bibr">Oda et al., 2002</xref>). However, in the case of returning astronauts, any attempts to reduce CCL2 production or reduce CCR2 expression would need to be carefully weighed, since poor muscle regeneration may be a significant side effect of this line of therapy and would not be warranted to treat an acute and temporary elevation of CCL2 (<xref rid="R33" ref-type="bibr">Lu et al., 2011</xref>).</p>
+                <p id="P28">Enhancement of IL-10 would initially seem a plausible avenue, since IL-10 plays a central role in regulating the switch of macrophages from the inflammatory M1 to the anti-inflammatory M2 phenotype in injured muscle, as well as inhibiting the production of inflammatory IL-1α, IL-1β, GCSF, and GM-CSF (<xref rid="R10" ref-type="bibr">Deng et al., 2012</xref>; <xref rid="R32" ref-type="bibr">Londhe and Guttridge, 2015</xref>). However, clinical studies find that IL-10 supplementation mainly benefits subjects who have endogenously lower expression of IL-10 and who have active disease states (<xref rid="R37" ref-type="bibr">Marlow et al., 2013</xref>). Moreover, although IL-10 is required for normal growth and regeneration of injured muscle, there appears to be a dose-dependent effect, and supraphysiological levels may slow the growth of regenerative fibers (<xref rid="R29" ref-type="bibr">Lauw et al., 2000</xref>; <xref rid="R49" ref-type="bibr">Perdiguero et al., 2011</xref>; <xref rid="R10" ref-type="bibr">Deng et al., 2012</xref>). Therefore, use of IL-10 must also be carefully considered.</p>
+                <p id="P29">In conclusion, these data indicate that the severity of the human body’s response to returning to gravity is somewhat dependent on the length of time an astronaut spends in space. While these findings are striking, and the suggested countermeasures plausible, it must be cautioned that these are results of an n = 2 study, plus a small confirmatory cohort of 28 astronauts. More data for longer missions need to be collected to prepare for long-duration Martian missions (<xref rid="R42" ref-type="bibr">Nangle et al., 2020</xref>), including new, dynamic measures from blood and serum such as cell-free nucleic acids and exomes (<xref rid="R3" ref-type="bibr">Bezdan, 2020</xref>), miRNAs (Malkani, 2020), telomere dynamics (<xref rid="R34" ref-type="bibr">Luxton, 2020</xref>), and mitochondrial stress (<xref rid="R56" ref-type="bibr">Silveira, 2020</xref>). Also, while some of these biochemical and genetic signatures are recurrent, not every astronaut will exhibit the same biochemical profile shifts or respond the same way to the same medical interventions (<xref rid="R71" ref-type="bibr">Vernice et al., 2020</xref>). Indeed, such variability is the basis for the field of pharmacogenomics, and personalized approaches to aerospace medicine are now emerging (<xref rid="R22" ref-type="bibr">Iosim et al., 2019</xref>; <xref rid="R54" ref-type="bibr">Schmidt et al., 2020</xref>). This catalog of biomarkers, their targets, and methods for pharmacological manipulation can help guide future work and understanding of the body’s adaptations to “normal” gravity when returning to Earth (1g), or eventually the less strenuous gravity of the moon (16%) or Mars (38%).</p>
+              </sec>
+            </sec>
+            <sec id="S12">
+              <title>STAR★METHODS</title>
+              <sec id="S13">
+                <title>RESOURCE AVAILABILITY</title>
+                <sec id="S14">
+                  <title>Lead contact</title>
+                  <p id="P30">Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, Christopher Mason (<email>chm2042@med.cornell.edu</email>)</p>
+                </sec>
+                <sec id="S15">
+                  <title>Materials availability</title>
+                  <p id="P31">This study did not generate any new unique reagents.</p>
+                </sec>
+                <sec sec-type="data-availability" id="S16">
+                  <title>Data and code availability</title>
+                  <p id="P32">The NASA Life Sciences Data Archive (LSDA) is the repository for all human and animal research data, including that associated with this study. LSDA has a public facing portal where data requests can be initiated (<ext-link xlink:href="https://lsda.jsc.nasa.gov/Request/dataRequestFAQ" ext-link-type="uri">https://lsda.jsc.nasa.gov/Request/dataRequestFAQ</ext-link>). The LSDA team provides the appropriate processes, tools, and secure infrastructure for archival of experimental data and dissemination while complying with applicable rules, regulations, policies, and procedures governing the management and archival of sensitive data and information. The LSDA team enables data and information dissemination to the public or to authorized personnel either by providing public access to information or via an approved request process for information and data from the LSDA in accordance with NASA Human Research Program and Johnson Space Center (JSC) Institutional Review Board direction.</p>
+                </sec>
+              </sec>
+              <sec id="S17">
+                <title>EXPERIMENTAL MODELS AND SUBJECT DETAILS</title>
+                <sec id="S18">
+                  <title>NASA Twins Study sample collection</title>
+                  <p id="P33">A pair of monozygotic twins were studied for 25 months, during which one subject (Flight subject, TW) spent 340 days aboard the International Space Station (ISS) while his identical twin (Ground subject, HR) remained on Earth (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Subjects were male and aged 50 at the beginning of the study. Both subjects had different amounts spaceflight exposure prior to the study (Flight subject = 180 days total, Ground subject = 54 days total). Multiple blood samples were collected (N<sub>flight</sub> = 19, N<sub>ground</sub> = 12) from both subjects beginning approximately 6 months prior to the launch date, during the 340 days aboard the ISS, and 6 months after return (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>).</p>
+                  <p id="P34">Blood and urine samples were collected as previously described (<xref rid="R60" ref-type="bibr">Smith et al., 2012b</xref>, <xref rid="R61" ref-type="bibr">2015</xref>; <xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Blood sample collection, sorting, RNA extraction, RNA sequencing analysis, quality control, library preparation, and sequencing were previously described (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Briefly, for lymphocyte analyses, samples were either mixed by inversion, subjected to mononuclear cell separation to isolate PBMCs and immediately frozen at −80°C (for both Earth and ISS collections), or were freshly collected and immediately processed. Fresh samples collected aboard the ISS were returned to Earth in the Soyuz capsule and kept at 4°C until processing (approximately 35 h from collection to processing). CD4, CD8, and CD19 cells were isolated from fresh samples and the remaining Lymphocyte-depleted fraction (LD) was retrieved from sequential magnetic bead positive selections. Frozen samples were processed to retrieve the PBMCs from the CPT vacutainers.</p>
+                </sec>
+              </sec>
+              <sec id="S19">
+                <title>METHOD DETAILS</title>
+                <sec id="S20">
+                  <title>Proteomics on NASA Twins Study samples</title>
+                  <p id="P35">Data generation was described in <xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>.</p>
+                </sec>
+                <sec id="S21">
+                  <title>Targeted urine proteomics</title>
+                  <p id="P36">An LC-MS/MS based targeted proteomic approach was applied to assess 24 h pooled urine samples targeting a panel of 20 proteins which are found detectable in urine samples derived from healthy subjects and individuals with pathological conditions: podocalyxin (PODXL), renin receptor (RENR), urokinase-type plasminogen activator (UROK), pro-epidermal growth factor (EGF), Collagen alpha-1(I) chain (CO1A1), Collagen alpha-1(III) chain (CO3A1), Intercellular adhesion molecule 1 (ICAM1), Cathepsin D (CATD), Matrilysin (MMP7), Insulin-like growth factor-binding protein 3 (IBP3), Insulin-like growth factor-binding protein 2 (IBP2), Vascular cell adhesion protein 1 (VCAM1), Connective tissue growth factor (CTGF), Syndecan-4 (SDC4), Aquaporin-2 (AQP2), Selenoprotein P (SEPP1), Urokinase plasminogen activator surface receptor (UPAR), Insulin-like growth factor-binding protein 7 (IBP7), Endothelial cell-selective adhesion molecule (ESAM), Cytosolic non-specific dipeptidase (CNDP2). Urine (0.2 mL) was supplemented with 1 μg of α-amylase from <italic toggle="yes">Aspergillus oryzea</italic>, which helps provide bulk protein to optimize protein precipitation and helps control for the variability in digestion from sample to sample. Ice-cold acidified methanol:acetone 50%:50% (v:v, 0.8 mL) was used to precipitate proteins for 24 h at −20°C. Precipitated proteins are dried under vacuum and then reconstituted in 0.5% sodium deoxycholate in 50 mM ammonium bicarbonate. Proteins were reduced in 5 mM dithiothreitol for 1 h at 60°C, alkylated in 15 mM iodoacetamide for 30 min at room temperature in the dark, and then digested with 1 μg trypsin (Worthington Biomedical, Lakewood, NJ) for 2 h at 37°C with shaking (Thermomixer, 1400 rpm). Deoxycholate was precipitated by the addition of HCl (final concentration of 200 mM), which was removed by centrifugation. The supernatant was desalted using solid phase extraction (HLB mElute plate, Waters, Milford, MA). The eluted peptides were dried under vacuum and reconstituted in 5% acetonitrile in 0.1% formic acid, which was then spiked with internal standard peptides. Proteins of interest were quantified using LC-MS/MS on a Thermo Orbitrap mass spectrometer coupled to an Easy-nLC liquid chromatography system (Thermo Scientific, Waltham, MA). Selected peptides from the proteins of interest were monitored by selecting their precursor ions in the isolation quadrupole (selection window 1.5 Da) and full scan MS/ MS after HCD fragmentation (NCE 27) in the Orbitrap analyzer using the lowest resolution (17,500) setting to increase scan rate. Scheduled acquisition with five-minute acquisition windows were set up for each peptide precursor using Skyline software (<xref rid="R35" ref-type="bibr">MacLean et al., 2010</xref>), allowing a maximum of 30 concurrent PRM experiments at any given time. Acquired data were then processed in Skyline, and automated integration was 10 manually checked for each peptide chromatogram.</p>
+                </sec>
+                <sec id="S22">
+                  <title>Untargeted urine proteomics</title>
+                  <p id="P37">The digested peptides (375 ng) were injected on a trap column (40 × 0.1 mm, Reprosil-Pur 120 C18-AQ, 5 um, Dr.Maisch GmbH, Germany), desalted for 5 min at a flow of 4 μL/min and separated on a pulled tip analytical column (250 × 0.075 mm, Reprosil-Pur 120 C18-AQ, 5 um, Dr. Maisch GmbH, Germany) with a three-segment linear gradient of acetonitrile, 0.1%FA (B) in water, 0.1%FA (A) as follows: 0–3 min 1%–7%B, 3–53 min 7%–25%B, 53–60 min 25%–35%B followed by column wash at 80%B and re-equilibration at a flow rate 0.4 uL/min (Waters NanoACQUITY UPLC). Analysis using the data independent acquisition was performed in two steps. A chromatogram library, peptide and, protein identification, and spectral library was performed with narrow mass window selection for the MS/MS (2 m/z) on a pooled sample. The study samples were analyzed with a wider mass window selection for MS/MS (10 m/z). The data independent analysis was performed on Orbitrap Fusion Lumos (Thermo Scientific) as follows: single full scan MS1 is acquired over m/z range 395–1005 at resolution 120,000 followed by 60 MS/MS spectra with a 10 m/z window selection stepped over the range 400–1000 with HCD fragmentation mode (NCE 30) and MS/MS acquisition in the Orbitrap analyzer at resolution 17,500. For Chromatogram library generation a sample pooled across multiple subjects and time points was analyzed in a similar fashion in 6 separate injections with the DIA acquisition using 2 m/z window over m/z ranges 400–520, 520–640, 640–760, 760880, 880–1000.</p>
+                </sec>
+                <sec id="S23">
+                  <title>Untargeted plasma proteomics</title>
+                  <p id="P38">Plasma proteins were reduced by 5 mM tris (2-carboxyethyl) phosphine and alkylated using 10 mM iodoacetamide. They were then digested by trypsin using 1:20 protein ratio. Tryptic peptides of plasma samples were separated on a NanoLC 425 System (SCIEX). 5 ul/min flow was used with trap-elute setting using a 0.5 × 10 mm ChromXP (SCIEX). LC gradient was set to a 43-minute gradient from 4%–32% B with 1 h total run. Mobile phase A was 100% water with 0.1% formic acid. Mobile phase B was 100% acetonitrile with 0.1% formic acid. 8 ug load of undepleted plasma on 15 cm ChromXP column.</p>
+                </sec>
+                <sec id="S24">
+                  <title>Cytokine assays</title>
+                  <p id="P39">Levels of circulating cytokines in the blood were measured using a 63-plex Luminex antibody-conjugated bead capture assay (Affymetrix) that has been extensively characterized and benchmarked by the Stanford Human Immune Monitoring Center (HIMC). Human 63-plex kits were purchased from eBiosciences/Affymetrix and used according to the manufacturer’s recommendations with modifications as described below. Briefly, beads were added to a 96-well plate and washed using a Biotek ELx405 washer. Samples were added to the plate containing the mixed antibody-linked beads and incubated at room temperature for 1 h followed by overnight incubation at 4°C with shaking. Cold and room temperature incubation steps were performed on an orbital shaker at 500–600 rpm. Following the overnight incubation, plates were washed using a Biotek ELx405 washer and then biotinylated detection antibody added for 75 min at room temperature with shaking. The plate was washed as describe earlier and streptavidin-PE was added. After incubation for 30 min at room temperature, a wash was performed as above and reading buffer was added to the wells. Each sample was measured in duplicate. Plates were read using a Luminex 200 instrument with a lower bound of 50 beads per sample per cytokine. Custom assay control beads by Radix Biosolutions were added to all wells.</p>
+                </sec>
+                <sec id="S25">
+                  <title>Single cell RNA and epitope sequencing on NASA Twins Study samples</title>
+                  <p id="P40">Single-cell BD Rhapsody data were generated according to the BD Rhapsody Express Single-Cell Analysis System Instrument User Guide. Briefly, single cell suspensions were generated from the Leukocyte Depleted (CD4, CD8 and CD19 depleted) fraction of cells previously described (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>). Cells from each sample were labeled with sample tags, pooled, and washed three times with FACS buffer. Cells were then stained with BD AbSeq Ab-Oligo reagents, washed twice and resuspended at approximately 20,000 cells in 620 μL. Stained and washed cells were isolated using the BD Rhapsody Express Single-Cell Analysis System using the manufacturer’s protocol (BD Biosciences). Cells were loaded across three BD Rhapsody nanowell cartridges. These cartridges were loaded with Cell Capture Beads (BD Biosciences), then incubated at room temperature for 15 s on a shaker set to 1,000 rpm. Cells were lysed and cell capture beads were retrieved, washed, treated with Exonuclease I and reverse transcriptase. Targeted amplification of cDNA with Human Immune Response Panel primers and custom supplemental panel was done through 10 PCR cycles. Custom gene and epitope panel designed with help from BD (see <xref rid="SD2" ref-type="supplementary-material">Table S1</xref> for probe list). PCR products were purified, with mRNA and AbSeq PCR products being separated by double-sided selection SPRI select beads. mRNA was further amplified with 15 more PCR cycles. Final libraries were indexed with 8 PCR cycles. A Bioanalyzer (D1000 HS, Agilent) was used to assess library quality and a Qubit dsDNA HS Kit (ThermoFisher, #Q32854) and Qubit Fluorometer was used to determine library DNA concentration. Libraries were diluted to 2nM, multiplexed, and sequenced on three NovaSeq-6000 lanes. Mean read depth per cell was 13,244.31 mRNA reads per cell and 11,506.98 AbSeq reads per cell for a combined total of 24,751.30 reads per cell.</p>
+                </sec>
+              </sec>
+              <sec id="S26">
+                <title>QUANTIFICATION AND STATISTICAL ANALYSIS</title>
+                <sec id="S27">
+                  <title>Analysis of Proteomics from NASA Twins Study Samples</title>
+                  <p id="P41">Biochemical data were processed as described in <xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>. Samples were normalized to pre-flight mean for each astronaut.</p>
+                </sec>
+                <sec id="S28">
+                  <title>Targeted urine proteomics</title>
+                  <p id="P42">Acquired data were then processed in Skyline and automated integration is manually checked for each peptide chromatogram.</p>
+                </sec>
+                <sec id="S29">
+                  <title>Untargeted urine proteomics</title>
+                  <p id="P43">A spectral library of identified peptides and proteins was generated using a pipeline combining two approaches – a combination of DIA Umpire to extract MS/MS spectra followed by a Comet database search, and a direct approach using PECAN (<xref rid="R68" ref-type="bibr">Ting et al., 2017</xref>) lemented in EncyclopeDIA (<xref rid="R55" ref-type="bibr">Searle et al., 2018</xref>) Proteins and peptides were then quantified in each sample using EncyclopeDIA and Skyline (<xref rid="R35" ref-type="bibr">MacLean et al., 2010</xref>; <xref rid="R55" ref-type="bibr">Searle et al., 2018</xref>) using with an mProphet probability scoring algorithm (<ext-link xlink:href="http://mprophet.org/" ext-link-type="uri">http://mprophet.org</ext-link>) and are filtered at q-value = 0.01 to generate list of quantifiable peptides and proteins together with corresponding quantitative responses. The data was further processed and quantified in Skyline and mapDIA (<xref rid="R67" ref-type="bibr">Teo et al., 2015</xref>) software packages. Individual protein and peptide responses were exported for further statistical analysis. Peak areas for each endogenous peptide were normalized to internal standard peptides from a stable isotope-labeled internal α-amylase protein standard to generate a peak area ratio for each peptide in each sample. Peak area ratios for each protein were averaged, and protein peak area ratios then normalized to protein peak area ratios for calibrator samples included in each digestion batch. The resulting calibrated protein peak area ratios were used as relative concentrations of each protein.</p>
+                </sec>
+                <sec id="S30">
+                  <title>Untargeted plasma proteomics</title>
+                  <p id="P44">MS analyses were performed using SWATH®Acquisition on a TripleTOF®6600 System equipped with a DuoSpraySource and 25 μm I.D. electrode (SCIEX). Variable Q1 window SWATH Acquisition methods (100 windows) were built in high sensitivity MS/MS mode with Analyst®TF Software 1.7. Peakgroups from individual runs were statistically scored with pyProphet and all runs were aligned using TRIC to produce a final data matrix. Protein abundances were computed as the sum of the three most abundant peptides (top3 method). After log-transformation and scaling by median count, a linear model was fit to the data. The false discovery rates (FDRs) were estimated using the “p.adjust” function in R. Proteins were considered discriminant when the adjusted p value was below 0.05.</p>
+                </sec>
+                <sec id="S31">
+                  <title>Cytokine assays</title>
+                  <p id="P45">After log-transformation and scaling by median count, linear models were fit to the data. The false discovery rates (FDRs) were estimated using the “p.adjust” function in R. Cytokines were considered discriminant when the adjusted p value was below 0.05.</p>
+                </sec>
+                <sec id="S32">
+                  <title>Analysis of scRNA and epitope sequencing from NASA Twins Study Samples</title>
+                  <p id="P46">Fastq files were uploaded to Seven Bridges Genomics. Data were demultiplexed and sequences analyzed with BD’s Rhapsody pipeline (BD Rhapsody Analysis Pipeline 1.4 Beta) on Seven Bridges (<ext-link xlink:href="https://www.sevenbridges.com/" ext-link-type="uri">https://www.sevenbridges.com/</ext-link>). This generated a sparse matrix file of features by barcodes. This sparse matrix data were then read into R using the R package Seurat 3.2.0 (<xref rid="R66" ref-type="bibr">Stuart et al., 2019</xref>), and standard quality control was run to remove cells with few genes or likely doublets. Data were then scaled and normalized. Linear dimensional reduction was performed by calculation of PCA from the most variable genes. Cells were then clustered using a resolution value of 0.5 and visualized by UMAP. Module scores were calculated using the AddModuleScore function with a control value of 5. Individual genes and module scores were projected and used to identify appropriate classification of clusters. Clusters were assigned to cell populations based on gene markers. Significance in module scores between cell populations calculated by Wilcoxon rank sum and corrected by Benjamini Hochberg (5% FDR).</p>
+                </sec>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material" id="SM1">
+              <title>Supplementary Material</title>
+              <supplementary-material id="SD1" position="float" content-type="local-data">
+                <label>1</label>
+                <media xlink:href="NIHMS1653534-supplement-1.pdf" id="d64e940" position="anchor"/>
+              </supplementary-material>
+              <supplementary-material id="SD2" position="float" content-type="local-data">
+                <label>2</label>
+                <media xlink:href="NIHMS1653534-supplement-2.xlsx" id="d64e943" position="anchor"/>
+              </supplementary-material>
+            </sec>
+          </body>
+          <back>
+            <ack id="S33">
+              <title>ACKNOWLEDGMENTS</title>
+              <p id="P47">We would like to thank the Epigenomics Core Facility at Weill Cornell Medicine, the Starr Cancer Consortium (I9-A9-071), and the Irma T. Hirschl and Monique Weill-Caulier Charitable Trusts, the Bert L. and N. Kuggie Vallee Foundation, the WorldQuant Foundation, the Pershing Square Sohn Cancer Research Alliance, NASA (NNX14AH50G, NNX17AB26G), the National Institutes of Health (R25EB020393, R01NS076465, R01AI125416, R01ES021006, 1R21AI129851, 1R01MH117406, 1F31CA254302-01), TRISH (NNX16AO69A:0107, NNX16AO69A:0061), the Bill and Melinda Gates Foundation (OPP1151054), and the Leukemia and Lymphoma Society (LLS) (LLS 9238-16, Mak; LLS-MCL-982, Chen-Kiang). We would like to thank the NASA JSC Nutritional Biochemistry Lab for project coordination, sample collection, processing, and analysis; the NASA Human Research Program’s ISS Medical Projects Element, Daniel Mollicone and Christopher Mott from Pulsar Informatics Inc., and Emanuel Hermosillo and Sarah McGuire for support of the cognition measures; Dr. Yael-Rosenberg Hasson from the Stanford Human Immune Monitoring Center for advice and support on cytokine profiling data; Keith Bettinger from Stanford University for support with the Stanford Twins data repository; Pawel R. Kiela, DVM, PhD, Daniel Laubitz, PhD (University of Arizona), and Eunjoo Song (Northwestern University) for support of the Microbiome project sample collection; and Jiwan “John” Kim for laboratory support in targeted metabolomics. We thank Jason X.-Y. Yuan, MD, PhD, at the University of Arizona, Tucson, for providing his support and laboratory for the Tucson sample collections. Finally, we thank Nazanin Valibeigi, BS, for her ad hoc literature searches. This work was supported by the NASA Human Research Program Human Health Countermeasures Element.</p>
+              <sec id="S34">
+                <title>DECLARATION OF INTERESTS</title>
+                <p id="P48">Although not relevant to this study, for full disclosure, C.E.M. is a cofounder and board member for Biotia and Onegevity Health as well as an advisor or grantee for Abbvie, ArcBio, Daiichi Sankyo, DNA Genotek, Tempus Labs, and Whole Biome.</p>
+              </sec>
+            </ack>
+            <fn-group>
+              <fn id="FN4">
+                <p id="P49">SUPPLEMENTAL INFORMATION</p>
+                <p id="P50"><xref rid="SD1" ref-type="supplementary-material">Supplemental Information</xref> can be found online at <ext-link xlink:href="10.1016/j.celrep.2020.108429" ext-link-type="doi">https://doi.org/10.1016/j.celrep.2020.108429</ext-link>.</p>
+              </fn>
+            </fn-group>
+            <ref-list>
+              <title>REFERENCES</title>
+              <ref id="R1">
+                <mixed-citation publication-type="journal"><name><surname>Akima</surname><given-names>H</given-names></name>, <name><surname>Kawakami</surname><given-names>Y</given-names></name>, <name><surname>Kubo</surname><given-names>K</given-names></name>, <name><surname>Sekiguchi</surname><given-names>C</given-names></name>, <name><surname>Ohshima</surname><given-names>H</given-names></name>, <name><surname>Miyamoto</surname><given-names>A</given-names></name>, and <name><surname>Fukunaga</surname><given-names>T</given-names></name>.(<year>2000</year>). <article-title>Effect of short-duration spaceflight on thigh and leg muscle volume</article-title>. <source>Med. Sci. Sports Exerc</source><volume>32</volume>, <fpage>1743</fpage>–<lpage>1747</lpage>.<pub-id pub-id-type="pmid">11039647</pub-id></mixed-citation>
+              </ref>
+              <ref id="R2">
+                <mixed-citation publication-type="journal"><name><surname>Amarasekara</surname><given-names>DS</given-names></name>, <name><surname>Yun</surname><given-names>H</given-names></name>, <name><surname>Kim</surname><given-names>S</given-names></name>, <name><surname>Lee</surname><given-names>N</given-names></name>, <name><surname>Kim</surname><given-names>H</given-names></name>, and <name><surname>Rho</surname><given-names>J</given-names></name>. (<year>2018</year>). <article-title>Regulation of osteoclast differentiation by cytokine networks</article-title>. <source>Immune Netw</source>. <volume>18</volume>, <fpage>e8</fpage>.<pub-id pub-id-type="pmid">29503739</pub-id></mixed-citation>
+              </ref>
+              <ref id="R3">
+                <mixed-citation publication-type="journal"><name><surname>Bezdan</surname><given-names>D</given-names></name>, <name><surname>Grigorev</surname><given-names>K</given-names></name>, <name><surname>Meydan</surname><given-names>C</given-names></name>, <name><surname>Vatter</surname><given-names>FA</given-names></name>, <name><surname>Cioffi</surname><given-names>M</given-names></name>, <name><surname>Rao</surname><given-names>V</given-names></name>, <name><surname>Nakahira</surname><given-names>K</given-names></name>, <name><surname>Burnham</surname><given-names>P</given-names></name>, <name><surname>Afshinnekoo</surname><given-names>E</given-names></name>, <etal/> (<year>2020</year>). <article-title>Cell-free DNA (cfDNA) and exosome profiling from a year-long human spaceflight reveals circulating biomarkers</article-title>. <source>iScience</source>. <pub-id pub-id-type="doi">10.1016/j.isci.2020.101844</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="R4">
+                <mixed-citation publication-type="journal"><name><surname>Brooks</surname><given-names>NE</given-names></name>, and <name><surname>Myburgh</surname><given-names>KH</given-names></name> (<year>2014</year>). <article-title>Skeletal muscle wasting with disuse atrophy is multi-dimensional: The response and interaction of myonuclei, satellite cells and signaling pathways</article-title>. <source>Front. Physiol</source>
+<volume>5</volume>, <fpage>99</fpage>.<pub-id pub-id-type="pmid">24672488</pub-id></mixed-citation>
+              </ref>
+              <ref id="R5">
+                <mixed-citation publication-type="journal"><name><surname>Castro-Wallace</surname><given-names>SL</given-names></name>, <name><surname>Chiu</surname><given-names>CY</given-names></name>, <name><surname>John</surname><given-names>KK</given-names></name>, <name><surname>Stahl</surname><given-names>SE</given-names></name>, <name><surname>Rubins</surname><given-names>KH</given-names></name>, <name><surname>McIntyre</surname><given-names>ABR</given-names></name>, <name><surname>Dworkin</surname><given-names>JP</given-names></name>, <name><surname>Lupisella</surname><given-names>ML</given-names></name>, <name><surname>Smith</surname><given-names>DJ</given-names></name>, <name><surname>Botkin</surname><given-names>DJ</given-names></name>, <etal/> (<year>2017</year>). <article-title>Nanopore DNA Sequencing and Genome Assembly on the International Space Station</article-title>. <source>Scientific Data</source>
+<volume>7</volume>, <fpage>18022</fpage>.</mixed-citation>
+              </ref>
+              <ref id="R6">
+                <mixed-citation publication-type="journal"><name><surname>Chalaris</surname><given-names>A</given-names></name>, <name><surname>Gewiese</surname><given-names>J</given-names></name>, <name><surname>Paliga</surname><given-names>K</given-names></name>, <name><surname>Fleig</surname><given-names>L</given-names></name>, <name><surname>Schneede</surname><given-names>A</given-names></name>, <name><surname>Krieger</surname><given-names>K</given-names></name>, <name><surname>Rose-John</surname><given-names>S</given-names></name>, and <name><surname>Scheller</surname><given-names>J</given-names></name>.(<year>2010</year>). <article-title>ADAM17-mediated shedding of the IL6R induces cleavage of the membrane stub by γ-secretase</article-title>. <source>Biochim. Biophys. Acta</source><volume>1803</volume>, <fpage>234</fpage>–<lpage>245</lpage>.<pub-id pub-id-type="pmid">20026129</pub-id></mixed-citation>
+              </ref>
+              <ref id="R7">
+                <mixed-citation publication-type="journal"><name><surname>Charoenlarp</surname><given-names>P</given-names></name>, <name><surname>Rajendran</surname><given-names>AK</given-names></name>, and <name><surname>Iseki</surname><given-names>S</given-names></name>.(<year>2017</year>). <article-title>Role of fibroblast growth factors in bone regeneration</article-title>. <source>Inflamm. Regen</source><volume>37</volume>, <fpage>10</fpage>.<pub-id pub-id-type="pmid">29259709</pub-id></mixed-citation>
+              </ref>
+              <ref id="R8">
+                <mixed-citation publication-type="journal"><name><surname>Crucian</surname><given-names>BE</given-names></name>, <name><surname>Zwart</surname><given-names>SR</given-names></name>, <name><surname>Mehta</surname><given-names>S</given-names></name>, <name><surname>Uchakin</surname><given-names>P</given-names></name>, <name><surname>Quiriarte</surname><given-names>HD</given-names></name>, <name><surname>Pierson</surname><given-names>D</given-names></name>, <name><surname>Sams</surname><given-names>CF</given-names></name>, and <name><surname>Smith</surname><given-names>SM</given-names></name> (<year>2014</year>). <article-title>Plasma cytokine concentrations indicate that in vivo hormonal regulation of immunity is altered during long-duration spaceflight</article-title>. <source>J. Interferon Cytokine Res</source>
+<volume>34</volume>, <fpage>778</fpage>–<lpage>786</lpage>.<pub-id pub-id-type="pmid">24702175</pub-id></mixed-citation>
+              </ref>
+              <ref id="R9">
+                <mixed-citation publication-type="journal"><name><surname>Del Giudice</surname><given-names>M</given-names></name>, and <name><surname>Gangestad</surname><given-names>SW</given-names></name> (<year>2018</year>). <article-title>Rethinking IL-6 and CRP: Why they are more than inflammatory biomarkers, and why it matters</article-title>. <source>Brain Behav. Immun</source>
+<volume>70</volume>, <fpage>61</fpage>–<lpage>75</lpage>.<pub-id pub-id-type="pmid">29499302</pub-id></mixed-citation>
+              </ref>
+              <ref id="R10">
+                <mixed-citation publication-type="journal"><name><surname>Deng</surname><given-names>B</given-names></name>, <name><surname>Wehling-Henricks</surname><given-names>M</given-names></name>, <name><surname>Armando Villalta</surname><given-names>S</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, and <name><surname>Tidball</surname><given-names>JG</given-names></name>. (<year>2012</year>). <article-title>IL-10 triggers changes in macrophage phenotype that promote muscle growth and regeneration</article-title>. <source>J. Immunol</source><volume>189</volume>, <fpage>3669</fpage>–<lpage>3680</lpage>.<pub-id pub-id-type="pmid">22933625</pub-id></mixed-citation>
+              </ref>
+              <ref id="R11">
+                <mixed-citation publication-type="journal"><name><surname>Deshmane</surname><given-names>SL</given-names></name>, <name><surname>Kremlev</surname><given-names>S</given-names></name>, <name><surname>Amini</surname><given-names>S</given-names></name>, and <name><surname>Sawaya</surname><given-names>BE</given-names></name> (<year>2009</year>). <article-title>Monocyte chemoattractant protein-1 (MCP-1): an overview</article-title>. <source>J. Interferon Cytokine Res</source>
+<volume>29</volume>, <fpage>313</fpage>–<lpage>326</lpage>.<pub-id pub-id-type="pmid">19441883</pub-id></mixed-citation>
+              </ref>
+              <ref id="R12">
+                <mixed-citation publication-type="journal"><name><surname>Fitts</surname><given-names>RH</given-names></name>, <name><surname>Riley</surname><given-names>DR</given-names></name>, and <name><surname>Widrick</surname><given-names>JJ</given-names></name> (<year>2000</year>). <article-title>Physiology of a microgravity environment invited review: Microgravity and skeletal muscle</article-title>. <source>J. Appl. Physiol</source>
+<volume>89</volume>, <fpage>823</fpage>–<lpage>839</lpage>.<pub-id pub-id-type="pmid">10926670</pub-id></mixed-citation>
+              </ref>
+              <ref id="R13">
+                <mixed-citation publication-type="journal"><name><surname>Garrett-Bakelman</surname><given-names>FE</given-names></name>, <name><surname>Darshi</surname><given-names>M</given-names></name>, <name><surname>Green</surname><given-names>SJ</given-names></name>, <name><surname>Gur</surname><given-names>RC</given-names></name>, <name><surname>Lin</surname><given-names>L</given-names></name>, <name><surname>Macias</surname><given-names>BR</given-names></name>, <name><surname>McKenna</surname><given-names>MJ</given-names></name>, <name><surname>Meydan</surname><given-names>C</given-names></name>, <name><surname>Mishra</surname><given-names>T</given-names></name>, <name><surname>Nasrini</surname><given-names>J</given-names></name>, <etal/> (<year>2019</year>). <article-title>The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight</article-title>. <source>Science</source>
+<volume>364</volume>, eaau8650.</mixed-citation>
+              </ref>
+              <ref id="R14">
+                <mixed-citation publication-type="journal"><name><surname>Genc</surname><given-names>KO</given-names></name>, <name><surname>Gopalakrishnan</surname><given-names>R</given-names></name>, <name><surname>Kuklis</surname><given-names>MM</given-names></name>, <name><surname>Maender</surname><given-names>CC</given-names></name>, <name><surname>Rice</surname><given-names>AJ</given-names></name>, <name><surname>Bowersox</surname><given-names>KD</given-names></name>, and <name><surname>Cavanagh</surname><given-names>PR</given-names></name> (<year>2010</year>). <article-title>Foot forces during exercise on the International Space Station</article-title>. <source>J. Biomech</source>
+<volume>43</volume>, <fpage>3020</fpage>–<lpage>3027</lpage>.<pub-id pub-id-type="pmid">20728086</pub-id></mixed-citation>
+              </ref>
+              <ref id="R15">
+                <mixed-citation publication-type="journal"><name><surname>Gilbert</surname><given-names>J</given-names></name>, <name><surname>Lekstrom-Himes</surname><given-names>J</given-names></name>, <name><surname>Donaldson</surname><given-names>D</given-names></name>, <name><surname>Lee</surname><given-names>Y</given-names></name>, <name><surname>Hu</surname><given-names>M</given-names></name>, <name><surname>Xu</surname><given-names>J</given-names></name>, <name><surname>Wyant</surname><given-names>T</given-names></name>, and <name><surname>Davidson</surname><given-names>M</given-names></name>; <collab>MLN1202 Study Group</collab> (<year>2011</year>). <article-title>Effect of CC chemokine receptor 2 CCR2 blockade on serum C-reactive protein in individuals at atherosclerotic risk and with a single nucleotide polymorphism of the monocyte chemoattractant protein-1 promoter region</article-title>. <source>Am. J. Cardiol</source>
+<volume>107</volume>, <fpage>906</fpage>–<lpage>911</lpage>.<pub-id pub-id-type="pmid">21247529</pub-id></mixed-citation>
+              </ref>
+              <ref id="R16">
+                <mixed-citation publication-type="journal"><name><surname>Gopalakrishnan</surname><given-names>R</given-names></name>, <name><surname>Genc</surname><given-names>KO</given-names></name>, <name><surname>Rice</surname><given-names>AJ</given-names></name>, <name><surname>Lee</surname><given-names>SM</given-names></name>, <name><surname>Evans</surname><given-names>HJ</given-names></name>, <name><surname>Maender</surname><given-names>CC</given-names></name>, <name><surname>Ilaslan</surname><given-names>H</given-names></name>, and <name><surname>Cavanagh</surname><given-names>PR</given-names></name> (<year>2010</year>). <article-title>Muscle volume, strength, endurance, and exercise loads during 6-month missions in space</article-title>. <source>Aviat. Space Environ. Med</source>
+<volume>81</volume>, <fpage>91</fpage>–<lpage>102</lpage>.<pub-id pub-id-type="pmid">20131648</pub-id></mixed-citation>
+              </ref>
+              <ref id="R17">
+                <mixed-citation publication-type="journal"><name><surname>Gordon</surname><given-names>JR</given-names></name>, and <name><surname>Galli</surname><given-names>SJ</given-names></name> (<year>1990</year>). <article-title>Mast cells as a source of both preformed and immunologically inducible TNF-αlpha/cachectin</article-title>. <source>Nature</source>
+<volume>346</volume>, <fpage>274</fpage>–<lpage>276</lpage>.<pub-id pub-id-type="pmid">2374592</pub-id></mixed-citation>
+              </ref>
+              <ref id="R18">
+                <mixed-citation publication-type="journal"><name><surname>Gorospe</surname><given-names>JRM</given-names></name>, <name><surname>Nishikawa</surname><given-names>BK</given-names></name>, and <name><surname>Hoffman</surname><given-names>EP</given-names></name> (<year>1996</year>). <article-title>Recruitment of mast cells to muscle after mild damage</article-title>. <source>J. Neurol. Sci</source>
+<volume>135</volume>, <fpage>10</fpage>–<lpage>17</lpage>.<pub-id pub-id-type="pmid">8926490</pub-id></mixed-citation>
+              </ref>
+              <ref id="R19">
+                <mixed-citation publication-type="journal"><name><surname>Grivennikov</surname><given-names>S</given-names></name>, <name><surname>Karin</surname><given-names>E</given-names></name>, <name><surname>Terzic</surname><given-names>J</given-names></name>, <name><surname>Mucida</surname><given-names>D</given-names></name>, <name><surname>Yu</surname><given-names>GY</given-names></name>, <name><surname>Vallabhapurapu</surname><given-names>S</given-names></name>, <name><surname>Scheller</surname><given-names>J</given-names></name>, <name><surname>Rose-John</surname><given-names>S</given-names></name>, <name><surname>Cheroutre</surname><given-names>H</given-names></name>, <name><surname>Eckmann</surname><given-names>L</given-names></name>, and <name><surname>Karin</surname><given-names>M</given-names></name>.(<year>2009</year>). <article-title>IL-6 and Stat3 are required for survival of intestinal epithelial cells and development of colitis-associated cancer</article-title>. <source>Cancer Cell</source><volume>15</volume>, <fpage>103</fpage>–<lpage>113</lpage>.<pub-id pub-id-type="pmid">19185845</pub-id></mixed-citation>
+              </ref>
+              <ref id="R20">
+                <mixed-citation publication-type="journal"><name><surname>Hamrick</surname><given-names>MW</given-names></name> (<year>2011</year>). <article-title>A role for myokines in muscle-bone interactions</article-title>. <source>Exerc. Sport Sci. Rev</source>
+<volume>39</volume>, <fpage>43</fpage>–<lpage>47</lpage>.<pub-id pub-id-type="pmid">21088601</pub-id></mixed-citation>
+              </ref>
+              <ref id="R21">
+                <mixed-citation publication-type="journal"><name><surname>Hoene</surname><given-names>M</given-names></name>, <name><surname>Runge</surname><given-names>H</given-names></name>, <name><surname>Häring</surname><given-names>HU</given-names></name>, <name><surname>Schleicher</surname><given-names>ED</given-names></name>, and <name><surname>Weigert</surname><given-names>C</given-names></name>.(<year>2013</year>). <article-title>Interleukin-6 promotes myogenic differentiation of mouse skeletal muscle cells: role of the STAT3 pathway</article-title>. <source>Am. J. Physiol. Cell Physiol</source><volume>304</volume>, <fpage>C128</fpage>–<lpage>C136</lpage>.<pub-id pub-id-type="pmid">23114963</pub-id></mixed-citation>
+              </ref>
+              <ref id="R22">
+                <mixed-citation publication-type="journal"><name><surname>Iosim</surname><given-names>S</given-names></name>, <name><surname>MacKay</surname><given-names>M</given-names></name>, <name><surname>Westover</surname><given-names>C</given-names></name>, and <name><surname>Mason</surname><given-names>CE</given-names></name> (<year>2019</year>). <article-title>Translating current biomedical therapies for long duration, deep space missions</article-title>. <source>Precision Clinical Medicine</source>
+<volume>2</volume>, <fpage>259</fpage>–<lpage>269</lpage>.<pub-id pub-id-type="pmid">31886035</pub-id></mixed-citation>
+              </ref>
+              <ref id="R23">
+                <mixed-citation publication-type="journal"><name><surname>Kaiser</surname><given-names>K</given-names></name>, <name><surname>Prystaz</surname><given-names>K</given-names></name>, <name><surname>Vikman</surname><given-names>A</given-names></name>, <name><surname>Haffner-Luntzer</surname><given-names>M</given-names></name>, <name><surname>Bergdolt</surname><given-names>S</given-names></name>, <name><surname>Strauss</surname><given-names>G</given-names></name>, <name><surname>Waetzig</surname><given-names>GH</given-names></name>, <name><surname>Rose-John</surname><given-names>S</given-names></name>, and <name><surname>Ignatius</surname><given-names>A</given-names></name>.(<year>2018</year>). <article-title>Pharmacological inhibition of IL-6 trans-signaling improves compromised fracture healing after severe trauma</article-title>. <source>Naunyn Schmiedebergs Arch. Pharmacol</source><volume>391</volume>, <fpage>523</fpage>–<lpage>536</lpage>.<pub-id pub-id-type="pmid">29497762</pub-id></mixed-citation>
+              </ref>
+              <ref id="R24">
+                <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>J</given-names></name>, <name><surname>Kim</surname><given-names>NK</given-names></name>, <name><surname>Park</surname><given-names>SR</given-names></name>, and <name><surname>Choi</surname><given-names>BH</given-names></name> (<year>2018</year>). <article-title>GM-CSF Enhances Mobilization of Bone Marrow Mesenchymal Stem Cells via a CXCR4-Medicated Mechanism</article-title>. <source>Tissue Eng. Regen. Med</source>
+<volume>16</volume>, <fpage>59</fpage>–<lpage>68</lpage>.<pub-id pub-id-type="pmid">30815351</pub-id></mixed-citation>
+              </ref>
+              <ref id="R25">
+                <mixed-citation publication-type="journal"><name><surname>Ko</surname><given-names>FC</given-names></name>, <name><surname>Mortreux</surname><given-names>M</given-names></name>, <name><surname>Riveros</surname><given-names>D</given-names></name>, <name><surname>Nagy</surname><given-names>JA</given-names></name>, <name><surname>Rutkove</surname><given-names>SB</given-names></name>, and <name><surname>Bouxsein</surname><given-names>ML</given-names></name> (<year>2020</year>). <article-title>Dose-dependent skeletal deficits due to varied reductions in mechanical loading in rats</article-title>. <source>NPJ Microgravity</source>
+<volume>6</volume>, <fpage>15</fpage>.<pub-id pub-id-type="pmid">32435691</pub-id></mixed-citation>
+              </ref>
+              <ref id="R26">
+                <mixed-citation publication-type="journal"><name><surname>Kohno</surname><given-names>S</given-names></name>, <name><surname>Yamashita</surname><given-names>Y</given-names></name>, <name><surname>Abe</surname><given-names>T</given-names></name>, <name><surname>Hirasaka</surname><given-names>K</given-names></name>, <name><surname>Oarada</surname><given-names>M</given-names></name>, <name><surname>Ohno</surname><given-names>A</given-names></name>, <name><surname>Teshima-Kondo</surname><given-names>S</given-names></name>, <name><surname>Higashibata</surname><given-names>A</given-names></name>, <name><surname>Choi</surname><given-names>I</given-names></name>, <name><surname>Mills</surname><given-names>EM</given-names></name>, <etal/> (<year>2012</year>). <article-title>Unloading stress disturbs muscle regeneration through perturbed recruitment and function of macrophages</article-title>. <source>J. Appl. Physiol</source>
+<volume>112</volume>, <fpage>1773</fpage>–<lpage>1782</lpage>.<pub-id pub-id-type="pmid">22383511</pub-id></mixed-citation>
+              </ref>
+              <ref id="R27">
+                <mixed-citation publication-type="journal"><name><surname>Korth</surname><given-names>DW</given-names></name> (<year>2015</year>). <article-title>Exercise countermeasure hardware evolution on iss: The first decade</article-title>. <source>Aerosp. Med. Hum. Perform</source>
+<volume>86</volume> (<issue>12</issue> Suppl), <fpage>A7</fpage>–<lpage>A13</lpage>.<pub-id pub-id-type="pmid">26630190</pub-id></mixed-citation>
+              </ref>
+              <ref id="R28">
+                <mixed-citation publication-type="journal"><name><surname>Kuwabara</surname><given-names>H</given-names></name>, <name><surname>Wada</surname><given-names>T</given-names></name>, <name><surname>Oda</surname><given-names>T</given-names></name>, <name><surname>Yoshikawa</surname><given-names>H</given-names></name>, <name><surname>Sawada</surname><given-names>N</given-names></name>, <name><surname>Kokai</surname><given-names>Y</given-names></name>, and <name><surname>Ishii</surname><given-names>S</given-names></name>. (<year>2001</year>). <article-title>Overexpression of the Granulocyte Colony-Stimulating Factor Gene Impairs Bone Morphogenetic Protein Responsiveness in Mice</article-title>. <source>Lab Invest</source>. <volume>81</volume>, <fpage>1133</fpage>–<lpage>1141</lpage>.<pub-id pub-id-type="pmid">11502864</pub-id></mixed-citation>
+              </ref>
+              <ref id="R29">
+                <mixed-citation publication-type="journal"><name><surname>Lauw</surname><given-names>FN</given-names></name>, <name><surname>Pajkrt</surname><given-names>D</given-names></name>, <name><surname>Hack</surname><given-names>CE</given-names></name>, <name><surname>Kurimoto</surname><given-names>M</given-names></name>, <name><surname>van Deventer</surname><given-names>SJH</given-names></name>, and <name><surname>van der Poll</surname><given-names>T</given-names></name>.(<year>2000</year>). <article-title>Proinflammatory effects of IL-10 during human endotoxemia</article-title>. <source>J. Immunol</source><volume>165</volume>, <fpage>2783</fpage>–<lpage>2789</lpage>.<pub-id pub-id-type="pmid">10946310</pub-id></mixed-citation>
+              </ref>
+              <ref id="R30">
+                <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>SMC</given-names></name>, <name><surname>Ribeiro</surname><given-names>LC</given-names></name>, <name><surname>Martin</surname><given-names>DS</given-names></name>, <name><surname>Zwart</surname><given-names>SR</given-names></name>, <name><surname>Feiveson</surname><given-names>AH</given-names></name>, <name><surname>Laurie</surname><given-names>SS</given-names></name>, <name><surname>Macias</surname><given-names>BR</given-names></name>, <name><surname>Crucian</surname><given-names>BE</given-names></name>, <name><surname>Krieger</surname><given-names>S</given-names></name>, <name><surname>Weber</surname><given-names>D</given-names></name>, <etal/> (<year>2020a</year>). <article-title>Arterial Structure and Function during and after Long-Duration Spaceflight</article-title>. <source>J. Appl. Physiol</source>
+<volume>129</volume>, <fpage>108</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">32525433</pub-id></mixed-citation>
+              </ref>
+              <ref id="R31">
+                <mixed-citation publication-type="book"><name><surname>Lee</surname><given-names>SMC</given-names></name>, <name><surname>Scheuring</surname><given-names>RA</given-names></name>, <name><surname>Guilliams</surname><given-names>ME</given-names></name>, and <name><surname>Kerstman</surname><given-names>EL</given-names></name> (<year>2020b</year>). <part-title>Physical performance, countermeasures, and postflight reconditioning</part-title>. In <source>Principles of Clinical Medicine for Space Flight</source>, <name><surname>Barratt</surname><given-names>MR</given-names></name>, <name><surname>Baker</surname><given-names>ES</given-names></name>, and <name><surname>Pool</surname><given-names>SL</given-names></name>, eds. (<publisher-name>Springer</publisher-name>
+<publisher-loc>New York</publisher-loc>), pp. <fpage>609</fpage>–<lpage>658</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R32">
+                <mixed-citation publication-type="journal"><name><surname>Londhe</surname><given-names>P</given-names></name>, and <name><surname>Guttridge</surname><given-names>DC</given-names></name> (<year>2015</year>). <article-title>Inflammation induced loss of skeletal muscle</article-title>. <source>Bone</source>
+<volume>80</volume>, <fpage>131</fpage>–<lpage>142</lpage>.<pub-id pub-id-type="pmid">26453502</pub-id></mixed-citation>
+              </ref>
+              <ref id="R33">
+                <mixed-citation publication-type="journal"><name><surname>Lu</surname><given-names>H</given-names></name>, <name><surname>Huang</surname><given-names>D</given-names></name>, <name><surname>Ransohoff</surname><given-names>RM</given-names></name>, and <name><surname>Zhou</surname><given-names>L</given-names></name>.(<year>2011</year>). <article-title>Acute skeletal muscle injury: CCL2 expression by both monocytes and injured muscle is required for repair</article-title>. <source>FASEB J</source>. <volume>25</volume>, <fpage>3344</fpage>–<lpage>3355</lpage>.<pub-id pub-id-type="pmid">21697550</pub-id></mixed-citation>
+              </ref>
+              <ref id="R34">
+                <mixed-citation publication-type="journal"><name><surname>Luxton</surname><given-names>J</given-names></name>, <etal/> (<year>2020</year>). <article-title>Temporal Telomere and DNA Damage Responses in the Space Radiation Environment</article-title>. <source>Cell Reports</source>. <comment><ext-link xlink:href="https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31424-8" ext-link-type="uri">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31424-8</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R35">
+                <mixed-citation publication-type="journal"><name><surname>MacLean</surname><given-names>B</given-names></name>, <name><surname>Tomazela</surname><given-names>DM</given-names></name>, <name><surname>Shulman</surname><given-names>N</given-names></name>, <name><surname>Chambers</surname><given-names>M</given-names></name>, <name><surname>Finney</surname><given-names>GL</given-names></name>, <name><surname>Frewen</surname><given-names>B</given-names></name>, <name><surname>Kern</surname><given-names>R</given-names></name>, <name><surname>Tabb</surname><given-names>DL</given-names></name>, <name><surname>Liebler</surname><given-names>DC</given-names></name>, and <name><surname>MacCoss</surname><given-names>MJ</given-names></name> (<year>2010</year>). <article-title>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>, <fpage>966</fpage>–<lpage>968</lpage>.<pub-id pub-id-type="pmid">20147306</pub-id></mixed-citation>
+              </ref>
+              <ref id="R36">
+                <mixed-citation publication-type="journal"><name><surname>Malkani</surname></name>, <etal/> (<year>2020</year>). <article-title>Circulating miRNA Signature Predicts and Rescues Health Risks Associated with Spaceflight</article-title>. <source>Cell Reports</source>. <comment><ext-link xlink:href="https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31437-6" ext-link-type="uri">https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31437-6</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R37">
+                <mixed-citation publication-type="journal"><name><surname>Marlow</surname><given-names>GJ</given-names></name>, <name><surname>van Gent</surname><given-names>D</given-names></name>, and <name><surname>Ferguson</surname><given-names>LR</given-names></name> (<year>2013</year>). <article-title>Why interleukin-10 supplementation does not work in Crohn’s disease patients</article-title>. <source>World J. Gastroenterol</source>
+<volume>19</volume>, <fpage>3931</fpage>–<lpage>3941</lpage>.<pub-id pub-id-type="pmid">23840137</pub-id></mixed-citation>
+              </ref>
+              <ref id="R38">
+                <mixed-citation publication-type="journal"><name><surname>Matsumoto</surname><given-names>A</given-names></name>, <name><surname>Storch</surname><given-names>KJ</given-names></name>, <name><surname>Stolfi</surname><given-names>A</given-names></name>, <name><surname>Mohler</surname><given-names>SR</given-names></name>, <name><surname>Frey</surname><given-names>MA</given-names></name>, and <name><surname>Stein</surname><given-names>TP</given-names></name> (<year>2011</year>). <article-title>Weight loss in humans in space</article-title>. <source>Aviat. Space Environ. Med</source>
+<volume>82</volume>, <fpage>615</fpage>–<lpage>621</lpage>.<pub-id pub-id-type="pmid">21702312</pub-id></mixed-citation>
+              </ref>
+              <ref id="R39">
+                <mixed-citation publication-type="journal"><name><surname>McIntyre</surname><given-names>ABR</given-names></name>, <name><surname>Alexander</surname><given-names>N</given-names></name>, <name><surname>Grigorev</surname><given-names>K</given-names></name>, <name><surname>Bezdan</surname><given-names>D</given-names></name>, <name><surname>Sichtig</surname><given-names>H</given-names></name>, <name><surname>Chiu</surname><given-names>CY</given-names></name>, and <name><surname>Mason</surname><given-names>CE</given-names></name> (<year>2019</year>). <article-title>Single-molecule sequencing detection of <italic toggle="yes">N</italic>6-methyladenine in microbial reference materials</article-title>. <source>Nature Communications</source>
+<volume>1</volume>, <fpage>579</fpage>.</mixed-citation>
+              </ref>
+              <ref id="R40">
+                <mixed-citation publication-type="journal"><name><surname>Muñoz-Cánoves</surname><given-names>P</given-names></name>, <name><surname>Scheele</surname><given-names>C</given-names></name>, <name><surname>Pedersen</surname><given-names>BK</given-names></name>, and <name><surname>Serrano</surname><given-names>AL</given-names></name> (<year>2013</year>). <article-title>Interleukin-6 myokine signaling in skeletal muscle: a double-edged sword?</article-title>
+<source>FEBS J</source>. <volume>280</volume>, <fpage>4131</fpage>–<lpage>4148</lpage>.<pub-id pub-id-type="pmid">23663276</pub-id></mixed-citation>
+              </ref>
+              <ref id="R41">
+                <mixed-citation publication-type="journal"><name><surname>Nagaraju</surname><given-names>K</given-names></name>, <name><surname>Raben</surname><given-names>N</given-names></name>, <name><surname>Merritt</surname><given-names>G</given-names></name>, <name><surname>Loeffler</surname><given-names>L</given-names></name>, <name><surname>Kirk</surname><given-names>K</given-names></name>, and <name><surname>Plotz</surname><given-names>P</given-names></name>.(<year>1998</year>). <article-title>A variety of cytokines and immunologically relevant surface molecules are expressed by normal human skeletal muscle cells under proinflammatory stimuli</article-title>. <source>Clin. Exp. Immunol</source><volume>113</volume>, <fpage>407</fpage>–<lpage>414</lpage>.<pub-id pub-id-type="pmid">9737670</pub-id></mixed-citation>
+              </ref>
+              <ref id="R42">
+                <mixed-citation publication-type="journal"><name><surname>Nangle</surname><given-names>SN</given-names></name>, <name><surname>Wolfson</surname><given-names>MY</given-names></name>, <name><surname>Hartsough</surname><given-names>L</given-names></name>, <name><surname>Ma</surname><given-names>N</given-names></name>, <name><surname>Mason</surname><given-names>CE</given-names></name>, <name><surname>Merighi</surname><given-names>M</given-names></name>, <name><surname>Nathan</surname><given-names>V</given-names></name>, <name><surname>Silver</surname><given-names>PA</given-names></name>, <name><surname>Simon</surname><given-names>M</given-names></name>, <name><surname>Swett</surname><given-names>J</given-names></name>, <etal/> (<year>2020</year>). <article-title>The Case for Biotechnology on Mars</article-title>. <source>Nature Biotechnology</source>
+<volume>38</volume>, <fpage>401</fpage>–<lpage>407</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R43">
+                <mixed-citation publication-type="journal"><name><surname>Nordmann</surname><given-names>TM</given-names></name>, <name><surname>Seelig</surname><given-names>E</given-names></name>, <name><surname>Timper</surname><given-names>K</given-names></name>, <name><surname>Cordes</surname><given-names>M</given-names></name>, <name><surname>Coslovsky</surname><given-names>M</given-names></name>, <name><surname>Hanssen</surname><given-names>H</given-names></name>, <name><surname>Schmidt-Trucksäss</surname><given-names>A</given-names></name>, and <name><surname>Donath</surname><given-names>MY</given-names></name> (<year>2015</year>). <article-title>Muscle-derived IL-6 is not regulated by IL-1 during exercise. A double blind, placebo-controlled, randomized crossover study</article-title>. <source>PLoS ONE</source>
+<volume>10</volume>, e0139662.</mixed-citation>
+              </ref>
+              <ref id="R44">
+                <mixed-citation publication-type="journal"><name><surname>Oda</surname><given-names>T</given-names></name>, <name><surname>Ueda</surname><given-names>A</given-names></name>, <name><surname>Shimizu</surname><given-names>N</given-names></name>, <name><surname>Handa</surname><given-names>H</given-names></name>, and <name><surname>Kasahara</surname><given-names>T</given-names></name>.(<year>2002</year>). <article-title>Suppression of monocyte chemoattractant protein 1, but not IL-8, by alprazolam: effect of alprazolam on c-Rel/p65 and c-Rel/p50 binding to the monocyte chemoattractant protein 1 promoter region</article-title>. <source>J. Immunol</source><volume>169</volume>, <fpage>3329</fpage>–<lpage>3335</lpage>.<pub-id pub-id-type="pmid">12218154</pub-id></mixed-citation>
+              </ref>
+              <ref id="R45">
+                <mixed-citation publication-type="journal"><name><surname>Park</surname><given-names>BK</given-names></name>, <name><surname>Zhang</surname><given-names>H</given-names></name>, <name><surname>Zeng</surname><given-names>Q</given-names></name>, <name><surname>Dai</surname><given-names>J</given-names></name>, <name><surname>Keller</surname><given-names>ET</given-names></name>, <name><surname>Giordano</surname><given-names>T</given-names></name>, <name><surname>Gu</surname><given-names>K</given-names></name>, <name><surname>Shah</surname><given-names>V</given-names></name>, <name><surname>Pei</surname><given-names>L</given-names></name>, <name><surname>Zarbo</surname><given-names>RJ</given-names></name>, <etal/> (<year>2007</year>). <article-title>NF-kappaB in breast cancer cells promotes osteolytic bone metastasis by inducing osteoclastogenesis via GM-CSF</article-title>. <source>Nat. Med</source>
+<volume>13</volume>, <fpage>62</fpage>–<lpage>69</lpage>.<pub-id pub-id-type="pmid">17159986</pub-id></mixed-citation>
+              </ref>
+              <ref id="R46">
+                <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>BK</given-names></name> (<year>2009</year>). <name><surname>Edward</surname><given-names>F</given-names></name>. <article-title>Adolph distinguished lecture: muscle as an endocrine organ: IL-6 and other myokines</article-title>. <source>J. Appl. Physiol</source>
+<volume>107</volume>, <fpage>1006</fpage>–<lpage>1014</lpage>.<pub-id pub-id-type="pmid">19696361</pub-id></mixed-citation>
+              </ref>
+              <ref id="R47">
+                <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>BK</given-names></name> (<year>2013</year>). <article-title>Muscle as a secretory organ</article-title>. <source>Compr. Physiol</source>
+<volume>3</volume>, <fpage>1337</fpage>–<lpage>1362</lpage>.<pub-id pub-id-type="pmid">23897689</pub-id></mixed-citation>
+              </ref>
+              <ref id="R48">
+                <mixed-citation publication-type="journal"><name><surname>Pedersen</surname><given-names>BK</given-names></name>, <name><surname>Steensberg</surname><given-names>A</given-names></name>, <name><surname>Fischer</surname><given-names>C</given-names></name>, <name><surname>Keller</surname><given-names>C</given-names></name>, <name><surname>Ostrowski</surname><given-names>K</given-names></name>, and <name><surname>Schjerling</surname><given-names>P</given-names></name>.(<year>2001</year>). <article-title>Exercise and cytokines with particular focus on muscle-derived IL-6</article-title>. <source>Exerc. Immunol. Rev</source><volume>7</volume>, <fpage>18</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">11579746</pub-id></mixed-citation>
+              </ref>
+              <ref id="R49">
+                <mixed-citation publication-type="journal"><name><surname>Perdiguero</surname><given-names>E</given-names></name>, <name><surname>Sousa-Victor</surname><given-names>P</given-names></name>, <name><surname>Ruiz-Bonilla</surname><given-names>V</given-names></name>, <name><surname>Jardĺ</surname><given-names>M</given-names></name>, <name><surname>Caelles</surname><given-names>C</given-names></name>, <name><surname>Serrano</surname><given-names>AL</given-names></name>, and <name><surname>Muñoz-Cánoves</surname><given-names>P</given-names></name>.(<year>2011</year>). <article-title>p38/MKP-1-regulated AKT coordinates macrophage transitions and resolution of inflammation during tissue repair</article-title>. <source>J. Cell Biol</source><volume>195</volume>, <fpage>307</fpage>–<lpage>322</lpage>.<pub-id pub-id-type="pmid">21987635</pub-id></mixed-citation>
+              </ref>
+              <ref id="R50">
+                <mixed-citation publication-type="journal"><name><surname>Prasad</surname><given-names>K</given-names></name>.(<year>2006</year>). <article-title>C-reactive protein (CRP)-lowering agents</article-title>. <source>Cardiovasc. Drug Rev</source><volume>24</volume>, <fpage>33</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">16939632</pub-id></mixed-citation>
+              </ref>
+              <ref id="R51">
+                <mixed-citation publication-type="journal"><name><surname>Radley</surname><given-names>HG</given-names></name>, and <name><surname>Grounds</surname><given-names>MD</given-names></name> (<year>2006</year>). <article-title>Cromolyn administration (to block mast cell degranulation) reduces necrosis of dystrophic muscle in mdx mice</article-title>. <source>Neurobiol. Dis</source>
+<volume>23</volume>, <fpage>387</fpage>–<lpage>397</lpage>.<pub-id pub-id-type="pmid">16798005</pub-id></mixed-citation>
+              </ref>
+              <ref id="R52">
+                <mixed-citation publication-type="book"><name><surname>Rugge</surname><given-names>B</given-names></name>, <name><surname>Balshem</surname><given-names>H</given-names></name>, <name><surname>Sehgal</surname><given-names>R</given-names></name>, <name><surname>Relevo</surname><given-names>R</given-names></name>, <name><surname>Gorman</surname><given-names>P</given-names></name>, and <name><surname>Helfand</surname><given-names>M</given-names></name>.(<year>2011</year>). <part-title>Screening and Treatment of Subclinical Hypothyroidism or Hyperthyroidism. Appendix A</part-title>. <source>Comparative Effectiveness Review No. 24. (Prepared by the Oregon Evidence-based Practice Center under Contract No. 290–2007-10057-I.) AHRQ Publication No. 11(12)-EHC033-EF</source><publisher-loc>Rockville, MD</publisher-loc>: <publisher-name>Agency for Healthcare Research and Quality</publisher-name>. October 2011, Available at. <comment><ext-link xlink:href="http://www.effectivehealthcare.ahrq.gov/reports/final.cfm" ext-link-type="uri">www.effectivehealthcare.ahrq.gov/reports/final.cfm</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R53">
+                <mixed-citation publication-type="journal"><name><surname>Scheller</surname><given-names>J</given-names></name>, <name><surname>Chalaris</surname><given-names>A</given-names></name>, <name><surname>Schmidt-Arras</surname><given-names>D</given-names></name>, and <name><surname>Rose-John</surname><given-names>S</given-names></name>.(<year>2011</year>). <article-title>The pro-and anti-inflammatory properties of the cytokine interleukin-6</article-title>. <source>Biochim. Biophys. Acta</source><volume>1813</volume>, <fpage>878</fpage>–<lpage>888</lpage>.<pub-id pub-id-type="pmid">21296109</pub-id></mixed-citation>
+              </ref>
+              <ref id="R54">
+                <mixed-citation publication-type="journal"><name><surname>Schmidt</surname><given-names>Michael A.</given-names></name>, <name><surname>Meydan</surname><given-names>Cem</given-names></name>, <name><surname>Schmidt</surname><given-names>Caleb M.</given-names></name>, <name><surname>Afshinnekoo</surname><given-names>Ebrahim</given-names></name>, and <name><surname>Mason</surname><given-names>Christopher E.</given-names></name> (<year>2020</year>). <article-title>Elevation of Gut-Derived p-Cresol Molecular Networks in Astronauts During Spaceflight Informs Drug Metabolism and Performance</article-title>. <source>bioRxiv</source>. <pub-id pub-id-type="doi">10.1101/2020.11.10.374645</pub-id>. <pub-id pub-id-type="doi">10.1101/2020.11.10.374645v1</pub-id>.</mixed-citation>
+              </ref>
+              <ref id="R55">
+                <mixed-citation publication-type="journal"><name><surname>Searle</surname><given-names>BC</given-names></name>, <name><surname>Pino</surname><given-names>LK</given-names></name>, <name><surname>Egertson</surname><given-names>JD</given-names></name>, <name><surname>Ting</surname><given-names>YS</given-names></name>, <name><surname>Lawrence</surname><given-names>RT</given-names></name>, <name><surname>MacLean</surname><given-names>BX</given-names></name>, <name><surname>Villén</surname><given-names>J</given-names></name>, and <name><surname>MacCoss</surname><given-names>MJ</given-names></name> (<year>2018</year>). <article-title>Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry</article-title>. <source>Nat. Commun</source>
+<volume>9</volume>, <fpage>5128</fpage>.<pub-id pub-id-type="pmid">30510204</pub-id></mixed-citation>
+              </ref>
+              <ref id="R56">
+                <mixed-citation publication-type="journal"><name><surname>Silveira</surname></name>, <etal/> (<year>2020</year>). <article-title>Comprehensive Multi-Omics Analysis Reveals Mitochondrial Stress as a Central Hub for Spaceflight Biological Impact</article-title>. <source>Cell</source>. <comment><ext-link xlink:href="https://www.cell.com/cell/fulltext/S0092-8674(20)31461-6" ext-link-type="uri">https://www.cell.com/cell/fulltext/S0092-8674(20)31461-6</ext-link>.</comment></mixed-citation>
+              </ref>
+              <ref id="R57">
+                <mixed-citation publication-type="journal"><name><surname>Singh</surname><given-names>NK</given-names></name>, <name><surname>Bezdan</surname><given-names>D</given-names></name>, <name><surname>Checinska Sielaff</surname><given-names>A</given-names></name>, <name><surname>Wheeler</surname><given-names>K</given-names></name>, <name><surname>Mason</surname><given-names>CE</given-names></name>, and <name><surname>Venkateswaran</surname><given-names>K</given-names></name>.(<year>2018</year>). <article-title>Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains</article-title>. <source>BMC Microbiology</source><volume>18</volume>, <fpage>175</fpage>.<pub-id pub-id-type="pmid">30466389</pub-id></mixed-citation>
+              </ref>
+              <ref id="R58">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>JK</given-names></name> (<year>2018</year>). <article-title>IL-6 and the dysregulation of immune, bone, muscle, and metabolic homeostasis during spaceflight</article-title>. <source>npj Microgravity</source>
+<volume>4</volume>, <fpage>24</fpage>.<pub-id pub-id-type="pmid">30534586</pub-id></mixed-citation>
+              </ref>
+              <ref id="R59">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>SM</given-names></name>, <name><surname>Heer</surname><given-names>MA</given-names></name>, <name><surname>Shackelford</surname><given-names>LC</given-names></name>, <name><surname>Sibonga</surname><given-names>JD</given-names></name>, <name><surname>Ploutz-Snyder</surname><given-names>L</given-names></name>, and <name><surname>Zwart</surname><given-names>SR</given-names></name> (<year>2012a</year>). <article-title>Benefits for bone from resistance exercise and nutrition in long-duration spaceflight: Evidence from biochemistry and densitometry</article-title>. <source>J. Bone Miner. Res</source>
+<volume>27</volume>, <fpage>1896</fpage>–<lpage>1906</lpage>.<pub-id pub-id-type="pmid">22549960</pub-id></mixed-citation>
+              </ref>
+              <ref id="R60">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>SM</given-names></name>, <name><surname>Heer</surname><given-names>M</given-names></name>, <name><surname>Wang</surname><given-names>Z</given-names></name>, <name><surname>Huntoon</surname><given-names>CL</given-names></name>, and <name><surname>Zwart</surname><given-names>SR</given-names></name> (<year>2012b</year>). <article-title>Long-duration space flight and bed rest effects on testosterone and other steroids</article-title>.<source>J. Clin. Endocrinol. Metab</source>
+<volume>97</volume>, <fpage>270</fpage>–<lpage>278</lpage>.<pub-id pub-id-type="pmid">22049169</pub-id></mixed-citation>
+              </ref>
+              <ref id="R61">
+                <mixed-citation publication-type="journal"><name><surname>Smith</surname><given-names>SM</given-names></name>, <name><surname>Heer</surname><given-names>M</given-names></name>, <name><surname>Shackelford</surname><given-names>LC</given-names></name>, <name><surname>Sibonga</surname><given-names>JD</given-names></name>, <name><surname>Spatz</surname><given-names>J</given-names></name>, <name><surname>Pietrzyk</surname><given-names>RA</given-names></name>, <name><surname>Hudson</surname><given-names>EK</given-names></name>, and <name><surname>Zwart</surname><given-names>SR</given-names></name> (<year>2015</year>). <article-title>Bone metabolism and renal stone risk during International Space Station missions</article-title>. <source>Bone</source>
+<volume>81</volume>, <fpage>712</fpage>–<lpage>720</lpage>.<pub-id pub-id-type="pmid">26456109</pub-id></mixed-citation>
+              </ref>
+              <ref id="R62">
+                <mixed-citation publication-type="journal"><name><surname>Starkie</surname><given-names>R</given-names></name>, <name><surname>Ostrowski</surname><given-names>SR</given-names></name>, <name><surname>Jauffred</surname><given-names>S</given-names></name>, <name><surname>Febbraio</surname><given-names>M</given-names></name>, and <name><surname>Pedersen</surname><given-names>BK</given-names></name> (<year>2003</year>). <article-title>Exercise and IL-6 infusion inhibit endotoxin-induced TNF-alpha production in humans</article-title>. <source>FASEB J</source>. <volume>17</volume>, <fpage>884</fpage>–<lpage>886</lpage>.<pub-id pub-id-type="pmid">12626436</pub-id></mixed-citation>
+              </ref>
+              <ref id="R63">
+                <mixed-citation publication-type="journal"><name><surname>Steensberg</surname><given-names>A</given-names></name>, <name><surname>Fischer</surname><given-names>CP</given-names></name>, <name><surname>Keller</surname><given-names>C</given-names></name>, <name><surname>Møller</surname><given-names>K</given-names></name>, and <name><surname>Klarlund Pedersen</surname><given-names>B</given-names></name>.(<year>2013</year>). <article-title>IL-6 enhances plasma IL-1ra, IL-10, and cortisol in humans</article-title>. <source>Am. J. Physiol. Endocrinol. Metab</source><volume>285</volume>, <fpage>E433</fpage>–<lpage>E437</lpage>.</mixed-citation>
+              </ref>
+              <ref id="R64">
+                <mixed-citation publication-type="journal"><name><surname>Stein</surname><given-names>TP</given-names></name> (<year>2013</year>). <article-title>Weight, muscle and bone loss during space flight: another perspective</article-title>. <source>Eur. J. Appl. Physiol</source>
+<volume>113</volume>, <fpage>2171</fpage>–<lpage>2181</lpage>.<pub-id pub-id-type="pmid">23192310</pub-id></mixed-citation>
+              </ref>
+              <ref id="R65">
+                <mixed-citation publication-type="journal"><name><surname>Stout</surname><given-names>RD</given-names></name>, and <name><surname>Suttles</surname><given-names>J</given-names></name>.(<year>2004</year>). <article-title>Functional plasticity of macrophages: reversible adaptation to changing microenvironments</article-title>. <source>J. Leukoc. Biol</source><volume>76</volume>, <fpage>509</fpage>–<lpage>513</lpage>.<pub-id pub-id-type="pmid">15218057</pub-id></mixed-citation>
+              </ref>
+              <ref id="R66">
+                <mixed-citation publication-type="journal"><name><surname>Stuart</surname><given-names>T</given-names></name>, <name><surname>Butler</surname><given-names>A</given-names></name>, <name><surname>Hoffman</surname><given-names>P</given-names></name>, <name><surname>Hafemeister</surname><given-names>C</given-names></name>, <name><surname>Papalexi</surname><given-names>E</given-names></name>, <name><surname>Mauck</surname><given-names>WM</given-names><suffix>3rd</suffix></name>, <name><surname>Hao</surname><given-names>Y</given-names></name>, <name><surname>Stoeckius</surname><given-names>M</given-names></name>, <name><surname>Smibert</surname><given-names>P</given-names></name>, and <name><surname>Satija</surname><given-names>R</given-names></name>.(<year>2019</year>). <article-title>Comprehensive Integration of Single-Cell Data</article-title>. <source>Cell</source><volume>177</volume>, <fpage>1888</fpage>–<lpage>1902</lpage>.e21.<pub-id pub-id-type="pmid">31178118</pub-id></mixed-citation>
+              </ref>
+              <ref id="R67">
+                <mixed-citation publication-type="journal"><name><surname>Teo</surname><given-names>G</given-names></name>, <name><surname>Kim</surname><given-names>S</given-names></name>, <name><surname>Tsou</surname><given-names>CC</given-names></name>, <name><surname>Collins</surname><given-names>B</given-names></name>, <name><surname>Gingras</surname><given-names>AC</given-names></name>, <name><surname>Nesvizhskii</surname><given-names>AI</given-names></name>, and <name><surname>Choi</surname><given-names>H</given-names></name>.(<year>2015</year>). <article-title>mapDIA: Preprocessing and statistical analysis of quantitative proteomics data from data independent acquisition mass spectrometry.J</article-title>. <source>Proteomics</source><volume>129</volume>, <fpage>108</fpage>–<lpage>120</lpage>.<pub-id pub-id-type="pmid">26381204</pub-id></mixed-citation>
+              </ref>
+              <ref id="R68">
+                <mixed-citation publication-type="journal"><name><surname>Ting</surname><given-names>YS</given-names></name>, <name><surname>Egertson</surname><given-names>JD</given-names></name>, <name><surname>Bollinger</surname><given-names>JG</given-names></name>, <name><surname>Searle</surname><given-names>BC</given-names></name>, <name><surname>Payne</surname><given-names>SH</given-names></name>, <name><surname>Noble</surname><given-names>WS</given-names></name>, and <name><surname>MacCoss</surname><given-names>MJ</given-names></name> (<year>2017</year>). <article-title>PECAN: library-free peptide detection for data-independent acquisition tandem mass spectrometry data</article-title>. <source>Nat. Methods</source>
+<volume>14</volume>, <fpage>903</fpage>–<lpage>908</lpage>.<pub-id pub-id-type="pmid">28783153</pub-id></mixed-citation>
+              </ref>
+              <ref id="R69">
+                <mixed-citation publication-type="journal"><name><surname>Trappe</surname><given-names>S</given-names></name>, <name><surname>Costill</surname><given-names>D</given-names></name>, <name><surname>Gallagher</surname><given-names>P</given-names></name>, <name><surname>Creer</surname><given-names>A</given-names></name>, <name><surname>Peters</surname><given-names>JR</given-names></name>, <name><surname>Evans</surname><given-names>H</given-names></name>, <name><surname>Riley</surname><given-names>DA</given-names></name>, and <name><surname>Fitts</surname><given-names>RH</given-names></name> (<year>2009</year>). <article-title>Exercise in space: human skeletal muscle after 6 months aboard the International Space Station</article-title>. <source>J. Appl. Physiol</source>
+<volume>106</volume>, <fpage>1159</fpage>–<lpage>1168</lpage>.<pub-id pub-id-type="pmid">19150852</pub-id></mixed-citation>
+              </ref>
+              <ref id="R70">
+                <mixed-citation publication-type="journal"><name><surname>Vallet</surname><given-names>S</given-names></name>, <name><surname>Pozzi</surname><given-names>S</given-names></name>, <name><surname>Patel</surname><given-names>K</given-names></name>, <name><surname>Vaghela</surname><given-names>N</given-names></name>, <name><surname>Fulciniti</surname><given-names>MT</given-names></name>, <name><surname>Veiby</surname><given-names>P</given-names></name>, <name><surname>Hideshima</surname><given-names>T</given-names></name>, <name><surname>Santo</surname><given-names>L</given-names></name>, <name><surname>Cirstea</surname><given-names>D</given-names></name>, <name><surname>Scadden</surname><given-names>DT</given-names></name>, <etal/> (<year>2011</year>). <article-title>A novel role for CCL3 (MIP-1α) in myeloma-induced bone disease via osteocalcin downregulation and inhibition of osteoblast function</article-title>. <source>Leukemia</source>
+<volume>25</volume>, <fpage>1174</fpage>–<lpage>1181</lpage>.<pub-id pub-id-type="pmid">21403648</pub-id></mixed-citation>
+              </ref>
+              <ref id="R71">
+                <mixed-citation publication-type="journal"><name><surname>Vernice</surname><given-names>NA</given-names></name>, <name><surname>Meydan</surname><given-names>C</given-names></name>, <name><surname>Afshinnekoo</surname><given-names>E</given-names></name>, and <name><surname>Mason</surname><given-names>CE</given-names></name> (<year>2020</year>). <article-title>Long-term spaceflight and the cardiovascular system</article-title>. <source>Precision Clinical Medicine</source>.</mixed-citation>
+              </ref>
+              <ref id="R72">
+                <mixed-citation publication-type="journal"><name><surname>Wicks</surname><given-names>IP</given-names></name>, and <name><surname>Roberts</surname><given-names>AW</given-names></name> (<year>2016</year>). <article-title>Targeting GM-CSF in inflammatory diseases</article-title>. <source>Nat. Rev. Rheumatol</source>
+<volume>12</volume>, <fpage>37</fpage>–<lpage>48</lpage>.<pub-id pub-id-type="pmid">26633290</pub-id></mixed-citation>
+              </ref>
+              <ref id="R73">
+                <mixed-citation publication-type="journal"><name><surname>Winnard</surname><given-names>A</given-names></name>, <name><surname>Scott</surname><given-names>J</given-names></name>, <name><surname>Waters</surname><given-names>N</given-names></name>, <name><surname>Vance</surname><given-names>M</given-names></name>, and <name><surname>Caplan</surname><given-names>N</given-names></name>.(<year>2019</year>). <article-title>Effect of Time on Human Muscle Outcomes During Simulated Microgravity Exposure Without Countermeasures-Systematic Review</article-title>. <source>Front. Physiol</source><volume>10</volume>, <fpage>1046</fpage>.<pub-id pub-id-type="pmid">31474878</pub-id></mixed-citation>
+              </ref>
+              <ref id="R74">
+                <mixed-citation publication-type="journal"><name><surname>Yan</surname><given-names>I</given-names></name>, <name><surname>Schwarz</surname><given-names>J</given-names></name>, <name><surname>Lücke</surname><given-names>K</given-names></name>, <name><surname>Schumacher</surname><given-names>N</given-names></name>, <name><surname>Schumacher</surname><given-names>V</given-names></name>, <name><surname>Schmidt</surname><given-names>S</given-names></name>, <name><surname>Rabe</surname><given-names>B</given-names></name>, <name><surname>Saftig</surname><given-names>P</given-names></name>, <name><surname>Donners</surname><given-names>M</given-names></name>, <name><surname>Rose-John</surname><given-names>S</given-names></name>, <etal/> (<year>2016</year>). <article-title>ADAM17 controls IL-6 signaling by cleavage of the murine IL-6Rα from the cell surface of leukocytes during inflammatory responses</article-title>. <source>J. Leukoc. Biol</source>
+<volume>99</volume>, <fpage>749</fpage>–<lpage>760</lpage>.<pub-id pub-id-type="pmid">26561568</pub-id></mixed-citation>
+              </ref>
+              <ref id="R75">
+                <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>W</given-names></name>, and <name><surname>Hu</surname><given-names>P</given-names></name>.(<year>2018</year>). <article-title>Skeletal muscle regeneration is modulated by inflammation</article-title>. <source>J. Orthop. Translat</source><volume>13</volume>, <fpage>25</fpage>–<lpage>32</lpage>.<pub-id pub-id-type="pmid">29662788</pub-id></mixed-citation>
+              </ref>
+              <ref id="R76">
+                <mixed-citation publication-type="journal"><name><surname>Yano</surname><given-names>S</given-names></name>, <name><surname>Mentaverri</surname><given-names>R</given-names></name>, <name><surname>Kanuparthi</surname><given-names>D</given-names></name>, <name><surname>Bandyopadhyay</surname><given-names>S</given-names></name>, <name><surname>Rivera</surname><given-names>A</given-names></name>, <name><surname>Brown</surname><given-names>EM</given-names></name>, and <name><surname>Chattopadhyay</surname><given-names>N</given-names></name>.(<year>2005</year>). <article-title>Functional expression of β-chemokine receptors in osteoblasts: role of regulated upon activation, normal T cell expressed and secreted (RANTES) in osteoblasts and regulation of its secretion by osteoblasts and osteoclasts</article-title>. <source>Endocrinology</source><volume>146</volume>, <fpage>2324</fpage>–<lpage>2335</lpage>.<pub-id pub-id-type="pmid">15718270</pub-id></mixed-citation>
+              </ref>
+              <ref id="R77">
+                <mixed-citation publication-type="journal"><name><surname>Yun</surname><given-names>Y-R</given-names></name>, <name><surname>Won</surname><given-names>JE</given-names></name>, <name><surname>Jeon</surname><given-names>E</given-names></name>, <name><surname>Lee</surname><given-names>S</given-names></name>, <name><surname>Kang</surname><given-names>W</given-names></name>, <name><surname>Jo</surname><given-names>H</given-names></name>, <name><surname>Jang</surname><given-names>JH</given-names></name>, <name><surname>Shin</surname><given-names>US</given-names></name>, and <name><surname>Kim</surname><given-names>HW</given-names></name> (<year>2010</year>). <article-title>Fibroblast growth factors: biology, function, and application for tissue regeneration</article-title>. <source>J. Tissue Eng</source>
+<volume>2010</volume>, <fpage>218142</fpage>.<pub-id pub-id-type="pmid">21350642</pub-id></mixed-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig position="float" id="F1">
+              <label>Figure 1.</label>
+              <caption>
+                <title>Biochemical Response to the Return to Gravity</title>
+                <p id="P51">The biochemical profiles expressed upon return to Earth, showing five established inflammation markers with a significant increase upon landing: C-C motif chemokine ligand 2 (CCL2)/MCP1, interleukin-10 (IL-10), c-reactive protein (CRP), IL-6, and IL-1 receptor antagonist (IL-1ra). The y axis is the percent difference from the mean of each subject’s pre-flight value plotted over time, whereas the x axis is number of days during the mission. Blue lines are for the flight subject (TW), and green lines are for the ground subject (HR). (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>)</p>
+                <p id="P52">See also <xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1653534-f0001" position="float"/>
+            </fig>
+            <fig position="float" id="F2">
+              <label>Figure 2.</label>
+              <caption>
+                <title>Pathway Interactions Showing the Direct Force Exerted by Each Protein Leading toward Muscle Regeneration</title>
+                <p id="P53">Elements that spiked upon landing are highlighted in yellow; those elevated in flight are shown in blue.</p>
+              </caption>
+              <graphic xlink:href="nihms-1653534-f0002" position="float"/>
+            </fig>
+            <fig position="float" id="F3">
+              <label>Figure 3.</label>
+              <caption>
+                <title>Elevated In-Flight Markers Associated with Bone Metabolism and Early Stages of Muscle Regeneration That Decreased upon Landing</title>
+                <p id="P54">For both the line graphs and the boxplots, the y axis is the percent difference from the mean of each subject’s pre-flight value plotted over time. For the line graphs, x axis is number of days during the mission and for the boxplots, the x axis is divided into mission intervals. Blue lines are for TW, and green lines are for HR.</p>
+                <p id="P55">See also <xref rid="SD1" ref-type="supplementary-material">Figure S1</xref>. (<xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>)</p>
+              </caption>
+              <graphic xlink:href="nihms-1653534-f0003" position="float"/>
+            </fig>
+            <fig position="float" id="F4">
+              <label>Figure 4.</label>
+              <caption>
+                <title>Single-Cell Analysis Shows Cell Population and Expression Consistent with Measured Cytokine Levels</title>
+                <p id="P56">(A) Uniform manifold approximation and projection (UMAP) projection of BD Rhapsody single-cell data (n = 23408 after QC) labeled by cell type.</p>
+                <p id="P57">(B and C) Stacked line plots showing the percent population based on cluster identification for TW (B) and HR (C). Dotted lines and white space indicate the time that TW was in flight, of which no samples were sequenced for single-cell analysis.</p>
+                <p id="P58">(D–K) UMAP and ridge plots showing expression of CD14 (D and E), CD16 (F and G), CD34 (H and I), or CD274 (J and K) from TW. Cells were grouped by day collected relative to R0.</p>
+                <p id="P59">(L and M) UMAP showing expression of CD14 mRNA (L) and protein expression through epitope tag (M).</p>
+                <p id="P60">(N and O) Stacked line plots showing the percentage of new and old classical monocytes per day for TW (N) and HR (O). Classical monocytes were determined to be new monocytes if CD14 mRNA expression was greater than 1, but CD14 epitope expression was less than 1.</p>
+                <p id="P61">See also <xref rid="SD1" ref-type="supplementary-material">Figure S2</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1653534-f0004" position="float"/>
+            </fig>
+            <fig position="float" id="F5">
+              <label>Figure 5.</label>
+              <caption>
+                <title>Expression of Pathways Associated with Initiation and Closure of Inflammation and Skeletal Muscle Regeneration in the Monocyte Subpopulations and Neutrophils Show the Effects of Landing on Specific Populations</title>
+                <p id="P62">(A–D) UMAP showing the expression of the Biocarta IL-6 pathway (A), Biocarta TNFR1 pathway (B), Reactome TNFR2 non-canonical NF-κB pathway (C), and primary immunodeficiency (PID) GM-CSF pathway (D).</p>
+                <p id="P63">(E–H) Violin plots showing the average expression of these pathways in progenitors, MDP, classical monocytes, intermediate monocytes, non-classical monocytes, and neutrophil cells, separated by day relative to landing.</p>
+                <p id="P64">See also <xref rid="SD2" ref-type="supplementary-material">Table S1</xref>.</p>
+              </caption>
+              <graphic xlink:href="nihms-1653534-f0005" position="float"/>
+            </fig>
+            <table-wrap position="float" id="T1">
+              <label>Table 1.</label>
+              <caption>
+                <p id="P65">Known Drugs That Target Levels of Markers Associated with Initiation or Closure of Inflammation</p>
+              </caption>
+              <table frame="hsides" rules="none">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">Target</th>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">Drug Class</th>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">Name</th>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">Comment</th>
+                  </tr>
+                  <tr>
+                    <th colspan="4" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2" align="left" valign="top" colspan="1">IL-6</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">anti-IL-6</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">sgp130</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">mouse studies on bone only</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">recombinant human protein</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">rhIL-6</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">human study in muscle</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="27" align="left" valign="top" colspan="1">CRP</td>
+                    <td rowspan="3" align="left" valign="top" colspan="1">cyclooxygenase inhibitors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">aspirin</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">rofecoxib</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">celecoxib</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="left" valign="top" colspan="1">platelet aggregation inhibitors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">clopidogrel</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">abciximab</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4" align="left" valign="top" colspan="1">lipid lowering agents</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">statins</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">ezetimibe</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">fenofibrate</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">niacin</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">beta-adrenoreceptor antagonists and antioxidants</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">vitamin E</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="5" align="left" valign="top" colspan="1">ACE inhibitors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">ramipril</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">captopril</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">fosinopril</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">enalapril</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not effective</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">trandolapril</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not effective</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="6" align="left" valign="top" colspan="1">ARBs</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">valsartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">irbesartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">olmesartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">telmisartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">losartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">inconsistent results</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">candesartan</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">inconsistent results</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="left" valign="top" colspan="1">antidiabetic agents</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">rosiglitazone</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">pioglitazone</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">effective in serum</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">calcium channel antagonists</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    <td align="left" valign="top" rowspan="1" colspan="1">inconsistent results</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3" align="left" valign="top" colspan="1">miscellaneous</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">hydro chlorothiazide</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not effective</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">oral estrogen</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not effective</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">vitamin C</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not effective</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">TSH</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">hormone</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">levothyroxine</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">not suitable for transient hypothyroidism</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2" align="left" valign="top" colspan="1">CCL2/MCP1</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">CCR2 antagonist</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">plozalizumab (MLN1202)</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">investigational drug not tested in muscle</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">benzo diazepine</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">alprazolam</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">no human studies in muscle</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">IL-10</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">recombinant human protein/anti-inflammatory</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Tenovil (rhuIL-10)</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">mouse study in muscle</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">IL-1ra</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">recombinant human protein/interleukin-1 inhibitors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Kineret (rhIL-1ra)</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">clinical trial in muscle</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="TFN1">
+                  <p id="P66">Citations include <xref rid="R44" ref-type="bibr">Oda et al. (2002)</xref>, <xref rid="R62" ref-type="bibr">Starkie et al. (2003)</xref>, <xref rid="R50" ref-type="bibr">Prasad (2006)</xref>, <xref rid="R15" ref-type="bibr">Gilbert et al. (2011)</xref>, <xref rid="R52" ref-type="bibr">Rugge et al. (2011)</xref>, <xref rid="R10" ref-type="bibr">Deng et al. (2012)</xref>, <xref rid="R63" ref-type="bibr">Steensberg et al. (2013)</xref>, <xref rid="R43" ref-type="bibr">Nordmann et al. (2015)</xref>, and <xref rid="R23" ref-type="bibr">Kaiser et al. (2018)</xref>. Abbreviations are as follows: ACE, angiotensin-converting enzyme; ARB, angiotensin receptor blocker; TSH, thyroid-stimulating hormone.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <table-wrap position="float" id="T2" orientation="landscape">
+              <caption>
+                <p id="P67">KEY RESOURCES TABLE</p>
+              </caption>
+              <table frame="hsides" rules="none">
+                <colgroup span="1">
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                  <col align="left" valign="middle" span="1"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">REAGENT or RESOURCE</th>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">SOURCE</th>
+                    <th align="left" valign="bottom" rowspan="1" colspan="1">IDENTIFIER</th>
+                  </tr>
+                  <tr>
+                    <th colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Antibodies</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Bacterial and Virus Strains</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Biological Samples</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study Lymphocyte Depleted Cells</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Consented Donors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study Plasma</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Consented Donors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study Urine</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Consented Donors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Plasma</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Consented Donors</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Chemicals, Peptides, and Recombinant Proteins</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Critical Commercial Assays</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Rhapsody AbSeq reagent pack</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Biosciences</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Cat#633771; RRID: AB_2870297</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Rhapsody Human Immune Response panel</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Biosciences</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Cat#633750; RRID: AB_2870293</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Rhapsody custom gene panel (See <xref rid="SD2" ref-type="supplementary-material">Table S1</xref>)</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Biosciences</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Cat#633743; RRID: AB_2870292</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Human Single cell multiplexing kit</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Biosciences</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Cat#633781; RRID: AB_2870299</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Deposited Data</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study BD Rhapsody Data</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">This paper and <xref rid="R36" ref-type="bibr">Malkani, 2020</xref></td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">LSDA (NASA)<ext-link xlink:href="https://lsda.jsc.nasa.gov/Request/dataRequestFAQ" ext-link-type="uri">https://lsda.jsc.nasa.gov/Request/dataRequestFAQ</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study Cytokine Results</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">LSDA (NASA)<ext-link xlink:href="https://lsda.jsc.nasa.gov/Request/dataRequestFAQ" ext-link-type="uri">https://lsda.jsc.nasa.gov/Request/dataRequestFAQ</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Twins Study Metabolite Results</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R13" ref-type="bibr">Garrett-Bakelman et al., 2019</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">LSDA (NASA)<ext-link xlink:href="https://lsda.jsc.nasa.gov/Request/dataRequestFAQ" ext-link-type="uri">https://lsda.jsc.nasa.gov/Request/dataRequestFAQ</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NASA Cytokine Results</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R8" ref-type="bibr">Crucian et al., 2014</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">LSDA (NASA)<ext-link xlink:href="https://lsda.jsc.nasa.gov/Request/dataRequestFAQ" ext-link-type="uri">https://lsda.jsc.nasa.gov/Request/dataRequestFAQ</ext-link></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Experimental Models: Cell Lines</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Experimental Models: Organisms/Strains</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Oligonucleotides</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Recombinant DNA</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Software and Algorithms</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">R package version 4.0.2</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link xlink:href="https://www.r-project.org/" ext-link-type="uri">https://www.r-project.org/</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Seurat 3.2.0</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <xref rid="R66" ref-type="bibr">Stuart et al., 2019</xref>
+                    </td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link xlink:href="https://github.com/satijalab/seurat" ext-link-type="uri">https://github.com/satijalab/seurat</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Patchwork 1.0.1</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1"/>
+                    <td align="left" valign="top" rowspan="1" colspan="1">
+                      <ext-link xlink:href="https://github.com/thomasp85/patchwork" ext-link-type="uri">https://github.com/thomasp85/patchwork</ext-link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="left" valign="top" rowspan="1">Other</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" align="center" valign="bottom" rowspan="1">
+                      <hr/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BioAnalyzer</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Agilent</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">D1000 HS</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Rhapsody</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">BD Biosciences</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">633701</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top" rowspan="1" colspan="1">NovaSeq 6000</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Illumina</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">n/a</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+            <boxed-text id="BX1" position="float">
+              <caption>
+                <title>Highlights</title>
+              </caption>
+              <list list-type="bullet" id="L1">
+                <list-item>
+                  <p id="P68">IL-6, IL-10, IL-1ra, CCL2, and CRP rose significantly on landing after a year in space</p>
+                </list-item>
+                <list-item>
+                  <p id="P69">IL-6 and IL-1ra are potential targets for pharmacological intervention in astronauts</p>
+                </list-item>
+                <list-item>
+                  <p id="P70">These cytokines are also associated with muscle regeneration in response to gravity</p>
+                </list-item>
+                <list-item>
+                  <p id="P71">Muscle-generated IL-6 drives classic signaling cascades in an anti-inflammatory role</p>
+                </list-item>
+              </list>
+            </boxed-text>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

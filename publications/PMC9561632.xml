@@ -1,0 +1,2735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:43:16Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9561632" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9561632</identifier>
+        <datestamp>2022-10-15</datestamp>
+        <setSpec>stemcr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Stem Cell Reports</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Stem Cell Reports</journal-id>
+              <journal-title-group>
+                <journal-title>Stem Cell Reports</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2213-6711</issn>
+              <publisher>
+                <publisher-name>Elsevier</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9561632</article-id>
+              <article-id pub-id-type="pmcid">PMC9561632</article-id>
+              <article-id pub-id-type="pmc-uid">9561632</article-id>
+              <article-id pub-id-type="pmid">36084640</article-id>
+              <article-id pub-id-type="pii">S2213-6711(22)00416-7</article-id>
+              <article-id pub-id-type="doi">10.1016/j.stemcr.2022.08.007</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Space microgravity improves proliferation of human iPSC-derived cardiomyocytes</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" id="au1">
+                  <name>
+                    <surname>Rampoldi</surname>
+                    <given-names>Antonio</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au2">
+                  <name>
+                    <surname>Forghani</surname>
+                    <given-names>Parvin</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au3">
+                  <name>
+                    <surname>Li</surname>
+                    <given-names>Dong</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au4">
+                  <name>
+                    <surname>Hwang</surname>
+                    <given-names>Hyun</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au5">
+                  <name>
+                    <surname>Armand</surname>
+                    <given-names>Lawrence Christian</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au6">
+                  <name>
+                    <surname>Fite</surname>
+                    <given-names>Jordan</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au7">
+                  <name>
+                    <surname>Boland</surname>
+                    <given-names>Gene</given-names>
+                  </name>
+                  <xref rid="aff2" ref-type="aff">2</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au8">
+                  <name>
+                    <surname>Maxwell</surname>
+                    <given-names>Joshua</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au9">
+                  <name>
+                    <surname>Maher</surname>
+                    <given-names>Kevin</given-names>
+                  </name>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="au10">
+                  <name>
+                    <surname>Xu</surname>
+                    <given-names>Chunhui</given-names>
+                  </name>
+                  <email>chunhui.xu@emory.edu</email>
+                  <xref rid="aff1" ref-type="aff">1</xref>
+                  <xref rid="aff3" ref-type="aff">3</xref>
+                  <xref rid="cor1" ref-type="corresp">∗</xref>
+                </contrib>
+                <aff id="aff1"><label>1</label>Department of Pediatrics, Emory University School of Medicine and Children’s Healthcare of Atlanta, Atlanta, GA, USA</aff>
+                <aff id="aff2"><label>2</label>Techshot, Inc., Greenville, IN, USA</aff>
+                <aff id="aff3"><label>3</label>Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, GA, USA</aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="cor1"><label>∗</label>Corresponding author <email>chunhui.xu@emory.edu</email></corresp>
+              </author-notes>
+              <pub-date pub-type="pmc-release">
+                <day>08</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+              <pub-date pub-type="collection">
+                <day>11</day>
+                <month>10</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="epub">
+                <day>08</day>
+                <month>9</month>
+                <year>2022</year>
+              </pub-date>
+              <volume>17</volume>
+              <issue>10</issue>
+              <fpage>2272</fpage>
+              <lpage>2285</lpage>
+              <history>
+                <date date-type="received">
+                  <day>3</day>
+                  <month>4</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="rev-recd">
+                  <day>10</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>12</day>
+                  <month>8</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2022 The Author(s)</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                  <license-p>This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).</license-p>
+                </license>
+              </permissions>
+              <abstract id="abs0010">
+                <title>Summary</title>
+                <p>In microgravity, cells undergo profound changes in their properties. However, how human cardiac progenitors respond to space microgravity is unknown. In this study, we evaluated the effect of space microgravity on differentiation of human induced pluripotent stem cell (hiPSC)-derived cardiac progenitors compared with 1G cultures on the International Space Station (ISS). Cryopreserved 3D cardiac progenitors were cultured for 3 weeks on the ISS. Compared with 1G cultures, the microgravity cultures had 3-fold larger sphere sizes, 20-fold higher counts of nuclei, and increased expression of proliferation markers. Highly enriched cardiomyocytes generated in space microgravity showed improved Ca<sup>2+</sup> handling and increased expression of contraction-associated genes. Short-term exposure (3 days) of cardiac progenitors to space microgravity upregulated genes involved in cell proliferation, survival, cardiac differentiation, and contraction, consistent with improved microgravity cultures at the late stage. These results indicate that space microgravity increased proliferation of hiPSC-cardiomyocytes, which had appropriate structure and function.</p>
+              </abstract>
+              <abstract abstract-type="graphical" id="abs0015">
+                <title>Graphical abstract</title>
+                <fig id="undfig1" position="anchor">
+                  <graphic xlink:href="fx1"/>
+                </fig>
+              </abstract>
+              <abstract abstract-type="author-highlights" id="abs0020">
+                <title>Highlights</title>
+                <p>
+                  <list list-type="simple" id="ulist0010">
+                    <list-item id="u0010">
+                      <label>•</label>
+                      <p id="p0010">Cryopreserved 3D hiPSC-cardiac progenitors differentiated efficiently in space</p>
+                    </list-item>
+                    <list-item id="u0015">
+                      <label>•</label>
+                      <p id="p0015">Microgravity cultures had increased sphere sizes and cellular proliferation</p>
+                    </list-item>
+                    <list-item id="u0020">
+                      <label>•</label>
+                      <p id="p0020">Beating cardiomyocytes in microgravity cultures had improved Ca<sup>2+</sup> handling</p>
+                    </list-item>
+                    <list-item id="u0025">
+                      <label>•</label>
+                      <p id="p0025">Microgravity cultures had upregulated genes in cardiac contraction</p>
+                    </list-item>
+                  </list>
+                </p>
+              </abstract>
+              <abstract abstract-type="teaser" id="abs0025">
+                <p>In this article, Xu and colleagues show that cryopreserved 3D cardiac progenitors differentiated into highly enriched cardiomyocytes on the International Space Station (ISS). Compared with ISS 1G cells, ISS microgravity cells had increased proliferation and improved Ca<sup>2+</sup> transients. Short-term microgravity also increased the expression of genes associated with proliferation and cardiac differentiation and contraction.</p>
+              </abstract>
+              <kwd-group id="kwrds0010">
+                <title>Keywords</title>
+                <kwd>cardiomyocytes</kwd>
+                <kwd>differentiation</kwd>
+                <kwd>function</kwd>
+                <kwd>human induced pluripotent stem cells</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>proliferation</kwd>
+                <kwd>cardiac progenitors</kwd>
+                <kwd>calcium handling</kwd>
+                <kwd>gene experssison</kwd>
+                <kwd>spaceflight</kwd>
+              </kwd-group>
+            </article-meta>
+            <notes>
+              <p id="misc0010">Published: September 8, 2022</p>
+            </notes>
+          </front>
+          <body>
+            <sec id="sec1">
+              <title>Introduction</title>
+              <p id="p0035">A leading candidate cell source for regenerative cardiac therapy is the cardiomyocytes derived from human induced pluripotent stem cells (hiPSC-CMs) (<xref rid="bib26" ref-type="bibr">Laflamme and Murry, 2005</xref>; <xref rid="bib11" ref-type="bibr">Chong et al., 2014</xref>). Targeting the intermediate steps from human induced pluripotent stem cells (hiPSCs) to cardiomyocytes could help improve the efficiency of hiPSC-CM production. Exposure of cardiac progenitors to microgravity presents a novel method to achieve cardiomyocyte differentiation at high efficiency and high yield, as microgravity can profoundly modulate cell properties (<xref rid="bib4" ref-type="bibr">Barzegari and Saei, 2012</xref>; <xref rid="bib6" ref-type="bibr">Becker and Souza, 2013</xref>; <xref rid="bib20" ref-type="bibr">Ingber, 1999</xref>), including proliferation of stem cells (<xref rid="bib9" ref-type="bibr">Chen et al., 2006</xref>; <xref rid="bib24" ref-type="bibr">Kawahara et al., 2009</xref>; <xref rid="bib29" ref-type="bibr">Li et al., 2009</xref>). For example, under simulated microgravity generated with a random positioning machine, microscale three-dimensional (3D) cardiac progenitors from hiPSCs showed increased proliferation and survival compared with parallel cultures under standard gravity (<xref rid="bib23" ref-type="bibr">Jha et al., 2016</xref>), resulting in the production of enriched cardiomyocytes at high cell yield. These cardiomyocytes also had improved structural and functional maturation features (<xref rid="bib23" ref-type="bibr">Jha et al., 2016</xref>), which are highly desirable for improving the safety of cell therapy since transplantation of immature cardiomyocytes increases the risk of graft-induced arrhythmias (<xref rid="bib11" ref-type="bibr">Chong et al., 2014</xref>).</p>
+              <p id="p0040">The International Space Station (ISS)-US National Laboratory provides an extraordinary environment to study the effect of space microgravity on cell properties that is not achievable elsewhere. While the random positioning machine and similar devices can simulate some aspects of microgravity and weightless environment during spaceflight, they only provide a good approximation to microgravity environment on Earth (<xref rid="bib15" ref-type="bibr">Grimm et al., 2014</xref>; <xref rid="bib55" ref-type="bibr">Zhang et al., 2013</xref>). Gravitational forces are still present under simulated microgravity, affecting cell properties. Research on the ISS has shown that space microgravity can indeed modulate cell properties (<xref rid="bib51" ref-type="bibr">Unsworth and Lelkes, 1998</xref>) and provide beneficial effects on the cells for possible therapeutic use on Earth (<xref rid="bib13" ref-type="bibr">Freed and Vunjak-Novakovic, 2002</xref>; <xref rid="bib46" ref-type="bibr">Sharma et al., 2022</xref>; <xref rid="bib53" ref-type="bibr">Yuge et al., 2006</xref>).</p>
+              <p id="p0045">Cell biology studies on the ISS are usually conducted using live, non-cryopreserved cell cultures maintained in modules that required CO<sub>2</sub> (<xref rid="bib52" ref-type="bibr">Wnorowski et al., 2019</xref>). To facilitate the study of space microgravity on the culture and differentiation of 3D cardiac progenitors, we have recently developed methods to cryopreserve the 3D cardiac progenitors and culture them in a CO<sub>2</sub>-independent medium (<xref rid="bib41" ref-type="bibr">Rampoldi et al., 2021</xref>). In this study, we conducted a spaceflight experiment (MVP-CELL-03 project) with cryopreserved hiPSC-derived cardiac progenitors sent to the ISS through the SpaceX-20 mission. The astronauts successfully cultured the cells for 3 weeks and returned live, beating cardiomyocytes back to us. We then comprehensively assessed the cellular, molecular, and functional characteristics of the cells. We also assessed the molecular effect of a short-term (3 days) exposure of cardiac progenitors to space microgravity. Here, we report that space microgravity increased cell proliferation and that the cardiomyocytes generated in space microgravity cultures showed appropriate structural and functional features.</p>
+            </sec>
+            <sec id="sec2">
+              <title>Results</title>
+              <sec id="sec2.1">
+                <title>Recovery of live cells following cell culture of cryopreserved 3D cardiac progenitors without CO<sub>2</sub> on the ISS</title>
+                <p id="p0050">For the spaceflight experiment (MVP-CELL-03 project), we prepared cryopreserved cardiac progenitor spheres from two hiPSC lines: SCVI-273 and IMR90 (<xref rid="mmc1" ref-type="supplementary-material">Figure S1</xref> and <xref rid="mmc1" ref-type="supplementary-material">supplemental information</xref>). The cryopreserved cardiac progenitors were flown to the ISS through the SpaceX-20 mission. As illustrated in <xref rid="fig1" ref-type="fig">Figure 1</xref>A, the astronauts on board the ISS thawed the cardiac progenitor spheres into the CO<sub>2</sub>-independent medium with a ROCK (Rho-associated coiled-coil containing protein kinase) inhibitor. The cells were cultured at 37°C using the Multi-specimen Variable-gravity Platform (MVP) configured to load multiple cultures under both ISS microgravity (ISS μG) and ISS 1G conditions; the 1G condition on the ISS was achieved by centrifugation of one carousel within the same MVP system (<xref rid="fig1" ref-type="fig">Figures 1</xref>B and 1C). Specifically, we designed our experiments to examine the growth and differentiation of 3D cardiac progenitors from two hiPSC cell lines under ISS μG and ISS 1G conditions with each condition run in triplicate. A total of 12 MVP experiment modules (six for each cell line) were used.<fig id="fig1"><label>Figure 1</label><caption><p>Spaceflight experimental design</p><p>(A) Schematic of spaceflight operational plan. Scale bar, 200 μm.</p><p>(B) Schematic of Multi-specimen Variable-gravity Platform (MVP) sample collection plan.</p><p>(C) Schematic of MVP system. ICC, immunocytochemistry. See also <xref rid="mmc1" ref-type="supplementary-material">Figure S1</xref>.</p></caption><graphic xlink:href="gr1"/></fig></p>
+                <p id="p0055">For short-term exposure of microgravity, after 3 days of cell culture on the ISS, an aliquot of samples was harvested from the experimental modules, fixed using RNAProtect, and stored at −20°C. For long-term exposure of space microgravity, live cultures were returned to ground via warm storage after having been cultured for 22 days on the ISS for further analysis. The cardiac spheres from post-flight ISS cultures recovered beating activity 2–3 days after they were transferred to an incubator, with beat rates of 10–15 beats/min in ISS 1G cultures and 9–17 beats/min in ISS μG cultures.</p>
+              </sec>
+              <sec id="sec2.2">
+                <title>Space microgravity increases the size of hiPSC-CM spheres and hiPSC-CM proliferation</title>
+                <p id="p0060">Cardiac sphere morphology was examined under a phase-contrast microscope after the samples were returned from the ISS. Phase-contrast photos were taken (<xref rid="fig2" ref-type="fig">Figure 2</xref>A) and sphere diameters were measured by software ImageJ. In the IMR90 ISS μG cultures, cardiac spheres were on average three times bigger compared with ISS 1G cardiac spheres (<xref rid="fig2" ref-type="fig">Figure 2</xref>B). Similar results were observed in the SCVI-273 ISS cultures (<xref rid="fig2" ref-type="fig">Figures 2</xref>A and 2B).<fig id="fig2"><label>Figure 2</label><caption><p>Space microgravity increases cardiac sphere size and improves proliferation of enriched hiPSC-CMs</p><p>(A) Cell morphology of cardiac spheres derived from SCVI-273 and IMR90 hiPSCs from International Space Station (ISS) cultures post flight (scale bar, 200 μm).</p><p>(B) Diameters of cardiac spheres derived from SCVI-273 and IMR90 hiPSCs (n = 72–180 spheres).</p><p>(C) Immunocytochemistry analysis of IMR90 cultures to detect cardiomyocyte purity by cardiac marker NKX2.5 (red) and proliferation by Ki-67 (green) and cardiac marker cTNI (red) (scale bar, 50μm).</p><p>(D) Percentage of NKX2.5-positive cells and Ki-67-positive cells in IMR90 cultures. Aliquots of ISS cultures post flight were dissociated, replated, and subjected to immunocytochemistry (n = 3 cultures).</p><p>(E) Expression of genes associated with proliferation in IMR90 cultures (3 weeks on the ISS) and SCVI-273 cultures (3 days on the ISS) (n = 3 cultures).</p><p>(F) Counts of nuclei in samples from IMR90 cultures (n = 6 wells) after the cells were dissociated, replated, and stained. Statistical analyses were performed with unpaired, two-tailed Student’s t test for (B), (D), and (F), and one-way ANOVA for (E). <sup>∗</sup>p &lt; 0.05, <sup>∗∗</sup>p &lt; 0.01, <sup>∗∗∗</sup>p &lt; 0.001, and <sup>∗∗∗∗</sup>p &lt; 0.0001. Data are presented as mean ± SD. ISS 1G, the 1G condition on the ISS; ISS μG, the microgravity condition on the ISS.</p></caption><graphic xlink:href="gr2"/></fig></p>
+                <p id="p0065">Immunocytochemical analysis was performed to examine cardiomyocyte purity and cardiomyocyte proliferation of the ISS cultures. As shown in <xref rid="fig2" ref-type="fig">Figures 2</xref>C and 2D, the majority of the cells were positive for NKX2.5 (NK2 homeobox 5) (&gt;95%) in both ISS 1G and μG conditions. These results were similar to the pre-testing results done before the samples were flown to the ISS (<xref rid="mmc1" ref-type="supplementary-material">Figures S1</xref>C and S1D). In addition, approximately 7% of cells were positive for Ki-67 in ISS μG cultures, while no Ki-67-positive cells were detected in ISS 1G cultures (<xref rid="fig2" ref-type="fig">Figures 2</xref>C and 2D). As expected, almost all cells were positive for cardiac marker cTNI (cardiac troponin I) in both ISS μG and ISS 1G cultures. Therefore, ISS cultures of the cryopreserved cardiac progenitor spheres differentiated into highly enriched cardiomyocytes, and ISS μG cultures contained more cells at the active phase of cell cycle than did ISS 1G cultures.</p>
+                <p id="p0070">We examined the expression of genes related to cell cycle and cell proliferation in both short-term (3 days) and long-term (3 weeks) ISS cultures by qRT-PCR analysis (<xref rid="fig2" ref-type="fig">Figure 2</xref>E). The expression of cyclin D2 (<italic>CCND2</italic>), cyclin D1 (<italic>CCND1</italic>), T-box transcription factor 3 (<italic>TBX3</italic>), and insulin like growth factor 2 (<italic>IGF2</italic>) was significantly upregulated in ISS μG cells compared with ISS 1G cells from both short-term and long-term cultures. Compared with the short-term ISS μG cultures, the long-term ISS μG cultures had increased expression of <italic>CCND1</italic> and <italic>IGF2</italic>. In addition, the nuclei counts of live cells (after the long-term culture cells were replated) were ∼20 times higher in cells from ISS μG cultures compared with ISS 1G cultures (<xref rid="fig2" ref-type="fig">Figure 2</xref>F). These results were consistent with the observations on increased proliferation capacity in ISS μG cells.</p>
+              </sec>
+              <sec id="sec2.3">
+                <title>Space microgravity improves cellular and structural parameters in hiPSC-CMs</title>
+                <p id="p0075">Immunocytochemical analysis was performed in ISS μG and ISS 1G cultures for other cardiac structural markers including α-actinin, cardiac troponin T (cTNT), and pan-cadherin (<xref rid="fig3" ref-type="fig">Figure 3</xref>A). Almost all cells from ISS μG and ISS 1G cultures were positive for these cardiac structural markers. ISS μG cells had larger cell area but similar perimeter compared with ISS 1G control. In addition, ISS 1G cells were more elongated, while ISS μG cells expanded in both length and width (<xref rid="fig3" ref-type="fig">Figure 3</xref>B).<fig id="fig3"><label>Figure 3</label><caption><p>Space microgravity cultures generated enriched cardiomyocytes with increased cell size</p><p>(A) Immunocytochemical analysis of cardiac proteins in IMR90 cells from ISS cultures post flight, including cTNT (red), pan-cadherin (red), α-actinin (green), and NKX2.5 (red) (scale bar, 50 μm).</p><p>(B) Comparison of cellular parameters of IMR90 hiPSC-CMs. Statistical analyses were performed with unpaired, two-tailed Student’s t test. <sup>∗∗</sup>p &lt; 0.01, and <sup>∗∗∗∗</sup>p &lt; 0.0001. Data are presented as mean ± SD (ISS 1G, n = 53 cells; ISS μG, n = 73 cells).</p></caption><graphic xlink:href="gr3"/></fig></p>
+                <p id="p0080">We evaluated cells for their overall appearance of sarcomeric striations based on the levels of the organization of the Z-line protein α-actinin and categorized them into three different levels as described previously (<xref rid="bib23" ref-type="bibr">Jha et al., 2016</xref>; <xref rid="bib37" ref-type="bibr">Nguyen et al., 2014</xref>; <xref rid="bib43" ref-type="bibr">Ribeiro et al., 2015</xref>). As shown in <xref rid="fig4" ref-type="fig">Figure 4</xref>A, cells with score 1 were α-actinin-positive cells but without clear sarcomeric striations, cells with score 2 were cells with a diffuse and punctate staining pattern of α-actinin staining, and cell with score 3 were cells with more organized myofibrillar structure with distinct paralleled bands of z-discs. Compared with ISS 1G cardiomyocytes, cardiac spheres exposed to space microgravity had more cells with a higher score of defined myofibrillar structure, indicating an improved structural development (<xref rid="fig4" ref-type="fig">Figure 4</xref>A).<fig id="fig4"><label>Figure 4</label><caption><p>Space microgravity improves cardiac structure of hiPSC-CMs</p><p>(A) Structural analysis of IMR90 hiPSC-CMs from ISS cultures post flight. Cells were dissociated, replated, and stained for sarcomeric α-actinin (green) and Hoechst (blue). Overall appearance of myofibrillar structure was categorized into three different levels and percentage of the cells by the scores was generated by counting n = 53 cells from ISS 1G and n = 73 cells from ISS μG cultures.</p><p>(B) qRT-PCR panel showing relative mRNA expression levels of gene associated with cardiac structure in cells derived from IMR90 hiPSCs (3 weeks on the ISS) and SCVI-273 hiPSCs (3 days on the ISS) (n = 3 cultures). Statistical analyses was performed with one-way ANOVA. <sup>∗</sup>p &lt; 0.05, <sup>∗∗</sup>p &lt; 0.01, <sup>∗∗∗</sup>p &lt; 0.001, and <sup>∗∗∗∗</sup>p &lt; 0.0001. Data are presented as mean ± SD (n = 3 cultures).</p></caption><graphic xlink:href="gr4"/></fig></p>
+                <p id="p0085">In addition, we examined the expression of genes related to cardiac structural proteins in intact cardiac spheres. Among the genes examined, myosin light chain 2V (<italic>MYL2</italic>), cardiac troponin I3 (<italic>TNNI3</italic>), myosin heavy chain 6 (<italic>MYH6</italic>), and myosin heavy chain 7 (<italic>MYH7</italic>) were upregulated in ISS μG cells compared with ISS 1G cells from both short-term (3 days) and long-term (3 weeks) ISS cultures (<xref rid="fig4" ref-type="fig">Figure 4</xref>B); <italic>MYL2</italic>, <italic>TNNI3</italic>, and <italic>MYH7</italic> are isoforms in more mature cardiomyocytes. In long-term ISS cultures, myosin light chain 2A (<italic>MYL7</italic>) and cardiac troponin T2 (<italic>TNNT2</italic>) were also upregulated in ISS μG cells compared with ISS 1G cells. In addition, compared with the short-term ISS μG cells, the long-term ISS μG cells had increased expression of <italic>TNNT2</italic> and <italic>TNNI3</italic>. Such increased cardiac structural proteins are major parameters of cardiomyocyte maturation (<xref rid="bib16" ref-type="bibr">Guo and Pu, 2020</xref>).</p>
+              </sec>
+              <sec id="sec2.4">
+                <title>Space microgravity improves Ca<sup>2+</sup> signaling in hiPSC-CMs</title>
+                <p id="p0090">After the cardiac spheres were transferred to low-adhesion dishes, ISS μG cardiac spheres recovered beating activity quite fast, between 16 and 36 h. In ISS 1G cultures, spheres showed beating activity 48 h after being transferred. To assess the function of hiPSC-CMs from the ISS cultures at single-cell level, we performed Ca<sup>2+</sup> signaling analysis after the cardiac spheres were dissociated and replated. The cells recovered beating activity after they were maintained in RPMI 1640 with 2% B27 supplement for 72 h, and were then loaded with calcium-sensitive dye Fluo-4 for Ca<sup>2+</sup> imaging.</p>
+                <p id="p0095">Among these beating cells, we observed three types of Ca<sup>2+</sup> transients: (1) normal Ca<sup>2+</sup> transients, (2) abnormal Ca<sup>2+</sup> transients with spontaneous Ca<sup>2+</sup> leak showing a single notch of diastolic Ca<sup>2+</sup> signal, and (3) abnormal Ca<sup>2+</sup> transients with inconsistent beating period (<xref rid="fig5" ref-type="fig">Figure 5</xref>A). Transients were categorized as normal if they had mostly consistent amplitudes and beat periods with typical cardiac transient morphology of upstroke and decay kinetics, while transients were categorized as abnormal if they exhibited spontaneous Ca<sup>2+</sup> release between transients: oscillations of diastolic cytosolic Ca<sup>2+</sup> and inconsistent beating (<xref rid="bib39" ref-type="bibr">Preininger et al., 2016</xref>). ISS μG samples had more cells with normal Ca<sup>2+</sup> transients compared with ISS 1G samples (93% in ISS μG cells versus 78% in ISS 1G cells) (<xref rid="fig5" ref-type="fig">Figure 5</xref>B). The proportion of the cells with abnormal Ca<sup>2+</sup> transients and the types of abnormal Ca<sup>2+</sup> transients in ISS 1G cultures were comparable with typical hiPSC-CM cultures in ground-based studies (<xref rid="bib12" ref-type="bibr">Forghani et al., 2021</xref>; <xref rid="bib27" ref-type="bibr">Lan et al., 2013</xref>; <xref rid="bib32" ref-type="bibr">Liu et al., 2020a</xref>; <xref rid="bib44" ref-type="bibr">Saraf et al., 2021</xref>). Most of these abnormal cells had minor abnormality with inconsistent beating period (type B) and a few cells had transients with a single notch of additional Ca<sup>2+</sup> spike (diastolic Ca<sup>2+</sup> signal) before the following Ca<sup>2+</sup> transient had initiated (type A) (<xref rid="fig5" ref-type="fig">Figures 5</xref>A and 5B). These minor abnormal types of Ca<sup>2+</sup> transients are likely due to immature nature of hiPSC-CMs. In both ISS μG and ISS 1G samples, we did not observe cells with other types of abnormal Ca<sup>2+</sup> transients associated with arrhythmias such as tachycardia-like events or transients with multiple notches of additional Ca<sup>2+</sup> spikes as in hiPSC-CMs from patients with heart disease or hiPSC-CMs treated with drugs.<fig id="fig5"><label>Figure 5</label><caption><p>Space microgravity improves intracellular Ca<sup>2+</sup> handling in hiPSC-CMs</p><p>(A) Representative traces of normal Ca<sup>2+</sup> transients or abnormal Ca<sup>2+</sup> transients of IMR90 hiPSC-CMs from ISS cultures post flight.</p><p>(B) Pie chart showing the percentage of cells exhibiting normal Ca<sup>2+</sup> transients or abnormal Ca<sup>2+</sup> transients (ISS 1G, n = 36 cells; ISS μG, n = 81 cells).</p><p>(C) Ca<sup>2+</sup> transient analyses with parameters presented as mean ± SD (ISS 1G, n = 28 cells; ISS μG, n = 75 cells).</p><p>(D) qRT-PCR panel showing relative mRNA expression levels of genes associated with Ca<sup>2+</sup> handling in cells derived from IMR90 hiPSCs (3 weeks on the ISS) and SCVI-273 hiPSCs (3 days on the ISS) (n = 3 cultures). Statistical analyses were performed with unpaired, two-tailed Student’s t test for (C) and one-way ANOVA for (D). <sup>∗∗∗</sup>p &lt; 0.001; and <sup>∗∗∗∗</sup>p &lt; 0.0001.</p></caption><graphic xlink:href="gr5"/></fig></p>
+                <p id="p0100">Among the cells with normal Ca<sup>2+</sup> transients, ISS μG cells had reduced time to peak, increased peak amplitude, reduced half-width, and increased maximum rise slope and maximum decay slope compared with ISS 1G cells (<xref rid="fig5" ref-type="fig">Figure 5</xref>C), indicating faster Ca<sup>2+</sup>-transient kinetics, a functional feature of more mature cardiomyocytes.</p>
+                <p id="p0105">In addition, the expression of calcium-handling proteins/ion channels (calsequestrin 2 [<italic>CASQ2</italic>] and ATPase plasma membrane Ca<sup>2+</sup> transporting 4 [<italic>ATP2B4</italic>]) was significantly upregulated in ISS μG cardiac spheres compared with ISS 1G cardiac spheres from both short-term (3 days) and long-term (3 weeks) ISS cultures (<xref rid="fig5" ref-type="fig">Figure 5</xref>D).</p>
+                <p id="p0110">These results suggest that space microgravity reduced abnormal Ca<sup>2+</sup> signaling and increased Ca<sup>2+</sup>-handling kinetics, which was consistent with increased expression of Ca<sup>2+</sup>-handling proteins in ISS μG cells.</p>
+              </sec>
+              <sec id="sec2.5">
+                <title>RNA-seq analysis reveals increased proliferation and differentiation during short-term exposure to space microgravity</title>
+                <p id="p0115">We next examined how a short-term exposure of cardiac progenitors to space microgravity affected the expression of genes associated with expansion and differentiation of these cells. Using cardiac spheres collected 3 days after thawing onboard the ISS, we performed RNA sequencing (RNA-seq) analysis to compare global gene expression profiles of SCVI-273 hiPSC-CMs in ISS μG versus ISS 1G conditions. As detected by RNA-seq, 195 genes were significantly upregulated, and 207 downregulated in ISS μG cells compared with ISS 1G cells. Among the significantly upregulated genes (<xref rid="fig6" ref-type="fig">Figure 6</xref>A; <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>), several are involved in cell cycle, proliferation, survival, and regeneration. They include cyclin B3 (<italic>CCNB3</italic>), which promotes metaphase-anaphase transition in cell cycle (<xref rid="bib30" ref-type="bibr">Li et al., 2019</xref>); reelin (<italic>RELN</italic>), which promotes cardiac regeneration and repair by improving cell survival after heart injury (<xref rid="bib33" ref-type="bibr">Liu et al., 2020b</xref>); and ubiquitin protein ligase E3 component N-recognin 3 (<italic>UBR3</italic>), which regulates apurinic/apyrimidinic endodeoxyribonuclease 1 (APE1), a protein involved in DNA damage repair, cell survival, and regulation of transcription, to reduce genome instability (<xref rid="bib35" ref-type="bibr">Meisenberg et al., 2012</xref>).<fig id="fig6"><label>Figure 6</label><caption><p>Differentially expressed genes and GO terms identified by RNA sequencing analysis of hiPSC-CMs exposed to space microgravity</p><p>(A) Volcano plot illustrating differentially expressed genes between ISS μG and ISS 1G samples (n = 3 cultures) collected from SCVI-273 cultures of 3 days on the ISS (short-term exposure to microgravity).</p><p>(B) Dot plot showing up- and downregulated GO terms of biological processes. GSEA, Gene Set Enrichment Analysis. See also <xref rid="mmc1" ref-type="supplementary-material">Figures S2–S7</xref>.</p></caption><graphic xlink:href="gr6"/></fig></p>
+                <p id="p0120">Several upregulated genes are also involved in heart development. They include Lim-domain only 7 (<italic>LMO7</italic>), a transcriptional regulator of emerin involved in beta-catenin signaling (<xref rid="bib18" ref-type="bibr">Holaska et al., 2006</xref>); collagen type XIV alpha 1 (<italic>COL14A1</italic>), encoding type XIV collagen, which is important for growth and structural integrity of the myocardium (<xref rid="bib50" ref-type="bibr">Tao et al., 2012</xref>); and heparan sulfate proteoglycan 2 (<italic>HSPG2</italic>), encoding protein perlecan (a major structural components of the basement membrane surrounding cells in the myocardium; <xref rid="bib34" ref-type="bibr">Martinez et al., 2018</xref>). Several other genes are also involved in modulating cardiomyocyte contractility. They include C-X-C motif chemokine receptor 4 (<italic>CXCR4</italic>) (<xref rid="bib40" ref-type="bibr">Pyo et al., 2006</xref>) and gap junction protein alpha 5 (<italic>GJA5</italic>) (<xref rid="bib8" ref-type="bibr">Chaldoupi et al., 2009</xref>), which are responsible for contraction and the electrical coupling of cardiomyocytes. Space microgravity also increased the expression of genes involved in fatty acid metabolism, including <italic>trans</italic>-2,3-enoyl-CoA reductase like <italic>TECRL</italic>), whose mutations are linked to catecholaminergic polymorphic ventricular tachycardia (<xref rid="bib36" ref-type="bibr">Moscu-Gregor et al., 2020</xref>).</p>
+                <p id="p0125">Among significantly downregulated genes (<xref rid="fig6" ref-type="fig">Figure 6</xref>A &amp; <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>), mitochondrially encoded 12S RRNA (<italic>MT-RNR1</italic>) and mitochondrially encoded 16S RRNA (<italic>MT-RNR2</italic>) are functional ncRNAs that protect cells from mitochondrial apoptosis (<xref rid="bib7" ref-type="bibr">Bitar et al., 2017</xref>); <italic>MT-RNR1</italic> was upregulated in hiPSC-CMs subjected to ionizing radiation during differentiation (<xref rid="bib3" ref-type="bibr">Baljinnyam et al., 2017</xref>). Another downregulated gene, cytokine angiopoietin-2 (<italic>ANGPT2</italic>), is a promising predictor of heart disease (<xref rid="bib38" ref-type="bibr">Pöss et al., 2015</xref>) and possesses proinflammatory and apoptosis-promoting abilities (<xref rid="bib45" ref-type="bibr">Scholz et al., 2015</xref>). Other downregulated genes are involved in the Jak-Stat- and mitogen-activated protein kinase (MAPK)-pathways. They include dual specificity phosphatase 1 (<italic>DUSP1</italic>) and dual specificity phosphatase 2 (<italic>DUSP2</italic>), encoding a subclass of tyrosine phosphatases that regulate the activity of MAPK, mediating stress responses, inflammation, and apoptosis (<xref rid="bib28" ref-type="bibr">Lang and Raffi, 2019</xref>); and serpin family E member 1 (<italic>SERPINE1</italic>), a serine protease inhibitor of plasminogen activator and an activator of the JAK/STAT pathway associated with cellular stress (<xref rid="bib48" ref-type="bibr">Simone et al., 2014</xref>) and cardiac diseases (<xref rid="bib5" ref-type="bibr">Basisty et al., 2020</xref>).</p>
+                <p id="p0130">According to gene set enrichment analysis (GSEA), space microgravity upregulated the gene ontology (GO) terms of biological processes associated with cardiac muscle cell development, muscle activity, or cell contractions (<xref rid="fig6" ref-type="fig">Figure 6</xref>B; <xref rid="mmc1" ref-type="supplementary-material">supplemental information</xref>) and the GO terms of cellular components and molecular functions associated with structural constituent of muscle, sarcomeric structure, and voltage-gated calcium channel activity involved in cardiac muscle cell action potential and sodium channel activity (<xref rid="mmc1" ref-type="supplementary-material">Figure S2</xref>; <xref rid="mmc1" ref-type="supplementary-material">supplemental information</xref>). In addition, space microgravity downregulated GO terms associated with processes, functions, or components of non-cardiac cells, such as nephron development and neuronal cell body (<xref rid="fig6" ref-type="fig">Figures 6</xref>B and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>; <xref rid="mmc1" ref-type="supplementary-material">supplemental information</xref>). These results were consistent with efficient differentiation and maturation of ISS μG cells into cardiomyocytes.</p>
+                <p id="p0135">We next examined the link between selected GO terms of biological processes and specific differentially expressed genes (<xref rid="fig7" ref-type="fig">Figure 7</xref>; <xref rid="mmc1" ref-type="supplementary-material">supplemental information</xref>). Notably, ISS μG cells had upregulated GO term of cyclin-dependent protein serine/threonine kinase regulator activity that was linked to upregulated genes of <italic>CCNB3</italic> and <italic>CCND2</italic>. Among upregulated genes, <italic>CCNB3</italic> had the highest increase in ISS μG cultures (Log<sub>2</sub>[fold change] = 7.25) (<xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>). <italic>CCNB3</italic> is known to regulate the G2/M transition of mitotic cells (<xref rid="bib30" ref-type="bibr">Li et al., 2019</xref>), whereas <italic>CCND2</italic> regulates the G1/S and its overexpression is associated with increased survival and regeneration potency in hiPSC-CMs (<xref rid="bib56" ref-type="bibr">Zhu et al., 2018</xref>). In addition, cellular amino acid biosynthetic process and the tricarboxylic acid cycle were also upregulated, indicating that ISS μG cells were metabolically more activate than ISS 1G cells.<fig id="fig7"><label>Figure 7</label><caption><p>Chord diagrams showing the relationship between GO terms and differentially expressed genes in hiPSC-CMs exposed to space microgravity</p><p>(A) Chord diagram of selected upregulated GO terms and genes in ISS μG versus ISS 1G of SCVI-273 cultures of 3 days on the ISS.</p><p>(B) Chord diagram of selected downregulated GO terms and genes. GO terms are presented on the right, genes on the left, and colored squares on the left indicate Log<sub>2</sub>(fold change) value from highest to lowest (n = 3 cultures).</p></caption><graphic xlink:href="gr7"/></fig></p>
+                <p id="p0140">Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analysis showed that several pathways were upregulated by space microgravity, including calcium signaling pathway, cardiac muscle contraction, and adrenergic signaling in cardiomyocytes, which is tightly connected to calcium signaling, cell contraction, and cardiomyocyte maturation. Regulations of the specific genes associated with these pathways and cell cycle are shown in <xref rid="mmc1" ref-type="supplementary-material">Figures S3–S5</xref>. The MAPK signaling pathway and ribosomal subunits proteins were downregulated in ISS μG cells (<xref rid="mmc1" ref-type="supplementary-material">Figures S6</xref> and <xref rid="mmc1" ref-type="supplementary-material">S7</xref>). Since cell differentiation is associated with the downregulation of rRNA transcription (<xref rid="bib17" ref-type="bibr">Hayashi et al., 2014</xref>), these results suggest that ISS μG cells actively differentiated into cardiomyocytes.</p>
+                <p id="p0145">Together, both the GO term and KEGG enrichment analyses indicate that ISS μG cells were in a state of increased cell growth and cardiac differentiation compared with ISS 1G cells.</p>
+              </sec>
+            </sec>
+            <sec id="sec3">
+              <title>Discussion</title>
+              <p id="p0150">Despite recent advances in understanding cell behavior under extracellular forces, few studies have investigated changes in proliferation and differentiation of cells under space microgravity (<xref rid="bib2" ref-type="bibr">Baio et al., 2018b</xref>; <xref rid="bib19" ref-type="bibr">Huang et al., 2020</xref>; <xref rid="bib52" ref-type="bibr">Wnorowski et al., 2019</xref>). Our analysis shows that the expansion of hiPSC-derived cardiac progenitors under space microgravity resulted in increased cell proliferation and efficient generation of highly enriched cardiomyocytes with appropriate features. Specifically, the beating cardiac spheres were detected in the cultures, containing &gt;90% cardiomyocytes. Compared with cells from ISS 1G cultures, cardiac spheres from ISS μG cultures were bigger in size and had appropriate molecular and functional properties. At single-cell level, cells from ISS μG cultures had increased cell size and clearer sarcomere structure. The cells also had an increased peak amplitude and faster kinetics of Ca<sup>2+</sup> transients. RNA-seq analysis showed upregulation of genes associated with cardiac development, cell cycle, proliferation, survival, and cardiac functions, and downregulation of genes related to extracellular matrix and apoptosis in ISS μG cultures compared with ISS 1G cultures.</p>
+              <p id="p0155">An innovative aspect of this study is the direct comparison of cells cultured under both microgravity condition and 1G condition in the MVP system on the ISS. Unlike typical ISS experiments where microgravity cells are compared with the ground control, the MVP system consisted of both ISS μG and ISS 1G modules and thus allowed us to better characterize the impact of space microgravity alone on physiology, structure, and gene expression of hiPSC-CMs and examine whether space microgravity altered the growth and differentiation of cardiac progenitors. Therefore, we could focus on the effect of space microgravity without background noise of space environment, including space radiation that could potentially alter or mask microgravity effects on cellular features and gene expression. The MVP system had an automatic imaging device for each cell culture module but did not provide clear images for us to monitor the presence of beating cells. Further improvement of the flight hardware with more advanced and automatic imaging with higher resolutions would be desirable.</p>
+              <p id="p0160">Multiple assessments indicate that long-term exposure of cardiac progenitors to space microgravity generated enriched cardiomyocytes with improved proliferation. The size of the spheres under ISS μG was three times bigger on average than that of ISS 1G controls. Compared with ISS 1G cultures, ISS μG cultures also had increased features of proliferation, including increased expression of proliferation marker Ki-67: 7% of ISS μG cells were positive for Ki-67, while Ki-67 was not detected in ISS 1G cultures. These results were further confirmed by upregulation of selected genes in ISS μG cultures, including <italic>TBX3</italic> (<xref rid="bib42" ref-type="bibr">Ribeiro et al., 2007</xref>), <italic>IGF2</italic> (<xref rid="bib47" ref-type="bibr">Shen et al., 2020</xref>), <italic>CCND1</italic> (<xref rid="bib14" ref-type="bibr">Gan et al., 2019</xref>), and <italic>CCND2</italic> (<xref rid="bib56" ref-type="bibr">Zhu et al., 2018</xref>), which have specific roles in cell cycle, cell proliferation, and heart regeneration. Furthermore, the counts of live cell nuclei in ISS μG cultures were 20-fold higher than those in ISS 1G cultures.</p>
+              <p id="p0165">Both structural and functional assessments indicate that cardiomyocytes from ISS μG cultures had improved features. Cells from ISS μG cultures had increased cell size and contained more cells with better-developed and clearer sarcomeres compared with cells from ISS 1G cultures and therefore were structurally improved. The improved cardiomyocyte structure could contribute to the increased stability of Ca<sup>2+</sup> signaling we observed in ISS μG cells: the proportions of the cells with normal Ca<sup>2+</sup> transients were higher in ISS μG cells than in ISS 1G cells. ISS μG cells also had an increased peak amplitude and faster kinetics of Ca<sup>2+</sup> transients. Consistently, ISS μG cells had increased expression of genes encoding cardiac structural and Ca<sup>2+</sup>-handling proteins, including <italic>MYL2</italic>, <italic>MYL7</italic>, <italic>TNNI3</italic>, <italic>TNNT2</italic>, <italic>MYH6</italic>, <italic>MYH7</italic>, <italic>CASQ2</italic>, and <italic>ATP2B4</italic>, indicating that space microgravity could have a beneficial effect on the structure and function of cardiac cells.</p>
+              <p id="p0170">Following the sampling of SCVI-273 cultures at day 3 for RNA-seq analysis, only a limited amount of the cells was left for late-stage characterization. Because of this limitation, our characterization of the late-stage cells was focused on the IMR90 cultures but not the SCVI-273 cultures. However, the cell morphologies of both the cell lines were similar at the late stage. In addition, molecular profiling of the short-term cultures of SCVI-273 cells reveals gene regulations that are consistent with the improved cell proliferation observed in the long-term cultures of IMR90 cells. Our RNA-seq analysis of the cardiac spheres that had short-term exposure of microgravity revealed upregulation of key genes and pathways involved in cardiomyocytes differentiation, cardiac structural maturation, contractility, and cell proliferation in ISS μG cells compared with ISS 1G cells. We also detected downregulation of genes and pathways associated with apoptosis, inflammation, and cellular stress in ISS μG cells compared with ISS 1G cells. These results indicate that the short-term exposure of cardiac progenitors to space microgravity was able to implement significant changes in their transcriptomic profiles.</p>
+              <p id="p0175">Previous studies indicate that cells can undergo profound changes at the morphological, molecular, and functional levels in response to microgravity and spaceflight (<xref rid="bib13" ref-type="bibr">Freed and Vunjak-Novakovic, 2002</xref>; <xref rid="bib51" ref-type="bibr">Unsworth and Lelkes, 1998</xref>). For example, neonatal cardiovascular progenitors (CPCs) had enhanced cell proliferation and changes in cytoskeletal organization and migration after the cells were cultured aboard the ISS for 30 days (<xref rid="bib2" ref-type="bibr">Baio et al., 2018b</xref>). These CPCs also exhibited elevated expression of Ca<sup>2+</sup>-handling and signaling genes, which corresponded to the activation of protein kinase C alpha, a calcium-dependent protein kinase (<xref rid="bib1" ref-type="bibr">Baio et al., 2018a</xref>). In another spaceflight study, human mesenchymal stem cells cultured on the ISS for 7 and 14 days had more potent immunosuppressive capacity than did the ground control (<xref rid="bib19" ref-type="bibr">Huang et al., 2020</xref>). In addition, simulated microgravity potentiated the proliferation of bone marrow-derived human mesenchymal stem cells (<xref rid="bib53" ref-type="bibr">Yuge et al., 2006</xref>) and adipose-derived stem cells (<xref rid="bib54" ref-type="bibr">Zhang et al., 2015</xref>).</p>
+              <p id="p0180">Our RNA-seq results provide insights into genes and molecular pathways linked to cardiomyocyte survival and differentiation. For example, ISS μG cells had upregulated expression of genes that support cell proliferation, survival, and cardiac development, including <italic>CCNB3</italic>, <italic>CCND2</italic>, T-box transcription factor 1 (<italic>TBX1</italic>), and T-box transcription factor 2 (<italic>TBX2</italic>). Among them, <italic>CCNB3</italic> was the most upregulated gene in ISS μG cells. The role of <italic>CCNB3</italic> in cardiomyocyte proliferation, survival, and differentiation has not been reported, although another cyclin gene, <italic>CCND2</italic>, is known to be able to improve cardiomyocyte proliferation and cardiac regeneration (<xref rid="bib56" ref-type="bibr">Zhu et al., 2018</xref>). Further study on <italic>CCNB3</italic> and other genes identified in our transcriptomic analysis is likely to be fruitful given significant challenge in graft survival of hiPSC-CMs for regenerative medicine; in nonhuman primate model studies, even with the prosurvival pretreatment, ∼90% of the transplanted cells died post injection (<xref rid="bib10" ref-type="bibr">Chong and Murry, 2014</xref>).</p>
+              <p id="p0185">Our RNA-seq results also highlight that the enhanced cardiomyocyte differentiation in ISS μG cultures was associated with decreased expression of genes associated with differentiation of non-cardiac lineages. For example, the expression of genes related to the GO term of positive regulation of vasculature development and the GO terms associated with processes, functions, or components of neurons and nephrons were downregulated in ISS μG cells. Suppression of differentiation of other cell types would be expected during efficient cardiomyocyte differentiation as, for example, endothelial and cardiac cells are derived from the same progenitors. The results of the molecular profiling could be exploited to facilitate efficient production of cardiomyocytes under standard gravity. Modulating gene expression during early-stage cardiomyocyte differentiation could significantly affect the efficiency of differentiation. For example, downregulation of a Wnt-signaling gene ( leucine rich repeat containing G protein-coupled receptor 5 [<italic>LGR5</italic>]) inhibited cardiomyocyte differentiation but potentiated endothelial differentiation, while a typical differentiation cultures without suppression of <italic>LGR5</italic> resulted in higher levels of cardiomyocytes but very few endothelial cells (<xref rid="bib21" ref-type="bibr">Jha et al., 2017</xref>).</p>
+              <p id="p0190">Therapeutic application of hiPSC-CMs requires not only large amounts of the cells with improved ability for engraftment but also cells with high quality including improved maturation and function in order to improve the safety of cell therapy. Our transcriptomic analysis showed an upregulation of genes and pathways that support cell contractility and calcium signaling. In addition to increased expression of genes associated with Ca<sup>2+</sup> handling, structure, and contractility in late-stage ISS μG cells, ISS μG cells at early stage had reduced expression of several genes related to potassium channel activity, including potassium two pore domain channel subfamily K member 5 (<italic>KCNK5</italic>) and potassium calcium-activated channel subfamily M alpha 1 (<italic>KCNMA1</italic>). Cardiac potassium channels regulate the shape and duration of the cardiac action potential, and limit the depolarization duration of the cell membrane and the time course of the contractions and the refractory periods (<xref rid="bib49" ref-type="bibr">Tamargo et al., 2004</xref>). The upregulation of genes involved in calcium channel activity related to contraction and downregulation of genes related to potassium channel activity may be in part contributing to the reduced abnormal intracellular Ca<sup>2+</sup> transients observed in ISS μG cells.</p>
+              <p id="p0195">In conclusion, we have demonstrated that culture of cryopreserved 3D cardiac progenitors under space microgravity resulted in efficient differentiation of cardiomyocytes. The combination of microgravity and 3D culture employed in this study provides a novel method to increase the proliferation and differentiation of cardiac progenitors. This method also results in cardiomyocytes with improved proliferation, structure, and cardiac function, which are highly desirable for future application of hiPSC-CMs in regenerative medicine. In addition, we have identified potential genes and pathways involved in cardiomyocyte proliferation, survival, and differentiation. Targeting these genes and pathways may provide alternative strategies used on Earth to mimic the effect of space microgravity on improved proliferation, survival, and differentiation of hiPSC-CMs.</p>
+            </sec>
+            <sec id="sec4">
+              <title>Experimental procedures</title>
+              <sec id="sec4.1">
+                <title>Cell culture and cardiomyocyte differentiation</title>
+                <p id="p0200">SCVI-273 and IMR90 hiPSCs were cultured in a feeder-free condition and subjected to cardiomyocyte differentiation by small molecule (<xref rid="bib31" ref-type="bibr">Lian et al., 2012</xref>) and growth factors, respectively (<xref rid="bib22" ref-type="bibr">Jha et al., 2015</xref>; <xref rid="bib25" ref-type="bibr">Laflamme et al., 2007</xref>).</p>
+              </sec>
+              <sec id="sec4.2">
+                <title>Formation and cryopreservation of cardiac progenitor spheres</title>
+                <p id="p0205">Cardiac progenitor spheres were generated from differentiation day 6 cultures that were dissociated using 0.25% trypsin-EDTA (Thermo Fisher Scientific). The dissociated cells were seeded into the Aggrewell 400 plates at 1.8 × 10<sup>6</sup> cells/well (1,500 cells/microwell) and cultured in RPMI/B27 medium (RPMI 1640 with 2% B27 supplement with insulin) with 10 μM ROCK inhibitor Y-27632. After 24 h, cardiac progenitor spheres were collected and resuspended in cryopreservation medium (90% fetal bovine serum and 10% dimethyl sulfoxide with 10 μM ROCK inhibitor) and transferred into cryosyringes at 0.5 mL/cryosyringe. The cryosyringes were cooled at 4°C for 25 min and then stored at −80°C in a cooling box (<xref rid="bib41" ref-type="bibr">Rampoldi et al., 2021</xref>).</p>
+              </sec>
+              <sec id="sec4.3">
+                <title>ISS cell culture facility and spaceflight operation</title>
+                <p id="p0210">The cryopreserved cardiac progenitor spheres were pre-tested and sent to the ISS through the SpaceX-20 mission, a mission launched by the aerospace company SpaceX on March 6, 2020 (<ext-link ext-link-type="uri" xlink:href="https://www.issnationallab.org/launches/spacex-crs-20/" id="intref0015">https://www.issnationallab.org/launches/spacex-crs-20/</ext-link>). On the ISS, the astronauts thawed the cryopreserved cardiac progenitor spheres, and cultured the cells using the MVP system from Techshot. The MVP system allows loading of multiple cultures/modules under both ISS μG and ISS 1G conditions (the 1G condition on the ISS was achieved by centrifugation). Each condition was run in triplicate for each cell line.</p>
+                <p id="p0215">For thawing cells, cryosyringes containing cardiac progenitor spheres were placed in a thermoblock at 37°C for 5 min. The cells were then injected into cell culture chambers of the MVP modules containing the CO<sub>2</sub>-independent medium with 10 μM ROCK inhibitor (<xref rid="mmc1" ref-type="supplementary-material">Table S2</xref>) (<xref rid="bib41" ref-type="bibr">Rampoldi et al., 2021</xref>). The MVP modules were re-installed into the MVP facility, which started with a medium flush cycle to replace the medium with new culture medium (20 mL per chamber; ∼2× chamber volume), to flush out the DMSO in the cryopreserved cell solution (0.5 mL/cryosyringe). The cells were cultured at 37°C in the MVP system with medium exchange every other day.</p>
+                <p id="p0220">For short-term exposure of space microgravity, after 3 days of cell culture on the ISS, the following samples were harvested, fixed using RNAProtect (Qiagen), and stored at −20°C: three samples from SCVI-273 hiPSCs at ISS μG and three samples from SCVI-273 hiPSCs at ISS 1G (one sample each from the three cell culture modules, and 9 mL for each sample). The remaining cells were returned to the MVP for the duration of the experiment. For long-term exposure of space microgravity, live cultures were returned to ground via warm storage after 22 days of culture on the ISS.</p>
+                <p id="p0225">Upon arrival at Emory University, cardiac spheres were transferred immediately into an incubator and allowed to recover overnight. The following day cardiac spheres were transferred from the collection bags into low-adhesion dishes in RPMI 1640 medium with 2% B27 supplement, and were then maintained overnight. Spheres were imaged using an inverted microscope (Axio Vert.A1) and analyzed by ImageJ software.</p>
+              </sec>
+              <sec id="sec4.4">
+                <title>Quantification and statistical analysis</title>
+                <p id="p0230">Data were analyzed in GraphPad Prism 7.04. Comparisons were conducted via an unpaired, two-tailed Student’s t test and one-way ANOVA test with significant differences defined by <sup>∗</sup>p &lt; 0.05, <sup>∗∗</sup>p &lt; 0.01, <sup>∗∗∗</sup>p &lt; 0.001, and <sup>∗∗∗∗</sup>p &lt; 0.0001. Data are presented as mean ± SD.</p>
+                <p id="p0235">Supplemental experimental procedures include cell culture, immunocytochemical analysis, high-content imaging analysis, structural analysis of hiPSC-CMs, RNA-seq analyses, real-time qRT-PCR, and calcium imaging.</p>
+              </sec>
+            </sec>
+            <sec id="sec5">
+              <title>Author contributions</title>
+              <p id="p0240">A.R., K.M., and C.X. designed experiments. A.R., P.F., D.L., H.H., L.C.A., and J.M. performed experiments and analyzed data. J.F. and G.B. contributed to the MVP hardware design and testing. A.R. and C.X. wrote the manuscript. All authors reviewed and approved the manuscript.</p>
+            </sec>
+          </body>
+          <back>
+            <ref-list id="cebib0010">
+              <title>References</title>
+              <ref id="bib1">
+                <element-citation publication-type="journal" id="sref1">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baio</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hasaniya</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pecaut</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kearns-Jonker</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight activates protein kinase C alpha signaling and modifies the developmental stage of human neonatal cardiovascular progenitor cells</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <volume>27</volume>
+                  <year>2018</year>
+                  <fpage>805</fpage>
+                  <lpage>818</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2017.0263</pub-id>
+                  <pub-id pub-id-type="pmid">29320953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib2">
+                <element-citation publication-type="journal" id="sref2">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baio</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>A.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Silva</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoehn</surname>
+                      <given-names>C.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Countryman</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bailey</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hasaniya</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pecaut</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kearns-Jonker</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties</article-title>
+                  <source>NPJ Microgravity</source>
+                  <volume>4</volume>
+                  <year>2018</year>
+                  <fpage>13</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-018-0048-x</pub-id>
+                  <pub-id pub-id-type="pmid">30062101</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib3">
+                <element-citation publication-type="journal" id="sref3">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baljinnyam</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Venkatesh</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gordan</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mareedu</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>L.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Azzam</surname>
+                      <given-names>E.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Suzuki</surname>
+                      <given-names>C.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fraidenraich</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effect of densely ionizing radiation on cardiomyocyte differentiation from human-induced pluripotent stem cells</article-title>
+                  <source>Physiol. Rep.</source>
+                  <volume>5</volume>
+                  <year>2017</year>
+                  <fpage>e13308</fpage>
+                  <pub-id pub-id-type="doi">10.14814/phy2.13308</pub-id>
+                  <pub-id pub-id-type="pmid">28801517</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib4">
+                <element-citation publication-type="journal" id="sref4">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Barzegari</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saei</surname>
+                      <given-names>A.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An update to space biomedical research: tissue engineering in microgravity bioreactors</article-title>
+                  <source>Bioimpacts</source>
+                  <volume>2</volume>
+                  <year>2012</year>
+                  <fpage>23</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.5681/bi.2012.003</pub-id>
+                  <pub-id pub-id-type="pmid">23678438</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib5">
+                <element-citation publication-type="journal" id="sref5">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Basisty</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kale</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jeon</surname>
+                      <given-names>O.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuehnemann</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Payne</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rao</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Holtz</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shah</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferrucci</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A proteomic atlas of senescence-associated secretomes for aging biomarker development</article-title>
+                  <source>PLoS Biol.</source>
+                  <volume>18</volume>
+                  <year>2020</year>
+                  <fpage>e3000599</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pbio.3000599</pub-id>
+                  <pub-id pub-id-type="pmid">31945054</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib6">
+                <element-citation publication-type="journal" id="sref6">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Becker</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Souza</surname>
+                      <given-names>G.R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using space-based investigations to inform cancer research on Earth</article-title>
+                  <source>Nat. Rev. Cancer</source>
+                  <volume>13</volume>
+                  <year>2013</year>
+                  <fpage>315</fpage>
+                  <lpage>327</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nrc3507</pub-id>
+                  <pub-id pub-id-type="pmid">23584334</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib7">
+                <element-citation publication-type="journal" id="sref7">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bitar</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuiper</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>O'Brien</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barry</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Using human iPSC-derived neurons to uncover activity-dependent non-coding RNAs</article-title>
+                  <source>Genes</source>
+                  <volume>8</volume>
+                  <year>2017</year>
+                  <fpage>E401</fpage>
+                  <pub-id pub-id-type="doi">10.3390/genes8120401</pub-id>
+                  <pub-id pub-id-type="pmid">29261115</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib8">
+                <element-citation publication-type="journal" id="sref8">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chaldoupi</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Loh</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauer</surname>
+                      <given-names>R.N.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>de Bakker</surname>
+                      <given-names>J.M.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Rijen</surname>
+                      <given-names>H.V.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The role of connexin40 in atrial fibrillation</article-title>
+                  <source>Cardiovasc. Res.</source>
+                  <volume>84</volume>
+                  <year>2009</year>
+                  <fpage>15</fpage>
+                  <lpage>23</lpage>
+                  <pub-id pub-id-type="doi">10.1093/cvr/cvp203</pub-id>
+                  <pub-id pub-id-type="pmid">19535379</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib9">
+                <element-citation publication-type="journal" id="sref9">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wan</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>McCaigue</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bioreactor expansion of human adult bone marrow-derived mesenchymal stem cells</article-title>
+                  <source>Stem Cell.</source>
+                  <volume>24</volume>
+                  <year>2006</year>
+                  <fpage>2052</fpage>
+                  <lpage>2059</lpage>
+                  <pub-id pub-id-type="doi">10.1634/stemcells.2005-0591</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib10">
+                <element-citation publication-type="journal" id="sref10">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chong</surname>
+                      <given-names>J.J.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murry</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cardiac regeneration using pluripotent stem cells-Progression to large animal models</article-title>
+                  <source>Stem Cell Res.</source>
+                  <volume>13</volume>
+                  <year>2014</year>
+                  <fpage>654</fpage>
+                  <lpage>665</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scr.2014.06.005</pub-id>
+                  <pub-id pub-id-type="pmid">25087896</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib11">
+                <element-citation publication-type="journal" id="sref11">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Chong</surname>
+                      <given-names>J.J.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Don</surname>
+                      <given-names>C.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Minami</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>Y.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weyers</surname>
+                      <given-names>J.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahoney</surname>
+                      <given-names>W.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Biber</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cook</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palpant</surname>
+                      <given-names>N.J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Human embryonic-stem-cell-derived cardiomyocytes regenerate non-human primate hearts</article-title>
+                  <source>Nature</source>
+                  <volume>510</volume>
+                  <year>2014</year>
+                  <fpage>273</fpage>
+                  <lpage>277</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nature13233</pub-id>
+                  <pub-id pub-id-type="pmid">24776797</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib12">
+                <element-citation publication-type="journal" id="sref12">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Forghani</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rashid</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hwang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maxwell</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mandawat</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Carfilzomib treatment causes molecular and functional alterations of human induced pluripotent stem cell-derived cardiomyocytes</article-title>
+                  <source>J. Am. Heart Assoc.</source>
+                  <volume>10</volume>
+                  <year>2021</year>
+                  <fpage>e022247</fpage>
+                  <pub-id pub-id-type="doi">10.1161/JAHA.121.022247</pub-id>
+                  <pub-id pub-id-type="pmid">34873922</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib13">
+                <element-citation publication-type="journal" id="sref13">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Freed</surname>
+                      <given-names>L.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Vunjak-Novakovic</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spaceflight bioreactor studies of cells and tissues</article-title>
+                  <source>Adv. Space Biol. Med.</source>
+                  <volume>8</volume>
+                  <year>2002</year>
+                  <fpage>177</fpage>
+                  <lpage>195</lpage>
+                  <pub-id pub-id-type="doi">10.1016/s1569-2574(02)08019-x</pub-id>
+                  <pub-id pub-id-type="pmid">12951697</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib14">
+                <element-citation publication-type="journal" id="sref14">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Gan</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>F.M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Su</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>H.S.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>K.K.H.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>microRNA-1 inhibits cardiomyocyte proliferation in mouse neonatal hearts by repressing CCND1 expression</article-title>
+                  <source>Ann. Transl. Med.</source>
+                  <volume>7</volume>
+                  <year>2019</year>
+                  <fpage>455</fpage>
+                  <pub-id pub-id-type="doi">10.21037/atm.2019.08.68</pub-id>
+                  <pub-id pub-id-type="pmid">31700891</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib15">
+                <element-citation publication-type="journal" id="sref15">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pietsch</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aleshcheva</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wise</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Loon</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ulbrich</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Magnusson</surname>
+                      <given-names>N.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growing tissues in real and simulated microgravity: new methods for tissue engineering</article-title>
+                  <source>Tissue Eng. Part B Rev.</source>
+                  <volume>20</volume>
+                  <year>2014</year>
+                  <fpage>555</fpage>
+                  <lpage>566</lpage>
+                  <pub-id pub-id-type="doi">10.1089/ten.TEB.2013.0704</pub-id>
+                  <pub-id pub-id-type="pmid">24597549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib16">
+                <element-citation publication-type="journal" id="sref16">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pu</surname>
+                      <given-names>W.T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cardiomyocyte maturation: new phase in development</article-title>
+                  <source>Circ. Res.</source>
+                  <volume>126</volume>
+                  <year>2020</year>
+                  <fpage>1086</fpage>
+                  <lpage>1106</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.119.315862</pub-id>
+                  <pub-id pub-id-type="pmid">32271675</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib17">
+                <element-citation publication-type="journal" id="sref17">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hayashi</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuroda</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kishimoto</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Iwama</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kimura</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Downregulation of rRNA transcription triggers cell differentiation</article-title>
+                  <source>PLoS One</source>
+                  <volume>9</volume>
+                  <year>2014</year>
+                  <fpage>e98586</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0098586</pub-id>
+                  <pub-id pub-id-type="pmid">24879416</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib18">
+                <element-citation publication-type="journal" id="sref18">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Holaska</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rais-Bahrami</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>K.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Lmo7 is an emerin-binding protein that regulates the transcription of emerin and many other muscle-relevant genes</article-title>
+                  <source>Hum. Mol. Genet.</source>
+                  <volume>15</volume>
+                  <year>2006</year>
+                  <fpage>3459</fpage>
+                  <lpage>3472</lpage>
+                  <pub-id pub-id-type="doi">10.1093/hmg/ddl423</pub-id>
+                  <pub-id pub-id-type="pmid">17067998</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib19">
+                <element-citation publication-type="journal" id="sref19">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Huang</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Russell</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lefavor</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Durand</surname>
+                      <given-names>N.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>James</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Harvey</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Countryman</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zubair</surname>
+                      <given-names>A.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Feasibility, potency, and safety of growing human mesenchymal stem cells in space for clinical application</article-title>
+                  <source>NPJ Microgravity</source>
+                  <volume>6</volume>
+                  <year>2020</year>
+                  <fpage>16</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-020-0106-z</pub-id>
+                  <pub-id pub-id-type="pmid">32529028</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib20">
+                <element-citation publication-type="journal" id="sref20">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ingber</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How cells (might) sense microgravity</article-title>
+                  <source>FASEB J.</source>
+                  <volume>13</volume>
+                  <issue>Suppl</issue>
+                  <year>1999</year>
+                  <fpage>S3</fpage>
+                  <lpage>S15</lpage>
+                  <pub-id pub-id-type="doi">10.1096/fasebj.13.9001.s3</pub-id>
+                  <pub-id pub-id-type="pmid">10352140</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib21">
+                <element-citation publication-type="journal" id="sref21">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gentillon</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Preininger</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Downregulation of LGR5 expression inhibits cardiomyocyte differentiation and potentiates endothelial differentiation from human pluripotent stem cells</article-title>
+                  <source>Stem Cell Rep.</source>
+                  <volume>9</volume>
+                  <year>2017</year>
+                  <fpage>513</fpage>
+                  <lpage>527</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stemcr.2017.07.006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib22">
+                <element-citation publication-type="journal" id="sref22">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wile</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morris</surname>
+                      <given-names>A.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maher</surname>
+                      <given-names>K.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bao</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Molecular beacon-based detection and isolation of working-type cardiomyocytes derived from human pluripotent stem cells</article-title>
+                  <source>Biomaterials</source>
+                  <volume>50</volume>
+                  <year>2015</year>
+                  <fpage>176</fpage>
+                  <lpage>185</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biomaterials.2015.01.043</pub-id>
+                  <pub-id pub-id-type="pmid">25736507</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib23">
+                <element-citation publication-type="journal" id="sref23">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Preininger</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ding</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cho</surname>
+                      <given-names>H.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jo</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maher</surname>
+                      <given-names>K.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>M.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulated microgravity and 3D culture enhance induction, viability, proliferation and differentiation of cardiac progenitors from human pluripotent stem cells</article-title>
+                  <source>Sci. Rep.</source>
+                  <volume>6</volume>
+                  <year>2016</year>
+                  <fpage>30956</fpage>
+                  <pub-id pub-id-type="doi">10.1038/srep30956</pub-id>
+                  <pub-id pub-id-type="pmid">27492371</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib24">
+                <element-citation publication-type="journal" id="sref24">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Manabe</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matsumoto</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kajiume</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Matsumoto</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yuge</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>LIF-free embryonic stem cell culture in simulated microgravity</article-title>
+                  <source>PLoS One</source>
+                  <volume>4</volume>
+                  <year>2009</year>
+                  <fpage>e6343</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0006343</pub-id>
+                  <pub-id pub-id-type="pmid">19626124</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib25">
+                <element-citation publication-type="journal" id="sref25">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laflamme</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>K.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Naumova</surname>
+                      <given-names>A.V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Muskheli</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fugate</surname>
+                      <given-names>J.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dupras</surname>
+                      <given-names>S.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reinecke</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hassanipour</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Police</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cardiomyocytes derived from human embryonic stem cells in pro-survival factors enhance function of infarcted rat hearts</article-title>
+                  <source>Nat. Biotechnol.</source>
+                  <volume>25</volume>
+                  <year>2007</year>
+                  <fpage>1015</fpage>
+                  <lpage>1024</lpage>
+                  <pub-id pub-id-type="pmid">17721512</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib26">
+                <element-citation publication-type="journal" id="sref26">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Laflamme</surname>
+                      <given-names>M.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Murry</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regenerating the heart</article-title>
+                  <source>Nat. Biotechnol.</source>
+                  <volume>23</volume>
+                  <year>2005</year>
+                  <fpage>845</fpage>
+                  <lpage>856</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nbt1117</pub-id>
+                  <pub-id pub-id-type="pmid">16003373</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib27">
+                <element-citation publication-type="journal" id="sref27">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lan</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lee</surname>
+                      <given-names>A.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liang</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sanchez-Freire</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>P.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yen</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Abnormal calcium handling properties underlie familial hypertrophic cardiomyopathy pathology in patient-specific induced pluripotent stem cells</article-title>
+                  <source>Cell Stem Cell</source>
+                  <volume>12</volume>
+                  <year>2013</year>
+                  <fpage>101</fpage>
+                  <lpage>113</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stem.2012.10.010</pub-id>
+                  <pub-id pub-id-type="pmid">23290139</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib28">
+                <element-citation publication-type="journal" id="sref28">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lang</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raffi</surname>
+                      <given-names>F.A.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Dual-specificity phosphatases in immunity and infection: an update</article-title>
+                  <source>Int. J. Mol. Sci.</source>
+                  <volume>20</volume>
+                  <year>2019</year>
+                  <fpage>E2710</fpage>
+                  <pub-id pub-id-type="doi">10.3390/ijms20112710</pub-id>
+                  <pub-id pub-id-type="pmid">31159473</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib29">
+                <element-citation publication-type="journal" id="sref29">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Niu</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Qian</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xuan</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hou</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ni</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>NASA-approved rotary bioreactor enhances proliferation and osteogenesis of human periodontal ligament stem cells</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <volume>18</volume>
+                  <year>2009</year>
+                  <fpage>1273</fpage>
+                  <lpage>1282</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2008.0371</pub-id>
+                  <pub-id pub-id-type="pmid">19327006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib30">
+                <element-citation publication-type="journal" id="sref30">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Han</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Cyclin B3 is required for metaphase to anaphase transition in oocyte meiosis I</article-title>
+                  <source>J. Cell Biol.</source>
+                  <volume>218</volume>
+                  <year>2019</year>
+                  <fpage>1553</fpage>
+                  <lpage>1563</lpage>
+                  <pub-id pub-id-type="doi">10.1083/jcb.201808088</pub-id>
+                  <pub-id pub-id-type="pmid">30770433</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib31">
+                <element-citation publication-type="journal" id="sref31">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lian</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hsiao</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hazeltine</surname>
+                      <given-names>L.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Azarin</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raval</surname>
+                      <given-names>K.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kamp</surname>
+                      <given-names>T.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palecek</surname>
+                      <given-names>S.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Robust cardiomyocyte differentiation from human pluripotent stem cells via temporal modulation of canonical Wnt signaling</article-title>
+                  <source>Proc. Natl. Acad. Sci. USA</source>
+                  <volume>109</volume>
+                  <year>2012</year>
+                  <fpage>E1848</fpage>
+                  <lpage>E1857</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.1200250109</pub-id>
+                  <pub-id pub-id-type="pmid">22645348</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib32">
+                <element-citation publication-type="journal" id="sref32">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sun</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rampoldi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maxwell</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fischbach</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Castellino</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Du</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Melphalan induces cardiotoxicity through oxidative stress in cardiomyocytes derived from human induced pluripotent stem cells</article-title>
+                  <source>Stem Cell Res. Ther.</source>
+                  <volume>11</volume>
+                  <year>2020</year>
+                  <fpage>470</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13287-020-01984-1</pub-id>
+                  <pub-id pub-id-type="pmid">33153480</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib33">
+                <element-citation publication-type="journal" id="sref33">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>De la Cruz</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Balint</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Oxendine-Burns</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Terrones</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuo</surname>
+                      <given-names>H.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lantz</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bansal</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Lymphoangiocrine signals promote cardiac growth and repair</article-title>
+                  <source>Nature</source>
+                  <volume>588</volume>
+                  <year>2020</year>
+                  <fpage>705</fpage>
+                  <lpage>711</lpage>
+                  <pub-id pub-id-type="doi">10.1038/s41586-020-2998-x</pub-id>
+                  <pub-id pub-id-type="pmid">33299187</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib34">
+                <element-citation publication-type="journal" id="sref34">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Martinez</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhawan</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Farach-Carson</surname>
+                      <given-names>M.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modular proteoglycan perlecan/HSPG2: mutations, phenotypes, and functions</article-title>
+                  <source>Genes</source>
+                  <volume>9</volume>
+                  <year>2018</year>
+                  <fpage>E556</fpage>
+                  <pub-id pub-id-type="doi">10.3390/genes9110556</pub-id>
+                  <pub-id pub-id-type="pmid">30453502</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib35">
+                <element-citation publication-type="journal" id="sref35">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Meisenberg</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tait</surname>
+                      <given-names>P.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dianova</surname>
+                      <given-names>I.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wright</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edelmann</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ternette</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tasaki</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kessler</surname>
+                      <given-names>B.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parsons</surname>
+                      <given-names>J.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kwon</surname>
+                      <given-names>Y.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dianov</surname>
+                      <given-names>G.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ubiquitin ligase UBR3 regulates cellular levels of the essential DNA repair protein APE1 and is required for genome stability</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <volume>40</volume>
+                  <year>2012</year>
+                  <fpage>701</fpage>
+                  <lpage>711</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkr744</pub-id>
+                  <pub-id pub-id-type="pmid">21933813</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib36">
+                <element-citation publication-type="journal" id="sref36">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Moscu-Gregor</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marschall</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Müntjes</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schönecker</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schuessler-Hahn</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hohendanner</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Parwani</surname>
+                      <given-names>A.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boldt</surname>
+                      <given-names>L.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ott</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bennewiz</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Novel variants in TECRL cause recessive inherited CPVT type 3 with severe and variable clinical symptoms</article-title>
+                  <source>J. Cardiovasc. Electrophysiol.</source>
+                  <volume>31</volume>
+                  <year>2020</year>
+                  <fpage>1527</fpage>
+                  <lpage>1535</lpage>
+                  <pub-id pub-id-type="doi">10.1111/jce.14446</pub-id>
+                  <pub-id pub-id-type="pmid">32173957</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib37">
+                <element-citation publication-type="journal" id="sref37">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nguyen</surname>
+                      <given-names>D.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hookway</surname>
+                      <given-names>T.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Preininger</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Easley</surname>
+                      <given-names>C.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Spearman</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Deshpande</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maher</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Microscale generation of cardiospheres promotes robust enrichment of cardiomyocytes derived from human pluripotent stem cells</article-title>
+                  <source>Stem Cell Rep.</source>
+                  <volume>3</volume>
+                  <year>2014</year>
+                  <fpage>260</fpage>
+                  <lpage>268</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stemcr.2014.06.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib38">
+                <element-citation publication-type="journal" id="sref38">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pöss</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ukena</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kindermann</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ehrlich</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fuernau</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ewen</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mahfoud</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kriechbaum</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Böhm</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Link</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Angiopoietin-2 and outcome in patients with acute decompensated heart failure</article-title>
+                  <source>Clin. Res. Cardiol.</source>
+                  <volume>104</volume>
+                  <year>2015</year>
+                  <fpage>380</fpage>
+                  <lpage>387</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00392-014-0787-y</pub-id>
+                  <pub-id pub-id-type="pmid">25408112</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib39">
+                <element-citation publication-type="journal" id="sref39">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Preininger</surname>
+                      <given-names>M.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maxwell</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Singh</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dalal</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>McEachin</surname>
+                      <given-names>Z.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rossoll</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hales</surname>
+                      <given-names>C.M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>A human pluripotent stem cell model of catecholaminergic polymorphic ventricular tachycardia recapitulates patient-specific drug responses</article-title>
+                  <source>Dis. Model. Mech.</source>
+                  <volume>9</volume>
+                  <year>2016</year>
+                  <fpage>927</fpage>
+                  <lpage>939</lpage>
+                  <pub-id pub-id-type="doi">10.1242/dmm.026823</pub-id>
+                  <pub-id pub-id-type="pmid">27491078</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib40">
+                <element-citation publication-type="journal" id="sref40">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pyo</surname>
+                      <given-names>R.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sui</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dhume</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Palomeque</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Blaxall</surname>
+                      <given-names>B.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Diaz</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tunstead</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Logothetis</surname>
+                      <given-names>D.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hajjar</surname>
+                      <given-names>R.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Schecter</surname>
+                      <given-names>A.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CXCR4 modulates contractility in adult cardiac myocytes</article-title>
+                  <source>J. Mol. Cell. Cardiol.</source>
+                  <volume>41</volume>
+                  <year>2006</year>
+                  <fpage>834</fpage>
+                  <lpage>844</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yjmcc.2006.08.008</pub-id>
+                  <pub-id pub-id-type="pmid">17010372</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib41">
+                <element-citation publication-type="journal" id="sref41">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Rampoldi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fite</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Boland</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cryopreservation and CO2-independent culture of 3D cardiac progenitors for spaceflight experiments</article-title>
+                  <source>Biomaterials</source>
+                  <volume>269</volume>
+                  <year>2021</year>
+                  <fpage>120673</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biomaterials.2021.120673</pub-id>
+                  <pub-id pub-id-type="pmid">33493770</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib42">
+                <element-citation publication-type="journal" id="sref42">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawakami</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Büscher</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Raya</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodríguez-León</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morita</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodríguez Esteban</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Izpisúa Belmonte</surname>
+                      <given-names>J.C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Tbx2 and Tbx3 regulate the dynamics of cell proliferation during heart remodeling</article-title>
+                  <source>PLoS One</source>
+                  <volume>2</volume>
+                  <year>2007</year>
+                  <fpage>e398</fpage>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0000398</pub-id>
+                  <pub-id pub-id-type="pmid">17460765</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib43">
+                <element-citation publication-type="journal" id="sref43">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ribeiro</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tertoolen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Guadix</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bellin</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kosmidis</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>D'Aniello</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monshouwer-Kloots</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Goumans</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Feinberg</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Functional maturation of human pluripotent stem cell derived cardiomyocytes in vitro--correlation between contraction force and electrophysiology</article-title>
+                  <source>Biomaterials</source>
+                  <volume>51</volume>
+                  <year>2015</year>
+                  <pub-id pub-id-type="doi">10.1016/j.biomaterials.2015.01.067</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib44">
+                <element-citation publication-type="journal" id="sref44">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saraf</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rampoldi</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chao</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Armand</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hwang</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jha</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Fu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Maxwell</surname>
+                      <given-names>J.T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Functional and molecular effects of TNF-alpha on human iPSC-derived cardiomyocytes</article-title>
+                  <source>Stem Cell Res.</source>
+                  <volume>52</volume>
+                  <year>2021</year>
+                  <fpage>102218</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.scr.2021.102218</pub-id>
+                  <pub-id pub-id-type="pmid">33592567</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib45">
+                <element-citation publication-type="journal" id="sref45">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scholz</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Plate</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reiss</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Angiopoietin-2: a multifaceted cytokine that functions in both angiogenesis and inflammation</article-title>
+                  <source>Ann. N. Y. Acad. Sci.</source>
+                  <volume>1347</volume>
+                  <year>2015</year>
+                  <fpage>45</fpage>
+                  <lpage>51</lpage>
+                  <pub-id pub-id-type="doi">10.1111/nyas.12726</pub-id>
+                  <pub-id pub-id-type="pmid">25773744</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib46">
+                <element-citation publication-type="journal" id="sref46">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Clemens</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Garcia</surname>
+                      <given-names>O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>D.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wagner</surname>
+                      <given-names>N.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shepard</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gupta</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Malany</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grodzinsky</surname>
+                      <given-names>A.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kearns-Jonker</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Biomanufacturing in low Earth orbit for regenerative medicine</article-title>
+                  <source>Stem Cell Rep.</source>
+                  <volume>17</volume>
+                  <year>2022</year>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stemcr.2021.12.001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib47">
+                <element-citation publication-type="journal" id="sref47">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Shen</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gan</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Darehzereshki</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kumar</surname>
+                      <given-names>S.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lien</surname>
+                      <given-names>C.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Patterson</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tao</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sucov</surname>
+                      <given-names>H.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mononuclear diploid cardiomyocytes support neonatal mouse heart regeneration in response to paracrine IGF2 signaling</article-title>
+                  <source>Elife</source>
+                  <volume>9</volume>
+                  <year>2020</year>
+                  <fpage>e53071</fpage>
+                  <pub-id pub-id-type="doi">10.7554/eLife.53071</pub-id>
+                  <pub-id pub-id-type="pmid">32167474</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib48">
+                <element-citation publication-type="journal" id="sref48">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Simone</surname>
+                      <given-names>T.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Higgins</surname>
+                      <given-names>C.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Czekay</surname>
+                      <given-names>R.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Law</surname>
+                      <given-names>B.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Higgins</surname>
+                      <given-names>S.P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Archambeault</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kutz</surname>
+                      <given-names>S.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Higgins</surname>
+                      <given-names>P.J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SERPINE1: a molecular switch in the proliferation-migration dichotomy in wound-"Activated" keratinocytes</article-title>
+                  <source>Adv. Wound Care</source>
+                  <volume>3</volume>
+                  <year>2014</year>
+                  <fpage>281</fpage>
+                  <lpage>290</lpage>
+                  <pub-id pub-id-type="doi">10.1089/wound.2013.0512</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib49">
+                <element-citation publication-type="journal" id="sref49">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tamargo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Caballero</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gómez</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Valenzuela</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Delpón</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Pharmacology of cardiac potassium channels</article-title>
+                  <source>Cardiovasc. Res.</source>
+                  <volume>62</volume>
+                  <year>2004</year>
+                  <fpage>9</fpage>
+                  <lpage>33</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cardiores.2003.12.026</pub-id>
+                  <pub-id pub-id-type="pmid">15023549</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib50">
+                <element-citation publication-type="journal" id="sref50">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tao</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Levay</surname>
+                      <given-names>A.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Peacock</surname>
+                      <given-names>J.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huk</surname>
+                      <given-names>D.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Both</surname>
+                      <given-names>S.N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Purcell</surname>
+                      <given-names>N.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pinto</surname>
+                      <given-names>J.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Galantowicz</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Koch</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lucchesi</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Collagen XIV is important for growth and structural integrity of the myocardium</article-title>
+                  <source>J. Mol. Cell. Cardiol.</source>
+                  <volume>53</volume>
+                  <year>2012</year>
+                  <fpage>626</fpage>
+                  <lpage>638</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.yjmcc.2012.08.002</pub-id>
+                  <pub-id pub-id-type="pmid">22906538</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib51">
+                <element-citation publication-type="journal" id="sref51">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Unsworth</surname>
+                      <given-names>B.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lelkes</surname>
+                      <given-names>P.I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Growing tissues in microgravity</article-title>
+                  <source>Nat. Med.</source>
+                  <volume>4</volume>
+                  <year>1998</year>
+                  <fpage>901</fpage>
+                  <lpage>907</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nm0898-901</pub-id>
+                  <pub-id pub-id-type="pmid">9701241</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib52">
+                <element-citation publication-type="journal" id="sref52">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wnorowski</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sharma</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shao</surname>
+                      <given-names>N.Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sayed</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Countryman</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stodieck</surname>
+                      <given-names>L.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rubins</surname>
+                      <given-names>K.H.</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Effects of spaceflight on human induced pluripotent stem cell-derived cardiomyocyte structure and function</article-title>
+                  <source>Stem Cell Rep.</source>
+                  <volume>13</volume>
+                  <year>2019</year>
+                  <fpage>960</fpage>
+                  <lpage>969</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stemcr.2019.10.006</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib53">
+                <element-citation publication-type="journal" id="sref53">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuge</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kajiume</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Tahara</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kawahara</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Umeda</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshimoto</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wu</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yamaoka</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Asashima</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kataoka</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ide</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Microgravity potentiates stem cell proliferation while sustaining the capability of differentiation</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <volume>15</volume>
+                  <year>2006</year>
+                  <fpage>921</fpage>
+                  <lpage>929</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2006.15.921</pub-id>
+                  <pub-id pub-id-type="pmid">17253953</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib54">
+                <element-citation publication-type="journal" id="sref54">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of spheroid formation of adipose-derived stem cells in a microgravity bioreactor on stemness properties and therapeutic potential</article-title>
+                  <source>Biomaterials</source>
+                  <volume>41</volume>
+                  <year>2015</year>
+                  <fpage>15</fpage>
+                  <lpage>25</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.biomaterials.2014.11.019</pub-id>
+                  <pub-id pub-id-type="pmid">25522961</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib55">
+                <element-citation publication-type="journal" id="sref55">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                    <name>
+                      <surname>Geng</surname>
+                      <given-names>Y.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Efficient large-scale generation of functional hepatocytes from mouse embryonic stem cells grown in a rotating bioreactor with exogenous growth factors and hormones</article-title>
+                  <source>Stem Cell Res. Ther.</source>
+                  <volume>4</volume>
+                  <year>2013</year>
+                  <fpage>145</fpage>
+                  <pub-id pub-id-type="doi">10.1186/scrt356</pub-id>
+                  <pub-id pub-id-type="pmid">24294908</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="bib56">
+                <element-citation publication-type="journal" id="sref56">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhu</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mattapally</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Chen</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>CCND2 overexpression enhances the regenerative potency of human induced pluripotent stem cell-derived cardiomyocytes: remuscularization of injured ventricle</article-title>
+                  <source>Circ. Res.</source>
+                  <volume>122</volume>
+                  <year>2018</year>
+                  <fpage>88</fpage>
+                  <lpage>96</lpage>
+                  <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.117.311504</pub-id>
+                  <pub-id pub-id-type="pmid">29018036</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+            <sec id="app2" sec-type="supplementary-material">
+              <title>Supplemental information</title>
+              <p id="p0260">
+                <supplementary-material content-type="local-data" id="mmc1">
+                  <caption>
+                    <title>Document S1. Figures S1–S7, Tables S1–S5 and supplemental experimental procedures</title>
+                  </caption>
+                  <media xlink:href="mmc1.pdf"/>
+                </supplementary-material>
+                <supplementary-material content-type="local-data" id="mmc2">
+                  <caption>
+                    <title>Document S2. Article plus supplemental information</title>
+                  </caption>
+                  <media xlink:href="mmc2.pdf"/>
+                </supplementary-material>
+              </p>
+            </sec>
+            <sec sec-type="data-availability" id="da0010">
+              <title>Data and code availability</title>
+              <p id="p0030">The accession number for RNA-seq data reported in this paper is GEO: <ext-link ext-link-type="uri" xlink:href="ncbi-geo:GSE188793" id="intref0010">GSE188793</ext-link>.</p>
+            </sec>
+            <ack id="ack0010">
+              <title>Acknowledgments</title>
+              <p id="p0245">We thank Astronaut Jessica Meir and Astronaut Andrew Morgan for performing cell culture experiments aboard the ISS and Gregory Tharp and Kathryn Pellegrini at Emory University for RNA-seq analysis. We also thank Dr. Bill McLamb and Dr. Marc Giulianotti of the CASIS for guidance and discussions. The graphical abstract was created with <ext-link ext-link-type="uri" xlink:href="http://BioRender.com" id="intref0020">BioRender.com</ext-link>. This study was supported in part by the Center for Advancement of Science in Space (GA-2017-266), the <funding-source id="gs1"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap></funding-source> (R01HL136345 and R01AA028527), and the <funding-source id="gs2"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000001</institution-id><institution>National Science Foundation</institution></institution-wrap></funding-source> and the Center for Advancement of Science in Space (<funding-source id="gs3"><institution-wrap><institution-id institution-id-type="doi">10.13039/100000146</institution-id><institution>CBET</institution></institution-wrap></funding-source> 1926387).</p>
+              <sec id="sec6">
+                <title>Conflicts of interest</title>
+                <p id="p0250">J.F. and G.B. were employees of Techshot. All other authors declare no competing interests.</p>
+              </sec>
+            </ack>
+            <fn-group>
+              <fn id="app1" fn-type="supplementary-material">
+                <p id="p0255">Supplemental information can be found online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.stemcr.2022.08.007" id="intref0025">https://doi.org/10.1016/j.stemcr.2022.08.007</ext-link>.</p>
+              </fn>
+            </fn-group>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

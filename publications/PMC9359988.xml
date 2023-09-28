@@ -1,0 +1,2641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T14:45:06Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:9359988" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:9359988</identifier>
+        <datestamp>2022-08-10</datestamp>
+        <setSpec>npjmicrogr</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article" dtd-version="1.3">
+          <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+            <restricted-by>pmc</restricted-by>
+          </processing-meta>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">NPJ Microgravity</journal-id>
+              <journal-id journal-id-type="iso-abbrev">NPJ Microgravity</journal-id>
+              <journal-title-group>
+                <journal-title>NPJ Microgravity</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2373-8065</issn>
+              <publisher>
+                <publisher-name>Nature Publishing Group UK</publisher-name>
+                <publisher-loc>London</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC9359988</article-id>
+              <article-id pub-id-type="pmcid">PMC9359988</article-id>
+              <article-id pub-id-type="pmc-uid">9359988</article-id>
+              <article-id pub-id-type="pmid">35941138</article-id>
+              <article-id pub-id-type="pmid">35941138</article-id>
+              <article-id pub-id-type="publisher-id">212</article-id>
+              <article-id pub-id-type="doi">10.1038/s41526-022-00212-9</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Magnetic phase separation in microgravity</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3369-8460</contrib-id>
+                  <name>
+                    <surname>Romero-Calvo</surname>
+                    <given-names>Álvaro</given-names>
+                  </name>
+                  <address>
+                    <email>alvaro.romerocalvo@colorado.edu</email>
+                  </address>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Akay</surname>
+                    <given-names>Ömer</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff2">2</xref>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0002-6035</contrib-id>
+                  <name>
+                    <surname>Schaub</surname>
+                    <given-names>Hanspeter</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3593-5047</contrib-id>
+                  <name>
+                    <surname>Brinkert</surname>
+                    <given-names>Katharina</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff3">3</xref>
+                  <xref ref-type="aff" rid="Aff4">4</xref>
+                </contrib>
+                <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.266190.a</institution-id><institution-id institution-id-type="ISNI">0000000096214564</institution-id><institution>Department of Aerospace Engineering Sciences, </institution><institution>University of Colorado, </institution></institution-wrap>Boulder, CO 80303 USA </aff>
+                <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="GRID">grid.14095.39</institution-id><institution-id institution-id-type="ISNI">0000 0000 9116 4836</institution-id><institution>Department of Physics, </institution><institution>Freie Universität Berlin, </institution></institution-wrap>14195 Berlin, Germany </aff>
+                <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="GRID">grid.7704.4</institution-id><institution-id institution-id-type="ISNI">0000 0001 2297 4381</institution-id><institution>ZARM—Center of Applied Space Technology and Microgravity, </institution><institution>University of Bremen, </institution></institution-wrap>28359 Bremen, Germany </aff>
+                <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.7372.1</institution-id><institution-id institution-id-type="ISNI">0000 0000 8809 1613</institution-id><institution>Department of Chemistry, </institution><institution>University of Warwick, </institution></institution-wrap>CV4 7AL Coventry, UK </aff>
+              </contrib-group>
+              <pub-date pub-type="epub">
+                <day>8</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="pmc-release">
+                <day>8</day>
+                <month>8</month>
+                <year>2022</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <year>2022</year>
+              </pub-date>
+              <volume>8</volume>
+              <elocation-id>32</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>24</day>
+                  <month>2</month>
+                  <year>2022</year>
+                </date>
+                <date date-type="accepted">
+                  <day>24</day>
+                  <month>6</month>
+                  <year>2022</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2022, corrected publication 2022</copyright-statement>
+                <license>
+                  <ali:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+                  <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1">
+                <p id="Par2">The absence of strong buoyancy forces severely complicates the management of multiphase flows in microgravity. Different types of space systems, ranging from in-space propulsion to life support, are negatively impacted by this effect. Multiple approaches have been developed to achieve phase separation in microgravity, whereas they usually lack the robustness, efficiency, or stability that is desirable in most applications. Complementary to existing methods, the use of magnetic polarization has been recently proposed to passively induce phase separation in electrolytic cells and other two-phase flow devices. This article illustrates the dia- and paramagnetic phase separation mechanism on MilliQ water, an aqueous MnSO<sub>4</sub> solution, lysogeny broth, and olive oil using air bubbles in a series of drop tower experiments. Expressions for the magnetic terminal bubble velocity are derived and validated and several wall–bubble and multi-bubble magnetic interactions are reported. Ultimately, the analysis demonstrates the feasibility of the dia- and paramagnetic phase separation approach, providing a key advancement for the development of future space systems.</p>
+              </abstract>
+              <kwd-group kwd-group-type="npg-subject">
+                <title>Subject terms</title>
+                <kwd>Aerospace engineering</kwd>
+                <kwd>Fluid dynamics</kwd>
+                <kwd>Applied physics</kwd>
+                <kwd>Mechanical engineering</kwd>
+                <kwd>Chemical engineering</kwd>
+              </kwd-group>
+              <funding-group>
+                <award-group>
+                  <funding-source>
+                    <institution>Rafael del Pino Foundation, 2021 Excellence Fellowship German Aerospace Center (DLR), Grant No. DLR 50WM2150</institution>
+                  </funding-source>
+                </award-group>
+              </funding-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>issue-copyright-statement</meta-name>
+                  <meta-value>© The Author(s) 2022</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec id="Sec1" sec-type="introduction">
+              <title>Introduction</title>
+              <p id="Par3">Human space exploration is presented with multiple challenges, to the fore, the absence of buoyancy forces in orbit. This has severe complications for phase separation in microgravity environments, which is, however, a crucial process for a wide variety of space technologies. These include propellant management devices, heat transfer, and life support systems comprising the production of oxygen, fuels, and other chemicals as well as the removal of carbon dioxide from cabin air and the recycling of wastewater, among many others.</p>
+              <p id="Par4">Numerous phase separation methods have been developed for microgravity conditions. Centrifuges<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref></sup>, forced vortical flows<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>, rocket firing<sup><xref ref-type="bibr" rid="CR5">5</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>, membranes<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>, and surface-tension-based technologies<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>, which include wedge geometries<sup><xref ref-type="bibr" rid="CR11">11</xref>–<xref ref-type="bibr" rid="CR14">14</xref></sup>, springs<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>, eccentric annuli<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>, microfluidic channels<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, or porous substrates<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>, among others, are the most traditional solutions. As an alternative, the use of electrohydrodynamic forces has been studied since the early 1960s<sup><xref ref-type="bibr" rid="CR20">20</xref></sup> and successfully tested for boiling<sup><xref ref-type="bibr" rid="CR21">21</xref>–<xref ref-type="bibr" rid="CR23">23</xref></sup>, two-phase flow management<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>, and conduction pumping<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> applications. Hydroacoustic forces arising from the application of ultrasonic standing waves<sup><xref ref-type="bibr" rid="CR27">27</xref></sup> have been used to enhance a wide variety of terrestrial processes<sup><xref ref-type="bibr" rid="CR28">28</xref></sup> and are also proposed to control bubbly flows in propellant tanks<sup><xref ref-type="bibr" rid="CR29">29</xref>,<xref ref-type="bibr" rid="CR30">30</xref></sup> and life support systems<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>. Small amplitude vibrations can also be employed to manage multiphase flows and induce phase separation in microgravity<sup><xref ref-type="bibr" rid="CR32">32</xref></sup> by selecting viscoequilibrium configurations<sup><xref ref-type="bibr" rid="CR33">33</xref></sup> or exploiting frozen wave instabilities<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>. These approaches present unique characteristics that affect aspects like their operational lifespan, reliability, performance, and intrusiveness<sup><xref ref-type="bibr" rid="CR31">31</xref></sup>.</p>
+              <p id="Par5">Complementary to the aforementioned methods, the inherent dia- and paramagnetic properties of liquids can be employed for passive phase separation<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>. Inhomogeneous magnetic fields induce a weak volume force in continuous media<sup><xref ref-type="bibr" rid="CR36">36</xref></sup> that, due to the differential magnetic properties between phases, results in a net buoyancy effect. This phenomenon is known as <italic>magnetic buoyancy</italic> and has been applied to terrestrial boiling experiments with ferrofluids<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>. Previous works on low-gravity magnetohydrodynamics have explored the diamagnetic manipulation of air bubbles in water<sup><xref ref-type="bibr" rid="CR39">39</xref>,<xref ref-type="bibr" rid="CR40">40</xref></sup>, the positioning of diamagnetic materials<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>, air-water separation<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>, protein crystal growth<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>, magnetic-positive positioning<sup><xref ref-type="bibr" rid="CR44">44</xref>,<xref ref-type="bibr" rid="CR45">45</xref></sup>, magnetic liquid sloshing<sup><xref ref-type="bibr" rid="CR46">46</xref>,<xref ref-type="bibr" rid="CR47">47</xref></sup>, and combustion enhancement<sup><xref ref-type="bibr" rid="CR40">40</xref></sup>, among others. The application of Lorentz’s force on liquid electrolytes has also been studied as a way to enhance hydrogen production<sup><xref ref-type="bibr" rid="CR48">48</xref>–<xref ref-type="bibr" rid="CR50">50</xref></sup>. The use of magnetic buoyancy in phase separation under microgravity conditions remains, however, largely unexplored.</p>
+              <p id="Par6">The discovery of diamagnetism dates back to 1778 when A. Brugmans reported the diamagnetic effect on bismuth<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>. In 1845, M. Faraday demonstrated that magnetism is a universal property of matter and carried out the first thorough study of the phenomenon, classifying different materials as “diamagnetic” and “paramagnetic”<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. From a macroscopic perspective, diamagnetic and paramagnetic substances are respectively repelled and attracted by magnetic dipoles by means of the Kelvin body force<sup><xref ref-type="bibr" rid="CR53">53</xref></sup><disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\bf{f}}}}={\mu }_{0}M\nabla H,$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mi mathvariant="bold">f</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mi>M</mml:mi><mml:mo>∇</mml:mo><mml:mi>H</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <italic>μ</italic><sub>0</sub> is the magnetic permeability of free space, and <italic>M</italic> and <italic>H</italic> are the modules of the magnetization (<bold>M</bold>) and magnetic (<bold>H</bold>) fields, respectively. The volume magnetic susceptibility of a soft magnetic material, <italic>χ</italic><sup>vol</sup>, is defined through <bold>M</bold> = <italic>χ</italic><sup>vol</sup><bold>H</bold>, and its sign determines whether a substance is diamagnetic or paramagnetic. The magnetic polarization force on natural liquids is so weak that its effects on Earth are usually negligible. However, in a microgravity environment this weak interaction leads to a magnetic buoyancy effect that can be exploited to induce phase separation<sup><xref ref-type="bibr" rid="CR35">35</xref></sup>.</p>
+              <p id="Par7">Herein, this paper reports the first comprehensive study of magnetically induced buoyancy in microgravity environments generated for 4.7 s at the drop tower of the <italic>Center for Applied Space Technology and Microgravity</italic> (ZARM). The artificially created buoyancy force is utilized to direct air gas bubbles on specific trajectories through dia- and paramagnetic solutions. The results demonstrate that the inherent magnetic properties of these substances are sufficient to allow the collection and coalescence of gas bubbles at distinct locations of the experiment vessel, providing a proof of concept that the development of microgravity magnetic phase separators could lead to reliable and lightweight space systems.</p>
+            </sec>
+            <sec id="Sec2" sec-type="results">
+              <title>Results and discussion</title>
+              <sec id="Sec3">
+                <title>Overview</title>
+                <p id="Par8">Gas bubbles are the elemental multiphase flow unit and represent the main focus of this work. The application of dia- and paramagnetic buoyancy to bubble management in microgravity is subsequently demonstrated with liquids of technical interest. Five 4.7 s microgravity experiments, listed in Table <xref rid="Tab1" ref-type="table">1</xref>, are performed at ZARM’s drop tower. During each drop, bubbles are simultaneously injected inside three syringes filled with the same carrier liquid. The first two drops employ MilliQ water, whose properties are well-characterized. This motivates the adoption of these experiments in the validation of theoretical results. An aqueous 0.5 M manganese (II) sulfate solution (MnSO<sub>4</sub> ⋅ H<sub>2</sub>O) is employed in the third drop to demonstrate the paramagnetic buoyancy effect. The fourth drop employs Lysogeny Broth (LB) medium (<italic>Miller</italic>), which is widely used in biological experiments on the International Space Station for the growth of bacteria<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>, to demonstrate how the diamagnetic effect can be used to induce phase separation in such applications. Finally, extra-virgin olive oil is tested to exemplify how phase separation takes place in a complex organic solution. Two syringes are exposed to the inhomogeneous magnetic field generated by a magnet located at the left (L) and right (R) of the sample volume, while the third is used as a non-magnetic control (C). The magnetic environment is designed to induce a lateral buoyancy effect on the liquid and is fully characterized in sec. “Wall–bubble interactions”. From now on, each video recording will be labeled as <italic>N</italic>-<italic>X</italic>, where <italic>N</italic> denotes the sample type (L, R, or C) and <italic>X</italic> the drop number (01 to 05).<table-wrap id="Tab1"><label>Table 1</label><caption><p>Liquids employed on each drop experiment.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>ID</th><th>Liquid</th><th>Classification</th></tr></thead><tbody><tr><td>01</td><td>MilliQ Water</td><td>Diamagnetic</td></tr><tr><td>02</td><td>MilliQ Water</td><td>Diamagnetic</td></tr><tr><td>03</td><td>0.5M MnSO<sub>4</sub>⋅H<sub>2</sub>O(aq)</td><td>Paramagnetic</td></tr><tr><td>04</td><td>LB medium</td><td>Diamagnetic</td></tr><tr><td>05</td><td>Extra-virgin olive oil</td><td>Diamagnetic</td></tr></tbody></table></table-wrap></p>
+                <p id="Par9">Control video samples are shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref> for the first two drops with MilliQ water. A wide range of bubble diameters is generated due to the varying pressure conditions and unsteady nature of the experiment. This feature will be useful to understand how different bubble diameters behave in the presence of the magnetic field. The injection of gas in the syringe leads to a downwards movement that is mostly damped after ~3 s. A slight lateral deviation of the flow is occasionally observed due to the small irregularities in the tip of the injector. Similar behaviors are repeated in the other three control videos, which have been omitted for clarity. The interested reader is referred to the <xref rid="MOESM1" ref-type="media">Supplementary Materials</xref> to access these additional recordings.<fig id="Fig1"><label>Fig. 1</label><caption><title>Non-magnetic control (C) experiments for MilliQ water in microgravity.</title><p>The injection and displacement of air bubbles are shown as a function of time.</p></caption><graphic xlink:href="41526_2022_212_Fig1_HTML" id="d32e701"/></fig></p>
+                <p id="Par10">Magnetic results for the five drops under study are depicted in Fig. <xref rid="Fig2" ref-type="fig">2</xref>. The bubbles are collected by the magnets in all diamagnetic cases (01, 02, 04, and 05), while they are pushed away in the paramagnetic scenario (03). Complex mixtures like LB Broth and olive oil are significantly affected by the magnetic force. In the second case, the effect is less noticeable (but still visible) due to the higher viscosity of the liquid, which increases the drag acting on the bubble. This is an example of how all liquids are subject to magnetic polarization forces and can therefore be employed to induce phase separation in microgravity environments. The determination of such response, represented by the magnetic susceptibility, is relatively straightforward for simple solutions<sup><xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR55">55</xref></sup>. Complex mixtures, on the contrary, need to be characterized with magnetometers.<fig id="Fig2"><label>Fig. 2</label><caption><title>Overview of dia- and paramagnetic results for left (L) and right (R) magnetic configurations and the five drop experiments.</title><p>The injection and displacement of air bubbles are shown as a function of time.</p></caption><graphic xlink:href="41526_2022_212_Fig2_HTML" id="d32e724"/></fig></p>
+                <p id="Par11">The experiments reveal key information about the dynamics of bubbles subject to inhomogeneous magnetic fields in microgravity, as discussed in sec. “Terminal velocity”. Several additional interactions of particular technical interest are also described in sec. “Wall–bubble interactions” and sec. “Bubble–bubble interactions”.</p>
+              </sec>
+              <sec id="Sec4">
+                <title>Terminal velocity</title>
+                <p id="Par12">The determination of the terminal (or steady-state) bubble velocity under the action of gravity has historically raised significant attention due to its importance for a wide range of industrial applications. The problem is severely complicated by factors like the bubble radius, shape, and formation method as well as the liquid purity, viscosity, temperature, and pressure<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. In spite of this inherent complexity, three distinct dynamic regimes can be observed: viscosity-dominated, surface-tension-dominated, and inertia-dominated<sup><xref ref-type="bibr" rid="CR57">57</xref>–<xref ref-type="bibr" rid="CR59">59</xref></sup>. The dynamic regime of a given bubble is determined by the balance between fundamental forces. The Weber number<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{We}}}}=\frac{{\rho }_{{{{\rm{l}}}}}{V}^{2}(2R)}{\sigma }$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi mathvariant="normal">We</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:mi>R</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>σ</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>reflects the ratio between inertial and surface-tension-induced pressures, with <italic>R</italic> and <italic>V</italic> being the bubble radius and velocity, <italic>ρ</italic><sub>l</sub> the liquid density, and <italic>σ</italic> the coefficient of surface tension. This ratio is much smaller than one for the radii and velocities covered in this work, indicating that bubbles remain almost perfectly spherical. On the other hand, the Reynolds number<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}=\frac{{\rho }_{{{{\rm{l}}}}}V(2R)}{\eta },$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:mi>R</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi>η</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <italic>η</italic> is the dynamic viscosity of the liquid, describes the ratio of inertial to viscous forces and is kept below 50 in this work, as shown later on. The combination of low <inline-formula id="IEq1"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rm{We}$$\end{document}</tex-math><mml:math id="M8"><mml:mi mathvariant="normal">We</mml:mi></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq1.gif"/></alternatives></inline-formula> and moderate <inline-formula id="IEq2"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}$$\end{document}</tex-math><mml:math id="M10"><mml:mi mathvariant="normal">Re</mml:mi></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq2.gif"/></alternatives></inline-formula> numbers results in spherical bubbles with no-zigzag motions. Therefore, due to the weakness of the diamagnetic force and the overwhelming role of surface tension, the case of a free-floating air bubble subject to the influence of a magnet in microgravity falls within the viscosity-dominated bubble displacement regime. In terms of fluid motion, the flow remains attached to the bubble until <inline-formula id="IEq3"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\approx 20$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>≈</mml:mo><mml:mn>20</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq3.gif"/></alternatives></inline-formula>, where it is separated at the rear stagnation point leading to a steady wake region that remains stable until <inline-formula id="IEq4"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\approx 130$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>≈</mml:mo><mml:mn>130</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq4.gif"/></alternatives></inline-formula><sup><xref ref-type="bibr" rid="CR57">57</xref></sup>.</p>
+                <p id="Par13">In the dynamic regime of interest, the movement of a spherical bubble in a liquid is described by the balance<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m^{\prime} \frac{{{{{\rm{d}}}}}^{2}{{{\bf{x}}}}}{{{{\rm{d}}}}{t}^{2}}={{{{\bf{F}}}}}_{{{{\rm{m}}}}}^{\,{{\mathrm{eff}}}\,}+{{{{\bf{F}}}}}_{{{{\rm{d}}}}}+{{{{\bf{F}}}}}_{{{{\rm{h}}}}},$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:msup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="bold">x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msup><mml:mrow><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">eff</mml:mi><mml:mspace width="0.25em"/></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">h</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>with <inline-formula id="IEq5"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m^{\prime} =(4/3)\pi {R}^{3}({\rho }_{{{{\rm{g}}}}}+0.5{\rho }_{{{{\rm{l}}}}})$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:msup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mo>′</mml:mo></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>4</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>π</mml:mi><mml:msup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">g</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>0.5</mml:mn><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq5.gif"/></alternatives></inline-formula> being the virtual mass (that accounts for the surrounding fluid accelerated by the bubble<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>), <italic>ρ</italic><sub>g</sub> the gas density, <bold>x</bold> the position of the bubble, <inline-formula id="IEq6"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{\bf{F}}}}}_{{{{\rm{m}}}}}^{\,{{\mathrm{eff}}}\,}$$\end{document}</tex-math><mml:math id="M20"><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">eff</mml:mi><mml:mspace width="0.25em"/></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq6.gif"/></alternatives></inline-formula> the magnetic polarization force, <bold>F</bold><sub>d</sub> the viscous drag, and <bold>F</bold><sub>h</sub> the history (or Basset) force<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. The total magnetic polarization force acting on the bubble is<sup><xref ref-type="bibr" rid="CR35">35</xref></sup><disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{\bf{F}}}}}_{{{{\rm{m}}}}}^{\,{{\mathrm{eff}}}\,}\approx \frac{2}{3}\pi {R}^{3}{\mu }_{0}{{{\rm{{{\Delta }}}}}}{\chi }^{{{\mathrm{vol}}}}\nabla {H}_{0}^{2},$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:msubsup><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">eff</mml:mi><mml:mspace width="0.25em"/></mml:mrow></mml:msubsup><mml:mo>≈</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mfrac><mml:mi>π</mml:mi><mml:msup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">Δ</mml:mi><mml:msup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">vol</mml:mi></mml:mrow></mml:msup><mml:mo>∇</mml:mo><mml:msubsup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{{{\Delta }}}}}}{\chi }^{{{\mathrm{vol}}}}={\chi }_{{{{\rm{b}}}}}^{\,{{\mathrm{vol}}}\,}-{\chi }_{{{{\rm{e}}}}}^{\,{{\mathrm{vol}}}\,}$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">vol</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi></mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">vol</mml:mi><mml:mspace width="0.25em"/></mml:mrow></mml:msubsup><mml:mo>−</mml:mo><mml:msubsup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">vol</mml:mi><mml:mspace width="0.25em"/></mml:mrow></mml:msubsup></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq7.gif"/></alternatives></inline-formula> is the differential magnetic susceptibility between the gas and the surrounding medium. This expression is valid for small bubbles and low-susceptibility gases and liquids, for which the external magnetic field module in the absence of magnetized samples, <italic>H</italic><sub>0</sub>, is used as an approximation of <italic>H</italic>.</p>
+                <p id="Par14">When a rigid body and Stokes flows (<inline-formula id="IEq8"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}} \,&lt;\, 1$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mspace width="0.25em"/><mml:mo>&lt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq8.gif"/></alternatives></inline-formula>) are considered, the drag force can be modeled with the Stokes law<sup><xref ref-type="bibr" rid="CR62">62</xref></sup><disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{\bf{F}}}}}_{{{{\rm{d}}}}}=-6\pi R\eta ({{{\rm{d}}}}{{{\bf{x}}}}/{{{\rm{d}}}}t).$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>6</mml:mn><mml:mi>π</mml:mi><mml:mi>R</mml:mi><mml:mi>η</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="bold">x</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p>
+                <p id="Par15">This expression is appropriate in technical applications where the liquid is exposed to impurities and the so-called “Marangoni” effect blocks the bubble surface movement. In particular, water is extremely sensitive to surface contamination<sup><xref ref-type="bibr" rid="CR63">63</xref>,<xref ref-type="bibr" rid="CR64">64</xref></sup>, and even the contact with the atmosphere can immobilize its surface<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>. Pure liquids exhibit a mobile interface that promotes the circulation of air inside the bubble. In these cases, the Hadamard-Rybczynski drag force<sup><xref ref-type="bibr" rid="CR66">66</xref>,<xref ref-type="bibr" rid="CR67">67</xref></sup>, validated on Earth using ultra-clean systems<sup><xref ref-type="bibr" rid="CR65">65</xref>,<xref ref-type="bibr" rid="CR68">68</xref></sup>, should be employed instead. Intermediate formulations with partially mobile surfaces have also been proposed<sup><xref ref-type="bibr" rid="CR69">69</xref></sup>.</p>
+                <p id="Par16">However, the Stokes law is not valid for <inline-formula id="IEq9"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}} \,&gt;\, 1$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mspace width="0.25em"/><mml:mo>&gt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq9.gif"/></alternatives></inline-formula>, and a different formulation is thus required in this regime. Most results are based on experimental or numerical works where the drag force<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{{\bf{F}}}}}_{{{{\rm{d}}}}}=-\frac{1}{2}{\rho }_{{{{\rm{l}}}}}{V}^{2}A{C}_{{{{\rm{D}}}}}\frac{{{{\rm{d}}}}{{{\bf{x}}}}/{{{\rm{d}}}}t}{\parallel {{{\rm{d}}}}{{{\bf{x}}}}/{{{\rm{d}}}}t\parallel }$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mi>A</mml:mi><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="bold">x</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mrow><mml:mo>∥</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="bold">x</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi><mml:mo>∥</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>is defined by means of a drag coefficient <italic>C</italic><sub>D</sub>, with <italic>A</italic> = <italic>π</italic><italic>R</italic><sup>2</sup> being the reference area of the spherical bubble. Numerous correlations have been proposed for the range <inline-formula id="IEq10"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\in [0.01,100]$$\end{document}</tex-math><mml:math id="M34"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>∈</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0.01</mml:mn><mml:mo>,</mml:mo><mml:mn>100</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq10.gif"/></alternatives></inline-formula>, one of the simplest being given by Rumpf<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${C}_{{{{\rm{D}}}}}=\kappa +\frac{24}{{{{\rm{Re}}}}},$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>κ</mml:mi><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mn>24</mml:mn></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula>where <italic>κ</italic> = 2 for <inline-formula id="IEq11"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\in [0.01,10]$$\end{document}</tex-math><mml:math id="M38"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>∈</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0.01</mml:mn><mml:mo>,</mml:mo><mml:mn>10</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq11.gif"/></alternatives></inline-formula> (±5% error) and <italic>κ</italic> = 1 for <inline-formula id="IEq12"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\in [10,100]$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>∈</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>10</mml:mn><mml:mo>,</mml:mo><mml:mn>100</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq12.gif"/></alternatives></inline-formula> (±20% error)<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. Although more accurate formulations have been derived<sup><xref ref-type="bibr" rid="CR57">57</xref>,<xref ref-type="bibr" rid="CR70">70</xref></sup>, this particular one simplifies the derivation of analytical closed-form results.</p>
+                <p id="Par17">The magnetic terminal velocity for a Stokes flow is obtained after assuming a steady-state behavior in Eq. (<xref rid="Equ4" ref-type="">4</xref>) and considering Eq. (<xref rid="Equ6" ref-type="">6</xref>), resulting in<sup><xref ref-type="bibr" rid="CR35">35</xref></sup><disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${v}_{{{{\rm{t}}}}}\approx \frac{{\mu }_{0}{R}^{2}}{9\eta }{{{\rm{{{\Delta }}}}}}{\chi }^{{{\mathrm{vol}}}}| | \nabla {H}_{0}^{2}| | ,\,\,\,{{{\rm{Re}}}}\,&lt;\, 1.$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:msub><mml:mo>≈</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>9</mml:mn><mml:mi>η</mml:mi></mml:mrow></mml:mfrac><mml:mi mathvariant="normal">Δ</mml:mi><mml:msup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">vol</mml:mi></mml:mrow></mml:msup><mml:mo>∣</mml:mo><mml:mo>∣</mml:mo><mml:mo>∇</mml:mo><mml:msubsup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>∣</mml:mo><mml:mo>∣</mml:mo><mml:mo>,</mml:mo><mml:mspace width="0.25em"/><mml:mspace width="0.25em"/><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">Re</mml:mi><mml:mspace width="0.25em"/><mml:mo>&lt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>1</mml:mn><mml:mo>.</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>For <inline-formula id="IEq13"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}} \,&gt;\, 1$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mspace width="0.25em"/><mml:mo>&gt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq13.gif"/></alternatives></inline-formula> the application of Eq. (<xref rid="Equ7" ref-type="">7</xref>) results in the terminal velocity<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${v}_{{{{\rm{t}}}}}\approx \frac{-9\eta +\sqrt{3}\sqrt{\kappa {\mu }_{0}{\rho }_{{{{\rm{l}}}}}{R}^{3}{{{\rm{{{\Delta }}}}}}{\chi }^{{{\mathrm{vol}}}}| | \nabla {H}_{0}^{2}| | +27{\eta }^{2}}}{(3/2)R\kappa {\rho }_{{{{\rm{l}}}}}},\,\,\,{{{\rm{Re}}}}\in [0.01,100],$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:msub><mml:mo>≈</mml:mo><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mn>9</mml:mn><mml:mi>η</mml:mi><mml:mo>+</mml:mo><mml:msqrt><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msqrt><mml:msqrt><mml:mrow><mml:mi>κ</mml:mi><mml:msub><mml:mrow><mml:mi>μ</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="normal">Δ</mml:mi><mml:msup><mml:mrow><mml:mi>χ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">vol</mml:mi></mml:mrow></mml:msup><mml:mo>∣</mml:mo><mml:mo>∣</mml:mo><mml:mo>∇</mml:mo><mml:msubsup><mml:mrow><mml:mi>H</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo>∣</mml:mo><mml:mo>∣</mml:mo><mml:mo>+</mml:mo><mml:mn>27</mml:mn><mml:msup><mml:mrow><mml:mi>η</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>3</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>R</mml:mi><mml:mi>κ</mml:mi><mml:msub><mml:mrow><mml:mi>ρ</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mspace width="0.25em"/><mml:mspace width="0.25em"/><mml:mspace width="0.25em"/><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>∈</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>0.01</mml:mn><mml:mo>,</mml:mo><mml:mn>100</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:math><graphic xlink:href="41526_2022_212_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>which can be useful for first-order bubble velocity estimations. It is important to emphasize that both Eq. (<xref rid="Equ9" ref-type="">9</xref>) and Eq. (<xref rid="Equ10" ref-type="">10</xref>) are only valid for steady-state systems. In this work, the inhomogeneity of the magnetic force and the short duration of the drop tower experiments prevent bubbles from reaching their terminal velocity. Still, this value can be employed as an upper-speed limit, hence becoming a powerful characterization metric.</p>
+                <p id="Par18">In order to evaluate the performance of Eqs. (<xref rid="Equ9" ref-type="">9</xref>) and (<xref rid="Equ10" ref-type="">10</xref>), the radius, maximum and minimum speed, maximum and minimum Reynolds number, and interaction history of 25 air bubbles in water are reported in Table <xref rid="Tab2" ref-type="table">2</xref> after being analyzed with the tracking algorithm described in sec. “Bubble tracking algorithm”. The analysis focuses on the <italic>x</italic> (“horizontal”) vector components, where magnetic effects are dominant and the injection velocity is negligible. The maximum horizontal bubble velocity is 15.9 mm s<sup>−1</sup>, which corresponds to <inline-formula id="IEq14"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}=45.1$$\end{document}</tex-math><mml:math id="M48"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>=</mml:mo><mml:mn>45.1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq14.gif"/></alternatives></inline-formula>, while the minimum is just 0.1 mm s<sup>−1</sup>. As a consequence of Eqs. (<xref rid="Equ9" ref-type="">9</xref>) and (<xref rid="Equ10" ref-type="">10</xref>), larger bubbles generally have higher maximum velocities. From a technical perspective, this implies that the diamagnetic phase separator is more effective with large bubbles. Smaller bubbles, on the contrary, are slower but show a higher velocity scattering due to the bubble interaction effects described in sec. “Bubble–bubble interactions”.<table-wrap id="Tab2"><label>Table 2</label><caption><p>Bubbles tracked during 4.7 s of free fall. A unique label is assigned to each bubble for the L-01, L-02, R-01, and R-02 experiments.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>ID</th><th><italic>R</italic> [mm]</th><th><inline-formula id="IEq15"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$-{v}_{x,\min }$$\end{document}</tex-math><mml:math id="M50"><mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq15.gif"/></alternatives></inline-formula> [mm s<sup>−1</sup>]</th><th><inline-formula id="IEq16"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$-{v}_{x,\max }$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mo>−</mml:mo><mml:msub><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>max</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq16.gif"/></alternatives></inline-formula> [mm s<sup>−1</sup>]</th><th><inline-formula id="IEq17"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R{e}_{\min }$$\end{document}</tex-math><mml:math id="M54"><mml:mrow><mml:mi>R</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>min</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq17.gif"/></alternatives></inline-formula> [-]</th><th><inline-formula id="IEq18"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R{e}_{\max }$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi>R</mml:mi><mml:msub><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mi>max</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq18.gif"/></alternatives></inline-formula> [-]</th><th>Interacts?</th></tr></thead><tbody><tr><td>L-01-01</td><td>2.55</td><td>4.7</td><td>15.9</td><td>13.4</td><td>45.1</td><td>Yes</td></tr><tr><td>L-01-02</td><td>1.26</td><td>7.8</td><td>12.1</td><td>10.9</td><td>16.9</td><td>Yes</td></tr><tr><td>L-01-03</td><td>0.37</td><td>1.6</td><td>2.8</td><td>0.6</td><td>1.13</td><td>No</td></tr><tr><td>L-02-01</td><td>1.45</td><td>–1.5</td><td>14.2</td><td>0</td><td>22.7</td><td>Yes</td></tr><tr><td>L-02-02</td><td>1.06</td><td>8.2</td><td>11.6</td><td>9.6</td><td>13.6</td><td>Yes</td></tr><tr><td>L-02-03</td><td>0.67</td><td>0.4</td><td>7.9</td><td>0.3</td><td>5.9</td><td>Yes</td></tr><tr><td>L-02-04</td><td>0.50</td><td>0.9</td><td>7.1</td><td>0.5</td><td>3.9</td><td>Yes</td></tr><tr><td>L-02-05</td><td>0.43</td><td>0.1</td><td>0.7</td><td>0.1</td><td>0.3</td><td>No</td></tr><tr><td>L-02-06</td><td>0.39</td><td>0.4</td><td>5.3</td><td>0.2</td><td>2.3</td><td>Yes</td></tr><tr><td>R-01-01</td><td>2.25</td><td>–4.1</td><td>14.6</td><td>0</td><td>36.2</td><td>Yes</td></tr><tr><td>R-01-02</td><td>1.42</td><td>–1.2</td><td>9.9</td><td>0</td><td>15.5</td><td>Yes</td></tr><tr><td>R-01-03</td><td>0.81</td><td>3.1</td><td>7.6</td><td>2.8</td><td>6.9</td><td>Yes</td></tr><tr><td>R-01-04</td><td>0.59</td><td>2.2</td><td>5.7</td><td>1.4</td><td>3.7</td><td>No</td></tr><tr><td>R-01-05</td><td>0.54</td><td>0.1</td><td>6.8</td><td>0.1</td><td>4.0</td><td>No</td></tr><tr><td>R-01-06</td><td>0.53</td><td>0.1</td><td>2.9</td><td>0.1</td><td>1.7</td><td>Yes</td></tr><tr><td>R-01-07</td><td>0.51</td><td>0.6</td><td>6.2</td><td>0.4</td><td>3.5</td><td>No</td></tr><tr><td>R-01-08</td><td>0.49</td><td>–0.5</td><td>3.1</td><td>0</td><td>1.7</td><td>No</td></tr><tr><td>R-01-09</td><td>0.46</td><td>0.5</td><td>2.9</td><td>0.2</td><td>1.5</td><td>No</td></tr><tr><td>R-01-10</td><td>0.45</td><td>–2.2</td><td>2.8</td><td>0</td><td>1.4</td><td>No</td></tr><tr><td>R-01-11</td><td>0.41</td><td>0.7</td><td>2.2</td><td>0.3</td><td>1.0</td><td>Yes</td></tr><tr><td>R-02-01</td><td>1.29</td><td>–0.6</td><td>11.7</td><td>0</td><td>16.7</td><td>No</td></tr><tr><td>R-02-02</td><td>1.24</td><td>0.2</td><td>13.2</td><td>0.2</td><td>18.2</td><td>Yes</td></tr><tr><td>R-02-03</td><td>0.95</td><td>0.9</td><td>9.8</td><td>1.0</td><td>10.3</td><td>No</td></tr><tr><td>R-02-04</td><td>0.84</td><td>2.2</td><td>10.0</td><td>2.0</td><td>9.3</td><td>Yes</td></tr><tr><td>R-02-05</td><td>0.41</td><td>1.7</td><td>2.4</td><td>0.7</td><td>1.1</td><td>Yes</td></tr></tbody></table></table-wrap></p>
+                <p id="Par19">Eight bubbles are selected from Table <xref rid="Tab2" ref-type="table">2</xref> based on the following criteria: (i) bubbles that interact with other bubbles are discarded, (ii) the maximum bubble diameter is 1.2 mm, and (iii) only MilliQ water is considered. In other words, sources of uncertainty are removed by studying small, isolated bubbles in a well-characterized medium. The resulting bubble velocities are scaled with <italic>R</italic><sup>2</sup> and plotted in Fig. <xref rid="Fig3" ref-type="fig">3</xref> as a function of the magnetic force in the <italic>x</italic> axis. The ± <italic>σ</italic> error bands from the smoothing velocity filter introduced in sec. “Bubble tracking algorithm” are superposed together with predictions from Eqs. (<xref rid="Equ9" ref-type="">9</xref>) and (<xref rid="Equ10" ref-type="">10</xref>). Since the latter does not scale with <italic>R</italic><sup>2</sup>, a range of bubble radii are represented. None of the cases under study surpasses the upper-speed limits, validating the application of the proposed magnetic terminal velocity formulations. The measured velocities are, however, significantly smaller than their terminal values. This should not come as a surprise considering the short duration of the experiment, the inhomogeneous magnetic acceleration environment plotted in Fig. 8b, and the wall-induced drag effect described in sec. “Wall–bubble interactions”. The same factors will likely appear in future space applications and should therefore be considered.<fig id="Fig3"><label>Fig. 3</label><caption><title>Scaled bubble velocities as a function of the horizontal magnetic force.</title><p>Results are compared with Eqs. (<xref rid="Equ9" ref-type="">9</xref>) and (<xref rid="Equ10" ref-type="">10</xref>) during the 4.7 s microgravity flight. The legend indicates the bubble ID from Table <xref rid="Tab2" ref-type="table">2</xref>.</p></caption><graphic xlink:href="41526_2022_212_Fig3_HTML" id="d32e2592"/></fig></p>
+              </sec>
+              <sec id="Sec5">
+                <title>Wall–bubble interactions</title>
+                <p id="Par20">The effective drag acting on the bubbles increases by up to two orders of magnitude as they get closer to the wall<sup><xref ref-type="bibr" rid="CR71">71</xref></sup>. This contribution is noticeable already for distances below ~ 10<italic>R</italic><sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. In close proximity, bubbles will also experience Van der Waals and electrical double layer forces<sup><xref ref-type="bibr" rid="CR72">72</xref></sup>, eventually producing a thin water film between the bubble and the wall. The film drains under the effect of bubble pressure and surface tension, a process that has been successfully modeled by means of force balance-lubrication frameworks<sup><xref ref-type="bibr" rid="CR61">61</xref>,<xref ref-type="bibr" rid="CR73">73</xref></sup>. The bubble may also invert its curvature close to the surface creating a so-called dimple<sup><xref ref-type="bibr" rid="CR74">74</xref></sup> and/or bounce back several times before settling<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>.</p>
+                <p id="Par21">In the experiments, and as shown in Fig. 8b, the diamagnetic acceleration induced on MilliQ water can reach 0.1–1 m s<sup>−2</sup> near the magnet. The fundamental processes explored in terrestrial bubbles should be applicable to this experiment by replacing the role of gravity with the diamagnetic force. For instance, the largest bubble from L-01 oscillates several times over the wall of the syringe before being suddenly “absorbed” and starting the film draining process. Such oscillations are relevant for dynamic phase separation approaches and can be studied by means of iterative fluid-magnetic simulations<sup><xref ref-type="bibr" rid="CR75">75</xref>,<xref ref-type="bibr" rid="CR76">76</xref></sup> or interface tracking methods<sup><xref ref-type="bibr" rid="CR64">64</xref>,<xref ref-type="bibr" rid="CR77">77</xref></sup>. The effect of the diamagnetic force in the eigenfrequencies of the bubble depends on the magnetic Bond number at its interface<sup><xref ref-type="bibr" rid="CR75">75</xref></sup>, which is defined as the ratio between magnetic and surface-tension forces. The absorption seems to be related to a change in wettability conditions and can be observed between <italic>t</italic> = 1.5 and <italic>t</italic> = 2.0 s in Fig. 2. It is followed by a slow bubble flattening process where the bubble increases its wall diameter. The same behavior is repeated for all liquids, although the sudden wetting is transformed into a gradual flattening for the LB medium.</p>
+                <p id="Par22">Of particular technical relevance are the bubble coalescence events reported in Fig. <xref rid="Fig4" ref-type="fig">4</xref> for MilliQ water and LB Broth. The capability to merge several bubbles is key to ensuring a pure gas outcome in future magnetic phase separators. The process is initiated by the thinning of the interface between the two bubbles, which leads to the formation of a neck. The neck expands very fast and starts a damped oscillatory movement in the new bubble that leads to a new equilibrium configuration<sup><xref ref-type="bibr" rid="CR78">78</xref>,<xref ref-type="bibr" rid="CR79">79</xref></sup>. This cycle is reflected in Fig. <xref rid="Fig4" ref-type="fig">4</xref> and is also observed in bubble–bubble interactions just after injection (see Fig. <xref rid="Fig2" ref-type="fig">2)</xref>. In some cases, like R-02, a small bubble is ejected due to the violent displacement of the interface. Factors like the concentration of dissolved salts<sup><xref ref-type="bibr" rid="CR80">80</xref>,<xref ref-type="bibr" rid="CR81">81</xref></sup> or the bubble collision speed<sup><xref ref-type="bibr" rid="CR82">82</xref></sup> can determine the likelihood of bubble coalescence, and should therefore be considered in the design of future systems.<fig id="Fig4"><label>Fig. 4</label><caption><title>Bubble coalescence events at the wall for the L-01, R-02, and R-04 experiments as a function of time.</title><p>The red arrow indicates the ejection of a small gas bubble after bubble coalescence.</p></caption><graphic xlink:href="41526_2022_212_Fig4_HTML" id="d32e2698"/></fig></p>
+              </sec>
+              <sec id="Sec6">
+                <title>Bubble–bubble interactions</title>
+                <p id="Par23">Equation (<xref rid="Equ9" ref-type="">9</xref>) shows that, at least under the Stokes regime, the terminal velocity of bubbles subject to diamagnetic buoyancy scales with <italic>R</italic><sup>2</sup>. This characteristic is shared with terrestrial bubbly flows and implies that smaller bubbles will take longer to be separated. For <inline-formula id="IEq19"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}}\in [20,130]$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mo>∈</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>20</mml:mn><mml:mo>,</mml:mo><mml:mn>130</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq19.gif"/></alternatives></inline-formula>, a steady wake is however generated behind the bubble with a characteristic length of order <italic>R</italic><sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. This structure can be used to generate a liquid flow toward the magnet and enhance the collection of small bubbles, as illustrated in Fig. <xref rid="Fig5" ref-type="fig">5</xref> or the stream of bubbles in Fig. <xref rid="Fig2" ref-type="fig">2</xref>, R-01. Long-term microgravity experiments are necessary to evaluate this mechanism in a technical setting.<fig id="Fig5"><label>Fig. 5</label><caption><title>Representative time stamps of a bubble dragging event for the R-02 MilliQ water solution in microgravity.</title><p>In <bold>a</bold>, the larger bubble approaches the smaller in its path toward the magnet, reaching the point of closest proximity in <bold>b</bold>. In <bold>c</bold>, the smaller bubble is accelerated by the wake of the larger, reducing its speed once the wake moves away in <bold>d</bold>. The red arrow indicates the velocity of the smaller bubble as the larger one drags it.</p></caption><graphic xlink:href="41526_2022_212_Fig5_HTML" id="d32e2772"/></fig></p>
+              </sec>
+              <sec id="Sec7">
+                <title>Relevance to space systems</title>
+                <p id="Par24">Among the many space technologies that may benefit from the dia- and paramagnetic phase separation approach and that are briefly listed in sec. “Introduction”, electrolyzers stand out as some of the most interesting applications. Electrolyzers are utilized for oxygen production in the Oxygen Generation Assembly on the International Space Station and suffer from the absence of buoyancy as gas bubble removal from the electrode surface is hindered<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>. The first studies of this phenomenon were carried out in the 1960s within the frame of developing a reliable spacecraft environmental control system for oxygen production<sup><xref ref-type="bibr" rid="CR83">83</xref></sup>. Hitherto, investigations of water electrolysis in drop tower experiments have reported the formation of stable oxygen and hydrogen gas bubble froth layers on the electrode surface with an increasing gas bubble diameter over time. Gas bubbles are observed to adhere to the membrane separating the two half-cells<sup><xref ref-type="bibr" rid="CR84">84</xref>–<xref ref-type="bibr" rid="CR87">87</xref></sup>. This results in a linear, pH-dependent increase of ohmic resistances with froth layer thickness in both acidic and alkaline electrolytes<sup><xref ref-type="bibr" rid="CR84">84</xref>,<xref ref-type="bibr" rid="CR85">85</xref></sup>. Generally, larger gas bubbles are formed in reduced gravitational environments, whereas alkaline electrolytes tend to bubble foam. In acid electrolytes, gas bubble coalescence remains a dominant process<sup><xref ref-type="bibr" rid="CR84">84</xref></sup>. These bubble froth layers severely hinder substrate and product transfer to and from the electrode surface and block catalytically active sites on the electrode surfaces<sup><xref ref-type="bibr" rid="CR88">88</xref></sup>. Bubble coalescence is also known to vary considerably in different electrolytes<sup><xref ref-type="bibr" rid="CR89">89</xref></sup> and to have a strong impact on the overall gas bubble dynamics, which are also influenced by capillary flow and electric forces in microgravity<sup><xref ref-type="bibr" rid="CR90">90</xref></sup>.</p>
+                <p id="Par25">A forced water flow can be employed to remove the froth layer from the electrode surface, but the approach has limited efficiency and involves the use of heavy and unreliable liquid circuits<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. The operation of electrochemical devices with gaseous products or reactants is therefore complicated in reduced gravitation and results in increased complexity, mass, and power consumption. The dia- and paramagnetic phase separation mechanisms illustrated in this paper may thus enable the design of more efficient (photo-)electrolytic cells where bubbles are efficiently removed from the surface of the electrodes and passively collected using magnetic circuits. In combination with well-designed, hydrophilic (electrode) surfaces<sup><xref ref-type="bibr" rid="CR91">91</xref></sup>, the magnetically induced buoyancy approach could provide a key advancement in low-gravity (photo-)electrolysis, boiling, and phase separation systems, among others, which in turn could represent a step-change in enabling human space exploration.</p>
+              </sec>
+            </sec>
+            <sec id="Sec8">
+              <title>Methods</title>
+              <sec id="Sec9">
+                <title>Experimental setup</title>
+                <p id="Par26">The experimental setup employed in sec. “Results and discussion” is designed to evaluate the dia- and paramagnetic buoyancy effect on three Becton-Dickinson BD Luer-Lok 30 ml syringes that act as sample containers. As previously noted, one syringe is used as a non-magnetic control, while the other two are exposed to the inhomogeneous magnetic field generated by a magnet (see sec. “Magnetic environment”). The experiment is released in a drop capsule from the top of the 120 m ZARM’s drop tower<sup><xref ref-type="bibr" rid="CR92">92</xref></sup> and experiences ~ 4.7 s of microgravity with maximum gravity residuals of ~ 10<sup>−5</sup> m s<sup>−2</sup>. The acceleration profile of the experiment is depicted in Fig. <xref rid="Fig6" ref-type="fig">6</xref>.<fig id="Fig6"><label>Fig. 6</label><caption><title>Acceleration profile of the drop capsule measured during the 4.7 s of free fall at the Bremen Drop Tower.</title><p>Three-dimensional acceleration components are displayed separately, with z denoting the vertical drop direction.</p></caption><graphic xlink:href="41526_2022_212_Fig6_HTML" id="d32e2867"/></fig></p>
+                <p id="Par27">At the beginning of the drop, air bubbles are injected into the syringes using a modified Braun-Sterican 0.3 x 12.0 mm cannula depicted in Fig. <xref rid="Fig7" ref-type="fig">7</xref>. The angled tip of the cannula is removed to create a flat air outlet. Its surface is thoroughly cleaned by rinsing with acetone, isopropanol and MilliQ water for 5 s each before hydroxylating the tip for 15 min in a fresh Piranha solution, a 3:1 mixture of sulfuric acid (98%) and hydrogen peroxide (30%)<sup><xref ref-type="bibr" rid="CR93">93</xref></sup>. This procedure is applied to promote the detachment of air bubbles from the tip of the injector. The gas is forced through the cannula by pushing a second syringe connected to the sample container through a silicon tube. A programmable stepper motor is used to simultaneously push the syringes from each sample. In order to minimize air compression effects, part of the tube is filled with water.<fig id="Fig7"><label>Fig. 7</label><caption><title>Details of the syringe sample container with the left magnet configuration.</title><p>Photograph taken by Álvaro Romero-Calvo.</p></caption><graphic xlink:href="41526_2022_212_Fig7_HTML" id="d32e2887"/></fig></p>
+                <p id="Par28">The drops are recorded with three Photron MC-2 Fastcam high-speed cameras mounted in front of each container. The cameras are operated at 500 fps with a resolution of 512 × 512 px<sup>2</sup>. This high frame rate requires strong illumination, which is made possible by LED strips that diffusely and homogeneously illuminate the liquid container. The flight sequence is commanded from the Capsule Control System described in ref. <sup><xref ref-type="bibr" rid="CR92">92</xref></sup>.</p>
+              </sec>
+              <sec id="Sec10">
+                <title>Liquid properties</title>
+                <p id="Par29">MilliQ water, LB (Miller) medium, containing 10 g L<sup>−1</sup> tryptone, 10 g L<sup>−1</sup> sodium chloride, and 5 g L<sup>−1</sup> yeast extract, and olive oil possess diamagnetic properties, whereas the Mn<sup>2+</sup> ion in the 0.5 M MnSO<sub>4</sub> ⋅ H<sub>2</sub>O solution has five unpaired 3d electrons and is therefore paramagnetic. MilliQ water is well-characterized and exhibits a density <italic>ρ</italic> = 998 kg m<sup>−3</sup>, dynamic viscosity <italic>η</italic> = 1.002 mPa s, surface tension <italic>σ</italic> = 72.75 mN m<sup>−1</sup>, and volume magnetic susceptibility <italic>χ</italic><sup>vol</sup> = − 9.022 ⋅ 10<sup>−6</sup> at 293 K<sup><xref ref-type="bibr" rid="CR94">94</xref></sup>. Therefore, experiments with water are used in sec. “Terminal velocity” to validate analytical formulations. The 0.5M MnSO<sub>4</sub> ⋅ H<sub>2</sub>O solution is chosen for comparison due to its paramagnetic susceptibility<sup><xref ref-type="bibr" rid="CR95">95</xref></sup> of ~7.7 ⋅ 10<sup>−5</sup>, while olive oil is characterized by a large dynamic viscosity of ~79 mPa s<sup><xref ref-type="bibr" rid="CR96">96</xref></sup>. Finally, LB Broth is tested due to its widespread application in biological experiments in microgravity and its complex composition<sup><xref ref-type="bibr" rid="CR54">54</xref></sup>.</p>
+              </sec>
+              <sec id="Sec11">
+                <title>Magnetic environment</title>
+                <p id="Par30">The magnetic field is induced by a 19.05 mm height, 25.4 mm diameter, 72.4 g N52 neodymium magnet magnetized at 1150 kA m<sup>−1</sup> and supplied by K&amp;J Magnetics Inc. As shown in Fig. <xref rid="Fig7" ref-type="fig">7</xref>, the magnet is mounted on the side of the syringe. Since the magnetic susceptibility of the liquids employed in this experiment is of the order of ± 10<sup>−5</sup>, the magnetic properties of the system can be computed without accounting for the influence of the magnetization field <bold>M</bold> on <bold>H</bold> or the magnetic normal traction term at the liquid-gas interface. This effectively uncouples the fluid-magnetic problem and simplifies the modeling of the system, ultimately enabling the adoption of the external magnetic field <bold>H</bold><sub>0</sub> produced by a magnet in a non-polarized environment<sup><xref ref-type="bibr" rid="CR53">53</xref></sup>.</p>
+                <p id="Par31">The magnetic field, diamagnetic acceleration on deionized water, and terminal velocity of a 1 mm diameter bubble computed from Eq. (<xref rid="Equ10" ref-type="">10</xref>) and <italic>κ</italic> = 2 (<inline-formula id="IEq20"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{{\rm{Re}}}} \,&lt;\, 10$$\end{document}</tex-math><mml:math id="M60"><mml:mrow><mml:mi mathvariant="normal">Re</mml:mi><mml:mspace width="0.25em"/><mml:mo>&lt;</mml:mo><mml:mspace width="0.25em"/><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="41526_2022_212_Article_IEq20.gif"/></alternatives></inline-formula>) are shown in Fig. <xref rid="Fig8" ref-type="fig">8</xref>. Terminal velocities of 1 to 10 mm s<sup>−1</sup> are obtained between the injector and the magnet, indicating that the bubble reaches the wall of the syringe in a few seconds.<fig id="Fig8"><label>Fig. 8</label><caption><title>Magnetic environment inside the syringe filled with MilliQ water.</title><p>The white bar at the top and gray box at the left represent the gas injector and magnet, respectively. The panels represent the <bold>a</bold> magnetic field, <bold>b</bold> diamagnetic acceleration exerted on the liquid, and <bold>c</bold> terminal velocity of a 1 mm diameter air bubble.</p></caption><graphic xlink:href="41526_2022_212_Fig8_HTML" id="d32e3052"/></fig></p>
+              </sec>
+              <sec id="Sec12">
+                <title>Bubble tracking algorithm</title>
+                <p id="Par32">The characterization of bubbles in transparent liquids is complicated by optical and geometrical challenges that undermine the detection process. Among them, poor illumination conditions, the superposition of different layers of bubbles, or the heterogeneous appearance of the bubble contour<sup><xref ref-type="bibr" rid="CR97">97</xref></sup>. Different methods have been proposed to automatically determine the bubble size distribution of a given image. Optical algorithms are widely extended<sup><xref ref-type="bibr" rid="CR98">98</xref></sup> and may be classified as geometry or appearance-based<sup><xref ref-type="bibr" rid="CR97">97</xref></sup>. In the former, a circle is fitted to the image edge map using voting techniques such as the Hough Transform<sup><xref ref-type="bibr" rid="CR99">99</xref></sup> or alternatives like the Concentric Circular Arrangements method<sup><xref ref-type="bibr" rid="CR100">100</xref></sup>. Although geometry-based approaches are particularly susceptible to noise and result in an excessive number of false positives, appearance-based methods require large algorithm training databases<sup><xref ref-type="bibr" rid="CR98">98</xref></sup>.</p>
+                <p id="Par33">A geometry-based algorithm is developed and implemented in Matlab 2021a to track the trajectory of gas bubbles within the syringe. The code is illustrated in Fig. <xref rid="Fig9" ref-type="fig">9</xref> and consists of the following steps:<list list-type="order"><list-item><p id="Par34">Image conversion: The original video frame is rotated to rectify the camera misalignment and then converted to gray-scale. When the magnet is on the right, the image is flipped to homogenize the comparison between cases.</p></list-item><list-item><p id="Par35">Background removal: The first frame after the start of the drop is subtracted from the current frame to remove background noise.</p></list-item><list-item><p id="Par36">Binarization: The contrast of the image is enhanced before binarizing using Otsu’s method<sup><xref ref-type="bibr" rid="CR101">101</xref></sup>, implemented using Matlab’s imbinarize function. Then, all objects containing less than 5 px are removed with bwareaopen.</p></list-item><list-item><p id="Par37">Circle enhancement: In order to ease the automatic detection of bubbles, a morphological closing is performed with imclose by dilating and eroding the image using a disk shape as structuring element<sup><xref ref-type="bibr" rid="CR102">102</xref></sup>.</p></list-item><list-item><p id="Par38">Circle detection: Finally, circles are detected using the Circular-Hough-Transform-based algorithm implemented in imfindcircles<sup><xref ref-type="bibr" rid="CR103">103</xref>,<xref ref-type="bibr" rid="CR104">104</xref></sup>. The algorithm is configured with a sensitivity of 0.8 and an edge threshold of 0.2 using a bright object polarity. The curved wall of the syringe elongates the bubble and makes it look elliptical. To correct this visual distortion, a linear transformation is applied in the horizontal direction before detecting the circle and then reversed to compute its actual position.</p></list-item></list></p>
+                <p id="Par39">The same process is applied to the rest of the video file until all frames are processed. Even though the bubble detection algorithm returns a large number of false positives, the presence of clear structures in the data enables effective post-processing. Figure <xref rid="Fig10" ref-type="fig">10</xref> represents the detected centroid locations as a function of time, with the size of the marker being proportional to the size of the bubble. To reconstruct its trajectory, a manual estimation of the final position is taken by a point tracking algorithm that looks for the closest point within a certain radius in the next frame. Since the initial position of the bubbles is the same, the tracking algorithm is run backward in time. The resulting data are smoothed by applying a moving average filter with a window of 0.2 s. Second-order central finite differences are employed to derive the bubble velocity, which is finally smoothed with the same moving average filter.<fig id="Fig9"><label>Fig. 9</label><caption><title>Bubble detection algorithm applied to a representative video frame.</title><p>The original frame is first converted to gray-scale and flipped if the magnet is located on the right. After background removal, image binarization, and contour closing, bubbles are detected using the Circular Hough Transform. Detected bubbles are shown as red circles in the figure.</p></caption><graphic xlink:href="41526_2022_212_Fig9_HTML" id="d32e3160"/></fig><fig id="Fig10"><label>Fig. 10</label><caption><title>Unfiltered bubble trajectories inside the syringe resulting from the application of the bubble detection algorithm to a 4.7 s drop tower experiment.</title><p>The color of the markers reflects the time of flight. Their size is scaled between 0.35 and 3.4 mm in radius as indicated by the legend.</p></caption><graphic xlink:href="41526_2022_212_Fig10_HTML" id="d32e3171"/></fig></p>
+              </sec>
+              <sec id="Sec13">
+                <title>Reporting summary</title>
+                <p id="Par40">Further information on research design is available in the <xref rid="MOESM2" ref-type="media">Nature Research Reporting Summary</xref> linked to this article.</p>
+              </sec>
+            </sec>
+            <sec sec-type="supplementary-material">
+              <title>Supplementary information</title>
+              <sec id="Sec14">
+                <p>
+                  <supplementary-material content-type="local-data" id="MOESM1">
+                    <media xlink:href="41526_2022_212_MOESM1_ESM.pdf">
+                      <caption>
+                        <p>Supplementary Materials Information File</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM2">
+                    <media xlink:href="41526_2022_212_MOESM2_ESM.pdf">
+                      <caption>
+                        <p>Reporting Summary</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM3">
+                    <media xlink:href="41526_2022_212_MOESM3_ESM.mp4">
+                      <caption>
+                        <p>Movie C-01. Control, drop 1, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM4">
+                    <media xlink:href="41526_2022_212_MOESM4_ESM.mp4">
+                      <caption>
+                        <p>Movie C-02. Control, drop 2, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM5">
+                    <media xlink:href="41526_2022_212_MOESM5_ESM.mp4">
+                      <caption>
+                        <p>Movie C-03. Control, drop 3, 0.5M MnSO<sub>4</sub>·H<sub>2</sub>O(aq)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM6">
+                    <media xlink:href="41526_2022_212_MOESM6_ESM.mp4">
+                      <caption>
+                        <p>Movie C-04. Control, drop 4, LB medium</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM7">
+                    <media xlink:href="41526_2022_212_MOESM7_ESM.mp4">
+                      <caption>
+                        <p>Movie C-05. Control, drop 5, Extra-virgin olive oil</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM8">
+                    <media xlink:href="41526_2022_212_MOESM8_ESM.mp4">
+                      <caption>
+                        <p>Movie L-06. Left magnet, drop 1, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM9">
+                    <media xlink:href="41526_2022_212_MOESM9_ESM.mp4">
+                      <caption>
+                        <p>Movie L-07. Left magnet, drop 2, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM10">
+                    <media xlink:href="41526_2022_212_MOESM10_ESM.mp4">
+                      <caption>
+                        <p>Movie L-08. Left magnet, drop 3, 0.5M MnSO<sub>4</sub>·H<sub>2</sub>O(aq)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM11">
+                    <media xlink:href="41526_2022_212_MOESM11_ESM.mp4">
+                      <caption>
+                        <p>Movie L-09. Left magnet, drop 4, LB medium</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM12">
+                    <media xlink:href="41526_2022_212_MOESM12_ESM.mp4">
+                      <caption>
+                        <p>Movie L-010. Left magnet, drop 5, Extra-virgin olive oil</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM13">
+                    <media xlink:href="41526_2022_212_MOESM13_ESM.mp4">
+                      <caption>
+                        <p>Movie R-011. Right magnet, drop 1, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM14">
+                    <media xlink:href="41526_2022_212_MOESM14_ESM.mp4">
+                      <caption>
+                        <p>Movie R-012. Right magnet, drop 2, MilliQ Water</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM15">
+                    <media xlink:href="41526_2022_212_MOESM15_ESM.mp4">
+                      <caption>
+                        <p>Movie R-013. Right magnet, drop 3, 0.5M MnSO<sub>4</sub>·H<sub>2</sub>O(aq)</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM16">
+                    <media xlink:href="41526_2022_212_MOESM16_ESM.mp4">
+                      <caption>
+                        <p>Movie R-014. Right magnet, drop 4, LB medium</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                  <supplementary-material content-type="local-data" id="MOESM17">
+                    <media xlink:href="41526_2022_212_MOESM17_ESM.mp4">
+                      <caption>
+                        <p>Movie R-015. Right magnet, drop 5, Extra-virgin olive oil</p>
+                      </caption>
+                    </media>
+                  </supplementary-material>
+                </p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <fn-group>
+              <fn>
+                <p><bold>Publisher’s note</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+              </fn>
+              <fn>
+                <p>
+                  <bold>Change history</bold>
+                </p>
+                <p>9/26/2022</p>
+                <p id="Par1">The Supplementary Videos zip file was originally published with this article was corrupted; it has now been replaced with the correct version individual Supplementary Video files. The original article has been corrected.</p>
+              </fn>
+            </fn-group>
+            <sec>
+              <title>Supplementary information</title>
+              <p>The online version contains supplementary material available at 10.1038/s41526-022-00212-9.</p>
+            </sec>
+            <ack>
+              <title>Acknowledgements</title>
+              <p>This work was supported by the German Aerospace Center (DLR) with funds provided by the Federal Ministry for Economic Affairs and Energy (BMWi), Germany, under Grant No. DLR 50WM2150 (project <italic>LiMo</italic>). A.R.C. acknowledges the financial support offered by the <italic>Rafael del Pino</italic> Foundation under its 2021 Excellence Fellowship. The authors thank the ZARM team around Dr. Thorben Könemann for their outstanding support of this project.</p>
+            </ack>
+            <notes notes-type="author-contribution">
+              <title>Author contributions</title>
+              <p>A.R.C. conceived and designed the analysis, collected the data, contributed data or analysis tools, performed the analysis, and wrote the paper; O.A. collected the data, contributed data or analysis tools, and wrote the paper; H.S. conceived and designed the analysis, wrote the paper, and financially supported the work; K.B. conceived and designed the analysis, collected the data, wrote the paper, and financially supported the work.</p>
+            </notes>
+            <notes notes-type="data-availability">
+              <title>Data availability</title>
+              <p>All the videos employed in this work are available in the Supplementary Materials.</p>
+            </notes>
+            <notes id="FPar1" notes-type="COI-statement">
+              <title>Competing interests</title>
+              <p id="Par41">The authors declare no competing interests.</p>
+            </notes>
+            <ref-list id="Bib1">
+              <title>References</title>
+              <ref id="CR1">
+                <label>1.</label>
+                <mixed-citation publication-type="other">Erickson, R. J., Howe, J., Kulp, G. W. &amp; Van Keuren, S. P. International space station united states orbital segment oxygen generation system on-orbit operational experience. In <italic>International Conference On Environmental Systems, 2008-01-1962, San Francisco, CA</italic> (2008).</mixed-citation>
+              </ref>
+              <ref id="CR2">
+                <label>2.</label>
+                <mixed-citation publication-type="other">Samplatsky, D. J. &amp; Dean, W. C. Development of a rotary separator accumulator for use on the international space station. In <italic>International Conference On Environmental Systems, 2002-01-2360, San Antonio, TX</italic> (SAE International, 2002).</mixed-citation>
+              </ref>
+              <ref id="CR3">
+                <label>3.</label>
+                <mixed-citation publication-type="other">Tilton, D. E. &amp; Tilton, C. L. Entrained droplet separator. US Patent 5314529 (1994).</mixed-citation>
+              </ref>
+              <ref id="CR4">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hoyt</surname>
+                      <given-names>NC</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Study of steady and dynamic behavior of gas core of passive cyclonic separator for space applications</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2013</year>
+                  <volume>25</volume>
+                  <fpage>187</fpage>
+                  <lpage>200</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-013-9346-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR5">
+                <label>5.</label>
+                <mixed-citation publication-type="other">Browning, W. L. S-4b/5 auxiliary propulsion system 90-day recycle capability test report, module 1. Tech. Rep. DAC-56728 (McDonnell Douglas Astronautics Company, 1969). <ext-link ext-link-type="uri" xlink:href="https://ntrs.nasa.gov/citations/19700026606">https://ntrs.nasa.gov/citations/19700026606</ext-link>.</mixed-citation>
+              </ref>
+              <ref id="CR6">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weislogel</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Collicott</surname>
+                      <given-names>SH</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Capillary rewetting of vaned containers: Spacecraft tank rewetting following thrust resettling</article-title>
+                  <source>AIAA J.</source>
+                  <year>2004</year>
+                  <volume>42</volume>
+                  <fpage>2551</fpage>
+                  <lpage>2561</lpage>
+                  <pub-id pub-id-type="doi">10.2514/1.3394</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR7">
+                <label>7.</label>
+                <mixed-citation publication-type="other">Sakurai, M. et al. Development of oxygen generation demonstration on jem (kibo) for manned space exploration. In <italic>44th International Conference on Environmental Systems, Tucson,</italic> Texas Tech University Libraries, <italic>ICES-2014−25, Arizona</italic>, 1–7 (2014).</mixed-citation>
+              </ref>
+              <ref id="CR8">
+                <label>8.</label>
+                <mixed-citation publication-type="other">Sakurai, M., Terao, T. &amp; Sone, Y. Development of water electrolysis system for oxygen production aimed at energy saving and high safety. In <italic>45th International Conference on Environmental Systems,</italic> Texas Tech University Libraries, <italic>ICES-2015-273, Belleuve, Washington</italic>, 1–8 (2015).</mixed-citation>
+              </ref>
+              <ref id="CR9">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weislogel</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>Thomas</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Graf</surname>
+                      <given-names>JC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel device addressing design challenges for passive fluid phase separations aboard spacecraft</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2008</year>
+                  <volume>21</volume>
+                  <fpage>257</fpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-008-9091-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR10">
+                <label>10.</label>
+                <mixed-citation publication-type="other">Weislogel, M. &amp; Jenson, R. Passive no moving parts capillary solutions for spacecraft life support systems. In <italic>49th International Conference On Environmental Systems, ICES-2019-203, Boston, Massachusetts</italic> (2019).</mixed-citation>
+              </ref>
+              <ref id="CR11">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kichatov</surname>
+                      <given-names>BV</given-names>
+                    </name>
+                    <name>
+                      <surname>Mikhalev</surname>
+                      <given-names>AP</given-names>
+                    </name>
+                    <name>
+                      <surname>Polyaev</surname>
+                      <given-names>VM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Study of evaporation in a capillary phase separator</article-title>
+                  <source>High Temperature</source>
+                  <year>2000</year>
+                  <volume>38</volume>
+                  <fpage>460</fpage>
+                  <lpage>466</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02756007</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR12">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jenson</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Passive phase separation of microgravity bubbly flows using conduit geometry</article-title>
+                  <source>Int. J. Multiph. Flow</source>
+                  <year>2014</year>
+                  <volume>65</volume>
+                  <fpage>68</fpage>
+                  <lpage>81</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijmultiphaseflow.2014.05.011</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR13">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Weislogel</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                    <name>
+                      <surname>McCraney</surname>
+                      <given-names>JT</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The symmetric draining of capillary liquids from containers with interior corners</article-title>
+                  <source>J. Fluid Mech.</source>
+                  <year>2019</year>
+                  <volume>859</volume>
+                  <fpage>902</fpage>
+                  <lpage>920</lpage>
+                  <pub-id pub-id-type="doi">10.1017/jfm.2018.848</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR14">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Torres</surname>
+                      <given-names>LJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Weislogel</surname>
+                      <given-names>MM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The ejection of large non-oscillating droplets from a hydrophobic wedge in microgravity</article-title>
+                  <source>NPJ Microgravity</source>
+                  <year>2021</year>
+                  <volume>7</volume>
+                  <fpage>52</fpage>
+                  <pub-id pub-id-type="doi">10.1038/s41526-021-00182-4</pub-id>
+                  <?supplied-pmid 34921146?>
+                  <pub-id pub-id-type="pmid">34921146</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR15">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti Pour</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiessen</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A novel arterial wick for gas-liquid phase separation</article-title>
+                  <source>AIChE J.</source>
+                  <year>2019</year>
+                  <volume>65</volume>
+                  <fpage>1340</fpage>
+                  <lpage>1354</lpage>
+                  <pub-id pub-id-type="doi">10.1002/aic.16499</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR16">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Beheshti Pour</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Thiessen</surname>
+                      <given-names>DB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Equilibrium configurations of drops or bubbles in an eccentric annulus</article-title>
+                  <source>J. Fluid Mech.</source>
+                  <year>2019</year>
+                  <volume>863</volume>
+                  <fpage>364</fpage>
+                  <lpage>385</lpage>
+                  <pub-id pub-id-type="doi">10.1017/jfm.2018.1010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR17">
+                <label>17.</label>
+                <mixed-citation publication-type="other">Tegrotenhuis, W. E. &amp; Stenkamp, V. S. Normal gravity testing of a microchannel phase separator for in situ resource utilization. Tech. Rep. CR-2001-210955, NASA (2001).</mixed-citation>
+              </ref>
+              <ref id="CR18">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scovazzo</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Illangasekare</surname>
+                      <given-names>TH</given-names>
+                    </name>
+                    <name>
+                      <surname>Hoehn</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Todd</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Modeling of two-phase flow in membranes and porous media in microgravity as applied to plant irrigation in space</article-title>
+                  <source>Water Resour. Res.</source>
+                  <year>2001</year>
+                  <volume>37</volume>
+                  <fpage>1231</fpage>
+                  <lpage>1243</lpage>
+                  <pub-id pub-id-type="doi">10.1029/2000WR900311</pub-id>
+                  <?supplied-pmid 12238522?>
+                  <pub-id pub-id-type="pmid">12238522</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR19">
+                <label>19.</label>
+                <mixed-citation publication-type="other">Hasan, M., Khan, L., Nayagam, V. &amp; Balasubramaniam, R. Conceptual design of a condensing heat exchanger for space systems using porous media. In <italic>35th International Conference on Environmental Systems, 2005-01-2812, Rome, Italy,</italic> SAE International (2005).</mixed-citation>
+              </ref>
+              <ref id="CR20">
+                <label>20.</label>
+                <mixed-citation publication-type="other">Chipchark, D. Development of expulsion and orientation systems for advanced liquid rocket propulsion systems. Tech. Rep. RTD-TDR-63-1048, Contract AF04 (611)-8200, USAF (1963).</mixed-citation>
+              </ref>
+              <ref id="CR21">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ogata</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Yabe</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Augmentation of boiling heat transfer by utilizing the ehd effect-ehd behaviour of boiling bubbles and heat transfer characteristics</article-title>
+                  <source>Int. J. Heat .Mass Transfer</source>
+                  <year>1993</year>
+                  <volume>36</volume>
+                  <fpage>783</fpage>
+                  <lpage>791</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0017-9310(93)80054-X</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR22">
+                <label>22.</label>
+                <mixed-citation publication-type="other">Di Marco, P. Influence of force fields and flow patterns on boiling heat transfer performance: a review. <italic>J Heat Transfer</italic><bold>134</bold>, 030801 (2012).</mixed-citation>
+              </ref>
+              <ref id="CR23">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Patel</surname>
+                      <given-names>VK</given-names>
+                    </name>
+                    <name>
+                      <surname>Seyed-Yagoobi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Combined dielectrophoretic and electrohydrodynamic conduction pumping for enhancement of liquid film flow boiling</article-title>
+                  <source>J Heat Transfer</source>
+                  <year>2017</year>
+                  <volume>139</volume>
+                  <fpage>061502</fpage>
+                  <pub-id pub-id-type="doi">10.1115/1.4035709</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR24">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Di Marco</surname>
+                      <given-names>P</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The use of electric force as a replacement of buoyancy in two-phase flow</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2012</year>
+                  <volume>24</volume>
+                  <fpage>215</fpage>
+                  <lpage>228</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-012-9312-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR25">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Lu</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>C</given-names>
+                    </name>
+                    <name>
+                      <surname>Yao</surname>
+                      <given-names>W</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Numerical simulation of bubble motions in a coaxial annular electric field under microgravity</article-title>
+                  <source>Aerospace Sci. Technol.</source>
+                  <year>2020</year>
+                  <volume>96</volume>
+                  <fpage>105525</fpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ast.2019.105525</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR26">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Feng</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Seyed-Yagoobi</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Control of liquid flow distribution utilizing ehd conduction pumping mechanism</article-title>
+                  <source>IEEE Trans. Ind. Appl.</source>
+                  <year>2006</year>
+                  <volume>42</volume>
+                  <fpage>369</fpage>
+                  <lpage>377</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TIA.2005.863909</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR27">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Crum</surname>
+                      <given-names>LA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bjerknes forces on bubbles in a stationary sound field</article-title>
+                  <source>J. Acoust. Soc. Am.</source>
+                  <year>1975</year>
+                  <volume>57</volume>
+                  <fpage>1363</fpage>
+                  <lpage>1370</lpage>
+                  <pub-id pub-id-type="doi">10.1121/1.380614</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR28">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Luo</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Cao</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>He</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Phase separation technology based on ultrasonic standing waves: a review</article-title>
+                  <source>Ultrason. Sonochem.</source>
+                  <year>2018</year>
+                  <volume>48</volume>
+                  <fpage>287</fpage>
+                  <lpage>298</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ultsonch.2018.06.006</pub-id>
+                  <?supplied-pmid 30080553?>
+                  <pub-id pub-id-type="pmid">30080553</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR29">
+                <label>29.</label>
+                <mixed-citation publication-type="other">Oeftering, R. C., Chato, D. J. &amp; Mann, A. Liquid propellant manipulated acoustically. Tech. Rep. 20050215041, NASA (2003).</mixed-citation>
+              </ref>
+              <ref id="CR30">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Suñol</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Ochoa</surname>
+                      <given-names>DA</given-names>
+                    </name>
+                    <name>
+                      <surname>Granados</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>González-Cinca</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>García</surname>
+                      <given-names>JE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Performance assessment of ultrasonic waves for bubble control in cryogenic fuel tanks</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2020</year>
+                  <volume>32</volume>
+                  <fpage>609</fpage>
+                  <lpage>613</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-020-09795-y</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR31">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fili</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Gódia</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>González-Cinca</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Trade-off analysis of phase separation techniques for advanced life support systems in space</article-title>
+                  <source>Acta Astronautica</source>
+                  <year>2021</year>
+                  <volume>178</volume>
+                  <fpage>571</fpage>
+                  <lpage>583</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2020.09.052</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR32">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Salgado Sánchez</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Shevtsova</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>Yasnou</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A review of fluid instabilities and control strategies with applications in microgravity</article-title>
+                  <source>Math. Model. Nat. Phenom.</source>
+                  <year>2021</year>
+                  <volume>16</volume>
+                  <fpage>24</fpage>
+                  <pub-id pub-id-type="doi">10.1051/mmnp/2021020</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR33">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fernández</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Tinao</surname>
+                      <given-names>I</given-names>
+                    </name>
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Laverón-Simavilla</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Instabilities of vibroequilibria in rectangular containers</article-title>
+                  <source>Phys. Fluids</source>
+                  <year>2017</year>
+                  <volume>29</volume>
+                  <fpage>024108</fpage>
+                  <pub-id pub-id-type="doi">10.1063/1.4976719</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR34">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Salgado Sánchez</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Gaponenko</surname>
+                      <given-names>YA</given-names>
+                    </name>
+                    <name>
+                      <surname>Porter</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Shevtsova</surname>
+                      <given-names>V</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Finite-size effects on pattern selection in immiscible fluids subjected to horizontal vibrations in weightlessness</article-title>
+                  <source>Phys. Rev. E</source>
+                  <year>2019</year>
+                  <volume>99</volume>
+                  <fpage>042803</fpage>
+                  <pub-id pub-id-type="doi">10.1103/PhysRevE.99.042803</pub-id>
+                  <?supplied-pmid 31108636?>
+                  <pub-id pub-id-type="pmid">31108636</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR35">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Romero-Calvo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Schaub</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Cano-Gómez</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diamagnetically enhanced electrolysis and phase separation in low gravity</article-title>
+                  <source>J. Spacecr. Rockets</source>
+                  <year>2022</year>
+                  <volume>59</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.2514/1.A35021</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR36">
+                <label>36.</label>
+                <mixed-citation publication-type="other">Landau, L. &amp; Lifshitz, E. <italic>Electrodynamics of Continuous Media</italic> (Pergamon Press, 1960).</mixed-citation>
+              </ref>
+              <ref id="CR37">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Junhong</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Jianming</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhiwei</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Hui</surname>
+                      <given-names>L</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Experiments and mechanism analysis of pool boiling heat transfer enhancement with water-based magnetic fluid</article-title>
+                  <source>Heat Mass Transfer</source>
+                  <year>2004</year>
+                  <volume>41</volume>
+                  <fpage>170</fpage>
+                  <lpage>175</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR38">
+                <label>38.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Abdollahi</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Salimpour</surname>
+                      <given-names>MR</given-names>
+                    </name>
+                    <name>
+                      <surname>Etesami</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Experimental analysis of magnetic field effect on the pool boiling heat transfer of a ferrofluid</article-title>
+                  <source>Appl. Therm. Eng.</source>
+                  <year>2017</year>
+                  <volume>111</volume>
+                  <fpage>1101</fpage>
+                  <lpage>1110</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.applthermaleng.2016.10.019</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR39">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wakayama</surname>
+                      <given-names>NI</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Magnetic buoyancy force acting on bubbles in nonconducting and diamagnetic fluids under microgravity</article-title>
+                  <source>J. Appl. Phys.</source>
+                  <year>1997</year>
+                  <volume>81</volume>
+                  <fpage>2980</fpage>
+                  <lpage>2984</lpage>
+                  <pub-id pub-id-type="doi">10.1063/1.364330</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR40">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wakayama</surname>
+                      <given-names>NI</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Utilization of magnetic force in space experiments</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>1999</year>
+                  <volume>24</volume>
+                  <fpage>1337</fpage>
+                  <lpage>1340</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0273-1177(99)00743-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR41">
+                <label>41.</label>
+                <mixed-citation publication-type="other">Tillotson, B. J., Torre, L. P. &amp; Houston, J. D. Method for manipulation of diamagnetic objects in a low-gravity environment. US Patent 6162364 (2000).</mixed-citation>
+              </ref>
+              <ref id="CR42">
+                <label>42.</label>
+                <mixed-citation publication-type="other">Scarl, E. &amp; Houston, J. Two-phase magnetic fluid manipulation in microgravity environments. In <italic>Proceedings of the 37th Aerospace Sciences Meeting and Exhibit</italic>, 1–5, AIAA(1999).</mixed-citation>
+              </ref>
+              <ref id="CR43">
+                <label>43.</label>
+                <mixed-citation publication-type="other">Tillotson, B., Houston, J., Tillotson, B. &amp; Houston, J. Diamagnetic manipulation for microgravity processing. In <italic>Proceedings of the 35th Aerospace Sciences Meeting and Exhibit</italic>, 1–10, AIAA (1997).</mixed-citation>
+              </ref>
+              <ref id="CR44">
+                <label>44.</label>
+                <mixed-citation publication-type="other">Papell, S. Low viscosity magnetic fluid obtained by the colloidal suspension of magnetic particles (1963). US Patent 3215572 (1963).</mixed-citation>
+              </ref>
+              <ref id="CR45">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marchetta</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Winter</surname>
+                      <given-names>A</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Simulation of magnetic positive positioning for space based fluid management systems</article-title>
+                  <source>Math. Comput. Model.</source>
+                  <year>2010</year>
+                  <volume>51</volume>
+                  <fpage>1202</fpage>
+                  <lpage>1212</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.mcm.2010.01.002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR46">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Romero-Calvo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Maggi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                    <name>
+                      <surname>Schaub</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Magnetic positive positioning: Toward the application in space propulsion</article-title>
+                  <source>Acta Astronaut.</source>
+                  <year>2021</year>
+                  <volume>187</volume>
+                  <fpage>348</fpage>
+                  <lpage>361</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2021.06.045</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR47">
+                <label>47.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Romero-Calvo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Stelium: a student experiment to investigate the sloshing of magnetic liquids in microgravity</article-title>
+                  <source>Acta Astronaut.</source>
+                  <year>2020</year>
+                  <volume>173</volume>
+                  <fpage>344</fpage>
+                  <lpage>355</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actaastro.2020.04.013</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR48">
+                <label>48.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matsushima</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiuchi</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measurement of dissolved hydrogen supersaturation during water electrolysis in a magnetic field</article-title>
+                  <source>Electrochim. Acta</source>
+                  <year>2009</year>
+                  <volume>54</volume>
+                  <fpage>5858</fpage>
+                  <lpage>5862</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.electacta.2009.05.044</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR49">
+                <label>49.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                    <name>
+                      <surname>Gong</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Guo</surname>
+                      <given-names>Z</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The intensification technologies to water electrolysis for hydrogen production–a review</article-title>
+                  <source>Renew. Sust. Energ. Rev.</source>
+                  <year>2014</year>
+                  <volume>29</volume>
+                  <fpage>573</fpage>
+                  <lpage>588</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.rser.2013.08.090</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR50">
+                <label>50.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lin</surname>
+                      <given-names>MY</given-names>
+                    </name>
+                    <name>
+                      <surname>Hourng</surname>
+                      <given-names>LW</given-names>
+                    </name>
+                    <name>
+                      <surname>Hsu</surname>
+                      <given-names>JS</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effects of magnetic field on the hydrogen production by multielectrode water electrolysis</article-title>
+                  <source>Energ. Source Part A: Recov. Utiliz. Environ. Effect.</source>
+                  <year>2017</year>
+                  <volume>39</volume>
+                  <fpage>352</fpage>
+                  <lpage>357</lpage>
+                  <pub-id pub-id-type="doi">10.1080/15567036.2016.1217289</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR51">
+                <label>51.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Küstler</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Diamagnetic levitation—historical milestones</article-title>
+                  <source>Revue Roumaine des Sciences Techniques—Électrotechnique et Électroénergétique</source>
+                  <year>2007</year>
+                  <volume>52</volume>
+                  <fpage>265</fpage>
+                  <lpage>282</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR52">
+                <label>52.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>John tyndall and the early history of diamagnetism</article-title>
+                  <source>Ann. Sci.</source>
+                  <year>2015</year>
+                  <volume>72</volume>
+                  <fpage>435</fpage>
+                  <lpage>489</lpage>
+                  <pub-id pub-id-type="doi">10.1080/00033790.2014.929743</pub-id>
+                  <?supplied-pmid 26221835?>
+                  <pub-id pub-id-type="pmid">26221835</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR53">
+                <label>53.</label>
+                <mixed-citation publication-type="other">Romero-Calvo, A. et al. Total magnetic force on a ferrofluid droplet in microgravity. <italic>Exp. Therm. Fluid Sci.</italic><bold>117</bold>, 110124 (2020).</mixed-citation>
+              </ref>
+              <ref id="CR54">
+                <label>54.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wilson</surname>
+                      <given-names>JW</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Space flight alters bacterial gene expression and virulence and reveals a role for global regulator hfq</article-title>
+                  <source>Proc. Natl Acad. Sci. USA</source>
+                  <year>2007</year>
+                  <volume>104</volume>
+                  <fpage>16299</fpage>
+                  <lpage>16304</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.0707155104</pub-id>
+                  <?supplied-pmid 17901201?>
+                  <pub-id pub-id-type="pmid">17901201</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR55">
+                <label>55.</label>
+                <mixed-citation publication-type="other">Pickering, W. F. <italic>Modern analytical chemistry</italic> (New York-Dekker, 1971).</mixed-citation>
+              </ref>
+              <ref id="CR56">
+                <label>56.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kulkarni</surname>
+                      <given-names>AA</given-names>
+                    </name>
+                    <name>
+                      <surname>Joshi</surname>
+                      <given-names>JB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bubble formation and bubble rise velocity in gas-liquid systems: a review</article-title>
+                  <source>Ind. Eng. Chem. Res.</source>
+                  <year>2005</year>
+                  <volume>44</volume>
+                  <fpage>5873</fpage>
+                  <lpage>5931</lpage>
+                  <pub-id pub-id-type="doi">10.1021/ie049131p</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR57">
+                <label>57.</label>
+                <mixed-citation publication-type="other">Roland, C., John R., G. &amp; Martin E., W. <italic>Bubbles, Drops and Particles</italic> (Academic Press, 1978).</mixed-citation>
+              </ref>
+              <ref id="CR58">
+                <label>58.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Tomiyama</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Celata</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Hosokawa</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Yoshida</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Terminal velocity of single bubbles in surface tension force dominant regime</article-title>
+                  <source>Int. J. Multiphase Flow</source>
+                  <year>2002</year>
+                  <volume>28</volume>
+                  <fpage>1497</fpage>
+                  <lpage>1519</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0301-9322(02)00032-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR59">
+                <label>59.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Yan</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhuang</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Experimental studies on the terminal velocity of air bubbles in water and glycerol aqueous solution</article-title>
+                  <source>Exp. Ther. Fluid Sci.</source>
+                  <year>2016</year>
+                  <volume>78</volume>
+                  <fpage>254</fpage>
+                  <lpage>265</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.expthermflusci.2016.06.011</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR60">
+                <label>60.</label>
+                <mixed-citation publication-type="other">Landau, L. &amp; Lifshitz, E. in <italic>Fluid Mechanics (2nd edn).</italic> (eds Landau, L. &amp; Lifshitz, E.) 30–31 (Pergamon, 1987).</mixed-citation>
+              </ref>
+              <ref id="CR61">
+                <label>61.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Manica</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Klaseboer</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>DY</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The hydrodynamics of bubble rise and impact with solid surfaces</article-title>
+                  <source>Adv. Colloid . Interf. Sci.</source>
+                  <year>2016</year>
+                  <volume>235</volume>
+                  <fpage>214</fpage>
+                  <lpage>232</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cis.2016.06.010</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR62">
+                <label>62.</label>
+                <mixed-citation publication-type="other">Stokes, G. <italic>Mathematical and Physical Papers</italic> (Cambridge University Press, 1880).</mixed-citation>
+              </ref>
+              <ref id="CR63">
+                <label>63.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nicolás</surname>
+                      <given-names>JA</given-names>
+                    </name>
+                    <name>
+                      <surname>Vega</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A note on the effect of surface contamination in water wave damping</article-title>
+                  <source>J. Fluid Mech.</source>
+                  <year>2000</year>
+                  <volume>410</volume>
+                  <fpage>367</fpage>
+                  <lpage>373</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S002211209900823X</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR64">
+                <label>64.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Herrada</surname>
+                      <given-names>MA</given-names>
+                    </name>
+                    <name>
+                      <surname>Montanero</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                    <name>
+                      <surname>Vega</surname>
+                      <given-names>JM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of surface shear viscosity on the damping of oscillations in millimetric liquid bridges</article-title>
+                  <source>Phys. Fluids</source>
+                  <year>2011</year>
+                  <volume>23</volume>
+                  <fpage>082102</fpage>
+                  <pub-id pub-id-type="doi">10.1063/1.3623425</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR65">
+                <label>65.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kelsall</surname>
+                      <given-names>GH</given-names>
+                    </name>
+                    <name>
+                      <surname>Tang</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Smith</surname>
+                      <given-names>AL</given-names>
+                    </name>
+                    <name>
+                      <surname>Yurdakul</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Measurement of rise and electrophoretic velocities of gas bubbles</article-title>
+                  <source>J. Chem. Soc. Faraday Trans.</source>
+                  <year>1996</year>
+                  <volume>92</volume>
+                  <fpage>3879</fpage>
+                  <lpage>3885</lpage>
+                  <pub-id pub-id-type="doi">10.1039/ft9969203879</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR66">
+                <label>66.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hadamard</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Mouvement permanent lent d’une sphère liquide et visqueuse dans un liquide visqueux</article-title>
+                  <source>C. R. Acad. Sci.</source>
+                  <year>1911</year>
+                  <volume>152</volume>
+                  <fpage>1735</fpage>
+                  <lpage>1752</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR67">
+                <label>67.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hadamard</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>On the translatory motion of a fluid sphere in a viscous medium</article-title>
+                  <source>Bull. Acad. Sci. Cracow</source>
+                  <year>1911</year>
+                  <volume>A</volume>
+                  <fpage>40</fpage>
+                </element-citation>
+              </ref>
+              <ref id="CR68">
+                <label>68.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Parkinson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Sedev</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Fornasiero</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Ralston</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The terminal rise velocity of 10-100 microm diameter bubbles in water</article-title>
+                  <source>J Colloid Interf.Sci</source>
+                  <year>2008</year>
+                  <volume>322</volume>
+                  <fpage>168</fpage>
+                  <lpage>172</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.jcis.2008.02.072</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR69">
+                <label>69.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sadhal</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Johnson</surname>
+                      <given-names>RE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stokes flow past bubbles and drops partially coated with thin films. part 1. stagnant cap of surfactant film - exact solution</article-title>
+                  <source>J. Fluid Mech.</source>
+                  <year>1983</year>
+                  <volume>126</volume>
+                  <fpage>237</fpage>
+                  <lpage>250</lpage>
+                  <pub-id pub-id-type="doi">10.1017/S0022112083000130</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR70">
+                <label>70.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kure</surname>
+                      <given-names>IK</given-names>
+                    </name>
+                    <name>
+                      <surname>Jakobsen</surname>
+                      <given-names>HA</given-names>
+                    </name>
+                    <name>
+                      <surname>La Forgia</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Solsvik</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Experimental investigation of single bubbles rising in stagnant liquid: Statistical analysis and image processing</article-title>
+                  <source>Phys.Fluids</source>
+                  <year>2021</year>
+                  <volume>33</volume>
+                  <fpage>103611</fpage>
+                  <pub-id pub-id-type="doi">10.1063/5.0061581</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR71">
+                <label>71.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Brenner</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The slow motion of a sphere through a viscous fluid towards a plane surface</article-title>
+                  <source>Chem. Eng. Sci.</source>
+                  <year>1961</year>
+                  <volume>16</volume>
+                  <fpage>242</fpage>
+                  <lpage>251</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0009-2509(61)80035-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR72">
+                <label>72.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Manica</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Parkinson</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Ralston</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>DYC</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interpreting the dynamic interaction between a very small rising bubble and a hydrophilic titania surface</article-title>
+                  <source>J. Phys. Chem. C</source>
+                  <year>2010</year>
+                  <volume>114</volume>
+                  <fpage>1942</fpage>
+                  <lpage>1946</lpage>
+                  <pub-id pub-id-type="doi">10.1021/jp911104b</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR73">
+                <label>73.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hendrix</surname>
+                      <given-names>MHW</given-names>
+                    </name>
+                    <name>
+                      <surname>Manica</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>Klaseboer</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Chan</surname>
+                      <given-names>DYC</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohl</surname>
+                      <given-names>C-D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Spatiotemporal evolution of thin liquid films during impact of water bubbles on glass on a micrometer to nanometer scale</article-title>
+                  <source>Phys. Rev. Lett.</source>
+                  <year>2012</year>
+                  <volume>108</volume>
+                  <fpage>247803</fpage>
+                  <pub-id pub-id-type="doi">10.1103/PhysRevLett.108.247803</pub-id>
+                  <?supplied-pmid 23004333?>
+                  <pub-id pub-id-type="pmid">23004333</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR74">
+                <label>74.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Derjaguin</surname>
+                      <given-names>B</given-names>
+                    </name>
+                    <name>
+                      <surname>Kussakov</surname>
+                      <given-names>M</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>An experimental investigation of polymolecular solvate (adsorbed) films as applied to the development of a mathematical theory of the stability of colloids</article-title>
+                  <source>Prog. Surface Sci.</source>
+                  <year>1992</year>
+                  <volume>40</volume>
+                  <fpage>26</fpage>
+                  <lpage>45</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0079-6816(92)90031-C</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR75">
+                <label>75.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Romero-Calvo</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Cano Gómez</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Castro-Hernández</surname>
+                      <given-names>E</given-names>
+                    </name>
+                    <name>
+                      <surname>Maggi</surname>
+                      <given-names>F</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Free and forced oscillations of magnetic liquids under low-gravity conditions</article-title>
+                  <source>J. Appl. Mech.</source>
+                  <year>2019</year>
+                  <volume>87</volume>
+                  <fpage>021</fpage>
+                  <lpage>010</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR76">
+                <label>76.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Numerical investigation of magnetic multiphase flows by the fractional-step-based multiphase lattice boltzmann method</article-title>
+                  <source>Phys. Fluids</source>
+                  <year>2020</year>
+                  <volume>32</volume>
+                  <fpage>083309</fpage>
+                  <pub-id pub-id-type="doi">10.1063/5.0020903</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR77">
+                <label>77.</label>
+                <mixed-citation publication-type="other">Herrada, M. Global stability analysis of rising isothermal air bubbles in water. <italic>J Fluid Mech.</italic><ext-link ext-link-type="uri" xlink:href="http://www.researchgate.net/publication/358957518_Global_stability_analysis_of_rising_isothermal_air_bubbles_in_water">www.researchgate.net/publication/358957518_Global_stability_analysis_of_rising_isothermal_air_bubbles_in_water</ext-link> (2022).</mixed-citation>
+              </ref>
+              <ref id="CR78">
+                <label>78.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Marrucci</surname>
+                      <given-names>G</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A theory of coalescence</article-title>
+                  <source>Chem. Eng. Sci.</source>
+                  <year>1969</year>
+                  <volume>24</volume>
+                  <fpage>975</fpage>
+                  <lpage>985</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0009-2509(69)87006-5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR79">
+                <label>79.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saavedra Moreno</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Bournival</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Ata</surname>
+                      <given-names>S</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Analysis of bubble coalescence dynamics and postrupture oscillation of capillary-held bubbles in water</article-title>
+                  <source>Ind. Eng. Chem. Res.</source>
+                  <year>2017</year>
+                  <volume>56</volume>
+                  <fpage>14781</fpage>
+                  <lpage>14792</lpage>
+                  <pub-id pub-id-type="doi">10.1021/acs.iecr.7b03197</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR80">
+                <label>80.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Lessard</surname>
+                      <given-names>RR</given-names>
+                    </name>
+                    <name>
+                      <surname>Zieminski</surname>
+                      <given-names>SA</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Bubble coalescence and gas transfer in aqueous electrolytic solutions</article-title>
+                  <source>Ind. Eng. Chem. Fundamental.</source>
+                  <year>1971</year>
+                  <volume>10</volume>
+                  <fpage>260</fpage>
+                  <lpage>269</lpage>
+                  <pub-id pub-id-type="doi">10.1021/i160038a012</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR81">
+                <label>81.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Craig</surname>
+                      <given-names>VSJ</given-names>
+                    </name>
+                    <name>
+                      <surname>Ninham</surname>
+                      <given-names>BW</given-names>
+                    </name>
+                    <name>
+                      <surname>Pashley</surname>
+                      <given-names>RM</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The effect of electrolytes on bubble coalescence in water</article-title>
+                  <source>J. Phys. Chem.</source>
+                  <year>1993</year>
+                  <volume>97</volume>
+                  <fpage>10192</fpage>
+                  <lpage>10197</lpage>
+                  <pub-id pub-id-type="doi">10.1021/j100141a047</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR82">
+                <label>82.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yaminsky</surname>
+                      <given-names>VV</given-names>
+                    </name>
+                    <name>
+                      <surname>Ohnishi</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Vogler</surname>
+                      <given-names>EA</given-names>
+                    </name>
+                    <name>
+                      <surname>Horn</surname>
+                      <given-names>RG</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Stability of aqueous films between bubbles. part 1. the effect of speed on bubble coalescence in purified water and simple electrolyte solutions</article-title>
+                  <source>Langmuir</source>
+                  <year>2010</year>
+                  <volume>26</volume>
+                  <fpage>8061</fpage>
+                  <lpage>8074</lpage>
+                  <pub-id pub-id-type="doi">10.1021/la904481d</pub-id>
+                  <?supplied-pmid 20146434?>
+                  <pub-id pub-id-type="pmid">20146434</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR83">
+                <label>83.</label>
+                <mixed-citation publication-type="other">Clifford, J. E., McCallum, J., Gates, J. T. &amp; Faust, C. L. Research on the electrolysis of water under weightless conditions. Tech. Rep. AMRL-TDR-62-44, NASA, Taylor &amp; Francis (1962).</mixed-citation>
+              </ref>
+              <ref id="CR84">
+                <label>84.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matsushima</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuribayashi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Water electrolysis under microgravity: Part ii. description of gas bubble evolution phenomena</article-title>
+                  <source>Electrochim. Acta</source>
+                  <year>2006</year>
+                  <volume>51</volume>
+                  <fpage>4190</fpage>
+                  <lpage>4198</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.electacta.2005.11.046</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR85">
+                <label>85.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kiuchi</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Matsushima</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuribayashi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Ohmic resistance measurement of bubble froth layer in water electrolysis under microgravity</article-title>
+                  <source>J. Electrochem. Soc.</source>
+                  <year>2006</year>
+                  <volume>153</volume>
+                  <fpage>138</fpage>
+                  <lpage>143</lpage>
+                  <pub-id pub-id-type="doi">10.1149/1.2207008</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR86">
+                <label>86.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sakuma</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Matsushima</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Nucleation and growth of electrolytic gas bubbles under microgravity</article-title>
+                  <source>Int. J. Hydrogen Energy</source>
+                  <year>2014</year>
+                  <volume>39</volume>
+                  <fpage>7638</fpage>
+                  <lpage>7645</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ijhydene.2014.03.059</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR87">
+                <label>87.</label>
+                <mixed-citation publication-type="other">Subramanian, R. S. &amp; Balasubramaniam, R. <italic>The Motion of Bubbles and Drops in Reduced Gravity</italic> (Cambridge University Press, 2001).</mixed-citation>
+              </ref>
+              <ref id="CR88">
+                <label>88.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Matsushima</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Kiuchi</surname>
+                      <given-names>D</given-names>
+                    </name>
+                    <name>
+                      <surname>Fukunaka</surname>
+                      <given-names>Y</given-names>
+                    </name>
+                    <name>
+                      <surname>Kuribayashi</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Single bubble growth during water electrolysis under microgravity</article-title>
+                  <source>Electrochem. Commun.</source>
+                  <year>2009</year>
+                  <volume>11</volume>
+                  <fpage>1721</fpage>
+                  <lpage>1723</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.elecom.2009.07.009</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR89">
+                <label>89.</label>
+                <mixed-citation publication-type="other">Sides, P. J. &amp; Tobias, C. W. A close view of gas evolution from the back side of a transparent electrode. <italic>J. Electrochem. Soc</italic>. <bold>132</bold>, 583 (1985).</mixed-citation>
+              </ref>
+              <ref id="CR90">
+                <label>90.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Bashkatov</surname>
+                      <given-names>A</given-names>
+                    </name>
+                    <name>
+                      <surname>Hossain</surname>
+                      <given-names>SS</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Mutschke</surname>
+                      <given-names>G</given-names>
+                    </name>
+                    <name>
+                      <surname>Eckert</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Oscillating hydrogen bubbles at pt microelectrodes</article-title>
+                  <source>Phys. Rev. Lett.</source>
+                  <year>2019</year>
+                  <volume>123</volume>
+                  <fpage>214503</fpage>
+                  <pub-id pub-id-type="doi">10.1103/PhysRevLett.123.214503</pub-id>
+                  <?supplied-pmid 31809136?>
+                  <pub-id pub-id-type="pmid">31809136</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR91">
+                <label>91.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Akay</surname>
+                      <given-names>O</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Releasing the bubbles: nanotopographical electrocatalyst design for efficient photoelectrochemical hydrogen production in microgravity environment</article-title>
+                  <source>Adv. Sci.</source>
+                  <year>2022</year>
+                  <volume>9</volume>
+                  <fpage>2105380</fpage>
+                  <pub-id pub-id-type="doi">10.1002/advs.202105380</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR92">
+                <label>92.</label>
+                <mixed-citation publication-type="other">ZARM. <italic>ZARM Drop Tower User Manual</italic> (ZARM FABmbH). (Drop Tower Operation and Service Company, 2011).</mixed-citation>
+              </ref>
+              <ref id="CR93">
+                <label>93.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Qi</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Christopher</surname>
+                      <given-names>GF</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of non-ionic surfactant on the formation of pellicles by pseudomonas aeruginosa</article-title>
+                  <source>Rheologica Acta</source>
+                  <year>2022</year>
+                  <volume>61</volume>
+                  <fpage>59</fpage>
+                  <lpage>68</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00397-021-01313-0</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR94">
+                <label>94.</label>
+                <mixed-citation publication-type="other">Lide, D. R. <italic>CRC Handbook of Chemistry and Physics: 84th Edn</italic> (CRC Press, 2003).</mixed-citation>
+              </ref>
+              <ref id="CR95">
+                <label>95.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>X</given-names>
+                    </name>
+                    <name>
+                      <surname>Tschulik</surname>
+                      <given-names>K</given-names>
+                    </name>
+                    <name>
+                      <surname>Uhlemann</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Odenbach</surname>
+                      <given-names>S</given-names>
+                    </name>
+                    <name>
+                      <surname>Eckert</surname>
+                      <given-names>K</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Magnetic separation of paramagnetic ions from initially homogeneous solutions</article-title>
+                  <source>IEEE Trans. Magnet.</source>
+                  <year>2014</year>
+                  <volume>50</volume>
+                  <fpage>1</fpage>
+                  <lpage>4</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR96">
+                <label>96.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sahasrabudhe</surname>
+                      <given-names>SN</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodriguez-Martinez</surname>
+                      <given-names>V</given-names>
+                    </name>
+                    <name>
+                      <surname>O’Meara</surname>
+                      <given-names>M</given-names>
+                    </name>
+                    <name>
+                      <surname>Farkas</surname>
+                      <given-names>BE</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Density, viscosity, and surface tension of five vegetable oils at elevated temperatures: Measurement and modeling</article-title>
+                  <source>Int. J. Food Prop.</source>
+                  <year>2017</year>
+                  <volume>20</volume>
+                  <fpage>1965</fpage>
+                  <lpage>1981</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR97">
+                <label>97.</label>
+                <mixed-citation publication-type="other">Strokina, N. et al. in <italic>Computer Vision and Graphics</italic> (eds Chmielewski, L. J., Kozera, R., Shin, B.-S. &amp; Wojciechowski, K.) 610–617 (Springer International Publishing, Cham, 2014).</mixed-citation>
+              </ref>
+              <ref id="CR98">
+                <label>98.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ilonen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <etal/>
+                  </person-group>
+                  <article-title>Comparison of bubble detectors and size distribution estimators</article-title>
+                  <source>Pattern Recognit. Lett.</source>
+                  <year>2018</year>
+                  <volume>101</volume>
+                  <fpage>60</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.patrec.2017.11.014</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR99">
+                <label>99.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Mukhopadhyay</surname>
+                      <given-names>P</given-names>
+                    </name>
+                    <name>
+                      <surname>Chaudhuri</surname>
+                      <given-names>BB</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A survey of hough transform</article-title>
+                  <source>Pattern Recognit.</source>
+                  <year>2015</year>
+                  <volume>48</volume>
+                  <fpage>993</fpage>
+                  <lpage>1010</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.patcog.2014.08.027</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR100">
+                <label>100.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Strokina</surname>
+                      <given-names>N</given-names>
+                    </name>
+                    <name>
+                      <surname>Matas</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Eerola</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Lensu</surname>
+                      <given-names>L</given-names>
+                    </name>
+                    <name>
+                      <surname>Kälviäinen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Detection of bubbles as concentric circular arrangements</article-title>
+                  <source>Mach. Vis. Appl.</source>
+                  <year>2016</year>
+                  <volume>27</volume>
+                  <fpage>387</fpage>
+                  <lpage>396</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s00138-016-0749-7</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR101">
+                <label>101.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Otsu</surname>
+                      <given-names>N</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>A threshold selection method from gray-level histograms</article-title>
+                  <source>IEEE Trans. Syst. Man Cybernet.</source>
+                  <year>1979</year>
+                  <volume>9</volume>
+                  <fpage>62</fpage>
+                  <lpage>66</lpage>
+                  <pub-id pub-id-type="doi">10.1109/TSMC.1979.4310076</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR102">
+                <label>102.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van den Boomgaard</surname>
+                      <given-names>R</given-names>
+                    </name>
+                    <name>
+                      <surname>van Balen</surname>
+                      <given-names>R</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Methods for fast morphological image transforms using bitmapped binary images</article-title>
+                  <source>CVGIP: Graph. Model. Image Process.</source>
+                  <year>1992</year>
+                  <volume>54</volume>
+                  <fpage>252</fpage>
+                  <lpage>258</lpage>
+                </element-citation>
+              </ref>
+              <ref id="CR103">
+                <label>103.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Yuen</surname>
+                      <given-names>H</given-names>
+                    </name>
+                    <name>
+                      <surname>Princen</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Illingworth</surname>
+                      <given-names>J</given-names>
+                    </name>
+                    <name>
+                      <surname>Kittler</surname>
+                      <given-names>J</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Comparative study of hough transform methods for circle finding</article-title>
+                  <source>Image Vision Comput.</source>
+                  <year>1990</year>
+                  <volume>8</volume>
+                  <fpage>71</fpage>
+                  <lpage>77</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0262-8856(90)90059-E</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="CR104">
+                <label>104.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Atherton</surname>
+                      <given-names>T</given-names>
+                    </name>
+                    <name>
+                      <surname>Kerbyson</surname>
+                      <given-names>D</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Size invariant circle detection</article-title>
+                  <source>Image Vision Comput.</source>
+                  <year>1999</year>
+                  <volume>17</volume>
+                  <fpage>795</fpage>
+                  <lpage>803</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S0262-8856(98)00160-7</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

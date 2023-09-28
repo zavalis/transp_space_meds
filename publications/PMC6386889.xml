@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-23T17:57:48Z</responseDate>
+  <request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6386889" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:pubmedcentral.nih.gov:6386889</identifier>
+        <datestamp>2019-02-27</datestamp>
+        <setSpec>ijms</setSpec>
+        <setSpec>pmc-open</setSpec>
+      </header>
+      <metadata>
+        <article xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="research-article">
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id>
+              <journal-id journal-id-type="publisher-id">ijms</journal-id>
+              <journal-title-group>
+                <journal-title>International Journal of Molecular Sciences</journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">1422-0067</issn>
+              <publisher>
+                <publisher-name>MDPI</publisher-name>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="accession">PMC6386889</article-id>
+              <article-id pub-id-type="pmcid">PMC6386889</article-id>
+              <article-id pub-id-type="pmc-uid">6386889</article-id>
+              <article-id pub-id-type="pmid">30743987</article-id>
+              <article-id pub-id-type="doi">10.3390/ijms20030720</article-id>
+              <article-id pub-id-type="publisher-id">ijms-20-00720</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Article</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title>Transcriptomic Analysis of Planarians under Simulated Microgravity or 8 g Demonstrates That Alteration of Gravity Induces Genomic and Cellular Alterations That Could Facilitate Tumoral Transformation</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1895-9530</contrib-id>
+                  <name>
+                    <surname>de Sousa</surname>
+                    <given-names>Nídia</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-20-00720">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5032-7608</contrib-id>
+                  <name>
+                    <surname>Rodriguez-Esteban</surname>
+                    <given-names>Gustavo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af2-ijms-20-00720">2</xref>
+                  <xref ref-type="aff" rid="af3-ijms-20-00720">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Colagè</surname>
+                    <given-names>Ivan</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af4-ijms-20-00720">4</xref>
+                  <xref ref-type="aff" rid="af5-ijms-20-00720">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>D’Ambrosio</surname>
+                    <given-names>Paolo</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af4-ijms-20-00720">4</xref>
+                  <xref ref-type="aff" rid="af6-ijms-20-00720">6</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9051-6016</contrib-id>
+                  <name>
+                    <surname>van Loon</surname>
+                    <given-names>Jack J. W. A.</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af7-ijms-20-00720">7</xref>
+                  <xref ref-type="aff" rid="af8-ijms-20-00720">8</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Saló</surname>
+                    <given-names>Emili</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-20-00720">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Adell</surname>
+                    <given-names>Teresa</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af1-ijms-20-00720">1</xref>
+                  <xref rid="c1-ijms-20-00720" ref-type="corresp">*</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                  <name>
+                    <surname>Auletta</surname>
+                    <given-names>Gennaro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="af6-ijms-20-00720">6</xref>
+                  <xref ref-type="aff" rid="af9-ijms-20-00720">9</xref>
+                  <xref rid="c1-ijms-20-00720" ref-type="corresp">*</xref>
+                </contrib>
+              </contrib-group>
+              <aff id="af1-ijms-20-00720"><label>1</label>Department of Genetics, Microbiology and Statistics, and Institute of Biomedicine, University of Barcelona, Catalonia, 08028 Barcelona, Spain; <email>nidia.desousa@gmail.com</email> (N.d.S.); <email>esalo@ub.edu</email> (E.S.)</aff>
+              <aff id="af2-ijms-20-00720"><label>2</label>CNAG-CRG, Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), 08028 Barcelona, Spain; <email>gustavo.rodriguez@cnag.crg.eu</email></aff>
+              <aff id="af3-ijms-20-00720"><label>3</label>Universitat Pompeu Fabra (UPF), 08002 Barcelona, Spain</aff>
+              <aff id="af4-ijms-20-00720"><label>4</label>Pontifical University Antonianum, via Merulana 124, 00185 Rome, Italy; <email>i.colage@antonianum.eu</email> (I.C.); <email>paolodam.prof@gmail.com</email> (P.D.)</aff>
+              <aff id="af5-ijms-20-00720"><label>5</label>Pontifical University of the Holy Cross, DISF Centre, Via dei Pianellari 41, 00186 Rome, Italy</aff>
+              <aff id="af6-ijms-20-00720"><label>6</label>University of Cassino, Via Zamosch 43, 03043 Cassino, Italy</aff>
+              <aff id="af7-ijms-20-00720"><label>7</label>Dutch Experiment Support Center (DESC), Department of Oral and Maxillofacial Surgery/Oral Pathology, Amsterdam UMC location VU University Medical Center &amp; Academic Centre for Dentistry Amsterdam (ACTA), 1081 LA Amsterdam, The Netherlands; <email>j.vanloon@vumc.nl</email></aff>
+              <aff id="af8-ijms-20-00720"><label>8</label>European Space Agency-ESA-Technology Center-ESTEC, TEC-MMG-Lab, 2200 AG Noordwijk, The Netherlands</aff>
+              <aff id="af9-ijms-20-00720"><label>9</label>Pontifical Gregorian University, Piazza della Pilotta 4, 00187 Roma, Italy</aff>
+              <author-notes>
+                <corresp id="c1-ijms-20-00720"><label>*</label>Correspondence: <email>tadellc@ub.edu</email> (T.A.); <email>gennaro.auletta@gmail.com</email> (G.A.); Tel.: +34-93403-4795 (T.A.); +39-338-6922093 (G.A.)</corresp>
+              </author-notes>
+              <pub-date pub-type="epub">
+                <day>08</day>
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <pub-date pub-type="collection">
+                <month>2</month>
+                <year>2019</year>
+              </pub-date>
+              <volume>20</volume>
+              <issue>3</issue>
+              <elocation-id>720</elocation-id>
+              <history>
+                <date date-type="received">
+                  <day>27</day>
+                  <month>12</month>
+                  <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                  <day>31</day>
+                  <month>1</month>
+                  <year>2019</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© 2019 by the authors.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license license-type="open-access">
+                  <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+                </license>
+              </permissions>
+              <abstract>
+                <p>The possibility of humans to live outside of Earth on another planet has attracted the attention of numerous scientists around the world. One of the greatest difficulties is that humans cannot live in an extra-Earth environment without proper equipment. In addition, the consequences of chronic gravity alterations in human body are not known. Here, we used planarians as a model system to test how gravity fluctuations could affect complex organisms. Planarians are an ideal system, since they can regenerate any missing part and they are continuously renewing their tissues. We performed a transcriptomic analysis of animals submitted to simulated microgravity (Random Positioning Machine, RPM) (s-µg) and hypergravity (8 g), and we observed that the transcriptional levels of several genes are affected. Surprisingly, we found the major differences in the s-µg group. The results obtained in the transcriptomic analysis were validated, demonstrating that our transcriptomic data is reliable. We also found that, in a sensitive environment, as under Hippo signaling silencing, gravity fluctuations potentiate the increase in cell proliferation. Our data revealed that changes in gravity severely affect genetic transcription and that these alterations potentiate molecular disorders that could promote the development of multiple diseases such as cancer.</p>
+              </abstract>
+              <kwd-group>
+                <kwd>development</kwd>
+                <kwd>hypergravity</kwd>
+                <kwd>human health</kwd>
+                <kwd>microgravity</kwd>
+                <kwd>planarian</kwd>
+                <kwd>regeneration</kwd>
+                <kwd>space exploration</kwd>
+                <kwd>transcriptomics</kwd>
+                <kwd>Random Positioning Machine (RPM), Large Diameter Centrifuge (LDC)</kwd>
+              </kwd-group>
+            </article-meta>
+          </front>
+          <body>
+            <sec sec-type="intro" id="sec1-ijms-20-00720">
+              <title>1. Introduction</title>
+              <p>Planarians, freshwater flatworms, are bilaterally symmetric metazoans of the phylum <italic>Platyhelminthes</italic>. They possess well-defined antero-posterior and dorso-ventral axes, with an anterior cephalic region containing the brain and a pair of eyespots, a central region with the pharynx and the mouth opening, and a posterior tail region [<xref rid="B1-ijms-20-00720" ref-type="bibr">1</xref>,<xref rid="B2-ijms-20-00720" ref-type="bibr">2</xref>]. Planarians have the ability to perfectly regenerate complete new animals, from almost any fragment of their body, just in a few days. This amazing ability, that has caught scientist’s interest since long time ago, is due to the presence of a unique population of adult totipotent stem cells, known as neoblasts [<xref rid="B3-ijms-20-00720" ref-type="bibr">3</xref>,<xref rid="B4-ijms-20-00720" ref-type="bibr">4</xref>]. Planarians possess complex organs as central nervous system, which conserves all neural cell types and neuropeptides found in vertebrates [<xref rid="B5-ijms-20-00720" ref-type="bibr">5</xref>]. These features make planarians the perfect model organism to perform molecular analysis to deeply understand animal regeneration and stem cell biology.</p>
+              <p>The possibility of space travel is growing. In several decades, inter-planetary trips will become common. However, the effects of gravity fluctuations on human health are only partially understood. Environmental factors continuously affect gene expression determining the phenotypical configuration and behavior of organisms, while gravity is the most constant environmental parameter influencing life evolution on Earth [<xref rid="B6-ijms-20-00720" ref-type="bibr">6</xref>]. Modifications of gravity conditions can significantly affect phenotypic formation and differentiation [<xref rid="B7-ijms-20-00720" ref-type="bibr">7</xref>,<xref rid="B8-ijms-20-00720" ref-type="bibr">8</xref>]. At the organism level, it has been observed that exposure to microgravity can have consequences on key environment-sensitive processes like reproduction, development, and aging [<xref rid="B9-ijms-20-00720" ref-type="bibr">9</xref>]. At the cellular level, it has been shown that microgravity alters the structure of cells, as well as their apoptotic and mitotic responses [<xref rid="B6-ijms-20-00720" ref-type="bibr">6</xref>,<xref rid="B7-ijms-20-00720" ref-type="bibr">7</xref>,<xref rid="B8-ijms-20-00720" ref-type="bibr">8</xref>]. Hypergravity also has a relevant impact in cells behavior and gene expression [<xref rid="B10-ijms-20-00720" ref-type="bibr">10</xref>,<xref rid="B11-ijms-20-00720" ref-type="bibr">11</xref>,<xref rid="B12-ijms-20-00720" ref-type="bibr">12</xref>,<xref rid="B13-ijms-20-00720" ref-type="bibr">13</xref>]. However, specific modifications in gene expression, gene products, and related structural-functional phenotypic diversification due to sustained changes in gravity conditions remain poorly understood. To shed light into the consequences of more chronic gravity fluctuations in a complete organism, we used planarians as a model system. The main goal of our research was to analyze changes in gene expression on the basis of transcriptomic analysis in regenerating planarians, in simulated altered gravity by comparing samples exposed to simulated microgravity (s-µg) and hypergravity (8 g). Our results demonstrate that s-µg and hypergravity significantly modify gene expression in planarians, and that this effect could have an impact on cell behavior and also in synergy with sensitized backgrounds, since <italic>hippo (RNAi)</italic> animals maintained in s-µg or 8 g show a higher increase in cell proliferation. These results showed that prolonged exposure to an extra-terrestrial environment, like the s-µg environment during human space missions, could have severe consequences at genetic level, which could impact in promoting diseases such as cancer. </p>
+            </sec>
+            <sec sec-type="results" id="sec2-ijms-20-00720">
+              <title>2. Results</title>
+              <sec id="sec2dot1-ijms-20-00720">
+                <title>2.1. Simulated Microgravity and Hypergravity Change Planarian Gene Expression</title>
+                <p>Planarians were loaded in the Random Positioning Machine (RPM) to simulate µg, or in the Large Diameter Centrifuge (LDC) to apply 8 g gravity (<xref ref-type="fig" rid="ijms-20-00720-f001">Figure 1</xref>). The day after, planarians were cut at pre- and post-pharyngeal level. The transcriptome of those animals was analyzed 5 and 12 days after the amputation (i.e., after 6 and 13 days of s-µg or 8 g exposure, respectively), and compared to their corresponding controls maintained at normal gravity (1 g). The results of the differential expression analysis are shown in <xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S1</xref>. Sample-to-sample distances were calculated using Pearson correlation (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>A), showing a better correspondence between those of the same regeneration stage—at 5 or 12 days of regeneration (dR). In agreement with that, principal component analysis (PCA) grouped the samples by time of regeneration in two main clusters (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>B). In addition, within each group, most of the samples corresponding to the same gravity conditions were also clustered together. </p>
+                <p>The particular transcripts found up- or down- regulated in each condition are shown in <xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>. Our results demonstrate that after 5 dR (six days of s-µg or 8 g exposure), there are minor differences between samples (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>C). Conversely, at 12 dR (13 days of s-µg or 8 g exposure), we found several genes deferentially expressed in exposed animals with respect to their corresponding controls (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>C). Interestingly, the number of differentially expressed genes was much higher in animals regenerating in s-µg conditions than in animals regenerating at 8 g (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>C).</p>
+                <p>Genes related with extracellular matrix (morphogenesis, cell differentiation), actin cytoskeleton (cell migration, proliferation), transposable elements and genes involved in stress response, like chaperones and heat shock proteins, were found down-regulated in s-µg conditions (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>). At 8 g, there are fewer genes up- or down-regulated compared with s-µg conditions, and, interestingly, many of them cannot be attributed to any known class (40).2% at 8 g versus 25.9% at s-µg) (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>). Down-regulated genes at 8 g include genes related to microtubules, cell communication and cell cycle. Finally, Dynein, which is a protein required for axonal transport and is involved in neurodegenerative diseases like Alzheimer [<xref rid="B14-ijms-20-00720" ref-type="bibr">14</xref>], is found to be significantly down-regulated both in s-µg and at 8 g. </p>
+                <p>The analysis of gene ontology (GO) functions associated to transcripts significantly up- and down-regulated at each condition (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>), showed that genes related with biogenesis, namely ribosomal activity and transcription/translation of proteins and metabolic processes—such as mitochondrial proteins—were affected both under s-µg and 8 g conditions (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>D). Since we found the major differences in gene transcription at 12 dR under s-µg conditions, we performed GO enrichment analysis on this data (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>E, <xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Figure S1, Table S3 and Table S4</xref>). When focusing on the biological process, the main classes of up-regulated genes in these conditions include genes related with metabolic and biosynthetic pathways. Specific genes found in the transcriptome falling in these categories are ribosomal genes and genes with a role in translation (<italic>sui1</italic> factor) (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S3</xref>). This result is interesting, since dysregulated messenger RNA translation and specifically ribosome biogenesis is linked to the development and progression of hematological and metabolic diseases and cancer [<xref rid="B15-ijms-20-00720" ref-type="bibr">15</xref>]. Other genes de-regulated at 12 dR and s-µg conditions are also involved in tumoral transformation. H<sup>+</sup>-ATP synthase is a conserved hub in mitochondria-to-nucleus signaling controlling cell fate and its deregulation contributes to cancer origin and progression [<xref rid="B16-ijms-20-00720" ref-type="bibr">16</xref>]. The DNA repair protein rad50 is already down-regulated at 5 dR in s-µg conditions (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>). DNA repair is an essential step in avoiding genetic instability and cancer development [<xref rid="B17-ijms-20-00720" ref-type="bibr">17</xref>].</p>
+                <p>Importantly, despite the evident deregulation of gene expression, planarians trunks exposed to s-µg or 8 g regenerated an apparently perfect head (<xref ref-type="fig" rid="ijms-20-00720-f003">Figure 3</xref>).</p>
+              </sec>
+              <sec id="sec2dot2-ijms-20-00720">
+                <title>2.2. Validation of Candidate Genes Found in the Differential Expression Analysis</title>
+                <p>To validate the results of the transcriptomic analysis, we performed a second experimental design. To increase the differences between conditions (s-µg and 8 g), head fragments were used instead of trunk fragments, since they are smaller and must regenerate the rest of the body, making the regeneration process more challenging. Head fragments were loaded in the RPM to simulate microgravity, in the same conditions as in the previous experiment (<xref ref-type="fig" rid="ijms-20-00720-f004">Figure 4</xref>A). After six days, regenerated animals were fixed and processed for in situ hybridization, in order to determine the levels of expression of selected candidate genes from the transcriptome. Five candidate genes which were down-regulated with respect to 1 g, were selected from the 12 dR group submitted to s-µg (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>C and <xref ref-type="fig" rid="ijms-20-00720-f004">Figure 4</xref>B). The first gene was <italic>collagen-α-1,</italic> since it is an essential protein of the extracellular matrix [<xref rid="B18-ijms-20-00720" ref-type="bibr">18</xref>], and the GO enrichment analysis indicated that collagen trimer was down-regulated at s-µg (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Figure S1</xref>). We also selected <italic>ADAMTS-like-1</italic>, which codifies for a secreted protein involved in cell-cell signaling [<xref rid="B19-ijms-20-00720" ref-type="bibr">19</xref>], <italic>antigen Ki-67</italic>, required for cell proliferation [<xref rid="B20-ijms-20-00720" ref-type="bibr">20</xref>], and <italic>piwi-1</italic> and -<italic>2</italic>, two RNA binding proteins essential for the maintenance and function of stem cells [<xref rid="B21-ijms-20-00720" ref-type="bibr">21</xref>]. The results show that three of them, <italic>collagen</italic> and <italic>piwi-1</italic> and -<italic>2</italic> are down-regulated in these animals after six days of exposure (<xref ref-type="fig" rid="ijms-20-00720-f004">Figure 4</xref>C), in agreement with the results found in the transcriptomic analysis of the previous experiment (<xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2</xref>). We found that <italic>ADAMTS-like-1</italic> was up-regulated after 6 days of s-µg, in contrast with transcriptomic results, where it is down-regulated (<xref ref-type="fig" rid="ijms-20-00720-f004">Figure 4</xref>C). Several reasons could account for this result. For instance, the fragment analyzed in this experiment is a regenerating head instead of a trunk and different signaling pathways can be activated in the regeneration of different fragments since the structures to restore are different. In addition, the second experiment was performed in 6 dR animals, instead of 12 dR animals, the time-point at which this gene was found down-regulated in the transcriptomic analysis. The antigen <italic>Ki-67</italic> was not detected by in situ hybridization, probably because its low expression levels, since in situ hybridization is not as sensitive as RNA-seq analyses. </p>
+                <p>These results allow us to corroborate the importance of transcriptomic approach to analyze the genetic changes in different conditions and confirm that planarians in s-µg conditions show deregulation of essential genes, such as <italic>collagen</italic>, despite their apparently normal regeneration. Moreover, the finding that <italic>piwi</italic> genes are down-regulated indicates that the population of neoblasts, which are the stem cells underlying planarian regenerative properties, are affected.</p>
+              </sec>
+              <sec id="sec2dot3-ijms-20-00720">
+                <title>2.3. Gravity Changes in Hippo Silenced Planarians Promote Cell Proliferation</title>
+                <p>The transcriptomic data revealed that the expression of metabolic and biosynthesis genes is up-regulated in both s-µg and 8 g conditions (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>, <xref ref-type="app" rid="app1-ijms-20-00720">Supplementary Table S2 and Supplementary Figure S1</xref>). Since metabolic reprogramming has been recognized as one of the 10 cancer hallmarks essential for tumoral progression [<xref rid="B22-ijms-20-00720" ref-type="bibr">22</xref>], these data suggest that gravity fluctuations could facilitate the tumor transformation. To test this hypothesis, we submitted uninjured planarians in which the Hippo pathway had been previously silenced by RNAi to s-µg and 8 g. The Hippo pathway is a well-known signaling pathway that controls the transcription of genes related with cell cycle, cell death and differentiation in response to the physical properties of the cellular environment (cell-cell or cell-matrix contact) [<xref rid="B23-ijms-20-00720" ref-type="bibr">23</xref>,<xref rid="B24-ijms-20-00720" ref-type="bibr">24</xref>]. In several human cancers, the Hippo pathway is found to be down-regulated [<xref rid="B25-ijms-20-00720" ref-type="bibr">25</xref>] and its inhibition promotes overgrowth formation in multiple model organisms [<xref rid="B26-ijms-20-00720" ref-type="bibr">26</xref>], including planarians [<xref rid="B24-ijms-20-00720" ref-type="bibr">24</xref>].</p>
+                <p>In this experiment we analyzed the proliferative rates in <italic>gfp (RNAi)</italic> (control) and <italic>hippo (RNAi)</italic> (<italic>hippo</italic> dsRNA injected) planarians which were maintained in s-µg or 8 g conditions for 10 days (<xref ref-type="fig" rid="ijms-20-00720-f005">Figure 5</xref>A). Their respective experimental controls maintained at 1 g were also analyzed. At the end of the experiment, planarians were fixed and processed for immunohistochemical analysis using anti-PH3, to quantify mitotic activity. The results show an increase in mitotic cells in <italic>hippo (RNAi)</italic> animals maintained at 1 g (<xref ref-type="fig" rid="ijms-20-00720-f005">Figure 5</xref>B), as previously reported [<xref rid="B24-ijms-20-00720" ref-type="bibr">24</xref>]. This increase in mitotic cells in <italic>hippo (RNAi)</italic> animals was observed in both control conditions, in the animals maintained at 1 g in the RPM and in the animals maintained at 1 g in the LDC. Importantly, the quantification of the mitotic activity of <italic>hippo (RNAi)</italic> animals maintained in s-µg, demonstrates that proliferation was increased with respect to the <italic>hippo (RNAi)</italic> animals maintained at 1 g and with respect to the <italic>gfp (RNAi)</italic> animals maintained at s-µg (<xref ref-type="fig" rid="ijms-20-00720-f005">Figure 5</xref>B). Planarians at 8 g show an increase of the mitotic activity compared to their control at 1 g. Importantly, the group exposed to 8 g in which <italic>hippo</italic> was silenced showed even a higher increase in the number of mitotic cells with respect with respect to the <italic>hippo (RNAi)</italic> animals maintained at 1 g and with respect to the <italic>gfp (RNAi)</italic> animals maintained at 8 g (<xref ref-type="fig" rid="ijms-20-00720-f005">Figure 5</xref>B). Therefore, our data demonstrates that gravity fluctuations in a situation of uncontrolled proliferation and growth, like the one produced by <italic>hippo (RNAi)</italic>, significantly intensify these processes. </p>
+              </sec>
+            </sec>
+            <sec sec-type="discussion" id="sec3-ijms-20-00720">
+              <title>3. Discussion</title>
+              <p>The present study demonstrates that changes in gravity produce several genetic alterations in planarians. Although these alterations could have no apparent consequences, e.g., during the regeneration of new tissues in planarians, our data shows that during long exposures or in a sensitized background, they could lead to transcriptional changes, cellular malfunctions (over-proliferation) and progress of some diseases such cancer.</p>
+              <p>Concerning the reported genetic alterations, it is interesting to note that, although after six days of exposure to altered-gravity conditions only a few genes appear deregulated, and after 13 days, the number of deregulated genes drastically increases, supporting the long-term effects of altered gravity. In fact, this could be a reason why planarians regenerate correctly, since during the first days of the process, that are the crucial ones for regenerating new structures, the genetic alterations are minimal. Furthermore, a much higher number of deregulated genes (720 versus 77) appear in s-µg conditions with respect to 8 g, which is eight times more gravity than on Earth. However, the physiological effect seems more important in planarians maintained at 8 g, since in this case we do observe alterations in the number of proliferating cells (<xref ref-type="fig" rid="ijms-20-00720-f005">Figure 5</xref>). It must be mentioned that while in the present study we observe an increase in the proliferative rates in 8 g animals, in a previous study we observed a decrease [<xref rid="B27-ijms-20-00720" ref-type="bibr">27</xref>]. An explanation could be that the samples did not correspond to the same experimental approach, since in the present report we analyzed intact animals and in the previous one regenerating animals were studied.</p>
+              <p>Regarding the specific deregulated genes at s-µg, the down-regulation of cytoskeleton and matrix genes—such as <italic>collagen-α-1</italic> – is observed, a feature reported in several studies from other animal species [<xref rid="B28-ijms-20-00720" ref-type="bibr">28</xref>]. Since the extracellular matrix is essential in maintaining the environment for stem cells, those defects could impact on the proper functioning and renewal of this population [<xref rid="B29-ijms-20-00720" ref-type="bibr">29</xref>]. In agreement with this result, s-µg exposed animals also showed a down-regulation of <italic>piwi</italic> genes, which are essential genes to maintain the stemness, and in planarians are required for proper regeneration and tissue renewal [<xref rid="B21-ijms-20-00720" ref-type="bibr">21</xref>]. Thus, although we observe a correct regenerative process, the genetic changes caused by gravity fluctuations could lead to severe consequences after long term exposure. It is surprising that, in planarians regenerating at 8 g, we do not find significant alteration of cytoskeleton or matrix proteins, since supporting higher mechanical forces requires strengthening the cell cytoskeleton to maintain the shape and function. </p>
+              <p>Importantly, in planarians maintained at s-µg, the number of genes involved in ribosome biogenesis is particularly up-regulated, implying an increase in the number of ribosomes available to the cell, and therefore the cell translational capacity is increased. The deregulation of ribosomes levels and function is itself a mechanism involved in carcinogenesis [<xref rid="B30-ijms-20-00720" ref-type="bibr">30</xref>]. Furthermore, the increase in the ribosomal content is a hallmark of cancer cells, since it allows the maintenance of a higher proliferation rate [<xref rid="B22-ijms-20-00720" ref-type="bibr">22</xref>]. Thus, these results suggest that at s-µg cells could be sensitized to proliferative signals, and eventually predisposed to cancer. For this reason, we analyzed the proliferative levels in planarians maintained at s-µg conditions and in which the Hippo signaling was silenced. The rationale is that since Hippo inhibition promotes tumorogenesis through increasing stemness and proliferation, the exposure of those animals to altered gravity could potentiate the proliferative response. Furthermore, Hippo signaling is a conserved pathway that senses the physical properties of the environment to activate or repress the transcriptions of genes involved in proliferation, cell death or differentiation [<xref rid="B31-ijms-20-00720" ref-type="bibr">31</xref>]. Since the sole inhibition of Hippo leads to over-proliferation, the alteration of gravity and thus of mechanical forces on cells could produce an additional disarrangement on the control of proliferation. Our results showed that in fact proliferation is increased in <italic>hippo (RNAi)</italic> animals submitted to s-µg conditions with respect to the <italic>hippo (RNAi)</italic> animals maintained at 1 g. This data clearly supports the idea that changes in gravity could be an additional factor predisposing the organism to illness. We also observe that <italic>hippo (RNAi)</italic> animals maintained at 8 g show an increase in the proliferation rates with respect to controls. The results show that the genetic alterations caused by gravity changes potentiate the proliferation in sensitive animals, such as in animals with silenced Hippo pathway. Several studies have shown inhibitory effects of microgravity on cancer cells viability and proliferation, which has lead to the proposal that microgravity could be a tool for exploring new anticancer therapies [<xref rid="B32-ijms-20-00720" ref-type="bibr">32</xref>,<xref rid="B33-ijms-20-00720" ref-type="bibr">33</xref>]. However, these studies have been developed in cancer cell lines, which already show multiple genetic defects. Our results indicate that the studies of <italic>in vivo</italic> and healthy systems, as planarians, are required to further understand the complex impact that altered gravity could have on living beings. For instances, it has also been reported that microgravity results in alteration of immune responses, which are essential to fight against cancer cells [<xref rid="B33-ijms-20-00720" ref-type="bibr">33</xref>].</p>
+              <p>Overall, our results indicate that the exposure of plastic animals like planarians to gravity fluctuations produces important genetic modifications that contribute to cellular disarrangements, which are strengthened in a genetically sensitized background. Here, we show that genetic and cellular disarrangements are observed not only in cultured cells, as shown in numerous previous studies, but also in an <italic>in vivo</italic> complete organism context, which may resort to its own organismal compensation mechanisms. In the present study, the exposure of planarians to gravity fluctuations is not so long as the time period that astronauts spend in space. However, our data reinforce the necessity of future research investment in studying the genetic deregulations that humans could suffer during space missions, since these alterations could not only cause malfunctions on their own but could synergize or sensitize pre-existing alterations. Finally, it must be stressed that, since our research was carried out in simulated microgravity via the RPM, the effects reported here should be confirmed under real microgravity conditions.</p>
+            </sec>
+            <sec id="sec4-ijms-20-00720">
+              <title>4. Materials and Methods</title>
+              <sec id="sec4dot1-ijms-20-00720">
+                <title>4.1. Planarian Culture</title>
+                <p>Asexual planarians from a clonal strain of <italic>Schmidtea mediterranea</italic> BCN-10 were maintained at 20 °C in planarian artificial medium (PAM) water, as previously described [<xref rid="B34-ijms-20-00720" ref-type="bibr">34</xref>]. Animals were fed with veal liver and starved for at least one week before beginning the experiments. Animals were transported from Barcelona/Spain to ESA-ESTEC Noordwijk/the Netherlands in PAM water using 50 mL falcons.</p>
+              </sec>
+              <sec id="sec4dot2-ijms-20-00720">
+                <title>4.2. Simulations</title>
+                <p>Simulations were performed in ESTEC (ESA). Planarians were loaded into 15 mL falcons in PAM water at a density of 12 animals per falcon. Animals were kept in the dark and at a constant temperature of 21 °C during all the simulations. The Random Positioning Machine (RPM) was used simulate microgravity and the Large Diameter Centrifuge (LDC) was used to apply hypergravity (8 g). The Random Positioning Machine (RPM) to simulate microgravity was set to real random mode and random direction with a maximum speed of 10°/s. The samples were fixed in the center of the inner frame with a resulting largest radius of 9 cm to the outermost sample resulting in a maximum residual g due to rotation of less than 10<sup>−4</sup> g [<xref rid="B35-ijms-20-00720" ref-type="bibr">35</xref>]. RPM controls were placed in the same environment as the RPM. The LDC controls were placed at the center of the centrifuge in order to expose the samples to the same angular motion but without the additional gravitational load. Animals loaded in LDC were exposed to 8 g. Intact animals were loaded in the RPM and LDC at day 0. One day after loading, planarian heads and tails were amputated, and trunk fragments were re-loaded in the same devices (<xref ref-type="fig" rid="ijms-20-00720-f001">Figure 1</xref>). For candidate genes validation, planarian head fragments were loaded in the RPM using the previous settings. At 6 days after loading animals were fixed for in situ hybridization analysis ([<xref rid="B36-ijms-20-00720" ref-type="bibr">36</xref>] <xref ref-type="fig" rid="ijms-20-00720-f004">Figure 4</xref>A). Animals at the RPM were imaged each 3–4 days without stopping the device. Animals at the LDC were not monitored to avoid stopping the centrifuge. Before RNA extraction or animal fixation each tube from the RPM experiment was examined in order to find possible air bubbles, which would have disturbed the applied forces.</p>
+              </sec>
+              <sec id="sec4dot3-ijms-20-00720">
+                <title>4.3. RNA Interference Experiment</title>
+                <p>dsRNA was synthetized by <italic>in vitro</italic> transcription (Roche) and microinjection performed, as previously described [<xref rid="B37-ijms-20-00720" ref-type="bibr">37</xref>], following the standard protocol of 3 × 32 nL injection of <italic>hippo</italic> dsRNA (1000 ng/μL) for three consecutive days. Control animals were injected with dsRNA for green fluorescent protein (GFP), a gene not present in planarians. For a detailed study about <italic>hippo</italic> silencing please see [<xref rid="B24-ijms-20-00720" ref-type="bibr">24</xref>]. After the inhibition, animals were loaded in the RPM or in the LDC using the previous settings. Ten days after the animals’ loading, they were fixed and processed as described in the corresponding section.</p>
+              </sec>
+              <sec id="sec4dot4-ijms-20-00720">
+                <title>4.4. Transcriptomic Analysis</title>
+                <p>For transcriptomic analysis, total RNA was extracted from our samples after 6 and 13 days of gravity fluctuations. Two replicates containing a pool of four planarians were analyzed for each condition. RNA was extracted with Trizol (Invitrogen, Carlsbad, CA, USA), following the manufacturer’s instructions. RNA was quantified with a Nanodrop ND-1000 spectrophotometer (Thermo Scientific, Waltham, MA, USA). In total, 16 libraries were prepared using the TruSeq RNA Library Prep Kit for single-end reads and sequenced in a HiSeq 2000 sequencer to obtain a minimum of 30 million reads per sample at the Genomics Unit facilities of the Centre for Genomic Regulation (CRG) and primary data processing was carried out by the Bioinformatics Unit. Sequence quality was assessed with FastQC [<xref rid="B38-ijms-20-00720" ref-type="bibr">38</xref>] and sequences were also scanned for presence of rRNA contamination using riboPicker [<xref rid="B39-ijms-20-00720" ref-type="bibr">39</xref>]. Since no reference genome is available for this species, the comprehensive transcriptome meta-assembly by Kao et al. [<xref rid="B40-ijms-20-00720" ref-type="bibr">40</xref>] was used as reference for the read alignment. Filtered reads were aligned with Bowtie 2 [<xref rid="B41-ijms-20-00720" ref-type="bibr">41</xref>] using the parameters to perform the posterior transcript assignation with eXpress [<xref rid="B42-ijms-20-00720" ref-type="bibr">42</xref>] every multi-mapping was kept because of transcripts sharing the same sequences, penalties were increased for opening and extending gaps within reads or target regions, and modified function for calculating the minimum alignment score needed for an alignment to be considered valid. For the estimation of reads effectively mapping to a given transcript, eXpress quantifies the abundance of a set of target sequences by using an expectation–maximization algorithm for resolving ambiguous mappings. The algorithm estimates the number of fragments generated from each target in the sequencing experiment, adjusting for fragment and length biases. Following the instructions of the authors, we used the rounded “expected number of reads” as input for the statistical analysis with DESeq2 [<xref rid="B43-ijms-20-00720" ref-type="bibr">43</xref>].</p>
+                <p>For the differential expression analysis, effective read counts were normalized by the total number of mapped reads and log-transformed with DESeq2 to minimize the bias, especially on lowly expressed genes, before the differential expression analyses. DESeq2 uses a model based on the negative binomial distribution for modeling biological variations and for detecting differentially expressed genes. Since all the controls corresponding to 12 days of regeneration clustered together in the PCA (<xref ref-type="fig" rid="ijms-20-00720-f002">Figure 2</xref>B) revealing thus a high similarity between them, they were considered as four replicates in the differential expression comparisons in order to increase the statistical power. The transcript fold change between conditions and controls and the corresponding adjusted p-value for multiple testing were estimated as listed in the <xref ref-type="app" rid="app1-ijms-20-00720">Supplemenraty Table S1</xref>.</p>
+                <p>GO Enrichment analysis was performed using the Fisher’s exact test by comparing the GO terms present in the up- and down-regulated sets of genes obtained from the differential expression analysis with the full list of annotated transcripts in the transcriptome of reference using the Blast2GO software (v5.2.5, Biobam, Valencia, Spain) [<xref rid="B44-ijms-20-00720" ref-type="bibr">44</xref>].</p>
+                <p>The RNA-Seq data generated for this publication have been deposited in NCBI’s Sequence Read Archive (SRA) [<xref rid="B45-ijms-20-00720" ref-type="bibr">45</xref>] and are accessible through SRA BioProject accession number PRJNA516591 (<uri xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/516591">http://www.ncbi.nlm.nih.gov/bioproject/516591</uri>).</p>
+              </sec>
+              <sec id="sec4dot5-ijms-20-00720">
+                <title>4.5. In Situ Hybridization</title>
+                <p>RNA probes were synthesized <italic>in vitro</italic> using Sp6 or T7 polymerase (Roche, Basel, Switzerland) and DIG-modified (Perkin Elmer, Waltham, MA, USA) nucleotides. RNA probes were purified and precipitated with ethanol and 7.5 M ammonium acetate. Animals were fixed and processed as previously described [<xref rid="B36-ijms-20-00720" ref-type="bibr">36</xref>]. Briefly, planarians water was replaced with 5% NAC solution, 5–10 min, room temperature (RT) and then animals were fixed with 4% formaldehide, 15–20 min at RT. Fixative was removed and animals were rinsed with PBSTx at RT. Then planarians were treated with preheated Reduction solution (50 mM DTT, 1% NP-40, 0.5% SDS, in 1× PBS), 5–10 min, at 37 °C. After removal of Reduction solution, animals were dehydrated with PBSTx—50% Methanol solution—100% Methanol, for 5–10 min each, at RT. Finally, methanol was replaced with 6% Bleach solution, under direct light, overnight, at RT. The next morning, animals were washed with PBSTx and bleached for two hours in formamide bleaching solution (1.2% H<sub>2</sub>O<sub>2</sub>, 5% formamide, and 0.5× SSC). Then, animals were washed with TNTx. Blocking was performed with 5% horse serum in TNTx. Antibodies were diluted in blocking solution for 16 h at 4 °C. The next morning post-antibody washes were done with TNTx. Then antibody was developed using 5-bromo-4-chloro-3-indolyl phosphate/nitro blue tetrazolium (BCIP/NBT) system. After staining, animals were mounted with 70% glycerol in PBS and observed.</p>
+              </sec>
+              <sec id="sec4dot6-ijms-20-00720">
+                <title>4.6. Immunostaining and PH3 Quantification</title>
+                <p>Immunostaining was performed as previously described [<xref rid="B46-ijms-20-00720" ref-type="bibr">46</xref>]. Briefly, animals were killed in cold 2% HCl in PBS for 4 min at RT. Animals were then fixed for 15 min at RT in 4% FA in PBSTx. Animal bleaching was performed overnight in 6% H<sub>2</sub>O<sub>2</sub> diluted in PBSTx, at RT. The next morning, animals were washed twice with PBSTx before blocking for two hours at RT in PBSTB. Rabbit anti-phospho-histone-H3-Ser10 (anti-PH3) (1:500; Cell Signaling Technology) was diluted in PBSTB and incubated overnight at 4 °C. The following day, animals were washed extensively with PBSTx, then blocked in PBSTx with 0.25% BSA for one hour at RT. Then animals were incubated overnight at 4 °C in mouse anti-rabbit Alexa 568 secondary antibody. In the next day, animals were washed extensively with PBSTx and nuclei were stained with DAPI (1:5.000) and mounted with 70% glycerol in PBS and observed. To avoid technical variance and a reliable quantification of PH3+ cells, at least two independent experiments were performed.</p>
+                <p>Immunostaining samples were imaged using a MZ16F stereomicroscope (Leica) equipped with a ProgRes C3 camera (Jenoptik, Jena, Germany). Images were then processed using Fiji and Illustrator CC (Adobe, San José, CA, USA) software. Brightness/contrast and color balance adjustments were always applied to the entire image. Quantifications were performed by hand using the “multi-point selection” tool of Fiji. Animal area quantification was performed using the oval brush selection tool of Fiji and then normalized to mm<sup>2</sup>. Results were averaged per group and significant differences determined by 2-tailed <italic>Student t</italic>-test.</p>
+              </sec>
+            </sec>
+          </body>
+          <back>
+            <ack>
+              <title>Acknowledgments</title>
+              <p>This paper was possible with support from NWO–ALW via the Netherlands Institute for Space Research, SRON Grant MG-057 (van Loon). Thanks also to Octavio Serra for his help with statistics and bioinformatic tools</p>
+            </ack>
+            <app-group>
+              <app id="app1-ijms-20-00720">
+                <title>Supplementary Materials</title>
+                <p>Supplementary materials can be found at <uri xlink:href="http://www.mdpi.com/1422-0067/20/3/720/s1">http://www.mdpi.com/1422-0067/20/3/720/s1</uri>. Supplementary Table S1. Transcriptomic differential expression analysis. Supplementary Table S2. List of up- and down-regulated genes in each condition. Only genes with an adjusted <italic>p</italic>-value &lt; 0.05 were considered. Supplementary Table S3. Full list of GO functions for the up- and down-regulated transcripts at 12 dR in s-µg conditions. GO ID: ID of the GO category; GO Name: description of the category; GO Category: category of the function. FDR: False Discovery Rate; P-value; Nr Test: number of transcripts in the sample with that function; Nr Reference: number of transcripts in the reference transcriptome with that function; Non Annot Test: number of transcripts without that function in the sample; Non Annot Reference: number of transcripts without that function in the reference transcriptome. Supplementary Table S4. Transcripts contributing to each GO category of Biological Process for the up-regulated genes at 12 dR in s-µg conditions. Supplementary Figure S1. Significant gene ontology (GO) categories corresponding to the s-µg samples at 12 dR after GO enrichment.</p>
+                <supplementary-material content-type="local-data" id="ijms-20-00720-s001">
+                  <media xlink:href="ijms-20-00720-s001.rar">
+                    <caption>
+                      <p>Click here for additional data file.</p>
+                    </caption>
+                  </media>
+                </supplementary-material>
+              </app>
+            </app-group>
+            <notes>
+              <title>Author Contributions</title>
+              <p>Conceptualization: N.d.S., I.C., P.D., E.S.; T.A., and G.A. Methodology: N.d.S., J.W.A.v.L., E.S., and T.A. Data Analysis: G.R.-E. and N.d.S. Validation: N.d.S. Formal analysis: N.d.S. and T.A. Investigation: N.d.S. and T.A. Writing—original draft preparation: N.d.S. and T.A. Writing—review and editing: N.d.S., G.R.-E., I.C., P.D., J.W.A.v.L., E.S., T.A., and G.A. Supervision: T.A. and G.A. Project administration: J.W.A.v.L. and G.A. Funding acquisition: E.S., T.A., and G.A.</p>
+            </notes>
+            <notes>
+              <title>Funding</title>
+              <p>Universitat de Barcelona (APIF fellowship), received by NdS. Ministerio de educación y ciencia (grant number BFU2017-83755-P and BFU2014-56055-P), received by ES and TA. AGAUR (Generalitat de Catalunya, grant number 2009SGR1018), received by ES. Serra Húnter Programme (Generalitat de Catalunya), received by T.A.</p>
+            </notes>
+            <notes notes-type="COI-statement">
+              <title>Conflicts of Interest</title>
+              <p>The authors declare no conflict of interest</p>
+            </notes>
+            <glossary>
+              <title>Abbreviations</title>
+              <array orientation="portrait">
+                <tbody>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">dR</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">days of regeneration</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <italic>dsRNA</italic>
+                    </td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">double-stranded RNA</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">
+                      <italic>gfp</italic>
+                    </td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">green fluorescent protein</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">LDC</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Large Diameter Centrifuge</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">GO</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Gene Ontology</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">PAM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">planarian artificial medium</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">PCA</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Principal component analysis</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">PH3</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">phospho-histone-H3-Ser10</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RPM</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">Random Positioning Machine</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">RT</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">room temperature</td>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">s-µg</td>
+                    <td align="left" valign="middle" rowspan="1" colspan="1">simulated microgravity</td>
+                  </tr>
+                </tbody>
+              </array>
+            </glossary>
+            <ref-list>
+              <title>References</title>
+              <ref id="B1-ijms-20-00720">
+                <label>1.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saló</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Baguñà</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regeneration in planarians and other worms: New findings, new tools, and new perspectives</article-title>
+                  <source>J. Exp. Zool.</source>
+                  <year>2002</year>
+                  <volume>292</volume>
+                  <fpage>528</fpage>
+                  <lpage>539</lpage>
+                  <pub-id pub-id-type="doi">10.1002/jez.90001</pub-id>
+                  <?supplied-pmid 12115936?>
+                  <pub-id pub-id-type="pmid">12115936</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B2-ijms-20-00720">
+                <label>2.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Saló</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The power of regeneration and the stem-cell kingdom: Freshwater planarians (Platyhelminthes)</article-title>
+                  <source>BioEssays</source>
+                  <year>2006</year>
+                  <volume>28</volume>
+                  <fpage>546</fpage>
+                  <lpage>559</lpage>
+                  <pub-id pub-id-type="doi">10.1002/bies.20416</pub-id>
+                  <?supplied-pmid 16615086?>
+                  <pub-id pub-id-type="pmid">16615086</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B3-ijms-20-00720">
+                <label>3.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sánchez Alvarado</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Planarian regeneration: Its end is its beginning</article-title>
+                  <source>Cell</source>
+                  <year>2006</year>
+                  <volume>124</volume>
+                  <fpage>241</fpage>
+                  <lpage>245</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2006.01.012</pub-id>
+                  <?supplied-pmid 16439195?>
+                  <pub-id pub-id-type="pmid">16439195</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B4-ijms-20-00720">
+                <label>4.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Baguña</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The planarian neoblast: The rambling history of its origin and some current black boxes</article-title>
+                  <source>Int. J. Dev. Biol.</source>
+                  <year>2012</year>
+                  <volume>56</volume>
+                  <fpage>19</fpage>
+                  <lpage>37</lpage>
+                  <pub-id pub-id-type="doi">10.1387/ijdb.113463jb</pub-id>
+                  <?supplied-pmid 22252540?>
+                  <pub-id pub-id-type="pmid">22252540</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B5-ijms-20-00720">
+                <label>5.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Fraguas</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Barberán</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ibarra</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Stöger</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cebrià</surname>
+                      <given-names>F.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Regeneration of neuronal cell types in Schmidtea mediterranea: An immunohistochemical and expression study</article-title>
+                  <source>Int. J. Dev. Biol.</source>
+                  <year>2012</year>
+                  <volume>56</volume>
+                  <fpage>143</fpage>
+                  <lpage>153</lpage>
+                  <pub-id pub-id-type="doi">10.1387/ijdb.113428sf</pub-id>
+                  <?supplied-pmid 22451002?>
+                  <pub-id pub-id-type="pmid">22451002</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B6-ijms-20-00720">
+                <label>6.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>M.D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The influence of gravity on the structure and functions of plant material</article-title>
+                  <source>Adv. Sp. Res.</source>
+                  <year>1984</year>
+                  <volume>4</volume>
+                  <fpage>299</fpage>
+                  <lpage>303</lpage>
+                  <pub-id pub-id-type="doi">10.1016/0273-1177(84)90575-1</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B7-ijms-20-00720">
+                <label>7.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Auletta</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adell</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Colagè</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                    <name>
+                      <surname>D’Ambrosio</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salò</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Space research program on planarian schmidtea mediterranea’s establishment of the anterior-posterior axis in altered gravity conditions</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2012</year>
+                  <volume>24</volume>
+                  <fpage>419</fpage>
+                  <lpage>425</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s12217-012-9317-6</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B8-ijms-20-00720">
+                <label>8.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>D’Ambrosio</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                    <name>
+                      <surname>Colagè</surname>
+                      <given-names>I.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extending epigenesis: From phenotypic plasticity to the bio-cultural feedback</article-title>
+                  <source>Biol. Philos.</source>
+                  <year>2017</year>
+                  <volume>32</volume>
+                  <fpage>705</fpage>
+                  <lpage>728</lpage>
+                  <pub-id pub-id-type="doi">10.1007/s10539-017-9581-3</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B9-ijms-20-00720">
+                <label>9.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Miquel</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Souza</surname>
+                      <given-names>K.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Gravity effetcs on reproduction, development and aging</article-title>
+                  <source>Adv. Sapce Biol. Med.</source>
+                  <year>1991</year>
+                  <volume>1</volume>
+                  <fpage>71</fpage>
+                  <lpage>97</lpage>
+                  <pub-id pub-id-type="doi">10.1016/S1569-2574(08)60121-5</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B10-ijms-20-00720">
+                <label>10.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Costa-Almeida</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carvalho</surname>
+                      <given-names>D.T.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferreira</surname>
+                      <given-names>M.J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aresta</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomes</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van der Heiden</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Granja</surname>
+                      <given-names>P.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Effects of hypergravity on the angiogenic potential of endothelial cells</article-title>
+                  <source>J. R. Soc. Interface.</source>
+                  <year>2016</year>
+                  <volume>13</volume>
+                  <pub-id pub-id-type="doi">10.1098/rsif.2016.0688</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B11-ijms-20-00720">
+                <label>11.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Genchi</surname>
+                      <given-names>G.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rocca</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marino</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grillone</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Mattoli</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ciofani</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hypergravity As a Tool for Cell Stimulation: Implications in Biomedicine</article-title>
+                  <source>Front. Astron. Space Sci.</source>
+                  <year>2016</year>
+                  <volume>3</volume>
+                  <fpage>1</fpage>
+                  <lpage>8</lpage>
+                  <pub-id pub-id-type="doi">10.3389/fspas.2016.00026</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B12-ijms-20-00720">
+                <label>12.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Monici</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Marziliano</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Basile</surname>
+                      <given-names>V.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pezzatini</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Romano</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Conti</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Morbidelli</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hypergravity affects morphology and function in microvascular endothelial cells</article-title>
+                  <source>Microgravity Sci. Technol.</source>
+                  <year>2006</year>
+                  <volume>18</volume>
+                  <fpage>234</fpage>
+                  <lpage>238</lpage>
+                  <pub-id pub-id-type="doi">10.1007/BF02870417</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B13-ijms-20-00720">
+                <label>13.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Costa-Almeida</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Carvalho</surname>
+                      <given-names>D.T.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ferreira</surname>
+                      <given-names>M.J.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pesqueira</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Monici</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Granja</surname>
+                      <given-names>P.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gomes</surname>
+                      <given-names>M.E.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Continuous Exposure to Simulated Hypergravity-Induced Changes in Proliferation, Morphology, and Gene Expression of Human Tendon Cells</article-title>
+                  <source>Stem Cells Dev.</source>
+                  <year>2018</year>
+                  <volume>27</volume>
+                  <fpage>858</fpage>
+                  <lpage>869</lpage>
+                  <pub-id pub-id-type="doi">10.1089/scd.2017.0206</pub-id>
+                  <?supplied-pmid 29649412?>
+                  <pub-id pub-id-type="pmid">29649412</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B14-ijms-20-00720">
+                <label>14.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Eschbach</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dupuis</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Cytoplasmic dynein in neurodegeneration</article-title>
+                  <source>Pharmacol. Ther.</source>
+                  <year>2011</year>
+                  <volume>130</volume>
+                  <fpage>348</fpage>
+                  <lpage>363</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.pharmthera.2011.03.004</pub-id>
+                  <?supplied-pmid 21420428?>
+                  <pub-id pub-id-type="pmid">21420428</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B15-ijms-20-00720">
+                <label>15.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hao</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Liu</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wang</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ning</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Aberrant regulation of the LIN28A/LIN28B and let-7 loop in human malignant tumors and its effects on the hallmarks of cancer</article-title>
+                  <source>Mol Cancer</source>
+                  <year>2015</year>
+                  <volume>14</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1186/s12943-015-0402-5</pub-id>
+                  <?supplied-pmid 26123544?>
+                  <pub-id pub-id-type="pmid">25560632</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B16-ijms-20-00720">
+                <label>16.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Esparza-Moltó</surname>
+                      <given-names>P.B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cuezva</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Role of Mitochondrial H+-ATP Synthase in Cancer</article-title>
+                  <source>Front. Oncol.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <pub-id pub-id-type="doi">10.3389/fonc.2018.00053</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B17-ijms-20-00720">
+                <label>17.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Khanna</surname>
+                      <given-names>K.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jackson</surname>
+                      <given-names>S.P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>DNA double-strand breaks: Signaling, repair and the cancer connection</article-title>
+                  <source>Nat. Genet.</source>
+                  <year>2001</year>
+                  <volume>27</volume>
+                  <fpage>247</fpage>
+                  <lpage>254</lpage>
+                  <pub-id pub-id-type="doi">10.1038/85798</pub-id>
+                  <pub-id pub-id-type="pmid">11242102</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B18-ijms-20-00720">
+                <label>18.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Badylak SFFreytes DOGilbert</surname>
+                      <given-names>T.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Extracellular matrix as a biological scaffold material: Structure and function</article-title>
+                  <source>Acta Biomater.</source>
+                  <year>2009</year>
+                  <volume>5</volume>
+                  <fpage>1</fpage>
+                  <lpage>13</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.actbio.2008.09.013</pub-id>
+                  <pub-id pub-id-type="pmid">18938117</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B19-ijms-20-00720">
+                <label>19.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>White</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>ADAMs: Modulators of cell-cell and cell-matrix interactions</article-title>
+                  <source>Curr. Opin. Cell Biol.</source>
+                  <year>2003</year>
+                  <volume>15</volume>
+                  <fpage>598</fpage>
+                  <lpage>606</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.ceb.2003.08.001</pub-id>
+                  <pub-id pub-id-type="pmid">14519395</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B20-ijms-20-00720">
+                <label>20.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scholzen</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Gerdes</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Ki-67 protein: From the known and the unknown</article-title>
+                  <source>J. Cell Physiol.</source>
+                  <year>2000</year>
+                  <volume>322</volume>
+                  <fpage>311</fpage>
+                  <lpage>322</lpage>
+                  <pub-id pub-id-type="doi">10.1002/(SICI)1097-4652(200003)182:3&lt;311::AID-JCP1&gt;3.0.CO;2-9</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B21-ijms-20-00720">
+                <label>21.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Reddien</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>SMEDWI-2 Is a PIWI-Like Protein That Regulates Planarian Stem Cells</article-title>
+                  <source>Science (80- )</source>
+                  <year>2005</year>
+                  <volume>310</volume>
+                  <fpage>1327</fpage>
+                  <lpage>1330</lpage>
+                  <pub-id pub-id-type="doi">10.1126/science.1116110</pub-id>
+                  <?supplied-pmid 16311336?>
+                  <pub-id pub-id-type="pmid">16311336</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B22-ijms-20-00720">
+                <label>22.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Hanahan</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Weinberg</surname>
+                      <given-names>R.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hallmarks of cancer: The next generation</article-title>
+                  <source>Cell</source>
+                  <year>2011</year>
+                  <volume>144</volume>
+                  <fpage>646</fpage>
+                  <lpage>674</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.cell.2011.02.013</pub-id>
+                  <?supplied-pmid 21376230?>
+                  <pub-id pub-id-type="pmid">21376230</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B23-ijms-20-00720">
+                <label>23.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zhao</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wei</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Udan</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yang</surname>
+                      <given-names>Q.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kim</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Xie</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Ikenoue</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Yu</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Li</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zheng</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Inactivation of YAP oncoprotein by the Hippo pathway is involved in cell contact inhibition and tissue growth control</article-title>
+                  <source>Genes Dev.</source>
+                  <year>2007</year>
+                  <volume>21</volume>
+                  <fpage>2747</fpage>
+                  <lpage>2761</lpage>
+                  <pub-id pub-id-type="doi">10.1101/gad.1602907</pub-id>
+                  <?supplied-pmid 17974916?>
+                  <pub-id pub-id-type="pmid">17974916</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B24-ijms-20-00720">
+                <label>24.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Sousa</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rodríguez-Esteban</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Rojo-Laguna</surname>
+                      <given-names>J.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saló</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adell</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hippo signaling controls cell cycle and restricts cell plasticity in planarians</article-title>
+                  <source>PLoS Biol.</source>
+                  <year>2018</year>
+                  <volume>16</volume>
+                  <elocation-id>e2002399</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pbio.2002399</pub-id>
+                  <?supplied-pmid 29357350?>
+                  <pub-id pub-id-type="pmid">29357350</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B25-ijms-20-00720">
+                <label>25.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Zygulska</surname>
+                      <given-names>A.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Krzemieniecki</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pierzchalski</surname>
+                      <given-names>P.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Hippo pathway—Brief overview of its relevance in cancer</article-title>
+                  <source>J. Physiol. Pharmacol.</source>
+                  <year>2017</year>
+                  <volume>68</volume>
+                  <fpage>311</fpage>
+                  <lpage>335</lpage>
+                  <?supplied-pmid 28820389?>
+                  <pub-id pub-id-type="pmid">28820389</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B26-ijms-20-00720">
+                <label>26.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Pan</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Hippo Signaling Pathway in Development and Cancer</article-title>
+                  <source>Dev. Cell</source>
+                  <year>2010</year>
+                  <volume>19</volume>
+                  <fpage>491</fpage>
+                  <lpage>505</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.devcel.2010.09.011</pub-id>
+                  <?supplied-pmid 20951342?>
+                  <pub-id pub-id-type="pmid">20951342</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B27-ijms-20-00720">
+                <label>27.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Adell</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                    <name>
+                      <surname>Saló</surname>
+                      <given-names>E.</given-names>
+                    </name>
+                    <name>
+                      <surname>Van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Auletta</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Planarians Sense Simulated Microgravity and Hypergravity</article-title>
+                  <source>Biomed Res. Int.</source>
+                  <year>2014</year>
+                  <volume>2014</volume>
+                  <pub-id pub-id-type="doi">10.1155/2014/679672</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B28-ijms-20-00720">
+                <label>28.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Nichols</surname>
+                      <given-names>H.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zhang</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wen</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Proteomics and genomics of microgravity</article-title>
+                  <source>Physiol. Genom.</source>
+                  <year>2006</year>
+                  <volume>26</volume>
+                  <fpage>163</fpage>
+                  <lpage>171</lpage>
+                  <pub-id pub-id-type="doi">10.1152/physiolgenomics.00323.2005</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B29-ijms-20-00720">
+                <label>29.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Scimone</surname>
+                      <given-names>M.L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Kravarik</surname>
+                      <given-names>K.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lapan</surname>
+                      <given-names>S.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Reddien</surname>
+                      <given-names>P.W.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Neoblast specialization in regeneration of the planarian schmidtea mediterranea</article-title>
+                  <source>Stem Cell Rep.</source>
+                  <year>2014</year>
+                  <volume>3</volume>
+                  <fpage>339</fpage>
+                  <lpage>352</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.stemcr.2014.06.001</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B30-ijms-20-00720">
+                <label>30.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sulima</surname>
+                      <given-names>S.O.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hofman</surname>
+                      <given-names>I.J.F.</given-names>
+                    </name>
+                    <name>
+                      <surname>Keersmaecker</surname>
+                      <given-names>K.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Jonathan</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>How ribosomes translate cancer</article-title>
+                  <source>Cancer Discov.</source>
+                  <year>2017</year>
+                  <volume>7</volume>
+                  <fpage>1069</fpage>
+                  <lpage>1087</lpage>
+                  <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-0550</pub-id>
+                  <pub-id pub-id-type="pmid">28923911</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B31-ijms-20-00720">
+                <label>31.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Piccolo</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dupont</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Cordenonsi</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Biology of YAP/TAZ: Hippo Signaling and Beyond</article-title>
+                  <source>Physiol. Rev.</source>
+                  <year>2014</year>
+                  <volume>94</volume>
+                  <fpage>1287</fpage>
+                  <lpage>1312</lpage>
+                  <pub-id pub-id-type="doi">10.1152/physrev.00005.2014</pub-id>
+                  <?supplied-pmid 25287865?>
+                  <pub-id pub-id-type="pmid">25287865</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B32-ijms-20-00720">
+                <label>32.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ma</surname>
+                      <given-names>X.</given-names>
+                    </name>
+                    <name>
+                      <surname>Wehland</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aleshcheva</surname>
+                      <given-names>G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hauslage</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Waßer</surname>
+                      <given-names>K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hemmersbach</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Infanger</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Bauer</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Grimm</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Interleukin-6 Expression under Gravitational Stress Due to Vibration and Hypergravity in Follicular Thyroid Cancer Cells</article-title>
+                  <source>PLoS ONE</source>
+                  <year>2013</year>
+                  <volume>8</volume>
+                  <elocation-id>e68140</elocation-id>
+                  <pub-id pub-id-type="doi">10.1371/journal.pone.0068140</pub-id>
+                  <?supplied-pmid 23844163?>
+                  <pub-id pub-id-type="pmid">23844163</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B33-ijms-20-00720">
+                <label>33.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sahebi</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aghaei</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Halvaei</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Alizadeh</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The Role of Microgravity in Cancer: A Dual-edge Sword</article-title>
+                  <source>Multidiscip. Cancer Investig.</source>
+                  <year>2017</year>
+                  <volume>1</volume>
+                  <fpage>1</fpage>
+                  <lpage>2</lpage>
+                  <pub-id pub-id-type="doi">10.21859/mci-01036</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B34-ijms-20-00720">
+                <label>34.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>de Sousa</surname>
+                      <given-names>N.</given-names>
+                    </name>
+                    <name>
+                      <surname>Adell</surname>
+                      <given-names>T.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Maintenance of Schmidtea mediterranea in the Laboratory</article-title>
+                  <source>Bio-Protocol.</source>
+                  <year>2018</year>
+                  <volume>8</volume>
+                  <fpage>2</fpage>
+                  <lpage>7</lpage>
+                  <pub-id pub-id-type="doi">10.21769/BioProtoc.3040</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B35-ijms-20-00720">
+                <label>35.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>van Loon</surname>
+                      <given-names>J.J.W.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Some history and use of the random positioning machine, RPM, in gravity related research</article-title>
+                  <source>Adv. Space Res.</source>
+                  <year>2007</year>
+                  <volume>39</volume>
+                  <fpage>1161</fpage>
+                  <lpage>1165</lpage>
+                  <pub-id pub-id-type="doi">10.1016/j.asr.2007.02.016</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B36-ijms-20-00720">
+                <label>36.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>King</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Newmark</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>In situ hybridization protocol for enhanced detection of gene expression in the planarian Schmidtea mediterranea</article-title>
+                  <source>BMC Dev. Biol.</source>
+                  <year>2013</year>
+                  <volume>13</volume>
+                  <fpage>1</fpage>
+                  <lpage>32</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-213X-13-8</pub-id>
+                  <pub-id pub-id-type="pmid">23289785</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B37-ijms-20-00720">
+                <label>37.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Sanchez Alvarado</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Newmark</surname>
+                      <given-names>P.A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Double-stranded RNA specifically disrupts gene expression during planarian regeneration</article-title>
+                  <source>Dev. Biol.</source>
+                  <year>1999</year>
+                  <volume>96</volume>
+                  <fpage>5049</fpage>
+                  <lpage>5054</lpage>
+                  <pub-id pub-id-type="doi">10.1073/pnas.96.9.5049</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B38-ijms-20-00720">
+                <label>38.</label>
+                <element-citation publication-type="web">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Andrews</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>FastQC: A Quality Control Tool for High Throughput Sequence Data</article-title>
+                  <year>2010</year>
+                  <comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc">http://www.bioinformatics.babraham.ac.uk/projects/fastqc</ext-link></comment>
+                  <date-in-citation content-type="access-date" iso-8601-date="2019-02-01">(accessed on 1 February 2019)</date-in-citation>
+                </element-citation>
+              </ref>
+              <ref id="B39-ijms-20-00720">
+                <label>39.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Schmieder</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Lim</surname>
+                      <given-names>Y.W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Edwards</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Identification and removal of ribosomal RNA sequences from metatranscriptomes</article-title>
+                  <source>Bioinformatics</source>
+                  <year>2012</year>
+                  <volume>28</volume>
+                  <fpage>433</fpage>
+                  <lpage>435</lpage>
+                  <pub-id pub-id-type="doi">10.1093/bioinformatics/btr669</pub-id>
+                  <pub-id pub-id-type="pmid">22155869</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B40-ijms-20-00720">
+                <label>40.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Kao</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Felix</surname>
+                      <given-names>D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Aboobaker</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The planarian regeneration transcriptome reveals a shared but temporally shifted regulatory program between opposing head and tail scenarios</article-title>
+                  <source>BMC Genom.</source>
+                  <year>2013</year>
+                  <volume>14</volume>
+                  <fpage>1</fpage>
+                  <lpage>17</lpage>
+                  <pub-id pub-id-type="doi">10.1186/1471-2164-14-797</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B41-ijms-20-00720">
+                <label>41.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Langmead</surname>
+                      <given-names>B.</given-names>
+                    </name>
+                    <name>
+                      <surname>Salzberg</surname>
+                      <given-names>S.L.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Fast gapped-read alignment with Bowtie 2</article-title>
+                  <source>Nat. Methods</source>
+                  <year>2013</year>
+                  <volume>9</volume>
+                  <fpage>357</fpage>
+                  <lpage>359</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B42-ijms-20-00720">
+                <label>42.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Roberts</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>Pachter</surname>
+                      <given-names>L.</given-names>
+                    </name>
+                    <name>
+                      <surname>Biology</surname>
+                      <given-names>C.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Streaming fragment assignment for real-time analysis of sequencing experiments</article-title>
+                  <source>Nat. Methods</source>
+                  <year>2013</year>
+                  <volume>10</volume>
+                  <fpage>71</fpage>
+                  <lpage>73</lpage>
+                  <pub-id pub-id-type="doi">10.1038/nmeth.2251</pub-id>
+                  <?supplied-pmid 23160280?>
+                  <pub-id pub-id-type="pmid">23160280</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B43-ijms-20-00720">
+                <label>43.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Love</surname>
+                      <given-names>M.I.</given-names>
+                    </name>
+                    <name>
+                      <surname>Huber</surname>
+                      <given-names>W.</given-names>
+                    </name>
+                    <name>
+                      <surname>Anders</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>
+                  <source>Genome Biol.</source>
+                  <year>2014</year>
+                  <volume>15</volume>
+                  <fpage>550</fpage>
+                  <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+                  <?supplied-pmid 25516281?>
+                  <pub-id pub-id-type="pmid">25516281</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B44-ijms-20-00720">
+                <label>44.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Götz</surname>
+                      <given-names>S.</given-names>
+                    </name>
+                    <name>
+                      <surname>García-Gómez</surname>
+                      <given-names>J.M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Terol</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Williams</surname>
+                      <given-names>T.D.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nagaraj</surname>
+                      <given-names>S.H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Nueda</surname>
+                      <given-names>M.J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Robles</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Talón</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                    <name>
+                      <surname>Dopazo</surname>
+                      <given-names>J.</given-names>
+                    </name>
+                    <name>
+                      <surname>Conesa</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>High-throughput functional annotation and data mining with the Blast2GO suite</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2008</year>
+                  <volume>36</volume>
+                  <fpage>3420</fpage>
+                  <lpage>3435</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkn176</pub-id>
+                  <?supplied-pmid 18445632?>
+                  <pub-id pub-id-type="pmid">18445632</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B45-ijms-20-00720">
+                <label>45.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Leinonen</surname>
+                      <given-names>R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Sugawara</surname>
+                      <given-names>H.</given-names>
+                    </name>
+                    <name>
+                      <surname>Shumway</surname>
+                      <given-names>M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>The sequence read archive</article-title>
+                  <source>Nucleic Acids Res.</source>
+                  <year>2011</year>
+                  <volume>39</volume>
+                  <fpage>2010</fpage>
+                  <lpage>2012</lpage>
+                  <pub-id pub-id-type="doi">10.1093/nar/gkq1019</pub-id>
+                  <?supplied-pmid 21062823?>
+                  <pub-id pub-id-type="pmid">21062823</pub-id>
+                </element-citation>
+              </ref>
+              <ref id="B46-ijms-20-00720">
+                <label>46.</label>
+                <element-citation publication-type="journal">
+                  <person-group person-group-type="author">
+                    <name>
+                      <surname>Ross</surname>
+                      <given-names>K.G.</given-names>
+                    </name>
+                    <name>
+                      <surname>Omuro</surname>
+                      <given-names>K.C.</given-names>
+                    </name>
+                    <name>
+                      <surname>Taylor</surname>
+                      <given-names>M.R.</given-names>
+                    </name>
+                    <name>
+                      <surname>Munday</surname>
+                      <given-names>R.K.</given-names>
+                    </name>
+                    <name>
+                      <surname>Hubert</surname>
+                      <given-names>A.</given-names>
+                    </name>
+                    <name>
+                      <surname>King</surname>
+                      <given-names>R.S.</given-names>
+                    </name>
+                    <name>
+                      <surname>Zayas</surname>
+                      <given-names>R.M.</given-names>
+                    </name>
+                  </person-group>
+                  <article-title>Novel monoclonal antibodies to study tissue regeneration in planarians</article-title>
+                  <source>BMC Dev. Biol.</source>
+                  <year>2015</year>
+                  <volume>15</volume>
+                  <elocation-id>2</elocation-id>
+                  <pub-id pub-id-type="doi">10.1186/s12861-014-0050-9</pub-id>
+                  <?supplied-pmid 25604901?>
+                  <pub-id pub-id-type="pmid">25604901</pub-id>
+                </element-citation>
+              </ref>
+            </ref-list>
+          </back>
+          <floats-group>
+            <fig id="ijms-20-00720-f001" orientation="portrait" position="float">
+              <label>Figure 1</label>
+              <caption>
+                <p>Illustration of the experimental design. (<bold>A</bold>) Animals were loaded to the Random Positioning Machine (RPM) or in the Large Diameter Centrifuge (LDC) at day 0. One day after the samples were removed and cut. Trunk fragments were loaded again until day 6 or day 13 (corresponding to day 5 or day 12 of regeneration, respectively). After exposure the animals were processed for RNA extraction. (<bold>B</bold>) Pictures of the RPM and LDC systems. The arrows indicate the placement of the samples during the experiment.</p>
+              </caption>
+              <graphic xlink:href="ijms-20-00720-g001"/>
+            </fig>
+            <fig id="ijms-20-00720-f002" orientation="portrait" position="float">
+              <label>Figure 2</label>
+              <caption>
+                <p>Transcriptomic analysis of samples exposed to s-µg or 8 g. (<bold>A</bold>) Histogram showing the distance between each pair of samples by Pearson correlation (<bold>B</bold>) Principal component analysis (PCA) of the samples, including the replicates for each condition: control (1 g), s-µg and 8 g at 12 dR and 5 dR. CL: control s-µg, 12 dR; CH: control 8 g, 12 dR; PL: s-µg, 12 dR; PH: 8 g, 12 dR; CL_5: control s-µg, 5 dR; CH_5: control 8 g, 5 dR; PL_5: s-µg, 5 dR; PH_5: 8 g, 5 dR. (<bold>C</bold>) Volcano plots showing the distribution of transcripts by expression fold change and significance. The red line indicates a significance level of 5% in the logarithmic scale of adjusted <italic>p</italic>-values. Significant up- and down-regulated transcripts (for and adjusted <italic>p</italic>-value &lt; 0.05) are colored in green and orange, respectively, and their number is specified in the legend. Y-axis has been scaled to the same size in all the plots making some transcripts to be out of the scale and thus not shown here. (<bold>D</bold>) Gene ontology (GO) of differentially expressed genes in s-µg and 8 g. (<bold>E</bold>) GO Enrichment. Significantly (for a Fisher’s exact test FDR &lt; 0.05) over- and under-represented GO functions corresponding to the s-µg samples after 12 dR in the up-regulated sets of differentially expressed genes as percentage of transcripts compared with the reference transcriptome. For a given function, if the percentage of sequences in the transcriptome is higher, that function is under-represented in the gene set.</p>
+              </caption>
+              <graphic xlink:href="ijms-20-00720-g002"/>
+            </fig>
+            <fig id="ijms-20-00720-f003" orientation="portrait" position="float">
+              <label>Figure 3</label>
+              <caption>
+                <p><italic>In vivo</italic> analysis of planarians regenerating at s-µg or 8 g. Head fragments of planarian trunk fragments in which the head had been amputated. They were regenerating s-µg or 8 g, as indicated. In all conditions they show an apparent properly regenerated head (note the eyes and the similar size of the blastema in the different animals). <italic>n</italic> ≥ 5. Scale bar: 150 µm.</p>
+              </caption>
+              <graphic xlink:href="ijms-20-00720-g003"/>
+            </fig>
+            <fig id="ijms-20-00720-f004" orientation="portrait" position="float">
+              <label>Figure 4</label>
+              <caption>
+                <p>In situ hybridization validates the results of the transcriptomic analysis. (<bold>A</bold>) Diagram illustrating the experimental design followed to validate the transcriptomic results. Planarian head fragments were loaded into the RPM and animals were fixed and processed for in situ hybridization six days after. (<bold>B</bold>) Table showing the genes selected for validation. (<bold>C</bold>) Results of the in situ hybridization showing the down-regulation of <italic>collagen-α-1, piwi-1</italic>, and <italic>piwi</italic>-2 genes. <italic>n</italic> ≥ 5. Scale bar: 500 µm.</p>
+              </caption>
+              <graphic xlink:href="ijms-20-00720-g004"/>
+            </fig>
+            <fig id="ijms-20-00720-f005" orientation="portrait" position="float">
+              <label>Figure 5</label>
+              <caption>
+                <p><italic>hippo (RNAi)</italic> planarians are more sensitive to the cellular effects of altered gravity. (<bold>A</bold>) Diagram illustrating the experimental design followed to analyze the effect of <italic>hippo</italic> inhibition in animals exposed to s-µg or 8 g. Intact animals were injected with <italic>hippo</italic> dsRNA during three consecutive days and then were loaded in the RPM or the LDC. After 10 days, animals were fixed and processed for immunofluorescence. (<bold>B</bold>) Analysis of PH3+ cells. Representative images of animals from each condition immunostained with PH3 antibody and graphs showing the quantification of PH3+ cells in each condition. Scale bar: 400 µm. Data is presented as means ± SD, <italic>n</italic> ≥ 10. * <italic>p</italic> &lt; 0.05; ** <italic>p</italic> &lt; 0.01; *** <italic>p</italic> &lt; 0.001, <italic>ns, not significant.</italic></p>
+              </caption>
+              <graphic xlink:href="ijms-20-00720-g005"/>
+            </fig>
+          </floats-group>
+        </article>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
