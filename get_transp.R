@@ -38,8 +38,8 @@ downloads= function(loc){
   mapply(metareadr::mt_read_pmcoa,pmcid=pmcnumber,file_name=filenames)
   
 }
-downloads('pmc')
-mclapply('pmc',downloads)
+downloads('pmc_final')
+mclapply('pmc_final',downloads)
 
 
 checkdiff= function(loc,loc1){
