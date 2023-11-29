@@ -60,19 +60,34 @@ validationfun=function(indicator, df_val){
   k=df_val %>%
     group_by(get(indicatorz), get(valcol)) %>%
     count() %>%
-    group_by(get(indicatorz))%>%
-    dplyr::mutate(total=sum(freq))%>%
-    mutate(p=freq/total)#%>%
+    group_by(`get(indicatorz)`)%>%
+    dplyr::mutate(total=sum(n))%>%
+    mutate(p=n/total)#%>%
     #rename(algorithm=1,validation=2)
   
   
   return(k)
 }
 
+
+
 # adjusted indicators FP and FN rates
 validationfun('code', df_val)
 validationfun('data', df_val)
 validationfun('register', df_val)
+
+# U(i) × TP + (1 − U(i)) × FN
+# insert the obtained values (get indicatorz is the original
+# classification get valcol is the corrected)
+# corrected code
+0.03209877*0.857+(1-0.03209877)*0.0217
+
+# corrected data
+0.2123457*0.974+(1-0.2123457)*0.085
+
+# corrected registration
+0.008230453*1+(1-0.008230453)*0
+  
 
 table(df_val$`Details about COI (actual disclosures)`)
 table(df_val$`Details about funding (actual disclosures)`)
