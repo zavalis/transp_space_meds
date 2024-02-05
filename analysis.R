@@ -44,6 +44,7 @@ ovr_transp=comb%>%
   dplyr::summarise_all(~sum(.x[.x==TRUE]))
 ovr_transp/nrow(comb) 
 
+table(comb$Publication.Year)
 
 ### Manual validation
 # validation section checking congruence of validation to algorithm results
@@ -185,6 +186,15 @@ for(i in indicator_vars){
 
 # Gives us p<0.005 for code sharing + conflict of interest. 
 # hence the stars added in legend
+
+# go through the different transparency columns to assess the np>4 to see some stability
+comb%>%group_by(Publication.Year)%>%
+  summarize(data=sum(is_fund_pred==FALSE)/n(), 
+            Number=n(), 
+            rule=data*Number, 
+            rule1=(1-data)*Number)%>%
+  filter(rule>4 & rule1>4 )
+
 
 # Plot the transparency over time
 p2 <- 
